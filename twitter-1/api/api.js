@@ -15,7 +15,15 @@ app.get('/topic', function ( req, res ) {
     res.json({'topic':topic});
 } );
 
-textProcessing.labellingTweets((callback) => console.log(callback));
+// test of the labeler
+const labeler = new textProcessing.Labeler(textProcessing.themesTests);
+let tweets;
+textProcessing.Parser.getTweetsJSONFromFile("twitter-1/back/data/tweets/tweets_candidats.csv", (ts) => {
+    tweets = ts;
+    tweets = labeler.labellingTweets(tweets);
+    console.log(tweets);
+});
+
 
 // Export our API
 module.exports = app;

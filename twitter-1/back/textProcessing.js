@@ -24,67 +24,86 @@ let themes = [
     }
 ];
 
-// réduit à la forme primitive les keys words
-themes = themes.map(theme => {
-    theme.keywords = natural.PorterStemmerFr.tokenizeAndStem(theme.keywords);
-    return theme;
-});
+class Labeler {
+    constructor(themes) {
+        // réduit à la forme primitive les keyswords
+        themes = themes.map(theme => {
+            theme.keywords = natural.PorterStemmerFr.tokenizeAndStem(theme.keywords);
+            return theme;
+        });
+
+        this.themes = themes;
+    }
+
+    // labelling a tweet and return this tweet labeled
+    labellingTweet(tweet) {
+        tweet.data = natural.PorterStemmerFr.tokenizeAndStem(tweet.tweet);
+        const trie = new Trie();
+        trie.addStrings(tweet.data);
+
+
+        let themeScores = [];
+
+        this.themes.forEach(theme => {
+            let themeDistance = 0;
+            theme.keywords.forEach(keyword => {
+                themeDistance += trie.contains(keyword) ? 1 : 0;
+            });
+            themeScores.push(themeDistance);
+        });
+
+        // pondération en fonction du nombre de keywords
+        themeScores.map((value, index) => value / this.themes[index].keywords.length);
+
+        let maxSCoreIndex = 0;
+        themeScores.forEach((value, index) => {
+            if (value > themeScores[maxSCoreIndex]) {
+                maxSCoreIndex = index;
+            }
+        });
+
+        tweet.theme = this.themes[maxSCoreIndex];
+        tweet.themeScore = themeScores[maxSCoreIndex];
+
+        return tweet;
+    };
+
+    // labbeling a list of tweets and return the labeled list of tweets
+    labellingTweets(tweets) {
+        tweets = tweets.map((tweet) => this.labellingTweet(tweet));
+        tweets.sort((a, b) => b.themeScore - a.themeScore);
+        return tweets;
+    }
+}
+
 
 // récupère les tweets du fichier csv et ajoute un theme en fonction des keys words
 const labellingTweets = function (callback) {
-    let tweets = [];
 
-    fs.createReadStream("twitter-1/back/data/tweets/tweets_candidats.csv")
-        .pipe(csv())
-        .on('data', function (data) {
-            try {
-                if (data.retweet !== "True" && tweets.length < 30000) {
+};
+
+class Parser {
+    // parse a file from path and call the callback with parsed tweets
+    // exemple of path : "twitter-1/back/data/tweets/tweets_candidats.csv"
+    static getTweetsJSONFromFile(path, callback) {
+        let tweets = [];
+
+        fs.createReadStream(path)
+            .pipe(csv())
+            .on('data', function (data) {
+                try {
                     tweets.push(data);
+                } catch (err) {
+                    //error handler
+                    console.error(err);
                 }
-            } catch (err) {
-                //error handler
-            }
-        })
-        .on('end', function () {
-            tweets = tweets.map((tweet, tweet_index) => {
-                // if (tweet_index % 10 === 0)
-                //     console.log("tweet numéro : " + tweet_index);
-
-                tweet.data = natural.PorterStemmerFr.tokenizeAndStem(tweet.tweet);
-                let trie = new Trie();
-                trie.addStrings(tweet.data);
-
-
-                let themeScores = [];
-
-                themes.forEach(theme => {
-                    let themeDistance = 0;
-                    theme.keywords.forEach(keyword => {
-                        themeDistance += trie.contains(keyword) ? 1 : 0;
-                    });
-                    themeScores.push(themeDistance);
-                });
-
-                // pondération en fonction du nombre de keywords
-                themeScores.map((value, index) => value/themes[index].keywords.length);
-
-                let maxSCoreIndex = 0;
-                themeScores.forEach((value, index) => {
-                    if (value > themeScores[maxSCoreIndex]) {
-                        maxSCoreIndex = index;
-                    }
-                });
-
-                tweet.theme = themes[maxSCoreIndex];
-                tweet.themeScore = themeScores[maxSCoreIndex];
-
-                return tweet;
+            })
+            .on('end', function () {
+                callback(tweets);
             });
-
-            tweets.sort((a, b) => b.themeScore - a.themeScore);
-            // tweets.forEach(tweet => console.log(tweet));
-            callback(tweets);
-        });
+    }
 }
 
-module.exports.labellingTweets = labellingTweets;
+module.exports.Labeler = Labeler;
+module.exports.Parser = Parser;
+module.exports.themesTests = themes;
