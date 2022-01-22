@@ -1,15 +1,15 @@
 # Descriptif du projet
 
-Porteur de projet :
+Porteur de projet :Le Télégramme - Blandine Le Cain
 
-Sujet :
+Sujet :Le twitommètre présidentiel
 
-Nom d'équipe :
+Nom d'équipe : Blue Grass
 
 Participants : 
 
-- 
+- Blandine Le Cain
 
-- AGR :
+- AGR : Pierre Gabillaud, Elodie Menara, Marianne Peyrègne
 
-- Polytech :  
+- Polytech :  Sviatoslav Besnard, Chama El Majeny, Yvann Gouraud, Yi Lu

@@ -6,14 +6,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
   <title>Hyblab 2022</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="bottom-sheet-drawer/downupPopup/downupPopup.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/loadingio/loading.css@v2.0.0/dist/loading.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link href="https://vjs.zencdn.net/7.6.6/video-js.css" rel="stylesheet" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
   <script src="https://vjs.zencdn.net/7.6.6/video.js"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <script src="js/slide1.js" defer></script>
-  <script src="js/slide2.js" defer></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="bottom-sheet-drawer/downupPopup/downupPopup.js"></script> 
+  <script src="js/accueil.js" defer></script>
+  <script src="js/jeu.js" defer></script>
+  <script src="js/candidats.js" defer></script>
+  <script src="js/toptweets.js" defer></script>
+  <script src="js/graphiques.js" defer></script>
+  <script src="js/credits.js" defer></script>
   <script src="js/index.js" defer></script>
 </head>
 <body>
@@ -42,10 +50,67 @@
                 <footer></footer>
             </section>
             <section id="second-slide" class="swiper-slide">
+              <header>
+                  <h1 id="titre">JEU</h1>
+              </header>
+
+              <!-- le footer sera rempli à partir de données lues dans un fichier Json-->
+              <footer></footer>
+            </section>
+            <section id="third-slide" class="swiper-slide">
+              <header>
+                  <h1 id="titre">Les candidats !</h1>
+              </header>
+
+              <button id="btn-1" >Candidat 1</button>            
+              <div id="myElement1">
+                <div class="downupPopup-content">
+                  candidats ?
+                </div>
+              </div>
+
+              <button id="btn-2" >Candidat 2</button>            
+
+
+              <!-- le footer sera rempli à partir de données lues dans un fichier Json-->
+              <footer></footer>
+            </section>
+            <section id="fourth-slide" class="swiper-slide">
+              <header>
+                  <h1 id="titre">Top Tweets</h1>
+              </header>
+
+              <label for="pet-select">Choisissez un thème :</label>
+
+              <select name="top-tweet" id="top-select">
+                  <option value="top">Top tweets</option>
+                  <option value="education">Education</option>
+                  <option value="environment">Environement</option>
+                  <option value="hamster">Hamster</option>
+                  <option value="parrot">Parrot</option>
+                  <option value="spider">Spider</option>
+                  <option value="goldfish">Goldfish</option>
+              </select>
+
+
+
+              <!-- le footer sera rempli à partir de données lues dans un fichier Json-->
+              <footer></footer>
+            </section>
+            <section id="fifth-slide" class="swiper-slide">
+              <header>
+                  <h1 id="titre">Graphiques</h1>
+                  TODO
+              </header>
+
+              <!-- le footer sera rempli à partir de données lues dans un fichier Json-->
+              <footer></footer>
+            </section>
+            <section id="last-slide" class="swiper-slide">
                 <img id="img-fini" src="https://www.tri-d-aix.com/media/bilder/fini_55c9f_2e319.png">
                 <footer id="bandeau">
                         <!-- Logo Hyblab -->
-                          <a href="http://www.hyblab.fr/"><img id="hyblab" src="logo_hyblab.png" alt="Hyblab DataSport"></a>
+                          <a href="http://www.hyblab.fr/"><img id="hyblab" src="img/logo_hyblab.png" alt="Hyblab DataSport"></a>
                       
                           <!-- Les organisateurs -->
                           <ul>

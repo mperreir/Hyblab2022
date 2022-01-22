@@ -12,7 +12,7 @@ const initSlide1 = async function(){
     loop: true
   });
 
-  const logo = document.querySelector('#logo-hyblab');
+  /*const logo = document.querySelector('#logo-hyblab');
   logo.addEventListener('click', () => {
     anime({
         targets: '#logo-hyblab',
@@ -20,7 +20,7 @@ const initSlide1 = async function(){
       });
     swiper.slideNext()
     initSlide2();
-  });
+  });*/
 
   // Retrieve the partner's topic from our API
   let response = await fetch('api/topic');

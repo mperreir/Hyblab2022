@@ -85,6 +85,10 @@ body{
     cursor: pointer;
 }
 
+h1{
+    font-size: medium;
+}
+
 /* Last slide image is centered */
 #img-fini{
     width: 50%;
