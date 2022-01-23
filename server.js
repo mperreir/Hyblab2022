@@ -11,7 +11,7 @@ var app = express()
 // declare the list of sub apps
 var app_names = [];
 
-var hyblab2022_names = ['abstention-1', 'abstention-2', 'twitter-1', 'twitter-2', 'communes-1', 'communes-2', 'q-a-1', 'q-a-2', 'sondages', 'pouvoirs'];
+var hyblab2022_names = ['communes-2'];
 
 app_names.push.apply(app_names, hyblab2022_names);
 
