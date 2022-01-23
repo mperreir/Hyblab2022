@@ -3,6 +3,7 @@
 const app = require( 'express' )();
 const path = require('path');
 
+
 // Sample endpoint that sends the partner's name
 app.get('/topic', function ( req, res ) {
     let topic;
