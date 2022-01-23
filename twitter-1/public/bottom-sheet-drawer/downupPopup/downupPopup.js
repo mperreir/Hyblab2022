@@ -75,7 +75,8 @@
                 $this.removeClass("no-act")
                     .css('transform', 'translate(-50%, ' + $this.attr('distance') + 'vh)');
                 
-                $(".downupPopup").css("display","inline");
+                //(".downupPopup").css("display","inline");
+                $this.css("display","inline");
                 $("body").css("overflow", "hidden");
             }
 
