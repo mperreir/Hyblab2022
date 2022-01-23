@@ -11,14 +11,17 @@ const TfIdf = natural.TfIdf;
 // themes de testes
 let themes = [
     {
+        id: 1,
         name: "Defence",
         keywords: "immigration police violence manifestation voleures balle lachrymo arme defence",
     },
     {
+        id: 2,
         name: "Sante",
         keywords: "covid hopitaux vaccin lit cancer santé medecin",
     },
     {
+        id: 3,
         name: "Economie",
         keywords: "economie salaire emplois relocalisation localisation entreprise startup start-up",
     }

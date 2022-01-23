@@ -3,6 +3,7 @@
 const app = require( 'express' )();
 const path = require('path');
 
+const textProcessing = require(path.join(__dirname, '/../back/textProcessing'));
 
 // Sample endpoint that sends the partner's name
 app.get('/topic', function ( req, res ) {
@@ -13,6 +14,44 @@ app.get('/topic', function ( req, res ) {
     // Send it as a JSON object
     res.json({'topic':topic});
 } );
+
+app.get('/game/1/new_question', (req, res) => {
+    // TODO : get new question
+    let question = {
+        texte: "Vous pensez que pour elle-aussi #Véran va exiger une 3ème dose ? Cette jeune femme de 17 ans qui ne risquait rien du Covid n'aurait jamais dû être vaccinée dans un monde normal.  Elle paye de sa santé l'obsession vaccinale de ce Gouvernement. C'est une victime d'Emmanuel Macron.",
+        possible_response: {
+            id: 1,
+            name: "N. Dupont-Aignan",
+            url_image: "TODO",
+        },
+        is_response_true: true,
+        true_response: {
+            id: 1,
+            name: "N. Dupont-Aignan",
+            url_image: "TODO",
+        },
+        original_tweet: null,
+    };
+
+    res.json(question);
+});
+
+app.get('/theme/all', (req, res) => {
+    // TODO : get All
+    let themes = textProcessing.themesTests;
+    res.json(themes);
+});
+
+
+
+
+// const labeler = new textProcessing.Labeler(textProcessing.themesTests);
+// let tweets;
+// textProcessing.Parser.getTweetsJSONFromFile("twitter-1/back/data/tweets/tweets_candidats.csv", (ts) => {
+//     tweets = ts;
+//     tweets = labeler.labellingTweets(tweets);
+//     console.log(tweets);
+// });
 
 // Export our API
 module.exports = app;
