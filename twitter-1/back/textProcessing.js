@@ -76,12 +76,6 @@ class Labeler {
     }
 }
 
-
-// récupère les tweets du fichier csv et ajoute un theme en fonction des keys words
-const labellingTweets = function (callback) {
-
-};
-
 class Parser {
     // parse a file from path and call the callback with parsed tweets
     // exemple of path : "twitter-1/back/data/tweets/tweets_candidats.csv"
@@ -107,3 +101,19 @@ class Parser {
 module.exports.Labeler = Labeler;
 module.exports.Parser = Parser;
 module.exports.themesTests = themes;
+
+
+/*
+How to test the labeler :
+
+const textProcessing = require('[PATH/TO]/textProcessing');
+
+const labeler = new textProcessing.Labeler(textProcessing.themesTests);
+let tweets;
+textProcessing.Parser.getTweetsJSONFromFile("twitter-1/back/data/tweets/tweets_candidats.csv", (ts) => {
+    tweets = ts;
+    tweets = labeler.labellingTweets(tweets);
+    console.log(tweets);
+});
+
+ */
