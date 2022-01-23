@@ -1,0 +1,99 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-color: black;
+    color: white;
+    overflow: hidden;   /* to avoid slider bugs on some browsers */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*--------------------FORMAT TELEPHONE---------------------------*/
+/* Can be adapted for other ratios that 9:16 or for horizontal content (ex: 16:9) */
+
+/* This media query ensures that we allways will the width of the screen */
+/* as long as the screen aspect ratio is below 9:16 */
+@media screen and (max-aspect-ratio: 9/16){
+    #container{
+        margin-top: calc((100vh - 100 * 16vw / 9) / 2);
+        width: 100vw;
+        height: calc(100 * 16vw / 9);
+    }
+
+    /* We set a default font size here. It will be the base for all other font sizes */
+    /* Here the font size is proportional to display width */
+    body{
+        font-size: calc(12vw*16/9);
+    }
+}
+
+/* This media query ensures that we allways will the height of the screen */
+/* as long as the screen aspect ratio is higher than 9:16 */
+@media screen and (min-aspect-ratio: 9/16){
+    #container{
+        margin-left: calc((100vw - 100 * 9vh / 16) / 2);
+        width: calc(100 * 9vh / 16);
+        height: 100vh;
+    }
+
+    /* We set a default font size here. It will be the base for all other font sizes */
+    /* Here the font size is proportional to display height */
+    body{
+        font-size: 12vh;
+    }
+}
+
+/*Début*/
+#container{
+    background-color: blueviolet;
+}
+
+/*Section dialogue*/
+#Dialogue{
+    position:relative;
+    opacity: 0;
+}
+#personnage1{
+    background-color: chartreuse;
+    position:absolute;
+    width: 40%;
+    height: 50vh; /*changer en auto*/
+    left:0px;
+    top:25vh;
+}
+#personnage2{
+    position:absolute;
+    background-color: blue;
+    width: 40%;
+    height: 50vh;  /*changer en auto*/
+    right:0px;
+    top:25vh;
+
+}
+#textZone{
+    position:absolute;
+    background-color: darkgoldenrod;
+    width: 100%;
+    height: calc(100vh/4);
+    top:75vh;
+}
+
+#textZone p{
+    font-size: x-large;
+}
+
+/*Section transition*/
+#Transition{
+    position:relative;
+    opacity: 1;
+}
+
+#animation{
+    position: absolute;
+    background-color:darkgreen;
+    width: 100%;
+    height: 40vh; /*auto*/
+    top:30vh;
+}
