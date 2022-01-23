@@ -1,96 +1,84 @@
 
   $("#myElement1").downupPopup({
-    distance: -60,
+    distance: -70,
     width: "90%",
-    headerText: "Candidat 1",
     contentScroll: true,
     background: false,
   });
 
   $("#myElement2").downupPopup({
-    distance: -60,
+    distance: -70,
     width: "90%",
-    headerText: "Candidat 2",
     contentScroll: true,
     background: false,
   });
 
   $("#myElement3").downupPopup({
-    distance: -60,
+    distance: -70,
     width: "90%",
-    headerText: "Candidat 3",
     contentScroll: true,
     background: false,
   });
 
   $("#myElement4").downupPopup({
-    distance: -60,
+    distance: -70,
     width: "90%",
-    headerText: "Candidat 4",
     contentScroll: true,
     background: false,
   });
 
   $("#myElement5").downupPopup({
-    distance: -60,
+    distance: -70,
     width: "90%",
-    headerText: "Candidat 5",
     contentScroll: true,
     background: false,
   });
 
   $("#myElement6").downupPopup({
-    distance: -60,
+    distance: -70,
     width: "90%",
-    headerText: "Candidat 6",
     contentScroll: true,
     background: false,
   });
 
   $("#myElement7").downupPopup({
-    distance: -60,
+    distance: -70,
     width: "90%",
-    headerText: "Candidat 7",
     contentScroll: true,
     background: false,
   });
 
   $("#myElement8").downupPopup({
-    distance: -60,
+    distance: -70,
     width: "90%",
-    headerText: "Candidat 8",
     contentScroll: true,
     background: false,
   });
 
   $("#myElement9").downupPopup({
-    distance: -60,
+    distance: -70,
     width: "90%",
-    headerText: "Candidat 9",
     contentScroll: true,
     background: false,
   });
 
   $("#myElement10").downupPopup({
-    distance: -60,
+    distance: -70,
     width: "90%",
-    headerText: "Candidat 10",
     contentScroll: true,
     background: false,
   });
 
   $("#myElement11").downupPopup({
-    distance: -60,
+    distance: -70,
     width: "90%",
-    headerText: "Candidat 11",
     contentScroll: true,
     background: false,
   });
 
   $("#myElement12").downupPopup({
-    distance: -60,
+    distance: -70,
     width: "90%",
-    headerText: "Candidat 12",
     contentScroll: true,
     background: false,
   });

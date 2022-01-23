@@ -9,7 +9,6 @@
   <link rel="stylesheet" href="bottom-sheet-drawer/downupPopup/downupPopup.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/loadingio/loading.css@v2.0.0/dist/loading.css" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link href="https://vjs.zencdn.net/7.6.6/video-js.css" rel="stylesheet" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
   <script src="https://vjs.zencdn.net/7.6.6/video.js"></script>
@@ -54,6 +53,17 @@
                   <h2 id="titre">JEU</h2>
               </header>
 
+              <div id="jeu">
+                <div id="question">
+                      La question ??
+                </div>
+
+                <div id="reponses">
+                  <button id="reponseA" >Réponse A</button> 
+                  <button id="reponseB" >Réponse B</button> 
+                </div>
+              </div>
+
               <!-- le footer sera rempli à partir de données lues dans un fichier Json-->
               <footer></footer>
             </section>
@@ -63,89 +73,282 @@
               </header>
 
               <div id="candidats">
-                <button id="btn-1" >Candidat 1</button> 
-                <button id="btn-2" >Candidat 2</button> 
-                <button id="btn-3" >Candidat 3</button> 
-                <button id="btn-4" >Candidat 4</button> 
-                <button id="btn-5" >Candidat 5</button> 
-                <button id="btn-6" >Candidat 6</button> 
-                <button id="btn-7" >Candidat 7</button> 
-                <button id="btn-8" >Candidat 8</button> 
-                <button id="btn-9" >Candidat 9</button> 
-                <button id="btn-10" >Candidat 10</button>
-                <button id="btn-11" >Candidat 11</button> 
-                <button id="btn-12" >Candidat 12</button> 
+                <button class="button-candidat" id="btn-1" ><img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile2">Candidat 1</button> 
+                <button class="button-candidat" id="btn-2" ><img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile2">Candidat 2</button> 
+                <button class="button-candidat" id="btn-3" ><img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile2">Candidat 3</button> 
+                <button class="button-candidat" id="btn-4" ><img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile2">Candidat 4</button> 
+                <button class="button-candidat" id="btn-5" ><img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile2">Candidat 5</button> 
+                <button class="button-candidat" id="btn-6" ><img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile2">Candidat 6</button> 
+                <button class="button-candidat" id="btn-7" ><img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile2">Candidat 7</button> 
+                <button class="button-candidat" id="btn-8" ><img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile2">Candidat 8</button> 
+                <button class="button-candidat" id="btn-9" ><img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile2">Candidat 9</button> 
+                <button class="button-candidat" id="btn-10" ><img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile2">Candidat 10</button>
+                <button class="button-candidat" id="btn-11" ><img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile2">Candidat 11</button> 
+                <button class="button-candidat" id="btn-12" ><img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile2">Candidat 12</button> 
               </div>
                          
               <div id="myElement1">
                 <div class="downupPopup-content">
-                  candidat 1
+                  <img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile">
+                  <h3 class="nom-candidat">Nom du candidat 1</h3>
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Nombre d'abonnés</th>
+                        <th>Nombre de tweets</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <div>TWEETS</div>
+
                 </div>
               </div>
 
               <div id="myElement2">
                 <div class="downupPopup-content">
-                  candidat 2
+                  <img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile">
+                  <h3 class="nom-candidat">Nom du candidat 2</h3>
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Nombre d'abonnés</th>
+                        <th>Nombre de tweets</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <div>TWEETS</div>
                 </div>
               </div>
               
               <div id="myElement3">
                 <div class="downupPopup-content">
-                  candidat 3
+                  <img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile">
+                  <h3 class="nom-candidat">Nom du candidat 3</h3>
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Nombre d'abonnés</th>
+                        <th>Nombre de tweets</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <div>TWEETS</div>
                 </div>
               </div>
 
               <div id="myElement4">
                 <div class="downupPopup-content">
-                  candidat 4
+                  <img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile">
+                  <h3 class="nom-candidat">Nom du candidat 4</h3>
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Nombre d'abonnés</th>
+                        <th>Nombre de tweets</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <div>TWEETS</div>
                 </div>
               </div>
 
               <div id="myElement5">
                 <div class="downupPopup-content">
-                  candidat 5
+                  <img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile">
+                  <h3 class="nom-candidat">Nom du candidat 5</h3>
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Nombre d'abonnés</th>
+                        <th>Nombre de tweets</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <div>TWEETS</div>
                 </div>
               </div>
 
               <div id="myElement6">
                 <div class="downupPopup-content">
-                  candidat 6
+                  <img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile">
+                  <h3 class="nom-candidat">Nom du candidat 6</h3>
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Nombre d'abonnés</th>
+                        <th>Nombre de tweets</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <div>TWEETS</div>
                 </div>
               </div>
 
               <div id="myElement7">
                 <div class="downupPopup-content">
-                  candidat 7
+                  <img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile">
+                  <h3 class="nom-candidat">Nom du candidat 7</h3>
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Nombre d'abonnés</th>
+                        <th>Nombre de tweets</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <div>TWEETS</div>
                 </div>
               </div>
 
               <div id="myElement8">
                 <div class="downupPopup-content">
-                  candidat 8
+                  <img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile">
+                  <h3 class="nom-candidat">Nom du candidat 8</h3>
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Nombre d'abonnés</th>
+                        <th>Nombre de tweets</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <div>TWEETS</div>
                 </div>
               </div>
 
               <div id="myElement9">
                 <div class="downupPopup-content">
-                  candidat 9
+                  <img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile">
+                  <h3 class="nom-candidat">Nom du candidat 9</h3>
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Nombre d'abonnés</th>
+                        <th>Nombre de tweets</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <div>TWEETS</div>
                 </div>
               </div>
                
               <div id="myElement10">
                 <div class="downupPopup-content">
-                  candidat 10
+                  <img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile">
+                  <h3 class="nom-candidat">Nom du candidat 10</h3>
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Nombre d'abonnés</th>
+                        <th>Nombre de tweets</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <div>TWEETS</div>
                 </div>
               </div>
               
               <div id="myElement11">
                 <div class="downupPopup-content">
-                  candidat 11
+                  <img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile">
+                  <h3 class="nom-candidat">Nom du candidat 11</h3>
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Nombre d'abonnés</th>
+                        <th>Nombre de tweets</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <div>TWEETS</div>
                 </div>
               </div>
               
               <div id="myElement12">
                 <div class="downupPopup-content">
-                  candidat 12
+                  <img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile">
+                  <h3 class="nom-candidat">Nom du candidat 12</h3>
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Nombre d'abonnés</th>
+                        <th>Nombre de tweets</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <div>TWEETS</div>
                 </div>
               </div>
 
@@ -158,7 +361,7 @@
                   <h2 id="titre">Top Tweets</h2>
               </header>
 
-              <label for="pet-select">Choisissez un thème :</label>
+              <label for="top-select">Choisissez un thème :</label>
 
               <select name="top-tweet" id="top-select">
                   <option value="top">Top tweets</option>
@@ -171,10 +374,10 @@
               </select>
 
               <div id="tweets">
-                  THE TWEETS
+                TODO TWEETS
+                <div id="tweet-theme">
+                </div>
               </div>
-
-
 
               <!-- le footer sera rempli à partir de données lues dans un fichier Json-->
               <footer></footer>
