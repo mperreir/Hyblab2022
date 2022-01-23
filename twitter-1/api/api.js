@@ -5,6 +5,7 @@ const path = require('path');
 
 const db = require(path.join(__dirname, "../back/db"));
 const textProcessing = require(path.join(__dirname, '/../back/textProcessing'));
+const {tweets_name} = require("../back/db");
 
 // Sample endpoint that sends the partner's name
 app.get('/topic', function ( req, res ) {
@@ -17,21 +18,39 @@ app.get('/topic', function ( req, res ) {
 } );
 
 app.get('/game/1/new_question', (req, res) => {
-    // TODO : get new question
+    let candidats = db.fetch(db.candidats_name);
+    let candidat1;
+    let candidat2;
+    let tweet;
+    let is_first_response_true = true;
+
+    do {
+        candidat1 = candidats.sort(() => 0.5 - Math.random())[0];
+        candidat2 = candidats
+            .filter(c => candidat1.id !== c.id)
+            .sort(() => 0.5 - Math.random())[0];
+        tweet = db.getTweetsSemaine()
+            .filter(t => t.user_id === candidat1.id)
+            .filter(t => t.retweet === "False")
+            .sort((a, b) => b.likes_count - a.likes_count)
+            .slice(0, 3)
+            .sort(() => 0.5 - Math.random())[0];
+    } while(tweet === undefined);
+
+    if (Math.random() > 0.5) {
+        const tmp = candidat1;
+        candidat1 = candidat2;
+        candidat2 = tmp;
+        is_first_response_true = false;
+    }
+
     let question = {
-        texte: "Vous pensez que pour elle-aussi #Véran va exiger une 3ème dose ? Cette jeune femme de 17 ans qui ne risquait rien du Covid n'aurait jamais dû être vaccinée dans un monde normal.  Elle paye de sa santé l'obsession vaccinale de ce Gouvernement. C'est une victime d'Emmanuel Macron.",
-        possible_response: {
-            id: 1,
-            name: "N. Dupont-Aignan",
-            url_image: "TODO",
-        },
-        is_response_true: true,
-        true_response: {
-            id: 1,
-            name: "N. Dupont-Aignan",
-            url_image: "TODO",
-        },
-        original_tweet: null,
+        text: tweet.tweet,
+        possible_response_1: candidat1,
+        possible_response_2: candidat2,
+        is_response_1_true: is_first_response_true,
+        true_response: candidat1,
+        original_tweet: tweet,
     };
 
     res.json(question);

@@ -26,17 +26,19 @@ Date.prototype.isSameWeek = function(date)
         && this.getWeek() === date.getWeek();
 };
 
-
-
-
 module.exports = db;
 module.exports.tweets_name = "tweets";
 module.exports.candidats_name = "candidats";
 module.exports.themes_name = "themes";
 
+module.exports.getTweetsSemaine = () => {
+    return db.fetch(module.exports.tweets_name)
+        .filter(tweet => (new Date(tweet.date)).isSameWeek(new Date()));
+}
 
 // INIT DB
 
+// INIT Tweets
 // const textProcessing = require(path.join(__dirname, '/../back/textProcessing'));
 // const labeler = new textProcessing.Labeler(textProcessing.themesTests);
 // textProcessing.Parser.getTweetsJSONFromFile(path.join(__dirname, '/data/tweets/tweets_candidats.csv'), ts  => {
@@ -44,6 +46,13 @@ module.exports.themes_name = "themes";
 //     ts.forEach(tweet => db.push(module.exports.tweets_name, tweet));
 // });
 
+// INIT Candidats
+// const textProcessing = require(path.join(__dirname, '/../back/textProcessing'));
+// textProcessing.Parser.getValuesFromCSV(path.join(__dirname, 'data/account_information/candidats_information.csv'), candidats  => {
+//     candidats.forEach(candidat => db.push(module.exports.candidats_name, candidat));
+// });
+
+// INIT Themes
 // db.set(module.exports.themes_name, [
 //     {
 //         id: 1,
@@ -62,7 +71,3 @@ module.exports.themes_name = "themes";
 //     }
 // ]);
 
-module.exports.getTweetsSemaine = () => {
-    return db.fetch(module.exports.tweets_name)
-        .filter(tweet => (new Date(tweet.date)).isSameWeek(new Date()));
-}

@@ -80,6 +80,24 @@ class Parser {
                 callback(tweets);
             });
     }
+
+    static getValuesFromCSV(path, callback) {
+        let values = [];
+
+        fs.createReadStream(path)
+            .pipe(csv())
+            .on('data', function (data) {
+                try {
+                    values.push(data);
+                } catch (err) {
+                    //error handler
+                    console.error(err);
+                }
+            })
+            .on('end', function () {
+                callback(values);
+            });
+    }
 }
 
 module.exports.Labeler = Labeler;
