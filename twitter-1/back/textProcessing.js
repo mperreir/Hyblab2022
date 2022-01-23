@@ -65,7 +65,7 @@ class Labeler {
             }
         });
 
-        tweet.theme = this.themes[maxSCoreIndex];
+        tweet.theme_id = this.themes[maxSCoreIndex].id;
         tweet.themeScore = themeScores[maxSCoreIndex];
 
         return tweet;
