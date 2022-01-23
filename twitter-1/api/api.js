@@ -69,7 +69,35 @@ app.get('/tweets/tops/:theme_id', (req, res) => {
     res.json(tweets.slice(0, 10));
 });
 
+app.get('/candidat/all', (req, res) => {
+    let candidats = db.fetch(db.candidats_name);
+    res.json(candidats);
+});
 
+app.get('/candidat/:id_candidat/stats', (req, res) => {
+    const candidat = db.fetch(db.candidats_name);
+    const all_tweets = db.fetch(db.tweets_name)
+        .filter(t => t.user_id === req.params.id_candidat);
+    const this_week_tweets = db.getTweetsSemaine()
+        .filter(t => t.user_id === req.params.id_candidat);
+
+    const total_like = all_tweets.reduce((total, tweet) => total + parseInt(tweet.likes_count), 0);
+    const total_like_week = this_week_tweets.reduce((total, tweet) => total + parseInt(tweet.likes_count), 0);
+
+    const total_retweets = all_tweets.reduce((total, tweet) => total + parseInt(tweet.retweets_count), 0);
+    const total_retweets_week = this_week_tweets.reduce((total, tweet) => total + parseInt(tweet.retweets_count), 0);
+
+    const stats = {
+        total_tweets: all_tweets.length,
+        total_week_tweets: this_week_tweets.length,
+        total_like: total_like,
+        total_like_week: total_like_week,
+        total_retweets: total_retweets,
+        total_retweets_week: total_retweets_week,
+    }
+
+    res.json(stats);
+});
 
 
 // const labeler = new textProcessing.Labeler(textProcessing.themesTests);

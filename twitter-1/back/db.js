@@ -37,22 +37,14 @@ module.exports.getTweetsSemaine = () => {
 }
 
 // INIT DB
-
-// INIT Tweets
 // const textProcessing = require(path.join(__dirname, '/../back/textProcessing'));
-// const labeler = new textProcessing.Labeler(textProcessing.themesTests);
-// textProcessing.Parser.getTweetsJSONFromFile(path.join(__dirname, '/data/tweets/tweets_candidats.csv'), ts  => {
-//     ts = labeler.labellingTweets(ts);
-//     ts.forEach(tweet => db.push(module.exports.tweets_name, tweet));
-// });
-
-// INIT Candidats
-// const textProcessing = require(path.join(__dirname, '/../back/textProcessing'));
+//
+// // INIT Candidats
 // textProcessing.Parser.getValuesFromCSV(path.join(__dirname, 'data/account_information/candidats_information.csv'), candidats  => {
 //     candidats.forEach(candidat => db.push(module.exports.candidats_name, candidat));
 // });
-
-// INIT Themes
+//
+// // INIT Themes
 // db.set(module.exports.themes_name, [
 //     {
 //         id: 1,
@@ -70,4 +62,12 @@ module.exports.getTweetsSemaine = () => {
 //         keywords: "economie salaire emplois relocalisation localisation entreprise startup start-up",
 //     }
 // ]);
-
+//
+// // INIT Tweets
+// const labeler = new textProcessing.Labeler(db.fetch(module.exports.themes_name));
+// textProcessing.Parser.getTweetsJSONFromFile(path.join(__dirname, '/data/tweets/tweets_candidats.csv'), ts  => {
+//     let older_tweets = db.fetch(module.exports.tweets_name);
+//     if (older_tweets === null) older_tweets = [];
+//     ts = labeler.labellingTweets(ts).concat(older_tweets);
+//     db.set(module.exports.tweets_name, ts);
+// });
