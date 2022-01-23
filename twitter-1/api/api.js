@@ -3,6 +3,7 @@
 const app = require( 'express' )();
 const path = require('path');
 
+const db = require(path.join(__dirname, "../back/db"));
 const textProcessing = require(path.join(__dirname, '/../back/textProcessing'));
 
 // Sample endpoint that sends the partner's name
@@ -37,8 +38,7 @@ app.get('/game/1/new_question', (req, res) => {
 });
 
 app.get('/theme/all', (req, res) => {
-    // TODO : get All
-    let themes = textProcessing.themesTests;
+    let themes = db.fetch(db.themes_name);
     res.json(themes);
 });
 
