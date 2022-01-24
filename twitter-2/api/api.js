@@ -3,6 +3,8 @@
 const app = require( 'express' )();
 const path = require('path');
 
+const { calculateRatioByMotCle } = require('../dataProcessing/tweetAnalysis');
+
 // Sample endpoint that sends the partner's name
 app.get('/topic', function ( req, res ) {
     let topic;
@@ -10,7 +12,17 @@ app.get('/topic', function ( req, res ) {
     // Get partner's topic from folder name
     topic = path.basename(path.join(__dirname, '/..'))
     // Send it as a JSON object
-    res.json({'topic':topic});
+    res.json({'topic':topic}); // envoie 'twitter-2'
+} );
+
+
+// traitements des csv
+app.get('/tweetAnalysis', function ( req, res ) {
+    calculateRatioByMotCle().then(() => {
+        res.send('ok');
+    }).catch(err => {
+        res.send(err);
+    });
 } );
 
 // Export our API
