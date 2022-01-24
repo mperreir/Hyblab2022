@@ -1,24 +1,29 @@
-a = document.querySelector('#reponseA');
-a.addEventListener('click', Reponse);
 
-b = document.querySelector('#reponseB');
-b.addEventListener('click', Reponse);
+(() => Suivant())();
 
-function Reponse(){
-    jeu = document.querySelector('#jeu');
+function Reponse(q, is_success){
+    let jeu = document.querySelector('#jeu');
     question = document.querySelector('#question');
-    reponse = document.querySelector('#reponses');
+    let reponse = document.querySelector('#reponses');
 
     jeu.removeChild(question);
     jeu.removeChild(reponse);
 
 
-    div = document.createElement('div');
+    let div = document.createElement('div');
     div.setAttribute("id",'reponse');
 
-    content = document.createTextNode("La réponse à cette question est vrai/fausse !");
+    let content;
+    if (is_success) {
+        content = document.createTextNode("La réponse à cette question est VRAI ! La réponse est bien "
+            + q.true_response.name);
 
-    suiv = document.createElement('input');
+    } else {
+        content = document.createTextNode("La réponse à cette question est FAUSSE ! La réponse est "
+            + q.true_response.name);
+    }
+
+    let suiv = document.createElement('input');
     suiv.setAttribute("type", "button");
     suiv.setAttribute("value", "Suivant");
     suiv.setAttribute("id", "suivant");
@@ -30,39 +35,42 @@ function Reponse(){
     div.appendChild(suiv);
 
     jeu.appendChild(div);
-};
+}
 
-function Suivant(){
+async function Suivant() {
 
-    jeu = document.querySelector('#jeu');
-    reponse = document.querySelector('#reponse');
+    let jeu = document.querySelector('#jeu');
+    let reponse = document.querySelector('#reponse');
 
-    jeu.removeChild(reponse);
+    try {
+        jeu.removeChild(reponse);
+    } catch {}
 
+    const question = await fetchResponse();
 
-    div = document.createElement('div');
-    div.setAttribute("id",'question');
+    let div = document.createElement('div');
+    div.setAttribute("id", 'question');
 
-    content = document.createTextNode("La question est ?");
+    let content = document.createTextNode(question.text);
 
-    div2 = document.createElement('div');
-    div2.setAttribute("id",'reponses');
+    let div2 = document.createElement('div');
+    div2.setAttribute("id", 'reponses');
 
-    a = document.createElement('input');
+    let a = document.createElement('input');
     a.setAttribute("type", "button");
-    a.setAttribute("value", "Réponse A");
+    a.setAttribute("value", question.possible_response_1.name);
     a.setAttribute("id", "reponseA");
-    a.style.width= "30%";
-    a.style.height= "40px";
-    a.addEventListener('click', Reponse);
+    a.style.width = "30%";
+    a.style.height = "40px";
+    a.addEventListener('click', () => Reponse(question, question.is_response_1_true));
 
-    b = document.createElement('input');
+    let b = document.createElement('input');
     b.setAttribute("type", "button");
-    b.setAttribute("value", "Réponse B");
+    b.setAttribute("value", question.possible_response_2.name);
     b.setAttribute("id", "reponseB");
-    b.style.width= "30%";
-    b.style.height= "40px";
-    b.addEventListener('click', Reponse);
+    b.style.width = "30%";
+    b.style.height = "40px";
+    b.addEventListener('click', () => Reponse(question, !question.is_response_1_true));
 
     div.appendChild(content);
     div2.appendChild(a);
@@ -70,6 +78,32 @@ function Suivant(){
 
     jeu.appendChild(div);
     jeu.appendChild(div2);
-};
+}
 
+async function fetchResponse() {
+    let result;
+    try {
+        // On fait ensuite un fetch sur l'api pour s'authentifier
+        result = await fetch('./api/game/1/new_question', {
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/x-www-form-urlencoded; charset=utf-8',
+            },
+            method: 'GET',
+        });
+    } catch (e) {
+        console.error(e);
+        return;
+    }
 
+    try {
+        if (result.ok) {
+            // Si tout s'est bien passé
+            result = await result.json();
+            return result;
+        }
+    } catch (e) {
+        console.error(e);
+        return;
+    }
+}
