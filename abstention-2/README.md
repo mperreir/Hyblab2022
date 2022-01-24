@@ -1,15 +1,20 @@
 # Descriptif du projet
 
-Porteur de projet :
+Porteur de projet : Denis Vannier
 
-Sujet :
+Sujet : Abstention-2
 
-Nom d'équipe :
+Nom d'équipe : ABS-tention
 
-Participants : 
-
-- 
+Participants :
 
 - AGR :
+  - Héloïse Scirpo
+  - Mathis El Idrissi
 
 - Polytech :  
+  - Rémi Audoin
+  - Malo Mottin
+  - Victorien Plot
+  - Axel Rocheteau
+  - Félix Rabadan
