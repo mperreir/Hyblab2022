@@ -53,7 +53,7 @@ app.get('/game/1/new_question', (req, res) => {
         possible_response_1: candidat1,
         possible_response_2: candidat2,
         is_response_1_true: is_first_response_true,
-        true_response: candidat1,
+        true_response: is_first_response_true ? candidat1 : candidat2,
         original_tweet: tweet,
     };
 
