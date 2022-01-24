@@ -8,22 +8,6 @@ const Trie = natural.Trie;
 const classifier = new natural.BayesClassifier();
 const TfIdf = natural.TfIdf;
 
-// themes de testes
-let themes = [
-    {
-        name: "Defence",
-        keywords: "immigration police violence manifestation voleures balle lachrymo arme defence",
-    },
-    {
-        name: "Sante",
-        keywords: "covid hopitaux vaccin lit cancer santé medecin",
-    },
-    {
-        name: "Economie",
-        keywords: "economie salaire emplois relocalisation localisation entreprise startup start-up",
-    }
-];
-
 class Labeler {
     constructor(themes) {
         // réduit à la forme primitive les keyswords
@@ -62,7 +46,7 @@ class Labeler {
             }
         });
 
-        tweet.theme = this.themes[maxSCoreIndex];
+        tweet.theme_id = this.themes[maxSCoreIndex].id;
         tweet.themeScore = themeScores[maxSCoreIndex];
 
         return tweet;
@@ -96,11 +80,28 @@ class Parser {
                 callback(tweets);
             });
     }
+
+    static getValuesFromCSV(path, callback) {
+        let values = [];
+
+        fs.createReadStream(path)
+            .pipe(csv())
+            .on('data', function (data) {
+                try {
+                    values.push(data);
+                } catch (err) {
+                    //error handler
+                    console.error(err);
+                }
+            })
+            .on('end', function () {
+                callback(values);
+            });
+    }
 }
 
 module.exports.Labeler = Labeler;
 module.exports.Parser = Parser;
-module.exports.themesTests = themes;
 
 
 /*
