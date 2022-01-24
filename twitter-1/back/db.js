@@ -33,7 +33,7 @@ module.exports.themes_name = "themes";
 
 module.exports.getTweetsSemaine = () => {
     return db.fetch(module.exports.tweets_name)
-        .filter(tweet => (new Date(tweet.date)).isSameWeek(new Date()));
+        .filter(tweet => (new Date(tweet.date)).isSameWeek(new Date(2021, 12, 5)));
 }
 
 // INIT DB
