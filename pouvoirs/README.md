@@ -1,15 +1,15 @@
 # Descriptif du projet
 
-Porteur de projet :
+Porteur de projet : Ouest Médialab (Jimmy Darras)
 
-Sujet :
+Sujet : Les pouvoirs du Président français sous la Vème République
 
-Nom d'équipe :
+Nom d'équipe : Studio Sympa
 
 Participants : 
 
 - 
 
-- AGR :
+- AGR : Benoît Colombié, Julia Pilet
 
-- Polytech :  
+- Polytech : Timon Deschamps, Malo Maisonneuve, Alexis Vié, Jiawen Liu, Armand Lego 
