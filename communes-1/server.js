@@ -16,9 +16,6 @@ const api = require('./api/api');
 app.use('/api', api);
 
 // You can then add whatever routing code you need
-app.get('/', (req, res) => {
-	res.sendFile('public/index.html', {root : __dirname});
-});
 
 // Minimum routing: serve static content from the html directory
 app.use(express.static(path.join(__dirname, 'public')));
