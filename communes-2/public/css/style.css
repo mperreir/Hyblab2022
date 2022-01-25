@@ -193,7 +193,7 @@ body{
 
 .menu-box{
     width: 500px;
-    height: 500px;
+    height: 800px;
     text-align: center;
     display: flex;
     flex-direction: column;
