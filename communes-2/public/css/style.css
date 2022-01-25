@@ -192,19 +192,24 @@ body{
 /* Menu box */
 
 .menu-box{
-    padding: px 10px 10px 10px;
+    width: 500px;
+    height: 500px;
+    text-align: center;
     display: flex;
     flex-direction: column;
-    align-content: center;
+    
+    align-items: center;
     justify-content: center;
-    margin: auto;
-    padding: 2em 0px 0px 11.5rem;
-    z-index: -1;
+}
+
+.button-box{
+    
 }
 
 /* Bouton play */
 
 #play-btn{
+    display: block;
     width: 8em;
     height: 3em;
     font-size: 20px;
