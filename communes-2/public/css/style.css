@@ -188,3 +188,40 @@ body{
         font-size: 12vh;
     }
 }
+
+/* Menu box */
+
+.menu-box{
+    padding: px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    padding: 2em 0px 0px 11.5rem;
+    z-index: -1;
+}
+
+/* Bouton play */
+
+#play-btn{
+    width: 8em;
+    height: 3em;
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 10px;
+    color: rgb(70, 130, 180);
+}
+
+
+#play-btn:hover{
+    cursor: pointer;
+    width: 8em;
+    height: 3em;
+    background-color: rgb(41, 41, 255);
+    border: none;
+    border-radius: 10px;
+    color: whitesmoke;
+}
