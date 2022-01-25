@@ -10,6 +10,11 @@ page('/communes-2/', async function () {
     });
     
     await renderTemplate(templates('./templates/accueil.mustache'));
+
+    const play_btn = document.getElementById('play-btn');
+    play_btn.addEventListener('click', function () {
+        page('/communes-2/game');
+    });
 });
 
 // On démarre le routing
