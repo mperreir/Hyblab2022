@@ -23,6 +23,9 @@ video.one('loadeddata', (event) => {
   });
   // Init first slide
   initSlide1();
+  
+  // Init third slide
+  initSlide3();
   // Debug trace because the loadeddata event is
   // sometime not fired
   console.log("Video loaded");

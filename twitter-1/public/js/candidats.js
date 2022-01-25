@@ -1,3 +1,4 @@
+"use strict";
 
   $("#myElement1").downupPopup({
     distance: -70,
@@ -132,5 +133,14 @@
   });
 
 
+const initSlide3 = async function(){
+  
+  //Add name of the candidats from the database to the profil
 
- 
+  let response = await fetch('api/candidat/all');
+  const candidat = await response.json();
+  const nom1 = document.querySelector('#btn-1');
+  const child = nom1.childNodes;
+  nom1.childNodes[1].data = `${candidat[0].name}`;
+
+};
