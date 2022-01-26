@@ -5,8 +5,8 @@ class Transform {
         this.values = values;
     }
 
-    #toObject(strings, ...values) {
-        return {strings, values};
+    #toObject(strings, ...numbers) {
+        return {strings, numbers};
     }
 
     translate(x, y) {
@@ -35,19 +35,19 @@ class Transform {
     }
 
     interpolateWith(other, progress) {
-        if (!other instanceof Transform) throw new Error(`${other} n'est pas du type other`);
+        if (!other instanceof Transform) throw new Error(`${other} n'est pas du type Transform`);
 
         let thisKeys = Object.keys(this.values);
         let otherKeys = Object.keys(other.values);
 
-        let [keys1, intersection, keys2] = LinearInterpolate.divide(thisKeys, otherKeys);
+        let [keys1, intersection, keys2] = LinearInterpolate.divide(thisKeys, otherKeys); // Remplacer par des valeurs par défaut ?
 
         let interpolated = {};
 
         intersection.forEach(key => {
             interpolated[key] = {
                 strings: this.values[key].strings,
-                values: LinearInterpolate.array(this.values[key].values, other.values[key].values, progress),
+                numbers: LinearInterpolate.array(this.values[key].numbers, other.values[key].numbers, progress),
             }
         });
 
@@ -55,6 +55,14 @@ class Transform {
         keys2.forEach(key => { interpolated[key] = other.values[key]; });
 
         return new Transform(interpolated);
+    }
+
+    toCSS() {
+        return "transform: " + Object.keys(this.values).map(key => {
+            const reduceFct = (finalString, value, index) => `${finalString}${value}${this.values[key].strings[index + 1]}`;
+            return this.values[key].numbers.reduce(reduceFct, this.values[key].strings[0]);
+        })
+        .reduce((prev, next) => `${prev} ${next}`) + ";";
     }
 }
 
