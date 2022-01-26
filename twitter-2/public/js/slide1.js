@@ -28,6 +28,6 @@ const initSlide1 = async function(){
   // Update the DOM to insert topic and data
   const footer = document.querySelector('footer');
   const p = document.createElement('p');
-  p.textContent = `Our topic is "${data1.topic}" and here is "${data2.message}" retrieved on the server.`;
+  //p.textContent = `Our topic is "${data1.topic}" and here is "${data2.message}" retrieved on the server.`;
   footer.appendChild(p);
 };
