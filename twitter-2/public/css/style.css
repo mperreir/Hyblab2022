@@ -66,8 +66,6 @@ body{
 }
 
 .vector {
-    display: flex;
-    justify-content: center;
     position: absolute;
     bottom: 5%;
     left: 0;
@@ -77,13 +75,12 @@ body{
 #vector1 {
     width: 22px;
     height: 15px;
-    align-self: flex-end;
 }
 
 /* Footer of last slide is at the bottom and content is centered */
 #first-slide footer{
     bottom: 5%;
-    font-size: 20%;
+    font-size: 13px;
     text-align: center;
     padding: 0 1em;
 }
@@ -106,7 +103,7 @@ body{
     margin-right: 15%;
 }
 
-#text-slide-2 h1 {
+#title-slide-2 {
     font-size: 30px;
     font-weight: bold;
     margin-top: 5%;
@@ -135,13 +132,87 @@ body{
     border: 0;
 }
 
+#second-slide footer{
+    bottom: 5%;
+    font-size: 13px;
+    text-align: center;
+    padding: 0 1em;
+}
+
+#second-slide footer p{
+    position: absolute;
+    bottom: 8%;
+    left: 0;
+    right: 0;
+}
+
 #vector2 {
     width: 22px;
     height: 15px;
-    align-self: flex-end;
+}
+
+/* THIRD SLIDE */
+#third-slide {
+    background: #FFFFFF;
+    color: #1A367A;
+    font-size: 15px;
+}
+
+#third-slide div {
+    text-align: center;
+}
+
+#title-slide-3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+#categorie ul {
+    margin-top: 5%;
+    margin-bottom: 10%;
+    list-style-type: none;
+}
+
+#categorie ul li {
+    margin-bottom: 5%;
+}
+
+#categorie ul li button {
+    background-color: #F24A41;
+    border-radius: 19px;
+    width: 217px;
+    height: 33px;
+    height: 33px;
+    color: white;
+}
+
+#selection-candidat p {
+    margin-bottom: 5%;
+}
+
+#decouvrir button {
+    margin-top: 10%;
+    height: 37px;
+    width: 191px;
+    border-radius: 19px;
+    color: white;
+    background-color: #5571E5;
+}
+
+#third-slide footer{
+    bottom: 5%;
+    font-size: 13px;
+    text-align: center;
+    padding: 0 1em;
 }
 
 /* FOURTH SLIDE */
+#fourth-slide {
+    background: #FFFFFF;
+    color: #1A367A;
+}
 
 #logo-hyblab{
     text-align: center;
@@ -162,11 +233,11 @@ body{
 /* so we cannot use % and use em (which are proportinal to the size of the */
 /* slide because of body's font size rule at the beginning of this CSS */
 #bandeau {
-    padding-top: 3%;
+    padding-bottom: 3%;
     width:100%;
     height:25%;
     position: absolute;
-    bottom: 0;
+    top: 0;
     background-color: white;
     font-size: 20%;
   }
