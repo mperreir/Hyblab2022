@@ -11,12 +11,12 @@ page('/communes-2/', async function () {
 
     await renderTemplate(templates('./templates/accueil.mustache'));
 
-    const play_btn = document.querySelector('input[name="play"]');
+    const play_btn = document.getElementById("play-btn");
     play_btn.addEventListener('click', function () {
         page('/communes-2/game');
     });
 
-    const apropos = document.querySelector('input[name="apropos"]');
+    const apropos = document.getElementById("apropos-btn");
     apropos.addEventListener('click', function () {
         page('/communes-2/a-propos');
     });
