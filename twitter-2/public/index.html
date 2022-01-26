@@ -14,6 +14,7 @@
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="js/slide1.js" defer></script>
   <script src="js/slide2.js" defer></script>
+  <script src="js/slide3.js" defer></script>
   <script src="js/index.js" defer></script>
 </head>
 <body>
@@ -25,15 +26,36 @@
             <section id="first-slide" class="swiper-slide">
                   <img src="img/logoPolitiliens.png" id="logo">
                   <p id="phrase-daccroche">Les opposés s'attirent-ils ?</p>
-                  <div class="vector">
-                    <img src="img/vector.png" id="vector">
-                  </div>
                 <!-- le footer sera rempli à partir de données lues dans un fichier Json-->
-                <footer></footer>
+                <footer>
+                  <div class="vector">
+                    <img src="img/vector.png" id="vector1">
+                  </div>
+                </footer>
             </section>
+
             <section id="second-slide" class="swiper-slide">
-                <img id="img-fini" src="https://www.tri-d-aix.com/media/bilder/fini_55c9f_2e319.png">
-                <footer id="bandeau">
+              <div id="illustration-slide-2">
+                <img src="img/illu-1 1.png">
+              </div>
+              <div id="text-slide-2">
+                <p>Quels liens surprenants trouve-t-on entre les candidats à travers Twitter ?</p>
+                <h1 id="title-slide-2">Testez vos connaissances !</h1>
+              </div>
+              <div>
+                <button id="button-slide-2" type="button">JOUER</button>
+              </div>
+              <footer>
+                <div class="vector">
+                  <img src="img/Vector 2.png" id="vector2">
+                </div>
+              </footer>
+            </section>
+
+            <section id="third-section" class="swiper-slide">Slide 3</section>
+
+            <section id="fourth-section" class="swiper-slide">
+                <header id="bandeau">
                         <!-- Logo Hyblab -->
                           <a href="http://www.hyblab.fr/"><img id="hyblab" src="logo_hyblab.png" alt="Hyblab DataSport"></a>
                       
@@ -58,11 +80,8 @@
                             <li><a href="http://www.paysdelaloire.fr/"><img class="institutionnel" src="institutionnels/logo_pdl.png" alt="Pays de La Loire"></a></li>
                             <li><a href="http://www.nantesmetropole.fr/"><img class="institutionnel" src="institutionnels/logo_nantesmetropole.png" alt="Nantes Métropole"></a></li>
                           </ul>
-                </footer>
+                  </header>
             </section>
-            <section id="third-section" class="swiper-slide">Slide 3</section>
-            <section id="fourth-section" class="swiper-slide">Slide 4</section>
-            <section id="fifth-section" class="swiper-slide">Slide 5</section>
         </main>
         <div class="swiper-pagination"></div>
     </div>

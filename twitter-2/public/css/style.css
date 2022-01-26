@@ -26,12 +26,17 @@ body{
     position: absolute;
 }
 
-/* white navigation bullets */
-.swiper-pagination-bullet-active {
-    background-color: white !important;
+.swiper-pagination-bullet {
+    border: 1.5px solid #1A367A !important;
+    background-color: #E5E5E5 !important;
 }
 
-/* Most of the elements in this demo are absolute positionned with percentages */
+/* white navigation bullets */
+.swiper-pagination-bullet-active {
+    background-color: #1A367A !important;
+}
+
+/* FIRST SLIDE */
 #first-slide {
     text-align: center;
     width: 100%;
@@ -41,10 +46,6 @@ body{
     font-size: 30%;
     z-index: 2;
     background: #5571E5;
-}
-
-#second-slide {
-    background: #E5E5E5;
 }
 
 #logo {
@@ -73,26 +74,74 @@ body{
     right: 0;
 }
 
-#vector {
-    position: absolute;
+#vector1 {
     width: 22px;
     height: 15px;
     align-self: flex-end;
-    animation-duration: 1.5s;
-    animation-iteration-count: infinite;
-    transform-origin: bottom;
 }
 
-#vector:hover {
-    animation-name: bounce;
-    animation-timing-function: ease-in-out;
+/* Footer of last slide is at the bottom and content is centered */
+#first-slide footer{
+    bottom: 5%;
+    font-size: 20%;
+    text-align: center;
+    padding: 0 1em;
 }
 
-@keyframes bounce {
-    0%   { transform: scale(1.1); }
-    50%  { transform: scale(1); }
-    100% { transform: scale(1.1); }
+/* SECOND SLIDE */
+
+#second-slide {
+    background: #FFFFFF;
+    color: #1A367A;
+    font-size: 15px;
 }
+
+#second-slide div {
+    text-align: center;
+}
+
+#text-slide-2 {
+    font-size: 15px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#text-slide-2 h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 15%;
+}
+
+#illustration-slide-2 {
+    margin-top: 20%;
+    margin-bottom: 5%;
+}
+
+#illustration-slide-2 img {
+    position: relative;
+    width: 204px;
+    height: 269px;
+}
+
+#button-slide-2 {
+    background-color: #5571E5;
+    color: #FFFFFF;
+    border-radius: 19px;
+    font-size: 20px;
+    text-align: center;
+    width: 191px;
+    height: 39px;
+    border: 0;
+}
+
+#vector2 {
+    width: 22px;
+    height: 15px;
+    align-self: flex-end;
+}
+
+/* FOURTH SLIDE */
 
 #logo-hyblab{
     text-align: center;
@@ -105,25 +154,6 @@ body{
     font-size: 50%;
     z-index: 2;
     cursor: pointer;
-}
-
-/* Last slide image is centered */
-#img-fini{
-    width: 50%;
-    left: 50%;
-    top: 40%;
-    position: absolute;
-    margin-left:-25%;
-    margin-top:calc(-25% * 9 / 16 ); /* margins are relative to the element width... :-( */
-}
-
-/* Footer of last slide is at the bottom and content is centered */
-#first-slide footer{
-    bottom: 5%;
-    position: absolute;
-    font-size: 20%;
-    text-align: center;
-    padding: 0 1em;
 }
 
 
