@@ -219,7 +219,7 @@ body{
 
 /* Bouton play */
 
-#play-btn{
+.btn{
     
     width: 8em;
     height: 3em;
@@ -232,7 +232,7 @@ body{
 }
 
 
-#play-btn:hover{
+.btn:hover{
     cursor: pointer;
     width: 8em;
     height: 3em;
@@ -243,7 +243,6 @@ body{
 }
 
 /*Tips panel*/
-
 .tips-page{
     position: absolute;
     height: 100%;

@@ -1,0 +1,41 @@
+{
+    "questions":[
+        {
+            "string":"Le Canton de la Commune est ",
+            "columns":[
+                "canton"
+            ]
+        },
+        {
+            "string":"La population total de cette Commune est de ",
+            "columns":[
+                "population"
+            ]
+        },
+        {
+            "string":"Le taux d'abstention de la Commune est de ",
+            "columns":[
+                "tauxAbstention"
+            ]
+        },
+        {
+            "string":"La Commune à principalement votée au 1er tour pour ",
+            "columns":[
+                "1erCandidatTour1",
+                "2emeCandidatTour1",
+                "3emeCandidatTour1"
+            ]
+        },
+        {
+            "string":"La Commune à votée au 2ème tour pour ",
+            "columns":[
+                "1erCandidatTour2",
+                "pourcentage1erCandidatTour2"
+            ]
+        }
+    ],
+    "indice": {
+        "string":"Le symbole de cette commune est ",
+        "columns":["symbole"]
+    }
+}
