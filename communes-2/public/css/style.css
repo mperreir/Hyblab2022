@@ -53,7 +53,8 @@ body{
 
 /* the slides and the loader should fill the whole 9:16 zone */
 .swiper-wrapper section, #loader, #main{
-    background-color: dodgerblue;
+    background-color: #f0e4d8;
+    /*background-color: dodgerblue;*/
     width: 100%;
     height: 100%;
 }
@@ -191,25 +192,39 @@ body{
 
 /* Menu box */
 
+
+
 .menu-box{
-    width: 500px;
-    height: 800px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
+    height: 100vh;
+}
+
+.center{
+    display: block;
+    margin: 0 auto;
+}
+
+/*Logo*/
+
+.logo > img{
+    width: 15rem;
+    height: 5rem;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+
     
-    align-items: center;
-    justify-content: center;
 }
 
 .button-box{
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Bouton play */
 
 #play-btn{
-    display: block;
+    
     width: 8em;
     height: 3em;
     font-size: 20px;
@@ -217,7 +232,7 @@ body{
     background-color: whitesmoke;
     border: none;
     border-radius: 10px;
-    color: rgb(70, 130, 180);
+    color: #282246;
 }
 
 
@@ -225,8 +240,32 @@ body{
     cursor: pointer;
     width: 8em;
     height: 3em;
-    background-color: rgb(41, 41, 255);
+    background-color: #282246;
     border: none;
     border-radius: 10px;
     color: whitesmoke;
+}
+
+/*Tips panel*/
+
+.tips-page{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content:baseline;
+}
+.tips{
+    height: 200px;
+    bottom: 20em;
+    
+    background-color: #ffffff;
+    /*background-image: url(../Images/icons/Pencil-48.png);*/
+    background-position: 9px 0px;
+    background-repeat: no-repeat;
+    border: solid 1px rgb(94, 94, 94);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    line-height: 18px;
+    overflow: hidden;
+    padding: 15px 60px;
 }
