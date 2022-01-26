@@ -1,26 +1,52 @@
 <div class="tips-page center">
-    <div class="back-section">
-        <img scr="./img/loire_atlantique.png">
+    
+    <div class="tips-image">
+        <img src="./img/loire_atlantique.png">
     </div>
+
     <div class="tips">
         <h6>Règle du jeu : </h6>
 
         <div class="text">
-            Bonjour, vous cassez les couilles, sdkjfsdjkfsdf sdkjfbsdkjfbsdkjbf
-            sdfjksdfhkjsdhfksdfksdfhkdsjhgksd
-            sdjqgjkghkqhgjkfhdqg
-
-            qdgjkqhsdkgjsdq
-            sqdgkjhsqdgksdq
-            gsqdgjjksdghkjsd
-
-            qsdgjkdhgksdhqgkjdsqf
+            <div id="tips-1">
+                tips c'est moi 1fdggrtgyrtrtyrtyrtyryryrtyrty 
+                sfdskjfksd
+                sdfsdfsdkf sdfsdfsd
+            </div>
+            <div id="tips-2">
+                tips c'est moi 2 
+                sfdskjfksd
+                sdfsdfsdkf sdfsdfsd
+            </div>
+            <div id="tips-3">
+                tips c'est moi 3
+                sfdskjfksddsfs
+                sdfsdfsdkf sdfsdfsd
+            </div>
         </div>
         <div class="button-list"> 
-            <button class="button"> Suivant </button>
-            <button class="button"> Passer </button>
-    
+            <button class="button next"> Suivant </button>
+            <button class="button start"> Passer </button>
         </div>
     </div>
 
 </div>
+
+<script type="text/javascript">
+
+    $(document).ready(function(){
+        $(".next").click(function(){
+            $("#tips-1").fadeIn(10);
+            $("#tips-2").fadeOut();
+            $("#tips-3").fadeOut();
+        });
+
+        $(".start").click(function(){
+            $("#tips-1").fadeOut();
+            $("#tips-2").fadeIn(1000);
+            $("#tips-3").fadeOut();
+        });
+    });
+
+
+</script>
