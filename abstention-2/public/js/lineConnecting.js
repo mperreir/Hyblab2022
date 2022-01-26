@@ -1,14 +1,18 @@
 const containerDiv = document.getElementById("container");
 const containerBoundingRect = containerDiv.getBoundingClientRect();
 
+let svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+let line;
+
+svg.style.position = "absolute";
+svg.style.width = "1000vh";
+svg.style.height = "1000vh";
+
 for (let i = 0; i < proofTarget.length - 1; i++) {
     const child = proofTarget[i];
 
-    let svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-    let line = document.createElementNS("http://www.w3.org/2000/svg", 'line');
 
     let boundingRect = child.getBoundingClientRect();
-    console.debug(boundingRect);
     let nextChildBoundingRect = proofTarget[i + 1].getBoundingClientRect();
 
     let x1, x2, y1, y2;
@@ -48,6 +52,8 @@ for (let i = 0; i < proofTarget.length - 1; i++) {
         y2 = nextChildBoundingRect.top + (nextChildBoundingRect.bottom - nextChildBoundingRect.top) / 2
     }
 
+    line = document.createElementNS("http://www.w3.org/2000/svg", 'line');
+
 
     // x2 = (nextChildBoundingRect.left + (nextChildBoundingRect.right - nextChildBoundingRect.left) / 2) - containerBoundingRect.left;
     // y2 = nextChildBoundingRect.bottom;
@@ -60,12 +66,10 @@ for (let i = 0; i < proofTarget.length - 1; i++) {
     line.setAttribute("stroke-width", "20");
     line.classList.add("panning-animated");
 
-    svg.style.position = "absolute";
-    svg.style.filter = "drop-shadow(3px 5px 2px rgb(215 215 215 / 70%))"
+
     svg.appendChild(line);
 
 
-    svg.style.width = "1000vh";
-    svg.style.height = "1000vh";
+
     document.getElementById("container").appendChild(svg);
 }
