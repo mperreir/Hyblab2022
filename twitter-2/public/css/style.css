@@ -12,7 +12,7 @@ body{
     background-color: black;
     color: white;
     overflow: hidden;   /* to avoid slider bugs on some browsers */
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Blatant;
 }
 
 #container{
@@ -59,17 +59,68 @@ body{
     height: 100%;
 }
 
-/* Pour que la vidéo remplisse son conteneur (elle sera un peu coupée si nécessaire...) */
-.vjs-tech { object-fit: cover; }
-
 /* Most of the elements in this demo are absolute positionned with percentages */
-#first-slide header{
+#first-slide {
     text-align: center;
     width: 100%;
-    top: 10%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
     position: absolute;
     font-size: 30%;
     z-index: 2;
+    background: #5571E5;
+}
+
+#second-slide {
+    background: #E5E5E5;
+}
+
+#logo {
+    width: 220px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80%;
+    margin-bottom: 15%;
+}
+
+#phrase-daccroche {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 14px;
+    text-align: center;
+}
+
+.vector {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    right: 0;
+}
+
+#vector {
+    position: absolute;
+    width: 22px;
+    height: 15px;
+    align-self: flex-end;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+
+#vector:hover {
+    animation-name: bounce;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes bounce {
+    0%   { transform: scale(1.1); }
+    50%  { transform: scale(1); }
+    100% { transform: scale(1.1); }
 }
 
 #logo-hyblab{
