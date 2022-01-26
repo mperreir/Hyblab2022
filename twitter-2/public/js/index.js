@@ -9,12 +9,5 @@ const swiper = new Swiper("#mySwiper", {
   },
 });
 
-anime({
-  delay: 1000,
-  targets: '#loader',
-  opacity: '0',
-  'z-index' : -1,
-  easing: 'easeOutQuad',
-});
 // Init first slide
 initSlide1();

@@ -19,27 +19,6 @@ body{
     position: relative; /* for absolute positionning of child elements*/
 }
 
-/* -------------- Loader --------------*/
-#loader{
-    z-index: 2;
-    position:absolute;
-}
-
-#loader-img{
-    top:40%;
-    left:40%;
-    position: absolute;
-}
-
-#loader-text{
-    text-align: center;
-    font-size: 25%;
-    position: absolute;
-    top:60%;
-    width: 100%
-}
-/* -------------- End of Loader --------------*/
-
 /* Swiper slider. Need to fill the 9:16 constrained container */
 #mySwiper{
     width: 100%;
@@ -52,13 +31,6 @@ body{
     background-color: white !important;
 }
 
-/* the slides and the loader should fill the whole 9:16 zone */
-.swiper-wrapper section, #loader{
-    background-color: dodgerblue;
-    width: 100%;
-    height: 100%;
-}
-
 /* Most of the elements in this demo are absolute positionned with percentages */
 #first-slide {
     text-align: center;
@@ -66,7 +38,6 @@ body{
     height: 100%;
     left: 0px;
     top: 0px;
-    position: absolute;
     font-size: 30%;
     z-index: 2;
     background: #5571E5;

@@ -3,12 +3,8 @@
 // async init function (because of the awaits on fetches)
 const initSlide1 = async function(){
 
-  let vector = document.querySelector('#vector');
+  const vector = document.querySelector('#vector');
   vector.addEventListener('click', () => {
-    anime({
-        targets: '#vector',
-        scale: 0
-      });
     swiper.slideNext()
     initSlide2();
   });
