@@ -106,9 +106,9 @@ body{
 /* as long as the screen aspect ratio is below 9:16 */
 @media screen and (max-aspect-ratio: 9/16) {
     #container {
-        margin-top: calc((100vh - 100 * 16vw / 9) / 2);
+        /* margin-top: calc((100vh - 100 * 16vw / 9) / 2); */
         width: 100vw;
-        height: calc(100 * 16vw / 9);
+        /* height: calc(100 * 16vw / 9); */
     }
 
     /* We set a default font size here. It will be the base for all other font sizes */
