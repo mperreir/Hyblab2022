@@ -1,0 +1,467 @@
+/* ------- Important ! Please at least keep the last part of this CSS ----------- */
+/* that forces a 9:16 format (portrait) on all contents */
+
+/* Normalize margin and padding to ease elements positioning */
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-color: black;
+    color: white;
+    overflow: hidden;   /* to avoid slider bugs on some browsers */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#container{
+    position: relative; /* for absolute positionning of child elements*/
+}
+
+/* -------------- Loader --------------*/
+#loader{
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#loader-img{
+    display: block;
+}
+
+#loader-text{
+    text-align: center;
+    font-size: 15%;
+    font-family: 'Century Gothic';
+    margin-top: 5%;
+    color: #282246;
+}
+#loader-text > i{
+    font-size: 10px;
+    font-style: normal;
+
+}
+/* -------------- End of Loader --------------*/
+
+/* Swiper slider. Need to fill the 9:16 constrained container */
+#mySwiper{
+    width: 100%;
+    height:100%;
+    position: absolute;
+}
+
+/* white navigation bullets */
+.swiper-pagination-bullet-active {
+    background-color: white !important;
+}
+
+/* the slides and the loader should fill the whole 9:16 zone */
+.swiper-wrapper section, #loader, #main{
+    background-color: #f0e4d8;
+    /*background-color: dodgerblue;*/
+    width: 100%;
+    height: 100%;
+}
+
+/* Pour que la vidéo remplisse son conteneur (elle sera un peu coupée si nécessaire...) */
+.vjs-tech { object-fit: cover; }
+
+/* Most of the elements in this demo are absolute positionned with percentages */
+#first-slide header{
+    text-align: center;
+    width: 100%;
+    top: 10%;
+    position: absolute;
+    font-size: 30%;
+    z-index: 2;
+}
+
+#logo-hyblab{
+    text-align: center;
+    width: 50%;
+    left: 50%;
+    top: 50%;
+    margin-left:-25%;
+    margin-top:calc(-7.5% * 9 / 16 ); /* margins are relative to the element width... :-( */
+    position: absolute;
+    font-size: 50%;
+    z-index: 2;
+    cursor: pointer;
+}
+
+/* Last slide image is centered */
+#img-fini{
+    width: 50%;
+    left: 50%;
+    top: 40%;
+    position: absolute;
+    margin-left:-25%;
+    margin-top:calc(-25% * 9 / 16 ); /* margins are relative to the element width... :-( */
+}
+
+/* Footer of last slide is at the bottom and content is centered */
+#first-slide footer{
+    bottom: 5%;
+    position: absolute;
+    font-size: 20%;
+    text-align: center;
+    padding: 0 1em;
+}
+
+
+/* ---------- Positionning of logos on the last slide ----------------- */
+/* here we have a contraint on the height of the logos (not the width) */
+/* so we cannot use % and use em (which are proportinal to the size of the */
+/* slide because of body's font size rule at the beginning of this CSS */
+#bandeau {
+    padding-top: 3%;
+    width:100%;
+    height:25%;
+    position: absolute;
+    bottom: 0;
+    background-color: none;
+    font-size: 20%;
+  }
+
+  #bandeau li{
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0.5em;
+  }
+
+  #bandeau img{
+    height: 1.5em;
+  }
+
+  #bandeau #hyblab{
+    margin: 1em auto;
+    height: 3em;
+    display: block;
+  }
+
+  #bandeau #cc, #bandeau #opensource
+  {
+    height: 1em;
+  }
+
+  #bandeau .stacked{
+    display:block;
+  }
+
+  #bandeau ul{
+    text-align: center;
+    padding: 0 0;
+  }
+
+  #bandeau .institutionnel
+  {
+    height: 2em;
+  }
+
+/* ---------- Important media queries for easy responsive content :-) ----------------- */
+/* Can be adapted for other ratios that 9:16 or for horizontal content (ex: 16:9) */
+
+/* This media query ensures that we allways will the width of the screen */
+/* as long as the screen aspect ratio is below 9:16 */
+@media screen and (max-aspect-ratio: 9/16){
+    #container{
+        margin-top: calc((100vh - 100 * 16vw / 9) / 2);
+        width: 100vw;
+        height: calc(100 * 16vw / 9);
+    }
+
+    /* We set a default font size here. It will be the base for all other font sizes */
+    /* Here the font size is proportional to display width */
+    body{
+        font-size: calc(12vw*16/9);
+    }
+}
+
+/* This media query ensures that we allways will the height of the screen */
+/* as long as the screen aspect ratio is higher than 9:16 */
+@media screen and (min-aspect-ratio: 9/16){
+    #container{
+        margin-left: calc((100vw - 100 * 9vh / 16) / 2);
+        width: calc(100 * 9vh / 16);
+        height: 100vh;
+    }
+
+    /* We set a default font size here. It will be the base for all other font sizes */
+    /* Here the font size is proportional to display height */
+    body{
+        font-size: 12vh;
+    }
+}
+
+/* Menu box */
+.menu-box{
+    height: 100vh;
+}
+
+.center{
+    display: block;
+    margin: 0 auto;
+}
+
+/* Alignement box*/
+.vertical-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.horizontal-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Bouton play */
+.btn-accueil{  
+    width: 8em;
+    height: 3em;
+    font-size: 20px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 50px;
+    transition: transform 250ms;
+}
+
+.btn-accueil:hover{
+    cursor: pointer;
+}
+
+.btn-menu{  
+    width: 91px;
+    height: 83px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    transition: transform 250ms;
+}
+
+.btn-menu:hover{
+    cursor: pointer;
+}
+
+.btn-bleu{
+    background-color: #282246;
+    color: whitesmoke;
+}
+
+.btn-bleu:hover{
+    background-color: whitesmoke;
+    color: #282246;
+}
+
+.btn-bleuClair{
+    background-color: #5B6C9A;
+    color: whitesmoke;
+}
+
+.btn-bleuClair:hover{
+    background-color: whitesmoke;
+    color: #5B6C9A;
+}
+
+.btn-vert{
+    background-color: #83C49E;
+    color: whitesmoke;
+}
+
+.btn-vert:hover{
+    background-color: whitesmoke;
+    color: #83C49E;
+}
+
+.btn-rouge{
+    background-color: #EA6D5B;
+    color: whitesmoke;
+}
+
+.btn-rouge:hover{
+    background-color: whitesmoke;
+    color: #EA6D5B;
+}
+
+/*Tips panel*/
+.tips-page{
+    font-family:'Reem Kufi';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+    font-size: 15px;
+}
+
+.tips-image{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 52px;
+}
+
+.tips-image > img{
+    width: 25rem;
+}
+
+.tips{
+    position: absolute;
+    bottom: 40%;
+    margin-left: 30px;
+    margin-right: 30px;
+
+    height: 20rem;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -15px 15px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px;
+
+    background-color: #282246;
+    color: #f0e4d8;
+    
+    background-position: 9px 0px;
+    background-repeat: no-repeat;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+    line-height: 18px;
+    overflow: hidden;
+    padding: 15px 60px;
+
+    text-align: center;
+}
+
+.tips > h6{
+    margin-top: 20px;
+    font-size: 20px;
+
+    text-align: center;
+}
+
+.text{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    text-align: center;
+    display: none;
+}
+
+/* my slider */ 
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #f0e4d8;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+/* Position the "next button" to the right */
+.next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+} 
+
+.prev {
+    position: absolute;
+    left: 0;
+    border-radius: 3px 0 0 3px;
+} 
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: none;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #f0e4d8;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+    background-color: #ED6464;
+}
+
+.button{
+    border: none;
+    height: 2rem;
+    width: 4rem;
+    cursor: pointer;
+    border-radius: 5%;
+    margin-left: 10px;
+    bottom: 20%;
+    color: #f0e4d8;
+    background-color: #282246;
+}
+
+.button:hover{
+    
+    color: #282246;
+    background-color: #f0e4d8;
+    border-color: #f0e4d8;
+}
+/*Fin Tips panel*/
+
+#boutonRetour{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 10px 10px 10px;
+}
+
+.decalageBottom50{
+    margin-bottom: 50%;
+}
+
+.decalageBottom30{
+    margin-bottom: 30%;
+}
+
+.decalageBottom15{
+    margin-bottom: 15%;
+}
+
+.decalageBottom5{
+    margin-bottom: 5%;
+}
+
+.genericText{
+    font-size: 15%;
+    color: #282246;
+}
+
+.textZone{
+    font-size: 15%;
+    background-color: #282246;
+    padding: 10px 60px 10px 60px;
+    border-radius: 50px;
+}
+
+.logo {
+    margin-top: 5%;
+}
+
