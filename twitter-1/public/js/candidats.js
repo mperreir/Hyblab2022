@@ -20,7 +20,7 @@ const initSlide3 = async function(){
   let response = await fetch('api/candidat/all');
   const candidats = await response.json();
 
-  for (let i = 1; i < 12; i++) {
+  for (let i = 1; i <= 12; i++) {
 
     //Get the candidats from html document
     let button = document.querySelector('#btn-' + i);
