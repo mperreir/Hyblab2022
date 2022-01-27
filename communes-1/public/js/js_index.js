@@ -14,5 +14,5 @@ anjoute_start.classList.add('animate__animated', 'animate__heartBeat', 'animate_
 
 const first_slide = document.querySelector('#first-slide');
 first_slide.addEventListener('click', () => {
-	window.location.href = 'anjoute-game-1.html';
+	window.location.href = 'choix-commune.html';
 });
