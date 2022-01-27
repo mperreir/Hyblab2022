@@ -1,10 +1,10 @@
 # Descriptif du projet
 
-Porteur de projet :Le Télégramme - Blandine Le Cain
+Porteur de projet : Le Télégramme - Blandine Le Cain
 
-Sujet :Le twitommètre présidentiel
+Sujet : Le twitommètre présidentiel
 
-Nom d'équipe : Blue Grass
+Nom d'équipe : Blue Grass™
 
 Participants : 
 
