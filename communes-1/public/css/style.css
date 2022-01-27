@@ -9,7 +9,7 @@
 }
 
 body{
-    background-color: grey;
+    background-color: black;
     color: white;
     overflow: hidden;   /* to avoid slider bugs on some browsers */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
