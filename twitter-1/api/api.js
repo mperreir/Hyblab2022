@@ -78,6 +78,12 @@ app.get('/candidat/all', (req, res) => {
     res.json(candidats);
 });
 
+app.get('/candidat/filtre', (req, res) => {
+    let candidats = db.fetch(db.candidats_name)
+        .filter(t => t.followers > 80000);
+    res.json(candidats);
+});
+
 app.get('/candidat/:id_candidat/stats', (req, res) => {
     const candidat = db.fetch(db.candidats_name);
     const all_tweets = db.fetch(db.tweets_name)
