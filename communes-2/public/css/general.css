@@ -66,13 +66,13 @@ body{
 
 #loader-text{
     text-align: center;
-    font-size: 15%;
+    font-size: 25%;
     font-family: 'Century Gothic';
     margin-top: 5%;
     color: #282246;
 }
-#loader-text > i{
-    font-size: 10px;
+#loader-text > i, #loader-text > font > i{
+    font-size: 15px;
     font-style: normal;
 
 }
