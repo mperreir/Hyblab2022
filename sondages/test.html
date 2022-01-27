@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Test sur les données</title>
+
+    <link rel="stylesheet" href="public/css/reset.css">
+
+    <script src="plotly-2.8.3.min.js"></script>
+
+    <script src="https://unpkg.com/science@1.9.3/science.v1.min.js"></script>
+
+    <script>
+
+        const URL_DATA = "https://raw.githubusercontent.com/nsppolls/nsppolls/master/presidentielle.json"
+
+        const range = n => [...Array(n).keys()]
+        function moyenne(arr_x, arr_y) {
+            const count = {}
+            const data_y = []
+            const data_x = []
+            for (const index in arr_y) {
+                if (!count[arr_x[index]]) {
+                    count[arr_x[index]] = []
+                }
+                count[arr_x[index]].push(arr_y[index])
+            }
+            for (const element of [...new Set(arr_x)].sort()) {
+                const sum = count[element].reduce((x, r) => x + r, 0)
+                data_y.push(sum / count[element].length)
+                data_x.push(element)
+            }
+            return [data_x, data_y]
+        }
+
+        function getData() {
+            return new Promise((resolve, reject) => {
+                fetch(URL_DATA)
+                    .then(response => response.json())
+                    .then(data => {
+
+                        const result = {}
+
+                        for (const sondage of data) {
+
+                            const tours = sondage.tours.filter(x => x.tour == "Premier tour")
+                            if (tours.length != 1) {
+                                console.log(sondage)
+                                console.warn("Alerte au gogole les enfants", tours.length)
+                                continue
+                            }
+
+                            for (const candidat of tours[0].hypotheses.map(x => x.candidats).flat()) {
+                                if (candidat.candidat) {
+                                    if (!result[candidat.candidat]) {
+                                        result[candidat.candidat] = {
+                                            "x": [],
+                                            "y": []
+                                        }
+                                    }
+                                    result[candidat.candidat]["y"].push(candidat.intentions)
+                                    result[candidat.candidat]["x"].push(sondage.fin_enquete)
+                                }
+                            }
+                        }
+
+                        resolve(result)
+                    })
+                    .catch(error => {
+                        reject(error)
+                    });
+            })
+        }
+
+      
+
+        getData().then(data => {
+
+            const points = Object.keys(data).map(candidat => {
+
+                const [dx, dy] = moyenne(data[candidat]["x"], data[candidat]["y"])
+
+                const result = [
+                    // {
+                    //     name: candidat,
+                    //     mode: "markers",
+                    //     type: "scatter",
+                    //     color: "red",
+                    //     ...data[candidat]
+                    // }
+                ]
+
+
+                var loess_generator = science.stats.loess();
+                loess_generator.bandwidth(1);
+                let loess_values = loess_generator(range(dx.length), dy);
+
+                if (loess_values.length > 0) {
+                    result.push({
+                        name: "moyliss-" + candidat,
+                        type: "lines",
+                        type: 'scatter',
+                        x: dx,
+                        y: loess_values
+                    })
+                }
+
+                return result
+            })
+
+            Plotly.newPlot('tester', points.flat());
+
+        })
+    </script>
+
+</head>
+
+<body style="margin:0px;width:100%;height:100vh;">
+
+    <div id="tester" style="width:100%;height:100%;"></div>
+
+</body>
+
+</html>
