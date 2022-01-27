@@ -158,23 +158,26 @@ body{
 
 /* This media query ensures that we allways will the width of the screen */
 /* as long as the screen aspect ratio is below 9:16 */
+/*
 @media screen and (max-aspect-ratio: 9/16){
     #container{
         margin-top: calc((100vh - 100 * 16vw / 9) / 2);
         width: 100vw;
         height: calc(100 * 16vw / 9);
     }
-
+*/
     /* We set a default font size here. It will be the base for all other font sizes */
     /* Here the font size is proportional to display width */
-    body{
+   /* 
+   body{
         font-size: calc(12vw*16/9);
     }
-}
+} 
+*/
 
 /* This media query ensures that we allways will the height of the screen */
 /* as long as the screen aspect ratio is higher than 9:16 */
-@media screen and (min-aspect-ratio: 9/16){
+/* @media screen and (min-aspect-ratio: 9/16){ */
     #container{
         margin-left: calc((100vw - 100 * 9vh / 16) / 2);
         width: calc(100 * 9vh / 16);
@@ -186,4 +189,4 @@ body{
     body{
         font-size: 12vh;
     }
-}
+/* } */
