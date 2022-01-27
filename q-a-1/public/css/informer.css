@@ -2,7 +2,65 @@ body{
     color: #57517D;
 }
 
-svg{
-    width: 80%;
+#title{
+    width:60%;
 }
+
+div p{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: 15%;
+    padding: 0% 3% 0% 3%;
+}
+
+.main-section{
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    
+}
+
+#introduction{
+    margin-top:5%;
+    margin-bottom:3%;
+}
+
+#blue-content{
+    color:#57517D;
+}
+
+#white-content{
+    color:#FFFFFF;
+}
+
+#green-content{
+    color:#276A50;
+}
+
+#light-content{
+    color:#57517D;
+    opacity: 50%;
+}
+
+.section-div{
+    width: 60%;
+    
+}
+
+.main-section img{
+    width:15%;
+}
+
+button{ 
+    padding : 2% 0% 2% 0%;
+    margin: 1%;
+    width: 40%;
+    height: 8%;
+    border-radius: 30px;
+
+    color:#ADB3D7;
+    font-size: 70%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
 
