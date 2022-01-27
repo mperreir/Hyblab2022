@@ -11,3 +11,9 @@ const swiper = new Swiper("#mySwiper", {
 
 // Init first slide
 initSlide1();
+
+window.onload = () => {
+  document.getElementById("button-slide-2").addEventListener("click", () => { 
+    window.location.href = "./question.html";
+ });
+}

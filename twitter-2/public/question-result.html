@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>question-result</title>
+    <link rel="stylesheet" href="css/question-result.css">
+    <script src="./js/question-result.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <section id="top-section">
+            <img src="img/croix.png" id="exit">
+            <div></div>
+            <div></div>
+        </section>
+
+        <section id="result">
+            <div class="right">
+                <p>Bonne<br><img src="./img/ligne-blanche.png" style="margin-bottom: 0.7vh;">&nbsp;Réponse !</p>
+            </div>
+            <div class="wrong">
+                <p>Mauvaise<br><img src="./img/ligne-blanche.png" style="margin-bottom: 0.7vh;">&nbsp;Réponse ...</p>
+            </div>
+
+        </section>
+
+        <section id="answer">
+            <img class="right" src="./img/illu-2 1.png">
+            <img class="wrong" src="./img/illu-4 1.png">
+            <div id="answer-text">
+                C'est avec
+                <span style="display: inline;color:#5571E5">M. Le Pen</span>&nbsp;que<span style="display: inline;">
+                    &nbsp;J.L. Mélenchon</span><br> a le plus de followers en commun :<br> ils en partagent
+                <div id="percentage" style="color:#5571E5">36.5% !</div>
+            </div>
+        </section>
+
+        <section id="buttons">
+
+            <div class="button" id="next-question">
+                Question suivante
+            </div>
+            <div class="button">
+                En savoir plus sur ce candidat
+            </div>
+
+
+        </section>
+    
+    </div>
+</body>
+
+</html>

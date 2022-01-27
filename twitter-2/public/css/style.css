@@ -8,11 +8,20 @@
     margin:0;
 }
 
+@font-face {
+    font-family: 'blatantregular';
+    src: url('../font/blatant-webfont.woff') format('woff'),
+         url('../font/blatant-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body{
     background-color: black;
     color: white;
     overflow: hidden;   /* to avoid slider bugs on some browsers */
-    font-family: Blatant;
+    font-family: 'blatantregular';
 }
 
 #container{
