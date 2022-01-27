@@ -1,9 +1,5 @@
-const Observable = require("./Observable");
-
-class PoliticalParty extends Observable {
-    
+class PoliticalParty {
     constructor(name){
-        super();
         this.name = name;
     }
 }

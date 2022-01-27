@@ -1,7 +1,5 @@
-class Source extends Observable {
-    
+class Source {
     constructor(name_institut, start, end, sponsor, link){
-        super();
         this.name_institut = name_institut;
         this.start = start;
         this.end = end;

@@ -1,7 +1,5 @@
-class Round extends Observable {
-    
+class Round {
     constructor(name, hypotheses){
-        super();
         this.name = name;
         this.hypotheses = hypotheses;
     }

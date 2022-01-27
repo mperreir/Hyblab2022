@@ -1,9 +1,5 @@
-const Observable = require("./Observable");
-
-class Message extends Observable {
-    
+class Message  {
     constructor(date, text, candidate){
-        super();
         this.date = date;
         this.text = text;
         this.candidate = candidate
