@@ -16,16 +16,20 @@ async function initThemesTopTweets() {
 
 select.addEventListener("input", async ev =>  {
     tweet.removeChild(document.querySelector('#tweet-theme'));
-    let tweet_theme_dev = document.createElement('div');
-    tweet_theme_dev.setAttribute("id",'tweet-theme');
+    let tweet_theme_div = document.createElement('div');
+    tweet_theme_div.setAttribute("id",'tweet-theme');
 
     let tweets = await fetchTopTweetsTheme(parseInt(select.value));
     tweets.forEach((t) => {
         let p = document.createElement('p');
         p.appendChild(document.createTextNode(t.name + '\n' + t.tweet));
-        tweet_theme_dev.appendChild(p);
+        tweet_theme_div.appendChild(p);
     });
-    tweet.appendChild(tweet_theme_dev);
+    // no tweet for this themas
+    if (tweets.length === 0) {
+        tweet_theme_div.appendChild(document.createTextNode("Pas de top tweet trouvé pour ce theme !"));
+    }
+    tweet.appendChild(tweet_theme_div);
 })
 
 
