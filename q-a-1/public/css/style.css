@@ -69,9 +69,24 @@ button{
 
 /* the slides and the loader should fill the whole 9:16 zone */
 .swiper-wrapper section, #loader{
-    background-color: rgb(173, 179, 215);
+
+    background-color: #ADB3D7;
     width: 100%;
     height: 100%;
+}
+.warp {
+    width: 500px;
+    height: 350px;
+    line-height: 850px;
+    text-align: center;
+}
+.img{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    max-width: 500px;
+    max-height: 100%;
+    vertical-align: middle;
 }
 
 /* Pour que la vidéo remplisse son conteneur (elle sera un peu coupée si nécessaire...) */
