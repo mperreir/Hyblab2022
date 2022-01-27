@@ -12,11 +12,11 @@ class QuestionCard extends React.Component {
                     <div className='questionCard-questionBlock'>
                         <p className='questionCard-question'>{this.props.question}</p>
                         <p className='questionCard-answer'>{this.props.answer}</p>
-                        <a href='https://www.perdu.com'>en savoir plus</a>
+                        <LearnMore link={'#'}/>
                     </div>
                     <div className='questionCard-nextStep'>
-                        <p>lorem ipsum</p>
-                        <button>A modifier</button>
+                        <p>Passer à l'indication suivante:</p>
+                        <Button value={'Continuer'} disabled={false} negative={false}/>
                     </div>
                 </div>
             </div>
