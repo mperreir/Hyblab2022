@@ -1,3 +1,7 @@
+export function getData() {
+    return undefined;
+}
+
 /**
  * @name : DataRetrievalController.js
  * @description : Automatically retrieves data from nsppolls and parses it for the Poll Position application
@@ -5,11 +9,6 @@
  */
 
 const axios = require("axios");
-
-const Poll = require("../model/Poll");
-const Source = require("../model/Source");
-const Round = require("../model/Round");
-const Hypothesis = require("../model/Hypothesis");
 
 const URL_DATA = "https://raw.githubusercontent.com/nsppolls/nsppolls/master/presidentielle.json";
 
@@ -47,21 +46,7 @@ class DataRetrievalController {
 
         /* Data retrieval */
         const data = await getData();
-
-        /* Flow of all retrieved information */
-        data.forEach(poll => {
-            /* */
-            let current_source = new Source(poll.nom_institut, poll.debut_enquete, poll.fin_enquete, poll.commanditaire, poll.lien);
-
-            /* */
-            let hypotheses_first_round = new Hypothesis()
-            let first_round = new Round(poll.tours[0]);
-
-            let second_round = new Round(poll.tours[1]);
-
-            /* */
-            let current_poll = new Poll(poll.echantillon, poll.population, current_source, null);
-
-        })
     }
 }
+
+module.exports = DataRetrievalController;
