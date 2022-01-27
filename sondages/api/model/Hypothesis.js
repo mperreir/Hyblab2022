@@ -1,5 +1,7 @@
-class Hypothesis {
+class Hypothesis extends Observable {
+    
     constructor(date, sub_sample, listHeads){
+        super();
         this.date = date;
         this.sub_sample = sub_sample;
         this.listHeads = listHeads;
