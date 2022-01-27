@@ -12,9 +12,14 @@ async function initThemesTopTweets() {
         o.innerText = theme.name;
         select.appendChild(o);
     });
+    await showTopTweets();
 }
 
 select.addEventListener("input", async ev =>  {
+    await showTopTweets();
+})
+
+async function showTopTweets () {
     tweet.removeChild(document.querySelector('#tweet-theme'));
     let tweet_theme_div = document.createElement('div');
     tweet_theme_div.setAttribute("id",'tweet-theme');
@@ -30,7 +35,7 @@ select.addEventListener("input", async ev =>  {
         tweet_theme_div.appendChild(document.createTextNode("Pas de top tweet trouvé pour ce theme !"));
     }
     tweet.appendChild(tweet_theme_div);
-})
+}
 
 
 async function fetchThemes() {
