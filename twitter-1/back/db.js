@@ -5,6 +5,7 @@ const { Database } = require('sileco.db');
 const path = require('path');
 const path_to_db = path.join("db");
 const db = new Database("twitter-1/back/db/database.json");
+const textProcessing = require(path.join(__dirname, '/../back/textProcessing'));
 
 // https://weeknumber.com/how-to/javascript
 // Returns the ISO week of the date.
@@ -33,11 +34,10 @@ module.exports.themes_name = "themes";
 
 module.exports.getTweetsSemaine = () => {
     return db.fetch(module.exports.tweets_name)
-        .filter(tweet => (new Date(tweet.date)).isSameWeek(new Date(2021, 12, 5)));
+        .filter(tweet => (new Date(tweet.date)).isSameWeek(new Date(2022, 0, 20)));
 }
 
-// INIT DB
-// const textProcessing = require(path.join(__dirname, '/../back/textProcessing'));
+// // INIT DB
 //
 // // INIT Candidats
 // textProcessing.Parser.getValuesFromCSV(path.join(__dirname, 'data/account_information/candidats_information.csv'), candidats  => {
@@ -48,7 +48,7 @@ module.exports.getTweetsSemaine = () => {
 // db.set(module.exports.themes_name, [
 //     {
 //         id: 1,
-//         name: "Defence",
+//         name: "Sécurité",
 //         keywords: "immigration police violence manifestation voleures balle lachrymo arme defence",
 //     },
 //     {
@@ -60,14 +60,29 @@ module.exports.getTweetsSemaine = () => {
 //         id: 3,
 //         name: "Economie",
 //         keywords: "economie salaire emplois relocalisation localisation entreprise startup start-up",
+//     },
+//     {
+//         id: 4,
+//         name: "Education",
+//         keywords: "education ecole lycee universitee classe cours professeurs cantine cartable atsem pedagogie",
+//     },
+//     {
+//         id: 5,
+//         name: "Environnement",
+//         keywords: "environnement durable vert pollution recyclage trie arbre nucléaire petrol ",
+//     },
+//     {
+//         id: 6,
+//         name: "Culture",
+//         keywords: "culture musique film cinema livre libraire concert festival dedicace album ",
 //     }
 // ]);
 //
 // // INIT Tweets
-// const labeler = new textProcessing.Labeler(db.fetch(module.exports.themes_name));
-// textProcessing.Parser.getTweetsJSONFromFile(path.join(__dirname, '/data/tweets/tweets_candidats.csv'), ts  => {
-//     let older_tweets = db.fetch(module.exports.tweets_name);
-//     if (older_tweets === null) older_tweets = [];
-//     ts = labeler.labellingTweets(ts).concat(older_tweets);
-//     db.set(module.exports.tweets_name, ts);
-// });
+const labeler = new textProcessing.Labeler(db.fetch(module.exports.themes_name));
+textProcessing.Parser.getTweetsJSONFromFile(path.join(__dirname, '/data/tweets/tweets_candidats_2.csv'), ts  => {
+    // let older_tweets = db.fetch(module.exports.tweets_name);
+    // if (older_tweets === null) older_tweets = [];
+    ts = labeler.labellingTweets(ts);//.concat(older_tweets);
+    db.set(module.exports.tweets_name, ts);
+});

@@ -46,6 +46,8 @@ class Labeler {
             }
         });
 
+        delete tweet.data;
+
         tweet.theme_id = this.themes[maxSCoreIndex].id;
         tweet.themeScore = themeScores[maxSCoreIndex];
 
