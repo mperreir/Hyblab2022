@@ -21,22 +21,17 @@ body{
 /* -------------- Loader --------------*/
 #loader{
     z-index: 2;
-    position:absolute;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 #loader-img{
-    top:40%;
-    left:40%;
-    position: absolute;
+    display: block;
 }
 
-#loader-text{
-    text-align: center;
-    font-size: 25%;
-    position: absolute;
-    top:60%;
-    width: 100%
-}
 /* -------------- End of Loader --------------*/
 
 /* Swiper slider. Need to fill the 9:16 constrained container */
@@ -191,9 +186,6 @@ body{
 }
 
 /* Menu box */
-
-
-
 .menu-box{
     height: 100vh;
 }
@@ -218,9 +210,7 @@ body{
 }
 
 /* Bouton play */
-
-.btn{
-    
+.btn{  
     width: 8em;
     height: 3em;
     font-size: 20px;
