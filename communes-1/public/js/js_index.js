@@ -1,7 +1,7 @@
-const img_beat = document.querySelector('img');
-img_beat.classList.add('animate__animated', 'animate__heartBeat');
+const anjoute_start = document.querySelector('.anjoute_start');
+anjoute_start.classList.add('animate__animated', 'animate__heartBeat', 'animate__infinite', 'infinite');
 
-img_beat.addEventListener("animationend", () => {
-	window.location.replace('anjoute-game-1.html');
+const container = document.querySelector('#container');
+container.addEventListener('click', () => {
+	window.location.href = 'anjoute-game-1.html';
 });
-

@@ -1,22 +1,16 @@
-* {
-    padding:0;
-    margin:0;
-}
-
-html, body {
-	height: 100vh;
-}
-
-body {
-	overflow: hidden;   
-	background-color: black;
+.img_container {
+	height: 70vh;
+	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	display: flex;
 }
 
-
-#logo_anjoute .animate__animated.animate__heartBeat {
+.anjoute_start .animate__animated.animate__heartBeat {
 	--animate-duration: 3.6s;
+}
+.anjoute_start {
+	margin-top: 50px;
+	font-size: 10px;
 }
 
