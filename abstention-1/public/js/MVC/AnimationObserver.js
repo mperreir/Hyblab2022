@@ -5,4 +5,8 @@ class AnimationObserver extends Observer {
         super();
         this.element = element;
     }
+
+    update(observable, object){
+        
+    }
 }

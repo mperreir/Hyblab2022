@@ -6,7 +6,6 @@
 body{
     background-color: black;
     color: white;
-    overflow: hidden;   /* to avoid slider bugs on some browsers */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
@@ -20,13 +19,13 @@ body{
     #container{
         margin-top: calc((100vh - 100 * 16vw / 9) / 2);
         width: 100vw;
-        height: calc(100 * 16vw / 9);
+        height:5000px;/* calc(100 * 16vw / 9);*/
     }
 
     /* We set a default font size here. It will be the base for all other font sizes */
     /* Here the font size is proportional to display width */
     body{
-        font-size: calc(12vw*16/9);
+        font-size: calc(3vw*16/9);
     }
 }
 
@@ -36,30 +35,29 @@ body{
     #container{
         margin-left: calc((100vw - 100 * 9vh / 16) / 2);
         width: calc(100 * 9vh / 16);
-        height: 100vh;
+        height: 5000px;/*100vh*/
     }
 
     /* We set a default font size here. It will be the base for all other font sizes */
     /* Here the font size is proportional to display height */
     body{
-        font-size: 12vh;
+        font-size: 3vh;
     }
 }
 
 /*Début*/
 #container{
     background-color: blueviolet;
-  /*  height: 2000px;
-
-    overflow-y: scroll;
-    scrollbar-color: rebeccapurple green;
-    scrollbar-width: thin;*/
 }
 
 /*Section dialogue*/
 #Dialogue{
-    position:relative;
-    opacity: 0;
+    top:0%;
+    opacity: 1;
+    background-color: brown;
+    width: calc(100 * 9vh / 16);
+    height: 100vh; /*100vh*/
+    position: fixed;
 }
 #personnage1{
     background-color: chartreuse;
@@ -83,17 +81,34 @@ body{
     background-color: darkgoldenrod;
     width: 100%;
     height: calc(100vh/4);
-    top:75vh;
+    top:75vh;/*75vh*/
+    opacity: 0;
 }
-
-#textZone p{
-    font-size: x-large;
+/*Quiz*/
+#QuizZone{
+    position:absolute;
+    background-color: red;
+    width: 100%;
+    height: calc(100vh/4);
+    top:75vh;/*75vh*/
+    opacity: 1;
+}
+#QuizZone button{
+    display: flex;
+    height: 20%;
+    width: 100%;
+    font-size: large;
 }
 
 /*Section transition*/
 #Transition{
-    position:relative;
-    opacity: 1;
+    position:fixed;
+    opacity: 0;
+    background-color: darkgoldenrod;
+    width: calc(100 * 9vh / 16);
+    height: 100vh; /*100vh*/
+    top:0%;
+
 }
 
 #animation{
@@ -103,7 +118,4 @@ body{
     height: 40vh; /*auto*/
     top:30vh;
 }
-footer{
-    background-color:yellow;
 
-}
