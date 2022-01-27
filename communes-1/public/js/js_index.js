@@ -1,3 +1,14 @@
+'use strict';
+
+const swiper = new Swiper('#mySwiper', {
+  direction: 'vertical',
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+});
+
+
 const anjoute_start = document.querySelector('.anjoute_start');
 anjoute_start.classList.add('animate__animated', 'animate__heartBeat', 'animate__infinite', 'infinite');
 

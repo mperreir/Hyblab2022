@@ -1,16 +1,29 @@
 .img_container {
-	height: 70vh;
+	height: 100vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	background-color: black;
 }
 
 .anjoute_start .animate__animated.animate__heartBeat {
 	--animate-duration: 3.6s;
 }
+
 .anjoute_start {
 	margin-top: 50px;
 	font-size: 10px;
+}
+
+.credit_footer {
+	color: black;
+	font-size: 16px;
+	font-weight: 800;
+	margin-top: 70px;
+}
+
+.credit_footer li  {
+	padding: 18px;
 }
 
