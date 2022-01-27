@@ -36,7 +36,6 @@ button{
 
 
 
-
 .main-part {
     position: relative;
     width: 100%;
@@ -47,12 +46,14 @@ button{
     box-sizing: content-box;
 }
 /* the slides and the loader should fill the whole 9:16 zone */
+
 .main-part section, #loader{
 
     background-color: #ADB3D7;
     width: 100%;
     height: 100%;
 }
+
 .warp {
     width: 500px;
     height: 350px;
@@ -67,7 +68,6 @@ button{
     max-height: 100%;
     vertical-align: middle;
 }
-
 
 
 /* Most of the elements in this demo are absolute positionned with percentages */
