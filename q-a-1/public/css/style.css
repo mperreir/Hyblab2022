@@ -27,7 +27,6 @@ button{
     margin: 1%;
     width: 40%;
     height: 8%;
-    background: #57517D;
     border-radius: 30px;
 }
 #container{
@@ -189,6 +188,22 @@ button{
     height: 2em;
   }
 
+ .blue{
+    background: #57517D;
+ }
+
+ .red{
+    background: red;
+ }
+
+ .green{
+    background: green;
+    
+ }
+
+ .grey{
+    background: gray;
+ }
 /* ---------- Important media queries for easy responsive content :-) ----------------- */
 /* Can be adapted for other ratios that 9:16 or for horizontal content (ex: 16:9) */
 
