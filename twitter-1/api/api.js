@@ -61,6 +61,20 @@ app.get('/theme/all', (req, res) => {
     res.json(themes);
 });
 
+app.get('/theme/count/:theme_id',(req, res) =>{
+    let listCount = [];
+    let listCandidates=db.fetch(db.candidats_name)
+    for (let i = 0; i < listCandidates.length; i++) {
+        let newCount = Object()
+        newCount.nameCandidates = listCandidates[i].name
+        let arrayTweets = db.fetch(db.tweets_name)
+        let result = arrayTweets.filter(arrayTweets => arrayTweets.theme_id === parseInt(req.params.theme_id) && arrayTweets.name === listCandidates[i].name)
+        newCount.nbTweetsByThemes = result.length
+        listCount.push(newCount)
+    }
+    res.json(listCount);
+})
+
 app.get('/tweets/tops/:theme_id', (req, res) => {
     let tweets = db.getTweetsSemaine()
         .filter(tweet => tweet.themeScore >= 1
@@ -72,7 +86,7 @@ app.get('/tweets/tops/:theme_id', (req, res) => {
 app.get('/candidat/all', (req, res) => {
     let candidats = db.fetch(db.candidats_name);
     res.json(candidats);
-});
+})
 
 app.get('/candidat/:id_candidat/stats', (req, res) => {
     const candidat = db.fetch(db.candidats_name);
