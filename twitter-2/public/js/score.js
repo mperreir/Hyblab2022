@@ -8,6 +8,8 @@ window.onload = () => {
      });
 
      document.getElementById("go-exploration").addEventListener("click", () => { 
-        window.location.href = "./index.html#third-slide";
+        window.location.href = "./index.html";
+        swiper.slideNext();
+        initSlide2();
      });
 }
