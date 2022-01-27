@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#container {
+    padding: 50px 0;
+    display: block;
+    position: relative;
+    background-color: white;
+}
+
+#animation {
+    position: relative;
+}
+
+#race {
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    background-color: #55001588;
+}
+
+#race img {
+    width: 125px;
+} 
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+header p {
+    color: #26336e;
+    font-weight: 400;
+    margin-top: 50px;
+    font-size: 80px;
+}
+
+#info {
+    z-index: 999;
+    position: fixed;
+    bottom: 0px;
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+#barre {
+    position: fixed;
+    top: 0px;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: red;
+}
+
+#blocks > * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: yellow;
+    color: #00000022;
+}
+
+#blocks > *:nth-child(2n) {
+    background-color: orange;
+}
+
+footer {
+    padding: 50px 0;
+    background-color: purple;
+}
+
+footer p {
+    margin: 50px 0 0;
+    text-align: center;
+    font-size: 50px;
+}
+
+/* ---------- Important media queries for easy responsive content :-) ----------------- */
+/* Can be adapted for other ratios that 9:16 or for horizontal content (ex: 16:9) */
+
+/* This media query ensures that we allways will the width of the screen */
+/* as long as the screen aspect ratio is below 9:16 */
+@media screen and (max-aspect-ratio: 9/16) {
+    #container {
+        width: 100vw;
+        min-height: calc(100 * 16vw / 9);
+    }
+
+    #barre {
+        width: 100vw;
+    }
+
+    /* We set a default font size here. It will be the base for all other font sizes */
+    /* Here the font size is proportional to display width */
+    body {
+        font-size: calc(12vw*16/9);
+    }
+}
+
+/* This media query ensures that we allways will the height of the screen */
+/* as long as the screen aspect ratio is higher than 9:16 */
+@media screen and (min-aspect-ratio: 9/16) {
+    #container {
+        margin-left: calc((100vw - 100 * 9vh / 16) / 2);
+        min-height: 100vh;
+    }
+    #container, #race, #barre {
+        width: calc(100 * 9vh / 16);
+    }
+
+    /* We set a default font size here. It will be the base for all other font sizes */
+    /* Here the font size is proportional to display height */
+    body {
+        font-size: 12vh;
+    }
+}

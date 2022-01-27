@@ -9,6 +9,18 @@ const swiper = new Swiper("#mySwiper", {
   },
 });
 
+
+anime({
+  delay: 1000,
+  targets: '#loader',
+  opacity: '0',
+  'z-index' : -1,
+  easing: 'easeOutQuad',
+});
+
+initSlide1();
+
+
 // Wait for the video to preload and display 1st slide
 const video = videojs(document.querySelector('#background-video'));
 video.one('loadeddata', (event) => { 
