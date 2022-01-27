@@ -1,3 +1,7 @@
+#first-slide {
+	height: 100%;
+}
+
 .img_container {
 	height: 100%;
 	display: flex;
