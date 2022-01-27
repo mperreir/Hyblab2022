@@ -33,10 +33,10 @@ module.exports.themes_name = "themes";
 
 module.exports.getTweetsSemaine = () => {
     return db.fetch(module.exports.tweets_name)
-        .filter(tweet => (new Date(tweet.date)).isSameWeek(new Date(2021, 12, 5)));
+        .filter(tweet => (new Date(tweet.date)).isSameWeek(new Date(2022, 0, 20)));
 }
 
-// INIT DB
+// // INIT DB
 // const textProcessing = require(path.join(__dirname, '/../back/textProcessing'));
 //
 // // INIT Candidats
@@ -65,7 +65,7 @@ module.exports.getTweetsSemaine = () => {
 //
 // // INIT Tweets
 // const labeler = new textProcessing.Labeler(db.fetch(module.exports.themes_name));
-// textProcessing.Parser.getTweetsJSONFromFile(path.join(__dirname, '/data/tweets/tweets_candidats.csv'), ts  => {
+// textProcessing.Parser.getTweetsJSONFromFile(path.join(__dirname, '/data/tweets/tweets_candidats_2.csv'), ts  => {
 //     let older_tweets = db.fetch(module.exports.tweets_name);
 //     if (older_tweets === null) older_tweets = [];
 //     ts = labeler.labellingTweets(ts).concat(older_tweets);
