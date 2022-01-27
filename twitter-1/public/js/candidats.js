@@ -17,7 +17,7 @@ for (let i = 1; i <= 12; i++){
 const initSlide3 = async function(){
   
   //Add name of the candidats from the database to the profil page
-  let response = await fetch('api/candidat/all');
+  let response = await fetch('api/candidat/filtre');
   const candidats = await response.json();
 
   for (let i = 1; i <= 12; i++) {
