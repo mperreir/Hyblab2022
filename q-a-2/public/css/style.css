@@ -10,7 +10,6 @@
 
 body{
     background-color: black;
-    color: white;
     overflow: hidden;   /* to avoid slider bugs on some browsers */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -117,43 +116,111 @@ body{
     bottom: 0;
     background-color: white;
     font-size: 20%;
-  }
+}
 
-  #bandeau li{
+#bandeau li{
     list-style-type: none;
     display: inline-block;
     vertical-align: middle;
     margin: 0 0.5em;
-  }
+}
 
-  #bandeau img{
+#bandeau img{
     height: 1.5em;
-  }
+}
 
-  #bandeau #hyblab{
+#bandeau #hyblab{
     margin: 1em auto;
     height: 3em;
     display: block;
-  }
+}
 
-  #bandeau #cc, #bandeau #opensource
-  {
+#bandeau #cc, #bandeau #opensource
+{
     height: 1em;
-  }
+}
 
-  #bandeau .stacked{
+#bandeau .stacked{
     display:block;
-  }
+}
 
-  #bandeau ul{
+#bandeau ul{
     text-align: center;
     padding: 0 0;
-  }
+}
 
-  #bandeau .institutionnel
-  {
+#bandeau .institutionnel
+{
     height: 2em;
-  }
+}
+
+#root {
+    background-color: white;
+}
+
+.button {
+    color:white;
+    background-color: black;
+    border: solid black;
+    border-radius: 36px;
+    font-size: 4vh;
+    font-family: 'Spicy Rise', Arial, Helvetica, sans-serif;
+    height: 8vh;
+    width: 30vh;
+}
+
+.button:active {
+    color:black;
+    background-color: white;
+}
+
+.button_black {
+    color: black;
+    background-color: white;
+    border: solid white;
+}
+
+.button_black:active {
+    color:white;
+    background-color: black;
+}
+
+.button_disabled {
+    opacity: 50%;
+    pointer-events: none;
+}
+
+.button_disabled:hover {
+    cursor: not-allowed;
+}
+
+.learn_more {
+    color:black;
+    background-color: white;
+    border: solid black;
+    border-radius: 36px;
+    font-size: 2.5vh;
+    font-weight: bold;
+    padding: 1vh 1vh 1vh 3vh;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+.learn_more:active {
+    color: white;
+    background-color: black;
+}
+
+.learn_more:active img {
+    filter: invert(100%);
+}
+
+.learn_more_img {
+    height: 3vh;
+    padding-left: 2vh;
+    vertical-align: middle;
+}
 
 /* ---------- Important media queries for easy responsive content :-) ----------------- */
 /* Can be adapted for other ratios that 9:16 or for horizontal content (ex: 16:9) */

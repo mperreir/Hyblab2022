@@ -2,9 +2,16 @@
 
 class App extends React.Component {
   render() {
-      return <div>
-          <TestComponent />
-      </div>
+      return (
+        <div style={{"paddingLeft": "10px"}}>
+          <div style={{"paddingTop": "10px"}}>
+            <Button disabled={false} negative={false} onClick={() => { } } value="C'est parti !" />
+          </div>
+          <div style={{"marginTop": "20px"}}>
+              <LearnMore link="#" />
+          </div>
+        </div>
+      );
   }
 }
 
