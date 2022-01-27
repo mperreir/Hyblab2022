@@ -64,7 +64,6 @@
     display: none;
 }
 
-/* my slider */ 
 /* Next & previous buttons */
 .prev, .next {
     cursor: pointer;
@@ -129,7 +128,6 @@
 }
 
 .button:hover{
-    
     color: #282246;
     background-color: #f0e4d8;
     border-color: #f0e4d8;
