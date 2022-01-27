@@ -70,7 +70,7 @@ app.get('/tweets/tops/:theme_id', (req, res) => {
         .filter(tweet => tweet.themeScore > 1
             && tweet.theme_id === parseInt(req.params.theme_id));
     tweets.sort((a, b) => b.likes_count - a.likes_count);
-    res.json(tweets.slice(0, 10));
+    res.json(tweets.slice(0, 2));
 });
 
 app.get('/candidat/all', (req, res) => {

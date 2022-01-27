@@ -1,11 +1,86 @@
 select = document.querySelector('#top-select');
 tweet = document.querySelector('#tweets');
+let themes;
 
-select.addEventListener("input", ev =>  {
-    valeur = document.querySelector('#tweet-theme');
-    tweet.removeChild(valeur);
-    div = document.createElement('div');
-    div.setAttribute("id",'tweet-theme');
-    div.appendChild(document.createTextNode(select.value));
-    tweet.appendChild(div);
+(() => initThemesTopTweets())();
+
+async function initThemesTopTweets() {
+    themes = await fetchThemes();
+    themes.forEach((theme, index_theme) => {
+        let o = document.createElement('option');
+        o.setAttribute("value", index_theme + '');
+        o.innerText = theme.name;
+        select.appendChild(o);
+    });
+}
+
+select.addEventListener("input", async ev =>  {
+    tweet.removeChild(document.querySelector('#tweet-theme'));
+    let tweet_theme_dev = document.createElement('div');
+    tweet_theme_dev.setAttribute("id",'tweet-theme');
+
+    let tweets = await fetchTopTweetsTheme(parseInt(select.value));
+    tweets.forEach((t) => {
+        let p = document.createElement('p');
+        p.appendChild(document.createTextNode(t.name + '\n' + t.tweet));
+        tweet_theme_dev.appendChild(p);
+    });
+    tweet.appendChild(tweet_theme_dev);
 })
+
+
+async function fetchThemes() {
+    let result;
+    try {
+        // On fait ensuite un fetch sur l'api pour s'authentifier
+        result = await fetch('./api/theme/all', {
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/x-www-form-urlencoded; charset=utf-8',
+            },
+            method: 'GET',
+        });
+    } catch (e) {
+        console.error(e);
+        return;
+    }
+
+    try {
+        if (result.ok) {
+            // Si tout s'est bien passé
+            result = await result.json();
+            return result;
+        }
+    } catch (e) {
+        console.error(e);
+        return;
+    }
+}
+
+async function fetchTopTweetsTheme(theme_id) {
+    let result;
+    try {
+        // On fait ensuite un fetch sur l'api pour s'authentifier
+        result = await fetch('./api/tweets/tops/' + theme_id, {
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/x-www-form-urlencoded; charset=utf-8',
+            },
+            method: 'GET',
+        });
+    } catch (e) {
+        console.error(e);
+        return;
+    }
+
+    try {
+        if (result.ok) {
+            // Si tout s'est bien passé
+            result = await result.json();
+            return result;
+        }
+    } catch (e) {
+        console.error(e);
+        return;
+    }
+}
