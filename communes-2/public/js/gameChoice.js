@@ -7,5 +7,19 @@ page('/communes-2/gameChoice', async function () {
     Retourbtn.addEventListener('click', function () {
         page('/communes-2/');
     });
-});
 
+    const gauchebtn = document.getElementById("btn-gauche");
+    gauchebtn.addEventListener('click', function () {
+        page('/communes-2/affirmation');
+    });
+
+    const centrebtn = document.getElementById("btn-centre");
+    centrebtn.addEventListener('click', function () {
+        page('/communes-2/affirmation');
+    });
+
+    const droitebtn = document.getElementById("btn-droite");
+    droitebtn.addEventListener('click', function () {
+        page('/communes-2/affirmation');
+    });
+});
