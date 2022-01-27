@@ -31,6 +31,7 @@ module.exports = db;
 module.exports.tweets_name = "tweets";
 module.exports.candidats_name = "candidats";
 module.exports.themes_name = "themes";
+module.exports.candidat_followers_name = "candidat_followers";
 
 module.exports.getTweetsSemaine = () => {
     return db.fetch(module.exports.tweets_name)
@@ -41,7 +42,17 @@ module.exports.getTweetsSemaine = () => {
 //
 // // INIT Candidats
 // textProcessing.Parser.getValuesFromCSV(path.join(__dirname, 'data/account_information/candidats_information.csv'), candidats  => {
-//     candidats.forEach(candidat => db.push(module.exports.candidats_name, candidat));
+//     let date_string = new Date().getFullYear() + "-" + (new Date().getMonth()+1) + "-" + new Date().getDate();
+//     let older_followers = db.fetch(module.exports.candidat_followers_name);
+//     if (older_followers === null) older_followers = {};
+//     candidats.forEach((candidat) => {
+//         if (older_followers[candidat.id] === undefined) {
+//             older_followers[candidat.id] = {};
+//         }
+//         older_followers[candidat.id][date_string] = candidat.followers;
+//     });
+//     db.set(module.exports.candidat_followers_name, older_followers);
+//     db.set(module.exports.candidats_name, candidats);
 // });
 //
 // // INIT Themes
@@ -77,7 +88,7 @@ module.exports.getTweetsSemaine = () => {
 //         keywords: "culture musique film cinema livre libraire concert festival dedicace album ",
 //     }
 // ]);
-//
+
 // // INIT Tweets
 const labeler = new textProcessing.Labeler(db.fetch(module.exports.themes_name));
 textProcessing.Parser.getTweetsJSONFromFile(path.join(__dirname, '/data/tweets/tweets_candidats_2.csv'), ts  => {
