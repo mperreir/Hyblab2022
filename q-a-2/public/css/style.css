@@ -290,7 +290,11 @@ body{
     border-radius: 8px;
 }
 
-/* ---------- Important media queries for easy responsive content :-) ----------------- */
+  #root {
+    background-color: white;
+}
+
+  /* ---------- Important media queries for easy responsive content :-) ----------------- */
 /* Can be adapted for other ratios that 9:16 or for horizontal content (ex: 16:9) */
 
 /* This media query ensures that we allways will the width of the screen */
@@ -324,4 +328,47 @@ body{
     body{
         font-size: 12vh;
     }
+}
+
+
+.questionCard-container {
+    background-color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.questionCard {
+    box-sizing: border-box;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto 5% auto 5%;
+}
+
+.questionCard-questionTitle {
+    font-family: 'Spicy Rise';
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.questionCard-questionBlock, .questionCard-nextStep {
+    font-family: 'Futura';
+    font-size: 16px;
+}
+
+.questionCard-questionBlock{
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.questionCard-question {
+    font-weight: bold;
 }
