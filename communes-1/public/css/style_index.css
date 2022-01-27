@@ -1,10 +1,22 @@
 * {
-	background-color: black;
+    padding:0;
+    margin:0;
 }
 
-img {
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-	margin-top: 50%;
+html, body {
+	height: 100vh;
 }
+
+body {
+	overflow: hidden;   
+	background-color: black;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+
+#logo_anjoute .animate__animated.animate__heartBeat {
+	--animate-duration: 3.6s;
+}
+

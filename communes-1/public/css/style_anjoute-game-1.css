@@ -1,0 +1,22 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+body {
+	overflow: hidden;   
+	background-color: black;
+	min-height: 100vh;
+}
+
+.top {
+	position: relative;
+	background-color: violet;
+	height: 50px;
+}
+
+.top h1 {
+	position: absolute;
+	left: 0;
+	display: inline;
+}
