@@ -30,25 +30,25 @@ button{
     height: 8%;
     border-radius: 30px;
 }
+
 #container{
     position: relative; /* for absolute positionning of child elements*/
 }
 
 
-/* Swiper slider. Need to fill the 9:16 constrained container */
-#mySwiper{
+
+.main-part {
+    position: relative;
     width: 100%;
-    height:100%;
-    position: absolute;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    box-sizing: content-box;
 }
-
-/* white navigation bullets */
-.swiper-pagination-bullet-active {
-    background-color: white !important;
-}
-
 /* the slides and the loader should fill the whole 9:16 zone */
-main section, #loader{
+
+.main-part section, #loader{
 
     background-color: #ADB3D7;
     width: 100%;
@@ -86,18 +86,6 @@ main section, #loader{
     width: 30%;
 }
 
-#logo-hyblab{
-    text-align: center;
-    width: 50%;
-    left: 50%;
-    top: 50%;
-    margin-left:-25%;
-    margin-top:calc(-7.5% * 9 / 16 ); /* margins are relative to the element width... :-( */
-    position: absolute;
-    font-size: 50%;
-    z-index: 2;
-    cursor: pointer;
-}
 
 /* Last slide image is centered */
 #img-fini{
@@ -118,55 +106,6 @@ main section, #loader{
 }
 
 
-/* ---------- Positionning of logos on the last slide ----------------- */
-/* here we have a contraint on the height of the logos (not the width) */
-/* so we cannot use % and use em (which are proportinal to the size of the */
-/* slide because of body's font size rule at the beginning of this CSS */
-#bandeau {
-    padding-top: 3%;
-    width:100%;
-    height:25%;
-    position: absolute;
-    bottom: 0;
-    background-color: white;
-    font-size: 20%;
-  }
-
-  #bandeau li{
-    list-style-type: none;
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0 0.5em;
-  }
-
-  #bandeau img{
-    height: 1.5em;
-  }
-
-  #bandeau #hyblab{
-    margin: 1em auto;
-    height: 3em;
-    display: block;
-  }
-
-  #bandeau #cc, #bandeau #opensource
-  {
-    height: 1em;
-  }
-
-  #bandeau .stacked{
-    display:block;
-  }
-
-  #bandeau ul{
-    text-align: center;
-    padding: 0 0;
-  }
-
-  #bandeau .institutionnel
-  {
-    height: 2em;
-  }
 
  .blue{
     background: #57517D;
