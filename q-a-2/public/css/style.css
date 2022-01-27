@@ -10,7 +10,6 @@
 
 body{
     background-color: black;
-    color: white;
     overflow: hidden;   /* to avoid slider bugs on some browsers */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -155,6 +154,10 @@ body{
     height: 2em;
   }
 
+  #root {
+    background-color: white;
+  }
+
 /* ---------- Important media queries for easy responsive content :-) ----------------- */
 /* Can be adapted for other ratios that 9:16 or for horizontal content (ex: 16:9) */
 
@@ -188,4 +191,58 @@ body{
     body{
         font-size: 12vh;
     }
+}
+
+.endGameCard-container {
+    text-align: center;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.endGameCard {
+    color:white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin: 20% 10% 20% 10%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 3px 3px white,
+                5px 5px black,
+                8px 8px white, 
+                10px 10px black;
+}
+
+.endGameCard-title {
+    font-family: 'Spicy Rise';
+    font-weight: bold;
+    font-size: 40%;
+    padding:20px;
+}
+
+.endGameCard-text {
+    font-family: 'Futura';
+    font-size: 20%;
+    padding:20px;
+}
+
+.endGameCard-button {
+    font-family: 'Spicy Rise';
+    font-weight: bold;
+    font-size:30%;
+    border:none;
+    border-radius: 36px;
+    padding:10px 30px 10px 30px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.endGameCard-image {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    width: 50%;
+    padding: 20px;
 }
