@@ -6,6 +6,7 @@ function Reponse(q, is_success){
     question = document.querySelector('#question');
     let reponse = document.querySelector('#reponses');
 
+    jeu.removeChild(consigne);
     jeu.removeChild(question);
     jeu.removeChild(reponse);
 
@@ -50,6 +51,16 @@ async function Suivant() {
 
     let div = document.createElement('div');
     div.setAttribute("id", 'question');
+    div.style.width = "80%";
+    div.style.minHeight = "100px";
+    div.style.marginLeft = "10%";
+    div.style.overflow = "hidden";
+    div.style.background="white";
+
+    let consigne = document.createElement('div');
+    consigne.setAttribute("id", 'consigne');
+
+    let consignecontent = document.createTextNode("Mais a qui est ce Tweet ?");
 
     let content = document.createTextNode(question.text);
 
@@ -72,10 +83,12 @@ async function Suivant() {
     b.style.height = "40px";
     b.addEventListener('click', () => Reponse(question, !question.is_response_1_true));
 
+    consigne.appendChild(consignecontent);
     div.appendChild(content);
     div2.appendChild(a);
     div2.appendChild(b);
 
+    jeu.appendChild(consigne);
     jeu.appendChild(div);
     jeu.appendChild(div2);
 }
