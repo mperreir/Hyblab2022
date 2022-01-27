@@ -1,0 +1,65 @@
+{
+    "france": {
+        "metiers": [
+            96,
+            40,
+            60,
+            127,
+            266,
+            306,
+            448,
+            202
+        ],
+        "pourcentage_metiers": [
+            4.6,
+            1.91,
+            2.87,
+            6.08,
+            12.73,
+            14.65,
+            21.45,
+            9.67
+        ],
+        "ages": [
+            421,
+            217,
+            99,
+            431,
+            413,
+            204,
+            214,
+            90
+        ],
+        "pourcentage_ages": [
+            20.15,
+            10.39,
+            4.74,
+            20.63,
+            19.77,
+            9.77,
+            10.24,
+            4.31
+        ],
+        "diplome_bac+5": 0,
+        "pourcentage_diplome_bac+5": 0,
+        "non_votants": 19422133,
+        "pourcentage_non_votants": 28.99,
+        "abstention": 12101366,
+        "pourcentage_abstention": 18.06,
+        "vote_blanc": 3021499,
+        "pourcentage_vote_blanc": 4.51,
+        "vote_nul": 1064225,
+        "pourcentage_vote_nul": 0,
+        "nouveaux_habitants": 0,
+        "pourcentage_nouveaux_habitants": 0,
+        "mineurs": 0,
+        "pourcentage_mineurs": 0,
+        "etrangers": 0,
+        "pourcentage_etranger": 0,
+        "total_abstention": 0,
+        "pourcentage_total_absention": 0
+    }
+}
+
+
+
