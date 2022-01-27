@@ -1,6 +1,4 @@
-export function getData() {
-    return undefined;
-}
+data = await DataRetrievalController.getData();
 
 /**
  * @name : DataRetrievalController.js
@@ -12,14 +10,13 @@ const axios = require("axios");
 
 const URL_DATA = "https://raw.githubusercontent.com/nsppolls/nsppolls/master/presidentielle.json";
 
-
 class DataRetrievalController {
     /**
      * Calls the nsppolls git repository to retrieve survey information
      * @return {Promise<unknown>} A JSON object containing all the polls
      */
     getData() {
-        return new Promise((resolve, reject) => {
+        const promise = new Promise((resolve, reject) => {
             axios.get(URL_DATA)
                 .then(({status, data}) => {
                     if (status === 200) {
@@ -32,20 +29,25 @@ class DataRetrievalController {
                     reject(error)
                 })
         })
+
+        promise.then((value) => {
+            return this.dataParse(value);
+        });
+    }
+
+    updateData() {
+        setInterval(data = this.getData(), 1000 * 60 * 60);
     }
 
     /**
      * Data parsing function retrieved by the GetData function
      * @return {Promise<void>}
      */
-    async dataParse() {
+    async dataParse(data) {
         /* Creation of lists containing the different types of data */
         let poll_list = [];
         let source_list = [];
         let round_list = [];
-
-        /* Data retrieval */
-        const data = await getData();
     }
 }
 
