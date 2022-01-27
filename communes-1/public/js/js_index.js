@@ -12,7 +12,7 @@ const swiper = new Swiper('#mySwiper', {
 const anjoute_start = document.querySelector('.anjoute_start');
 anjoute_start.classList.add('animate__animated', 'animate__heartBeat', 'animate__infinite', 'infinite');
 
-const container = document.querySelector('#container');
-container.addEventListener('click', () => {
+const first_slide = document.querySelector('#first-slide');
+first_slide.addEventListener('click', () => {
 	window.location.href = 'anjoute-game-1.html';
 });

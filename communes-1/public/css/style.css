@@ -9,7 +9,7 @@
 }
 
 body{
-    background-color: black;
+    background-color: orange;
     color: white;
     overflow: hidden;   /* to avoid slider bugs on some browsers */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -112,9 +112,7 @@ body{
 #bandeau {
     padding-top: 3%;
     width:100%;
-	height: 98.6%;
-    position: absolute;
-    bottom: 0;
+	height: 100%;
     background-color: rgb(162, 151, 173);
     font-size: 20%;
   }
