@@ -165,6 +165,7 @@ body{
     background: #FFFFFF;
     color: #1A367A;
     font-size: 15px;
+    position: relative;
 }
 
 #third-slide div {
@@ -193,23 +194,37 @@ body{
     border-radius: 19px;
     width: 217px;
     height: 33px;
-    height: 33px;
     color: white;
     border: 0;
+}
+
+#categorie {
+    position: absolute;
+    width: 100%;
+    visibility: hidden;
+}
+
+#selection-candidat {
+    position: absolute;
+    width: 100%;
+}
+
+#selection-candidat ul {
+    margin-top: 5%;
+}
+
+#selection-candidat ul li {
+    display: inline;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+#selection-candidat ul li img {
+    width: 20%;
 }
 
 #selection-candidat p {
     margin-bottom: 5%;
-}
-
-#decouvrir button {
-    margin-top: 10%;
-    height: 37px;
-    width: 191px;
-    border-radius: 19px;
-    color: white;
-    background-color: #5571E5;
-    border: 0;
 }
 
 #third-slide footer{

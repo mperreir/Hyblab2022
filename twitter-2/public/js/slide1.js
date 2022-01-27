@@ -17,7 +17,7 @@ const initSlide1 = async function(){
     loop: true
   });
 
-  // Retrieve the partner's topic from our API
+ /* // Retrieve the partner's topic from our API
   let response = await fetch('api/topic');
   const data1 = await response.json();
 
@@ -29,5 +29,5 @@ const initSlide1 = async function(){
   const footer = document.querySelector('footer');
   const p = document.createElement('p');
   //p.textContent = `Our topic is "${data1.topic}" and here is "${data2.message}" retrieved on the server.`;
-  footer.appendChild(p);
+  footer.appendChild(p);*/
 };
