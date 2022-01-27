@@ -1,7 +1,7 @@
 'use strict'
 
 page('/communes-2/gameRule', async function () {
-    await renderTemplate(templates('./templates/affirmation.mustache'));
+    await renderTemplate(templates('./templates/gameRule.mustache'));
 
     const Retourbtn = document.getElementById("boutonRetour");
     Retourbtn.addEventListener('click', function () {
@@ -24,7 +24,7 @@ function plusSlides(n) {
   
   function showSlides(n) {
     var i;
-    var slides = document.getElementsByClassName("affirmation");
+    var slides = document.getElementsByClassName("tips-content");
     var dots = document.getElementsByClassName("dot");
     if (n > slides.length) {slideIndex = 1}
       if (n < 1) {slideIndex = slides.length}
