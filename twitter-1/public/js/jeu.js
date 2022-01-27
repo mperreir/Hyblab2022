@@ -3,7 +3,7 @@
 
 function Reponse(q, is_success){
     let jeu = document.querySelector('#jeu');
-    question = document.querySelector('#question');
+    let question = document.querySelector('#question');
     let reponse = document.querySelector('#reponses');
 
     jeu.removeChild(question);
