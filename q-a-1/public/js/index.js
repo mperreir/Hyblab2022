@@ -9,9 +9,10 @@ const swiper = new Swiper("#mySwiper", {
   },
 });
 
+
 // Wait for the video to preload and display 1st slide
-const video = videojs(document.querySelector('#background-video'));
-video.one('loadeddata', (event) => { 
+//const video = videojs(document.querySelector('#background-video'));
+ 
   // fade out the loader "slide"
   // and send it to the back (z-index = -1)
   anime({
@@ -26,4 +27,5 @@ video.one('loadeddata', (event) => {
   // Debug trace because the loadeddata event is
   // sometime not fired
   console.log("Video loaded");
-});
+
+

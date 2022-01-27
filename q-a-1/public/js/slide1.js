@@ -4,7 +4,7 @@
 const initSlide1 = async function(){
 
   // Animate hyblab logo and make shrink on click
-  anime({
+  /*anime({
     targets: '#logo-hyblab',
     scale: '1.2',
     easing: 'easeInOutQuad',
@@ -20,7 +20,8 @@ const initSlide1 = async function(){
       });
     swiper.slideNext()
     initSlide2();
-  });
+  });*/
+  //initSlide2();
 
   // Retrieve the partner's topic from our API
   let response = await fetch('api/topic');
