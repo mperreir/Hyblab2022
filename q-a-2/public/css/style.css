@@ -305,6 +305,7 @@ body{
     /* We set a default font size here. It will be the base for all other font sizes */
     /* Here the font size is proportional to display width */
     body{
+        background-color: white;
         font-size: calc(12vw*16/9);
     }
 }
