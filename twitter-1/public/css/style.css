@@ -63,28 +63,6 @@ body{
 /* Pour que la vidéo remplisse son conteneur (elle sera un peu coupée si nécessaire...) */
 .vjs-tech { object-fit: cover; }
 
-#myUL {
-    /* Remove default list styling */
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-#myUL li a {
-    border: 1px solid #ddd; /* Add a border to all links */
-    margin-top: -1px; /* Prevent double borders */
-    background-color: #f6f6f6; /* Grey background color */
-    padding: 3px; /* Add some padding */
-    text-decoration: none; /* Remove default text underline */
-    font-size: 18px; /* Increase the font-size */
-    color: black; /* Add a black text color */
-    display: block; /* Make it into a block element to fill the whole list */
-}
-
-#myUL li a:hover:not(.header) {
-    background-color: #eee; /* Add a hover effect to all links, except for headers */
-}
-
 /* Most of the elements in this demo are absolute positionned with percentages */
 #first-slide header{
     text-align: center;
