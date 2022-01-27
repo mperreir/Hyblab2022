@@ -1,9 +1,13 @@
 "use strict";
 
+const pages = [
+  
+];
+
 class App extends React.Component {
   render() {
       return <div>
-          <TestComponent />
+          <Header step={1} nbSteps={8} />
       </div>
   }
 }
