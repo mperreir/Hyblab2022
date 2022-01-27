@@ -19,9 +19,9 @@ body{
 }
 
 #container {
-    color: black;
+    color:#1A367A;
     padding-top: 3vh;
-    font-size: 30%;
+    font-size: 35%;
     height:100vh;
     overflow: hidden;
 }
@@ -34,10 +34,30 @@ body{
 }
 #testez_connaissances{
     text-align: center;
+    padding-right: 20vw;
+    padding-left: 20vw;
 }
 
 #testez_connaissances p{
     margin-top: 5vh;
+}
+#commencer-section{
+    display: flex;
+    justify-content: center;
+}
+
+#commencer{
+    background-color: #5571E5;
+    color: #FFFFFF;
+    border-radius: 19px;
+    font-size: 1.5rem;
+    text-align: center;
+    width:65vw;
+    height:6vh;
+    margin-top: 10vh;
+    line-height: 6vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
 /* ---------- Important media queries for easy responsive content :-) ----------------- */
 /* Can be adapted for other ratios that 9:16 or for horizontal content (ex: 16:9) */
