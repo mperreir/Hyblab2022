@@ -1,0 +1,73 @@
+.btn-accueil{  
+    width: 8em;
+    height: 3em;
+    font-size: 20px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 50px;
+    transition: transform 250ms;
+}
+
+.btn-accueil:hover{
+    cursor: pointer;
+}
+
+.btn-menu{  
+    width: 91px;
+    height: 83px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    transition: transform 250ms;
+}
+
+.btn-menu:hover{
+    cursor: pointer;
+}
+
+.btn-bleu{
+    background-color: #282246;
+    color: whitesmoke;
+}
+
+.btn-bleu:hover{
+    background-color: whitesmoke;
+    color: #282246;
+}
+
+.btn-bleuClair{
+    background-color: #5B6C9A;
+    color: whitesmoke;
+}
+
+.btn-bleuClair:hover{
+    background-color: whitesmoke;
+    color: #5B6C9A;
+}
+
+.btn-vert{
+    background-color: #83C49E;
+    color: whitesmoke;
+}
+
+.btn-vert:hover{
+    background-color: whitesmoke;
+    color: #83C49E;
+}
+
+.btn-rouge{
+    background-color: #EA6D5B;
+    color: whitesmoke;
+}
+
+.btn-rouge:hover{
+    background-color: whitesmoke;
+    color: #EA6D5B;
+}
+
+#boutonRetour{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 10px 10px 10px;
+}

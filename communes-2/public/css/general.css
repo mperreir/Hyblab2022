@@ -1,0 +1,158 @@
+/* ------- Important ! Please at least keep the last part of this CSS ----------- */
+/* that forces a 9:16 format (portrait) on all contents */
+
+/* This media query ensures that we allways will the width of the screen */
+/* as long as the screen aspect ratio is below 9:16 */
+@media screen and (max-aspect-ratio: 9/16){
+    #container{
+        margin-top: calc((100vh - 100 * 16vw / 9) / 2);
+        width: 100vw;
+        height: calc(100 * 16vw / 9);
+    }
+
+    /* We set a default font size here. It will be the base for all other font sizes */
+    /* Here the font size is proportional to display width */
+    body{
+        font-size: calc(12vw*16/9);
+    }
+}
+
+/* This media query ensures that we allways will the height of the screen */
+/* as long as the screen aspect ratio is higher than 9:16 */
+@media screen and (min-aspect-ratio: 9/16){
+    #container{
+        margin-left: calc((100vw - 100 * 9vh / 16) / 2);
+        width: calc(100 * 9vh / 16);
+        height: 100vh;
+    }
+
+    /* We set a default font size here. It will be the base for all other font sizes */
+    /* Here the font size is proportional to display height */
+    body{
+        font-size: 12vh;
+    }
+}
+
+/* Normalize margin and padding to ease elements positioning */
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-color: black;
+    color: white;
+    overflow: hidden;   /* to avoid slider bugs on some browsers */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#container{
+    position: relative; /* for absolute positionning of child elements*/
+}
+
+/* -------------- Loader --------------*/
+#loader{
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#loader-img{
+    display: block;
+}
+
+#loader-text{
+    text-align: center;
+    font-size: 15%;
+    font-family: 'Century Gothic';
+    margin-top: 5%;
+    color: #282246;
+}
+#loader-text > i{
+    font-size: 10px;
+    font-style: normal;
+
+}
+
+/* Swiper slider. Need to fill the 9:16 constrained container */
+#mySwiper{
+    width: 100%;
+    height:100%;
+    position: absolute;
+}
+
+/* white navigation bullets */
+.swiper-pagination-bullet-active {
+    background-color: white !important;
+}
+
+/* the slides and the loader should fill the whole 9:16 zone */
+.swiper-wrapper section, #loader, #main{
+    background-color: #f0e4d8;
+    /*background-color: dodgerblue;*/
+    width: 100%;
+    height: 100%;
+}
+
+/* Pour que la vidéo remplisse son conteneur (elle sera un peu coupée si nécessaire...) */
+.vjs-tech { object-fit: cover; }
+
+/* Menu box */
+.menu-box{
+    height: 100vh;
+}
+
+.center{
+    display: block;
+    margin: 0 auto;
+}
+
+/* Alignement box*/
+.vertical-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.horizontal-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.decalageBottom50{
+    margin-bottom: 50%;
+}
+
+.decalageBottom30{
+    margin-bottom: 30%;
+}
+
+.decalageBottom15{
+    margin-bottom: 15%;
+}
+
+.decalageBottom5{
+    margin-bottom: 5%;
+}
+
+.genericText{
+    font-size: 15%;
+    color: #282246;
+}
+
+.textZone{
+    font-size: 15%;
+    background-color: #282246;
+    padding: 10px 60px 10px 60px;
+    border-radius: 50px;
+}
+
+.logo {
+    margin-top: 5%;
+}
