@@ -1,64 +1,13 @@
 
-(() => Suivant())();
+(() => Suivant(10,0,0))();
 
-function Reponse(q, is_success){
+async function Suivant(temps,score,total) {
+
     let jeu = document.querySelector('#jeu');
-    let question = document.querySelector('#question');
-    let reponse = document.querySelector('#reponses');
-
-    jeu.removeChild(consigne);
-    jeu.removeChild(question);
-    jeu.removeChild(reponse);
-
-
-    let div = document.createElement('div');
-    div.setAttribute("id",'reponse');
-    div.style.width = "80%";
-    div.style.minHeight = "50px";
-    div.style.marginLeft = "7%";
-    div.style.overflow = "hidden";
-    div.style.background="white";
-    div.style.marginTop = "5%";
-    div.style.borderRadius = "15px 15px 15px 15px";
-    div.style.border = "2px solid black";
-    div.style.padding = "5px";
-
-    let content;
-    if (is_success) {
-        content = document.createTextNode("La réponse à cette question est VRAI ! La réponse est bien "
-            + q.true_response.name);
-
-    } else {
-        content = document.createTextNode("La réponse à cette question est FAUSSE ! La réponse est "
-            + q.true_response.name);
-    }
-
-    let suiv = document.createElement('input');
-    suiv.setAttribute("type", "button");
-    suiv.setAttribute("value", "Suivant");
-    suiv.setAttribute("id", "suivant");
-    suiv.style.width= "30%";
-    suiv.style.height= "40px";
-    suiv.style.marginLeft = "17%";
-    suiv.style.marginRight = "5%";
-    suiv.style.marginTop = "5%";
-    suiv.style.borderRadius = "10px 10px 10px 10px";
-    suiv.addEventListener('click', Suivant);
-
-    div.appendChild(content);
     
-    jeu.appendChild(div);
-    jeu.appendChild(suiv);
-}
-
-async function Suivant() {
-
-    let jeu = document.querySelector('#jeu');
-    let reponse = document.querySelector('#reponse');
-
     try {
+        jeu.removeChild(question);
         jeu.removeChild(reponse);
-        jeu.removeChild(suivant);
     } catch {}
 
     const question = await fetchResponse();
@@ -74,12 +23,6 @@ async function Suivant() {
     div.style.borderRadius = "15px 15px 15px 15px";
     div.style.border = "2px solid black";
     div.style.padding = "5px";
-
-    let consigne = document.createElement('div');
-    consigne.setAttribute("id", 'consigne');
-    consigne.style.font="Lucida Grande";
-
-    let consignecontent = document.createTextNode("Mais a qui est ce Tweet ?");
 
     let content = document.createTextNode(question.text);
 
@@ -97,7 +40,7 @@ async function Suivant() {
     a.style.marginRight = "5%";
     a.style.marginTop = "5%";
     a.style.borderRadius = "10px 10px 10px 10px";
-    a.addEventListener('click', () => Reponse(question, question.is_response_1_true));
+    a.addEventListener('click', () => Reponse(a, question.is_response_1_true, temps, interval, score, total));
 
     let b = document.createElement('input');
     b.setAttribute("type", "button");
@@ -106,17 +49,82 @@ async function Suivant() {
     b.style.width = "30%";
     b.style.height = "40px";
     b.style.borderRadius = "10px 10px 10px 10px";
-    b.addEventListener('click', () => Reponse(question, !question.is_response_1_true));
+    b.addEventListener('click', () => { 
+        if(!question.is_response_1_true){
+            b.style.backgroundColor = "green";
+        }else{
+            b.style.backgroundColor = "red";
+        };
+        Reponse(b, !question.is_response_1_true, temps, interval, score, total);
+    });
 
-    consigne.appendChild(consignecontent);
     div.appendChild(content);
     div2.appendChild(a);
     div2.appendChild(b);
 
-    jeu.appendChild(consigne);
     jeu.appendChild(div);
     jeu.appendChild(div2);
+
+    let timerElement = document.getElementById("timer")
+    interval = setInterval(() => {
+        let secondes = temps;
+    
+        secondes = secondes < 10 ? "0" + secondes : secondes
+      
+        timerElement.innerText = `00:${secondes}`
+        temps = temps <= 0 ? 0 : temps - 1
+        if(temps==0){
+            finJeu(score,total);
+        }
+      }, 1000)
+    
+    
+    
 }
+
+
+function Reponse(button, is_success, temps, interval, score, total){
+    
+    let jeu = document.querySelector('#jeu');
+
+    if (is_success) {
+        button.style.background="green";
+        score +=1;
+
+    }else{
+        button.style.background="red";
+    }
+    total +=1;
+
+    let question = document.querySelector('#question');
+    let reponse = document.querySelector('#reponses');
+
+    jeu.removeChild(question);
+    jeu.removeChild(reponse);
+    
+    clearInterval(interval);
+    Suivant(temps, score,total);
+
+}
+ 
+function finJeu(score,total){
+    let jeu = document.querySelector('#jeu');
+
+    let question = document.querySelector('#question');
+    let reponse = document.querySelector('#reponses');
+    
+    jeu.removeChild(question);
+    jeu.removeChild(reponse);
+
+    let div = document.createElement('div');
+    div.setAttribute("id", 'finjeu');
+
+    let content = document.createTextNode("Vous avez eu " + score + " bonnes réponses sur " + total + " questions !!");
+    div.appendChild(content);
+    jeu.appendChild(div);
+
+}
+
 
 async function fetchResponse() {
     let result;
