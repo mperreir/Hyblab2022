@@ -167,6 +167,7 @@ body{
     font-family: 'Spicy Rise', Arial, Helvetica, sans-serif;
     height: 8vh;
     width: 30vh;
+    cursor: pointer;
 }
 
 .button:active {
@@ -174,13 +175,13 @@ body{
     background-color: white;
 }
 
-.button_black {
+.button_white {
     color: black;
     background-color: white;
     border: solid white;
 }
 
-.button_black:active {
+.button_white:active {
     color:white;
     background-color: black;
 }

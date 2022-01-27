@@ -10,14 +10,13 @@ class App extends React.Component {
         <div>
           <Header step={1} nbSteps={8} />
           <div style={{"paddingTop": "10px", "marginLeft": "10px"}}>
-            <Button disabled={false} negative={false} onClick={() => { } } value="C'est parti !" />
+            <Button disabled={false} white={false} onClick={() => { } } value="C'est parti !" />
           </div>
           <div style={{"marginTop": "20px", "marginLeft": "10px"}}>
               <LearnMore link="#" />
           </div>
         </div>
       );
-      return 
   }
 }
 

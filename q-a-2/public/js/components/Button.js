@@ -6,7 +6,7 @@ class Button extends React.Component {
     render() {
         return (
             <button className={'button ' + 
-                                (this.props.disabled ? 'button_disabled ' : ' ') + (this.props.negative ? 'button_negative' : ' ')} 
+                                (this.props.disabled ? 'button_disabled ' : ' ') + (this.props.white ? 'button_white' : ' ')} 
                 onClick={() => this.props.onClick()
             }>
                 {this.props.value}
