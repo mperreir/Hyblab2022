@@ -135,12 +135,13 @@
 
 const initSlide3 = async function(){
   
-  //Add name of the candidats from the database to the profil
-
+  //Add name of the candidats from the database to the profil page
   let response = await fetch('api/candidat/all');
-  const candidat = await response.json();
-  const nom1 = document.querySelector('#btn-1');
-  const child = nom1.childNodes;
-  nom1.childNodes[1].data = `${candidat[0].name}`;
+  const candidats = await response.json();
+
+  //Get the candidats from html document
+  const noms = document.querySelector('#candidats');
+  noms.removeChild(noms.firstChild)
+  noms.childNodes.forEach((nom, nom_index) => {if(nom_index%2 == 0) nom.childNodes[1].data = `${candidats[nom_index/2].name}`});
 
 };
