@@ -15,6 +15,18 @@
     <script src="https://unpkg.com/science@1.9.3/science.v1.min.js"></script>
 
     <script>
+        function getDaysBetween(start, end) {
+            let days = [];
+            let dt = start
+            while(dt <= end){
+                let [date, heure] = dt.toISOString().split('T')
+                days.push(date);
+                dt.setDate(dt.getDate()+1);
+            }
+            return days;
+        }
+
+
 
         const URL_DATA = "https://raw.githubusercontent.com/nsppolls/nsppolls/master/presidentielle.json"
 
@@ -82,7 +94,40 @@
 
             const points = Object.keys(data).map(candidat => {
 
-                const [dx, dy] = moyenne(data[candidat]["x"], data[candidat]["y"])
+                const [dx, dy] = moyenne(data[candidat]["x"], data[candidat]["y"]);
+
+
+                // dx complèt
+                const days = getDaysBetween(new Date(dx[0] + 'T12:00:00'), new Date(dx[dx.length-1]+'T12:00:00'));                
+
+                // dy complet
+                let intentions = [];
+                let currDateIndex = -1;
+                let changes = [];
+
+                for (let i = 0; i < days.length; i++){
+                    if (i == 0 || (currDateIndex < dx.length-1 && days[i] === dx[currDateIndex+1]) ){
+                        currDateIndex++;
+                        changes.push(i);
+                    }
+                    intentions.push(dy[currDateIndex]);
+                }
+
+                console.log(changes);
+                console.log(dy)
+                let currChange = 0;
+                
+                for (let j = 0; j < days.length - 1; j++){
+                    if (j == changes[currChange+1]){
+                        currChange++;
+                    }
+                    if (j != changes[currChange]){
+                        //console.log('j '+j + ' currchange ' + currChange)
+                        //console.log(changes[currChange], changes[currChange+1])
+                        intentions[j] = (intentions[changes[currChange+1]] - intentions[changes[currChange]]) / (changes[currChange+1] - changes[currChange]) * (j-changes[currChange]) + intentions[changes[currChange+1]];
+                    }
+                }
+                console.log(intentions)
 
                 const result = [
                     // {
@@ -104,8 +149,8 @@
                         name: "moyliss-" + candidat,
                         type: "lines",
                         type: 'scatter',
-                        x: dx,
-                        y: loess_values
+                        x: days,
+                        y: intentions
                     })
                 }
 
