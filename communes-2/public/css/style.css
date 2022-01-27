@@ -115,7 +115,7 @@ body{
     height:25%;
     position: absolute;
     bottom: 0;
-    background-color: white;
+    background-color: none;
     font-size: 20%;
   }
 
@@ -263,26 +263,35 @@ body{
 
 .tips{
     position: absolute;
-    bottom: 0;
-    width: auto;
-    height: 15rem;
+    bottom: 40%;
+    margin-left: 30px;
+    margin-right: 30px;
+
+    height: 20rem;
     border: none;
     box-shadow: rgba(0, 0, 0, 0.17) 0px -15px 15px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px;
 
-    background-color: #ffffff;
-    color: #282246;
+    background-color: #282246;
+    color: #f0e4d8;
     
     background-position: 9px 0px;
     background-repeat: no-repeat;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
+
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
     line-height: 18px;
     overflow: hidden;
     padding: 15px 60px;
 }
+
 .tips > h6{
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #f0e4d8;
 }
 
 .text{
