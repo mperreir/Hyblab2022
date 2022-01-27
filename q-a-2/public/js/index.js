@@ -2,9 +2,11 @@
 
 class App extends React.Component {
   render() {
-      return <div>
-          <TestComponent />
-      </div>
+      return (
+        <div>
+            <QuestionCard questionTitle={'Étape 1'} question={'Puis-je peux candidater aux élections présidentielles dès ma majorité en France (18 ans)?'} answer={'Oui d’après la Loi Organique du code électoral, il est nécessaire d’avoir 18 ans révolus et la nationalité française pour pouvoir candidater aux élections présidentielles.'} />
+        </div>
+      );
   }
 }
 
