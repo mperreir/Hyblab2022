@@ -1,7 +1,7 @@
 'use strict'
 
-page('/communes-2/game', async function () {
-    await renderTemplate(templates('./templates/game.mustache'));
+page('/communes-2/choixGame', async function () {
+    await renderTemplate(templates('./templates/choixGame.mustache'));
 
     const Retourbtn = document.getElementById("boutonRetour");
     Retourbtn.addEventListener('click', function () {

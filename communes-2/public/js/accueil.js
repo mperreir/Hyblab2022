@@ -13,7 +13,7 @@ page('/communes-2/', async function () {
 
     const play_btn = document.getElementById("play-btn");
     play_btn.addEventListener('click', function () {
-        page('/communes-2/game');
+        page('/communes-2/choixGame');
     });
 
     const apropos = document.getElementById("apropos-btn");
