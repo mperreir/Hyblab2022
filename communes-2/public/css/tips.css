@@ -12,7 +12,7 @@
 
 .tips{
     position: absolute;
-    top: 5%;
+    top: 10%;
     margin-left: 30px;
     margin-right: 30px;
 
@@ -39,7 +39,7 @@
 
 .tips > h6{
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 25%;
 
     text-align: center;
 }
@@ -50,7 +50,7 @@
     margin-bottom: 20px;
 }
 .tips-content{
-    font-size: 10px;
+    font-size: 18%;
     line-height: 30px;
     text-align: center;
     display: none;
@@ -86,7 +86,7 @@
 /* The dot/bullet/indicator container */
 .dot-container {
     text-align: center;
-    padding: 20px;
+    padding-bottom: 10px;
     background: none;
 }
 
