@@ -1,0 +1,92 @@
+
+.text-color-blue {
+    color: #0039ff;
+}
+
+.text-color-red {
+    color: #ff4800;
+}
+
+.folder-container {
+    font-family: 'CabinetGrotesk-Bold';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0%;
+    height: 100%;
+    background-color: #e5e6f9;
+}
+
+.folder-header {
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    width: 100%;
+    height: 20%;
+    margin-bottom: 10%;
+}
+
+.folder-header-center {
+    text-align: center;
+}
+
+.folder-header-left {
+    background-color: #0039ff;
+}
+
+.folder-header-right {
+    background-color: #ff4800;
+}
+
+.folder-numbers {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.folder-numbers-number {
+    color: #ff4800;
+    font-weight: bold;
+    font-size: 4em;
+}
+
+.folder-numbers-hab {
+    color: #ff4800;
+    font-weight: bold;
+}
+
+.folder-numbers-percent {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    color: #ff4800;
+}
+
+.folder-separator {
+    width: 50%;
+    color: #ff4800;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.folder-resume {
+    width: 80%;
+    margin-top: 30px;
+    color: #ff4800;
+}
+
+.folder-message-line {
+    margin-top: 40px;
+    width: 80%;
+}
+
+.folder-links {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.folder-link {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
