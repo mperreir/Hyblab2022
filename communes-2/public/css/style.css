@@ -464,3 +464,9 @@ body{
 .logo {
     margin-top: 5%;
 }
+
+.affirmation{
+    display: inline-block;
+    vertical-align: middle;
+    top: 0;
+}
