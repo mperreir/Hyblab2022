@@ -9,5 +9,3 @@ page('/communes-2/gameChoice', async function () {
     });
 });
 
-
-
