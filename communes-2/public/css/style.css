@@ -207,11 +207,7 @@ body{
     margin: 0 auto;
 }
 
-/*Logo*/
-.logo {
-    margin-top: 5%;
-}
-
+/* Alignement box*/
 .vertical-box{
     display: flex;
     flex-direction: column;
@@ -234,16 +230,64 @@ body{
     margin-bottom: 30px;
     border: none;
     border-radius: 50px;
-    background-color: #282246;
-    color: whitesmoke;
     transition: transform 250ms;
 }
 
-
 .btn-accueil:hover{
     cursor: pointer;
+}
+
+.btn-menu{  
+    width: 91px;
+    height: 83px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    transition: transform 250ms;
+}
+
+.btn-menu:hover{
+    cursor: pointer;
+}
+
+.btn-bleu{
+    background-color: #282246;
+    color: whitesmoke;
+}
+
+.btn-bleu:hover{
     background-color: whitesmoke;
     color: #282246;
+}
+
+.btn-bleuClair{
+    background-color: #5B6C9A;
+    color: whitesmoke;
+}
+
+.btn-bleuClair:hover{
+    background-color: whitesmoke;
+    color: #5B6C9A;
+}
+
+.btn-vert{
+    background-color: #83C49E;
+    color: whitesmoke;
+}
+
+.btn-vert:hover{
+    background-color: whitesmoke;
+    color: #83C49E;
+}
+
+.btn-rouge{
+    background-color: #EA6D5B;
+    color: whitesmoke;
+}
+
+.btn-rouge:hover{
+    background-color: whitesmoke;
+    color: #EA6D5B;
 }
 
 /*Tips panel*/
@@ -289,23 +333,23 @@ body{
 
     line-height: 18px;
     overflow: hidden;
-    padding: 15px 50px;
+    padding: 15px 60px;
+
+    text-align: center;
 }
 
 .tips > h6{
     margin-top: 20px;
     font-size: 20px;
-    padding-bottom: 15px;
-    border-bottom: 1px solid #f0e4d8;
+
+    text-align: center;
 }
 
 .text{
     position: relative;
     margin-top: 20px;
     margin-bottom: 20px;
-    line-height: 25px;
 }
-
 .tips-content{
     font-size: 20px;
     line-height: 30px;
@@ -331,10 +375,11 @@ body{
   
 /* Position the "next button" to the right */
 .next {
-position: absolute;
-right: 0;
-border-radius: 3px 0 0 3px;
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
 } 
+
 .prev {
     position: absolute;
     left: 0;
@@ -342,30 +387,26 @@ border-radius: 3px 0 0 3px;
 } 
 /* The dot/bullet/indicator container */
 .dot-container {
-text-align: center;
-padding: 20px;
-background: none;
+    text-align: center;
+    padding: 20px;
+    background: none;
 }
 
 /* The dots/bullets/indicators */
 .dot {
-cursor: pointer;
-height: 10px;
-width: 10px;
-margin: 0 2px;
-background-color: #f0e4d8;
-border-radius: 50%;
-display: inline-block;
-transition: background-color 0.6s ease;
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #f0e4d8;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
 }
 
 /* Add a background color to the active dot/circle */
 .active, .dot:hover {
     background-color: #ED6464;
-}
-
-.button-list{
-
 }
 
 .button{
@@ -395,13 +436,6 @@ transition: background-color 0.6s ease;
     padding: 10px 10px 10px 10px;
 }
 
-.bandeauHeader{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
 .decalageBottom50{
     margin-bottom: 50%;
 }
@@ -410,9 +444,26 @@ transition: background-color 0.6s ease;
     margin-bottom: 30%;
 }
 
+.decalageBottom15{
+    margin-bottom: 15%;
+}
+
+.decalageBottom5{
+    margin-bottom: 5%;
+}
+
+.genericText{
+    font-size: 15%;
+    color: #282246;
+}
+
 .textZone{
     font-size: 15%;
     background-color: #282246;
     padding: 10px 60px 10px 60px;
     border-radius: 50px;
+}
+
+.logo {
+    margin-top: 5%;
 }
