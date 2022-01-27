@@ -279,15 +279,21 @@ body{
     line-height: 18px;
     overflow: hidden;
     padding: 15px 60px;
+
+    text-align: center;
 }
 .tips > h6{
     margin-top: 10px;
     font-size: 20px;
+
+    text-align: center;
 }
 
 .text{
     margin-top: 20px;
     margin-bottom: 20px;
+
+    text-align: center;
 }
 
 .button-list{
@@ -323,4 +329,10 @@ body{
     top: 0;
     left: 0;
     padding: 10px 10px 10px 10px;
+}
+
+.affirmation{
+    text-align: justify;
+    text-justify: inter-word;
+
 }
