@@ -1,29 +1,25 @@
 "use strict";
 
-// Init of the (touch friendly) Swiper slider
+const slideHandler = function(e){
+  const init_func = [homepage_slide, init_p1, init_default, init_default, init_default, init_p5, init_p6, init_default, init_default];
+  // console.log(e.activeIndex);
+  init_func[e.activeIndex].call(e);
+
+}
+const init_default = function(){
+  console.log("To be developped...")
+}
+
 const swiper = new Swiper("#mySwiper", {
-  direction: "vertical",
-  pagination: {
+  direction: "horizontal",
+  // allowTouchMove: false,
+   pagination: {
     el: ".swiper-pagination",
     clickable: true,
   },
+  on : { 'slideChange' : slideHandler}
 });
 
-// Wait for the video to preload and display 1st slide
-const video = videojs(document.querySelector('#background-video'));
-video.one('loadeddata', (event) => { 
-  // fade out the loader "slide"
-  // and send it to the back (z-index = -1)
-  anime({
-    delay: 1000,
-    targets: '#loader',
-    opacity: '0',
-    'z-index' : -1,
-    easing: 'easeOutQuad',
-  });
-  // Init first slide
-  initSlide1();
-  // Debug trace because the loadeddata event is
-  // sometime not fired
-  console.log("Video loaded");
-});
+const wrapper_nextSlide = function(){
+  swiper.slideNext();
+};

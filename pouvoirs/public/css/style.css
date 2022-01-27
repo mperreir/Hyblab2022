@@ -1,191 +1,209 @@
 /* ------- Important ! Please at least keep the last part of this CSS ----------- */
 /* that forces a 9:16 format (portrait) on all contents */
 
-
 /* Normalize margin and padding to ease elements positioning */
-*{
-    padding:0;
-    margin:0;
+* {
+  padding: 0;
+  margin: 0;
+  width: 100%;
 }
 
-body{
-    background-color: black;
-    color: white;
-    overflow: hidden;   /* to avoid slider bugs on some browsers */
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+body {
+  background-color: black;
+  color: #e5e5e5;
+  overflow: hidden; /* to avoid slider bugs on some browsers */
+  font-family: "Futura", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-#container{
-    position: relative; /* for absolute positionning of child elements*/
+#container {
+  position: relative; /* for absolute positionning of child elements*/
 }
-
-/* -------------- Loader --------------*/
-#loader{
-    z-index: 2;
-    position:absolute;
-}
-
-#loader-img{
-    top:40%;
-    left:40%;
-    position: absolute;
-}
-
-#loader-text{
-    text-align: center;
-    font-size: 25%;
-    position: absolute;
-    top:60%;
-    width: 100%
-}
-/* -------------- End of Loader --------------*/
 
 /* Swiper slider. Need to fill the 9:16 constrained container */
-#mySwiper{
-    width: 100%;
-    height:100%;
-    position: absolute;
+#mySwiper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.swiper-pagination {
+  height: 0% !important;
+}
+.swiper-pagination-bullet {
+  background-color: #d4c2f0 !important;
 }
 
-/* white navigation bullets */
 .swiper-pagination-bullet-active {
-    background-color: white !important;
+  background-color: #4f00ec !important;
 }
 
 /* the slides and the loader should fill the whole 9:16 zone */
-.swiper-wrapper section, #loader{
-    background-color: dodgerblue;
-    width: 100%;
-    height: 100%;
+.swiper-wrapper section {
+  background-color: #e5e5e5;
+  width: 100%;
+  height: 100%;
 }
 
-/* Pour que la vidéo remplisse son conteneur (elle sera un peu coupée si nécessaire...) */
-.vjs-tech { object-fit: cover; }
-
-/* Most of the elements in this demo are absolute positionned with percentages */
-#first-slide header{
-    text-align: center;
-    width: 100%;
-    top: 10%;
-    position: absolute;
-    font-size: 30%;
-    z-index: 2;
+/* Styles for the homepage */
+#homepage {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  align-items: center;
 }
 
-#logo-hyblab{
-    text-align: center;
-    width: 50%;
-    left: 50%;
-    top: 50%;
-    margin-left:-25%;
-    margin-top:calc(-7.5% * 9 / 16 ); /* margins are relative to the element width... :-( */
-    position: absolute;
-    font-size: 50%;
-    z-index: 2;
-    cursor: pointer;
+.logo-container {
+  width: 100%;
+  height: 25%;
+  background-color: blue;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
 
-/* Last slide image is centered */
-#img-fini{
-    width: 50%;
-    left: 50%;
-    top: 40%;
-    position: absolute;
-    margin-left:-25%;
-    margin-top:calc(-25% * 9 / 16 ); /* margins are relative to the element width... :-( */
+.logo-container img {
+  width: 50%;
+}
+#illustration {
+  height: 55%;
+  background-color: red;
+  width: 100%;
 }
 
-/* Footer of last slide is at the bottom and content is centered */
-#first-slide footer{
-    bottom: 5%;
-    position: absolute;
-    font-size: 20%;
-    text-align: center;
-    padding: 0 1em;
+.button-container {
+  width: 100%;
+  min-height: 20%;
+  background-color: purple;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+#play-button {
+  height: 30%;
+  width: 40%;
+}
 
-/* ---------- Positionning of logos on the last slide ----------------- */
-/* here we have a contraint on the height of the logos (not the width) */
-/* so we cannot use % and use em (which are proportinal to the size of the */
-/* slide because of body's font size rule at the beginning of this CSS */
-#bandeau {
-    padding-top: 3%;
-    width:100%;
-    height:25%;
-    position: absolute;
-    bottom: 0;
-    background-color: white;
-    font-size: 20%;
-  }
+.loading-bar-container {
+  visibility: hidden;
+  height: 10%;
+  width: 80%;
+  background-color: green;
+}
 
-  #bandeau li{
-    list-style-type: none;
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0 0.5em;
-  }
+#homepage p {
+  margin-top: 10px;
+  font-size: 20%;
+  width: 80%;
+  text-align: center;
+}
 
-  #bandeau img{
-    height: 1.5em;
-  }
+#headphone {
+  display: none;
+  opacity: 0;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+  /*height: 20%;*/
+  padding: 5%;
+}
 
-  #bandeau #hyblab{
-    margin: 1em auto;
-    height: 3em;
-    display: block;
-  }
+#headphone-img {
+  width: 20%;
+}
 
-  #bandeau #cc, #bandeau #opensource
-  {
-    height: 1em;
-  }
+#headphone img {
+  display: block;
+  width: 50px;
+  height: 50px;
+}
 
-  #bandeau .stacked{
-    display:block;
-  }
+/* Styles for all "power" sections */
 
-  #bandeau ul{
-    text-align: center;
-    padding: 0 0;
-  }
+.pouvoir-header {
+  width: 90%;
+}
+#callAnimation {
+  background-color: #4f00ec;
+  width: auto;
+  height: 400px;
+}
+.phoneButton {
+  margin: auto;
+  width: 80px;
+  height: 73px;
+  cursor: pointer;
+}
+.phoneButton img {
+  border: 3px solid #fffcfc;
+  border-radius: 50%;
+}
+.phoneButton:hover {
+  opacity: 75%;
+}
 
-  #bandeau .institutionnel
-  {
-    height: 2em;
-  }
+#p6 .dialog-before {
+  display: none;
+  background-color: red;
+  height: 30%;
+}
+
+#p6 .dialog-pressed {
+  display: none;
+  background-color: red;
+  height: 30%;
+}
+
+#p6 .dialog-not-pressed {
+  display: none;
+  background-color: red;
+  height: 30%;
+}
+
+#p6 .decompte {
+  display: none;
+  background-color: green;
+  height: 30%;
+}
+
+#p6 .bouton-rouge {
+  display: none;
+  background-color: blue;
+  height: 30%;
+}
 
 /* ---------- Important media queries for easy responsive content :-) ----------------- */
 /* Can be adapted for other ratios that 9:16 or for horizontal content (ex: 16:9) */
 
 /* This media query ensures that we allways will the width of the screen */
 /* as long as the screen aspect ratio is below 9:16 */
-@media screen and (max-aspect-ratio: 9/16){
-    #container{
-        margin-top: calc((100vh - 100 * 16vw / 9) / 2);
-        width: 100vw;
-        height: calc(100 * 16vw / 9);
-    }
+@media screen and (max-aspect-ratio: 9/16) {
+  #container {
+    margin-top: calc((100vh - 100 * 16vw / 9) / 2);
+    width: 100vw;
+    height: calc(100 * 16vw / 9);
+  }
 
-    /* We set a default font size here. It will be the base for all other font sizes */
-    /* Here the font size is proportional to display width */
-    body{
-        font-size: calc(12vw*16/9);
-    }
+  /* We set a default font size here. It will be the base for all other font sizes */
+  /* Here the font size is proportional to display width */
+  body {
+    font-size: calc(12vw * 16 / 9);
+  }
 }
 
 /* This media query ensures that we allways will the height of the screen */
 /* as long as the screen aspect ratio is higher than 9:16 */
-@media screen and (min-aspect-ratio: 9/16){
-    #container{
-        margin-left: calc((100vw - 100 * 9vh / 16) / 2);
-        width: calc(100 * 9vh / 16);
-        height: 100vh;
-    }
+@media screen and (min-aspect-ratio: 9/16) {
+  #container {
+    margin-left: calc((100vw - 100 * 9vh / 16) / 2);
+    width: calc(100 * 9vh / 16);
+    height: 100vh;
+  }
 
-    /* We set a default font size here. It will be the base for all other font sizes */
-    /* Here the font size is proportional to display height */
-    body{
-        font-size: 12vh;
-    }
+  /* We set a default font size here. It will be the base for all other font sizes */
+  /* Here the font size is proportional to display height */
+  body {
+    font-size: 12vh;
+  }
 }
