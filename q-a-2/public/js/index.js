@@ -1,5 +1,19 @@
 "use strict";
 
+class App extends React.Component {
+  render() {
+      return <div>
+          <TestComponent />
+      </div>
+  }
+}
+
+ReactDOM.render(
+  <App />,
+  document.getElementById('root')
+);
+
+/*
 // Init of the (touch friendly) Swiper slider
 const swiper = new Swiper("#mySwiper", {
   direction: "vertical",
@@ -26,4 +40,4 @@ video.one('loadeddata', (event) => {
   // Debug trace because the loadeddata event is
   // sometime not fired
   console.log("Video loaded");
-});
+});*/
