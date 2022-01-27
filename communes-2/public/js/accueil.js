@@ -16,9 +16,9 @@ page('/communes-2/', async function () {
         page('/communes-2/choixGame');
     });
 
-    const apropos = document.getElementById("apropos-btn");
+    const apropos = document.getElementById("gamerule-btn");
     apropos.addEventListener('click', function () {
-        page('/communes-2/a-propos');
+        page('/communes-2/gamerule');
     });
 });
 
