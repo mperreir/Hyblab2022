@@ -1,3 +1,5 @@
+'use strict'
+
 page('/communes-2/gameRule', async function () {
     await renderTemplate(templates('./templates/gameRule.mustache'));
 
