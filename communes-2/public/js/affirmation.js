@@ -6,21 +6,21 @@ page('/communes-2/affirmation', async function () {
 
     let response = await fetch('api/carte');
     const dataCarte = await response.json();
-    console.log(dataCarte.carte)
+    console.log(dataCarte);
 
 
     var map = L.map('map').setView([46.87,-1.64], 8);
     // On affiche la map google maps derrière.
     var tiles = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
         maxZoom: 18,
-        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
-            'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+        /*attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
+            'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',*/
         id: 'mapbox/light-v9',
         tileSize: 512,
         zoomOffset: -1
     }).addTo(map);
     // On ajoute le fichier GEOJson comme une couche.
-    L.geoJson(dataCarte.carte, {
+    L.geoJson(dataCarte, {
         // Plusieurs paramètres pour pouvoir modifier ce qu'on affiche, la manière dont on l'affiche, etc.
         // Voir ici les différentes possiblités pour les options : https://leafletjs.com/examples/geojson/
 

@@ -17,7 +17,7 @@ app.get('/topic', function ( req, res ) {
 app.get('/carte', function(req, res) {
 
     let dataCarte = require('../public/data/geojson.json')
-    res.json({dataCarte});
+    res.json(dataCarte);
 });
 
 

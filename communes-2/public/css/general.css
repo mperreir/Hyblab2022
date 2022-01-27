@@ -161,8 +161,6 @@ body{
 /**
 TEST carte leaflet
 */
-
 #map {
-    height: 100%;
-    width: 100vw;
+    height: 500px;
 }
