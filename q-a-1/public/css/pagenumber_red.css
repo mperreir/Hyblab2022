@@ -1,0 +1,31 @@
+    .pagenumber{
+	    height:40px;
+	    margin:18px;
+	    text-align:center;
+	    color:#AC4B4B;
+	    font-weight:bolder;
+	    font-size:20px;
+	    position:fixed;
+	    bottom:0px;
+	    left:80px;
+	}
+	.sansserif{
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	}
+    #currentnum{
+    display:inline-block;
+    	    color:#AB4A4A;
+    	    padding:5px 10px;
+    	    margin:5px;
+    	    text-decoration:none
+    }
+    a:link,a:visited{
+		display:inline-block;
+	    color:#AC4B4B;
+	    padding:5px 10px;
+	    margin:5px;
+	    text-decoration:none;
+	}
+	a:hover,a:active{
+	    color:#AB4A4A;
+    }
