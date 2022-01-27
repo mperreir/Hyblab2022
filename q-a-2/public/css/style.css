@@ -116,43 +116,179 @@ body{
     bottom: 0;
     background-color: white;
     font-size: 20%;
-  }
+}
 
-  #bandeau li{
+#bandeau li{
     list-style-type: none;
     display: inline-block;
     vertical-align: middle;
     margin: 0 0.5em;
-  }
+}
 
-  #bandeau img{
+#bandeau img{
     height: 1.5em;
-  }
+}
 
-  #bandeau #hyblab{
+#bandeau #hyblab{
     margin: 1em auto;
     height: 3em;
     display: block;
-  }
+}
 
-  #bandeau #cc, #bandeau #opensource
-  {
+#bandeau #cc, #bandeau #opensource
+{
     height: 1em;
-  }
+}
 
-  #bandeau .stacked{
+#bandeau .stacked{
     display:block;
-  }
+}
 
-  #bandeau ul{
+#bandeau ul{
     text-align: center;
     padding: 0 0;
-  }
+}
 
-  #bandeau .institutionnel
-  {
+#bandeau .institutionnel
+{
     height: 2em;
-  }
+}
+
+#root {
+    background-color: white;
+}
+
+.button {
+    color:white;
+    background-color: black;
+    border: solid black;
+    border-radius: 36px;
+    font-size: 4vh;
+    font-family: 'Spicy Rise', Arial, Helvetica, sans-serif;
+    height: 8vh;
+    width: 30vh;
+}
+
+.button:active {
+    color:black;
+    background-color: white;
+}
+
+.button_black {
+    color: black;
+    background-color: white;
+    border: solid white;
+}
+
+.button_black:active {
+    color:white;
+    background-color: black;
+}
+
+.button_disabled {
+    opacity: 50%;
+    pointer-events: none;
+}
+
+.button_disabled:hover {
+    cursor: not-allowed;
+}
+
+.learn_more {
+    color:black;
+    background-color: white;
+    border: solid black;
+    border-radius: 36px;
+    font-size: 2.5vh;
+    font-weight: bold;
+    padding: 1vh 1vh 1vh 3vh;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+.learn_more:active {
+    color: white;
+    background-color: black;
+}
+
+.learn_more:active img {
+    filter: invert(100%);
+}
+
+.learn_more_img {
+    height: 3vh;
+    padding-left: 2vh;
+    vertical-align: middle;
+}
+
+@font-face {
+    font-family: "Spicy Rise";
+    src: url("../font/SpicyRice-Regular.ttf");
+}
+
+#root {
+    background-color: white;
+}
+
+.header {
+    width: 100%;
+    padding: 0 5%;
+    box-sizing: border-box;
+}
+
+.header_logo {
+    margin-top: 30px;
+    width: 25%;
+}
+
+.header_frow {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.header_step {
+    font-family: 'Spicy Rise';
+    font-size: 2.4vh;
+}
+
+.stepBar {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.stepBar_bar {
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: black;
+}
+
+.stepBins_container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.stepBin {
+    height: 15px;
+    border: 2px black solid;
+    border-radius: 8px;
+    background-color: white;
+    z-index: 10;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+.stepBin_completed{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    border-radius: 8px;
+}
 
   #root {
     background-color: white;
