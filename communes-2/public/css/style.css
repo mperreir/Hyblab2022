@@ -34,9 +34,15 @@ body{
 
 #loader-text{
     text-align: center;
-    font-size: 20%;
+    font-size: 15%;
+    font-family: 'Century Gothic';
     margin-top: 5%;
     color: #282246;
+}
+#loader-text > i{
+    font-size: 10px;
+    font-style: normal;
+
 }
 /* -------------- End of Loader --------------*/
 
