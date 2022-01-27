@@ -1,6 +1,6 @@
 "use strict";
 
-for (let i = 0; i <= 12; i++){
+for (let i = 1; i <= 12; i++){
   $("#myElement" + i).downupPopup({
     distance: -70,
     width: "90%",
@@ -9,7 +9,7 @@ for (let i = 0; i <= 12; i++){
   });
 
   $("#btn-" + i).click(function () { 
-    $("#myElement1").downupPopup("open"); 
+    $("#myElement" + i).downupPopup("open");
   });
 }
 
@@ -25,7 +25,7 @@ const initSlide3 = async function(){
     //Get the candidats from html document
     let button = document.querySelector('#btn-' + i);
     let nom = button.childNodes[1];
-    nom.innerHTML = `${candidats[i-1].name}`;
+    nom.data = `${candidats[i-1].name}`;
 
     //Get the candidats:popup from html document (have to change number)
     let poppups = document.querySelector('#myElement' + i);
