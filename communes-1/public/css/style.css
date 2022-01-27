@@ -9,7 +9,7 @@
 }
 
 body{
-    background-color: black;
+    background-color: orange;
     color: white;
     overflow: hidden;   /* to avoid slider bugs on some browsers */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -54,7 +54,7 @@ body{
 
 /* the slides and the loader should fill the whole 9:16 zone */
 .swiper-wrapper section, #loader{
-    background-color: dodgerblue;
+    background-color: rgb(43, 14, 72);
     width: 100%;
     height: 100%;
 }
@@ -112,10 +112,8 @@ body{
 #bandeau {
     padding-top: 3%;
     width:100%;
-    height:25%;
-    position: absolute;
-    bottom: 0;
-    background-color: white;
+	height: 100%;
+    background-color: rgb(162, 151, 173);
     font-size: 20%;
   }
 
@@ -162,9 +160,10 @@ body{
 /* as long as the screen aspect ratio is below 9:16 */
 @media screen and (max-aspect-ratio: 9/16){
     #container{
-        margin-top: calc((100vh - 100 * 16vw / 9) / 2);
+        /*margin-top: calc((100vh - 100 * 16vw / 9) / 2);*/
         width: 100vw;
-        height: calc(100 * 16vw / 9);
+        /*height: calc(100 * 16vw / 9);*/
+		height: 100vh;
     }
 
     /* We set a default font size here. It will be the base for all other font sizes */
