@@ -201,17 +201,17 @@ th, td {
 }
 
 #bandeau img{
-    height: 1.5em;
+    height: 8em;
 }
 
 #bandeau #hyblab{
     margin: 1em auto;
-    height: 3em;
+    height: 15em;
     display: block;
 }
 
 #bandeau #cc, #bandeau #opensource{
-    height: 1em;
+    height: 8em;
 }
 
 #bandeau .stacked{
@@ -224,7 +224,7 @@ th, td {
 }
 
 #bandeau .institutionnel{
-    height: 2em;
+    height: 8em;
 }
 
 /* ---------- Important media queries for easy responsive content :-) ----------------- */
