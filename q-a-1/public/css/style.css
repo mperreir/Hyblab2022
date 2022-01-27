@@ -35,6 +35,11 @@ button{
     position: relative; /* for absolute positionning of child elements*/
 }
 
+#mySwiper{
+    width: 100%;
+    height:100%;
+    position: absolute;
+}
 
 
 .main-part {
