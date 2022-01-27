@@ -22,62 +22,26 @@
 <body>
     <!-- Le conteneur sert à vérouiller les proportions (aspect ratio) du contenu de la page (ici des slides) -->
     <div id="container">
-      <!-- Le loader-->
-      <div id="mySwiper" class="swiper">
+      
+      
         <!-- le main est aussi le conteneur des différents slides (contenus à chaque fois dans des sections-->
-        <main class = "swiper-wrapper">
-            <section id="first-slide" class="swiper-slide">
+        <main class = "main-part">
+            <section id="first-section">
                 <header>
                     <div id="logo"></div>
                     <svg width="315" height="35" viewBox="0 0 315 35" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M16.7716 0.159996C6.80756 0.159997 0.697565 4.672 0.697566 11.205C0.697567 18.114 4.73957 21.404 17.1006 22.344C19.8736 22.532 21.7536 22.626 21.7536 23.613C21.7536 24.882 21.0486 25.258 17.0536 25.258C13.5286 25.258 12.1656 24.506 12.0716 23.096L0.321568 23.096C0.697569 30.334 6.43157 34.47 17.0536 34.47C27.8636 34.47 33.7386 30.945 33.7386 23.754C33.7386 16.751 30.7306 13.273 17.1006 12.333C13.8576 12.098 12.4006 12.051 12.4006 11.017C12.4006 9.842 13.5756 9.372 16.7716 9.37199C19.4506 9.37199 21.3776 9.98299 21.5186 11.487L33.3156 11.487C33.0336 4.43699 27.7226 0.159994 16.7716 0.159996ZM44.7935 0.62999L36.0985 0.629992L36.0985 12.803L41.9735 12.803L44.7935 0.62999ZM58.957 0.629988L47.207 0.62999L47.207 34L58.957 34L58.957 0.629988ZM84.7846 0.629983L84.7846 16.939L73.7396 0.629985L61.8016 0.629987L61.8016 34L73.5516 34L73.5516 17.503L85.0666 34L96.6756 34L96.6756 0.629981L84.7846 0.629983ZM99.5312 34L111.281 34L111.281 22.297L126.979 22.297L126.979 13.931L111.281 13.931L111.281 10.97L127.731 10.97L127.731 0.629976L99.5312 0.629981L99.5312 34ZM129.393 17.315C129.393 28.642 137.618 34.47 148.005 34.47C159.238 34.47 166.523 28.642 166.523 17.315C166.523 6.78697 159.003 0.159971 148.005 0.159973C137.618 0.159974 129.393 6.64598 129.393 17.315ZM141.425 17.315C141.425 13.414 144.057 10.829 148.005 10.829C152.047 10.829 154.538 13.461 154.538 17.315C154.538 21.404 152.094 23.801 148.005 23.801C144.057 23.801 141.425 21.357 141.425 17.315ZM185.056 25.634C185.385 25.634 185.714 25.634 186.043 25.634L189.803 34L201.882 34L196.383 23.378C200.049 21.31 201.741 17.879 201.741 13.038C201.741 5.42396 196.665 0.629964 185.056 0.629966L168.653 0.629969L168.653 34L180.403 34L180.403 25.634L185.056 25.634ZM185.056 15.764L180.403 15.764L180.403 10.5L185.056 10.5C188.534 10.5 189.521 11.487 189.521 13.085C189.521 14.73 188.628 15.764 185.056 15.764ZM225.88 17.738L218.595 0.62996L204.683 0.629962L204.683 34L216.198 34L216.198 18.349L222.214 34L228.982 34L234.998 18.349L234.998 34L246.513 34L246.513 0.629955L233.447 0.629957L225.88 17.738ZM249.39 34L278.53 34L278.53 23.66L261.14 23.66L261.14 20.511L277.778 20.511L277.778 13.931L261.14 13.931L261.14 10.97L278.53 10.97L278.53 0.629949L249.39 0.629954L249.39 34ZM297.783 25.6339C298.112 25.6339 298.441 25.6339 298.77 25.6339L302.53 33.9999L314.609 33.9999L309.11 23.3779C312.776 21.3099 314.468 17.8789 314.468 13.0379C314.468 5.42394 309.392 0.629944 297.783 0.629946L281.38 0.629949L281.38 34L293.13 33.9999L293.13 25.6339L297.783 25.6339ZM297.783 15.7639L293.13 15.7639L293.13 10.4999L297.783 10.4999C301.261 10.4999 302.248 11.4869 302.248 13.0849C302.248 14.7299 301.355 15.7639 297.783 15.7639Z" fill="#57517D"/>
                     </svg>
                       
-                    <!-- <h1 id="titre">S'INFORMER</h1> -->
+                  
                 </header>
-                
-                <!-- Logo hyblab-->
-                <!--<img src="img/logo_hyblab.png" id="logo-hyblab" alt="logo hyblab"></img>-->
-
-                <!--<video id="background-video" class="video-js" data-setup='{"autoplay": true, "loop" : true, "fill": true, "muted": true}'>
-                    <source src="http://vjs.zencdn.net/v/oceans.mp4" type="video/mp4">
-                </video>-->
-
-                <!-- le footer sera rempli à partir de données lues dans un fichier Json-->
+               
                 <footer></footer>
             </section>
-            <section id="second-slide" class="swiper-slide">
-                <!--<img id="img-fini" src="https://www.tri-d-aix.com/media/bilder/fini_55c9f_2e319.png">-->
-                <footer id="bandeau">
-                        <!-- Logo Hyblab -->
-                          <a href="http://www.hyblab.fr/"><img id="hyblab" src="logo_hyblab.png" alt="Hyblab DataSport"></a>
-                      
-                          <!-- Les organisateurs -->
-                          <ul>
-                            <li><a href="http://www.ouestmedialab.fr/"><img src="logo_oml.png" alt="Ouest Médialab"></a></li>
-                            <li><a href="http://www.agrnantes.fr"><img src="ecoles/logo_agr.png" alt="AGR école de l'image"></a></li>
-                            <li><a href="http://www.univ-nantes.fr/"><img src="ecoles/logo_nantesuniversite.png" alt="Université de Nantes"></a></li>
-                            <li><a href="http://www.polytech.univ-nantes.fr/"><img src="ecoles/logo_polytech.png" alt="Polytech Nantes"></a></li>
-                          <!-- Les autres logos -->
-                          <ul>
-                            <!-- Logos CC et opensource -->
-                            <li>
-                            <ul>
-                              <li class="stacked"><img id="cc" src="logo_cc.png" alt="Creative commons"></li>
-                              <li class="stacked"><img id="opensource" src="logo_opensource.png" alt="Open source"></li>
-                            </ul>
-                            </li>
-                            <!-- Logo de votre porteur de projet -->
-                            <li><a href="http://www.mon-porteur-de-projet.org"><img src="no-logo.png" alt="Logo de mon porteur de projet"></a></li>
-                            <!-- Partenaires institutionnels -->
-                            <li><a href="http://www.paysdelaloire.fr/"><img class="institutionnel" src="institutionnels/logo_pdl.png" alt="Pays de La Loire"></a></li>
-                            <li><a href="http://www.nantesmetropole.fr/"><img class="institutionnel" src="institutionnels/logo_nantesmetropole.png" alt="Nantes Métropole"></a></li>
-                          </ul>
-                </footer>
-            </section>
+            
         </main>
         <div class="swiper-pagination"></div>
-    </div>
+    
   </div>
 </body>
 </html>
