@@ -246,7 +246,7 @@ body{
     transition: transform 250ms;
 }
 
-.btn-accueil:menu{
+.btn-menu:hover{
     cursor: pointer;
 }
 
@@ -351,10 +351,59 @@ body{
     margin-bottom: 20px;
 
     text-align: center;
+    display: none;
 }
 
-.button-list{
+/* my slider */ 
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #f0e4d8;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+/* Position the "next button" to the right */
+.next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+} 
 
+.prev {
+    position: absolute;
+    left: 0;
+    border-radius: 3px 0 0 3px;
+} 
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: none;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #f0e4d8;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+    background-color: #ED6464;
 }
 
 .button{
@@ -402,6 +451,7 @@ body{
 
 .genericText{
     font-size: 15%;
+    color: #282246;
 }
 
 .textZone{
