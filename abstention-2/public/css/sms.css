@@ -16,3 +16,10 @@
  {
   flex: 1;
 }
+
+.bulle {
+  width: 16.125rem;
+  height: 1.25rem;
+  opacity: 1;
+  color: #1028fd
+}
