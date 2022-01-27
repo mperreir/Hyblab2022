@@ -63,10 +63,10 @@ app.get('/theme/all', (req, res) => {
 
 app.get('/tweets/tops/:theme_id', (req, res) => {
     let tweets = db.getTweetsSemaine()
-        .filter(tweet => tweet.themeScore > 1
+        .filter(tweet => tweet.themeScore >= 1
             && tweet.theme_id === parseInt(req.params.theme_id));
     tweets.sort((a, b) => b.likes_count - a.likes_count);
-    res.json(tweets.slice(0, 10));
+    res.json(tweets.slice(0, 3));
 });
 
 app.get('/candidat/all', (req, res) => {
