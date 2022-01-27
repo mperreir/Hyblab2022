@@ -9,6 +9,7 @@
   "dependencies": {
     "express": "^4.17.2",
     "express-session": "^1.16.1",
+    "leaflet": "^1.7.1",
     "page": "^1.11.6"
   },
   "author": "MPDS",
