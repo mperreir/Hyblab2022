@@ -208,10 +208,8 @@ body{
 }
 
 /*Logo*/
-
 .logo {
-    display: block;
-    margin-bottom: 50%;
+    margin-top: 5%;
 }
 
 .button-box{
@@ -261,7 +259,6 @@ body{
     width: 25rem;
 }
 
-
 .tips{
     position: absolute;
     bottom: 40%;
@@ -309,6 +306,7 @@ body{
     margin-right: 30px;
 
 }
+
 .button{
     border: none;
     height: 2rem;
@@ -327,10 +325,22 @@ body{
     background-color: #f0e4d8;
     border-color: #f0e4d8;
 }
+/*Fin Tips panel*/
 
 #boutonRetour{
     position: absolute;
     top: 0;
     left: 0;
     padding: 10px 10px 10px 10px;
+}
+
+.bandeauHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.decalage{
+    margin-bottom: 50%;
 }
