@@ -72,7 +72,7 @@ main section, #loader{
 
 
 /* Most of the elements in this demo are absolute positionned with percentages */
-#first-slide header{
+#first-section header{
     text-align: center;
     width: 100%;
     top: 10%;
@@ -110,7 +110,7 @@ main section, #loader{
 }
 
 /* Footer of last slide is at the bottom and content is centered */
-#first-slide footer{
+#first-section footer{
     bottom: 5%;
     position: absolute;
     font-size: 20%;
