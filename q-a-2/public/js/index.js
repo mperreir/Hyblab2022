@@ -1,17 +1,23 @@
 "use strict";
 
+const pages = [
+  
+];
+
 class App extends React.Component {
   render() {
       return (
-        <div style={{"paddingLeft": "10px"}}>
-          <div style={{"paddingTop": "10px"}}>
+        <div>
+          <Header step={1} nbSteps={8} />
+          <div style={{"paddingTop": "10px", "marginLeft": "10px"}}>
             <Button disabled={false} negative={false} onClick={() => { } } value="C'est parti !" />
           </div>
-          <div style={{"marginTop": "20px"}}>
+          <div style={{"marginTop": "20px", "marginLeft": "10px"}}>
               <LearnMore link="#" />
           </div>
         </div>
       );
+      return 
   }
 }
 

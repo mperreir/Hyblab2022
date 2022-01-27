@@ -222,6 +222,74 @@ body{
     vertical-align: middle;
 }
 
+@font-face {
+    font-family: "Spicy Rise";
+    src: url("../font/SpicyRice-Regular.ttf");
+}
+
+#root {
+    background-color: white;
+}
+
+.header {
+    width: 100%;
+    padding: 0 5%;
+    box-sizing: border-box;
+}
+
+.header_logo {
+    margin-top: 30px;
+    width: 25%;
+}
+
+.header_frow {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.header_step {
+    font-family: 'Spicy Rise';
+    font-size: 2.4vh;
+}
+
+.stepBar {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.stepBar_bar {
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: black;
+}
+
+.stepBins_container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.stepBin {
+    height: 15px;
+    border: 2px black solid;
+    border-radius: 8px;
+    background-color: white;
+    z-index: 10;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+.stepBin_completed{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    border-radius: 8px;
+}
+
 /* ---------- Important media queries for easy responsive content :-) ----------------- */
 /* Can be adapted for other ratios that 9:16 or for horizontal content (ex: 16:9) */
 
