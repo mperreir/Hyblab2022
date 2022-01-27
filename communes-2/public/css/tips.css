@@ -14,11 +14,12 @@
 
 .tips{
     position: absolute;
-    bottom: 30%;
+    top: 20%;
     margin-left: 30px;
     margin-right: 30px;
 
-    height: 30rem;
+    padding-bottom:20px ;
+    padding-top: 20px;
     border: none;
     box-shadow: rgba(0, 0, 0, 0.17) 0px -15px 15px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px;
 
