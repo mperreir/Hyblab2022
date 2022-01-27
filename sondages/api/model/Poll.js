@@ -1,3 +1,5 @@
+const Observable = require("./Observable");
+
 class Poll extends Observable {
     
     constructor(sample, population, source, rounds){

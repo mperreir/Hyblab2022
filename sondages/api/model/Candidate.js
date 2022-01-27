@@ -1,3 +1,5 @@
+const Observable = require("./Observable");
+
 class Candidate extends Observable {
 
     constructor(name, first_name, image){

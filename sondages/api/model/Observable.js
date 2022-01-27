@@ -10,7 +10,7 @@ class Observable {
       }
     
     notifyObservers(object = null){
-        if (this.state == true) {
+        if (this.state === true) {
         this.listeObserver.forEach(element => element.update(this, object));
         this.setChanged();
         }
@@ -26,6 +26,10 @@ class Observable {
     
     setMediator(mediator){
         this.mediator = mediator;
+    }
+
+    setChanged(newState) {
+        this.state = newState;
     }
 }
 

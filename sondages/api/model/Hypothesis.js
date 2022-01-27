@@ -1,3 +1,5 @@
+const Observable = require("./Observable");
+
 class Hypothesis extends Observable {
     
     constructor(date, sub_sample, listHeads){

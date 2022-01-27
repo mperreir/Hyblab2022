@@ -1,3 +1,5 @@
+const Observable = require("./Observable");
+
 class ListHead extends Observable {
     
     constructor(candidate, politicalsParty, borne_spp, borne_inf, intention){

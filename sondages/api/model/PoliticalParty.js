@@ -1,3 +1,5 @@
+const Observable = require("./Observable");
+
 class PoliticalParty extends Observable {
     
     constructor(name){

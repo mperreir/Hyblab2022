@@ -1,3 +1,5 @@
+const Observable = require("./Observable");
+
 class Message extends Observable {
     
     constructor(date, text, candidate){
