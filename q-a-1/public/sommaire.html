@@ -14,7 +14,8 @@
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="js/slide1.js" defer></script>
   <script src="js/slide2.js" defer></script>
-  <script src="js/index.js" defer></script>
+  <script src="js/sommaire.js" defer></script>
+  <script src="js/header.js" defer></script>
 </head>
 <body>
     <!-- Le conteneur sert à vérouiller les proportions (aspect ratio) du contenu de la page (ici des slides) -->
@@ -29,20 +30,23 @@
         <main class = "swiper-wrapper">
             <section id="first-slide" class="swiper-slide">
                 <header>
-                    <h1 id="titre">Welcome to</h1>
-                </header>
-                
-                <img src="img/logo_hyblab.png" id="logo-hyblab" alt="logo hyblab"></img>
 
-                <video id="background-video" class="video-js" data-setup='{"autoplay": true, "loop" : true, "fill": true, "muted": true}'>
+                </header>
+
+                <button type="button" id="bouton_sinformer">S'informer</button>
+                
+                <!-- Logo hyblab-->
+                <!--<img src="img/logo_hyblab.png" id="logo-hyblab" alt="logo hyblab"></img>-->
+
+                <!--<video id="background-video" class="video-js" data-setup='{"autoplay": true, "loop" : true, "fill": true, "muted": true}'>
                     <source src="http://vjs.zencdn.net/v/oceans.mp4" type="video/mp4">
-                </video>
+                </video>-->
 
                 <!-- le footer sera rempli à partir de données lues dans un fichier Json-->
                 <footer></footer>
             </section>
             <section id="second-slide" class="swiper-slide">
-                <img id="img-fini" src="https://www.tri-d-aix.com/media/bilder/fini_55c9f_2e319.png">
+                <!--<img id="img-fini" src="https://www.tri-d-aix.com/media/bilder/fini_55c9f_2e319.png">-->
                 <footer id="bandeau">
                         <!-- Logo Hyblab -->
                           <a href="http://www.hyblab.fr/"><img id="hyblab" src="logo_hyblab.png" alt="Hyblab DataSport"></a>
