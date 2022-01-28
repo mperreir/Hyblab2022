@@ -1,0 +1,46 @@
+#container {
+	height: 100%;
+	background-color: #11151B;
+}
+
+.top {
+	background-color: #3BBF82;
+	height: 9vh;
+	text-align: center
+}
+
+.top h1 {
+	color: #11151B;
+	font-family: 'LinealMedium';
+	font-weight: bold;
+	font-style: normal;
+	font-size: 5vh;
+	padding-top: 2.4vh;
+}
+
+.animation {
+	margin-top: 15%;
+	width: 100%;
+}
+
+.bottom {
+	display: flex;
+	justify-content: center;
+}
+
+.bottom .goToChoix {
+	color: #D99B66;
+    font-family: 'Baloo Tamma 2';
+	font-weight: bold;
+	right: 35%;
+	font-size: 3vh;
+
+	background-color: #10141A;
+	padding: 0px 20px;
+	border:  2px solid #D99B66;
+}
+
+.bottom .goToChoix:hover {
+	color: black;
+	background-color: #D99B66;
+}
