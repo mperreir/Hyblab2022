@@ -1,36 +1,34 @@
 "use strict";
-const container = document.getElementById("container");
 
-const messages = [{
-    sender: "+33* ** ** ** **",
-    message: "Salut ! C’est Thomas. Je suis ton nouveau collègue."
-}, {
-    sender: "THOMAS",
-    message: "J’ai vu qu’on allait travailler ensemble sur le nouvel article de \“pour cent magazine\” !"
-}, {
-    sender: "THOMAS",
-    message: "C’est sur l’abstention, trop intéressant ! Tu as vu les chires de 2017 ? :D"
-}, {
-    sender: "MOI",
-    message: "Hey Thomas ! Content de bosser avec toi !Non, je n’ai pas vu les chires, pourquoi ? :)"
-}, {
-    sender: "THOMAS",
-    message: "OK c’est parti pour « Nom de la ville » ! Alors tu paries combien ? Ne t’inquiète pas... On arrondit à 5%."
+function date() {
+  const date = document.getElementById('date');
+  let text;
+  setInterval(() => {
+    text = new Date()
+  }, 60000);
+  text = new Date();
+  date.textContent = text.getHours() + ":" + text.getMinutes();
 }
-]
+
+// const templateTest = fetch('templates/folder-absention.ejs').then(value => {
+//     console.log(value.text().then(value => {
+//         const rendered = ejs.render(value, { votingHab: 100000 });
+//         document.getElementById('container').innerHTML = rendered;
+//     }));
+// });
+// const container = document.getElementById("container");
 
 
-loadTemplate('templates/sms.ejs', []).then(value => {
-    container.innerHTML = value;
-    date();
-    loadTemplate('templates/sms1.ejs', messages).then(value => {
-        document.getElementById('screen').innerHTML = value;
-    });
-})
+// const test = {
+//     data: "hello"
+// };
+
+
+// loadFileExplorer();
+smsScreen();
 
 async function loadTemplate(path, data) {
     const fileExplorerTemplate = await fetch(path);
     const fileExplorerHtml = await fileExplorerTemplate.text();
-
     return ejs.render(fileExplorerHtml, data);
 }
