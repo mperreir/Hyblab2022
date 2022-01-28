@@ -1,5 +1,14 @@
 "use strict";
 
+function date() {
+  const date = document.getElementById('date');
+  let text;
+  setInterval(() => {
+    text = new Date()
+  }, 60000);
+  text = new Date();
+  date.textContent = text.getHours() + ":" + text.getMinutes();
+}
 
 // const templateTest = fetch('templates/folder-absention.ejs').then(value => {
 //     console.log(value.text().then(value => {
@@ -7,18 +16,21 @@
 //         document.getElementById('container').innerHTML = rendered;
 //     }));
 // });
-const container = document.getElementById("container");
+
+// const container = document.getElementById("container");
 
 
-const test = {
-    data: "hello"
-};
 
 loadStart();
 
 // loadTemplate('templates/sms.ejs', test).then(value => { container.innerHTML = value ;
 // date();
 // })
+
+
+// loadFileExplorer();
+//smsScreen();
+
 
 async function loadTemplate(path, data) {
     const fileExplorerTemplate = await fetch(path);

@@ -1,17 +1,9 @@
-<header>
-    <div id="flex-container">
-        <div id="date" class="flex-item">
-            12:00
-        </div>
-        <div class="flex-item">2</div>
-        <div class="flex-item">3</div>
-    </div>
-</header>
-
-<body>
-    <section class="screen">
-        <div class="message">
-
-    </section>
-    </div>
-</body>
+<div id="sms_tread">
+<% for(var i = 0; i < messages.length; i++) {%>
+<div class="sms">
+    <p><%= messages[i].sender %></p>
+    <p><%= messages[i].message %></p>
+    <br>
+</div>
+<% } %>
+</div>
