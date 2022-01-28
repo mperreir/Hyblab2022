@@ -23,13 +23,12 @@
 .anjoute_start {
 	color: #C8A166;
 	margin-top: 50px;
-	font-size: 2vh;
+	font-size: 20%;
 	font-family: 'Baloo Tamma';
 }
 
 .credit_footer {
 	color: black;
-	font-size: 2vh;
 	font-weight: 800;
 	text-align: center;
 	margin-top: 20px;
