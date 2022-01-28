@@ -1,7 +1,7 @@
 /* ------- Important ! Please at least keep the last part of this CSS ----------- */
 /* that forces a 9:16 format (portrait) on all contents */
 
-
+@import url('cabinet-grotesk.css');
 /* Normalize margin and padding to ease elements positioning */
 *{
     padding:0;
@@ -21,7 +21,6 @@ body{
     color: #1028fd;
     font-size: 20%;
 }
-
 
 /* ---------- Important media queries for easy responsive content :-) ----------------- */
 /* Can be adapted for other ratios that 9:16 or for horizontal content (ex: 16:9) */
