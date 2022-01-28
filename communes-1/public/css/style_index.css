@@ -4,7 +4,7 @@
 }
 
 #logo_anjoute {
-	width: 80%;
+	width:70%;
 	height: auto;
 }
 
@@ -21,6 +21,7 @@
 }
 
 .anjoute_start {
+	color: #C8A166;
 	margin-top: 50px;
 	font-size: 2vh;
 	font-family: 'Baloo Tamma';

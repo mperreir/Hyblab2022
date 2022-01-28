@@ -29,7 +29,7 @@
 }
 
 .bottom .goToChoix {
-	color: #D99B66;
+	color: #C8A166;
     font-family: 'Baloo Tamma 2';
 	font-weight: bold;
 	right: 35%;
@@ -37,10 +37,10 @@
 
 	background-color: #10141A;
 	padding: 0px 20px;
-	border:  2px solid #D99B66;
+	border:  2px solid #C8A166;
 }
 
 .bottom .goToChoix:hover {
 	color: black;
-	background-color: #D99B66;
+	background-color: #C8A166;
 }
