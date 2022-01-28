@@ -18,13 +18,19 @@ let illustration = {
   buttonOpacity: "1.0"
 }
 
-const illuContainer = document.querySelector('#illustration');
+const illuContainer = document.querySelector('#background');
 const playContainer = document.querySelector('.button-container');
 const playButton = document.querySelector('#play-button');
 
 // async init function (because of the awaits on fetches)
 const homepage_slide = function(){
   const playButton = document.querySelector('#play-button');
+  
+  const bg = createAnimation("background", "img/animations/ACCUEIL_ANIMATION_FOND.json", true);
+  bg.play();
+
+  const ss = createAnimation("spaceship", "img/animations/ACCUEIL_ANIMATION_VAISSEAU.json", true);
+  ss.play();
   
   playButton.addEventListener("click", animateLoading);
 };

@@ -1,7 +1,7 @@
 const createAnimation = function(divName, path, loop) {
-
+	console.log('used on ', path);
 	var newContainer = document.getElementById(divName);
-	const animation = bodymovin.loadAnimation({
+	return bodymovin.loadAnimation({
 		container: newContainer,
 		path: path,
 		renderer: 'svg',
@@ -12,17 +12,17 @@ const createAnimation = function(divName, path, loop) {
 			preserveAspectRatio: "xMaxYMax meet"
 		}
 	});
-	return animation;
 }
-	/*
-	* play the animation from your js file
 
-	    const animation = createAnimation("example","data/test2.json",false);
-    	animation.play();
+/*
+* play the animation from your js file
 
-	* Do something once animation has been played
+	const animation = createAnimation("example","data/test2.json",false);
+	animation.play();
 
-    	animation.addEventListener('complete', () => {
-		console.log('played');
-		});
-	*/
+* Do something once animation has been played
+
+	animation.addEventListener('complete', () => {
+	console.log('played');
+	});
+*/
