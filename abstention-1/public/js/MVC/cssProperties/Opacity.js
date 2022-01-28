@@ -5,3 +5,5 @@ class Opacity extends CSSProperty {
         super("Opacity", value);
     }
 }
+
+module.exports = Opacity;

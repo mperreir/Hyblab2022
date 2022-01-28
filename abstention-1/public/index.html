@@ -6,33 +6,46 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
   <title>Hyblab 2022</title>
   <link rel="stylesheet" href="css/styleMain.css">
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js" defer></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js" defer></script>
+  <script src="js/main.js" defer></script>
 </head>
 <body>
     <!-- Le conteneur sert à vérouiller les proportions (aspect ratio) du contenu de la page (ici des slides) -->
     <div id="container">
-      <section id="Dialogue">
-          <div id="personnage1"></div>
-          <div id="personnage2"></div>
-          <div id="textZone">
-              <p>Ceci est un exemple pour que je puisse effectuer des tests afin de voir si cela rend très bien.  </p>
-          </div>
-          <div id="QuizZone">
-              <p>Ceci est une question à laquel seul les plus forts d'entre vous pourront répondre correctement. </p>
-              <button id='reponseA'>Réponse A</button>
-              <button id='reponseB'>Réponse B</button>
-              <button id='reponseC'>Réponse C</button>
-          </div>
-      </section>
-      <section id="Transition">
-          <div id="animation">
-            <video width="411" muted preload>
-              <source src="https://cdn.ananaspizza.de/file/malte-image-store/v9-webm.webm" type="video/webm">
-			      	<p>Votre navigateur ne supporte pas les vidéos HTML5.</p>
-            </video>
-          </div>
-
-      </section>
-
-  </div>
+        <section id="Dialogue">
+            <div id="personnage1"></div>
+            <div id="personnage2"></div>
+            <div id="textZone">
+                <p>Ceci est un exemple pour que je puisse effectuer des tests afin de voir si cela rend très bien.  </p>
+            </div>
+            <div id="QuizZone">
+                <p>Ceci est une question à laquel seul les plus forts d'entre vous pourront répondre correctement. </p>
+                <button id='reponseA'>Réponse A</button>
+                <button id='reponseB'>Réponse B</button>
+                <button id='reponseC'>Réponse C</button>
+            </div>
+        </section>
+        <section id="Transition">
+            <!-- <div id="animation">
+                <video width="411" muted preload>
+                <source src="https://cdn.ananaspizza.de/file/malte-image-store/v9-webm.webm" type="video/webm">
+                        <p>Votre navigateur ne supporte pas les vidéos HTML5.</p>
+                </video>
+            </div> -->
+            <lottie-player id="player-ecole-vers-skatepark" src="animations/animation01.json" style="width:400px; height: 400px;"></lottie-player>
+            <lottie-player id="player-skatepark-vers-camion" src="animations/animation02.json" style="width:400px; height: 400px;"></lottie-player>
+            <lottie-player id="player-camion-vers-mairie" src="animations/animation03.json" style="width:400px; height: 400px;"></lottie-player>
+            <lottie-player id="player-mairie-vers-theatre" src="animations/animation04.json" style="width:400px; height: 400px;"></lottie-player>
+            <lottie-player id="player-theatre-vers-ecole" src="animations/animation05.json" style="width:400px; height: 400px;"></lottie-player>
+        </section>
+    </div>
+    <div id="test">
+        <section id="container-ecole-vers-skatepark" style="height:500vh;"></section>
+        <section id="container-skatepark-vers-camion" style="height:500vh;"></section>
+        <section id="container-camion-vers-mairie" style="height:500vh;"></section>
+        <section id="container-mairie-vers-theatre" style="height:500vh;"></section>
+        <section id="container-theatre-vers-ecole" style="height:500vh;"></section>
+    </div>
 </body>
 </html>

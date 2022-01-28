@@ -8,5 +8,8 @@ class AnimationObserver extends Observer {
 
     update(observable, object){
         let scroll = observable.scroll;
+        this.video.currentTime = this.video.duration * scroll;
     }
 }
+
+module.exports = AnimationObserver;
