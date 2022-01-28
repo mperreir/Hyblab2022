@@ -218,6 +218,53 @@ body {
   opacity: 75%;
 }
 
+/* Mission 2 : Decret */
+
+#p2 {
+  background: white;
+}
+
+#bulle-pm {
+  position: absolute;
+  width: 85%;
+  top: 20%;
+  left: 5.5%;
+}
+
+#p2 p {
+  font-family: 'Nunito';
+  font-size: 16%;
+  position: absolute;
+  width: 68%;
+  top: 22%;
+  left: 16%;
+  z-index: 2;
+}
+
+#p2 b {
+  font-family: 'Nunito';
+  font-weight: 800;
+}
+
+#drawing-container {
+  position: absolute;
+  bottom: 0;
+  height: 40%;
+  background-color: lightgrey;
+}
+
+#drawing-container canvas {
+  width: 80%;
+  height: 30%;
+  position: absolute;
+  bottom: 30%;
+  left: 10%;
+  border-radius: 15px;
+  background-color: white;
+}
+
+/* */
+
 #p6 .dialog-before {
   display: none;
   background-color: red;
