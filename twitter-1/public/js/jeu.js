@@ -128,9 +128,45 @@ function finJeu(score,total){
     let div = document.createElement('div');
     div.setAttribute("id", 'finjeu');
 
+    let lescore = document.createElement('div');
+    lescore.setAttribute("id", 'score');
+
+    let contentscore = document.createTextNode( score + " / " + total );
+    lescore.appendChild(contentscore);
+    jeu.appendChild(lescore);
+
+    let commentaire= document.createElement('div');
+    commentaire.setAttribute("id", 'comment');
+
+    let appreciation= document.createElement('div');
+    appreciation.setAttribute("id", 'appr');
+
+    let contentcom;
+    let contentappr;
+
+    console.log(score/total);
+    if((score/total)<=0.5){
+        console.log("here");
+        contentcom = document.createTextNode( "Améliorez vos connaissances en découvrant les Top Tweets de la semaine !" );
+        contentappr = document.createTextNode( "Oh oh..." );
+    }else{
+        if((score/total)<=0.75){
+            contentcom = document.createTextNode( "Vous êtes presque un expert ! Améliorez vos connaissances en découvrant les Top Tweets de la semaine !" );
+            contentappr = document.createTextNode( "Bravo !");
+        }else{
+            contentcom = document.createTextNode( "Restez à la page en découvrant les Top Tweets !" );
+            contentappr = document.createTextNode( "Mais quel expert !!" );
+        }
+    }
+
+    commentaire.appendChild(contentcom);
+    appreciation.appendChild(contentappr);
+    jeu.appendChild(appreciation);
+
     let content = document.createTextNode("Vous avez eu " + score + " bonnes réponses sur " + total + " questions !!");
     div.appendChild(content);
     jeu.appendChild(div);
+    jeu.appendChild(commentaire);
 
 }
 

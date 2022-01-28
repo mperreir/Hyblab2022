@@ -94,7 +94,7 @@ body{
 #second-slide #text{ 
     width: 90%;
     height: 15%;
-    font-size:inherit;
+    font-size:1.8em;
     text-align: center; 
     color: black;
     position:absolute;
