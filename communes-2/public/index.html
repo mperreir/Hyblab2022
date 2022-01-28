@@ -2,10 +2,11 @@
 <html lang="fr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
     <title>GeoPoli</title>
     <link rel="shortcut icon" type="image/png" href="img/geoPoliIco.ico"/>
-    
+
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/bandeauInfo.css">
     <link rel="stylesheet" href="css/buttons.css">
@@ -13,15 +14,16 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/loadingio/loading.css@v2.0.0/dist/loading.css" />
     <link rel="stylesheet" href="https://vjs.zencdn.net/7.6.6/video-js.css"/>
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js" defer></script>
     <script src="https://vjs.zencdn.net/7.6.6/video.js" defer></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.0.1/mustache.min.js" defer></script>
     <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js" defer></script>
-    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+
     <script src="js/template.js" defer></script>
-    <script src="js/affirmation.js" defer></script>
     <script src="js/gameChoice.js" defer></script>
     <script src="js/gameRule.js" defer></script>
     <script src="js/accueil.js" defer></script>
@@ -35,8 +37,11 @@
           <!-- Le loader -->
           <!--<div id="loader-img" class="ld ld-ring ld-cycle"></div>-->
           <img id="loader-img" src="img/geoPoli.png" width="250px">
-          <p id="loader-text"> 
-            <i>La </i> 
+          <!--<video width="320" height="240" id="background-video" data-setup='{"autoplay": true, "fill": false, "muted": true, "preload": "auto"}'>
+            <source src="img/animationLogo.mp4" type="video/mp4">
+          </video>-->
+          <p id="loader-text">
+            <i>La </i>
             <b>Poli</b><font color="#EA6D5B"><b>tique</b></font> <br/> <i>en</i> <b>Loire-Atlantique</b> <br/> <font color="#EA6D5B"><i>c'est </i> <b>Ludique !</b></font> </p>
         </section>
 
@@ -45,5 +50,6 @@
         </div>
       </div>
     </div>
+    <script src="js/affirmation.js" defer></script>
   </body>
 </html>

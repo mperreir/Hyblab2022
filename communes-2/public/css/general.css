@@ -159,3 +159,11 @@ body{
 .logo {
     margin-top: 5%;
 }
+
+
+/**
+TEST carte leaflet
+*/
+#map {
+    height: 500px;
+}
