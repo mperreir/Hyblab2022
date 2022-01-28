@@ -177,7 +177,7 @@ body{
 /* as long as the screen aspect ratio is higher than 9:16 */
 @media screen and (min-aspect-ratio: 9/16){
     #container{
-        margin-left: calc((100vw - 100 * 9vh / 16) / 2);
+       /* margin-left: calc((100vw - 100 * 9vh / 16) / 2); */
         width: 100vw;
         height: 100vh;
     }
