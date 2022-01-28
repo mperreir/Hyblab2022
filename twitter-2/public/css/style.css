@@ -54,7 +54,11 @@ body{
     top: 0px;
     font-size: 30%;
     z-index: 2;
-    background: #5571E5;
+    background: rgba(110, 134, 233);
+}
+
+#imagesLogo {
+    margin-top: 25%;
 }
 
 #logo {
@@ -62,8 +66,8 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 80%;
-    margin-bottom: 15%;
+    margin-top: 10%;
+    margin-bottom: 5%;
 }
 
 #phrase-daccroche {
@@ -120,7 +124,7 @@ body{
 }
 
 #illustration-slide-2 {
-    margin-top: 20%;
+    margin-top: 10%;
     margin-bottom: 5%;
 }
 
@@ -167,72 +171,7 @@ body{
     color: #1A367A;
     font-size: 15px;
     position: relative;
-}
-
-#third-slide div {
-    text-align: center;
-}
-
-#title-slide-3 {
-    font-size: 30px;
-    font-weight: bold;
-    margin-top: 5%;
-    margin-bottom: 10%;
-}
-
-#categorie ul {
-    margin-top: 5%;
-    margin-bottom: 10%;
-    list-style-type: none;
-}
-
-#categorie ul li {
-    margin-bottom: 5%;
-}
-
-#categorie ul li button {
-    background-color: #F24A41;
-    border-radius: 19px;
-    width: 217px;
-    height: 33px;
-    color: white;
-    border: 0;
-}
-
-#categorie {
-    position: absolute;
     width: 100%;
-    visibility: hidden;
-}
-
-#selection-candidat {
-    position: absolute;
-    width: 100%;
-}
-
-#selection-candidat ul {
-    margin-top: 5%;
-}
-
-#selection-candidat ul li {
-    display: inline;
-    margin-left: 4%;
-    margin-right: 4%;
-}
-
-#selection-candidat ul li img {
-    width: 20%;
-}
-
-#selection-candidat p {
-    margin-bottom: 5%;
-}
-
-#third-slide footer{
-    bottom: 5%;
-    font-size: 13px;
-    text-align: center;
-    padding: 0 1em;
 }
 
 /* FOURTH SLIDE */
