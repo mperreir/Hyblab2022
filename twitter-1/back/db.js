@@ -90,10 +90,21 @@ module.exports.getTweetsSemaine = () => {
 // ]);
 
 // // INIT Tweets
-const labeler = new textProcessing.Labeler(db.fetch(module.exports.themes_name));
-textProcessing.Parser.getTweetsJSONFromFile(path.join(__dirname, '/data/tweets/tweets_candidats_2.csv'), ts  => {
-    // let older_tweets = db.fetch(module.exports.tweets_name);
-    // if (older_tweets === null) older_tweets = [];
-    ts = labeler.labellingTweets(ts);//.concat(older_tweets);
-    db.set(module.exports.tweets_name, ts);
-});
+// const labeler = new textProcessing.Labeler(db.fetch(module.exports.themes_name));
+// textProcessing.Parser.getTweetsJSONFromFile(path.join(__dirname, '/data/tweets/tweets_candidats_2.csv'), ts  => {
+//     // let older_tweets = db.fetch(module.exports.tweets_name);
+//     // if (older_tweets === null) older_tweets = [];
+//     ts = labeler.labellingTweets(ts);//.concat(older_tweets);
+//     db.set(module.exports.tweets_name, ts);
+// });
+
+module.exports.tweets_update = (file, onFinish) => {
+    const labeler = new textProcessing.Labeler(db.fetch(module.exports.themes_name));
+    textProcessing.Parser.getValuesFromCSVString(file, ts  => {
+        // let older_tweets = db.fetch(module.exports.tweets_name);
+        // if (older_tweets === null) older_tweets = [];
+        ts = labeler.labellingTweets(ts);//.concat(older_tweets);
+        db.set(module.exports.tweets_name, ts);
+        onFinish();
+    });
+}

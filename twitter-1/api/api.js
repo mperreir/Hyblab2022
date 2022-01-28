@@ -7,6 +7,9 @@ const db = require(path.join(__dirname, "../back/db"));
 const textProcessing = require(path.join(__dirname, '/../back/textProcessing'));
 const {tweets_name} = require("../back/db");
 
+const multer  = require('multer');
+const upload = multer();
+
 // Sample endpoint that sends the partner's name
 app.get('/topic', function ( req, res ) {
     let topic;
@@ -102,6 +105,19 @@ app.get('/candidat/:id_candidat/stats', (req, res) => {
     }
 
     res.json(stats);
+});
+
+app.post('/admin/tweets/update', upload.single('tweets_file'), (req, res) => {
+    if (req.file !== undefined && req.file.buffer !== undefined) {
+        // https://stackoverflow.com/questions/190852/how-can-i-get-file-extensions-with-javascript
+        if (req.file.originalname.slice((req.file.originalname.lastIndexOf(".") - 1 >>> 0) + 2) !== 'csv')
+            res.status(400).send('Erreur : .csv requit.');
+        db.tweets_update(req.file.buffer.toString(), () => {
+            res.redirect('back');
+        });
+    } else {
+        res.status(400).send('Erreur fichier non reçu.');
+    }
 });
 
 

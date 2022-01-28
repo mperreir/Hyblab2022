@@ -8,6 +8,8 @@ const Trie = natural.Trie;
 const classifier = new natural.BayesClassifier();
 const TfIdf = natural.TfIdf;
 
+const Readable = require('stream').Readable;
+
 class Labeler {
     constructor(themes) {
         // réduit à la forme primitive les keyswords
@@ -24,7 +26,6 @@ class Labeler {
         tweet.data = natural.PorterStemmerFr.tokenizeAndStem(tweet.tweet);
         const trie = new Trie();
         trie.addStrings(tweet.data);
-
 
         let themeScores = [];
 
@@ -87,6 +88,24 @@ class Parser {
         let values = [];
 
         fs.createReadStream(path)
+            .pipe(csv())
+            .on('data', function (data) {
+                try {
+                    values.push(data);
+                } catch (err) {
+                    //error handler
+                    console.error(err);
+                }
+            })
+            .on('end', function () {
+                callback(values);
+            });
+    }
+
+    static getValuesFromCSVString(file, callback) {
+        let values = [];
+
+        Readable.from(file)
             .pipe(csv())
             .on('data', function (data) {
                 try {
