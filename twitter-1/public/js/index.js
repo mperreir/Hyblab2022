@@ -36,9 +36,3 @@ anime({
   'z-index' : -1,
   easing: 'easeOutQuad',
 });
-// Init first slide
-initSlide1();
-initSlide3();
-// Debug trace because the loadeddata event is
-// sometime not fired
-console.log("Video loaded");

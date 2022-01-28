@@ -1,10 +1,21 @@
 
-(() => Suivant(30,0,0))();
+//(() => Suivant(30,0,0))();
 
 async function Suivant(temps,score,total) {
 
     let jeu = document.querySelector('#jeu');
     
+    try {
+        let text = document.querySelector('#text');
+        let choix = document.querySelector('#choix');
+        let svg = document.querySelector('#logo-svg');
+        jeu.removeChild(text);
+        jeu.removeChild(choix);
+        jeu.removeChild(svg);
+        let slide = document.querySelector('#second-slide');
+        slide.style.background ="white";
+    } catch {}
+
     try {
         jeu.removeChild(question);
         jeu.removeChild(reponse);
@@ -50,7 +61,6 @@ async function Suivant(temps,score,total) {
     b.style.height = "40px";
     b.style.borderRadius = "10px 10px 10px 10px";
     b.addEventListener('click', () => { 
-        changeColor(b, !question.is_response_1_true);
         Reponse(b, !question.is_response_1_true, temps, interval, score, total);
     });
 
@@ -63,11 +73,12 @@ async function Suivant(temps,score,total) {
 
     let timerElement = document.getElementById("timer")
     interval = setInterval(() => {
-        let secondes = temps;
+        let minute = Math.floor(temps/60);
+        let secondes = temps%60;
     
         secondes = secondes < 10 ? "0" + secondes : secondes
       
-        timerElement.innerText = `00:${secondes}`
+        timerElement.innerText = `${minute}:${secondes}`
         temps = temps <= 0 ? 0 : temps - 1
         if(temps==0){
             finJeu(score,total);
@@ -76,15 +87,6 @@ async function Suivant(temps,score,total) {
     
     
     
-}
-
-function changeColor(button, truth){
-    if(truth){
-        button.style.backgroundColor = "green";
-    }else{
-        button.style.backgroundColor = "red";
-    };
-     
 }
 
 
