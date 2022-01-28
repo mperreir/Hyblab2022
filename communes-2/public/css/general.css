@@ -65,6 +65,7 @@ body{
 }
 
 #loader-text{
+    padding-top: 90px;
     text-align: center;
     font-size: 25%;
     font-family: 'Century Gothic';
@@ -142,12 +143,14 @@ body{
 }
 
 .genericText{
-    font-size: 15%;
+    font-family: "Reem Kufi";
+    font-size: 20px;
     color: #282246;
 }
 
 .textZone{
-    font-size: 15%;
+    font-family: "Bebas Neue";
+    font-size: 30px;
     background-color: #282246;
     padding: 10px 60px 10px 60px;
     border-radius: 50px;
