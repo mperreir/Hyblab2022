@@ -4,6 +4,7 @@ window.addEventListener("load", function(event) {
    if (sessionStorage.answer == '0') {
       const collectionRight = document.getElementsByClassName("right");
       const collectionWrong = document.getElementsByClassName("wrong");
+      document.getElementById("container").style.backgroundColor = "#F24A41";
       for (let i = 0; i < collectionRight.length; i++) {
          collectionRight[i].style.visibility = "hidden";
       }

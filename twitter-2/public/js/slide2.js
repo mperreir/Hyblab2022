@@ -2,7 +2,7 @@
 
 // Just animate the logo
 const initSlide2 = function(){
-  const vector = document.querySelector('#vector2');
+  /*const vector = document.querySelector('#vector2');
   vector.addEventListener('click', () => {
     swiper.slideNext()
     initSlide3();
@@ -14,5 +14,5 @@ const initSlide2 = function(){
     easing: 'easeInOutQuad',
     direction: 'alternate',
     loop: true
-  });
+  });*/
 };

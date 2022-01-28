@@ -1,4 +1,7 @@
+
 window.onload = () => {
+
+   document.body.style.backgroundImage="url('img/anim-confetti-quiz_1.gif')";
     document.getElementById("new-quiz").addEventListener("click", () => { 
         window.location.href = "./question.html";
      });
@@ -9,5 +12,6 @@ window.onload = () => {
 
      document.getElementById("go-exploration").addEventListener("click", () => { 
         window.location.href = "./index.html#third-slide";
+      
      });
 }

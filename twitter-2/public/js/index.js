@@ -14,9 +14,11 @@ initSlide1();
 
 window.onload = () => {
   document.getElementById("button-slide-2").addEventListener("click", () => { 
-    window.location.href = "./question.html";
+    window.location.href = "./commencer_partie.html";
   });
-  document.getElementById("bouton-decouvrir").addEventListener("click", () => { 
+
+  document.getElementById("button-explorer").addEventListener("click", () => { 
     window.location.href = "./exploration.html";
   });
+
 }
