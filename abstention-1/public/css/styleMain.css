@@ -120,3 +120,8 @@ body{
     top:30vh;
 }
 
+
+lottie-player{
+    position:absolute;
+    width: 100%;
+}
