@@ -50,8 +50,7 @@ div p{
 }
 
 .section-div{
-
-    margin-right: 40%;
+    width: 60%;
 }
 
 #diagram{
@@ -74,22 +73,14 @@ div p{
 }
 
 button{ 
-    padding : 2% 0% 2% 0%;
-    margin: 1%;
-    width: 40%;
-    height: 8%;
-    border-radius: 30px;
-    border: none;
-
     color:#ADB3D7;
     font-size: 70%;
-    font-family: 'folsomblack';
 }
 
 @font-face {
     font-family: 'mariannemedium';
-    src: url('marianne-medium-webfont.woff2') format('woff2'),
-         url('marianne-medium-webfont.woff') format('woff');
+    src: url('font/marianne-medium-webfont.woff2') format('woff2'),
+         url('font/marianne-medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -103,11 +94,4 @@ button{
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'folsomblack';
-    src: url('font/folsom-black-webfont.woff2') format('woff2'),
-         url('font/folsom-black-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 

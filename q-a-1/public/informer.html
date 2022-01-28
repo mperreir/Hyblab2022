@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
   <title>Hyblab 2022</title>
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/informer.css">
-    <link rel="stylesheet" href="css/pagenumber_blue.css">
+  <link rel="stylesheet" href="css/blue_page.css">
+  <link rel="stylesheet" href="css/pagenumber_blue.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/loadingio/loading.css@v2.0.0/dist/loading.css" />
   <link href="https://vjs.zencdn.net/7.6.6/video-js.css" rel="stylesheet" />
@@ -17,7 +17,6 @@
   <script src="js/slide1.js" defer></script>
   <script src="js/slide2.js" defer></script>
   <script src="js/index.js" defer></script>
-  <script src="js/header.js" defer></script>
   <script src="js/informer.js" defer></script>
 </head>
 <body>
@@ -31,9 +30,9 @@
             <section id="first-section">
                 <header>
                     <!--<div id="logo"></div>-->
-                    <div><img id="logo" src="img/logo/logo bleu.svg"></div>
-                    <div><img id="title" src="img/informer.svg"></div>
-                    <div><img id="subtitle" src="img/les_programmes.svg"></div>
+                    <div class="header-img"><img id="logo" src="img/logo/logo bleu.svg"></div>
+                    <div class="header-img"><img id="title" src="img/informer.svg"></div>
+                    <div class="header-img"><img id="subtitle" src="img/les_programmes.svg"></div>
                       
                 </header>
                   <p id="introduction">Pour prendre connaissance des différents programmes, les français utilisent :</p>
@@ -49,8 +48,11 @@
                 <div class = "main-section">
                   <img id="tv" src="img/assets_tele.svg">
                 </div>
-
-                <div><img id="anime_img" src="img/premier_tour.svg"></div>
+                <div>
+                  <p id = "anim-text"> 
+                    <img src="img/premier_tour.svg">
+                  </p>
+                </div>
                 
                 <div class="pagenumber">
                     <a href="informer.html" class="sansserif" id="currentnum">1</a>
