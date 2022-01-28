@@ -1,5 +1,5 @@
 
-(() => Suivant(10,0,0))();
+(() => Suivant(30,0,0))();
 
 async function Suivant(temps,score,total) {
 

@@ -30,12 +30,16 @@ app.get('/game/1/new_question', (req, res) => {
             .filter(c => candidat1.id !== c.id)
             .sort(() => 0.5 - Math.random())[0];
         tweet = db.getTweetsSemaine()
-            .filter(t => t.user_id === candidat1.id)
-            .filter(t => t.retweet === "False")
+            .filter(t => t.user_id === candidat1.id
+                && t.retweet === "False"
+                && t.tweet.length > 100)
             .sort((a, b) => b.likes_count - a.likes_count)
             .slice(0, 3)
             .sort(() => 0.5 - Math.random())[0];
     } while(tweet === undefined);
+
+    // Supprime les url des tweets
+    tweet.tweet = tweet.tweet.replace(/(?:https?|ftp):\/\/[\n\S]+/g, '');
 
     if (Math.random() > 0.5) {
         const tmp = candidat1;
@@ -49,7 +53,7 @@ app.get('/game/1/new_question', (req, res) => {
         possible_response_1: candidat1,
         possible_response_2: candidat2,
         is_response_1_true: is_first_response_true,
-        true_response: candidat1,
+        true_response: is_first_response_true ? candidat1 : candidat2,
         original_tweet: tweet,
     };
 
@@ -71,6 +75,12 @@ app.get('/tweets/tops/:theme_id', (req, res) => {
 
 app.get('/candidat/all', (req, res) => {
     let candidats = db.fetch(db.candidats_name);
+    res.json(candidats);
+});
+
+app.get('/candidat/filtre', (req, res) => {
+    let candidats = db.fetch(db.candidats_name)
+        .filter(t => t.followers > 80000);
     res.json(candidats);
 });
 

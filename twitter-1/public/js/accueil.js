@@ -22,19 +22,4 @@ const initSlide1 = async function(){
     initSlide2();
   });*/
 
-  // Retrieve the partner's topic from our API
-  let response = await fetch('api/topic');
-  const data1 = await response.json();
-
-  // Get some dummy data
-  response = await fetch('data/dummy.json');
-  const data2 = await response.json();
-
-
-  // Update the DOM to insert topic and data
-  const footer = document.querySelector('footer');
-  const p = document.createElement('p');
-  p.textContent = `Our topic is "${data1.topic}" and here is "${data2.message}" retrieved on the server.`;
-  footer.appendChild(p);
-
 };
