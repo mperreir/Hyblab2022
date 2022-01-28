@@ -1,5 +1,3 @@
-const { LinearInterpolate } = require("../../utils");
-
 class CSSProperty {
     constructor(name, value){
         this.name = name;
@@ -16,5 +14,3 @@ class CSSProperty {
         return `${this.name}: ${this.value};`
     }
 }
-
-module.exports = CSSProperty;

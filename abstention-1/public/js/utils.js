@@ -91,7 +91,3 @@ class LinearInterpolate {
         return start.map((value, index) => LinearInterpolate.number(value, end[index], progress));
     }
 }
-
-module.exports.Observer = Observer;
-module.exports.Observable = Observable;
-module.exports.LinearInterpolate = LinearInterpolate;

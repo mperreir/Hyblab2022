@@ -1,5 +1,3 @@
-const { LinearInterpolate } = require("../../utils");
-
 class Transform {
     constructor(values = {}){
         this.values = values;
@@ -65,5 +63,3 @@ class Transform {
         .reduce((prev, next) => `${prev} ${next}`) + ";";
     }
 }
-
-module.exports = Transform;

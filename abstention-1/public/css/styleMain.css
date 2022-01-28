@@ -125,3 +125,7 @@ lottie-player{
     position:absolute;
     width: 100%;
 }
+
+.player {
+    opacity: 0;
+}
