@@ -13,7 +13,7 @@ class Question{
     }
 }
 
-
+// ---------------   Question 1   ----------------------
 class More_vote_second_tour extends Question{
     constructor(code_commune, annee) {
         super(code_commune, annee);
@@ -30,38 +30,37 @@ class More_vote_second_tour extends Question{
     }
 }
 
+// ---------------   Question 2   ----------------------
+// ---------------   Question 3   ----------------------
+// ---------------   Question 4   ----------------------
+// ---------------   Question 5   ----------------------
+// ---------------   Question 6   ----------------------
 class Question6 extends Question {
-    constructor(code_commune, annee, valeur) {
+    constructor(code_commune, annee) {
         super(code_commune, annee);
-        this.valeur = valeur;
+        this.valeur = 80;
     }
     generate_question() {
         let key = this.annee + "_2";
         let info_commune = data_election.get(key).get(this.code_commune);
         let nom_commune = info_commune.nom_com;
+        let taux_participation = 100 - info_commune.pour_abs.ins;
 
         let question = "À " + nom_commune + ", le taux de participation est-il " +
-            "supérieur à " + this.valeur + "% en " + this.annee + " ?";
-
-        let reponse1 = new Array(2);
-        reponse1.push("Oui");
-        reponse1.push(true);
-
-        let reponse2 = new Array(2);
-        reponse2.push("Non");
-        reponse2.push(false);
-
-        let res = new Array(3)
-        res.push(question);
-        res.push(reponse1);
-        res.push(reponse2);
-
-        return res;
+            "supérieur à " + this.valeur + "% en " + this.annee + " au second tour ?";
+        let reponse1 = ["Oui", taux_participation > this.valeur];
+        let reponse2 = ["Non", taux_participation <= this.valeur];
+        return [question, reponse1, reponse2];
     }
-
-
 }
 
+// ---------------   Question 7   ----------------------
+// ---------------   Question 8   ----------------------
+// ---------------   Question 9   ----------------------
+// ---------------   Question 10  ----------------------
 
+
+
+//tests
 console.log(new More_vote_second_tour(7,"2002").generate_question());
-console.log(new Question6(7,"2002",30).generate_question());
+console.log(new Question6(2,"2002").generate_question());
