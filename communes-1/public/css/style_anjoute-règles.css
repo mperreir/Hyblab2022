@@ -1,32 +1,30 @@
 #container {
+	position: relative;
 	height: 100%;
 	background-color: #11151B;
 }
 
 .top {
+	position: absolute;
+	z-index: 10;
 	text-align: center;
+	top: 5%;
 }
 
 .top img {
 	width: 70%;
 	height: auto;
-	padding-top: 10%;
 }
 
 .mid {
 	position: relative;
-	top: 10%;
-}
-
-.animation_bulle {
-	position: absolute;
-	right: 10%;
-	width: 45%;
+	z-index: 0;
+	top: 30%;
 }
 
 .animation_perso {
-	margin-top: 13%;
 	width: 100%;
+	height: auto;
 }
 
 .mid .bottom {
@@ -35,7 +33,7 @@
 	font-size: 0;
 	width: 100%;
 	text-align: center;
-	bottom: -15px;
+	bottom: 0;
 }
 
 .mid .goToChoix {
@@ -54,6 +52,6 @@
 
 .mid .goToChoix p {
     font-family: 'Lineal', sans-serif;
-	font-size: 200%;
+	font-size: 16px;
 	margin: 3%;
 }
