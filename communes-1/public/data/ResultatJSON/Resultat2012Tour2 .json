@@ -1,0 +1,9116 @@
+[
+ {
+   "Code de la commune": 2,
+   "Libellé de la commune": "Allonnes",
+   "Inscrits": 1985,
+   "Abstentions": 342,
+   "% Abs": {
+      "Ins": 17.23
+   },
+   "Votants": 1643,
+   "% Vot": {
+      "Ins": 82.77
+   },
+   "Blancs et nuls": 109,
+   "% BlNuls": {
+      "Ins": 5.49,
+      "Vot": 6.63
+   },
+   "Exprimés": 1534,
+   "% Exp": {
+      "Ins": 77.28,
+      "Vot": 93.37
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      604,
+      930
+   ],
+   "% Voix": {
+      "Ins": [
+         30.43,
+         46.85
+      ],
+      "Exp": [
+         39.37,
+         60.63
+      ]
+   }
+},
+ {
+   "Code de la commune": 3,
+   "Libellé de la commune": "Tuffalun",
+   "Inscrits": 1148,
+   "Abstentions": 173,
+   "% Abs": {
+      "Ins": 15.07
+   },
+   "Votants": 975,
+   "% Vot": {
+      "Ins": 84.93
+   },
+   "Blancs et nuls": 67,
+   "% BlNuls": {
+      "Ins": 5.84,
+      "Vot": 6.87
+   },
+   "Exprimés": 908,
+   "% Exp": {
+      "Ins": 79.09,
+      "Vot": 93.13
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      373,
+      535
+   ],
+   "% Voix": {
+      "Ins": [
+         32.49,
+         46.6
+      ],
+      "Exp": [
+         41.08,
+         58.92
+      ]
+   }
+},
+ {
+   "Code de la commune": 7,
+   "Libellé de la commune": "Angers",
+   "Inscrits": 87363,
+   "Abstentions": 17452,
+   "% Abs": {
+      "Ins": 19.98
+   },
+   "Votants": 69911,
+   "% Vot": {
+      "Ins": 80.02
+   },
+   "Blancs et nuls": 3409,
+   "% BlNuls": {
+      "Ins": 3.9,
+      "Vot": 4.88
+   },
+   "Exprimés": 66502,
+   "% Exp": {
+      "Ins": 76.12,
+      "Vot": 95.12
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      38059,
+      28443
+   ],
+   "% Voix": {
+      "Ins": [
+         43.56,
+         32.56
+      ],
+      "Exp": [
+         57.23,
+         42.77
+      ]
+   }
+},
+ {
+   "Code de la commune": 8,
+   "Libellé de la commune": "Angrie",
+   "Inscrits": 654,
+   "Abstentions": 91,
+   "% Abs": {
+      "Ins": 13.91
+   },
+   "Votants": 563,
+   "% Vot": {
+      "Ins": 86.09
+   },
+   "Blancs et nuls": 42,
+   "% BlNuls": {
+      "Ins": 6.42,
+      "Vot": 7.46
+   },
+   "Exprimés": 521,
+   "% Exp": {
+      "Ins": 79.66,
+      "Vot": 92.54
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      188,
+      333
+   ],
+   "% Voix": {
+      "Ins": [
+         28.75,
+         50.92
+      ],
+      "Exp": [
+         36.08,
+         63.92
+      ]
+   }
+},
+ {
+   "Code de la commune": 9,
+   "Libellé de la commune": "Antoigné",
+   "Inscrits": 343,
+   "Abstentions": 70,
+   "% Abs": {
+      "Ins": 20.41
+   },
+   "Votants": 273,
+   "% Vot": {
+      "Ins": 79.59
+   },
+   "Blancs et nuls": 26,
+   "% BlNuls": {
+      "Ins": 7.58,
+      "Vot": 9.52
+   },
+   "Exprimés": 247,
+   "% Exp": {
+      "Ins": 72.01,
+      "Vot": 90.48
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      107,
+      140
+   ],
+   "% Voix": {
+      "Ins": [
+         31.2,
+         40.82
+      ],
+      "Exp": [
+         43.32,
+         56.68
+      ]
+   }
+},
+ {
+   "Code de la commune": 10,
+   "Libellé de la commune": "Armaillé",
+   "Inscrits": 237,
+   "Abstentions": 34,
+   "% Abs": {
+      "Ins": 14.35
+   },
+   "Votants": 203,
+   "% Vot": {
+      "Ins": 85.65
+   },
+   "Blancs et nuls": 15,
+   "% BlNuls": {
+      "Ins": 6.33,
+      "Vot": 7.39
+   },
+   "Exprimés": 188,
+   "% Exp": {
+      "Ins": 79.32,
+      "Vot": 92.61
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      54,
+      134
+   ],
+   "% Voix": {
+      "Ins": [
+         22.78,
+         56.54
+      ],
+      "Exp": [
+         28.72,
+         71.28
+      ]
+   }
+},
+ {
+   "Code de la commune": 11,
+   "Libellé de la commune": "Artannes-sur-Thouet",
+   "Inscrits": 315,
+   "Abstentions": 36,
+   "% Abs": {
+      "Ins": 11.43
+   },
+   "Votants": 279,
+   "% Vot": {
+      "Ins": 88.57
+   },
+   "Blancs et nuls": 15,
+   "% BlNuls": {
+      "Ins": 4.76,
+      "Vot": 5.38
+   },
+   "Exprimés": 264,
+   "% Exp": {
+      "Ins": 83.81,
+      "Vot": 94.62
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      97,
+      167
+   ],
+   "% Voix": {
+      "Ins": [
+         30.79,
+         53.02
+      ],
+      "Exp": [
+         36.74,
+         63.26
+      ]
+   }
+},
+ {
+   "Code de la commune": 12,
+   "Libellé de la commune": "Aubigné-sur-Layon",
+   "Inscrits": 273,
+   "Abstentions": 31,
+   "% Abs": {
+      "Ins": 11.36
+   },
+   "Votants": 242,
+   "% Vot": {
+      "Ins": 88.64
+   },
+   "Blancs et nuls": 20,
+   "% BlNuls": {
+      "Ins": 7.33,
+      "Vot": 8.26
+   },
+   "Exprimés": 222,
+   "% Exp": {
+      "Ins": 81.32,
+      "Vot": 91.74
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      98,
+      124
+   ],
+   "% Voix": {
+      "Ins": [
+         35.9,
+         45.42
+      ],
+      "Exp": [
+         44.14,
+         55.86
+      ]
+   }
+},
+ {
+   "Code de la commune": 15,
+   "Libellé de la commune": "Avrillé",
+   "Inscrits": 10243,
+   "Abstentions": 1552,
+   "% Abs": {
+      "Ins": 15.15
+   },
+   "Votants": 8691,
+   "% Vot": {
+      "Ins": 84.85
+   },
+   "Blancs et nuls": 372,
+   "% BlNuls": {
+      "Ins": 3.63,
+      "Vot": 4.28
+   },
+   "Exprimés": 8319,
+   "% Exp": {
+      "Ins": 81.22,
+      "Vot": 95.72
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      4244,
+      4075
+   ],
+   "% Voix": {
+      "Ins": [
+         41.43,
+         39.78
+      ],
+      "Exp": [
+         51.02,
+         48.98
+      ]
+   }
+},
+ {
+   "Code de la commune": 17,
+   "Libellé de la commune": "Baracé",
+   "Inscrits": 310,
+   "Abstentions": 38,
+   "% Abs": {
+      "Ins": 12.26
+   },
+   "Votants": 272,
+   "% Vot": {
+      "Ins": 87.74
+   },
+   "Blancs et nuls": 17,
+   "% BlNuls": {
+      "Ins": 5.48,
+      "Vot": 6.25
+   },
+   "Exprimés": 255,
+   "% Exp": {
+      "Ins": 82.26,
+      "Vot": 93.75
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      119,
+      136
+   ],
+   "% Voix": {
+      "Ins": [
+         38.39,
+         43.87
+      ],
+      "Exp": [
+         46.67,
+         53.33
+      ]
+   }
+},
+ {
+   "Code de la commune": 18,
+   "Libellé de la commune": "Baugé-en-Anjou",
+   "Inscrits": 8365,
+   "Abstentions": 1252,
+   "% Abs": {
+      "Ins": 14.97
+   },
+   "Votants": 7113,
+   "% Vot": {
+      "Ins": 85.03
+   },
+   "Blancs et nuls": 408,
+   "% BlNuls": {
+      "Ins": 4.88,
+      "Vot": 5.74
+   },
+   "Exprimés": 6705,
+   "% Exp": {
+      "Ins": 80.16,
+      "Vot": 94.26
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      3192,
+      3513
+   ],
+   "% Voix": {
+      "Ins": [
+         38.16,
+         42
+      ],
+      "Exp": [
+         47.61,
+         52.39
+      ]
+   }
+},
+ {
+   "Code de la commune": 20,
+   "Libellé de la commune": "Beaucouzé",
+   "Inscrits": 3975,
+   "Abstentions": 500,
+   "% Abs": {
+      "Ins": 12.58
+   },
+   "Votants": 3475,
+   "% Vot": {
+      "Ins": 87.42
+   },
+   "Blancs et nuls": 158,
+   "% BlNuls": {
+      "Ins": 3.97,
+      "Vot": 4.55
+   },
+   "Exprimés": 3317,
+   "% Exp": {
+      "Ins": 83.45,
+      "Vot": 95.45
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      1845,
+      1472
+   ],
+   "% Voix": {
+      "Ins": [
+         46.42,
+         37.03
+      ],
+      "Exp": [
+         55.62,
+         44.38
+      ]
+   }
+},
+ {
+   "Code de la commune": 21,
+   "Libellé de la commune": "Beaufort-en-Anjou",
+   "Inscrits": 4774,
+   "Abstentions": 802,
+   "% Abs": {
+      "Ins": 16.8
+   },
+   "Votants": 3972,
+   "% Vot": {
+      "Ins": 83.2
+   },
+   "Blancs et nuls": 263,
+   "% BlNuls": {
+      "Ins": 5.51,
+      "Vot": 6.62
+   },
+   "Exprimés": 3709,
+   "% Exp": {
+      "Ins": 77.69,
+      "Vot": 93.38
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      1859,
+      1850
+   ],
+   "% Voix": {
+      "Ins": [
+         38.94,
+         38.75
+      ],
+      "Exp": [
+         50.12,
+         49.88
+      ]
+   }
+},
+ {
+   "Code de la commune": 22,
+   "Libellé de la commune": "Beaulieu-sur-Layon",
+   "Inscrits": 1003,
+   "Abstentions": 125,
+   "% Abs": {
+      "Ins": 12.46
+   },
+   "Votants": 878,
+   "% Vot": {
+      "Ins": 87.54
+   },
+   "Blancs et nuls": 47,
+   "% BlNuls": {
+      "Ins": 4.69,
+      "Vot": 5.35
+   },
+   "Exprimés": 831,
+   "% Exp": {
+      "Ins": 82.85,
+      "Vot": 94.65
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      366,
+      465
+   ],
+   "% Voix": {
+      "Ins": [
+         36.49,
+         46.36
+      ],
+      "Exp": [
+         44.04,
+         55.96
+      ]
+   }
+},
+ {
+   "Code de la commune": 23,
+   "Libellé de la commune": "Beaupréau-en-Mauges",
+   "Inscrits": 16777,
+   "Abstentions": 2568,
+   "% Abs": {
+      "Ins": 15.31
+   },
+   "Votants": 14209,
+   "% Vot": {
+      "Ins": 84.69
+   },
+   "Blancs et nuls": 921,
+   "% BlNuls": {
+      "Ins": 5.49,
+      "Vot": 6.48
+   },
+   "Exprimés": 13288,
+   "% Exp": {
+      "Ins": 79.2,
+      "Vot": 93.52
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      5267,
+      8021
+   ],
+   "% Voix": {
+      "Ins": [
+         31.39,
+         47.81
+      ],
+      "Exp": [
+         39.64,
+         60.36
+      ]
+   }
+},
+ {
+   "Code de la commune": 26,
+   "Libellé de la commune": "Bécon-les-Granits",
+   "Inscrits": 1937,
+   "Abstentions": 244,
+   "% Abs": {
+      "Ins": 12.6
+   },
+   "Votants": 1693,
+   "% Vot": {
+      "Ins": 87.4
+   },
+   "Blancs et nuls": 104,
+   "% BlNuls": {
+      "Ins": 5.37,
+      "Vot": 6.14
+   },
+   "Exprimés": 1589,
+   "% Exp": {
+      "Ins": 82.03,
+      "Vot": 93.86
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      773,
+      816
+   ],
+   "% Voix": {
+      "Ins": [
+         39.91,
+         42.13
+      ],
+      "Exp": [
+         48.65,
+         51.35
+      ]
+   }
+},
+ {
+   "Code de la commune": 27,
+   "Libellé de la commune": "Bégrolles-en-Mauges",
+   "Inscrits": 1331,
+   "Abstentions": 150,
+   "% Abs": {
+      "Ins": 11.27
+   },
+   "Votants": 1181,
+   "% Vot": {
+      "Ins": 88.73
+   },
+   "Blancs et nuls": 75,
+   "% BlNuls": {
+      "Ins": 5.63,
+      "Vot": 6.35
+   },
+   "Exprimés": 1106,
+   "% Exp": {
+      "Ins": 83.1,
+      "Vot": 93.65
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      445,
+      661
+   ],
+   "% Voix": {
+      "Ins": [
+         33.43,
+         49.66
+      ],
+      "Exp": [
+         40.24,
+         59.76
+      ]
+   }
+},
+ {
+   "Code de la commune": 28,
+   "Libellé de la commune": "Béhuard",
+   "Inscrits": 120,
+   "Abstentions": 16,
+   "% Abs": {
+      "Ins": 13.33
+   },
+   "Votants": 104,
+   "% Vot": {
+      "Ins": 86.67
+   },
+   "Blancs et nuls": 6,
+   "% BlNuls": {
+      "Ins": 5,
+      "Vot": 5.77
+   },
+   "Exprimés": 98,
+   "% Exp": {
+      "Ins": 81.67,
+      "Vot": 94.23
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      58,
+      40
+   ],
+   "% Voix": {
+      "Ins": [
+         48.33,
+         33.33
+      ],
+      "Exp": [
+         59.18,
+         40.82
+      ]
+   }
+},
+ {
+   "Code de la commune": 29,
+   "Libellé de la commune": "Blaison-Saint-Sulpice",
+   "Inscrits": 1034,
+   "Abstentions": 128,
+   "% Abs": {
+      "Ins": 12.38
+   },
+   "Votants": 906,
+   "% Vot": {
+      "Ins": 87.62
+   },
+   "Blancs et nuls": 38,
+   "% BlNuls": {
+      "Ins": 3.68,
+      "Vot": 4.19
+   },
+   "Exprimés": 868,
+   "% Exp": {
+      "Ins": 83.95,
+      "Vot": 95.81
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      457,
+      411
+   ],
+   "% Voix": {
+      "Ins": [
+         44.2,
+         39.75
+      ],
+      "Exp": [
+         52.65,
+         47.35
+      ]
+   }
+},
+ {
+   "Code de la commune": 30,
+   "Libellé de la commune": "Blou",
+   "Inscrits": 668,
+   "Abstentions": 98,
+   "% Abs": {
+      "Ins": 14.67
+   },
+   "Votants": 570,
+   "% Vot": {
+      "Ins": 85.33
+   },
+   "Blancs et nuls": 41,
+   "% BlNuls": {
+      "Ins": 6.14,
+      "Vot": 7.19
+   },
+   "Exprimés": 529,
+   "% Exp": {
+      "Ins": 79.19,
+      "Vot": 92.81
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      222,
+      307
+   ],
+   "% Voix": {
+      "Ins": [
+         33.23,
+         45.96
+      ],
+      "Exp": [
+         41.97,
+         58.03
+      ]
+   }
+},
+ {
+   "Code de la commune": 35,
+   "Libellé de la commune": "Bouchemaine",
+   "Inscrits": 5255,
+   "Abstentions": 690,
+   "% Abs": {
+      "Ins": 13.13
+   },
+   "Votants": 4565,
+   "% Vot": {
+      "Ins": 86.87
+   },
+   "Blancs et nuls": 242,
+   "% BlNuls": {
+      "Ins": 4.61,
+      "Vot": 5.3
+   },
+   "Exprimés": 4323,
+   "% Exp": {
+      "Ins": 82.26,
+      "Vot": 94.7
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      2136,
+      2187
+   ],
+   "% Voix": {
+      "Ins": [
+         40.65,
+         41.62
+      ],
+      "Exp": [
+         49.41,
+         50.59
+      ]
+   }
+},
+ {
+   "Code de la commune": 36,
+   "Libellé de la commune": "Bouillé-Ménard",
+   "Inscrits": 501,
+   "Abstentions": 64,
+   "% Abs": {
+      "Ins": 12.77
+   },
+   "Votants": 437,
+   "% Vot": {
+      "Ins": 87.23
+   },
+   "Blancs et nuls": 21,
+   "% BlNuls": {
+      "Ins": 4.19,
+      "Vot": 4.81
+   },
+   "Exprimés": 416,
+   "% Exp": {
+      "Ins": 83.03,
+      "Vot": 95.19
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      199,
+      217
+   ],
+   "% Voix": {
+      "Ins": [
+         39.72,
+         43.31
+      ],
+      "Exp": [
+         47.84,
+         52.16
+      ]
+   }
+},
+ {
+   "Code de la commune": 38,
+   "Libellé de la commune": "Bourg-l'Evêque",
+   "Inscrits": 148,
+   "Abstentions": 18,
+   "% Abs": {
+      "Ins": 12.16
+   },
+   "Votants": 130,
+   "% Vot": {
+      "Ins": 87.84
+   },
+   "Blancs et nuls": 7,
+   "% BlNuls": {
+      "Ins": 4.73,
+      "Vot": 5.38
+   },
+   "Exprimés": 123,
+   "% Exp": {
+      "Ins": 83.11,
+      "Vot": 94.62
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      76,
+      47
+   ],
+   "% Voix": {
+      "Ins": [
+         51.35,
+         31.76
+      ],
+      "Exp": [
+         61.79,
+         38.21
+      ]
+   }
+},
+ {
+   "Code de la commune": 41,
+   "Libellé de la commune": "Brain-sur-Allonnes",
+   "Inscrits": 1460,
+   "Abstentions": 255,
+   "% Abs": {
+      "Ins": 17.47
+   },
+   "Votants": 1205,
+   "% Vot": {
+      "Ins": 82.53
+   },
+   "Blancs et nuls": 87,
+   "% BlNuls": {
+      "Ins": 5.96,
+      "Vot": 7.22
+   },
+   "Exprimés": 1118,
+   "% Exp": {
+      "Ins": 76.58,
+      "Vot": 92.78
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      485,
+      633
+   ],
+   "% Voix": {
+      "Ins": [
+         33.22,
+         43.36
+      ],
+      "Exp": [
+         43.38,
+         56.62
+      ]
+   }
+},
+ {
+   "Code de la commune": 45,
+   "Libellé de la commune": "La Breille-les-Pins",
+   "Inscrits": 366,
+   "Abstentions": 78,
+   "% Abs": {
+      "Ins": 21.31
+   },
+   "Votants": 288,
+   "% Vot": {
+      "Ins": 78.69
+   },
+   "Blancs et nuls": 18,
+   "% BlNuls": {
+      "Ins": 4.92,
+      "Vot": 6.25
+   },
+   "Exprimés": 270,
+   "% Exp": {
+      "Ins": 73.77,
+      "Vot": 93.75
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      100,
+      170
+   ],
+   "% Voix": {
+      "Ins": [
+         27.32,
+         46.45
+      ],
+      "Exp": [
+         37.04,
+         62.96
+      ]
+   }
+},
+ {
+   "Code de la commune": 46,
+   "Libellé de la commune": "Brézé",
+   "Inscrits": 929,
+   "Abstentions": 171,
+   "% Abs": {
+      "Ins": 18.41
+   },
+   "Votants": 758,
+   "% Vot": {
+      "Ins": 81.59
+   },
+   "Blancs et nuls": 52,
+   "% BlNuls": {
+      "Ins": 5.6,
+      "Vot": 6.86
+   },
+   "Exprimés": 706,
+   "% Exp": {
+      "Ins": 76,
+      "Vot": 93.14
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      343,
+      363
+   ],
+   "% Voix": {
+      "Ins": [
+         36.92,
+         39.07
+      ],
+      "Exp": [
+         48.58,
+         51.42
+      ]
+   }
+},
+ {
+   "Code de la commune": 48,
+   "Libellé de la commune": "Briollay",
+   "Inscrits": 2104,
+   "Abstentions": 310,
+   "% Abs": {
+      "Ins": 14.73
+   },
+   "Votants": 1794,
+   "% Vot": {
+      "Ins": 85.27
+   },
+   "Blancs et nuls": 93,
+   "% BlNuls": {
+      "Ins": 4.42,
+      "Vot": 5.18
+   },
+   "Exprimés": 1701,
+   "% Exp": {
+      "Ins": 80.85,
+      "Vot": 94.82
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      803,
+      898
+   ],
+   "% Voix": {
+      "Ins": [
+         38.17,
+         42.68
+      ],
+      "Exp": [
+         47.21,
+         52.79
+      ]
+   }
+},
+ {
+   "Code de la commune": 50,
+   "Libellé de la commune": "Brissac-Loire-Aubance",
+   "Inscrits": 7689,
+   "Abstentions": 999,
+   "% Abs": {
+      "Ins": 12.99
+   },
+   "Votants": 6690,
+   "% Vot": {
+      "Ins": 87.01
+   },
+   "Blancs et nuls": 410,
+   "% BlNuls": {
+      "Ins": 5.33,
+      "Vot": 6.13
+   },
+   "Exprimés": 6280,
+   "% Exp": {
+      "Ins": 81.68,
+      "Vot": 93.87
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      3319,
+      2961
+   ],
+   "% Voix": {
+      "Ins": [
+         43.17,
+         38.51
+      ],
+      "Exp": [
+         52.85,
+         47.15
+      ]
+   }
+},
+ {
+   "Code de la commune": 53,
+   "Libellé de la commune": "Brossay",
+   "Inscrits": 231,
+   "Abstentions": 36,
+   "% Abs": {
+      "Ins": 15.58
+   },
+   "Votants": 195,
+   "% Vot": {
+      "Ins": 84.42
+   },
+   "Blancs et nuls": 17,
+   "% BlNuls": {
+      "Ins": 7.36,
+      "Vot": 8.72
+   },
+   "Exprimés": 178,
+   "% Exp": {
+      "Ins": 77.06,
+      "Vot": 91.28
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      81,
+      97
+   ],
+   "% Voix": {
+      "Ins": [
+         35.06,
+         41.99
+      ],
+      "Exp": [
+         45.51,
+         54.49
+      ]
+   }
+},
+ {
+   "Code de la commune": 54,
+   "Libellé de la commune": "Candé",
+   "Inscrits": 1963,
+   "Abstentions": 308,
+   "% Abs": {
+      "Ins": 15.69
+   },
+   "Votants": 1655,
+   "% Vot": {
+      "Ins": 84.31
+   },
+   "Blancs et nuls": 98,
+   "% BlNuls": {
+      "Ins": 4.99,
+      "Vot": 5.92
+   },
+   "Exprimés": 1557,
+   "% Exp": {
+      "Ins": 79.32,
+      "Vot": 94.08
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      631,
+      926
+   ],
+   "% Voix": {
+      "Ins": [
+         32.14,
+         47.17
+      ],
+      "Exp": [
+         40.53,
+         59.47
+      ]
+   }
+},
+ {
+   "Code de la commune": 55,
+   "Libellé de la commune": "Cantenay-Epinard",
+   "Inscrits": 1655,
+   "Abstentions": 192,
+   "% Abs": {
+      "Ins": 11.6
+   },
+   "Votants": 1463,
+   "% Vot": {
+      "Ins": 88.4
+   },
+   "Blancs et nuls": 58,
+   "% BlNuls": {
+      "Ins": 3.5,
+      "Vot": 3.96
+   },
+   "Exprimés": 1405,
+   "% Exp": {
+      "Ins": 84.89,
+      "Vot": 96.04
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      744,
+      661
+   ],
+   "% Voix": {
+      "Ins": [
+         44.95,
+         39.94
+      ],
+      "Exp": [
+         52.95,
+         47.05
+      ]
+   }
+},
+ {
+   "Code de la commune": 56,
+   "Libellé de la commune": "Carbay",
+   "Inscrits": 161,
+   "Abstentions": 16,
+   "% Abs": {
+      "Ins": 9.94
+   },
+   "Votants": 145,
+   "% Vot": {
+      "Ins": 90.06
+   },
+   "Blancs et nuls": 13,
+   "% BlNuls": {
+      "Ins": 8.07,
+      "Vot": 8.97
+   },
+   "Exprimés": 132,
+   "% Exp": {
+      "Ins": 81.99,
+      "Vot": 91.03
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      46,
+      86
+   ],
+   "% Voix": {
+      "Ins": [
+         28.57,
+         53.42
+      ],
+      "Exp": [
+         34.85,
+         65.15
+      ]
+   }
+},
+ {
+   "Code de la commune": 57,
+   "Libellé de la commune": "Cernusson",
+   "Inscrits": 234,
+   "Abstentions": 38,
+   "% Abs": {
+      "Ins": 16.24
+   },
+   "Votants": 196,
+   "% Vot": {
+      "Ins": 83.76
+   },
+   "Blancs et nuls": 20,
+   "% BlNuls": {
+      "Ins": 8.55,
+      "Vot": 10.2
+   },
+   "Exprimés": 176,
+   "% Exp": {
+      "Ins": 75.21,
+      "Vot": 89.8
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      82,
+      94
+   ],
+   "% Voix": {
+      "Ins": [
+         35.04,
+         40.17
+      ],
+      "Exp": [
+         46.59,
+         53.41
+      ]
+   }
+},
+ {
+   "Code de la commune": 58,
+   "Libellé de la commune": "Les Cerqueux",
+   "Inscrits": 539,
+   "Abstentions": 84,
+   "% Abs": {
+      "Ins": 15.58
+   },
+   "Votants": 455,
+   "% Vot": {
+      "Ins": 84.42
+   },
+   "Blancs et nuls": 32,
+   "% BlNuls": {
+      "Ins": 5.94,
+      "Vot": 7.03
+   },
+   "Exprimés": 423,
+   "% Exp": {
+      "Ins": 78.48,
+      "Vot": 92.97
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      163,
+      260
+   ],
+   "% Voix": {
+      "Ins": [
+         30.24,
+         48.24
+      ],
+      "Exp": [
+         38.53,
+         61.47
+      ]
+   }
+},
+ {
+   "Code de la commune": 60,
+   "Libellé de la commune": "Chacé",
+   "Inscrits": 967,
+   "Abstentions": 133,
+   "% Abs": {
+      "Ins": 13.75
+   },
+   "Votants": 834,
+   "% Vot": {
+      "Ins": 86.25
+   },
+   "Blancs et nuls": 45,
+   "% BlNuls": {
+      "Ins": 4.65,
+      "Vot": 5.4
+   },
+   "Exprimés": 789,
+   "% Exp": {
+      "Ins": 81.59,
+      "Vot": 94.6
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      352,
+      437
+   ],
+   "% Voix": {
+      "Ins": [
+         36.4,
+         45.19
+      ],
+      "Exp": [
+         44.61,
+         55.39
+      ]
+   }
+},
+ {
+   "Code de la commune": 61,
+   "Libellé de la commune": "Challain-la-Potherie",
+   "Inscrits": 608,
+   "Abstentions": 84,
+   "% Abs": {
+      "Ins": 13.82
+   },
+   "Votants": 524,
+   "% Vot": {
+      "Ins": 86.18
+   },
+   "Blancs et nuls": 14,
+   "% BlNuls": {
+      "Ins": 2.3,
+      "Vot": 2.67
+   },
+   "Exprimés": 510,
+   "% Exp": {
+      "Ins": 83.88,
+      "Vot": 97.33
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      167,
+      343
+   ],
+   "% Voix": {
+      "Ins": [
+         27.47,
+         56.41
+      ],
+      "Exp": [
+         32.75,
+         67.25
+      ]
+   }
+},
+ {
+   "Code de la commune": 63,
+   "Libellé de la commune": "Chalonnes-sur-Loire",
+   "Inscrits": 4859,
+   "Abstentions": 809,
+   "% Abs": {
+      "Ins": 16.65
+   },
+   "Votants": 4050,
+   "% Vot": {
+      "Ins": 83.35
+   },
+   "Blancs et nuls": 226,
+   "% BlNuls": {
+      "Ins": 4.65,
+      "Vot": 5.58
+   },
+   "Exprimés": 3824,
+   "% Exp": {
+      "Ins": 78.7,
+      "Vot": 94.42
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      1909,
+      1915
+   ],
+   "% Voix": {
+      "Ins": [
+         39.29,
+         39.41
+      ],
+      "Exp": [
+         49.92,
+         50.08
+      ]
+   }
+},
+ {
+   "Code de la commune": 64,
+   "Libellé de la commune": "Chambellay",
+   "Inscrits": 262,
+   "Abstentions": 31,
+   "% Abs": {
+      "Ins": 11.83
+   },
+   "Votants": 231,
+   "% Vot": {
+      "Ins": 88.17
+   },
+   "Blancs et nuls": 9,
+   "% BlNuls": {
+      "Ins": 3.44,
+      "Vot": 3.9
+   },
+   "Exprimés": 222,
+   "% Exp": {
+      "Ins": 84.73,
+      "Vot": 96.1
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      80,
+      142
+   ],
+   "% Voix": {
+      "Ins": [
+         30.53,
+         54.2
+      ],
+      "Exp": [
+         36.04,
+         63.96
+      ]
+   }
+},
+ {
+   "Code de la commune": 65,
+   "Libellé de la commune": "Les Hauts-d'Anjou",
+   "Inscrits": 3622,
+   "Abstentions": 523,
+   "% Abs": {
+      "Ins": 14.44
+   },
+   "Votants": 3099,
+   "% Vot": {
+      "Ins": 85.56
+   },
+   "Blancs et nuls": 185,
+   "% BlNuls": {
+      "Ins": 5.11,
+      "Vot": 5.97
+   },
+   "Exprimés": 2914,
+   "% Exp": {
+      "Ins": 80.45,
+      "Vot": 94.03
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      1182,
+      1732
+   ],
+   "% Voix": {
+      "Ins": [
+         32.63,
+         47.82
+      ],
+      "Exp": [
+         40.56,
+         59.44
+      ]
+   }
+},
+ {
+   "Code de la commune": 67,
+   "Libellé de la commune": "Chenillé-Champteussé",
+   "Inscrits": 279,
+   "Abstentions": 41,
+   "% Abs": {
+      "Ins": 14.7
+   },
+   "Votants": 238,
+   "% Vot": {
+      "Ins": 85.3
+   },
+   "Blancs et nuls": 9,
+   "% BlNuls": {
+      "Ins": 3.23,
+      "Vot": 3.78
+   },
+   "Exprimés": 229,
+   "% Exp": {
+      "Ins": 82.08,
+      "Vot": 96.22
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      81,
+      148
+   ],
+   "% Voix": {
+      "Ins": [
+         29.03,
+         53.05
+      ],
+      "Exp": [
+         35.37,
+         64.63
+      ]
+   }
+},
+ {
+   "Code de la commune": 68,
+   "Libellé de la commune": "Champtocé-sur-Loire",
+   "Inscrits": 1322,
+   "Abstentions": 195,
+   "% Abs": {
+      "Ins": 14.75
+   },
+   "Votants": 1127,
+   "% Vot": {
+      "Ins": 85.25
+   },
+   "Blancs et nuls": 96,
+   "% BlNuls": {
+      "Ins": 7.26,
+      "Vot": 8.52
+   },
+   "Exprimés": 1031,
+   "% Exp": {
+      "Ins": 77.99,
+      "Vot": 91.48
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      491,
+      540
+   ],
+   "% Voix": {
+      "Ins": [
+         37.14,
+         40.85
+      ],
+      "Exp": [
+         47.62,
+         52.38
+      ]
+   }
+},
+ {
+   "Code de la commune": 69,
+   "Libellé de la commune": "Orée-d'Anjou",
+   "Inscrits": 11357,
+   "Abstentions": 1584,
+   "% Abs": {
+      "Ins": 13.95
+   },
+   "Votants": 9773,
+   "% Vot": {
+      "Ins": 86.05
+   },
+   "Blancs et nuls": 707,
+   "% BlNuls": {
+      "Ins": 6.23,
+      "Vot": 7.23
+   },
+   "Exprimés": 9066,
+   "% Exp": {
+      "Ins": 79.83,
+      "Vot": 92.77
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      3991,
+      5075
+   ],
+   "% Voix": {
+      "Ins": [
+         35.14,
+         44.69
+      ],
+      "Exp": [
+         44.02,
+         55.98
+      ]
+   }
+},
+ {
+   "Code de la commune": 70,
+   "Libellé de la commune": "Chanteloup-les-Bois",
+   "Inscrits": 516,
+   "Abstentions": 72,
+   "% Abs": {
+      "Ins": 13.95
+   },
+   "Votants": 444,
+   "% Vot": {
+      "Ins": 86.05
+   },
+   "Blancs et nuls": 29,
+   "% BlNuls": {
+      "Ins": 5.62,
+      "Vot": 6.53
+   },
+   "Exprimés": 415,
+   "% Exp": {
+      "Ins": 80.43,
+      "Vot": 93.47
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      176,
+      239
+   ],
+   "% Voix": {
+      "Ins": [
+         34.11,
+         46.32
+      ],
+      "Exp": [
+         42.41,
+         57.59
+      ]
+   }
+},
+ {
+   "Code de la commune": 76,
+   "Libellé de la commune": "La Chapelle-Saint-Laud",
+   "Inscrits": 433,
+   "Abstentions": 50,
+   "% Abs": {
+      "Ins": 11.55
+   },
+   "Votants": 383,
+   "% Vot": {
+      "Ins": 88.45
+   },
+   "Blancs et nuls": 38,
+   "% BlNuls": {
+      "Ins": 8.78,
+      "Vot": 9.92
+   },
+   "Exprimés": 345,
+   "% Exp": {
+      "Ins": 79.68,
+      "Vot": 90.08
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      173,
+      172
+   ],
+   "% Voix": {
+      "Ins": [
+         39.95,
+         39.72
+      ],
+      "Exp": [
+         50.14,
+         49.86
+      ]
+   }
+},
+ {
+   "Code de la commune": 80,
+   "Libellé de la commune": "Châteauneuf-sur-Sarthe",
+   "Inscrits": 2029,
+   "Abstentions": 338,
+   "% Abs": {
+      "Ins": 16.66
+   },
+   "Votants": 1691,
+   "% Vot": {
+      "Ins": 83.34
+   },
+   "Blancs et nuls": 93,
+   "% BlNuls": {
+      "Ins": 4.58,
+      "Vot": 5.5
+   },
+   "Exprimés": 1598,
+   "% Exp": {
+      "Ins": 78.76,
+      "Vot": 94.5
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      734,
+      864
+   ],
+   "% Voix": {
+      "Ins": [
+         36.18,
+         42.58
+      ],
+      "Exp": [
+         45.93,
+         54.07
+      ]
+   }
+},
+ {
+   "Code de la commune": 82,
+   "Libellé de la commune": "Chaudefonds-sur-Layon",
+   "Inscrits": 742,
+   "Abstentions": 101,
+   "% Abs": {
+      "Ins": 13.61
+   },
+   "Votants": 641,
+   "% Vot": {
+      "Ins": 86.39
+   },
+   "Blancs et nuls": 67,
+   "% BlNuls": {
+      "Ins": 9.03,
+      "Vot": 10.45
+   },
+   "Exprimés": 574,
+   "% Exp": {
+      "Ins": 77.36,
+      "Vot": 89.55
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      304,
+      270
+   ],
+   "% Voix": {
+      "Ins": [
+         40.97,
+         36.39
+      ],
+      "Exp": [
+         52.96,
+         47.04
+      ]
+   }
+},
+ {
+   "Code de la commune": 86,
+   "Libellé de la commune": "Terranjou",
+   "Inscrits": 2610,
+   "Abstentions": 399,
+   "% Abs": {
+      "Ins": 15.29
+   },
+   "Votants": 2211,
+   "% Vot": {
+      "Ins": 84.71
+   },
+   "Blancs et nuls": 117,
+   "% BlNuls": {
+      "Ins": 4.48,
+      "Vot": 5.29
+   },
+   "Exprimés": 2094,
+   "% Exp": {
+      "Ins": 80.23,
+      "Vot": 94.71
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      960,
+      1134
+   ],
+   "% Voix": {
+      "Ins": [
+         36.78,
+         43.45
+      ],
+      "Exp": [
+         45.85,
+         54.15
+      ]
+   }
+},
+ {
+   "Code de la commune": 89,
+   "Libellé de la commune": "Chazé-sur-Argos",
+   "Inscrits": 704,
+   "Abstentions": 77,
+   "% Abs": {
+      "Ins": 10.94
+   },
+   "Votants": 627,
+   "% Vot": {
+      "Ins": 89.06
+   },
+   "Blancs et nuls": 25,
+   "% BlNuls": {
+      "Ins": 3.55,
+      "Vot": 3.99
+   },
+   "Exprimés": 602,
+   "% Exp": {
+      "Ins": 85.51,
+      "Vot": 96.01
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      225,
+      377
+   ],
+   "% Voix": {
+      "Ins": [
+         31.96,
+         53.55
+      ],
+      "Exp": [
+         37.38,
+         62.62
+      ]
+   }
+},
+ {
+   "Code de la commune": 90,
+   "Libellé de la commune": "Cheffes",
+   "Inscrits": 655,
+   "Abstentions": 93,
+   "% Abs": {
+      "Ins": 14.2
+   },
+   "Votants": 562,
+   "% Vot": {
+      "Ins": 85.8
+   },
+   "Blancs et nuls": 34,
+   "% BlNuls": {
+      "Ins": 5.19,
+      "Vot": 6.05
+   },
+   "Exprimés": 528,
+   "% Exp": {
+      "Ins": 80.61,
+      "Vot": 93.95
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      260,
+      268
+   ],
+   "% Voix": {
+      "Ins": [
+         39.69,
+         40.92
+      ],
+      "Exp": [
+         49.24,
+         50.76
+      ]
+   }
+},
+ {
+   "Code de la commune": 92,
+   "Libellé de la commune": "Chemillé-en-Anjou",
+   "Inscrits": 15278,
+   "Abstentions": 2291,
+   "% Abs": {
+      "Ins": 15
+   },
+   "Votants": 12987,
+   "% Vot": {
+      "Ins": 85
+   },
+   "Blancs et nuls": 786,
+   "% BlNuls": {
+      "Ins": 5.14,
+      "Vot": 6.05
+   },
+   "Exprimés": 12201,
+   "% Exp": {
+      "Ins": 79.86,
+      "Vot": 93.95
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      4618,
+      7583
+   ],
+   "% Voix": {
+      "Ins": [
+         30.23,
+         49.63
+      ],
+      "Exp": [
+         37.85,
+         62.15
+      ]
+   }
+},
+ {
+   "Code de la commune": 99,
+   "Libellé de la commune": "Cholet",
+   "Inscrits": 36315,
+   "Abstentions": 6690,
+   "% Abs": {
+      "Ins": 18.42
+   },
+   "Votants": 29625,
+   "% Vot": {
+      "Ins": 81.58
+   },
+   "Blancs et nuls": 1552,
+   "% BlNuls": {
+      "Ins": 4.27,
+      "Vot": 5.24
+   },
+   "Exprimés": 28073,
+   "% Exp": {
+      "Ins": 77.3,
+      "Vot": 94.76
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      15049,
+      13024
+   ],
+   "% Voix": {
+      "Ins": [
+         41.44,
+         35.86
+      ],
+      "Exp": [
+         53.61,
+         46.39
+      ]
+   }
+},
+ {
+   "Code de la commune": 100,
+   "Libellé de la commune": "Cizay-la-Madeleine",
+   "Inscrits": 339,
+   "Abstentions": 66,
+   "% Abs": {
+      "Ins": 19.47
+   },
+   "Votants": 273,
+   "% Vot": {
+      "Ins": 80.53
+   },
+   "Blancs et nuls": 15,
+   "% BlNuls": {
+      "Ins": 4.42,
+      "Vot": 5.49
+   },
+   "Exprimés": 258,
+   "% Exp": {
+      "Ins": 76.11,
+      "Vot": 94.51
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      86,
+      172
+   ],
+   "% Voix": {
+      "Ins": [
+         25.37,
+         50.74
+      ],
+      "Exp": [
+         33.33,
+         66.67
+      ]
+   }
+},
+ {
+   "Code de la commune": 102,
+   "Libellé de la commune": "Cléré-sur-Layon",
+   "Inscrits": 220,
+   "Abstentions": 29,
+   "% Abs": {
+      "Ins": 13.18
+   },
+   "Votants": 191,
+   "% Vot": {
+      "Ins": 86.82
+   },
+   "Blancs et nuls": 10,
+   "% BlNuls": {
+      "Ins": 4.55,
+      "Vot": 5.24
+   },
+   "Exprimés": 181,
+   "% Exp": {
+      "Ins": 82.27,
+      "Vot": 94.76
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      42,
+      139
+   ],
+   "% Voix": {
+      "Ins": [
+         19.09,
+         63.18
+      ],
+      "Exp": [
+         23.2,
+         76.8
+      ]
+   }
+},
+ {
+   "Code de la commune": 107,
+   "Libellé de la commune": "Cornillé-les-Caves",
+   "Inscrits": 323,
+   "Abstentions": 34,
+   "% Abs": {
+      "Ins": 10.53
+   },
+   "Votants": 289,
+   "% Vot": {
+      "Ins": 89.47
+   },
+   "Blancs et nuls": 25,
+   "% BlNuls": {
+      "Ins": 7.74,
+      "Vot": 8.65
+   },
+   "Exprimés": 264,
+   "% Exp": {
+      "Ins": 81.73,
+      "Vot": 91.35
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      136,
+      128
+   ],
+   "% Voix": {
+      "Ins": [
+         42.11,
+         39.63
+      ],
+      "Exp": [
+         51.52,
+         48.48
+      ]
+   }
+},
+ {
+   "Code de la commune": 109,
+   "Libellé de la commune": "Coron",
+   "Inscrits": 1057,
+   "Abstentions": 149,
+   "% Abs": {
+      "Ins": 14.1
+   },
+   "Votants": 908,
+   "% Vot": {
+      "Ins": 85.9
+   },
+   "Blancs et nuls": 54,
+   "% BlNuls": {
+      "Ins": 5.11,
+      "Vot": 5.95
+   },
+   "Exprimés": 854,
+   "% Exp": {
+      "Ins": 80.79,
+      "Vot": 94.05
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      297,
+      557
+   ],
+   "% Voix": {
+      "Ins": [
+         28.1,
+         52.7
+      ],
+      "Exp": [
+         34.78,
+         65.22
+      ]
+   }
+},
+ {
+   "Code de la commune": 110,
+   "Libellé de la commune": "Corzé",
+   "Inscrits": 1196,
+   "Abstentions": 164,
+   "% Abs": {
+      "Ins": 13.71
+   },
+   "Votants": 1032,
+   "% Vot": {
+      "Ins": 86.29
+   },
+   "Blancs et nuls": 59,
+   "% BlNuls": {
+      "Ins": 4.93,
+      "Vot": 5.72
+   },
+   "Exprimés": 973,
+   "% Exp": {
+      "Ins": 81.35,
+      "Vot": 94.28
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      512,
+      461
+   ],
+   "% Voix": {
+      "Ins": [
+         42.81,
+         38.55
+      ],
+      "Exp": [
+         52.62,
+         47.38
+      ]
+   }
+},
+ {
+   "Code de la commune": 112,
+   "Libellé de la commune": "Le Coudray-Macouard",
+   "Inscrits": 728,
+   "Abstentions": 109,
+   "% Abs": {
+      "Ins": 14.97
+   },
+   "Votants": 619,
+   "% Vot": {
+      "Ins": 85.03
+   },
+   "Blancs et nuls": 46,
+   "% BlNuls": {
+      "Ins": 6.32,
+      "Vot": 7.43
+   },
+   "Exprimés": 573,
+   "% Exp": {
+      "Ins": 78.71,
+      "Vot": 92.57
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      287,
+      286
+   ],
+   "% Voix": {
+      "Ins": [
+         39.42,
+         39.29
+      ],
+      "Exp": [
+         50.09,
+         49.91
+      ]
+   }
+},
+ {
+   "Code de la commune": 113,
+   "Libellé de la commune": "Courchamps",
+   "Inscrits": 353,
+   "Abstentions": 55,
+   "% Abs": {
+      "Ins": 15.58
+   },
+   "Votants": 298,
+   "% Vot": {
+      "Ins": 84.42
+   },
+   "Blancs et nuls": 19,
+   "% BlNuls": {
+      "Ins": 5.38,
+      "Vot": 6.38
+   },
+   "Exprimés": 279,
+   "% Exp": {
+      "Ins": 79.04,
+      "Vot": 93.62
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      142,
+      137
+   ],
+   "% Voix": {
+      "Ins": [
+         40.23,
+         38.81
+      ],
+      "Exp": [
+         50.9,
+         49.1
+      ]
+   }
+},
+ {
+   "Code de la commune": 114,
+   "Libellé de la commune": "Courléon",
+   "Inscrits": 132,
+   "Abstentions": 19,
+   "% Abs": {
+      "Ins": 14.39
+   },
+   "Votants": 113,
+   "% Vot": {
+      "Ins": 85.61
+   },
+   "Blancs et nuls": 5,
+   "% BlNuls": {
+      "Ins": 3.79,
+      "Vot": 4.42
+   },
+   "Exprimés": 108,
+   "% Exp": {
+      "Ins": 81.82,
+      "Vot": 95.58
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      44,
+      64
+   ],
+   "% Voix": {
+      "Ins": [
+         33.33,
+         48.48
+      ],
+      "Exp": [
+         40.74,
+         59.26
+      ]
+   }
+},
+ {
+   "Code de la commune": 120,
+   "Libellé de la commune": "Denée",
+   "Inscrits": 1044,
+   "Abstentions": 128,
+   "% Abs": {
+      "Ins": 12.26
+   },
+   "Votants": 916,
+   "% Vot": {
+      "Ins": 87.74
+   },
+   "Blancs et nuls": 48,
+   "% BlNuls": {
+      "Ins": 4.6,
+      "Vot": 5.24
+   },
+   "Exprimés": 868,
+   "% Exp": {
+      "Ins": 83.14,
+      "Vot": 94.76
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      481,
+      387
+   ],
+   "% Voix": {
+      "Ins": [
+         46.07,
+         37.07
+      ],
+      "Exp": [
+         55.41,
+         44.59
+      ]
+   }
+},
+ {
+   "Code de la commune": 121,
+   "Libellé de la commune": "Dénezé-sous-Doué",
+   "Inscrits": 347,
+   "Abstentions": 49,
+   "% Abs": {
+      "Ins": 14.12
+   },
+   "Votants": 298,
+   "% Vot": {
+      "Ins": 85.88
+   },
+   "Blancs et nuls": 14,
+   "% BlNuls": {
+      "Ins": 4.03,
+      "Vot": 4.7
+   },
+   "Exprimés": 284,
+   "% Exp": {
+      "Ins": 81.84,
+      "Vot": 95.3
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      111,
+      173
+   ],
+   "% Voix": {
+      "Ins": [
+         31.99,
+         49.86
+      ],
+      "Exp": [
+         39.08,
+         60.92
+      ]
+   }
+},
+ {
+   "Code de la commune": 123,
+   "Libellé de la commune": "Distré",
+   "Inscrits": 1169,
+   "Abstentions": 191,
+   "% Abs": {
+      "Ins": 16.34
+   },
+   "Votants": 978,
+   "% Vot": {
+      "Ins": 83.66
+   },
+   "Blancs et nuls": 55,
+   "% BlNuls": {
+      "Ins": 4.7,
+      "Vot": 5.62
+   },
+   "Exprimés": 923,
+   "% Exp": {
+      "Ins": 78.96,
+      "Vot": 94.38
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      388,
+      535
+   ],
+   "% Voix": {
+      "Ins": [
+         33.19,
+         45.77
+      ],
+      "Exp": [
+         42.04,
+         57.96
+      ]
+   }
+},
+ {
+   "Code de la commune": 125,
+   "Libellé de la commune": "Doué-en-Anjou",
+   "Inscrits": 8020,
+   "Abstentions": 1503,
+   "% Abs": {
+      "Ins": 18.74
+   },
+   "Votants": 6517,
+   "% Vot": {
+      "Ins": 81.26
+   },
+   "Blancs et nuls": 449,
+   "% BlNuls": {
+      "Ins": 5.6,
+      "Vot": 6.89
+   },
+   "Exprimés": 6068,
+   "% Exp": {
+      "Ins": 75.66,
+      "Vot": 93.11
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      2633,
+      3435
+   ],
+   "% Voix": {
+      "Ins": [
+         32.83,
+         42.83
+      ],
+      "Exp": [
+         43.39,
+         56.61
+      ]
+   }
+},
+ {
+   "Code de la commune": 127,
+   "Libellé de la commune": "Durtal",
+   "Inscrits": 2506,
+   "Abstentions": 429,
+   "% Abs": {
+      "Ins": 17.12
+   },
+   "Votants": 2077,
+   "% Vot": {
+      "Ins": 82.88
+   },
+   "Blancs et nuls": 125,
+   "% BlNuls": {
+      "Ins": 4.99,
+      "Vot": 6.02
+   },
+   "Exprimés": 1952,
+   "% Exp": {
+      "Ins": 77.89,
+      "Vot": 93.98
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      934,
+      1018
+   ],
+   "% Voix": {
+      "Ins": [
+         37.27,
+         40.62
+      ],
+      "Exp": [
+         47.85,
+         52.15
+      ]
+   }
+},
+ {
+   "Code de la commune": 129,
+   "Libellé de la commune": "Ecouflant",
+   "Inscrits": 2975,
+   "Abstentions": 341,
+   "% Abs": {
+      "Ins": 11.46
+   },
+   "Votants": 2634,
+   "% Vot": {
+      "Ins": 88.54
+   },
+   "Blancs et nuls": 140,
+   "% BlNuls": {
+      "Ins": 4.71,
+      "Vot": 5.32
+   },
+   "Exprimés": 2494,
+   "% Exp": {
+      "Ins": 83.83,
+      "Vot": 94.68
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      1237,
+      1257
+   ],
+   "% Voix": {
+      "Ins": [
+         41.58,
+         42.25
+      ],
+      "Exp": [
+         49.6,
+         50.4
+      ]
+   }
+},
+ {
+   "Code de la commune": 130,
+   "Libellé de la commune": "Ecuillé",
+   "Inscrits": 486,
+   "Abstentions": 75,
+   "% Abs": {
+      "Ins": 15.43
+   },
+   "Votants": 411,
+   "% Vot": {
+      "Ins": 84.57
+   },
+   "Blancs et nuls": 29,
+   "% BlNuls": {
+      "Ins": 5.97,
+      "Vot": 7.06
+   },
+   "Exprimés": 382,
+   "% Exp": {
+      "Ins": 78.6,
+      "Vot": 92.94
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      189,
+      193
+   ],
+   "% Voix": {
+      "Ins": [
+         38.89,
+         39.71
+      ],
+      "Exp": [
+         49.48,
+         50.52
+      ]
+   }
+},
+ {
+   "Code de la commune": 131,
+   "Libellé de la commune": "Epieds",
+   "Inscrits": 465,
+   "Abstentions": 77,
+   "% Abs": {
+      "Ins": 16.56
+   },
+   "Votants": 388,
+   "% Vot": {
+      "Ins": 83.44
+   },
+   "Blancs et nuls": 34,
+   "% BlNuls": {
+      "Ins": 7.31,
+      "Vot": 8.76
+   },
+   "Exprimés": 354,
+   "% Exp": {
+      "Ins": 76.13,
+      "Vot": 91.24
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      151,
+      203
+   ],
+   "% Voix": {
+      "Ins": [
+         32.47,
+         43.66
+      ],
+      "Exp": [
+         42.66,
+         57.34
+      ]
+   }
+},
+ {
+   "Code de la commune": 132,
+   "Libellé de la commune": "Etriché",
+   "Inscrits": 993,
+   "Abstentions": 127,
+   "% Abs": {
+      "Ins": 12.79
+   },
+   "Votants": 866,
+   "% Vot": {
+      "Ins": 87.21
+   },
+   "Blancs et nuls": 53,
+   "% BlNuls": {
+      "Ins": 5.34,
+      "Vot": 6.12
+   },
+   "Exprimés": 813,
+   "% Exp": {
+      "Ins": 81.87,
+      "Vot": 93.88
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      351,
+      462
+   ],
+   "% Voix": {
+      "Ins": [
+         35.35,
+         46.53
+      ],
+      "Exp": [
+         43.17,
+         56.83
+      ]
+   }
+},
+ {
+   "Code de la commune": 135,
+   "Libellé de la commune": "Feneu",
+   "Inscrits": 1594,
+   "Abstentions": 251,
+   "% Abs": {
+      "Ins": 15.75
+   },
+   "Votants": 1343,
+   "% Vot": {
+      "Ins": 84.25
+   },
+   "Blancs et nuls": 86,
+   "% BlNuls": {
+      "Ins": 5.4,
+      "Vot": 6.4
+   },
+   "Exprimés": 1257,
+   "% Exp": {
+      "Ins": 78.86,
+      "Vot": 93.6
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      585,
+      672
+   ],
+   "% Voix": {
+      "Ins": [
+         36.7,
+         42.16
+      ],
+      "Exp": [
+         46.54,
+         53.46
+      ]
+   }
+},
+ {
+   "Code de la commune": 138,
+   "Libellé de la commune": "Les Bois-d'Anjou",
+   "Inscrits": 1826,
+   "Abstentions": 274,
+   "% Abs": {
+      "Ins": 15.01
+   },
+   "Votants": 1552,
+   "% Vot": {
+      "Ins": 84.99
+   },
+   "Blancs et nuls": 105,
+   "% BlNuls": {
+      "Ins": 5.75,
+      "Vot": 6.77
+   },
+   "Exprimés": 1447,
+   "% Exp": {
+      "Ins": 79.24,
+      "Vot": 93.23
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      705,
+      742
+   ],
+   "% Voix": {
+      "Ins": [
+         38.61,
+         40.64
+      ],
+      "Exp": [
+         48.72,
+         51.28
+      ]
+   }
+},
+ {
+   "Code de la commune": 140,
+   "Libellé de la commune": "Fontevraud-l'Abbaye",
+   "Inscrits": 850,
+   "Abstentions": 139,
+   "% Abs": {
+      "Ins": 16.35
+   },
+   "Votants": 711,
+   "% Vot": {
+      "Ins": 83.65
+   },
+   "Blancs et nuls": 39,
+   "% BlNuls": {
+      "Ins": 4.59,
+      "Vot": 5.49
+   },
+   "Exprimés": 672,
+   "% Exp": {
+      "Ins": 79.06,
+      "Vot": 94.51
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      315,
+      357
+   ],
+   "% Voix": {
+      "Ins": [
+         37.06,
+         42
+      ],
+      "Exp": [
+         46.88,
+         53.13
+      ]
+   }
+},
+ {
+   "Code de la commune": 144,
+   "Libellé de la commune": "Freigné",
+   "Inscrits": 846,
+   "Abstentions": 144,
+   "% Abs": {
+      "Ins": 17.02
+   },
+   "Votants": 702,
+   "% Vot": {
+      "Ins": 82.98
+   },
+   "Blancs et nuls": 61,
+   "% BlNuls": {
+      "Ins": 7.21,
+      "Vot": 8.69
+   },
+   "Exprimés": 641,
+   "% Exp": {
+      "Ins": 75.77,
+      "Vot": 91.31
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      206,
+      435
+   ],
+   "% Voix": {
+      "Ins": [
+         24.35,
+         51.42
+      ],
+      "Exp": [
+         32.14,
+         67.86
+      ]
+   }
+},
+ {
+   "Code de la commune": 149,
+   "Libellé de la commune": "Gennes-Val-de-Loire",
+   "Inscrits": 3485,
+   "Abstentions": 460,
+   "% Abs": {
+      "Ins": 13.2
+   },
+   "Votants": 3025,
+   "% Vot": {
+      "Ins": 86.8
+   },
+   "Blancs et nuls": 163,
+   "% BlNuls": {
+      "Ins": 4.68,
+      "Vot": 5.39
+   },
+   "Exprimés": 2862,
+   "% Exp": {
+      "Ins": 82.12,
+      "Vot": 94.61
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      1433,
+      1429
+   ],
+   "% Voix": {
+      "Ins": [
+         41.12,
+         41
+      ],
+      "Exp": [
+         50.07,
+         49.93
+      ]
+   }
+},
+ {
+   "Code de la commune": 155,
+   "Libellé de la commune": "Grez-Neuville",
+   "Inscrits": 971,
+   "Abstentions": 92,
+   "% Abs": {
+      "Ins": 9.47
+   },
+   "Votants": 879,
+   "% Vot": {
+      "Ins": 90.53
+   },
+   "Blancs et nuls": 26,
+   "% BlNuls": {
+      "Ins": 2.68,
+      "Vot": 2.96
+   },
+   "Exprimés": 853,
+   "% Exp": {
+      "Ins": 87.85,
+      "Vot": 97.04
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      378,
+      475
+   ],
+   "% Voix": {
+      "Ins": [
+         38.93,
+         48.92
+      ],
+      "Exp": [
+         44.31,
+         55.69
+      ]
+   }
+},
+ {
+   "Code de la commune": 159,
+   "Libellé de la commune": "Huillé",
+   "Inscrits": 395,
+   "Abstentions": 58,
+   "% Abs": {
+      "Ins": 14.68
+   },
+   "Votants": 337,
+   "% Vot": {
+      "Ins": 85.32
+   },
+   "Blancs et nuls": 13,
+   "% BlNuls": {
+      "Ins": 3.29,
+      "Vot": 3.86
+   },
+   "Exprimés": 324,
+   "% Exp": {
+      "Ins": 82.03,
+      "Vot": 96.14
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      137,
+      187
+   ],
+   "% Voix": {
+      "Ins": [
+         34.68,
+         47.34
+      ],
+      "Exp": [
+         42.28,
+         57.72
+      ]
+   }
+},
+ {
+   "Code de la commune": 160,
+   "Libellé de la commune": "Ingrandes-Le-Fresne-sur-Loire",
+   "Inscrits": 1238,
+   "Abstentions": 188,
+   "% Abs": {
+      "Ins": 15.19
+   },
+   "Votants": 1050,
+   "% Vot": {
+      "Ins": 84.81
+   },
+   "Blancs et nuls": 59,
+   "% BlNuls": {
+      "Ins": 4.77,
+      "Vot": 5.62
+   },
+   "Exprimés": 991,
+   "% Exp": {
+      "Ins": 80.05,
+      "Vot": 94.38
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      489,
+      502
+   ],
+   "% Voix": {
+      "Ins": [
+         39.5,
+         40.55
+      ],
+      "Exp": [
+         49.34,
+         50.66
+      ]
+   }
+},
+ {
+   "Code de la commune": 161,
+   "Libellé de la commune": "La Jaille-Yvon",
+   "Inscrits": 240,
+   "Abstentions": 47,
+   "% Abs": {
+      "Ins": 19.58
+   },
+   "Votants": 193,
+   "% Vot": {
+      "Ins": 80.42
+   },
+   "Blancs et nuls": 17,
+   "% BlNuls": {
+      "Ins": 7.08,
+      "Vot": 8.81
+   },
+   "Exprimés": 176,
+   "% Exp": {
+      "Ins": 73.33,
+      "Vot": 91.19
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      90,
+      86
+   ],
+   "% Voix": {
+      "Ins": [
+         37.5,
+         35.83
+      ],
+      "Exp": [
+         51.14,
+         48.86
+      ]
+   }
+},
+ {
+   "Code de la commune": 163,
+   "Libellé de la commune": "Jarzé-Villages",
+   "Inscrits": 1823,
+   "Abstentions": 243,
+   "% Abs": {
+      "Ins": 13.33
+   },
+   "Votants": 1580,
+   "% Vot": {
+      "Ins": 86.67
+   },
+   "Blancs et nuls": 95,
+   "% BlNuls": {
+      "Ins": 5.21,
+      "Vot": 6.01
+   },
+   "Exprimés": 1485,
+   "% Exp": {
+      "Ins": 81.46,
+      "Vot": 93.99
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      730,
+      755
+   ],
+   "% Voix": {
+      "Ins": [
+         40.04,
+         41.42
+      ],
+      "Exp": [
+         49.16,
+         50.84
+      ]
+   }
+},
+ {
+   "Code de la commune": 167,
+   "Libellé de la commune": "Les Garennes-sur-Loire",
+   "Inscrits": 3551,
+   "Abstentions": 488,
+   "% Abs": {
+      "Ins": 13.74
+   },
+   "Votants": 3063,
+   "% Vot": {
+      "Ins": 86.26
+   },
+   "Blancs et nuls": 134,
+   "% BlNuls": {
+      "Ins": 3.77,
+      "Vot": 4.37
+   },
+   "Exprimés": 2929,
+   "% Exp": {
+      "Ins": 82.48,
+      "Vot": 95.63
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      1483,
+      1446
+   ],
+   "% Voix": {
+      "Ins": [
+         41.76,
+         40.72
+      ],
+      "Exp": [
+         50.63,
+         49.37
+      ]
+   }
+},
+ {
+   "Code de la commune": 170,
+   "Libellé de la commune": "Juvardeil",
+   "Inscrits": 651,
+   "Abstentions": 78,
+   "% Abs": {
+      "Ins": 11.98
+   },
+   "Votants": 573,
+   "% Vot": {
+      "Ins": 88.02
+   },
+   "Blancs et nuls": 38,
+   "% BlNuls": {
+      "Ins": 5.84,
+      "Vot": 6.63
+   },
+   "Exprimés": 535,
+   "% Exp": {
+      "Ins": 82.18,
+      "Vot": 93.37
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      291,
+      244
+   ],
+   "% Voix": {
+      "Ins": [
+         44.7,
+         37.48
+      ],
+      "Exp": [
+         54.39,
+         45.61
+      ]
+   }
+},
+ {
+   "Code de la commune": 171,
+   "Libellé de la commune": "La Lande-Chasles",
+   "Inscrits": 91,
+   "Abstentions": 10,
+   "% Abs": {
+      "Ins": 10.99
+   },
+   "Votants": 81,
+   "% Vot": {
+      "Ins": 89.01
+   },
+   "Blancs et nuls": 2,
+   "% BlNuls": {
+      "Ins": 2.2,
+      "Vot": 2.47
+   },
+   "Exprimés": 79,
+   "% Exp": {
+      "Ins": 86.81,
+      "Vot": 97.53
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      44,
+      35
+   ],
+   "% Voix": {
+      "Ins": [
+         48.35,
+         38.46
+      ],
+      "Exp": [
+         55.7,
+         44.3
+      ]
+   }
+},
+ {
+   "Code de la commune": 174,
+   "Libellé de la commune": "Lézigné",
+   "Inscrits": 524,
+   "Abstentions": 91,
+   "% Abs": {
+      "Ins": 17.37
+   },
+   "Votants": 433,
+   "% Vot": {
+      "Ins": 82.63
+   },
+   "Blancs et nuls": 34,
+   "% BlNuls": {
+      "Ins": 6.49,
+      "Vot": 7.85
+   },
+   "Exprimés": 399,
+   "% Exp": {
+      "Ins": 76.15,
+      "Vot": 92.15
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      208,
+      191
+   ],
+   "% Voix": {
+      "Ins": [
+         39.69,
+         36.45
+      ],
+      "Exp": [
+         52.13,
+         47.87
+      ]
+   }
+},
+ {
+   "Code de la commune": 176,
+   "Libellé de la commune": "Le Lion-d'Angers",
+   "Inscrits": 3223,
+   "Abstentions": 616,
+   "% Abs": {
+      "Ins": 19.11
+   },
+   "Votants": 2607,
+   "% Vot": {
+      "Ins": 80.89
+   },
+   "Blancs et nuls": 135,
+   "% BlNuls": {
+      "Ins": 4.19,
+      "Vot": 5.18
+   },
+   "Exprimés": 2472,
+   "% Exp": {
+      "Ins": 76.7,
+      "Vot": 94.82
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      1125,
+      1347
+   ],
+   "% Voix": {
+      "Ins": [
+         34.91,
+         41.79
+      ],
+      "Exp": [
+         45.51,
+         54.49
+      ]
+   }
+},
+ {
+   "Code de la commune": 178,
+   "Libellé de la commune": "Loiré",
+   "Inscrits": 625,
+   "Abstentions": 83,
+   "% Abs": {
+      "Ins": 13.28
+   },
+   "Votants": 542,
+   "% Vot": {
+      "Ins": 86.72
+   },
+   "Blancs et nuls": 21,
+   "% BlNuls": {
+      "Ins": 3.36,
+      "Vot": 3.87
+   },
+   "Exprimés": 521,
+   "% Exp": {
+      "Ins": 83.36,
+      "Vot": 96.13
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      163,
+      358
+   ],
+   "% Voix": {
+      "Ins": [
+         26.08,
+         57.28
+      ],
+      "Exp": [
+         31.29,
+         68.71
+      ]
+   }
+},
+ {
+   "Code de la commune": 180,
+   "Libellé de la commune": "Longué-Jumelles",
+   "Inscrits": 4922,
+   "Abstentions": 902,
+   "% Abs": {
+      "Ins": 18.33
+   },
+   "Votants": 4020,
+   "% Vot": {
+      "Ins": 81.67
+   },
+   "Blancs et nuls": 261,
+   "% BlNuls": {
+      "Ins": 5.3,
+      "Vot": 6.49
+   },
+   "Exprimés": 3759,
+   "% Exp": {
+      "Ins": 76.37,
+      "Vot": 93.51
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      1547,
+      2212
+   ],
+   "% Voix": {
+      "Ins": [
+         31.43,
+         44.94
+      ],
+      "Exp": [
+         41.15,
+         58.85
+      ]
+   }
+},
+ {
+   "Code de la commune": 182,
+   "Libellé de la commune": "Louresse-Rochemenier",
+   "Inscrits": 535,
+   "Abstentions": 66,
+   "% Abs": {
+      "Ins": 12.34
+   },
+   "Votants": 469,
+   "% Vot": {
+      "Ins": 87.66
+   },
+   "Blancs et nuls": 13,
+   "% BlNuls": {
+      "Ins": 2.43,
+      "Vot": 2.77
+   },
+   "Exprimés": 456,
+   "% Exp": {
+      "Ins": 85.23,
+      "Vot": 97.23
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      162,
+      294
+   ],
+   "% Voix": {
+      "Ins": [
+         30.28,
+         54.95
+      ],
+      "Exp": [
+         35.53,
+         64.47
+      ]
+   }
+},
+ {
+   "Code de la commune": 183,
+   "Libellé de la commune": "Val-d'Erdre-Auxence",
+   "Inscrits": 3033,
+   "Abstentions": 424,
+   "% Abs": {
+      "Ins": 13.98
+   },
+   "Votants": 2609,
+   "% Vot": {
+      "Ins": 86.02
+   },
+   "Blancs et nuls": 182,
+   "% BlNuls": {
+      "Ins": 6,
+      "Vot": 6.98
+   },
+   "Exprimés": 2427,
+   "% Exp": {
+      "Ins": 80.02,
+      "Vot": 93.02
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      1055,
+      1372
+   ],
+   "% Voix": {
+      "Ins": [
+         34.78,
+         45.24
+      ],
+      "Exp": [
+         43.47,
+         56.53
+      ]
+   }
+},
+ {
+   "Code de la commune": 188,
+   "Libellé de la commune": "Marcé",
+   "Inscrits": 606,
+   "Abstentions": 74,
+   "% Abs": {
+      "Ins": 12.21
+   },
+   "Votants": 532,
+   "% Vot": {
+      "Ins": 87.79
+   },
+   "Blancs et nuls": 32,
+   "% BlNuls": {
+      "Ins": 5.28,
+      "Vot": 6.02
+   },
+   "Exprimés": 500,
+   "% Exp": {
+      "Ins": 82.51,
+      "Vot": 93.98
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      261,
+      239
+   ],
+   "% Voix": {
+      "Ins": [
+         43.07,
+         39.44
+      ],
+      "Exp": [
+         52.2,
+         47.8
+      ]
+   }
+},
+ {
+   "Code de la commune": 192,
+   "Libellé de la commune": "Maulévrier",
+   "Inscrits": 2290,
+   "Abstentions": 341,
+   "% Abs": {
+      "Ins": 14.89
+   },
+   "Votants": 1949,
+   "% Vot": {
+      "Ins": 85.11
+   },
+   "Blancs et nuls": 124,
+   "% BlNuls": {
+      "Ins": 5.41,
+      "Vot": 6.36
+   },
+   "Exprimés": 1825,
+   "% Exp": {
+      "Ins": 79.69,
+      "Vot": 93.64
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      801,
+      1024
+   ],
+   "% Voix": {
+      "Ins": [
+         34.98,
+         44.72
+      ],
+      "Exp": [
+         43.89,
+         56.11
+      ]
+   }
+},
+ {
+   "Code de la commune": 193,
+   "Libellé de la commune": "Le May-sur-Evre",
+   "Inscrits": 2962,
+   "Abstentions": 534,
+   "% Abs": {
+      "Ins": 18.03
+   },
+   "Votants": 2428,
+   "% Vot": {
+      "Ins": 81.97
+   },
+   "Blancs et nuls": 181,
+   "% BlNuls": {
+      "Ins": 6.11,
+      "Vot": 7.45
+   },
+   "Exprimés": 2247,
+   "% Exp": {
+      "Ins": 75.86,
+      "Vot": 92.55
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      1107,
+      1140
+   ],
+   "% Voix": {
+      "Ins": [
+         37.37,
+         38.49
+      ],
+      "Exp": [
+         49.27,
+         50.73
+      ]
+   }
+},
+ {
+   "Code de la commune": 194,
+   "Libellé de la commune": "Mazé-Milon",
+   "Inscrits": 3860,
+   "Abstentions": 544,
+   "% Abs": {
+      "Ins": 14.09
+   },
+   "Votants": 3316,
+   "% Vot": {
+      "Ins": 85.91
+   },
+   "Blancs et nuls": 227,
+   "% BlNuls": {
+      "Ins": 5.88,
+      "Vot": 6.85
+   },
+   "Exprimés": 3089,
+   "% Exp": {
+      "Ins": 80.03,
+      "Vot": 93.15
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      1696,
+      1393
+   ],
+   "% Voix": {
+      "Ins": [
+         43.94,
+         36.09
+      ],
+      "Exp": [
+         54.9,
+         45.1
+      ]
+   }
+},
+ {
+   "Code de la commune": 195,
+   "Libellé de la commune": "Mazières-en-Mauges",
+   "Inscrits": 772,
+   "Abstentions": 93,
+   "% Abs": {
+      "Ins": 12.05
+   },
+   "Votants": 679,
+   "% Vot": {
+      "Ins": 87.95
+   },
+   "Blancs et nuls": 44,
+   "% BlNuls": {
+      "Ins": 5.7,
+      "Vot": 6.48
+   },
+   "Exprimés": 635,
+   "% Exp": {
+      "Ins": 82.25,
+      "Vot": 93.52
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      308,
+      327
+   ],
+   "% Voix": {
+      "Ins": [
+         39.9,
+         42.36
+      ],
+      "Exp": [
+         48.5,
+         51.5
+      ]
+   }
+},
+ {
+   "Code de la commune": 200,
+   "Libellé de la commune": "Longuenée-en-Anjou",
+   "Inscrits": 4340,
+   "Abstentions": 506,
+   "% Abs": {
+      "Ins": 11.66
+   },
+   "Votants": 3834,
+   "% Vot": {
+      "Ins": 88.34
+   },
+   "Blancs et nuls": 205,
+   "% BlNuls": {
+      "Ins": 4.72,
+      "Vot": 5.35
+   },
+   "Exprimés": 3629,
+   "% Exp": {
+      "Ins": 83.62,
+      "Vot": 94.65
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      1804,
+      1825
+   ],
+   "% Voix": {
+      "Ins": [
+         41.57,
+         42.05
+      ],
+      "Exp": [
+         49.71,
+         50.29
+      ]
+   }
+},
+ {
+   "Code de la commune": 201,
+   "Libellé de la commune": "La Ménitré",
+   "Inscrits": 1489,
+   "Abstentions": 246,
+   "% Abs": {
+      "Ins": 16.52
+   },
+   "Votants": 1243,
+   "% Vot": {
+      "Ins": 83.48
+   },
+   "Blancs et nuls": 56,
+   "% BlNuls": {
+      "Ins": 3.76,
+      "Vot": 4.51
+   },
+   "Exprimés": 1187,
+   "% Exp": {
+      "Ins": 79.72,
+      "Vot": 95.49
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      661,
+      526
+   ],
+   "% Voix": {
+      "Ins": [
+         44.39,
+         35.33
+      ],
+      "Exp": [
+         55.69,
+         44.31
+      ]
+   }
+},
+ {
+   "Code de la commune": 205,
+   "Libellé de la commune": "Miré",
+   "Inscrits": 670,
+   "Abstentions": 81,
+   "% Abs": {
+      "Ins": 12.09
+   },
+   "Votants": 589,
+   "% Vot": {
+      "Ins": 87.91
+   },
+   "Blancs et nuls": 44,
+   "% BlNuls": {
+      "Ins": 6.57,
+      "Vot": 7.47
+   },
+   "Exprimés": 545,
+   "% Exp": {
+      "Ins": 81.34,
+      "Vot": 92.53
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      203,
+      342
+   ],
+   "% Voix": {
+      "Ins": [
+         30.3,
+         51.04
+      ],
+      "Exp": [
+         37.25,
+         62.75
+      ]
+   }
+},
+ {
+   "Code de la commune": 209,
+   "Libellé de la commune": "Montigné-lès-Rairies",
+   "Inscrits": 266,
+   "Abstentions": 43,
+   "% Abs": {
+      "Ins": 16.17
+   },
+   "Votants": 223,
+   "% Vot": {
+      "Ins": 83.83
+   },
+   "Blancs et nuls": 10,
+   "% BlNuls": {
+      "Ins": 3.76,
+      "Vot": 4.48
+   },
+   "Exprimés": 213,
+   "% Exp": {
+      "Ins": 80.08,
+      "Vot": 95.52
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      66,
+      147
+   ],
+   "% Voix": {
+      "Ins": [
+         24.81,
+         55.26
+      ],
+      "Exp": [
+         30.99,
+         69.01
+      ]
+   }
+},
+ {
+   "Code de la commune": 211,
+   "Libellé de la commune": "Montilliers",
+   "Inscrits": 961,
+   "Abstentions": 155,
+   "% Abs": {
+      "Ins": 16.13
+   },
+   "Votants": 806,
+   "% Vot": {
+      "Ins": 83.87
+   },
+   "Blancs et nuls": 60,
+   "% BlNuls": {
+      "Ins": 6.24,
+      "Vot": 7.44
+   },
+   "Exprimés": 746,
+   "% Exp": {
+      "Ins": 77.63,
+      "Vot": 92.56
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      235,
+      511
+   ],
+   "% Voix": {
+      "Ins": [
+         24.45,
+         53.17
+      ],
+      "Exp": [
+         31.5,
+         68.5
+      ]
+   }
+},
+ {
+   "Code de la commune": 214,
+   "Libellé de la commune": "Montreuil-Juigné",
+   "Inscrits": 5501,
+   "Abstentions": 865,
+   "% Abs": {
+      "Ins": 15.72
+   },
+   "Votants": 4636,
+   "% Vot": {
+      "Ins": 84.28
+   },
+   "Blancs et nuls": 282,
+   "% BlNuls": {
+      "Ins": 5.13,
+      "Vot": 6.08
+   },
+   "Exprimés": 4354,
+   "% Exp": {
+      "Ins": 79.15,
+      "Vot": 93.92
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      2442,
+      1912
+   ],
+   "% Voix": {
+      "Ins": [
+         44.39,
+         34.76
+      ],
+      "Exp": [
+         56.09,
+         43.91
+      ]
+   }
+},
+ {
+   "Code de la commune": 215,
+   "Libellé de la commune": "Montreuil-Bellay",
+   "Inscrits": 2874,
+   "Abstentions": 579,
+   "% Abs": {
+      "Ins": 20.15
+   },
+   "Votants": 2295,
+   "% Vot": {
+      "Ins": 79.85
+   },
+   "Blancs et nuls": 159,
+   "% BlNuls": {
+      "Ins": 5.53,
+      "Vot": 6.93
+   },
+   "Exprimés": 2136,
+   "% Exp": {
+      "Ins": 74.32,
+      "Vot": 93.07
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      1108,
+      1028
+   ],
+   "% Voix": {
+      "Ins": [
+         38.55,
+         35.77
+      ],
+      "Exp": [
+         51.87,
+         48.13
+      ]
+   }
+},
+ {
+   "Code de la commune": 216,
+   "Libellé de la commune": "Montreuil-sur-Loir",
+   "Inscrits": 341,
+   "Abstentions": 33,
+   "% Abs": {
+      "Ins": 9.68
+   },
+   "Votants": 308,
+   "% Vot": {
+      "Ins": 90.32
+   },
+   "Blancs et nuls": 16,
+   "% BlNuls": {
+      "Ins": 4.69,
+      "Vot": 5.19
+   },
+   "Exprimés": 292,
+   "% Exp": {
+      "Ins": 85.63,
+      "Vot": 94.81
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      143,
+      149
+   ],
+   "% Voix": {
+      "Ins": [
+         41.94,
+         43.7
+      ],
+      "Exp": [
+         48.97,
+         51.03
+      ]
+   }
+},
+ {
+   "Code de la commune": 217,
+   "Libellé de la commune": "Montreuil-sur-Maine",
+   "Inscrits": 464,
+   "Abstentions": 50,
+   "% Abs": {
+      "Ins": 10.78
+   },
+   "Votants": 414,
+   "% Vot": {
+      "Ins": 89.22
+   },
+   "Blancs et nuls": 31,
+   "% BlNuls": {
+      "Ins": 6.68,
+      "Vot": 7.49
+   },
+   "Exprimés": 383,
+   "% Exp": {
+      "Ins": 82.54,
+      "Vot": 92.51
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      202,
+      181
+   ],
+   "% Voix": {
+      "Ins": [
+         43.53,
+         39.01
+      ],
+      "Exp": [
+         52.74,
+         47.26
+      ]
+   }
+},
+ {
+   "Code de la commune": 218,
+   "Libellé de la commune": "Montrevault-sur-Evre",
+   "Inscrits": 11671,
+   "Abstentions": 1636,
+   "% Abs": {
+      "Ins": 14.02
+   },
+   "Votants": 10035,
+   "% Vot": {
+      "Ins": 85.98
+   },
+   "Blancs et nuls": 728,
+   "% BlNuls": {
+      "Ins": 6.24,
+      "Vot": 7.25
+   },
+   "Exprimés": 9307,
+   "% Exp": {
+      "Ins": 79.74,
+      "Vot": 92.75
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      3608,
+      5699
+   ],
+   "% Voix": {
+      "Ins": [
+         30.91,
+         48.83
+      ],
+      "Exp": [
+         38.77,
+         61.23
+      ]
+   }
+},
+ {
+   "Code de la commune": 219,
+   "Libellé de la commune": "Montsoreau",
+   "Inscrits": 345,
+   "Abstentions": 45,
+   "% Abs": {
+      "Ins": 13.04
+   },
+   "Votants": 300,
+   "% Vot": {
+      "Ins": 86.96
+   },
+   "Blancs et nuls": 9,
+   "% BlNuls": {
+      "Ins": 2.61,
+      "Vot": 3
+   },
+   "Exprimés": 291,
+   "% Exp": {
+      "Ins": 84.35,
+      "Vot": 97
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      118,
+      173
+   ],
+   "% Voix": {
+      "Ins": [
+         34.2,
+         50.14
+      ],
+      "Exp": [
+         40.55,
+         59.45
+      ]
+   }
+},
+ {
+   "Code de la commune": 220,
+   "Libellé de la commune": "Morannes-sur-Sarthe-Daumeray",
+   "Inscrits": 2503,
+   "Abstentions": 401,
+   "% Abs": {
+      "Ins": 16.02
+   },
+   "Votants": 2102,
+   "% Vot": {
+      "Ins": 83.98
+   },
+   "Blancs et nuls": 128,
+   "% BlNuls": {
+      "Ins": 5.11,
+      "Vot": 6.09
+   },
+   "Exprimés": 1974,
+   "% Exp": {
+      "Ins": 78.87,
+      "Vot": 93.91
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      682,
+      1292
+   ],
+   "% Voix": {
+      "Ins": [
+         27.25,
+         51.62
+      ],
+      "Exp": [
+         34.55,
+         65.45
+      ]
+   }
+},
+ {
+   "Code de la commune": 221,
+   "Libellé de la commune": "Mouliherne",
+   "Inscrits": 684,
+   "Abstentions": 145,
+   "% Abs": {
+      "Ins": 21.2
+   },
+   "Votants": 539,
+   "% Vot": {
+      "Ins": 78.8
+   },
+   "Blancs et nuls": 41,
+   "% BlNuls": {
+      "Ins": 5.99,
+      "Vot": 7.61
+   },
+   "Exprimés": 498,
+   "% Exp": {
+      "Ins": 72.81,
+      "Vot": 92.39
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      236,
+      262
+   ],
+   "% Voix": {
+      "Ins": [
+         34.5,
+         38.3
+      ],
+      "Exp": [
+         47.39,
+         52.61
+      ]
+   }
+},
+ {
+   "Code de la commune": 222,
+   "Libellé de la commune": "Mozé-sur-Louet",
+   "Inscrits": 1518,
+   "Abstentions": 217,
+   "% Abs": {
+      "Ins": 14.3
+   },
+   "Votants": 1301,
+   "% Vot": {
+      "Ins": 85.7
+   },
+   "Blancs et nuls": 79,
+   "% BlNuls": {
+      "Ins": 5.2,
+      "Vot": 6.07
+   },
+   "Exprimés": 1222,
+   "% Exp": {
+      "Ins": 80.5,
+      "Vot": 93.93
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      628,
+      594
+   ],
+   "% Voix": {
+      "Ins": [
+         41.37,
+         39.13
+      ],
+      "Exp": [
+         51.39,
+         48.61
+      ]
+   }
+},
+ {
+   "Code de la commune": 223,
+   "Libellé de la commune": "Mûrs-Erigné",
+   "Inscrits": 4130,
+   "Abstentions": 601,
+   "% Abs": {
+      "Ins": 14.55
+   },
+   "Votants": 3529,
+   "% Vot": {
+      "Ins": 85.45
+   },
+   "Blancs et nuls": 186,
+   "% BlNuls": {
+      "Ins": 4.5,
+      "Vot": 5.27
+   },
+   "Exprimés": 3343,
+   "% Exp": {
+      "Ins": 80.94,
+      "Vot": 94.73
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      1827,
+      1516
+   ],
+   "% Voix": {
+      "Ins": [
+         44.24,
+         36.71
+      ],
+      "Exp": [
+         54.65,
+         45.35
+      ]
+   }
+},
+ {
+   "Code de la commune": 224,
+   "Libellé de la commune": "Neuillé",
+   "Inscrits": 667,
+   "Abstentions": 77,
+   "% Abs": {
+      "Ins": 11.54
+   },
+   "Votants": 590,
+   "% Vot": {
+      "Ins": 88.46
+   },
+   "Blancs et nuls": 40,
+   "% BlNuls": {
+      "Ins": 6,
+      "Vot": 6.78
+   },
+   "Exprimés": 550,
+   "% Exp": {
+      "Ins": 82.46,
+      "Vot": 93.22
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      232,
+      318
+   ],
+   "% Voix": {
+      "Ins": [
+         34.78,
+         47.68
+      ],
+      "Exp": [
+         42.18,
+         57.82
+      ]
+   }
+},
+ {
+   "Code de la commune": 228,
+   "Libellé de la commune": "Noyant-Villages",
+   "Inscrits": 4277,
+   "Abstentions": 689,
+   "% Abs": {
+      "Ins": 16.11
+   },
+   "Votants": 3588,
+   "% Vot": {
+      "Ins": 83.89
+   },
+   "Blancs et nuls": 214,
+   "% BlNuls": {
+      "Ins": 5,
+      "Vot": 5.96
+   },
+   "Exprimés": 3374,
+   "% Exp": {
+      "Ins": 78.89,
+      "Vot": 94.04
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      1481,
+      1893
+   ],
+   "% Voix": {
+      "Ins": [
+         34.63,
+         44.26
+      ],
+      "Exp": [
+         43.89,
+         56.11
+      ]
+   }
+},
+ {
+   "Code de la commune": 231,
+   "Libellé de la commune": "Nuaillé",
+   "Inscrits": 1041,
+   "Abstentions": 97,
+   "% Abs": {
+      "Ins": 9.32
+   },
+   "Votants": 944,
+   "% Vot": {
+      "Ins": 90.68
+   },
+   "Blancs et nuls": 50,
+   "% BlNuls": {
+      "Ins": 4.8,
+      "Vot": 5.3
+   },
+   "Exprimés": 894,
+   "% Exp": {
+      "Ins": 85.88,
+      "Vot": 94.7
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      406,
+      488
+   ],
+   "% Voix": {
+      "Ins": [
+         39,
+         46.88
+      ],
+      "Exp": [
+         45.41,
+         54.59
+      ]
+   }
+},
+ {
+   "Code de la commune": 235,
+   "Libellé de la commune": "Parnay",
+   "Inscrits": 346,
+   "Abstentions": 41,
+   "% Abs": {
+      "Ins": 11.85
+   },
+   "Votants": 305,
+   "% Vot": {
+      "Ins": 88.15
+   },
+   "Blancs et nuls": 24,
+   "% BlNuls": {
+      "Ins": 6.94,
+      "Vot": 7.87
+   },
+   "Exprimés": 281,
+   "% Exp": {
+      "Ins": 81.21,
+      "Vot": 92.13
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      136,
+      145
+   ],
+   "% Voix": {
+      "Ins": [
+         39.31,
+         41.91
+      ],
+      "Exp": [
+         48.4,
+         51.6
+      ]
+   }
+},
+ {
+   "Code de la commune": 236,
+   "Libellé de la commune": "Passavant-sur-Layon",
+   "Inscrits": 105,
+   "Abstentions": 13,
+   "% Abs": {
+      "Ins": 12.38
+   },
+   "Votants": 92,
+   "% Vot": {
+      "Ins": 87.62
+   },
+   "Blancs et nuls": 5,
+   "% BlNuls": {
+      "Ins": 4.76,
+      "Vot": 5.43
+   },
+   "Exprimés": 87,
+   "% Exp": {
+      "Ins": 82.86,
+      "Vot": 94.57
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      42,
+      45
+   ],
+   "% Voix": {
+      "Ins": [
+         40,
+         42.86
+      ],
+      "Exp": [
+         48.28,
+         51.72
+      ]
+   }
+},
+ {
+   "Code de la commune": 237,
+   "Libellé de la commune": "La Pellerine",
+   "Inscrits": 124,
+   "Abstentions": 10,
+   "% Abs": {
+      "Ins": 8.06
+   },
+   "Votants": 114,
+   "% Vot": {
+      "Ins": 91.94
+   },
+   "Blancs et nuls": 8,
+   "% BlNuls": {
+      "Ins": 6.45,
+      "Vot": 7.02
+   },
+   "Exprimés": 106,
+   "% Exp": {
+      "Ins": 85.48,
+      "Vot": 92.98
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      50,
+      56
+   ],
+   "% Voix": {
+      "Ins": [
+         40.32,
+         45.16
+      ],
+      "Exp": [
+         47.17,
+         52.83
+      ]
+   }
+},
+ {
+   "Code de la commune": 240,
+   "Libellé de la commune": "La Plaine",
+   "Inscrits": 753,
+   "Abstentions": 128,
+   "% Abs": {
+      "Ins": 17
+   },
+   "Votants": 625,
+   "% Vot": {
+      "Ins": 83
+   },
+   "Blancs et nuls": 48,
+   "% BlNuls": {
+      "Ins": 6.37,
+      "Vot": 7.68
+   },
+   "Exprimés": 577,
+   "% Exp": {
+      "Ins": 76.63,
+      "Vot": 92.32
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      291,
+      286
+   ],
+   "% Voix": {
+      "Ins": [
+         38.65,
+         37.98
+      ],
+      "Exp": [
+         50.43,
+         49.57
+      ]
+   }
+},
+ {
+   "Code de la commune": 241,
+   "Libellé de la commune": "Le Plessis-Grammoire",
+   "Inscrits": 1751,
+   "Abstentions": 238,
+   "% Abs": {
+      "Ins": 13.59
+   },
+   "Votants": 1513,
+   "% Vot": {
+      "Ins": 86.41
+   },
+   "Blancs et nuls": 88,
+   "% BlNuls": {
+      "Ins": 5.03,
+      "Vot": 5.82
+   },
+   "Exprimés": 1425,
+   "% Exp": {
+      "Ins": 81.38,
+      "Vot": 94.18
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      740,
+      685
+   ],
+   "% Voix": {
+      "Ins": [
+         42.26,
+         39.12
+      ],
+      "Exp": [
+         51.93,
+         48.07
+      ]
+   }
+},
+ {
+   "Code de la commune": 244,
+   "Libellé de la commune": "Mauges-sur-Loire",
+   "Inscrits": 13394,
+   "Abstentions": 1671,
+   "% Abs": {
+      "Ins": 12.48
+   },
+   "Votants": 11723,
+   "% Vot": {
+      "Ins": 87.52
+   },
+   "Blancs et nuls": 858,
+   "% BlNuls": {
+      "Ins": 6.41,
+      "Vot": 7.32
+   },
+   "Exprimés": 10865,
+   "% Exp": {
+      "Ins": 81.12,
+      "Vot": 92.68
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      4603,
+      6262
+   ],
+   "% Voix": {
+      "Ins": [
+         34.37,
+         46.75
+      ],
+      "Exp": [
+         42.37,
+         57.63
+      ]
+   }
+},
+ {
+   "Code de la commune": 246,
+   "Libellé de la commune": "Les Ponts-de-Cé",
+   "Inscrits": 9089,
+   "Abstentions": 1550,
+   "% Abs": {
+      "Ins": 17.05
+   },
+   "Votants": 7539,
+   "% Vot": {
+      "Ins": 82.95
+   },
+   "Blancs et nuls": 394,
+   "% BlNuls": {
+      "Ins": 4.33,
+      "Vot": 5.23
+   },
+   "Exprimés": 7145,
+   "% Exp": {
+      "Ins": 78.61,
+      "Vot": 94.77
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      3959,
+      3186
+   ],
+   "% Voix": {
+      "Ins": [
+         43.56,
+         35.05
+      ],
+      "Exp": [
+         55.41,
+         44.59
+      ]
+   }
+},
+ {
+   "Code de la commune": 247,
+   "Libellé de la commune": "La Possonnière",
+   "Inscrits": 1843,
+   "Abstentions": 242,
+   "% Abs": {
+      "Ins": 13.13
+   },
+   "Votants": 1601,
+   "% Vot": {
+      "Ins": 86.87
+   },
+   "Blancs et nuls": 97,
+   "% BlNuls": {
+      "Ins": 5.26,
+      "Vot": 6.06
+   },
+   "Exprimés": 1504,
+   "% Exp": {
+      "Ins": 81.61,
+      "Vot": 93.94
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      844,
+      660
+   ],
+   "% Voix": {
+      "Ins": [
+         45.79,
+         35.81
+      ],
+      "Exp": [
+         56.12,
+         43.88
+      ]
+   }
+},
+ {
+   "Code de la commune": 248,
+   "Libellé de la commune": "Ombrée-d'Anjou",
+   "Inscrits": 6548,
+   "Abstentions": 1048,
+   "% Abs": {
+      "Ins": 16
+   },
+   "Votants": 5500,
+   "% Vot": {
+      "Ins": 84
+   },
+   "Blancs et nuls": 286,
+   "% BlNuls": {
+      "Ins": 4.37,
+      "Vot": 5.2
+   },
+   "Exprimés": 5214,
+   "% Exp": {
+      "Ins": 79.63,
+      "Vot": 94.8
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      2354,
+      2860
+   ],
+   "% Voix": {
+      "Ins": [
+         35.95,
+         43.68
+      ],
+      "Exp": [
+         45.15,
+         54.85
+      ]
+   }
+},
+ {
+   "Code de la commune": 253,
+   "Libellé de la commune": "Le Puy-Notre-Dame",
+   "Inscrits": 921,
+   "Abstentions": 173,
+   "% Abs": {
+      "Ins": 18.78
+   },
+   "Votants": 748,
+   "% Vot": {
+      "Ins": 81.22
+   },
+   "Blancs et nuls": 50,
+   "% BlNuls": {
+      "Ins": 5.43,
+      "Vot": 6.68
+   },
+   "Exprimés": 698,
+   "% Exp": {
+      "Ins": 75.79,
+      "Vot": 93.32
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      287,
+      411
+   ],
+   "% Voix": {
+      "Ins": [
+         31.16,
+         44.63
+      ],
+      "Exp": [
+         41.12,
+         58.88
+      ]
+   }
+},
+ {
+   "Code de la commune": 257,
+   "Libellé de la commune": "Les Rairies",
+   "Inscrits": 702,
+   "Abstentions": 107,
+   "% Abs": {
+      "Ins": 15.24
+   },
+   "Votants": 595,
+   "% Vot": {
+      "Ins": 84.76
+   },
+   "Blancs et nuls": 38,
+   "% BlNuls": {
+      "Ins": 5.41,
+      "Vot": 6.39
+   },
+   "Exprimés": 557,
+   "% Exp": {
+      "Ins": 79.34,
+      "Vot": 93.61
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      270,
+      287
+   ],
+   "% Voix": {
+      "Ins": [
+         38.46,
+         40.88
+      ],
+      "Exp": [
+         48.47,
+         51.53
+      ]
+   }
+},
+ {
+   "Code de la commune": 259,
+   "Libellé de la commune": "Rochefort-sur-Loire",
+   "Inscrits": 1656,
+   "Abstentions": 216,
+   "% Abs": {
+      "Ins": 13.04
+   },
+   "Votants": 1440,
+   "% Vot": {
+      "Ins": 86.96
+   },
+   "Blancs et nuls": 67,
+   "% BlNuls": {
+      "Ins": 4.05,
+      "Vot": 4.65
+   },
+   "Exprimés": 1373,
+   "% Exp": {
+      "Ins": 82.91,
+      "Vot": 95.35
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      717,
+      656
+   ],
+   "% Voix": {
+      "Ins": [
+         43.3,
+         39.61
+      ],
+      "Exp": [
+         52.22,
+         47.78
+      ]
+   }
+},
+ {
+   "Code de la commune": 260,
+   "Libellé de la commune": "La Romagne",
+   "Inscrits": 1253,
+   "Abstentions": 168,
+   "% Abs": {
+      "Ins": 13.41
+   },
+   "Votants": 1085,
+   "% Vot": {
+      "Ins": 86.59
+   },
+   "Blancs et nuls": 87,
+   "% BlNuls": {
+      "Ins": 6.94,
+      "Vot": 8.02
+   },
+   "Exprimés": 998,
+   "% Exp": {
+      "Ins": 79.65,
+      "Vot": 91.98
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      447,
+      551
+   ],
+   "% Voix": {
+      "Ins": [
+         35.67,
+         43.97
+      ],
+      "Exp": [
+         44.79,
+         55.21
+      ]
+   }
+},
+ {
+   "Code de la commune": 261,
+   "Libellé de la commune": "Les Rosiers-sur-Loire",
+   "Inscrits": 1737,
+   "Abstentions": 268,
+   "% Abs": {
+      "Ins": 15.43
+   },
+   "Votants": 1469,
+   "% Vot": {
+      "Ins": 84.57
+   },
+   "Blancs et nuls": 86,
+   "% BlNuls": {
+      "Ins": 4.95,
+      "Vot": 5.85
+   },
+   "Exprimés": 1383,
+   "% Exp": {
+      "Ins": 79.62,
+      "Vot": 94.15
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      629,
+      754
+   ],
+   "% Voix": {
+      "Ins": [
+         36.21,
+         43.41
+      ],
+      "Exp": [
+         45.48,
+         54.52
+      ]
+   }
+},
+ {
+   "Code de la commune": 262,
+   "Libellé de la commune": "Rou-Marson",
+   "Inscrits": 534,
+   "Abstentions": 66,
+   "% Abs": {
+      "Ins": 12.36
+   },
+   "Votants": 468,
+   "% Vot": {
+      "Ins": 87.64
+   },
+   "Blancs et nuls": 28,
+   "% BlNuls": {
+      "Ins": 5.24,
+      "Vot": 5.98
+   },
+   "Exprimés": 440,
+   "% Exp": {
+      "Ins": 82.4,
+      "Vot": 94.02
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      174,
+      266
+   ],
+   "% Voix": {
+      "Ins": [
+         32.58,
+         49.81
+      ],
+      "Exp": [
+         39.55,
+         60.45
+      ]
+   }
+},
+ {
+   "Code de la commune": 266,
+   "Libellé de la commune": "Saint-Augustin-des-Bois",
+   "Inscrits": 708,
+   "Abstentions": 71,
+   "% Abs": {
+      "Ins": 10.03
+   },
+   "Votants": 637,
+   "% Vot": {
+      "Ins": 89.97
+   },
+   "Blancs et nuls": 36,
+   "% BlNuls": {
+      "Ins": 5.08,
+      "Vot": 5.65
+   },
+   "Exprimés": 601,
+   "% Exp": {
+      "Ins": 84.89,
+      "Vot": 94.35
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      298,
+      303
+   ],
+   "% Voix": {
+      "Ins": [
+         42.09,
+         42.8
+      ],
+      "Exp": [
+         49.58,
+         50.42
+      ]
+   }
+},
+ {
+   "Code de la commune": 267,
+   "Libellé de la commune": "Saint-Barthélemy-d'Anjou",
+   "Inscrits": 6858,
+   "Abstentions": 1061,
+   "% Abs": {
+      "Ins": 15.47
+   },
+   "Votants": 5797,
+   "% Vot": {
+      "Ins": 84.53
+   },
+   "Blancs et nuls": 320,
+   "% BlNuls": {
+      "Ins": 4.67,
+      "Vot": 5.52
+   },
+   "Exprimés": 5477,
+   "% Exp": {
+      "Ins": 79.86,
+      "Vot": 94.48
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      3094,
+      2383
+   ],
+   "% Voix": {
+      "Ins": [
+         45.12,
+         34.75
+      ],
+      "Exp": [
+         56.49,
+         43.51
+      ]
+   }
+},
+ {
+   "Code de la commune": 269,
+   "Libellé de la commune": "Saint-Christophe-du-Bois",
+   "Inscrits": 2098,
+   "Abstentions": 330,
+   "% Abs": {
+      "Ins": 15.73
+   },
+   "Votants": 1768,
+   "% Vot": {
+      "Ins": 84.27
+   },
+   "Blancs et nuls": 108,
+   "% BlNuls": {
+      "Ins": 5.15,
+      "Vot": 6.11
+   },
+   "Exprimés": 1660,
+   "% Exp": {
+      "Ins": 79.12,
+      "Vot": 93.89
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      785,
+      875
+   ],
+   "% Voix": {
+      "Ins": [
+         37.42,
+         41.71
+      ],
+      "Exp": [
+         47.29,
+         52.71
+      ]
+   }
+},
+ {
+   "Code de la commune": 271,
+   "Libellé de la commune": "Saint-Clément-de-la-Place",
+   "Inscrits": 1363,
+   "Abstentions": 144,
+   "% Abs": {
+      "Ins": 10.56
+   },
+   "Votants": 1219,
+   "% Vot": {
+      "Ins": 89.44
+   },
+   "Blancs et nuls": 77,
+   "% BlNuls": {
+      "Ins": 5.65,
+      "Vot": 6.32
+   },
+   "Exprimés": 1142,
+   "% Exp": {
+      "Ins": 83.79,
+      "Vot": 93.68
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      547,
+      595
+   ],
+   "% Voix": {
+      "Ins": [
+         40.13,
+         43.65
+      ],
+      "Exp": [
+         47.9,
+         52.1
+      ]
+   }
+},
+ {
+   "Code de la commune": 272,
+   "Libellé de la commune": "Saint-Clément-des-Levées",
+   "Inscrits": 795,
+   "Abstentions": 120,
+   "% Abs": {
+      "Ins": 15.09
+   },
+   "Votants": 675,
+   "% Vot": {
+      "Ins": 84.91
+   },
+   "Blancs et nuls": 42,
+   "% BlNuls": {
+      "Ins": 5.28,
+      "Vot": 6.22
+   },
+   "Exprimés": 633,
+   "% Exp": {
+      "Ins": 79.62,
+      "Vot": 93.78
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      343,
+      290
+   ],
+   "% Voix": {
+      "Ins": [
+         43.14,
+         36.48
+      ],
+      "Exp": [
+         54.19,
+         45.81
+      ]
+   }
+},
+ {
+   "Code de la commune": 274,
+   "Libellé de la commune": "Saint-Cyr-en-Bourg",
+   "Inscrits": 653,
+   "Abstentions": 87,
+   "% Abs": {
+      "Ins": 13.32
+   },
+   "Votants": 566,
+   "% Vot": {
+      "Ins": 86.68
+   },
+   "Blancs et nuls": 36,
+   "% BlNuls": {
+      "Ins": 5.51,
+      "Vot": 6.36
+   },
+   "Exprimés": 530,
+   "% Exp": {
+      "Ins": 81.16,
+      "Vot": 93.64
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      262,
+      268
+   ],
+   "% Voix": {
+      "Ins": [
+         40.12,
+         41.04
+      ],
+      "Exp": [
+         49.43,
+         50.57
+      ]
+   }
+},
+ {
+   "Code de la commune": 278,
+   "Libellé de la commune": "Sainte-Gemmes-sur-Loire",
+   "Inscrits": 2832,
+   "Abstentions": 384,
+   "% Abs": {
+      "Ins": 13.56
+   },
+   "Votants": 2448,
+   "% Vot": {
+      "Ins": 86.44
+   },
+   "Blancs et nuls": 112,
+   "% BlNuls": {
+      "Ins": 3.95,
+      "Vot": 4.58
+   },
+   "Exprimés": 2336,
+   "% Exp": {
+      "Ins": 82.49,
+      "Vot": 95.42
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      1166,
+      1170
+   ],
+   "% Voix": {
+      "Ins": [
+         41.17,
+         41.31
+      ],
+      "Exp": [
+         49.91,
+         50.09
+      ]
+   }
+},
+ {
+   "Code de la commune": 283,
+   "Libellé de la commune": "Saint-Georges-sur-Loire",
+   "Inscrits": 2370,
+   "Abstentions": 292,
+   "% Abs": {
+      "Ins": 12.32
+   },
+   "Votants": 2078,
+   "% Vot": {
+      "Ins": 87.68
+   },
+   "Blancs et nuls": 137,
+   "% BlNuls": {
+      "Ins": 5.78,
+      "Vot": 6.59
+   },
+   "Exprimés": 1941,
+   "% Exp": {
+      "Ins": 81.9,
+      "Vot": 93.41
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      989,
+      952
+   ],
+   "% Voix": {
+      "Ins": [
+         41.73,
+         40.17
+      ],
+      "Exp": [
+         50.95,
+         49.05
+      ]
+   }
+},
+ {
+   "Code de la commune": 284,
+   "Libellé de la commune": "Saint-Germain-des-Prés",
+   "Inscrits": 1003,
+   "Abstentions": 131,
+   "% Abs": {
+      "Ins": 13.06
+   },
+   "Votants": 872,
+   "% Vot": {
+      "Ins": 86.94
+   },
+   "Blancs et nuls": 50,
+   "% BlNuls": {
+      "Ins": 4.99,
+      "Vot": 5.73
+   },
+   "Exprimés": 822,
+   "% Exp": {
+      "Ins": 81.95,
+      "Vot": 94.27
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      408,
+      414
+   ],
+   "% Voix": {
+      "Ins": [
+         40.68,
+         41.28
+      ],
+      "Exp": [
+         49.64,
+         50.36
+      ]
+   }
+},
+ {
+   "Code de la commune": 288,
+   "Libellé de la commune": "Saint-Jean-de-la-Croix",
+   "Inscrits": 171,
+   "Abstentions": 25,
+   "% Abs": {
+      "Ins": 14.62
+   },
+   "Votants": 146,
+   "% Vot": {
+      "Ins": 85.38
+   },
+   "Blancs et nuls": 9,
+   "% BlNuls": {
+      "Ins": 5.26,
+      "Vot": 6.16
+   },
+   "Exprimés": 137,
+   "% Exp": {
+      "Ins": 80.12,
+      "Vot": 93.84
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      96,
+      41
+   ],
+   "% Voix": {
+      "Ins": [
+         56.14,
+         23.98
+      ],
+      "Exp": [
+         70.07,
+         29.93
+      ]
+   }
+},
+ {
+   "Code de la commune": 289,
+   "Libellé de la commune": "Saint-Jean-de-Linières",
+   "Inscrits": 1292,
+   "Abstentions": 145,
+   "% Abs": {
+      "Ins": 11.22
+   },
+   "Votants": 1147,
+   "% Vot": {
+      "Ins": 88.78
+   },
+   "Blancs et nuls": 66,
+   "% BlNuls": {
+      "Ins": 5.11,
+      "Vot": 5.75
+   },
+   "Exprimés": 1081,
+   "% Exp": {
+      "Ins": 83.67,
+      "Vot": 94.25
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      514,
+      567
+   ],
+   "% Voix": {
+      "Ins": [
+         39.78,
+         43.89
+      ],
+      "Exp": [
+         47.55,
+         52.45
+      ]
+   }
+},
+ {
+   "Code de la commune": 291,
+   "Libellé de la commune": "Saint-Just-sur-Dive",
+   "Inscrits": 275,
+   "Abstentions": 52,
+   "% Abs": {
+      "Ins": 18.91
+   },
+   "Votants": 223,
+   "% Vot": {
+      "Ins": 81.09
+   },
+   "Blancs et nuls": 16,
+   "% BlNuls": {
+      "Ins": 5.82,
+      "Vot": 7.17
+   },
+   "Exprimés": 207,
+   "% Exp": {
+      "Ins": 75.27,
+      "Vot": 92.83
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      92,
+      115
+   ],
+   "% Voix": {
+      "Ins": [
+         33.45,
+         41.82
+      ],
+      "Exp": [
+         44.44,
+         55.56
+      ]
+   }
+},
+ {
+   "Code de la commune": 292,
+   "Libellé de la commune": "Val-du-Layon",
+   "Inscrits": 2231,
+   "Abstentions": 218,
+   "% Abs": {
+      "Ins": 9.77
+   },
+   "Votants": 2013,
+   "% Vot": {
+      "Ins": 90.23
+   },
+   "Blancs et nuls": 139,
+   "% BlNuls": {
+      "Ins": 6.23,
+      "Vot": 6.91
+   },
+   "Exprimés": 1874,
+   "% Exp": {
+      "Ins": 84,
+      "Vot": 93.09
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      927,
+      947
+   ],
+   "% Voix": {
+      "Ins": [
+         41.55,
+         42.45
+      ],
+      "Exp": [
+         49.47,
+         50.53
+      ]
+   }
+},
+ {
+   "Code de la commune": 294,
+   "Libellé de la commune": "Saint-Lambert-la-Potherie",
+   "Inscrits": 1840,
+   "Abstentions": 220,
+   "% Abs": {
+      "Ins": 11.96
+   },
+   "Votants": 1620,
+   "% Vot": {
+      "Ins": 88.04
+   },
+   "Blancs et nuls": 88,
+   "% BlNuls": {
+      "Ins": 4.78,
+      "Vot": 5.43
+   },
+   "Exprimés": 1532,
+   "% Exp": {
+      "Ins": 83.26,
+      "Vot": 94.57
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      727,
+      805
+   ],
+   "% Voix": {
+      "Ins": [
+         39.51,
+         43.75
+      ],
+      "Exp": [
+         47.45,
+         52.55
+      ]
+   }
+},
+ {
+   "Code de la commune": 298,
+   "Libellé de la commune": "Saint-Léger-des-Bois",
+   "Inscrits": 1144,
+   "Abstentions": 144,
+   "% Abs": {
+      "Ins": 12.59
+   },
+   "Votants": 1000,
+   "% Vot": {
+      "Ins": 87.41
+   },
+   "Blancs et nuls": 52,
+   "% BlNuls": {
+      "Ins": 4.55,
+      "Vot": 5.2
+   },
+   "Exprimés": 948,
+   "% Exp": {
+      "Ins": 82.87,
+      "Vot": 94.8
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      498,
+      450
+   ],
+   "% Voix": {
+      "Ins": [
+         43.53,
+         39.34
+      ],
+      "Exp": [
+         52.53,
+         47.47
+      ]
+   }
+},
+ {
+   "Code de la commune": 299,
+   "Libellé de la commune": "Saint-Léger-sous-Cholet",
+   "Inscrits": 2086,
+   "Abstentions": 323,
+   "% Abs": {
+      "Ins": 15.48
+   },
+   "Votants": 1763,
+   "% Vot": {
+      "Ins": 84.52
+   },
+   "Blancs et nuls": 107,
+   "% BlNuls": {
+      "Ins": 5.13,
+      "Vot": 6.07
+   },
+   "Exprimés": 1656,
+   "% Exp": {
+      "Ins": 79.39,
+      "Vot": 93.93
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      857,
+      799
+   ],
+   "% Voix": {
+      "Ins": [
+         41.08,
+         38.3
+      ],
+      "Exp": [
+         51.75,
+         48.25
+      ]
+   }
+},
+ {
+   "Code de la commune": 301,
+   "Libellé de la commune": "Sèvremoine",
+   "Inscrits": 17234,
+   "Abstentions": 2638,
+   "% Abs": {
+      "Ins": 15.31
+   },
+   "Votants": 14596,
+   "% Vot": {
+      "Ins": 84.69
+   },
+   "Blancs et nuls": 951,
+   "% BlNuls": {
+      "Ins": 5.52,
+      "Vot": 6.52
+   },
+   "Exprimés": 13645,
+   "% Exp": {
+      "Ins": 79.17,
+      "Vot": 93.48
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      5968,
+      7677
+   ],
+   "% Voix": {
+      "Ins": [
+         34.63,
+         44.55
+      ],
+      "Exp": [
+         43.74,
+         56.26
+      ]
+   }
+},
+ {
+   "Code de la commune": 302,
+   "Libellé de la commune": "Saint-Macaire-du-Bois",
+   "Inscrits": 301,
+   "Abstentions": 64,
+   "% Abs": {
+      "Ins": 21.26
+   },
+   "Votants": 237,
+   "% Vot": {
+      "Ins": 78.74
+   },
+   "Blancs et nuls": 15,
+   "% BlNuls": {
+      "Ins": 4.98,
+      "Vot": 6.33
+   },
+   "Exprimés": 222,
+   "% Exp": {
+      "Ins": 73.75,
+      "Vot": 93.67
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      108,
+      114
+   ],
+   "% Voix": {
+      "Ins": [
+         35.88,
+         37.87
+      ],
+      "Exp": [
+         48.65,
+         51.35
+      ]
+   }
+},
+ {
+   "Code de la commune": 304,
+   "Libellé de la commune": "Saint-Martin-de-la-Place",
+   "Inscrits": 805,
+   "Abstentions": 120,
+   "% Abs": {
+      "Ins": 14.91
+   },
+   "Votants": 685,
+   "% Vot": {
+      "Ins": 85.09
+   },
+   "Blancs et nuls": 58,
+   "% BlNuls": {
+      "Ins": 7.2,
+      "Vot": 8.47
+   },
+   "Exprimés": 627,
+   "% Exp": {
+      "Ins": 77.89,
+      "Vot": 91.53
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      274,
+      353
+   ],
+   "% Voix": {
+      "Ins": [
+         34.04,
+         43.85
+      ],
+      "Exp": [
+         43.7,
+         56.3
+      ]
+   }
+},
+ {
+   "Code de la commune": 306,
+   "Libellé de la commune": "Saint-Martin-du-Fouilloux",
+   "Inscrits": 1231,
+   "Abstentions": 123,
+   "% Abs": {
+      "Ins": 9.99
+   },
+   "Votants": 1108,
+   "% Vot": {
+      "Ins": 90.01
+   },
+   "Blancs et nuls": 66,
+   "% BlNuls": {
+      "Ins": 5.36,
+      "Vot": 5.96
+   },
+   "Exprimés": 1042,
+   "% Exp": {
+      "Ins": 84.65,
+      "Vot": 94.04
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      586,
+      456
+   ],
+   "% Voix": {
+      "Ins": [
+         47.6,
+         37.04
+      ],
+      "Exp": [
+         56.24,
+         43.76
+      ]
+   }
+},
+ {
+   "Code de la commune": 307,
+   "Libellé de la commune": "Loire-Authion",
+   "Inscrits": 11336,
+   "Abstentions": 1444,
+   "% Abs": {
+      "Ins": 12.74
+   },
+   "Votants": 9892,
+   "% Vot": {
+      "Ins": 87.26
+   },
+   "Blancs et nuls": 588,
+   "% BlNuls": {
+      "Ins": 5.19,
+      "Vot": 5.94
+   },
+   "Exprimés": 9304,
+   "% Exp": {
+      "Ins": 82.07,
+      "Vot": 94.06
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      4742,
+      4562
+   ],
+   "% Voix": {
+      "Ins": [
+         41.83,
+         40.24
+      ],
+      "Exp": [
+         50.97,
+         49.03
+      ]
+   }
+},
+ {
+   "Code de la commune": 308,
+   "Libellé de la commune": "Saint-Melaine-sur-Aubance",
+   "Inscrits": 1576,
+   "Abstentions": 150,
+   "% Abs": {
+      "Ins": 9.52
+   },
+   "Votants": 1426,
+   "% Vot": {
+      "Ins": 90.48
+   },
+   "Blancs et nuls": 86,
+   "% BlNuls": {
+      "Ins": 5.46,
+      "Vot": 6.03
+   },
+   "Exprimés": 1340,
+   "% Exp": {
+      "Ins": 85.03,
+      "Vot": 93.97
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      626,
+      714
+   ],
+   "% Voix": {
+      "Ins": [
+         39.72,
+         45.3
+      ],
+      "Exp": [
+         46.72,
+         53.28
+      ]
+   }
+},
+ {
+   "Code de la commune": 310,
+   "Libellé de la commune": "Saint-Paul-du-Bois",
+   "Inscrits": 454,
+   "Abstentions": 78,
+   "% Abs": {
+      "Ins": 17.18
+   },
+   "Votants": 376,
+   "% Vot": {
+      "Ins": 82.82
+   },
+   "Blancs et nuls": 15,
+   "% BlNuls": {
+      "Ins": 3.3,
+      "Vot": 3.99
+   },
+   "Exprimés": 361,
+   "% Exp": {
+      "Ins": 79.52,
+      "Vot": 96.01
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      120,
+      241
+   ],
+   "% Voix": {
+      "Ins": [
+         26.43,
+         53.08
+      ],
+      "Exp": [
+         33.24,
+         66.76
+      ]
+   }
+},
+ {
+   "Code de la commune": 311,
+   "Libellé de la commune": "Saint-Philbert-du-Peuple",
+   "Inscrits": 842,
+   "Abstentions": 105,
+   "% Abs": {
+      "Ins": 12.47
+   },
+   "Votants": 737,
+   "% Vot": {
+      "Ins": 87.53
+   },
+   "Blancs et nuls": 65,
+   "% BlNuls": {
+      "Ins": 7.72,
+      "Vot": 8.82
+   },
+   "Exprimés": 672,
+   "% Exp": {
+      "Ins": 79.81,
+      "Vot": 91.18
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      292,
+      380
+   ],
+   "% Voix": {
+      "Ins": [
+         34.68,
+         45.13
+      ],
+      "Exp": [
+         43.45,
+         56.55
+      ]
+   }
+},
+ {
+   "Code de la commune": 321,
+   "Libellé de la commune": "Saint-Sigismond",
+   "Inscrits": 289,
+   "Abstentions": 38,
+   "% Abs": {
+      "Ins": 13.15
+   },
+   "Votants": 251,
+   "% Vot": {
+      "Ins": 86.85
+   },
+   "Blancs et nuls": 20,
+   "% BlNuls": {
+      "Ins": 6.92,
+      "Vot": 7.97
+   },
+   "Exprimés": 231,
+   "% Exp": {
+      "Ins": 79.93,
+      "Vot": 92.03
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      134,
+      97
+   ],
+   "% Voix": {
+      "Ins": [
+         46.37,
+         33.56
+      ],
+      "Exp": [
+         58.01,
+         41.99
+      ]
+   }
+},
+ {
+   "Code de la commune": 323,
+   "Libellé de la commune": "Verrière-en-Anjou",
+   "Inscrits": 5127,
+   "Abstentions": 714,
+   "% Abs": {
+      "Ins": 13.93
+   },
+   "Votants": 4413,
+   "% Vot": {
+      "Ins": 86.07
+   },
+   "Blancs et nuls": 279,
+   "% BlNuls": {
+      "Ins": 5.44,
+      "Vot": 6.32
+   },
+   "Exprimés": 4134,
+   "% Exp": {
+      "Ins": 80.63,
+      "Vot": 93.68
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      2095,
+      2039
+   ],
+   "% Voix": {
+      "Ins": [
+         40.86,
+         39.77
+      ],
+      "Exp": [
+         50.68,
+         49.32
+      ]
+   }
+},
+ {
+   "Code de la commune": 326,
+   "Libellé de la commune": "Sarrigné",
+   "Inscrits": 622,
+   "Abstentions": 71,
+   "% Abs": {
+      "Ins": 11.41
+   },
+   "Votants": 551,
+   "% Vot": {
+      "Ins": 88.59
+   },
+   "Blancs et nuls": 46,
+   "% BlNuls": {
+      "Ins": 7.4,
+      "Vot": 8.35
+   },
+   "Exprimés": 505,
+   "% Exp": {
+      "Ins": 81.19,
+      "Vot": 91.65
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      318,
+      187
+   ],
+   "% Voix": {
+      "Ins": [
+         51.13,
+         30.06
+      ],
+      "Exp": [
+         62.97,
+         37.03
+      ]
+   }
+},
+ {
+   "Code de la commune": 328,
+   "Libellé de la commune": "Saumur",
+   "Inscrits": 19300,
+   "Abstentions": 3933,
+   "% Abs": {
+      "Ins": 20.38
+   },
+   "Votants": 15367,
+   "% Vot": {
+      "Ins": 79.62
+   },
+   "Blancs et nuls": 884,
+   "% BlNuls": {
+      "Ins": 4.58,
+      "Vot": 5.75
+   },
+   "Exprimés": 14483,
+   "% Exp": {
+      "Ins": 75.04,
+      "Vot": 94.25
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      6620,
+      7863
+   ],
+   "% Voix": {
+      "Ins": [
+         34.3,
+         40.74
+      ],
+      "Exp": [
+         45.71,
+         54.29
+      ]
+   }
+},
+ {
+   "Code de la commune": 329,
+   "Libellé de la commune": "Savennières",
+   "Inscrits": 965,
+   "Abstentions": 118,
+   "% Abs": {
+      "Ins": 12.23
+   },
+   "Votants": 847,
+   "% Vot": {
+      "Ins": 87.77
+   },
+   "Blancs et nuls": 51,
+   "% BlNuls": {
+      "Ins": 5.28,
+      "Vot": 6.02
+   },
+   "Exprimés": 796,
+   "% Exp": {
+      "Ins": 82.49,
+      "Vot": 93.98
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      415,
+      381
+   ],
+   "% Voix": {
+      "Ins": [
+         43.01,
+         39.48
+      ],
+      "Exp": [
+         52.14,
+         47.86
+      ]
+   }
+},
+ {
+   "Code de la commune": 330,
+   "Libellé de la commune": "Sceaux-d'Anjou",
+   "Inscrits": 657,
+   "Abstentions": 53,
+   "% Abs": {
+      "Ins": 8.07
+   },
+   "Votants": 604,
+   "% Vot": {
+      "Ins": 91.93
+   },
+   "Blancs et nuls": 48,
+   "% BlNuls": {
+      "Ins": 7.31,
+      "Vot": 7.95
+   },
+   "Exprimés": 556,
+   "% Exp": {
+      "Ins": 84.63,
+      "Vot": 92.05
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      267,
+      289
+   ],
+   "% Voix": {
+      "Ins": [
+         40.64,
+         43.99
+      ],
+      "Exp": [
+         48.02,
+         51.98
+      ]
+   }
+},
+ {
+   "Code de la commune": 331,
+   "Libellé de la commune": "Segré-en-Anjou-Bleu",
+   "Inscrits": 12553,
+   "Abstentions": 2106,
+   "% Abs": {
+      "Ins": 16.78
+   },
+   "Votants": 10447,
+   "% Vot": {
+      "Ins": 83.22
+   },
+   "Blancs et nuls": 644,
+   "% BlNuls": {
+      "Ins": 5.13,
+      "Vot": 6.16
+   },
+   "Exprimés": 9803,
+   "% Exp": {
+      "Ins": 78.09,
+      "Vot": 93.84
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      4592,
+      5211
+   ],
+   "% Voix": {
+      "Ins": [
+         36.58,
+         41.51
+      ],
+      "Exp": [
+         46.84,
+         53.16
+      ]
+   }
+},
+ {
+   "Code de la commune": 332,
+   "Libellé de la commune": "La Séguinière",
+   "Inscrits": 3082,
+   "Abstentions": 423,
+   "% Abs": {
+      "Ins": 13.72
+   },
+   "Votants": 2659,
+   "% Vot": {
+      "Ins": 86.28
+   },
+   "Blancs et nuls": 177,
+   "% BlNuls": {
+      "Ins": 5.74,
+      "Vot": 6.66
+   },
+   "Exprimés": 2482,
+   "% Exp": {
+      "Ins": 80.53,
+      "Vot": 93.34
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      1099,
+      1383
+   ],
+   "% Voix": {
+      "Ins": [
+         35.66,
+         44.87
+      ],
+      "Exp": [
+         44.28,
+         55.72
+      ]
+   }
+},
+ {
+   "Code de la commune": 333,
+   "Libellé de la commune": "Seiches-sur-le-Loir",
+   "Inscrits": 1975,
+   "Abstentions": 303,
+   "% Abs": {
+      "Ins": 15.34
+   },
+   "Votants": 1672,
+   "% Vot": {
+      "Ins": 84.66
+   },
+   "Blancs et nuls": 87,
+   "% BlNuls": {
+      "Ins": 4.41,
+      "Vot": 5.2
+   },
+   "Exprimés": 1585,
+   "% Exp": {
+      "Ins": 80.25,
+      "Vot": 94.8
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      807,
+      778
+   ],
+   "% Voix": {
+      "Ins": [
+         40.86,
+         39.39
+      ],
+      "Exp": [
+         50.91,
+         49.09
+      ]
+   }
+},
+ {
+   "Code de la commune": 334,
+   "Libellé de la commune": "Sermaise",
+   "Inscrits": 212,
+   "Abstentions": 32,
+   "% Abs": {
+      "Ins": 15.09
+   },
+   "Votants": 180,
+   "% Vot": {
+      "Ins": 84.91
+   },
+   "Blancs et nuls": 12,
+   "% BlNuls": {
+      "Ins": 5.66,
+      "Vot": 6.67
+   },
+   "Exprimés": 168,
+   "% Exp": {
+      "Ins": 79.25,
+      "Vot": 93.33
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      67,
+      101
+   ],
+   "% Voix": {
+      "Ins": [
+         31.6,
+         47.64
+      ],
+      "Exp": [
+         39.88,
+         60.12
+      ]
+   }
+},
+ {
+   "Code de la commune": 336,
+   "Libellé de la commune": "Somloire",
+   "Inscrits": 658,
+   "Abstentions": 72,
+   "% Abs": {
+      "Ins": 10.94
+   },
+   "Votants": 586,
+   "% Vot": {
+      "Ins": 89.06
+   },
+   "Blancs et nuls": 30,
+   "% BlNuls": {
+      "Ins": 4.56,
+      "Vot": 5.12
+   },
+   "Exprimés": 556,
+   "% Exp": {
+      "Ins": 84.5,
+      "Vot": 94.88
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      218,
+      338
+   ],
+   "% Voix": {
+      "Ins": [
+         33.13,
+         51.37
+      ],
+      "Exp": [
+         39.21,
+         60.79
+      ]
+   }
+},
+ {
+   "Code de la commune": 337,
+   "Libellé de la commune": "Soucelles",
+   "Inscrits": 1973,
+   "Abstentions": 291,
+   "% Abs": {
+      "Ins": 14.75
+   },
+   "Votants": 1682,
+   "% Vot": {
+      "Ins": 85.25
+   },
+   "Blancs et nuls": 113,
+   "% BlNuls": {
+      "Ins": 5.73,
+      "Vot": 6.72
+   },
+   "Exprimés": 1569,
+   "% Exp": {
+      "Ins": 79.52,
+      "Vot": 93.28
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      895,
+      674
+   ],
+   "% Voix": {
+      "Ins": [
+         45.36,
+         34.16
+      ],
+      "Exp": [
+         57.04,
+         42.96
+      ]
+   }
+},
+ {
+   "Code de la commune": 338,
+   "Libellé de la commune": "Soulaines-sur-Aubance",
+   "Inscrits": 988,
+   "Abstentions": 102,
+   "% Abs": {
+      "Ins": 10.32
+   },
+   "Votants": 886,
+   "% Vot": {
+      "Ins": 89.68
+   },
+   "Blancs et nuls": 41,
+   "% BlNuls": {
+      "Ins": 4.15,
+      "Vot": 4.63
+   },
+   "Exprimés": 845,
+   "% Exp": {
+      "Ins": 85.53,
+      "Vot": 95.37
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      471,
+      374
+   ],
+   "% Voix": {
+      "Ins": [
+         47.67,
+         37.85
+      ],
+      "Exp": [
+         55.74,
+         44.26
+      ]
+   }
+},
+ {
+   "Code de la commune": 339,
+   "Libellé de la commune": "Soulaire-et-Bourg",
+   "Inscrits": 1048,
+   "Abstentions": 110,
+   "% Abs": {
+      "Ins": 10.5
+   },
+   "Votants": 938,
+   "% Vot": {
+      "Ins": 89.5
+   },
+   "Blancs et nuls": 76,
+   "% BlNuls": {
+      "Ins": 7.25,
+      "Vot": 8.1
+   },
+   "Exprimés": 862,
+   "% Exp": {
+      "Ins": 82.25,
+      "Vot": 91.9
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      458,
+      404
+   ],
+   "% Voix": {
+      "Ins": [
+         43.7,
+         38.55
+      ],
+      "Exp": [
+         53.13,
+         46.87
+      ]
+   }
+},
+ {
+   "Code de la commune": 341,
+   "Libellé de la commune": "Souzay-Champigny",
+   "Inscrits": 532,
+   "Abstentions": 75,
+   "% Abs": {
+      "Ins": 14.1
+   },
+   "Votants": 457,
+   "% Vot": {
+      "Ins": 85.9
+   },
+   "Blancs et nuls": 30,
+   "% BlNuls": {
+      "Ins": 5.64,
+      "Vot": 6.56
+   },
+   "Exprimés": 427,
+   "% Exp": {
+      "Ins": 80.26,
+      "Vot": 93.44
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      163,
+      264
+   ],
+   "% Voix": {
+      "Ins": [
+         30.64,
+         49.62
+      ],
+      "Exp": [
+         38.17,
+         61.83
+      ]
+   }
+},
+ {
+   "Code de la commune": 343,
+   "Libellé de la commune": "La Tessoualle",
+   "Inscrits": 2416,
+   "Abstentions": 374,
+   "% Abs": {
+      "Ins": 15.48
+   },
+   "Votants": 2042,
+   "% Vot": {
+      "Ins": 84.52
+   },
+   "Blancs et nuls": 124,
+   "% BlNuls": {
+      "Ins": 5.13,
+      "Vot": 6.07
+   },
+   "Exprimés": 1918,
+   "% Exp": {
+      "Ins": 79.39,
+      "Vot": 93.93
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      827,
+      1091
+   ],
+   "% Voix": {
+      "Ins": [
+         34.23,
+         45.16
+      ],
+      "Exp": [
+         43.12,
+         56.88
+      ]
+   }
+},
+ {
+   "Code de la commune": 344,
+   "Libellé de la commune": "Thorigné-d'Anjou",
+   "Inscrits": 733,
+   "Abstentions": 79,
+   "% Abs": {
+      "Ins": 10.78
+   },
+   "Votants": 654,
+   "% Vot": {
+      "Ins": 89.22
+   },
+   "Blancs et nuls": 41,
+   "% BlNuls": {
+      "Ins": 5.59,
+      "Vot": 6.27
+   },
+   "Exprimés": 613,
+   "% Exp": {
+      "Ins": 83.63,
+      "Vot": 93.73
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      285,
+      328
+   ],
+   "% Voix": {
+      "Ins": [
+         38.88,
+         44.75
+      ],
+      "Exp": [
+         46.49,
+         53.51
+      ]
+   }
+},
+ {
+   "Code de la commune": 345,
+   "Libellé de la commune": "Bellevigne-en-Layon",
+   "Inscrits": 4208,
+   "Abstentions": 603,
+   "% Abs": {
+      "Ins": 14.33
+   },
+   "Votants": 3605,
+   "% Vot": {
+      "Ins": 85.67
+   },
+   "Blancs et nuls": 216,
+   "% BlNuls": {
+      "Ins": 5.13,
+      "Vot": 5.99
+   },
+   "Exprimés": 3389,
+   "% Exp": {
+      "Ins": 80.54,
+      "Vot": 94.01
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      1543,
+      1846
+   ],
+   "% Voix": {
+      "Ins": [
+         36.67,
+         43.87
+      ],
+      "Exp": [
+         45.53,
+         54.47
+      ]
+   }
+},
+ {
+   "Code de la commune": 347,
+   "Libellé de la commune": "Tiercé",
+   "Inscrits": 3138,
+   "Abstentions": 460,
+   "% Abs": {
+      "Ins": 14.66
+   },
+   "Votants": 2678,
+   "% Vot": {
+      "Ins": 85.34
+   },
+   "Blancs et nuls": 166,
+   "% BlNuls": {
+      "Ins": 5.29,
+      "Vot": 6.2
+   },
+   "Exprimés": 2512,
+   "% Exp": {
+      "Ins": 80.05,
+      "Vot": 93.8
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      1121,
+      1391
+   ],
+   "% Voix": {
+      "Ins": [
+         35.72,
+         44.33
+      ],
+      "Exp": [
+         44.63,
+         55.37
+      ]
+   }
+},
+ {
+   "Code de la commune": 352,
+   "Libellé de la commune": "Toutlemonde",
+   "Inscrits": 832,
+   "Abstentions": 116,
+   "% Abs": {
+      "Ins": 13.94
+   },
+   "Votants": 716,
+   "% Vot": {
+      "Ins": 86.06
+   },
+   "Blancs et nuls": 47,
+   "% BlNuls": {
+      "Ins": 5.65,
+      "Vot": 6.56
+   },
+   "Exprimés": 669,
+   "% Exp": {
+      "Ins": 80.41,
+      "Vot": 93.44
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      292,
+      377
+   ],
+   "% Voix": {
+      "Ins": [
+         35.1,
+         45.31
+      ],
+      "Exp": [
+         43.65,
+         56.35
+      ]
+   }
+},
+ {
+   "Code de la commune": 353,
+   "Libellé de la commune": "Trélazé",
+   "Inscrits": 8548,
+   "Abstentions": 1567,
+   "% Abs": {
+      "Ins": 18.33
+   },
+   "Votants": 6981,
+   "% Vot": {
+      "Ins": 81.67
+   },
+   "Blancs et nuls": 403,
+   "% BlNuls": {
+      "Ins": 4.71,
+      "Vot": 5.77
+   },
+   "Exprimés": 6578,
+   "% Exp": {
+      "Ins": 76.95,
+      "Vot": 94.23
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      4476,
+      2102
+   ],
+   "% Voix": {
+      "Ins": [
+         52.36,
+         24.59
+      ],
+      "Exp": [
+         68.04,
+         31.96
+      ]
+   }
+},
+ {
+   "Code de la commune": 355,
+   "Libellé de la commune": "Trémentines",
+   "Inscrits": 2183,
+   "Abstentions": 316,
+   "% Abs": {
+      "Ins": 14.48
+   },
+   "Votants": 1867,
+   "% Vot": {
+      "Ins": 85.52
+   },
+   "Blancs et nuls": 147,
+   "% BlNuls": {
+      "Ins": 6.73,
+      "Vot": 7.87
+   },
+   "Exprimés": 1720,
+   "% Exp": {
+      "Ins": 78.79,
+      "Vot": 92.13
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      805,
+      915
+   ],
+   "% Voix": {
+      "Ins": [
+         36.88,
+         41.91
+      ],
+      "Exp": [
+         46.8,
+         53.2
+      ]
+   }
+},
+ {
+   "Code de la commune": 358,
+   "Libellé de la commune": "Turquant",
+   "Inscrits": 423,
+   "Abstentions": 73,
+   "% Abs": {
+      "Ins": 17.26
+   },
+   "Votants": 350,
+   "% Vot": {
+      "Ins": 82.74
+   },
+   "Blancs et nuls": 19,
+   "% BlNuls": {
+      "Ins": 4.49,
+      "Vot": 5.43
+   },
+   "Exprimés": 331,
+   "% Exp": {
+      "Ins": 78.25,
+      "Vot": 94.57
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      139,
+      192
+   ],
+   "% Voix": {
+      "Ins": [
+         32.86,
+         45.39
+      ],
+      "Exp": [
+         41.99,
+         58.01
+      ]
+   }
+},
+ {
+   "Code de la commune": 359,
+   "Libellé de la commune": "Les Ulmes",
+   "Inscrits": 394,
+   "Abstentions": 50,
+   "% Abs": {
+      "Ins": 12.69
+   },
+   "Votants": 344,
+   "% Vot": {
+      "Ins": 87.31
+   },
+   "Blancs et nuls": 25,
+   "% BlNuls": {
+      "Ins": 6.35,
+      "Vot": 7.27
+   },
+   "Exprimés": 319,
+   "% Exp": {
+      "Ins": 80.96,
+      "Vot": 92.73
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      105,
+      214
+   ],
+   "% Voix": {
+      "Ins": [
+         26.65,
+         54.31
+      ],
+      "Exp": [
+         32.92,
+         67.08
+      ]
+   }
+},
+ {
+   "Code de la commune": 361,
+   "Libellé de la commune": "Varennes-sur-Loire",
+   "Inscrits": 1408,
+   "Abstentions": 265,
+   "% Abs": {
+      "Ins": 18.82
+   },
+   "Votants": 1143,
+   "% Vot": {
+      "Ins": 81.18
+   },
+   "Blancs et nuls": 74,
+   "% BlNuls": {
+      "Ins": 5.26,
+      "Vot": 6.47
+   },
+   "Exprimés": 1069,
+   "% Exp": {
+      "Ins": 75.92,
+      "Vot": 93.53
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      420,
+      649
+   ],
+   "% Voix": {
+      "Ins": [
+         29.83,
+         46.09
+      ],
+      "Exp": [
+         39.29,
+         60.71
+      ]
+   }
+},
+ {
+   "Code de la commune": 362,
+   "Libellé de la commune": "Varrains",
+   "Inscrits": 924,
+   "Abstentions": 120,
+   "% Abs": {
+      "Ins": 12.99
+   },
+   "Votants": 804,
+   "% Vot": {
+      "Ins": 87.01
+   },
+   "Blancs et nuls": 46,
+   "% BlNuls": {
+      "Ins": 4.98,
+      "Vot": 5.72
+   },
+   "Exprimés": 758,
+   "% Exp": {
+      "Ins": 82.03,
+      "Vot": 94.28
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      303,
+      455
+   ],
+   "% Voix": {
+      "Ins": [
+         32.79,
+         49.24
+      ],
+      "Exp": [
+         39.97,
+         60.03
+      ]
+   }
+},
+ {
+   "Code de la commune": 364,
+   "Libellé de la commune": "Vaudelnay",
+   "Inscrits": 890,
+   "Abstentions": 150,
+   "% Abs": {
+      "Ins": 16.85
+   },
+   "Votants": 740,
+   "% Vot": {
+      "Ins": 83.15
+   },
+   "Blancs et nuls": 69,
+   "% BlNuls": {
+      "Ins": 7.75,
+      "Vot": 9.32
+   },
+   "Exprimés": 671,
+   "% Exp": {
+      "Ins": 75.39,
+      "Vot": 90.68
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      282,
+      389
+   ],
+   "% Voix": {
+      "Ins": [
+         31.69,
+         43.71
+      ],
+      "Exp": [
+         42.03,
+         57.97
+      ]
+   }
+},
+ {
+   "Code de la commune": 367,
+   "Libellé de la commune": "Erdre-en-Anjou",
+   "Inscrits": 3647,
+   "Abstentions": 539,
+   "% Abs": {
+      "Ins": 14.78
+   },
+   "Votants": 3108,
+   "% Vot": {
+      "Ins": 85.22
+   },
+   "Blancs et nuls": 169,
+   "% BlNuls": {
+      "Ins": 4.63,
+      "Vot": 5.44
+   },
+   "Exprimés": 2939,
+   "% Exp": {
+      "Ins": 80.59,
+      "Vot": 94.56
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      1452,
+      1487
+   ],
+   "% Voix": {
+      "Ins": [
+         39.81,
+         40.77
+      ],
+      "Exp": [
+         49.4,
+         50.6
+      ]
+   }
+},
+ {
+   "Code de la commune": 368,
+   "Libellé de la commune": "Vernantes",
+   "Inscrits": 1252,
+   "Abstentions": 239,
+   "% Abs": {
+      "Ins": 19.09
+   },
+   "Votants": 1013,
+   "% Vot": {
+      "Ins": 80.91
+   },
+   "Blancs et nuls": 63,
+   "% BlNuls": {
+      "Ins": 5.03,
+      "Vot": 6.22
+   },
+   "Exprimés": 950,
+   "% Exp": {
+      "Ins": 75.88,
+      "Vot": 93.78
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      473,
+      477
+   ],
+   "% Voix": {
+      "Ins": [
+         37.78,
+         38.1
+      ],
+      "Exp": [
+         49.79,
+         50.21
+      ]
+   }
+},
+ {
+   "Code de la commune": 369,
+   "Libellé de la commune": "Vernoil-le-Fourrier",
+   "Inscrits": 859,
+   "Abstentions": 140,
+   "% Abs": {
+      "Ins": 16.3
+   },
+   "Votants": 719,
+   "% Vot": {
+      "Ins": 83.7
+   },
+   "Blancs et nuls": 55,
+   "% BlNuls": {
+      "Ins": 6.4,
+      "Vot": 7.65
+   },
+   "Exprimés": 664,
+   "% Exp": {
+      "Ins": 77.3,
+      "Vot": 92.35
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      309,
+      355
+   ],
+   "% Voix": {
+      "Ins": [
+         35.97,
+         41.33
+      ],
+      "Exp": [
+         46.54,
+         53.46
+      ]
+   }
+},
+ {
+   "Code de la commune": 370,
+   "Libellé de la commune": "Verrie",
+   "Inscrits": 338,
+   "Abstentions": 44,
+   "% Abs": {
+      "Ins": 13.02
+   },
+   "Votants": 294,
+   "% Vot": {
+      "Ins": 86.98
+   },
+   "Blancs et nuls": 24,
+   "% BlNuls": {
+      "Ins": 7.1,
+      "Vot": 8.16
+   },
+   "Exprimés": 270,
+   "% Exp": {
+      "Ins": 79.88,
+      "Vot": 91.84
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      121,
+      149
+   ],
+   "% Voix": {
+      "Ins": [
+         35.8,
+         44.08
+      ],
+      "Exp": [
+         44.81,
+         55.19
+      ]
+   }
+},
+ {
+   "Code de la commune": 371,
+   "Libellé de la commune": "Vezins",
+   "Inscrits": 1172,
+   "Abstentions": 142,
+   "% Abs": {
+      "Ins": 12.12
+   },
+   "Votants": 1030,
+   "% Vot": {
+      "Ins": 87.88
+   },
+   "Blancs et nuls": 69,
+   "% BlNuls": {
+      "Ins": 5.89,
+      "Vot": 6.7
+   },
+   "Exprimés": 961,
+   "% Exp": {
+      "Ins": 82,
+      "Vot": 93.3
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      455,
+      506
+   ],
+   "% Voix": {
+      "Ins": [
+         38.82,
+         43.17
+      ],
+      "Exp": [
+         47.35,
+         52.65
+      ]
+   }
+},
+ {
+   "Code de la commune": 373,
+   "Libellé de la commune": "Lys-Haut-Layon",
+   "Inscrits": 5710,
+   "Abstentions": 880,
+   "% Abs": {
+      "Ins": 15.41
+   },
+   "Votants": 4830,
+   "% Vot": {
+      "Ins": 84.59
+   },
+   "Blancs et nuls": 288,
+   "% BlNuls": {
+      "Ins": 5.04,
+      "Vot": 5.96
+   },
+   "Exprimés": 4542,
+   "% Exp": {
+      "Ins": 79.54,
+      "Vot": 94.04
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      1731,
+      2811
+   ],
+   "% Voix": {
+      "Ins": [
+         30.32,
+         49.23
+      ],
+      "Exp": [
+         38.11,
+         61.89
+      ]
+   }
+},
+ {
+   "Code de la commune": 374,
+   "Libellé de la commune": "Villebernier",
+   "Inscrits": 1081,
+   "Abstentions": 181,
+   "% Abs": {
+      "Ins": 16.74
+   },
+   "Votants": 900,
+   "% Vot": {
+      "Ins": 83.26
+   },
+   "Blancs et nuls": 60,
+   "% BlNuls": {
+      "Ins": 5.55,
+      "Vot": 6.67
+   },
+   "Exprimés": 840,
+   "% Exp": {
+      "Ins": 77.71,
+      "Vot": 93.33
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      393,
+      447
+   ],
+   "% Voix": {
+      "Ins": [
+         36.36,
+         41.35
+      ],
+      "Exp": [
+         46.79,
+         53.21
+      ]
+   }
+},
+ {
+   "Code de la commune": 377,
+   "Libellé de la commune": "Villevêque",
+   "Inscrits": 2103,
+   "Abstentions": 304,
+   "% Abs": {
+      "Ins": 14.46
+   },
+   "Votants": 1799,
+   "% Vot": {
+      "Ins": 85.54
+   },
+   "Blancs et nuls": 110,
+   "% BlNuls": {
+      "Ins": 5.23,
+      "Vot": 6.11
+   },
+   "Exprimés": 1689,
+   "% Exp": {
+      "Ins": 80.31,
+      "Vot": 93.89
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      880,
+      809
+   ],
+   "% Voix": {
+      "Ins": [
+         41.84,
+         38.47
+      ],
+      "Exp": [
+         52.1,
+         47.9
+      ]
+   }
+},
+ {
+   "Code de la commune": 378,
+   "Libellé de la commune": "Vivy",
+   "Inscrits": 1603,
+   "Abstentions": 239,
+   "% Abs": {
+      "Ins": 14.91
+   },
+   "Votants": 1364,
+   "% Vot": {
+      "Ins": 85.09
+   },
+   "Blancs et nuls": 80,
+   "% BlNuls": {
+      "Ins": 4.99,
+      "Vot": 5.87
+   },
+   "Exprimés": 1284,
+   "% Exp": {
+      "Ins": 80.1,
+      "Vot": 94.13
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      503,
+      781
+   ],
+   "% Voix": {
+      "Ins": [
+         31.38,
+         48.72
+      ],
+      "Exp": [
+         39.17,
+         60.83
+      ]
+   }
+},
+ {
+   "Code de la commune": 381,
+   "Libellé de la commune": "Yzernay",
+   "Inscrits": 1438,
+   "Abstentions": 220,
+   "% Abs": {
+      "Ins": 15.3
+   },
+   "Votants": 1218,
+   "% Vot": {
+      "Ins": 84.7
+   },
+   "Blancs et nuls": 64,
+   "% BlNuls": {
+      "Ins": 4.45,
+      "Vot": 5.25
+   },
+   "Exprimés": 1154,
+   "% Exp": {
+      "Ins": 80.25,
+      "Vot": 94.75
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "Prénom": [
+      "François",
+      "Nicolas"
+   ],
+   "Voix": [
+      406,
+      748
+   ],
+   "% Voix": {
+      "Ins": [
+         28.23,
+         52.02
+      ],
+      "Exp": [
+         35.18,
+         64.82
+      ]
+   }
+}
+]
