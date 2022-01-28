@@ -43,6 +43,10 @@ const init_p5 = function(){
 }
 const showDialogBox = function(dBox) {
     dBox.style.display = "block";
+    dBox.classList.add("apply-shake");
+    setTimeout(() =>{
+        dBox.classList.remove("apply-shake");
+    },500); 
     const textContainer = document.createElement("p");
     textContainer.innerHTML = "Une majorité des députés de votre camp n'est pas d'accord avec votre politique et a rallié l'opposition. <br> <b> Que peux-tu faire ? </b>"
     dBox.appendChild(textContainer);
