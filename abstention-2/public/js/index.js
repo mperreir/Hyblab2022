@@ -32,3 +32,5 @@ async function loadTemplate(path, data) {
     const fileExplorerHtml = await fileExplorerTemplate.text();
     return ejs.render(fileExplorerHtml, data);
 }
+
+
