@@ -10,7 +10,7 @@ Reset flex-growth, and unhide Play butto (Renamed to "continue" for instance?)
 
 */
 const headPhoneTimeout = 4000;
-
+let init = false;
 
 let illustration = {
   illu: '55%',
@@ -24,18 +24,33 @@ const playButton = document.querySelector('#play-button');
 
 // async init function (because of the awaits on fetches)
 const homepage_slide = function(){
-  const playButton = document.querySelector('#play-button');
-  
-  const bg = createAnimation("background", "img/animations/ACCUEIL_ANIMATION_FOND.json", true);
-  bg.play();
+  // Ensuring this function only runs once
+  if (init) return;
+  init = true;
 
+  const playButton = document.querySelector('#play-button');
+
+  const bg = createAnimation("background", "img/animations/ACCUEIL_ANIMATION_FOND.json", true);
   const ss = createAnimation("spaceship", "img/animations/ACCUEIL_ANIMATION_VAISSEAU.json", true);
+  bg.play();
   ss.play();
   
   playButton.addEventListener("click", animateLoading);
 };
 
 function animateLoading() {
+  anime({
+    targets: "#spaceship svg",
+    translateX: '1000px',
+    loop: false,
+    easing: 'easeInOutCubic'
+  });
+  anime({
+    targets: "#background svg",
+    bottom: ['10%', '30%'],
+    loop: false,
+    easing: 'easeInOutCubic'
+  });
   anime({
     targets: illustration,
     illu: '30%',
@@ -76,5 +91,3 @@ function animateLoading() {
 function createLoadingBar() {
 
 }
-
-homepage_slide();

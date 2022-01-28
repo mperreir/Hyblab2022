@@ -1,6 +1,7 @@
 const createAnimation = function(divName, path, loop) {
-	console.log('used on ', path);
-	var newContainer = document.getElementById(divName);
+	console.log('Animating ', path);
+	let newContainer = document.getElementById(divName);
+
 	return bodymovin.loadAnimation({
 		container: newContainer,
 		path: path,
