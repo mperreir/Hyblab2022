@@ -25,10 +25,10 @@ app.get('/game/1/new_question', (req, res) => {
     let is_first_response_true = true;
 
     do {
-        candidat1 = candidats.sort(() => 0.5 - Math.random())[0];
-        candidat2 = candidats
-            .filter(c => candidat1.id !== c.id)
-            .sort(() => 0.5 - Math.random())[0];
+        candidat1 = candidats[Math.floor(Math.random() * candidats.length)];
+        const candidats_2 = candidats.filter(c => candidat1.id !== c.id);
+        candidat2 = candidats[Math.floor(Math.random() * candidats_2.length)]
+
         tweet = db.getTweetsSemaine()
             .filter(t => t.user_id === candidat1.id
                 && t.retweet === "False"
@@ -36,6 +36,7 @@ app.get('/game/1/new_question', (req, res) => {
             .sort((a, b) => b.likes_count - a.likes_count)
             .slice(0, 3)
             .sort(() => 0.5 - Math.random())[0];
+
     } while(tweet === undefined);
 
     // Supprime les url des tweets
