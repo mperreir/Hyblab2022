@@ -14,7 +14,7 @@ class StepBar extends React.Component {
 
         return (
             <div className='stepBar'>
-                <div class='stepBins_container'>{bins}</div>
+                <div className='stepBins_container'>{bins}</div>
                 <div className='stepBar_bar'></div>
             </div>
         )
