@@ -1,33 +1,31 @@
 "use strict";
 const container = document.getElementById("container");
 
-const bulle1 = {
-    sms : {
-        sender : "COLLEGUE: ",
-        paragraphs : [
-        "COLLEGUE :",
-        "Hey ! Tu devineras jamais les chiffres que je viens de trouver au sujet de l'abstention pendant la présidentielle 2017 au second tour !",
-        "Avant que t'ailles jeter un coup d'oeuil :",
-        "dis moi quelle ville tu veux voir et essaye de me donner le nombre d'abstentionnistes et de non-votants dans celle ci !",
-        "Repas de ce midi en jeu !" ]
-    }
-};
-
-const bulle2 = {
-    sms : {
-        sender : "COLLEGUE: ",
-        paragraphs : [
-        "Alors, avec quelle ville veux tu jouer ?" ]
-    }
-};
+const messages = [{
+    sender: "+33* ** ** ** **",
+    message: "Salut ! C’est Thomas. Je suis ton nouveau collègue."
+}, {
+    sender: "THOMAS",
+    message: "J’ai vu qu’on allait travailler ensemble sur le nouvel article de \“pour cent magazine\” !"
+}, {
+    sender: "THOMAS",
+    message: "C’est sur l’abstention, trop intéressant ! Tu as vu les chires de 2017 ? :D"
+}, {
+    sender: "MOI",
+    message: "Hey Thomas ! Content de bosser avec toi !Non, je n’ai pas vu les chires, pourquoi ? :)"
+}, {
+    sender: "THOMAS",
+    message: "OK c’est parti pour « Nom de la ville » ! Alors tu paries combien ? Ne t’inquiète pas... On arrondit à 5%."
+}
+]
 
 
-loadTemplate('templates/sms.ejs', []).then(value => { container.innerHTML = value ;
+loadTemplate('templates/sms.ejs', []).then(value => {
+    container.innerHTML = value;
     date();
-    loadTemplate('templates/sms1.ejs', []).then(value => {document.getElementById('screen').innerHTML = value;
-        loadTemplate('templates/bulle_sms.ejs', bulle1).then(value => { document.getElementById('bulle1').innerHTML = value; })});
-    loadTemplate('templates/sms2.ejs', []).then(value => { document.getElementById('screen').innerHTML = value; 
-        loadTemplate('templates/bulle_sms.ejs', bulle2).then(value => { document.getElementById('bulle2').innerHTML = value; })});
+    loadTemplate('templates/sms1.ejs', messages).then(value => {
+        document.getElementById('screen').innerHTML = value;
+    });
 })
 
 async function loadTemplate(path, data) {

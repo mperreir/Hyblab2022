@@ -1,13 +1,16 @@
 #flex-container {
     display: flex;
     flex-direction: row;
+    height: 100%;
 }
 
 .flex-item {
     color: #e4e5fa;
     text-align: center;
 }
-
+header{
+    height: 4%;
+}
 #flex-container>.flex-item:nth-child(1) {
     flex: 1;
     background-color: #1028fd;
@@ -37,4 +40,9 @@
 #flex-container>.flex-item:nth-child(3) {
     flex: 1;
     background-color: #ff2e00;
+}
+
+#sms_tread{
+    display: flex;
+    flex-direction: column;
 }
