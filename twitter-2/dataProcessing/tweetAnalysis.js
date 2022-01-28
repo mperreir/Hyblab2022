@@ -86,7 +86,7 @@ function storeTopicCandidat(candidats) {
             data[topic][candidat] = {
                 tweetOnTopic: candidats[candidat].nbByTopic[topic],
                 totalTweet: candidats[candidat].nbTotalTweet,
-                ratio: parseFloat((100 * (candidats[candidat].nbByTopic[topic] / candidats[candidat].nbTotalTweet)).toFixed(2))
+                ratio: parseFloat((100 * (candidats[candidat].nbByTopic[topic] / candidats[candidat].nbTotalTweet)).toFixed(1))
             };
         });
     });

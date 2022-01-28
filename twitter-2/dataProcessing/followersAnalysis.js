@@ -60,7 +60,7 @@ function calculateCommonFollower(db, userName1, userName2, nbFollowersPerCandida
                 common: row.common,
                 nbFollowersName1: nbFollowersPerCandidate[userName1],
                 nbFollowersName2: nbFollowersPerCandidate[userName2],
-                ratio: (100 * row.common / (nbFollowersPerCandidate[userName1] + nbFollowersPerCandidate[userName2] - row.common)).toFixed(2)
+                ratio: (100 * row.common / (nbFollowersPerCandidate[userName1] + nbFollowersPerCandidate[userName2] - row.common)).toFixed(1)
             });
             resolve();
         });
