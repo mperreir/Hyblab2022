@@ -113,7 +113,7 @@ body{
     padding-top: 3%;
     width:100%;
 	height: 100%;
-    background-color: #cc8bb5;
+    background-color: #d186b7;
     font-size: 20%;
   }
 
@@ -161,9 +161,9 @@ body{
 @media screen and (max-aspect-ratio: 9/16){
     #container{
         /*margin-top: calc((100vh - 100 * 16vw / 9) / 2);*/
-        width: 100%;
+        width: 100vw;
         /*height: calc(100 * 16vw / 9);*/
-		height: 100%;
+		height: 100vh;
     }
 
     /* We set a default font size here. It will be the base for all other font sizes */
@@ -179,7 +179,7 @@ body{
     #container{
         margin-left: calc((100vw - 100 * 9vh / 16) / 2);
         width: calc(100 * 9vh / 16);
-        height: 100vh;
+        height: 100%;
     }
 
     /* We set a default font size here. It will be the base for all other font sizes */
