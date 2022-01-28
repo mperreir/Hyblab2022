@@ -18,9 +18,21 @@
 	padding-top: 2.4vh;
 }
 
-.animation {
-	margin-top: 15%;
-	width: 100%;
+.mid {
+	position: relative;
+	text-align: center;
+	margin-top: 10%;
+}
+
+.animation_bulle {
+	position: absolute;
+	right: 10%;
+	width: 60%;
+}
+
+.animation_perso {
+	margin-top: 25%;
+	width: 80%;
 }
 
 .bottom {
