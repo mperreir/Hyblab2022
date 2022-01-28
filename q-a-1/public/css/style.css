@@ -23,7 +23,9 @@ footer {
     justify-content: space-around;
 }
 
-
+p{
+    margin-bottom: 10%;
+}
 button{ 
     padding : 2% 10% 2% 10%;
     margin: 1%;
@@ -92,13 +94,14 @@ svg
     top:10%;
     position: absolute;
 
-    font-size: 30%;
+    
     z-index: 2;
 }
 
 #logo{
     text-align: center;
     max-width: 30%;
+    margin-left: 35%;
 }
 
 
@@ -173,4 +176,28 @@ svg
     body{
         font-size: 12vh;
     }
+}
+
+/*animations*/
+
+/*Créer une animation*/
+@keyframes anim_procuration_texte {
+
+    from {
+
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+
+
+/*Utiliser une animmation*/
+
+#anim-procuration {
+
+    animation: anim_procuration_texte 1s 1s alternate infinite; 
+    -webkit-animation: anim_procuration_texte 1s alternate infinite; 
 }
