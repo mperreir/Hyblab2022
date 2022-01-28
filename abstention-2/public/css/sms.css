@@ -42,7 +42,78 @@ header{
     background-color: #ff2e00;
 }
 
-#sms_tread{
+
+.sms_tread{
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+
+.sms {
+    position: relative;
+    border: 2px solid #1028fd;
+    margin-top: 40px;
+    box-shadow: 4px 4px #1028fd;
+    width: 60%;
+    padding: 12px;
+    font-family: 'CabinetGrotesk-Regular';
+}
+
+.sms-sender {
+    font-family: 'CabinetGrotesk-Bold';
+    font-size: 1.2em;
+    margin-bottom: 8px;
+}
+
+.sms-text strong {
+    font-family: 'CabinetGrotesk-Bold';
+}
+
+.sms-bottom::before {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: -35px;
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-top : 30px solid transparent;
+    border-right : 35px solid #1028fd;
+}
+
+.sms-bottom::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: -31px;
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-top : 28px solid transparent;
+    border-right : 33px solid #e4e5fa;
+}
+
+.sms-top::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -35px;
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-top : 30px solid #1028fd;
+    border-left : 35px solid transparent;
+}
+
+.sms-top::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: -31px;
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-top : 28px solid #e4e5fa;
+    border-left : 33px solid transparent;
 }

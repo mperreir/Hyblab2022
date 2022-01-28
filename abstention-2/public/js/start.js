@@ -21,6 +21,6 @@ async function loadStart() {
     })
 
     const openButton = document.getElementById("open-button");
-    openButton.addEventListener('click', () => loadFileExplorer());
+    openButton.addEventListener('click', () => smsScreen());
 
 };

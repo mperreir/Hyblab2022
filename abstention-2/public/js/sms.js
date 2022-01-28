@@ -1,36 +1,53 @@
 "use strict";
 
 async function smsScreen() {
-  const container = document.getElementById("container");
+    const container = document.getElementById("container");
 
-  const messages = {
-    messages:
-    [{
-    sender: "+33* ** ** ** **",
-    message: "Salut ! C’est Thomas. Je suis ton nouveau collègue."
-  }, {
-    sender: "THOMAS",
-    message: "J’ai vu qu’on allait travailler ensemble sur le nouvel article de \“pour cent magazine\” !"
-  }, {
-    sender: "THOMAS",
-    message: "C’est sur l’abstention, trop intéressant ! Tu as vu les chires de 2017 ? :D"
-  }, {
-    sender: "MOI",
-    message: "Hey Thomas ! Content de bosser avec toi !Non, je n’ai pas vu les chires, pourquoi ? :)"
-  }, {
-    sender: "THOMAS",
-    message: "OK c’est parti pour « Nom de la ville » ! Alors tu paries combien ? Ne t’inquiète pas... On arrondit à 5%."
-  }
-  ]
-  }
+    const messages = {
+        messages:
+            [{
+                sender: "+33* ** ** ** **",
+                message: "Salut ! C’est <strong>Thomas</strong>.<br/> Je suis ton nouveau <strong> collègue </strong>.",
+                style: "sms-bottom"
+            }, {
+                sender: "THOMAS",
+                message: "J’ai vu qu’on allait travailler <strong>ensemble</strong> sur le nouvel article de \“<strong>pour cent magazine</strong>\” !",
+                style: "sms-center"
+            }, {
+                sender: "THOMAS",
+                message: "C’est sur l’<strong>abstention</strong>, trop <strong>intéressant</strong> ! Tu as vu les chiffres de 2017 ? :D",
+                style: "sms-top"
+            }, {
+                sender: "MOI",
+                message: "Hey Thomas ! Content de bosser avec toi !Non, je n’ai pas vu les chiffres, pourquoi ? :)",
+                style: "sms-bottom"
 
-  loadTemplate('templates/header.ejs', []).then(value => {
-    container.innerHTML = value;
+            }, {
+                sender: "THOMAS",
+                message: "OK c’est parti pour « Nom de la ville » ! Alors tu paries combien ? Ne t’inquiète pas... On arrondit à 5%.",
+                style: "sms-bottom"
+
+            }
+            ]
+    }
+
+    const headerHtml = await loadTemplate('templates/header.ejs', []);
+    container.innerHTML = headerHtml;
     date();
-    loadTemplate('templates/sms.ejs', messages).then(value => {
-      document.getElementById('screen').innerHTML = value;
-    });
-  })
+    // const screenHtml = await loadTemplate('templates/sms/sms.ejs', messages);
+    // document.getElementById('screen').innerHTML = screenHtml;
+    let screenHtml = await loadTemplate('templates/sms/sms_tread.ejs', messages.messages[0]);
+    document.getElementById('screen').innerHTML = screenHtml;
+
+    let screenHtml = await loadTemplate('templates/sms/sms.ejs', messages.messages[0]);
+    document.getElementById('screen').innerHTML = screenHtml;
+
+    screenHtml = await loadTemplate('templates/sms/sms.ejs', messages.messages[1]);
+    document.getElementById('screen').insertAdjacentHTML('beforeend', screenHtml);
+    screenHtml = await loadTemplate('templates/sms/sms.ejs', messages.messages[2]);
+    document.getElementById('screen').insertAdjacentHTML('beforeend', screenHtml);
+
+
 }
 // let sms = function () {
 //   let smsScreen = document.querySelector('.screen')
