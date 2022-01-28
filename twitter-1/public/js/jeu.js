@@ -9,9 +9,11 @@ async function Suivant(temps,score,total) {
         let text = document.querySelector('#text');
         let choix = document.querySelector('#choix');
         let svg = document.querySelector('#logo-svg');
+        let images = document.querySelector('#images');
         jeu.removeChild(text);
         jeu.removeChild(choix);
         jeu.removeChild(svg);
+        jeu.removeChild(images);
         let slide = document.querySelector('#second-slide');
         slide.style.background ="white";
     } catch {}
