@@ -1,12 +1,42 @@
-body{
-    background-color: #F3DCCB;
+.main-part section{
+    background-color: #FAF3EE;
 }
+
+
 #enveloppebleue{
     position: absolute;
-width: 383.7px;
-height: 223.93px;
-left: -35.95px;
-top: -22px;
+    left: -8.49%;
+right: 22.94%;
+top: 1.25%;
+bottom: 65.94%;
 
-transform: rotate(9.69deg);
+transform: rotate(4.76deg);
+}
+
+#envelopperouge{
+    position: absolute;
+    left: 27.22%;
+    right: -10.44%;
+    top: 30.78%;
+    bottom: 41.96%;
+
+}
+
+#enveloppeblanche{
+    position: absolute;
+left: -19.36%;
+right: 32.44%;
+top: 52.91%;
+bottom: 11.89%;
+transform: rotate(-0.75deg);
+}
+
+#carte{
+    position:absolute;
+    left: 46.39%;
+    right: 6.47%;
+    top: 70.47%;
+    bottom: -2.48%;
+    border: 0.5px;
+    transform: rotate(5.75deg);
 }
