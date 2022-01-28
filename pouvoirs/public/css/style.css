@@ -87,26 +87,12 @@ body {
 
 #background svg {
   position: absolute;
-  bottom:10%;
+  bottom: 0;
 }
 
 #spaceship svg {
   position: absolute;
-  top: -5%;
-}
-
-.button-container {
-  width: 100%;
-  min-height: 20%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 2;
-}
-
-#play-button {
-  height: 30%;
-  width: 40%;
+  top: -3%;
 }
 
 #homepage p {
@@ -119,6 +105,16 @@ body {
   color:#6450CE;
 }
 
+.button-container {
+  position: absolute;
+  bottom: 2%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
 #headphone {
   display: none;
   opacity: 0;
@@ -129,6 +125,15 @@ body {
   padding: 5%;
 }
 
+#headphone p {
+  font-family: 'Nunito' ;
+}
+
+#headphone p b {
+  font-family: 'Nunito' ;
+  font-weight: 900;
+}
+
 #headphone-img {
   width: 20%;
 }
@@ -137,6 +142,18 @@ body {
   display: block;
   width: 50px;
   height: 50px;
+}
+
+#play-button {
+  font-family: 'First Fun';
+  font-size: 30%;
+  height: 70%;
+  width: 80%;
+  background-color: #0AF2E1;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0;
 }
 
 /* Styles for all "power" sections */

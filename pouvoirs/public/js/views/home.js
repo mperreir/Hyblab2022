@@ -1,14 +1,5 @@
 "use strict";
 
-/*
-Goal: 
-- Animate flex-growth size of elements on click of Play button : DONE
-- Hide Play button, switch logo image
-
-Once loading bar is done:
-Reset flex-growth, and unhide Play butto (Renamed to "continue" for instance?)
-
-*/
 const headPhoneTimeout = 4000;
 let init = false;
 
@@ -43,51 +34,56 @@ function animateLoading() {
     targets: "#spaceship svg",
     translateX: '1000px',
     loop: false,
-    easing: 'easeInOutCubic'
+    easing: 'easeInOutCubic',
+    complete: (anim) => {
+      anime({
+        targets: "#background svg",
+        bottom: ['10%', '30%'],
+        loop: false,
+        easing: 'easeInOutCubic'
+      });
+    }
   });
+  
   anime({
-    targets: "#background svg",
-    bottom: ['10%', '30%'],
-    loop: false,
-    easing: 'easeInOutCubic'
-  });
-  anime({
-    targets: illustration,
-    illu: '30%',
-    button: '45%',
-    buttonOpacity: "0.0",
+    targets: "#play-button",
+    opacity: ['1', '0'],
     loop: false,
     easing: 'easeInOutCubic',
-    update: function(anim) {
-      illuContainer.style.height = illustration.illu;
-      playContainer.style.height = illustration.button;
-      playButton.style.opacity = illustration.buttonOpacity;
-    },
     complete: function(anim) {
-      // Headphones appear
-      playButton.remove();
-      const headphone = document.getElementById("headphone");
-      headphone.style.display = "flex";
       anime({
-        targets: headphone,
-        opacity: [0, 1],
+        targets: illustration,
+        illu: '30%',
+        button: '45%',
+        buttonOpacity: "0.0",
         loop: false,
         easing: 'easeInOutCubic',
+        update: function(anim) {
+          illuContainer.style.height = illustration.illu;
+          playContainer.style.height = illustration.button;
+        },
         complete: function(anim) {
-          // Headphones disappear after <headPhoneTimeout>
-          setTimeout(() => {
-            swiper.slideNext();
-            falling_slide();
-          }, headPhoneTimeout)
+          // Headphones appear
+          playButton.style.display = 'none';
+          const headphone = document.getElementById("headphone");
+          headphone.style.display = "flex";
+          anime({
+            targets: headphone,
+            opacity: [0, 1],
+            loop: false,
+            easing: 'easeInOutCubic',
+            complete: function(anim) {
+              // Headphones disappear after <headPhoneTimeout>
+              setTimeout(() => {
+                swiper.slideNext();
+                falling_slide();
+              }, headPhoneTimeout)
+            }
+          });
         }
-      })
-      console.log(headphone);
+      });
     }
-  })
+  });
 
   console.log("done");
 };
-
-function createLoadingBar() {
-
-}
