@@ -11,8 +11,8 @@
    "pour_vot": {
       "ins": "78,62"
    },
-   "Blancs": 201,
-   "% Blancs": {
+   "blanc_nul": 201,
+   "pour_bl_nuls": {
       "ins": "7,31",
       "vot": "12,63"
    },
@@ -60,8 +60,8 @@
    "pour_vot": {
       "ins": "78,51"
    },
-   "Blancs": 130,
-   "% Blancs": {
+   "blanc_nul": 130,
+   "pour_bl_nuls": {
       "ins": "8,68",
       "vot": "13,69"
    },
@@ -109,8 +109,8 @@
    "pour_vot": {
       "ins": "72,96"
    },
-   "Blancs": 6896,
-   "% Blancs": {
+   "blanc_nul": 6896,
+   "pour_bl_nuls": {
       "ins": "5,93",
       "vot": "10,56"
    },
@@ -158,8 +158,8 @@
    "pour_vot": {
       "ins": "81,92"
    },
-   "Blancs": 70,
-   "% Blancs": {
+   "blanc_nul": 70,
+   "pour_bl_nuls": {
       "ins": "7,36",
       "vot": "13,68"
    },
@@ -207,8 +207,8 @@
    "pour_vot": {
       "ins": "78,55"
    },
-   "Blancs": 31,
-   "% Blancs": {
+   "blanc_nul": 31,
+   "pour_bl_nuls": {
       "ins": "8,41",
       "vot": "11,44"
    },
@@ -256,8 +256,8 @@
    "pour_vot": {
       "ins": "80,7"
    },
-   "Blancs": 22,
-   "% Blancs": {
+   "blanc_nul": 22,
+   "pour_bl_nuls": {
       "ins": "8,33",
       "vot": "11,96"
    },
@@ -305,8 +305,8 @@
    "pour_vot": {
       "ins": "85,75"
    },
-   "Blancs": 45,
-   "% Blancs": {
+   "blanc_nul": 45,
+   "pour_bl_nuls": {
       "ins": "10,54",
       "vot": "14,96"
    },
@@ -354,8 +354,8 @@
    "pour_vot": {
       "ins": "85,98"
    },
-   "Blancs": 28,
-   "% Blancs": {
+   "blanc_nul": 28,
+   "pour_bl_nuls": {
       "ins": "9,09",
       "vot": "12,34"
    },
@@ -403,8 +403,8 @@
    "pour_vot": {
       "ins": "80,64"
    },
-   "Blancs": 876,
-   "% Blancs": {
+   "blanc_nul": 876,
+   "pour_bl_nuls": {
       "ins": "6,58",
       "vot": "10,38"
    },
@@ -452,8 +452,8 @@
    "pour_vot": {
       "ins": "83,69"
    },
-   "Blancs": 35,
-   "% Blancs": {
+   "blanc_nul": 35,
+   "pour_bl_nuls": {
       "ins": "7,69",
       "vot": "12,87"
    },
@@ -501,8 +501,8 @@
    "pour_vot": {
       "ins": "77,22"
    },
-   "Blancs": 845,
-   "% Blancs": {
+   "blanc_nul": 845,
+   "pour_bl_nuls": {
       "ins": "7,47",
       "vot": "12,78"
    },
@@ -550,8 +550,8 @@
    "pour_vot": {
       "ins": "84,61"
    },
-   "Blancs": 387,
-   "% Blancs": {
+   "blanc_nul": 387,
+   "pour_bl_nuls": {
       "ins": "7,37",
       "vot": "11,06"
    },
@@ -599,8 +599,8 @@
    "pour_vot": {
       "ins": "78,06"
    },
-   "Blancs": 413,
-   "% Blancs": {
+   "blanc_nul": 413,
+   "pour_bl_nuls": {
       "ins": "5,51",
       "vot": "10,54"
    },
@@ -648,8 +648,8 @@
    "pour_vot": {
       "ins": "81,53"
    },
-   "Blancs": 89,
-   "% Blancs": {
+   "blanc_nul": 89,
+   "pour_bl_nuls": {
       "ins": "6,09",
       "vot": "10,56"
    },
@@ -697,8 +697,8 @@
    "pour_vot": {
       "ins": "79,4"
    },
-   "Blancs": 1566,
-   "% Blancs": {
+   "blanc_nul": 1566,
+   "pour_bl_nuls": {
       "ins": "6,84",
       "vot": "11,65"
    },
@@ -746,8 +746,8 @@
    "pour_vot": {
       "ins": "79,79"
    },
-   "Blancs": 199,
-   "% Blancs": {
+   "blanc_nul": 199,
+   "pour_bl_nuls": {
       "ins": "8,12",
       "vot": "12,83"
    },
@@ -795,8 +795,8 @@
    "pour_vot": {
       "ins": "81,79"
    },
-   "Blancs": 139,
-   "% Blancs": {
+   "blanc_nul": 139,
+   "pour_bl_nuls": {
       "ins": "7,57",
       "vot": "12,38"
    },
@@ -844,8 +844,8 @@
    "pour_vot": {
       "ins": "90,09"
    },
-   "Blancs": 8,
-   "% Blancs": {
+   "blanc_nul": 8,
+   "pour_bl_nuls": {
       "ins": "7,21",
       "vot": "8"
    },
@@ -893,8 +893,8 @@
    "pour_vot": {
       "ins": "81,19"
    },
-   "Blancs": 113,
-   "% Blancs": {
+   "blanc_nul": 113,
+   "pour_bl_nuls": {
       "ins": "8,75",
       "vot": "13,1"
    },
@@ -942,8 +942,8 @@
    "pour_vot": {
       "ins": "83,28"
    },
-   "Blancs": 89,
-   "% Blancs": {
+   "blanc_nul": 89,
+   "pour_bl_nuls": {
       "ins": "10,36",
       "vot": "15,81"
    },
@@ -991,8 +991,8 @@
    "pour_vot": {
       "ins": "82,63"
    },
-   "Blancs": 442,
-   "% Blancs": {
+   "blanc_nul": 442,
+   "pour_bl_nuls": {
       "ins": "6,19",
       "vot": "9,95"
    },
@@ -1040,8 +1040,8 @@
    "pour_vot": {
       "ins": "83,37"
    },
-   "Blancs": 39,
-   "% Blancs": {
+   "blanc_nul": 39,
+   "pour_bl_nuls": {
       "ins": "6,14",
       "vot": "9,27"
    },
@@ -1089,8 +1089,8 @@
    "pour_vot": {
       "ins": "80,59"
    },
-   "Blancs": 13,
-   "% Blancs": {
+   "blanc_nul": 13,
+   "pour_bl_nuls": {
       "ins": "6,47",
       "vot": "9,49"
    },
@@ -1138,8 +1138,8 @@
    "pour_vot": {
       "ins": "74,53"
    },
-   "Blancs": 102,
-   "% Blancs": {
+   "blanc_nul": 102,
+   "pour_bl_nuls": {
       "ins": "5,11",
       "vot": "9,2"
    },
@@ -1187,8 +1187,8 @@
    "pour_vot": {
       "ins": "78,22"
    },
-   "Blancs": 28,
-   "% Blancs": {
+   "blanc_nul": 28,
+   "pour_bl_nuls": {
       "ins": "6,3",
       "vot": "9,4"
    },
@@ -1236,8 +1236,8 @@
    "pour_vot": {
       "ins": "78,45"
    },
-   "Blancs": 81,
-   "% Blancs": {
+   "blanc_nul": 81,
+   "pour_bl_nuls": {
       "ins": "6,58",
       "vot": "10,97"
    },
@@ -1285,8 +1285,8 @@
    "pour_vot": {
       "ins": "81,79"
    },
-   "Blancs": 208,
-   "% Blancs": {
+   "blanc_nul": 208,
+   "pour_bl_nuls": {
       "ins": "7,01",
       "vot": "11,58"
    },
@@ -1334,8 +1334,8 @@
    "pour_vot": {
       "ins": "83,32"
    },
-   "Blancs": 739,
-   "% Blancs": {
+   "blanc_nul": 739,
+   "pour_bl_nuls": {
       "ins": "7,36",
       "vot": "11,13"
    },
@@ -1383,8 +1383,8 @@
    "pour_vot": {
       "ins": "81,07"
    },
-   "Blancs": 27,
-   "% Blancs": {
+   "blanc_nul": 27,
+   "pour_bl_nuls": {
       "ins": "7",
       "vot": "13,71"
    },
@@ -1432,8 +1432,8 @@
    "pour_vot": {
       "ins": "80,53"
    },
-   "Blancs": 151,
-   "% Blancs": {
+   "blanc_nul": 151,
+   "pour_bl_nuls": {
       "ins": "6,37",
       "vot": "9,95"
    },
@@ -1481,8 +1481,8 @@
    "pour_vot": {
       "ins": "83,05"
    },
-   "Blancs": 171,
-   "% Blancs": {
+   "blanc_nul": 171,
+   "pour_bl_nuls": {
       "ins": "7,73",
       "vot": "11,45"
    },
@@ -1530,8 +1530,8 @@
    "pour_vot": {
       "ins": "88,64"
    },
-   "Blancs": 24,
-   "% Blancs": {
+   "blanc_nul": 24,
+   "pour_bl_nuls": {
       "ins": "11,93",
       "vot": "15,39"
    },
@@ -1579,8 +1579,8 @@
    "pour_vot": {
       "ins": "82,23"
    },
-   "Blancs": 16,
-   "% Blancs": {
+   "blanc_nul": 16,
+   "pour_bl_nuls": {
       "ins": "4,55",
       "vot": "8,05"
    },
@@ -1628,8 +1628,8 @@
    "pour_vot": {
       "ins": "83,24"
    },
-   "Blancs": 42,
-   "% Blancs": {
+   "blanc_nul": 42,
+   "pour_bl_nuls": {
       "ins": "6,24",
       "vot": "9"
    },
@@ -1677,8 +1677,8 @@
    "pour_vot": {
       "ins": "82,41"
    },
-   "Blancs": 95,
-   "% Blancs": {
+   "blanc_nul": 95,
+   "pour_bl_nuls": {
       "ins": "7,18",
       "vot": "11,66"
    },
@@ -1726,8 +1726,8 @@
    "pour_vot": {
       "ins": "82,71"
    },
-   "Blancs": 56,
-   "% Blancs": {
+   "blanc_nul": 56,
+   "pour_bl_nuls": {
       "ins": "7,34",
       "vot": "11,05"
    },
@@ -1775,8 +1775,8 @@
    "pour_vot": {
       "ins": "82,26"
    },
-   "Blancs": 534,
-   "% Blancs": {
+   "blanc_nul": 534,
+   "pour_bl_nuls": {
       "ins": "7,72",
       "vot": "13,26"
    },
@@ -1824,8 +1824,8 @@
    "pour_vot": {
       "ins": "82,27"
    },
-   "Blancs": 34,
-   "% Blancs": {
+   "blanc_nul": 34,
+   "pour_bl_nuls": {
       "ins": "8,51",
       "vot": "14,66"
    },
@@ -1873,8 +1873,8 @@
    "pour_vot": {
       "ins": "79,11"
    },
-   "Blancs": 367,
-   "% Blancs": {
+   "blanc_nul": 367,
+   "pour_bl_nuls": {
       "ins": "7,44",
       "vot": "12,38"
    },
@@ -1922,8 +1922,8 @@
    "pour_vot": {
       "ins": "84,79"
    },
-   "Blancs": 30,
-   "% Blancs": {
+   "blanc_nul": 30,
+   "pour_bl_nuls": {
       "ins": "8,75",
       "vot": "13,46"
    },
@@ -1971,8 +1971,8 @@
    "pour_vot": {
       "ins": "83,57"
    },
-   "Blancs": 150,
-   "% Blancs": {
+   "blanc_nul": 150,
+   "pour_bl_nuls": {
       "ins": "9,27",
       "vot": "13,98"
    },
@@ -2020,8 +2020,8 @@
    "pour_vot": {
       "ins": "80,06"
    },
-   "Blancs": 1164,
-   "% Blancs": {
+   "blanc_nul": 1164,
+   "pour_bl_nuls": {
       "ins": "7,34",
       "vot": "12,29"
    },
@@ -2069,8 +2069,8 @@
    "pour_vot": {
       "ins": "79,42"
    },
-   "Blancs": 48,
-   "% Blancs": {
+   "blanc_nul": 48,
+   "pour_bl_nuls": {
       "ins": "7,77",
       "vot": "11,74"
    },
@@ -2118,8 +2118,8 @@
    "pour_vot": {
       "ins": "83,95"
    },
-   "Blancs": 71,
-   "% Blancs": {
+   "blanc_nul": 71,
+   "pour_bl_nuls": {
       "ins": "11,22",
       "vot": "16,36"
    },
@@ -2167,8 +2167,8 @@
    "pour_vot": {
       "ins": "74,86"
    },
-   "Blancs": 157,
-   "% Blancs": {
+   "blanc_nul": 157,
+   "pour_bl_nuls": {
       "ins": "5,14",
       "vot": "9,9"
    },
@@ -2216,8 +2216,8 @@
    "pour_vot": {
       "ins": "85,73"
    },
-   "Blancs": 91,
-   "% Blancs": {
+   "blanc_nul": 91,
+   "pour_bl_nuls": {
       "ins": "8,48",
       "vot": "14,29"
    },
@@ -2265,8 +2265,8 @@
    "pour_vot": {
       "ins": "80,34"
    },
-   "Blancs": 231,
-   "% Blancs": {
+   "blanc_nul": 231,
+   "pour_bl_nuls": {
       "ins": "6,38",
       "vot": "10,5"
    },
@@ -2314,8 +2314,8 @@
    "pour_vot": {
       "ins": "84,02"
    },
-   "Blancs": 67,
-   "% Blancs": {
+   "blanc_nul": 67,
+   "pour_bl_nuls": {
       "ins": "7,21",
       "vot": "11,28"
    },
@@ -2363,8 +2363,8 @@
    "pour_vot": {
       "ins": "82,45"
    },
-   "Blancs": 64,
-   "% Blancs": {
+   "blanc_nul": 64,
+   "pour_bl_nuls": {
       "ins": "8,47",
       "vot": "11,75"
    },
@@ -2412,8 +2412,8 @@
    "pour_vot": {
       "ins": "79,4"
    },
-   "Blancs": 1401,
-   "% Blancs": {
+   "blanc_nul": 1401,
+   "pour_bl_nuls": {
       "ins": "6,54",
       "vot": "11,31"
    },
@@ -2461,8 +2461,8 @@
    "pour_vot": {
       "ins": "75,18"
    },
-   "Blancs": 2871,
-   "% Blancs": {
+   "blanc_nul": 2871,
+   "pour_bl_nuls": {
       "ins": "5,65",
       "vot": "10,44"
    },
@@ -2510,8 +2510,8 @@
    "pour_vot": {
       "ins": "76,32"
    },
-   "Blancs": 34,
-   "% Blancs": {
+   "blanc_nul": 34,
+   "pour_bl_nuls": {
       "ins": "7,6",
       "vot": "13,03"
    },
@@ -2559,8 +2559,8 @@
    "pour_vot": {
       "ins": "83,49"
    },
-   "Blancs": 23,
-   "% Blancs": {
+   "blanc_nul": 23,
+   "pour_bl_nuls": {
       "ins": "8,02",
       "vot": "13"
    },
@@ -2608,8 +2608,8 @@
    "pour_vot": {
       "ins": "85,12"
    },
-   "Blancs": 46,
-   "% Blancs": {
+   "blanc_nul": 46,
+   "pour_bl_nuls": {
       "ins": "10,19",
       "vot": "14,89"
    },
@@ -2657,8 +2657,8 @@
    "pour_vot": {
       "ins": "81,74"
    },
-   "Blancs": 104,
-   "% Blancs": {
+   "blanc_nul": 104,
+   "pour_bl_nuls": {
       "ins": "6,32",
       "vot": "11,18"
    },
@@ -2706,8 +2706,8 @@
    "pour_vot": {
       "ins": "78,59"
    },
-   "Blancs": 120,
-   "% Blancs": {
+   "blanc_nul": 120,
+   "pour_bl_nuls": {
       "ins": "7,06",
       "vot": "11,85"
    },
@@ -2755,8 +2755,8 @@
    "pour_vot": {
       "ins": "79,05"
    },
-   "Blancs": 84,
-   "% Blancs": {
+   "blanc_nul": 84,
+   "pour_bl_nuls": {
       "ins": "9,15",
       "vot": "14,1"
    },
@@ -2804,8 +2804,8 @@
    "pour_vot": {
       "ins": "82,05"
    },
-   "Blancs": 44,
-   "% Blancs": {
+   "blanc_nul": 44,
+   "pour_bl_nuls": {
       "ins": "9,97",
       "vot": "15,28"
    },
@@ -2853,8 +2853,8 @@
    "pour_vot": {
       "ins": "83,7"
    },
-   "Blancs": 17,
-   "% Blancs": {
+   "blanc_nul": 17,
+   "pour_bl_nuls": {
       "ins": "10,37",
       "vot": "15,05"
    },
@@ -2902,8 +2902,8 @@
    "pour_vot": {
       "ins": "82,01"
    },
-   "Blancs": 109,
-   "% Blancs": {
+   "blanc_nul": 109,
+   "pour_bl_nuls": {
       "ins": "7,56",
       "vot": "12,27"
    },
@@ -2951,8 +2951,8 @@
    "pour_vot": {
       "ins": "82,54"
    },
-   "Blancs": 20,
-   "% Blancs": {
+   "blanc_nul": 20,
+   "pour_bl_nuls": {
       "ins": "0,3",
       "vot": "7,17"
    },
@@ -3000,8 +3000,8 @@
    "pour_vot": {
       "ins": "85,02"
    },
-   "Blancs": 136,
-   "% Blancs": {
+   "blanc_nul": 136,
+   "pour_bl_nuls": {
       "ins": "8,91",
       "vot": "12,96"
    },
@@ -3049,8 +3049,8 @@
    "pour_vot": {
       "ins": "77,89"
    },
-   "Blancs": 686,
-   "% Blancs": {
+   "blanc_nul": 686,
+   "pour_bl_nuls": {
       "ins": "6,17",
       "vot": "10,88"
    },
@@ -3098,8 +3098,8 @@
    "pour_vot": {
       "ins": "77,94"
    },
-   "Blancs": 259,
-   "% Blancs": {
+   "blanc_nul": 259,
+   "pour_bl_nuls": {
       "ins": "7,81",
       "vot": "13,31"
    },
@@ -3147,8 +3147,8 @@
    "pour_vot": {
       "ins": "82,59"
    },
-   "Blancs": 319,
-   "% Blancs": {
+   "blanc_nul": 319,
+   "pour_bl_nuls": {
       "ins": "8,36",
       "vot": "12,23"
    },
@@ -3196,8 +3196,8 @@
    "pour_vot": {
       "ins": "83,26"
    },
-   "Blancs": 51,
-   "% Blancs": {
+   "blanc_nul": 51,
+   "pour_bl_nuls": {
       "ins": "10,27",
       "vot": "13,68"
    },
@@ -3245,8 +3245,8 @@
    "pour_vot": {
       "ins": "78,64"
    },
-   "Blancs": 48,
-   "% Blancs": {
+   "blanc_nul": 48,
+   "pour_bl_nuls": {
       "ins": "6,99",
       "vot": "11,86"
    },
@@ -3294,8 +3294,8 @@
    "pour_vot": {
       "ins": "81,69"
    },
-   "Blancs": 87,
-   "% Blancs": {
+   "blanc_nul": 87,
+   "pour_bl_nuls": {
       "ins": "6,2",
       "vot": "10"
    },
@@ -3343,8 +3343,8 @@
    "pour_vot": {
       "ins": "81,89"
    },
-   "Blancs": 174,
-   "% Blancs": {
+   "blanc_nul": 174,
+   "pour_bl_nuls": {
       "ins": "8,41",
       "vot": "13,14"
    },
@@ -3392,8 +3392,8 @@
    "pour_vot": {
       "ins": "81,28"
    },
-   "Blancs": 172,
-   "% Blancs": {
+   "blanc_nul": 172,
+   "pour_bl_nuls": {
       "ins": "7,02",
       "vot": "11,26"
    },
@@ -3441,8 +3441,8 @@
    "pour_vot": {
       "ins": "80,73"
    },
-   "Blancs": 75,
-   "% Blancs": {
+   "blanc_nul": 75,
+   "pour_bl_nuls": {
       "ins": "6,88",
       "vot": "11,63"
    },
@@ -3490,8 +3490,8 @@
    "pour_vot": {
       "ins": "80,98"
    },
-   "Blancs": 89,
-   "% Blancs": {
+   "blanc_nul": 89,
+   "pour_bl_nuls": {
       "ins": "8,14",
       "vot": "13,76"
    },
@@ -3539,8 +3539,8 @@
    "pour_vot": {
       "ins": "80,64"
    },
-   "Blancs": 344,
-   "% Blancs": {
+   "blanc_nul": 344,
+   "pour_bl_nuls": {
       "ins": "7,53",
       "vot": "11,69"
    },
@@ -3588,8 +3588,8 @@
    "pour_vot": {
       "ins": "84,93"
    },
-   "Blancs": 89,
-   "% Blancs": {
+   "blanc_nul": 89,
+   "pour_bl_nuls": {
       "ins": "6,57",
       "vot": "10,13"
    },
@@ -3637,8 +3637,8 @@
    "pour_vot": {
       "ins": "78,49"
    },
-   "Blancs": 43,
-   "% Blancs": {
+   "blanc_nul": 43,
+   "pour_bl_nuls": {
       "ins": "0,95",
       "vot": "12,96"
    },
@@ -3686,8 +3686,8 @@
    "pour_vot": {
       "ins": "76,13"
    },
-   "Blancs": 171,
-   "% Blancs": {
+   "blanc_nul": 171,
+   "pour_bl_nuls": {
       "ins": "6,4",
       "vot": "11,06"
    },
@@ -3735,8 +3735,8 @@
    "pour_vot": {
       "ins": "80,69"
    },
-   "Blancs": 29,
-   "% Blancs": {
+   "blanc_nul": 29,
+   "pour_bl_nuls": {
       "ins": "11,59",
       "vot": "15,43"
    },
@@ -3784,8 +3784,8 @@
    "pour_vot": {
       "ins": "77,37"
    },
-   "Blancs": 210,
-   "% Blancs": {
+   "blanc_nul": 210,
+   "pour_bl_nuls": {
       "ins": "8,22",
       "vot": "13,87"
    },
@@ -3833,8 +3833,8 @@
    "pour_vot": {
       "ins": "84,07"
    },
-   "Blancs": 330,
-   "% Blancs": {
+   "blanc_nul": 330,
+   "pour_bl_nuls": {
       "ins": "7,25",
       "vot": "10,75"
    },
@@ -3882,8 +3882,8 @@
    "pour_vot": {
       "ins": "81,4"
    },
-   "Blancs": 80,
-   "% Blancs": {
+   "blanc_nul": 80,
+   "pour_bl_nuls": {
       "ins": "8,63",
       "vot": "14,63"
    },
@@ -3931,8 +3931,8 @@
    "pour_vot": {
       "ins": "84,52"
    },
-   "Blancs": 11,
-   "% Blancs": {
+   "blanc_nul": 11,
+   "pour_bl_nuls": {
       "ins": "10,71",
       "vot": "15,5"
    },
@@ -3980,8 +3980,8 @@
    "pour_vot": {
       "ins": "82,46"
    },
-   "Blancs": 40,
-   "% Blancs": {
+   "blanc_nul": 40,
+   "pour_bl_nuls": {
       "ins": "5,22",
       "vot": "9,05"
    },
@@ -4029,8 +4029,8 @@
    "pour_vot": {
       "ins": "76,4"
    },
-   "Blancs": 310,
-   "% Blancs": {
+   "blanc_nul": 310,
+   "pour_bl_nuls": {
       "ins": "6,69",
       "vot": "11,5"
    },
@@ -4078,8 +4078,8 @@
    "pour_vot": {
       "ins": "80,73"
    },
-   "Blancs": 53,
-   "% Blancs": {
+   "blanc_nul": 53,
+   "pour_bl_nuls": {
       "ins": "5,69",
       "vot": "10,38"
    },
@@ -4127,8 +4127,8 @@
    "pour_vot": {
       "ins": "76,95"
    },
-   "Blancs": 459,
-   "% Blancs": {
+   "blanc_nul": 459,
+   "pour_bl_nuls": {
       "ins": "6,69",
       "vot": "11,92"
    },
@@ -4176,8 +4176,8 @@
    "pour_vot": {
       "ins": "80,34"
    },
-   "Blancs": 54,
-   "% Blancs": {
+   "blanc_nul": 54,
+   "pour_bl_nuls": {
       "ins": "8,38",
       "vot": "11,49"
    },
@@ -4225,8 +4225,8 @@
    "pour_vot": {
       "ins": "80,86"
    },
-   "Blancs": 278,
-   "% Blancs": {
+   "blanc_nul": 278,
+   "pour_bl_nuls": {
       "ins": "7,31",
       "vot": "10,74"
    },
@@ -4274,8 +4274,8 @@
    "pour_vot": {
       "ins": "84,42"
    },
-   "Blancs": 78,
-   "% Blancs": {
+   "blanc_nul": 78,
+   "pour_bl_nuls": {
       "ins": "10,39",
       "vot": "15"
    },
@@ -4323,8 +4323,8 @@
    "pour_vot": {
       "ins": "81,19"
    },
-   "Blancs": 212,
-   "% Blancs": {
+   "blanc_nul": 212,
+   "pour_bl_nuls": {
       "ins": "6,79",
       "vot": "11,09"
    },
@@ -4372,8 +4372,8 @@
    "pour_vot": {
       "ins": "76,56"
    },
-   "Blancs": 261,
-   "% Blancs": {
+   "blanc_nul": 261,
+   "pour_bl_nuls": {
       "ins": "6,7",
       "vot": "11,53"
    },
@@ -4421,8 +4421,8 @@
    "pour_vot": {
       "ins": "80,64"
    },
-   "Blancs": 428,
-   "% Blancs": {
+   "blanc_nul": 428,
+   "pour_bl_nuls": {
       "ins": "8,2",
       "vot": "13,08"
    },
@@ -4470,8 +4470,8 @@
    "pour_vot": {
       "ins": "80,86"
    },
-   "Blancs": 103,
-   "% Blancs": {
+   "blanc_nul": 103,
+   "pour_bl_nuls": {
       "ins": "9,12",
       "vot": "14,35"
    },
@@ -4519,8 +4519,8 @@
    "pour_vot": {
       "ins": "83,89"
    },
-   "Blancs": 431,
-   "% Blancs": {
+   "blanc_nul": 431,
+   "pour_bl_nuls": {
       "ins": "7,47",
       "vot": "11,16"
    },
@@ -4568,8 +4568,8 @@
    "pour_vot": {
       "ins": "80,21"
    },
-   "Blancs": 128,
-   "% Blancs": {
+   "blanc_nul": 128,
+   "pour_bl_nuls": {
       "ins": "6,28",
       "vot": "10,03"
    },
@@ -4617,8 +4617,8 @@
    "pour_vot": {
       "ins": "80,52"
    },
-   "Blancs": 55,
-   "% Blancs": {
+   "blanc_nul": 55,
+   "pour_bl_nuls": {
       "ins": "6,29",
       "vot": "10,48"
    },
@@ -4666,8 +4666,8 @@
    "pour_vot": {
       "ins": "81,85"
    },
-   "Blancs": 36,
-   "% Blancs": {
+   "blanc_nul": 36,
+   "pour_bl_nuls": {
       "ins": "10,04",
       "vot": "16,99"
    },
@@ -4715,8 +4715,8 @@
    "pour_vot": {
       "ins": "78,56"
    },
-   "Blancs": 89,
-   "% Blancs": {
+   "blanc_nul": 89,
+   "pour_bl_nuls": {
       "ins": "0,92",
       "vot": "11,62"
    },
@@ -4764,8 +4764,8 @@
    "pour_vot": {
       "ins": "80,28"
    },
-   "Blancs": 494,
-   "% Blancs": {
+   "blanc_nul": 494,
+   "pour_bl_nuls": {
       "ins": "6,55",
       "vot": "10,72"
    },
@@ -4813,8 +4813,8 @@
    "pour_vot": {
       "ins": "75,76"
    },
-   "Blancs": 269,
-   "% Blancs": {
+   "blanc_nul": 269,
+   "pour_bl_nuls": {
       "ins": "7,18",
       "vot": "12,44"
    },
@@ -4862,8 +4862,8 @@
    "pour_vot": {
       "ins": "82,81"
    },
-   "Blancs": 45,
-   "% Blancs": {
+   "blanc_nul": 45,
+   "pour_bl_nuls": {
       "ins": "10,16",
       "vot": "14,16"
    },
@@ -4911,8 +4911,8 @@
    "pour_vot": {
       "ins": "84,62"
    },
-   "Blancs": 66,
-   "% Blancs": {
+   "blanc_nul": 66,
+   "pour_bl_nuls": {
       "ins": "10,58",
       "vot": "15"
    },
@@ -4960,8 +4960,8 @@
    "pour_vot": {
       "ins": "80,13"
    },
-   "Blancs": 1198,
-   "% Blancs": {
+   "blanc_nul": 1198,
+   "pour_bl_nuls": {
       "ins": "7,31",
       "vot": "12,75"
    },
@@ -5009,8 +5009,8 @@
    "pour_vot": {
       "ins": "85,84"
    },
-   "Blancs": 48,
-   "% Blancs": {
+   "blanc_nul": 48,
+   "pour_bl_nuls": {
       "ins": "11,56",
       "vot": "16,17"
    },
@@ -5058,8 +5058,8 @@
    "pour_vot": {
       "ins": "77,76"
    },
-   "Blancs": 232,
-   "% Blancs": {
+   "blanc_nul": 232,
+   "pour_bl_nuls": {
       "ins": "6,77",
       "vot": "11,75"
    },
@@ -5107,8 +5107,8 @@
    "pour_vot": {
       "ins": "75,41"
    },
-   "Blancs": 61,
-   "% Blancs": {
+   "blanc_nul": 61,
+   "pour_bl_nuls": {
       "ins": "8,14",
       "vot": "13,18"
    },
@@ -5156,8 +5156,8 @@
    "pour_vot": {
       "ins": "78,53"
    },
-   "Blancs": 123,
-   "% Blancs": {
+   "blanc_nul": 123,
+   "pour_bl_nuls": {
       "ins": "5,9",
       "vot": "10,16"
    },
@@ -5205,8 +5205,8 @@
    "pour_vot": {
       "ins": "81,3"
    },
-   "Blancs": 353,
-   "% Blancs": {
+   "blanc_nul": 353,
+   "pour_bl_nuls": {
       "ins": "6,8",
       "vot": "10,19"
    },
@@ -5254,8 +5254,8 @@
    "pour_vot": {
       "ins": "82,7"
    },
-   "Blancs": 64,
-   "% Blancs": {
+   "blanc_nul": 64,
+   "pour_bl_nuls": {
       "ins": "6,25",
       "vot": "11,25"
    },
@@ -5303,8 +5303,8 @@
    "pour_vot": {
       "ins": "77,53"
    },
-   "Blancs": 393,
-   "% Blancs": {
+   "blanc_nul": 393,
+   "pour_bl_nuls": {
       "ins": "6,84",
       "vot": "12,13"
    },
@@ -5352,8 +5352,8 @@
    "pour_vot": {
       "ins": "84,82"
    },
-   "Blancs": 102,
-   "% Blancs": {
+   "blanc_nul": 102,
+   "pour_bl_nuls": {
       "ins": "7,91",
       "vot": "11,07"
    },
@@ -5401,8 +5401,8 @@
    "pour_vot": {
       "ins": "81,01"
    },
-   "Blancs": 44,
-   "% Blancs": {
+   "blanc_nul": 44,
+   "pour_bl_nuls": {
       "ins": "11,28",
       "vot": "16,12"
    },
@@ -5450,8 +5450,8 @@
    "pour_vot": {
       "ins": "87,96"
    },
-   "Blancs": 12,
-   "% Blancs": {
+   "blanc_nul": 12,
+   "pour_bl_nuls": {
       "ins": "7,41",
       "vot": "12,64"
    },
@@ -5499,8 +5499,8 @@
    "pour_vot": {
       "ins": "87,5"
    },
-   "Blancs": 2,
-   "% Blancs": {
+   "blanc_nul": 2,
+   "pour_bl_nuls": {
       "ins": "0",
       "vot": "1,91"
    },
@@ -5548,8 +5548,8 @@
    "pour_vot": {
       "ins": "77,63"
    },
-   "Blancs": 60,
-   "% Blancs": {
+   "blanc_nul": 60,
+   "pour_bl_nuls": {
       "ins": "5,66",
       "vot": "10,42"
    },
@@ -5597,8 +5597,8 @@
    "pour_vot": {
       "ins": "81,47"
    },
-   "Blancs": 206,
-   "% Blancs": {
+   "blanc_nul": 206,
+   "pour_bl_nuls": {
       "ins": "5,03",
       "vot": "12,99"
    },
@@ -5646,8 +5646,8 @@
    "pour_vot": {
       "ins": "82,23"
    },
-   "Blancs": 1388,
-   "% Blancs": {
+   "blanc_nul": 1388,
+   "pour_bl_nuls": {
       "ins": "7,26",
       "vot": "12,22"
    },
@@ -5695,8 +5695,8 @@
    "pour_vot": {
       "ins": "76,73"
    },
-   "Blancs": 823,
-   "% Blancs": {
+   "blanc_nul": 823,
+   "pour_bl_nuls": {
       "ins": "6,61",
       "vot": "11,21"
    },
@@ -5744,8 +5744,8 @@
    "pour_vot": {
       "ins": "83,28"
    },
-   "Blancs": 180,
-   "% Blancs": {
+   "blanc_nul": 180,
+   "pour_bl_nuls": {
       "ins": "7,82",
       "vot": "11,74"
    },
@@ -5793,8 +5793,8 @@
    "pour_vot": {
       "ins": "79,86"
    },
-   "Blancs": 599,
-   "% Blancs": {
+   "blanc_nul": 599,
+   "pour_bl_nuls": {
       "ins": "7,11",
       "vot": "11,88"
    },
@@ -5842,8 +5842,8 @@
    "pour_vot": {
       "ins": "76,16"
    },
-   "Blancs": 78,
-   "% Blancs": {
+   "blanc_nul": 78,
+   "pour_bl_nuls": {
       "ins": "6,76",
       "vot": "12,15"
    },
@@ -5891,8 +5891,8 @@
    "pour_vot": {
       "ins": "78,67"
    },
-   "Blancs": 76,
-   "% Blancs": {
+   "blanc_nul": 76,
+   "pour_bl_nuls": {
       "ins": "7,07",
       "vot": "13,13"
    },
@@ -5940,8 +5940,8 @@
    "pour_vot": {
       "ins": "79,92"
    },
-   "Blancs": 172,
-   "% Blancs": {
+   "blanc_nul": 172,
+   "pour_bl_nuls": {
       "ins": "7,45",
       "vot": "11,88"
    },
@@ -5989,8 +5989,8 @@
    "pour_vot": {
       "ins": "81,36"
    },
-   "Blancs": 95,
-   "% Blancs": {
+   "blanc_nul": 95,
+   "pour_bl_nuls": {
       "ins": "5,99",
       "vot": "8,64"
    },
@@ -6038,8 +6038,8 @@
    "pour_vot": {
       "ins": "77,25"
    },
-   "Blancs": 165,
-   "% Blancs": {
+   "blanc_nul": 165,
+   "pour_bl_nuls": {
       "ins": "6,96",
       "vot": "12,4"
    },
@@ -6087,8 +6087,8 @@
    "pour_vot": {
       "ins": "85,56"
    },
-   "Blancs": 57,
-   "% Blancs": {
+   "blanc_nul": 57,
+   "pour_bl_nuls": {
       "ins": "8,52",
       "vot": "12,34"
    },
@@ -6136,8 +6136,8 @@
    "pour_vot": {
       "ins": "80,32"
    },
-   "Blancs": 72,
-   "% Blancs": {
+   "blanc_nul": 72,
+   "pour_bl_nuls": {
       "ins": "6,21",
       "vot": "10,32"
    },
@@ -6185,8 +6185,8 @@
    "pour_vot": {
       "ins": "79,87"
    },
-   "Blancs": 609,
-   "% Blancs": {
+   "blanc_nul": 609,
+   "pour_bl_nuls": {
       "ins": "6,62",
       "vot": "10,94"
    },
@@ -6234,8 +6234,8 @@
    "pour_vot": {
       "ins": "80,15"
    },
-   "Blancs": 163,
-   "% Blancs": {
+   "blanc_nul": 163,
+   "pour_bl_nuls": {
       "ins": "5,51",
       "vot": "9,35"
    },
@@ -6283,8 +6283,8 @@
    "pour_vot": {
       "ins": "84,35"
    },
-   "Blancs": 137,
-   "% Blancs": {
+   "blanc_nul": 137,
+   "pour_bl_nuls": {
       "ins": "7,27",
       "vot": "10,64"
    },
@@ -6332,8 +6332,8 @@
    "pour_vot": {
       "ins": "80,98"
    },
-   "Blancs": 79,
-   "% Blancs": {
+   "blanc_nul": 79,
+   "pour_bl_nuls": {
       "ins": "7,93",
       "vot": "12,29"
    },
@@ -6381,8 +6381,8 @@
    "pour_vot": {
       "ins": "84,13"
    },
-   "Blancs": 58,
-   "% Blancs": {
+   "blanc_nul": 58,
+   "pour_bl_nuls": {
       "ins": "7,44",
       "vot": "11,4"
    },
@@ -6430,8 +6430,8 @@
    "pour_vot": {
       "ins": "83,04"
    },
-   "Blancs": 277,
-   "% Blancs": {
+   "blanc_nul": 277,
+   "pour_bl_nuls": {
       "ins": "7,66",
       "vot": "11,67"
    },
@@ -6479,8 +6479,8 @@
    "pour_vot": {
       "ins": "84,07"
    },
-   "Blancs": 261,
-   "% Blancs": {
+   "blanc_nul": 261,
+   "pour_bl_nuls": {
       "ins": "7,93",
       "vot": "12,56"
    },
@@ -6528,8 +6528,8 @@
    "pour_vot": {
       "ins": "80,86"
    },
-   "Blancs": 110,
-   "% Blancs": {
+   "blanc_nul": 110,
+   "pour_bl_nuls": {
       "ins": "8,67",
       "vot": "13,57"
    },
@@ -6577,8 +6577,8 @@
    "pour_vot": {
       "ins": "82,78"
    },
-   "Blancs": 22,
-   "% Blancs": {
+   "blanc_nul": 22,
+   "pour_bl_nuls": {
       "ins": "9,44",
       "vot": "14,77"
    },
@@ -6626,8 +6626,8 @@
    "pour_vot": {
       "ins": "83,97"
    },
-   "Blancs": 125,
-   "% Blancs": {
+   "blanc_nul": 125,
+   "pour_bl_nuls": {
       "ins": "7,32",
       "vot": "10,9"
    },
@@ -6675,8 +6675,8 @@
    "pour_vot": {
       "ins": "75,72"
    },
-   "Blancs": 13,
-   "% Blancs": {
+   "blanc_nul": 13,
+   "pour_bl_nuls": {
       "ins": "3,26",
       "vot": "6,23"
    },
@@ -6724,8 +6724,8 @@
    "pour_vot": {
       "ins": "84,85"
    },
-   "Blancs": 249,
-   "% Blancs": {
+   "blanc_nul": 249,
+   "pour_bl_nuls": {
       "ins": "8,45",
       "vot": "12,46"
    },
@@ -6773,8 +6773,8 @@
    "pour_vot": {
       "ins": "81,98"
    },
-   "Blancs": 201,
-   "% Blancs": {
+   "blanc_nul": 201,
+   "pour_bl_nuls": {
       "ins": "4,19",
       "vot": "11,95"
    },
@@ -6822,8 +6822,8 @@
    "pour_vot": {
       "ins": "84,38"
    },
-   "Blancs": 93,
-   "% Blancs": {
+   "blanc_nul": 93,
+   "pour_bl_nuls": {
       "ins": "6",
       "vot": "8,48"
    },
@@ -6871,8 +6871,8 @@
    "pour_vot": {
       "ins": "81,31"
    },
-   "Blancs": 193,
-   "% Blancs": {
+   "blanc_nul": 193,
+   "pour_bl_nuls": {
       "ins": "6,71",
       "vot": "10,55"
    },
@@ -6920,8 +6920,8 @@
    "pour_vot": {
       "ins": "79,76"
    },
-   "Blancs": 1603,
-   "% Blancs": {
+   "blanc_nul": 1603,
+   "pour_bl_nuls": {
       "ins": "6,66",
       "vot": "11,17"
    },
@@ -6969,8 +6969,8 @@
    "pour_vot": {
       "ins": "76,58"
    },
-   "Blancs": 23,
-   "% Blancs": {
+   "blanc_nul": 23,
+   "pour_bl_nuls": {
       "ins": "4,75",
       "vot": "9,51"
    },
@@ -7018,8 +7018,8 @@
    "pour_vot": {
       "ins": "81,4"
    },
-   "Blancs": 77,
-   "% Blancs": {
+   "blanc_nul": 77,
+   "pour_bl_nuls": {
       "ins": "7,11",
       "vot": "11,21"
    },
@@ -7067,8 +7067,8 @@
    "pour_vot": {
       "ins": "84,7"
    },
-   "Blancs": 130,
-   "% Blancs": {
+   "blanc_nul": 130,
+   "pour_bl_nuls": {
       "ins": "8,12",
       "vot": "11,99"
    },
@@ -7116,8 +7116,8 @@
    "pour_vot": {
       "ins": "81,28"
    },
-   "Blancs": 1198,
-   "% Blancs": {
+   "blanc_nul": 1198,
+   "pour_bl_nuls": {
       "ins": "8,02",
       "vot": "12,09"
    },
@@ -7165,8 +7165,8 @@
    "pour_vot": {
       "ins": "84,38"
    },
-   "Blancs": 174,
-   "% Blancs": {
+   "blanc_nul": 174,
+   "pour_bl_nuls": {
       "ins": "8,65",
       "vot": "12,4"
    },
@@ -7214,8 +7214,8 @@
    "pour_vot": {
       "ins": "76,79"
    },
-   "Blancs": 39,
-   "% Blancs": {
+   "blanc_nul": 39,
+   "pour_bl_nuls": {
       "ins": "5,42",
       "vot": "11,02"
    },
@@ -7263,8 +7263,8 @@
    "pour_vot": {
       "ins": "84,16"
    },
-   "Blancs": 83,
-   "% Blancs": {
+   "blanc_nul": 83,
+   "pour_bl_nuls": {
       "ins": "7,92",
       "vot": "11,16"
    },
@@ -7312,8 +7312,8 @@
    "pour_vot": {
       "ins": "82,37"
    },
-   "Blancs": 27,
-   "% Blancs": {
+   "blanc_nul": 27,
+   "pour_bl_nuls": {
       "ins": "7,55",
       "vot": "11,8"
    },
@@ -7361,8 +7361,8 @@
    "pour_vot": {
       "ins": "81,69"
    },
-   "Blancs": 494,
-   "% Blancs": {
+   "blanc_nul": 494,
+   "pour_bl_nuls": {
       "ins": "6,85",
       "vot": "11"
    },
@@ -7410,8 +7410,8 @@
    "pour_vot": {
       "ins": "86,96"
    },
-   "Blancs": 60,
-   "% Blancs": {
+   "blanc_nul": 60,
+   "pour_bl_nuls": {
       "ins": "6,3",
       "vot": "10,35"
    },
@@ -7459,8 +7459,8 @@
    "pour_vot": {
       "ins": "75,64"
    },
-   "Blancs": 1712,
-   "% Blancs": {
+   "blanc_nul": 1712,
+   "pour_bl_nuls": {
       "ins": "6,54",
       "vot": "11,97"
    },
@@ -7508,8 +7508,8 @@
    "pour_vot": {
       "ins": "81,63"
    },
-   "Blancs": 110,
-   "% Blancs": {
+   "blanc_nul": 110,
+   "pour_bl_nuls": {
       "ins": "8,45",
       "vot": "13,24"
    },
@@ -7557,8 +7557,8 @@
    "pour_vot": {
       "ins": "84,75"
    },
-   "Blancs": 73,
-   "% Blancs": {
+   "blanc_nul": 73,
+   "pour_bl_nuls": {
       "ins": "9,04",
       "vot": "12,17"
    },
@@ -7606,8 +7606,8 @@
    "pour_vot": {
       "ins": "79,21"
    },
-   "Blancs": 1137,
-   "% Blancs": {
+   "blanc_nul": 1137,
+   "pour_bl_nuls": {
       "ins": "6,82",
       "vot": "11,58"
    },
@@ -7655,8 +7655,8 @@
    "pour_vot": {
       "ins": "81,42"
    },
-   "Blancs": 297,
-   "% Blancs": {
+   "blanc_nul": 297,
+   "pour_bl_nuls": {
       "ins": "6,98",
       "vot": "11,38"
    },
@@ -7704,8 +7704,8 @@
    "pour_vot": {
       "ins": "79,91"
    },
-   "Blancs": 176,
-   "% Blancs": {
+   "blanc_nul": 176,
+   "pour_bl_nuls": {
       "ins": "6,71",
       "vot": "11,04"
    },
@@ -7753,8 +7753,8 @@
    "pour_vot": {
       "ins": "74,58"
    },
-   "Blancs": 20,
-   "% Blancs": {
+   "blanc_nul": 20,
+   "pour_bl_nuls": {
       "ins": "5,51",
       "vot": "11,37"
    },
@@ -7802,8 +7802,8 @@
    "pour_vot": {
       "ins": "81,03"
    },
-   "Blancs": 35,
-   "% Blancs": {
+   "blanc_nul": 35,
+   "pour_bl_nuls": {
       "ins": "3,73",
       "vot": "6,72"
    },
@@ -7851,8 +7851,8 @@
    "pour_vot": {
       "ins": "78,57"
    },
-   "Blancs": 185,
-   "% Blancs": {
+   "blanc_nul": 185,
+   "pour_bl_nuls": {
       "ins": "7,5",
       "vot": "11,47"
    },
@@ -7900,8 +7900,8 @@
    "pour_vot": {
       "ins": "83,24"
    },
-   "Blancs": 125,
-   "% Blancs": {
+   "blanc_nul": 125,
+   "pour_bl_nuls": {
       "ins": "8,93",
       "vot": "13,83"
    },
@@ -7949,8 +7949,8 @@
    "pour_vot": {
       "ins": "81,09"
    },
-   "Blancs": 102,
-   "% Blancs": {
+   "blanc_nul": 102,
+   "pour_bl_nuls": {
       "ins": "7,67",
       "vot": "11,23"
    },
@@ -7998,8 +7998,8 @@
    "pour_vot": {
       "ins": "80"
    },
-   "Blancs": 47,
-   "% Blancs": {
+   "blanc_nul": 47,
+   "pour_bl_nuls": {
       "ins": "7,69",
       "vot": "11,3"
    },
@@ -8047,8 +8047,8 @@
    "pour_vot": {
       "ins": "79,49"
    },
-   "Blancs": 237,
-   "% Blancs": {
+   "blanc_nul": 237,
+   "pour_bl_nuls": {
       "ins": "6,36",
       "vot": "11,79"
    },
@@ -8096,8 +8096,8 @@
    "pour_vot": {
       "ins": "81,87"
    },
-   "Blancs": 64,
-   "% Blancs": {
+   "blanc_nul": 64,
+   "pour_bl_nuls": {
       "ins": "6,29",
       "vot": "9,64"
    },
@@ -8145,8 +8145,8 @@
    "pour_vot": {
       "ins": "80,02"
    },
-   "Blancs": 435,
-   "% Blancs": {
+   "blanc_nul": 435,
+   "pour_bl_nuls": {
       "ins": "8,09",
       "vot": "12,39"
    },
@@ -8194,8 +8194,8 @@
    "pour_vot": {
       "ins": "79,32"
    },
-   "Blancs": 302,
-   "% Blancs": {
+   "blanc_nul": 302,
+   "pour_bl_nuls": {
       "ins": "7,02",
       "vot": "11,43"
    },
@@ -8243,8 +8243,8 @@
    "pour_vot": {
       "ins": "84"
    },
-   "Blancs": 101,
-   "% Blancs": {
+   "blanc_nul": 101,
+   "pour_bl_nuls": {
       "ins": "8,05",
       "vot": "12,58"
    },
@@ -8292,8 +8292,8 @@
    "pour_vot": {
       "ins": "76,02"
    },
-   "Blancs": 853,
-   "% Blancs": {
+   "blanc_nul": 853,
+   "pour_bl_nuls": {
       "ins": "6,96",
       "vot": "11,91"
    },
@@ -8341,8 +8341,8 @@
    "pour_vot": {
       "ins": "79,68"
    },
-   "Blancs": 219,
-   "% Blancs": {
+   "blanc_nul": 219,
+   "pour_bl_nuls": {
       "ins": "7,18",
       "vot": "12,34"
    },
@@ -8390,8 +8390,8 @@
    "pour_vot": {
       "ins": "76,87"
    },
-   "Blancs": 44,
-   "% Blancs": {
+   "blanc_nul": 44,
+   "pour_bl_nuls": {
       "ins": "8,88",
       "vot": "13,38"
    },
@@ -8439,8 +8439,8 @@
    "pour_vot": {
       "ins": "86,17"
    },
-   "Blancs": 31,
-   "% Blancs": {
+   "blanc_nul": 31,
+   "pour_bl_nuls": {
       "ins": "6,17",
       "vot": "8,89"
    },
@@ -8488,8 +8488,8 @@
    "pour_vot": {
       "ins": "78,42"
    },
-   "Blancs": 109,
-   "% Blancs": {
+   "blanc_nul": 109,
+   "pour_bl_nuls": {
       "ins": "5,87",
       "vot": "10,07"
    },
@@ -8537,8 +8537,8 @@
    "pour_vot": {
       "ins": "80,9"
    },
-   "Blancs": 93,
-   "% Blancs": {
+   "blanc_nul": 93,
+   "pour_bl_nuls": {
       "ins": "8,05",
       "vot": "12,34"
    },
@@ -8586,8 +8586,8 @@
    "pour_vot": {
       "ins": "80,95"
    },
-   "Blancs": 58,
-   "% Blancs": {
+   "blanc_nul": 58,
+   "pour_bl_nuls": {
       "ins": "5,44",
       "vot": "8,48"
    },
@@ -8635,8 +8635,8 @@
    "pour_vot": {
       "ins": "80,96"
    },
-   "Blancs": 341,
-   "% Blancs": {
+   "blanc_nul": 341,
+   "pour_bl_nuls": {
       "ins": "7,17",
       "vot": "11,14"
    },
@@ -8684,8 +8684,8 @@
    "pour_vot": {
       "ins": "76,47"
    },
-   "Blancs": 145,
-   "% Blancs": {
+   "blanc_nul": 145,
+   "pour_bl_nuls": {
       "ins": "9,99",
       "vot": "15,66"
    },
@@ -8733,8 +8733,8 @@
    "pour_vot": {
       "ins": "76,28"
    },
-   "Blancs": 73,
-   "% Blancs": {
+   "blanc_nul": 73,
+   "pour_bl_nuls": {
       "ins": "6,73",
       "vot": "10,92"
    },
@@ -8782,8 +8782,8 @@
    "pour_vot": {
       "ins": "80,75"
    },
-   "Blancs": 42,
-   "% Blancs": {
+   "blanc_nul": 42,
+   "pour_bl_nuls": {
       "ins": "8,29",
       "vot": "13,91"
    },
@@ -8831,8 +8831,8 @@
    "pour_vot": {
       "ins": "83,56"
    },
-   "Blancs": 133,
-   "% Blancs": {
+   "blanc_nul": 133,
+   "pour_bl_nuls": {
       "ins": "8,91",
       "vot": "12,89"
    },
@@ -8880,8 +8880,8 @@
    "pour_vot": {
       "ins": "80,49"
    },
-   "Blancs": 534,
-   "% Blancs": {
+   "blanc_nul": 534,
+   "pour_bl_nuls": {
       "ins": "7,01",
       "vot": "11,87"
    },
@@ -8929,8 +8929,8 @@
    "pour_vot": {
       "ins": "76,73"
    },
-   "Blancs": 80,
-   "% Blancs": {
+   "blanc_nul": 80,
+   "pour_bl_nuls": {
       "ins": "5,22",
       "vot": "9,23"
    },
@@ -8978,8 +8978,8 @@
    "pour_vot": {
       "ins": "82,1"
    },
-   "Blancs": 209,
-   "% Blancs": {
+   "blanc_nul": 209,
+   "pour_bl_nuls": {
       "ins": "2,15",
       "vot": "11,39"
    },
@@ -9027,8 +9027,8 @@
    "pour_vot": {
       "ins": "78,05"
    },
-   "Blancs": 137,
-   "% Blancs": {
+   "blanc_nul": 137,
+   "pour_bl_nuls": {
       "ins": "6,23",
       "vot": "9,86"
    },
@@ -9076,8 +9076,8 @@
    "pour_vot": {
       "ins": "80,83"
    },
-   "Blancs": 120,
-   "% Blancs": {
+   "blanc_nul": 120,
+   "pour_bl_nuls": {
       "ins": "7,46",
       "vot": "10,86"
    },
