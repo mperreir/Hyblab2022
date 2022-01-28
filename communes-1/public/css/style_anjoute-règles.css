@@ -15,42 +15,45 @@
 
 .mid {
 	position: relative;
-	text-align: center;
+	top: 10%;
 }
 
 .animation_bulle {
 	position: absolute;
 	right: 10%;
-	width: 60%;
+	width: 45%;
 }
 
 .animation_perso {
-	margin-top: 25%;
+	margin-top: 13%;
 	width: 100%;
 }
 
-.bottom {
-	display: flex;
-	justify-content: center;
+.mid .bottom {
+	position: absolute;
+	background-color:#10141A;
+	font-size: 0;
+	width: 100%;
+	text-align: center;
+	bottom: -20px;
 }
 
-.bottom .goToChoix {
+.mid .goToChoix {
 	color: #C8A166;
 	background-color: #10141A;
 	border:  2px solid #C8A166;
 	border-radius: 10px;
 	width: 70%;
-	right: 35%;
 	cursor: pointer;
 }
 
-.bottom .goToChoix:hover {
+.mid .goToChoix:hover {
 	color: black;
 	background-color: #C8A166;
 }
 
-.bottom .goToChoix p {
+.mid .goToChoix p {
     font-family: 'Lineal', sans-serif;
 	font-size: 200%;
-	margin: 5%;
+	margin: 3%;
 }
