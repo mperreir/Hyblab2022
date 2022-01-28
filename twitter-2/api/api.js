@@ -140,7 +140,17 @@ app.get('/ratioNearCandidate/followers/:userName', function (req, res) {
     candidatsRatio = candidatsRatio.sort((candidat1, candidat2) => candidat2.ratio - candidat1.ratio).splice(0,7);
     candidatsRatio.forEach(candidat => { candidat.id = id++; });
 
-    res.send(candidatsRatio);
+    res.send({
+        nodes: candidatsRatio,
+        links: [
+            { source: 1, target: 2 },
+            { source: 1, target: 3 },
+            { source: 1, target: 4 },
+            { source: 1, target: 5 },
+            { source: 1, target: 6 },
+            { source: 1, target: 7 }
+        ]
+    });
 });
 
 // avoir les ratio de tweet par candidat en fonction du theme
@@ -186,7 +196,15 @@ function random(min, max) {
 
 function createStructureDataVisualisation(candidats) {
     const resultat = {
-        nodes: []
+        nodes: [],
+        links: [
+            { source: 1, target: 2 },
+            { source: 1, target: 3 },
+            { source: 1, target: 4 },
+            { source: 1, target: 5 },
+            { source: 1, target: 6 },
+            { source: 1, target: 7 }
+        ]
     };
 
     let id = 1;
