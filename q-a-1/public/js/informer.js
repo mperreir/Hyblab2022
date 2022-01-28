@@ -13,3 +13,9 @@ button_second_choice.classList.add("blue");
   
 footer.appendChild(button_first_choice);
 footer.appendChild(button_second_choice);
+
+const logo = document.getElementById("logo");
+const img = document.createElement("img");
+img.src = "img/logo/logo first.svg";
+img.id = "ok";
+logo.appendChild(img);

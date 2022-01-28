@@ -30,6 +30,12 @@ button{
     height: 8%;
     border-radius: 30px;
 }
+
+svg
+{
+    width:80%;
+    margin-bottom: 8%;
+}
 #container{
     position: relative; /* for absolute positionning of child elements*/
 }
@@ -74,7 +80,7 @@ button{
 #first-section header{
     text-align: center;
     width: 100%;
-    top: 10%;
+    top:10%;
     position: absolute;
     font-size: 30%;
     z-index: 2;
@@ -82,7 +88,7 @@ button{
 
 #ok{
     text-align: center;
-    width: 30%;
+    max-width: 30%;
 }
 
 
@@ -111,7 +117,7 @@ button{
  }
 
  .red{
-    background: red;
+    background: #AB4A4A;
  }
 
  .green{
@@ -122,6 +128,8 @@ button{
  .grey{
     background: gray;
  }
+
+ 
 /* ---------- Important media queries for easy responsive content :-) ----------------- */
 /* Can be adapted for other ratios that 9:16 or for horizontal content (ex: 16:9) */
 
