@@ -12,7 +12,7 @@ body {
   background-color: black;
   color: #e5e5e5;
   overflow: hidden; /* to avoid slider bugs on some browsers */
-  font-family: "Futura", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+  font-family: "Lucida  Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
@@ -39,7 +39,7 @@ body {
 
 /* the slides and the loader should fill the whole 9:16 zone */
 .swiper-wrapper section {
-  background-color: #e5e5e5;
+  background-color: white;
   width: 100%;
   height: 100%;
 }
@@ -124,13 +124,18 @@ body {
 .pouvoir-header {
   width: 90%;
 }
-#callAnimation {
-  background-color: #4f00ec;
-  width: auto;
-  height: 400px;
+#animationsContainer {
+  width: 75%;
+  height: 75%;
+}
+#animationsContainer svg {
+  position: absolute;
+  top: 2%;
 }
 .phoneButton {
-  margin: auto;
+  position: absolute;
+  top: 75%;
+  left: 40%;
   width: 80px;
   height: 73px;
   cursor: pointer;
@@ -142,7 +147,65 @@ body {
 .phoneButton:hover {
   opacity: 75%;
 }
+.dialogBox {
+  position: absolute;
+  display: none;
+  left: 13%;
+  bottom: 10%;
+  width: 75%;
+  height: auto;
+}
 
+.dialogBox p {
+  font-family: "Nunito";
+  font-size: 12px;
+  width: 82%;
+  margin: auto;
+  color: white;
+  text-align: justify;
+  position: absolute;
+  bottom: 52%;
+  left: 10%;
+}
+.apply-shake {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
 #p6 .dialog-before {
   display: none;
   background-color: red;
@@ -189,6 +252,58 @@ body {
   /* Here the font size is proportional to display width */
   body {
     font-size: calc(12vw * 16 / 9);
+  }
+}
+
+.fade {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 

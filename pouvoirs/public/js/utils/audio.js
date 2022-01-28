@@ -1,9 +1,9 @@
-const createAudio = function(path, loop) {
+const createAudio = function(path, loop, rate,volume) {
     const sound  = new Howl({
         src: [path],
         loop: loop,
-        volume: 1.0,
-        rate: 0.7,
+        volume: volume,
+        rate: rate,
         onend: () => {}
       });
       return sound;

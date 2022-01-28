@@ -8,10 +8,10 @@ const init_p1 = function() {
     })
   }
 
-  const woosh = createAudio("data/sounds/woosh.mp3", false);
-  const goodAns = createAudio("data/sounds/good_choice.wav", false);
-  const badAns = createAudio("data/sounds/bad_choice.wav", false);
-  const cancel = createAudio("data/sounds/cancel.wav", false);
+  const woosh = createAudio("data/sounds/swoosh.mp3", false,0.7, 1);
+  const goodAns = createAudio("data/sounds/good_choice.mp3", false,0.7, 1);
+  const badAns = createAudio("data/sounds/bad_choice.mp3", false,0.7, 1);
+  const cancel = createAudio("data/sounds/cancel.wav", false,0.7, 1);
   let wooshWasPlayed = false;
 
   const slide = document.getElementById("p1");
