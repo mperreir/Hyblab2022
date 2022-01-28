@@ -6,7 +6,6 @@
     padding: 16%;
 }
 
-
 .file-explorer-item:last-child {
     display: flex;    
     flex-direction: column;
@@ -64,10 +63,7 @@
 
 .file-explorer-item:last-child .file-explorer-item-file::after {
     background-color:#ff2e00;
-    
 }
-
-
 
 .file-explorer-item-file-title {
     position: absolute;

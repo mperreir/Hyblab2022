@@ -16,16 +16,21 @@ function date() {
 //         document.getElementById('container').innerHTML = rendered;
 //     }));
 // });
+
 // const container = document.getElementById("container");
 
 
-// const test = {
-//     data: "hello"
-// };
+
+loadStart();
+
+// loadTemplate('templates/sms.ejs', test).then(value => { container.innerHTML = value ;
+// date();
+// })
 
 
 // loadFileExplorer();
-smsScreen();
+//smsScreen();
+
 
 async function loadTemplate(path, data) {
     const fileExplorerTemplate = await fetch(path);
