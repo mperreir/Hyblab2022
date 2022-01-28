@@ -9,15 +9,18 @@
 }
 
 #logo_anjoute {
-	width: 40%;
+	width: 70%;
 	height: auto;
 }
 
 .img_container {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding-top: 50px;
+	text-align: center;
+}
+
+.img_container img {
+	width: 70%;
+	height: auto;
+	padding-top: 10%;
 }
 
 .choix {
@@ -29,7 +32,35 @@
 }
 
 .label-choix {
-	color: #D8A563;
+	color: #C8A166;
+	font-family: 'Baloo Tamma 2';
 	font-size: 2vh;
+	width: 30vh;
 	margin-bottom: 10px;
+}
+
+.bottom {
+	display: flex;
+	justify-content: center;
+}
+
+.bottom .goToGame {
+	color: #C8A166;
+	background-color: #10141A;
+	border:  2px solid #C8A166;
+	border-radius: 10px;
+	width: 35vh;
+	right: 35%;
+	cursor: pointer;
+}
+
+.bottom .goToGame:hover {
+	color: black;
+	background-color: #C8A166;
+}
+
+.bottom .goToGame p {
+    font-family: 'Lineal', sans-serif;
+	font-size: 3vh;
+	margin: 1.5vh;
 }

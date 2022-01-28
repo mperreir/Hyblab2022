@@ -4,24 +4,18 @@
 }
 
 .top {
-	background-color: #3BBF82;
-	height: 9vh;
-	text-align: center
+	text-align: center;
 }
 
-.top h1 {
-	color: #11151B;
-	font-family: 'LinealMedium';
-	font-weight: bold;
-	font-style: normal;
-	font-size: 5vh;
-	padding-top: 2.4vh;
+.top img {
+	width: 70%;
+	height: auto;
+	padding-top: 10%;
 }
 
 .mid {
 	position: relative;
 	text-align: center;
-	margin-top: 10%;
 }
 
 .animation_bulle {
@@ -42,17 +36,21 @@
 
 .bottom .goToChoix {
 	color: #C8A166;
-    font-family: 'Baloo Tamma 2';
-	font-weight: bold;
-	right: 35%;
-	font-size: 3vh;
-
 	background-color: #10141A;
-	padding: 0px 20px;
 	border:  2px solid #C8A166;
+	border-radius: 10px;
+	width: 35vh;
+	right: 35%;
+	cursor: pointer;
 }
 
 .bottom .goToChoix:hover {
 	color: black;
 	background-color: #C8A166;
+}
+
+.bottom .goToChoix p {
+    font-family: 'Lineal', sans-serif;
+	font-size: 3vh;
+	margin: 1.5vh;
 }
