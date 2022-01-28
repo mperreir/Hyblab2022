@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/loadingio/loading.css@v2.0.0/dist/loading.css" />
   <link href="https://vjs.zencdn.net/7.6.6/video-js.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Outfit">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
   <script src="https://vjs.zencdn.net/7.6.6/video.js"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
@@ -41,8 +42,9 @@
                 <footer></footer>
             </section>
             <section id="second-slide" class="swiper-slide">
-              <div id="timer"></div>
+              
               <div id="jeu">
+                <div id="timer"></div>
                 <svg
                 width="334"
                 height="145"
@@ -158,23 +160,23 @@
                 </svg>
                 <div id="images">
                   <img
-                    src="img/retweet-1.png"
+                    src="img/emotes/retweet-1.png"
                     class="rotateimg20"
                     style="width: 20%; height: 15%; position: absolute; left: 10%; top: 55%; object-fit: cover;  z-index:5;"
                   /><img
-                    src="img/coeur-1.png"
+                    src="img/emotes/coeur-1.png"
                     class="rotateimg320"
                     style="width: 25%; height: 18%; position: absolute; left: -5%; top: 28%; object-fit: cover; z-index:5; "
                   /><img
-                    src="img/twitter-1.png"
+                    src="img/emotes/twitter-1.png"
                     class="rotateimg20"
                     style="width: 15%; height: 10%; position: absolute; left: 80%; top: 35%; object-fit: cover; z-index:5;"
                   /><img
-                    src="img/@-1.png"
+                    src="img/emotes/@-1.png"
                     class="rotateimg320"
                     style="width:25%; height: 18%; position: absolute; left: 60%; top: 51%; object-fit: cover; z-index:5;"
                   /><img
-                    src="img/hashtag-1.png"
+                    src="img/emotes/hashtag-1.png"
                     style="width: 15%; height: 10%; position: absolute; left: 60%; top: 60%; object-fit: cover; z-index:5;"
                   />
 
@@ -182,37 +184,107 @@
               
 
                 <div id="text">À qui appartient ce tweet ? Trouvez le plus de bonnes réponses possibles en 1 minute !</div>
+
+                <svg
+                  width="596"
+                  height="514"
+                  viewBox="0 0 596 514"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  style="width: 90%; height: 35%; position: absolute; top:35%; left:5%; filter: drop-shadow(7px 7px 25px rgba(0,0,0,0.25)); display: none"
+                  preserveAspectRatio="none"
+                  id="bulle"
+                >
+                  <g filter="url(#filter0_d_3_57)">
+                    <rect x="18" y="18" width="546" height="359" rx="100" fill="white"></rect>
+                    <path d="M332 482L441 376H350.066L332 482Z" fill="white"></path>
+                  </g>
+                  <defs>
+                    <filter
+                      id="filter0_d_3_57"
+                      x="0"
+                      y="0"
+                      width="596"
+                      height="514"
+                      filterUnits="userSpaceOnUse"
+                      color-interpolation-filters="sRGB"
+                    >
+                      <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                      <feColorMatrix
+                        in="SourceAlpha"
+                        type="matrix"
+                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha"
+                      ></feColorMatrix>
+                      <feOffset dx="7" dy="7"></feOffset>
+                      <feGaussianBlur stdDeviation="12.5"></feGaussianBlur>
+                      <feComposite in2="hardAlpha" operator="out"></feComposite>
+                      <feColorMatrix
+                        type="matrix"
+                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+                      ></feColorMatrix>
+                      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3_57"></feBlend>
+                      <feBlend
+                        mode="normal"
+                        in="SourceGraphic"
+                        in2="effect1_dropShadow_3_57"
+                        result="shape"
+                      ></feBlend>
+                    </filter>
+                  </defs>
+                </svg>
+
+                <img
+                  src="img/emotes/bulle-01-1.png"
+                  style="width: 40%; height: 20%; position: absolute; top:20%; left:60%; z-index: 5; display : none;"
+                  id="bulle2"
+                />
               
 
                 <div id=choix>
-                  <button id="play">Jouer !</button>
-                  <button id="candidat">Candidats !</button>
+                  <button id="play">Jouer</button>
                 </div>
                 
               </div>
 
               <!-- le footer sera rempli à partir de données lues dans un fichier Json-->
-              <footer></footer>
+              <footer>
+                <nav class="menu" id="menu1">
+                  <button class="menu-candidat" id="menu-candidat1"><img
+                    src="img/emotes/candidats-1.png"
+                    style="width: 20%; height: 35%; z-index:5;"
+                  />Candidats</button>
+                  <button class="menu-jeu" id="menu-jeu1"><img
+                    src="img/emotes/jouer-1.png"
+                    style="width: 20%; height: 30%; z-index:5;"
+                  />Jeu</button>
+                  <button class="menu-top" id="menu-top1"><img
+                    src="img/emotes/twitter-2.png"
+                    style="width: 30%; height: 40%; z-index:5;"
+                  />Top Tweets</button>
+                </nav>
+
+              </footer>
             </section>
 
             <section id="third-slide" class="swiper-slide">
               <header>
-                  <h2 id="titre">Les candidats !</h2>
+                  <h2 id="titre">LES CANDIDATS</h2>
               </header>
 
               <div id="candidats">
-                <button class="button-candidat" id="btn-1" ><img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile2">Candidat 1</button> 
-                <button class="button-candidat" id="btn-2" ><img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile2">Candidat 2</button> 
-                <button class="button-candidat" id="btn-3" ><img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile2">Candidat 3</button> 
-                <button class="button-candidat" id="btn-4" ><img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile2">Candidat 4</button> 
-                <button class="button-candidat" id="btn-5" ><img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile2">Candidat 5</button> 
-                <button class="button-candidat" id="btn-6" ><img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile2">Candidat 6</button> 
-                <button class="button-candidat" id="btn-7" ><img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile2">Candidat 7</button> 
-                <button class="button-candidat" id="btn-8" ><img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile2">Candidat 8</button> 
-                <button class="button-candidat" id="btn-9" ><img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile2">Candidat 9</button> 
-                <button class="button-candidat" id="btn-10" ><img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile2">Candidat 10</button>
-                <button class="button-candidat" id="btn-11" ><img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile2">Candidat 11</button> 
-                <button class="button-candidat" id="btn-12" ><img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile2">Candidat 12</button> 
+                <button class="button-candidat" id="btn-1" ><img src="img/candidat/taubira.jpeg" alt="Profile Picture" height="200%" class="profile2"></button> 
+                <button class="button-candidat" id="btn-2" ><img src="img/candidat/asselineau.jpeg" alt="Profile Picture" height="200%" class="profile2"></button> 
+                <button class="button-candidat" id="btn-3" ><img src="img/candidat/melenchon.jpeg" alt="Profile Picture" height="200%" class="profile2"></button> 
+                <button class="button-candidat" id="btn-4" ><img src="img/candidat/jadot.jpeg" alt="Profile Picture" height="200%" class="profile2"></button> 
+                <button class="button-candidat" id="btn-5" ><img src="img/candidat/philippot.jpeg" alt="Profile Picture" height="200%" class="profile2"></button> 
+                <button class="button-candidat" id="btn-6" ><img src="img/candidat/pecresse.jpeg" alt="Profile Picture" height="200%" class="profile2"></button> 
+                <button class="button-candidat" id="btn-7" ><img src="img/candidat/zemmour.jpeg" alt="Profile Picture" height="200%" class="profile2"></button> 
+                <button class="button-candidat" id="btn-8" ><img src="img/candidat/hidalgo.jpeg" alt="Profile Picture" height="200%" class="profile2"></button> 
+                <button class="button-candidat" id="btn-9" ><img src="img/candidat/dupontaignant.jpeg" alt="Profile Picture" height="200%" class="profile2"></button> 
+                <button class="button-candidat" id="btn-10" ><img src="img/candidat/poutou.jpeg" alt="Profile Picture" height="200%" class="profile2"></button>
+                <button class="button-candidat" id="btn-11" ><img src="img/candidat/macron.jpeg" alt="Profile Picture" height="200%" class="profile2"></button> 
+                <button class="button-candidat" id="btn-12" ><img src="img/candidat/lepen.jpeg" alt="Profile Picture" height="200%" class="profile2"></button> 
               </div>
                          
               <div id="myElement1">
@@ -482,7 +554,22 @@
 
 
               <!-- le footer sera rempli à partir de données lues dans un fichier Json-->
-              <footer></footer>
+              <footer>
+                <nav class="menu">
+                  <button class="menu-candidat" id="menu-candidat2"><img
+                    src="img/emotes/candidats-1.png"
+                    style="width: 20%; height: 35%; z-index:5;"
+                  />Candidats</button>
+                  <button class="menu-jeu" id="menu-jeu2"><img
+                    src="img/emotes/jouer-1.png"
+                    style="width: 20%; height: 30%; z-index:5;"
+                  />Jeu</button>
+                  <button class="menu-top" id="menu-top2"><img
+                    src="img/emotes/twitter-2.png"
+                    style="width: 30%; height: 40%; z-index:5;"
+                  />Top Tweets</button>
+          </nav>
+              </footer>
             </section>
             <section id="fourth-slide" class="swiper-slide">
               <header>
@@ -500,7 +587,22 @@
               </div>
 
               <!-- le footer sera rempli à partir de données lues dans un fichier Json-->
-              <footer></footer>
+              <footer>
+                <nav class="menu">
+                      <button class="menu-candidat" id="menu-candidat3"><img
+                        src="img/emotes/candidats-1.png"
+                        style="width: 20%; height: 35%; z-index:5;"
+                      />Candidats</button>
+                      <button class="menu-jeu" id="menu-jeu3"><img
+                        src="img/emotes/jouer-1.png"
+                        style="width: 20%; height: 30%; z-index:5;"
+                      />Jeu</button>
+                      <button class="menu-top" id="menu-top3"><img
+                        src="img/emotes/twitter-2.png"
+                        style="width: 30%; height: 40%; z-index:5;"
+                      />Top Tweets</button>
+              </nav>
+              </footer>
             </section>
 
             <section id="fifth-slide" class="swiper-slide">

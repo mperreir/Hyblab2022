@@ -4,6 +4,14 @@
 async function Suivant(temps,score,total) {
 
     let jeu = document.querySelector('#jeu');
+    let bulle = document.querySelector('#bulle');
+    bulle.style.display= "inline";
+
+    let bulle2 = document.querySelector('#bulle2');
+    bulle2.style.display= "inline";
+
+    let menu = document.querySelector('#menu1');
+    menu.style.display= "none";
     
     try {
         let text = document.querySelector('#text');
@@ -15,7 +23,7 @@ async function Suivant(temps,score,total) {
         jeu.removeChild(svg);
         jeu.removeChild(images);
         let slide = document.querySelector('#second-slide');
-        slide.style.background ="white";
+        slide.style.background ="#a08aff";
     } catch {}
 
     try {
@@ -23,18 +31,31 @@ async function Suivant(temps,score,total) {
         jeu.removeChild(reponse);
     } catch {}
 
+    try {
+        let bouton = document.querySelector('#rejoue');
+        let fin = document.querySelector('#finjeu');
+        let score = document.querySelector('#score');
+        let images = document.querySelector('#images');
+        jeu.removeChild(bouton);
+        jeu.removeChild(fin);
+        jeu.removeChild(score);
+        let slide = document.querySelector('#second-slide');
+        slide.style.background ="#a08aff";
+    } catch {}
+
     const question = await fetchResponse();
 
     let div = document.createElement('div');
     div.setAttribute("id", 'question');
-    div.style.width = "80%";
+    div.style.position = "absolute";
+    div.style.top = "35%";
+    div.style.left = "5%";
+    div.style.width = "75%";
     div.style.minHeight = "100px";
     div.style.marginLeft = "7%";
     div.style.overflow = "hidden";
-    div.style.background="white";
+    div.style.background="none";
     div.style.marginTop = "5%";
-    div.style.borderRadius = "15px 15px 15px 15px";
-    div.style.border = "2px solid black";
     div.style.padding = "5px";
 
     let content = document.createTextNode(question.text);
@@ -42,26 +63,36 @@ async function Suivant(temps,score,total) {
 
     let div2 = document.createElement('div');
     div2.setAttribute("id", 'reponses');
+    div2.style.position = "absolute";
+    div2.style.top = "80%";
+    div2.style.width = "100%";
 
     let a = document.createElement('input');
     a.setAttribute("type", "button");
     a.setAttribute("value", question.possible_response_1.name);
     a.setAttribute("id", "reponseA");
-    a.style.width = "30%";
+    a.style.width = "35%";
     a.style.height = "40px";
-    a.style.marginLeft = "17%";
-    a.style.marginRight = "5%";
-    a.style.marginTop = "5%";
-    a.style.borderRadius = "10px 10px 10px 10px";
+    a.style.marginLeft = "10%";
+    a.style.borderRadius = "80px";
+    a.style.boxShadow = "7px 7px 25px 0 rgba(0,0,0,0.25)";
+    a.style.border = "none";
+    a.style.fontFamily = "'Outfit', sans-serif";
+    a.style.fontSize = "90%";
     a.addEventListener('click', () => Reponse(a, question.is_response_1_true, temps, interval, score, total));
 
     let b = document.createElement('input');
     b.setAttribute("type", "button");
     b.setAttribute("value", question.possible_response_2.name);
     b.setAttribute("id", "reponseB");
-    b.style.width = "30%";
+    b.style.width = "35%";
     b.style.height = "40px";
-    b.style.borderRadius = "10px 10px 10px 10px";
+    b.style.marginLeft = "12%";
+    b.style.borderRadius = "80px";
+    b.style.boxShadow = "7px 7px 25px 0 rgba(0,0,0,0.25)";
+    b.style.border = "none";
+    b.style.fontFamily = "'Outfit', sans-serif";
+    b.style.fontSize = "90%";
     b.addEventListener('click', () => { 
         Reponse(b, !question.is_response_1_true, temps, interval, score, total);
     });
@@ -95,6 +126,11 @@ async function Suivant(temps,score,total) {
 function Reponse(button, is_success, temps, interval, score, total){
     
     let jeu = document.querySelector('#jeu');
+    let bulle = document.querySelector('#bulle');
+    bulle.style.display= "none";
+
+    let bulle2 = document.querySelector('#bulle2');
+    bulle2.style.display= "none";
 
     if (is_success) {
         button.style.background="green";
@@ -117,19 +153,39 @@ function Reponse(button, is_success, temps, interval, score, total){
 }
  
 function finJeu(score,total){
+
+    let slide = document.querySelector('#second-slide');
+    slide.style.background ="#5467d3";
+
+    let menu = document.querySelector('#menu1');
+    menu.style.display= "inline";
+
     let jeu = document.querySelector('#jeu');
+    let bulle = document.querySelector('#bulle');
+    bulle.style.display= "none";
+
+    let bulle2 = document.querySelector('#bulle2');
+    bulle2.style.display= "none";
 
     let question = document.querySelector('#question');
     let reponse = document.querySelector('#reponses');
+    let timer = document.querySelector('#timer');
     
     jeu.removeChild(question);
     jeu.removeChild(reponse);
+    jeu.removeChild(timer);
 
     let div = document.createElement('div');
     div.setAttribute("id", 'finjeu');
 
     let lescore = document.createElement('div');
     lescore.setAttribute("id", 'score');
+    lescore.style.fontFamily = "'Outfit', sans-serif";
+    lescore.style.color= "white";
+    lescore.style.fontSize = "60px";
+    lescore.style.fontWeight = "900";
+    lescore.style.marginTop = "5%";
+    lescore.style.textAlign = "center";
 
     let contentscore = document.createTextNode( score + " / " + total );
     lescore.appendChild(contentscore);
@@ -145,7 +201,7 @@ function finJeu(score,total){
     let contentappr;
 
     console.log(score/total);
-    if((score/total)<=0.5){
+    if((score/total)<=0.5 || total ==0){
         console.log("here");
         contentcom = document.createTextNode( "Améliorez vos connaissances en découvrant les Top Tweets de la semaine !" );
         contentappr = document.createTextNode( "Oh oh..." );
@@ -161,12 +217,30 @@ function finJeu(score,total){
 
     commentaire.appendChild(contentcom);
     appreciation.appendChild(contentappr);
-    jeu.appendChild(appreciation);
-
+    div.appendChild(appreciation);
+    
     let content = document.createTextNode("Vous avez eu " + score + " bonnes réponses sur " + total + " questions !!");
     div.appendChild(content);
     jeu.appendChild(div);
     jeu.appendChild(commentaire);
+
+    let rejoue = document.createElement('input');
+    rejoue.setAttribute("type", "button");
+    rejoue.setAttribute("value", Rejouer);
+    rejouer.setAttribute("id", "rejouer");
+    rejouer.style.width = "35%";
+    rejouer.style.height = "40px";
+    rejouer.style.marginLeft = "12%";
+    rejouer.style.borderRadius = "80px";
+    rejouer.style.boxShadow = "7px 7px 25px 0 rgba(0,0,0,0.25)";
+    rejouer.style.border = "none";
+    rejouer.style.fontFamily = "'Outfit', sans-serif";
+    rejouer.style.fontSize = "90%";
+    rejouer.addEventListener('click', () => { 
+        (() => Suivant(10,0,0))();
+    });
+
+    jeu.appendChild(rejoue);
 
 }
 
