@@ -1,8 +1,9 @@
-module.exports = { calculateRatioByMotCle };
+module.exports = { tweetAnalysis };
 
 const fs = require('fs');
 const neatCsv = require('neat-csv');
 const path = require('path');
+const https = require('https');
 
 
 const motsCle = {
@@ -20,38 +21,57 @@ const motsCle = {
     ]
 };
 
-
-// calculateRatioByMotCle();
-async function calculateRatioByMotCle() {
+async function tweetAnalysis() {
+    // await downloadCsvTweets();
+    console.log('csv downloaded');
 
     const tweets = await neatCsv(fs.readFileSync(path.join(__dirname, '../data/tweets_candidats.csv')));
-    // const tweets = await neatCsv(fs.readFileSync(`../data/tweets_candidats.csv`));
+    const candidatsInformations = require(path.join(__dirname, '../data/infosCandidats.json'));
 
     const candidats = {};
     tweets.forEach(tweet => {
         if (tweet.retweet === 'False') {
-            if (!candidats[tweet.username]) {
-                candidats[tweet.username] = {
-                    nbByTopic: {},
-                    nbTotalTweet: 0
-                };
+            tweet.username = tweet.link.split('https://twitter.com/')[1].split('/')[0];
+            if (candidatsInformations.find(candidat => candidat.userName === tweet.username)) {
+                if (!candidats[tweet.username]) {
+                    candidats[tweet.username] = {
+                        nbByTopic: {},
+                        nbTotalTweet: 0
+                    };
+                    Object.keys(motsCle).forEach(topic => {
+                        candidats[tweet.username].nbByTopic[topic] = 0;
+                    });
+                }
+                candidats[tweet.username].nbTotalTweet++;
+    
+                tweet.tweet = traitementTextTweet(tweet.tweet);
+    
                 Object.keys(motsCle).forEach(topic => {
-                    candidats[tweet.username].nbByTopic[topic] = 0;
+                    if (tweetIncludeTopic(tweet.tweet, motsCle[topic])) {
+                        candidats[tweet.username].nbByTopic[topic]++;
+                    }
                 });
             }
-            candidats[tweet.username].nbTotalTweet++;
-
-            tweet.tweet = traitementTextTweet(tweet.tweet);
-
-            Object.keys(motsCle).forEach(topic => {
-                if (tweetIncludeTopic(tweet.tweet, motsCle[topic])) {
-                    candidats[tweet.username].nbByTopic[topic]++;
-                }
-            });
         }
     });
 
     storeTopicCandidat(candidats);
+    // try { fs.unlinkSync(path.join(__dirname, '../data/tweets_candidats.csv')); } catch (_e) {} // suppression du csv car inutile après le traitement
+    console.log('tweet analysis done');
+
+}
+
+function downloadCsvTweets() {
+    return new Promise((resolve, reject) => {
+        https.get('https://cdn-apps.letelegramme.fr/twitter/tweets_candidats.csv', res => {
+            const filePath = fs.createWriteStream(path.join(__dirname, '../data/tweets_candidats.csv'));
+            res.pipe(filePath);
+            filePath.on('finish',() => {
+                filePath.close();
+                resolve();
+            });
+        });
+    });
 }
 
 function storeTopicCandidat(candidats) {
@@ -71,8 +91,7 @@ function storeTopicCandidat(candidats) {
         });
     });
 
-    console.log(data);
-    fs.writeFileSync(path.join(__dirname, '../data/dataPostProcessing.json'), JSON.stringify(data, null, 2), 'utf8');
+    fs.writeFileSync(path.join(__dirname, '../data/dataRatioTweetTheme.json'), JSON.stringify(data, null, 2), 'utf8');
 }
 
 function tweetIncludeTopic(tweet, words) {
@@ -81,9 +100,7 @@ function tweetIncludeTopic(tweet, words) {
         words.forEach(word => {
             if (!ret && tweet.includes(word)) ret = true;
         });
-    } catch (err) {
-        // console.log(hashtags);
-    }
+    } catch (err) { }
     return ret;
 }
 
