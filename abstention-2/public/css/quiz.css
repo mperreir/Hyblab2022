@@ -1,0 +1,4 @@
+#quizSection{
+    display: flex;
+    flex-direction: column;
+}

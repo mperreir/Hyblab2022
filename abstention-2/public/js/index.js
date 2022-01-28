@@ -25,7 +25,8 @@ function date() {
 
 
 // loadFileExplorer();
-smsScreen();
+// smsScreen();
+quizScreen();
 
 async function loadTemplate(path, data) {
     const fileExplorerTemplate = await fetch(path);
