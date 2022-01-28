@@ -26,13 +26,13 @@ jsonData6.forEach(row => map2012_2.set(row.code,row));
 jsonData7.forEach(row => map2017_1.set(row.code,row));
 jsonData8.forEach(row => map2017_2.set(row.code,row));
 
-data_election.set(2002_1,map2002_1);
-data_election.set(2002_2,map2002_2);
-data_election.set(2007_1,map2007_1);
-data_election.set(2007_2,map2007_2);
-data_election.set(2012_1,map2012_1);
-data_election.set(2012_2,map2012_2);
-data_election.set(2017_1,map2017_1);
-data_election.set(2017_2,map2017_2);
+data_election.set("2002_1",map2002_1);
+data_election.set("2002_2",map2002_2);
+data_election.set("2007_1",map2007_1);
+data_election.set("2007_2",map2007_2);
+data_election.set("2012_1",map2012_1);
+data_election.set("2012_2",map2012_2);
+data_election.set("2017_1",map2017_1);
+data_election.set("2017_2",map2017_2);
 
-export {data_election};
+module.exports.data_election = data_election;

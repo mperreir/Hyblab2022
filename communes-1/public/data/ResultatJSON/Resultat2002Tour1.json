@@ -2,24 +2,24 @@
  {
    "code": 2,
    "nom_com": "Allonnes",
-   "inscrit": 1980,
-   "abstention": 287,
+   "inscrits": 1980,
+   "abstentions": 287,
    "pour_abs": {
       "ins": 14.49
    },
-   "votant": 1693,
+   "votants": 1693,
    "pour_vot": {
       "ins": 85.51
    },
    "blanc_nul": 38,
    "pour_bl_nuls": {
       "ins": 1.92,
-      "Vot": 2.24
+      "vot": 2.24
    },
    "exprimes": 1655,
    "pour_exp": {
       "ins": 83.59,
-      "Vot": 97.76
+      "vot": 97.76
    },
    "sexe": [
       "M",
@@ -111,24 +111,24 @@
  {
    "code": 3,
    "nom_com": "Tuffalun",
-   "inscrit": 1095,
-   "abstention": 130,
+   "inscrits": 1095,
+   "abstentions": 130,
    "pour_abs": {
       "ins": 11.87
    },
-   "votant": 965,
+   "votants": 965,
    "pour_vot": {
       "ins": 88.13
    },
    "blanc_nul": 17,
    "pour_bl_nuls": {
       "ins": 1.55,
-      "Vot": 1.76
+      "vot": 1.76
    },
    "exprimes": 948,
    "pour_exp": {
       "ins": 86.58,
-      "Vot": 98.24
+      "vot": 98.24
    },
    "sexe": [
       "M",
@@ -220,24 +220,24 @@
  {
    "code": 7,
    "nom_com": "Angers",
-   "inscrit": 87552,
-   "abstention": 12659,
+   "inscrits": 87552,
+   "abstentions": 12659,
    "pour_abs": {
       "ins": 14.46
    },
-   "votant": 74893,
+   "votants": 74893,
    "pour_vot": {
       "ins": 85.54
    },
    "blanc_nul": 888,
    "pour_bl_nuls": {
       "ins": 1.01,
-      "Vot": 1.19
+      "vot": 1.19
    },
    "exprimes": 74005,
    "pour_exp": {
       "ins": 84.53,
-      "Vot": 98.81
+      "vot": 98.81
    },
    "sexe": [
       "M",
@@ -329,24 +329,24 @@
  {
    "code": 8,
    "nom_com": "Angrie",
-   "inscrit": 609,
-   "abstention": 75,
+   "inscrits": 609,
+   "abstentions": 75,
    "pour_abs": {
       "ins": 12.32
    },
-   "votant": 534,
+   "votants": 534,
    "pour_vot": {
       "ins": 87.68
    },
    "blanc_nul": 13,
    "pour_bl_nuls": {
       "ins": 2.13,
-      "Vot": 2.43
+      "vot": 2.43
    },
    "exprimes": 521,
    "pour_exp": {
       "ins": 85.55,
-      "Vot": 97.57
+      "vot": 97.57
    },
    "sexe": [
       "M",
@@ -438,24 +438,24 @@
  {
    "code": 9,
    "nom_com": "Antoigné",
-   "inscrit": 325,
-   "abstention": 56,
+   "inscrits": 325,
+   "abstentions": 56,
    "pour_abs": {
       "ins": 17.23
    },
-   "votant": 269,
+   "votants": 269,
    "pour_vot": {
       "ins": 82.77
    },
    "blanc_nul": 5,
    "pour_bl_nuls": {
       "ins": 1.54,
-      "Vot": 1.86
+      "vot": 1.86
    },
    "exprimes": 264,
    "pour_exp": {
       "ins": 81.23,
-      "Vot": 98.14
+      "vot": 98.14
    },
    "sexe": [
       "M",
@@ -547,24 +547,24 @@
  {
    "code": 10,
    "nom_com": "Armaillé",
-   "inscrit": 211,
-   "abstention": 17,
+   "inscrits": 211,
+   "abstentions": 17,
    "pour_abs": {
       "ins": 8.06
    },
-   "votant": 194,
+   "votants": 194,
    "pour_vot": {
       "ins": 91.94
    },
    "blanc_nul": 3,
    "pour_bl_nuls": {
       "ins": 1.42,
-      "Vot": 1.55
+      "vot": 1.55
    },
    "exprimes": 191,
    "pour_exp": {
       "ins": 90.52,
-      "Vot": 98.45
+      "vot": 98.45
    },
    "sexe": [
       "M",
@@ -656,24 +656,24 @@
  {
    "code": 11,
    "nom_com": "Artannes-sur-Thouet",
-   "inscrit": 302,
-   "abstention": 27,
+   "inscrits": 302,
+   "abstentions": 27,
    "pour_abs": {
       "ins": 8.94
    },
-   "votant": 275,
+   "votants": 275,
    "pour_vot": {
       "ins": 91.06
    },
    "blanc_nul": 5,
    "pour_bl_nuls": {
       "ins": 1.66,
-      "Vot": 1.82
+      "vot": 1.82
    },
    "exprimes": 270,
    "pour_exp": {
       "ins": 89.4,
-      "Vot": 98.18
+      "vot": 98.18
    },
    "sexe": [
       "M",
@@ -765,24 +765,24 @@
  {
    "code": 12,
    "nom_com": "Aubigné-sur-Layon",
-   "inscrit": 262,
-   "abstention": 19,
+   "inscrits": 262,
+   "abstentions": 19,
    "pour_abs": {
       "ins": 7.25
    },
-   "votant": 243,
+   "votants": 243,
    "pour_vot": {
       "ins": 92.75
    },
    "blanc_nul": 7,
    "pour_bl_nuls": {
       "ins": 2.67,
-      "Vot": 2.88
+      "vot": 2.88
    },
    "exprimes": 236,
    "pour_exp": {
       "ins": 90.08,
-      "Vot": 97.12
+      "vot": 97.12
    },
    "sexe": [
       "M",
@@ -874,24 +874,24 @@
  {
    "code": 15,
    "nom_com": "Avrillé",
-   "inscrit": 9897,
-   "abstention": 1138,
+   "inscrits": 9897,
+   "abstentions": 1138,
    "pour_abs": {
       "ins": 11.5
    },
-   "votant": 8759,
+   "votants": 8759,
    "pour_vot": {
       "ins": 88.5
    },
    "blanc_nul": 117,
    "pour_bl_nuls": {
       "ins": 1.18,
-      "Vot": 1.34
+      "vot": 1.34
    },
    "exprimes": 8642,
    "pour_exp": {
       "ins": 87.32,
-      "Vot": 98.66
+      "vot": 98.66
    },
    "sexe": [
       "M",
@@ -983,24 +983,24 @@
  {
    "code": 17,
    "nom_com": "Baracé",
-   "inscrit": 296,
-   "abstention": 32,
+   "inscrits": 296,
+   "abstentions": 32,
    "pour_abs": {
       "ins": 10.81
    },
-   "votant": 264,
+   "votants": 264,
    "pour_vot": {
       "ins": 89.19
    },
    "blanc_nul": 7,
    "pour_bl_nuls": {
       "ins": 2.36,
-      "Vot": 2.65
+      "vot": 2.65
    },
    "exprimes": 257,
    "pour_exp": {
       "ins": 86.82,
-      "Vot": 97.35
+      "vot": 97.35
    },
    "sexe": [
       "M",
@@ -1092,24 +1092,24 @@
  {
    "code": 18,
    "nom_com": "Baugé-en-Anjou",
-   "inscrit": 8289,
-   "abstention": 1065,
+   "inscrits": 8289,
+   "abstentions": 1065,
    "pour_abs": {
       "ins": 12.85
    },
-   "votant": 7224,
+   "votants": 7224,
    "pour_vot": {
       "ins": 87.15
    },
    "blanc_nul": 124,
    "pour_bl_nuls": {
       "ins": 1.5,
-      "Vot": 1.72
+      "vot": 1.72
    },
    "exprimes": 7100,
    "pour_exp": {
       "ins": 85.66,
-      "Vot": 98.28
+      "vot": 98.28
    },
    "sexe": [
       "M",
@@ -1201,24 +1201,24 @@
  {
    "code": 20,
    "nom_com": "Beaucouzé",
-   "inscrit": 3872,
-   "abstention": 312,
+   "inscrits": 3872,
+   "abstentions": 312,
    "pour_abs": {
       "ins": 8.06
    },
-   "votant": 3560,
+   "votants": 3560,
    "pour_vot": {
       "ins": 91.94
    },
    "blanc_nul": 34,
    "pour_bl_nuls": {
       "ins": 0.88,
-      "Vot": 0.96
+      "vot": 0.96
    },
    "exprimes": 3526,
    "pour_exp": {
       "ins": 91.06,
-      "Vot": 99.04
+      "vot": 99.04
    },
    "sexe": [
       "M",
@@ -1310,24 +1310,24 @@
  {
    "code": 21,
    "nom_com": "Beaufort-en-Anjou",
-   "inscrit": 4565,
-   "abstention": 666,
+   "inscrits": 4565,
+   "abstentions": 666,
    "pour_abs": {
       "ins": 14.59
    },
-   "votant": 3899,
+   "votants": 3899,
    "pour_vot": {
       "ins": 85.41
    },
    "blanc_nul": 81,
    "pour_bl_nuls": {
       "ins": 1.77,
-      "Vot": 2.08
+      "vot": 2.08
    },
    "exprimes": 3818,
    "pour_exp": {
       "ins": 83.64,
-      "Vot": 97.92
+      "vot": 97.92
    },
    "sexe": [
       "M",
@@ -1419,24 +1419,24 @@
  {
    "code": 22,
    "nom_com": "Beaulieu-sur-Layon",
-   "inscrit": 990,
-   "abstention": 5,
+   "inscrits": 990,
+   "abstentions": 5,
    "pour_abs": {
       "ins": 0.51
    },
-   "votant": 985,
+   "votants": 985,
    "pour_vot": {
       "ins": 99.49
    },
    "blanc_nul": 78,
    "pour_bl_nuls": {
       "ins": 7.88,
-      "Vot": 7.92
+      "vot": 7.92
    },
    "exprimes": 907,
    "pour_exp": {
       "ins": 91.62,
-      "Vot": 92.08
+      "vot": 92.08
    },
    "sexe": [
       "M",
@@ -1528,24 +1528,24 @@
  {
    "code": 23,
    "nom_com": "Beaupréau-en-Mauges",
-   "inscrit": 16285,
-   "abstention": 1860,
+   "inscrits": 16285,
+   "abstentions": 1860,
    "pour_abs": {
       "ins": 11.42
    },
-   "votant": 14425,
+   "votants": 14425,
    "pour_vot": {
       "ins": 88.58
    },
    "blanc_nul": 250,
    "pour_bl_nuls": {
       "ins": 1.54,
-      "Vot": 1.73
+      "vot": 1.73
    },
    "exprimes": 14175,
    "pour_exp": {
       "ins": 87.04,
-      "Vot": 98.27
+      "vot": 98.27
    },
    "sexe": [
       "M",
@@ -1637,24 +1637,24 @@
  {
    "code": 26,
    "nom_com": "Bécon-les-Granits",
-   "inscrit": 1920,
-   "abstention": 177,
+   "inscrits": 1920,
+   "abstentions": 177,
    "pour_abs": {
       "ins": 9.22
    },
-   "votant": 1743,
+   "votants": 1743,
    "pour_vot": {
       "ins": 90.78
    },
    "blanc_nul": 30,
    "pour_bl_nuls": {
       "ins": 1.56,
-      "Vot": 1.72
+      "vot": 1.72
    },
    "exprimes": 1713,
    "pour_exp": {
       "ins": 89.22,
-      "Vot": 98.28
+      "vot": 98.28
    },
    "sexe": [
       "M",
@@ -1746,24 +1746,24 @@
  {
    "code": 27,
    "nom_com": "Bégrolles-en-Mauges",
-   "inscrit": 1291,
-   "abstention": 109,
+   "inscrits": 1291,
+   "abstentions": 109,
    "pour_abs": {
       "ins": 8.44
    },
-   "votant": 1182,
+   "votants": 1182,
    "pour_vot": {
       "ins": 91.56
    },
    "blanc_nul": 28,
    "pour_bl_nuls": {
       "ins": 2.17,
-      "Vot": 2.37
+      "vot": 2.37
    },
    "exprimes": 1154,
    "pour_exp": {
       "ins": 89.39,
-      "Vot": 97.63
+      "vot": 97.63
    },
    "sexe": [
       "M",
@@ -1855,24 +1855,24 @@
  {
    "code": 28,
    "nom_com": "Béhuard",
-   "inscrit": 125,
-   "abstention": 12,
+   "inscrits": 125,
+   "abstentions": 12,
    "pour_abs": {
       "ins": 9.6
    },
-   "votant": 113,
+   "votants": 113,
    "pour_vot": {
       "ins": 90.4
    },
    "blanc_nul": 2,
    "pour_bl_nuls": {
       "ins": 1.6,
-      "Vot": 1.77
+      "vot": 1.77
    },
    "exprimes": 111,
    "pour_exp": {
       "ins": 88.8,
-      "Vot": 98.23
+      "vot": 98.23
    },
    "sexe": [
       "M",
@@ -1964,24 +1964,24 @@
  {
    "code": 29,
    "nom_com": "Blaison-Saint-Sulpice",
-   "inscrit": 969,
-   "abstention": 84,
+   "inscrits": 969,
+   "abstentions": 84,
    "pour_abs": {
       "ins": 8.67
    },
-   "votant": 885,
+   "votants": 885,
    "pour_vot": {
       "ins": 91.33
    },
    "blanc_nul": 13,
    "pour_bl_nuls": {
       "ins": 1.34,
-      "Vot": 1.47
+      "vot": 1.47
    },
    "exprimes": 872,
    "pour_exp": {
       "ins": 89.99,
-      "Vot": 98.53
+      "vot": 98.53
    },
    "sexe": [
       "M",
@@ -2073,24 +2073,24 @@
  {
    "code": 30,
    "nom_com": "Blou",
-   "inscrit": 654,
-   "abstention": 78,
+   "inscrits": 654,
+   "abstentions": 78,
    "pour_abs": {
       "ins": 11.93
    },
-   "votant": 576,
+   "votants": 576,
    "pour_vot": {
       "ins": 88.07
    },
    "blanc_nul": 16,
    "pour_bl_nuls": {
       "ins": 2.45,
-      "Vot": 2.78
+      "vot": 2.78
    },
    "exprimes": 560,
    "pour_exp": {
       "ins": 85.63,
-      "Vot": 97.22
+      "vot": 97.22
    },
    "sexe": [
       "M",
@@ -2182,24 +2182,24 @@
  {
    "code": 35,
    "nom_com": "Bouchemaine",
-   "inscrit": 4860,
-   "abstention": 475,
+   "inscrits": 4860,
+   "abstentions": 475,
    "pour_abs": {
       "ins": 9.77
    },
-   "votant": 4385,
+   "votants": 4385,
    "pour_vot": {
       "ins": 90.23
    },
    "blanc_nul": 37,
    "pour_bl_nuls": {
       "ins": 0.76,
-      "Vot": 0.84
+      "vot": 0.84
    },
    "exprimes": 4348,
    "pour_exp": {
       "ins": 89.47,
-      "Vot": 99.16
+      "vot": 99.16
    },
    "sexe": [
       "M",
@@ -2291,24 +2291,24 @@
  {
    "code": 36,
    "nom_com": "Bouillé-Ménard",
-   "inscrit": 536,
-   "abstention": 75,
+   "inscrits": 536,
+   "abstentions": 75,
    "pour_abs": {
       "ins": 13.99
    },
-   "votant": 461,
+   "votants": 461,
    "pour_vot": {
       "ins": 86.01
    },
    "blanc_nul": 11,
    "pour_bl_nuls": {
       "ins": 2.05,
-      "Vot": 2.39
+      "vot": 2.39
    },
    "exprimes": 450,
    "pour_exp": {
       "ins": 83.96,
-      "Vot": 97.61
+      "vot": 97.61
    },
    "sexe": [
       "M",
@@ -2400,24 +2400,24 @@
  {
    "code": 38,
    "nom_com": "Bourg-l'Evêque",
-   "inscrit": 163,
-   "abstention": 20,
+   "inscrits": 163,
+   "abstentions": 20,
    "pour_abs": {
       "ins": 12.27
    },
-   "votant": 143,
+   "votants": 143,
    "pour_vot": {
       "ins": 87.73
    },
    "blanc_nul": 3,
    "pour_bl_nuls": {
       "ins": 1.84,
-      "Vot": 2.1
+      "vot": 2.1
    },
    "exprimes": 140,
    "pour_exp": {
       "ins": 85.89,
-      "Vot": 97.9
+      "vot": 97.9
    },
    "sexe": [
       "M",
@@ -2509,24 +2509,24 @@
  {
    "code": 41,
    "nom_com": "Brain-sur-Allonnes",
-   "inscrit": 1488,
-   "abstention": 245,
+   "inscrits": 1488,
+   "abstentions": 245,
    "pour_abs": {
       "ins": 16.47
    },
-   "votant": 1243,
+   "votants": 1243,
    "pour_vot": {
       "ins": 83.53
    },
    "blanc_nul": 28,
    "pour_bl_nuls": {
       "ins": 1.88,
-      "Vot": 2.25
+      "vot": 2.25
    },
    "exprimes": 1215,
    "pour_exp": {
       "ins": 81.65,
-      "Vot": 97.75
+      "vot": 97.75
    },
    "sexe": [
       "M",
@@ -2618,24 +2618,24 @@
  {
    "code": 45,
    "nom_com": "La Breille-les-Pins",
-   "inscrit": 334,
-   "abstention": 45,
+   "inscrits": 334,
+   "abstentions": 45,
    "pour_abs": {
       "ins": 13.47
    },
-   "votant": 289,
+   "votants": 289,
    "pour_vot": {
       "ins": 86.53
    },
    "blanc_nul": 4,
    "pour_bl_nuls": {
       "ins": 1.2,
-      "Vot": 1.38
+      "vot": 1.38
    },
    "exprimes": 285,
    "pour_exp": {
       "ins": 85.33,
-      "Vot": 98.62
+      "vot": 98.62
    },
    "sexe": [
       "M",
@@ -2727,24 +2727,24 @@
  {
    "code": 46,
    "nom_com": "Brézé",
-   "inscrit": 935,
-   "abstention": 131,
+   "inscrits": 935,
+   "abstentions": 131,
    "pour_abs": {
       "ins": 14.01
    },
-   "votant": 804,
+   "votants": 804,
    "pour_vot": {
       "ins": 85.99
    },
    "blanc_nul": 17,
    "pour_bl_nuls": {
       "ins": 1.82,
-      "Vot": 2.11
+      "vot": 2.11
    },
    "exprimes": 787,
    "pour_exp": {
       "ins": 84.17,
-      "Vot": 97.89
+      "vot": 97.89
    },
    "sexe": [
       "M",
@@ -2836,24 +2836,24 @@
  {
    "code": 48,
    "nom_com": "Briollay",
-   "inscrit": 1939,
-   "abstention": 173,
+   "inscrits": 1939,
+   "abstentions": 173,
    "pour_abs": {
       "ins": 8.92
    },
-   "votant": 1766,
+   "votants": 1766,
    "pour_vot": {
       "ins": 91.08
    },
    "blanc_nul": 15,
    "pour_bl_nuls": {
       "ins": 0.77,
-      "Vot": 0.85
+      "vot": 0.85
    },
    "exprimes": 1751,
    "pour_exp": {
       "ins": 90.3,
-      "Vot": 99.15
+      "vot": 99.15
    },
    "sexe": [
       "M",
@@ -2945,24 +2945,24 @@
  {
    "code": 50,
    "nom_com": "Brissac-Loire-Aubance",
-   "inscrit": 7244,
-   "abstention": 675,
+   "inscrits": 7244,
+   "abstentions": 675,
    "pour_abs": {
       "ins": 9.32
    },
-   "votant": 6569,
+   "votants": 6569,
    "pour_vot": {
       "ins": 90.68
    },
    "blanc_nul": 109,
    "pour_bl_nuls": {
       "ins": 1.5,
-      "Vot": 1.66
+      "vot": 1.66
    },
    "exprimes": 6460,
    "pour_exp": {
       "ins": 89.18,
-      "Vot": 98.34
+      "vot": 98.34
    },
    "sexe": [
       "M",
@@ -3054,24 +3054,24 @@
  {
    "code": 53,
    "nom_com": "Brossay",
-   "inscrit": 218,
-   "abstention": 26,
+   "inscrits": 218,
+   "abstentions": 26,
    "pour_abs": {
       "ins": 11.93
    },
-   "votant": 192,
+   "votants": 192,
    "pour_vot": {
       "ins": 88.07
    },
    "blanc_nul": 6,
    "pour_bl_nuls": {
       "ins": 2.75,
-      "Vot": 3.13
+      "vot": 3.13
    },
    "exprimes": 186,
    "pour_exp": {
       "ins": 85.32,
-      "Vot": 96.88
+      "vot": 96.88
    },
    "sexe": [
       "M",
@@ -3163,24 +3163,24 @@
  {
    "code": 54,
    "nom_com": "Candé",
-   "inscrit": 1903,
-   "abstention": 244,
+   "inscrits": 1903,
+   "abstentions": 244,
    "pour_abs": {
       "ins": 12.82
    },
-   "votant": 1659,
+   "votants": 1659,
    "pour_vot": {
       "ins": 87.18
    },
    "blanc_nul": 45,
    "pour_bl_nuls": {
       "ins": 2.36,
-      "Vot": 2.71
+      "vot": 2.71
    },
    "exprimes": 1614,
    "pour_exp": {
       "ins": 84.81,
-      "Vot": 97.29
+      "vot": 97.29
    },
    "sexe": [
       "M",
@@ -3272,24 +3272,24 @@
  {
    "code": 55,
    "nom_com": "Cantenay-Epinard",
-   "inscrit": 1501,
-   "abstention": 114,
+   "inscrits": 1501,
+   "abstentions": 114,
    "pour_abs": {
       "ins": 7.59
    },
-   "votant": 1387,
+   "votants": 1387,
    "pour_vot": {
       "ins": 92.41
    },
    "blanc_nul": 14,
    "pour_bl_nuls": {
       "ins": 0.93,
-      "Vot": 1.01
+      "vot": 1.01
    },
    "exprimes": 1373,
    "pour_exp": {
       "ins": 91.47,
-      "Vot": 98.99
+      "vot": 98.99
    },
    "sexe": [
       "M",
@@ -3381,24 +3381,24 @@
  {
    "code": 56,
    "nom_com": "Carbay",
-   "inscrit": 195,
-   "abstention": 18,
+   "inscrits": 195,
+   "abstentions": 18,
    "pour_abs": {
       "ins": 9.23
    },
-   "votant": 177,
+   "votants": 177,
    "pour_vot": {
       "ins": 90.77
    },
    "blanc_nul": 3,
    "pour_bl_nuls": {
       "ins": 1.54,
-      "Vot": 1.69
+      "vot": 1.69
    },
    "exprimes": 174,
    "pour_exp": {
       "ins": 89.23,
-      "Vot": 98.31
+      "vot": 98.31
    },
    "sexe": [
       "M",
@@ -3490,24 +3490,24 @@
  {
    "code": 57,
    "nom_com": "Cernusson",
-   "inscrit": 212,
-   "abstention": 29,
+   "inscrits": 212,
+   "abstentions": 29,
    "pour_abs": {
       "ins": 13.68
    },
-   "votant": 183,
+   "votants": 183,
    "pour_vot": {
       "ins": 86.32
    },
    "blanc_nul": 6,
    "pour_bl_nuls": {
       "ins": 2.83,
-      "Vot": 3.28
+      "vot": 3.28
    },
    "exprimes": 177,
    "pour_exp": {
       "ins": 83.49,
-      "Vot": 96.72
+      "vot": 96.72
    },
    "sexe": [
       "M",
@@ -3599,24 +3599,24 @@
  {
    "code": 58,
    "nom_com": "Les Cerqueux",
-   "inscrit": 582,
-   "abstention": 77,
+   "inscrits": 582,
+   "abstentions": 77,
    "pour_abs": {
       "ins": 13.23
    },
-   "votant": 505,
+   "votants": 505,
    "pour_vot": {
       "ins": 86.77
    },
    "blanc_nul": 4,
    "pour_bl_nuls": {
       "ins": 0.69,
-      "Vot": 0.79
+      "vot": 0.79
    },
    "exprimes": 501,
    "pour_exp": {
       "ins": 86.08,
-      "Vot": 99.21
+      "vot": 99.21
    },
    "sexe": [
       "M",
@@ -3708,24 +3708,24 @@
  {
    "code": 60,
    "nom_com": "Chacé",
-   "inscrit": 960,
-   "abstention": 139,
+   "inscrits": 960,
+   "abstentions": 139,
    "pour_abs": {
       "ins": 14.48
    },
-   "votant": 821,
+   "votants": 821,
    "pour_vot": {
       "ins": 85.52
    },
    "blanc_nul": 7,
    "pour_bl_nuls": {
       "ins": 0.73,
-      "Vot": 0.85
+      "vot": 0.85
    },
    "exprimes": 814,
    "pour_exp": {
       "ins": 84.79,
-      "Vot": 99.15
+      "vot": 99.15
    },
    "sexe": [
       "M",
@@ -3817,24 +3817,24 @@
  {
    "code": 61,
    "nom_com": "Challain-la-Potherie",
-   "inscrit": 607,
-   "abstention": 42,
+   "inscrits": 607,
+   "abstentions": 42,
    "pour_abs": {
       "ins": 6.92
    },
-   "votant": 565,
+   "votants": 565,
    "pour_vot": {
       "ins": 93.08
    },
    "blanc_nul": 13,
    "pour_bl_nuls": {
       "ins": 2.14,
-      "Vot": 2.3
+      "vot": 2.3
    },
    "exprimes": 552,
    "pour_exp": {
       "ins": 90.94,
-      "Vot": 97.7
+      "vot": 97.7
    },
    "sexe": [
       "M",
@@ -3926,24 +3926,24 @@
  {
    "code": 63,
    "nom_com": "Chalonnes-sur-Loire",
-   "inscrit": 4551,
-   "abstention": 573,
+   "inscrits": 4551,
+   "abstentions": 573,
    "pour_abs": {
       "ins": 12.59
    },
-   "votant": 3978,
+   "votants": 3978,
    "pour_vot": {
       "ins": 87.41
    },
    "blanc_nul": 70,
    "pour_bl_nuls": {
       "ins": 1.54,
-      "Vot": 1.76
+      "vot": 1.76
    },
    "exprimes": 3908,
    "pour_exp": {
       "ins": 85.87,
-      "Vot": 98.24
+      "vot": 98.24
    },
    "sexe": [
       "M",
@@ -4035,24 +4035,24 @@
  {
    "code": 64,
    "nom_com": "Chambellay",
-   "inscrit": 241,
-   "abstention": 23,
+   "inscrits": 241,
+   "abstentions": 23,
    "pour_abs": {
       "ins": 9.54
    },
-   "votant": 218,
+   "votants": 218,
    "pour_vot": {
       "ins": 90.46
    },
    "blanc_nul": 5,
    "pour_bl_nuls": {
       "ins": 2.07,
-      "Vot": 2.29
+      "vot": 2.29
    },
    "exprimes": 213,
    "pour_exp": {
       "ins": 88.38,
-      "Vot": 97.71
+      "vot": 97.71
    },
    "sexe": [
       "M",
@@ -4144,24 +4144,24 @@
  {
    "code": 65,
    "nom_com": "Les Hauts-d'Anjou",
-   "inscrit": 3410,
-   "abstention": 348,
+   "inscrits": 3410,
+   "abstentions": 348,
    "pour_abs": {
       "ins": 10.21
    },
-   "votant": 3062,
+   "votants": 3062,
    "pour_vot": {
       "ins": 89.79
    },
    "blanc_nul": 66,
    "pour_bl_nuls": {
       "ins": 1.94,
-      "Vot": 2.16
+      "vot": 2.16
    },
    "exprimes": 2996,
    "pour_exp": {
       "ins": 87.86,
-      "Vot": 97.84
+      "vot": 97.84
    },
    "sexe": [
       "M",
@@ -4253,24 +4253,24 @@
  {
    "code": 67,
    "nom_com": "Chenillé-Champteussé",
-   "inscrit": 264,
-   "abstention": 24,
+   "inscrits": 264,
+   "abstentions": 24,
    "pour_abs": {
       "ins": 9.09
    },
-   "votant": 240,
+   "votants": 240,
    "pour_vot": {
       "ins": 90.91
    },
    "blanc_nul": 7,
    "pour_bl_nuls": {
       "ins": 2.65,
-      "Vot": 2.92
+      "vot": 2.92
    },
    "exprimes": 233,
    "pour_exp": {
       "ins": 88.26,
-      "Vot": 97.08
+      "vot": 97.08
    },
    "sexe": [
       "M",
@@ -4362,24 +4362,24 @@
  {
    "code": 68,
    "nom_com": "Champtocé-sur-Loire",
-   "inscrit": 1252,
-   "abstention": 140,
+   "inscrits": 1252,
+   "abstentions": 140,
    "pour_abs": {
       "ins": 11.18
    },
-   "votant": 1112,
+   "votants": 1112,
    "pour_vot": {
       "ins": 88.82
    },
    "blanc_nul": 18,
    "pour_bl_nuls": {
       "ins": 1.44,
-      "Vot": 1.62
+      "vot": 1.62
    },
    "exprimes": 1094,
    "pour_exp": {
       "ins": 87.38,
-      "Vot": 98.38
+      "vot": 98.38
    },
    "sexe": [
       "M",
@@ -4471,24 +4471,24 @@
  {
    "code": 69,
    "nom_com": "Orée-d'Anjou",
-   "inscrit": 10883,
-   "abstention": 1200,
+   "inscrits": 10883,
+   "abstentions": 1200,
    "pour_abs": {
       "ins": 11.03
    },
-   "votant": 9683,
+   "votants": 9683,
    "pour_vot": {
       "ins": 88.97
    },
    "blanc_nul": 202,
    "pour_bl_nuls": {
       "ins": 1.86,
-      "Vot": 2.09
+      "vot": 2.09
    },
    "exprimes": 9481,
    "pour_exp": {
       "ins": 87.12,
-      "Vot": 97.91
+      "vot": 97.91
    },
    "sexe": [
       "M",
@@ -4580,24 +4580,24 @@
  {
    "code": 70,
    "nom_com": "Chanteloup-les-Bois",
-   "inscrit": 516,
-   "abstention": 61,
+   "inscrits": 516,
+   "abstentions": 61,
    "pour_abs": {
       "ins": 11.82
    },
-   "votant": 455,
+   "votants": 455,
    "pour_vot": {
       "ins": 88.18
    },
    "blanc_nul": 9,
    "pour_bl_nuls": {
       "ins": 1.74,
-      "Vot": 1.98
+      "vot": 1.98
    },
    "exprimes": 446,
    "pour_exp": {
       "ins": 86.43,
-      "Vot": 98.02
+      "vot": 98.02
    },
    "sexe": [
       "M",
@@ -4689,24 +4689,24 @@
  {
    "code": 76,
    "nom_com": "La Chapelle-Saint-Laud",
-   "inscrit": 417,
-   "abstention": 30,
+   "inscrits": 417,
+   "abstentions": 30,
    "pour_abs": {
       "ins": 7.19
    },
-   "votant": 387,
+   "votants": 387,
    "pour_vot": {
       "ins": 92.81
    },
    "blanc_nul": 9,
    "pour_bl_nuls": {
       "ins": 2.16,
-      "Vot": 2.33
+      "vot": 2.33
    },
    "exprimes": 378,
    "pour_exp": {
       "ins": 90.65,
-      "Vot": 97.67
+      "vot": 97.67
    },
    "sexe": [
       "M",
@@ -4798,24 +4798,24 @@
  {
    "code": 80,
    "nom_com": "Châteauneuf-sur-Sarthe",
-   "inscrit": 1888,
-   "abstention": 258,
+   "inscrits": 1888,
+   "abstentions": 258,
    "pour_abs": {
       "ins": 13.67
    },
-   "votant": 1630,
+   "votants": 1630,
    "pour_vot": {
       "ins": 86.33
    },
    "blanc_nul": 35,
    "pour_bl_nuls": {
       "ins": 1.85,
-      "Vot": 2.15
+      "vot": 2.15
    },
    "exprimes": 1595,
    "pour_exp": {
       "ins": 84.48,
-      "Vot": 97.85
+      "vot": 97.85
    },
    "sexe": [
       "M",
@@ -4907,24 +4907,24 @@
  {
    "code": 82,
    "nom_com": "Chaudefonds-sur-Layon",
-   "inscrit": 745,
-   "abstention": 101,
+   "inscrits": 745,
+   "abstentions": 101,
    "pour_abs": {
       "ins": 13.56
    },
-   "votant": 644,
+   "votants": 644,
    "pour_vot": {
       "ins": 86.44
    },
    "blanc_nul": 17,
    "pour_bl_nuls": {
       "ins": 2.28,
-      "Vot": 2.64
+      "vot": 2.64
    },
    "exprimes": 627,
    "pour_exp": {
       "ins": 84.16,
-      "Vot": 97.36
+      "vot": 97.36
    },
    "sexe": [
       "M",
@@ -5016,24 +5016,24 @@
  {
    "code": 86,
    "nom_com": "Terranjou",
-   "inscrit": 2384,
-   "abstention": 251,
+   "inscrits": 2384,
+   "abstentions": 251,
    "pour_abs": {
       "ins": 10.53
    },
-   "votant": 2133,
+   "votants": 2133,
    "pour_vot": {
       "ins": 89.47
    },
    "blanc_nul": 38,
    "pour_bl_nuls": {
       "ins": 1.59,
-      "Vot": 1.78
+      "vot": 1.78
    },
    "exprimes": 2095,
    "pour_exp": {
       "ins": 87.88,
-      "Vot": 98.22
+      "vot": 98.22
    },
    "sexe": [
       "M",
@@ -5125,24 +5125,24 @@
  {
    "code": 89,
    "nom_com": "Chazé-sur-Argos",
-   "inscrit": 734,
-   "abstention": 76,
+   "inscrits": 734,
+   "abstentions": 76,
    "pour_abs": {
       "ins": 10.35
    },
-   "votant": 658,
+   "votants": 658,
    "pour_vot": {
       "ins": 89.65
    },
    "blanc_nul": 14,
    "pour_bl_nuls": {
       "ins": 1.91,
-      "Vot": 2.13
+      "vot": 2.13
    },
    "exprimes": 644,
    "pour_exp": {
       "ins": 87.74,
-      "Vot": 97.87
+      "vot": 97.87
    },
    "sexe": [
       "M",
@@ -5234,24 +5234,24 @@
  {
    "code": 90,
    "nom_com": "Cheffes",
-   "inscrit": 609,
-   "abstention": 50,
+   "inscrits": 609,
+   "abstentions": 50,
    "pour_abs": {
       "ins": 8.21
    },
-   "votant": 559,
+   "votants": 559,
    "pour_vot": {
       "ins": 91.79
    },
    "blanc_nul": 5,
    "pour_bl_nuls": {
       "ins": 0.82,
-      "Vot": 0.89
+      "vot": 0.89
    },
    "exprimes": 554,
    "pour_exp": {
       "ins": 90.97,
-      "Vot": 99.11
+      "vot": 99.11
    },
    "sexe": [
       "M",
@@ -5343,24 +5343,24 @@
  {
    "code": 92,
    "nom_com": "Chemillé-en-Anjou",
-   "inscrit": 14768,
-   "abstention": 1797,
+   "inscrits": 14768,
+   "abstentions": 1797,
    "pour_abs": {
       "ins": 12.17
    },
-   "votant": 12971,
+   "votants": 12971,
    "pour_vot": {
       "ins": 87.83
    },
    "blanc_nul": 259,
    "pour_bl_nuls": {
       "ins": 1.75,
-      "Vot": 2
+      "vot": 2
    },
    "exprimes": 12712,
    "pour_exp": {
       "ins": 86.08,
-      "Vot": 98
+      "vot": 98
    },
    "sexe": [
       "M",
@@ -5452,24 +5452,24 @@
  {
    "code": 99,
    "nom_com": "Cholet",
-   "inscrit": 36132,
-   "abstention": 4920,
+   "inscrits": 36132,
+   "abstentions": 4920,
    "pour_abs": {
       "ins": 13.62
    },
-   "votant": 31212,
+   "votants": 31212,
    "pour_vot": {
       "ins": 86.38
    },
    "blanc_nul": 424,
    "pour_bl_nuls": {
       "ins": 1.17,
-      "Vot": 1.36
+      "vot": 1.36
    },
    "exprimes": 30788,
    "pour_exp": {
       "ins": 85.21,
-      "Vot": 98.64
+      "vot": 98.64
    },
    "sexe": [
       "M",
@@ -5561,24 +5561,24 @@
  {
    "code": 100,
    "nom_com": "Cizay-la-Madeleine",
-   "inscrit": 324,
-   "abstention": 46,
+   "inscrits": 324,
+   "abstentions": 46,
    "pour_abs": {
       "ins": 14.2
    },
-   "votant": 278,
+   "votants": 278,
    "pour_vot": {
       "ins": 85.8
    },
    "blanc_nul": 7,
    "pour_bl_nuls": {
       "ins": 2.16,
-      "Vot": 2.52
+      "vot": 2.52
    },
    "exprimes": 271,
    "pour_exp": {
       "ins": 83.64,
-      "Vot": 97.48
+      "vot": 97.48
    },
    "sexe": [
       "M",
@@ -5670,24 +5670,24 @@
  {
    "code": 102,
    "nom_com": "Cléré-sur-Layon",
-   "inscrit": 243,
-   "abstention": 27,
+   "inscrits": 243,
+   "abstentions": 27,
    "pour_abs": {
       "ins": 11.11
    },
-   "votant": 216,
+   "votants": 216,
    "pour_vot": {
       "ins": 88.89
    },
    "blanc_nul": 1,
    "pour_bl_nuls": {
       "ins": 0.41,
-      "Vot": 0.46
+      "vot": 0.46
    },
    "exprimes": 215,
    "pour_exp": {
       "ins": 88.48,
-      "Vot": 99.54
+      "vot": 99.54
    },
    "sexe": [
       "M",
@@ -5779,24 +5779,24 @@
  {
    "code": 107,
    "nom_com": "Cornillé-les-Caves",
-   "inscrit": 340,
-   "abstention": 38,
+   "inscrits": 340,
+   "abstentions": 38,
    "pour_abs": {
       "ins": 11.18
    },
-   "votant": 302,
+   "votants": 302,
    "pour_vot": {
       "ins": 88.82
    },
    "blanc_nul": 3,
    "pour_bl_nuls": {
       "ins": 0.88,
-      "Vot": 0.99
+      "vot": 0.99
    },
    "exprimes": 299,
    "pour_exp": {
       "ins": 87.94,
-      "Vot": 99.01
+      "vot": 99.01
    },
    "sexe": [
       "M",
@@ -5888,24 +5888,24 @@
  {
    "code": 109,
    "nom_com": "Coron",
-   "inscrit": 1020,
-   "abstention": 104,
+   "inscrits": 1020,
+   "abstentions": 104,
    "pour_abs": {
       "ins": 10.2
    },
-   "votant": 916,
+   "votants": 916,
    "pour_vot": {
       "ins": 89.8
    },
    "blanc_nul": 13,
    "pour_bl_nuls": {
       "ins": 1.27,
-      "Vot": 1.42
+      "vot": 1.42
    },
    "exprimes": 903,
    "pour_exp": {
       "ins": 88.53,
-      "Vot": 98.58
+      "vot": 98.58
    },
    "sexe": [
       "M",
@@ -5997,24 +5997,24 @@
  {
    "code": 110,
    "nom_com": "Corzé",
-   "inscrit": 1227,
-   "abstention": 132,
+   "inscrits": 1227,
+   "abstentions": 132,
    "pour_abs": {
       "ins": 10.76
    },
-   "votant": 1095,
+   "votants": 1095,
    "pour_vot": {
       "ins": 89.24
    },
    "blanc_nul": 21,
    "pour_bl_nuls": {
       "ins": 1.71,
-      "Vot": 1.92
+      "vot": 1.92
    },
    "exprimes": 1074,
    "pour_exp": {
       "ins": 87.53,
-      "Vot": 98.08
+      "vot": 98.08
    },
    "sexe": [
       "M",
@@ -6106,24 +6106,24 @@
  {
    "code": 112,
    "nom_com": "Le Coudray-Macouard",
-   "inscrit": 762,
-   "abstention": 106,
+   "inscrits": 762,
+   "abstentions": 106,
    "pour_abs": {
       "ins": 13.91
    },
-   "votant": 656,
+   "votants": 656,
    "pour_vot": {
       "ins": 86.09
    },
    "blanc_nul": 7,
    "pour_bl_nuls": {
       "ins": 0.92,
-      "Vot": 1.07
+      "vot": 1.07
    },
    "exprimes": 649,
    "pour_exp": {
       "ins": 85.17,
-      "Vot": 98.93
+      "vot": 98.93
    },
    "sexe": [
       "M",
@@ -6215,24 +6215,24 @@
  {
    "code": 113,
    "nom_com": "Courchamps",
-   "inscrit": 334,
-   "abstention": 36,
+   "inscrits": 334,
+   "abstentions": 36,
    "pour_abs": {
       "ins": 10.78
    },
-   "votant": 298,
+   "votants": 298,
    "pour_vot": {
       "ins": 89.22
    },
    "blanc_nul": 7,
    "pour_bl_nuls": {
       "ins": 2.1,
-      "Vot": 2.35
+      "vot": 2.35
    },
    "exprimes": 291,
    "pour_exp": {
       "ins": 87.13,
-      "Vot": 97.65
+      "vot": 97.65
    },
    "sexe": [
       "M",
@@ -6324,24 +6324,24 @@
  {
    "code": 114,
    "nom_com": "Courléon",
-   "inscrit": 123,
-   "abstention": 22,
+   "inscrits": 123,
+   "abstentions": 22,
    "pour_abs": {
       "ins": 17.89
    },
-   "votant": 101,
+   "votants": 101,
    "pour_vot": {
       "ins": 82.11
    },
    "blanc_nul": 2,
    "pour_bl_nuls": {
       "ins": 1.63,
-      "Vot": 1.98
+      "vot": 1.98
    },
    "exprimes": 99,
    "pour_exp": {
       "ins": 80.49,
-      "Vot": 98.02
+      "vot": 98.02
    },
    "sexe": [
       "M",
@@ -6433,24 +6433,24 @@
  {
    "code": 120,
    "nom_com": "Denée",
-   "inscrit": 1047,
-   "abstention": 100,
+   "inscrits": 1047,
+   "abstentions": 100,
    "pour_abs": {
       "ins": 9.55
    },
-   "votant": 947,
+   "votants": 947,
    "pour_vot": {
       "ins": 90.45
    },
    "blanc_nul": 16,
    "pour_bl_nuls": {
       "ins": 1.53,
-      "Vot": 1.69
+      "vot": 1.69
    },
    "exprimes": 931,
    "pour_exp": {
       "ins": 88.92,
-      "Vot": 98.31
+      "vot": 98.31
    },
    "sexe": [
       "M",
@@ -6542,24 +6542,24 @@
  {
    "code": 121,
    "nom_com": "Dénezé-sous-Doué",
-   "inscrit": 330,
-   "abstention": 37,
+   "inscrits": 330,
+   "abstentions": 37,
    "pour_abs": {
       "ins": 11.21
    },
-   "votant": 293,
+   "votants": 293,
    "pour_vot": {
       "ins": 88.79
    },
    "blanc_nul": 9,
    "pour_bl_nuls": {
       "ins": 2.73,
-      "Vot": 3.07
+      "vot": 3.07
    },
    "exprimes": 284,
    "pour_exp": {
       "ins": 86.06,
-      "Vot": 96.93
+      "vot": 96.93
    },
    "sexe": [
       "M",
@@ -6651,24 +6651,24 @@
  {
    "code": 123,
    "nom_com": "Distré",
-   "inscrit": 1025,
-   "abstention": 89,
+   "inscrits": 1025,
+   "abstentions": 89,
    "pour_abs": {
       "ins": 8.68
    },
-   "votant": 936,
+   "votants": 936,
    "pour_vot": {
       "ins": 91.32
    },
    "blanc_nul": 17,
    "pour_bl_nuls": {
       "ins": 1.66,
-      "Vot": 1.82
+      "vot": 1.82
    },
    "exprimes": 919,
    "pour_exp": {
       "ins": 89.66,
-      "Vot": 98.18
+      "vot": 98.18
    },
    "sexe": [
       "M",
@@ -6760,24 +6760,24 @@
  {
    "code": 125,
    "nom_com": "Doué-en-Anjou",
-   "inscrit": 7955,
-   "abstention": 1259,
+   "inscrits": 7955,
+   "abstentions": 1259,
    "pour_abs": {
       "ins": 15.83
    },
-   "votant": 6696,
+   "votants": 6696,
    "pour_vot": {
       "ins": 84.17
    },
    "blanc_nul": 148,
    "pour_bl_nuls": {
       "ins": 1.86,
-      "Vot": 2.21
+      "vot": 2.21
    },
    "exprimes": 6548,
    "pour_exp": {
       "ins": 82.31,
-      "Vot": 97.79
+      "vot": 97.79
    },
    "sexe": [
       "M",
@@ -6869,24 +6869,24 @@
  {
    "code": 127,
    "nom_com": "Durtal",
-   "inscrit": 2464,
-   "abstention": 380,
+   "inscrits": 2464,
+   "abstentions": 380,
    "pour_abs": {
       "ins": 15.42
    },
-   "votant": 2084,
+   "votants": 2084,
    "pour_vot": {
       "ins": 84.58
    },
    "blanc_nul": 45,
    "pour_bl_nuls": {
       "ins": 1.83,
-      "Vot": 2.16
+      "vot": 2.16
    },
    "exprimes": 2039,
    "pour_exp": {
       "ins": 82.75,
-      "Vot": 97.84
+      "vot": 97.84
    },
    "sexe": [
       "M",
@@ -6978,24 +6978,24 @@
  {
    "code": 129,
    "nom_com": "Ecouflant",
-   "inscrit": 2838,
-   "abstention": 243,
+   "inscrits": 2838,
+   "abstentions": 243,
    "pour_abs": {
       "ins": 8.56
    },
-   "votant": 2595,
+   "votants": 2595,
    "pour_vot": {
       "ins": 91.44
    },
    "blanc_nul": 51,
    "pour_bl_nuls": {
       "ins": 1.8,
-      "Vot": 1.97
+      "vot": 1.97
    },
    "exprimes": 2544,
    "pour_exp": {
       "ins": 89.64,
-      "Vot": 98.03
+      "vot": 98.03
    },
    "sexe": [
       "M",
@@ -7087,24 +7087,24 @@
  {
    "code": 130,
    "nom_com": "Ecuillé",
-   "inscrit": 416,
-   "abstention": 39,
+   "inscrits": 416,
+   "abstentions": 39,
    "pour_abs": {
       "ins": 9.38
    },
-   "votant": 377,
+   "votants": 377,
    "pour_vot": {
       "ins": 90.63
    },
    "blanc_nul": 5,
    "pour_bl_nuls": {
       "ins": 1.2,
-      "Vot": 1.33
+      "vot": 1.33
    },
    "exprimes": 372,
    "pour_exp": {
       "ins": 89.42,
-      "Vot": 98.67
+      "vot": 98.67
    },
    "sexe": [
       "M",
@@ -7196,24 +7196,24 @@
  {
    "code": 131,
    "nom_com": "Epieds",
-   "inscrit": 466,
-   "abstention": 57,
+   "inscrits": 466,
+   "abstentions": 57,
    "pour_abs": {
       "ins": 12.23
    },
-   "votant": 409,
+   "votants": 409,
    "pour_vot": {
       "ins": 87.77
    },
    "blanc_nul": 10,
    "pour_bl_nuls": {
       "ins": 2.15,
-      "Vot": 2.44
+      "vot": 2.44
    },
    "exprimes": 399,
    "pour_exp": {
       "ins": 85.62,
-      "Vot": 97.56
+      "vot": 97.56
    },
    "sexe": [
       "M",
@@ -7305,24 +7305,24 @@
  {
    "code": 132,
    "nom_com": "Etriché",
-   "inscrit": 981,
-   "abstention": 98,
+   "inscrits": 981,
+   "abstentions": 98,
    "pour_abs": {
       "ins": 9.99
    },
-   "votant": 883,
+   "votants": 883,
    "pour_vot": {
       "ins": 90.01
    },
    "blanc_nul": 17,
    "pour_bl_nuls": {
       "ins": 1.73,
-      "Vot": 1.93
+      "vot": 1.93
    },
    "exprimes": 866,
    "pour_exp": {
       "ins": 88.28,
-      "Vot": 98.07
+      "vot": 98.07
    },
    "sexe": [
       "M",
@@ -7414,24 +7414,24 @@
  {
    "code": 135,
    "nom_com": "Feneu",
-   "inscrit": 1500,
-   "abstention": 193,
+   "inscrits": 1500,
+   "abstentions": 193,
    "pour_abs": {
       "ins": 12.87
    },
-   "votant": 1307,
+   "votants": 1307,
    "pour_vot": {
       "ins": 87.13
    },
    "blanc_nul": 18,
    "pour_bl_nuls": {
       "ins": 1.2,
-      "Vot": 1.38
+      "vot": 1.38
    },
    "exprimes": 1289,
    "pour_exp": {
       "ins": 85.93,
-      "Vot": 98.62
+      "vot": 98.62
    },
    "sexe": [
       "M",
@@ -7523,24 +7523,24 @@
  {
    "code": 138,
    "nom_com": "Les Bois-d'Anjou",
-   "inscrit": 1761,
-   "abstention": 242,
+   "inscrits": 1761,
+   "abstentions": 242,
    "pour_abs": {
       "ins": 13.74
    },
-   "votant": 1519,
+   "votants": 1519,
    "pour_vot": {
       "ins": 86.26
    },
    "blanc_nul": 24,
    "pour_bl_nuls": {
       "ins": 1.36,
-      "Vot": 1.58
+      "vot": 1.58
    },
    "exprimes": 1495,
    "pour_exp": {
       "ins": 84.89,
-      "Vot": 98.42
+      "vot": 98.42
    },
    "sexe": [
       "M",
@@ -7632,24 +7632,24 @@
  {
    "code": 140,
    "nom_com": "Fontevraud-l'Abbaye",
-   "inscrit": 904,
-   "abstention": 133,
+   "inscrits": 904,
+   "abstentions": 133,
    "pour_abs": {
       "ins": 14.71
    },
-   "votant": 771,
+   "votants": 771,
    "pour_vot": {
       "ins": 85.29
    },
    "blanc_nul": 7,
    "pour_bl_nuls": {
       "ins": 0.77,
-      "Vot": 0.91
+      "vot": 0.91
    },
    "exprimes": 764,
    "pour_exp": {
       "ins": 84.51,
-      "Vot": 99.09
+      "vot": 99.09
    },
    "sexe": [
       "M",
@@ -7741,24 +7741,24 @@
  {
    "code": 144,
    "nom_com": "Freigné",
-   "inscrit": 815,
-   "abstention": 110,
+   "inscrits": 815,
+   "abstentions": 110,
    "pour_abs": {
       "ins": 13.5
    },
-   "votant": 705,
+   "votants": 705,
    "pour_vot": {
       "ins": 86.5
    },
    "blanc_nul": 14,
    "pour_bl_nuls": {
       "ins": 1.72,
-      "Vot": 1.99
+      "vot": 1.99
    },
    "exprimes": 691,
    "pour_exp": {
       "ins": 84.79,
-      "Vot": 98.01
+      "vot": 98.01
    },
    "sexe": [
       "M",
@@ -7850,24 +7850,24 @@
  {
    "code": 149,
    "nom_com": "Gennes-Val-de-Loire",
-   "inscrit": 3437,
-   "abstention": 366,
+   "inscrits": 3437,
+   "abstentions": 366,
    "pour_abs": {
       "ins": 10.65
    },
-   "votant": 3071,
+   "votants": 3071,
    "pour_vot": {
       "ins": 89.35
    },
    "blanc_nul": 35,
    "pour_bl_nuls": {
       "ins": 1.02,
-      "Vot": 1.14
+      "vot": 1.14
    },
    "exprimes": 3036,
    "pour_exp": {
       "ins": 88.33,
-      "Vot": 98.86
+      "vot": 98.86
    },
    "sexe": [
       "M",
@@ -7959,24 +7959,24 @@
  {
    "code": 155,
    "nom_com": "Grez-Neuville",
-   "inscrit": 988,
-   "abstention": 77,
+   "inscrits": 988,
+   "abstentions": 77,
    "pour_abs": {
       "ins": 7.79
    },
-   "votant": 911,
+   "votants": 911,
    "pour_vot": {
       "ins": 92.21
    },
    "blanc_nul": 16,
    "pour_bl_nuls": {
       "ins": 1.62,
-      "Vot": 1.76
+      "vot": 1.76
    },
    "exprimes": 895,
    "pour_exp": {
       "ins": 90.59,
-      "Vot": 98.24
+      "vot": 98.24
    },
    "sexe": [
       "M",
@@ -8068,24 +8068,24 @@
  {
    "code": 159,
    "nom_com": "Huillé",
-   "inscrit": 387,
-   "abstention": 52,
+   "inscrits": 387,
+   "abstentions": 52,
    "pour_abs": {
       "ins": 13.44
    },
-   "votant": 335,
+   "votants": 335,
    "pour_vot": {
       "ins": 86.56
    },
    "blanc_nul": 7,
    "pour_bl_nuls": {
       "ins": 1.81,
-      "Vot": 2.09
+      "vot": 2.09
    },
    "exprimes": 328,
    "pour_exp": {
       "ins": 84.75,
-      "Vot": 97.91
+      "vot": 97.91
    },
    "sexe": [
       "M",
@@ -8177,24 +8177,24 @@
  {
    "code": 160,
    "nom_com": "Ingrandes-Le-Fresne-sur-Loire",
-   "inscrit": 1131,
-   "abstention": 144,
+   "inscrits": 1131,
+   "abstentions": 144,
    "pour_abs": {
       "ins": 12.73
    },
-   "votant": 987,
+   "votants": 987,
    "pour_vot": {
       "ins": 87.27
    },
    "blanc_nul": 18,
    "pour_bl_nuls": {
       "ins": 1.59,
-      "Vot": 1.82
+      "vot": 1.82
    },
    "exprimes": 969,
    "pour_exp": {
       "ins": 85.68,
-      "Vot": 98.18
+      "vot": 98.18
    },
    "sexe": [
       "M",
@@ -8286,24 +8286,24 @@
  {
    "code": 161,
    "nom_com": "La Jaille-Yvon",
-   "inscrit": 212,
-   "abstention": 15,
+   "inscrits": 212,
+   "abstentions": 15,
    "pour_abs": {
       "ins": 7.08
    },
-   "votant": 197,
+   "votants": 197,
    "pour_vot": {
       "ins": 92.92
    },
    "blanc_nul": 3,
    "pour_bl_nuls": {
       "ins": 1.42,
-      "Vot": 1.52
+      "vot": 1.52
    },
    "exprimes": 194,
    "pour_exp": {
       "ins": 91.51,
-      "Vot": 98.48
+      "vot": 98.48
    },
    "sexe": [
       "M",
@@ -8395,24 +8395,24 @@
  {
    "code": 163,
    "nom_com": "Jarzé-Villages",
-   "inscrit": 1686,
-   "abstention": 181,
+   "inscrits": 1686,
+   "abstentions": 181,
    "pour_abs": {
       "ins": 10.74
    },
-   "votant": 1505,
+   "votants": 1505,
    "pour_vot": {
       "ins": 89.26
    },
    "blanc_nul": 33,
    "pour_bl_nuls": {
       "ins": 1.96,
-      "Vot": 2.19
+      "vot": 2.19
    },
    "exprimes": 1472,
    "pour_exp": {
       "ins": 87.31,
-      "Vot": 97.81
+      "vot": 97.81
    },
    "sexe": [
       "M",
@@ -8504,24 +8504,24 @@
  {
    "code": 167,
    "nom_com": "Les Garennes-sur-Loire",
-   "inscrit": 3342,
-   "abstention": 328,
+   "inscrits": 3342,
+   "abstentions": 328,
    "pour_abs": {
       "ins": 9.81
    },
-   "votant": 3014,
+   "votants": 3014,
    "pour_vot": {
       "ins": 90.19
    },
    "blanc_nul": 39,
    "pour_bl_nuls": {
       "ins": 1.17,
-      "Vot": 1.29
+      "vot": 1.29
    },
    "exprimes": 2975,
    "pour_exp": {
       "ins": 89.02,
-      "Vot": 98.71
+      "vot": 98.71
    },
    "sexe": [
       "M",
@@ -8613,24 +8613,24 @@
  {
    "code": 170,
    "nom_com": "Juvardeil",
-   "inscrit": 636,
-   "abstention": 71,
+   "inscrits": 636,
+   "abstentions": 71,
    "pour_abs": {
       "ins": 11.16
    },
-   "votant": 565,
+   "votants": 565,
    "pour_vot": {
       "ins": 88.84
    },
    "blanc_nul": 13,
    "pour_bl_nuls": {
       "ins": 2.04,
-      "Vot": 2.3
+      "vot": 2.3
    },
    "exprimes": 552,
    "pour_exp": {
       "ins": 86.79,
-      "Vot": 97.7
+      "vot": 97.7
    },
    "sexe": [
       "M",
@@ -8722,24 +8722,24 @@
  {
    "code": 171,
    "nom_com": "La Lande-Chasles",
-   "inscrit": 98,
-   "abstention": 9,
+   "inscrits": 98,
+   "abstentions": 9,
    "pour_abs": {
       "ins": 9.18
    },
-   "votant": 89,
+   "votants": 89,
    "pour_vot": {
       "ins": 90.82
    },
    "blanc_nul": 2,
    "pour_bl_nuls": {
       "ins": 2.04,
-      "Vot": 2.25
+      "vot": 2.25
    },
    "exprimes": 87,
    "pour_exp": {
       "ins": 88.78,
-      "Vot": 97.75
+      "vot": 97.75
    },
    "sexe": [
       "M",
@@ -8831,24 +8831,24 @@
  {
    "code": 174,
    "nom_com": "Lézigné",
-   "inscrit": 510,
-   "abstention": 69,
+   "inscrits": 510,
+   "abstentions": 69,
    "pour_abs": {
       "ins": 13.53
    },
-   "votant": 441,
+   "votants": 441,
    "pour_vot": {
       "ins": 86.47
    },
    "blanc_nul": 8,
    "pour_bl_nuls": {
       "ins": 1.57,
-      "Vot": 1.81
+      "vot": 1.81
    },
    "exprimes": 433,
    "pour_exp": {
       "ins": 84.9,
-      "Vot": 98.19
+      "vot": 98.19
    },
    "sexe": [
       "M",
@@ -8940,24 +8940,24 @@
  {
    "code": 176,
    "nom_com": "Le Lion-d'Angers",
-   "inscrit": 2953,
-   "abstention": 396,
+   "inscrits": 2953,
+   "abstentions": 396,
    "pour_abs": {
       "ins": 13.41
    },
-   "votant": 2557,
+   "votants": 2557,
    "pour_vot": {
       "ins": 86.59
    },
    "blanc_nul": 53,
    "pour_bl_nuls": {
       "ins": 1.79,
-      "Vot": 2.07
+      "vot": 2.07
    },
    "exprimes": 2504,
    "pour_exp": {
       "ins": 84.8,
-      "Vot": 97.93
+      "vot": 97.93
    },
    "sexe": [
       "M",
@@ -9049,24 +9049,24 @@
  {
    "code": 178,
    "nom_com": "Loiré",
-   "inscrit": 572,
-   "abstention": 52,
+   "inscrits": 572,
+   "abstentions": 52,
    "pour_abs": {
       "ins": 9.09
    },
-   "votant": 520,
+   "votants": 520,
    "pour_vot": {
       "ins": 90.91
    },
    "blanc_nul": 10,
    "pour_bl_nuls": {
       "ins": 1.75,
-      "Vot": 1.92
+      "vot": 1.92
    },
    "exprimes": 510,
    "pour_exp": {
       "ins": 89.16,
-      "Vot": 98.08
+      "vot": 98.08
    },
    "sexe": [
       "M",
@@ -9158,24 +9158,24 @@
  {
    "code": 180,
    "nom_com": "Longué-Jumelles",
-   "inscrit": 5042,
-   "abstention": 853,
+   "inscrits": 5042,
+   "abstentions": 853,
    "pour_abs": {
       "ins": 16.92
    },
-   "votant": 4189,
+   "votants": 4189,
    "pour_vot": {
       "ins": 83.08
    },
    "blanc_nul": 110,
    "pour_bl_nuls": {
       "ins": 2.18,
-      "Vot": 2.63
+      "vot": 2.63
    },
    "exprimes": 4079,
    "pour_exp": {
       "ins": 80.9,
-      "Vot": 97.37
+      "vot": 97.37
    },
    "sexe": [
       "M",
@@ -9267,24 +9267,24 @@
  {
    "code": 182,
    "nom_com": "Louresse-Rochemenier",
-   "inscrit": 517,
-   "abstention": 43,
+   "inscrits": 517,
+   "abstentions": 43,
    "pour_abs": {
       "ins": 8.32
    },
-   "votant": 474,
+   "votants": 474,
    "pour_vot": {
       "ins": 91.68
    },
    "blanc_nul": 13,
    "pour_bl_nuls": {
       "ins": 2.51,
-      "Vot": 2.74
+      "vot": 2.74
    },
    "exprimes": 461,
    "pour_exp": {
       "ins": 89.17,
-      "Vot": 97.26
+      "vot": 97.26
    },
    "sexe": [
       "M",
@@ -9376,24 +9376,24 @@
  {
    "code": 183,
    "nom_com": "Val-d'Erdre-Auxence",
-   "inscrit": 2867,
-   "abstention": 313,
+   "inscrits": 2867,
+   "abstentions": 313,
    "pour_abs": {
       "ins": 10.92
    },
-   "votant": 2554,
+   "votants": 2554,
    "pour_vot": {
       "ins": 89.08
    },
    "blanc_nul": 42,
    "pour_bl_nuls": {
       "ins": 1.46,
-      "Vot": 1.64
+      "vot": 1.64
    },
    "exprimes": 2512,
    "pour_exp": {
       "ins": 87.62,
-      "Vot": 98.36
+      "vot": 98.36
    },
    "sexe": [
       "M",
@@ -9485,24 +9485,24 @@
  {
    "code": 188,
    "nom_com": "Marcé",
-   "inscrit": 588,
-   "abstention": 38,
+   "inscrits": 588,
+   "abstentions": 38,
    "pour_abs": {
       "ins": 6.46
    },
-   "votant": 550,
+   "votants": 550,
    "pour_vot": {
       "ins": 93.54
    },
    "blanc_nul": 5,
    "pour_bl_nuls": {
       "ins": 0.85,
-      "Vot": 0.91
+      "vot": 0.91
    },
    "exprimes": 545,
    "pour_exp": {
       "ins": 92.69,
-      "Vot": 99.09
+      "vot": 99.09
    },
    "sexe": [
       "M",
@@ -9594,24 +9594,24 @@
  {
    "code": 192,
    "nom_com": "Maulévrier",
-   "inscrit": 2152,
-   "abstention": 219,
+   "inscrits": 2152,
+   "abstentions": 219,
    "pour_abs": {
       "ins": 10.18
    },
-   "votant": 1933,
+   "votants": 1933,
    "pour_vot": {
       "ins": 89.82
    },
    "blanc_nul": 30,
    "pour_bl_nuls": {
       "ins": 1.39,
-      "Vot": 1.55
+      "vot": 1.55
    },
    "exprimes": 1903,
    "pour_exp": {
       "ins": 88.43,
-      "Vot": 98.45
+      "vot": 98.45
    },
    "sexe": [
       "M",
@@ -9703,24 +9703,24 @@
  {
    "code": 193,
    "nom_com": "Le May-sur-Evre",
-   "inscrit": 2950,
-   "abstention": 353,
+   "inscrits": 2950,
+   "abstentions": 353,
    "pour_abs": {
       "ins": 11.97
    },
-   "votant": 2597,
+   "votants": 2597,
    "pour_vot": {
       "ins": 88.03
    },
    "blanc_nul": 51,
    "pour_bl_nuls": {
       "ins": 1.73,
-      "Vot": 1.96
+      "vot": 1.96
    },
    "exprimes": 2546,
    "pour_exp": {
       "ins": 86.31,
-      "Vot": 98.04
+      "vot": 98.04
    },
    "sexe": [
       "M",
@@ -9812,24 +9812,24 @@
  {
    "code": 194,
    "nom_com": "Mazé-Milon",
-   "inscrit": 3604,
-   "abstention": 440,
+   "inscrits": 3604,
+   "abstentions": 440,
    "pour_abs": {
       "ins": 12.21
    },
-   "votant": 3164,
+   "votants": 3164,
    "pour_vot": {
       "ins": 87.79
    },
    "blanc_nul": 47,
    "pour_bl_nuls": {
       "ins": 1.3,
-      "Vot": 1.49
+      "vot": 1.49
    },
    "exprimes": 3117,
    "pour_exp": {
       "ins": 86.49,
-      "Vot": 98.51
+      "vot": 98.51
    },
    "sexe": [
       "M",
@@ -9921,24 +9921,24 @@
  {
    "code": 195,
    "nom_com": "Mazières-en-Mauges",
-   "inscrit": 766,
-   "abstention": 94,
+   "inscrits": 766,
+   "abstentions": 94,
    "pour_abs": {
       "ins": 12.27
    },
-   "votant": 672,
+   "votants": 672,
    "pour_vot": {
       "ins": 87.73
    },
    "blanc_nul": 7,
    "pour_bl_nuls": {
       "ins": 0.91,
-      "Vot": 1.04
+      "vot": 1.04
    },
    "exprimes": 665,
    "pour_exp": {
       "ins": 86.81,
-      "Vot": 98.96
+      "vot": 98.96
    },
    "sexe": [
       "M",
@@ -10030,24 +10030,24 @@
  {
    "code": 200,
    "nom_com": "Longuenée-en-Anjou",
-   "inscrit": 3851,
-   "abstention": 312,
+   "inscrits": 3851,
+   "abstentions": 312,
    "pour_abs": {
       "ins": 8.1
    },
-   "votant": 3539,
+   "votants": 3539,
    "pour_vot": {
       "ins": 91.9
    },
    "blanc_nul": 59,
    "pour_bl_nuls": {
       "ins": 1.53,
-      "Vot": 1.67
+      "vot": 1.67
    },
    "exprimes": 3480,
    "pour_exp": {
       "ins": 90.37,
-      "Vot": 98.33
+      "vot": 98.33
    },
    "sexe": [
       "M",
@@ -10139,24 +10139,24 @@
  {
    "code": 201,
    "nom_com": "La Ménitré",
-   "inscrit": 1504,
-   "abstention": 173,
+   "inscrits": 1504,
+   "abstentions": 173,
    "pour_abs": {
       "ins": 11.5
    },
-   "votant": 1331,
+   "votants": 1331,
    "pour_vot": {
       "ins": 88.5
    },
    "blanc_nul": 25,
    "pour_bl_nuls": {
       "ins": 1.66,
-      "Vot": 1.88
+      "vot": 1.88
    },
    "exprimes": 1306,
    "pour_exp": {
       "ins": 86.84,
-      "Vot": 98.12
+      "vot": 98.12
    },
    "sexe": [
       "M",
@@ -10248,24 +10248,24 @@
  {
    "code": 205,
    "nom_com": "Miré",
-   "inscrit": 673,
-   "abstention": 81,
+   "inscrits": 673,
+   "abstentions": 81,
    "pour_abs": {
       "ins": 12.04
    },
-   "votant": 592,
+   "votants": 592,
    "pour_vot": {
       "ins": 87.96
    },
    "blanc_nul": 18,
    "pour_bl_nuls": {
       "ins": 2.67,
-      "Vot": 3.04
+      "vot": 3.04
    },
    "exprimes": 574,
    "pour_exp": {
       "ins": 85.29,
-      "Vot": 96.96
+      "vot": 96.96
    },
    "sexe": [
       "M",
@@ -10357,24 +10357,24 @@
  {
    "code": 209,
    "nom_com": "Montigné-lès-Rairies",
-   "inscrit": 284,
-   "abstention": 28,
+   "inscrits": 284,
+   "abstentions": 28,
    "pour_abs": {
       "ins": 9.86
    },
-   "votant": 256,
+   "votants": 256,
    "pour_vot": {
       "ins": 90.14
    },
    "blanc_nul": 5,
    "pour_bl_nuls": {
       "ins": 1.76,
-      "Vot": 1.95
+      "vot": 1.95
    },
    "exprimes": 251,
    "pour_exp": {
       "ins": 88.38,
-      "Vot": 98.05
+      "vot": 98.05
    },
    "sexe": [
       "M",
@@ -10466,24 +10466,24 @@
  {
    "code": 211,
    "nom_com": "Montilliers",
-   "inscrit": 902,
-   "abstention": 104,
+   "inscrits": 902,
+   "abstentions": 104,
    "pour_abs": {
       "ins": 11.53
    },
-   "votant": 798,
+   "votants": 798,
    "pour_vot": {
       "ins": 88.47
    },
    "blanc_nul": 13,
    "pour_bl_nuls": {
       "ins": 1.44,
-      "Vot": 1.63
+      "vot": 1.63
    },
    "exprimes": 785,
    "pour_exp": {
       "ins": 87.03,
-      "Vot": 98.37
+      "vot": 98.37
    },
    "sexe": [
       "M",
@@ -10575,24 +10575,24 @@
  {
    "code": 214,
    "nom_com": "Montreuil-Juigné",
-   "inscrit": 5262,
-   "abstention": 623,
+   "inscrits": 5262,
+   "abstentions": 623,
    "pour_abs": {
       "ins": 11.84
    },
-   "votant": 4639,
+   "votants": 4639,
    "pour_vot": {
       "ins": 88.16
    },
    "blanc_nul": 66,
    "pour_bl_nuls": {
       "ins": 1.25,
-      "Vot": 1.42
+      "vot": 1.42
    },
    "exprimes": 4573,
    "pour_exp": {
       "ins": 86.91,
-      "Vot": 98.58
+      "vot": 98.58
    },
    "sexe": [
       "M",
@@ -10684,24 +10684,24 @@
  {
    "code": 215,
    "nom_com": "Montreuil-Bellay",
-   "inscrit": 2872,
-   "abstention": 441,
+   "inscrits": 2872,
+   "abstentions": 441,
    "pour_abs": {
       "ins": 15.36
    },
-   "votant": 2431,
+   "votants": 2431,
    "pour_vot": {
       "ins": 84.64
    },
    "blanc_nul": 39,
    "pour_bl_nuls": {
       "ins": 1.36,
-      "Vot": 1.6
+      "vot": 1.6
    },
    "exprimes": 2392,
    "pour_exp": {
       "ins": 83.29,
-      "Vot": 98.4
+      "vot": 98.4
    },
    "sexe": [
       "M",
@@ -10793,24 +10793,24 @@
  {
    "code": 216,
    "nom_com": "Montreuil-sur-Loir",
-   "inscrit": 333,
-   "abstention": 28,
+   "inscrits": 333,
+   "abstentions": 28,
    "pour_abs": {
       "ins": 8.41
    },
-   "votant": 305,
+   "votants": 305,
    "pour_vot": {
       "ins": 91.59
    },
    "blanc_nul": 1,
    "pour_bl_nuls": {
       "ins": 0.3,
-      "Vot": 0.33
+      "vot": 0.33
    },
    "exprimes": 304,
    "pour_exp": {
       "ins": 91.29,
-      "Vot": 99.67
+      "vot": 99.67
    },
    "sexe": [
       "M",
@@ -10902,24 +10902,24 @@
  {
    "code": 217,
    "nom_com": "Montreuil-sur-Maine",
-   "inscrit": 464,
-   "abstention": 40,
+   "inscrits": 464,
+   "abstentions": 40,
    "pour_abs": {
       "ins": 8.62
    },
-   "votant": 424,
+   "votants": 424,
    "pour_vot": {
       "ins": 91.38
    },
    "blanc_nul": 4,
    "pour_bl_nuls": {
       "ins": 0.86,
-      "Vot": 0.94
+      "vot": 0.94
    },
    "exprimes": 420,
    "pour_exp": {
       "ins": 90.52,
-      "Vot": 99.06
+      "vot": 99.06
    },
    "sexe": [
       "M",
@@ -11011,24 +11011,24 @@
  {
    "code": 218,
    "nom_com": "Montrevault-sur-Evre",
-   "inscrit": 11423,
-   "abstention": 1203,
+   "inscrits": 11423,
+   "abstentions": 1203,
    "pour_abs": {
       "ins": 10.53
    },
-   "votant": 10220,
+   "votants": 10220,
    "pour_vot": {
       "ins": 89.47
    },
    "blanc_nul": 221,
    "pour_bl_nuls": {
       "ins": 1.93,
-      "Vot": 2.16
+      "vot": 2.16
    },
    "exprimes": 9999,
    "pour_exp": {
       "ins": 87.53,
-      "Vot": 97.84
+      "vot": 97.84
    },
    "sexe": [
       "M",
@@ -11120,24 +11120,24 @@
  {
    "code": 219,
    "nom_com": "Montsoreau",
-   "inscrit": 379,
-   "abstention": 39,
+   "inscrits": 379,
+   "abstentions": 39,
    "pour_abs": {
       "ins": 10.29
    },
-   "votant": 340,
+   "votants": 340,
    "pour_vot": {
       "ins": 89.71
    },
    "blanc_nul": 3,
    "pour_bl_nuls": {
       "ins": 0.79,
-      "Vot": 0.88
+      "vot": 0.88
    },
    "exprimes": 337,
    "pour_exp": {
       "ins": 88.92,
-      "Vot": 99.12
+      "vot": 99.12
    },
    "sexe": [
       "M",
@@ -11229,24 +11229,24 @@
  {
    "code": 220,
    "nom_com": "Morannes-sur-Sarthe-Daumeray",
-   "inscrit": 2499,
-   "abstention": 261,
+   "inscrits": 2499,
+   "abstentions": 261,
    "pour_abs": {
       "ins": 10.44
    },
-   "votant": 2238,
+   "votants": 2238,
    "pour_vot": {
       "ins": 89.56
    },
    "blanc_nul": 49,
    "pour_bl_nuls": {
       "ins": 1.96,
-      "Vot": 2.19
+      "vot": 2.19
    },
    "exprimes": 2189,
    "pour_exp": {
       "ins": 87.6,
-      "Vot": 97.81
+      "vot": 97.81
    },
    "sexe": [
       "M",
@@ -11338,24 +11338,24 @@
  {
    "code": 221,
    "nom_com": "Mouliherne",
-   "inscrit": 704,
-   "abstention": 115,
+   "inscrits": 704,
+   "abstentions": 115,
    "pour_abs": {
       "ins": 16.34
    },
-   "votant": 589,
+   "votants": 589,
    "pour_vot": {
       "ins": 83.66
    },
    "blanc_nul": 18,
    "pour_bl_nuls": {
       "ins": 2.56,
-      "Vot": 3.06
+      "vot": 3.06
    },
    "exprimes": 571,
    "pour_exp": {
       "ins": 81.11,
-      "Vot": 96.94
+      "vot": 96.94
    },
    "sexe": [
       "M",
@@ -11447,24 +11447,24 @@
  {
    "code": 222,
    "nom_com": "Mozé-sur-Louet",
-   "inscrit": 1488,
-   "abstention": 170,
+   "inscrits": 1488,
+   "abstentions": 170,
    "pour_abs": {
       "ins": 11.42
    },
-   "votant": 1318,
+   "votants": 1318,
    "pour_vot": {
       "ins": 88.58
    },
    "blanc_nul": 24,
    "pour_bl_nuls": {
       "ins": 1.61,
-      "Vot": 1.82
+      "vot": 1.82
    },
    "exprimes": 1294,
    "pour_exp": {
       "ins": 86.96,
-      "Vot": 98.18
+      "vot": 98.18
    },
    "sexe": [
       "M",
@@ -11556,24 +11556,24 @@
  {
    "code": 223,
    "nom_com": "Mûrs-Erigné",
-   "inscrit": 4084,
-   "abstention": 379,
+   "inscrits": 4084,
+   "abstentions": 379,
    "pour_abs": {
       "ins": 9.28
    },
-   "votant": 3705,
+   "votants": 3705,
    "pour_vot": {
       "ins": 90.72
    },
    "blanc_nul": 39,
    "pour_bl_nuls": {
       "ins": 0.95,
-      "Vot": 1.05
+      "vot": 1.05
    },
    "exprimes": 3666,
    "pour_exp": {
       "ins": 89.76,
-      "Vot": 98.95
+      "vot": 98.95
    },
    "sexe": [
       "M",
@@ -11665,24 +11665,24 @@
  {
    "code": 224,
    "nom_com": "Neuillé",
-   "inscrit": 655,
-   "abstention": 87,
+   "inscrits": 655,
+   "abstentions": 87,
    "pour_abs": {
       "ins": 13.28
    },
-   "votant": 568,
+   "votants": 568,
    "pour_vot": {
       "ins": 86.72
    },
    "blanc_nul": 8,
    "pour_bl_nuls": {
       "ins": 1.22,
-      "Vot": 1.41
+      "vot": 1.41
    },
    "exprimes": 560,
    "pour_exp": {
       "ins": 85.5,
-      "Vot": 98.59
+      "vot": 98.59
    },
    "sexe": [
       "M",
@@ -11774,24 +11774,24 @@
  {
    "code": 228,
    "nom_com": "Noyant-Villages",
-   "inscrit": 4325,
-   "abstention": 650,
+   "inscrits": 4325,
+   "abstentions": 650,
    "pour_abs": {
       "ins": 15.03
    },
-   "votant": 3675,
+   "votants": 3675,
    "pour_vot": {
       "ins": 84.97
    },
    "blanc_nul": 56,
    "pour_bl_nuls": {
       "ins": 1.29,
-      "Vot": 1.52
+      "vot": 1.52
    },
    "exprimes": 3619,
    "pour_exp": {
       "ins": 83.68,
-      "Vot": 98.48
+      "vot": 98.48
    },
    "sexe": [
       "M",
@@ -11883,24 +11883,24 @@
  {
    "code": 231,
    "nom_com": "Nuaillé",
-   "inscrit": 984,
-   "abstention": 78,
+   "inscrits": 984,
+   "abstentions": 78,
    "pour_abs": {
       "ins": 7.93
    },
-   "votant": 906,
+   "votants": 906,
    "pour_vot": {
       "ins": 92.07
    },
    "blanc_nul": 17,
    "pour_bl_nuls": {
       "ins": 1.73,
-      "Vot": 1.88
+      "vot": 1.88
    },
    "exprimes": 889,
    "pour_exp": {
       "ins": 90.35,
-      "Vot": 98.12
+      "vot": 98.12
    },
    "sexe": [
       "M",
@@ -11992,24 +11992,24 @@
  {
    "code": 235,
    "nom_com": "Parnay",
-   "inscrit": 394,
-   "abstention": 53,
+   "inscrits": 394,
+   "abstentions": 53,
    "pour_abs": {
       "ins": 13.45
    },
-   "votant": 341,
+   "votants": 341,
    "pour_vot": {
       "ins": 86.55
    },
    "blanc_nul": 1,
    "pour_bl_nuls": {
       "ins": 0.25,
-      "Vot": 0.29
+      "vot": 0.29
    },
    "exprimes": 340,
    "pour_exp": {
       "ins": 86.29,
-      "Vot": 99.71
+      "vot": 99.71
    },
    "sexe": [
       "M",
@@ -12101,24 +12101,24 @@
  {
    "code": 236,
    "nom_com": "Passavant-sur-Layon",
-   "inscrit": 111,
-   "abstention": 12,
+   "inscrits": 111,
+   "abstentions": 12,
    "pour_abs": {
       "ins": 10.81
    },
-   "votant": 99,
+   "votants": 99,
    "pour_vot": {
       "ins": 89.19
    },
    "blanc_nul": 1,
    "pour_bl_nuls": {
       "ins": 0.9,
-      "Vot": 1.01
+      "vot": 1.01
    },
    "exprimes": 98,
    "pour_exp": {
       "ins": 88.29,
-      "Vot": 98.99
+      "vot": 98.99
    },
    "sexe": [
       "M",
@@ -12210,24 +12210,24 @@
  {
    "code": 237,
    "nom_com": "La Pellerine",
-   "inscrit": 121,
-   "abstention": 7,
+   "inscrits": 121,
+   "abstentions": 7,
    "pour_abs": {
       "ins": 5.79
    },
-   "votant": 114,
+   "votants": 114,
    "pour_vot": {
       "ins": 94.21
    },
    "blanc_nul": 1,
    "pour_bl_nuls": {
       "ins": 0.83,
-      "Vot": 0.88
+      "vot": 0.88
    },
    "exprimes": 113,
    "pour_exp": {
       "ins": 93.39,
-      "Vot": 99.12
+      "vot": 99.12
    },
    "sexe": [
       "M",
@@ -12319,24 +12319,24 @@
  {
    "code": 240,
    "nom_com": "La Plaine",
-   "inscrit": 715,
-   "abstention": 103,
+   "inscrits": 715,
+   "abstentions": 103,
    "pour_abs": {
       "ins": 14.41
    },
-   "votant": 612,
+   "votants": 612,
    "pour_vot": {
       "ins": 85.59
    },
    "blanc_nul": 6,
    "pour_bl_nuls": {
       "ins": 0.84,
-      "Vot": 0.98
+      "vot": 0.98
    },
    "exprimes": 606,
    "pour_exp": {
       "ins": 84.76,
-      "Vot": 99.02
+      "vot": 99.02
    },
    "sexe": [
       "M",
@@ -12428,24 +12428,24 @@
  {
    "code": 241,
    "nom_com": "Le Plessis-Grammoire",
-   "inscrit": 1614,
-   "abstention": 138,
+   "inscrits": 1614,
+   "abstentions": 138,
    "pour_abs": {
       "ins": 8.55
    },
-   "votant": 1476,
+   "votants": 1476,
    "pour_vot": {
       "ins": 91.45
    },
    "blanc_nul": 15,
    "pour_bl_nuls": {
       "ins": 0.93,
-      "Vot": 1.02
+      "vot": 1.02
    },
    "exprimes": 1461,
    "pour_exp": {
       "ins": 90.52,
-      "Vot": 98.98
+      "vot": 98.98
    },
    "sexe": [
       "M",
@@ -12537,24 +12537,24 @@
  {
    "code": 244,
    "nom_com": "Mauges-sur-Loire",
-   "inscrit": 13101,
-   "abstention": 1311,
+   "inscrits": 13101,
+   "abstentions": 1311,
    "pour_abs": {
       "ins": 10.01
    },
-   "votant": 11790,
+   "votants": 11790,
    "pour_vot": {
       "ins": 89.99
    },
    "blanc_nul": 266,
    "pour_bl_nuls": {
       "ins": 2.03,
-      "Vot": 2.26
+      "vot": 2.26
    },
    "exprimes": 11524,
    "pour_exp": {
       "ins": 87.96,
-      "Vot": 97.74
+      "vot": 97.74
    },
    "sexe": [
       "M",
@@ -12646,24 +12646,24 @@
  {
    "code": 246,
    "nom_com": "Les Ponts-de-Cé",
-   "inscrit": 8814,
-   "abstention": 1128,
+   "inscrits": 8814,
+   "abstentions": 1128,
    "pour_abs": {
       "ins": 12.8
    },
-   "votant": 7686,
+   "votants": 7686,
    "pour_vot": {
       "ins": 87.2
    },
    "blanc_nul": 122,
    "pour_bl_nuls": {
       "ins": 1.38,
-      "Vot": 1.59
+      "vot": 1.59
    },
    "exprimes": 7564,
    "pour_exp": {
       "ins": 85.82,
-      "Vot": 98.41
+      "vot": 98.41
    },
    "sexe": [
       "M",
@@ -12755,24 +12755,24 @@
  {
    "code": 247,
    "nom_com": "La Possonnière",
-   "inscrit": 1768,
-   "abstention": 190,
+   "inscrits": 1768,
+   "abstentions": 190,
    "pour_abs": {
       "ins": 10.75
    },
-   "votant": 1578,
+   "votants": 1578,
    "pour_vot": {
       "ins": 89.25
    },
    "blanc_nul": 19,
    "pour_bl_nuls": {
       "ins": 1.07,
-      "Vot": 1.2
+      "vot": 1.2
    },
    "exprimes": 1559,
    "pour_exp": {
       "ins": 88.18,
-      "Vot": 98.8
+      "vot": 98.8
    },
    "sexe": [
       "M",
@@ -12864,24 +12864,24 @@
  {
    "code": 248,
    "nom_com": "Ombrée-d'Anjou",
-   "inscrit": 6553,
-   "abstention": 799,
+   "inscrits": 6553,
+   "abstentions": 799,
    "pour_abs": {
       "ins": 12.19
    },
-   "votant": 5754,
+   "votants": 5754,
    "pour_vot": {
       "ins": 87.81
    },
    "blanc_nul": 114,
    "pour_bl_nuls": {
       "ins": 1.74,
-      "Vot": 1.98
+      "vot": 1.98
    },
    "exprimes": 5640,
    "pour_exp": {
       "ins": 86.07,
-      "Vot": 98.02
+      "vot": 98.02
    },
    "sexe": [
       "M",
@@ -12973,24 +12973,24 @@
  {
    "code": 253,
    "nom_com": "Le Puy-Notre-Dame",
-   "inscrit": 948,
-   "abstention": 160,
+   "inscrits": 948,
+   "abstentions": 160,
    "pour_abs": {
       "ins": 16.88
    },
-   "votant": 788,
+   "votants": 788,
    "pour_vot": {
       "ins": 83.12
    },
    "blanc_nul": 14,
    "pour_bl_nuls": {
       "ins": 1.48,
-      "Vot": 1.78
+      "vot": 1.78
    },
    "exprimes": 774,
    "pour_exp": {
       "ins": 81.65,
-      "Vot": 98.22
+      "vot": 98.22
    },
    "sexe": [
       "M",
@@ -13082,24 +13082,24 @@
  {
    "code": 257,
    "nom_com": "Les Rairies",
-   "inscrit": 702,
-   "abstention": 77,
+   "inscrits": 702,
+   "abstentions": 77,
    "pour_abs": {
       "ins": 10.97
    },
-   "votant": 625,
+   "votants": 625,
    "pour_vot": {
       "ins": 89.03
    },
    "blanc_nul": 16,
    "pour_bl_nuls": {
       "ins": 2.28,
-      "Vot": 2.56
+      "vot": 2.56
    },
    "exprimes": 609,
    "pour_exp": {
       "ins": 86.75,
-      "Vot": 97.44
+      "vot": 97.44
    },
    "sexe": [
       "M",
@@ -13191,24 +13191,24 @@
  {
    "code": 259,
    "nom_com": "Rochefort-sur-Loire",
-   "inscrit": 1562,
-   "abstention": 154,
+   "inscrits": 1562,
+   "abstentions": 154,
    "pour_abs": {
       "ins": 9.86
    },
-   "votant": 1408,
+   "votants": 1408,
    "pour_vot": {
       "ins": 90.14
    },
    "blanc_nul": 24,
    "pour_bl_nuls": {
       "ins": 1.54,
-      "Vot": 1.7
+      "vot": 1.7
    },
    "exprimes": 1384,
    "pour_exp": {
       "ins": 88.6,
-      "Vot": 98.3
+      "vot": 98.3
    },
    "sexe": [
       "M",
@@ -13300,24 +13300,24 @@
  {
    "code": 260,
    "nom_com": "La Romagne",
-   "inscrit": 1254,
-   "abstention": 93,
+   "inscrits": 1254,
+   "abstentions": 93,
    "pour_abs": {
       "ins": 7.42
    },
-   "votant": 1161,
+   "votants": 1161,
    "pour_vot": {
       "ins": 92.58
    },
    "blanc_nul": 13,
    "pour_bl_nuls": {
       "ins": 1.04,
-      "Vot": 1.12
+      "vot": 1.12
    },
    "exprimes": 1148,
    "pour_exp": {
       "ins": 91.55,
-      "Vot": 98.88
+      "vot": 98.88
    },
    "sexe": [
       "M",
@@ -13409,24 +13409,24 @@
  {
    "code": 261,
    "nom_com": "Les Rosiers-sur-Loire",
-   "inscrit": 1663,
-   "abstention": 190,
+   "inscrits": 1663,
+   "abstentions": 190,
    "pour_abs": {
       "ins": 11.43
    },
-   "votant": 1473,
+   "votants": 1473,
    "pour_vot": {
       "ins": 88.57
    },
    "blanc_nul": 35,
    "pour_bl_nuls": {
       "ins": 2.1,
-      "Vot": 2.38
+      "vot": 2.38
    },
    "exprimes": 1438,
    "pour_exp": {
       "ins": 86.47,
-      "Vot": 97.62
+      "vot": 97.62
    },
    "sexe": [
       "M",
@@ -13518,24 +13518,24 @@
  {
    "code": 262,
    "nom_com": "Rou-Marson",
-   "inscrit": 541,
-   "abstention": 50,
+   "inscrits": 541,
+   "abstentions": 50,
    "pour_abs": {
       "ins": 9.24
    },
-   "votant": 491,
+   "votants": 491,
    "pour_vot": {
       "ins": 90.76
    },
    "blanc_nul": 10,
    "pour_bl_nuls": {
       "ins": 1.85,
-      "Vot": 2.04
+      "vot": 2.04
    },
    "exprimes": 481,
    "pour_exp": {
       "ins": 88.91,
-      "Vot": 97.96
+      "vot": 97.96
    },
    "sexe": [
       "M",
@@ -13627,24 +13627,24 @@
  {
    "code": 266,
    "nom_com": "Saint-Augustin-des-Bois",
-   "inscrit": 669,
-   "abstention": 61,
+   "inscrits": 669,
+   "abstentions": 61,
    "pour_abs": {
       "ins": 9.12
    },
-   "votant": 608,
+   "votants": 608,
    "pour_vot": {
       "ins": 90.88
    },
    "blanc_nul": 9,
    "pour_bl_nuls": {
       "ins": 1.35,
-      "Vot": 1.48
+      "vot": 1.48
    },
    "exprimes": 599,
    "pour_exp": {
       "ins": 89.54,
-      "Vot": 98.52
+      "vot": 98.52
    },
    "sexe": [
       "M",
@@ -13736,24 +13736,24 @@
  {
    "code": 267,
    "nom_com": "Saint-Barthélemy-d'Anjou",
-   "inscrit": 6886,
-   "abstention": 709,
+   "inscrits": 6886,
+   "abstentions": 709,
    "pour_abs": {
       "ins": 10.3
    },
-   "votant": 6177,
+   "votants": 6177,
    "pour_vot": {
       "ins": 89.7
    },
    "blanc_nul": 68,
    "pour_bl_nuls": {
       "ins": 0.99,
-      "Vot": 1.1
+      "vot": 1.1
    },
    "exprimes": 6109,
    "pour_exp": {
       "ins": 88.72,
-      "Vot": 98.9
+      "vot": 98.9
    },
    "sexe": [
       "M",
@@ -13845,24 +13845,24 @@
  {
    "code": 269,
    "nom_com": "Saint-Christophe-du-Bois",
-   "inscrit": 2035,
-   "abstention": 196,
+   "inscrits": 2035,
+   "abstentions": 196,
    "pour_abs": {
       "ins": 9.63
    },
-   "votant": 1839,
+   "votants": 1839,
    "pour_vot": {
       "ins": 90.37
    },
    "blanc_nul": 45,
    "pour_bl_nuls": {
       "ins": 2.21,
-      "Vot": 2.45
+      "vot": 2.45
    },
    "exprimes": 1794,
    "pour_exp": {
       "ins": 88.16,
-      "Vot": 97.55
+      "vot": 97.55
    },
    "sexe": [
       "M",
@@ -13954,24 +13954,24 @@
  {
    "code": 271,
    "nom_com": "Saint-Clément-de-la-Place",
-   "inscrit": 1217,
-   "abstention": 84,
+   "inscrits": 1217,
+   "abstentions": 84,
    "pour_abs": {
       "ins": 6.9
    },
-   "votant": 1133,
+   "votants": 1133,
    "pour_vot": {
       "ins": 93.1
    },
    "blanc_nul": 22,
    "pour_bl_nuls": {
       "ins": 1.81,
-      "Vot": 1.94
+      "vot": 1.94
    },
    "exprimes": 1111,
    "pour_exp": {
       "ins": 91.29,
-      "Vot": 98.06
+      "vot": 98.06
    },
    "sexe": [
       "M",
@@ -14063,24 +14063,24 @@
  {
    "code": 272,
    "nom_com": "Saint-Clément-des-Levées",
-   "inscrit": 844,
-   "abstention": 95,
+   "inscrits": 844,
+   "abstentions": 95,
    "pour_abs": {
       "ins": 11.26
    },
-   "votant": 749,
+   "votants": 749,
    "pour_vot": {
       "ins": 88.74
    },
    "blanc_nul": 15,
    "pour_bl_nuls": {
       "ins": 1.78,
-      "Vot": 2
+      "vot": 2
    },
    "exprimes": 734,
    "pour_exp": {
       "ins": 86.97,
-      "Vot": 98
+      "vot": 98
    },
    "sexe": [
       "M",
@@ -14172,24 +14172,24 @@
  {
    "code": 274,
    "nom_com": "Saint-Cyr-en-Bourg",
-   "inscrit": 705,
-   "abstention": 86,
+   "inscrits": 705,
+   "abstentions": 86,
    "pour_abs": {
       "ins": 12.2
    },
-   "votant": 619,
+   "votants": 619,
    "pour_vot": {
       "ins": 87.8
    },
    "blanc_nul": 10,
    "pour_bl_nuls": {
       "ins": 1.42,
-      "Vot": 1.62
+      "vot": 1.62
    },
    "exprimes": 609,
    "pour_exp": {
       "ins": 86.38,
-      "Vot": 98.38
+      "vot": 98.38
    },
    "sexe": [
       "M",
@@ -14281,24 +14281,24 @@
  {
    "code": 278,
    "nom_com": "Sainte-Gemmes-sur-Loire",
-   "inscrit": 2747,
-   "abstention": 253,
+   "inscrits": 2747,
+   "abstentions": 253,
    "pour_abs": {
       "ins": 9.21
    },
-   "votant": 2494,
+   "votants": 2494,
    "pour_vot": {
       "ins": 90.79
    },
    "blanc_nul": 25,
    "pour_bl_nuls": {
       "ins": 0.91,
-      "Vot": 1
+      "vot": 1
    },
    "exprimes": 2469,
    "pour_exp": {
       "ins": 89.88,
-      "Vot": 99
+      "vot": 99
    },
    "sexe": [
       "M",
@@ -14390,24 +14390,24 @@
  {
    "code": 283,
    "nom_com": "Saint-Georges-sur-Loire",
-   "inscrit": 2290,
-   "abstention": 185,
+   "inscrits": 2290,
+   "abstentions": 185,
    "pour_abs": {
       "ins": 8.08
    },
-   "votant": 2105,
+   "votants": 2105,
    "pour_vot": {
       "ins": 91.92
    },
    "blanc_nul": 42,
    "pour_bl_nuls": {
       "ins": 1.83,
-      "Vot": 2
+      "vot": 2
    },
    "exprimes": 2063,
    "pour_exp": {
       "ins": 90.09,
-      "Vot": 98
+      "vot": 98
    },
    "sexe": [
       "M",
@@ -14499,24 +14499,24 @@
  {
    "code": 284,
    "nom_com": "Saint-Germain-des-Prés",
-   "inscrit": 991,
-   "abstention": 105,
+   "inscrits": 991,
+   "abstentions": 105,
    "pour_abs": {
       "ins": 10.6
    },
-   "votant": 886,
+   "votants": 886,
    "pour_vot": {
       "ins": 89.4
    },
    "blanc_nul": 24,
    "pour_bl_nuls": {
       "ins": 2.42,
-      "Vot": 2.71
+      "vot": 2.71
    },
    "exprimes": 862,
    "pour_exp": {
       "ins": 86.98,
-      "Vot": 97.29
+      "vot": 97.29
    },
    "sexe": [
       "M",
@@ -14608,24 +14608,24 @@
  {
    "code": 288,
    "nom_com": "Saint-Jean-de-la-Croix",
-   "inscrit": 166,
-   "abstention": 15,
+   "inscrits": 166,
+   "abstentions": 15,
    "pour_abs": {
       "ins": 9.04
    },
-   "votant": 151,
+   "votants": 151,
    "pour_vot": {
       "ins": 90.96
    },
    "blanc_nul": 2,
    "pour_bl_nuls": {
       "ins": 1.2,
-      "Vot": 1.32
+      "vot": 1.32
    },
    "exprimes": 149,
    "pour_exp": {
       "ins": 89.76,
-      "Vot": 98.68
+      "vot": 98.68
    },
    "sexe": [
       "M",
@@ -14717,24 +14717,24 @@
  {
    "code": 289,
    "nom_com": "Saint-Jean-de-Linières",
-   "inscrit": 1159,
-   "abstention": 121,
+   "inscrits": 1159,
+   "abstentions": 121,
    "pour_abs": {
       "ins": 10.44
    },
-   "votant": 1038,
+   "votants": 1038,
    "pour_vot": {
       "ins": 89.56
    },
    "blanc_nul": 10,
    "pour_bl_nuls": {
       "ins": 0.86,
-      "Vot": 0.96
+      "vot": 0.96
    },
    "exprimes": 1028,
    "pour_exp": {
       "ins": 88.7,
-      "Vot": 99.04
+      "vot": 99.04
    },
    "sexe": [
       "M",
@@ -14826,24 +14826,24 @@
  {
    "code": 291,
    "nom_com": "Saint-Just-sur-Dive",
-   "inscrit": 248,
-   "abstention": 44,
+   "inscrits": 248,
+   "abstentions": 44,
    "pour_abs": {
       "ins": 17.74
    },
-   "votant": 204,
+   "votants": 204,
    "pour_vot": {
       "ins": 82.26
    },
    "blanc_nul": 6,
    "pour_bl_nuls": {
       "ins": 2.42,
-      "Vot": 2.94
+      "vot": 2.94
    },
    "exprimes": 198,
    "pour_exp": {
       "ins": 79.84,
-      "Vot": 97.06
+      "vot": 97.06
    },
    "sexe": [
       "M",
@@ -14935,24 +14935,24 @@
  {
    "code": 292,
    "nom_com": "Val-du-Layon",
-   "inscrit": 1981,
-   "abstention": 170,
+   "inscrits": 1981,
+   "abstentions": 170,
    "pour_abs": {
       "ins": 8.58
    },
-   "votant": 1811,
+   "votants": 1811,
    "pour_vot": {
       "ins": 91.42
    },
    "blanc_nul": 30,
    "pour_bl_nuls": {
       "ins": 1.51,
-      "Vot": 1.66
+      "vot": 1.66
    },
    "exprimes": 1781,
    "pour_exp": {
       "ins": 89.9,
-      "Vot": 98.34
+      "vot": 98.34
    },
    "sexe": [
       "M",
@@ -15044,24 +15044,24 @@
  {
    "code": 294,
    "nom_com": "Saint-Lambert-la-Potherie",
-   "inscrit": 1758,
-   "abstention": 139,
+   "inscrits": 1758,
+   "abstentions": 139,
    "pour_abs": {
       "ins": 7.91
    },
-   "votant": 1619,
+   "votants": 1619,
    "pour_vot": {
       "ins": 92.09
    },
    "blanc_nul": 30,
    "pour_bl_nuls": {
       "ins": 1.71,
-      "Vot": 1.85
+      "vot": 1.85
    },
    "exprimes": 1589,
    "pour_exp": {
       "ins": 90.39,
-      "Vot": 98.15
+      "vot": 98.15
    },
    "sexe": [
       "M",
@@ -15153,24 +15153,24 @@
  {
    "code": 298,
    "nom_com": "Saint-Léger-des-Bois",
-   "inscrit": 1086,
-   "abstention": 59,
+   "inscrits": 1086,
+   "abstentions": 59,
    "pour_abs": {
       "ins": 5.43
    },
-   "votant": 1027,
+   "votants": 1027,
    "pour_vot": {
       "ins": 94.57
    },
    "blanc_nul": 7,
    "pour_bl_nuls": {
       "ins": 0.64,
-      "Vot": 0.68
+      "vot": 0.68
    },
    "exprimes": 1020,
    "pour_exp": {
       "ins": 93.92,
-      "Vot": 99.32
+      "vot": 99.32
    },
    "sexe": [
       "M",
@@ -15262,24 +15262,24 @@
  {
    "code": 299,
    "nom_com": "Saint-Léger-sous-Cholet",
-   "inscrit": 1975,
-   "abstention": 226,
+   "inscrits": 1975,
+   "abstentions": 226,
    "pour_abs": {
       "ins": 11.44
    },
-   "votant": 1749,
+   "votants": 1749,
    "pour_vot": {
       "ins": 88.56
    },
    "blanc_nul": 27,
    "pour_bl_nuls": {
       "ins": 1.37,
-      "Vot": 1.54
+      "vot": 1.54
    },
    "exprimes": 1722,
    "pour_exp": {
       "ins": 87.19,
-      "Vot": 98.46
+      "vot": 98.46
    },
    "sexe": [
       "M",
@@ -15371,24 +15371,24 @@
  {
    "code": 301,
    "nom_com": "Sèvremoine",
-   "inscrit": 16656,
-   "abstention": 1769,
+   "inscrits": 16656,
+   "abstentions": 1769,
    "pour_abs": {
       "ins": 10.62
    },
-   "votant": 14887,
+   "votants": 14887,
    "pour_vot": {
       "ins": 89.38
    },
    "blanc_nul": 300,
    "pour_bl_nuls": {
       "ins": 1.8,
-      "Vot": 2.02
+      "vot": 2.02
    },
    "exprimes": 14587,
    "pour_exp": {
       "ins": 87.58,
-      "Vot": 97.98
+      "vot": 97.98
    },
    "sexe": [
       "M",
@@ -15480,24 +15480,24 @@
  {
    "code": 302,
    "nom_com": "Saint-Macaire-du-Bois",
-   "inscrit": 284,
-   "abstention": 53,
+   "inscrits": 284,
+   "abstentions": 53,
    "pour_abs": {
       "ins": 18.66
    },
-   "votant": 231,
+   "votants": 231,
    "pour_vot": {
       "ins": 81.34
    },
    "blanc_nul": 6,
    "pour_bl_nuls": {
       "ins": 2.11,
-      "Vot": 2.6
+      "vot": 2.6
    },
    "exprimes": 225,
    "pour_exp": {
       "ins": 79.23,
-      "Vot": 97.4
+      "vot": 97.4
    },
    "sexe": [
       "M",
@@ -15589,24 +15589,24 @@
  {
    "code": 304,
    "nom_com": "Saint-Martin-de-la-Place",
-   "inscrit": 881,
-   "abstention": 101,
+   "inscrits": 881,
+   "abstentions": 101,
    "pour_abs": {
       "ins": 11.46
    },
-   "votant": 780,
+   "votants": 780,
    "pour_vot": {
       "ins": 88.54
    },
    "blanc_nul": 13,
    "pour_bl_nuls": {
       "ins": 1.48,
-      "Vot": 1.67
+      "vot": 1.67
    },
    "exprimes": 767,
    "pour_exp": {
       "ins": 87.06,
-      "Vot": 98.33
+      "vot": 98.33
    },
    "sexe": [
       "M",
@@ -15698,24 +15698,24 @@
  {
    "code": 306,
    "nom_com": "Saint-Martin-du-Fouilloux",
-   "inscrit": 1157,
-   "abstention": 70,
+   "inscrits": 1157,
+   "abstentions": 70,
    "pour_abs": {
       "ins": 6.05
    },
-   "votant": 1087,
+   "votants": 1087,
    "pour_vot": {
       "ins": 93.95
    },
    "blanc_nul": 20,
    "pour_bl_nuls": {
       "ins": 1.73,
-      "Vot": 1.84
+      "vot": 1.84
    },
    "exprimes": 1067,
    "pour_exp": {
       "ins": 92.22,
-      "Vot": 98.16
+      "vot": 98.16
    },
    "sexe": [
       "M",
@@ -15807,24 +15807,24 @@
  {
    "code": 307,
    "nom_com": "Loire-Authion",
-   "inscrit": 10904,
-   "abstention": 969,
+   "inscrits": 10904,
+   "abstentions": 969,
    "pour_abs": {
       "ins": 8.89
    },
-   "votant": 9935,
+   "votants": 9935,
    "pour_vot": {
       "ins": 91.11
    },
    "blanc_nul": 147,
    "pour_bl_nuls": {
       "ins": 1.35,
-      "Vot": 1.48
+      "vot": 1.48
    },
    "exprimes": 9788,
    "pour_exp": {
       "ins": 89.77,
-      "Vot": 98.52
+      "vot": 98.52
    },
    "sexe": [
       "M",
@@ -15916,24 +15916,24 @@
  {
    "code": 308,
    "nom_com": "Saint-Melaine-sur-Aubance",
-   "inscrit": 1570,
-   "abstention": 110,
+   "inscrits": 1570,
+   "abstentions": 110,
    "pour_abs": {
       "ins": 7.01
    },
-   "votant": 1460,
+   "votants": 1460,
    "pour_vot": {
       "ins": 92.99
    },
    "blanc_nul": 8,
    "pour_bl_nuls": {
       "ins": 0.51,
-      "Vot": 0.55
+      "vot": 0.55
    },
    "exprimes": 1452,
    "pour_exp": {
       "ins": 92.48,
-      "Vot": 99.45
+      "vot": 99.45
    },
    "sexe": [
       "M",
@@ -16025,24 +16025,24 @@
  {
    "code": 310,
    "nom_com": "Saint-Paul-du-Bois",
-   "inscrit": 466,
-   "abstention": 51,
+   "inscrits": 466,
+   "abstentions": 51,
    "pour_abs": {
       "ins": 10.94
    },
-   "votant": 415,
+   "votants": 415,
    "pour_vot": {
       "ins": 89.06
    },
    "blanc_nul": 7,
    "pour_bl_nuls": {
       "ins": 1.5,
-      "Vot": 1.69
+      "vot": 1.69
    },
    "exprimes": 408,
    "pour_exp": {
       "ins": 87.55,
-      "Vot": 98.31
+      "vot": 98.31
    },
    "sexe": [
       "M",
@@ -16134,24 +16134,24 @@
  {
    "code": 311,
    "nom_com": "Saint-Philbert-du-Peuple",
-   "inscrit": 840,
-   "abstention": 102,
+   "inscrits": 840,
+   "abstentions": 102,
    "pour_abs": {
       "ins": 12.14
    },
-   "votant": 738,
+   "votants": 738,
    "pour_vot": {
       "ins": 87.86
    },
    "blanc_nul": 17,
    "pour_bl_nuls": {
       "ins": 2.02,
-      "Vot": 2.3
+      "vot": 2.3
    },
    "exprimes": 721,
    "pour_exp": {
       "ins": 85.83,
-      "Vot": 97.7
+      "vot": 97.7
    },
    "sexe": [
       "M",
@@ -16243,24 +16243,24 @@
  {
    "code": 321,
    "nom_com": "Saint-Sigismond",
-   "inscrit": 288,
-   "abstention": 24,
+   "inscrits": 288,
+   "abstentions": 24,
    "pour_abs": {
       "ins": 8.33
    },
-   "votant": 264,
+   "votants": 264,
    "pour_vot": {
       "ins": 91.67
    },
    "blanc_nul": 5,
    "pour_bl_nuls": {
       "ins": 1.74,
-      "Vot": 1.89
+      "vot": 1.89
    },
    "exprimes": 259,
    "pour_exp": {
       "ins": 89.93,
-      "Vot": 98.11
+      "vot": 98.11
    },
    "sexe": [
       "M",
@@ -16352,24 +16352,24 @@
  {
    "code": 323,
    "nom_com": "Verrière-en-Anjou",
-   "inscrit": 4951,
-   "abstention": 477,
+   "inscrits": 4951,
+   "abstentions": 477,
    "pour_abs": {
       "ins": 9.63
    },
-   "votant": 4474,
+   "votants": 4474,
    "pour_vot": {
       "ins": 90.37
    },
    "blanc_nul": 84,
    "pour_bl_nuls": {
       "ins": 1.7,
-      "Vot": 1.88
+      "vot": 1.88
    },
    "exprimes": 4390,
    "pour_exp": {
       "ins": 88.67,
-      "Vot": 98.12
+      "vot": 98.12
    },
    "sexe": [
       "M",
@@ -16461,24 +16461,24 @@
  {
    "code": 326,
    "nom_com": "Sarrigné",
-   "inscrit": 614,
-   "abstention": 50,
+   "inscrits": 614,
+   "abstentions": 50,
    "pour_abs": {
       "ins": 8.14
    },
-   "votant": 564,
+   "votants": 564,
    "pour_vot": {
       "ins": 91.86
    },
    "blanc_nul": 5,
    "pour_bl_nuls": {
       "ins": 0.81,
-      "Vot": 0.89
+      "vot": 0.89
    },
    "exprimes": 559,
    "pour_exp": {
       "ins": 91.04,
-      "Vot": 99.11
+      "vot": 99.11
    },
    "sexe": [
       "M",
@@ -16570,24 +16570,24 @@
  {
    "code": 328,
    "nom_com": "Saumur",
-   "inscrit": 19433,
-   "abstention": 3208,
+   "inscrits": 19433,
+   "abstentions": 3208,
    "pour_abs": {
       "ins": 16.51
    },
-   "votant": 16225,
+   "votants": 16225,
    "pour_vot": {
       "ins": 83.49
    },
    "blanc_nul": 231,
    "pour_bl_nuls": {
       "ins": 1.19,
-      "Vot": 1.42
+      "vot": 1.42
    },
    "exprimes": 15994,
    "pour_exp": {
       "ins": 82.3,
-      "Vot": 98.58
+      "vot": 98.58
    },
    "sexe": [
       "M",
@@ -16679,24 +16679,24 @@
  {
    "code": 329,
    "nom_com": "Savennières",
-   "inscrit": 962,
-   "abstention": 76,
+   "inscrits": 962,
+   "abstentions": 76,
    "pour_abs": {
       "ins": 7.9
    },
-   "votant": 886,
+   "votants": 886,
    "pour_vot": {
       "ins": 92.1
    },
    "blanc_nul": 12,
    "pour_bl_nuls": {
       "ins": 1.25,
-      "Vot": 1.35
+      "vot": 1.35
    },
    "exprimes": 874,
    "pour_exp": {
       "ins": 90.85,
-      "Vot": 98.65
+      "vot": 98.65
    },
    "sexe": [
       "M",
@@ -16788,24 +16788,24 @@
  {
    "code": 330,
    "nom_com": "Sceaux-d'Anjou",
-   "inscrit": 548,
-   "abstention": 47,
+   "inscrits": 548,
+   "abstentions": 47,
    "pour_abs": {
       "ins": 8.58
    },
-   "votant": 501,
+   "votants": 501,
    "pour_vot": {
       "ins": 91.42
    },
    "blanc_nul": 13,
    "pour_bl_nuls": {
       "ins": 2.37,
-      "Vot": 2.59
+      "vot": 2.59
    },
    "exprimes": 488,
    "pour_exp": {
       "ins": 89.05,
-      "Vot": 97.41
+      "vot": 97.41
    },
    "sexe": [
       "M",
@@ -16897,24 +16897,24 @@
  {
    "code": 331,
    "nom_com": "Segré-en-Anjou-Bleu",
-   "inscrit": 12310,
-   "abstention": 1710,
+   "inscrits": 12310,
+   "abstentions": 1710,
    "pour_abs": {
       "ins": 13.89
    },
-   "votant": 10600,
+   "votants": 10600,
    "pour_vot": {
       "ins": 86.11
    },
    "blanc_nul": 165,
    "pour_bl_nuls": {
       "ins": 1.34,
-      "Vot": 1.56
+      "vot": 1.56
    },
    "exprimes": 10435,
    "pour_exp": {
       "ins": 84.77,
-      "Vot": 98.44
+      "vot": 98.44
    },
    "sexe": [
       "M",
@@ -17006,24 +17006,24 @@
  {
    "code": 332,
    "nom_com": "La Séguinière",
-   "inscrit": 2930,
-   "abstention": 289,
+   "inscrits": 2930,
+   "abstentions": 289,
    "pour_abs": {
       "ins": 9.86
    },
-   "votant": 2641,
+   "votants": 2641,
    "pour_vot": {
       "ins": 90.14
    },
    "blanc_nul": 50,
    "pour_bl_nuls": {
       "ins": 1.71,
-      "Vot": 1.89
+      "vot": 1.89
    },
    "exprimes": 2591,
    "pour_exp": {
       "ins": 88.43,
-      "Vot": 98.11
+      "vot": 98.11
    },
    "sexe": [
       "M",
@@ -17115,24 +17115,24 @@
  {
    "code": 333,
    "nom_com": "Seiches-sur-le-Loir",
-   "inscrit": 1950,
-   "abstention": 201,
+   "inscrits": 1950,
+   "abstentions": 201,
    "pour_abs": {
       "ins": 10.31
    },
-   "votant": 1749,
+   "votants": 1749,
    "pour_vot": {
       "ins": 89.69
    },
    "blanc_nul": 34,
    "pour_bl_nuls": {
       "ins": 1.74,
-      "Vot": 1.94
+      "vot": 1.94
    },
    "exprimes": 1715,
    "pour_exp": {
       "ins": 87.95,
-      "Vot": 98.06
+      "vot": 98.06
    },
    "sexe": [
       "M",
@@ -17224,24 +17224,24 @@
  {
    "code": 334,
    "nom_com": "Sermaise",
-   "inscrit": 237,
-   "abstention": 28,
+   "inscrits": 237,
+   "abstentions": 28,
    "pour_abs": {
       "ins": 11.81
    },
-   "votant": 209,
+   "votants": 209,
    "pour_vot": {
       "ins": 88.19
    },
    "blanc_nul": 6,
    "pour_bl_nuls": {
       "ins": 2.53,
-      "Vot": 2.87
+      "vot": 2.87
    },
    "exprimes": 203,
    "pour_exp": {
       "ins": 85.65,
-      "Vot": 97.13
+      "vot": 97.13
    },
    "sexe": [
       "M",
@@ -17333,24 +17333,24 @@
  {
    "code": 336,
    "nom_com": "Somloire",
-   "inscrit": 665,
-   "abstention": 63,
+   "inscrits": 665,
+   "abstentions": 63,
    "pour_abs": {
       "ins": 9.47
    },
-   "votant": 602,
+   "votants": 602,
    "pour_vot": {
       "ins": 90.53
    },
    "blanc_nul": 11,
    "pour_bl_nuls": {
       "ins": 1.65,
-      "Vot": 1.83
+      "vot": 1.83
    },
    "exprimes": 591,
    "pour_exp": {
       "ins": 88.87,
-      "Vot": 98.17
+      "vot": 98.17
    },
    "sexe": [
       "M",
@@ -17442,24 +17442,24 @@
  {
    "code": 337,
    "nom_com": "Soucelles",
-   "inscrit": 1874,
-   "abstention": 180,
+   "inscrits": 1874,
+   "abstentions": 180,
    "pour_abs": {
       "ins": 9.61
    },
-   "votant": 1694,
+   "votants": 1694,
    "pour_vot": {
       "ins": 90.39
    },
    "blanc_nul": 17,
    "pour_bl_nuls": {
       "ins": 0.91,
-      "Vot": 1
+      "vot": 1
    },
    "exprimes": 1677,
    "pour_exp": {
       "ins": 89.49,
-      "Vot": 99
+      "vot": 99
    },
    "sexe": [
       "M",
@@ -17551,24 +17551,24 @@
  {
    "code": 338,
    "nom_com": "Soulaines-sur-Aubance",
-   "inscrit": 910,
-   "abstention": 52,
+   "inscrits": 910,
+   "abstentions": 52,
    "pour_abs": {
       "ins": 5.71
    },
-   "votant": 858,
+   "votants": 858,
    "pour_vot": {
       "ins": 94.29
    },
    "blanc_nul": 13,
    "pour_bl_nuls": {
       "ins": 1.43,
-      "Vot": 1.52
+      "vot": 1.52
    },
    "exprimes": 845,
    "pour_exp": {
       "ins": 92.86,
-      "Vot": 98.48
+      "vot": 98.48
    },
    "sexe": [
       "M",
@@ -17660,24 +17660,24 @@
  {
    "code": 339,
    "nom_com": "Soulaire-et-Bourg",
-   "inscrit": 971,
-   "abstention": 71,
+   "inscrits": 971,
+   "abstentions": 71,
    "pour_abs": {
       "ins": 7.31
    },
-   "votant": 900,
+   "votants": 900,
    "pour_vot": {
       "ins": 92.69
    },
    "blanc_nul": 12,
    "pour_bl_nuls": {
       "ins": 1.24,
-      "Vot": 1.33
+      "vot": 1.33
    },
    "exprimes": 888,
    "pour_exp": {
       "ins": 91.45,
-      "Vot": 98.67
+      "vot": 98.67
    },
    "sexe": [
       "M",
@@ -17769,24 +17769,24 @@
  {
    "code": 341,
    "nom_com": "Souzay-Champigny",
-   "inscrit": 509,
-   "abstention": 68,
+   "inscrits": 509,
+   "abstentions": 68,
    "pour_abs": {
       "ins": 13.36
    },
-   "votant": 441,
+   "votants": 441,
    "pour_vot": {
       "ins": 86.64
    },
    "blanc_nul": 5,
    "pour_bl_nuls": {
       "ins": 0.98,
-      "Vot": 1.13
+      "vot": 1.13
    },
    "exprimes": 436,
    "pour_exp": {
       "ins": 85.66,
-      "Vot": 98.87
+      "vot": 98.87
    },
    "sexe": [
       "M",
@@ -17878,24 +17878,24 @@
  {
    "code": 343,
    "nom_com": "La Tessoualle",
-   "inscrit": 2346,
-   "abstention": 270,
+   "inscrits": 2346,
+   "abstentions": 270,
    "pour_abs": {
       "ins": 11.51
    },
-   "votant": 2076,
+   "votants": 2076,
    "pour_vot": {
       "ins": 88.49
    },
    "blanc_nul": 25,
    "pour_bl_nuls": {
       "ins": 1.07,
-      "Vot": 1.2
+      "vot": 1.2
    },
    "exprimes": 2051,
    "pour_exp": {
       "ins": 87.43,
-      "Vot": 98.8
+      "vot": 98.8
    },
    "sexe": [
       "M",
@@ -17987,24 +17987,24 @@
  {
    "code": 344,
    "nom_com": "Thorigné-d'Anjou",
-   "inscrit": 642,
-   "abstention": 61,
+   "inscrits": 642,
+   "abstentions": 61,
    "pour_abs": {
       "ins": 9.5
    },
-   "votant": 581,
+   "votants": 581,
    "pour_vot": {
       "ins": 90.5
    },
    "blanc_nul": 9,
    "pour_bl_nuls": {
       "ins": 1.4,
-      "Vot": 1.55
+      "vot": 1.55
    },
    "exprimes": 572,
    "pour_exp": {
       "ins": 89.1,
-      "Vot": 98.45
+      "vot": 98.45
    },
    "sexe": [
       "M",
@@ -18096,24 +18096,24 @@
  {
    "code": 345,
    "nom_com": "Bellevigne-en-Layon",
-   "inscrit": 3995,
-   "abstention": 462,
+   "inscrits": 3995,
+   "abstentions": 462,
    "pour_abs": {
       "ins": 11.56
    },
-   "votant": 3533,
+   "votants": 3533,
    "pour_vot": {
       "ins": 88.44
    },
    "blanc_nul": 68,
    "pour_bl_nuls": {
       "ins": 1.7,
-      "Vot": 1.92
+      "vot": 1.92
    },
    "exprimes": 3465,
    "pour_exp": {
       "ins": 86.73,
-      "Vot": 98.08
+      "vot": 98.08
    },
    "sexe": [
       "M",
@@ -18205,24 +18205,24 @@
  {
    "code": 347,
    "nom_com": "Tiercé",
-   "inscrit": 3027,
-   "abstention": 298,
+   "inscrits": 3027,
+   "abstentions": 298,
    "pour_abs": {
       "ins": 9.84
    },
-   "votant": 2729,
+   "votants": 2729,
    "pour_vot": {
       "ins": 90.16
    },
    "blanc_nul": 43,
    "pour_bl_nuls": {
       "ins": 1.42,
-      "Vot": 1.58
+      "vot": 1.58
    },
    "exprimes": 2686,
    "pour_exp": {
       "ins": 88.73,
-      "Vot": 98.42
+      "vot": 98.42
    },
    "sexe": [
       "M",
@@ -18314,24 +18314,24 @@
  {
    "code": 352,
    "nom_com": "Toutlemonde",
-   "inscrit": 860,
-   "abstention": 95,
+   "inscrits": 860,
+   "abstentions": 95,
    "pour_abs": {
       "ins": 11.05
    },
-   "votant": 765,
+   "votants": 765,
    "pour_vot": {
       "ins": 88.95
    },
    "blanc_nul": 14,
    "pour_bl_nuls": {
       "ins": 1.63,
-      "Vot": 1.83
+      "vot": 1.83
    },
    "exprimes": 751,
    "pour_exp": {
       "ins": 87.33,
-      "Vot": 98.17
+      "vot": 98.17
    },
    "sexe": [
       "M",
@@ -18423,24 +18423,24 @@
  {
    "code": 353,
    "nom_com": "Trélazé",
-   "inscrit": 7816,
-   "abstention": 997,
+   "inscrits": 7816,
+   "abstentions": 997,
    "pour_abs": {
       "ins": 12.76
    },
-   "votant": 6819,
+   "votants": 6819,
    "pour_vot": {
       "ins": 87.24
    },
    "blanc_nul": 107,
    "pour_bl_nuls": {
       "ins": 1.37,
-      "Vot": 1.57
+      "vot": 1.57
    },
    "exprimes": 6712,
    "pour_exp": {
       "ins": 85.88,
-      "Vot": 98.43
+      "vot": 98.43
    },
    "sexe": [
       "M",
@@ -18532,24 +18532,24 @@
  {
    "code": 355,
    "nom_com": "Trémentines",
-   "inscrit": 2248,
-   "abstention": 226,
+   "inscrits": 2248,
+   "abstentions": 226,
    "pour_abs": {
       "ins": 10.05
    },
-   "votant": 2022,
+   "votants": 2022,
    "pour_vot": {
       "ins": 89.95
    },
    "blanc_nul": 35,
    "pour_bl_nuls": {
       "ins": 1.56,
-      "Vot": 1.73
+      "vot": 1.73
    },
    "exprimes": 1987,
    "pour_exp": {
       "ins": 88.39,
-      "Vot": 98.27
+      "vot": 98.27
    },
    "sexe": [
       "M",
@@ -18641,24 +18641,24 @@
  {
    "code": 358,
    "nom_com": "Turquant",
-   "inscrit": 420,
-   "abstention": 74,
+   "inscrits": 420,
+   "abstentions": 74,
    "pour_abs": {
       "ins": 17.62
    },
-   "votant": 346,
+   "votants": 346,
    "pour_vot": {
       "ins": 82.38
    },
    "blanc_nul": 6,
    "pour_bl_nuls": {
       "ins": 1.43,
-      "Vot": 1.73
+      "vot": 1.73
    },
    "exprimes": 340,
    "pour_exp": {
       "ins": 80.95,
-      "Vot": 98.27
+      "vot": 98.27
    },
    "sexe": [
       "M",
@@ -18750,24 +18750,24 @@
  {
    "code": 359,
    "nom_com": "Les Ulmes",
-   "inscrit": 360,
-   "abstention": 32,
+   "inscrits": 360,
+   "abstentions": 32,
    "pour_abs": {
       "ins": 8.89
    },
-   "votant": 328,
+   "votants": 328,
    "pour_vot": {
       "ins": 91.11
    },
    "blanc_nul": 3,
    "pour_bl_nuls": {
       "ins": 0.83,
-      "Vot": 0.91
+      "vot": 0.91
    },
    "exprimes": 325,
    "pour_exp": {
       "ins": 90.28,
-      "Vot": 99.09
+      "vot": 99.09
    },
    "sexe": [
       "M",
@@ -18859,24 +18859,24 @@
  {
    "code": 361,
    "nom_com": "Varennes-sur-Loire",
-   "inscrit": 1366,
-   "abstention": 176,
+   "inscrits": 1366,
+   "abstentions": 176,
    "pour_abs": {
       "ins": 12.88
    },
-   "votant": 1190,
+   "votants": 1190,
    "pour_vot": {
       "ins": 87.12
    },
    "blanc_nul": 16,
    "pour_bl_nuls": {
       "ins": 1.17,
-      "Vot": 1.34
+      "vot": 1.34
    },
    "exprimes": 1174,
    "pour_exp": {
       "ins": 85.94,
-      "Vot": 98.66
+      "vot": 98.66
    },
    "sexe": [
       "M",
@@ -18968,24 +18968,24 @@
  {
    "code": 362,
    "nom_com": "Varrains",
-   "inscrit": 881,
-   "abstention": 109,
+   "inscrits": 881,
+   "abstentions": 109,
    "pour_abs": {
       "ins": 12.37
    },
-   "votant": 772,
+   "votants": 772,
    "pour_vot": {
       "ins": 87.63
    },
    "blanc_nul": 9,
    "pour_bl_nuls": {
       "ins": 1.02,
-      "Vot": 1.17
+      "vot": 1.17
    },
    "exprimes": 763,
    "pour_exp": {
       "ins": 86.61,
-      "Vot": 98.83
+      "vot": 98.83
    },
    "sexe": [
       "M",
@@ -19077,24 +19077,24 @@
  {
    "code": 364,
    "nom_com": "Vaudelnay",
-   "inscrit": 875,
-   "abstention": 97,
+   "inscrits": 875,
+   "abstentions": 97,
    "pour_abs": {
       "ins": 11.09
    },
-   "votant": 778,
+   "votants": 778,
    "pour_vot": {
       "ins": 88.91
    },
    "blanc_nul": 15,
    "pour_bl_nuls": {
       "ins": 1.71,
-      "Vot": 1.93
+      "vot": 1.93
    },
    "exprimes": 763,
    "pour_exp": {
       "ins": 87.2,
-      "Vot": 98.07
+      "vot": 98.07
    },
    "sexe": [
       "M",
@@ -19186,24 +19186,24 @@
  {
    "code": 367,
    "nom_com": "Erdre-en-Anjou",
-   "inscrit": 3284,
-   "abstention": 332,
+   "inscrits": 3284,
+   "abstentions": 332,
    "pour_abs": {
       "ins": 10.11
    },
-   "votant": 2952,
+   "votants": 2952,
    "pour_vot": {
       "ins": 89.89
    },
    "blanc_nul": 54,
    "pour_bl_nuls": {
       "ins": 1.64,
-      "Vot": 1.83
+      "vot": 1.83
    },
    "exprimes": 2898,
    "pour_exp": {
       "ins": 88.25,
-      "Vot": 98.17
+      "vot": 98.17
    },
    "sexe": [
       "M",
@@ -19295,24 +19295,24 @@
  {
    "code": 368,
    "nom_com": "Vernantes",
-   "inscrit": 1238,
-   "abstention": 231,
+   "inscrits": 1238,
+   "abstentions": 231,
    "pour_abs": {
       "ins": 18.66
    },
-   "votant": 1007,
+   "votants": 1007,
    "pour_vot": {
       "ins": 81.34
    },
    "blanc_nul": 13,
    "pour_bl_nuls": {
       "ins": 1.05,
-      "Vot": 1.29
+      "vot": 1.29
    },
    "exprimes": 994,
    "pour_exp": {
       "ins": 80.29,
-      "Vot": 98.71
+      "vot": 98.71
    },
    "sexe": [
       "M",
@@ -19404,24 +19404,24 @@
  {
    "code": 369,
    "nom_com": "Vernoil-le-Fourrier",
-   "inscrit": 940,
-   "abstention": 143,
+   "inscrits": 940,
+   "abstentions": 143,
    "pour_abs": {
       "ins": 15.21
    },
-   "votant": 797,
+   "votants": 797,
    "pour_vot": {
       "ins": 84.79
    },
    "blanc_nul": 18,
    "pour_bl_nuls": {
       "ins": 1.91,
-      "Vot": 2.26
+      "vot": 2.26
    },
    "exprimes": 779,
    "pour_exp": {
       "ins": 82.87,
-      "Vot": 97.74
+      "vot": 97.74
    },
    "sexe": [
       "M",
@@ -19513,24 +19513,24 @@
  {
    "code": 370,
    "nom_com": "Verrie",
-   "inscrit": 307,
-   "abstention": 32,
+   "inscrits": 307,
+   "abstentions": 32,
    "pour_abs": {
       "ins": 10.42
    },
-   "votant": 275,
+   "votants": 275,
    "pour_vot": {
       "ins": 89.58
    },
    "blanc_nul": 9,
    "pour_bl_nuls": {
       "ins": 2.93,
-      "Vot": 3.27
+      "vot": 3.27
    },
    "exprimes": 266,
    "pour_exp": {
       "ins": 86.64,
-      "Vot": 96.73
+      "vot": 96.73
    },
    "sexe": [
       "M",
@@ -19622,24 +19622,24 @@
  {
    "code": 371,
    "nom_com": "Vezins",
-   "inscrit": 1172,
-   "abstention": 107,
+   "inscrits": 1172,
+   "abstentions": 107,
    "pour_abs": {
       "ins": 9.13
    },
-   "votant": 1065,
+   "votants": 1065,
    "pour_vot": {
       "ins": 90.87
    },
    "blanc_nul": 29,
    "pour_bl_nuls": {
       "ins": 2.47,
-      "Vot": 2.72
+      "vot": 2.72
    },
    "exprimes": 1036,
    "pour_exp": {
       "ins": 88.4,
-      "Vot": 97.28
+      "vot": 97.28
    },
    "sexe": [
       "M",
@@ -19731,24 +19731,24 @@
  {
    "code": 373,
    "nom_com": "Lys-Haut-Layon",
-   "inscrit": 5727,
-   "abstention": 686,
+   "inscrits": 5727,
+   "abstentions": 686,
    "pour_abs": {
       "ins": 11.98
    },
-   "votant": 5041,
+   "votants": 5041,
    "pour_vot": {
       "ins": 88.02
    },
    "blanc_nul": 117,
    "pour_bl_nuls": {
       "ins": 2.04,
-      "Vot": 2.32
+      "vot": 2.32
    },
    "exprimes": 4924,
    "pour_exp": {
       "ins": 85.98,
-      "Vot": 97.68
+      "vot": 97.68
    },
    "sexe": [
       "M",
@@ -19840,24 +19840,24 @@
  {
    "code": 374,
    "nom_com": "Villebernier",
-   "inscrit": 1047,
-   "abstention": 147,
+   "inscrits": 1047,
+   "abstentions": 147,
    "pour_abs": {
       "ins": 14.04
    },
-   "votant": 900,
+   "votants": 900,
    "pour_vot": {
       "ins": 85.96
    },
    "blanc_nul": 17,
    "pour_bl_nuls": {
       "ins": 1.62,
-      "Vot": 1.89
+      "vot": 1.89
    },
    "exprimes": 883,
    "pour_exp": {
       "ins": 84.34,
-      "Vot": 98.11
+      "vot": 98.11
    },
    "sexe": [
       "M",
@@ -19949,24 +19949,24 @@
  {
    "code": 377,
    "nom_com": "Villevêque",
-   "inscrit": 1933,
-   "abstention": 196,
+   "inscrits": 1933,
+   "abstentions": 196,
    "pour_abs": {
       "ins": 10.14
    },
-   "votant": 1737,
+   "votants": 1737,
    "pour_vot": {
       "ins": 89.86
    },
    "blanc_nul": 30,
    "pour_bl_nuls": {
       "ins": 1.55,
-      "Vot": 1.73
+      "vot": 1.73
    },
    "exprimes": 1707,
    "pour_exp": {
       "ins": 88.31,
-      "Vot": 98.27
+      "vot": 98.27
    },
    "sexe": [
       "M",
@@ -20058,24 +20058,24 @@
  {
    "code": 378,
    "nom_com": "Vivy",
-   "inscrit": 1493,
-   "abstention": 193,
+   "inscrits": 1493,
+   "abstentions": 193,
    "pour_abs": {
       "ins": 12.93
    },
-   "votant": 1300,
+   "votants": 1300,
    "pour_vot": {
       "ins": 87.07
    },
    "blanc_nul": 18,
    "pour_bl_nuls": {
       "ins": 1.21,
-      "Vot": 1.38
+      "vot": 1.38
    },
    "exprimes": 1282,
    "pour_exp": {
       "ins": 85.87,
-      "Vot": 98.62
+      "vot": 98.62
    },
    "sexe": [
       "M",
@@ -20167,24 +20167,24 @@
  {
    "code": 381,
    "nom_com": "Yzernay",
-   "inscrit": 1438,
-   "abstention": 162,
+   "inscrits": 1438,
+   "abstentions": 162,
    "pour_abs": {
       "ins": 11.27
    },
-   "votant": 1276,
+   "votants": 1276,
    "pour_vot": {
       "ins": 88.73
    },
    "blanc_nul": 22,
    "pour_bl_nuls": {
       "ins": 1.53,
-      "Vot": 1.72
+      "vot": 1.72
    },
    "exprimes": 1254,
    "pour_exp": {
       "ins": 87.2,
-      "Vot": 98.28
+      "vot": 98.28
    },
    "sexe": [
       "M",
