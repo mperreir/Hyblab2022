@@ -50,11 +50,7 @@ async function Suivant(temps,score,total) {
     b.style.height = "40px";
     b.style.borderRadius = "10px 10px 10px 10px";
     b.addEventListener('click', () => { 
-        if(!question.is_response_1_true){
-            b.style.backgroundColor = "green";
-        }else{
-            b.style.backgroundColor = "red";
-        };
+        changeColor(b, !question.is_response_1_true);
         Reponse(b, !question.is_response_1_true, temps, interval, score, total);
     });
 
@@ -80,6 +76,15 @@ async function Suivant(temps,score,total) {
     
     
     
+}
+
+function changeColor(button, truth){
+    if(truth){
+        button.style.backgroundColor = "green";
+    }else{
+        button.style.backgroundColor = "red";
+    };
+     
 }
 
 
