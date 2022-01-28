@@ -10,7 +10,7 @@ page('/communes-2/gameChoice', async function () {
 
     const gauchebtn = document.getElementById("btn-gauche");
     gauchebtn.addEventListener('click', function () {
-        page('/communes-2/affirmation');
+        page('/communes-2/resultatFinal');
     });
 
     const centrebtn = document.getElementById("btn-centre");

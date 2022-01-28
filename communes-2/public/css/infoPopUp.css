@@ -1,0 +1,42 @@
+.popUp{
+    margin-left: 10%;
+    margin-right: 10%;
+
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -15px 15px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px;
+
+    background-color: #282246;
+    color: #f0e4d8;
+    
+    background-position: 9px 0px;
+    background-repeat: no-repeat;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+    line-height: 18px;
+    overflow: hidden;
+    padding: 15px 60px;
+
+    text-align: center;
+}
+
+.text{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.popUp > h6{
+    margin-top: 20px;
+    font-size: 25%;
+
+    text-align: center;
+}
+
+.popUp-info{
+    font-size: 18%;
+    text-align: center;
+}

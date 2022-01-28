@@ -9,10 +9,6 @@
     transition: transform 250ms;
 }
 
-.btn-accueil:hover{
-    cursor: pointer;
-}
-
 .btn-menu{  
     font-family: "Bebas Neue";
     width: 91px;
@@ -23,7 +19,18 @@
     transition: transform 250ms;
 }
 
-.btn-menu:hover{
+.btn-popUp{  
+    font-family: "Bebas Neue";
+    width: 80%;
+    height: 3em;
+    font-size: 15px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 50px;
+    transition: transform 250ms;
+}
+
+.btn-popUp:hover, .btn-menu:hover, .btn-accueil:hover{
     cursor: pointer;
 }
 
