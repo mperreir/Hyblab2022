@@ -144,13 +144,16 @@ body{
 
 .genericText{
     font-family: "Reem Kufi";
-    font-size: 20px;
+    font-size: 20%;
     color: #282246;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
 }
 
 .textZone{
     font-family: "Bebas Neue";
-    font-size: 30px;
+    font-size: 20%;
     background-color: #282246;
     padding: 10px 60px 10px 60px;
     border-radius: 50px;
