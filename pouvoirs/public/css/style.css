@@ -121,7 +121,6 @@ body {
   flex-direction: column;
   width: 80%;
   align-items: center;
-  /*height: 20%;*/
   padding: 5%;
 }
 
@@ -149,6 +148,45 @@ body {
   font-size: 30%;
   height: 70%;
   width: 80%;
+  background-color: #0AF2E1;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0;
+}
+
+/* Falling alien page */
+
+#falling {
+  background: white;
+}
+
+#falling p {
+  font-family: 'Nunito';
+  font-size: 18%;
+  font-weight: 900;
+}
+
+#falling .bulle {
+  position: absolute;
+  top: 10%;
+  width: 70%;
+  left:8%;
+  background: #4F00EC;
+  padding: 5%;
+  border: 4px solid #0AF2E1;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+#next-button {
+  position: absolute;
+  bottom: 5%;
+  left: 10%;
+  font-family: 'First Fun';
+  font-size: 30%;
+  width: 80%;
+  height: 7%;
   background-color: #0AF2E1;
   color: white;
   border: none;

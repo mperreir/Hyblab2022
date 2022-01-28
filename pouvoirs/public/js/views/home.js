@@ -1,6 +1,6 @@
 "use strict";
 
-const headPhoneTimeout = 4000;
+const headPhoneTimeout = 500;
 let init = false;
 
 let illustration = {

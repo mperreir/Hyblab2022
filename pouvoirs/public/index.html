@@ -1,15 +1,16 @@
 <!doctype html>
 
 <html lang="fr">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
   <title>Hyblab 2022</title>
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/loadingio/loading.css@v2.0.0/dist/loading.css" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap' rel='stylesheet'>
   <link href="https://vjs.zencdn.net/7.6.6/video-js.css" rel="stylesheet" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
   <script src="https://vjs.zencdn.net/7.6.6/video.js"></script>
@@ -18,96 +19,123 @@
   <!-- import swiper -->
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <!-- import howler for audios -->
-  <script src ="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
   <script src="js/utils/animation.js" defer></script>
   <script src="js/utils/audio.js" defer></script>
-  <script src="js/index.js" defer></script>
   <script src="js/views/home.js" defer></script>
-  <script src="js/views/falling.js" defer></script> 
+  <script src="js/views/falling.js" defer></script>
   <script src="js/views/p1.js" defer></script>
   <script src="js/views/p5.js" defer></script>
   <script src="js/views/p6.js" defer></script>
   <script src="js/views/credits.js" defer></script>
+  <script src="js/index.js" defer></script>
 </head>
+
 <body>
-    <!-- Le conteneur sert à vérouiller les proportions (aspect ratio) du contenu de la page (ici des slides) -->
-    <div id="container">
-      <div id="mySwiper" class="swiper">
-        <!-- le main est aussi le conteneur des différents slides (contenus à chaque fois dans des sections-->
-        <main class = "swiper-wrapper">
-          <section id="homepage" class="swiper-slide">
-            <!-- <div id="homeBackground"></div> -->
-            <!-- Logo "MOUA PRESIDENT" -->
-            <div class="logo-container">
-              <img src = "img/logos/logo-white.svg" alt="Moua President Logo"/>
-            </div>
-            
-            <!-- Illustration animé -->
-            <div id="background"></div>
-            <div id="spaceship"></div>
+  <!-- Le conteneur sert à vérouiller les proportions (aspect ratio) du contenu de la page (ici des slides) -->
+  <div id="container">
+    <div id="mySwiper" class="swiper">
+      <!-- le main est aussi le conteneur des différents slides (contenus à chaque fois dans des sections-->
+      <main class="swiper-wrapper">
+        <section id="homepage" class="swiper-slide">
+          <!-- <div id="homeBackground"></div> -->
+          <!-- Logo "MOUA PRESIDENT" -->
+          <div class="logo-container">
+            <img src="img/logos/logo-white.svg" alt="Moua President Logo" />
+          </div>
 
-            <p>Grace a Moua, découvrez et expérimentez les pouvoirs du President Francais !</p>
-            <!-- Play Button -->
-            <div class="button-container">
-              <input id="play-button" type="button" value="Jouer">
-              <div id="headphone">
-                <div id="headphone-image">
-                  <img src="img/elements/headphone.webp"></img>
-                </div>
-                <p><b>Conseil :</b> branchez un casque pour une meilleure immersion.</p>
+          <!-- Illustration animé -->
+          <div id="background"></div>
+          <div id="spaceship"></div>
+
+          <p>Grace a Moua, découvrez et expérimentez les pouvoirs du President Francais !</p>
+          <!-- Play Button -->
+          <div class="button-container">
+            <input id="play-button" type="button" value="Jouer">
+            <div id="headphone">
+              <div id="headphone-image">
+                <img src="img/elements/headphone.webp"></img>
               </div>
+              <p><b>Conseil :</b> branchez un casque pour une meilleure immersion.</p>
             </div>
-          </section> 
+          </div>
+        </section>
 
-          <section class="swiper-slide" id="p1">
-            <img class="pouvoir-header" src="img/headers/POUVOIR_1.svg">
-            
-          </section>
+        <section class="swiper-slide" , id="falling">
+          <div id="background-falling"></div>
+          <div class='bulle'>
+            <p>
+              En incarnant Moua, un être venu d’ailleurs devenu malgré lui le Président français sous la Vème
+              république. Découvrez et expérimentez les pouvoirs du chef du pays. Laissez vous guider tout le long du
+              jeu.
+              Choisissez la ou les bonnes réponses pour chaque situation.
+              Bonne immersion !
+            </p>
+          </div>
+          <input id="next-button" type="button" value="Commencer">
+        </section>
 
-          <section class="swiper-slide" id="p2">
-            <img class="pouvoir-header" src="img/headers/POUVOIR_2.svg">
 
-          </section>
+        <section class="swiper-slide" id="p1">
+          <img class="pouvoir-header" src="img/headers/POUVOIR_1.svg">
 
-          <section class="swiper-slide" id="p3">
-            <img class="pouvoir-header" src="img/headers/POUVOIR_3.svg">
+        </section>
 
-          </section>
+        <section class="swiper-slide" id="p2">
+          <img class="pouvoir-header" src="img/headers/POUVOIR_2.svg">
 
-          <section class="swiper-slide" id="p4">
-            <img class="pouvoir-header" src="img/headers/POUVOIR_4.svg">
+        </section>
 
-          </section>
+        <section class="swiper-slide" id="p3">
+          <img class="pouvoir-header" src="img/headers/POUVOIR_3.svg">
 
-          <section class="swiper-slide" id="p5">
-            <img class="pouvoir-header" src="img/headers/POUVOIR_5.svg">
-            <div id = "callAnimation"></div>
-            <div class="phoneButton">
-              <img src="img/buttons/phoneButton.svg">
-            </div>
-              
-            
-          </section>
+        </section>
 
-          <section class="swiper-slide" id="p6">
-            <div class="pouvoir-header"><img src="img/headers/POUVOIR_6.svg"></div>
-            <div class="decompte"><p> 5 4 3 2 1 etc </p></div>
-            <div class="dialog-before"><p> bla bla bla bla </p></div>
-            <div class="dialog-pressed"><p> bouh nul </p></div>
-            <div class="dialog-not-pressed"><p> super bien ouej </p></div>
-            <div class="bouton-rouge" style="font-size : 12px; text-align: center;"><p>gros bouton rouge</p></div>
-          </section>
+        <section class="swiper-slide" id="p4">
+          <img class="pouvoir-header" src="img/headers/POUVOIR_4.svg">
 
-          <section class="swiper-slide" id="end">
+        </section>
 
-          </section>
+        <section class="swiper-slide" id="p5">
+          <img class="pouvoir-header" src="img/headers/POUVOIR_5.svg">
+          <div id="callAnimation"></div>
+          <div class="phoneButton">
+            <img src="img/buttons/phoneButton.svg">
+          </div>
 
-          <section class="swiper-slide" id="credit">
 
-          </section>
-        </main>
-        <!-- <div class="swiper-pagination"></div> -->
+        </section>
+
+        <section class="swiper-slide" id="p6">
+          <div class="pouvoir-header"><img src="img/headers/POUVOIR_6.svg"></div>
+          <div class="decompte">
+            <p> 5 4 3 2 1 etc </p>
+          </div>
+          <div class="dialog-before">
+            <p> bla bla bla bla </p>
+          </div>
+          <div class="dialog-pressed">
+            <p> bouh nul </p>
+          </div>
+          <div class="dialog-not-pressed">
+            <p> super bien ouej </p>
+          </div>
+          <div class="bouton-rouge" style="font-size : 12px; text-align: center;">
+            <p>gros bouton rouge</p>
+          </div>
+        </section>
+
+        <section class="swiper-slide" id="end">
+
+        </section>
+
+        <section class="swiper-slide" id="credit">
+
+        </section>
+      </main>
+      <!-- <div class="swiper-pagination"></div> -->
     </div>
   </div>
 </body>
+
 </html>
