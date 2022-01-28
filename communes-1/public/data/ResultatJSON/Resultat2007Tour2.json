@@ -1,0 +1,9116 @@
+[
+ {
+   "Code de la commune": 2,
+   "Libellé de la commune": "Allonnes",
+   "Inscrits": 1980,
+   "Abstentions": 303,
+   "% Abs": {
+      "Ins": 15.3
+   },
+   "Votants": 1677,
+   "% Vot": {
+      "Ins": 84.7
+   },
+   "Blancs et nuls": 84,
+   "% BlNuls": {
+      "Ins": 4.24,
+      "Vot": 5.01
+   },
+   "Exprimés": 1593,
+   "% Exp": {
+      "Ins": 80.45,
+      "Vot": 94.99
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      974,
+      619
+   ],
+   "% Voix": {
+      "Ins": [
+         49.19,
+         31.26
+      ],
+      "Exp": [
+         61.14,
+         38.86
+      ]
+   }
+},
+ {
+   "Code de la commune": 3,
+   "Libellé de la commune": "Tuffalun",
+   "Inscrits": 1094,
+   "Abstentions": 147,
+   "% Abs": {
+      "Ins": 13.44
+   },
+   "Votants": 947,
+   "% Vot": {
+      "Ins": 86.56
+   },
+   "Blancs et nuls": 76,
+   "% BlNuls": {
+      "Ins": 6.95,
+      "Vot": 8.03
+   },
+   "Exprimés": 871,
+   "% Exp": {
+      "Ins": 79.62,
+      "Vot": 91.97
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      525,
+      346
+   ],
+   "% Voix": {
+      "Ins": [
+         47.99,
+         31.63
+      ],
+      "Exp": [
+         60.28,
+         39.72
+      ]
+   }
+},
+ {
+   "Code de la commune": 7,
+   "Libellé de la commune": "Angers",
+   "Inscrits": 87561,
+   "Abstentions": 13585,
+   "% Abs": {
+      "Ins": 15.51
+   },
+   "Votants": 73976,
+   "% Vot": {
+      "Ins": 84.49
+   },
+   "Blancs et nuls": 3006,
+   "% BlNuls": {
+      "Ins": 3.43,
+      "Vot": 4.06
+   },
+   "Exprimés": 70970,
+   "% Exp": {
+      "Ins": 81.05,
+      "Vot": 95.94
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      33540,
+      37430
+   ],
+   "% Voix": {
+      "Ins": [
+         38.3,
+         42.75
+      ],
+      "Exp": [
+         47.26,
+         52.74
+      ]
+   }
+},
+ {
+   "Code de la commune": 8,
+   "Libellé de la commune": "Angrie",
+   "Inscrits": 609,
+   "Abstentions": 78,
+   "% Abs": {
+      "Ins": 12.81
+   },
+   "Votants": 531,
+   "% Vot": {
+      "Ins": 87.19
+   },
+   "Blancs et nuls": 14,
+   "% BlNuls": {
+      "Ins": 2.3,
+      "Vot": 2.64
+   },
+   "Exprimés": 517,
+   "% Exp": {
+      "Ins": 84.89,
+      "Vot": 97.36
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      310,
+      207
+   ],
+   "% Voix": {
+      "Ins": [
+         50.9,
+         33.99
+      ],
+      "Exp": [
+         59.96,
+         40.04
+      ]
+   }
+},
+ {
+   "Code de la commune": 9,
+   "Libellé de la commune": "Antoigné",
+   "Inscrits": 325,
+   "Abstentions": 56,
+   "% Abs": {
+      "Ins": 17.23
+   },
+   "Votants": 269,
+   "% Vot": {
+      "Ins": 82.77
+   },
+   "Blancs et nuls": 8,
+   "% BlNuls": {
+      "Ins": 2.46,
+      "Vot": 2.97
+   },
+   "Exprimés": 261,
+   "% Exp": {
+      "Ins": 80.31,
+      "Vot": 97.03
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      147,
+      114
+   ],
+   "% Voix": {
+      "Ins": [
+         45.23,
+         35.08
+      ],
+      "Exp": [
+         56.32,
+         43.68
+      ]
+   }
+},
+ {
+   "Code de la commune": 10,
+   "Libellé de la commune": "Armaillé",
+   "Inscrits": 211,
+   "Abstentions": 23,
+   "% Abs": {
+      "Ins": 10.9
+   },
+   "Votants": 188,
+   "% Vot": {
+      "Ins": 89.1
+   },
+   "Blancs et nuls": 2,
+   "% BlNuls": {
+      "Ins": 0.95,
+      "Vot": 1.06
+   },
+   "Exprimés": 186,
+   "% Exp": {
+      "Ins": 88.15,
+      "Vot": 98.94
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      132,
+      54
+   ],
+   "% Voix": {
+      "Ins": [
+         62.56,
+         25.59
+      ],
+      "Exp": [
+         70.97,
+         29.03
+      ]
+   }
+},
+ {
+   "Code de la commune": 11,
+   "Libellé de la commune": "Artannes-sur-Thouet",
+   "Inscrits": 302,
+   "Abstentions": 35,
+   "% Abs": {
+      "Ins": 11.59
+   },
+   "Votants": 267,
+   "% Vot": {
+      "Ins": 88.41
+   },
+   "Blancs et nuls": 15,
+   "% BlNuls": {
+      "Ins": 4.97,
+      "Vot": 5.62
+   },
+   "Exprimés": 252,
+   "% Exp": {
+      "Ins": 83.44,
+      "Vot": 94.38
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      151,
+      101
+   ],
+   "% Voix": {
+      "Ins": [
+         50,
+         33.44
+      ],
+      "Exp": [
+         59.92,
+         40.08
+      ]
+   }
+},
+ {
+   "Code de la commune": 12,
+   "Libellé de la commune": "Aubigné-sur-Layon",
+   "Inscrits": 262,
+   "Abstentions": 20,
+   "% Abs": {
+      "Ins": 7.63
+   },
+   "Votants": 242,
+   "% Vot": {
+      "Ins": 92.37
+   },
+   "Blancs et nuls": 18,
+   "% BlNuls": {
+      "Ins": 6.87,
+      "Vot": 7.44
+   },
+   "Exprimés": 224,
+   "% Exp": {
+      "Ins": 85.5,
+      "Vot": 92.56
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      132,
+      92
+   ],
+   "% Voix": {
+      "Ins": [
+         50.38,
+         35.11
+      ],
+      "Exp": [
+         58.93,
+         41.07
+      ]
+   }
+},
+ {
+   "Code de la commune": 15,
+   "Libellé de la commune": "Avrillé",
+   "Inscrits": 9901,
+   "Abstentions": 1253,
+   "% Abs": {
+      "Ins": 12.66
+   },
+   "Votants": 8648,
+   "% Vot": {
+      "Ins": 87.34
+   },
+   "Blancs et nuls": 394,
+   "% BlNuls": {
+      "Ins": 3.98,
+      "Vot": 4.56
+   },
+   "Exprimés": 8254,
+   "% Exp": {
+      "Ins": 83.37,
+      "Vot": 95.44
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      4465,
+      3789
+   ],
+   "% Voix": {
+      "Ins": [
+         45.1,
+         38.27
+      ],
+      "Exp": [
+         54.09,
+         45.91
+      ]
+   }
+},
+ {
+   "Code de la commune": 17,
+   "Libellé de la commune": "Baracé",
+   "Inscrits": 296,
+   "Abstentions": 39,
+   "% Abs": {
+      "Ins": 13.18
+   },
+   "Votants": 257,
+   "% Vot": {
+      "Ins": 86.82
+   },
+   "Blancs et nuls": 13,
+   "% BlNuls": {
+      "Ins": 4.39,
+      "Vot": 5.06
+   },
+   "Exprimés": 244,
+   "% Exp": {
+      "Ins": 82.43,
+      "Vot": 94.94
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      135,
+      109
+   ],
+   "% Voix": {
+      "Ins": [
+         45.61,
+         36.82
+      ],
+      "Exp": [
+         55.33,
+         44.67
+      ]
+   }
+},
+ {
+   "Code de la commune": 18,
+   "Libellé de la commune": "Baugé-en-Anjou",
+   "Inscrits": 8284,
+   "Abstentions": 1133,
+   "% Abs": {
+      "Ins": 13.68
+   },
+   "Votants": 7151,
+   "% Vot": {
+      "Ins": 86.32
+   },
+   "Blancs et nuls": 328,
+   "% BlNuls": {
+      "Ins": 3.96,
+      "Vot": 4.59
+   },
+   "Exprimés": 6823,
+   "% Exp": {
+      "Ins": 82.36,
+      "Vot": 95.41
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      3767,
+      3056
+   ],
+   "% Voix": {
+      "Ins": [
+         45.47,
+         36.89
+      ],
+      "Exp": [
+         55.21,
+         44.79
+      ]
+   }
+},
+ {
+   "Code de la commune": 20,
+   "Libellé de la commune": "Beaucouzé",
+   "Inscrits": 3872,
+   "Abstentions": 374,
+   "% Abs": {
+      "Ins": 9.66
+   },
+   "Votants": 3498,
+   "% Vot": {
+      "Ins": 90.34
+   },
+   "Blancs et nuls": 161,
+   "% BlNuls": {
+      "Ins": 4.16,
+      "Vot": 4.6
+   },
+   "Exprimés": 3337,
+   "% Exp": {
+      "Ins": 86.18,
+      "Vot": 95.4
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      1557,
+      1780
+   ],
+   "% Voix": {
+      "Ins": [
+         40.21,
+         45.97
+      ],
+      "Exp": [
+         46.66,
+         53.34
+      ]
+   }
+},
+ {
+   "Code de la commune": 21,
+   "Libellé de la commune": "Beaufort-en-Anjou",
+   "Inscrits": 4565,
+   "Abstentions": 691,
+   "% Abs": {
+      "Ins": 15.14
+   },
+   "Votants": 3874,
+   "% Vot": {
+      "Ins": 84.86
+   },
+   "Blancs et nuls": 200,
+   "% BlNuls": {
+      "Ins": 4.38,
+      "Vot": 5.16
+   },
+   "Exprimés": 3674,
+   "% Exp": {
+      "Ins": 80.48,
+      "Vot": 94.84
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      1967,
+      1707
+   ],
+   "% Voix": {
+      "Ins": [
+         43.09,
+         37.39
+      ],
+      "Exp": [
+         53.54,
+         46.46
+      ]
+   }
+},
+ {
+   "Code de la commune": 22,
+   "Libellé de la commune": "Beaulieu-sur-Layon",
+   "Inscrits": 988,
+   "Abstentions": 81,
+   "% Abs": {
+      "Ins": 8.2
+   },
+   "Votants": 907,
+   "% Vot": {
+      "Ins": 91.8
+   },
+   "Blancs et nuls": 42,
+   "% BlNuls": {
+      "Ins": 4.25,
+      "Vot": 4.63
+   },
+   "Exprimés": 865,
+   "% Exp": {
+      "Ins": 87.55,
+      "Vot": 95.37
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      512,
+      353
+   ],
+   "% Voix": {
+      "Ins": [
+         51.82,
+         35.73
+      ],
+      "Exp": [
+         59.19,
+         40.81
+      ]
+   }
+},
+ {
+   "Code de la commune": 23,
+   "Libellé de la commune": "Beaupréau-en-Mauges",
+   "Inscrits": 16289,
+   "Abstentions": 2038,
+   "% Abs": {
+      "Ins": 12.51
+   },
+   "Votants": 14251,
+   "% Vot": {
+      "Ins": 87.49
+   },
+   "Blancs et nuls": 878,
+   "% BlNuls": {
+      "Ins": 5.39,
+      "Vot": 6.16
+   },
+   "Exprimés": 13373,
+   "% Exp": {
+      "Ins": 82.1,
+      "Vot": 93.84
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      8268,
+      5105
+   ],
+   "% Voix": {
+      "Ins": [
+         50.76,
+         31.34
+      ],
+      "Exp": [
+         61.83,
+         38.17
+      ]
+   }
+},
+ {
+   "Code de la commune": 26,
+   "Libellé de la commune": "Bécon-les-Granits",
+   "Inscrits": 1920,
+   "Abstentions": 205,
+   "% Abs": {
+      "Ins": 10.68
+   },
+   "Votants": 1715,
+   "% Vot": {
+      "Ins": 89.32
+   },
+   "Blancs et nuls": 77,
+   "% BlNuls": {
+      "Ins": 4.01,
+      "Vot": 4.49
+   },
+   "Exprimés": 1638,
+   "% Exp": {
+      "Ins": 85.31,
+      "Vot": 95.51
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      880,
+      758
+   ],
+   "% Voix": {
+      "Ins": [
+         45.83,
+         39.48
+      ],
+      "Exp": [
+         53.72,
+         46.28
+      ]
+   }
+},
+ {
+   "Code de la commune": 27,
+   "Libellé de la commune": "Bégrolles-en-Mauges",
+   "Inscrits": 1291,
+   "Abstentions": 142,
+   "% Abs": {
+      "Ins": 11
+   },
+   "Votants": 1149,
+   "% Vot": {
+      "Ins": 89
+   },
+   "Blancs et nuls": 71,
+   "% BlNuls": {
+      "Ins": 5.5,
+      "Vot": 6.18
+   },
+   "Exprimés": 1078,
+   "% Exp": {
+      "Ins": 83.5,
+      "Vot": 93.82
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      689,
+      389
+   ],
+   "% Voix": {
+      "Ins": [
+         53.37,
+         30.13
+      ],
+      "Exp": [
+         63.91,
+         36.09
+      ]
+   }
+},
+ {
+   "Code de la commune": 28,
+   "Libellé de la commune": "Béhuard",
+   "Inscrits": 125,
+   "Abstentions": 17,
+   "% Abs": {
+      "Ins": 13.6
+   },
+   "Votants": 108,
+   "% Vot": {
+      "Ins": 86.4
+   },
+   "Blancs et nuls": 3,
+   "% BlNuls": {
+      "Ins": 2.4,
+      "Vot": 2.78
+   },
+   "Exprimés": 105,
+   "% Exp": {
+      "Ins": 84,
+      "Vot": 97.22
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      48,
+      57
+   ],
+   "% Voix": {
+      "Ins": [
+         38.4,
+         45.6
+      ],
+      "Exp": [
+         45.71,
+         54.29
+      ]
+   }
+},
+ {
+   "Code de la commune": 29,
+   "Libellé de la commune": "Blaison-Saint-Sulpice",
+   "Inscrits": 970,
+   "Abstentions": 79,
+   "% Abs": {
+      "Ins": 8.14
+   },
+   "Votants": 891,
+   "% Vot": {
+      "Ins": 91.86
+   },
+   "Blancs et nuls": 39,
+   "% BlNuls": {
+      "Ins": 4.02,
+      "Vot": 4.38
+   },
+   "Exprimés": 852,
+   "% Exp": {
+      "Ins": 87.84,
+      "Vot": 95.62
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      442,
+      410
+   ],
+   "% Voix": {
+      "Ins": [
+         45.57,
+         42.27
+      ],
+      "Exp": [
+         51.88,
+         48.12
+      ]
+   }
+},
+ {
+   "Code de la commune": 30,
+   "Libellé de la commune": "Blou",
+   "Inscrits": 654,
+   "Abstentions": 70,
+   "% Abs": {
+      "Ins": 10.7
+   },
+   "Votants": 584,
+   "% Vot": {
+      "Ins": 89.3
+   },
+   "Blancs et nuls": 27,
+   "% BlNuls": {
+      "Ins": 4.13,
+      "Vot": 4.62
+   },
+   "Exprimés": 557,
+   "% Exp": {
+      "Ins": 85.17,
+      "Vot": 95.38
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      356,
+      201
+   ],
+   "% Voix": {
+      "Ins": [
+         54.43,
+         30.73
+      ],
+      "Exp": [
+         63.91,
+         36.09
+      ]
+   }
+},
+ {
+   "Code de la commune": 35,
+   "Libellé de la commune": "Bouchemaine",
+   "Inscrits": 4860,
+   "Abstentions": 505,
+   "% Abs": {
+      "Ins": 10.39
+   },
+   "Votants": 4355,
+   "% Vot": {
+      "Ins": 89.61
+   },
+   "Blancs et nuls": 185,
+   "% BlNuls": {
+      "Ins": 3.81,
+      "Vot": 4.25
+   },
+   "Exprimés": 4170,
+   "% Exp": {
+      "Ins": 85.8,
+      "Vot": 95.75
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      2245,
+      1925
+   ],
+   "% Voix": {
+      "Ins": [
+         46.19,
+         39.61
+      ],
+      "Exp": [
+         53.84,
+         46.16
+      ]
+   }
+},
+ {
+   "Code de la commune": 36,
+   "Libellé de la commune": "Bouillé-Ménard",
+   "Inscrits": 536,
+   "Abstentions": 73,
+   "% Abs": {
+      "Ins": 13.62
+   },
+   "Votants": 463,
+   "% Vot": {
+      "Ins": 86.38
+   },
+   "Blancs et nuls": 19,
+   "% BlNuls": {
+      "Ins": 3.54,
+      "Vot": 4.1
+   },
+   "Exprimés": 444,
+   "% Exp": {
+      "Ins": 82.84,
+      "Vot": 95.9
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      230,
+      214
+   ],
+   "% Voix": {
+      "Ins": [
+         42.91,
+         39.93
+      ],
+      "Exp": [
+         51.8,
+         48.2
+      ]
+   }
+},
+ {
+   "Code de la commune": 38,
+   "Libellé de la commune": "Bourg-l'Evêque",
+   "Inscrits": 162,
+   "Abstentions": 20,
+   "% Abs": {
+      "Ins": 12.35
+   },
+   "Votants": 142,
+   "% Vot": {
+      "Ins": 87.65
+   },
+   "Blancs et nuls": 5,
+   "% BlNuls": {
+      "Ins": 3.09,
+      "Vot": 3.52
+   },
+   "Exprimés": 137,
+   "% Exp": {
+      "Ins": 84.57,
+      "Vot": 96.48
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      56,
+      81
+   ],
+   "% Voix": {
+      "Ins": [
+         34.57,
+         50
+      ],
+      "Exp": [
+         40.88,
+         59.12
+      ]
+   }
+},
+ {
+   "Code de la commune": 41,
+   "Libellé de la commune": "Brain-sur-Allonnes",
+   "Inscrits": 1488,
+   "Abstentions": 237,
+   "% Abs": {
+      "Ins": 15.93
+   },
+   "Votants": 1251,
+   "% Vot": {
+      "Ins": 84.07
+   },
+   "Blancs et nuls": 61,
+   "% BlNuls": {
+      "Ins": 4.1,
+      "Vot": 4.88
+   },
+   "Exprimés": 1190,
+   "% Exp": {
+      "Ins": 79.97,
+      "Vot": 95.12
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      717,
+      473
+   ],
+   "% Voix": {
+      "Ins": [
+         48.19,
+         31.79
+      ],
+      "Exp": [
+         60.25,
+         39.75
+      ]
+   }
+},
+ {
+   "Code de la commune": 45,
+   "Libellé de la commune": "La Breille-les-Pins",
+   "Inscrits": 334,
+   "Abstentions": 43,
+   "% Abs": {
+      "Ins": 12.87
+   },
+   "Votants": 291,
+   "% Vot": {
+      "Ins": 87.13
+   },
+   "Blancs et nuls": 12,
+   "% BlNuls": {
+      "Ins": 3.59,
+      "Vot": 4.12
+   },
+   "Exprimés": 279,
+   "% Exp": {
+      "Ins": 83.53,
+      "Vot": 95.88
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      167,
+      112
+   ],
+   "% Voix": {
+      "Ins": [
+         50,
+         33.53
+      ],
+      "Exp": [
+         59.86,
+         40.14
+      ]
+   }
+},
+ {
+   "Code de la commune": 46,
+   "Libellé de la commune": "Brézé",
+   "Inscrits": 935,
+   "Abstentions": 140,
+   "% Abs": {
+      "Ins": 14.97
+   },
+   "Votants": 795,
+   "% Vot": {
+      "Ins": 85.03
+   },
+   "Blancs et nuls": 24,
+   "% BlNuls": {
+      "Ins": 2.57,
+      "Vot": 3.02
+   },
+   "Exprimés": 771,
+   "% Exp": {
+      "Ins": 82.46,
+      "Vot": 96.98
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      402,
+      369
+   ],
+   "% Voix": {
+      "Ins": [
+         42.99,
+         39.47
+      ],
+      "Exp": [
+         52.14,
+         47.86
+      ]
+   }
+},
+ {
+   "Code de la commune": 48,
+   "Libellé de la commune": "Briollay",
+   "Inscrits": 1939,
+   "Abstentions": 203,
+   "% Abs": {
+      "Ins": 10.47
+   },
+   "Votants": 1736,
+   "% Vot": {
+      "Ins": 89.53
+   },
+   "Blancs et nuls": 80,
+   "% BlNuls": {
+      "Ins": 4.13,
+      "Vot": 4.61
+   },
+   "Exprimés": 1656,
+   "% Exp": {
+      "Ins": 85.4,
+      "Vot": 95.39
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      932,
+      724
+   ],
+   "% Voix": {
+      "Ins": [
+         48.07,
+         37.34
+      ],
+      "Exp": [
+         56.28,
+         43.72
+      ]
+   }
+},
+ {
+   "Code de la commune": 50,
+   "Libellé de la commune": "Brissac-Loire-Aubance",
+   "Inscrits": 7247,
+   "Abstentions": 697,
+   "% Abs": {
+      "Ins": 9.62
+   },
+   "Votants": 6550,
+   "% Vot": {
+      "Ins": 90.38
+   },
+   "Blancs et nuls": 285,
+   "% BlNuls": {
+      "Ins": 3.93,
+      "Vot": 4.35
+   },
+   "Exprimés": 6265,
+   "% Exp": {
+      "Ins": 86.45,
+      "Vot": 95.65
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      3229,
+      3036
+   ],
+   "% Voix": {
+      "Ins": [
+         44.56,
+         41.89
+      ],
+      "Exp": [
+         51.54,
+         48.46
+      ]
+   }
+},
+ {
+   "Code de la commune": 53,
+   "Libellé de la commune": "Brossay",
+   "Inscrits": 218,
+   "Abstentions": 30,
+   "% Abs": {
+      "Ins": 13.76
+   },
+   "Votants": 188,
+   "% Vot": {
+      "Ins": 86.24
+   },
+   "Blancs et nuls": 14,
+   "% BlNuls": {
+      "Ins": 6.42,
+      "Vot": 7.45
+   },
+   "Exprimés": 174,
+   "% Exp": {
+      "Ins": 79.82,
+      "Vot": 92.55
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      95,
+      79
+   ],
+   "% Voix": {
+      "Ins": [
+         43.58,
+         36.24
+      ],
+      "Exp": [
+         54.6,
+         45.4
+      ]
+   }
+},
+ {
+   "Code de la commune": 54,
+   "Libellé de la commune": "Candé",
+   "Inscrits": 1903,
+   "Abstentions": 229,
+   "% Abs": {
+      "Ins": 12.03
+   },
+   "Votants": 1674,
+   "% Vot": {
+      "Ins": 87.97
+   },
+   "Blancs et nuls": 71,
+   "% BlNuls": {
+      "Ins": 3.73,
+      "Vot": 4.24
+   },
+   "Exprimés": 1603,
+   "% Exp": {
+      "Ins": 84.24,
+      "Vot": 95.76
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      1000,
+      603
+   ],
+   "% Voix": {
+      "Ins": [
+         52.55,
+         31.69
+      ],
+      "Exp": [
+         62.38,
+         37.62
+      ]
+   }
+},
+ {
+   "Code de la commune": 55,
+   "Libellé de la commune": "Cantenay-Epinard",
+   "Inscrits": 1501,
+   "Abstentions": 126,
+   "% Abs": {
+      "Ins": 8.39
+   },
+   "Votants": 1375,
+   "% Vot": {
+      "Ins": 91.61
+   },
+   "Blancs et nuls": 61,
+   "% BlNuls": {
+      "Ins": 4.06,
+      "Vot": 4.44
+   },
+   "Exprimés": 1314,
+   "% Exp": {
+      "Ins": 87.54,
+      "Vot": 95.56
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      642,
+      672
+   ],
+   "% Voix": {
+      "Ins": [
+         42.77,
+         44.77
+      ],
+      "Exp": [
+         48.86,
+         51.14
+      ]
+   }
+},
+ {
+   "Code de la commune": 56,
+   "Libellé de la commune": "Carbay",
+   "Inscrits": 195,
+   "Abstentions": 21,
+   "% Abs": {
+      "Ins": 10.77
+   },
+   "Votants": 174,
+   "% Vot": {
+      "Ins": 89.23
+   },
+   "Blancs et nuls": 13,
+   "% BlNuls": {
+      "Ins": 6.67,
+      "Vot": 7.47
+   },
+   "Exprimés": 161,
+   "% Exp": {
+      "Ins": 82.56,
+      "Vot": 92.53
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      112,
+      49
+   ],
+   "% Voix": {
+      "Ins": [
+         57.44,
+         25.13
+      ],
+      "Exp": [
+         69.57,
+         30.43
+      ]
+   }
+},
+ {
+   "Code de la commune": 57,
+   "Libellé de la commune": "Cernusson",
+   "Inscrits": 212,
+   "Abstentions": 32,
+   "% Abs": {
+      "Ins": 15.09
+   },
+   "Votants": 180,
+   "% Vot": {
+      "Ins": 84.91
+   },
+   "Blancs et nuls": 14,
+   "% BlNuls": {
+      "Ins": 6.6,
+      "Vot": 7.78
+   },
+   "Exprimés": 166,
+   "% Exp": {
+      "Ins": 78.3,
+      "Vot": 92.22
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      109,
+      57
+   ],
+   "% Voix": {
+      "Ins": [
+         51.42,
+         26.89
+      ],
+      "Exp": [
+         65.66,
+         34.34
+      ]
+   }
+},
+ {
+   "Code de la commune": 58,
+   "Libellé de la commune": "Les Cerqueux",
+   "Inscrits": 584,
+   "Abstentions": 75,
+   "% Abs": {
+      "Ins": 12.84
+   },
+   "Votants": 509,
+   "% Vot": {
+      "Ins": 87.16
+   },
+   "Blancs et nuls": 41,
+   "% BlNuls": {
+      "Ins": 7.02,
+      "Vot": 8.06
+   },
+   "Exprimés": 468,
+   "% Exp": {
+      "Ins": 80.14,
+      "Vot": 91.94
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      290,
+      178
+   ],
+   "% Voix": {
+      "Ins": [
+         49.66,
+         30.48
+      ],
+      "Exp": [
+         61.97,
+         38.03
+      ]
+   }
+},
+ {
+   "Code de la commune": 60,
+   "Libellé de la commune": "Chacé",
+   "Inscrits": 960,
+   "Abstentions": 161,
+   "% Abs": {
+      "Ins": 16.77
+   },
+   "Votants": 799,
+   "% Vot": {
+      "Ins": 83.23
+   },
+   "Blancs et nuls": 36,
+   "% BlNuls": {
+      "Ins": 3.75,
+      "Vot": 4.51
+   },
+   "Exprimés": 763,
+   "% Exp": {
+      "Ins": 79.48,
+      "Vot": 95.49
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      421,
+      342
+   ],
+   "% Voix": {
+      "Ins": [
+         43.85,
+         35.63
+      ],
+      "Exp": [
+         55.18,
+         44.82
+      ]
+   }
+},
+ {
+   "Code de la commune": 61,
+   "Libellé de la commune": "Challain-la-Potherie",
+   "Inscrits": 607,
+   "Abstentions": 55,
+   "% Abs": {
+      "Ins": 9.06
+   },
+   "Votants": 552,
+   "% Vot": {
+      "Ins": 90.94
+   },
+   "Blancs et nuls": 22,
+   "% BlNuls": {
+      "Ins": 3.62,
+      "Vot": 3.99
+   },
+   "Exprimés": 530,
+   "% Exp": {
+      "Ins": 87.31,
+      "Vot": 96.01
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      382,
+      148
+   ],
+   "% Voix": {
+      "Ins": [
+         62.93,
+         24.38
+      ],
+      "Exp": [
+         72.08,
+         27.92
+      ]
+   }
+},
+ {
+   "Code de la commune": 63,
+   "Libellé de la commune": "Chalonnes-sur-Loire",
+   "Inscrits": 4551,
+   "Abstentions": 580,
+   "% Abs": {
+      "Ins": 12.74
+   },
+   "Votants": 3971,
+   "% Vot": {
+      "Ins": 87.26
+   },
+   "Blancs et nuls": 182,
+   "% BlNuls": {
+      "Ins": 4,
+      "Vot": 4.58
+   },
+   "Exprimés": 3789,
+   "% Exp": {
+      "Ins": 83.26,
+      "Vot": 95.42
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      2011,
+      1778
+   ],
+   "% Voix": {
+      "Ins": [
+         44.19,
+         39.07
+      ],
+      "Exp": [
+         53.07,
+         46.93
+      ]
+   }
+},
+ {
+   "Code de la commune": 64,
+   "Libellé de la commune": "Chambellay",
+   "Inscrits": 241,
+   "Abstentions": 26,
+   "% Abs": {
+      "Ins": 10.79
+   },
+   "Votants": 215,
+   "% Vot": {
+      "Ins": 89.21
+   },
+   "Blancs et nuls": 6,
+   "% BlNuls": {
+      "Ins": 2.49,
+      "Vot": 2.79
+   },
+   "Exprimés": 209,
+   "% Exp": {
+      "Ins": 86.72,
+      "Vot": 97.21
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      144,
+      65
+   ],
+   "% Voix": {
+      "Ins": [
+         59.75,
+         26.97
+      ],
+      "Exp": [
+         68.9,
+         31.1
+      ]
+   }
+},
+ {
+   "Code de la commune": 65,
+   "Libellé de la commune": "Les Hauts-d'Anjou",
+   "Inscrits": 3411,
+   "Abstentions": 398,
+   "% Abs": {
+      "Ins": 11.67
+   },
+   "Votants": 3013,
+   "% Vot": {
+      "Ins": 88.33
+   },
+   "Blancs et nuls": 124,
+   "% BlNuls": {
+      "Ins": 3.64,
+      "Vot": 4.12
+   },
+   "Exprimés": 2889,
+   "% Exp": {
+      "Ins": 84.7,
+      "Vot": 95.88
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      1825,
+      1064
+   ],
+   "% Voix": {
+      "Ins": [
+         53.5,
+         31.19
+      ],
+      "Exp": [
+         63.17,
+         36.83
+      ]
+   }
+},
+ {
+   "Code de la commune": 67,
+   "Libellé de la commune": "Chenillé-Champteussé",
+   "Inscrits": 264,
+   "Abstentions": 32,
+   "% Abs": {
+      "Ins": 12.12
+   },
+   "Votants": 232,
+   "% Vot": {
+      "Ins": 87.88
+   },
+   "Blancs et nuls": 8,
+   "% BlNuls": {
+      "Ins": 3.03,
+      "Vot": 3.45
+   },
+   "Exprimés": 224,
+   "% Exp": {
+      "Ins": 84.85,
+      "Vot": 96.55
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      149,
+      75
+   ],
+   "% Voix": {
+      "Ins": [
+         56.44,
+         28.41
+      ],
+      "Exp": [
+         66.52,
+         33.48
+      ]
+   }
+},
+ {
+   "Code de la commune": 68,
+   "Libellé de la commune": "Champtocé-sur-Loire",
+   "Inscrits": 1252,
+   "Abstentions": 146,
+   "% Abs": {
+      "Ins": 11.66
+   },
+   "Votants": 1106,
+   "% Vot": {
+      "Ins": 88.34
+   },
+   "Blancs et nuls": 69,
+   "% BlNuls": {
+      "Ins": 5.51,
+      "Vot": 6.24
+   },
+   "Exprimés": 1037,
+   "% Exp": {
+      "Ins": 82.83,
+      "Vot": 93.76
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      570,
+      467
+   ],
+   "% Voix": {
+      "Ins": [
+         45.53,
+         37.3
+      ],
+      "Exp": [
+         54.97,
+         45.03
+      ]
+   }
+},
+ {
+   "Code de la commune": 69,
+   "Libellé de la commune": "Orée-d'Anjou",
+   "Inscrits": 10882,
+   "Abstentions": 1260,
+   "% Abs": {
+      "Ins": 11.58
+   },
+   "Votants": 9622,
+   "% Vot": {
+      "Ins": 88.42
+   },
+   "Blancs et nuls": 536,
+   "% BlNuls": {
+      "Ins": 4.93,
+      "Vot": 5.57
+   },
+   "Exprimés": 9086,
+   "% Exp": {
+      "Ins": 83.5,
+      "Vot": 94.43
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      5194,
+      3892
+   ],
+   "% Voix": {
+      "Ins": [
+         47.73,
+         35.77
+      ],
+      "Exp": [
+         57.16,
+         42.84
+      ]
+   }
+},
+ {
+   "Code de la commune": 70,
+   "Libellé de la commune": "Chanteloup-les-Bois",
+   "Inscrits": 516,
+   "Abstentions": 51,
+   "% Abs": {
+      "Ins": 9.88
+   },
+   "Votants": 465,
+   "% Vot": {
+      "Ins": 90.12
+   },
+   "Blancs et nuls": 31,
+   "% BlNuls": {
+      "Ins": 6.01,
+      "Vot": 6.67
+   },
+   "Exprimés": 434,
+   "% Exp": {
+      "Ins": 84.11,
+      "Vot": 93.33
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      269,
+      165
+   ],
+   "% Voix": {
+      "Ins": [
+         52.13,
+         31.98
+      ],
+      "Exp": [
+         61.98,
+         38.02
+      ]
+   }
+},
+ {
+   "Code de la commune": 76,
+   "Libellé de la commune": "La Chapelle-Saint-Laud",
+   "Inscrits": 417,
+   "Abstentions": 25,
+   "% Abs": {
+      "Ins": 6
+   },
+   "Votants": 392,
+   "% Vot": {
+      "Ins": 94
+   },
+   "Blancs et nuls": 18,
+   "% BlNuls": {
+      "Ins": 4.32,
+      "Vot": 4.59
+   },
+   "Exprimés": 374,
+   "% Exp": {
+      "Ins": 89.69,
+      "Vot": 95.41
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      213,
+      161
+   ],
+   "% Voix": {
+      "Ins": [
+         51.08,
+         38.61
+      ],
+      "Exp": [
+         56.95,
+         43.05
+      ]
+   }
+},
+ {
+   "Code de la commune": 80,
+   "Libellé de la commune": "Châteauneuf-sur-Sarthe",
+   "Inscrits": 1888,
+   "Abstentions": 278,
+   "% Abs": {
+      "Ins": 14.72
+   },
+   "Votants": 1610,
+   "% Vot": {
+      "Ins": 85.28
+   },
+   "Blancs et nuls": 67,
+   "% BlNuls": {
+      "Ins": 3.55,
+      "Vot": 4.16
+   },
+   "Exprimés": 1543,
+   "% Exp": {
+      "Ins": 81.73,
+      "Vot": 95.84
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      872,
+      671
+   ],
+   "% Voix": {
+      "Ins": [
+         46.19,
+         35.54
+      ],
+      "Exp": [
+         56.51,
+         43.49
+      ]
+   }
+},
+ {
+   "Code de la commune": 82,
+   "Libellé de la commune": "Chaudefonds-sur-Layon",
+   "Inscrits": 745,
+   "Abstentions": 99,
+   "% Abs": {
+      "Ins": 13.29
+   },
+   "Votants": 646,
+   "% Vot": {
+      "Ins": 86.71
+   },
+   "Blancs et nuls": 43,
+   "% BlNuls": {
+      "Ins": 5.77,
+      "Vot": 6.66
+   },
+   "Exprimés": 603,
+   "% Exp": {
+      "Ins": 80.94,
+      "Vot": 93.34
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      320,
+      283
+   ],
+   "% Voix": {
+      "Ins": [
+         42.95,
+         37.99
+      ],
+      "Exp": [
+         53.07,
+         46.93
+      ]
+   }
+},
+ {
+   "Code de la commune": 86,
+   "Libellé de la commune": "Terranjou",
+   "Inscrits": 2386,
+   "Abstentions": 272,
+   "% Abs": {
+      "Ins": 11.4
+   },
+   "Votants": 2114,
+   "% Vot": {
+      "Ins": 88.6
+   },
+   "Blancs et nuls": 103,
+   "% BlNuls": {
+      "Ins": 4.32,
+      "Vot": 4.87
+   },
+   "Exprimés": 2011,
+   "% Exp": {
+      "Ins": 84.28,
+      "Vot": 95.13
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      1141,
+      870
+   ],
+   "% Voix": {
+      "Ins": [
+         47.82,
+         36.46
+      ],
+      "Exp": [
+         56.74,
+         43.26
+      ]
+   }
+},
+ {
+   "Code de la commune": 89,
+   "Libellé de la commune": "Chazé-sur-Argos",
+   "Inscrits": 734,
+   "Abstentions": 81,
+   "% Abs": {
+      "Ins": 11.04
+   },
+   "Votants": 653,
+   "% Vot": {
+      "Ins": 88.96
+   },
+   "Blancs et nuls": 20,
+   "% BlNuls": {
+      "Ins": 2.72,
+      "Vot": 3.06
+   },
+   "Exprimés": 633,
+   "% Exp": {
+      "Ins": 86.24,
+      "Vot": 96.94
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      429,
+      204
+   ],
+   "% Voix": {
+      "Ins": [
+         58.45,
+         27.79
+      ],
+      "Exp": [
+         67.77,
+         32.23
+      ]
+   }
+},
+ {
+   "Code de la commune": 90,
+   "Libellé de la commune": "Cheffes",
+   "Inscrits": 609,
+   "Abstentions": 45,
+   "% Abs": {
+      "Ins": 7.39
+   },
+   "Votants": 564,
+   "% Vot": {
+      "Ins": 92.61
+   },
+   "Blancs et nuls": 25,
+   "% BlNuls": {
+      "Ins": 4.11,
+      "Vot": 4.43
+   },
+   "Exprimés": 539,
+   "% Exp": {
+      "Ins": 88.51,
+      "Vot": 95.57
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      278,
+      261
+   ],
+   "% Voix": {
+      "Ins": [
+         45.65,
+         42.86
+      ],
+      "Exp": [
+         51.58,
+         48.42
+      ]
+   }
+},
+ {
+   "Code de la commune": 92,
+   "Libellé de la commune": "Chemillé-en-Anjou",
+   "Inscrits": 14766,
+   "Abstentions": 1833,
+   "% Abs": {
+      "Ins": 12.41
+   },
+   "Votants": 12933,
+   "% Vot": {
+      "Ins": 87.59
+   },
+   "Blancs et nuls": 649,
+   "% BlNuls": {
+      "Ins": 4.4,
+      "Vot": 5.02
+   },
+   "Exprimés": 12284,
+   "% Exp": {
+      "Ins": 83.19,
+      "Vot": 94.98
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      7719,
+      4565
+   ],
+   "% Voix": {
+      "Ins": [
+         52.28,
+         30.92
+      ],
+      "Exp": [
+         62.84,
+         37.16
+      ]
+   }
+},
+ {
+   "Code de la commune": 99,
+   "Libellé de la commune": "Cholet",
+   "Inscrits": 36134,
+   "Abstentions": 5097,
+   "% Abs": {
+      "Ins": 14.11
+   },
+   "Votants": 31037,
+   "% Vot": {
+      "Ins": 85.89
+   },
+   "Blancs et nuls": 1259,
+   "% BlNuls": {
+      "Ins": 3.48,
+      "Vot": 4.06
+   },
+   "Exprimés": 29778,
+   "% Exp": {
+      "Ins": 82.41,
+      "Vot": 95.94
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      14747,
+      15031
+   ],
+   "% Voix": {
+      "Ins": [
+         40.81,
+         41.6
+      ],
+      "Exp": [
+         49.52,
+         50.48
+      ]
+   }
+},
+ {
+   "Code de la commune": 100,
+   "Libellé de la commune": "Cizay-la-Madeleine",
+   "Inscrits": 324,
+   "Abstentions": 41,
+   "% Abs": {
+      "Ins": 12.65
+   },
+   "Votants": 283,
+   "% Vot": {
+      "Ins": 87.35
+   },
+   "Blancs et nuls": 17,
+   "% BlNuls": {
+      "Ins": 5.25,
+      "Vot": 6.01
+   },
+   "Exprimés": 266,
+   "% Exp": {
+      "Ins": 82.1,
+      "Vot": 93.99
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      170,
+      96
+   ],
+   "% Voix": {
+      "Ins": [
+         52.47,
+         29.63
+      ],
+      "Exp": [
+         63.91,
+         36.09
+      ]
+   }
+},
+ {
+   "Code de la commune": 102,
+   "Libellé de la commune": "Cléré-sur-Layon",
+   "Inscrits": 243,
+   "Abstentions": 31,
+   "% Abs": {
+      "Ins": 12.76
+   },
+   "Votants": 212,
+   "% Vot": {
+      "Ins": 87.24
+   },
+   "Blancs et nuls": 6,
+   "% BlNuls": {
+      "Ins": 2.47,
+      "Vot": 2.83
+   },
+   "Exprimés": 206,
+   "% Exp": {
+      "Ins": 84.77,
+      "Vot": 97.17
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      157,
+      49
+   ],
+   "% Voix": {
+      "Ins": [
+         64.61,
+         20.16
+      ],
+      "Exp": [
+         76.21,
+         23.79
+      ]
+   }
+},
+ {
+   "Code de la commune": 107,
+   "Libellé de la commune": "Cornillé-les-Caves",
+   "Inscrits": 340,
+   "Abstentions": 41,
+   "% Abs": {
+      "Ins": 12.06
+   },
+   "Votants": 299,
+   "% Vot": {
+      "Ins": 87.94
+   },
+   "Blancs et nuls": 17,
+   "% BlNuls": {
+      "Ins": 5,
+      "Vot": 5.69
+   },
+   "Exprimés": 282,
+   "% Exp": {
+      "Ins": 82.94,
+      "Vot": 94.31
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      150,
+      132
+   ],
+   "% Voix": {
+      "Ins": [
+         44.12,
+         38.82
+      ],
+      "Exp": [
+         53.19,
+         46.81
+      ]
+   }
+},
+ {
+   "Code de la commune": 109,
+   "Libellé de la commune": "Coron",
+   "Inscrits": 1022,
+   "Abstentions": 126,
+   "% Abs": {
+      "Ins": 12.33
+   },
+   "Votants": 896,
+   "% Vot": {
+      "Ins": 87.67
+   },
+   "Blancs et nuls": 33,
+   "% BlNuls": {
+      "Ins": 3.23,
+      "Vot": 3.68
+   },
+   "Exprimés": 863,
+   "% Exp": {
+      "Ins": 84.44,
+      "Vot": 96.32
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      585,
+      278
+   ],
+   "% Voix": {
+      "Ins": [
+         57.24,
+         27.2
+      ],
+      "Exp": [
+         67.79,
+         32.21
+      ]
+   }
+},
+ {
+   "Code de la commune": 110,
+   "Libellé de la commune": "Corzé",
+   "Inscrits": 1227,
+   "Abstentions": 151,
+   "% Abs": {
+      "Ins": 12.31
+   },
+   "Votants": 1076,
+   "% Vot": {
+      "Ins": 87.69
+   },
+   "Blancs et nuls": 37,
+   "% BlNuls": {
+      "Ins": 3.02,
+      "Vot": 3.44
+   },
+   "Exprimés": 1039,
+   "% Exp": {
+      "Ins": 84.68,
+      "Vot": 96.56
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      510,
+      529
+   ],
+   "% Voix": {
+      "Ins": [
+         41.56,
+         43.11
+      ],
+      "Exp": [
+         49.09,
+         50.91
+      ]
+   }
+},
+ {
+   "Code de la commune": 112,
+   "Libellé de la commune": "Le Coudray-Macouard",
+   "Inscrits": 755,
+   "Abstentions": 104,
+   "% Abs": {
+      "Ins": 13.77
+   },
+   "Votants": 651,
+   "% Vot": {
+      "Ins": 86.23
+   },
+   "Blancs et nuls": 27,
+   "% BlNuls": {
+      "Ins": 3.58,
+      "Vot": 4.15
+   },
+   "Exprimés": 624,
+   "% Exp": {
+      "Ins": 82.65,
+      "Vot": 95.85
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      340,
+      284
+   ],
+   "% Voix": {
+      "Ins": [
+         45.03,
+         37.62
+      ],
+      "Exp": [
+         54.49,
+         45.51
+      ]
+   }
+},
+ {
+   "Code de la commune": 113,
+   "Libellé de la commune": "Courchamps",
+   "Inscrits": 334,
+   "Abstentions": 44,
+   "% Abs": {
+      "Ins": 13.17
+   },
+   "Votants": 290,
+   "% Vot": {
+      "Ins": 86.83
+   },
+   "Blancs et nuls": 17,
+   "% BlNuls": {
+      "Ins": 5.09,
+      "Vot": 5.86
+   },
+   "Exprimés": 273,
+   "% Exp": {
+      "Ins": 81.74,
+      "Vot": 94.14
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      139,
+      134
+   ],
+   "% Voix": {
+      "Ins": [
+         41.62,
+         40.12
+      ],
+      "Exp": [
+         50.92,
+         49.08
+      ]
+   }
+},
+ {
+   "Code de la commune": 114,
+   "Libellé de la commune": "Courléon",
+   "Inscrits": 123,
+   "Abstentions": 15,
+   "% Abs": {
+      "Ins": 12.2
+   },
+   "Votants": 108,
+   "% Vot": {
+      "Ins": 87.8
+   },
+   "Blancs et nuls": 3,
+   "% BlNuls": {
+      "Ins": 2.44,
+      "Vot": 2.78
+   },
+   "Exprimés": 105,
+   "% Exp": {
+      "Ins": 85.37,
+      "Vot": 97.22
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      65,
+      40
+   ],
+   "% Voix": {
+      "Ins": [
+         52.85,
+         32.52
+      ],
+      "Exp": [
+         61.9,
+         38.1
+      ]
+   }
+},
+ {
+   "Code de la commune": 120,
+   "Libellé de la commune": "Denée",
+   "Inscrits": 1047,
+   "Abstentions": 117,
+   "% Abs": {
+      "Ins": 11.17
+   },
+   "Votants": 930,
+   "% Vot": {
+      "Ins": 88.83
+   },
+   "Blancs et nuls": 57,
+   "% BlNuls": {
+      "Ins": 5.44,
+      "Vot": 6.13
+   },
+   "Exprimés": 873,
+   "% Exp": {
+      "Ins": 83.38,
+      "Vot": 93.87
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      442,
+      431
+   ],
+   "% Voix": {
+      "Ins": [
+         42.22,
+         41.17
+      ],
+      "Exp": [
+         50.63,
+         49.37
+      ]
+   }
+},
+ {
+   "Code de la commune": 121,
+   "Libellé de la commune": "Dénezé-sous-Doué",
+   "Inscrits": 330,
+   "Abstentions": 39,
+   "% Abs": {
+      "Ins": 11.82
+   },
+   "Votants": 291,
+   "% Vot": {
+      "Ins": 88.18
+   },
+   "Blancs et nuls": 8,
+   "% BlNuls": {
+      "Ins": 2.42,
+      "Vot": 2.75
+   },
+   "Exprimés": 283,
+   "% Exp": {
+      "Ins": 85.76,
+      "Vot": 97.25
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      167,
+      116
+   ],
+   "% Voix": {
+      "Ins": [
+         50.61,
+         35.15
+      ],
+      "Exp": [
+         59.01,
+         40.99
+      ]
+   }
+},
+ {
+   "Code de la commune": 123,
+   "Libellé de la commune": "Distré",
+   "Inscrits": 1025,
+   "Abstentions": 96,
+   "% Abs": {
+      "Ins": 9.37
+   },
+   "Votants": 929,
+   "% Vot": {
+      "Ins": 90.63
+   },
+   "Blancs et nuls": 48,
+   "% BlNuls": {
+      "Ins": 4.68,
+      "Vot": 5.17
+   },
+   "Exprimés": 881,
+   "% Exp": {
+      "Ins": 85.95,
+      "Vot": 94.83
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      530,
+      351
+   ],
+   "% Voix": {
+      "Ins": [
+         51.71,
+         34.24
+      ],
+      "Exp": [
+         60.16,
+         39.84
+      ]
+   }
+},
+ {
+   "Code de la commune": 125,
+   "Libellé de la commune": "Doué-en-Anjou",
+   "Inscrits": 7956,
+   "Abstentions": 1308,
+   "% Abs": {
+      "Ins": 16.44
+   },
+   "Votants": 6648,
+   "% Vot": {
+      "Ins": 83.56
+   },
+   "Blancs et nuls": 386,
+   "% BlNuls": {
+      "Ins": 4.85,
+      "Vot": 5.81
+   },
+   "Exprimés": 6262,
+   "% Exp": {
+      "Ins": 78.71,
+      "Vot": 94.19
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      3657,
+      2605
+   ],
+   "% Voix": {
+      "Ins": [
+         45.97,
+         32.74
+      ],
+      "Exp": [
+         58.4,
+         41.6
+      ]
+   }
+},
+ {
+   "Code de la commune": 127,
+   "Libellé de la commune": "Durtal",
+   "Inscrits": 2464,
+   "Abstentions": 413,
+   "% Abs": {
+      "Ins": 16.76
+   },
+   "Votants": 2051,
+   "% Vot": {
+      "Ins": 83.24
+   },
+   "Blancs et nuls": 77,
+   "% BlNuls": {
+      "Ins": 3.13,
+      "Vot": 3.75
+   },
+   "Exprimés": 1974,
+   "% Exp": {
+      "Ins": 80.11,
+      "Vot": 96.25
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      1077,
+      897
+   ],
+   "% Voix": {
+      "Ins": [
+         43.71,
+         36.4
+      ],
+      "Exp": [
+         54.56,
+         45.44
+      ]
+   }
+},
+ {
+   "Code de la commune": 129,
+   "Libellé de la commune": "Ecouflant",
+   "Inscrits": 2838,
+   "Abstentions": 290,
+   "% Abs": {
+      "Ins": 10.22
+   },
+   "Votants": 2548,
+   "% Vot": {
+      "Ins": 89.78
+   },
+   "Blancs et nuls": 111,
+   "% BlNuls": {
+      "Ins": 3.91,
+      "Vot": 4.36
+   },
+   "Exprimés": 2437,
+   "% Exp": {
+      "Ins": 85.87,
+      "Vot": 95.64
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      1311,
+      1126
+   ],
+   "% Voix": {
+      "Ins": [
+         46.19,
+         39.68
+      ],
+      "Exp": [
+         53.8,
+         46.2
+      ]
+   }
+},
+ {
+   "Code de la commune": 130,
+   "Libellé de la commune": "Ecuillé",
+   "Inscrits": 416,
+   "Abstentions": 48,
+   "% Abs": {
+      "Ins": 11.54
+   },
+   "Votants": 368,
+   "% Vot": {
+      "Ins": 88.46
+   },
+   "Blancs et nuls": 19,
+   "% BlNuls": {
+      "Ins": 4.57,
+      "Vot": 5.16
+   },
+   "Exprimés": 349,
+   "% Exp": {
+      "Ins": 83.89,
+      "Vot": 94.84
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      211,
+      138
+   ],
+   "% Voix": {
+      "Ins": [
+         50.72,
+         33.17
+      ],
+      "Exp": [
+         60.46,
+         39.54
+      ]
+   }
+},
+ {
+   "Code de la commune": 131,
+   "Libellé de la commune": "Epieds",
+   "Inscrits": 466,
+   "Abstentions": 62,
+   "% Abs": {
+      "Ins": 13.3
+   },
+   "Votants": 404,
+   "% Vot": {
+      "Ins": 86.7
+   },
+   "Blancs et nuls": 24,
+   "% BlNuls": {
+      "Ins": 5.15,
+      "Vot": 5.94
+   },
+   "Exprimés": 380,
+   "% Exp": {
+      "Ins": 81.55,
+      "Vot": 94.06
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      257,
+      123
+   ],
+   "% Voix": {
+      "Ins": [
+         55.15,
+         26.39
+      ],
+      "Exp": [
+         67.63,
+         32.37
+      ]
+   }
+},
+ {
+   "Code de la commune": 132,
+   "Libellé de la commune": "Etriché",
+   "Inscrits": 981,
+   "Abstentions": 110,
+   "% Abs": {
+      "Ins": 11.21
+   },
+   "Votants": 871,
+   "% Vot": {
+      "Ins": 88.79
+   },
+   "Blancs et nuls": 38,
+   "% BlNuls": {
+      "Ins": 3.87,
+      "Vot": 4.36
+   },
+   "Exprimés": 833,
+   "% Exp": {
+      "Ins": 84.91,
+      "Vot": 95.64
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      467,
+      366
+   ],
+   "% Voix": {
+      "Ins": [
+         47.6,
+         37.31
+      ],
+      "Exp": [
+         56.06,
+         43.94
+      ]
+   }
+},
+ {
+   "Code de la commune": 135,
+   "Libellé de la commune": "Feneu",
+   "Inscrits": 1500,
+   "Abstentions": 169,
+   "% Abs": {
+      "Ins": 11.27
+   },
+   "Votants": 1331,
+   "% Vot": {
+      "Ins": 88.73
+   },
+   "Blancs et nuls": 55,
+   "% BlNuls": {
+      "Ins": 3.67,
+      "Vot": 4.13
+   },
+   "Exprimés": 1276,
+   "% Exp": {
+      "Ins": 85.07,
+      "Vot": 95.87
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      712,
+      564
+   ],
+   "% Voix": {
+      "Ins": [
+         47.47,
+         37.6
+      ],
+      "Exp": [
+         55.8,
+         44.2
+      ]
+   }
+},
+ {
+   "Code de la commune": 138,
+   "Libellé de la commune": "Les Bois-d'Anjou",
+   "Inscrits": 1761,
+   "Abstentions": 237,
+   "% Abs": {
+      "Ins": 13.46
+   },
+   "Votants": 1524,
+   "% Vot": {
+      "Ins": 86.54
+   },
+   "Blancs et nuls": 69,
+   "% BlNuls": {
+      "Ins": 3.92,
+      "Vot": 4.53
+   },
+   "Exprimés": 1455,
+   "% Exp": {
+      "Ins": 82.62,
+      "Vot": 95.47
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      831,
+      624
+   ],
+   "% Voix": {
+      "Ins": [
+         47.19,
+         35.43
+      ],
+      "Exp": [
+         57.11,
+         42.89
+      ]
+   }
+},
+ {
+   "Code de la commune": 140,
+   "Libellé de la commune": "Fontevraud-l'Abbaye",
+   "Inscrits": 904,
+   "Abstentions": 162,
+   "% Abs": {
+      "Ins": 17.92
+   },
+   "Votants": 742,
+   "% Vot": {
+      "Ins": 82.08
+   },
+   "Blancs et nuls": 27,
+   "% BlNuls": {
+      "Ins": 2.99,
+      "Vot": 3.64
+   },
+   "Exprimés": 715,
+   "% Exp": {
+      "Ins": 79.09,
+      "Vot": 96.36
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      413,
+      302
+   ],
+   "% Voix": {
+      "Ins": [
+         45.69,
+         33.41
+      ],
+      "Exp": [
+         57.76,
+         42.24
+      ]
+   }
+},
+ {
+   "Code de la commune": 144,
+   "Libellé de la commune": "Freigné",
+   "Inscrits": 815,
+   "Abstentions": 120,
+   "% Abs": {
+      "Ins": 14.72
+   },
+   "Votants": 695,
+   "% Vot": {
+      "Ins": 85.28
+   },
+   "Blancs et nuls": 28,
+   "% BlNuls": {
+      "Ins": 3.44,
+      "Vot": 4.03
+   },
+   "Exprimés": 667,
+   "% Exp": {
+      "Ins": 81.84,
+      "Vot": 95.97
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      466,
+      201
+   ],
+   "% Voix": {
+      "Ins": [
+         57.18,
+         24.66
+      ],
+      "Exp": [
+         69.87,
+         30.13
+      ]
+   }
+},
+ {
+   "Code de la commune": 149,
+   "Libellé de la commune": "Gennes-Val-de-Loire",
+   "Inscrits": 3439,
+   "Abstentions": 390,
+   "% Abs": {
+      "Ins": 11.34
+   },
+   "Votants": 3049,
+   "% Vot": {
+      "Ins": 88.66
+   },
+   "Blancs et nuls": 116,
+   "% BlNuls": {
+      "Ins": 3.37,
+      "Vot": 3.8
+   },
+   "Exprimés": 2933,
+   "% Exp": {
+      "Ins": 85.29,
+      "Vot": 96.2
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      1562,
+      1371
+   ],
+   "% Voix": {
+      "Ins": [
+         45.42,
+         39.87
+      ],
+      "Exp": [
+         53.26,
+         46.74
+      ]
+   }
+},
+ {
+   "Code de la commune": 155,
+   "Libellé de la commune": "Grez-Neuville",
+   "Inscrits": 988,
+   "Abstentions": 83,
+   "% Abs": {
+      "Ins": 8.4
+   },
+   "Votants": 905,
+   "% Vot": {
+      "Ins": 91.6
+   },
+   "Blancs et nuls": 43,
+   "% BlNuls": {
+      "Ins": 4.35,
+      "Vot": 4.75
+   },
+   "Exprimés": 862,
+   "% Exp": {
+      "Ins": 87.25,
+      "Vot": 95.25
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      489,
+      373
+   ],
+   "% Voix": {
+      "Ins": [
+         49.49,
+         37.75
+      ],
+      "Exp": [
+         56.73,
+         43.27
+      ]
+   }
+},
+ {
+   "Code de la commune": 159,
+   "Libellé de la commune": "Huillé",
+   "Inscrits": 387,
+   "Abstentions": 45,
+   "% Abs": {
+      "Ins": 11.63
+   },
+   "Votants": 342,
+   "% Vot": {
+      "Ins": 88.37
+   },
+   "Blancs et nuls": 15,
+   "% BlNuls": {
+      "Ins": 3.88,
+      "Vot": 4.39
+   },
+   "Exprimés": 327,
+   "% Exp": {
+      "Ins": 84.5,
+      "Vot": 95.61
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      211,
+      116
+   ],
+   "% Voix": {
+      "Ins": [
+         54.52,
+         29.97
+      ],
+      "Exp": [
+         64.53,
+         35.47
+      ]
+   }
+},
+ {
+   "Code de la commune": 160,
+   "Libellé de la commune": "Ingrandes-Le-Fresne-sur-Loire",
+   "Inscrits": 1131,
+   "Abstentions": 144,
+   "% Abs": {
+      "Ins": 12.73
+   },
+   "Votants": 987,
+   "% Vot": {
+      "Ins": 87.27
+   },
+   "Blancs et nuls": 58,
+   "% BlNuls": {
+      "Ins": 5.13,
+      "Vot": 5.88
+   },
+   "Exprimés": 929,
+   "% Exp": {
+      "Ins": 82.14,
+      "Vot": 94.12
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      514,
+      415
+   ],
+   "% Voix": {
+      "Ins": [
+         45.45,
+         36.69
+      ],
+      "Exp": [
+         55.33,
+         44.67
+      ]
+   }
+},
+ {
+   "Code de la commune": 161,
+   "Libellé de la commune": "La Jaille-Yvon",
+   "Inscrits": 211,
+   "Abstentions": 29,
+   "% Abs": {
+      "Ins": 13.74
+   },
+   "Votants": 182,
+   "% Vot": {
+      "Ins": 86.26
+   },
+   "Blancs et nuls": 7,
+   "% BlNuls": {
+      "Ins": 3.32,
+      "Vot": 3.85
+   },
+   "Exprimés": 175,
+   "% Exp": {
+      "Ins": 82.94,
+      "Vot": 96.15
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      92,
+      83
+   ],
+   "% Voix": {
+      "Ins": [
+         43.6,
+         39.34
+      ],
+      "Exp": [
+         52.57,
+         47.43
+      ]
+   }
+},
+ {
+   "Code de la commune": 163,
+   "Libellé de la commune": "Jarzé-Villages",
+   "Inscrits": 1686,
+   "Abstentions": 221,
+   "% Abs": {
+      "Ins": 13.11
+   },
+   "Votants": 1465,
+   "% Vot": {
+      "Ins": 86.89
+   },
+   "Blancs et nuls": 80,
+   "% BlNuls": {
+      "Ins": 4.74,
+      "Vot": 5.46
+   },
+   "Exprimés": 1385,
+   "% Exp": {
+      "Ins": 82.15,
+      "Vot": 94.54
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      797,
+      588
+   ],
+   "% Voix": {
+      "Ins": [
+         47.27,
+         34.88
+      ],
+      "Exp": [
+         57.55,
+         42.45
+      ]
+   }
+},
+ {
+   "Code de la commune": 167,
+   "Libellé de la commune": "Les Garennes-sur-Loire",
+   "Inscrits": 3343,
+   "Abstentions": 359,
+   "% Abs": {
+      "Ins": 10.74
+   },
+   "Votants": 2984,
+   "% Vot": {
+      "Ins": 89.26
+   },
+   "Blancs et nuls": 132,
+   "% BlNuls": {
+      "Ins": 3.95,
+      "Vot": 4.42
+   },
+   "Exprimés": 2852,
+   "% Exp": {
+      "Ins": 85.31,
+      "Vot": 95.58
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      1515,
+      1337
+   ],
+   "% Voix": {
+      "Ins": [
+         45.32,
+         39.99
+      ],
+      "Exp": [
+         53.12,
+         46.88
+      ]
+   }
+},
+ {
+   "Code de la commune": 170,
+   "Libellé de la commune": "Juvardeil",
+   "Inscrits": 636,
+   "Abstentions": 78,
+   "% Abs": {
+      "Ins": 12.26
+   },
+   "Votants": 558,
+   "% Vot": {
+      "Ins": 87.74
+   },
+   "Blancs et nuls": 34,
+   "% BlNuls": {
+      "Ins": 5.35,
+      "Vot": 6.09
+   },
+   "Exprimés": 524,
+   "% Exp": {
+      "Ins": 82.39,
+      "Vot": 93.91
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      231,
+      293
+   ],
+   "% Voix": {
+      "Ins": [
+         36.32,
+         46.07
+      ],
+      "Exp": [
+         44.08,
+         55.92
+      ]
+   }
+},
+ {
+   "Code de la commune": 171,
+   "Libellé de la commune": "La Lande-Chasles",
+   "Inscrits": 98,
+   "Abstentions": 8,
+   "% Abs": {
+      "Ins": 8.16
+   },
+   "Votants": 90,
+   "% Vot": {
+      "Ins": 91.84
+   },
+   "Blancs et nuls": 1,
+   "% BlNuls": {
+      "Ins": 1.02,
+      "Vot": 1.11
+   },
+   "Exprimés": 89,
+   "% Exp": {
+      "Ins": 90.82,
+      "Vot": 98.89
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      47,
+      42
+   ],
+   "% Voix": {
+      "Ins": [
+         47.96,
+         42.86
+      ],
+      "Exp": [
+         52.81,
+         47.19
+      ]
+   }
+},
+ {
+   "Code de la commune": 174,
+   "Libellé de la commune": "Lézigné",
+   "Inscrits": 510,
+   "Abstentions": 74,
+   "% Abs": {
+      "Ins": 14.51
+   },
+   "Votants": 436,
+   "% Vot": {
+      "Ins": 85.49
+   },
+   "Blancs et nuls": 23,
+   "% BlNuls": {
+      "Ins": 4.51,
+      "Vot": 5.28
+   },
+   "Exprimés": 413,
+   "% Exp": {
+      "Ins": 80.98,
+      "Vot": 94.72
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      212,
+      201
+   ],
+   "% Voix": {
+      "Ins": [
+         41.57,
+         39.41
+      ],
+      "Exp": [
+         51.33,
+         48.67
+      ]
+   }
+},
+ {
+   "Code de la commune": 176,
+   "Libellé de la commune": "Le Lion-d'Angers",
+   "Inscrits": 2953,
+   "Abstentions": 431,
+   "% Abs": {
+      "Ins": 14.6
+   },
+   "Votants": 2522,
+   "% Vot": {
+      "Ins": 85.4
+   },
+   "Blancs et nuls": 111,
+   "% BlNuls": {
+      "Ins": 3.76,
+      "Vot": 4.4
+   },
+   "Exprimés": 2411,
+   "% Exp": {
+      "Ins": 81.65,
+      "Vot": 95.6
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      1372,
+      1039
+   ],
+   "% Voix": {
+      "Ins": [
+         46.46,
+         35.18
+      ],
+      "Exp": [
+         56.91,
+         43.09
+      ]
+   }
+},
+ {
+   "Code de la commune": 178,
+   "Libellé de la commune": "Loiré",
+   "Inscrits": 572,
+   "Abstentions": 56,
+   "% Abs": {
+      "Ins": 9.79
+   },
+   "Votants": 516,
+   "% Vot": {
+      "Ins": 90.21
+   },
+   "Blancs et nuls": 21,
+   "% BlNuls": {
+      "Ins": 3.67,
+      "Vot": 4.07
+   },
+   "Exprimés": 495,
+   "% Exp": {
+      "Ins": 86.54,
+      "Vot": 95.93
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      351,
+      144
+   ],
+   "% Voix": {
+      "Ins": [
+         61.36,
+         25.17
+      ],
+      "Exp": [
+         70.91,
+         29.09
+      ]
+   }
+},
+ {
+   "Code de la commune": 180,
+   "Libellé de la commune": "Longué-Jumelles",
+   "Inscrits": 5044,
+   "Abstentions": 899,
+   "% Abs": {
+      "Ins": 17.82
+   },
+   "Votants": 4145,
+   "% Vot": {
+      "Ins": 82.18
+   },
+   "Blancs et nuls": 188,
+   "% BlNuls": {
+      "Ins": 3.73,
+      "Vot": 4.54
+   },
+   "Exprimés": 3957,
+   "% Exp": {
+      "Ins": 78.45,
+      "Vot": 95.46
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      2362,
+      1595
+   ],
+   "% Voix": {
+      "Ins": [
+         46.83,
+         31.62
+      ],
+      "Exp": [
+         59.69,
+         40.31
+      ]
+   }
+},
+ {
+   "Code de la commune": 182,
+   "Libellé de la commune": "Louresse-Rochemenier",
+   "Inscrits": 517,
+   "Abstentions": 49,
+   "% Abs": {
+      "Ins": 9.48
+   },
+   "Votants": 468,
+   "% Vot": {
+      "Ins": 90.52
+   },
+   "Blancs et nuls": 30,
+   "% BlNuls": {
+      "Ins": 5.8,
+      "Vot": 6.41
+   },
+   "Exprimés": 438,
+   "% Exp": {
+      "Ins": 84.72,
+      "Vot": 93.59
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      309,
+      129
+   ],
+   "% Voix": {
+      "Ins": [
+         59.77,
+         24.95
+      ],
+      "Exp": [
+         70.55,
+         29.45
+      ]
+   }
+},
+ {
+   "Code de la commune": 183,
+   "Libellé de la commune": "Val-d'Erdre-Auxence",
+   "Inscrits": 2867,
+   "Abstentions": 327,
+   "% Abs": {
+      "Ins": 11.41
+   },
+   "Votants": 2540,
+   "% Vot": {
+      "Ins": 88.59
+   },
+   "Blancs et nuls": 140,
+   "% BlNuls": {
+      "Ins": 4.88,
+      "Vot": 5.51
+   },
+   "Exprimés": 2400,
+   "% Exp": {
+      "Ins": 83.71,
+      "Vot": 94.49
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      1468,
+      932
+   ],
+   "% Voix": {
+      "Ins": [
+         51.2,
+         32.51
+      ],
+      "Exp": [
+         61.17,
+         38.83
+      ]
+   }
+},
+ {
+   "Code de la commune": 188,
+   "Libellé de la commune": "Marcé",
+   "Inscrits": 588,
+   "Abstentions": 41,
+   "% Abs": {
+      "Ins": 6.97
+   },
+   "Votants": 547,
+   "% Vot": {
+      "Ins": 93.03
+   },
+   "Blancs et nuls": 19,
+   "% BlNuls": {
+      "Ins": 3.23,
+      "Vot": 3.47
+   },
+   "Exprimés": 528,
+   "% Exp": {
+      "Ins": 89.8,
+      "Vot": 96.53
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      265,
+      263
+   ],
+   "% Voix": {
+      "Ins": [
+         45.07,
+         44.73
+      ],
+      "Exp": [
+         50.19,
+         49.81
+      ]
+   }
+},
+ {
+   "Code de la commune": 192,
+   "Libellé de la commune": "Maulévrier",
+   "Inscrits": 2153,
+   "Abstentions": 253,
+   "% Abs": {
+      "Ins": 11.75
+   },
+   "Votants": 1900,
+   "% Vot": {
+      "Ins": 88.25
+   },
+   "Blancs et nuls": 104,
+   "% BlNuls": {
+      "Ins": 4.83,
+      "Vot": 5.47
+   },
+   "Exprimés": 1796,
+   "% Exp": {
+      "Ins": 83.42,
+      "Vot": 94.53
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      1052,
+      744
+   ],
+   "% Voix": {
+      "Ins": [
+         48.86,
+         34.56
+      ],
+      "Exp": [
+         58.57,
+         41.43
+      ]
+   }
+},
+ {
+   "Code de la commune": 193,
+   "Libellé de la commune": "Le May-sur-Evre",
+   "Inscrits": 2950,
+   "Abstentions": 404,
+   "% Abs": {
+      "Ins": 13.69
+   },
+   "Votants": 2546,
+   "% Vot": {
+      "Ins": 86.31
+   },
+   "Blancs et nuls": 136,
+   "% BlNuls": {
+      "Ins": 4.61,
+      "Vot": 5.34
+   },
+   "Exprimés": 2410,
+   "% Exp": {
+      "Ins": 81.69,
+      "Vot": 94.66
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      1232,
+      1178
+   ],
+   "% Voix": {
+      "Ins": [
+         41.76,
+         39.93
+      ],
+      "Exp": [
+         51.12,
+         48.88
+      ]
+   }
+},
+ {
+   "Code de la commune": 194,
+   "Libellé de la commune": "Mazé-Milon",
+   "Inscrits": 3604,
+   "Abstentions": 421,
+   "% Abs": {
+      "Ins": 11.68
+   },
+   "Votants": 3183,
+   "% Vot": {
+      "Ins": 88.32
+   },
+   "Blancs et nuls": 149,
+   "% BlNuls": {
+      "Ins": 4.13,
+      "Vot": 4.68
+   },
+   "Exprimés": 3034,
+   "% Exp": {
+      "Ins": 84.18,
+      "Vot": 95.32
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      1459,
+      1575
+   ],
+   "% Voix": {
+      "Ins": [
+         40.48,
+         43.7
+      ],
+      "Exp": [
+         48.09,
+         51.91
+      ]
+   }
+},
+ {
+   "Code de la commune": 195,
+   "Libellé de la commune": "Mazières-en-Mauges",
+   "Inscrits": 766,
+   "Abstentions": 97,
+   "% Abs": {
+      "Ins": 12.66
+   },
+   "Votants": 669,
+   "% Vot": {
+      "Ins": 87.34
+   },
+   "Blancs et nuls": 36,
+   "% BlNuls": {
+      "Ins": 4.7,
+      "Vot": 5.38
+   },
+   "Exprimés": 633,
+   "% Exp": {
+      "Ins": 82.64,
+      "Vot": 94.62
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      341,
+      292
+   ],
+   "% Voix": {
+      "Ins": [
+         44.52,
+         38.12
+      ],
+      "Exp": [
+         53.87,
+         46.13
+      ]
+   }
+},
+ {
+   "Code de la commune": 200,
+   "Libellé de la commune": "Longuenée-en-Anjou",
+   "Inscrits": 3852,
+   "Abstentions": 370,
+   "% Abs": {
+      "Ins": 9.61
+   },
+   "Votants": 3482,
+   "% Vot": {
+      "Ins": 90.39
+   },
+   "Blancs et nuls": 162,
+   "% BlNuls": {
+      "Ins": 4.21,
+      "Vot": 4.65
+   },
+   "Exprimés": 3320,
+   "% Exp": {
+      "Ins": 86.19,
+      "Vot": 95.35
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      1783,
+      1537
+   ],
+   "% Voix": {
+      "Ins": [
+         46.29,
+         39.9
+      ],
+      "Exp": [
+         53.7,
+         46.3
+      ]
+   }
+},
+ {
+   "Code de la commune": 201,
+   "Libellé de la commune": "La Ménitré",
+   "Inscrits": 1504,
+   "Abstentions": 186,
+   "% Abs": {
+      "Ins": 12.37
+   },
+   "Votants": 1318,
+   "% Vot": {
+      "Ins": 87.63
+   },
+   "Blancs et nuls": 47,
+   "% BlNuls": {
+      "Ins": 3.13,
+      "Vot": 3.57
+   },
+   "Exprimés": 1271,
+   "% Exp": {
+      "Ins": 84.51,
+      "Vot": 96.43
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      632,
+      639
+   ],
+   "% Voix": {
+      "Ins": [
+         42.02,
+         42.49
+      ],
+      "Exp": [
+         49.72,
+         50.28
+      ]
+   }
+},
+ {
+   "Code de la commune": 205,
+   "Libellé de la commune": "Miré",
+   "Inscrits": 673,
+   "Abstentions": 70,
+   "% Abs": {
+      "Ins": 10.4
+   },
+   "Votants": 603,
+   "% Vot": {
+      "Ins": 89.6
+   },
+   "Blancs et nuls": 22,
+   "% BlNuls": {
+      "Ins": 3.27,
+      "Vot": 3.65
+   },
+   "Exprimés": 581,
+   "% Exp": {
+      "Ins": 86.33,
+      "Vot": 96.35
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      398,
+      183
+   ],
+   "% Voix": {
+      "Ins": [
+         59.14,
+         27.19
+      ],
+      "Exp": [
+         68.5,
+         31.5
+      ]
+   }
+},
+ {
+   "Code de la commune": 209,
+   "Libellé de la commune": "Montigné-lès-Rairies",
+   "Inscrits": 284,
+   "Abstentions": 30,
+   "% Abs": {
+      "Ins": 10.56
+   },
+   "Votants": 254,
+   "% Vot": {
+      "Ins": 89.44
+   },
+   "Blancs et nuls": 6,
+   "% BlNuls": {
+      "Ins": 2.11,
+      "Vot": 2.36
+   },
+   "Exprimés": 248,
+   "% Exp": {
+      "Ins": 87.32,
+      "Vot": 97.64
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      156,
+      92
+   ],
+   "% Voix": {
+      "Ins": [
+         54.93,
+         32.39
+      ],
+      "Exp": [
+         62.9,
+         37.1
+      ]
+   }
+},
+ {
+   "Code de la commune": 211,
+   "Libellé de la commune": "Montilliers",
+   "Inscrits": 902,
+   "Abstentions": 117,
+   "% Abs": {
+      "Ins": 12.97
+   },
+   "Votants": 785,
+   "% Vot": {
+      "Ins": 87.03
+   },
+   "Blancs et nuls": 38,
+   "% BlNuls": {
+      "Ins": 4.21,
+      "Vot": 4.84
+   },
+   "Exprimés": 747,
+   "% Exp": {
+      "Ins": 82.82,
+      "Vot": 95.16
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      523,
+      224
+   ],
+   "% Voix": {
+      "Ins": [
+         57.98,
+         24.83
+      ],
+      "Exp": [
+         70.01,
+         29.99
+      ]
+   }
+},
+ {
+   "Code de la commune": 214,
+   "Libellé de la commune": "Montreuil-Juigné",
+   "Inscrits": 5262,
+   "Abstentions": 687,
+   "% Abs": {
+      "Ins": 13.06
+   },
+   "Votants": 4575,
+   "% Vot": {
+      "Ins": 86.94
+   },
+   "Blancs et nuls": 177,
+   "% BlNuls": {
+      "Ins": 3.36,
+      "Vot": 3.87
+   },
+   "Exprimés": 4398,
+   "% Exp": {
+      "Ins": 83.58,
+      "Vot": 96.13
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      2071,
+      2327
+   ],
+   "% Voix": {
+      "Ins": [
+         39.36,
+         44.22
+      ],
+      "Exp": [
+         47.09,
+         52.91
+      ]
+   }
+},
+ {
+   "Code de la commune": 215,
+   "Libellé de la commune": "Montreuil-Bellay",
+   "Inscrits": 2872,
+   "Abstentions": 493,
+   "% Abs": {
+      "Ins": 17.17
+   },
+   "Votants": 2379,
+   "% Vot": {
+      "Ins": 82.83
+   },
+   "Blancs et nuls": 111,
+   "% BlNuls": {
+      "Ins": 3.86,
+      "Vot": 4.67
+   },
+   "Exprimés": 2268,
+   "% Exp": {
+      "Ins": 78.97,
+      "Vot": 95.33
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      1178,
+      1090
+   ],
+   "% Voix": {
+      "Ins": [
+         41.02,
+         37.95
+      ],
+      "Exp": [
+         51.94,
+         48.06
+      ]
+   }
+},
+ {
+   "Code de la commune": 216,
+   "Libellé de la commune": "Montreuil-sur-Loir",
+   "Inscrits": 333,
+   "Abstentions": 37,
+   "% Abs": {
+      "Ins": 11.11
+   },
+   "Votants": 296,
+   "% Vot": {
+      "Ins": 88.89
+   },
+   "Blancs et nuls": 13,
+   "% BlNuls": {
+      "Ins": 3.9,
+      "Vot": 4.39
+   },
+   "Exprimés": 283,
+   "% Exp": {
+      "Ins": 84.98,
+      "Vot": 95.61
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      157,
+      126
+   ],
+   "% Voix": {
+      "Ins": [
+         47.15,
+         37.84
+      ],
+      "Exp": [
+         55.48,
+         44.52
+      ]
+   }
+},
+ {
+   "Code de la commune": 217,
+   "Libellé de la commune": "Montreuil-sur-Maine",
+   "Inscrits": 465,
+   "Abstentions": 42,
+   "% Abs": {
+      "Ins": 9.03
+   },
+   "Votants": 423,
+   "% Vot": {
+      "Ins": 90.97
+   },
+   "Blancs et nuls": 19,
+   "% BlNuls": {
+      "Ins": 4.09,
+      "Vot": 4.49
+   },
+   "Exprimés": 404,
+   "% Exp": {
+      "Ins": 86.88,
+      "Vot": 95.51
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      220,
+      184
+   ],
+   "% Voix": {
+      "Ins": [
+         47.31,
+         39.57
+      ],
+      "Exp": [
+         54.46,
+         45.54
+      ]
+   }
+},
+ {
+   "Code de la commune": 218,
+   "Libellé de la commune": "Montrevault-sur-Evre",
+   "Inscrits": 11523,
+   "Abstentions": 1330,
+   "% Abs": {
+      "Ins": 11.54
+   },
+   "Votants": 10193,
+   "% Vot": {
+      "Ins": 88.46
+   },
+   "Blancs et nuls": 607,
+   "% BlNuls": {
+      "Ins": 5.27,
+      "Vot": 5.96
+   },
+   "Exprimés": 9586,
+   "% Exp": {
+      "Ins": 83.19,
+      "Vot": 94.04
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      5991,
+      3595
+   ],
+   "% Voix": {
+      "Ins": [
+         51.99,
+         31.2
+      ],
+      "Exp": [
+         62.5,
+         37.5
+      ]
+   }
+},
+ {
+   "Code de la commune": 219,
+   "Libellé de la commune": "Montsoreau",
+   "Inscrits": 379,
+   "Abstentions": 48,
+   "% Abs": {
+      "Ins": 12.66
+   },
+   "Votants": 331,
+   "% Vot": {
+      "Ins": 87.34
+   },
+   "Blancs et nuls": 10,
+   "% BlNuls": {
+      "Ins": 2.64,
+      "Vot": 3.02
+   },
+   "Exprimés": 321,
+   "% Exp": {
+      "Ins": 84.7,
+      "Vot": 96.98
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      197,
+      124
+   ],
+   "% Voix": {
+      "Ins": [
+         51.98,
+         32.72
+      ],
+      "Exp": [
+         61.37,
+         38.63
+      ]
+   }
+},
+ {
+   "Code de la commune": 220,
+   "Libellé de la commune": "Morannes-sur-Sarthe-Daumeray",
+   "Inscrits": 2499,
+   "Abstentions": 320,
+   "% Abs": {
+      "Ins": 12.81
+   },
+   "Votants": 2179,
+   "% Vot": {
+      "Ins": 87.19
+   },
+   "Blancs et nuls": 87,
+   "% BlNuls": {
+      "Ins": 3.48,
+      "Vot": 3.99
+   },
+   "Exprimés": 2092,
+   "% Exp": {
+      "Ins": 83.71,
+      "Vot": 96.01
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      1381,
+      711
+   ],
+   "% Voix": {
+      "Ins": [
+         55.26,
+         28.45
+      ],
+      "Exp": [
+         66.01,
+         33.99
+      ]
+   }
+},
+ {
+   "Code de la commune": 221,
+   "Libellé de la commune": "Mouliherne",
+   "Inscrits": 704,
+   "Abstentions": 133,
+   "% Abs": {
+      "Ins": 18.89
+   },
+   "Votants": 571,
+   "% Vot": {
+      "Ins": 81.11
+   },
+   "Blancs et nuls": 26,
+   "% BlNuls": {
+      "Ins": 3.69,
+      "Vot": 4.55
+   },
+   "Exprimés": 545,
+   "% Exp": {
+      "Ins": 77.41,
+      "Vot": 95.45
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      298,
+      247
+   ],
+   "% Voix": {
+      "Ins": [
+         42.33,
+         35.09
+      ],
+      "Exp": [
+         54.68,
+         45.32
+      ]
+   }
+},
+ {
+   "Code de la commune": 222,
+   "Libellé de la commune": "Mozé-sur-Louet",
+   "Inscrits": 1488,
+   "Abstentions": 190,
+   "% Abs": {
+      "Ins": 12.77
+   },
+   "Votants": 1298,
+   "% Vot": {
+      "Ins": 87.23
+   },
+   "Blancs et nuls": 70,
+   "% BlNuls": {
+      "Ins": 4.7,
+      "Vot": 5.39
+   },
+   "Exprimés": 1228,
+   "% Exp": {
+      "Ins": 82.53,
+      "Vot": 94.61
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      643,
+      585
+   ],
+   "% Voix": {
+      "Ins": [
+         43.21,
+         39.31
+      ],
+      "Exp": [
+         52.36,
+         47.64
+      ]
+   }
+},
+ {
+   "Code de la commune": 223,
+   "Libellé de la commune": "Mûrs-Erigné",
+   "Inscrits": 4084,
+   "Abstentions": 436,
+   "% Abs": {
+      "Ins": 10.68
+   },
+   "Votants": 3648,
+   "% Vot": {
+      "Ins": 89.32
+   },
+   "Blancs et nuls": 189,
+   "% BlNuls": {
+      "Ins": 4.63,
+      "Vot": 5.18
+   },
+   "Exprimés": 3459,
+   "% Exp": {
+      "Ins": 84.7,
+      "Vot": 94.82
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      1682,
+      1777
+   ],
+   "% Voix": {
+      "Ins": [
+         41.19,
+         43.51
+      ],
+      "Exp": [
+         48.63,
+         51.37
+      ]
+   }
+},
+ {
+   "Code de la commune": 224,
+   "Libellé de la commune": "Neuillé",
+   "Inscrits": 655,
+   "Abstentions": 109,
+   "% Abs": {
+      "Ins": 16.64
+   },
+   "Votants": 546,
+   "% Vot": {
+      "Ins": 83.36
+   },
+   "Blancs et nuls": 33,
+   "% BlNuls": {
+      "Ins": 5.04,
+      "Vot": 6.04
+   },
+   "Exprimés": 513,
+   "% Exp": {
+      "Ins": 78.32,
+      "Vot": 93.96
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      312,
+      201
+   ],
+   "% Voix": {
+      "Ins": [
+         47.63,
+         30.69
+      ],
+      "Exp": [
+         60.82,
+         39.18
+      ]
+   }
+},
+ {
+   "Code de la commune": 228,
+   "Libellé de la commune": "Noyant-Villages",
+   "Inscrits": 4324,
+   "Abstentions": 667,
+   "% Abs": {
+      "Ins": 15.43
+   },
+   "Votants": 3657,
+   "% Vot": {
+      "Ins": 84.57
+   },
+   "Blancs et nuls": 136,
+   "% BlNuls": {
+      "Ins": 3.15,
+      "Vot": 3.72
+   },
+   "Exprimés": 3521,
+   "% Exp": {
+      "Ins": 81.43,
+      "Vot": 96.28
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      1993,
+      1528
+   ],
+   "% Voix": {
+      "Ins": [
+         46.09,
+         35.34
+      ],
+      "Exp": [
+         56.6,
+         43.4
+      ]
+   }
+},
+ {
+   "Code de la commune": 231,
+   "Libellé de la commune": "Nuaillé",
+   "Inscrits": 984,
+   "Abstentions": 110,
+   "% Abs": {
+      "Ins": 11.18
+   },
+   "Votants": 874,
+   "% Vot": {
+      "Ins": 88.82
+   },
+   "Blancs et nuls": 51,
+   "% BlNuls": {
+      "Ins": 5.18,
+      "Vot": 5.84
+   },
+   "Exprimés": 823,
+   "% Exp": {
+      "Ins": 83.64,
+      "Vot": 94.16
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      447,
+      376
+   ],
+   "% Voix": {
+      "Ins": [
+         45.43,
+         38.21
+      ],
+      "Exp": [
+         54.31,
+         45.69
+      ]
+   }
+},
+ {
+   "Code de la commune": 235,
+   "Libellé de la commune": "Parnay",
+   "Inscrits": 394,
+   "Abstentions": 44,
+   "% Abs": {
+      "Ins": 11.17
+   },
+   "Votants": 350,
+   "% Vot": {
+      "Ins": 88.83
+   },
+   "Blancs et nuls": 18,
+   "% BlNuls": {
+      "Ins": 4.57,
+      "Vot": 5.14
+   },
+   "Exprimés": 332,
+   "% Exp": {
+      "Ins": 84.26,
+      "Vot": 94.86
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      197,
+      135
+   ],
+   "% Voix": {
+      "Ins": [
+         50,
+         34.26
+      ],
+      "Exp": [
+         59.34,
+         40.66
+      ]
+   }
+},
+ {
+   "Code de la commune": 236,
+   "Libellé de la commune": "Passavant-sur-Layon",
+   "Inscrits": 111,
+   "Abstentions": 18,
+   "% Abs": {
+      "Ins": 16.22
+   },
+   "Votants": 93,
+   "% Vot": {
+      "Ins": 83.78
+   },
+   "Blancs et nuls": 7,
+   "% BlNuls": {
+      "Ins": 6.31,
+      "Vot": 7.53
+   },
+   "Exprimés": 86,
+   "% Exp": {
+      "Ins": 77.48,
+      "Vot": 92.47
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      54,
+      32
+   ],
+   "% Voix": {
+      "Ins": [
+         48.65,
+         28.83
+      ],
+      "Exp": [
+         62.79,
+         37.21
+      ]
+   }
+},
+ {
+   "Code de la commune": 237,
+   "Libellé de la commune": "La Pellerine",
+   "Inscrits": 121,
+   "Abstentions": 7,
+   "% Abs": {
+      "Ins": 5.79
+   },
+   "Votants": 114,
+   "% Vot": {
+      "Ins": 94.21
+   },
+   "Blancs et nuls": 7,
+   "% BlNuls": {
+      "Ins": 5.79,
+      "Vot": 6.14
+   },
+   "Exprimés": 107,
+   "% Exp": {
+      "Ins": 88.43,
+      "Vot": 93.86
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      62,
+      45
+   ],
+   "% Voix": {
+      "Ins": [
+         51.24,
+         37.19
+      ],
+      "Exp": [
+         57.94,
+         42.06
+      ]
+   }
+},
+ {
+   "Code de la commune": 240,
+   "Libellé de la commune": "La Plaine",
+   "Inscrits": 715,
+   "Abstentions": 103,
+   "% Abs": {
+      "Ins": 14.41
+   },
+   "Votants": 612,
+   "% Vot": {
+      "Ins": 85.59
+   },
+   "Blancs et nuls": 39,
+   "% BlNuls": {
+      "Ins": 5.45,
+      "Vot": 6.37
+   },
+   "Exprimés": 573,
+   "% Exp": {
+      "Ins": 80.14,
+      "Vot": 93.63
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      281,
+      292
+   ],
+   "% Voix": {
+      "Ins": [
+         39.3,
+         40.84
+      ],
+      "Exp": [
+         49.04,
+         50.96
+      ]
+   }
+},
+ {
+   "Code de la commune": 241,
+   "Libellé de la commune": "Le Plessis-Grammoire",
+   "Inscrits": 1615,
+   "Abstentions": 150,
+   "% Abs": {
+      "Ins": 9.29
+   },
+   "Votants": 1465,
+   "% Vot": {
+      "Ins": 90.71
+   },
+   "Blancs et nuls": 57,
+   "% BlNuls": {
+      "Ins": 3.53,
+      "Vot": 3.89
+   },
+   "Exprimés": 1408,
+   "% Exp": {
+      "Ins": 87.18,
+      "Vot": 96.11
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      740,
+      668
+   ],
+   "% Voix": {
+      "Ins": [
+         45.82,
+         41.36
+      ],
+      "Exp": [
+         52.56,
+         47.44
+      ]
+   }
+},
+ {
+   "Code de la commune": 244,
+   "Libellé de la commune": "Mauges-sur-Loire",
+   "Inscrits": 13100,
+   "Abstentions": 1304,
+   "% Abs": {
+      "Ins": 9.95
+   },
+   "Votants": 11796,
+   "% Vot": {
+      "Ins": 90.05
+   },
+   "Blancs et nuls": 593,
+   "% BlNuls": {
+      "Ins": 4.53,
+      "Vot": 5.03
+   },
+   "Exprimés": 11203,
+   "% Exp": {
+      "Ins": 85.52,
+      "Vot": 94.97
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      6803,
+      4400
+   ],
+   "% Voix": {
+      "Ins": [
+         51.93,
+         33.59
+      ],
+      "Exp": [
+         60.72,
+         39.28
+      ]
+   }
+},
+ {
+   "Code de la commune": 246,
+   "Libellé de la commune": "Les Ponts-de-Cé",
+   "Inscrits": 8817,
+   "Abstentions": 1195,
+   "% Abs": {
+      "Ins": 13.55
+   },
+   "Votants": 7622,
+   "% Vot": {
+      "Ins": 86.45
+   },
+   "Blancs et nuls": 345,
+   "% BlNuls": {
+      "Ins": 3.91,
+      "Vot": 4.53
+   },
+   "Exprimés": 7277,
+   "% Exp": {
+      "Ins": 82.53,
+      "Vot": 95.47
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      3554,
+      3723
+   ],
+   "% Voix": {
+      "Ins": [
+         40.31,
+         42.23
+      ],
+      "Exp": [
+         48.84,
+         51.16
+      ]
+   }
+},
+ {
+   "Code de la commune": 247,
+   "Libellé de la commune": "La Possonnière",
+   "Inscrits": 1768,
+   "Abstentions": 199,
+   "% Abs": {
+      "Ins": 11.26
+   },
+   "Votants": 1569,
+   "% Vot": {
+      "Ins": 88.74
+   },
+   "Blancs et nuls": 76,
+   "% BlNuls": {
+      "Ins": 4.3,
+      "Vot": 4.84
+   },
+   "Exprimés": 1493,
+   "% Exp": {
+      "Ins": 84.45,
+      "Vot": 95.16
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      705,
+      788
+   ],
+   "% Voix": {
+      "Ins": [
+         39.88,
+         44.57
+      ],
+      "Exp": [
+         47.22,
+         52.78
+      ]
+   }
+},
+ {
+   "Code de la commune": 248,
+   "Libellé de la commune": "Ombrée-d'Anjou",
+   "Inscrits": 6554,
+   "Abstentions": 860,
+   "% Abs": {
+      "Ins": 13.12
+   },
+   "Votants": 5694,
+   "% Vot": {
+      "Ins": 86.88
+   },
+   "Blancs et nuls": 251,
+   "% BlNuls": {
+      "Ins": 3.83,
+      "Vot": 4.41
+   },
+   "Exprimés": 5443,
+   "% Exp": {
+      "Ins": 83.05,
+      "Vot": 95.59
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      3107,
+      2336
+   ],
+   "% Voix": {
+      "Ins": [
+         47.41,
+         35.64
+      ],
+      "Exp": [
+         57.08,
+         42.92
+      ]
+   }
+},
+ {
+   "Code de la commune": 253,
+   "Libellé de la commune": "Le Puy-Notre-Dame",
+   "Inscrits": 948,
+   "Abstentions": 152,
+   "% Abs": {
+      "Ins": 16.03
+   },
+   "Votants": 796,
+   "% Vot": {
+      "Ins": 83.97
+   },
+   "Blancs et nuls": 37,
+   "% BlNuls": {
+      "Ins": 3.9,
+      "Vot": 4.65
+   },
+   "Exprimés": 759,
+   "% Exp": {
+      "Ins": 80.06,
+      "Vot": 95.35
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      444,
+      315
+   ],
+   "% Voix": {
+      "Ins": [
+         46.84,
+         33.23
+      ],
+      "Exp": [
+         58.5,
+         41.5
+      ]
+   }
+},
+ {
+   "Code de la commune": 257,
+   "Libellé de la commune": "Les Rairies",
+   "Inscrits": 702,
+   "Abstentions": 96,
+   "% Abs": {
+      "Ins": 13.68
+   },
+   "Votants": 606,
+   "% Vot": {
+      "Ins": 86.32
+   },
+   "Blancs et nuls": 32,
+   "% BlNuls": {
+      "Ins": 4.56,
+      "Vot": 5.28
+   },
+   "Exprimés": 574,
+   "% Exp": {
+      "Ins": 81.77,
+      "Vot": 94.72
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      311,
+      263
+   ],
+   "% Voix": {
+      "Ins": [
+         44.3,
+         37.46
+      ],
+      "Exp": [
+         54.18,
+         45.82
+      ]
+   }
+},
+ {
+   "Code de la commune": 259,
+   "Libellé de la commune": "Rochefort-sur-Loire",
+   "Inscrits": 1562,
+   "Abstentions": 185,
+   "% Abs": {
+      "Ins": 11.84
+   },
+   "Votants": 1377,
+   "% Vot": {
+      "Ins": 88.16
+   },
+   "Blancs et nuls": 46,
+   "% BlNuls": {
+      "Ins": 2.94,
+      "Vot": 3.34
+   },
+   "Exprimés": 1331,
+   "% Exp": {
+      "Ins": 85.21,
+      "Vot": 96.66
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      719,
+      612
+   ],
+   "% Voix": {
+      "Ins": [
+         46.03,
+         39.18
+      ],
+      "Exp": [
+         54.02,
+         45.98
+      ]
+   }
+},
+ {
+   "Code de la commune": 260,
+   "Libellé de la commune": "La Romagne",
+   "Inscrits": 1253,
+   "Abstentions": 135,
+   "% Abs": {
+      "Ins": 10.77
+   },
+   "Votants": 1118,
+   "% Vot": {
+      "Ins": 89.23
+   },
+   "Blancs et nuls": 61,
+   "% BlNuls": {
+      "Ins": 4.87,
+      "Vot": 5.46
+   },
+   "Exprimés": 1057,
+   "% Exp": {
+      "Ins": 84.36,
+      "Vot": 94.54
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      597,
+      460
+   ],
+   "% Voix": {
+      "Ins": [
+         47.65,
+         36.71
+      ],
+      "Exp": [
+         56.48,
+         43.52
+      ]
+   }
+},
+ {
+   "Code de la commune": 261,
+   "Libellé de la commune": "Les Rosiers-sur-Loire",
+   "Inscrits": 1663,
+   "Abstentions": 194,
+   "% Abs": {
+      "Ins": 11.67
+   },
+   "Votants": 1469,
+   "% Vot": {
+      "Ins": 88.33
+   },
+   "Blancs et nuls": 85,
+   "% BlNuls": {
+      "Ins": 5.11,
+      "Vot": 5.79
+   },
+   "Exprimés": 1384,
+   "% Exp": {
+      "Ins": 83.22,
+      "Vot": 94.21
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      797,
+      587
+   ],
+   "% Voix": {
+      "Ins": [
+         47.93,
+         35.3
+      ],
+      "Exp": [
+         57.59,
+         42.41
+      ]
+   }
+},
+ {
+   "Code de la commune": 262,
+   "Libellé de la commune": "Rou-Marson",
+   "Inscrits": 551,
+   "Abstentions": 52,
+   "% Abs": {
+      "Ins": 9.44
+   },
+   "Votants": 499,
+   "% Vot": {
+      "Ins": 90.56
+   },
+   "Blancs et nuls": 31,
+   "% BlNuls": {
+      "Ins": 5.63,
+      "Vot": 6.21
+   },
+   "Exprimés": 468,
+   "% Exp": {
+      "Ins": 84.94,
+      "Vot": 93.79
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      308,
+      160
+   ],
+   "% Voix": {
+      "Ins": [
+         55.9,
+         29.04
+      ],
+      "Exp": [
+         65.81,
+         34.19
+      ]
+   }
+},
+ {
+   "Code de la commune": 266,
+   "Libellé de la commune": "Saint-Augustin-des-Bois",
+   "Inscrits": 669,
+   "Abstentions": 61,
+   "% Abs": {
+      "Ins": 9.12
+   },
+   "Votants": 608,
+   "% Vot": {
+      "Ins": 90.88
+   },
+   "Blancs et nuls": 26,
+   "% BlNuls": {
+      "Ins": 3.89,
+      "Vot": 4.28
+   },
+   "Exprimés": 582,
+   "% Exp": {
+      "Ins": 87,
+      "Vot": 95.72
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      308,
+      274
+   ],
+   "% Voix": {
+      "Ins": [
+         46.04,
+         40.96
+      ],
+      "Exp": [
+         52.92,
+         47.08
+      ]
+   }
+},
+ {
+   "Code de la commune": 267,
+   "Libellé de la commune": "Saint-Barthélemy-d'Anjou",
+   "Inscrits": 6888,
+   "Abstentions": 782,
+   "% Abs": {
+      "Ins": 11.35
+   },
+   "Votants": 6106,
+   "% Vot": {
+      "Ins": 88.65
+   },
+   "Blancs et nuls": 302,
+   "% BlNuls": {
+      "Ins": 4.38,
+      "Vot": 4.95
+   },
+   "Exprimés": 5804,
+   "% Exp": {
+      "Ins": 84.26,
+      "Vot": 95.05
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      2629,
+      3175
+   ],
+   "% Voix": {
+      "Ins": [
+         38.17,
+         46.09
+      ],
+      "Exp": [
+         45.3,
+         54.7
+      ]
+   }
+},
+ {
+   "Code de la commune": 269,
+   "Libellé de la commune": "Saint-Christophe-du-Bois",
+   "Inscrits": 2035,
+   "Abstentions": 211,
+   "% Abs": {
+      "Ins": 10.37
+   },
+   "Votants": 1824,
+   "% Vot": {
+      "Ins": 89.63
+   },
+   "Blancs et nuls": 108,
+   "% BlNuls": {
+      "Ins": 5.31,
+      "Vot": 5.92
+   },
+   "Exprimés": 1716,
+   "% Exp": {
+      "Ins": 84.32,
+      "Vot": 94.08
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      936,
+      780
+   ],
+   "% Voix": {
+      "Ins": [
+         46,
+         38.33
+      ],
+      "Exp": [
+         54.55,
+         45.45
+      ]
+   }
+},
+ {
+   "Code de la commune": 271,
+   "Libellé de la commune": "Saint-Clément-de-la-Place",
+   "Inscrits": 1217,
+   "Abstentions": 104,
+   "% Abs": {
+      "Ins": 8.55
+   },
+   "Votants": 1113,
+   "% Vot": {
+      "Ins": 91.45
+   },
+   "Blancs et nuls": 69,
+   "% BlNuls": {
+      "Ins": 5.67,
+      "Vot": 6.2
+   },
+   "Exprimés": 1044,
+   "% Exp": {
+      "Ins": 85.78,
+      "Vot": 93.8
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      563,
+      481
+   ],
+   "% Voix": {
+      "Ins": [
+         46.26,
+         39.52
+      ],
+      "Exp": [
+         53.93,
+         46.07
+      ]
+   }
+},
+ {
+   "Code de la commune": 272,
+   "Libellé de la commune": "Saint-Clément-des-Levées",
+   "Inscrits": 844,
+   "Abstentions": 112,
+   "% Abs": {
+      "Ins": 13.27
+   },
+   "Votants": 732,
+   "% Vot": {
+      "Ins": 86.73
+   },
+   "Blancs et nuls": 40,
+   "% BlNuls": {
+      "Ins": 4.74,
+      "Vot": 5.46
+   },
+   "Exprimés": 692,
+   "% Exp": {
+      "Ins": 81.99,
+      "Vot": 94.54
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      347,
+      345
+   ],
+   "% Voix": {
+      "Ins": [
+         41.11,
+         40.88
+      ],
+      "Exp": [
+         50.14,
+         49.86
+      ]
+   }
+},
+ {
+   "Code de la commune": 274,
+   "Libellé de la commune": "Saint-Cyr-en-Bourg",
+   "Inscrits": 705,
+   "Abstentions": 90,
+   "% Abs": {
+      "Ins": 12.77
+   },
+   "Votants": 615,
+   "% Vot": {
+      "Ins": 87.23
+   },
+   "Blancs et nuls": 32,
+   "% BlNuls": {
+      "Ins": 4.54,
+      "Vot": 5.2
+   },
+   "Exprimés": 583,
+   "% Exp": {
+      "Ins": 82.7,
+      "Vot": 94.8
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      300,
+      283
+   ],
+   "% Voix": {
+      "Ins": [
+         42.55,
+         40.14
+      ],
+      "Exp": [
+         51.46,
+         48.54
+      ]
+   }
+},
+ {
+   "Code de la commune": 278,
+   "Libellé de la commune": "Sainte-Gemmes-sur-Loire",
+   "Inscrits": 2747,
+   "Abstentions": 280,
+   "% Abs": {
+      "Ins": 10.19
+   },
+   "Votants": 2467,
+   "% Vot": {
+      "Ins": 89.81
+   },
+   "Blancs et nuls": 99,
+   "% BlNuls": {
+      "Ins": 3.6,
+      "Vot": 4.01
+   },
+   "Exprimés": 2368,
+   "% Exp": {
+      "Ins": 86.2,
+      "Vot": 95.99
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      1284,
+      1084
+   ],
+   "% Voix": {
+      "Ins": [
+         46.74,
+         39.46
+      ],
+      "Exp": [
+         54.22,
+         45.78
+      ]
+   }
+},
+ {
+   "Code de la commune": 283,
+   "Libellé de la commune": "Saint-Georges-sur-Loire",
+   "Inscrits": 2290,
+   "Abstentions": 236,
+   "% Abs": {
+      "Ins": 10.31
+   },
+   "Votants": 2054,
+   "% Vot": {
+      "Ins": 89.69
+   },
+   "Blancs et nuls": 102,
+   "% BlNuls": {
+      "Ins": 4.45,
+      "Vot": 4.97
+   },
+   "Exprimés": 1952,
+   "% Exp": {
+      "Ins": 85.24,
+      "Vot": 95.03
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      1062,
+      890
+   ],
+   "% Voix": {
+      "Ins": [
+         46.38,
+         38.86
+      ],
+      "Exp": [
+         54.41,
+         45.59
+      ]
+   }
+},
+ {
+   "Code de la commune": 284,
+   "Libellé de la commune": "Saint-Germain-des-Prés",
+   "Inscrits": 991,
+   "Abstentions": 113,
+   "% Abs": {
+      "Ins": 11.4
+   },
+   "Votants": 878,
+   "% Vot": {
+      "Ins": 88.6
+   },
+   "Blancs et nuls": 48,
+   "% BlNuls": {
+      "Ins": 4.84,
+      "Vot": 5.47
+   },
+   "Exprimés": 830,
+   "% Exp": {
+      "Ins": 83.75,
+      "Vot": 94.53
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      452,
+      378
+   ],
+   "% Voix": {
+      "Ins": [
+         45.61,
+         38.14
+      ],
+      "Exp": [
+         54.46,
+         45.54
+      ]
+   }
+},
+ {
+   "Code de la commune": 288,
+   "Libellé de la commune": "Saint-Jean-de-la-Croix",
+   "Inscrits": 166,
+   "Abstentions": 14,
+   "% Abs": {
+      "Ins": 8.43
+   },
+   "Votants": 152,
+   "% Vot": {
+      "Ins": 91.57
+   },
+   "Blancs et nuls": 4,
+   "% BlNuls": {
+      "Ins": 2.41,
+      "Vot": 2.63
+   },
+   "Exprimés": 148,
+   "% Exp": {
+      "Ins": 89.16,
+      "Vot": 97.37
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      51,
+      97
+   ],
+   "% Voix": {
+      "Ins": [
+         30.72,
+         58.43
+      ],
+      "Exp": [
+         34.46,
+         65.54
+      ]
+   }
+},
+ {
+   "Code de la commune": 289,
+   "Libellé de la commune": "Saint-Jean-de-Linières",
+   "Inscrits": 1160,
+   "Abstentions": 115,
+   "% Abs": {
+      "Ins": 9.91
+   },
+   "Votants": 1045,
+   "% Vot": {
+      "Ins": 90.09
+   },
+   "Blancs et nuls": 63,
+   "% BlNuls": {
+      "Ins": 5.43,
+      "Vot": 6.03
+   },
+   "Exprimés": 982,
+   "% Exp": {
+      "Ins": 84.66,
+      "Vot": 93.97
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      565,
+      417
+   ],
+   "% Voix": {
+      "Ins": [
+         48.71,
+         35.95
+      ],
+      "Exp": [
+         57.54,
+         42.46
+      ]
+   }
+},
+ {
+   "Code de la commune": 291,
+   "Libellé de la commune": "Saint-Just-sur-Dive",
+   "Inscrits": 248,
+   "Abstentions": 52,
+   "% Abs": {
+      "Ins": 20.97
+   },
+   "Votants": 196,
+   "% Vot": {
+      "Ins": 79.03
+   },
+   "Blancs et nuls": 12,
+   "% BlNuls": {
+      "Ins": 4.84,
+      "Vot": 6.12
+   },
+   "Exprimés": 184,
+   "% Exp": {
+      "Ins": 74.19,
+      "Vot": 93.88
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      100,
+      84
+   ],
+   "% Voix": {
+      "Ins": [
+         40.32,
+         33.87
+      ],
+      "Exp": [
+         54.35,
+         45.65
+      ]
+   }
+},
+ {
+   "Code de la commune": 292,
+   "Libellé de la commune": "Val-du-Layon",
+   "Inscrits": 1981,
+   "Abstentions": 195,
+   "% Abs": {
+      "Ins": 9.84
+   },
+   "Votants": 1786,
+   "% Vot": {
+      "Ins": 90.16
+   },
+   "Blancs et nuls": 82,
+   "% BlNuls": {
+      "Ins": 4.14,
+      "Vot": 4.59
+   },
+   "Exprimés": 1704,
+   "% Exp": {
+      "Ins": 86.02,
+      "Vot": 95.41
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      985,
+      719
+   ],
+   "% Voix": {
+      "Ins": [
+         49.72,
+         36.29
+      ],
+      "Exp": [
+         57.81,
+         42.19
+      ]
+   }
+},
+ {
+   "Code de la commune": 294,
+   "Libellé de la commune": "Saint-Lambert-la-Potherie",
+   "Inscrits": 1758,
+   "Abstentions": 188,
+   "% Abs": {
+      "Ins": 10.69
+   },
+   "Votants": 1570,
+   "% Vot": {
+      "Ins": 89.31
+   },
+   "Blancs et nuls": 84,
+   "% BlNuls": {
+      "Ins": 4.78,
+      "Vot": 5.35
+   },
+   "Exprimés": 1486,
+   "% Exp": {
+      "Ins": 84.53,
+      "Vot": 94.65
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      804,
+      682
+   ],
+   "% Voix": {
+      "Ins": [
+         45.73,
+         38.79
+      ],
+      "Exp": [
+         54.1,
+         45.9
+      ]
+   }
+},
+ {
+   "Code de la commune": 298,
+   "Libellé de la commune": "Saint-Léger-des-Bois",
+   "Inscrits": 1086,
+   "Abstentions": 80,
+   "% Abs": {
+      "Ins": 7.37
+   },
+   "Votants": 1006,
+   "% Vot": {
+      "Ins": 92.63
+   },
+   "Blancs et nuls": 58,
+   "% BlNuls": {
+      "Ins": 5.34,
+      "Vot": 5.77
+   },
+   "Exprimés": 948,
+   "% Exp": {
+      "Ins": 87.29,
+      "Vot": 94.23
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      468,
+      480
+   ],
+   "% Voix": {
+      "Ins": [
+         43.09,
+         44.2
+      ],
+      "Exp": [
+         49.37,
+         50.63
+      ]
+   }
+},
+ {
+   "Code de la commune": 299,
+   "Libellé de la commune": "Saint-Léger-sous-Cholet",
+   "Inscrits": 1975,
+   "Abstentions": 227,
+   "% Abs": {
+      "Ins": 11.49
+   },
+   "Votants": 1748,
+   "% Vot": {
+      "Ins": 88.51
+   },
+   "Blancs et nuls": 77,
+   "% BlNuls": {
+      "Ins": 3.9,
+      "Vot": 4.41
+   },
+   "Exprimés": 1671,
+   "% Exp": {
+      "Ins": 84.61,
+      "Vot": 95.59
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      815,
+      856
+   ],
+   "% Voix": {
+      "Ins": [
+         41.27,
+         43.34
+      ],
+      "Exp": [
+         48.77,
+         51.23
+      ]
+   }
+},
+ {
+   "Code de la commune": 301,
+   "Libellé de la commune": "Sèvremoine",
+   "Inscrits": 16656,
+   "Abstentions": 2139,
+   "% Abs": {
+      "Ins": 12.84
+   },
+   "Votants": 14517,
+   "% Vot": {
+      "Ins": 87.16
+   },
+   "Blancs et nuls": 788,
+   "% BlNuls": {
+      "Ins": 4.73,
+      "Vot": 5.43
+   },
+   "Exprimés": 13729,
+   "% Exp": {
+      "Ins": 82.43,
+      "Vot": 94.57
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      7929,
+      5800
+   ],
+   "% Voix": {
+      "Ins": [
+         47.6,
+         34.82
+      ],
+      "Exp": [
+         57.75,
+         42.25
+      ]
+   }
+},
+ {
+   "Code de la commune": 302,
+   "Libellé de la commune": "Saint-Macaire-du-Bois",
+   "Inscrits": 284,
+   "Abstentions": 54,
+   "% Abs": {
+      "Ins": 19.01
+   },
+   "Votants": 230,
+   "% Vot": {
+      "Ins": 80.99
+   },
+   "Blancs et nuls": 12,
+   "% BlNuls": {
+      "Ins": 4.23,
+      "Vot": 5.22
+   },
+   "Exprimés": 218,
+   "% Exp": {
+      "Ins": 76.76,
+      "Vot": 94.78
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      124,
+      94
+   ],
+   "% Voix": {
+      "Ins": [
+         43.66,
+         33.1
+      ],
+      "Exp": [
+         56.88,
+         43.12
+      ]
+   }
+},
+ {
+   "Code de la commune": 304,
+   "Libellé de la commune": "Saint-Martin-de-la-Place",
+   "Inscrits": 882,
+   "Abstentions": 124,
+   "% Abs": {
+      "Ins": 14.06
+   },
+   "Votants": 758,
+   "% Vot": {
+      "Ins": 85.94
+   },
+   "Blancs et nuls": 40,
+   "% BlNuls": {
+      "Ins": 4.54,
+      "Vot": 5.28
+   },
+   "Exprimés": 718,
+   "% Exp": {
+      "Ins": 81.41,
+      "Vot": 94.72
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      418,
+      300
+   ],
+   "% Voix": {
+      "Ins": [
+         47.39,
+         34.01
+      ],
+      "Exp": [
+         58.22,
+         41.78
+      ]
+   }
+},
+ {
+   "Code de la commune": 306,
+   "Libellé de la commune": "Saint-Martin-du-Fouilloux",
+   "Inscrits": 1157,
+   "Abstentions": 96,
+   "% Abs": {
+      "Ins": 8.3
+   },
+   "Votants": 1061,
+   "% Vot": {
+      "Ins": 91.7
+   },
+   "Blancs et nuls": 53,
+   "% BlNuls": {
+      "Ins": 4.58,
+      "Vot": 5
+   },
+   "Exprimés": 1008,
+   "% Exp": {
+      "Ins": 87.12,
+      "Vot": 95
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      520,
+      488
+   ],
+   "% Voix": {
+      "Ins": [
+         44.94,
+         42.18
+      ],
+      "Exp": [
+         51.59,
+         48.41
+      ]
+   }
+},
+ {
+   "Code de la commune": 307,
+   "Libellé de la commune": "Loire-Authion",
+   "Inscrits": 10904,
+   "Abstentions": 1111,
+   "% Abs": {
+      "Ins": 10.19
+   },
+   "Votants": 9793,
+   "% Vot": {
+      "Ins": 89.81
+   },
+   "Blancs et nuls": 465,
+   "% BlNuls": {
+      "Ins": 4.26,
+      "Vot": 4.75
+   },
+   "Exprimés": 9328,
+   "% Exp": {
+      "Ins": 85.55,
+      "Vot": 95.25
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      4832,
+      4496
+   ],
+   "% Voix": {
+      "Ins": [
+         44.31,
+         41.23
+      ],
+      "Exp": [
+         51.8,
+         48.2
+      ]
+   }
+},
+ {
+   "Code de la commune": 308,
+   "Libellé de la commune": "Saint-Melaine-sur-Aubance",
+   "Inscrits": 1572,
+   "Abstentions": 123,
+   "% Abs": {
+      "Ins": 7.82
+   },
+   "Votants": 1449,
+   "% Vot": {
+      "Ins": 92.18
+   },
+   "Blancs et nuls": 78,
+   "% BlNuls": {
+      "Ins": 4.96,
+      "Vot": 5.38
+   },
+   "Exprimés": 1371,
+   "% Exp": {
+      "Ins": 87.21,
+      "Vot": 94.62
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      789,
+      582
+   ],
+   "% Voix": {
+      "Ins": [
+         50.19,
+         37.02
+      ],
+      "Exp": [
+         57.55,
+         42.45
+      ]
+   }
+},
+ {
+   "Code de la commune": 310,
+   "Libellé de la commune": "Saint-Paul-du-Bois",
+   "Inscrits": 466,
+   "Abstentions": 57,
+   "% Abs": {
+      "Ins": 12.23
+   },
+   "Votants": 409,
+   "% Vot": {
+      "Ins": 87.77
+   },
+   "Blancs et nuls": 14,
+   "% BlNuls": {
+      "Ins": 3,
+      "Vot": 3.42
+   },
+   "Exprimés": 395,
+   "% Exp": {
+      "Ins": 84.76,
+      "Vot": 96.58
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      272,
+      123
+   ],
+   "% Voix": {
+      "Ins": [
+         58.37,
+         26.39
+      ],
+      "Exp": [
+         68.86,
+         31.14
+      ]
+   }
+},
+ {
+   "Code de la commune": 311,
+   "Libellé de la commune": "Saint-Philbert-du-Peuple",
+   "Inscrits": 840,
+   "Abstentions": 113,
+   "% Abs": {
+      "Ins": 13.45
+   },
+   "Votants": 727,
+   "% Vot": {
+      "Ins": 86.55
+   },
+   "Blancs et nuls": 42,
+   "% BlNuls": {
+      "Ins": 5,
+      "Vot": 5.78
+   },
+   "Exprimés": 685,
+   "% Exp": {
+      "Ins": 81.55,
+      "Vot": 94.22
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      409,
+      276
+   ],
+   "% Voix": {
+      "Ins": [
+         48.69,
+         32.86
+      ],
+      "Exp": [
+         59.71,
+         40.29
+      ]
+   }
+},
+ {
+   "Code de la commune": 321,
+   "Libellé de la commune": "Saint-Sigismond",
+   "Inscrits": 288,
+   "Abstentions": 23,
+   "% Abs": {
+      "Ins": 7.99
+   },
+   "Votants": 265,
+   "% Vot": {
+      "Ins": 92.01
+   },
+   "Blancs et nuls": 11,
+   "% BlNuls": {
+      "Ins": 3.82,
+      "Vot": 4.15
+   },
+   "Exprimés": 254,
+   "% Exp": {
+      "Ins": 88.19,
+      "Vot": 95.85
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      123,
+      131
+   ],
+   "% Voix": {
+      "Ins": [
+         42.71,
+         45.49
+      ],
+      "Exp": [
+         48.43,
+         51.57
+      ]
+   }
+},
+ {
+   "Code de la commune": 323,
+   "Libellé de la commune": "Verrière-en-Anjou",
+   "Inscrits": 4951,
+   "Abstentions": 497,
+   "% Abs": {
+      "Ins": 10.04
+   },
+   "Votants": 4454,
+   "% Vot": {
+      "Ins": 89.96
+   },
+   "Blancs et nuls": 243,
+   "% BlNuls": {
+      "Ins": 4.91,
+      "Vot": 5.46
+   },
+   "Exprimés": 4211,
+   "% Exp": {
+      "Ins": 85.05,
+      "Vot": 94.54
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      2273,
+      1938
+   ],
+   "% Voix": {
+      "Ins": [
+         45.91,
+         39.14
+      ],
+      "Exp": [
+         53.98,
+         46.02
+      ]
+   }
+},
+ {
+   "Code de la commune": 326,
+   "Libellé de la commune": "Sarrigné",
+   "Inscrits": 614,
+   "Abstentions": 64,
+   "% Abs": {
+      "Ins": 10.42
+   },
+   "Votants": 550,
+   "% Vot": {
+      "Ins": 89.58
+   },
+   "Blancs et nuls": 29,
+   "% BlNuls": {
+      "Ins": 4.72,
+      "Vot": 5.27
+   },
+   "Exprimés": 521,
+   "% Exp": {
+      "Ins": 84.85,
+      "Vot": 94.73
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      218,
+      303
+   ],
+   "% Voix": {
+      "Ins": [
+         35.5,
+         49.35
+      ],
+      "Exp": [
+         41.84,
+         58.16
+      ]
+   }
+},
+ {
+   "Code de la commune": 328,
+   "Libellé de la commune": "Saumur",
+   "Inscrits": 19435,
+   "Abstentions": 3291,
+   "% Abs": {
+      "Ins": 16.93
+   },
+   "Votants": 16144,
+   "% Vot": {
+      "Ins": 83.07
+   },
+   "Blancs et nuls": 722,
+   "% BlNuls": {
+      "Ins": 3.71,
+      "Vot": 4.47
+   },
+   "Exprimés": 15422,
+   "% Exp": {
+      "Ins": 79.35,
+      "Vot": 95.53
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      8916,
+      6506
+   ],
+   "% Voix": {
+      "Ins": [
+         45.88,
+         33.48
+      ],
+      "Exp": [
+         57.81,
+         42.19
+      ]
+   }
+},
+ {
+   "Code de la commune": 329,
+   "Libellé de la commune": "Savennières",
+   "Inscrits": 969,
+   "Abstentions": 102,
+   "% Abs": {
+      "Ins": 10.53
+   },
+   "Votants": 867,
+   "% Vot": {
+      "Ins": 89.47
+   },
+   "Blancs et nuls": 44,
+   "% BlNuls": {
+      "Ins": 4.54,
+      "Vot": 5.07
+   },
+   "Exprimés": 823,
+   "% Exp": {
+      "Ins": 84.93,
+      "Vot": 94.93
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      437,
+      386
+   ],
+   "% Voix": {
+      "Ins": [
+         45.1,
+         39.83
+      ],
+      "Exp": [
+         53.1,
+         46.9
+      ]
+   }
+},
+ {
+   "Code de la commune": 330,
+   "Libellé de la commune": "Sceaux-d'Anjou",
+   "Inscrits": 548,
+   "Abstentions": 52,
+   "% Abs": {
+      "Ins": 9.49
+   },
+   "Votants": 496,
+   "% Vot": {
+      "Ins": 90.51
+   },
+   "Blancs et nuls": 28,
+   "% BlNuls": {
+      "Ins": 5.11,
+      "Vot": 5.65
+   },
+   "Exprimés": 468,
+   "% Exp": {
+      "Ins": 85.4,
+      "Vot": 94.35
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      264,
+      204
+   ],
+   "% Voix": {
+      "Ins": [
+         48.18,
+         37.23
+      ],
+      "Exp": [
+         56.41,
+         43.59
+      ]
+   }
+},
+ {
+   "Code de la commune": 331,
+   "Libellé de la commune": "Segré-en-Anjou-Bleu",
+   "Inscrits": 12316,
+   "Abstentions": 1812,
+   "% Abs": {
+      "Ins": 14.71
+   },
+   "Votants": 10504,
+   "% Vot": {
+      "Ins": 85.29
+   },
+   "Blancs et nuls": 457,
+   "% BlNuls": {
+      "Ins": 3.71,
+      "Vot": 4.35
+   },
+   "Exprimés": 10047,
+   "% Exp": {
+      "Ins": 81.58,
+      "Vot": 95.65
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      5521,
+      4526
+   ],
+   "% Voix": {
+      "Ins": [
+         44.83,
+         36.75
+      ],
+      "Exp": [
+         54.95,
+         45.05
+      ]
+   }
+},
+ {
+   "Code de la commune": 332,
+   "Libellé de la commune": "La Séguinière",
+   "Inscrits": 2930,
+   "Abstentions": 303,
+   "% Abs": {
+      "Ins": 10.34
+   },
+   "Votants": 2627,
+   "% Vot": {
+      "Ins": 89.66
+   },
+   "Blancs et nuls": 145,
+   "% BlNuls": {
+      "Ins": 4.95,
+      "Vot": 5.52
+   },
+   "Exprimés": 2482,
+   "% Exp": {
+      "Ins": 84.71,
+      "Vot": 94.48
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      1463,
+      1019
+   ],
+   "% Voix": {
+      "Ins": [
+         49.93,
+         34.78
+      ],
+      "Exp": [
+         58.94,
+         41.06
+      ]
+   }
+},
+ {
+   "Code de la commune": 333,
+   "Libellé de la commune": "Seiches-sur-le-Loir",
+   "Inscrits": 1950,
+   "Abstentions": 218,
+   "% Abs": {
+      "Ins": 11.18
+   },
+   "Votants": 1732,
+   "% Vot": {
+      "Ins": 88.82
+   },
+   "Blancs et nuls": 89,
+   "% BlNuls": {
+      "Ins": 4.56,
+      "Vot": 5.14
+   },
+   "Exprimés": 1643,
+   "% Exp": {
+      "Ins": 84.26,
+      "Vot": 94.86
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      848,
+      795
+   ],
+   "% Voix": {
+      "Ins": [
+         43.49,
+         40.77
+      ],
+      "Exp": [
+         51.61,
+         48.39
+      ]
+   }
+},
+ {
+   "Code de la commune": 334,
+   "Libellé de la commune": "Sermaise",
+   "Inscrits": 237,
+   "Abstentions": 37,
+   "% Abs": {
+      "Ins": 15.61
+   },
+   "Votants": 200,
+   "% Vot": {
+      "Ins": 84.39
+   },
+   "Blancs et nuls": 7,
+   "% BlNuls": {
+      "Ins": 2.95,
+      "Vot": 3.5
+   },
+   "Exprimés": 193,
+   "% Exp": {
+      "Ins": 81.43,
+      "Vot": 96.5
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      109,
+      84
+   ],
+   "% Voix": {
+      "Ins": [
+         45.99,
+         35.44
+      ],
+      "Exp": [
+         56.48,
+         43.52
+      ]
+   }
+},
+ {
+   "Code de la commune": 336,
+   "Libellé de la commune": "Somloire",
+   "Inscrits": 665,
+   "Abstentions": 76,
+   "% Abs": {
+      "Ins": 11.43
+   },
+   "Votants": 589,
+   "% Vot": {
+      "Ins": 88.57
+   },
+   "Blancs et nuls": 23,
+   "% BlNuls": {
+      "Ins": 3.46,
+      "Vot": 3.9
+   },
+   "Exprimés": 566,
+   "% Exp": {
+      "Ins": 85.11,
+      "Vot": 96.1
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      352,
+      214
+   ],
+   "% Voix": {
+      "Ins": [
+         52.93,
+         32.18
+      ],
+      "Exp": [
+         62.19,
+         37.81
+      ]
+   }
+},
+ {
+   "Code de la commune": 337,
+   "Libellé de la commune": "Soucelles",
+   "Inscrits": 1874,
+   "Abstentions": 202,
+   "% Abs": {
+      "Ins": 10.78
+   },
+   "Votants": 1672,
+   "% Vot": {
+      "Ins": 89.22
+   },
+   "Blancs et nuls": 85,
+   "% BlNuls": {
+      "Ins": 4.54,
+      "Vot": 5.08
+   },
+   "Exprimés": 1587,
+   "% Exp": {
+      "Ins": 84.69,
+      "Vot": 94.92
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      781,
+      806
+   ],
+   "% Voix": {
+      "Ins": [
+         41.68,
+         43.01
+      ],
+      "Exp": [
+         49.21,
+         50.79
+      ]
+   }
+},
+ {
+   "Code de la commune": 338,
+   "Libellé de la commune": "Soulaines-sur-Aubance",
+   "Inscrits": 910,
+   "Abstentions": 67,
+   "% Abs": {
+      "Ins": 7.36
+   },
+   "Votants": 843,
+   "% Vot": {
+      "Ins": 92.64
+   },
+   "Blancs et nuls": 40,
+   "% BlNuls": {
+      "Ins": 4.4,
+      "Vot": 4.74
+   },
+   "Exprimés": 803,
+   "% Exp": {
+      "Ins": 88.24,
+      "Vot": 95.26
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      383,
+      420
+   ],
+   "% Voix": {
+      "Ins": [
+         42.09,
+         46.15
+      ],
+      "Exp": [
+         47.7,
+         52.3
+      ]
+   }
+},
+ {
+   "Code de la commune": 339,
+   "Libellé de la commune": "Soulaire-et-Bourg",
+   "Inscrits": 971,
+   "Abstentions": 96,
+   "% Abs": {
+      "Ins": 9.89
+   },
+   "Votants": 875,
+   "% Vot": {
+      "Ins": 90.11
+   },
+   "Blancs et nuls": 52,
+   "% BlNuls": {
+      "Ins": 5.36,
+      "Vot": 5.94
+   },
+   "Exprimés": 823,
+   "% Exp": {
+      "Ins": 84.76,
+      "Vot": 94.06
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      428,
+      395
+   ],
+   "% Voix": {
+      "Ins": [
+         44.08,
+         40.68
+      ],
+      "Exp": [
+         52,
+         48
+      ]
+   }
+},
+ {
+   "Code de la commune": 341,
+   "Libellé de la commune": "Souzay-Champigny",
+   "Inscrits": 509,
+   "Abstentions": 68,
+   "% Abs": {
+      "Ins": 13.36
+   },
+   "Votants": 441,
+   "% Vot": {
+      "Ins": 86.64
+   },
+   "Blancs et nuls": 20,
+   "% BlNuls": {
+      "Ins": 3.93,
+      "Vot": 4.54
+   },
+   "Exprimés": 421,
+   "% Exp": {
+      "Ins": 82.71,
+      "Vot": 95.46
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      249,
+      172
+   ],
+   "% Voix": {
+      "Ins": [
+         48.92,
+         33.79
+      ],
+      "Exp": [
+         59.14,
+         40.86
+      ]
+   }
+},
+ {
+   "Code de la commune": 343,
+   "Libellé de la commune": "La Tessoualle",
+   "Inscrits": 2346,
+   "Abstentions": 273,
+   "% Abs": {
+      "Ins": 11.64
+   },
+   "Votants": 2073,
+   "% Vot": {
+      "Ins": 88.36
+   },
+   "Blancs et nuls": 82,
+   "% BlNuls": {
+      "Ins": 3.5,
+      "Vot": 3.96
+   },
+   "Exprimés": 1991,
+   "% Exp": {
+      "Ins": 84.87,
+      "Vot": 96.04
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      1142,
+      849
+   ],
+   "% Voix": {
+      "Ins": [
+         48.68,
+         36.19
+      ],
+      "Exp": [
+         57.36,
+         42.64
+      ]
+   }
+},
+ {
+   "Code de la commune": 344,
+   "Libellé de la commune": "Thorigné-d'Anjou",
+   "Inscrits": 642,
+   "Abstentions": 60,
+   "% Abs": {
+      "Ins": 9.35
+   },
+   "Votants": 582,
+   "% Vot": {
+      "Ins": 90.65
+   },
+   "Blancs et nuls": 22,
+   "% BlNuls": {
+      "Ins": 3.43,
+      "Vot": 3.78
+   },
+   "Exprimés": 560,
+   "% Exp": {
+      "Ins": 87.23,
+      "Vot": 96.22
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      326,
+      234
+   ],
+   "% Voix": {
+      "Ins": [
+         50.78,
+         36.45
+      ],
+      "Exp": [
+         58.21,
+         41.79
+      ]
+   }
+},
+ {
+   "Code de la commune": 345,
+   "Libellé de la commune": "Bellevigne-en-Layon",
+   "Inscrits": 3997,
+   "Abstentions": 509,
+   "% Abs": {
+      "Ins": 12.73
+   },
+   "Votants": 3488,
+   "% Vot": {
+      "Ins": 87.27
+   },
+   "Blancs et nuls": 174,
+   "% BlNuls": {
+      "Ins": 4.35,
+      "Vot": 4.99
+   },
+   "Exprimés": 3314,
+   "% Exp": {
+      "Ins": 82.91,
+      "Vot": 95.01
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      1933,
+      1381
+   ],
+   "% Voix": {
+      "Ins": [
+         48.36,
+         34.55
+      ],
+      "Exp": [
+         58.33,
+         41.67
+      ]
+   }
+},
+ {
+   "Code de la commune": 347,
+   "Libellé de la commune": "Tiercé",
+   "Inscrits": 3027,
+   "Abstentions": 331,
+   "% Abs": {
+      "Ins": 10.93
+   },
+   "Votants": 2696,
+   "% Vot": {
+      "Ins": 89.07
+   },
+   "Blancs et nuls": 137,
+   "% BlNuls": {
+      "Ins": 4.53,
+      "Vot": 5.08
+   },
+   "Exprimés": 2559,
+   "% Exp": {
+      "Ins": 84.54,
+      "Vot": 94.92
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      1475,
+      1084
+   ],
+   "% Voix": {
+      "Ins": [
+         48.73,
+         35.81
+      ],
+      "Exp": [
+         57.64,
+         42.36
+      ]
+   }
+},
+ {
+   "Code de la commune": 352,
+   "Libellé de la commune": "Toutlemonde",
+   "Inscrits": 860,
+   "Abstentions": 102,
+   "% Abs": {
+      "Ins": 11.86
+   },
+   "Votants": 758,
+   "% Vot": {
+      "Ins": 88.14
+   },
+   "Blancs et nuls": 30,
+   "% BlNuls": {
+      "Ins": 3.49,
+      "Vot": 3.96
+   },
+   "Exprimés": 728,
+   "% Exp": {
+      "Ins": 84.65,
+      "Vot": 96.04
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      421,
+      307
+   ],
+   "% Voix": {
+      "Ins": [
+         48.95,
+         35.7
+      ],
+      "Exp": [
+         57.83,
+         42.17
+      ]
+   }
+},
+ {
+   "Code de la commune": 353,
+   "Libellé de la commune": "Trélazé",
+   "Inscrits": 7819,
+   "Abstentions": 1092,
+   "% Abs": {
+      "Ins": 13.97
+   },
+   "Votants": 6727,
+   "% Vot": {
+      "Ins": 86.03
+   },
+   "Blancs et nuls": 290,
+   "% BlNuls": {
+      "Ins": 3.71,
+      "Vot": 4.31
+   },
+   "Exprimés": 6437,
+   "% Exp": {
+      "Ins": 82.33,
+      "Vot": 95.69
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      2401,
+      4036
+   ],
+   "% Voix": {
+      "Ins": [
+         30.71,
+         51.62
+      ],
+      "Exp": [
+         37.3,
+         62.7
+      ]
+   }
+},
+ {
+   "Code de la commune": 355,
+   "Libellé de la commune": "Trémentines",
+   "Inscrits": 2248,
+   "Abstentions": 254,
+   "% Abs": {
+      "Ins": 11.3
+   },
+   "Votants": 1994,
+   "% Vot": {
+      "Ins": 88.7
+   },
+   "Blancs et nuls": 97,
+   "% BlNuls": {
+      "Ins": 4.31,
+      "Vot": 4.86
+   },
+   "Exprimés": 1897,
+   "% Exp": {
+      "Ins": 84.39,
+      "Vot": 95.14
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      1009,
+      888
+   ],
+   "% Voix": {
+      "Ins": [
+         44.88,
+         39.5
+      ],
+      "Exp": [
+         53.19,
+         46.81
+      ]
+   }
+},
+ {
+   "Code de la commune": 358,
+   "Libellé de la commune": "Turquant",
+   "Inscrits": 420,
+   "Abstentions": 69,
+   "% Abs": {
+      "Ins": 16.43
+   },
+   "Votants": 351,
+   "% Vot": {
+      "Ins": 83.57
+   },
+   "Blancs et nuls": 15,
+   "% BlNuls": {
+      "Ins": 3.57,
+      "Vot": 4.27
+   },
+   "Exprimés": 336,
+   "% Exp": {
+      "Ins": 80,
+      "Vot": 95.73
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      187,
+      149
+   ],
+   "% Voix": {
+      "Ins": [
+         44.52,
+         35.48
+      ],
+      "Exp": [
+         55.65,
+         44.35
+      ]
+   }
+},
+ {
+   "Code de la commune": 359,
+   "Libellé de la commune": "Les Ulmes",
+   "Inscrits": 359,
+   "Abstentions": 40,
+   "% Abs": {
+      "Ins": 11.14
+   },
+   "Votants": 319,
+   "% Vot": {
+      "Ins": 88.86
+   },
+   "Blancs et nuls": 10,
+   "% BlNuls": {
+      "Ins": 2.79,
+      "Vot": 3.13
+   },
+   "Exprimés": 309,
+   "% Exp": {
+      "Ins": 86.07,
+      "Vot": 96.87
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      204,
+      105
+   ],
+   "% Voix": {
+      "Ins": [
+         56.82,
+         29.25
+      ],
+      "Exp": [
+         66.02,
+         33.98
+      ]
+   }
+},
+ {
+   "Code de la commune": 361,
+   "Libellé de la commune": "Varennes-sur-Loire",
+   "Inscrits": 1366,
+   "Abstentions": 204,
+   "% Abs": {
+      "Ins": 14.93
+   },
+   "Votants": 1162,
+   "% Vot": {
+      "Ins": 85.07
+   },
+   "Blancs et nuls": 47,
+   "% BlNuls": {
+      "Ins": 3.44,
+      "Vot": 4.04
+   },
+   "Exprimés": 1115,
+   "% Exp": {
+      "Ins": 81.63,
+      "Vot": 95.96
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      688,
+      427
+   ],
+   "% Voix": {
+      "Ins": [
+         50.37,
+         31.26
+      ],
+      "Exp": [
+         61.7,
+         38.3
+      ]
+   }
+},
+ {
+   "Code de la commune": 362,
+   "Libellé de la commune": "Varrains",
+   "Inscrits": 881,
+   "Abstentions": 106,
+   "% Abs": {
+      "Ins": 12.03
+   },
+   "Votants": 775,
+   "% Vot": {
+      "Ins": 87.97
+   },
+   "Blancs et nuls": 19,
+   "% BlNuls": {
+      "Ins": 2.16,
+      "Vot": 2.45
+   },
+   "Exprimés": 756,
+   "% Exp": {
+      "Ins": 85.81,
+      "Vot": 97.55
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      495,
+      261
+   ],
+   "% Voix": {
+      "Ins": [
+         56.19,
+         29.63
+      ],
+      "Exp": [
+         65.48,
+         34.52
+      ]
+   }
+},
+ {
+   "Code de la commune": 364,
+   "Libellé de la commune": "Vaudelnay",
+   "Inscrits": 874,
+   "Abstentions": 123,
+   "% Abs": {
+      "Ins": 14.07
+   },
+   "Votants": 751,
+   "% Vot": {
+      "Ins": 85.93
+   },
+   "Blancs et nuls": 46,
+   "% BlNuls": {
+      "Ins": 5.26,
+      "Vot": 6.13
+   },
+   "Exprimés": 705,
+   "% Exp": {
+      "Ins": 80.66,
+      "Vot": 93.87
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      404,
+      301
+   ],
+   "% Voix": {
+      "Ins": [
+         46.22,
+         34.44
+      ],
+      "Exp": [
+         57.3,
+         42.7
+      ]
+   }
+},
+ {
+   "Code de la commune": 367,
+   "Libellé de la commune": "Erdre-en-Anjou",
+   "Inscrits": 3284,
+   "Abstentions": 352,
+   "% Abs": {
+      "Ins": 10.72
+   },
+   "Votants": 2932,
+   "% Vot": {
+      "Ins": 89.28
+   },
+   "Blancs et nuls": 124,
+   "% BlNuls": {
+      "Ins": 3.78,
+      "Vot": 4.23
+   },
+   "Exprimés": 2808,
+   "% Exp": {
+      "Ins": 85.51,
+      "Vot": 95.77
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      1534,
+      1274
+   ],
+   "% Voix": {
+      "Ins": [
+         46.71,
+         38.79
+      ],
+      "Exp": [
+         54.63,
+         45.37
+      ]
+   }
+},
+ {
+   "Code de la commune": 368,
+   "Libellé de la commune": "Vernantes",
+   "Inscrits": 1238,
+   "Abstentions": 219,
+   "% Abs": {
+      "Ins": 17.69
+   },
+   "Votants": 1019,
+   "% Vot": {
+      "Ins": 82.31
+   },
+   "Blancs et nuls": 25,
+   "% BlNuls": {
+      "Ins": 2.02,
+      "Vot": 2.45
+   },
+   "Exprimés": 994,
+   "% Exp": {
+      "Ins": 80.29,
+      "Vot": 97.55
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      546,
+      448
+   ],
+   "% Voix": {
+      "Ins": [
+         44.1,
+         36.19
+      ],
+      "Exp": [
+         54.93,
+         45.07
+      ]
+   }
+},
+ {
+   "Code de la commune": 369,
+   "Libellé de la commune": "Vernoil-le-Fourrier",
+   "Inscrits": 940,
+   "Abstentions": 141,
+   "% Abs": {
+      "Ins": 15
+   },
+   "Votants": 799,
+   "% Vot": {
+      "Ins": 85
+   },
+   "Blancs et nuls": 45,
+   "% BlNuls": {
+      "Ins": 4.79,
+      "Vot": 5.63
+   },
+   "Exprimés": 754,
+   "% Exp": {
+      "Ins": 80.21,
+      "Vot": 94.37
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      415,
+      339
+   ],
+   "% Voix": {
+      "Ins": [
+         44.15,
+         36.06
+      ],
+      "Exp": [
+         55.04,
+         44.96
+      ]
+   }
+},
+ {
+   "Code de la commune": 370,
+   "Libellé de la commune": "Verrie",
+   "Inscrits": 307,
+   "Abstentions": 28,
+   "% Abs": {
+      "Ins": 9.12
+   },
+   "Votants": 279,
+   "% Vot": {
+      "Ins": 90.88
+   },
+   "Blancs et nuls": 14,
+   "% BlNuls": {
+      "Ins": 4.56,
+      "Vot": 5.02
+   },
+   "Exprimés": 265,
+   "% Exp": {
+      "Ins": 86.32,
+      "Vot": 94.98
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      157,
+      108
+   ],
+   "% Voix": {
+      "Ins": [
+         51.14,
+         35.18
+      ],
+      "Exp": [
+         59.25,
+         40.75
+      ]
+   }
+},
+ {
+   "Code de la commune": 371,
+   "Libellé de la commune": "Vezins",
+   "Inscrits": 1172,
+   "Abstentions": 136,
+   "% Abs": {
+      "Ins": 11.6
+   },
+   "Votants": 1036,
+   "% Vot": {
+      "Ins": 88.4
+   },
+   "Blancs et nuls": 57,
+   "% BlNuls": {
+      "Ins": 4.86,
+      "Vot": 5.5
+   },
+   "Exprimés": 979,
+   "% Exp": {
+      "Ins": 83.53,
+      "Vot": 94.5
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      583,
+      396
+   ],
+   "% Voix": {
+      "Ins": [
+         49.74,
+         33.79
+      ],
+      "Exp": [
+         59.55,
+         40.45
+      ]
+   }
+},
+ {
+   "Code de la commune": 373,
+   "Libellé de la commune": "Lys-Haut-Layon",
+   "Inscrits": 5726,
+   "Abstentions": 691,
+   "% Abs": {
+      "Ins": 12.07
+   },
+   "Votants": 5035,
+   "% Vot": {
+      "Ins": 87.93
+   },
+   "Blancs et nuls": 220,
+   "% BlNuls": {
+      "Ins": 3.84,
+      "Vot": 4.37
+   },
+   "Exprimés": 4815,
+   "% Exp": {
+      "Ins": 84.09,
+      "Vot": 95.63
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      3007,
+      1808
+   ],
+   "% Voix": {
+      "Ins": [
+         52.51,
+         31.58
+      ],
+      "Exp": [
+         62.45,
+         37.55
+      ]
+   }
+},
+ {
+   "Code de la commune": 374,
+   "Libellé de la commune": "Villebernier",
+   "Inscrits": 1047,
+   "Abstentions": 155,
+   "% Abs": {
+      "Ins": 14.8
+   },
+   "Votants": 892,
+   "% Vot": {
+      "Ins": 85.2
+   },
+   "Blancs et nuls": 49,
+   "% BlNuls": {
+      "Ins": 4.68,
+      "Vot": 5.49
+   },
+   "Exprimés": 843,
+   "% Exp": {
+      "Ins": 80.52,
+      "Vot": 94.51
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      454,
+      389
+   ],
+   "% Voix": {
+      "Ins": [
+         43.36,
+         37.15
+      ],
+      "Exp": [
+         53.86,
+         46.14
+      ]
+   }
+},
+ {
+   "Code de la commune": 377,
+   "Libellé de la commune": "Villevêque",
+   "Inscrits": 1933,
+   "Abstentions": 229,
+   "% Abs": {
+      "Ins": 11.85
+   },
+   "Votants": 1704,
+   "% Vot": {
+      "Ins": 88.15
+   },
+   "Blancs et nuls": 90,
+   "% BlNuls": {
+      "Ins": 4.66,
+      "Vot": 5.28
+   },
+   "Exprimés": 1614,
+   "% Exp": {
+      "Ins": 83.5,
+      "Vot": 94.72
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      870,
+      744
+   ],
+   "% Voix": {
+      "Ins": [
+         45.01,
+         38.49
+      ],
+      "Exp": [
+         53.9,
+         46.1
+      ]
+   }
+},
+ {
+   "Code de la commune": 378,
+   "Libellé de la commune": "Vivy",
+   "Inscrits": 1493,
+   "Abstentions": 214,
+   "% Abs": {
+      "Ins": 14.33
+   },
+   "Votants": 1279,
+   "% Vot": {
+      "Ins": 85.67
+   },
+   "Blancs et nuls": 64,
+   "% BlNuls": {
+      "Ins": 4.29,
+      "Vot": 5
+   },
+   "Exprimés": 1215,
+   "% Exp": {
+      "Ins": 81.38,
+      "Vot": 95
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      757,
+      458
+   ],
+   "% Voix": {
+      "Ins": [
+         50.7,
+         30.68
+      ],
+      "Exp": [
+         62.3,
+         37.7
+      ]
+   }
+},
+ {
+   "Code de la commune": 381,
+   "Libellé de la commune": "Yzernay",
+   "Inscrits": 1438,
+   "Abstentions": 175,
+   "% Abs": {
+      "Ins": 12.17
+   },
+   "Votants": 1263,
+   "% Vot": {
+      "Ins": 87.83
+   },
+   "Blancs et nuls": 51,
+   "% BlNuls": {
+      "Ins": 3.55,
+      "Vot": 4.04
+   },
+   "Exprimés": 1212,
+   "% Exp": {
+      "Ins": 84.28,
+      "Vot": 95.96
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "Prénom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "Voix": [
+      809,
+      403
+   ],
+   "% Voix": {
+      "Ins": [
+         56.26,
+         28.03
+      ],
+      "Exp": [
+         66.75,
+         33.25
+      ]
+   }
+}
+]

@@ -1,0 +1,9116 @@
+[
+ {
+   "Code de la commune": 2,
+   "Libellé de la commune": "Allonnes",
+   "Inscrits": 2025,
+   "Abstentions": 433,
+   "% Abs": {
+      "Ins": "21,38"
+   },
+   "Votants": 1592,
+   "% Vot": {
+      "Ins": "78,62"
+   },
+   "Blancs": 201,
+   "% Blancs": {
+      "Ins": "7,31",
+      "Vot": "12,63"
+   },
+   "Exprimés": 1391,
+   "% Exp": {
+      "Ins": "68,69",
+      "Vot": "87,37"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      734,
+      657
+   ],
+   "% Voix": {
+      "Ins": [
+         "36,25",
+         "32,44"
+      ],
+      "Exp": [
+         "52,77",
+         "47,23"
+      ]
+   }
+},
+ {
+   "Code de la commune": 3,
+   "Libellé de la commune": "Tuffalun",
+   "Inscrits": 1210,
+   "Abstentions": 260,
+   "% Abs": {
+      "Ins": "21,49"
+   },
+   "Votants": 950,
+   "% Vot": {
+      "Ins": "78,51"
+   },
+   "Blancs": 130,
+   "% Blancs": {
+      "Ins": "8,68",
+      "Vot": "13,69"
+   },
+   "Exprimés": 820,
+   "% Exp": {
+      "Ins": "67,77",
+      "Vot": "86,32"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      544,
+      276
+   ],
+   "% Voix": {
+      "Ins": [
+         "44,96",
+         "22,81"
+      ],
+      "Exp": [
+         "66,34",
+         "33,66"
+      ]
+   }
+},
+ {
+   "Code de la commune": 7,
+   "Libellé de la commune": "Angers",
+   "Inscrits": 89527,
+   "Abstentions": 24204,
+   "% Abs": {
+      "Ins": "27,04"
+   },
+   "Votants": 65323,
+   "% Vot": {
+      "Ins": "72,96"
+   },
+   "Blancs": 6896,
+   "% Blancs": {
+      "Ins": "5,93",
+      "Vot": "10,56"
+   },
+   "Exprimés": 58427,
+   "% Exp": {
+      "Ins": "65,26",
+      "Vot": "89,44"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      48232,
+      10195
+   ],
+   "% Voix": {
+      "Ins": [
+         "53,87",
+         "11,39"
+      ],
+      "Exp": [
+         "82,55",
+         "17,45"
+      ]
+   }
+},
+ {
+   "Code de la commune": 8,
+   "Libellé de la commune": "Angrie",
+   "Inscrits": 625,
+   "Abstentions": 113,
+   "% Abs": {
+      "Ins": "18,08"
+   },
+   "Votants": 512,
+   "% Vot": {
+      "Ins": "81,92"
+   },
+   "Blancs": 70,
+   "% Blancs": {
+      "Ins": "7,36",
+      "Vot": "13,68"
+   },
+   "Exprimés": 442,
+   "% Exp": {
+      "Ins": "70,72",
+      "Vot": "86,33"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      276,
+      166
+   ],
+   "% Voix": {
+      "Ins": [
+         "44,16",
+         "26,56"
+      ],
+      "Exp": [
+         "62,44",
+         "37,56"
+      ]
+   }
+},
+ {
+   "Code de la commune": 9,
+   "Libellé de la commune": "Antoigné",
+   "Inscrits": 345,
+   "Abstentions": 74,
+   "% Abs": {
+      "Ins": "21,45"
+   },
+   "Votants": 271,
+   "% Vot": {
+      "Ins": "78,55"
+   },
+   "Blancs": 31,
+   "% Blancs": {
+      "Ins": "8,41",
+      "Vot": "11,44"
+   },
+   "Exprimés": 240,
+   "% Exp": {
+      "Ins": "69,57",
+      "Vot": "88,56"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      119,
+      121
+   ],
+   "% Voix": {
+      "Ins": [
+         "34,49",
+         "35,07"
+      ],
+      "Exp": [
+         "49,58",
+         "50,42"
+      ]
+   }
+},
+ {
+   "Code de la commune": 10,
+   "Libellé de la commune": "Armaillé",
+   "Inscrits": 228,
+   "Abstentions": 44,
+   "% Abs": {
+      "Ins": "19,3"
+   },
+   "Votants": 184,
+   "% Vot": {
+      "Ins": "80,7"
+   },
+   "Blancs": 22,
+   "% Blancs": {
+      "Ins": "8,33",
+      "Vot": "11,96"
+   },
+   "Exprimés": 162,
+   "% Exp": {
+      "Ins": "71,05",
+      "Vot": "88,04"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      110,
+      52
+   ],
+   "% Voix": {
+      "Ins": [
+         "48,25",
+         "22,81"
+      ],
+      "Exp": [
+         "67,9",
+         "32,1"
+      ]
+   }
+},
+ {
+   "Code de la commune": 11,
+   "Libellé de la commune": "Artannes-sur-Thouet",
+   "Inscrits": 351,
+   "Abstentions": 50,
+   "% Abs": {
+      "Ins": "14,25"
+   },
+   "Votants": 301,
+   "% Vot": {
+      "Ins": "85,75"
+   },
+   "Blancs": 45,
+   "% Blancs": {
+      "Ins": "10,54",
+      "Vot": "14,96"
+   },
+   "Exprimés": 256,
+   "% Exp": {
+      "Ins": "72,93",
+      "Vot": "85,05"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      149,
+      107
+   ],
+   "% Voix": {
+      "Ins": [
+         "42,45",
+         "30,48"
+      ],
+      "Exp": [
+         "58,2",
+         "41,8"
+      ]
+   }
+},
+ {
+   "Code de la commune": 12,
+   "Libellé de la commune": "Aubigné-sur-Layon",
+   "Inscrits": 264,
+   "Abstentions": 37,
+   "% Abs": {
+      "Ins": "14,02"
+   },
+   "Votants": 227,
+   "% Vot": {
+      "Ins": "85,98"
+   },
+   "Blancs": 28,
+   "% Blancs": {
+      "Ins": "9,09",
+      "Vot": "12,34"
+   },
+   "Exprimés": 199,
+   "% Exp": {
+      "Ins": "75,38",
+      "Vot": "87,67"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      121,
+      78
+   ],
+   "% Voix": {
+      "Ins": [
+         "45,83",
+         "29,55"
+      ],
+      "Exp": [
+         "60,8",
+         "39,2"
+      ]
+   }
+},
+ {
+   "Code de la commune": 15,
+   "Libellé de la commune": "Avrillé",
+   "Inscrits": 10473,
+   "Abstentions": 2028,
+   "% Abs": {
+      "Ins": "19,36"
+   },
+   "Votants": 8445,
+   "% Vot": {
+      "Ins": "80,64"
+   },
+   "Blancs": 876,
+   "% Blancs": {
+      "Ins": "6,58",
+      "Vot": "10,38"
+   },
+   "Exprimés": 7569,
+   "% Exp": {
+      "Ins": "72,27",
+      "Vot": "89,63"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      6223,
+      1346
+   ],
+   "% Voix": {
+      "Ins": [
+         "59,42",
+         "12,85"
+      ],
+      "Exp": [
+         "82,22",
+         "17,78"
+      ]
+   }
+},
+ {
+   "Code de la commune": 17,
+   "Libellé de la commune": "Baracé",
+   "Inscrits": 325,
+   "Abstentions": 53,
+   "% Abs": {
+      "Ins": "16,31"
+   },
+   "Votants": 272,
+   "% Vot": {
+      "Ins": "83,69"
+   },
+   "Blancs": 35,
+   "% Blancs": {
+      "Ins": "7,69",
+      "Vot": "12,87"
+   },
+   "Exprimés": 237,
+   "% Exp": {
+      "Ins": "72,92",
+      "Vot": "87,13"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      133,
+      104
+   ],
+   "% Voix": {
+      "Ins": [
+         "40,92",
+         "32"
+      ],
+      "Exp": [
+         "56,12",
+         "43,88"
+      ]
+   }
+},
+ {
+   "Code de la commune": 18,
+   "Libellé de la commune": "Baugé-en-Anjou",
+   "Inscrits": 8562,
+   "Abstentions": 1950,
+   "% Abs": {
+      "Ins": "22,78"
+   },
+   "Votants": 6612,
+   "% Vot": {
+      "Ins": "77,22"
+   },
+   "Blancs": 845,
+   "% Blancs": {
+      "Ins": "7,47",
+      "Vot": "12,78"
+   },
+   "Exprimés": 5767,
+   "% Exp": {
+      "Ins": "67,36",
+      "Vot": "87,22"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      3648,
+      2119
+   ],
+   "% Voix": {
+      "Ins": [
+         "42,61",
+         "24,75"
+      ],
+      "Exp": [
+         "63,26",
+         "36,74"
+      ]
+   }
+},
+ {
+   "Code de la commune": 20,
+   "Libellé de la commune": "Beaucouzé",
+   "Inscrits": 4139,
+   "Abstentions": 637,
+   "% Abs": {
+      "Ins": "15,39"
+   },
+   "Votants": 3502,
+   "% Vot": {
+      "Ins": "84,61"
+   },
+   "Blancs": 387,
+   "% Blancs": {
+      "Ins": "7,37",
+      "Vot": "11,06"
+   },
+   "Exprimés": 3115,
+   "% Exp": {
+      "Ins": "75,26",
+      "Vot": "88,95"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      2547,
+      568
+   ],
+   "% Voix": {
+      "Ins": [
+         "61,54",
+         "13,72"
+      ],
+      "Exp": [
+         "81,77",
+         "18,23"
+      ]
+   }
+},
+ {
+   "Code de la commune": 21,
+   "Libellé de la commune": "Beaufort-en-Anjou",
+   "Inscrits": 5023,
+   "Abstentions": 1102,
+   "% Abs": {
+      "Ins": "21,94"
+   },
+   "Votants": 3921,
+   "% Vot": {
+      "Ins": "78,06"
+   },
+   "Blancs": 413,
+   "% Blancs": {
+      "Ins": "5,51",
+      "Vot": "10,54"
+   },
+   "Exprimés": 3508,
+   "% Exp": {
+      "Ins": "69,84",
+      "Vot": "89,47"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      2216,
+      1292
+   ],
+   "% Voix": {
+      "Ins": [
+         "44,12",
+         "25,72"
+      ],
+      "Exp": [
+         "63,17",
+         "36,83"
+      ]
+   }
+},
+ {
+   "Code de la commune": 22,
+   "Libellé de la commune": "Beaulieu-sur-Layon",
+   "Inscrits": 1034,
+   "Abstentions": 191,
+   "% Abs": {
+      "Ins": "18,47"
+   },
+   "Votants": 843,
+   "% Vot": {
+      "Ins": "81,53"
+   },
+   "Blancs": 89,
+   "% Blancs": {
+      "Ins": "6,09",
+      "Vot": "10,56"
+   },
+   "Exprimés": 754,
+   "% Exp": {
+      "Ins": "72,92",
+      "Vot": "89,44"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      560,
+      194
+   ],
+   "% Voix": {
+      "Ins": [
+         "54,16",
+         "18,76"
+      ],
+      "Exp": [
+         "74,27",
+         "25,73"
+      ]
+   }
+},
+ {
+   "Code de la commune": 23,
+   "Libellé de la commune": "Beaupréau-en-Mauges",
+   "Inscrits": 16938,
+   "Abstentions": 3489,
+   "% Abs": {
+      "Ins": "20,6"
+   },
+   "Votants": 13449,
+   "% Vot": {
+      "Ins": "79,4"
+   },
+   "Blancs": 1566,
+   "% Blancs": {
+      "Ins": "6,84",
+      "Vot": "11,65"
+   },
+   "Exprimés": 11883,
+   "% Exp": {
+      "Ins": "70,16",
+      "Vot": "88,36"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      8745,
+      3138
+   ],
+   "% Voix": {
+      "Ins": [
+         "51,63",
+         "18,53"
+      ],
+      "Exp": [
+         "73,59",
+         "26,41"
+      ]
+   }
+},
+ {
+   "Code de la commune": 26,
+   "Libellé de la commune": "Bécon-les-Granits",
+   "Inscrits": 1945,
+   "Abstentions": 393,
+   "% Abs": {
+      "Ins": "20,21"
+   },
+   "Votants": 1552,
+   "% Vot": {
+      "Ins": "79,79"
+   },
+   "Blancs": 199,
+   "% Blancs": {
+      "Ins": "8,12",
+      "Vot": "12,83"
+   },
+   "Exprimés": 1353,
+   "% Exp": {
+      "Ins": "69,56",
+      "Vot": "87,18"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      897,
+      456
+   ],
+   "% Voix": {
+      "Ins": [
+         "46,12",
+         "23,44"
+      ],
+      "Exp": [
+         "66,3",
+         "33,7"
+      ]
+   }
+},
+ {
+   "Code de la commune": 27,
+   "Libellé de la commune": "Bégrolles-en-Mauges",
+   "Inscrits": 1373,
+   "Abstentions": 250,
+   "% Abs": {
+      "Ins": "18,21"
+   },
+   "Votants": 1123,
+   "% Vot": {
+      "Ins": "81,79"
+   },
+   "Blancs": 139,
+   "% Blancs": {
+      "Ins": "7,57",
+      "Vot": "12,38"
+   },
+   "Exprimés": 984,
+   "% Exp": {
+      "Ins": "71,67",
+      "Vot": "87,62"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      683,
+      301
+   ],
+   "% Voix": {
+      "Ins": [
+         "49,75",
+         "21,92"
+      ],
+      "Exp": [
+         "69,41",
+         "30,59"
+      ]
+   }
+},
+ {
+   "Code de la commune": 28,
+   "Libellé de la commune": "Béhuard",
+   "Inscrits": 111,
+   "Abstentions": 11,
+   "% Abs": {
+      "Ins": "9,91"
+   },
+   "Votants": 100,
+   "% Vot": {
+      "Ins": "90,09"
+   },
+   "Blancs": 8,
+   "% Blancs": {
+      "Ins": "7,21",
+      "Vot": "8"
+   },
+   "Exprimés": 92,
+   "% Exp": {
+      "Ins": "82,88",
+      "Vot": "92"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      80,
+      12
+   ],
+   "% Voix": {
+      "Ins": [
+         "72,07",
+         "10,81"
+      ],
+      "Exp": [
+         "86,96",
+         "13,04"
+      ]
+   }
+},
+ {
+   "Code de la commune": 29,
+   "Libellé de la commune": "Blaison-Saint-Sulpice",
+   "Inscrits": 1063,
+   "Abstentions": 200,
+   "% Abs": {
+      "Ins": "18,81"
+   },
+   "Votants": 863,
+   "% Vot": {
+      "Ins": "81,19"
+   },
+   "Blancs": 113,
+   "% Blancs": {
+      "Ins": "8,75",
+      "Vot": "13,1"
+   },
+   "Exprimés": 750,
+   "% Exp": {
+      "Ins": "70,56",
+      "Vot": "86,91"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      605,
+      145
+   ],
+   "% Voix": {
+      "Ins": [
+         "56,91",
+         "13,64"
+      ],
+      "Exp": [
+         "80,67",
+         "19,33"
+      ]
+   }
+},
+ {
+   "Code de la commune": 30,
+   "Libellé de la commune": "Blou",
+   "Inscrits": 676,
+   "Abstentions": 113,
+   "% Abs": {
+      "Ins": "16,72"
+   },
+   "Votants": 563,
+   "% Vot": {
+      "Ins": "83,28"
+   },
+   "Blancs": 89,
+   "% Blancs": {
+      "Ins": "10,36",
+      "Vot": "15,81"
+   },
+   "Exprimés": 474,
+   "% Exp": {
+      "Ins": "70,12",
+      "Vot": "84,19"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      243,
+      231
+   ],
+   "% Voix": {
+      "Ins": [
+         "35,95",
+         "34,17"
+      ],
+      "Exp": [
+         "51,27",
+         "48,73"
+      ]
+   }
+},
+ {
+   "Code de la commune": 35,
+   "Libellé de la commune": "Bouchemaine",
+   "Inscrits": 5377,
+   "Abstentions": 934,
+   "% Abs": {
+      "Ins": "17,37"
+   },
+   "Votants": 4443,
+   "% Vot": {
+      "Ins": "82,63"
+   },
+   "Blancs": 442,
+   "% Blancs": {
+      "Ins": "6,19",
+      "Vot": "9,95"
+   },
+   "Exprimés": 4001,
+   "% Exp": {
+      "Ins": "74,41",
+      "Vot": "90,05"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      3351,
+      650
+   ],
+   "% Voix": {
+      "Ins": [
+         "62,32",
+         "12,09"
+      ],
+      "Exp": [
+         "83,75",
+         "16,25"
+      ]
+   }
+},
+ {
+   "Code de la commune": 36,
+   "Libellé de la commune": "Bouillé-Ménard",
+   "Inscrits": 505,
+   "Abstentions": 84,
+   "% Abs": {
+      "Ins": "16,63"
+   },
+   "Votants": 421,
+   "% Vot": {
+      "Ins": "83,37"
+   },
+   "Blancs": 39,
+   "% Blancs": {
+      "Ins": "6,14",
+      "Vot": "9,27"
+   },
+   "Exprimés": 382,
+   "% Exp": {
+      "Ins": "75,64",
+      "Vot": "90,74"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      247,
+      135
+   ],
+   "% Voix": {
+      "Ins": [
+         "48,91",
+         "26,73"
+      ],
+      "Exp": [
+         "64,66",
+         "35,34"
+      ]
+   }
+},
+ {
+   "Code de la commune": 38,
+   "Libellé de la commune": "Bourg-l'Evêque",
+   "Inscrits": 170,
+   "Abstentions": 33,
+   "% Abs": {
+      "Ins": "19,41"
+   },
+   "Votants": 137,
+   "% Vot": {
+      "Ins": "80,59"
+   },
+   "Blancs": 13,
+   "% Blancs": {
+      "Ins": "6,47",
+      "Vot": "9,49"
+   },
+   "Exprimés": 124,
+   "% Exp": {
+      "Ins": "72,94",
+      "Vot": "90,51"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      87,
+      37
+   ],
+   "% Voix": {
+      "Ins": [
+         "51,18",
+         "21,76"
+      ],
+      "Exp": [
+         "70,16",
+         "29,84"
+      ]
+   }
+},
+ {
+   "Code de la commune": 41,
+   "Libellé de la commune": "Brain-sur-Allonnes",
+   "Inscrits": 1488,
+   "Abstentions": 379,
+   "% Abs": {
+      "Ins": "25,47"
+   },
+   "Votants": 1109,
+   "% Vot": {
+      "Ins": "74,53"
+   },
+   "Blancs": 102,
+   "% Blancs": {
+      "Ins": "5,11",
+      "Vot": "9,2"
+   },
+   "Exprimés": 1007,
+   "% Exp": {
+      "Ins": "67,67",
+      "Vot": "90,8"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      543,
+      464
+   ],
+   "% Voix": {
+      "Ins": [
+         "36,49",
+         "31,18"
+      ],
+      "Exp": [
+         "53,92",
+         "46,08"
+      ]
+   }
+},
+ {
+   "Code de la commune": 45,
+   "Libellé de la commune": "La Breille-les-Pins",
+   "Inscrits": 381,
+   "Abstentions": 83,
+   "% Abs": {
+      "Ins": "21,78"
+   },
+   "Votants": 298,
+   "% Vot": {
+      "Ins": "78,22"
+   },
+   "Blancs": 28,
+   "% Blancs": {
+      "Ins": "6,3",
+      "Vot": "9,4"
+   },
+   "Exprimés": 270,
+   "% Exp": {
+      "Ins": "70,87",
+      "Vot": "90,6"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      145,
+      125
+   ],
+   "% Voix": {
+      "Ins": [
+         "38,06",
+         "32,81"
+      ],
+      "Exp": [
+         "53,7",
+         "46,3"
+      ]
+   }
+},
+ {
+   "Code de la commune": 46,
+   "Libellé de la commune": "Brézé",
+   "Inscrits": 942,
+   "Abstentions": 203,
+   "% Abs": {
+      "Ins": "21,55"
+   },
+   "Votants": 739,
+   "% Vot": {
+      "Ins": "78,45"
+   },
+   "Blancs": 81,
+   "% Blancs": {
+      "Ins": "6,58",
+      "Vot": "10,97"
+   },
+   "Exprimés": 658,
+   "% Exp": {
+      "Ins": "69,85",
+      "Vot": "89,04"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      362,
+      296
+   ],
+   "% Voix": {
+      "Ins": [
+         "38,43",
+         "31,42"
+      ],
+      "Exp": [
+         "55,02",
+         "44,98"
+      ]
+   }
+},
+ {
+   "Code de la commune": 48,
+   "Libellé de la commune": "Briollay",
+   "Inscrits": 2197,
+   "Abstentions": 400,
+   "% Abs": {
+      "Ins": "18,21"
+   },
+   "Votants": 1797,
+   "% Vot": {
+      "Ins": "81,79"
+   },
+   "Blancs": 208,
+   "% Blancs": {
+      "Ins": "7,01",
+      "Vot": "11,58"
+   },
+   "Exprimés": 1589,
+   "% Exp": {
+      "Ins": "72,33",
+      "Vot": "88,43"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      1191,
+      398
+   ],
+   "% Voix": {
+      "Ins": [
+         "54,21",
+         "18,12"
+      ],
+      "Exp": [
+         "74,95",
+         "25,05"
+      ]
+   }
+},
+ {
+   "Code de la commune": 50,
+   "Libellé de la commune": "Brissac-Loire-Aubance",
+   "Inscrits": 7975,
+   "Abstentions": 1330,
+   "% Abs": {
+      "Ins": "16,68"
+   },
+   "Votants": 6645,
+   "% Vot": {
+      "Ins": "83,32"
+   },
+   "Blancs": 739,
+   "% Blancs": {
+      "Ins": "7,36",
+      "Vot": "11,13"
+   },
+   "Exprimés": 5906,
+   "% Exp": {
+      "Ins": "74,06",
+      "Vot": "88,88"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      4380,
+      1526
+   ],
+   "% Voix": {
+      "Ins": [
+         "54,92",
+         "19,13"
+      ],
+      "Exp": [
+         "74,16",
+         "25,84"
+      ]
+   }
+},
+ {
+   "Code de la commune": 53,
+   "Libellé de la commune": "Brossay",
+   "Inscrits": 243,
+   "Abstentions": 46,
+   "% Abs": {
+      "Ins": "18,93"
+   },
+   "Votants": 197,
+   "% Vot": {
+      "Ins": "81,07"
+   },
+   "Blancs": 27,
+   "% Blancs": {
+      "Ins": "7",
+      "Vot": "13,71"
+   },
+   "Exprimés": 170,
+   "% Exp": {
+      "Ins": "69,96",
+      "Vot": "86,29"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      71,
+      99
+   ],
+   "% Voix": {
+      "Ins": [
+         "29,22",
+         "40,74"
+      ],
+      "Exp": [
+         "41,76",
+         "58,24"
+      ]
+   }
+},
+ {
+   "Code de la commune": 54,
+   "Libellé de la commune": "Candé",
+   "Inscrits": 1885,
+   "Abstentions": 367,
+   "% Abs": {
+      "Ins": "19,47"
+   },
+   "Votants": 1518,
+   "% Vot": {
+      "Ins": "80,53"
+   },
+   "Blancs": 151,
+   "% Blancs": {
+      "Ins": "6,37",
+      "Vot": "9,95"
+   },
+   "Exprimés": 1367,
+   "% Exp": {
+      "Ins": "72,52",
+      "Vot": "90,05"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      985,
+      382
+   ],
+   "% Voix": {
+      "Ins": [
+         "52,25",
+         "20,27"
+      ],
+      "Exp": [
+         "72,06",
+         "27,94"
+      ]
+   }
+},
+ {
+   "Code de la commune": 55,
+   "Libellé de la commune": "Cantenay-Epinard",
+   "Inscrits": 1799,
+   "Abstentions": 305,
+   "% Abs": {
+      "Ins": "16,95"
+   },
+   "Votants": 1494,
+   "% Vot": {
+      "Ins": "83,05"
+   },
+   "Blancs": 171,
+   "% Blancs": {
+      "Ins": "7,73",
+      "Vot": "11,45"
+   },
+   "Exprimés": 1323,
+   "% Exp": {
+      "Ins": "73,54",
+      "Vot": "88,55"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      1026,
+      297
+   ],
+   "% Voix": {
+      "Ins": [
+         "57,03",
+         "16,51"
+      ],
+      "Exp": [
+         "77,55",
+         "22,45"
+      ]
+   }
+},
+ {
+   "Code de la commune": 56,
+   "Libellé de la commune": "Carbay",
+   "Inscrits": 176,
+   "Abstentions": 20,
+   "% Abs": {
+      "Ins": "11,36"
+   },
+   "Votants": 156,
+   "% Vot": {
+      "Ins": "88,64"
+   },
+   "Blancs": 24,
+   "% Blancs": {
+      "Ins": "11,93",
+      "Vot": "15,39"
+   },
+   "Exprimés": 132,
+   "% Exp": {
+      "Ins": "75",
+      "Vot": "84,62"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      68,
+      64
+   ],
+   "% Voix": {
+      "Ins": [
+         "38,64",
+         "36,36"
+      ],
+      "Exp": [
+         "51,52",
+         "48,48"
+      ]
+   }
+},
+ {
+   "Code de la commune": 57,
+   "Libellé de la commune": "Cernusson",
+   "Inscrits": 242,
+   "Abstentions": 43,
+   "% Abs": {
+      "Ins": "17,77"
+   },
+   "Votants": 199,
+   "% Vot": {
+      "Ins": "82,23"
+   },
+   "Blancs": 16,
+   "% Blancs": {
+      "Ins": "4,55",
+      "Vot": "8,05"
+   },
+   "Exprimés": 183,
+   "% Exp": {
+      "Ins": "75,62",
+      "Vot": "91,96"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      122,
+      61
+   ],
+   "% Voix": {
+      "Ins": [
+         "50,41",
+         "25,21"
+      ],
+      "Exp": [
+         "66,67",
+         "33,33"
+      ]
+   }
+},
+ {
+   "Code de la commune": 58,
+   "Libellé de la commune": "Les Cerqueux",
+   "Inscrits": 561,
+   "Abstentions": 94,
+   "% Abs": {
+      "Ins": "16,76"
+   },
+   "Votants": 467,
+   "% Vot": {
+      "Ins": "83,24"
+   },
+   "Blancs": 42,
+   "% Blancs": {
+      "Ins": "6,24",
+      "Vot": "9"
+   },
+   "Exprimés": 425,
+   "% Exp": {
+      "Ins": "75,76",
+      "Vot": "91,01"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      282,
+      143
+   ],
+   "% Voix": {
+      "Ins": [
+         "50,27",
+         "25,49"
+      ],
+      "Exp": [
+         "66,35",
+         "33,65"
+      ]
+   }
+},
+ {
+   "Code de la commune": 60,
+   "Libellé de la commune": "Chacé",
+   "Inscrits": 989,
+   "Abstentions": 174,
+   "% Abs": {
+      "Ins": "17,59"
+   },
+   "Votants": 815,
+   "% Vot": {
+      "Ins": "82,41"
+   },
+   "Blancs": 95,
+   "% Blancs": {
+      "Ins": "7,18",
+      "Vot": "11,66"
+   },
+   "Exprimés": 720,
+   "% Exp": {
+      "Ins": "72,8",
+      "Vot": "88,34"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      425,
+      295
+   ],
+   "% Voix": {
+      "Ins": [
+         "42,97",
+         "29,83"
+      ],
+      "Exp": [
+         "59,03",
+         "40,97"
+      ]
+   }
+},
+ {
+   "Code de la commune": 61,
+   "Libellé de la commune": "Challain-la-Potherie",
+   "Inscrits": 613,
+   "Abstentions": 106,
+   "% Abs": {
+      "Ins": "17,29"
+   },
+   "Votants": 507,
+   "% Vot": {
+      "Ins": "82,71"
+   },
+   "Blancs": 56,
+   "% Blancs": {
+      "Ins": "7,34",
+      "Vot": "11,05"
+   },
+   "Exprimés": 451,
+   "% Exp": {
+      "Ins": "73,57",
+      "Vot": "88,95"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      293,
+      158
+   ],
+   "% Voix": {
+      "Ins": [
+         "47,8",
+         "25,77"
+      ],
+      "Exp": [
+         "64,97",
+         "35,03"
+      ]
+   }
+},
+ {
+   "Code de la commune": 63,
+   "Libellé de la commune": "Chalonnes-sur-Loire",
+   "Inscrits": 4899,
+   "Abstentions": 869,
+   "% Abs": {
+      "Ins": "17,74"
+   },
+   "Votants": 4030,
+   "% Vot": {
+      "Ins": "82,26"
+   },
+   "Blancs": 534,
+   "% Blancs": {
+      "Ins": "7,72",
+      "Vot": "13,26"
+   },
+   "Exprimés": 3496,
+   "% Exp": {
+      "Ins": "71,36",
+      "Vot": "86,75"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      2608,
+      888
+   ],
+   "% Voix": {
+      "Ins": [
+         "53,24",
+         "18,13"
+      ],
+      "Exp": [
+         "74,6",
+         "25,4"
+      ]
+   }
+},
+ {
+   "Code de la commune": 64,
+   "Libellé de la commune": "Chambellay",
+   "Inscrits": 282,
+   "Abstentions": 50,
+   "% Abs": {
+      "Ins": "17,73"
+   },
+   "Votants": 232,
+   "% Vot": {
+      "Ins": "82,27"
+   },
+   "Blancs": 34,
+   "% Blancs": {
+      "Ins": "8,51",
+      "Vot": "14,66"
+   },
+   "Exprimés": 198,
+   "% Exp": {
+      "Ins": "70,21",
+      "Vot": "85,34"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      123,
+      75
+   ],
+   "% Voix": {
+      "Ins": [
+         "43,62",
+         "26,6"
+      ],
+      "Exp": [
+         "62,12",
+         "37,88"
+      ]
+   }
+},
+ {
+   "Code de la commune": 65,
+   "Libellé de la commune": "Les Hauts-d'Anjou",
+   "Inscrits": 3748,
+   "Abstentions": 783,
+   "% Abs": {
+      "Ins": "20,89"
+   },
+   "Votants": 2965,
+   "% Vot": {
+      "Ins": "79,11"
+   },
+   "Blancs": 367,
+   "% Blancs": {
+      "Ins": "7,44",
+      "Vot": "12,38"
+   },
+   "Exprimés": 2598,
+   "% Exp": {
+      "Ins": "69,32",
+      "Vot": "87,62"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      1600,
+      998
+   ],
+   "% Voix": {
+      "Ins": [
+         "42,69",
+         "26,63"
+      ],
+      "Exp": [
+         "61,59",
+         "38,41"
+      ]
+   }
+},
+ {
+   "Code de la commune": 67,
+   "Libellé de la commune": "Chenillé-Champteussé",
+   "Inscrits": 263,
+   "Abstentions": 40,
+   "% Abs": {
+      "Ins": "15,21"
+   },
+   "Votants": 223,
+   "% Vot": {
+      "Ins": "84,79"
+   },
+   "Blancs": 30,
+   "% Blancs": {
+      "Ins": "8,75",
+      "Vot": "13,46"
+   },
+   "Exprimés": 193,
+   "% Exp": {
+      "Ins": "73,38",
+      "Vot": "86,55"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      135,
+      58
+   ],
+   "% Voix": {
+      "Ins": [
+         "51,33",
+         "22,05"
+      ],
+      "Exp": [
+         "69,95",
+         "30,05"
+      ]
+   }
+},
+ {
+   "Code de la commune": 68,
+   "Libellé de la commune": "Champtocé-sur-Loire",
+   "Inscrits": 1284,
+   "Abstentions": 211,
+   "% Abs": {
+      "Ins": "16,43"
+   },
+   "Votants": 1073,
+   "% Vot": {
+      "Ins": "83,57"
+   },
+   "Blancs": 150,
+   "% Blancs": {
+      "Ins": "9,27",
+      "Vot": "13,98"
+   },
+   "Exprimés": 923,
+   "% Exp": {
+      "Ins": "71,88",
+      "Vot": "86,02"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      614,
+      309
+   ],
+   "% Voix": {
+      "Ins": [
+         "47,82",
+         "24,07"
+      ],
+      "Exp": [
+         "66,52",
+         "33,48"
+      ]
+   }
+},
+ {
+   "Code de la commune": 69,
+   "Libellé de la commune": "Orée-d'Anjou",
+   "Inscrits": 11833,
+   "Abstentions": 2359,
+   "% Abs": {
+      "Ins": "19,94"
+   },
+   "Votants": 9474,
+   "% Vot": {
+      "Ins": "80,06"
+   },
+   "Blancs": 1164,
+   "% Blancs": {
+      "Ins": "7,34",
+      "Vot": "12,29"
+   },
+   "Exprimés": 8310,
+   "% Exp": {
+      "Ins": "70,23",
+      "Vot": "87,71"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      5783,
+      2527
+   ],
+   "% Voix": {
+      "Ins": [
+         "48,87",
+         "21,36"
+      ],
+      "Exp": [
+         "69,59",
+         "30,41"
+      ]
+   }
+},
+ {
+   "Code de la commune": 70,
+   "Libellé de la commune": "Chanteloup-les-Bois",
+   "Inscrits": 515,
+   "Abstentions": 106,
+   "% Abs": {
+      "Ins": "20,58"
+   },
+   "Votants": 409,
+   "% Vot": {
+      "Ins": "79,42"
+   },
+   "Blancs": 48,
+   "% Blancs": {
+      "Ins": "7,77",
+      "Vot": "11,74"
+   },
+   "Exprimés": 361,
+   "% Exp": {
+      "Ins": "70,1",
+      "Vot": "88,26"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      255,
+      106
+   ],
+   "% Voix": {
+      "Ins": [
+         "49,51",
+         "20,58"
+      ],
+      "Exp": [
+         "70,64",
+         "29,36"
+      ]
+   }
+},
+ {
+   "Code de la commune": 76,
+   "Libellé de la commune": "La Chapelle-Saint-Laud",
+   "Inscrits": 517,
+   "Abstentions": 83,
+   "% Abs": {
+      "Ins": "16,05"
+   },
+   "Votants": 434,
+   "% Vot": {
+      "Ins": "83,95"
+   },
+   "Blancs": 71,
+   "% Blancs": {
+      "Ins": "11,22",
+      "Vot": "16,36"
+   },
+   "Exprimés": 363,
+   "% Exp": {
+      "Ins": "70,21",
+      "Vot": "83,64"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      229,
+      134
+   ],
+   "% Voix": {
+      "Ins": [
+         "44,29",
+         "25,92"
+      ],
+      "Exp": [
+         "63,09",
+         "36,91"
+      ]
+   }
+},
+ {
+   "Code de la commune": 80,
+   "Libellé de la commune": "Châteauneuf-sur-Sarthe",
+   "Inscrits": 2120,
+   "Abstentions": 533,
+   "% Abs": {
+      "Ins": "25,14"
+   },
+   "Votants": 1587,
+   "% Vot": {
+      "Ins": "74,86"
+   },
+   "Blancs": 157,
+   "% Blancs": {
+      "Ins": "5,14",
+      "Vot": "9,9"
+   },
+   "Exprimés": 1430,
+   "% Exp": {
+      "Ins": "67,45",
+      "Vot": "90,11"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      838,
+      592
+   ],
+   "% Voix": {
+      "Ins": [
+         "39,53",
+         "27,92"
+      ],
+      "Exp": [
+         "58,6",
+         "41,4"
+      ]
+   }
+},
+ {
+   "Code de la commune": 82,
+   "Libellé de la commune": "Chaudefonds-sur-Layon",
+   "Inscrits": 743,
+   "Abstentions": 106,
+   "% Abs": {
+      "Ins": "14,27"
+   },
+   "Votants": 637,
+   "% Vot": {
+      "Ins": "85,73"
+   },
+   "Blancs": 91,
+   "% Blancs": {
+      "Ins": "8,48",
+      "Vot": "14,29"
+   },
+   "Exprimés": 546,
+   "% Exp": {
+      "Ins": "73,49",
+      "Vot": "85,71"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      383,
+      163
+   ],
+   "% Voix": {
+      "Ins": [
+         "51,55",
+         "21,94"
+      ],
+      "Exp": [
+         "70,15",
+         "29,85"
+      ]
+   }
+},
+ {
+   "Code de la commune": 86,
+   "Libellé de la commune": "Terranjou",
+   "Inscrits": 2741,
+   "Abstentions": 539,
+   "% Abs": {
+      "Ins": "19,66"
+   },
+   "Votants": 2202,
+   "% Vot": {
+      "Ins": "80,34"
+   },
+   "Blancs": 231,
+   "% Blancs": {
+      "Ins": "6,38",
+      "Vot": "10,5"
+   },
+   "Exprimés": 1971,
+   "% Exp": {
+      "Ins": "71,91",
+      "Vot": "89,51"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      1287,
+      684
+   ],
+   "% Voix": {
+      "Ins": [
+         "46,95",
+         "24,95"
+      ],
+      "Exp": [
+         "65,3",
+         "34,7"
+      ]
+   }
+},
+ {
+   "Code de la commune": 89,
+   "Libellé de la commune": "Chazé-sur-Argos",
+   "Inscrits": 707,
+   "Abstentions": 113,
+   "% Abs": {
+      "Ins": "15,98"
+   },
+   "Votants": 594,
+   "% Vot": {
+      "Ins": "84,02"
+   },
+   "Blancs": 67,
+   "% Blancs": {
+      "Ins": "7,21",
+      "Vot": "11,28"
+   },
+   "Exprimés": 527,
+   "% Exp": {
+      "Ins": "74,54",
+      "Vot": "88,72"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      397,
+      130
+   ],
+   "% Voix": {
+      "Ins": [
+         "56,15",
+         "18,39"
+      ],
+      "Exp": [
+         "75,33",
+         "24,67"
+      ]
+   }
+},
+ {
+   "Code de la commune": 90,
+   "Libellé de la commune": "Cheffes",
+   "Inscrits": 661,
+   "Abstentions": 116,
+   "% Abs": {
+      "Ins": "17,55"
+   },
+   "Votants": 545,
+   "% Vot": {
+      "Ins": "82,45"
+   },
+   "Blancs": 64,
+   "% Blancs": {
+      "Ins": "8,47",
+      "Vot": "11,75"
+   },
+   "Exprimés": 481,
+   "% Exp": {
+      "Ins": "72,77",
+      "Vot": "88,26"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      332,
+      149
+   ],
+   "% Voix": {
+      "Ins": [
+         "50,23",
+         "22,54"
+      ],
+      "Exp": [
+         "69,02",
+         "30,98"
+      ]
+   }
+},
+ {
+   "Code de la commune": 92,
+   "Libellé de la commune": "Chemillé-en-Anjou",
+   "Inscrits": 15615,
+   "Abstentions": 3217,
+   "% Abs": {
+      "Ins": "20,6"
+   },
+   "Votants": 12398,
+   "% Vot": {
+      "Ins": "79,4"
+   },
+   "Blancs": 1401,
+   "% Blancs": {
+      "Ins": "6,54",
+      "Vot": "11,31"
+   },
+   "Exprimés": 10997,
+   "% Exp": {
+      "Ins": "70,43",
+      "Vot": "88,7"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      8035,
+      2962
+   ],
+   "% Voix": {
+      "Ins": [
+         "51,46",
+         "18,97"
+      ],
+      "Exp": [
+         "73,07",
+         "26,93"
+      ]
+   }
+},
+ {
+   "Code de la commune": 99,
+   "Libellé de la commune": "Cholet",
+   "Inscrits": 36586,
+   "Abstentions": 9081,
+   "% Abs": {
+      "Ins": "24,82"
+   },
+   "Votants": 27505,
+   "% Vot": {
+      "Ins": "75,18"
+   },
+   "Blancs": 2871,
+   "% Blancs": {
+      "Ins": "5,65",
+      "Vot": "10,44"
+   },
+   "Exprimés": 24634,
+   "% Exp": {
+      "Ins": "67,33",
+      "Vot": "89,56"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      19881,
+      4753
+   ],
+   "% Voix": {
+      "Ins": [
+         "54,34",
+         "12,99"
+      ],
+      "Exp": [
+         "80,71",
+         "19,29"
+      ]
+   }
+},
+ {
+   "Code de la commune": 100,
+   "Libellé de la commune": "Cizay-la-Madeleine",
+   "Inscrits": 342,
+   "Abstentions": 81,
+   "% Abs": {
+      "Ins": "23,68"
+   },
+   "Votants": 261,
+   "% Vot": {
+      "Ins": "76,32"
+   },
+   "Blancs": 34,
+   "% Blancs": {
+      "Ins": "7,6",
+      "Vot": "13,03"
+   },
+   "Exprimés": 227,
+   "% Exp": {
+      "Ins": "66,37",
+      "Vot": "86,97"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      121,
+      106
+   ],
+   "% Voix": {
+      "Ins": [
+         "35,38",
+         "30,99"
+      ],
+      "Exp": [
+         "53,3",
+         "46,7"
+      ]
+   }
+},
+ {
+   "Code de la commune": 102,
+   "Libellé de la commune": "Cléré-sur-Layon",
+   "Inscrits": 212,
+   "Abstentions": 35,
+   "% Abs": {
+      "Ins": "16,51"
+   },
+   "Votants": 177,
+   "% Vot": {
+      "Ins": "83,49"
+   },
+   "Blancs": 23,
+   "% Blancs": {
+      "Ins": "8,02",
+      "Vot": "13"
+   },
+   "Exprimés": 154,
+   "% Exp": {
+      "Ins": "72,64",
+      "Vot": "87,01"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      105,
+      49
+   ],
+   "% Voix": {
+      "Ins": [
+         "49,53",
+         "23,11"
+      ],
+      "Exp": [
+         "68,18",
+         "31,82"
+      ]
+   }
+},
+ {
+   "Code de la commune": 107,
+   "Libellé de la commune": "Cornillé-les-Caves",
+   "Inscrits": 363,
+   "Abstentions": 54,
+   "% Abs": {
+      "Ins": "14,88"
+   },
+   "Votants": 309,
+   "% Vot": {
+      "Ins": "85,12"
+   },
+   "Blancs": 46,
+   "% Blancs": {
+      "Ins": "10,19",
+      "Vot": "14,89"
+   },
+   "Exprimés": 263,
+   "% Exp": {
+      "Ins": "72,45",
+      "Vot": "85,11"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      190,
+      73
+   ],
+   "% Voix": {
+      "Ins": [
+         "52,34",
+         "20,11"
+      ],
+      "Exp": [
+         "72,24",
+         "27,76"
+      ]
+   }
+},
+ {
+   "Code de la commune": 109,
+   "Libellé de la commune": "Coron",
+   "Inscrits": 1139,
+   "Abstentions": 208,
+   "% Abs": {
+      "Ins": "18,26"
+   },
+   "Votants": 931,
+   "% Vot": {
+      "Ins": "81,74"
+   },
+   "Blancs": 104,
+   "% Blancs": {
+      "Ins": "6,32",
+      "Vot": "11,18"
+   },
+   "Exprimés": 827,
+   "% Exp": {
+      "Ins": "72,61",
+      "Vot": "88,83"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      571,
+      256
+   ],
+   "% Voix": {
+      "Ins": [
+         "50,13",
+         "22,48"
+      ],
+      "Exp": [
+         "69,04",
+         "30,96"
+      ]
+   }
+},
+ {
+   "Code de la commune": 110,
+   "Libellé de la commune": "Corzé",
+   "Inscrits": 1289,
+   "Abstentions": 276,
+   "% Abs": {
+      "Ins": "21,41"
+   },
+   "Votants": 1013,
+   "% Vot": {
+      "Ins": "78,59"
+   },
+   "Blancs": 120,
+   "% Blancs": {
+      "Ins": "7,06",
+      "Vot": "11,85"
+   },
+   "Exprimés": 893,
+   "% Exp": {
+      "Ins": "69,28",
+      "Vot": "88,15"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      617,
+      276
+   ],
+   "% Voix": {
+      "Ins": [
+         "47,87",
+         "21,41"
+      ],
+      "Exp": [
+         "69,09",
+         "30,91"
+      ]
+   }
+},
+ {
+   "Code de la commune": 112,
+   "Libellé de la commune": "Le Coudray-Macouard",
+   "Inscrits": 754,
+   "Abstentions": 158,
+   "% Abs": {
+      "Ins": "20,95"
+   },
+   "Votants": 596,
+   "% Vot": {
+      "Ins": "79,05"
+   },
+   "Blancs": 84,
+   "% Blancs": {
+      "Ins": "9,15",
+      "Vot": "14,1"
+   },
+   "Exprimés": 512,
+   "% Exp": {
+      "Ins": "67,9",
+      "Vot": "85,91"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      342,
+      170
+   ],
+   "% Voix": {
+      "Ins": [
+         "45,36",
+         "22,55"
+      ],
+      "Exp": [
+         "66,8",
+         "33,2"
+      ]
+   }
+},
+ {
+   "Code de la commune": 113,
+   "Libellé de la commune": "Courchamps",
+   "Inscrits": 351,
+   "Abstentions": 63,
+   "% Abs": {
+      "Ins": "17,95"
+   },
+   "Votants": 288,
+   "% Vot": {
+      "Ins": "82,05"
+   },
+   "Blancs": 44,
+   "% Blancs": {
+      "Ins": "9,97",
+      "Vot": "15,28"
+   },
+   "Exprimés": 244,
+   "% Exp": {
+      "Ins": "69,52",
+      "Vot": "84,72"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      137,
+      107
+   ],
+   "% Voix": {
+      "Ins": [
+         "39,03",
+         "30,48"
+      ],
+      "Exp": [
+         "56,15",
+         "43,85"
+      ]
+   }
+},
+ {
+   "Code de la commune": 114,
+   "Libellé de la commune": "Courléon",
+   "Inscrits": 135,
+   "Abstentions": 22,
+   "% Abs": {
+      "Ins": "16,3"
+   },
+   "Votants": 113,
+   "% Vot": {
+      "Ins": "83,7"
+   },
+   "Blancs": 17,
+   "% Blancs": {
+      "Ins": "10,37",
+      "Vot": "15,05"
+   },
+   "Exprimés": 96,
+   "% Exp": {
+      "Ins": "71,11",
+      "Vot": "84,96"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      57,
+      39
+   ],
+   "% Voix": {
+      "Ins": [
+         "42,22",
+         "28,89"
+      ],
+      "Exp": [
+         "59,38",
+         "40,63"
+      ]
+   }
+},
+ {
+   "Code de la commune": 120,
+   "Libellé de la commune": "Denée",
+   "Inscrits": 1084,
+   "Abstentions": 195,
+   "% Abs": {
+      "Ins": "17,99"
+   },
+   "Votants": 889,
+   "% Vot": {
+      "Ins": "82,01"
+   },
+   "Blancs": 109,
+   "% Blancs": {
+      "Ins": "7,56",
+      "Vot": "12,27"
+   },
+   "Exprimés": 780,
+   "% Exp": {
+      "Ins": "71,96",
+      "Vot": "87,74"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      570,
+      210
+   ],
+   "% Voix": {
+      "Ins": [
+         "52,58",
+         "19,37"
+      ],
+      "Exp": [
+         "73,08",
+         "26,92"
+      ]
+   }
+},
+ {
+   "Code de la commune": 121,
+   "Libellé de la commune": "Dénezé-sous-Doué",
+   "Inscrits": 338,
+   "Abstentions": 59,
+   "% Abs": {
+      "Ins": "17,46"
+   },
+   "Votants": 279,
+   "% Vot": {
+      "Ins": "82,54"
+   },
+   "Blancs": 20,
+   "% Blancs": {
+      "Ins": "0,3",
+      "Vot": "7,17"
+   },
+   "Exprimés": 259,
+   "% Exp": {
+      "Ins": "76,63",
+      "Vot": "92,83"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      152,
+      107
+   ],
+   "% Voix": {
+      "Ins": [
+         "44,97",
+         "31,66"
+      ],
+      "Exp": [
+         "58,69",
+         "41,31"
+      ]
+   }
+},
+ {
+   "Code de la commune": 123,
+   "Libellé de la commune": "Distré",
+   "Inscrits": 1235,
+   "Abstentions": 185,
+   "% Abs": {
+      "Ins": "14,98"
+   },
+   "Votants": 1050,
+   "% Vot": {
+      "Ins": "85,02"
+   },
+   "Blancs": 136,
+   "% Blancs": {
+      "Ins": "8,91",
+      "Vot": "12,96"
+   },
+   "Exprimés": 914,
+   "% Exp": {
+      "Ins": "74,01",
+      "Vot": "87,05"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      553,
+      361
+   ],
+   "% Voix": {
+      "Ins": [
+         "44,78",
+         "29,23"
+      ],
+      "Exp": [
+         "60,5",
+         "39,5"
+      ]
+   }
+},
+ {
+   "Code de la commune": 125,
+   "Libellé de la commune": "Doué-en-Anjou",
+   "Inscrits": 8099,
+   "Abstentions": 1791,
+   "% Abs": {
+      "Ins": "22,11"
+   },
+   "Votants": 6308,
+   "% Vot": {
+      "Ins": "77,89"
+   },
+   "Blancs": 686,
+   "% Blancs": {
+      "Ins": "6,17",
+      "Vot": "10,88"
+   },
+   "Exprimés": 5622,
+   "% Exp": {
+      "Ins": "69,42",
+      "Vot": "89,12"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      3288,
+      2334
+   ],
+   "% Voix": {
+      "Ins": [
+         "40,6",
+         "28,82"
+      ],
+      "Exp": [
+         "58,48",
+         "41,52"
+      ]
+   }
+},
+ {
+   "Code de la commune": 127,
+   "Libellé de la commune": "Durtal",
+   "Inscrits": 2498,
+   "Abstentions": 551,
+   "% Abs": {
+      "Ins": "22,06"
+   },
+   "Votants": 1947,
+   "% Vot": {
+      "Ins": "77,94"
+   },
+   "Blancs": 259,
+   "% Blancs": {
+      "Ins": "7,81",
+      "Vot": "13,31"
+   },
+   "Exprimés": 1688,
+   "% Exp": {
+      "Ins": "67,57",
+      "Vot": "86,7"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      1025,
+      663
+   ],
+   "% Voix": {
+      "Ins": [
+         "41,03",
+         "26,54"
+      ],
+      "Exp": [
+         "60,72",
+         "39,28"
+      ]
+   }
+},
+ {
+   "Code de la commune": 129,
+   "Libellé de la commune": "Ecouflant",
+   "Inscrits": 3159,
+   "Abstentions": 550,
+   "% Abs": {
+      "Ins": "17,41"
+   },
+   "Votants": 2609,
+   "% Vot": {
+      "Ins": "82,59"
+   },
+   "Blancs": 319,
+   "% Blancs": {
+      "Ins": "8,36",
+      "Vot": "12,23"
+   },
+   "Exprimés": 2290,
+   "% Exp": {
+      "Ins": "72,49",
+      "Vot": "87,77"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      1676,
+      614
+   ],
+   "% Voix": {
+      "Ins": [
+         "53,05",
+         "19,44"
+      ],
+      "Exp": [
+         "73,19",
+         "26,81"
+      ]
+   }
+},
+ {
+   "Code de la commune": 130,
+   "Libellé de la commune": "Ecuillé",
+   "Inscrits": 448,
+   "Abstentions": 75,
+   "% Abs": {
+      "Ins": "16,74"
+   },
+   "Votants": 373,
+   "% Vot": {
+      "Ins": "83,26"
+   },
+   "Blancs": 51,
+   "% Blancs": {
+      "Ins": "10,27",
+      "Vot": "13,68"
+   },
+   "Exprimés": 322,
+   "% Exp": {
+      "Ins": "71,88",
+      "Vot": "86,33"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      244,
+      78
+   ],
+   "% Voix": {
+      "Ins": [
+         "54,46",
+         "17,41"
+      ],
+      "Exp": [
+         "75,78",
+         "24,22"
+      ]
+   }
+},
+ {
+   "Code de la commune": 131,
+   "Libellé de la commune": "Epieds",
+   "Inscrits": 515,
+   "Abstentions": 110,
+   "% Abs": {
+      "Ins": "21,36"
+   },
+   "Votants": 405,
+   "% Vot": {
+      "Ins": "78,64"
+   },
+   "Blancs": 48,
+   "% Blancs": {
+      "Ins": "6,99",
+      "Vot": "11,86"
+   },
+   "Exprimés": 357,
+   "% Exp": {
+      "Ins": "69,32",
+      "Vot": "88,15"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      141,
+      216
+   ],
+   "% Voix": {
+      "Ins": [
+         "27,38",
+         "41,94"
+      ],
+      "Exp": [
+         "39,5",
+         "60,5"
+      ]
+   }
+},
+ {
+   "Code de la commune": 132,
+   "Libellé de la commune": "Etriché",
+   "Inscrits": 1065,
+   "Abstentions": 195,
+   "% Abs": {
+      "Ins": "18,31"
+   },
+   "Votants": 870,
+   "% Vot": {
+      "Ins": "81,69"
+   },
+   "Blancs": 87,
+   "% Blancs": {
+      "Ins": "6,2",
+      "Vot": "10"
+   },
+   "Exprimés": 783,
+   "% Exp": {
+      "Ins": "73,52",
+      "Vot": "90"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      478,
+      305
+   ],
+   "% Voix": {
+      "Ins": [
+         "44,88",
+         "28,64"
+      ],
+      "Exp": [
+         "61,05",
+         "38,95"
+      ]
+   }
+},
+ {
+   "Code de la commune": 135,
+   "Libellé de la commune": "Feneu",
+   "Inscrits": 1618,
+   "Abstentions": 293,
+   "% Abs": {
+      "Ins": "18,11"
+   },
+   "Votants": 1325,
+   "% Vot": {
+      "Ins": "81,89"
+   },
+   "Blancs": 174,
+   "% Blancs": {
+      "Ins": "8,41",
+      "Vot": "13,14"
+   },
+   "Exprimés": 1151,
+   "% Exp": {
+      "Ins": "71,14",
+      "Vot": "86,87"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      859,
+      292
+   ],
+   "% Voix": {
+      "Ins": [
+         "53,09",
+         "18,05"
+      ],
+      "Exp": [
+         "74,63",
+         "25,37"
+      ]
+   }
+},
+ {
+   "Code de la commune": 138,
+   "Libellé de la commune": "Les Bois-d'Anjou",
+   "Inscrits": 1880,
+   "Abstentions": 352,
+   "% Abs": {
+      "Ins": "18,72"
+   },
+   "Votants": 1528,
+   "% Vot": {
+      "Ins": "81,28"
+   },
+   "Blancs": 172,
+   "% Blancs": {
+      "Ins": "7,02",
+      "Vot": "11,26"
+   },
+   "Exprimés": 1356,
+   "% Exp": {
+      "Ins": "72,13",
+      "Vot": "88,74"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      813,
+      543
+   ],
+   "% Voix": {
+      "Ins": [
+         "43,24",
+         "28,88"
+      ],
+      "Exp": [
+         "59,96",
+         "40,04"
+      ]
+   }
+},
+ {
+   "Code de la commune": 140,
+   "Libellé de la commune": "Fontevraud-l'Abbaye",
+   "Inscrits": 799,
+   "Abstentions": 154,
+   "% Abs": {
+      "Ins": "19,27"
+   },
+   "Votants": 645,
+   "% Vot": {
+      "Ins": "80,73"
+   },
+   "Blancs": 75,
+   "% Blancs": {
+      "Ins": "6,88",
+      "Vot": "11,63"
+   },
+   "Exprimés": 570,
+   "% Exp": {
+      "Ins": "71,34",
+      "Vot": "88,37"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      332,
+      238
+   ],
+   "% Voix": {
+      "Ins": [
+         "41,55",
+         "29,79"
+      ],
+      "Exp": [
+         "58,25",
+         "41,75"
+      ]
+   }
+},
+ {
+   "Code de la commune": 144,
+   "Libellé de la commune": "Freigné",
+   "Inscrits": 799,
+   "Abstentions": 152,
+   "% Abs": {
+      "Ins": "19,02"
+   },
+   "Votants": 647,
+   "% Vot": {
+      "Ins": "80,98"
+   },
+   "Blancs": 89,
+   "% Blancs": {
+      "Ins": "8,14",
+      "Vot": "13,76"
+   },
+   "Exprimés": 558,
+   "% Exp": {
+      "Ins": "69,84",
+      "Vot": "86,24"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      328,
+      230
+   ],
+   "% Voix": {
+      "Ins": [
+         "41,05",
+         "28,79"
+      ],
+      "Exp": [
+         "58,78",
+         "41,22"
+      ]
+   }
+},
+ {
+   "Code de la commune": 149,
+   "Libellé de la commune": "Gennes-Val-de-Loire",
+   "Inscrits": 3652,
+   "Abstentions": 707,
+   "% Abs": {
+      "Ins": "19,36"
+   },
+   "Votants": 2945,
+   "% Vot": {
+      "Ins": "80,64"
+   },
+   "Blancs": 344,
+   "% Blancs": {
+      "Ins": "7,53",
+      "Vot": "11,69"
+   },
+   "Exprimés": 2601,
+   "% Exp": {
+      "Ins": "71,22",
+      "Vot": "88,32"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      1835,
+      766
+   ],
+   "% Voix": {
+      "Ins": [
+         "50,25",
+         "20,97"
+      ],
+      "Exp": [
+         "70,55",
+         "29,45"
+      ]
+   }
+},
+ {
+   "Code de la commune": 155,
+   "Libellé de la commune": "Grez-Neuville",
+   "Inscrits": 1035,
+   "Abstentions": 156,
+   "% Abs": {
+      "Ins": "15,07"
+   },
+   "Votants": 879,
+   "% Vot": {
+      "Ins": "84,93"
+   },
+   "Blancs": 89,
+   "% Blancs": {
+      "Ins": "6,57",
+      "Vot": "10,13"
+   },
+   "Exprimés": 790,
+   "% Exp": {
+      "Ins": "76,33",
+      "Vot": "89,87"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      624,
+      166
+   ],
+   "% Voix": {
+      "Ins": [
+         "60,29",
+         "16,04"
+      ],
+      "Exp": [
+         "78,99",
+         "21,01"
+      ]
+   }
+},
+ {
+   "Code de la commune": 159,
+   "Libellé de la commune": "Huillé",
+   "Inscrits": 423,
+   "Abstentions": 91,
+   "% Abs": {
+      "Ins": "21,51"
+   },
+   "Votants": 332,
+   "% Vot": {
+      "Ins": "78,49"
+   },
+   "Blancs": 43,
+   "% Blancs": {
+      "Ins": "0,95",
+      "Vot": "12,96"
+   },
+   "Exprimés": 289,
+   "% Exp": {
+      "Ins": "68,32",
+      "Vot": "87,05"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      151,
+      138
+   ],
+   "% Voix": {
+      "Ins": [
+         "35,7",
+         "32,62"
+      ],
+      "Exp": [
+         "52,25",
+         "47,75"
+      ]
+   }
+},
+ {
+   "Code de la commune": 160,
+   "Libellé de la commune": "Ingrandes-Le-Fresne-sur-Loire",
+   "Inscrits": 2032,
+   "Abstentions": 485,
+   "% Abs": {
+      "Ins": "23,87"
+   },
+   "Votants": 1547,
+   "% Vot": {
+      "Ins": "76,13"
+   },
+   "Blancs": 171,
+   "% Blancs": {
+      "Ins": "6,4",
+      "Vot": "11,06"
+   },
+   "Exprimés": 1376,
+   "% Exp": {
+      "Ins": "67,72",
+      "Vot": "88,95"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      1004,
+      372
+   ],
+   "% Voix": {
+      "Ins": [
+         "49,41",
+         "18,31"
+      ],
+      "Exp": [
+         "72,97",
+         "27,03"
+      ]
+   }
+},
+ {
+   "Code de la commune": 161,
+   "Libellé de la commune": "La Jaille-Yvon",
+   "Inscrits": 233,
+   "Abstentions": 45,
+   "% Abs": {
+      "Ins": "19,31"
+   },
+   "Votants": 188,
+   "% Vot": {
+      "Ins": "80,69"
+   },
+   "Blancs": 29,
+   "% Blancs": {
+      "Ins": "11,59",
+      "Vot": "15,43"
+   },
+   "Exprimés": 159,
+   "% Exp": {
+      "Ins": "68,24",
+      "Vot": "84,57"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      92,
+      67
+   ],
+   "% Voix": {
+      "Ins": [
+         "39,48",
+         "28,76"
+      ],
+      "Exp": [
+         "57,86",
+         "42,14"
+      ]
+   }
+},
+ {
+   "Code de la commune": 163,
+   "Libellé de la commune": "Jarzé-Villages",
+   "Inscrits": 1958,
+   "Abstentions": 443,
+   "% Abs": {
+      "Ins": "22,63"
+   },
+   "Votants": 1515,
+   "% Vot": {
+      "Ins": "77,37"
+   },
+   "Blancs": 210,
+   "% Blancs": {
+      "Ins": "8,22",
+      "Vot": "13,87"
+   },
+   "Exprimés": 1305,
+   "% Exp": {
+      "Ins": "66,65",
+      "Vot": "86,14"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      825,
+      480
+   ],
+   "% Voix": {
+      "Ins": [
+         "42,13",
+         "24,51"
+      ],
+      "Exp": [
+         "63,22",
+         "36,78"
+      ]
+   }
+},
+ {
+   "Code de la commune": 167,
+   "Libellé de la commune": "Les Garennes-sur-Loire",
+   "Inscrits": 3654,
+   "Abstentions": 582,
+   "% Abs": {
+      "Ins": "15,93"
+   },
+   "Votants": 3072,
+   "% Vot": {
+      "Ins": "84,07"
+   },
+   "Blancs": 330,
+   "% Blancs": {
+      "Ins": "7,25",
+      "Vot": "10,75"
+   },
+   "Exprimés": 2742,
+   "% Exp": {
+      "Ins": "75,04",
+      "Vot": "89,26"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      2266,
+      476
+   ],
+   "% Voix": {
+      "Ins": [
+         "62,01",
+         "13,03"
+      ],
+      "Exp": [
+         "82,64",
+         "17,36"
+      ]
+   }
+},
+ {
+   "Code de la commune": 170,
+   "Libellé de la commune": "Juvardeil",
+   "Inscrits": 672,
+   "Abstentions": 125,
+   "% Abs": {
+      "Ins": "18,6"
+   },
+   "Votants": 547,
+   "% Vot": {
+      "Ins": "81,4"
+   },
+   "Blancs": 80,
+   "% Blancs": {
+      "Ins": "8,63",
+      "Vot": "14,63"
+   },
+   "Exprimés": 467,
+   "% Exp": {
+      "Ins": "69,49",
+      "Vot": "85,37"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      336,
+      131
+   ],
+   "% Voix": {
+      "Ins": [
+         "50",
+         "19,49"
+      ],
+      "Exp": [
+         "71,95",
+         "28,05"
+      ]
+   }
+},
+ {
+   "Code de la commune": 171,
+   "Libellé de la commune": "La Lande-Chasles",
+   "Inscrits": 84,
+   "Abstentions": 13,
+   "% Abs": {
+      "Ins": "15,48"
+   },
+   "Votants": 71,
+   "% Vot": {
+      "Ins": "84,52"
+   },
+   "Blancs": 11,
+   "% Blancs": {
+      "Ins": "10,71",
+      "Vot": "15,5"
+   },
+   "Exprimés": 60,
+   "% Exp": {
+      "Ins": "71,43",
+      "Vot": "84,51"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      32,
+      28
+   ],
+   "% Voix": {
+      "Ins": [
+         "38,1",
+         "33,33"
+      ],
+      "Exp": [
+         "53,33",
+         "46,67"
+      ]
+   }
+},
+ {
+   "Code de la commune": 174,
+   "Libellé de la commune": "Lézigné",
+   "Inscrits": 536,
+   "Abstentions": 94,
+   "% Abs": {
+      "Ins": "17,54"
+   },
+   "Votants": 442,
+   "% Vot": {
+      "Ins": "82,46"
+   },
+   "Blancs": 40,
+   "% Blancs": {
+      "Ins": "5,22",
+      "Vot": "9,05"
+   },
+   "Exprimés": 402,
+   "% Exp": {
+      "Ins": "75",
+      "Vot": "90,95"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      231,
+      171
+   ],
+   "% Voix": {
+      "Ins": [
+         "43,1",
+         "31,9"
+      ],
+      "Exp": [
+         "57,46",
+         "42,54"
+      ]
+   }
+},
+ {
+   "Code de la commune": 176,
+   "Libellé de la commune": "Le Lion-d'Angers",
+   "Inscrits": 3530,
+   "Abstentions": 833,
+   "% Abs": {
+      "Ins": "23,6"
+   },
+   "Votants": 2697,
+   "% Vot": {
+      "Ins": "76,4"
+   },
+   "Blancs": 310,
+   "% Blancs": {
+      "Ins": "6,69",
+      "Vot": "11,5"
+   },
+   "Exprimés": 2387,
+   "% Exp": {
+      "Ins": "67,62",
+      "Vot": "88,51"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      1719,
+      668
+   ],
+   "% Voix": {
+      "Ins": [
+         "48,7",
+         "18,92"
+      ],
+      "Exp": [
+         "72,02",
+         "27,98"
+      ]
+   }
+},
+ {
+   "Code de la commune": 178,
+   "Libellé de la commune": "Loiré",
+   "Inscrits": 633,
+   "Abstentions": 122,
+   "% Abs": {
+      "Ins": "19,27"
+   },
+   "Votants": 511,
+   "% Vot": {
+      "Ins": "80,73"
+   },
+   "Blancs": 53,
+   "% Blancs": {
+      "Ins": "5,69",
+      "Vot": "10,38"
+   },
+   "Exprimés": 458,
+   "% Exp": {
+      "Ins": "72,35",
+      "Vot": "89,63"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      310,
+      148
+   ],
+   "% Voix": {
+      "Ins": [
+         "48,97",
+         "23,38"
+      ],
+      "Exp": [
+         "67,69",
+         "32,31"
+      ]
+   }
+},
+ {
+   "Code de la commune": 180,
+   "Libellé de la commune": "Longué-Jumelles",
+   "Inscrits": 5006,
+   "Abstentions": 1154,
+   "% Abs": {
+      "Ins": "23,05"
+   },
+   "Votants": 3852,
+   "% Vot": {
+      "Ins": "76,95"
+   },
+   "Blancs": 459,
+   "% Blancs": {
+      "Ins": "6,69",
+      "Vot": "11,92"
+   },
+   "Exprimés": 3393,
+   "% Exp": {
+      "Ins": "67,78",
+      "Vot": "88,08"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      1913,
+      1480
+   ],
+   "% Voix": {
+      "Ins": [
+         "38,21",
+         "29,56"
+      ],
+      "Exp": [
+         "56,38",
+         "43,62"
+      ]
+   }
+},
+ {
+   "Code de la commune": 182,
+   "Libellé de la commune": "Louresse-Rochemenier",
+   "Inscrits": 585,
+   "Abstentions": 115,
+   "% Abs": {
+      "Ins": "19,66"
+   },
+   "Votants": 470,
+   "% Vot": {
+      "Ins": "80,34"
+   },
+   "Blancs": 54,
+   "% Blancs": {
+      "Ins": "8,38",
+      "Vot": "11,49"
+   },
+   "Exprimés": 416,
+   "% Exp": {
+      "Ins": "71,11",
+      "Vot": "88,51"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      255,
+      161
+   ],
+   "% Voix": {
+      "Ins": [
+         "43,59",
+         "27,52"
+      ],
+      "Exp": [
+         "61,3",
+         "38,7"
+      ]
+   }
+},
+ {
+   "Code de la commune": 183,
+   "Libellé de la commune": "Val-d'Erdre-Auxence",
+   "Inscrits": 3203,
+   "Abstentions": 613,
+   "% Abs": {
+      "Ins": "19,14"
+   },
+   "Votants": 2590,
+   "% Vot": {
+      "Ins": "80,86"
+   },
+   "Blancs": 278,
+   "% Blancs": {
+      "Ins": "7,31",
+      "Vot": "10,74"
+   },
+   "Exprimés": 2312,
+   "% Exp": {
+      "Ins": "72,18",
+      "Vot": "89,27"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      1537,
+      775
+   ],
+   "% Voix": {
+      "Ins": [
+         "47,99",
+         "24,2"
+      ],
+      "Exp": [
+         "66,48",
+         "33,52"
+      ]
+   }
+},
+ {
+   "Code de la commune": 188,
+   "Libellé de la commune": "Marcé",
+   "Inscrits": 616,
+   "Abstentions": 96,
+   "% Abs": {
+      "Ins": "15,58"
+   },
+   "Votants": 520,
+   "% Vot": {
+      "Ins": "84,42"
+   },
+   "Blancs": 78,
+   "% Blancs": {
+      "Ins": "10,39",
+      "Vot": "15"
+   },
+   "Exprimés": 442,
+   "% Exp": {
+      "Ins": "71,75",
+      "Vot": "85"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      277,
+      165
+   ],
+   "% Voix": {
+      "Ins": [
+         "44,97",
+         "26,79"
+      ],
+      "Exp": [
+         "62,67",
+         "37,33"
+      ]
+   }
+},
+ {
+   "Code de la commune": 192,
+   "Libellé de la commune": "Maulévrier",
+   "Inscrits": 2355,
+   "Abstentions": 443,
+   "% Abs": {
+      "Ins": "18,81"
+   },
+   "Votants": 1912,
+   "% Vot": {
+      "Ins": "81,19"
+   },
+   "Blancs": 212,
+   "% Blancs": {
+      "Ins": "6,79",
+      "Vot": "11,09"
+   },
+   "Exprimés": 1700,
+   "% Exp": {
+      "Ins": "72,19",
+      "Vot": "88,91"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      1278,
+      422
+   ],
+   "% Voix": {
+      "Ins": [
+         "54,27",
+         "17,92"
+      ],
+      "Exp": [
+         "75,18",
+         "24,82"
+      ]
+   }
+},
+ {
+   "Code de la commune": 193,
+   "Libellé de la commune": "Le May-sur-Evre",
+   "Inscrits": 2957,
+   "Abstentions": 693,
+   "% Abs": {
+      "Ins": "23,44"
+   },
+   "Votants": 2264,
+   "% Vot": {
+      "Ins": "76,56"
+   },
+   "Blancs": 261,
+   "% Blancs": {
+      "Ins": "6,7",
+      "Vot": "11,53"
+   },
+   "Exprimés": 2003,
+   "% Exp": {
+      "Ins": "67,74",
+      "Vot": "88,47"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      1506,
+      497
+   ],
+   "% Voix": {
+      "Ins": [
+         "50,93",
+         "16,81"
+      ],
+      "Exp": [
+         "75,19",
+         "24,81"
+      ]
+   }
+},
+ {
+   "Code de la commune": 194,
+   "Libellé de la commune": "Mazé-Milon",
+   "Inscrits": 4060,
+   "Abstentions": 786,
+   "% Abs": {
+      "Ins": "19,36"
+   },
+   "Votants": 3274,
+   "% Vot": {
+      "Ins": "80,64"
+   },
+   "Blancs": 428,
+   "% Blancs": {
+      "Ins": "8,2",
+      "Vot": "13,08"
+   },
+   "Exprimés": 2846,
+   "% Exp": {
+      "Ins": "70,1",
+      "Vot": "86,93"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      1938,
+      908
+   ],
+   "% Voix": {
+      "Ins": [
+         "47,73",
+         "22,36"
+      ],
+      "Exp": [
+         "68,1",
+         "31,9"
+      ]
+   }
+},
+ {
+   "Code de la commune": 195,
+   "Libellé de la commune": "Mazières-en-Mauges",
+   "Inscrits": 888,
+   "Abstentions": 170,
+   "% Abs": {
+      "Ins": "19,14"
+   },
+   "Votants": 718,
+   "% Vot": {
+      "Ins": "80,86"
+   },
+   "Blancs": 103,
+   "% Blancs": {
+      "Ins": "9,12",
+      "Vot": "14,35"
+   },
+   "Exprimés": 615,
+   "% Exp": {
+      "Ins": "69,26",
+      "Vot": "85,65"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      491,
+      124
+   ],
+   "% Voix": {
+      "Ins": [
+         "55,29",
+         "13,96"
+      ],
+      "Exp": [
+         "79,84",
+         "20,16"
+      ]
+   }
+},
+ {
+   "Code de la commune": 200,
+   "Libellé de la commune": "Longuenée-en-Anjou",
+   "Inscrits": 4607,
+   "Abstentions": 742,
+   "% Abs": {
+      "Ins": "16,11"
+   },
+   "Votants": 3865,
+   "% Vot": {
+      "Ins": "83,89"
+   },
+   "Blancs": 431,
+   "% Blancs": {
+      "Ins": "7,47",
+      "Vot": "11,16"
+   },
+   "Exprimés": 3434,
+   "% Exp": {
+      "Ins": "74,54",
+      "Vot": "88,85"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      2618,
+      816
+   ],
+   "% Voix": {
+      "Ins": [
+         "56,83",
+         "17,71"
+      ],
+      "Exp": [
+         "76,24",
+         "23,76"
+      ]
+   }
+},
+ {
+   "Code de la commune": 201,
+   "Libellé de la commune": "La Ménitré",
+   "Inscrits": 1592,
+   "Abstentions": 315,
+   "% Abs": {
+      "Ins": "19,79"
+   },
+   "Votants": 1277,
+   "% Vot": {
+      "Ins": "80,21"
+   },
+   "Blancs": 128,
+   "% Blancs": {
+      "Ins": "6,28",
+      "Vot": "10,03"
+   },
+   "Exprimés": 1149,
+   "% Exp": {
+      "Ins": "72,17",
+      "Vot": "89,98"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      751,
+      398
+   ],
+   "% Voix": {
+      "Ins": [
+         "47,17",
+         "25"
+      ],
+      "Exp": [
+         "65,36",
+         "34,64"
+      ]
+   }
+},
+ {
+   "Code de la commune": 205,
+   "Libellé de la commune": "Miré",
+   "Inscrits": 652,
+   "Abstentions": 127,
+   "% Abs": {
+      "Ins": "19,48"
+   },
+   "Votants": 525,
+   "% Vot": {
+      "Ins": "80,52"
+   },
+   "Blancs": 55,
+   "% Blancs": {
+      "Ins": "6,29",
+      "Vot": "10,48"
+   },
+   "Exprimés": 470,
+   "% Exp": {
+      "Ins": "72,09",
+      "Vot": "89,52"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      231,
+      239
+   ],
+   "% Voix": {
+      "Ins": [
+         "35,43",
+         "36,66"
+      ],
+      "Exp": [
+         "49,15",
+         "50,85"
+      ]
+   }
+},
+ {
+   "Code de la commune": 209,
+   "Libellé de la commune": "Montigné-lès-Rairies",
+   "Inscrits": 259,
+   "Abstentions": 47,
+   "% Abs": {
+      "Ins": "18,15"
+   },
+   "Votants": 212,
+   "% Vot": {
+      "Ins": "81,85"
+   },
+   "Blancs": 36,
+   "% Blancs": {
+      "Ins": "10,04",
+      "Vot": "16,99"
+   },
+   "Exprimés": 176,
+   "% Exp": {
+      "Ins": "67,95",
+      "Vot": "83,02"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      113,
+      63
+   ],
+   "% Voix": {
+      "Ins": [
+         "43,63",
+         "24,32"
+      ],
+      "Exp": [
+         "64,2",
+         "35,8"
+      ]
+   }
+},
+ {
+   "Code de la commune": 211,
+   "Libellé de la commune": "Montilliers",
+   "Inscrits": 975,
+   "Abstentions": 209,
+   "% Abs": {
+      "Ins": "21,44"
+   },
+   "Votants": 766,
+   "% Vot": {
+      "Ins": "78,56"
+   },
+   "Blancs": 89,
+   "% Blancs": {
+      "Ins": "0,92",
+      "Vot": "11,62"
+   },
+   "Exprimés": 677,
+   "% Exp": {
+      "Ins": "69,44",
+      "Vot": "88,38"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      470,
+      207
+   ],
+   "% Voix": {
+      "Ins": [
+         "48,21",
+         "21,23"
+      ],
+      "Exp": [
+         "69,42",
+         "30,58"
+      ]
+   }
+},
+ {
+   "Code de la commune": 214,
+   "Libellé de la commune": "Montreuil-Juigné",
+   "Inscrits": 5744,
+   "Abstentions": 1133,
+   "% Abs": {
+      "Ins": "19,72"
+   },
+   "Votants": 4611,
+   "% Vot": {
+      "Ins": "80,28"
+   },
+   "Blancs": 494,
+   "% Blancs": {
+      "Ins": "6,55",
+      "Vot": "10,72"
+   },
+   "Exprimés": 4117,
+   "% Exp": {
+      "Ins": "71,67",
+      "Vot": "89,29"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      3160,
+      957
+   ],
+   "% Voix": {
+      "Ins": [
+         "55,01",
+         "16,66"
+      ],
+      "Exp": [
+         "76,75",
+         "23,25"
+      ]
+   }
+},
+ {
+   "Code de la commune": 215,
+   "Libellé de la commune": "Montreuil-Bellay",
+   "Inscrits": 2855,
+   "Abstentions": 692,
+   "% Abs": {
+      "Ins": "24,24"
+   },
+   "Votants": 2163,
+   "% Vot": {
+      "Ins": "75,76"
+   },
+   "Blancs": 269,
+   "% Blancs": {
+      "Ins": "7,18",
+      "Vot": "12,44"
+   },
+   "Exprimés": 1894,
+   "% Exp": {
+      "Ins": "66,34",
+      "Vot": "87,56"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      1059,
+      835
+   ],
+   "% Voix": {
+      "Ins": [
+         "37,09",
+         "29,25"
+      ],
+      "Exp": [
+         "55,91",
+         "44,09"
+      ]
+   }
+},
+ {
+   "Code de la commune": 216,
+   "Libellé de la commune": "Montreuil-sur-Loir",
+   "Inscrits": 384,
+   "Abstentions": 66,
+   "% Abs": {
+      "Ins": "17,19"
+   },
+   "Votants": 318,
+   "% Vot": {
+      "Ins": "82,81"
+   },
+   "Blancs": 45,
+   "% Blancs": {
+      "Ins": "10,16",
+      "Vot": "14,16"
+   },
+   "Exprimés": 273,
+   "% Exp": {
+      "Ins": "71,09",
+      "Vot": "85,85"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      203,
+      70
+   ],
+   "% Voix": {
+      "Ins": [
+         "52,86",
+         "18,23"
+      ],
+      "Exp": [
+         "74,36",
+         "25,64"
+      ]
+   }
+},
+ {
+   "Code de la commune": 217,
+   "Libellé de la commune": "Montreuil-sur-Maine",
+   "Inscrits": 520,
+   "Abstentions": 80,
+   "% Abs": {
+      "Ins": "15,38"
+   },
+   "Votants": 440,
+   "% Vot": {
+      "Ins": "84,62"
+   },
+   "Blancs": 66,
+   "% Blancs": {
+      "Ins": "10,58",
+      "Vot": "15"
+   },
+   "Exprimés": 374,
+   "% Exp": {
+      "Ins": "71,92",
+      "Vot": "85"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      260,
+      114
+   ],
+   "% Voix": {
+      "Ins": [
+         "50",
+         "21,92"
+      ],
+      "Exp": [
+         "69,52",
+         "30,48"
+      ]
+   }
+},
+ {
+   "Code de la commune": 218,
+   "Libellé de la commune": "Montrevault-sur-Evre",
+   "Inscrits": 11734,
+   "Abstentions": 2332,
+   "% Abs": {
+      "Ins": "19,87"
+   },
+   "Votants": 9402,
+   "% Vot": {
+      "Ins": "80,13"
+   },
+   "Blancs": 1198,
+   "% Blancs": {
+      "Ins": "7,31",
+      "Vot": "12,75"
+   },
+   "Exprimés": 8204,
+   "% Exp": {
+      "Ins": "69,92",
+      "Vot": "87,26"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      5510,
+      2694
+   ],
+   "% Voix": {
+      "Ins": [
+         "46,96",
+         "22,96"
+      ],
+      "Exp": [
+         "67,16",
+         "32,84"
+      ]
+   }
+},
+ {
+   "Code de la commune": 219,
+   "Libellé de la commune": "Montsoreau",
+   "Inscrits": 346,
+   "Abstentions": 49,
+   "% Abs": {
+      "Ins": "14,16"
+   },
+   "Votants": 297,
+   "% Vot": {
+      "Ins": "85,84"
+   },
+   "Blancs": 48,
+   "% Blancs": {
+      "Ins": "11,56",
+      "Vot": "16,17"
+   },
+   "Exprimés": 249,
+   "% Exp": {
+      "Ins": "71,97",
+      "Vot": "83,84"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      174,
+      75
+   ],
+   "% Voix": {
+      "Ins": [
+         "50,29",
+         "21,68"
+      ],
+      "Exp": [
+         "69,88",
+         "30,12"
+      ]
+   }
+},
+ {
+   "Code de la commune": 220,
+   "Libellé de la commune": "Morannes-sur-Sarthe-Daumeray",
+   "Inscrits": 2540,
+   "Abstentions": 565,
+   "% Abs": {
+      "Ins": "22,24"
+   },
+   "Votants": 1975,
+   "% Vot": {
+      "Ins": "77,76"
+   },
+   "Blancs": 232,
+   "% Blancs": {
+      "Ins": "6,77",
+      "Vot": "11,75"
+   },
+   "Exprimés": 1743,
+   "% Exp": {
+      "Ins": "68,62",
+      "Vot": "88,25"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      975,
+      768
+   ],
+   "% Voix": {
+      "Ins": [
+         "38,39",
+         "30,24"
+      ],
+      "Exp": [
+         "55,94",
+         "44,06"
+      ]
+   }
+},
+ {
+   "Code de la commune": 221,
+   "Libellé de la commune": "Mouliherne",
+   "Inscrits": 614,
+   "Abstentions": 151,
+   "% Abs": {
+      "Ins": "24,59"
+   },
+   "Votants": 463,
+   "% Vot": {
+      "Ins": "75,41"
+   },
+   "Blancs": 61,
+   "% Blancs": {
+      "Ins": "8,14",
+      "Vot": "13,18"
+   },
+   "Exprimés": 402,
+   "% Exp": {
+      "Ins": "65,47",
+      "Vot": "86,83"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      200,
+      202
+   ],
+   "% Voix": {
+      "Ins": [
+         "32,57",
+         "32,9"
+      ],
+      "Exp": [
+         "49,75",
+         "50,25"
+      ]
+   }
+},
+ {
+   "Code de la commune": 222,
+   "Libellé de la commune": "Mozé-sur-Louet",
+   "Inscrits": 1542,
+   "Abstentions": 331,
+   "% Abs": {
+      "Ins": "21,47"
+   },
+   "Votants": 1211,
+   "% Vot": {
+      "Ins": "78,53"
+   },
+   "Blancs": 123,
+   "% Blancs": {
+      "Ins": "5,9",
+      "Vot": "10,16"
+   },
+   "Exprimés": 1088,
+   "% Exp": {
+      "Ins": "70,56",
+      "Vot": "89,84"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      775,
+      313
+   ],
+   "% Voix": {
+      "Ins": [
+         "50,26",
+         "20,3"
+      ],
+      "Exp": [
+         "71,23",
+         "28,77"
+      ]
+   }
+},
+ {
+   "Code de la commune": 223,
+   "Libellé de la commune": "Mûrs-Erigné",
+   "Inscrits": 4263,
+   "Abstentions": 797,
+   "% Abs": {
+      "Ins": "18,7"
+   },
+   "Votants": 3466,
+   "% Vot": {
+      "Ins": "81,3"
+   },
+   "Blancs": 353,
+   "% Blancs": {
+      "Ins": "6,8",
+      "Vot": "10,19"
+   },
+   "Exprimés": 3113,
+   "% Exp": {
+      "Ins": "73,02",
+      "Vot": "89,82"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      2467,
+      646
+   ],
+   "% Voix": {
+      "Ins": [
+         "57,87",
+         "15,15"
+      ],
+      "Exp": [
+         "79,25",
+         "20,75"
+      ]
+   }
+},
+ {
+   "Code de la commune": 224,
+   "Libellé de la commune": "Neuillé",
+   "Inscrits": 688,
+   "Abstentions": 119,
+   "% Abs": {
+      "Ins": "17,3"
+   },
+   "Votants": 569,
+   "% Vot": {
+      "Ins": "82,7"
+   },
+   "Blancs": 64,
+   "% Blancs": {
+      "Ins": "6,25",
+      "Vot": "11,25"
+   },
+   "Exprimés": 505,
+   "% Exp": {
+      "Ins": "73,4",
+      "Vot": "88,75"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      272,
+      233
+   ],
+   "% Voix": {
+      "Ins": [
+         "39,53",
+         "33,87"
+      ],
+      "Exp": [
+         "53,86",
+         "46,14"
+      ]
+   }
+},
+ {
+   "Code de la commune": 228,
+   "Libellé de la commune": "Noyant-Villages",
+   "Inscrits": 4179,
+   "Abstentions": 939,
+   "% Abs": {
+      "Ins": "22,47"
+   },
+   "Votants": 3240,
+   "% Vot": {
+      "Ins": "77,53"
+   },
+   "Blancs": 393,
+   "% Blancs": {
+      "Ins": "6,84",
+      "Vot": "12,13"
+   },
+   "Exprimés": 2847,
+   "% Exp": {
+      "Ins": "68,13",
+      "Vot": "87,87"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      1575,
+      1272
+   ],
+   "% Voix": {
+      "Ins": [
+         "37,69",
+         "30,44"
+      ],
+      "Exp": [
+         "55,32",
+         "44,68"
+      ]
+   }
+},
+ {
+   "Code de la commune": 231,
+   "Libellé de la commune": "Nuaillé",
+   "Inscrits": 1087,
+   "Abstentions": 165,
+   "% Abs": {
+      "Ins": "15,18"
+   },
+   "Votants": 922,
+   "% Vot": {
+      "Ins": "84,82"
+   },
+   "Blancs": 102,
+   "% Blancs": {
+      "Ins": "7,91",
+      "Vot": "11,07"
+   },
+   "Exprimés": 820,
+   "% Exp": {
+      "Ins": "75,44",
+      "Vot": "88,94"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      602,
+      218
+   ],
+   "% Voix": {
+      "Ins": [
+         "55,38",
+         "20,06"
+      ],
+      "Exp": [
+         "73,41",
+         "26,59"
+      ]
+   }
+},
+ {
+   "Code de la commune": 235,
+   "Libellé de la commune": "Parnay",
+   "Inscrits": 337,
+   "Abstentions": 64,
+   "% Abs": {
+      "Ins": "18,99"
+   },
+   "Votants": 273,
+   "% Vot": {
+      "Ins": "81,01"
+   },
+   "Blancs": 44,
+   "% Blancs": {
+      "Ins": "11,28",
+      "Vot": "16,12"
+   },
+   "Exprimés": 229,
+   "% Exp": {
+      "Ins": "67,95",
+      "Vot": "83,88"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      151,
+      78
+   ],
+   "% Voix": {
+      "Ins": [
+         "44,81",
+         "23,15"
+      ],
+      "Exp": [
+         "65,94",
+         "34,06"
+      ]
+   }
+},
+ {
+   "Code de la commune": 236,
+   "Libellé de la commune": "Passavant-sur-Layon",
+   "Inscrits": 108,
+   "Abstentions": 13,
+   "% Abs": {
+      "Ins": "12,04"
+   },
+   "Votants": 95,
+   "% Vot": {
+      "Ins": "87,96"
+   },
+   "Blancs": 12,
+   "% Blancs": {
+      "Ins": "7,41",
+      "Vot": "12,64"
+   },
+   "Exprimés": 83,
+   "% Exp": {
+      "Ins": "76,85",
+      "Vot": "87,37"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      52,
+      31
+   ],
+   "% Voix": {
+      "Ins": [
+         "48,15",
+         "28,7"
+      ],
+      "Exp": [
+         "62,65",
+         "37,35"
+      ]
+   }
+},
+ {
+   "Code de la commune": 237,
+   "Libellé de la commune": "La Pellerine",
+   "Inscrits": 120,
+   "Abstentions": 15,
+   "% Abs": {
+      "Ins": "12,5"
+   },
+   "Votants": 105,
+   "% Vot": {
+      "Ins": "87,5"
+   },
+   "Blancs": 2,
+   "% Blancs": {
+      "Ins": "0",
+      "Vot": "1,91"
+   },
+   "Exprimés": 103,
+   "% Exp": {
+      "Ins": "85,83",
+      "Vot": "98,1"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      33,
+      70
+   ],
+   "% Voix": {
+      "Ins": [
+         "27,5",
+         "58,33"
+      ],
+      "Exp": [
+         "32,04",
+         "67,96"
+      ]
+   }
+},
+ {
+   "Code de la commune": 240,
+   "Libellé de la commune": "La Plaine",
+   "Inscrits": 742,
+   "Abstentions": 166,
+   "% Abs": {
+      "Ins": "22,37"
+   },
+   "Votants": 576,
+   "% Vot": {
+      "Ins": "77,63"
+   },
+   "Blancs": 60,
+   "% Blancs": {
+      "Ins": "5,66",
+      "Vot": "10,42"
+   },
+   "Exprimés": 516,
+   "% Exp": {
+      "Ins": "69,54",
+      "Vot": "89,58"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      320,
+      196
+   ],
+   "% Voix": {
+      "Ins": [
+         "43,13",
+         "26,42"
+      ],
+      "Exp": [
+         "62,02",
+         "37,98"
+      ]
+   }
+},
+ {
+   "Code de la commune": 241,
+   "Libellé de la commune": "Le Plessis-Grammoire",
+   "Inscrits": 1948,
+   "Abstentions": 361,
+   "% Abs": {
+      "Ins": "18,53"
+   },
+   "Votants": 1587,
+   "% Vot": {
+      "Ins": "81,47"
+   },
+   "Blancs": 206,
+   "% Blancs": {
+      "Ins": "5,03",
+      "Vot": "12,99"
+   },
+   "Exprimés": 1381,
+   "% Exp": {
+      "Ins": "70,89",
+      "Vot": "87,02"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      1052,
+      329
+   ],
+   "% Voix": {
+      "Ins": [
+         "54",
+         "16,89"
+      ],
+      "Exp": [
+         "76,18",
+         "23,82"
+      ]
+   }
+},
+ {
+   "Code de la commune": 244,
+   "Libellé de la commune": "Mauges-sur-Loire",
+   "Inscrits": 13816,
+   "Abstentions": 2455,
+   "% Abs": {
+      "Ins": "17,77"
+   },
+   "Votants": 11361,
+   "% Vot": {
+      "Ins": "82,23"
+   },
+   "Blancs": 1388,
+   "% Blancs": {
+      "Ins": "7,26",
+      "Vot": "12,22"
+   },
+   "Exprimés": 9973,
+   "% Exp": {
+      "Ins": "72,18",
+      "Vot": "87,78"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      7193,
+      2780
+   ],
+   "% Voix": {
+      "Ins": [
+         "52,06",
+         "20,12"
+      ],
+      "Exp": [
+         "72,12",
+         "27,88"
+      ]
+   }
+},
+ {
+   "Code de la commune": 246,
+   "Libellé de la commune": "Les Ponts-de-Cé",
+   "Inscrits": 9568,
+   "Abstentions": 2226,
+   "% Abs": {
+      "Ins": "23,27"
+   },
+   "Votants": 7342,
+   "% Vot": {
+      "Ins": "76,73"
+   },
+   "Blancs": 823,
+   "% Blancs": {
+      "Ins": "6,61",
+      "Vot": "11,21"
+   },
+   "Exprimés": 6519,
+   "% Exp": {
+      "Ins": "68,13",
+      "Vot": "88,79"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      5173,
+      1346
+   ],
+   "% Voix": {
+      "Ins": [
+         "54,07",
+         "14,07"
+      ],
+      "Exp": [
+         "79,35",
+         "20,65"
+      ]
+   }
+},
+ {
+   "Code de la commune": 247,
+   "Libellé de la commune": "La Possonnière",
+   "Inscrits": 1842,
+   "Abstentions": 308,
+   "% Abs": {
+      "Ins": "16,72"
+   },
+   "Votants": 1534,
+   "% Vot": {
+      "Ins": "83,28"
+   },
+   "Blancs": 180,
+   "% Blancs": {
+      "Ins": "7,82",
+      "Vot": "11,74"
+   },
+   "Exprimés": 1354,
+   "% Exp": {
+      "Ins": "73,51",
+      "Vot": "88,27"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      1071,
+      283
+   ],
+   "% Voix": {
+      "Ins": [
+         "58,14",
+         "15,36"
+      ],
+      "Exp": [
+         "79,1",
+         "20,9"
+      ]
+   }
+},
+ {
+   "Code de la commune": 248,
+   "Libellé de la commune": "Ombrée-d'Anjou",
+   "Inscrits": 6316,
+   "Abstentions": 1272,
+   "% Abs": {
+      "Ins": "20,14"
+   },
+   "Votants": 5044,
+   "% Vot": {
+      "Ins": "79,86"
+   },
+   "Blancs": 599,
+   "% Blancs": {
+      "Ins": "7,11",
+      "Vot": "11,88"
+   },
+   "Exprimés": 4445,
+   "% Exp": {
+      "Ins": "70,38",
+      "Vot": "88,12"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      3092,
+      1353
+   ],
+   "% Voix": {
+      "Ins": [
+         "48,96",
+         "21,42"
+      ],
+      "Exp": [
+         "69,56",
+         "30,44"
+      ]
+   }
+},
+ {
+   "Code de la commune": 253,
+   "Libellé de la commune": "Le Puy-Notre-Dame",
+   "Inscrits": 843,
+   "Abstentions": 201,
+   "% Abs": {
+      "Ins": "23,84"
+   },
+   "Votants": 642,
+   "% Vot": {
+      "Ins": "76,16"
+   },
+   "Blancs": 78,
+   "% Blancs": {
+      "Ins": "6,76",
+      "Vot": "12,15"
+   },
+   "Exprimés": 564,
+   "% Exp": {
+      "Ins": "66,9",
+      "Vot": "87,85"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      328,
+      236
+   ],
+   "% Voix": {
+      "Ins": [
+         "38,91",
+         "28"
+      ],
+      "Exp": [
+         "58,16",
+         "41,84"
+      ]
+   }
+},
+ {
+   "Code de la commune": 257,
+   "Libellé de la commune": "Les Rairies",
+   "Inscrits": 736,
+   "Abstentions": 157,
+   "% Abs": {
+      "Ins": "21,33"
+   },
+   "Votants": 579,
+   "% Vot": {
+      "Ins": "78,67"
+   },
+   "Blancs": 76,
+   "% Blancs": {
+      "Ins": "7,07",
+      "Vot": "13,13"
+   },
+   "Exprimés": 503,
+   "% Exp": {
+      "Ins": "68,34",
+      "Vot": "86,87"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      273,
+      230
+   ],
+   "% Voix": {
+      "Ins": [
+         "37,09",
+         "31,25"
+      ],
+      "Exp": [
+         "54,27",
+         "45,73"
+      ]
+   }
+},
+ {
+   "Code de la commune": 259,
+   "Libellé de la commune": "Rochefort-sur-Loire",
+   "Inscrits": 1813,
+   "Abstentions": 364,
+   "% Abs": {
+      "Ins": "20,08"
+   },
+   "Votants": 1449,
+   "% Vot": {
+      "Ins": "79,92"
+   },
+   "Blancs": 172,
+   "% Blancs": {
+      "Ins": "7,45",
+      "Vot": "11,88"
+   },
+   "Exprimés": 1277,
+   "% Exp": {
+      "Ins": "70,44",
+      "Vot": "88,13"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      983,
+      294
+   ],
+   "% Voix": {
+      "Ins": [
+         "54,22",
+         "16,22"
+      ],
+      "Exp": [
+         "76,98",
+         "23,02"
+      ]
+   }
+},
+ {
+   "Code de la commune": 260,
+   "Libellé de la commune": "La Romagne",
+   "Inscrits": 1352,
+   "Abstentions": 252,
+   "% Abs": {
+      "Ins": "18,64"
+   },
+   "Votants": 1100,
+   "% Vot": {
+      "Ins": "81,36"
+   },
+   "Blancs": 95,
+   "% Blancs": {
+      "Ins": "5,99",
+      "Vot": "8,64"
+   },
+   "Exprimés": 1005,
+   "% Exp": {
+      "Ins": "74,33",
+      "Vot": "91,36"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      738,
+      267
+   ],
+   "% Voix": {
+      "Ins": [
+         "54,59",
+         "19,75"
+      ],
+      "Exp": [
+         "73,43",
+         "26,57"
+      ]
+   }
+},
+ {
+   "Code de la commune": 261,
+   "Libellé de la commune": "Les Rosiers-sur-Loire",
+   "Inscrits": 1723,
+   "Abstentions": 392,
+   "% Abs": {
+      "Ins": "22,75"
+   },
+   "Votants": 1331,
+   "% Vot": {
+      "Ins": "77,25"
+   },
+   "Blancs": 165,
+   "% Blancs": {
+      "Ins": "6,96",
+      "Vot": "12,4"
+   },
+   "Exprimés": 1166,
+   "% Exp": {
+      "Ins": "67,67",
+      "Vot": "87,6"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      750,
+      416
+   ],
+   "% Voix": {
+      "Ins": [
+         "43,53",
+         "24,14"
+      ],
+      "Exp": [
+         "64,32",
+         "35,68"
+      ]
+   }
+},
+ {
+   "Code de la commune": 262,
+   "Libellé de la commune": "Rou-Marson",
+   "Inscrits": 540,
+   "Abstentions": 78,
+   "% Abs": {
+      "Ins": "14,44"
+   },
+   "Votants": 462,
+   "% Vot": {
+      "Ins": "85,56"
+   },
+   "Blancs": 57,
+   "% Blancs": {
+      "Ins": "8,52",
+      "Vot": "12,34"
+   },
+   "Exprimés": 405,
+   "% Exp": {
+      "Ins": "75",
+      "Vot": "87,66"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      257,
+      148
+   ],
+   "% Voix": {
+      "Ins": [
+         "47,59",
+         "27,41"
+      ],
+      "Exp": [
+         "63,46",
+         "36,54"
+      ]
+   }
+},
+ {
+   "Code de la commune": 266,
+   "Libellé de la commune": "Saint-Augustin-des-Bois",
+   "Inscrits": 869,
+   "Abstentions": 171,
+   "% Abs": {
+      "Ins": "19,68"
+   },
+   "Votants": 698,
+   "% Vot": {
+      "Ins": "80,32"
+   },
+   "Blancs": 72,
+   "% Blancs": {
+      "Ins": "6,21",
+      "Vot": "10,32"
+   },
+   "Exprimés": 626,
+   "% Exp": {
+      "Ins": "72,04",
+      "Vot": "89,68"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      403,
+      223
+   ],
+   "% Voix": {
+      "Ins": [
+         "46,38",
+         "25,66"
+      ],
+      "Exp": [
+         "64,38",
+         "35,62"
+      ]
+   }
+},
+ {
+   "Code de la commune": 267,
+   "Libellé de la commune": "Saint-Barthélemy-d'Anjou",
+   "Inscrits": 6975,
+   "Abstentions": 1404,
+   "% Abs": {
+      "Ins": "20,13"
+   },
+   "Votants": 5571,
+   "% Vot": {
+      "Ins": "79,87"
+   },
+   "Blancs": 609,
+   "% Blancs": {
+      "Ins": "6,62",
+      "Vot": "10,94"
+   },
+   "Exprimés": 4962,
+   "% Exp": {
+      "Ins": "71,14",
+      "Vot": "89,07"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      3889,
+      1073
+   ],
+   "% Voix": {
+      "Ins": [
+         "55,76",
+         "15,38"
+      ],
+      "Exp": [
+         "78,38",
+         "21,62"
+      ]
+   }
+},
+ {
+   "Code de la commune": 269,
+   "Libellé de la commune": "Saint-Christophe-du-Bois",
+   "Inscrits": 2176,
+   "Abstentions": 432,
+   "% Abs": {
+      "Ins": "19,85"
+   },
+   "Votants": 1744,
+   "% Vot": {
+      "Ins": "80,15"
+   },
+   "Blancs": 163,
+   "% Blancs": {
+      "Ins": "5,51",
+      "Vot": "9,35"
+   },
+   "Exprimés": 1581,
+   "% Exp": {
+      "Ins": "72,66",
+      "Vot": "90,65"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      1195,
+      386
+   ],
+   "% Voix": {
+      "Ins": [
+         "54,92",
+         "17,74"
+      ],
+      "Exp": [
+         "75,59",
+         "24,41"
+      ]
+   }
+},
+ {
+   "Code de la commune": 271,
+   "Libellé de la commune": "Saint-Clément-de-la-Place",
+   "Inscrits": 1527,
+   "Abstentions": 239,
+   "% Abs": {
+      "Ins": "15,65"
+   },
+   "Votants": 1288,
+   "% Vot": {
+      "Ins": "84,35"
+   },
+   "Blancs": 137,
+   "% Blancs": {
+      "Ins": "7,27",
+      "Vot": "10,64"
+   },
+   "Exprimés": 1151,
+   "% Exp": {
+      "Ins": "75,38",
+      "Vot": "89,36"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      845,
+      306
+   ],
+   "% Voix": {
+      "Ins": [
+         "55,34",
+         "20,04"
+      ],
+      "Exp": [
+         "73,41",
+         "26,59"
+      ]
+   }
+},
+ {
+   "Code de la commune": 272,
+   "Libellé de la commune": "Saint-Clément-des-Levées",
+   "Inscrits": 794,
+   "Abstentions": 151,
+   "% Abs": {
+      "Ins": "19,02"
+   },
+   "Votants": 643,
+   "% Vot": {
+      "Ins": "80,98"
+   },
+   "Blancs": 79,
+   "% Blancs": {
+      "Ins": "7,93",
+      "Vot": "12,29"
+   },
+   "Exprimés": 564,
+   "% Exp": {
+      "Ins": "71,03",
+      "Vot": "87,71"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      350,
+      214
+   ],
+   "% Voix": {
+      "Ins": [
+         "44,08",
+         "26,95"
+      ],
+      "Exp": [
+         "62,06",
+         "37,94"
+      ]
+   }
+},
+ {
+   "Code de la commune": 274,
+   "Libellé de la commune": "Saint-Cyr-en-Bourg",
+   "Inscrits": 605,
+   "Abstentions": 96,
+   "% Abs": {
+      "Ins": "15,87"
+   },
+   "Votants": 509,
+   "% Vot": {
+      "Ins": "84,13"
+   },
+   "Blancs": 58,
+   "% Blancs": {
+      "Ins": "7,44",
+      "Vot": "11,4"
+   },
+   "Exprimés": 451,
+   "% Exp": {
+      "Ins": "74,55",
+      "Vot": "88,61"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      270,
+      181
+   ],
+   "% Voix": {
+      "Ins": [
+         "44,63",
+         "29,92"
+      ],
+      "Exp": [
+         "59,87",
+         "40,13"
+      ]
+   }
+},
+ {
+   "Code de la commune": 278,
+   "Libellé de la commune": "Sainte-Gemmes-sur-Loire",
+   "Inscrits": 2860,
+   "Abstentions": 485,
+   "% Abs": {
+      "Ins": "16,96"
+   },
+   "Votants": 2375,
+   "% Vot": {
+      "Ins": "83,04"
+   },
+   "Blancs": 277,
+   "% Blancs": {
+      "Ins": "7,66",
+      "Vot": "11,67"
+   },
+   "Exprimés": 2098,
+   "% Exp": {
+      "Ins": "73,36",
+      "Vot": "88,34"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      1654,
+      444
+   ],
+   "% Voix": {
+      "Ins": [
+         "57,83",
+         "15,52"
+      ],
+      "Exp": [
+         "78,84",
+         "21,16"
+      ]
+   }
+},
+ {
+   "Code de la commune": 283,
+   "Libellé de la commune": "Saint-Georges-sur-Loire",
+   "Inscrits": 2473,
+   "Abstentions": 394,
+   "% Abs": {
+      "Ins": "15,93"
+   },
+   "Votants": 2079,
+   "% Vot": {
+      "Ins": "84,07"
+   },
+   "Blancs": 261,
+   "% Blancs": {
+      "Ins": "7,93",
+      "Vot": "12,56"
+   },
+   "Exprimés": 1818,
+   "% Exp": {
+      "Ins": "73,51",
+      "Vot": "87,45"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      1306,
+      512
+   ],
+   "% Voix": {
+      "Ins": [
+         "52,81",
+         "20,7"
+      ],
+      "Exp": [
+         "71,84",
+         "28,16"
+      ]
+   }
+},
+ {
+   "Code de la commune": 284,
+   "Libellé de la commune": "Saint-Germain-des-Prés",
+   "Inscrits": 1003,
+   "Abstentions": 192,
+   "% Abs": {
+      "Ins": "19,14"
+   },
+   "Votants": 811,
+   "% Vot": {
+      "Ins": "80,86"
+   },
+   "Blancs": 110,
+   "% Blancs": {
+      "Ins": "8,67",
+      "Vot": "13,57"
+   },
+   "Exprimés": 701,
+   "% Exp": {
+      "Ins": "69,89",
+      "Vot": "86,44"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      478,
+      223
+   ],
+   "% Voix": {
+      "Ins": [
+         "47,66",
+         "22,23"
+      ],
+      "Exp": [
+         "68,19",
+         "31,81"
+      ]
+   }
+},
+ {
+   "Code de la commune": 288,
+   "Libellé de la commune": "Saint-Jean-de-la-Croix",
+   "Inscrits": 180,
+   "Abstentions": 31,
+   "% Abs": {
+      "Ins": "17,22"
+   },
+   "Votants": 149,
+   "% Vot": {
+      "Ins": "82,78"
+   },
+   "Blancs": 22,
+   "% Blancs": {
+      "Ins": "9,44",
+      "Vot": "14,77"
+   },
+   "Exprimés": 127,
+   "% Exp": {
+      "Ins": "70,56",
+      "Vot": "85,23"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      93,
+      34
+   ],
+   "% Voix": {
+      "Ins": [
+         "51,67",
+         "18,89"
+      ],
+      "Exp": [
+         "73,23",
+         "26,77"
+      ]
+   }
+},
+ {
+   "Code de la commune": 289,
+   "Libellé de la commune": "Saint-Jean-de-Linières",
+   "Inscrits": 1366,
+   "Abstentions": 219,
+   "% Abs": {
+      "Ins": "16,03"
+   },
+   "Votants": 1147,
+   "% Vot": {
+      "Ins": "83,97"
+   },
+   "Blancs": 125,
+   "% Blancs": {
+      "Ins": "7,32",
+      "Vot": "10,9"
+   },
+   "Exprimés": 1022,
+   "% Exp": {
+      "Ins": "74,82",
+      "Vot": "89,1"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      784,
+      238
+   ],
+   "% Voix": {
+      "Ins": [
+         "57,39",
+         "17,42"
+      ],
+      "Exp": [
+         "76,71",
+         "23,29"
+      ]
+   }
+},
+ {
+   "Code de la commune": 291,
+   "Libellé de la commune": "Saint-Just-sur-Dive",
+   "Inscrits": 276,
+   "Abstentions": 67,
+   "% Abs": {
+      "Ins": "24,28"
+   },
+   "Votants": 209,
+   "% Vot": {
+      "Ins": "75,72"
+   },
+   "Blancs": 13,
+   "% Blancs": {
+      "Ins": "3,26",
+      "Vot": "6,23"
+   },
+   "Exprimés": 196,
+   "% Exp": {
+      "Ins": "71,01",
+      "Vot": "93,78"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      90,
+      106
+   ],
+   "% Voix": {
+      "Ins": [
+         "32,61",
+         "38,41"
+      ],
+      "Exp": [
+         "45,92",
+         "54,08"
+      ]
+   }
+},
+ {
+   "Code de la commune": 292,
+   "Libellé de la commune": "Val-du-Layon",
+   "Inscrits": 2356,
+   "Abstentions": 357,
+   "% Abs": {
+      "Ins": "15,15"
+   },
+   "Votants": 1999,
+   "% Vot": {
+      "Ins": "84,85"
+   },
+   "Blancs": 249,
+   "% Blancs": {
+      "Ins": "8,45",
+      "Vot": "12,46"
+   },
+   "Exprimés": 1750,
+   "% Exp": {
+      "Ins": "74,28",
+      "Vot": "87,54"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      1232,
+      518
+   ],
+   "% Voix": {
+      "Ins": [
+         "52,29",
+         "21,99"
+      ],
+      "Exp": [
+         "70,4",
+         "29,6"
+      ]
+   }
+},
+ {
+   "Code de la commune": 294,
+   "Libellé de la commune": "Saint-Lambert-la-Potherie",
+   "Inscrits": 2053,
+   "Abstentions": 370,
+   "% Abs": {
+      "Ins": "18,02"
+   },
+   "Votants": 1683,
+   "% Vot": {
+      "Ins": "81,98"
+   },
+   "Blancs": 201,
+   "% Blancs": {
+      "Ins": "4,19",
+      "Vot": "11,95"
+   },
+   "Exprimés": 1482,
+   "% Exp": {
+      "Ins": "72,19",
+      "Vot": "88,06"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      1161,
+      321
+   ],
+   "% Voix": {
+      "Ins": [
+         "56,55",
+         "15,64"
+      ],
+      "Exp": [
+         "78,34",
+         "21,66"
+      ]
+   }
+},
+ {
+   "Code de la commune": 298,
+   "Libellé de la commune": "Saint-Léger-des-Bois",
+   "Inscrits": 1300,
+   "Abstentions": 203,
+   "% Abs": {
+      "Ins": "15,62"
+   },
+   "Votants": 1097,
+   "% Vot": {
+      "Ins": "84,38"
+   },
+   "Blancs": 93,
+   "% Blancs": {
+      "Ins": "6",
+      "Vot": "8,48"
+   },
+   "Exprimés": 1004,
+   "% Exp": {
+      "Ins": "77,23",
+      "Vot": "91,52"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      817,
+      187
+   ],
+   "% Voix": {
+      "Ins": [
+         "62,85",
+         "14,38"
+      ],
+      "Exp": [
+         "81,37",
+         "18,63"
+      ]
+   }
+},
+ {
+   "Code de la commune": 299,
+   "Libellé de la commune": "Saint-Léger-sous-Cholet",
+   "Inscrits": 2252,
+   "Abstentions": 421,
+   "% Abs": {
+      "Ins": "18,69"
+   },
+   "Votants": 1831,
+   "% Vot": {
+      "Ins": "81,31"
+   },
+   "Blancs": 193,
+   "% Blancs": {
+      "Ins": "6,71",
+      "Vot": "10,55"
+   },
+   "Exprimés": 1638,
+   "% Exp": {
+      "Ins": "72,74",
+      "Vot": "89,46"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      1297,
+      341
+   ],
+   "% Voix": {
+      "Ins": [
+         "57,59",
+         "15,14"
+      ],
+      "Exp": [
+         "79,18",
+         "20,82"
+      ]
+   }
+},
+ {
+   "Code de la commune": 301,
+   "Libellé de la commune": "Sèvremoine",
+   "Inscrits": 18006,
+   "Abstentions": 3644,
+   "% Abs": {
+      "Ins": "20,24"
+   },
+   "Votants": 14362,
+   "% Vot": {
+      "Ins": "79,76"
+   },
+   "Blancs": 1603,
+   "% Blancs": {
+      "Ins": "6,66",
+      "Vot": "11,17"
+   },
+   "Exprimés": 12759,
+   "% Exp": {
+      "Ins": "70,86",
+      "Vot": "88,84"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      9268,
+      3491
+   ],
+   "% Voix": {
+      "Ins": [
+         "51,47",
+         "19,39"
+      ],
+      "Exp": [
+         "72,64",
+         "27,36"
+      ]
+   }
+},
+ {
+   "Code de la commune": 302,
+   "Libellé de la commune": "Saint-Macaire-du-Bois",
+   "Inscrits": 316,
+   "Abstentions": 74,
+   "% Abs": {
+      "Ins": "23,42"
+   },
+   "Votants": 242,
+   "% Vot": {
+      "Ins": "76,58"
+   },
+   "Blancs": 23,
+   "% Blancs": {
+      "Ins": "4,75",
+      "Vot": "9,51"
+   },
+   "Exprimés": 219,
+   "% Exp": {
+      "Ins": "69,3",
+      "Vot": "90,5"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      92,
+      127
+   ],
+   "% Voix": {
+      "Ins": [
+         "29,11",
+         "40,19"
+      ],
+      "Exp": [
+         "42,01",
+         "57,99"
+      ]
+   }
+},
+ {
+   "Code de la commune": 304,
+   "Libellé de la commune": "Saint-Martin-de-la-Place",
+   "Inscrits": 844,
+   "Abstentions": 157,
+   "% Abs": {
+      "Ins": "18,6"
+   },
+   "Votants": 687,
+   "% Vot": {
+      "Ins": "81,4"
+   },
+   "Blancs": 77,
+   "% Blancs": {
+      "Ins": "7,11",
+      "Vot": "11,21"
+   },
+   "Exprimés": 610,
+   "% Exp": {
+      "Ins": "72,27",
+      "Vot": "88,79"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      302,
+      308
+   ],
+   "% Voix": {
+      "Ins": [
+         "35,78",
+         "36,49"
+      ],
+      "Exp": [
+         "49,51",
+         "50,49"
+      ]
+   }
+},
+ {
+   "Code de la commune": 306,
+   "Libellé de la commune": "Saint-Martin-du-Fouilloux",
+   "Inscrits": 1281,
+   "Abstentions": 196,
+   "% Abs": {
+      "Ins": "15,3"
+   },
+   "Votants": 1085,
+   "% Vot": {
+      "Ins": "84,7"
+   },
+   "Blancs": 130,
+   "% Blancs": {
+      "Ins": "8,12",
+      "Vot": "11,99"
+   },
+   "Exprimés": 955,
+   "% Exp": {
+      "Ins": "74,55",
+      "Vot": "88,02"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      715,
+      240
+   ],
+   "% Voix": {
+      "Ins": [
+         "55,82",
+         "18,74"
+      ],
+      "Exp": [
+         "74,87",
+         "25,13"
+      ]
+   }
+},
+ {
+   "Code de la commune": 307,
+   "Libellé de la commune": "Loire-Authion",
+   "Inscrits": 12200,
+   "Abstentions": 2284,
+   "% Abs": {
+      "Ins": "18,72"
+   },
+   "Votants": 9916,
+   "% Vot": {
+      "Ins": "81,28"
+   },
+   "Blancs": 1198,
+   "% Blancs": {
+      "Ins": "8,02",
+      "Vot": "12,09"
+   },
+   "Exprimés": 8718,
+   "% Exp": {
+      "Ins": "71,46",
+      "Vot": "87,92"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      6392,
+      2326
+   ],
+   "% Voix": {
+      "Ins": [
+         "52,39",
+         "19,07"
+      ],
+      "Exp": [
+         "73,32",
+         "26,68"
+      ]
+   }
+},
+ {
+   "Code de la commune": 308,
+   "Libellé de la commune": "Saint-Melaine-sur-Aubance",
+   "Inscrits": 1664,
+   "Abstentions": 260,
+   "% Abs": {
+      "Ins": "15,63"
+   },
+   "Votants": 1404,
+   "% Vot": {
+      "Ins": "84,38"
+   },
+   "Blancs": 174,
+   "% Blancs": {
+      "Ins": "8,65",
+      "Vot": "12,4"
+   },
+   "Exprimés": 1230,
+   "% Exp": {
+      "Ins": "73,92",
+      "Vot": "87,61"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      968,
+      262
+   ],
+   "% Voix": {
+      "Ins": [
+         "58,17",
+         "15,75"
+      ],
+      "Exp": [
+         "78,7",
+         "21,3"
+      ]
+   }
+},
+ {
+   "Code de la commune": 310,
+   "Libellé de la commune": "Saint-Paul-du-Bois",
+   "Inscrits": 461,
+   "Abstentions": 107,
+   "% Abs": {
+      "Ins": "23,21"
+   },
+   "Votants": 354,
+   "% Vot": {
+      "Ins": "76,79"
+   },
+   "Blancs": 39,
+   "% Blancs": {
+      "Ins": "5,42",
+      "Vot": "11,02"
+   },
+   "Exprimés": 315,
+   "% Exp": {
+      "Ins": "68,33",
+      "Vot": "88,98"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      214,
+      101
+   ],
+   "% Voix": {
+      "Ins": [
+         "46,42",
+         "21,91"
+      ],
+      "Exp": [
+         "67,94",
+         "32,06"
+      ]
+   }
+},
+ {
+   "Code de la commune": 311,
+   "Libellé de la commune": "Saint-Philbert-du-Peuple",
+   "Inscrits": 884,
+   "Abstentions": 140,
+   "% Abs": {
+      "Ins": "15,84"
+   },
+   "Votants": 744,
+   "% Vot": {
+      "Ins": "84,16"
+   },
+   "Blancs": 83,
+   "% Blancs": {
+      "Ins": "7,92",
+      "Vot": "11,16"
+   },
+   "Exprimés": 661,
+   "% Exp": {
+      "Ins": "74,77",
+      "Vot": "88,84"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      398,
+      263
+   ],
+   "% Voix": {
+      "Ins": [
+         "45,02",
+         "29,75"
+      ],
+      "Exp": [
+         "60,21",
+         "39,79"
+      ]
+   }
+},
+ {
+   "Code de la commune": 321,
+   "Libellé de la commune": "Saint-Sigismond",
+   "Inscrits": 278,
+   "Abstentions": 49,
+   "% Abs": {
+      "Ins": "17,63"
+   },
+   "Votants": 229,
+   "% Vot": {
+      "Ins": "82,37"
+   },
+   "Blancs": 27,
+   "% Blancs": {
+      "Ins": "7,55",
+      "Vot": "11,8"
+   },
+   "Exprimés": 202,
+   "% Exp": {
+      "Ins": "72,66",
+      "Vot": "88,21"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      129,
+      73
+   ],
+   "% Voix": {
+      "Ins": [
+         "46,4",
+         "26,26"
+      ],
+      "Exp": [
+         "63,86",
+         "36,14"
+      ]
+   }
+},
+ {
+   "Code de la commune": 323,
+   "Libellé de la commune": "Verrière-en-Anjou",
+   "Inscrits": 5500,
+   "Abstentions": 1007,
+   "% Abs": {
+      "Ins": "18,31"
+   },
+   "Votants": 4493,
+   "% Vot": {
+      "Ins": "81,69"
+   },
+   "Blancs": 494,
+   "% Blancs": {
+      "Ins": "6,85",
+      "Vot": "11"
+   },
+   "Exprimés": 3999,
+   "% Exp": {
+      "Ins": "72,71",
+      "Vot": "89,01"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      3032,
+      967
+   ],
+   "% Voix": {
+      "Ins": [
+         "55,13",
+         "17,58"
+      ],
+      "Exp": [
+         "75,82",
+         "24,18"
+      ]
+   }
+},
+ {
+   "Code de la commune": 326,
+   "Libellé de la commune": "Sarrigné",
+   "Inscrits": 667,
+   "Abstentions": 87,
+   "% Abs": {
+      "Ins": "13,04"
+   },
+   "Votants": 580,
+   "% Vot": {
+      "Ins": "86,96"
+   },
+   "Blancs": 60,
+   "% Blancs": {
+      "Ins": "6,3",
+      "Vot": "10,35"
+   },
+   "Exprimés": 520,
+   "% Exp": {
+      "Ins": "77,96",
+      "Vot": "89,66"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      409,
+      111
+   ],
+   "% Voix": {
+      "Ins": [
+         "61,32",
+         "16,64"
+      ],
+      "Exp": [
+         "78,65",
+         "21,35"
+      ]
+   }
+},
+ {
+   "Code de la commune": 328,
+   "Libellé de la commune": "Saumur",
+   "Inscrits": 18922,
+   "Abstentions": 4609,
+   "% Abs": {
+      "Ins": "24,36"
+   },
+   "Votants": 14313,
+   "% Vot": {
+      "Ins": "75,64"
+   },
+   "Blancs": 1712,
+   "% Blancs": {
+      "Ins": "6,54",
+      "Vot": "11,97"
+   },
+   "Exprimés": 12601,
+   "% Exp": {
+      "Ins": "66,59",
+      "Vot": "88,04"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      8576,
+      4025
+   ],
+   "% Voix": {
+      "Ins": [
+         "45,32",
+         "21,27"
+      ],
+      "Exp": [
+         "68,06",
+         "31,94"
+      ]
+   }
+},
+ {
+   "Code de la commune": 329,
+   "Libellé de la commune": "Savennières",
+   "Inscrits": 1018,
+   "Abstentions": 187,
+   "% Abs": {
+      "Ins": "18,37"
+   },
+   "Votants": 831,
+   "% Vot": {
+      "Ins": "81,63"
+   },
+   "Blancs": 110,
+   "% Blancs": {
+      "Ins": "8,45",
+      "Vot": "13,24"
+   },
+   "Exprimés": 721,
+   "% Exp": {
+      "Ins": "70,83",
+      "Vot": "86,76"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      564,
+      157
+   ],
+   "% Voix": {
+      "Ins": [
+         "55,4",
+         "15,42"
+      ],
+      "Exp": [
+         "78,22",
+         "21,78"
+      ]
+   }
+},
+ {
+   "Code de la commune": 330,
+   "Libellé de la commune": "Sceaux-d'Anjou",
+   "Inscrits": 708,
+   "Abstentions": 108,
+   "% Abs": {
+      "Ins": "15,25"
+   },
+   "Votants": 600,
+   "% Vot": {
+      "Ins": "84,75"
+   },
+   "Blancs": 73,
+   "% Blancs": {
+      "Ins": "9,04",
+      "Vot": "12,17"
+   },
+   "Exprimés": 527,
+   "% Exp": {
+      "Ins": "74,44",
+      "Vot": "87,83"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      368,
+      159
+   ],
+   "% Voix": {
+      "Ins": [
+         "51,98",
+         "22,46"
+      ],
+      "Exp": [
+         "69,83",
+         "30,17"
+      ]
+   }
+},
+ {
+   "Code de la commune": 331,
+   "Libellé de la commune": "Segré-en-Anjou-Bleu",
+   "Inscrits": 12399,
+   "Abstentions": 2578,
+   "% Abs": {
+      "Ins": "20,79"
+   },
+   "Votants": 9821,
+   "% Vot": {
+      "Ins": "79,21"
+   },
+   "Blancs": 1137,
+   "% Blancs": {
+      "Ins": "6,82",
+      "Vot": "11,58"
+   },
+   "Exprimés": 8684,
+   "% Exp": {
+      "Ins": "70,04",
+      "Vot": "88,42"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      6082,
+      2602
+   ],
+   "% Voix": {
+      "Ins": [
+         "49,05",
+         "20,99"
+      ],
+      "Exp": [
+         "70,04",
+         "29,96"
+      ]
+   }
+},
+ {
+   "Code de la commune": 332,
+   "Libellé de la commune": "La Séguinière",
+   "Inscrits": 3208,
+   "Abstentions": 596,
+   "% Abs": {
+      "Ins": "18,58"
+   },
+   "Votants": 2612,
+   "% Vot": {
+      "Ins": "81,42"
+   },
+   "Blancs": 297,
+   "% Blancs": {
+      "Ins": "6,98",
+      "Vot": "11,38"
+   },
+   "Exprimés": 2315,
+   "% Exp": {
+      "Ins": "72,16",
+      "Vot": "88,63"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      1842,
+      473
+   ],
+   "% Voix": {
+      "Ins": [
+         "57,42",
+         "14,74"
+      ],
+      "Exp": [
+         "79,57",
+         "20,43"
+      ]
+   }
+},
+ {
+   "Code de la commune": 333,
+   "Libellé de la commune": "Seiches-sur-le-Loir",
+   "Inscrits": 1996,
+   "Abstentions": 401,
+   "% Abs": {
+      "Ins": "20,09"
+   },
+   "Votants": 1595,
+   "% Vot": {
+      "Ins": "79,91"
+   },
+   "Blancs": 176,
+   "% Blancs": {
+      "Ins": "6,71",
+      "Vot": "11,04"
+   },
+   "Exprimés": 1419,
+   "% Exp": {
+      "Ins": "71,09",
+      "Vot": "88,97"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      932,
+      487
+   ],
+   "% Voix": {
+      "Ins": [
+         "46,69",
+         "24,4"
+      ],
+      "Exp": [
+         "65,68",
+         "34,32"
+      ]
+   }
+},
+ {
+   "Code de la commune": 334,
+   "Libellé de la commune": "Sermaise",
+   "Inscrits": 236,
+   "Abstentions": 60,
+   "% Abs": {
+      "Ins": "25,42"
+   },
+   "Votants": 176,
+   "% Vot": {
+      "Ins": "74,58"
+   },
+   "Blancs": 20,
+   "% Blancs": {
+      "Ins": "5,51",
+      "Vot": "11,37"
+   },
+   "Exprimés": 156,
+   "% Exp": {
+      "Ins": "66,1",
+      "Vot": "88,64"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      87,
+      69
+   ],
+   "% Voix": {
+      "Ins": [
+         "36,86",
+         "29,24"
+      ],
+      "Exp": [
+         "55,77",
+         "44,23"
+      ]
+   }
+},
+ {
+   "Code de la commune": 336,
+   "Libellé de la commune": "Somloire",
+   "Inscrits": 643,
+   "Abstentions": 122,
+   "% Abs": {
+      "Ins": "18,97"
+   },
+   "Votants": 521,
+   "% Vot": {
+      "Ins": "81,03"
+   },
+   "Blancs": 35,
+   "% Blancs": {
+      "Ins": "3,73",
+      "Vot": "6,72"
+   },
+   "Exprimés": 486,
+   "% Exp": {
+      "Ins": "75,58",
+      "Vot": "93,28"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      315,
+      171
+   ],
+   "% Voix": {
+      "Ins": [
+         "48,99",
+         "26,59"
+      ],
+      "Exp": [
+         "64,81",
+         "35,19"
+      ]
+   }
+},
+ {
+   "Code de la commune": 337,
+   "Libellé de la commune": "Soucelles",
+   "Inscrits": 2053,
+   "Abstentions": 440,
+   "% Abs": {
+      "Ins": "21,43"
+   },
+   "Votants": 1613,
+   "% Vot": {
+      "Ins": "78,57"
+   },
+   "Blancs": 185,
+   "% Blancs": {
+      "Ins": "7,5",
+      "Vot": "11,47"
+   },
+   "Exprimés": 1428,
+   "% Exp": {
+      "Ins": "69,56",
+      "Vot": "88,53"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      1025,
+      403
+   ],
+   "% Voix": {
+      "Ins": [
+         "49,93",
+         "19,63"
+      ],
+      "Exp": [
+         "71,78",
+         "28,22"
+      ]
+   }
+},
+ {
+   "Code de la commune": 338,
+   "Libellé de la commune": "Soulaines-sur-Aubance",
+   "Inscrits": 1086,
+   "Abstentions": 182,
+   "% Abs": {
+      "Ins": "16,76"
+   },
+   "Votants": 904,
+   "% Vot": {
+      "Ins": "83,24"
+   },
+   "Blancs": 125,
+   "% Blancs": {
+      "Ins": "8,93",
+      "Vot": "13,83"
+   },
+   "Exprimés": 779,
+   "% Exp": {
+      "Ins": "71,73",
+      "Vot": "86,17"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      615,
+      164
+   ],
+   "% Voix": {
+      "Ins": [
+         "56,63",
+         "15,1"
+      ],
+      "Exp": [
+         "78,95",
+         "21,05"
+      ]
+   }
+},
+ {
+   "Code de la commune": 339,
+   "Libellé de la commune": "Soulaire-et-Bourg",
+   "Inscrits": 1121,
+   "Abstentions": 212,
+   "% Abs": {
+      "Ins": "18,91"
+   },
+   "Votants": 909,
+   "% Vot": {
+      "Ins": "81,09"
+   },
+   "Blancs": 102,
+   "% Blancs": {
+      "Ins": "7,67",
+      "Vot": "11,23"
+   },
+   "Exprimés": 807,
+   "% Exp": {
+      "Ins": "71,99",
+      "Vot": "88,78"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      566,
+      241
+   ],
+   "% Voix": {
+      "Ins": [
+         "50,49",
+         "21,5"
+      ],
+      "Exp": [
+         "70,14",
+         "29,86"
+      ]
+   }
+},
+ {
+   "Code de la commune": 341,
+   "Libellé de la commune": "Souzay-Champigny",
+   "Inscrits": 520,
+   "Abstentions": 104,
+   "% Abs": {
+      "Ins": "20"
+   },
+   "Votants": 416,
+   "% Vot": {
+      "Ins": "80"
+   },
+   "Blancs": 47,
+   "% Blancs": {
+      "Ins": "7,69",
+      "Vot": "11,3"
+   },
+   "Exprimés": 369,
+   "% Exp": {
+      "Ins": "70,96",
+      "Vot": "88,7"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      226,
+      143
+   ],
+   "% Voix": {
+      "Ins": [
+         "43,46",
+         "27,5"
+      ],
+      "Exp": [
+         "61,25",
+         "38,75"
+      ]
+   }
+},
+ {
+   "Code de la commune": 343,
+   "Libellé de la commune": "La Tessoualle",
+   "Inscrits": 2530,
+   "Abstentions": 519,
+   "% Abs": {
+      "Ins": "20,51"
+   },
+   "Votants": 2011,
+   "% Vot": {
+      "Ins": "79,49"
+   },
+   "Blancs": 237,
+   "% Blancs": {
+      "Ins": "6,36",
+      "Vot": "11,79"
+   },
+   "Exprimés": 1774,
+   "% Exp": {
+      "Ins": "70,12",
+      "Vot": "88,21"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      1452,
+      322
+   ],
+   "% Voix": {
+      "Ins": [
+         "57,39",
+         "12,73"
+      ],
+      "Exp": [
+         "81,85",
+         "18,15"
+      ]
+   }
+},
+ {
+   "Code de la commune": 344,
+   "Libellé de la commune": "Thorigné-d'Anjou",
+   "Inscrits": 811,
+   "Abstentions": 147,
+   "% Abs": {
+      "Ins": "18,13"
+   },
+   "Votants": 664,
+   "% Vot": {
+      "Ins": "81,87"
+   },
+   "Blancs": 64,
+   "% Blancs": {
+      "Ins": "6,29",
+      "Vot": "9,64"
+   },
+   "Exprimés": 600,
+   "% Exp": {
+      "Ins": "73,98",
+      "Vot": "90,36"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      414,
+      186
+   ],
+   "% Voix": {
+      "Ins": [
+         "51,05",
+         "22,93"
+      ],
+      "Exp": [
+         "69",
+         "31"
+      ]
+   }
+},
+ {
+   "Code de la commune": 345,
+   "Libellé de la commune": "Bellevigne-en-Layon",
+   "Inscrits": 4389,
+   "Abstentions": 877,
+   "% Abs": {
+      "Ins": "19,98"
+   },
+   "Votants": 3512,
+   "% Vot": {
+      "Ins": "80,02"
+   },
+   "Blancs": 435,
+   "% Blancs": {
+      "Ins": "8,09",
+      "Vot": "12,39"
+   },
+   "Exprimés": 3077,
+   "% Exp": {
+      "Ins": "70,11",
+      "Vot": "87,61"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      2164,
+      913
+   ],
+   "% Voix": {
+      "Ins": [
+         "49,31",
+         "20,8"
+      ],
+      "Exp": [
+         "70,33",
+         "29,67"
+      ]
+   }
+},
+ {
+   "Code de la commune": 347,
+   "Libellé de la commune": "Tiercé",
+   "Inscrits": 3332,
+   "Abstentions": 689,
+   "% Abs": {
+      "Ins": "20,68"
+   },
+   "Votants": 2643,
+   "% Vot": {
+      "Ins": "79,32"
+   },
+   "Blancs": 302,
+   "% Blancs": {
+      "Ins": "7,02",
+      "Vot": "11,43"
+   },
+   "Exprimés": 2341,
+   "% Exp": {
+      "Ins": "70,26",
+      "Vot": "88,57"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      1614,
+      727
+   ],
+   "% Voix": {
+      "Ins": [
+         "48,44",
+         "21,82"
+      ],
+      "Exp": [
+         "68,94",
+         "31,06"
+      ]
+   }
+},
+ {
+   "Code de la commune": 352,
+   "Libellé de la commune": "Toutlemonde",
+   "Inscrits": 956,
+   "Abstentions": 153,
+   "% Abs": {
+      "Ins": "16"
+   },
+   "Votants": 803,
+   "% Vot": {
+      "Ins": "84"
+   },
+   "Blancs": 101,
+   "% Blancs": {
+      "Ins": "8,05",
+      "Vot": "12,58"
+   },
+   "Exprimés": 702,
+   "% Exp": {
+      "Ins": "73,43",
+      "Vot": "87,42"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      509,
+      193
+   ],
+   "% Voix": {
+      "Ins": [
+         "53,24",
+         "20,19"
+      ],
+      "Exp": [
+         "72,51",
+         "27,49"
+      ]
+   }
+},
+ {
+   "Code de la commune": 353,
+   "Libellé de la commune": "Trélazé",
+   "Inscrits": 9424,
+   "Abstentions": 2260,
+   "% Abs": {
+      "Ins": "23,98"
+   },
+   "Votants": 7164,
+   "% Vot": {
+      "Ins": "76,02"
+   },
+   "Blancs": 853,
+   "% Blancs": {
+      "Ins": "6,96",
+      "Vot": "11,91"
+   },
+   "Exprimés": 6311,
+   "% Exp": {
+      "Ins": "66,97",
+      "Vot": "88,09"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      4806,
+      1505
+   ],
+   "% Voix": {
+      "Ins": [
+         "51",
+         "15,97"
+      ],
+      "Exp": [
+         "76,15",
+         "23,85"
+      ]
+   }
+},
+ {
+   "Code de la commune": 355,
+   "Libellé de la commune": "Trémentines",
+   "Inscrits": 2229,
+   "Abstentions": 453,
+   "% Abs": {
+      "Ins": "20,32"
+   },
+   "Votants": 1776,
+   "% Vot": {
+      "Ins": "79,68"
+   },
+   "Blancs": 219,
+   "% Blancs": {
+      "Ins": "7,18",
+      "Vot": "12,34"
+   },
+   "Exprimés": 1557,
+   "% Exp": {
+      "Ins": "69,85",
+      "Vot": "87,67"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      1152,
+      405
+   ],
+   "% Voix": {
+      "Ins": [
+         "51,68",
+         "18,17"
+      ],
+      "Exp": [
+         "73,99",
+         "26,01"
+      ]
+   }
+},
+ {
+   "Code de la commune": 358,
+   "Libellé de la commune": "Turquant",
+   "Inscrits": 428,
+   "Abstentions": 99,
+   "% Abs": {
+      "Ins": "23,13"
+   },
+   "Votants": 329,
+   "% Vot": {
+      "Ins": "76,87"
+   },
+   "Blancs": 44,
+   "% Blancs": {
+      "Ins": "8,88",
+      "Vot": "13,38"
+   },
+   "Exprimés": 285,
+   "% Exp": {
+      "Ins": "66,59",
+      "Vot": "86,63"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      173,
+      112
+   ],
+   "% Voix": {
+      "Ins": [
+         "40,42",
+         "26,17"
+      ],
+      "Exp": [
+         "60,7",
+         "39,3"
+      ]
+   }
+},
+ {
+   "Code de la commune": 359,
+   "Libellé de la commune": "Les Ulmes",
+   "Inscrits": 405,
+   "Abstentions": 56,
+   "% Abs": {
+      "Ins": "13,83"
+   },
+   "Votants": 349,
+   "% Vot": {
+      "Ins": "86,17"
+   },
+   "Blancs": 31,
+   "% Blancs": {
+      "Ins": "6,17",
+      "Vot": "8,89"
+   },
+   "Exprimés": 318,
+   "% Exp": {
+      "Ins": "78,52",
+      "Vot": "91,12"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      162,
+      156
+   ],
+   "% Voix": {
+      "Ins": [
+         "40",
+         "38,52"
+      ],
+      "Exp": [
+         "50,94",
+         "49,06"
+      ]
+   }
+},
+ {
+   "Code de la commune": 361,
+   "Libellé de la commune": "Varennes-sur-Loire",
+   "Inscrits": 1381,
+   "Abstentions": 298,
+   "% Abs": {
+      "Ins": "21,58"
+   },
+   "Votants": 1083,
+   "% Vot": {
+      "Ins": "78,42"
+   },
+   "Blancs": 109,
+   "% Blancs": {
+      "Ins": "5,87",
+      "Vot": "10,07"
+   },
+   "Exprimés": 974,
+   "% Exp": {
+      "Ins": "70,53",
+      "Vot": "89,94"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      530,
+      444
+   ],
+   "% Voix": {
+      "Ins": [
+         "38,38",
+         "32,15"
+      ],
+      "Exp": [
+         "54,41",
+         "45,59"
+      ]
+   }
+},
+ {
+   "Code de la commune": 362,
+   "Libellé de la commune": "Varrains",
+   "Inscrits": 932,
+   "Abstentions": 178,
+   "% Abs": {
+      "Ins": "19,1"
+   },
+   "Votants": 754,
+   "% Vot": {
+      "Ins": "80,9"
+   },
+   "Blancs": 93,
+   "% Blancs": {
+      "Ins": "8,05",
+      "Vot": "12,34"
+   },
+   "Exprimés": 661,
+   "% Exp": {
+      "Ins": "70,92",
+      "Vot": "87,67"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      476,
+      185
+   ],
+   "% Voix": {
+      "Ins": [
+         "51,07",
+         "19,85"
+      ],
+      "Exp": [
+         "72,01",
+         "27,99"
+      ]
+   }
+},
+ {
+   "Code de la commune": 364,
+   "Libellé de la commune": "Vaudelnay",
+   "Inscrits": 845,
+   "Abstentions": 161,
+   "% Abs": {
+      "Ins": "19,05"
+   },
+   "Votants": 684,
+   "% Vot": {
+      "Ins": "80,95"
+   },
+   "Blancs": 58,
+   "% Blancs": {
+      "Ins": "5,44",
+      "Vot": "8,48"
+   },
+   "Exprimés": 626,
+   "% Exp": {
+      "Ins": "74,08",
+      "Vot": "91,52"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      315,
+      311
+   ],
+   "% Voix": {
+      "Ins": [
+         "37,28",
+         "36,8"
+      ],
+      "Exp": [
+         "50,32",
+         "49,68"
+      ]
+   }
+},
+ {
+   "Code de la commune": 367,
+   "Libellé de la commune": "Erdre-en-Anjou",
+   "Inscrits": 3782,
+   "Abstentions": 720,
+   "% Abs": {
+      "Ins": "19,04"
+   },
+   "Votants": 3062,
+   "% Vot": {
+      "Ins": "80,96"
+   },
+   "Blancs": 341,
+   "% Blancs": {
+      "Ins": "7,17",
+      "Vot": "11,14"
+   },
+   "Exprimés": 2721,
+   "% Exp": {
+      "Ins": "71,95",
+      "Vot": "88,86"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      1862,
+      859
+   ],
+   "% Voix": {
+      "Ins": [
+         "49,23",
+         "22,71"
+      ],
+      "Exp": [
+         "68,43",
+         "31,57"
+      ]
+   }
+},
+ {
+   "Code de la commune": 368,
+   "Libellé de la commune": "Vernantes",
+   "Inscrits": 1211,
+   "Abstentions": 285,
+   "% Abs": {
+      "Ins": "23,53"
+   },
+   "Votants": 926,
+   "% Vot": {
+      "Ins": "76,47"
+   },
+   "Blancs": 145,
+   "% Blancs": {
+      "Ins": "9,99",
+      "Vot": "15,66"
+   },
+   "Exprimés": 781,
+   "% Exp": {
+      "Ins": "64,49",
+      "Vot": "84,34"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      431,
+      350
+   ],
+   "% Voix": {
+      "Ins": [
+         "35,59",
+         "28,9"
+      ],
+      "Exp": [
+         "55,19",
+         "44,81"
+      ]
+   }
+},
+ {
+   "Code de la commune": 369,
+   "Libellé de la commune": "Vernoil-le-Fourrier",
+   "Inscrits": 877,
+   "Abstentions": 208,
+   "% Abs": {
+      "Ins": "23,72"
+   },
+   "Votants": 669,
+   "% Vot": {
+      "Ins": "76,28"
+   },
+   "Blancs": 73,
+   "% Blancs": {
+      "Ins": "6,73",
+      "Vot": "10,92"
+   },
+   "Exprimés": 596,
+   "% Exp": {
+      "Ins": "67,96",
+      "Vot": "89,09"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      335,
+      261
+   ],
+   "% Voix": {
+      "Ins": [
+         "38,2",
+         "29,76"
+      ],
+      "Exp": [
+         "56,21",
+         "43,79"
+      ]
+   }
+},
+ {
+   "Code de la commune": 370,
+   "Libellé de la commune": "Verrie",
+   "Inscrits": 374,
+   "Abstentions": 72,
+   "% Abs": {
+      "Ins": "19,25"
+   },
+   "Votants": 302,
+   "% Vot": {
+      "Ins": "80,75"
+   },
+   "Blancs": 42,
+   "% Blancs": {
+      "Ins": "8,29",
+      "Vot": "13,91"
+   },
+   "Exprimés": 260,
+   "% Exp": {
+      "Ins": "69,52",
+      "Vot": "86,09"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      131,
+      129
+   ],
+   "% Voix": {
+      "Ins": [
+         "35,03",
+         "34,49"
+      ],
+      "Exp": [
+         "50,38",
+         "49,62"
+      ]
+   }
+},
+ {
+   "Code de la commune": 371,
+   "Libellé de la commune": "Vezins",
+   "Inscrits": 1235,
+   "Abstentions": 203,
+   "% Abs": {
+      "Ins": "16,44"
+   },
+   "Votants": 1032,
+   "% Vot": {
+      "Ins": "83,56"
+   },
+   "Blancs": 133,
+   "% Blancs": {
+      "Ins": "8,91",
+      "Vot": "12,89"
+   },
+   "Exprimés": 899,
+   "% Exp": {
+      "Ins": "72,79",
+      "Vot": "87,11"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      586,
+      313
+   ],
+   "% Voix": {
+      "Ins": [
+         "47,45",
+         "25,34"
+      ],
+      "Exp": [
+         "65,18",
+         "34,82"
+      ]
+   }
+},
+ {
+   "Code de la commune": 373,
+   "Libellé de la commune": "Lys-Haut-Layon",
+   "Inscrits": 5592,
+   "Abstentions": 1091,
+   "% Abs": {
+      "Ins": "19,51"
+   },
+   "Votants": 4501,
+   "% Vot": {
+      "Ins": "80,49"
+   },
+   "Blancs": 534,
+   "% Blancs": {
+      "Ins": "7,01",
+      "Vot": "11,87"
+   },
+   "Exprimés": 3967,
+   "% Exp": {
+      "Ins": "70,94",
+      "Vot": "88,14"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      2633,
+      1334
+   ],
+   "% Voix": {
+      "Ins": [
+         "47,09",
+         "23,86"
+      ],
+      "Exp": [
+         "66,37",
+         "33,63"
+      ]
+   }
+},
+ {
+   "Code de la commune": 374,
+   "Libellé de la commune": "Villebernier",
+   "Inscrits": 1130,
+   "Abstentions": 263,
+   "% Abs": {
+      "Ins": "23,27"
+   },
+   "Votants": 867,
+   "% Vot": {
+      "Ins": "76,73"
+   },
+   "Blancs": 80,
+   "% Blancs": {
+      "Ins": "5,22",
+      "Vot": "9,23"
+   },
+   "Exprimés": 787,
+   "% Exp": {
+      "Ins": "69,65",
+      "Vot": "90,77"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      444,
+      343
+   ],
+   "% Voix": {
+      "Ins": [
+         "39,29",
+         "30,35"
+      ],
+      "Exp": [
+         "56,42",
+         "43,58"
+      ]
+   }
+},
+ {
+   "Code de la commune": 377,
+   "Libellé de la commune": "Villevêque",
+   "Inscrits": 2235,
+   "Abstentions": 400,
+   "% Abs": {
+      "Ins": "17,9"
+   },
+   "Votants": 1835,
+   "% Vot": {
+      "Ins": "82,1"
+   },
+   "Blancs": 209,
+   "% Blancs": {
+      "Ins": "2,15",
+      "Vot": "11,39"
+   },
+   "Exprimés": 1626,
+   "% Exp": {
+      "Ins": "72,75",
+      "Vot": "88,61"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      1224,
+      402
+   ],
+   "% Voix": {
+      "Ins": [
+         "54,77",
+         "17,99"
+      ],
+      "Exp": [
+         "75,28",
+         "24,72"
+      ]
+   }
+},
+ {
+   "Code de la commune": 378,
+   "Libellé de la commune": "Vivy",
+   "Inscrits": 1781,
+   "Abstentions": 391,
+   "% Abs": {
+      "Ins": "21,95"
+   },
+   "Votants": 1390,
+   "% Vot": {
+      "Ins": "78,05"
+   },
+   "Blancs": 137,
+   "% Blancs": {
+      "Ins": "6,23",
+      "Vot": "9,86"
+   },
+   "Exprimés": 1253,
+   "% Exp": {
+      "Ins": "70,35",
+      "Vot": "90,14"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      674,
+      579
+   ],
+   "% Voix": {
+      "Ins": [
+         "37,84",
+         "32,51"
+      ],
+      "Exp": [
+         "53,79",
+         "46,21"
+      ]
+   }
+},
+ {
+   "Code de la commune": 381,
+   "Libellé de la commune": "Yzernay",
+   "Inscrits": 1367,
+   "Abstentions": 262,
+   "% Abs": {
+      "Ins": "19,17"
+   },
+   "Votants": 1105,
+   "% Vot": {
+      "Ins": "80,83"
+   },
+   "Blancs": 120,
+   "% Blancs": {
+      "Ins": "7,46",
+      "Vot": "10,86"
+   },
+   "Exprimés": 985,
+   "% Exp": {
+      "Ins": "72,06",
+      "Vot": "89,14"
+   },
+   "Sexe": [
+      "M",
+      "F"
+   ],
+   "Nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "Voix": [
+      706,
+      279
+   ],
+   "% Voix": {
+      "Ins": [
+         "51,65",
+         "20,41"
+      ],
+      "Exp": [
+         "71,68",
+         "28,32"
+      ]
+   }
+}
+]

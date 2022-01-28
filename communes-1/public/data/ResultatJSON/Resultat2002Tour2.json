@@ -1,0 +1,9116 @@
+[
+ {
+   "code": 2,
+   "Libellé de la commune": "Allonnes",
+   "Inscrits": 1784,
+   "Abstentions": 286,
+   "% Abs": {
+      "Ins": 16.03
+   },
+   "Votants": 1498,
+   "% Vot": {
+      "Ins": 83.97
+   },
+   "Blancs et nuls": 78,
+   "% BlNuls": {
+      "Ins": 4.37,
+      "Vot": 5.21
+   },
+   "Exprimés": 1420,
+   "% Exp": {
+      "Ins": 79.6,
+      "Vot": 94.79
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      1122,
+      298
+   ],
+   "% Voix": {
+      "Ins": [
+         62.89,
+         16.7
+      ],
+      "Exp": [
+         79.01,
+         20.99
+      ]
+   }
+},
+ {
+   "code": 3,
+   "Libellé de la commune": "Tuffalun",
+   "Inscrits": 1062,
+   "Abstentions": 171,
+   "% Abs": {
+      "Ins": 16.1
+   },
+   "Votants": 891,
+   "% Vot": {
+      "Ins": 83.9
+   },
+   "Blancs et nuls": 48,
+   "% BlNuls": {
+      "Ins": 4.52,
+      "Vot": 5.39
+   },
+   "Exprimés": 843,
+   "% Exp": {
+      "Ins": 79.38,
+      "Vot": 94.61
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      712,
+      131
+   ],
+   "% Voix": {
+      "Ins": [
+         67.04,
+         12.34
+      ],
+      "Exp": [
+         84.46,
+         15.54
+      ]
+   }
+},
+ {
+   "code": 7,
+   "Libellé de la commune": "Angers",
+   "Inscrits": 84082,
+   "Abstentions": 17286,
+   "% Abs": {
+      "Ins": 20.56
+   },
+   "Votants": 66796,
+   "% Vot": {
+      "Ins": 79.44
+   },
+   "Blancs et nuls": 2771,
+   "% BlNuls": {
+      "Ins": 3.3,
+      "Vot": 4.15
+   },
+   "Exprimés": 64025,
+   "% Exp": {
+      "Ins": 76.15,
+      "Vot": 95.85
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      57763,
+      6262
+   ],
+   "% Voix": {
+      "Ins": [
+         68.7,
+         7.45
+      ],
+      "Exp": [
+         90.22,
+         9.78
+      ]
+   }
+},
+ {
+   "code": 8,
+   "Libellé de la commune": "Angrie",
+   "Inscrits": 550,
+   "Abstentions": 82,
+   "% Abs": {
+      "Ins": 14.91
+   },
+   "Votants": 468,
+   "% Vot": {
+      "Ins": 85.09
+   },
+   "Blancs et nuls": 13,
+   "% BlNuls": {
+      "Ins": 2.36,
+      "Vot": 2.78
+   },
+   "Exprimés": 455,
+   "% Exp": {
+      "Ins": 82.73,
+      "Vot": 97.22
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      388,
+      67
+   ],
+   "% Voix": {
+      "Ins": [
+         70.55,
+         12.18
+      ],
+      "Exp": [
+         85.27,
+         14.73
+      ]
+   }
+},
+ {
+   "code": 9,
+   "Libellé de la commune": "Antoigné",
+   "Inscrits": 306,
+   "Abstentions": 73,
+   "% Abs": {
+      "Ins": 23.86
+   },
+   "Votants": 233,
+   "% Vot": {
+      "Ins": 76.14
+   },
+   "Blancs et nuls": 22,
+   "% BlNuls": {
+      "Ins": 7.19,
+      "Vot": 9.44
+   },
+   "Exprimés": 211,
+   "% Exp": {
+      "Ins": 68.95,
+      "Vot": 90.56
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      172,
+      39
+   ],
+   "% Voix": {
+      "Ins": [
+         56.21,
+         12.75
+      ],
+      "Exp": [
+         81.52,
+         18.48
+      ]
+   }
+},
+ {
+   "code": 10,
+   "Libellé de la commune": "Armaillé",
+   "Inscrits": 206,
+   "Abstentions": 27,
+   "% Abs": {
+      "Ins": 13.11
+   },
+   "Votants": 179,
+   "% Vot": {
+      "Ins": 86.89
+   },
+   "Blancs et nuls": 6,
+   "% BlNuls": {
+      "Ins": 2.91,
+      "Vot": 3.35
+   },
+   "Exprimés": 173,
+   "% Exp": {
+      "Ins": 83.98,
+      "Vot": 96.65
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      144,
+      29
+   ],
+   "% Voix": {
+      "Ins": [
+         69.9,
+         14.08
+      ],
+      "Exp": [
+         83.24,
+         16.76
+      ]
+   }
+},
+ {
+   "code": 11,
+   "Libellé de la commune": "Artannes-sur-Thouet",
+   "Inscrits": 279,
+   "Abstentions": 39,
+   "% Abs": {
+      "Ins": 13.98
+   },
+   "Votants": 240,
+   "% Vot": {
+      "Ins": 86.02
+   },
+   "Blancs et nuls": 16,
+   "% BlNuls": {
+      "Ins": 5.73,
+      "Vot": 6.67
+   },
+   "Exprimés": 224,
+   "% Exp": {
+      "Ins": 80.29,
+      "Vot": 93.33
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      180,
+      44
+   ],
+   "% Voix": {
+      "Ins": [
+         64.52,
+         15.77
+      ],
+      "Exp": [
+         80.36,
+         19.64
+      ]
+   }
+},
+ {
+   "code": 12,
+   "Libellé de la commune": "Aubigné-sur-Layon",
+   "Inscrits": 274,
+   "Abstentions": 36,
+   "% Abs": {
+      "Ins": 13.14
+   },
+   "Votants": 238,
+   "% Vot": {
+      "Ins": 86.86
+   },
+   "Blancs et nuls": 12,
+   "% BlNuls": {
+      "Ins": 4.38,
+      "Vot": 5.04
+   },
+   "Exprimés": 226,
+   "% Exp": {
+      "Ins": 82.48,
+      "Vot": 94.96
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      190,
+      36
+   ],
+   "% Voix": {
+      "Ins": [
+         69.34,
+         13.14
+      ],
+      "Exp": [
+         84.07,
+         15.93
+      ]
+   }
+},
+ {
+   "code": 15,
+   "Libellé de la commune": "Avrillé",
+   "Inscrits": 9481,
+   "Abstentions": 1572,
+   "% Abs": {
+      "Ins": 16.58
+   },
+   "Votants": 7909,
+   "% Vot": {
+      "Ins": 83.42
+   },
+   "Blancs et nuls": 334,
+   "% BlNuls": {
+      "Ins": 3.52,
+      "Vot": 4.22
+   },
+   "Exprimés": 7575,
+   "% Exp": {
+      "Ins": 79.9,
+      "Vot": 95.78
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      6871,
+      704
+   ],
+   "% Voix": {
+      "Ins": [
+         72.47,
+         7.43
+      ],
+      "Exp": [
+         90.71,
+         9.29
+      ]
+   }
+},
+ {
+   "code": 17,
+   "Libellé de la commune": "Baracé",
+   "Inscrits": 260,
+   "Abstentions": 45,
+   "% Abs": {
+      "Ins": 17.31
+   },
+   "Votants": 215,
+   "% Vot": {
+      "Ins": 82.69
+   },
+   "Blancs et nuls": 8,
+   "% BlNuls": {
+      "Ins": 3.08,
+      "Vot": 3.72
+   },
+   "Exprimés": 207,
+   "% Exp": {
+      "Ins": 79.62,
+      "Vot": 96.28
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      171,
+      36
+   ],
+   "% Voix": {
+      "Ins": [
+         65.77,
+         13.85
+      ],
+      "Exp": [
+         82.61,
+         17.39
+      ]
+   }
+},
+ {
+   "code": 18,
+   "Libellé de la commune": "Baugé-en-Anjou",
+   "Inscrits": 7858,
+   "Abstentions": 1517,
+   "% Abs": {
+      "Ins": 19.31
+   },
+   "Votants": 6341,
+   "% Vot": {
+      "Ins": 80.69
+   },
+   "Blancs et nuls": 319,
+   "% BlNuls": {
+      "Ins": 4.06,
+      "Vot": 5.03
+   },
+   "Exprimés": 6022,
+   "% Exp": {
+      "Ins": 76.64,
+      "Vot": 94.97
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      5072,
+      950
+   ],
+   "% Voix": {
+      "Ins": [
+         64.55,
+         12.09
+      ],
+      "Exp": [
+         84.22,
+         15.78
+      ]
+   }
+},
+ {
+   "code": 20,
+   "Libellé de la commune": "Beaucouzé",
+   "Inscrits": 3437,
+   "Abstentions": 412,
+   "% Abs": {
+      "Ins": 11.99
+   },
+   "Votants": 3025,
+   "% Vot": {
+      "Ins": 88.01
+   },
+   "Blancs et nuls": 144,
+   "% BlNuls": {
+      "Ins": 4.19,
+      "Vot": 4.76
+   },
+   "Exprimés": 2881,
+   "% Exp": {
+      "Ins": 83.82,
+      "Vot": 95.24
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      2664,
+      217
+   ],
+   "% Voix": {
+      "Ins": [
+         77.51,
+         6.31
+      ],
+      "Exp": [
+         92.47,
+         7.53
+      ]
+   }
+},
+ {
+   "code": 21,
+   "Libellé de la commune": "Beaufort-en-Anjou",
+   "Inscrits": 4164,
+   "Abstentions": 847,
+   "% Abs": {
+      "Ins": 20.34
+   },
+   "Votants": 3317,
+   "% Vot": {
+      "Ins": 79.66
+   },
+   "Blancs et nuls": 187,
+   "% BlNuls": {
+      "Ins": 4.49,
+      "Vot": 5.64
+   },
+   "Exprimés": 3130,
+   "% Exp": {
+      "Ins": 75.17,
+      "Vot": 94.36
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      2686,
+      444
+   ],
+   "% Voix": {
+      "Ins": [
+         64.51,
+         10.66
+      ],
+      "Exp": [
+         85.81,
+         14.19
+      ]
+   }
+},
+ {
+   "code": 22,
+   "Libellé de la commune": "Beaulieu-sur-Layon",
+   "Inscrits": 867,
+   "Abstentions": 107,
+   "% Abs": {
+      "Ins": 12.34
+   },
+   "Votants": 760,
+   "% Vot": {
+      "Ins": 87.66
+   },
+   "Blancs et nuls": 52,
+   "% BlNuls": {
+      "Ins": 6,
+      "Vot": 6.84
+   },
+   "Exprimés": 708,
+   "% Exp": {
+      "Ins": 81.66,
+      "Vot": 93.16
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      602,
+      106
+   ],
+   "% Voix": {
+      "Ins": [
+         69.43,
+         12.23
+      ],
+      "Exp": [
+         85.03,
+         14.97
+      ]
+   }
+},
+ {
+   "code": 23,
+   "Libellé de la commune": "Beaupréau-en-Mauges",
+   "Inscrits": 15567,
+   "Abstentions": 2448,
+   "% Abs": {
+      "Ins": 15.73
+   },
+   "Votants": 13119,
+   "% Vot": {
+      "Ins": 84.27
+   },
+   "Blancs et nuls": 596,
+   "% BlNuls": {
+      "Ins": 3.83,
+      "Vot": 4.54
+   },
+   "Exprimés": 12523,
+   "% Exp": {
+      "Ins": 80.45,
+      "Vot": 95.46
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      11277,
+      1246
+   ],
+   "% Voix": {
+      "Ins": [
+         72.44,
+         8
+      ],
+      "Exp": [
+         90.05,
+         9.95
+      ]
+   }
+},
+ {
+   "code": 26,
+   "Libellé de la commune": "Bécon-les-Granits",
+   "Inscrits": 1758,
+   "Abstentions": 245,
+   "% Abs": {
+      "Ins": 13.94
+   },
+   "Votants": 1513,
+   "% Vot": {
+      "Ins": 86.06
+   },
+   "Blancs et nuls": 67,
+   "% BlNuls": {
+      "Ins": 3.81,
+      "Vot": 4.43
+   },
+   "Exprimés": 1446,
+   "% Exp": {
+      "Ins": 82.25,
+      "Vot": 95.57
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      1218,
+      228
+   ],
+   "% Voix": {
+      "Ins": [
+         69.28,
+         12.97
+      ],
+      "Exp": [
+         84.23,
+         15.77
+      ]
+   }
+},
+ {
+   "code": 27,
+   "Libellé de la commune": "Bégrolles-en-Mauges",
+   "Inscrits": 1173,
+   "Abstentions": 139,
+   "% Abs": {
+      "Ins": 11.85
+   },
+   "Votants": 1034,
+   "% Vot": {
+      "Ins": 88.15
+   },
+   "Blancs et nuls": 59,
+   "% BlNuls": {
+      "Ins": 5.03,
+      "Vot": 5.71
+   },
+   "Exprimés": 975,
+   "% Exp": {
+      "Ins": 83.12,
+      "Vot": 94.29
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      850,
+      125
+   ],
+   "% Voix": {
+      "Ins": [
+         72.46,
+         10.66
+      ],
+      "Exp": [
+         87.18,
+         12.82
+      ]
+   }
+},
+ {
+   "code": 28,
+   "Libellé de la commune": "Béhuard",
+   "Inscrits": 90,
+   "Abstentions": 14,
+   "% Abs": {
+      "Ins": 15.56
+   },
+   "Votants": 76,
+   "% Vot": {
+      "Ins": 84.44
+   },
+   "Blancs et nuls": 3,
+   "% BlNuls": {
+      "Ins": 3.33,
+      "Vot": 3.95
+   },
+   "Exprimés": 73,
+   "% Exp": {
+      "Ins": 81.11,
+      "Vot": 96.05
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      69,
+      4
+   ],
+   "% Voix": {
+      "Ins": [
+         76.67,
+         4.44
+      ],
+      "Exp": [
+         94.52,
+         5.48
+      ]
+   }
+},
+ {
+   "code": 29,
+   "Libellé de la commune": "Blaison-Saint-Sulpice",
+   "Inscrits": 908,
+   "Abstentions": 121,
+   "% Abs": {
+      "Ins": 13.33
+   },
+   "Votants": 787,
+   "% Vot": {
+      "Ins": 86.67
+   },
+   "Blancs et nuls": 36,
+   "% BlNuls": {
+      "Ins": 3.96,
+      "Vot": 4.57
+   },
+   "Exprimés": 751,
+   "% Exp": {
+      "Ins": 82.71,
+      "Vot": 95.43
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      674,
+      77
+   ],
+   "% Voix": {
+      "Ins": [
+         74.23,
+         8.48
+      ],
+      "Exp": [
+         89.75,
+         10.25
+      ]
+   }
+},
+ {
+   "code": 30,
+   "Libellé de la commune": "Blou",
+   "Inscrits": 604,
+   "Abstentions": 116,
+   "% Abs": {
+      "Ins": 19.21
+   },
+   "Votants": 488,
+   "% Vot": {
+      "Ins": 80.79
+   },
+   "Blancs et nuls": 24,
+   "% BlNuls": {
+      "Ins": 3.97,
+      "Vot": 4.92
+   },
+   "Exprimés": 464,
+   "% Exp": {
+      "Ins": 76.82,
+      "Vot": 95.08
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      394,
+      70
+   ],
+   "% Voix": {
+      "Ins": [
+         65.23,
+         11.59
+      ],
+      "Exp": [
+         84.91,
+         15.09
+      ]
+   }
+},
+ {
+   "code": 35,
+   "Libellé de la commune": "Bouchemaine",
+   "Inscrits": 4750,
+   "Abstentions": 653,
+   "% Abs": {
+      "Ins": 13.75
+   },
+   "Votants": 4097,
+   "% Vot": {
+      "Ins": 86.25
+   },
+   "Blancs et nuls": 177,
+   "% BlNuls": {
+      "Ins": 3.73,
+      "Vot": 4.32
+   },
+   "Exprimés": 3920,
+   "% Exp": {
+      "Ins": 82.53,
+      "Vot": 95.68
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      3589,
+      331
+   ],
+   "% Voix": {
+      "Ins": [
+         75.56,
+         6.97
+      ],
+      "Exp": [
+         91.56,
+         8.44
+      ]
+   }
+},
+ {
+   "code": 36,
+   "Libellé de la commune": "Bouillé-Ménard",
+   "Inscrits": 519,
+   "Abstentions": 89,
+   "% Abs": {
+      "Ins": 17.15
+   },
+   "Votants": 430,
+   "% Vot": {
+      "Ins": 82.85
+   },
+   "Blancs et nuls": 30,
+   "% BlNuls": {
+      "Ins": 5.78,
+      "Vot": 6.98
+   },
+   "Exprimés": 400,
+   "% Exp": {
+      "Ins": 77.07,
+      "Vot": 93.02
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      346,
+      54
+   ],
+   "% Voix": {
+      "Ins": [
+         66.67,
+         10.4
+      ],
+      "Exp": [
+         86.5,
+         13.5
+      ]
+   }
+},
+ {
+   "code": 38,
+   "Libellé de la commune": "Bourg-l'Evêque",
+   "Inscrits": 165,
+   "Abstentions": 18,
+   "% Abs": {
+      "Ins": 10.91
+   },
+   "Votants": 147,
+   "% Vot": {
+      "Ins": 89.09
+   },
+   "Blancs et nuls": 5,
+   "% BlNuls": {
+      "Ins": 3.03,
+      "Vot": 3.4
+   },
+   "Exprimés": 142,
+   "% Exp": {
+      "Ins": 86.06,
+      "Vot": 96.6
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      133,
+      9
+   ],
+   "% Voix": {
+      "Ins": [
+         80.61,
+         5.45
+      ],
+      "Exp": [
+         93.66,
+         6.34
+      ]
+   }
+},
+ {
+   "code": 41,
+   "Libellé de la commune": "Brain-sur-Allonnes",
+   "Inscrits": 1383,
+   "Abstentions": 289,
+   "% Abs": {
+      "Ins": 20.9
+   },
+   "Votants": 1094,
+   "% Vot": {
+      "Ins": 79.1
+   },
+   "Blancs et nuls": 52,
+   "% BlNuls": {
+      "Ins": 3.76,
+      "Vot": 4.75
+   },
+   "Exprimés": 1042,
+   "% Exp": {
+      "Ins": 75.34,
+      "Vot": 95.25
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      841,
+      201
+   ],
+   "% Voix": {
+      "Ins": [
+         60.81,
+         14.53
+      ],
+      "Exp": [
+         80.71,
+         19.29
+      ]
+   }
+},
+ {
+   "code": 45,
+   "Libellé de la commune": "La Breille-les-Pins",
+   "Inscrits": 283,
+   "Abstentions": 37,
+   "% Abs": {
+      "Ins": 13.07
+   },
+   "Votants": 246,
+   "% Vot": {
+      "Ins": 86.93
+   },
+   "Blancs et nuls": 8,
+   "% BlNuls": {
+      "Ins": 2.83,
+      "Vot": 3.25
+   },
+   "Exprimés": 238,
+   "% Exp": {
+      "Ins": 84.1,
+      "Vot": 96.75
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      178,
+      60
+   ],
+   "% Voix": {
+      "Ins": [
+         62.9,
+         21.2
+      ],
+      "Exp": [
+         74.79,
+         25.21
+      ]
+   }
+},
+ {
+   "code": 46,
+   "Libellé de la commune": "Brézé",
+   "Inscrits": 873,
+   "Abstentions": 167,
+   "% Abs": {
+      "Ins": 19.13
+   },
+   "Votants": 706,
+   "% Vot": {
+      "Ins": 80.87
+   },
+   "Blancs et nuls": 46,
+   "% BlNuls": {
+      "Ins": 5.27,
+      "Vot": 6.52
+   },
+   "Exprimés": 660,
+   "% Exp": {
+      "Ins": 75.6,
+      "Vot": 93.48
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      508,
+      152
+   ],
+   "% Voix": {
+      "Ins": [
+         58.19,
+         17.41
+      ],
+      "Exp": [
+         76.97,
+         23.03
+      ]
+   }
+},
+ {
+   "code": 48,
+   "Libellé de la commune": "Briollay",
+   "Inscrits": 1715,
+   "Abstentions": 228,
+   "% Abs": {
+      "Ins": 13.29
+   },
+   "Votants": 1487,
+   "% Vot": {
+      "Ins": 86.71
+   },
+   "Blancs et nuls": 68,
+   "% BlNuls": {
+      "Ins": 3.97,
+      "Vot": 4.57
+   },
+   "Exprimés": 1419,
+   "% Exp": {
+      "Ins": 82.74,
+      "Vot": 95.43
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      1236,
+      183
+   ],
+   "% Voix": {
+      "Ins": [
+         72.07,
+         10.67
+      ],
+      "Exp": [
+         87.1,
+         12.9
+      ]
+   }
+},
+ {
+   "code": 50,
+   "Libellé de la commune": "Brissac-Loire-Aubance",
+   "Inscrits": 6558,
+   "Abstentions": 864,
+   "% Abs": {
+      "Ins": 13.17
+   },
+   "Votants": 5694,
+   "% Vot": {
+      "Ins": 86.83
+   },
+   "Blancs et nuls": 323,
+   "% BlNuls": {
+      "Ins": 4.93,
+      "Vot": 5.67
+   },
+   "Exprimés": 5371,
+   "% Exp": {
+      "Ins": 81.9,
+      "Vot": 94.33
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      4728,
+      643
+   ],
+   "% Voix": {
+      "Ins": [
+         72.1,
+         9.8
+      ],
+      "Exp": [
+         88.03,
+         11.97
+      ]
+   }
+},
+ {
+   "code": 53,
+   "Libellé de la commune": "Brossay",
+   "Inscrits": 217,
+   "Abstentions": 51,
+   "% Abs": {
+      "Ins": 23.5
+   },
+   "Votants": 166,
+   "% Vot": {
+      "Ins": 76.5
+   },
+   "Blancs et nuls": 9,
+   "% BlNuls": {
+      "Ins": 4.15,
+      "Vot": 5.42
+   },
+   "Exprimés": 157,
+   "% Exp": {
+      "Ins": 72.35,
+      "Vot": 94.58
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      114,
+      43
+   ],
+   "% Voix": {
+      "Ins": [
+         52.53,
+         19.82
+      ],
+      "Exp": [
+         72.61,
+         27.39
+      ]
+   }
+},
+ {
+   "code": 54,
+   "Libellé de la commune": "Candé",
+   "Inscrits": 1857,
+   "Abstentions": 304,
+   "% Abs": {
+      "Ins": 16.37
+   },
+   "Votants": 1553,
+   "% Vot": {
+      "Ins": 83.63
+   },
+   "Blancs et nuls": 63,
+   "% BlNuls": {
+      "Ins": 3.39,
+      "Vot": 4.06
+   },
+   "Exprimés": 1490,
+   "% Exp": {
+      "Ins": 80.24,
+      "Vot": 95.94
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      1302,
+      188
+   ],
+   "% Voix": {
+      "Ins": [
+         70.11,
+         10.12
+      ],
+      "Exp": [
+         87.38,
+         12.62
+      ]
+   }
+},
+ {
+   "code": 55,
+   "Libellé de la commune": "Cantenay-Epinard",
+   "Inscrits": 1317,
+   "Abstentions": 134,
+   "% Abs": {
+      "Ins": 10.17
+   },
+   "Votants": 1183,
+   "% Vot": {
+      "Ins": 89.83
+   },
+   "Blancs et nuls": 41,
+   "% BlNuls": {
+      "Ins": 3.11,
+      "Vot": 3.47
+   },
+   "Exprimés": 1142,
+   "% Exp": {
+      "Ins": 86.71,
+      "Vot": 96.53
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      1039,
+      103
+   ],
+   "% Voix": {
+      "Ins": [
+         78.89,
+         7.82
+      ],
+      "Exp": [
+         90.98,
+         9.02
+      ]
+   }
+},
+ {
+   "code": 56,
+   "Libellé de la commune": "Carbay",
+   "Inscrits": 177,
+   "Abstentions": 17,
+   "% Abs": {
+      "Ins": 9.6
+   },
+   "Votants": 160,
+   "% Vot": {
+      "Ins": 90.4
+   },
+   "Blancs et nuls": 5,
+   "% BlNuls": {
+      "Ins": 2.82,
+      "Vot": 3.13
+   },
+   "Exprimés": 155,
+   "% Exp": {
+      "Ins": 87.57,
+      "Vot": 96.88
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      126,
+      29
+   ],
+   "% Voix": {
+      "Ins": [
+         71.19,
+         16.38
+      ],
+      "Exp": [
+         81.29,
+         18.71
+      ]
+   }
+},
+ {
+   "code": 57,
+   "Libellé de la commune": "Cernusson",
+   "Inscrits": 195,
+   "Abstentions": 23,
+   "% Abs": {
+      "Ins": 11.79
+   },
+   "Votants": 172,
+   "% Vot": {
+      "Ins": 88.21
+   },
+   "Blancs et nuls": 3,
+   "% BlNuls": {
+      "Ins": 1.54,
+      "Vot": 1.74
+   },
+   "Exprimés": 169,
+   "% Exp": {
+      "Ins": 86.67,
+      "Vot": 98.26
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      135,
+      34
+   ],
+   "% Voix": {
+      "Ins": [
+         69.23,
+         17.44
+      ],
+      "Exp": [
+         79.88,
+         20.12
+      ]
+   }
+},
+ {
+   "code": 58,
+   "Libellé de la commune": "Les Cerqueux",
+   "Inscrits": 497,
+   "Abstentions": 75,
+   "% Abs": {
+      "Ins": 15.09
+   },
+   "Votants": 422,
+   "% Vot": {
+      "Ins": 84.91
+   },
+   "Blancs et nuls": 12,
+   "% BlNuls": {
+      "Ins": 2.41,
+      "Vot": 2.84
+   },
+   "Exprimés": 410,
+   "% Exp": {
+      "Ins": 82.49,
+      "Vot": 97.16
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      367,
+      43
+   ],
+   "% Voix": {
+      "Ins": [
+         73.84,
+         8.65
+      ],
+      "Exp": [
+         89.51,
+         10.49
+      ]
+   }
+},
+ {
+   "code": 60,
+   "Libellé de la commune": "Chacé",
+   "Inscrits": 978,
+   "Abstentions": 169,
+   "% Abs": {
+      "Ins": 17.28
+   },
+   "Votants": 809,
+   "% Vot": {
+      "Ins": 82.72
+   },
+   "Blancs et nuls": 32,
+   "% BlNuls": {
+      "Ins": 3.27,
+      "Vot": 3.96
+   },
+   "Exprimés": 777,
+   "% Exp": {
+      "Ins": 79.45,
+      "Vot": 96.04
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      627,
+      150
+   ],
+   "% Voix": {
+      "Ins": [
+         64.11,
+         15.34
+      ],
+      "Exp": [
+         80.69,
+         19.31
+      ]
+   }
+},
+ {
+   "code": 61,
+   "Libellé de la commune": "Challain-la-Potherie",
+   "Inscrits": 615,
+   "Abstentions": 64,
+   "% Abs": {
+      "Ins": 10.41
+   },
+   "Votants": 551,
+   "% Vot": {
+      "Ins": 89.59
+   },
+   "Blancs et nuls": 10,
+   "% BlNuls": {
+      "Ins": 1.63,
+      "Vot": 1.81
+   },
+   "Exprimés": 541,
+   "% Exp": {
+      "Ins": 87.97,
+      "Vot": 98.19
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      475,
+      66
+   ],
+   "% Voix": {
+      "Ins": [
+         77.24,
+         10.73
+      ],
+      "Exp": [
+         87.8,
+         12.2
+      ]
+   }
+},
+ {
+   "code": 63,
+   "Libellé de la commune": "Chalonnes-sur-Loire",
+   "Inscrits": 4436,
+   "Abstentions": 833,
+   "% Abs": {
+      "Ins": 18.78
+   },
+   "Votants": 3603,
+   "% Vot": {
+      "Ins": 81.22
+   },
+   "Blancs et nuls": 178,
+   "% BlNuls": {
+      "Ins": 4.01,
+      "Vot": 4.94
+   },
+   "Exprimés": 3425,
+   "% Exp": {
+      "Ins": 77.21,
+      "Vot": 95.06
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      3042,
+      383
+   ],
+   "% Voix": {
+      "Ins": [
+         68.58,
+         8.63
+      ],
+      "Exp": [
+         88.82,
+         11.18
+      ]
+   }
+},
+ {
+   "code": 64,
+   "Libellé de la commune": "Chambellay",
+   "Inscrits": 238,
+   "Abstentions": 26,
+   "% Abs": {
+      "Ins": 10.92
+   },
+   "Votants": 212,
+   "% Vot": {
+      "Ins": 89.08
+   },
+   "Blancs et nuls": 8,
+   "% BlNuls": {
+      "Ins": 3.36,
+      "Vot": 3.77
+   },
+   "Exprimés": 204,
+   "% Exp": {
+      "Ins": 85.71,
+      "Vot": 96.23
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      172,
+      32
+   ],
+   "% Voix": {
+      "Ins": [
+         72.27,
+         13.45
+      ],
+      "Exp": [
+         84.31,
+         15.69
+      ]
+   }
+},
+ {
+   "code": 65,
+   "Libellé de la commune": "Les Hauts-d'Anjou",
+   "Inscrits": 3138,
+   "Abstentions": 500,
+   "% Abs": {
+      "Ins": 15.93
+   },
+   "Votants": 2638,
+   "% Vot": {
+      "Ins": 84.07
+   },
+   "Blancs et nuls": 102,
+   "% BlNuls": {
+      "Ins": 3.25,
+      "Vot": 3.87
+   },
+   "Exprimés": 2536,
+   "% Exp": {
+      "Ins": 80.82,
+      "Vot": 96.13
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      2219,
+      317
+   ],
+   "% Voix": {
+      "Ins": [
+         70.71,
+         10.1
+      ],
+      "Exp": [
+         87.5,
+         12.5
+      ]
+   }
+},
+ {
+   "code": 67,
+   "Libellé de la commune": "Chenillé-Champteussé",
+   "Inscrits": 251,
+   "Abstentions": 42,
+   "% Abs": {
+      "Ins": 16.73
+   },
+   "Votants": 209,
+   "% Vot": {
+      "Ins": 83.27
+   },
+   "Blancs et nuls": 14,
+   "% BlNuls": {
+      "Ins": 5.58,
+      "Vot": 6.7
+   },
+   "Exprimés": 195,
+   "% Exp": {
+      "Ins": 77.69,
+      "Vot": 93.3
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      168,
+      27
+   ],
+   "% Voix": {
+      "Ins": [
+         66.93,
+         10.76
+      ],
+      "Exp": [
+         86.15,
+         13.85
+      ]
+   }
+},
+ {
+   "code": 68,
+   "Libellé de la commune": "Champtocé-sur-Loire",
+   "Inscrits": 1130,
+   "Abstentions": 167,
+   "% Abs": {
+      "Ins": 14.78
+   },
+   "Votants": 963,
+   "% Vot": {
+      "Ins": 85.22
+   },
+   "Blancs et nuls": 61,
+   "% BlNuls": {
+      "Ins": 5.4,
+      "Vot": 6.33
+   },
+   "Exprimés": 902,
+   "% Exp": {
+      "Ins": 79.82,
+      "Vot": 93.67
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      767,
+      135
+   ],
+   "% Voix": {
+      "Ins": [
+         67.88,
+         11.95
+      ],
+      "Exp": [
+         85.03,
+         14.97
+      ]
+   }
+},
+ {
+   "code": 69,
+   "Libellé de la commune": "Orée-d'Anjou",
+   "Inscrits": 9912,
+   "Abstentions": 1588,
+   "% Abs": {
+      "Ins": 16.02
+   },
+   "Votants": 8324,
+   "% Vot": {
+      "Ins": 83.98
+   },
+   "Blancs et nuls": 408,
+   "% BlNuls": {
+      "Ins": 4.12,
+      "Vot": 4.9
+   },
+   "Exprimés": 7916,
+   "% Exp": {
+      "Ins": 79.86,
+      "Vot": 95.1
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      6894,
+      1022
+   ],
+   "% Voix": {
+      "Ins": [
+         69.55,
+         10.31
+      ],
+      "Exp": [
+         87.09,
+         12.91
+      ]
+   }
+},
+ {
+   "code": 70,
+   "Libellé de la commune": "Chanteloup-les-Bois",
+   "Inscrits": 472,
+   "Abstentions": 83,
+   "% Abs": {
+      "Ins": 17.58
+   },
+   "Votants": 389,
+   "% Vot": {
+      "Ins": 82.42
+   },
+   "Blancs et nuls": 31,
+   "% BlNuls": {
+      "Ins": 6.57,
+      "Vot": 7.97
+   },
+   "Exprimés": 358,
+   "% Exp": {
+      "Ins": 75.85,
+      "Vot": 92.03
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      313,
+      45
+   ],
+   "% Voix": {
+      "Ins": [
+         66.31,
+         9.53
+      ],
+      "Exp": [
+         87.43,
+         12.57
+      ]
+   }
+},
+ {
+   "code": 76,
+   "Libellé de la commune": "La Chapelle-Saint-Laud",
+   "Inscrits": 386,
+   "Abstentions": 41,
+   "% Abs": {
+      "Ins": 10.62
+   },
+   "Votants": 345,
+   "% Vot": {
+      "Ins": 89.38
+   },
+   "Blancs et nuls": 18,
+   "% BlNuls": {
+      "Ins": 4.66,
+      "Vot": 5.22
+   },
+   "Exprimés": 327,
+   "% Exp": {
+      "Ins": 84.72,
+      "Vot": 94.78
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      275,
+      52
+   ],
+   "% Voix": {
+      "Ins": [
+         71.24,
+         13.47
+      ],
+      "Exp": [
+         84.1,
+         15.9
+      ]
+   }
+},
+ {
+   "code": 80,
+   "Libellé de la commune": "Châteauneuf-sur-Sarthe",
+   "Inscrits": 1729,
+   "Abstentions": 351,
+   "% Abs": {
+      "Ins": 20.3
+   },
+   "Votants": 1378,
+   "% Vot": {
+      "Ins": 79.7
+   },
+   "Blancs et nuls": 59,
+   "% BlNuls": {
+      "Ins": 3.41,
+      "Vot": 4.28
+   },
+   "Exprimés": 1319,
+   "% Exp": {
+      "Ins": 76.29,
+      "Vot": 95.72
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      1123,
+      196
+   ],
+   "% Voix": {
+      "Ins": [
+         64.95,
+         11.34
+      ],
+      "Exp": [
+         85.14,
+         14.86
+      ]
+   }
+},
+ {
+   "code": 82,
+   "Libellé de la commune": "Chaudefonds-sur-Layon",
+   "Inscrits": 651,
+   "Abstentions": 101,
+   "% Abs": {
+      "Ins": 15.51
+   },
+   "Votants": 550,
+   "% Vot": {
+      "Ins": 84.49
+   },
+   "Blancs et nuls": 32,
+   "% BlNuls": {
+      "Ins": 4.92,
+      "Vot": 5.82
+   },
+   "Exprimés": 518,
+   "% Exp": {
+      "Ins": 79.57,
+      "Vot": 94.18
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      450,
+      68
+   ],
+   "% Voix": {
+      "Ins": [
+         69.12,
+         10.45
+      ],
+      "Exp": [
+         86.87,
+         13.13
+      ]
+   }
+},
+ {
+   "code": 86,
+   "Libellé de la commune": "Terranjou",
+   "Inscrits": 2267,
+   "Abstentions": 352,
+   "% Abs": {
+      "Ins": 15.53
+   },
+   "Votants": 1915,
+   "% Vot": {
+      "Ins": 84.47
+   },
+   "Blancs et nuls": 80,
+   "% BlNuls": {
+      "Ins": 3.53,
+      "Vot": 4.18
+   },
+   "Exprimés": 1835,
+   "% Exp": {
+      "Ins": 80.94,
+      "Vot": 95.82
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      1599,
+      236
+   ],
+   "% Voix": {
+      "Ins": [
+         70.53,
+         10.41
+      ],
+      "Exp": [
+         87.14,
+         12.86
+      ]
+   }
+},
+ {
+   "code": 89,
+   "Libellé de la commune": "Chazé-sur-Argos",
+   "Inscrits": 694,
+   "Abstentions": 109,
+   "% Abs": {
+      "Ins": 15.71
+   },
+   "Votants": 585,
+   "% Vot": {
+      "Ins": 84.29
+   },
+   "Blancs et nuls": 22,
+   "% BlNuls": {
+      "Ins": 3.17,
+      "Vot": 3.76
+   },
+   "Exprimés": 563,
+   "% Exp": {
+      "Ins": 81.12,
+      "Vot": 96.24
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      513,
+      50
+   ],
+   "% Voix": {
+      "Ins": [
+         73.92,
+         7.2
+      ],
+      "Exp": [
+         91.12,
+         8.88
+      ]
+   }
+},
+ {
+   "code": 90,
+   "Libellé de la commune": "Cheffes",
+   "Inscrits": 582,
+   "Abstentions": 83,
+   "% Abs": {
+      "Ins": 14.26
+   },
+   "Votants": 499,
+   "% Vot": {
+      "Ins": 85.74
+   },
+   "Blancs et nuls": 27,
+   "% BlNuls": {
+      "Ins": 4.64,
+      "Vot": 5.41
+   },
+   "Exprimés": 472,
+   "% Exp": {
+      "Ins": 81.1,
+      "Vot": 94.59
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      407,
+      65
+   ],
+   "% Voix": {
+      "Ins": [
+         69.93,
+         11.17
+      ],
+      "Exp": [
+         86.23,
+         13.77
+      ]
+   }
+},
+ {
+   "code": 92,
+   "Libellé de la commune": "Chemillé-en-Anjou",
+   "Inscrits": 13586,
+   "Abstentions": 2103,
+   "% Abs": {
+      "Ins": 15.48
+   },
+   "Votants": 11483,
+   "% Vot": {
+      "Ins": 84.52
+   },
+   "Blancs et nuls": 499,
+   "% BlNuls": {
+      "Ins": 3.67,
+      "Vot": 4.35
+   },
+   "Exprimés": 10984,
+   "% Exp": {
+      "Ins": 80.85,
+      "Vot": 95.65
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      9910,
+      1074
+   ],
+   "% Voix": {
+      "Ins": [
+         72.94,
+         7.91
+      ],
+      "Exp": [
+         90.22,
+         9.78
+      ]
+   }
+},
+ {
+   "code": 99,
+   "Libellé de la commune": "Cholet",
+   "Inscrits": 34698,
+   "Abstentions": 6732,
+   "% Abs": {
+      "Ins": 19.4
+   },
+   "Votants": 27966,
+   "% Vot": {
+      "Ins": 80.6
+   },
+   "Blancs et nuls": 1450,
+   "% BlNuls": {
+      "Ins": 4.18,
+      "Vot": 5.18
+   },
+   "Exprimés": 26516,
+   "% Exp": {
+      "Ins": 76.42,
+      "Vot": 94.82
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      23824,
+      2692
+   ],
+   "% Voix": {
+      "Ins": [
+         68.66,
+         7.76
+      ],
+      "Exp": [
+         89.85,
+         10.15
+      ]
+   }
+},
+ {
+   "code": 100,
+   "Libellé de la commune": "Cizay-la-Madeleine",
+   "Inscrits": 308,
+   "Abstentions": 50,
+   "% Abs": {
+      "Ins": 16.23
+   },
+   "Votants": 258,
+   "% Vot": {
+      "Ins": 83.77
+   },
+   "Blancs et nuls": 13,
+   "% BlNuls": {
+      "Ins": 4.22,
+      "Vot": 5.04
+   },
+   "Exprimés": 245,
+   "% Exp": {
+      "Ins": 79.55,
+      "Vot": 94.96
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      184,
+      61
+   ],
+   "% Voix": {
+      "Ins": [
+         59.74,
+         19.81
+      ],
+      "Exp": [
+         75.1,
+         24.9
+      ]
+   }
+},
+ {
+   "code": 102,
+   "Libellé de la commune": "Cléré-sur-Layon",
+   "Inscrits": 260,
+   "Abstentions": 43,
+   "% Abs": {
+      "Ins": 16.54
+   },
+   "Votants": 217,
+   "% Vot": {
+      "Ins": 83.46
+   },
+   "Blancs et nuls": 8,
+   "% BlNuls": {
+      "Ins": 3.08,
+      "Vot": 3.69
+   },
+   "Exprimés": 209,
+   "% Exp": {
+      "Ins": 80.38,
+      "Vot": 96.31
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      196,
+      13
+   ],
+   "% Voix": {
+      "Ins": [
+         75.38,
+         5
+      ],
+      "Exp": [
+         93.78,
+         6.22
+      ]
+   }
+},
+ {
+   "code": 107,
+   "Libellé de la commune": "Cornillé-les-Caves",
+   "Inscrits": 345,
+   "Abstentions": 46,
+   "% Abs": {
+      "Ins": 13.33
+   },
+   "Votants": 299,
+   "% Vot": {
+      "Ins": 86.67
+   },
+   "Blancs et nuls": 11,
+   "% BlNuls": {
+      "Ins": 3.19,
+      "Vot": 3.68
+   },
+   "Exprimés": 288,
+   "% Exp": {
+      "Ins": 83.48,
+      "Vot": 96.32
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      246,
+      42
+   ],
+   "% Voix": {
+      "Ins": [
+         71.3,
+         12.17
+      ],
+      "Exp": [
+         85.42,
+         14.58
+      ]
+   }
+},
+ {
+   "code": 109,
+   "Libellé de la commune": "Coron",
+   "Inscrits": 989,
+   "Abstentions": 161,
+   "% Abs": {
+      "Ins": 16.28
+   },
+   "Votants": 828,
+   "% Vot": {
+      "Ins": 83.72
+   },
+   "Blancs et nuls": 31,
+   "% BlNuls": {
+      "Ins": 3.13,
+      "Vot": 3.74
+   },
+   "Exprimés": 797,
+   "% Exp": {
+      "Ins": 80.59,
+      "Vot": 96.26
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      707,
+      90
+   ],
+   "% Voix": {
+      "Ins": [
+         71.49,
+         9.1
+      ],
+      "Exp": [
+         88.71,
+         11.29
+      ]
+   }
+},
+ {
+   "code": 110,
+   "Libellé de la commune": "Corzé",
+   "Inscrits": 1095,
+   "Abstentions": 171,
+   "% Abs": {
+      "Ins": 15.62
+   },
+   "Votants": 924,
+   "% Vot": {
+      "Ins": 84.38
+   },
+   "Blancs et nuls": 51,
+   "% BlNuls": {
+      "Ins": 4.66,
+      "Vot": 5.52
+   },
+   "Exprimés": 873,
+   "% Exp": {
+      "Ins": 79.73,
+      "Vot": 94.48
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      741,
+      132
+   ],
+   "% Voix": {
+      "Ins": [
+         67.67,
+         12.05
+      ],
+      "Exp": [
+         84.88,
+         15.12
+      ]
+   }
+},
+ {
+   "code": 112,
+   "Libellé de la commune": "Le Coudray-Macouard",
+   "Inscrits": 759,
+   "Abstentions": 112,
+   "% Abs": {
+      "Ins": 14.76
+   },
+   "Votants": 647,
+   "% Vot": {
+      "Ins": 85.24
+   },
+   "Blancs et nuls": 31,
+   "% BlNuls": {
+      "Ins": 4.08,
+      "Vot": 4.79
+   },
+   "Exprimés": 616,
+   "% Exp": {
+      "Ins": 81.16,
+      "Vot": 95.21
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      528,
+      88
+   ],
+   "% Voix": {
+      "Ins": [
+         69.57,
+         11.59
+      ],
+      "Exp": [
+         85.71,
+         14.29
+      ]
+   }
+},
+ {
+   "code": 113,
+   "Libellé de la commune": "Courchamps",
+   "Inscrits": 291,
+   "Abstentions": 45,
+   "% Abs": {
+      "Ins": 15.46
+   },
+   "Votants": 246,
+   "% Vot": {
+      "Ins": 84.54
+   },
+   "Blancs et nuls": 19,
+   "% BlNuls": {
+      "Ins": 6.53,
+      "Vot": 7.72
+   },
+   "Exprimés": 227,
+   "% Exp": {
+      "Ins": 78.01,
+      "Vot": 92.28
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      194,
+      33
+   ],
+   "% Voix": {
+      "Ins": [
+         66.67,
+         11.34
+      ],
+      "Exp": [
+         85.46,
+         14.54
+      ]
+   }
+},
+ {
+   "code": 114,
+   "Libellé de la commune": "Courléon",
+   "Inscrits": 118,
+   "Abstentions": 18,
+   "% Abs": {
+      "Ins": 15.25
+   },
+   "Votants": 100,
+   "% Vot": {
+      "Ins": 84.75
+   },
+   "Blancs et nuls": 10,
+   "% BlNuls": {
+      "Ins": 8.47,
+      "Vot": 10
+   },
+   "Exprimés": 90,
+   "% Exp": {
+      "Ins": 76.27,
+      "Vot": 90
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      65,
+      25
+   ],
+   "% Voix": {
+      "Ins": [
+         55.08,
+         21.19
+      ],
+      "Exp": [
+         72.22,
+         27.78
+      ]
+   }
+},
+ {
+   "code": 120,
+   "Libellé de la commune": "Denée",
+   "Inscrits": 1003,
+   "Abstentions": 127,
+   "% Abs": {
+      "Ins": 12.66
+   },
+   "Votants": 876,
+   "% Vot": {
+      "Ins": 87.34
+   },
+   "Blancs et nuls": 38,
+   "% BlNuls": {
+      "Ins": 3.79,
+      "Vot": 4.34
+   },
+   "Exprimés": 838,
+   "% Exp": {
+      "Ins": 83.55,
+      "Vot": 95.66
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      757,
+      81
+   ],
+   "% Voix": {
+      "Ins": [
+         75.47,
+         8.08
+      ],
+      "Exp": [
+         90.33,
+         9.67
+      ]
+   }
+},
+ {
+   "code": 121,
+   "Libellé de la commune": "Dénezé-sous-Doué",
+   "Inscrits": 300,
+   "Abstentions": 47,
+   "% Abs": {
+      "Ins": 15.67
+   },
+   "Votants": 253,
+   "% Vot": {
+      "Ins": 84.33
+   },
+   "Blancs et nuls": 10,
+   "% BlNuls": {
+      "Ins": 3.33,
+      "Vot": 3.95
+   },
+   "Exprimés": 243,
+   "% Exp": {
+      "Ins": 81,
+      "Vot": 96.05
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      184,
+      59
+   ],
+   "% Voix": {
+      "Ins": [
+         61.33,
+         19.67
+      ],
+      "Exp": [
+         75.72,
+         24.28
+      ]
+   }
+},
+ {
+   "code": 123,
+   "Libellé de la commune": "Distré",
+   "Inscrits": 900,
+   "Abstentions": 119,
+   "% Abs": {
+      "Ins": 13.22
+   },
+   "Votants": 781,
+   "% Vot": {
+      "Ins": 86.78
+   },
+   "Blancs et nuls": 55,
+   "% BlNuls": {
+      "Ins": 6.11,
+      "Vot": 7.04
+   },
+   "Exprimés": 726,
+   "% Exp": {
+      "Ins": 80.67,
+      "Vot": 92.96
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      595,
+      131
+   ],
+   "% Voix": {
+      "Ins": [
+         66.11,
+         14.56
+      ],
+      "Exp": [
+         81.96,
+         18.04
+      ]
+   }
+},
+ {
+   "code": 125,
+   "Libellé de la commune": "Doué-en-Anjou",
+   "Inscrits": 7653,
+   "Abstentions": 1550,
+   "% Abs": {
+      "Ins": 20.25
+   },
+   "Votants": 6103,
+   "% Vot": {
+      "Ins": 79.75
+   },
+   "Blancs et nuls": 302,
+   "% BlNuls": {
+      "Ins": 3.95,
+      "Vot": 4.95
+   },
+   "Exprimés": 5801,
+   "% Exp": {
+      "Ins": 75.8,
+      "Vot": 95.05
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      4732,
+      1069
+   ],
+   "% Voix": {
+      "Ins": [
+         61.83,
+         13.97
+      ],
+      "Exp": [
+         81.57,
+         18.43
+      ]
+   }
+},
+ {
+   "code": 127,
+   "Libellé de la commune": "Durtal",
+   "Inscrits": 2342,
+   "Abstentions": 457,
+   "% Abs": {
+      "Ins": 19.51
+   },
+   "Votants": 1885,
+   "% Vot": {
+      "Ins": 80.49
+   },
+   "Blancs et nuls": 85,
+   "% BlNuls": {
+      "Ins": 3.63,
+      "Vot": 4.51
+   },
+   "Exprimés": 1800,
+   "% Exp": {
+      "Ins": 76.86,
+      "Vot": 95.49
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      1511,
+      289
+   ],
+   "% Voix": {
+      "Ins": [
+         64.52,
+         12.34
+      ],
+      "Exp": [
+         83.94,
+         16.06
+      ]
+   }
+},
+ {
+   "code": 129,
+   "Libellé de la commune": "Ecouflant",
+   "Inscrits": 2537,
+   "Abstentions": 293,
+   "% Abs": {
+      "Ins": 11.55
+   },
+   "Votants": 2244,
+   "% Vot": {
+      "Ins": 88.45
+   },
+   "Blancs et nuls": 112,
+   "% BlNuls": {
+      "Ins": 4.41,
+      "Vot": 4.99
+   },
+   "Exprimés": 2132,
+   "% Exp": {
+      "Ins": 84.04,
+      "Vot": 95.01
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      1917,
+      215
+   ],
+   "% Voix": {
+      "Ins": [
+         75.56,
+         8.47
+      ],
+      "Exp": [
+         89.92,
+         10.08
+      ]
+   }
+},
+ {
+   "code": 130,
+   "Libellé de la commune": "Ecuillé",
+   "Inscrits": 341,
+   "Abstentions": 59,
+   "% Abs": {
+      "Ins": 17.3
+   },
+   "Votants": 282,
+   "% Vot": {
+      "Ins": 82.7
+   },
+   "Blancs et nuls": 18,
+   "% BlNuls": {
+      "Ins": 5.28,
+      "Vot": 6.38
+   },
+   "Exprimés": 264,
+   "% Exp": {
+      "Ins": 77.42,
+      "Vot": 93.62
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      226,
+      38
+   ],
+   "% Voix": {
+      "Ins": [
+         66.28,
+         11.14
+      ],
+      "Exp": [
+         85.61,
+         14.39
+      ]
+   }
+},
+ {
+   "code": 131,
+   "Libellé de la commune": "Epieds",
+   "Inscrits": 426,
+   "Abstentions": 70,
+   "% Abs": {
+      "Ins": 16.43
+   },
+   "Votants": 356,
+   "% Vot": {
+      "Ins": 83.57
+   },
+   "Blancs et nuls": 20,
+   "% BlNuls": {
+      "Ins": 4.69,
+      "Vot": 5.62
+   },
+   "Exprimés": 336,
+   "% Exp": {
+      "Ins": 78.87,
+      "Vot": 94.38
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      255,
+      81
+   ],
+   "% Voix": {
+      "Ins": [
+         59.86,
+         19.01
+      ],
+      "Exp": [
+         75.89,
+         24.11
+      ]
+   }
+},
+ {
+   "code": 132,
+   "Libellé de la commune": "Etriché",
+   "Inscrits": 879,
+   "Abstentions": 145,
+   "% Abs": {
+      "Ins": 16.5
+   },
+   "Votants": 734,
+   "% Vot": {
+      "Ins": 83.5
+   },
+   "Blancs et nuls": 32,
+   "% BlNuls": {
+      "Ins": 3.64,
+      "Vot": 4.36
+   },
+   "Exprimés": 702,
+   "% Exp": {
+      "Ins": 79.86,
+      "Vot": 95.64
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      574,
+      128
+   ],
+   "% Voix": {
+      "Ins": [
+         65.3,
+         14.56
+      ],
+      "Exp": [
+         81.77,
+         18.23
+      ]
+   }
+},
+ {
+   "code": 135,
+   "Libellé de la commune": "Feneu",
+   "Inscrits": 1383,
+   "Abstentions": 226,
+   "% Abs": {
+      "Ins": 16.34
+   },
+   "Votants": 1157,
+   "% Vot": {
+      "Ins": 83.66
+   },
+   "Blancs et nuls": 43,
+   "% BlNuls": {
+      "Ins": 3.11,
+      "Vot": 3.72
+   },
+   "Exprimés": 1114,
+   "% Exp": {
+      "Ins": 80.55,
+      "Vot": 96.28
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      1004,
+      110
+   ],
+   "% Voix": {
+      "Ins": [
+         72.6,
+         7.95
+      ],
+      "Exp": [
+         90.13,
+         9.87
+      ]
+   }
+},
+ {
+   "code": 138,
+   "Libellé de la commune": "Les Bois-d'Anjou",
+   "Inscrits": 1632,
+   "Abstentions": 294,
+   "% Abs": {
+      "Ins": 18.01
+   },
+   "Votants": 1338,
+   "% Vot": {
+      "Ins": 81.99
+   },
+   "Blancs et nuls": 67,
+   "% BlNuls": {
+      "Ins": 4.11,
+      "Vot": 5.01
+   },
+   "Exprimés": 1271,
+   "% Exp": {
+      "Ins": 77.88,
+      "Vot": 94.99
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      1062,
+      209
+   ],
+   "% Voix": {
+      "Ins": [
+         65.07,
+         12.81
+      ],
+      "Exp": [
+         83.56,
+         16.44
+      ]
+   }
+},
+ {
+   "code": 140,
+   "Libellé de la commune": "Fontevraud-l'Abbaye",
+   "Inscrits": 863,
+   "Abstentions": 161,
+   "% Abs": {
+      "Ins": 18.66
+   },
+   "Votants": 702,
+   "% Vot": {
+      "Ins": 81.34
+   },
+   "Blancs et nuls": 23,
+   "% BlNuls": {
+      "Ins": 2.67,
+      "Vot": 3.28
+   },
+   "Exprimés": 679,
+   "% Exp": {
+      "Ins": 78.68,
+      "Vot": 96.72
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      557,
+      122
+   ],
+   "% Voix": {
+      "Ins": [
+         64.54,
+         14.14
+      ],
+      "Exp": [
+         82.03,
+         17.97
+      ]
+   }
+},
+ {
+   "code": 144,
+   "Libellé de la commune": "Freigné",
+   "Inscrits": 722,
+   "Abstentions": 98,
+   "% Abs": {
+      "Ins": 13.57
+   },
+   "Votants": 624,
+   "% Vot": {
+      "Ins": 86.43
+   },
+   "Blancs et nuls": 21,
+   "% BlNuls": {
+      "Ins": 2.91,
+      "Vot": 3.37
+   },
+   "Exprimés": 603,
+   "% Exp": {
+      "Ins": 83.52,
+      "Vot": 96.63
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      473,
+      130
+   ],
+   "% Voix": {
+      "Ins": [
+         65.51,
+         18.01
+      ],
+      "Exp": [
+         78.44,
+         21.56
+      ]
+   }
+},
+ {
+   "code": 149,
+   "Libellé de la commune": "Gennes-Val-de-Loire",
+   "Inscrits": 3276,
+   "Abstentions": 511,
+   "% Abs": {
+      "Ins": 15.6
+   },
+   "Votants": 2765,
+   "% Vot": {
+      "Ins": 84.4
+   },
+   "Blancs et nuls": 157,
+   "% BlNuls": {
+      "Ins": 4.79,
+      "Vot": 5.68
+   },
+   "Exprimés": 2608,
+   "% Exp": {
+      "Ins": 79.61,
+      "Vot": 94.32
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      2189,
+      419
+   ],
+   "% Voix": {
+      "Ins": [
+         66.82,
+         12.79
+      ],
+      "Exp": [
+         83.93,
+         16.07
+      ]
+   }
+},
+ {
+   "code": 155,
+   "Libellé de la commune": "Grez-Neuville",
+   "Inscrits": 867,
+   "Abstentions": 117,
+   "% Abs": {
+      "Ins": 13.49
+   },
+   "Votants": 750,
+   "% Vot": {
+      "Ins": 86.51
+   },
+   "Blancs et nuls": 33,
+   "% BlNuls": {
+      "Ins": 3.81,
+      "Vot": 4.4
+   },
+   "Exprimés": 717,
+   "% Exp": {
+      "Ins": 82.7,
+      "Vot": 95.6
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      656,
+      61
+   ],
+   "% Voix": {
+      "Ins": [
+         75.66,
+         7.04
+      ],
+      "Exp": [
+         91.49,
+         8.51
+      ]
+   }
+},
+ {
+   "code": 159,
+   "Libellé de la commune": "Huillé",
+   "Inscrits": 332,
+   "Abstentions": 50,
+   "% Abs": {
+      "Ins": 15.06
+   },
+   "Votants": 282,
+   "% Vot": {
+      "Ins": 84.94
+   },
+   "Blancs et nuls": 22,
+   "% BlNuls": {
+      "Ins": 6.63,
+      "Vot": 7.8
+   },
+   "Exprimés": 260,
+   "% Exp": {
+      "Ins": 78.31,
+      "Vot": 92.2
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      210,
+      50
+   ],
+   "% Voix": {
+      "Ins": [
+         63.25,
+         15.06
+      ],
+      "Exp": [
+         80.77,
+         19.23
+      ]
+   }
+},
+ {
+   "code": 160,
+   "Libellé de la commune": "Ingrandes-Le-Fresne-sur-Loire",
+   "Inscrits": 1095,
+   "Abstentions": 198,
+   "% Abs": {
+      "Ins": 18.08
+   },
+   "Votants": 897,
+   "% Vot": {
+      "Ins": 81.92
+   },
+   "Blancs et nuls": 48,
+   "% BlNuls": {
+      "Ins": 4.38,
+      "Vot": 5.35
+   },
+   "Exprimés": 849,
+   "% Exp": {
+      "Ins": 77.53,
+      "Vot": 94.65
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      744,
+      105
+   ],
+   "% Voix": {
+      "Ins": [
+         67.95,
+         9.59
+      ],
+      "Exp": [
+         87.63,
+         12.37
+      ]
+   }
+},
+ {
+   "code": 161,
+   "Libellé de la commune": "La Jaille-Yvon",
+   "Inscrits": 182,
+   "Abstentions": 27,
+   "% Abs": {
+      "Ins": 14.84
+   },
+   "Votants": 155,
+   "% Vot": {
+      "Ins": 85.16
+   },
+   "Blancs et nuls": 12,
+   "% BlNuls": {
+      "Ins": 6.59,
+      "Vot": 7.74
+   },
+   "Exprimés": 143,
+   "% Exp": {
+      "Ins": 78.57,
+      "Vot": 92.26
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      105,
+      38
+   ],
+   "% Voix": {
+      "Ins": [
+         57.69,
+         20.88
+      ],
+      "Exp": [
+         73.43,
+         26.57
+      ]
+   }
+},
+ {
+   "code": 163,
+   "Libellé de la commune": "Jarzé-Villages",
+   "Inscrits": 1569,
+   "Abstentions": 263,
+   "% Abs": {
+      "Ins": 16.76
+   },
+   "Votants": 1306,
+   "% Vot": {
+      "Ins": 83.24
+   },
+   "Blancs et nuls": 68,
+   "% BlNuls": {
+      "Ins": 4.33,
+      "Vot": 5.21
+   },
+   "Exprimés": 1238,
+   "% Exp": {
+      "Ins": 78.9,
+      "Vot": 94.79
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      1027,
+      211
+   ],
+   "% Voix": {
+      "Ins": [
+         65.46,
+         13.45
+      ],
+      "Exp": [
+         82.96,
+         17.04
+      ]
+   }
+},
+ {
+   "code": 167,
+   "Libellé de la commune": "Les Garennes-sur-Loire",
+   "Inscrits": 2997,
+   "Abstentions": 445,
+   "% Abs": {
+      "Ins": 14.85
+   },
+   "Votants": 2552,
+   "% Vot": {
+      "Ins": 85.15
+   },
+   "Blancs et nuls": 127,
+   "% BlNuls": {
+      "Ins": 4.24,
+      "Vot": 4.98
+   },
+   "Exprimés": 2425,
+   "% Exp": {
+      "Ins": 80.91,
+      "Vot": 95.02
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      2181,
+      244
+   ],
+   "% Voix": {
+      "Ins": [
+         72.77,
+         8.14
+      ],
+      "Exp": [
+         89.94,
+         10.06
+      ]
+   }
+},
+ {
+   "code": 170,
+   "Libellé de la commune": "Juvardeil",
+   "Inscrits": 649,
+   "Abstentions": 123,
+   "% Abs": {
+      "Ins": 18.95
+   },
+   "Votants": 526,
+   "% Vot": {
+      "Ins": 81.05
+   },
+   "Blancs et nuls": 29,
+   "% BlNuls": {
+      "Ins": 4.47,
+      "Vot": 5.51
+   },
+   "Exprimés": 497,
+   "% Exp": {
+      "Ins": 76.58,
+      "Vot": 94.49
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      425,
+      72
+   ],
+   "% Voix": {
+      "Ins": [
+         65.49,
+         11.09
+      ],
+      "Exp": [
+         85.51,
+         14.49
+      ]
+   }
+},
+ {
+   "code": 171,
+   "Libellé de la commune": "La Lande-Chasles",
+   "Inscrits": 98,
+   "Abstentions": 13,
+   "% Abs": {
+      "Ins": 13.27
+   },
+   "Votants": 85,
+   "% Vot": {
+      "Ins": 86.73
+   },
+   "Blancs et nuls": 3,
+   "% BlNuls": {
+      "Ins": 3.06,
+      "Vot": 3.53
+   },
+   "Exprimés": 82,
+   "% Exp": {
+      "Ins": 83.67,
+      "Vot": 96.47
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      68,
+      14
+   ],
+   "% Voix": {
+      "Ins": [
+         69.39,
+         14.29
+      ],
+      "Exp": [
+         82.93,
+         17.07
+      ]
+   }
+},
+ {
+   "code": 174,
+   "Libellé de la commune": "Lézigné",
+   "Inscrits": 495,
+   "Abstentions": 91,
+   "% Abs": {
+      "Ins": 18.38
+   },
+   "Votants": 404,
+   "% Vot": {
+      "Ins": 81.62
+   },
+   "Blancs et nuls": 12,
+   "% BlNuls": {
+      "Ins": 2.42,
+      "Vot": 2.97
+   },
+   "Exprimés": 392,
+   "% Exp": {
+      "Ins": 79.19,
+      "Vot": 97.03
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      321,
+      71
+   ],
+   "% Voix": {
+      "Ins": [
+         64.85,
+         14.34
+      ],
+      "Exp": [
+         81.89,
+         18.11
+      ]
+   }
+},
+ {
+   "code": 176,
+   "Libellé de la commune": "Le Lion-d'Angers",
+   "Inscrits": 2763,
+   "Abstentions": 446,
+   "% Abs": {
+      "Ins": 16.14
+   },
+   "Votants": 2317,
+   "% Vot": {
+      "Ins": 83.86
+   },
+   "Blancs et nuls": 96,
+   "% BlNuls": {
+      "Ins": 3.47,
+      "Vot": 4.14
+   },
+   "Exprimés": 2221,
+   "% Exp": {
+      "Ins": 80.38,
+      "Vot": 95.86
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      1981,
+      240
+   ],
+   "% Voix": {
+      "Ins": [
+         71.7,
+         8.69
+      ],
+      "Exp": [
+         89.19,
+         10.81
+      ]
+   }
+},
+ {
+   "code": 178,
+   "Libellé de la commune": "Loiré",
+   "Inscrits": 572,
+   "Abstentions": 69,
+   "% Abs": {
+      "Ins": 12.06
+   },
+   "Votants": 503,
+   "% Vot": {
+      "Ins": 87.94
+   },
+   "Blancs et nuls": 22,
+   "% BlNuls": {
+      "Ins": 3.85,
+      "Vot": 4.37
+   },
+   "Exprimés": 481,
+   "% Exp": {
+      "Ins": 84.09,
+      "Vot": 95.63
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      421,
+      60
+   ],
+   "% Voix": {
+      "Ins": [
+         73.6,
+         10.49
+      ],
+      "Exp": [
+         87.53,
+         12.47
+      ]
+   }
+},
+ {
+   "code": 180,
+   "Libellé de la commune": "Longué-Jumelles",
+   "Inscrits": 5013,
+   "Abstentions": 1153,
+   "% Abs": {
+      "Ins": 23
+   },
+   "Votants": 3860,
+   "% Vot": {
+      "Ins": 77
+   },
+   "Blancs et nuls": 174,
+   "% BlNuls": {
+      "Ins": 3.47,
+      "Vot": 4.51
+   },
+   "Exprimés": 3686,
+   "% Exp": {
+      "Ins": 73.53,
+      "Vot": 95.49
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      3061,
+      625
+   ],
+   "% Voix": {
+      "Ins": [
+         61.06,
+         12.47
+      ],
+      "Exp": [
+         83.04,
+         16.96
+      ]
+   }
+},
+ {
+   "code": 182,
+   "Libellé de la commune": "Louresse-Rochemenier",
+   "Inscrits": 464,
+   "Abstentions": 68,
+   "% Abs": {
+      "Ins": 14.66
+   },
+   "Votants": 396,
+   "% Vot": {
+      "Ins": 85.34
+   },
+   "Blancs et nuls": 25,
+   "% BlNuls": {
+      "Ins": 5.39,
+      "Vot": 6.31
+   },
+   "Exprimés": 371,
+   "% Exp": {
+      "Ins": 79.96,
+      "Vot": 93.69
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      293,
+      78
+   ],
+   "% Voix": {
+      "Ins": [
+         63.15,
+         16.81
+      ],
+      "Exp": [
+         78.98,
+         21.02
+      ]
+   }
+},
+ {
+   "code": 183,
+   "Libellé de la commune": "Val-d'Erdre-Auxence",
+   "Inscrits": 2576,
+   "Abstentions": 424,
+   "% Abs": {
+      "Ins": 16.46
+   },
+   "Votants": 2152,
+   "% Vot": {
+      "Ins": 83.54
+   },
+   "Blancs et nuls": 76,
+   "% BlNuls": {
+      "Ins": 2.95,
+      "Vot": 3.53
+   },
+   "Exprimés": 2076,
+   "% Exp": {
+      "Ins": 80.59,
+      "Vot": 96.47
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      1746,
+      330
+   ],
+   "% Voix": {
+      "Ins": [
+         67.78,
+         12.81
+      ],
+      "Exp": [
+         84.1,
+         15.9
+      ]
+   }
+},
+ {
+   "code": 188,
+   "Libellé de la commune": "Marcé",
+   "Inscrits": 526,
+   "Abstentions": 62,
+   "% Abs": {
+      "Ins": 11.79
+   },
+   "Votants": 464,
+   "% Vot": {
+      "Ins": 88.21
+   },
+   "Blancs et nuls": 22,
+   "% BlNuls": {
+      "Ins": 4.18,
+      "Vot": 4.74
+   },
+   "Exprimés": 442,
+   "% Exp": {
+      "Ins": 84.03,
+      "Vot": 95.26
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      394,
+      48
+   ],
+   "% Voix": {
+      "Ins": [
+         74.9,
+         9.13
+      ],
+      "Exp": [
+         89.14,
+         10.86
+      ]
+   }
+},
+ {
+   "code": 192,
+   "Libellé de la commune": "Maulévrier",
+   "Inscrits": 2026,
+   "Abstentions": 290,
+   "% Abs": {
+      "Ins": 14.31
+   },
+   "Votants": 1736,
+   "% Vot": {
+      "Ins": 85.69
+   },
+   "Blancs et nuls": 69,
+   "% BlNuls": {
+      "Ins": 3.41,
+      "Vot": 3.97
+   },
+   "Exprimés": 1667,
+   "% Exp": {
+      "Ins": 82.28,
+      "Vot": 96.03
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      1480,
+      187
+   ],
+   "% Voix": {
+      "Ins": [
+         73.05,
+         9.23
+      ],
+      "Exp": [
+         88.78,
+         11.22
+      ]
+   }
+},
+ {
+   "code": 193,
+   "Libellé de la commune": "Le May-sur-Evre",
+   "Inscrits": 2974,
+   "Abstentions": 568,
+   "% Abs": {
+      "Ins": 19.1
+   },
+   "Votants": 2406,
+   "% Vot": {
+      "Ins": 80.9
+   },
+   "Blancs et nuls": 134,
+   "% BlNuls": {
+      "Ins": 4.51,
+      "Vot": 5.57
+   },
+   "Exprimés": 2272,
+   "% Exp": {
+      "Ins": 76.4,
+      "Vot": 94.43
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      1994,
+      278
+   ],
+   "% Voix": {
+      "Ins": [
+         67.05,
+         9.35
+      ],
+      "Exp": [
+         87.76,
+         12.24
+      ]
+   }
+},
+ {
+   "code": 194,
+   "Libellé de la commune": "Mazé-Milon",
+   "Inscrits": 3359,
+   "Abstentions": 592,
+   "% Abs": {
+      "Ins": 17.62
+   },
+   "Votants": 2767,
+   "% Vot": {
+      "Ins": 82.38
+   },
+   "Blancs et nuls": 168,
+   "% BlNuls": {
+      "Ins": 5,
+      "Vot": 6.07
+   },
+   "Exprimés": 2599,
+   "% Exp": {
+      "Ins": 77.37,
+      "Vot": 93.93
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      2193,
+      406
+   ],
+   "% Voix": {
+      "Ins": [
+         65.29,
+         12.09
+      ],
+      "Exp": [
+         84.38,
+         15.62
+      ]
+   }
+},
+ {
+   "code": 195,
+   "Libellé de la commune": "Mazières-en-Mauges",
+   "Inscrits": 707,
+   "Abstentions": 97,
+   "% Abs": {
+      "Ins": 13.72
+   },
+   "Votants": 610,
+   "% Vot": {
+      "Ins": 86.28
+   },
+   "Blancs et nuls": 32,
+   "% BlNuls": {
+      "Ins": 4.53,
+      "Vot": 5.25
+   },
+   "Exprimés": 578,
+   "% Exp": {
+      "Ins": 81.75,
+      "Vot": 94.75
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      522,
+      56
+   ],
+   "% Voix": {
+      "Ins": [
+         73.83,
+         7.92
+      ],
+      "Exp": [
+         90.31,
+         9.69
+      ]
+   }
+},
+ {
+   "code": 200,
+   "Libellé de la commune": "Longuenée-en-Anjou",
+   "Inscrits": 3440,
+   "Abstentions": 388,
+   "% Abs": {
+      "Ins": 11.28
+   },
+   "Votants": 3052,
+   "% Vot": {
+      "Ins": 88.72
+   },
+   "Blancs et nuls": 153,
+   "% BlNuls": {
+      "Ins": 4.45,
+      "Vot": 5.01
+   },
+   "Exprimés": 2899,
+   "% Exp": {
+      "Ins": 84.27,
+      "Vot": 94.99
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      2600,
+      299
+   ],
+   "% Voix": {
+      "Ins": [
+         75.58,
+         8.69
+      ],
+      "Exp": [
+         89.69,
+         10.31
+      ]
+   }
+},
+ {
+   "code": 201,
+   "Libellé de la commune": "La Ménitré",
+   "Inscrits": 1343,
+   "Abstentions": 214,
+   "% Abs": {
+      "Ins": 15.93
+   },
+   "Votants": 1129,
+   "% Vot": {
+      "Ins": 84.07
+   },
+   "Blancs et nuls": 55,
+   "% BlNuls": {
+      "Ins": 4.1,
+      "Vot": 4.87
+   },
+   "Exprimés": 1074,
+   "% Exp": {
+      "Ins": 79.97,
+      "Vot": 95.13
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      886,
+      188
+   ],
+   "% Voix": {
+      "Ins": [
+         65.97,
+         14
+      ],
+      "Exp": [
+         82.5,
+         17.5
+      ]
+   }
+},
+ {
+   "code": 205,
+   "Libellé de la commune": "Miré",
+   "Inscrits": 682,
+   "Abstentions": 95,
+   "% Abs": {
+      "Ins": 13.93
+   },
+   "Votants": 587,
+   "% Vot": {
+      "Ins": 86.07
+   },
+   "Blancs et nuls": 37,
+   "% BlNuls": {
+      "Ins": 5.43,
+      "Vot": 6.3
+   },
+   "Exprimés": 550,
+   "% Exp": {
+      "Ins": 80.65,
+      "Vot": 93.7
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      416,
+      134
+   ],
+   "% Voix": {
+      "Ins": [
+         61,
+         19.65
+      ],
+      "Exp": [
+         75.64,
+         24.36
+      ]
+   }
+},
+ {
+   "code": 209,
+   "Libellé de la commune": "Montigné-lès-Rairies",
+   "Inscrits": 275,
+   "Abstentions": 44,
+   "% Abs": {
+      "Ins": 16
+   },
+   "Votants": 231,
+   "% Vot": {
+      "Ins": 84
+   },
+   "Blancs et nuls": 5,
+   "% BlNuls": {
+      "Ins": 1.82,
+      "Vot": 2.16
+   },
+   "Exprimés": 226,
+   "% Exp": {
+      "Ins": 82.18,
+      "Vot": 97.84
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      183,
+      43
+   ],
+   "% Voix": {
+      "Ins": [
+         66.55,
+         15.64
+      ],
+      "Exp": [
+         80.97,
+         19.03
+      ]
+   }
+},
+ {
+   "code": 211,
+   "Libellé de la commune": "Montilliers",
+   "Inscrits": 862,
+   "Abstentions": 137,
+   "% Abs": {
+      "Ins": 15.89
+   },
+   "Votants": 725,
+   "% Vot": {
+      "Ins": 84.11
+   },
+   "Blancs et nuls": 30,
+   "% BlNuls": {
+      "Ins": 3.48,
+      "Vot": 4.14
+   },
+   "Exprimés": 695,
+   "% Exp": {
+      "Ins": 80.63,
+      "Vot": 95.86
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      614,
+      81
+   ],
+   "% Voix": {
+      "Ins": [
+         71.23,
+         9.4
+      ],
+      "Exp": [
+         88.35,
+         11.65
+      ]
+   }
+},
+ {
+   "code": 214,
+   "Libellé de la commune": "Montreuil-Juigné",
+   "Inscrits": 4981,
+   "Abstentions": 733,
+   "% Abs": {
+      "Ins": 14.72
+   },
+   "Votants": 4248,
+   "% Vot": {
+      "Ins": 85.28
+   },
+   "Blancs et nuls": 196,
+   "% BlNuls": {
+      "Ins": 3.93,
+      "Vot": 4.61
+   },
+   "Exprimés": 4052,
+   "% Exp": {
+      "Ins": 81.35,
+      "Vot": 95.39
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      3699,
+      353
+   ],
+   "% Voix": {
+      "Ins": [
+         74.26,
+         7.09
+      ],
+      "Exp": [
+         91.29,
+         8.71
+      ]
+   }
+},
+ {
+   "code": 215,
+   "Libellé de la commune": "Montreuil-Bellay",
+   "Inscrits": 2837,
+   "Abstentions": 598,
+   "% Abs": {
+      "Ins": 21.08
+   },
+   "Votants": 2239,
+   "% Vot": {
+      "Ins": 78.92
+   },
+   "Blancs et nuls": 117,
+   "% BlNuls": {
+      "Ins": 4.12,
+      "Vot": 5.23
+   },
+   "Exprimés": 2122,
+   "% Exp": {
+      "Ins": 74.8,
+      "Vot": 94.77
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      1735,
+      387
+   ],
+   "% Voix": {
+      "Ins": [
+         61.16,
+         13.64
+      ],
+      "Exp": [
+         81.76,
+         18.24
+      ]
+   }
+},
+ {
+   "code": 216,
+   "Libellé de la commune": "Montreuil-sur-Loir",
+   "Inscrits": 275,
+   "Abstentions": 40,
+   "% Abs": {
+      "Ins": 14.55
+   },
+   "Votants": 235,
+   "% Vot": {
+      "Ins": 85.45
+   },
+   "Blancs et nuls": 11,
+   "% BlNuls": {
+      "Ins": 4,
+      "Vot": 4.68
+   },
+   "Exprimés": 224,
+   "% Exp": {
+      "Ins": 81.45,
+      "Vot": 95.32
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      194,
+      30
+   ],
+   "% Voix": {
+      "Ins": [
+         70.55,
+         10.91
+      ],
+      "Exp": [
+         86.61,
+         13.39
+      ]
+   }
+},
+ {
+   "code": 217,
+   "Libellé de la commune": "Montreuil-sur-Maine",
+   "Inscrits": 383,
+   "Abstentions": 40,
+   "% Abs": {
+      "Ins": 10.44
+   },
+   "Votants": 343,
+   "% Vot": {
+      "Ins": 89.56
+   },
+   "Blancs et nuls": 23,
+   "% BlNuls": {
+      "Ins": 6.01,
+      "Vot": 6.71
+   },
+   "Exprimés": 320,
+   "% Exp": {
+      "Ins": 83.55,
+      "Vot": 93.29
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      279,
+      41
+   ],
+   "% Voix": {
+      "Ins": [
+         72.85,
+         10.7
+      ],
+      "Exp": [
+         87.19,
+         12.81
+      ]
+   }
+},
+ {
+   "code": 218,
+   "Libellé de la commune": "Montrevault-sur-Evre",
+   "Inscrits": 11132,
+   "Abstentions": 1798,
+   "% Abs": {
+      "Ins": 16.15
+   },
+   "Votants": 9334,
+   "% Vot": {
+      "Ins": 83.85
+   },
+   "Blancs et nuls": 465,
+   "% BlNuls": {
+      "Ins": 4.18,
+      "Vot": 4.98
+   },
+   "Exprimés": 8869,
+   "% Exp": {
+      "Ins": 79.67,
+      "Vot": 95.02
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      7734,
+      1135
+   ],
+   "% Voix": {
+      "Ins": [
+         69.48,
+         10.2
+      ],
+      "Exp": [
+         87.2,
+         12.8
+      ]
+   }
+},
+ {
+   "code": 219,
+   "Libellé de la commune": "Montsoreau",
+   "Inscrits": 388,
+   "Abstentions": 64,
+   "% Abs": {
+      "Ins": 16.49
+   },
+   "Votants": 324,
+   "% Vot": {
+      "Ins": 83.51
+   },
+   "Blancs et nuls": 9,
+   "% BlNuls": {
+      "Ins": 2.32,
+      "Vot": 2.78
+   },
+   "Exprimés": 315,
+   "% Exp": {
+      "Ins": 81.19,
+      "Vot": 97.22
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      270,
+      45
+   ],
+   "% Voix": {
+      "Ins": [
+         69.59,
+         11.6
+      ],
+      "Exp": [
+         85.71,
+         14.29
+      ]
+   }
+},
+ {
+   "code": 220,
+   "Libellé de la commune": "Morannes-sur-Sarthe-Daumeray",
+   "Inscrits": 2474,
+   "Abstentions": 402,
+   "% Abs": {
+      "Ins": 16.25
+   },
+   "Votants": 2072,
+   "% Vot": {
+      "Ins": 83.75
+   },
+   "Blancs et nuls": 92,
+   "% BlNuls": {
+      "Ins": 3.72,
+      "Vot": 4.44
+   },
+   "Exprimés": 1980,
+   "% Exp": {
+      "Ins": 80.03,
+      "Vot": 95.56
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      1663,
+      317
+   ],
+   "% Voix": {
+      "Ins": [
+         67.22,
+         12.81
+      ],
+      "Exp": [
+         83.99,
+         16.01
+      ]
+   }
+},
+ {
+   "code": 221,
+   "Libellé de la commune": "Mouliherne",
+   "Inscrits": 702,
+   "Abstentions": 153,
+   "% Abs": {
+      "Ins": 21.79
+   },
+   "Votants": 549,
+   "% Vot": {
+      "Ins": 78.21
+   },
+   "Blancs et nuls": 27,
+   "% BlNuls": {
+      "Ins": 3.85,
+      "Vot": 4.92
+   },
+   "Exprimés": 522,
+   "% Exp": {
+      "Ins": 74.36,
+      "Vot": 95.08
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      423,
+      99
+   ],
+   "% Voix": {
+      "Ins": [
+         60.26,
+         14.1
+      ],
+      "Exp": [
+         81.03,
+         18.97
+      ]
+   }
+},
+ {
+   "code": 222,
+   "Libellé de la commune": "Mozé-sur-Louet",
+   "Inscrits": 1435,
+   "Abstentions": 251,
+   "% Abs": {
+      "Ins": 17.49
+   },
+   "Votants": 1184,
+   "% Vot": {
+      "Ins": 82.51
+   },
+   "Blancs et nuls": 61,
+   "% BlNuls": {
+      "Ins": 4.25,
+      "Vot": 5.15
+   },
+   "Exprimés": 1123,
+   "% Exp": {
+      "Ins": 78.26,
+      "Vot": 94.85
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      978,
+      145
+   ],
+   "% Voix": {
+      "Ins": [
+         68.15,
+         10.1
+      ],
+      "Exp": [
+         87.09,
+         12.91
+      ]
+   }
+},
+ {
+   "code": 223,
+   "Libellé de la commune": "Mûrs-Erigné",
+   "Inscrits": 3759,
+   "Abstentions": 499,
+   "% Abs": {
+      "Ins": 13.27
+   },
+   "Votants": 3260,
+   "% Vot": {
+      "Ins": 86.73
+   },
+   "Blancs et nuls": 208,
+   "% BlNuls": {
+      "Ins": 5.53,
+      "Vot": 6.38
+   },
+   "Exprimés": 3052,
+   "% Exp": {
+      "Ins": 81.19,
+      "Vot": 93.62
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      2715,
+      337
+   ],
+   "% Voix": {
+      "Ins": [
+         72.23,
+         8.97
+      ],
+      "Exp": [
+         88.96,
+         11.04
+      ]
+   }
+},
+ {
+   "code": 224,
+   "Libellé de la commune": "Neuillé",
+   "Inscrits": 646,
+   "Abstentions": 127,
+   "% Abs": {
+      "Ins": 19.66
+   },
+   "Votants": 519,
+   "% Vot": {
+      "Ins": 80.34
+   },
+   "Blancs et nuls": 27,
+   "% BlNuls": {
+      "Ins": 4.18,
+      "Vot": 5.2
+   },
+   "Exprimés": 492,
+   "% Exp": {
+      "Ins": 76.16,
+      "Vot": 94.8
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      382,
+      110
+   ],
+   "% Voix": {
+      "Ins": [
+         59.13,
+         17.03
+      ],
+      "Exp": [
+         77.64,
+         22.36
+      ]
+   }
+},
+ {
+   "code": 228,
+   "Libellé de la commune": "Noyant-Villages",
+   "Inscrits": 4428,
+   "Abstentions": 808,
+   "% Abs": {
+      "Ins": 18.25
+   },
+   "Votants": 3620,
+   "% Vot": {
+      "Ins": 81.75
+   },
+   "Blancs et nuls": 189,
+   "% BlNuls": {
+      "Ins": 4.27,
+      "Vot": 5.22
+   },
+   "Exprimés": 3431,
+   "% Exp": {
+      "Ins": 77.48,
+      "Vot": 94.78
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      2810,
+      621
+   ],
+   "% Voix": {
+      "Ins": [
+         63.46,
+         14.02
+      ],
+      "Exp": [
+         81.9,
+         18.1
+      ]
+   }
+},
+ {
+   "code": 231,
+   "Libellé de la commune": "Nuaillé",
+   "Inscrits": 994,
+   "Abstentions": 156,
+   "% Abs": {
+      "Ins": 15.69
+   },
+   "Votants": 838,
+   "% Vot": {
+      "Ins": 84.31
+   },
+   "Blancs et nuls": 59,
+   "% BlNuls": {
+      "Ins": 5.94,
+      "Vot": 7.04
+   },
+   "Exprimés": 779,
+   "% Exp": {
+      "Ins": 78.37,
+      "Vot": 92.96
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      687,
+      92
+   ],
+   "% Voix": {
+      "Ins": [
+         69.11,
+         9.26
+      ],
+      "Exp": [
+         88.19,
+         11.81
+      ]
+   }
+},
+ {
+   "code": 235,
+   "Libellé de la commune": "Parnay",
+   "Inscrits": 328,
+   "Abstentions": 51,
+   "% Abs": {
+      "Ins": 15.55
+   },
+   "Votants": 277,
+   "% Vot": {
+      "Ins": 84.45
+   },
+   "Blancs et nuls": 18,
+   "% BlNuls": {
+      "Ins": 5.49,
+      "Vot": 6.5
+   },
+   "Exprimés": 259,
+   "% Exp": {
+      "Ins": 78.96,
+      "Vot": 93.5
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      218,
+      41
+   ],
+   "% Voix": {
+      "Ins": [
+         66.46,
+         12.5
+      ],
+      "Exp": [
+         84.17,
+         15.83
+      ]
+   }
+},
+ {
+   "code": 236,
+   "Libellé de la commune": "Passavant-sur-Layon",
+   "Inscrits": 110,
+   "Abstentions": 20,
+   "% Abs": {
+      "Ins": 18.18
+   },
+   "Votants": 90,
+   "% Vot": {
+      "Ins": 81.82
+   },
+   "Blancs et nuls": 3,
+   "% BlNuls": {
+      "Ins": 2.73,
+      "Vot": 3.33
+   },
+   "Exprimés": 87,
+   "% Exp": {
+      "Ins": 79.09,
+      "Vot": 96.67
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      69,
+      18
+   ],
+   "% Voix": {
+      "Ins": [
+         62.73,
+         16.36
+      ],
+      "Exp": [
+         79.31,
+         20.69
+      ]
+   }
+},
+ {
+   "code": 237,
+   "Libellé de la commune": "La Pellerine",
+   "Inscrits": 111,
+   "Abstentions": 19,
+   "% Abs": {
+      "Ins": 17.12
+   },
+   "Votants": 92,
+   "% Vot": {
+      "Ins": 82.88
+   },
+   "Blancs et nuls": 4,
+   "% BlNuls": {
+      "Ins": 3.6,
+      "Vot": 4.35
+   },
+   "Exprimés": 88,
+   "% Exp": {
+      "Ins": 79.28,
+      "Vot": 95.65
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      67,
+      21
+   ],
+   "% Voix": {
+      "Ins": [
+         60.36,
+         18.92
+      ],
+      "Exp": [
+         76.14,
+         23.86
+      ]
+   }
+},
+ {
+   "code": 240,
+   "Libellé de la commune": "La Plaine",
+   "Inscrits": 639,
+   "Abstentions": 113,
+   "% Abs": {
+      "Ins": 17.68
+   },
+   "Votants": 526,
+   "% Vot": {
+      "Ins": 82.32
+   },
+   "Blancs et nuls": 22,
+   "% BlNuls": {
+      "Ins": 3.44,
+      "Vot": 4.18
+   },
+   "Exprimés": 504,
+   "% Exp": {
+      "Ins": 78.87,
+      "Vot": 95.82
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      435,
+      69
+   ],
+   "% Voix": {
+      "Ins": [
+         68.08,
+         10.8
+      ],
+      "Exp": [
+         86.31,
+         13.69
+      ]
+   }
+},
+ {
+   "code": 241,
+   "Libellé de la commune": "Le Plessis-Grammoire",
+   "Inscrits": 1484,
+   "Abstentions": 185,
+   "% Abs": {
+      "Ins": 12.47
+   },
+   "Votants": 1299,
+   "% Vot": {
+      "Ins": 87.53
+   },
+   "Blancs et nuls": 62,
+   "% BlNuls": {
+      "Ins": 4.18,
+      "Vot": 4.77
+   },
+   "Exprimés": 1237,
+   "% Exp": {
+      "Ins": 83.36,
+      "Vot": 95.23
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      1131,
+      106
+   ],
+   "% Voix": {
+      "Ins": [
+         76.21,
+         7.14
+      ],
+      "Exp": [
+         91.43,
+         8.57
+      ]
+   }
+},
+ {
+   "code": 244,
+   "Libellé de la commune": "Mauges-sur-Loire",
+   "Inscrits": 12415,
+   "Abstentions": 1644,
+   "% Abs": {
+      "Ins": 13.24
+   },
+   "Votants": 10771,
+   "% Vot": {
+      "Ins": 86.76
+   },
+   "Blancs et nuls": 478,
+   "% BlNuls": {
+      "Ins": 3.85,
+      "Vot": 4.44
+   },
+   "Exprimés": 10293,
+   "% Exp": {
+      "Ins": 82.91,
+      "Vot": 95.56
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      9315,
+      978
+   ],
+   "% Voix": {
+      "Ins": [
+         75.03,
+         7.88
+      ],
+      "Exp": [
+         90.5,
+         9.5
+      ]
+   }
+},
+ {
+   "code": 246,
+   "Libellé de la commune": "Les Ponts-de-Cé",
+   "Inscrits": 8248,
+   "Abstentions": 1410,
+   "% Abs": {
+      "Ins": 17.1
+   },
+   "Votants": 6838,
+   "% Vot": {
+      "Ins": 82.9
+   },
+   "Blancs et nuls": 376,
+   "% BlNuls": {
+      "Ins": 4.56,
+      "Vot": 5.5
+   },
+   "Exprimés": 6462,
+   "% Exp": {
+      "Ins": 78.35,
+      "Vot": 94.5
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      5794,
+      668
+   ],
+   "% Voix": {
+      "Ins": [
+         70.25,
+         8.1
+      ],
+      "Exp": [
+         89.66,
+         10.34
+      ]
+   }
+},
+ {
+   "code": 247,
+   "Libellé de la commune": "La Possonnière",
+   "Inscrits": 1668,
+   "Abstentions": 215,
+   "% Abs": {
+      "Ins": 12.89
+   },
+   "Votants": 1453,
+   "% Vot": {
+      "Ins": 87.11
+   },
+   "Blancs et nuls": 81,
+   "% BlNuls": {
+      "Ins": 4.86,
+      "Vot": 5.57
+   },
+   "Exprimés": 1372,
+   "% Exp": {
+      "Ins": 82.25,
+      "Vot": 94.43
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      1250,
+      122
+   ],
+   "% Voix": {
+      "Ins": [
+         74.94,
+         7.31
+      ],
+      "Exp": [
+         91.11,
+         8.89
+      ]
+   }
+},
+ {
+   "code": 248,
+   "Libellé de la commune": "Ombrée-d'Anjou",
+   "Inscrits": 6451,
+   "Abstentions": 1069,
+   "% Abs": {
+      "Ins": 16.57
+   },
+   "Votants": 5382,
+   "% Vot": {
+      "Ins": 83.43
+   },
+   "Blancs et nuls": 252,
+   "% BlNuls": {
+      "Ins": 3.91,
+      "Vot": 4.68
+   },
+   "Exprimés": 5130,
+   "% Exp": {
+      "Ins": 79.52,
+      "Vot": 95.32
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      4624,
+      506
+   ],
+   "% Voix": {
+      "Ins": [
+         71.68,
+         7.84
+      ],
+      "Exp": [
+         90.14,
+         9.86
+      ]
+   }
+},
+ {
+   "code": 253,
+   "Libellé de la commune": "Le Puy-Notre-Dame",
+   "Inscrits": 951,
+   "Abstentions": 187,
+   "% Abs": {
+      "Ins": 19.66
+   },
+   "Votants": 764,
+   "% Vot": {
+      "Ins": 80.34
+   },
+   "Blancs et nuls": 17,
+   "% BlNuls": {
+      "Ins": 1.79,
+      "Vot": 2.23
+   },
+   "Exprimés": 747,
+   "% Exp": {
+      "Ins": 78.55,
+      "Vot": 97.77
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      603,
+      144
+   ],
+   "% Voix": {
+      "Ins": [
+         63.41,
+         15.14
+      ],
+      "Exp": [
+         80.72,
+         19.28
+      ]
+   }
+},
+ {
+   "code": 257,
+   "Libellé de la commune": "Les Rairies",
+   "Inscrits": 626,
+   "Abstentions": 108,
+   "% Abs": {
+      "Ins": 17.25
+   },
+   "Votants": 518,
+   "% Vot": {
+      "Ins": 82.75
+   },
+   "Blancs et nuls": 24,
+   "% BlNuls": {
+      "Ins": 3.83,
+      "Vot": 4.63
+   },
+   "Exprimés": 494,
+   "% Exp": {
+      "Ins": 78.91,
+      "Vot": 95.37
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      386,
+      108
+   ],
+   "% Voix": {
+      "Ins": [
+         61.66,
+         17.25
+      ],
+      "Exp": [
+         78.14,
+         21.86
+      ]
+   }
+},
+ {
+   "code": 259,
+   "Libellé de la commune": "Rochefort-sur-Loire",
+   "Inscrits": 1514,
+   "Abstentions": 273,
+   "% Abs": {
+      "Ins": 18.03
+   },
+   "Votants": 1241,
+   "% Vot": {
+      "Ins": 81.97
+   },
+   "Blancs et nuls": 61,
+   "% BlNuls": {
+      "Ins": 4.03,
+      "Vot": 4.92
+   },
+   "Exprimés": 1180,
+   "% Exp": {
+      "Ins": 77.94,
+      "Vot": 95.08
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      1031,
+      149
+   ],
+   "% Voix": {
+      "Ins": [
+         68.1,
+         9.84
+      ],
+      "Exp": [
+         87.37,
+         12.63
+      ]
+   }
+},
+ {
+   "code": 260,
+   "Libellé de la commune": "La Romagne",
+   "Inscrits": 1210,
+   "Abstentions": 180,
+   "% Abs": {
+      "Ins": 14.88
+   },
+   "Votants": 1030,
+   "% Vot": {
+      "Ins": 85.12
+   },
+   "Blancs et nuls": 52,
+   "% BlNuls": {
+      "Ins": 4.3,
+      "Vot": 5.05
+   },
+   "Exprimés": 978,
+   "% Exp": {
+      "Ins": 80.83,
+      "Vot": 94.95
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      859,
+      119
+   ],
+   "% Voix": {
+      "Ins": [
+         70.99,
+         9.83
+      ],
+      "Exp": [
+         87.83,
+         12.17
+      ]
+   }
+},
+ {
+   "code": 261,
+   "Libellé de la commune": "Les Rosiers-sur-Loire",
+   "Inscrits": 1628,
+   "Abstentions": 336,
+   "% Abs": {
+      "Ins": 20.64
+   },
+   "Votants": 1292,
+   "% Vot": {
+      "Ins": 79.36
+   },
+   "Blancs et nuls": 73,
+   "% BlNuls": {
+      "Ins": 4.48,
+      "Vot": 5.65
+   },
+   "Exprimés": 1219,
+   "% Exp": {
+      "Ins": 74.88,
+      "Vot": 94.35
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      1025,
+      194
+   ],
+   "% Voix": {
+      "Ins": [
+         62.96,
+         11.92
+      ],
+      "Exp": [
+         84.09,
+         15.91
+      ]
+   }
+},
+ {
+   "code": 262,
+   "Libellé de la commune": "Rou-Marson",
+   "Inscrits": 484,
+   "Abstentions": 58,
+   "% Abs": {
+      "Ins": 11.98
+   },
+   "Votants": 426,
+   "% Vot": {
+      "Ins": 88.02
+   },
+   "Blancs et nuls": 24,
+   "% BlNuls": {
+      "Ins": 4.96,
+      "Vot": 5.63
+   },
+   "Exprimés": 402,
+   "% Exp": {
+      "Ins": 83.06,
+      "Vot": 94.37
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      331,
+      71
+   ],
+   "% Voix": {
+      "Ins": [
+         68.39,
+         14.67
+      ],
+      "Exp": [
+         82.34,
+         17.66
+      ]
+   }
+},
+ {
+   "code": 266,
+   "Libellé de la commune": "Saint-Augustin-des-Bois",
+   "Inscrits": 613,
+   "Abstentions": 79,
+   "% Abs": {
+      "Ins": 12.89
+   },
+   "Votants": 534,
+   "% Vot": {
+      "Ins": 87.11
+   },
+   "Blancs et nuls": 34,
+   "% BlNuls": {
+      "Ins": 5.55,
+      "Vot": 6.37
+   },
+   "Exprimés": 500,
+   "% Exp": {
+      "Ins": 81.57,
+      "Vot": 93.63
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      419,
+      81
+   ],
+   "% Voix": {
+      "Ins": [
+         68.35,
+         13.21
+      ],
+      "Exp": [
+         83.8,
+         16.2
+      ]
+   }
+},
+ {
+   "code": 267,
+   "Libellé de la commune": "Saint-Barthélemy-d'Anjou",
+   "Inscrits": 6993,
+   "Abstentions": 1161,
+   "% Abs": {
+      "Ins": 16.6
+   },
+   "Votants": 5832,
+   "% Vot": {
+      "Ins": 83.4
+   },
+   "Blancs et nuls": 311,
+   "% BlNuls": {
+      "Ins": 4.45,
+      "Vot": 5.33
+   },
+   "Exprimés": 5521,
+   "% Exp": {
+      "Ins": 78.95,
+      "Vot": 94.67
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      5005,
+      516
+   ],
+   "% Voix": {
+      "Ins": [
+         71.57,
+         7.38
+      ],
+      "Exp": [
+         90.65,
+         9.35
+      ]
+   }
+},
+ {
+   "code": 269,
+   "Libellé de la commune": "Saint-Christophe-du-Bois",
+   "Inscrits": 1863,
+   "Abstentions": 280,
+   "% Abs": {
+      "Ins": 15.03
+   },
+   "Votants": 1583,
+   "% Vot": {
+      "Ins": 84.97
+   },
+   "Blancs et nuls": 64,
+   "% BlNuls": {
+      "Ins": 3.44,
+      "Vot": 4.04
+   },
+   "Exprimés": 1519,
+   "% Exp": {
+      "Ins": 81.54,
+      "Vot": 95.96
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      1369,
+      150
+   ],
+   "% Voix": {
+      "Ins": [
+         73.48,
+         8.05
+      ],
+      "Exp": [
+         90.13,
+         9.87
+      ]
+   }
+},
+ {
+   "code": 271,
+   "Libellé de la commune": "Saint-Clément-de-la-Place",
+   "Inscrits": 1040,
+   "Abstentions": 119,
+   "% Abs": {
+      "Ins": 11.44
+   },
+   "Votants": 921,
+   "% Vot": {
+      "Ins": 88.56
+   },
+   "Blancs et nuls": 45,
+   "% BlNuls": {
+      "Ins": 4.33,
+      "Vot": 4.89
+   },
+   "Exprimés": 876,
+   "% Exp": {
+      "Ins": 84.23,
+      "Vot": 95.11
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      776,
+      100
+   ],
+   "% Voix": {
+      "Ins": [
+         74.62,
+         9.62
+      ],
+      "Exp": [
+         88.58,
+         11.42
+      ]
+   }
+},
+ {
+   "code": 272,
+   "Libellé de la commune": "Saint-Clément-des-Levées",
+   "Inscrits": 800,
+   "Abstentions": 135,
+   "% Abs": {
+      "Ins": 16.88
+   },
+   "Votants": 665,
+   "% Vot": {
+      "Ins": 83.13
+   },
+   "Blancs et nuls": 34,
+   "% BlNuls": {
+      "Ins": 4.25,
+      "Vot": 5.11
+   },
+   "Exprimés": 631,
+   "% Exp": {
+      "Ins": 78.88,
+      "Vot": 94.89
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      523,
+      108
+   ],
+   "% Voix": {
+      "Ins": [
+         65.38,
+         13.5
+      ],
+      "Exp": [
+         82.88,
+         17.12
+      ]
+   }
+},
+ {
+   "code": 274,
+   "Libellé de la commune": "Saint-Cyr-en-Bourg",
+   "Inscrits": 717,
+   "Abstentions": 114,
+   "% Abs": {
+      "Ins": 15.9
+   },
+   "Votants": 603,
+   "% Vot": {
+      "Ins": 84.1
+   },
+   "Blancs et nuls": 33,
+   "% BlNuls": {
+      "Ins": 4.6,
+      "Vot": 5.47
+   },
+   "Exprimés": 570,
+   "% Exp": {
+      "Ins": 79.5,
+      "Vot": 94.53
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      465,
+      105
+   ],
+   "% Voix": {
+      "Ins": [
+         64.85,
+         14.64
+      ],
+      "Exp": [
+         81.58,
+         18.42
+      ]
+   }
+},
+ {
+   "code": 278,
+   "Libellé de la commune": "Sainte-Gemmes-sur-Loire",
+   "Inscrits": 2547,
+   "Abstentions": 326,
+   "% Abs": {
+      "Ins": 12.8
+   },
+   "Votants": 2221,
+   "% Vot": {
+      "Ins": 87.2
+   },
+   "Blancs et nuls": 91,
+   "% BlNuls": {
+      "Ins": 3.57,
+      "Vot": 4.1
+   },
+   "Exprimés": 2130,
+   "% Exp": {
+      "Ins": 83.63,
+      "Vot": 95.9
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      1920,
+      210
+   ],
+   "% Voix": {
+      "Ins": [
+         75.38,
+         8.24
+      ],
+      "Exp": [
+         90.14,
+         9.86
+      ]
+   }
+},
+ {
+   "code": 283,
+   "Libellé de la commune": "Saint-Georges-sur-Loire",
+   "Inscrits": 2130,
+   "Abstentions": 321,
+   "% Abs": {
+      "Ins": 15.07
+   },
+   "Votants": 1809,
+   "% Vot": {
+      "Ins": 84.93
+   },
+   "Blancs et nuls": 83,
+   "% BlNuls": {
+      "Ins": 3.9,
+      "Vot": 4.59
+   },
+   "Exprimés": 1726,
+   "% Exp": {
+      "Ins": 81.03,
+      "Vot": 95.41
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      1499,
+      227
+   ],
+   "% Voix": {
+      "Ins": [
+         70.38,
+         10.66
+      ],
+      "Exp": [
+         86.85,
+         13.15
+      ]
+   }
+},
+ {
+   "code": 284,
+   "Libellé de la commune": "Saint-Germain-des-Prés",
+   "Inscrits": 912,
+   "Abstentions": 119,
+   "% Abs": {
+      "Ins": 13.05
+   },
+   "Votants": 793,
+   "% Vot": {
+      "Ins": 86.95
+   },
+   "Blancs et nuls": 54,
+   "% BlNuls": {
+      "Ins": 5.92,
+      "Vot": 6.81
+   },
+   "Exprimés": 739,
+   "% Exp": {
+      "Ins": 81.03,
+      "Vot": 93.19
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      640,
+      99
+   ],
+   "% Voix": {
+      "Ins": [
+         70.18,
+         10.86
+      ],
+      "Exp": [
+         86.6,
+         13.4
+      ]
+   }
+},
+ {
+   "code": 288,
+   "Libellé de la commune": "Saint-Jean-de-la-Croix",
+   "Inscrits": 158,
+   "Abstentions": 20,
+   "% Abs": {
+      "Ins": 12.66
+   },
+   "Votants": 138,
+   "% Vot": {
+      "Ins": 87.34
+   },
+   "Blancs et nuls": 7,
+   "% BlNuls": {
+      "Ins": 4.43,
+      "Vot": 5.07
+   },
+   "Exprimés": 131,
+   "% Exp": {
+      "Ins": 82.91,
+      "Vot": 94.93
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      107,
+      24
+   ],
+   "% Voix": {
+      "Ins": [
+         67.72,
+         15.19
+      ],
+      "Exp": [
+         81.68,
+         18.32
+      ]
+   }
+},
+ {
+   "code": 289,
+   "Libellé de la commune": "Saint-Jean-de-Linières",
+   "Inscrits": 1036,
+   "Abstentions": 148,
+   "% Abs": {
+      "Ins": 14.29
+   },
+   "Votants": 888,
+   "% Vot": {
+      "Ins": 85.71
+   },
+   "Blancs et nuls": 43,
+   "% BlNuls": {
+      "Ins": 4.15,
+      "Vot": 4.84
+   },
+   "Exprimés": 845,
+   "% Exp": {
+      "Ins": 81.56,
+      "Vot": 95.16
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      780,
+      65
+   ],
+   "% Voix": {
+      "Ins": [
+         75.29,
+         6.27
+      ],
+      "Exp": [
+         92.31,
+         7.69
+      ]
+   }
+},
+ {
+   "code": 291,
+   "Libellé de la commune": "Saint-Just-sur-Dive",
+   "Inscrits": 262,
+   "Abstentions": 62,
+   "% Abs": {
+      "Ins": 23.66
+   },
+   "Votants": 200,
+   "% Vot": {
+      "Ins": 76.34
+   },
+   "Blancs et nuls": 14,
+   "% BlNuls": {
+      "Ins": 5.34,
+      "Vot": 7
+   },
+   "Exprimés": 186,
+   "% Exp": {
+      "Ins": 70.99,
+      "Vot": 93
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      135,
+      51
+   ],
+   "% Voix": {
+      "Ins": [
+         51.53,
+         19.47
+      ],
+      "Exp": [
+         72.58,
+         27.42
+      ]
+   }
+},
+ {
+   "code": 292,
+   "Libellé de la commune": "Val-du-Layon",
+   "Inscrits": 1836,
+   "Abstentions": 237,
+   "% Abs": {
+      "Ins": 12.91
+   },
+   "Votants": 1599,
+   "% Vot": {
+      "Ins": 87.09
+   },
+   "Blancs et nuls": 78,
+   "% BlNuls": {
+      "Ins": 4.25,
+      "Vot": 4.88
+   },
+   "Exprimés": 1521,
+   "% Exp": {
+      "Ins": 82.84,
+      "Vot": 95.12
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      1325,
+      196
+   ],
+   "% Voix": {
+      "Ins": [
+         72.17,
+         10.68
+      ],
+      "Exp": [
+         87.11,
+         12.89
+      ]
+   }
+},
+ {
+   "code": 294,
+   "Libellé de la commune": "Saint-Lambert-la-Potherie",
+   "Inscrits": 1639,
+   "Abstentions": 225,
+   "% Abs": {
+      "Ins": 13.73
+   },
+   "Votants": 1414,
+   "% Vot": {
+      "Ins": 86.27
+   },
+   "Blancs et nuls": 64,
+   "% BlNuls": {
+      "Ins": 3.9,
+      "Vot": 4.53
+   },
+   "Exprimés": 1350,
+   "% Exp": {
+      "Ins": 82.37,
+      "Vot": 95.47
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      1201,
+      149
+   ],
+   "% Voix": {
+      "Ins": [
+         73.28,
+         9.09
+      ],
+      "Exp": [
+         88.96,
+         11.04
+      ]
+   }
+},
+ {
+   "code": 298,
+   "Libellé de la commune": "Saint-Léger-des-Bois",
+   "Inscrits": 898,
+   "Abstentions": 82,
+   "% Abs": {
+      "Ins": 9.13
+   },
+   "Votants": 816,
+   "% Vot": {
+      "Ins": 90.87
+   },
+   "Blancs et nuls": 38,
+   "% BlNuls": {
+      "Ins": 4.23,
+      "Vot": 4.66
+   },
+   "Exprimés": 778,
+   "% Exp": {
+      "Ins": 86.64,
+      "Vot": 95.34
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      697,
+      81
+   ],
+   "% Voix": {
+      "Ins": [
+         77.62,
+         9.02
+      ],
+      "Exp": [
+         89.59,
+         10.41
+      ]
+   }
+},
+ {
+   "code": 299,
+   "Libellé de la commune": "Saint-Léger-sous-Cholet",
+   "Inscrits": 1896,
+   "Abstentions": 325,
+   "% Abs": {
+      "Ins": 17.14
+   },
+   "Votants": 1571,
+   "% Vot": {
+      "Ins": 82.86
+   },
+   "Blancs et nuls": 78,
+   "% BlNuls": {
+      "Ins": 4.11,
+      "Vot": 4.96
+   },
+   "Exprimés": 1493,
+   "% Exp": {
+      "Ins": 78.74,
+      "Vot": 95.04
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      1355,
+      138
+   ],
+   "% Voix": {
+      "Ins": [
+         71.47,
+         7.28
+      ],
+      "Exp": [
+         90.76,
+         9.24
+      ]
+   }
+},
+ {
+   "code": 301,
+   "Libellé de la commune": "Sèvremoine",
+   "Inscrits": 15367,
+   "Abstentions": 2460,
+   "% Abs": {
+      "Ins": 16.01
+   },
+   "Votants": 12907,
+   "% Vot": {
+      "Ins": 83.99
+   },
+   "Blancs et nuls": 673,
+   "% BlNuls": {
+      "Ins": 4.38,
+      "Vot": 5.21
+   },
+   "Exprimés": 12234,
+   "% Exp": {
+      "Ins": 79.61,
+      "Vot": 94.79
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      10671,
+      1563
+   ],
+   "% Voix": {
+      "Ins": [
+         69.44,
+         10.17
+      ],
+      "Exp": [
+         87.22,
+         12.78
+      ]
+   }
+},
+ {
+   "code": 302,
+   "Libellé de la commune": "Saint-Macaire-du-Bois",
+   "Inscrits": 316,
+   "Abstentions": 77,
+   "% Abs": {
+      "Ins": 24.37
+   },
+   "Votants": 239,
+   "% Vot": {
+      "Ins": 75.63
+   },
+   "Blancs et nuls": 15,
+   "% BlNuls": {
+      "Ins": 4.75,
+      "Vot": 6.28
+   },
+   "Exprimés": 224,
+   "% Exp": {
+      "Ins": 70.89,
+      "Vot": 93.72
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      163,
+      61
+   ],
+   "% Voix": {
+      "Ins": [
+         51.58,
+         19.3
+      ],
+      "Exp": [
+         72.77,
+         27.23
+      ]
+   }
+},
+ {
+   "code": 304,
+   "Libellé de la commune": "Saint-Martin-de-la-Place",
+   "Inscrits": 848,
+   "Abstentions": 157,
+   "% Abs": {
+      "Ins": 18.51
+   },
+   "Votants": 691,
+   "% Vot": {
+      "Ins": 81.49
+   },
+   "Blancs et nuls": 38,
+   "% BlNuls": {
+      "Ins": 4.48,
+      "Vot": 5.5
+   },
+   "Exprimés": 653,
+   "% Exp": {
+      "Ins": 77,
+      "Vot": 94.5
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      524,
+      129
+   ],
+   "% Voix": {
+      "Ins": [
+         61.79,
+         15.21
+      ],
+      "Exp": [
+         80.25,
+         19.75
+      ]
+   }
+},
+ {
+   "code": 306,
+   "Libellé de la commune": "Saint-Martin-du-Fouilloux",
+   "Inscrits": 1071,
+   "Abstentions": 150,
+   "% Abs": {
+      "Ins": 14.01
+   },
+   "Votants": 921,
+   "% Vot": {
+      "Ins": 85.99
+   },
+   "Blancs et nuls": 67,
+   "% BlNuls": {
+      "Ins": 6.26,
+      "Vot": 7.27
+   },
+   "Exprimés": 854,
+   "% Exp": {
+      "Ins": 79.74,
+      "Vot": 92.73
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      742,
+      112
+   ],
+   "% Voix": {
+      "Ins": [
+         69.28,
+         10.46
+      ],
+      "Exp": [
+         86.89,
+         13.11
+      ]
+   }
+},
+ {
+   "code": 307,
+   "Libellé de la commune": "Loire-Authion",
+   "Inscrits": 9834,
+   "Abstentions": 1436,
+   "% Abs": {
+      "Ins": 14.6
+   },
+   "Votants": 8398,
+   "% Vot": {
+      "Ins": 85.4
+   },
+   "Blancs et nuls": 441,
+   "% BlNuls": {
+      "Ins": 4.48,
+      "Vot": 5.25
+   },
+   "Exprimés": 7957,
+   "% Exp": {
+      "Ins": 80.91,
+      "Vot": 94.75
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      6980,
+      977
+   ],
+   "% Voix": {
+      "Ins": [
+         70.98,
+         9.93
+      ],
+      "Exp": [
+         87.72,
+         12.28
+      ]
+   }
+},
+ {
+   "code": 308,
+   "Libellé de la commune": "Saint-Melaine-sur-Aubance",
+   "Inscrits": 1451,
+   "Abstentions": 158,
+   "% Abs": {
+      "Ins": 10.89
+   },
+   "Votants": 1293,
+   "% Vot": {
+      "Ins": 89.11
+   },
+   "Blancs et nuls": 65,
+   "% BlNuls": {
+      "Ins": 4.48,
+      "Vot": 5.03
+   },
+   "Exprimés": 1228,
+   "% Exp": {
+      "Ins": 84.63,
+      "Vot": 94.97
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      1085,
+      143
+   ],
+   "% Voix": {
+      "Ins": [
+         74.78,
+         9.86
+      ],
+      "Exp": [
+         88.36,
+         11.64
+      ]
+   }
+},
+ {
+   "code": 310,
+   "Libellé de la commune": "Saint-Paul-du-Bois",
+   "Inscrits": 466,
+   "Abstentions": 61,
+   "% Abs": {
+      "Ins": 13.09
+   },
+   "Votants": 405,
+   "% Vot": {
+      "Ins": 86.91
+   },
+   "Blancs et nuls": 10,
+   "% BlNuls": {
+      "Ins": 2.15,
+      "Vot": 2.47
+   },
+   "Exprimés": 395,
+   "% Exp": {
+      "Ins": 84.76,
+      "Vot": 97.53
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      352,
+      43
+   ],
+   "% Voix": {
+      "Ins": [
+         75.54,
+         9.23
+      ],
+      "Exp": [
+         89.11,
+         10.89
+      ]
+   }
+},
+ {
+   "code": 311,
+   "Libellé de la commune": "Saint-Philbert-du-Peuple",
+   "Inscrits": 825,
+   "Abstentions": 134,
+   "% Abs": {
+      "Ins": 16.24
+   },
+   "Votants": 691,
+   "% Vot": {
+      "Ins": 83.76
+   },
+   "Blancs et nuls": 35,
+   "% BlNuls": {
+      "Ins": 4.24,
+      "Vot": 5.07
+   },
+   "Exprimés": 656,
+   "% Exp": {
+      "Ins": 79.52,
+      "Vot": 94.93
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      542,
+      114
+   ],
+   "% Voix": {
+      "Ins": [
+         65.7,
+         13.82
+      ],
+      "Exp": [
+         82.62,
+         17.38
+      ]
+   }
+},
+ {
+   "code": 321,
+   "Libellé de la commune": "Saint-Sigismond",
+   "Inscrits": 239,
+   "Abstentions": 23,
+   "% Abs": {
+      "Ins": 9.62
+   },
+   "Votants": 216,
+   "% Vot": {
+      "Ins": 90.38
+   },
+   "Blancs et nuls": 11,
+   "% BlNuls": {
+      "Ins": 4.6,
+      "Vot": 5.09
+   },
+   "Exprimés": 205,
+   "% Exp": {
+      "Ins": 85.77,
+      "Vot": 94.91
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      181,
+      24
+   ],
+   "% Voix": {
+      "Ins": [
+         75.73,
+         10.04
+      ],
+      "Exp": [
+         88.29,
+         11.71
+      ]
+   }
+},
+ {
+   "code": 323,
+   "Libellé de la commune": "Verrière-en-Anjou",
+   "Inscrits": 4479,
+   "Abstentions": 638,
+   "% Abs": {
+      "Ins": 14.24
+   },
+   "Votants": 3841,
+   "% Vot": {
+      "Ins": 85.76
+   },
+   "Blancs et nuls": 183,
+   "% BlNuls": {
+      "Ins": 4.09,
+      "Vot": 4.76
+   },
+   "Exprimés": 3658,
+   "% Exp": {
+      "Ins": 81.67,
+      "Vot": 95.24
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      3310,
+      348
+   ],
+   "% Voix": {
+      "Ins": [
+         73.9,
+         7.77
+      ],
+      "Exp": [
+         90.49,
+         9.51
+      ]
+   }
+},
+ {
+   "code": 326,
+   "Libellé de la commune": "Sarrigné",
+   "Inscrits": 562,
+   "Abstentions": 78,
+   "% Abs": {
+      "Ins": 13.88
+   },
+   "Votants": 484,
+   "% Vot": {
+      "Ins": 86.12
+   },
+   "Blancs et nuls": 35,
+   "% BlNuls": {
+      "Ins": 6.23,
+      "Vot": 7.23
+   },
+   "Exprimés": 449,
+   "% Exp": {
+      "Ins": 79.89,
+      "Vot": 92.77
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      401,
+      48
+   ],
+   "% Voix": {
+      "Ins": [
+         71.35,
+         8.54
+      ],
+      "Exp": [
+         89.31,
+         10.69
+      ]
+   }
+},
+ {
+   "code": 328,
+   "Libellé de la commune": "Saumur",
+   "Inscrits": 18734,
+   "Abstentions": 4089,
+   "% Abs": {
+      "Ins": 21.83
+   },
+   "Votants": 14645,
+   "% Vot": {
+      "Ins": 78.17
+   },
+   "Blancs et nuls": 627,
+   "% BlNuls": {
+      "Ins": 3.35,
+      "Vot": 4.28
+   },
+   "Exprimés": 14018,
+   "% Exp": {
+      "Ins": 74.83,
+      "Vot": 95.72
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      12112,
+      1906
+   ],
+   "% Voix": {
+      "Ins": [
+         64.65,
+         10.17
+      ],
+      "Exp": [
+         86.4,
+         13.6
+      ]
+   }
+},
+ {
+   "code": 329,
+   "Libellé de la commune": "Savennières",
+   "Inscrits": 953,
+   "Abstentions": 136,
+   "% Abs": {
+      "Ins": 14.27
+   },
+   "Votants": 817,
+   "% Vot": {
+      "Ins": 85.73
+   },
+   "Blancs et nuls": 35,
+   "% BlNuls": {
+      "Ins": 3.67,
+      "Vot": 4.28
+   },
+   "Exprimés": 782,
+   "% Exp": {
+      "Ins": 82.06,
+      "Vot": 95.72
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      683,
+      99
+   ],
+   "% Voix": {
+      "Ins": [
+         71.67,
+         10.39
+      ],
+      "Exp": [
+         87.34,
+         12.66
+      ]
+   }
+},
+ {
+   "code": 330,
+   "Libellé de la commune": "Sceaux-d'Anjou",
+   "Inscrits": 503,
+   "Abstentions": 64,
+   "% Abs": {
+      "Ins": 12.72
+   },
+   "Votants": 439,
+   "% Vot": {
+      "Ins": 87.28
+   },
+   "Blancs et nuls": 23,
+   "% BlNuls": {
+      "Ins": 4.57,
+      "Vot": 5.24
+   },
+   "Exprimés": 416,
+   "% Exp": {
+      "Ins": 82.7,
+      "Vot": 94.76
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      357,
+      59
+   ],
+   "% Voix": {
+      "Ins": [
+         70.97,
+         11.73
+      ],
+      "Exp": [
+         85.82,
+         14.18
+      ]
+   }
+},
+ {
+   "code": 331,
+   "Libellé de la commune": "Segré-en-Anjou-Bleu",
+   "Inscrits": 11694,
+   "Abstentions": 2174,
+   "% Abs": {
+      "Ins": 18.59
+   },
+   "Votants": 9520,
+   "% Vot": {
+      "Ins": 81.41
+   },
+   "Blancs et nuls": 489,
+   "% BlNuls": {
+      "Ins": 4.18,
+      "Vot": 5.14
+   },
+   "Exprimés": 9031,
+   "% Exp": {
+      "Ins": 77.23,
+      "Vot": 94.86
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      8150,
+      881
+   ],
+   "% Voix": {
+      "Ins": [
+         69.69,
+         7.53
+      ],
+      "Exp": [
+         90.24,
+         9.76
+      ]
+   }
+},
+ {
+   "code": 332,
+   "Libellé de la commune": "La Séguinière",
+   "Inscrits": 2833,
+   "Abstentions": 438,
+   "% Abs": {
+      "Ins": 15.46
+   },
+   "Votants": 2395,
+   "% Vot": {
+      "Ins": 84.54
+   },
+   "Blancs et nuls": 98,
+   "% BlNuls": {
+      "Ins": 3.46,
+      "Vot": 4.09
+   },
+   "Exprimés": 2297,
+   "% Exp": {
+      "Ins": 81.08,
+      "Vot": 95.91
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      2069,
+      228
+   ],
+   "% Voix": {
+      "Ins": [
+         73.03,
+         8.05
+      ],
+      "Exp": [
+         90.07,
+         9.93
+      ]
+   }
+},
+ {
+   "code": 333,
+   "Libellé de la commune": "Seiches-sur-le-Loir",
+   "Inscrits": 1822,
+   "Abstentions": 329,
+   "% Abs": {
+      "Ins": 18.06
+   },
+   "Votants": 1493,
+   "% Vot": {
+      "Ins": 81.94
+   },
+   "Blancs et nuls": 68,
+   "% BlNuls": {
+      "Ins": 3.73,
+      "Vot": 4.55
+   },
+   "Exprimés": 1425,
+   "% Exp": {
+      "Ins": 78.21,
+      "Vot": 95.45
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      1190,
+      235
+   ],
+   "% Voix": {
+      "Ins": [
+         65.31,
+         12.9
+      ],
+      "Exp": [
+         83.51,
+         16.49
+      ]
+   }
+},
+ {
+   "code": 334,
+   "Libellé de la commune": "Sermaise",
+   "Inscrits": 205,
+   "Abstentions": 55,
+   "% Abs": {
+      "Ins": 26.83
+   },
+   "Votants": 150,
+   "% Vot": {
+      "Ins": 73.17
+   },
+   "Blancs et nuls": 10,
+   "% BlNuls": {
+      "Ins": 4.88,
+      "Vot": 6.67
+   },
+   "Exprimés": 140,
+   "% Exp": {
+      "Ins": 68.29,
+      "Vot": 93.33
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      109,
+      31
+   ],
+   "% Voix": {
+      "Ins": [
+         53.17,
+         15.12
+      ],
+      "Exp": [
+         77.86,
+         22.14
+      ]
+   }
+},
+ {
+   "code": 336,
+   "Libellé de la commune": "Somloire",
+   "Inscrits": 629,
+   "Abstentions": 88,
+   "% Abs": {
+      "Ins": 13.99
+   },
+   "Votants": 541,
+   "% Vot": {
+      "Ins": 86.01
+   },
+   "Blancs et nuls": 29,
+   "% BlNuls": {
+      "Ins": 4.61,
+      "Vot": 5.36
+   },
+   "Exprimés": 512,
+   "% Exp": {
+      "Ins": 81.4,
+      "Vot": 94.64
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      440,
+      72
+   ],
+   "% Voix": {
+      "Ins": [
+         69.95,
+         11.45
+      ],
+      "Exp": [
+         85.94,
+         14.06
+      ]
+   }
+},
+ {
+   "code": 337,
+   "Libellé de la commune": "Soucelles",
+   "Inscrits": 1473,
+   "Abstentions": 257,
+   "% Abs": {
+      "Ins": 17.45
+   },
+   "Votants": 1216,
+   "% Vot": {
+      "Ins": 82.55
+   },
+   "Blancs et nuls": 98,
+   "% BlNuls": {
+      "Ins": 6.65,
+      "Vot": 8.06
+   },
+   "Exprimés": 1118,
+   "% Exp": {
+      "Ins": 75.9,
+      "Vot": 91.94
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      956,
+      162
+   ],
+   "% Voix": {
+      "Ins": [
+         64.9,
+         11
+      ],
+      "Exp": [
+         85.51,
+         14.49
+      ]
+   }
+},
+ {
+   "code": 338,
+   "Libellé de la commune": "Soulaines-sur-Aubance",
+   "Inscrits": 881,
+   "Abstentions": 105,
+   "% Abs": {
+      "Ins": 11.92
+   },
+   "Votants": 776,
+   "% Vot": {
+      "Ins": 88.08
+   },
+   "Blancs et nuls": 35,
+   "% BlNuls": {
+      "Ins": 3.97,
+      "Vot": 4.51
+   },
+   "Exprimés": 741,
+   "% Exp": {
+      "Ins": 84.11,
+      "Vot": 95.49
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      677,
+      64
+   ],
+   "% Voix": {
+      "Ins": [
+         76.84,
+         7.26
+      ],
+      "Exp": [
+         91.36,
+         8.64
+      ]
+   }
+},
+ {
+   "code": 339,
+   "Libellé de la commune": "Soulaire-et-Bourg",
+   "Inscrits": 887,
+   "Abstentions": 126,
+   "% Abs": {
+      "Ins": 14.21
+   },
+   "Votants": 761,
+   "% Vot": {
+      "Ins": 85.79
+   },
+   "Blancs et nuls": 38,
+   "% BlNuls": {
+      "Ins": 4.28,
+      "Vot": 4.99
+   },
+   "Exprimés": 723,
+   "% Exp": {
+      "Ins": 81.51,
+      "Vot": 95.01
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      614,
+      109
+   ],
+   "% Voix": {
+      "Ins": [
+         69.22,
+         12.29
+      ],
+      "Exp": [
+         84.92,
+         15.08
+      ]
+   }
+},
+ {
+   "code": 341,
+   "Libellé de la commune": "Souzay-Champigny",
+   "Inscrits": 487,
+   "Abstentions": 95,
+   "% Abs": {
+      "Ins": 19.51
+   },
+   "Votants": 392,
+   "% Vot": {
+      "Ins": 80.49
+   },
+   "Blancs et nuls": 18,
+   "% BlNuls": {
+      "Ins": 3.7,
+      "Vot": 4.59
+   },
+   "Exprimés": 374,
+   "% Exp": {
+      "Ins": 76.8,
+      "Vot": 95.41
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      289,
+      85
+   ],
+   "% Voix": {
+      "Ins": [
+         59.34,
+         17.45
+      ],
+      "Exp": [
+         77.27,
+         22.73
+      ]
+   }
+},
+ {
+   "code": 343,
+   "Libellé de la commune": "La Tessoualle",
+   "Inscrits": 2317,
+   "Abstentions": 333,
+   "% Abs": {
+      "Ins": 14.37
+   },
+   "Votants": 1984,
+   "% Vot": {
+      "Ins": 85.63
+   },
+   "Blancs et nuls": 97,
+   "% BlNuls": {
+      "Ins": 4.19,
+      "Vot": 4.89
+   },
+   "Exprimés": 1887,
+   "% Exp": {
+      "Ins": 81.44,
+      "Vot": 95.11
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      1704,
+      183
+   ],
+   "% Voix": {
+      "Ins": [
+         73.54,
+         7.9
+      ],
+      "Exp": [
+         90.3,
+         9.7
+      ]
+   }
+},
+ {
+   "code": 344,
+   "Libellé de la commune": "Thorigné-d'Anjou",
+   "Inscrits": 594,
+   "Abstentions": 93,
+   "% Abs": {
+      "Ins": 15.66
+   },
+   "Votants": 501,
+   "% Vot": {
+      "Ins": 84.34
+   },
+   "Blancs et nuls": 22,
+   "% BlNuls": {
+      "Ins": 3.7,
+      "Vot": 4.39
+   },
+   "Exprimés": 479,
+   "% Exp": {
+      "Ins": 80.64,
+      "Vot": 95.61
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      405,
+      74
+   ],
+   "% Voix": {
+      "Ins": [
+         68.18,
+         12.46
+      ],
+      "Exp": [
+         84.55,
+         15.45
+      ]
+   }
+},
+ {
+   "code": 345,
+   "Libellé de la commune": "Bellevigne-en-Layon",
+   "Inscrits": 3641,
+   "Abstentions": 620,
+   "% Abs": {
+      "Ins": 17.03
+   },
+   "Votants": 3021,
+   "% Vot": {
+      "Ins": 82.97
+   },
+   "Blancs et nuls": 131,
+   "% BlNuls": {
+      "Ins": 3.6,
+      "Vot": 4.34
+   },
+   "Exprimés": 2890,
+   "% Exp": {
+      "Ins": 79.37,
+      "Vot": 95.66
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      2498,
+      392
+   ],
+   "% Voix": {
+      "Ins": [
+         68.61,
+         10.77
+      ],
+      "Exp": [
+         86.44,
+         13.56
+      ]
+   }
+},
+ {
+   "code": 347,
+   "Libellé de la commune": "Tiercé",
+   "Inscrits": 2721,
+   "Abstentions": 418,
+   "% Abs": {
+      "Ins": 15.36
+   },
+   "Votants": 2303,
+   "% Vot": {
+      "Ins": 84.64
+   },
+   "Blancs et nuls": 101,
+   "% BlNuls": {
+      "Ins": 3.71,
+      "Vot": 4.39
+   },
+   "Exprimés": 2202,
+   "% Exp": {
+      "Ins": 80.93,
+      "Vot": 95.61
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      1877,
+      325
+   ],
+   "% Voix": {
+      "Ins": [
+         68.98,
+         11.94
+      ],
+      "Exp": [
+         85.24,
+         14.76
+      ]
+   }
+},
+ {
+   "code": 352,
+   "Libellé de la commune": "Toutlemonde",
+   "Inscrits": 836,
+   "Abstentions": 111,
+   "% Abs": {
+      "Ins": 13.28
+   },
+   "Votants": 725,
+   "% Vot": {
+      "Ins": 86.72
+   },
+   "Blancs et nuls": 30,
+   "% BlNuls": {
+      "Ins": 3.59,
+      "Vot": 4.14
+   },
+   "Exprimés": 695,
+   "% Exp": {
+      "Ins": 83.13,
+      "Vot": 95.86
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      640,
+      55
+   ],
+   "% Voix": {
+      "Ins": [
+         76.56,
+         6.58
+      ],
+      "Exp": [
+         92.09,
+         7.91
+      ]
+   }
+},
+ {
+   "code": 353,
+   "Libellé de la commune": "Trélazé",
+   "Inscrits": 6761,
+   "Abstentions": 1257,
+   "% Abs": {
+      "Ins": 18.59
+   },
+   "Votants": 5504,
+   "% Vot": {
+      "Ins": 81.41
+   },
+   "Blancs et nuls": 383,
+   "% BlNuls": {
+      "Ins": 5.66,
+      "Vot": 6.96
+   },
+   "Exprimés": 5121,
+   "% Exp": {
+      "Ins": 75.74,
+      "Vot": 93.04
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      4537,
+      584
+   ],
+   "% Voix": {
+      "Ins": [
+         67.11,
+         8.64
+      ],
+      "Exp": [
+         88.6,
+         11.4
+      ]
+   }
+},
+ {
+   "code": 355,
+   "Libellé de la commune": "Trémentines",
+   "Inscrits": 2146,
+   "Abstentions": 339,
+   "% Abs": {
+      "Ins": 15.8
+   },
+   "Votants": 1807,
+   "% Vot": {
+      "Ins": 84.2
+   },
+   "Blancs et nuls": 118,
+   "% BlNuls": {
+      "Ins": 5.5,
+      "Vot": 6.53
+   },
+   "Exprimés": 1689,
+   "% Exp": {
+      "Ins": 78.7,
+      "Vot": 93.47
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      1536,
+      153
+   ],
+   "% Voix": {
+      "Ins": [
+         71.58,
+         7.13
+      ],
+      "Exp": [
+         90.94,
+         9.06
+      ]
+   }
+},
+ {
+   "code": 358,
+   "Libellé de la commune": "Turquant",
+   "Inscrits": 379,
+   "Abstentions": 80,
+   "% Abs": {
+      "Ins": 21.11
+   },
+   "Votants": 299,
+   "% Vot": {
+      "Ins": 78.89
+   },
+   "Blancs et nuls": 18,
+   "% BlNuls": {
+      "Ins": 4.75,
+      "Vot": 6.02
+   },
+   "Exprimés": 281,
+   "% Exp": {
+      "Ins": 74.14,
+      "Vot": 93.98
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      231,
+      50
+   ],
+   "% Voix": {
+      "Ins": [
+         60.95,
+         13.19
+      ],
+      "Exp": [
+         82.21,
+         17.79
+      ]
+   }
+},
+ {
+   "code": 359,
+   "Libellé de la commune": "Les Ulmes",
+   "Inscrits": 352,
+   "Abstentions": 55,
+   "% Abs": {
+      "Ins": 15.63
+   },
+   "Votants": 297,
+   "% Vot": {
+      "Ins": 84.38
+   },
+   "Blancs et nuls": 17,
+   "% BlNuls": {
+      "Ins": 4.83,
+      "Vot": 5.72
+   },
+   "Exprimés": 280,
+   "% Exp": {
+      "Ins": 79.55,
+      "Vot": 94.28
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      230,
+      50
+   ],
+   "% Voix": {
+      "Ins": [
+         65.34,
+         14.2
+      ],
+      "Exp": [
+         82.14,
+         17.86
+      ]
+   }
+},
+ {
+   "code": 361,
+   "Libellé de la commune": "Varennes-sur-Loire",
+   "Inscrits": 1366,
+   "Abstentions": 248,
+   "% Abs": {
+      "Ins": 18.16
+   },
+   "Votants": 1118,
+   "% Vot": {
+      "Ins": 81.84
+   },
+   "Blancs et nuls": 66,
+   "% BlNuls": {
+      "Ins": 4.83,
+      "Vot": 5.9
+   },
+   "Exprimés": 1052,
+   "% Exp": {
+      "Ins": 77.01,
+      "Vot": 94.1
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      872,
+      180
+   ],
+   "% Voix": {
+      "Ins": [
+         63.84,
+         13.18
+      ],
+      "Exp": [
+         82.89,
+         17.11
+      ]
+   }
+},
+ {
+   "code": 362,
+   "Libellé de la commune": "Varrains",
+   "Inscrits": 853,
+   "Abstentions": 139,
+   "% Abs": {
+      "Ins": 16.3
+   },
+   "Votants": 714,
+   "% Vot": {
+      "Ins": 83.7
+   },
+   "Blancs et nuls": 30,
+   "% BlNuls": {
+      "Ins": 3.52,
+      "Vot": 4.2
+   },
+   "Exprimés": 684,
+   "% Exp": {
+      "Ins": 80.19,
+      "Vot": 95.8
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      574,
+      110
+   ],
+   "% Voix": {
+      "Ins": [
+         67.29,
+         12.9
+      ],
+      "Exp": [
+         83.92,
+         16.08
+      ]
+   }
+},
+ {
+   "code": 364,
+   "Libellé de la commune": "Vaudelnay",
+   "Inscrits": 815,
+   "Abstentions": 111,
+   "% Abs": {
+      "Ins": 13.62
+   },
+   "Votants": 704,
+   "% Vot": {
+      "Ins": 86.38
+   },
+   "Blancs et nuls": 33,
+   "% BlNuls": {
+      "Ins": 4.05,
+      "Vot": 4.69
+   },
+   "Exprimés": 671,
+   "% Exp": {
+      "Ins": 82.33,
+      "Vot": 95.31
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      505,
+      166
+   ],
+   "% Voix": {
+      "Ins": [
+         61.96,
+         20.37
+      ],
+      "Exp": [
+         75.26,
+         24.74
+      ]
+   }
+},
+ {
+   "code": 367,
+   "Libellé de la commune": "Erdre-en-Anjou",
+   "Inscrits": 2918,
+   "Abstentions": 437,
+   "% Abs": {
+      "Ins": 14.98
+   },
+   "Votants": 2481,
+   "% Vot": {
+      "Ins": 85.02
+   },
+   "Blancs et nuls": 105,
+   "% BlNuls": {
+      "Ins": 3.6,
+      "Vot": 4.23
+   },
+   "Exprimés": 2376,
+   "% Exp": {
+      "Ins": 81.43,
+      "Vot": 95.77
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      2053,
+      323
+   ],
+   "% Voix": {
+      "Ins": [
+         70.36,
+         11.07
+      ],
+      "Exp": [
+         86.41,
+         13.59
+      ]
+   }
+},
+ {
+   "code": 368,
+   "Libellé de la commune": "Vernantes",
+   "Inscrits": 1193,
+   "Abstentions": 229,
+   "% Abs": {
+      "Ins": 19.2
+   },
+   "Votants": 964,
+   "% Vot": {
+      "Ins": 80.8
+   },
+   "Blancs et nuls": 43,
+   "% BlNuls": {
+      "Ins": 3.6,
+      "Vot": 4.46
+   },
+   "Exprimés": 921,
+   "% Exp": {
+      "Ins": 77.2,
+      "Vot": 95.54
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      759,
+      162
+   ],
+   "% Voix": {
+      "Ins": [
+         63.62,
+         13.58
+      ],
+      "Exp": [
+         82.41,
+         17.59
+      ]
+   }
+},
+ {
+   "code": 369,
+   "Libellé de la commune": "Vernoil-le-Fourrier",
+   "Inscrits": 933,
+   "Abstentions": 179,
+   "% Abs": {
+      "Ins": 19.19
+   },
+   "Votants": 754,
+   "% Vot": {
+      "Ins": 80.81
+   },
+   "Blancs et nuls": 60,
+   "% BlNuls": {
+      "Ins": 6.43,
+      "Vot": 7.96
+   },
+   "Exprimés": 694,
+   "% Exp": {
+      "Ins": 74.38,
+      "Vot": 92.04
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      574,
+      120
+   ],
+   "% Voix": {
+      "Ins": [
+         61.52,
+         12.86
+      ],
+      "Exp": [
+         82.71,
+         17.29
+      ]
+   }
+},
+ {
+   "code": 370,
+   "Libellé de la commune": "Verrie",
+   "Inscrits": 303,
+   "Abstentions": 50,
+   "% Abs": {
+      "Ins": 16.5
+   },
+   "Votants": 253,
+   "% Vot": {
+      "Ins": 83.5
+   },
+   "Blancs et nuls": 22,
+   "% BlNuls": {
+      "Ins": 7.26,
+      "Vot": 8.7
+   },
+   "Exprimés": 231,
+   "% Exp": {
+      "Ins": 76.24,
+      "Vot": 91.3
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      180,
+      51
+   ],
+   "% Voix": {
+      "Ins": [
+         59.41,
+         16.83
+      ],
+      "Exp": [
+         77.92,
+         22.08
+      ]
+   }
+},
+ {
+   "code": 371,
+   "Libellé de la commune": "Vezins",
+   "Inscrits": 1116,
+   "Abstentions": 154,
+   "% Abs": {
+      "Ins": 13.8
+   },
+   "Votants": 962,
+   "% Vot": {
+      "Ins": 86.2
+   },
+   "Blancs et nuls": 48,
+   "% BlNuls": {
+      "Ins": 4.3,
+      "Vot": 4.99
+   },
+   "Exprimés": 914,
+   "% Exp": {
+      "Ins": 81.9,
+      "Vot": 95.01
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      793,
+      121
+   ],
+   "% Voix": {
+      "Ins": [
+         71.06,
+         10.84
+      ],
+      "Exp": [
+         86.76,
+         13.24
+      ]
+   }
+},
+ {
+   "code": 373,
+   "Libellé de la commune": "Lys-Haut-Layon",
+   "Inscrits": 5591,
+   "Abstentions": 948,
+   "% Abs": {
+      "Ins": 16.96
+   },
+   "Votants": 4643,
+   "% Vot": {
+      "Ins": 83.04
+   },
+   "Blancs et nuls": 224,
+   "% BlNuls": {
+      "Ins": 4.01,
+      "Vot": 4.82
+   },
+   "Exprimés": 4419,
+   "% Exp": {
+      "Ins": 79.04,
+      "Vot": 95.18
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      3784,
+      635
+   ],
+   "% Voix": {
+      "Ins": [
+         67.68,
+         11.36
+      ],
+      "Exp": [
+         85.63,
+         14.37
+      ]
+   }
+},
+ {
+   "code": 374,
+   "Libellé de la commune": "Villebernier",
+   "Inscrits": 1016,
+   "Abstentions": 195,
+   "% Abs": {
+      "Ins": 19.19
+   },
+   "Votants": 821,
+   "% Vot": {
+      "Ins": 80.81
+   },
+   "Blancs et nuls": 34,
+   "% BlNuls": {
+      "Ins": 3.35,
+      "Vot": 4.14
+   },
+   "Exprimés": 787,
+   "% Exp": {
+      "Ins": 77.46,
+      "Vot": 95.86
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      653,
+      134
+   ],
+   "% Voix": {
+      "Ins": [
+         64.27,
+         13.19
+      ],
+      "Exp": [
+         82.97,
+         17.03
+      ]
+   }
+},
+ {
+   "code": 377,
+   "Libellé de la commune": "Villevêque",
+   "Inscrits": 1875,
+   "Abstentions": 309,
+   "% Abs": {
+      "Ins": 16.48
+   },
+   "Votants": 1566,
+   "% Vot": {
+      "Ins": 83.52
+   },
+   "Blancs et nuls": 92,
+   "% BlNuls": {
+      "Ins": 4.91,
+      "Vot": 5.87
+   },
+   "Exprimés": 1474,
+   "% Exp": {
+      "Ins": 78.61,
+      "Vot": 94.13
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      1304,
+      170
+   ],
+   "% Voix": {
+      "Ins": [
+         69.55,
+         9.07
+      ],
+      "Exp": [
+         88.47,
+         11.53
+      ]
+   }
+},
+ {
+   "code": 378,
+   "Libellé de la commune": "Vivy",
+   "Inscrits": 1398,
+   "Abstentions": 267,
+   "% Abs": {
+      "Ins": 19.1
+   },
+   "Votants": 1131,
+   "% Vot": {
+      "Ins": 80.9
+   },
+   "Blancs et nuls": 56,
+   "% BlNuls": {
+      "Ins": 4.01,
+      "Vot": 4.95
+   },
+   "Exprimés": 1075,
+   "% Exp": {
+      "Ins": 76.9,
+      "Vot": 95.05
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      862,
+      213
+   ],
+   "% Voix": {
+      "Ins": [
+         61.66,
+         15.24
+      ],
+      "Exp": [
+         80.19,
+         19.81
+      ]
+   }
+},
+ {
+   "code": 381,
+   "Libellé de la commune": "Yzernay",
+   "Inscrits": 1331,
+   "Abstentions": 171,
+   "% Abs": {
+      "Ins": 12.85
+   },
+   "Votants": 1160,
+   "% Vot": {
+      "Ins": 87.15
+   },
+   "Blancs et nuls": 52,
+   "% BlNuls": {
+      "Ins": 3.91,
+      "Vot": 4.48
+   },
+   "Exprimés": 1108,
+   "% Exp": {
+      "Ins": 83.25,
+      "Vot": 95.52
+   },
+   "Sexe": [
+      "M",
+      "M"
+   ],
+   "Nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "Prénom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "Voix": [
+      970,
+      138
+   ],
+   "% Voix": {
+      "Ins": [
+         72.88,
+         10.37
+      ],
+      "Exp": [
+         87.55,
+         12.45
+      ]
+   }
+}
+]
