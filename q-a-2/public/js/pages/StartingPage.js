@@ -24,7 +24,7 @@ class StartingPage extends Page {
                     </div>
                     <div className='swiper-slide startingPage_secondSlide'>
                         <div className='startingPage_card'>
-                            <h1>Bienvenue sur Elys'able !</h1>
+                            <h1>Bienvenue sur Elys'able&nbsp;!</h1>
                             <p>
                                 Les candidats n'attendent plus que toi pour commencer leur campagne !
                                 Tu vas pouvoir les suivre tout au long de ces huit étapes vers l'Élysée.
