@@ -4,5 +4,6 @@ window.onload = () => {
      });
     document.getElementById("commencer").addEventListener("click", () => { 
       window.location.href = "./question.html";
+      sessionStorage.setItem("score", "");
     });
   }

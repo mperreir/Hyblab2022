@@ -51,6 +51,23 @@ body{
     font-size: 1rem;
 }
 
+#success{
+    visibility: hidden;
+}
+
+#fail{
+    visibility: visible;
+}
+
+#sentence{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sentence p{
+    position: absolute;
+}
 .button{
     background-color: #5571E5;
     color: white;

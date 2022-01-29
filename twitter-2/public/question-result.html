@@ -12,9 +12,9 @@
 <body>
     <div id="container">
         <section id="top-section">
-            <img src="img/croix.png" id="exit">
             <div></div>
             <div></div>
+            <img src="img/home.svg" id="exit">
         </section>
 
         <section id="result">
@@ -29,12 +29,12 @@
 
         <section id="answer">
             <img class="right" src="./img/illu-2 1.png">
-            <img class="wrong" src="./img/illu-6.svg" style="margin-top: -30vh;margin-left: -10vw;">
+            <img class="wrong" src="./img/illu-6.svg" style="margin-top: -30vh;margin-left: -10vw;clip-path:circle(50%);">
             <div id="answer-text">
                 C'est avec
-                <span style="display: inline;color:#5571E5">M. Le Pen</span>&nbsp;que<span style="display: inline;">
+                <span style="display: inline;color:#5571E5" id="solutionCandidate">M. Le Pen</span>&nbsp;que&nbsp;<span style="display: inline;" id="mainCandidate">
                     &nbsp;J.L. Mélenchon</span><br> a le plus de followers en commun :<br> ils en partagent
-                <div id="percentage" style="color:#5571E5">36.5% !</div>
+                <span id="percentage" style="color:#5571E5">36.5</span>&nbsp;% !
             </div>
         </section>
 
@@ -43,8 +43,9 @@
             <div class="button" id="next-question">
                 Question suivante
             </div>
-            <div class="button">
-                En savoir plus sur ce candidat
+            <div id="about">
+                <p> En savoir plus sur ce candidat</p>
+                <img src="./img/down-arrow.svg" alt="">
             </div>
 
 

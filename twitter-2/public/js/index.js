@@ -9,6 +9,8 @@ const swiper = new Swiper("#mySwiper", {
   },
 });
 
+sessionStorage.setItem('question', '1');
+
 // Init first slide
 initSlide1();
 

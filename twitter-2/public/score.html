@@ -1,25 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-        <title>score</title>
-        <link rel="stylesheet" href="css/score.css">
-        <script src="./js/score.js"></script>
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>score</title>
+    <link rel="stylesheet" href="css/score.css">
+    <script src="./js/score.js" defer></script>
+</head>
+
 <body>
     <div id="container">
 
         <section id="top-section">
-            <img src="img/croix.png" id="exit">
             <div></div>
             <div></div>
+            <img src="img/home.svg" id="exit">
         </section>
 
         <section id="congrats">
-            <p style="color:#1A367A">Bravo ! <img src="./img/ligne.png" style="margin-bottom: 1.5vh;"></p>
+            <div id="sentence">
+                <p style="color:#1A367A" id="success">Bravo ! <img src="./img/ligne.png"
+                        style="margin-bottom: 1.5vh;"></p>
+                <p style="color:#1A367A" id="fail"><img src="./img/ligne.png"
+                        style="margin-bottom: 1.5vh;">&nbsp;Retentez votre chance !</p>
+            </div>
             <br>
-            <p style="font-size: 2rem;">Votre score est de <div id="score">2/3</div></p>
+            <p style="font-size: 2rem;">Votre score est de
+            <span id="score"></span>/3
+            </p>
         </section>
         <section id="buttons">
 
@@ -33,4 +42,5 @@
         </section>
     </div>
 </body>
+
 </html>

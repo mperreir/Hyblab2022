@@ -1,6 +1,6 @@
 "use strict";
 
-window.addEventListener("load", function(event) {
+window.addEventListener("load", function (event) {
    if (sessionStorage.answer == '0') {
       const collectionRight = document.getElementsByClassName("right");
       const collectionWrong = document.getElementsByClassName("wrong");
@@ -12,14 +12,41 @@ window.addEventListener("load", function(event) {
          collectionWrong[i].style.visibility = "visible";
       }
    }
+   else{
+      sessionStorage.setItem("score", sessionStorage.getItem("score")+1);
+   }
 });
 
+
+
 window.onload = () => {
-    document.getElementById("next-question").addEventListener("click", () => { 
-        window.location.href = "./score.html";
-     });
-     document.getElementById("exit").addEventListener("click", () => { 
-        window.location.href = "./index.html";
-     });
+   let mainCandidate = sessionStorage.getItem("mainCandidate");
+   let solutionCandidate = sessionStorage.getItem("solutionCandidate");
+   let ratio = sessionStorage.getItem("ratio");
+   document.getElementById("mainCandidate").innerHTML = mainCandidate;
+   document.getElementById("solutionCandidate").innerHTML = solutionCandidate;
+   document.getElementById("percentage").innerHTML = Math.trunc(ratio*10)/10;
+   if (sessionStorage.getItem("question").length == 3) {
+      sessionStorage.removeItem("mainCandidate");
+      sessionStorage.removeItem("solutionCandidate");
+      sessionStorage.removeItem("ratio");
+      document.getElementById("next-question").innerHTML = "Voir mon score";
+      document.getElementById("next-question").addEventListener("click", () => {
+         window.location.href = "./score.html";
+      });
+   }
+   else {
+      document.getElementById("next-question").addEventListener("click", () => { 
+         window.location.href = "./question.html";
+      });
+   }
+   sessionStorage.setItem("question", sessionStorage.getItem("question") + 1);
+
+   document.getElementById("exit").addEventListener("click", () => {
+      window.location.href = "./index.html";
+   });
+
+
+
 
 }

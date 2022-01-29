@@ -58,6 +58,7 @@ body{
     visibility: hidden;
 }
 
+
 #answer{
     margin-top: 10vh;
     color: white;
@@ -97,6 +98,15 @@ body{
     line-height: 6vh;
 }
 
+#about{
+    color: white;
+    margin-top: 10vh;
+    text-align: center;
+}
+
+#about img{
+    margin-top: 3vh;
+}
 
 
 
