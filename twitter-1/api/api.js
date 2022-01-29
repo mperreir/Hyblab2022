@@ -198,6 +198,21 @@ module.exports = (passport) => {
         }
     });
 
+    app.post('/admin/followers/update',
+            [require('connect-ensure-login').ensureLoggedIn(), upload.single('followers_file')],
+            (req, res) => {
+        if (req.file !== undefined && req.file.buffer !== undefined) {
+            // https://stackoverflow.com/questions/190852/how-can-i-get-file-extensions-with-javascript
+            if (req.file.originalname.slice((req.file.originalname.lastIndexOf(".") - 1 >>> 0) + 2) !== 'csv')
+                res.status(400).send('Erreur : .csv requit.');
+            db.followers_update(req.file.buffer.toString(), () => {
+                res.redirect('back');
+            });
+        } else {
+            res.status(400).send('Erreur fichier non reçu.');
+        }
+    });
+
     // Authentification pour accéder aux parties privées de l'api (on n'en a pas dans cet exemple)
     // et aux templates privés
     // C'est ici qu'on utilise passport pour créer une session utilisateur
