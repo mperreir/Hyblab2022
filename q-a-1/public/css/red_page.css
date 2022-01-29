@@ -1,3 +1,113 @@
 p{
     margin-bottom: 10%;
 }
+
+.main-part section{
+    background-color: #EC8989;
+}
+
+body{
+    color: #AC4B4B;
+}
+
+p{
+    font-size: 15%;
+    padding: 0% 3% 0% 3%;
+    font-family: 'mariannemedium';
+}
+
+#introduction{
+    position:absolute;
+    width:72.6%;
+    height:7.4%;
+    left:4%;
+    top:27%;
+}
+
+
+#title{
+    width:77%;
+}
+
+#subtitle{
+    width: 32%;
+}
+
+#img_mairie{
+    position:absolute;
+    width:66%;
+    left:55.7%;
+    top:27%;
+}
+
+#question_bureaux{
+    position: absolute;
+    font-weight: 800;
+    width:44.6%;
+    height:8.7%;
+    left:4%;
+    top:44.2%;
+}
+
+#buttons_question_bureaux{
+    position:absolute;
+    top:43%;
+    left:5%;
+    width:100%;
+}
+
+#buttons_question_bureaux button{
+    color: white;
+    background-color: #A34142;
+    width:25%;
+    height:5.4%;
+    font-size:15%;
+}
+
+#p_etoile{
+    position:absolute;
+    top:61%;
+    left:4%;
+}
+
+#fleche_bureaux{
+    position: absolute;
+    left: 19.63%;
+    top: 67.66%;
+}
+
+#bureaux_localisation{
+    position:absolute;
+    background-color:#EC8989;
+    border: 2px solid #A34142;
+    color:white;
+    width:45%;
+    height:3%;
+    font-size:10%;
+    top:68%;
+    left:45%;
+    line-height:0px;
+}
+
+.transition_phrase{
+    position:absolute;
+    width:80%;
+    top:75.3%;
+    left:9%;
+}
+
+
+#choix_vote{
+    position:absolute;
+    top:78%;
+    left:6%;
+    width:100%;
+}
+
+#choix_vote button{
+    color: white;
+    background-color: #A34142;
+    width:38.6%;
+    height:8.4%;
+    font-size:18%;
+}
