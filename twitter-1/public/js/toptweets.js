@@ -6,9 +6,9 @@ let themes;
 
 async function initThemesTopTweets() {
     themes = await fetchThemes();
-    themes.forEach((theme, index_theme) => {
+    themes.forEach((theme) => {
         let o = document.createElement('option');
-        o.setAttribute("value", index_theme + '');
+        o.setAttribute("value", theme.id + '');
         o.innerText = theme.name;
         select.appendChild(o);
     });
@@ -27,7 +27,7 @@ async function showTopTweets () {
     let tweets = await fetchTopTweetsTheme(parseInt(select.value));
     tweets.forEach((t) => {
         let p = document.createElement('p');
-        p.appendChild(document.createTextNode(t.name + '\n' + t.tweet));
+        p.appendChild(document.createTextNode(t.name + '\n' + t.text));
         tweet_theme_div.appendChild(p);
     });
     // no tweet for this themas

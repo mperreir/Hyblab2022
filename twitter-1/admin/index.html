@@ -1,0 +1,82 @@
+<!doctype html>
+
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>Hyblab 2022</title>
+<!--    <link rel="stylesheet" href="../css/style.css">-->
+    <link rel="stylesheet" href="bottom-sheet-drawer/downupPopup/downupPopup.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/loadingio/loading.css@v2.0.0/dist/loading.css"/>
+    <link href="https://vjs.zencdn.net/7.6.6/video-js.css" rel="stylesheet"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+    <script src="https://vjs.zencdn.net/7.6.6/video.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="bottom-sheet-drawer/downupPopup/downupPopup.js"></script>
+
+</head>
+<body>
+<!-- Le conteneur sert à vérouiller les proportions (aspect ratio) du contenu de la page (ici des slides) -->
+<div id="container">
+    <p>
+        Page réservée aux administrateurs du site, si vous ête un corp étranger, merci de partir.
+    </p>
+
+
+
+    <form action="../api/admin/tweets/update" enctype="multipart/form-data" method="post">
+        <h2>
+            Updates des tweets ici !
+        </h2>
+        <p>
+            Entrer un fichier .csv pour mettre à jour la base de données avec le nouveau fichier.
+        </p>
+        <div class="form-group">
+            <p>
+                <input type="file" class="form-control-file" name="tweets_file" accept="text/csv" required>
+            </p>
+            <p>
+                <input type="submit" value="Upload les nouveaux tweets" class="btn btn-default">
+            </p>
+        </div>
+    </form>
+
+
+    <form action="../api/admin/candidats/update" enctype="multipart/form-data" method="post">
+        <h2>
+            Updates des candidats ici !
+        </h2>
+        <p>
+            Entrer un fichier .csv pour mettre à jour la base de données avec le nouveau fichier.
+        </p>
+        <div class="form-group">
+            <p>
+                <input type="file" class="form-control-file" name="candidats_file" accept="text/csv" required>
+            </p>
+            <p>
+                <input type="submit" value="Upload les candidats" class="btn btn-default">
+            </p>
+        </div>
+    </form>
+
+    <form action="../api/admin/followers/update" enctype="multipart/form-data" method="post">
+        <h2>
+            Updates des followers ici !
+        </h2>
+        <p>
+            Entrer un fichier .csv pour mettre à jour la base de données avec les followers.
+        </p>
+        <div class="form-group">
+            <p>
+                <input type="file" class="form-control-file" name="followers_file" accept="text/csv" required>
+            </p>
+            <p>
+                <input type="submit" value="Upload les followers" class="btn btn-default">
+            </p>
+        </div>
+    </form>
+</div>
+</body>
+</html>

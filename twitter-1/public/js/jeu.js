@@ -1,60 +1,89 @@
 
-(() => Suivant(30,0,0))();
+//(() => Suivant(30,0,0))();
 
 async function Suivant(temps,score,total) {
 
     let jeu = document.querySelector('#jeu');
+    let bulle = document.querySelector('#bulle');
+    bulle.style.display= "inline";
+
+    let bulle2 = document.querySelector('#bulle2');
+    bulle2.style.display= "inline";
+
+    let menu = document.querySelector('#menu1');
+    menu.style.display= "none";
     
+    try {
+        let text = document.querySelector('#text');
+        let choix = document.querySelector('#choix');
+        let svg = document.querySelector('#logo-svg');
+        let images = document.querySelector('#images');
+        jeu.removeChild(text);
+        jeu.removeChild(choix);
+        jeu.removeChild(svg);
+        jeu.removeChild(images);
+        let slide = document.querySelector('#second-slide');
+        slide.style.background ="#a08aff";
+    } catch {}
+
     try {
         jeu.removeChild(question);
         jeu.removeChild(reponse);
     } catch {}
 
+
     const question = await fetchResponse();
 
     let div = document.createElement('div');
     div.setAttribute("id", 'question');
-    div.style.width = "80%";
+    div.style.position = "absolute";
+    div.style.top = "38%";
+    div.style.left = "5%";
+    div.style.width = "75%";
     div.style.minHeight = "100px";
     div.style.marginLeft = "7%";
     div.style.overflow = "hidden";
-    div.style.background="white";
+    div.style.background="none";
     div.style.marginTop = "5%";
-    div.style.borderRadius = "15px 15px 15px 15px";
-    div.style.border = "2px solid black";
     div.style.padding = "5px";
+    div.style.fontSize = "100%";
 
     let content = document.createTextNode(question.text);
 
 
     let div2 = document.createElement('div');
     div2.setAttribute("id", 'reponses');
+    div2.style.position = "absolute";
+    div2.style.top = "80%";
+    div2.style.width = "100%";
 
     let a = document.createElement('input');
     a.setAttribute("type", "button");
     a.setAttribute("value", question.possible_response_1.name);
     a.setAttribute("id", "reponseA");
-    a.style.width = "30%";
+    a.style.width = "35%";
     a.style.height = "40px";
-    a.style.marginLeft = "17%";
-    a.style.marginRight = "5%";
-    a.style.marginTop = "5%";
-    a.style.borderRadius = "10px 10px 10px 10px";
+    a.style.marginLeft = "10%";
+    a.style.borderRadius = "80px";
+    a.style.boxShadow = "7px 7px 25px 0 rgba(0,0,0,0.25)";
+    a.style.border = "none";
+    a.style.fontFamily = "'Outfit', sans-serif";
+    a.style.fontSize = "90%";
     a.addEventListener('click', () => Reponse(a, question.is_response_1_true, temps, interval, score, total));
 
     let b = document.createElement('input');
     b.setAttribute("type", "button");
     b.setAttribute("value", question.possible_response_2.name);
     b.setAttribute("id", "reponseB");
-    b.style.width = "30%";
+    b.style.width = "35%";
     b.style.height = "40px";
-    b.style.borderRadius = "10px 10px 10px 10px";
+    b.style.marginLeft = "12%";
+    b.style.borderRadius = "80px";
+    b.style.boxShadow = "7px 7px 25px 0 rgba(0,0,0,0.25)";
+    b.style.border = "none";
+    b.style.fontFamily = "'Outfit', sans-serif";
+    b.style.fontSize = "90%";
     b.addEventListener('click', () => { 
-        if(!question.is_response_1_true){
-            b.style.backgroundColor = "green";
-        }else{
-            b.style.backgroundColor = "red";
-        };
         Reponse(b, !question.is_response_1_true, temps, interval, score, total);
     });
 
@@ -67,11 +96,12 @@ async function Suivant(temps,score,total) {
 
     let timerElement = document.getElementById("timer")
     interval = setInterval(() => {
-        let secondes = temps;
+        let minute = Math.floor(temps/60);
+        let secondes = temps%60;
     
         secondes = secondes < 10 ? "0" + secondes : secondes
       
-        timerElement.innerText = `00:${secondes}`
+        timerElement.innerText = `${minute}:${secondes}`
         temps = temps <= 0 ? 0 : temps - 1
         if(temps==0){
             finJeu(score,total);
@@ -86,6 +116,11 @@ async function Suivant(temps,score,total) {
 function Reponse(button, is_success, temps, interval, score, total){
     
     let jeu = document.querySelector('#jeu');
+    let bulle = document.querySelector('#bulle');
+    bulle.style.display= "none";
+
+    let bulle2 = document.querySelector('#bulle2');
+    bulle2.style.display= "none";
 
     if (is_success) {
         button.style.background="green";
@@ -108,20 +143,148 @@ function Reponse(button, is_success, temps, interval, score, total){
 }
  
 function finJeu(score,total){
+    clearInterval(interval);
+
+    let slide = document.querySelector('#second-slide');
+    slide.style.background ="#5467d3";
+
+    let menu = document.querySelector('#menu1');
+    menu.style.display= "inline";
+
     let jeu = document.querySelector('#jeu');
+    let bulle = document.querySelector('#bulle');
+    bulle.style.display= "none";
+
+    let bulle2 = document.querySelector('#bulle2');
+    bulle2.style.display= "none";
 
     let question = document.querySelector('#question');
     let reponse = document.querySelector('#reponses');
+    let timerElement = document.querySelector('#timer');
     
     jeu.removeChild(question);
     jeu.removeChild(reponse);
+    jeu.removeChild(timerElement);
 
     let div = document.createElement('div');
     div.setAttribute("id", 'finjeu');
 
+    let lescore = document.createElement('div');
+    lescore.setAttribute("id", 'score');
+    lescore.style.fontFamily = "'Outfit', sans-serif";
+    lescore.style.color= "white";
+    lescore.style.fontSize = "60px";
+    lescore.style.fontWeight = "900";
+    lescore.style.marginTop = "5%";
+    lescore.style.textAlign = "center";
+
+    let contentscore = document.createTextNode( score + " / " + total );
+    lescore.appendChild(contentscore);
+    jeu.appendChild(lescore);
+
+    let commentaire= document.createElement('div');
+    commentaire.setAttribute("id", 'comment');
+    commentaire.style.color= "white";
+    commentaire.style.fontSize = "20px";
+    commentaire.style.marginTop = "5%";
+    commentaire.style.textAlign = "center";
+
+    let appreciation= document.createElement('div');
+    appreciation.setAttribute("id", 'appr');
+    appreciation.style.fontFamily = "'Outfit', sans-serif";
+    appreciation.style.color= "white";
+    appreciation.style.fontSize = "30px";
+    appreciation.style.fontWeight = "500";
+    appreciation.style.marginTop = "5%";
+    appreciation.style.textAlign = "center";
+
+    let contentcom;
+    let contentappr;
+
+    console.log(score/total);
+    if((score/total)<=0.5 || total ==0){
+        console.log("here");
+        contentcom = document.createTextNode( "Améliorez vos connaissances en découvrant les Top Tweets de la semaine !" );
+        contentappr = document.createTextNode( "OH OH..." );
+    }else{
+        if((score/total)<=0.75){
+            contentcom = document.createTextNode( "Vous êtes presque un expert ! Améliorez vos connaissances en découvrant les Top Tweets de la semaine !" );
+            contentappr = document.createTextNode( "BRAVO !");
+        }else{
+            contentcom = document.createTextNode( "Restez à la page en découvrant les Top Tweets !" );
+            contentappr = document.createTextNode( "QUEL EXPERT !!" );
+        }
+    }
+
+    commentaire.appendChild(contentcom);
+    appreciation.appendChild(contentappr);
+    jeu.appendChild(appreciation);
+    
     let content = document.createTextNode("Vous avez eu " + score + " bonnes réponses sur " + total + " questions !!");
     div.appendChild(content);
+    div.appendChild(commentaire);
+    div.style.fontFamily = "'Outfit', sans-serif";
+    div.style.color= "white";
+    div.style.fontSize = "20px";
+    div.style.marginTop = "5%";
+    div.style.textAlign = "center";
     jeu.appendChild(div);
+    
+
+    let image = document.createElement('img');
+    image.src="img/etoiles-1.png";
+    image.setAttribute("id","etoile");
+    image.style.width="75%";
+    image.style.position = "absolute";
+    image.style.top = "40%";
+    image.style.left = "15%";
+
+    jeu.appendChild(image);
+
+    let rejoue = document.createElement('input');
+    rejoue.setAttribute("type", "button");
+    rejoue.setAttribute("value", "Rejouer");
+    rejoue.setAttribute("id", "rejouer");
+    rejoue.style.width = "35%";
+    rejoue.style.height = "10%";
+    rejoue.style.marginLeft = "12%";
+    rejoue.style.borderRadius = "80px";
+    rejoue.style.boxShadow = "7px 7px 25px 0 rgba(0,0,0,0.25)";
+    rejoue.style.border = "none";
+    rejoue.style.fontFamily = "'Outfit', sans-serif";
+    rejoue.style.fontSize = "90%";
+    rejoue.style.fontWeight = "700";
+    rejoue.style.position = "absolute";
+    rejoue.style.top = "80%";
+    rejoue.style.left = "20%";
+    rejoue.addEventListener('click', () => { 
+        clear();
+    });
+
+    jeu.appendChild(rejoue);
+
+}
+
+function clear(){
+
+    let bouton = document.querySelector('#rejouer');
+    let fin = document.querySelector('#finjeu');
+    let score = document.querySelector('#score');
+    let comment = document.querySelector('#appr');
+    let image = document.querySelector('#etoile');
+    jeu.removeChild(bouton);
+    jeu.removeChild(fin);
+    jeu.removeChild(score);
+    jeu.removeChild(comment);
+    jeu.removeChild(image);
+    let slide = document.querySelector('#second-slide');
+    slide.style.background ="#a08aff";
+    
+    let timer = document.createElement('div');
+    timer.setAttribute("id", 'timer');
+    jeu.appendChild(timer);
+
+    (() => Suivant(10,0,0))();
 
 }
 
