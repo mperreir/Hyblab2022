@@ -57,6 +57,9 @@ const initSlide3 = async function(){
       headerpoppups[i-1].style.background = "#5467d3";
     }
 
+    poppups.style.background = "#ef7767";
+    headerpoppups[i-1].style.background = "#ef7767";
+
     let table = document.querySelector('#myElement' + i + ' tbody');
     table = table.childNodes[1];
     table.style.color = "white";
