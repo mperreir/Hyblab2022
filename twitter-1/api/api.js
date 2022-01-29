@@ -124,6 +124,24 @@ module.exports = (passport) => {
 
     app.get('/candidat/:id_candidat/stats', (req, res) => {
         const candidat = db.getCandidats();
+        const candidat_followers = db.fetch(db.candidat_followers_name)[req.params.id_candidat];
+        // liste des dates par ordre croissant
+        const date_update_followers = Object.keys(candidat_followers)
+            .map(string_date => new Date(string_date))
+            .sort((date1, date2) => date1 - date2);
+        const last_date = date_update_followers[date_update_followers.length - 1];
+
+        // selectionne la date une semaine avant la date la plus récente
+        let oneWeekBefore = new Date(
+            last_date.getFullYear(),
+            last_date.getMonth(),
+            last_date.getDate() - 7);
+        oneWeekBefore = date_update_followers.filter(date => date < oneWeekBefore);
+        oneWeekBefore = (oneWeekBefore.length > 0) ? oneWeekBefore.pop() : date_update_followers[0];
+        const followers_before = candidat_followers[oneWeekBefore.getFullYear() + "-" + (oneWeekBefore.getMonth()+1) + "-" + oneWeekBefore.getDate()];
+        const followers_now = candidat_followers[last_date.getFullYear() + "-" + (last_date.getMonth()+1) + "-" + last_date.getDate()];
+        const followers_diff = followers_now - followers_before;
+
         const all_tweets = db.getTweets()
             .filter(t => t.user_id === req.params.id_candidat);
         const this_week_tweets = db.getTweetsSemaine()
@@ -142,6 +160,9 @@ module.exports = (passport) => {
             total_like_week: total_like_week,
             total_retweets: total_retweets,
             total_retweets_week: total_retweets_week,
+            followers_before: followers_before,
+            followers_now: followers_now,
+            followers_diff: followers_diff,
         }
 
         res.json(stats);
