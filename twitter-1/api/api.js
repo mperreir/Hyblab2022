@@ -68,6 +68,7 @@ app.get('/theme/count/:theme_id',(req, res) =>{
         let newCount = Object()
         newCount.nameCandidates = listCandidates[i].name
         let arrayTweets = db.fetch(db.tweets_name)
+        // -----------------week filter
         let result = arrayTweets.filter(arrayTweets => arrayTweets.theme_id === parseInt(req.params.theme_id) && arrayTweets.name === listCandidates[i].name)
         newCount.nbTweetsByThemes = result.length
         listCount.push(newCount)

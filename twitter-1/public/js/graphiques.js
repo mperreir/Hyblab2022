@@ -1,9 +1,5 @@
 
-async function test(){
-    let data = await fetch('api/theme/count/1')
-    const result = await data.json()
-}
-test()
+
 // ------------------------------ how to get the latest week? or do we simply get all cumulated results?
 
 
@@ -106,7 +102,7 @@ function BarChart(data, {
 
 function ThemeGraphe() {
     const svg1 = document.getElementById("ThemeGraphe")
-
+    data
     svg1.append(BarChart(data, {
         x: d => d.nameCandidates,
         y: d => d.nbTweetsByThemes,
@@ -118,11 +114,18 @@ function ThemeGraphe() {
         color: "steelblue"
     }))
 
+    let selector = document.getElementById("top-select")
 
-    theme1.addEventListener('click', () => {
-
+    selector.addEventListener('input', async () => {
         d3.select('#barplot').remove();
-        data = CountByThemes(1);
+
+        let response = await fetch('./api/theme/count/'+ selector.value);
+        let data = await response.json();
+
+        data.sort((a, b) => (a.nbTweetsByThemes > b.nbTweetsByThemes ? -1 : 1))
+        // ----------------- les 4 premiers candidats
+
+
         svg1.append(BarChart(data, {
             x: d => d.nameCandidates,
             y: d => d.nbTweetsByThemes,
