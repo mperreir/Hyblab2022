@@ -109,3 +109,46 @@ button{
     font-style: normal;
 
 }
+
+.nr{
+    width: 15%;
+}
+
+#last-div{
+    margin-bottom:10%;
+}
+
+#bandeau {
+    padding-top: 3%;
+    width:100%;
+    font-size: 10%;
+  }
+
+  #bandeau li{
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0.5em;
+  }
+
+  #bandeau img{
+    height: 1em;
+  }
+
+  #bandeau #cc, #bandeau #opensource{
+    height: 1em;
+  }
+
+  #bandeau ul{
+    text-align: center;
+    padding: 0 0;
+  }
+
+  #bandeau .institutionnel
+  {
+    height: 0.8em;
+  }
+
+  #bandeau .metropole{
+      height: 1.5em;
+  }
