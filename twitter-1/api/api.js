@@ -39,7 +39,7 @@ module.exports = (passport) => {
             tweet = db.getTweetsSemaine()
                 .filter(t => t.user_id === candidat1.id
                     && t.retweet === "False"
-                    && t.tweet.length > 100)
+                    && t.text.length > 100)
                 .sort((a, b) => b.likes_count - a.likes_count)
                 .slice(0, 3)
                 .sort(() => 0.5 - Math.random())[0];
@@ -53,7 +53,7 @@ module.exports = (passport) => {
         } while (tweet === undefined);
 
         // Supprime les url des tweets
-        tweet.tweet = tweet.tweet.replace(/(?:https?|ftp):\/\/[\n\S]+/g, '');
+        tweet.text = tweet.text.replace(/(?:https?|ftp):\/\/[\n\S]+/g, '');
 
         if (Math.random() > 0.5) {
             const tmp = candidat1;
@@ -63,7 +63,7 @@ module.exports = (passport) => {
         }
 
         let question = {
-            text: tweet.tweet,
+            text: tweet.text,
             possible_response_1: candidat1,
             possible_response_2: candidat2,
             is_response_1_true: is_first_response_true,

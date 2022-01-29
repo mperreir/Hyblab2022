@@ -27,7 +27,7 @@ async function showTopTweets () {
     let tweets = await fetchTopTweetsTheme(parseInt(select.value));
     tweets.forEach((t) => {
         let p = document.createElement('p');
-        p.appendChild(document.createTextNode(t.name + '\n' + t.tweet));
+        p.appendChild(document.createTextNode(t.name + '\n' + t.text));
         tweet_theme_div.appendChild(p);
     });
     // no tweet for this themas
