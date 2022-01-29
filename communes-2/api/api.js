@@ -20,7 +20,6 @@ app.get('/carte', function(req, res) {
     res.json(dataCarte);
 });
 
-
 // Export our API
 module.exports = app;
 

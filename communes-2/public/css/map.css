@@ -1,21 +1,61 @@
-.tips-page{
-    font-family:'Reem Kufi';
+.affirmation-page{
     position: absolute;
     height: 100%;
     width: 100%;
 }
 
-
-.tips-image > img{
-    width: 25rem;
+.map{
+    margin-top: 15px;
+    width: 90%;
 }
 
-.tips{
-    position: absolute;
-    top: 10%;
-    margin-left: 30px;
-    margin-right: 30px;
+.surface-area{
+    fill: #ffffff;
+    stroke: #FFF;
+    stroke-width: 1px;
+}
 
+.surface-area:hover{
+    stroke: #282246;
+    transition: stroke 0.3s;
+    cursor: pointer;
+}
+
+.surface-area:active{
+    fill: #282246;
+    stroke: #FFF;
+    transition: fill 0.3s;
+    cursor: pointer;
+}
+
+.button-zoom, .button-direction{
+    fill: #282246;
+    cursor: pointer;
+    stroke: #ED6464;
+    stroke-width: 0.5;
+    stroke-miterlimit:6;
+    stroke-linecap: round;
+}
+.compass{
+    fill: #fff;
+    stroke: #282246;
+    stroke-width: 1;
+}
+
+.plus-minus{
+    fill: #fff;
+    pointer-events: none;
+}
+
+#panel-confirm{
+    position: absolute;
+    width: 380px;
+    height: 153px;
+    left: 58px;
+    top: 208px;
+
+    border-radius: 20px;
+    
     border: none;
     box-shadow: rgba(0, 0, 0, 0.17) 0px -15px 15px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px;
 
@@ -24,11 +64,42 @@
     
     background-position: 9px 0px;
     background-repeat: no-repeat;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
 
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+    line-height: 18px;
+    overflow: hidden;
+    padding: 10px 10px;
+
+    text-align: center;
+}
+
+#cityname{
+    margin-top: 5%;
+    text-align: center;
+    font-family: "Bebas Neue";
+    font-size: 30%;
+}
+
+
+.affirmation{
+    position: absolute;
+    /* Rectangle 1 */
+    width: auto;
+    height: 262px;
+    left: 0px;
+
+    top: 550px;
+    
+
+    border-top-left-radius : 50px;
+    border-top-right-radius : 50px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -15px 15px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px;
+
+    background-color: #282246;
+    color: #f0e4d8;
+    
+    background-position: 9px 0px;
+    background-repeat: no-repeat;
 
     line-height: 18px;
     overflow: hidden;
@@ -37,10 +108,10 @@
     text-align: center;
 }
 
-.tips > h6{
+.affirmation > p{
     margin-top: 20px;
     font-size: 25%;
-    font-family: "Bebas Neue";
+    font-family: "Bebas neue";
 
     text-align: center;
 }
@@ -50,7 +121,7 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.tips-content{
+.affirmation-content{
     font-size: 18%;
     line-height: 30px;
     text-align: center;
@@ -125,3 +196,4 @@
     background-color: #f0e4d8;
     border-color: #f0e4d8;
 }
+

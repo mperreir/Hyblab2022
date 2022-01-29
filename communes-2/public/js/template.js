@@ -17,9 +17,9 @@ const templates = (() => {
 })();
 
 // fonction utilitaire de rendu d'un template
-async function renderTemplate(template) {
+async function renderTemplate(template, context = true) {
     // On rend le template
-    const rendered = Mustache.render(await template, true);
+    const rendered = Mustache.render(await template, context);
     // Et on l'insère dans le body
     let body = document.getElementById('main');
     body.innerHTML = rendered;
