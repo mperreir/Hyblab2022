@@ -6,11 +6,11 @@ class Header extends React.Component {
     render() {
         return (
             <div className='header'>
-                <div className='header_frow' style={this.props.step ? null : { justifyContent: 'end' }}>
-                    {this.props.step ? 
+                <div className='header_frow' style={this.props.disableStepText ? { justifyContent: 'end' } : null}>
+                    {this.props.disableStepText || 
                         <span className='header_step'>
                             ETAPE {this.props.step}
-                        </span> : null
+                        </span>
                     }
                     <img className='header_logo' src='img/logo.svg' alt='logo' />
                 </div>

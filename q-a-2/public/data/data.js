@@ -1,4 +1,4 @@
-{
+const data = {
   "steps": {
     "1": {
       "title": "Les conditions pour être candidat·e",

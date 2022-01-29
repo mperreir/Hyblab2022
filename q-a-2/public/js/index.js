@@ -1,15 +1,42 @@
 "use strict";
 
-const pages = [
-  
-];
+
+// temporaire (pour tester)
+let stepsCandidates = {
+  "1": [], "2": [], "3": [], "4": [], "5": [], "6": [], "7": [], "8": [],
+}
+candidates.forEach(candidate => {
+  let step = Math.floor(Math.random() * (Math.floor(9) - Math.ceil(1)) + Math.ceil(1));
+  stepsCandidates[step].push(candidate);
+})
 
 class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      stepPages: [
+        <StartingPage nextStep={() => this.nextStep()} />,
+        <Step1Page data={data} nextStep={() => this.nextStep()} />,
+        <Step2Page data={data} nextStep={() => this.nextStep()} />,
+        <Step3Page data={data} nextStep={() => this.nextStep()} />,
+        <Step4Page data={data} nextStep={() => this.nextStep()} />,
+        <Step5Page data={data} nextStep={() => this.nextStep()} />,
+        <Step6Page data={data} nextStep={() => this.nextStep()} />,
+        <Step7Page data={data} nextStep={() => this.nextStep()} />,
+        <Step8Page data={data} nextStep={() => this.nextStep()} />,
+      ],
+      step: 0
+    }
+  }
+
+  nextStep() {
+    this.setState({ step: this.state.step + 1 })
+  }
+
   render() {
       return (
         <div>
-          <Header step={1} nbSteps={8} />
-          <QuestionCard questionTitle={'Étape 1'} question={'Puis-je peux candidater aux élections présidentielles dès ma majorité en France (18 ans)?'} answer={'Oui d’après la Loi Organique du code électoral, il est nécessaire d’avoir 18 ans révolus et la nationalité française pour pouvoir candidater aux élections présidentielles.'} />
+          {this.state.stepPages[this.state.step]}
         </div>
       );
   }
@@ -47,4 +74,7 @@ video.one('loadeddata', (event) => {
   // Debug trace because the loadeddata event is
   // sometime not fired
   console.log("Video loaded");
+etime not fired
+  console.log("Video loaded");
+.log("Video loaded");
 });*/
