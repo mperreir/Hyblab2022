@@ -11,6 +11,7 @@ const swiper = new Swiper("#mySwiper", {
 
 });
 
+// Init of the (touch friendly) Swiper slider
 // const swiper2 = new Swiper("#swiper2", {
 //   direction: "vertical",
 //   mousewheel: true,
@@ -36,3 +37,6 @@ anime({
   'z-index' : -1,
   easing: 'easeOutQuad',
 });
+
+
+initSlide3();

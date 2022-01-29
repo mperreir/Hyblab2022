@@ -248,22 +248,15 @@ div #choix {
 
 .profile{
     border-radius: 50px;
-    margin-left: 8.5em;
+    margin-left: 40%;
 }
 
 .nom-candidat{
-    margin-left: 4em;
+    margin-left: 30%;
 }
 
 table{
-    margin-left: 2em;
-    background-color: rgba(119, 136, 153, 0.70);
-}
-
-th{
-    font-size: small;
-    border-bottom : 1px solid rgba(119, 136, 153, 0.90);
-    background-color: rgba(119, 136, 153, 0.50);
+    margin-left: 5%;
 }
 
 td{
@@ -278,6 +271,12 @@ th, td {
     padding:1px;
 }
 
+
+.swiper-pagination{
+    position : absolute;
+    top : 20%;
+    left:50%;
+}
 
 /* Last slide image is centered */
 #img-fini{

@@ -5,7 +5,9 @@
     z-index: 99;
     will-change: transform;
     background-color: #fff;
-    height: 84%;
+    height: 100%;
+    position : absolute;
+    top:-20%;
     left: 50%;
 }
 
