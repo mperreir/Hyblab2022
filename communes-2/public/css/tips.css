@@ -5,14 +5,13 @@
     width: 100%;
 }
 
-
 .tips-image > img{
     width: 25rem;
 }
 
 .tips{
     position: absolute;
-    top: 10%;
+    top: 20%;
     margin-left: 30px;
     margin-right: 30px;
 
@@ -40,20 +39,13 @@
 .tips > h6{
     margin-top: 20px;
     font-size: 25%;
-    font-family: "Bebas Neue";
-
-    text-align: center;
-}
-
-.text{
-    position: relative;
-    margin-top: 20px;
     margin-bottom: 20px;
+    font-family: "Bebas Neue";
+    text-align: center;
 }
 
 .tips-content{
     font-size: 18%;
-    line-height: 30px;
     text-align: center;
     display: none;
 }

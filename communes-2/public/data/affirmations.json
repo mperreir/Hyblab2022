@@ -1,5 +1,5 @@
 {
-    "questions":[
+    "affirmations":[
         {
             "string":"Le Canton de la Commune est ",
             "columns":[
@@ -19,17 +19,17 @@
             ]
         },
         {
-            "string":"La Commune à principalement votée au 1er tour pour ",
+            "string":"La Commune à principalement voté au 1er tour pour ",
             "columns":[
-                "1erCandidatTour1",
-                "2emeCandidatTour1",
-                "3emeCandidatTour1"
+                "premierCandidatTour1",
+                "deuxiemeCandidatTour1",
+                "troisiemeCandidatTour1"
             ]
         },
         {
             "string":"La Commune à votée au 2ème tour pour ",
             "columns":[
-                "1erCandidatTour2",
+                "premierCandidatTour2",
                 "pourcentage1erCandidatTour2"
             ]
         }
