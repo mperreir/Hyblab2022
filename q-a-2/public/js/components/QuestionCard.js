@@ -16,7 +16,7 @@ class QuestionCard extends React.Component {
                     </div>
                     <div className='questionCard-nextStep'>
                         <p>Passer à l'indication suivante:</p>
-                        <Button value={'Continuer'} disabled={false} negative={false}/>
+                        <Button value={'Continuer'} disabled={false} white={false}/>
                     </div>
                 </div>
             </div>

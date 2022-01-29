@@ -4,12 +4,21 @@ const pages = [
   
 ];
 
+// temporaire (pour tester)
+let stepsCandidates = {
+  "1": [], "2": [], "3": [], "4": [], "5": [], "6": [], "7": [], "8": [],
+}
+candidates.forEach(candidate => {
+  let step = Math.floor(Math.random() * (Math.floor(9) - Math.ceil(1)) + Math.ceil(1));
+  stepsCandidates[step].push(candidate);
+})
+
 class App extends React.Component {
+
   render() {
       return (
         <div>
-          <Header step={1} nbSteps={8} />
-          <QuestionCard questionTitle={'Étape 1'} question={'Puis-je peux candidater aux élections présidentielles dès ma majorité en France (18 ans)?'} answer={'Oui d’après la Loi Organique du code électoral, il est nécessaire d’avoir 18 ans révolus et la nationalité française pour pouvoir candidater aux élections présidentielles.'} />
+          <Steps />
         </div>
       );
   }
