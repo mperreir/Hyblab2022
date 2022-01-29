@@ -5,10 +5,11 @@
 let stepsCandidates = {
   "1": [], "2": [], "3": [], "4": [], "5": [], "6": [], "7": [], "8": [],
 }
-candidates.forEach(candidate => {
+/*candidates.forEach(candidate => {
   let step = Math.floor(Math.random() * (Math.floor(9) - Math.ceil(1)) + Math.ceil(1));
   stepsCandidates[step].push(candidate);
-})
+})*/
+stepsCandidates["1"] = candidates;
 
 class App extends React.Component {
   constructor(props) {

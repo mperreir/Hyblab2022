@@ -2,8 +2,9 @@ const candidates = [
     {
         "id": 0,
         "img_full": "img/candidate_hexagon.svg",
-        "nom": "",
+        "nom": "M. Hexagone",
         "stepOneGame" : {
+            "cardImg": "",
             "age": "",
             "adresse": "",
             "orientationPolitique": "",
