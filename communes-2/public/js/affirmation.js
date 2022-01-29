@@ -1,5 +1,8 @@
 'use strict'
 
+// Show slider
+var slideIndex = 1;
+
 page('/communes-2/affirmation', async function () {
     await renderTemplate(templates('./templates/affirmation.mustache'));
 
@@ -28,10 +31,12 @@ page('/communes-2/affirmation', async function () {
 
     //parcourt des div et insertion des affirmations
     for (let i = 0; i < divAffirmations.length; i++) {
-
         divAffirmations.item(i).textContent = affirmations[i]['string'];
-     }
+    }
 
+    showAffirmation(slideIndex);
+
+    // ------ Gestion de la map
     var map = L.map('map').setView([46.87,-1.64], 8);
     // On affiche la map google maps derrière.
     var tiles = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
@@ -75,16 +80,7 @@ page('/communes-2/affirmation', async function () {
     function whenClicked(e) {
         console.log(e.target.feature.properties.nom);
     }
-
-    document.getElementById("boutonRetour").addEventListener('click', function () {
-        page('/communes-2/gameChoice');
-    });
-
-    showAffirmation(1);
 });
-
-// Show slider
-var slideIndex = 1;
 
 function sliderplus(n) {
     showAffirmation(slideIndex += n);

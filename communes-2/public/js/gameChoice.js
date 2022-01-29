@@ -9,7 +9,7 @@ page('/communes-2/gameChoice', async function () {
 
     document.getElementById("gauche-btn").addEventListener('click', function () {
         initializeGameData('Gauche').then( () => {
-            page('/communes-2/resultatInter');
+            page('/communes-2/resultatFinal');
         })
     });
 
@@ -28,7 +28,6 @@ page('/communes-2/gameChoice', async function () {
 });
 
 const initializeGameData = async orientation => {
-
     let response = await fetch('api/communes/'+orientation);
     const data = await response.json();
 
@@ -39,5 +38,4 @@ const initializeGameData = async orientation => {
         'communeCourante' :communeDeDepart,
         'communes': data
     }));
-
 }

@@ -19,15 +19,12 @@
     line-height: 18px;
     overflow: hidden;
     padding: 15px 30px;
-
-    text-align: center;
 }
 
 .popUp > h6{
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 25%;
-
     text-align: center;
 }
 
@@ -39,6 +36,11 @@
     font-size: 18%;
     text-align: center;
     margin-bottom: 10px;
+}
+
+.popUp-Space{
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
 .popUp-button{

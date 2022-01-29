@@ -42,24 +42,17 @@ app.get('/communes/:orientation', function(req, res) {
         } catch (error) {
             console.log(error)
         }
-
-
     })
-
 });
 
 app.get('/affirmations', function(req, res) {
     let affirmationsJson = require('../public/data/affirmations.json');
-
     let affirmations = affirmationsJson.affirmations;
-
     let listeAffirmations = [];
 
-    console.log("hehe")
     //Selection aléatoire des 5 affirmations
     let nombre_affirmations = 0;
     console.log(affirmations)
-
 
     while(nombre_affirmations < 5) {
         let indice = Math.floor(Math.random()*(affirmations.length));
@@ -69,11 +62,18 @@ app.get('/affirmations', function(req, res) {
             listeAffirmations.push(affirmations[indice]);
             nombre_affirmations++;
         }
-
-
     }
-    res.json(listeAffirmations);
 
+    res.json(listeAffirmations);
+});
+
+app.get('/classement', function(req, res) {
+    let linesClassement = [];
+
+    helper.fetchDataAsDict('place','communes-2/public/data/classement.csv').then(data => {
+        data.forEach(line => linesClassement.push(line));
+        res.json(linesClassement);
+    });
 });
 
 // Export our API
