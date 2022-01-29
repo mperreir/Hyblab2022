@@ -64,6 +64,35 @@ page('/communes-2/affirmation', async function () {
         page('/communes-2/gameChoice');
         showSlides(1);
     });
+
+    // Show slider
+var slideIndex = 1;
+
+
+function sliderplus(n) {
+    showAffirmation(slideIndex += n);
+  }
+  
+  function slidercurrent(n) {
+    showAffirmation(slideIndex = n);
+  }
+  
+  function showAffirmation(n) {
+    var i;
+    var slides = document.getElementsByClassName("affirmation-content");
+    console.log(slides)
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace("active", "");
+      }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+}
 });
 
 
@@ -228,36 +257,6 @@ function showInfos(elt,color){
     area.style.fill = "#282246";
     info.innerHTML = value[1];
 
-}
-
-
-// Show slider
-var slideIndex = 1;
-
-
-function sliderplus(n) {
-    showAffirmation(slideIndex += n);
-  }
-  
-  function slidercurrent(n) {
-    showAffirmation(slideIndex = n);
-  }
-  
-  function showAffirmation(n) {
-    var i;
-    var slides = document.getElementsByClassName("affirmation-content");
-    console.log(slides)
-    var dots = document.getElementsByClassName("dot");
-    if (n > slides.length) {slideIndex = 1}
-      if (n < 1) {slideIndex = slides.length}
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-      }
-      for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace("active", "");
-      }
-    slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " active";
 }
 
 let transformMatrix = [1, 0, 0, 1, 0, 0];
