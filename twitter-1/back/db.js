@@ -39,8 +39,8 @@ module.exports.getTweetsSemaine = () => {
 }
 
 module.exports.getTweets = () => {
-    let candidats_id = db.fetch(module.exports.candidats_name).map(c => parseInt(c.id));
-        return db.fetch(module.exports.tweets_name).filter((tweet) => candidats_id.includes(parseInt(tweet.user_id)));
+    let candidats_id = module.exports.getCandidats().map(c => parseInt(c.id));
+    return db.fetch(module.exports.tweets_name).filter((tweet) => candidats_id.includes(parseInt(tweet.user_id)));
 }
 
 module.exports.getCandidats = () => {
@@ -76,32 +76,32 @@ module.exports.getCandidatFromId = (id_candidat) => {
 //     {
 //         id: 1,
 //         name: "Sécurité",
-//         keywords: "immigration police violence manifestation voleures balle lachrymo arme defence",
+//         keywords: "securite immigration police violence manifestation voleurs balle lachrymo arme defence drogue trafiquant",
 //     },
 //     {
 //         id: 2,
 //         name: "Sante",
-//         keywords: "covid hopitaux vaccin lit cancer santé medecin",
+//         keywords: "covid hopitaux vaccin lit cancer santé medecin malade sanitaire traitement médicament",
 //     },
 //     {
 //         id: 3,
 //         name: "Economie",
-//         keywords: "economie salaire emplois relocalisation localisation entreprise startup start-up",
+//         keywords: "economie salaire emplois relocalisation localisation entreprise startup start-up finaces argent budget euro bercy compte",
 //     },
 //     {
 //         id: 4,
 //         name: "Education",
-//         keywords: "education ecole lycee universitee classe cours professeurs cantine cartable atsem pedagogie",
+//         keywords: "education ecole lycee universitee classe cours professeurs cantine cartable atsem pedagogie blanquer",
 //     },
 //     {
 //         id: 5,
 //         name: "Environnement",
-//         keywords: "environnement durable vert pollution recyclage trie arbre nucléaire petrol ",
+//         keywords: "environnement durable vert pollution recyclage trie arbre nucléaire petrole énergie electricité ",
 //     },
 //     {
 //         id: 6,
 //         name: "Culture",
-//         keywords: "culture musique film cinema livre libraire concert festival dedicace album ",
+//         keywords: "culture musique film cinema livre libraire concert festival dedicace album auteur acteur musicien symphonique",
 //     }
 // ]);
 

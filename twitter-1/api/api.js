@@ -23,7 +23,7 @@ module.exports = (passport) => {
     });
 
     app.get('/game/1/new_question', (req, res) => {
-        let candidats = db.fetch(db.candidats_name);
+        let candidats = db.getCandidats();
         let candidat1;
         let candidat2;
         let tweet;
@@ -82,7 +82,7 @@ module.exports = (passport) => {
     app.get('/tweets/tops/:theme_id', (req, res) => {
         const candidats = db.getCandidats();
         let tweets = db.getTweetsSemaine()
-            .filter(tweet => tweet.themeScore >= 1
+            .filter(tweet => tweet.themeScore >= 2
                 && tweet.theme_id === parseInt(req.params.theme_id));
         tweets = tweets.sort((a, b) => b.favorite_count - a.favorite_count);
         tweets = tweets.slice(0, 5);
@@ -96,7 +96,7 @@ module.exports = (passport) => {
 
     app.get('/tweets/tops/candidat/:candidat_id', (req, res) => {
         let tweets = db.getTweetsSemaine()
-            .filter(tweet => tweet.themeScore >= 1
+            .filter(tweet => tweet.themeScore >= 2
                 && parseInt(tweet.user_id) === parseInt(req.params.candidat_id));
         tweets = tweets.sort((a, b) => b.favorite_count - a.favorite_count);
         tweets = tweets.slice(0, 5);
@@ -105,7 +105,7 @@ module.exports = (passport) => {
 
     app.get('/tweets/tops/', (req, res) => {
         let tweets = db.getTweetsSemaine()
-            .filter(tweet => tweet.themeScore >= 1);
+            .filter(tweet => tweet.themeScore >= 2);
         tweets = tweets.sort((a, b) => b.favorite_count - a.favorite_count);
         tweets = tweets.slice(0, 5);
         res.json(tweets);
