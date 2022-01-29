@@ -103,6 +103,14 @@ module.exports = (passport) => {
         res.json(tweets);
     });
 
+    app.get('/tweets/tops/', (req, res) => {
+        let tweets = db.getTweetsSemaine()
+            .filter(tweet => tweet.themeScore >= 1);
+        tweets = tweets.sort((a, b) => b.favorite_count - a.favorite_count);
+        tweets = tweets.slice(0, 5);
+        res.json(tweets);
+    });
+
     app.get('/candidat/all', (req, res) => {
         let candidats = db.getCandidats();
         res.json(candidats);
