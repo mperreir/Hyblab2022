@@ -220,6 +220,16 @@ p.alignRight{
     }
 }
 
+@keyframes anim-rotate {
+    from{
+        transform: rotateZ(-15deg);
+    }
+
+    to{
+        transform:rotateZ(15deg);
+    }
+}
+
 @keyframes tourner_les_serviettes {
     0% {
         -webkit-transform: scale(1) rotateZ(0);
@@ -246,8 +256,12 @@ p.alignRight{
     -webkit-animation: anim_procuration_texte 1s alternate infinite; 
 }
 
-#anim-verticale {
+.anim-verticale {
     animation : anim_verticale 1s linear infinite alternate;
+}
+
+.anim-rotation {
+    animation: anim-rotate 1s infinite alternate;
 }
 
 /*input {

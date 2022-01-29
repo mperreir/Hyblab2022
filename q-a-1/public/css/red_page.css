@@ -12,9 +12,16 @@ p{
     font-size: 15%;
     padding: 0% 3% 0% 3%;
     font-family: 'mariannemedium';
-    margin-bottom: 6%;
-    margin-top: 6%;
+    margin-bottom: 2%;
+    margin-top: 2%;
 }
+
+div{
+
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
 
 input{
     color: rgb(224, 209, 209);
