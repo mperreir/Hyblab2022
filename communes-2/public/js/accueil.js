@@ -11,14 +11,20 @@ page('/communes-2/', async function () {
 
     await renderTemplate(templates('./templates/accueil.mustache'));
 
-    const play_btn = document.getElementById("play-btn");
-    play_btn.addEventListener('click', function () {
+    document.getElementById("play-btn").addEventListener('click', function () {
         page('/communes-2/gameChoice');
     });
 
-    const apropos = document.getElementById("gamerule-btn");
-    apropos.addEventListener('click', function () {
+    document.getElementById("gamerule-btn").addEventListener('click', function () {
         page('/communes-2/gamerule');
+    });
+
+    document.getElementById("classement-btn").addEventListener('click', function () {
+        page('/communes-2/classement');
+    });
+
+    document.getElementById("credits-btn").addEventListener('click', function () {
+        page('/communes-2/credits');
     });
 });
 

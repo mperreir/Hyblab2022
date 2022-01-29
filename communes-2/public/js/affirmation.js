@@ -51,8 +51,7 @@ page('/communes-2/affirmation', async function () {
         console.log(e.target.feature.properties.nom);
     }
 
-    const Retourbtn = document.getElementById("boutonRetour");
-    Retourbtn.addEventListener('click', function () {
+    document.getElementById("boutonRetour").addEventListener('click', function () {
         page('/communes-2/gameChoice');
     });
 
