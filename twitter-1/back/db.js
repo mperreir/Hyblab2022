@@ -4,8 +4,27 @@ const { Database } = require('sileco.db');
 
 const path = require('path');
 const path_to_db = path.join("db");
-const db = new Database("twitter-1/back/db/database.json");
+const db_sileco = new Database("twitter-1/back/db/database.json");
 const textProcessing = require(path.join(__dirname, '/../back/textProcessing'));
+
+// adapteur pour optimiser les accès disques
+class DbAdapter {
+    constructor(db) {
+        this.db = db;
+        this.data = db.fetchAllData();
+    }
+
+    fetch(data_name) {
+        return this.data[data_name];
+    }
+
+    set(data_name, data) {
+        this.db.set(data_name, data);
+        this.data = this.db.fetchAllData();
+    }
+}
+
+const db = new DbAdapter(db_sileco);
 
 // https://weeknumber.com/how-to/javascript
 // Returns the ISO week of the date.
