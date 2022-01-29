@@ -19,7 +19,7 @@
             ]
         },
         {
-            "string":"La Commune à principalement votée au 1er tour pour ",
+            "string":"La Commune à principalement voté au 1er tour pour ",
             "columns":[
                 "premierCandidatTour1",
                 "deuxiemeCandidatTour1",

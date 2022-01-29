@@ -1,21 +1,19 @@
 'use strict';
 
-const app = require( 'express')();
+const app = require( 'express' )();
 const helper = require('./helper');
 
 app.get('/carte', function(req, res) {
-
     let dataCarte = require('../public/data/geojson.json')
     res.json(dataCarte);
 });
 
 //Endpoint retournant 5 communes tirées aléatoirement selon leur orientation
 app.get('/communes/:orientation', function(req, res) {
-
     let listesCommunes = []; //Liste des communes déterminées pour le jeu
 
     //remplissage des communes de Loire-Atlantique
-    helper.fetchDataAsDict('libelleCommune','communes-2/public/data/Communes.csv').then(data => {
+    helper.fetchDataAsDict('libelleCommune','communes-2/public/data/communes.csv').then(data => {
         try {
 
             //Nouveau tableau contenant seulement les communes de l'orientation passé en paramètre
@@ -27,7 +25,6 @@ app.get('/communes/:orientation', function(req, res) {
                 communesOrientation.push(commune)
                 }
             })
-
 
             //Selection aléatoire des 5 communes
             let nombre_communes = 0;
@@ -42,8 +39,6 @@ app.get('/communes/:orientation', function(req, res) {
             }
 
             res.json(listesCommunes);
-
-
         } catch (error) {
             console.log(error)
         }
@@ -54,7 +49,6 @@ app.get('/communes/:orientation', function(req, res) {
 });
 
 app.get('/affirmations', function(req, res) {
-
     let affirmationsJson = require('../public/data/affirmations.json');
 
     let affirmations = affirmationsJson.affirmations;
@@ -78,8 +72,6 @@ app.get('/affirmations', function(req, res) {
 
 
     }
-
-
     res.json(listeAffirmations);
 
 });
