@@ -2,7 +2,7 @@
 /* that forces a 9:16 format (portrait) on all contents */
 
 html {
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 /* Normalize margin and padding to ease elements positioning */
