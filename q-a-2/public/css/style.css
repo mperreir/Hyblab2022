@@ -1,6 +1,9 @@
 /* ------- Important ! Please at least keep the last part of this CSS ----------- */
 /* that forces a 9:16 format (portrait) on all contents */
 
+html {
+    overflow: hidden;
+}
 
 /* Normalize margin and padding to ease elements positioning */
 *{
