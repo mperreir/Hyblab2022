@@ -11,24 +11,25 @@ body{
 }
 
 div p{
-    font-size: 15%;
-    padding: 0% 3% 0% 3%;
+    font-size: 16%;
+    padding: 0% 5% 0% 5%;
 }
 
-.section-div p{
-    font-family: 'mariannebold';
+p{
+    font-family: 'mariannemedium';
 }
 
 .main-section{
     width: 100%;
-    display: inline-block;
     position: relative;
+    margin-bottom: 3%;
     
 }
 
 #introduction{
     margin-top:5%;
     margin-bottom:3%;
+    margin-right: 18%;
     font-family: 'mariannemedium';
 }
 
@@ -53,45 +54,39 @@ div p{
     width: 60%;
 }
 
+#second-p{
+    padding-top:30%;
+}
+
 #diagram{
-    width:15%;
-    position: absolute;
-    left: 2%;
-    display: block;
+    width:38%;
+    margin-right: 5%;
 }
 
 #tv{
-    width:15%;
-    position: absolute;
-    left: 2%;
-}
-
-#anime_img{
-    position: relative;
-    width:50%;
-    text-align: center;
+    width:52%;
+    margin-left: -5%;
 }
 
 button{ 
-    color:#ADB3D7;
+    color:#FFFFFF;
     font-size: 70%;
 }
 
+.last-section{
+    text-align: center;
+    margin-top:12%;
+}
+
+.last-section img{
+    width:75%;
+}
+
 @font-face {
-    font-family: 'mariannemedium';
-    src: url('font/marianne-medium-webfont.woff2') format('woff2'),
-         url('font/marianne-medium-webfont.woff') format('woff');
+    font-family: 'marianneregular';
+    src: url('font/marianne-regular-webfont.woff2') format('woff2'),
+         url('font/marianne-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
-
-@font-face {
-    font-family: 'mariannebold';
-    src: url('font/marianne-bold-webfont.woff2') format('woff2'),
-         url('font/marianne-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
