@@ -84,13 +84,30 @@ module.exports = (passport) => {
         let tweets = db.getTweetsSemaine()
             .filter(tweet => tweet.themeScore >= 1
                 && tweet.theme_id === parseInt(req.params.theme_id));
-        tweets.sort((a, b) => b.favorite_count - a.favorite_count);
-        tweets = tweets.slice(0, 3);
+        tweets = tweets.sort((a, b) => b.favorite_count - a.favorite_count);
+        tweets = tweets.slice(0, 5);
         tweets = tweets.map(tweet => {
             const candidat = candidats.filter(candidat => candidat.id === tweet.user_id);
             tweet.name = candidat.length > 0 ? candidat[0].name : "ERROR : CANDIDAT INCONNU";
             return tweet;
         })
+        res.json(tweets);
+    });
+
+    app.get('/tweets/tops/candidat/:candidat_id', (req, res) => {
+        let tweets = db.getTweetsSemaine()
+            .filter(tweet => tweet.themeScore >= 1
+                && parseInt(tweet.user_id) === parseInt(req.params.candidat_id));
+        tweets = tweets.sort((a, b) => b.favorite_count - a.favorite_count);
+        tweets = tweets.slice(0, 5);
+        res.json(tweets);
+    });
+
+    app.get('/tweets/tops/', (req, res) => {
+        let tweets = db.getTweetsSemaine()
+            .filter(tweet => tweet.themeScore >= 1);
+        tweets = tweets.sort((a, b) => b.favorite_count - a.favorite_count);
+        tweets = tweets.slice(0, 5);
         res.json(tweets);
     });
 
@@ -107,6 +124,24 @@ module.exports = (passport) => {
 
     app.get('/candidat/:id_candidat/stats', (req, res) => {
         const candidat = db.getCandidats();
+        const candidat_followers = db.fetch(db.candidat_followers_name)[req.params.id_candidat];
+        // liste des dates par ordre croissant
+        const date_update_followers = Object.keys(candidat_followers)
+            .map(string_date => new Date(string_date))
+            .sort((date1, date2) => date1 - date2);
+        const last_date = date_update_followers[date_update_followers.length - 1];
+
+        // selectionne la date une semaine avant la date la plus récente
+        let oneWeekBefore = new Date(
+            last_date.getFullYear(),
+            last_date.getMonth(),
+            last_date.getDate() - 7);
+        oneWeekBefore = date_update_followers.filter(date => date < oneWeekBefore);
+        oneWeekBefore = (oneWeekBefore.length > 0) ? oneWeekBefore.pop() : date_update_followers[0];
+        const followers_before = candidat_followers[oneWeekBefore.getFullYear() + "-" + (oneWeekBefore.getMonth()+1) + "-" + oneWeekBefore.getDate()];
+        const followers_now = candidat_followers[last_date.getFullYear() + "-" + (last_date.getMonth()+1) + "-" + last_date.getDate()];
+        const followers_diff = followers_now - followers_before;
+
         const all_tweets = db.getTweets()
             .filter(t => t.user_id === req.params.id_candidat);
         const this_week_tweets = db.getTweetsSemaine()
@@ -125,6 +160,9 @@ module.exports = (passport) => {
             total_like_week: total_like_week,
             total_retweets: total_retweets,
             total_retweets_week: total_retweets_week,
+            followers_before: followers_before,
+            followers_now: followers_now,
+            followers_diff: followers_diff,
         }
 
         res.json(stats);
@@ -153,6 +191,21 @@ module.exports = (passport) => {
             if (req.file.originalname.slice((req.file.originalname.lastIndexOf(".") - 1 >>> 0) + 2) !== 'csv')
                 res.status(400).send('Erreur : .csv requit.');
             db.candidats_update(req.file.buffer.toString(), () => {
+                res.redirect('back');
+            });
+        } else {
+            res.status(400).send('Erreur fichier non reçu.');
+        }
+    });
+
+    app.post('/admin/followers/update',
+            [require('connect-ensure-login').ensureLoggedIn(), upload.single('followers_file')],
+            (req, res) => {
+        if (req.file !== undefined && req.file.buffer !== undefined) {
+            // https://stackoverflow.com/questions/190852/how-can-i-get-file-extensions-with-javascript
+            if (req.file.originalname.slice((req.file.originalname.lastIndexOf(".") - 1 >>> 0) + 2) !== 'csv')
+                res.status(400).send('Erreur : .csv requit.');
+            db.followers_update(req.file.buffer.toString(), () => {
                 res.redirect('back');
             });
         } else {
