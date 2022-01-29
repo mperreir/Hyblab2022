@@ -247,16 +247,16 @@ body{
 /* as long as the screen aspect ratio is below 9:16 */
 @media screen and (max-aspect-ratio: 9/16){
     #root{
-        margin-top: calc((100vh - 100 * 16vw / 9) / 2);
+        /*margin-top: calc((100vh - 100 * 16vw / 9) / 2);*/
         width: 100vw;
-        height: calc(100 * 16vw / 9);
+        /*height: calc(100 * 16vw / 9);*/
     }
 
     /* We set a default font size here. It will be the base for all other font sizes */
     /* Here the font size is proportional to display width */
-    body{
+    /*body{
         background-color: white;
-    }
+    }*/
 }
 
 /* This media query ensures that we allways will the height of the screen */
@@ -270,9 +270,9 @@ body{
 
     /* We set a default font size here. It will be the base for all other font sizes */
     /* Here the font size is proportional to display height */
-    body{
-        /*font-size: 12vh;*/
-    }
+    /*body{
+        font-size: 12vh;
+    }*/
 }
 
 .header {
@@ -595,6 +595,41 @@ body{
     background-color: white;
 }
 
+
+.profilCard {
+    box-sizing: border-box;
+    font-size: 2.8vh;
+    font-family: 'Jost';
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.profilCard_img {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.profilCard_information {
+    position: absolute;
+    top: 32%;
+    left: 10%;
+    z-index: 2;
+}
+
+.profilCard_civility {
+    margin-bottom: 10%;
+}
+
+.profilCard_div_text {
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.profilCard_label {
+    font-weight: bold;
+}
 .questionCard_questionBlock::-webkit-scrollbar-thumb {
     background-color: #c4c4c4;
     border-radius: 9px;
