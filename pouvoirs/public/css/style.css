@@ -2,12 +2,13 @@
 /* that forces a 9:16 format (portrait) on all contents */
 
 @font-face {
-  font-family: 'First Fun';
-  src: url('fonts/first-fun/FirstFun-Regular.eot');
-  src: url('fonts/first-fun/FirstFun-Regular.eot?#iefix') format('embedded-opentype'),
-      url('fonts/first-fun/FirstFun-Regular.woff2') format('woff2'),
-      url('fonts/first-fun/FirstFun-Regular.woff') format('woff'),
-      url('fonts/first-fun/FirstFun-Regular.svg#FirstFun-Regular') format('svg');
+  font-family: "First Fun";
+  src: url("fonts/first-fun/FirstFun-Regular.eot");
+  src: url("fonts/first-fun/FirstFun-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/first-fun/FirstFun-Regular.woff2") format("woff2"),
+    url("fonts/first-fun/FirstFun-Regular.woff") format("woff"),
+    url("fonts/first-fun/FirstFun-Regular.svg#FirstFun-Regular") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -96,13 +97,13 @@ body {
 }
 
 #homepage p {
-  font-family: 'First Fun', Arial, Helvetica, sans-serif;
+  font-family: "First Fun", Arial, Helvetica, sans-serif;
   margin-top: 10px;
   font-size: 20%;
   width: 85%;
   text-align: center;
   z-index: 3;
-  color:#6450CE;
+  color: #6450ce;
 }
 
 .button-container {
@@ -125,11 +126,11 @@ body {
 }
 
 #headphone p {
-  font-family: 'Nunito' ;
+  font-family: "Nunito";
 }
 
 #headphone p b {
-  font-family: 'Nunito' ;
+  font-family: "Nunito";
   font-weight: 900;
 }
 
@@ -144,11 +145,11 @@ body {
 }
 
 #play-button {
-  font-family: 'First Fun';
+  font-family: "First Fun";
   font-size: 30%;
   height: 70%;
   width: 80%;
-  background-color: #0AF2E1;
+  background-color: #0af2e1;
   color: white;
   border: none;
   border-radius: 8px;
@@ -162,7 +163,7 @@ body {
 }
 
 #falling p {
-  font-family: 'Nunito';
+  font-family: "Nunito";
   font-size: 18%;
   font-weight: 900;
 }
@@ -171,10 +172,10 @@ body {
   position: absolute;
   top: 10%;
   width: 70%;
-  left:8%;
-  background: #4F00EC;
+  left: 8%;
+  background: #4f00ec;
   padding: 5%;
-  border: 4px solid #0AF2E1;
+  border: 4px solid #0af2e1;
   border-radius: 15px;
   overflow: hidden;
 }
@@ -183,11 +184,11 @@ body {
   position: absolute;
   bottom: 5%;
   left: 10%;
-  font-family: 'First Fun';
+  font-family: "First Fun";
   font-size: 30%;
   width: 80%;
   height: 7%;
-  background-color: #0AF2E1;
+  background-color: #0af2e1;
   color: white;
   border: none;
   border-radius: 8px;
@@ -207,6 +208,54 @@ body {
   position: absolute;
   top: 2%;
 }
+
+#animationsContainer img {
+  position: absolute;
+  top: 50%;
+  right: 10.5%;
+  z-index: 3;
+  width: 13%;
+  height: auto;
+  -webkit-animation: blink 2s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation: blink 2s;
+  -moz-animation-iteration-count: infinite;
+  -o-animation: blink 2s;
+  -o-animation-iteration-count: infinite;
+}
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .phoneButton {
   position: absolute;
   top: 75%;
@@ -215,22 +264,29 @@ body {
   height: 73px;
   cursor: pointer;
 }
-.phoneButton img {
-  border: 3px solid #fffcfc;
-  border-radius: 50%;
-}
 .phoneButton:hover {
   opacity: 75%;
 }
 .dialogBox {
   position: absolute;
   display: none;
-  left: 13%;
-  bottom: 10%;
+  left: 11%;
+  bottom: 8%;
   width: 75%;
   height: auto;
 }
 
+#p5 h3 {
+  font-family: "First Fun", Arial, Helvetica, sans-serif;
+  position: absolute;
+  bottom: 35%;
+  left: 7%;
+  font-size: 20%;
+  width: 85%;
+  text-align: center;
+  z-index: 3;
+  color: #6450ce;
+}
 .dialogBox p {
   font-family: "Nunito";
   font-size: 12px;
@@ -281,6 +337,7 @@ body {
     transform: translate(1px, -2px) rotate(-1deg);
   }
 }
+
 #p6 .dialog-before {
   display: none;
   background-color: red;
