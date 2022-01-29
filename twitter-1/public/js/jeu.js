@@ -31,25 +31,14 @@ async function Suivant(temps,score,total) {
         jeu.removeChild(reponse);
     } catch {}
 
-    try {
-        let bouton = document.querySelector('#rejoue');
-        let fin = document.querySelector('#finjeu');
-        let score = document.querySelector('#score');
-        let images = document.querySelector('#images');
-        jeu.removeChild(bouton);
-        jeu.removeChild(fin);
-        jeu.removeChild(score);
-        let slide = document.querySelector('#second-slide');
-        slide.style.background ="#a08aff";
-    } catch {}
 
     const question = await fetchResponse();
 
     let div = document.createElement('div');
     div.setAttribute("id", 'question');
     div.style.position = "absolute";
-    div.style.top = "35%";
-    div.style.left = "5%";
+    div.style.top = "38%";
+    div.style.left = "4%";
     div.style.width = "75%";
     div.style.minHeight = "100px";
     div.style.marginLeft = "7%";
@@ -57,6 +46,7 @@ async function Suivant(temps,score,total) {
     div.style.background="none";
     div.style.marginTop = "5%";
     div.style.padding = "5px";
+    div.style.fontSize = "100%";
 
     let content = document.createTextNode(question.text);
 
@@ -153,6 +143,7 @@ function Reponse(button, is_success, temps, interval, score, total){
 }
  
 function finJeu(score,total){
+    clearInterval(interval);
 
     let slide = document.querySelector('#second-slide');
     slide.style.background ="#5467d3";
@@ -169,11 +160,11 @@ function finJeu(score,total){
 
     let question = document.querySelector('#question');
     let reponse = document.querySelector('#reponses');
-    let timer = document.querySelector('#timer');
+    let timerElement = document.querySelector('#timer');
     
     jeu.removeChild(question);
     jeu.removeChild(reponse);
-    jeu.removeChild(timer);
+    jeu.removeChild(timerElement);
 
     let div = document.createElement('div');
     div.setAttribute("id", 'finjeu');
@@ -193,9 +184,19 @@ function finJeu(score,total){
 
     let commentaire= document.createElement('div');
     commentaire.setAttribute("id", 'comment');
+    commentaire.style.color= "white";
+    commentaire.style.fontSize = "20px";
+    commentaire.style.marginTop = "5%";
+    commentaire.style.textAlign = "center";
 
     let appreciation= document.createElement('div');
     appreciation.setAttribute("id", 'appr');
+    appreciation.style.fontFamily = "'Outfit', sans-serif";
+    appreciation.style.color= "white";
+    appreciation.style.fontSize = "30px";
+    appreciation.style.fontWeight = "500";
+    appreciation.style.marginTop = "5%";
+    appreciation.style.textAlign = "center";
 
     let contentcom;
     let contentappr;
@@ -204,43 +205,86 @@ function finJeu(score,total){
     if((score/total)<=0.5 || total ==0){
         console.log("here");
         contentcom = document.createTextNode( "Améliorez vos connaissances en découvrant les Top Tweets de la semaine !" );
-        contentappr = document.createTextNode( "Oh oh..." );
+        contentappr = document.createTextNode( "OH OH..." );
     }else{
         if((score/total)<=0.75){
             contentcom = document.createTextNode( "Vous êtes presque un expert ! Améliorez vos connaissances en découvrant les Top Tweets de la semaine !" );
-            contentappr = document.createTextNode( "Bravo !");
+            contentappr = document.createTextNode( "BRAVO !");
         }else{
             contentcom = document.createTextNode( "Restez à la page en découvrant les Top Tweets !" );
-            contentappr = document.createTextNode( "Mais quel expert !!" );
+            contentappr = document.createTextNode( "QUEL EXPERT !!" );
         }
     }
 
     commentaire.appendChild(contentcom);
     appreciation.appendChild(contentappr);
-    div.appendChild(appreciation);
+    jeu.appendChild(appreciation);
     
     let content = document.createTextNode("Vous avez eu " + score + " bonnes réponses sur " + total + " questions !!");
     div.appendChild(content);
+    div.appendChild(commentaire);
+    div.style.fontFamily = "'Outfit', sans-serif";
+    div.style.color= "white";
+    div.style.fontSize = "20px";
+    div.style.marginTop = "5%";
+    div.style.textAlign = "center";
     jeu.appendChild(div);
-    jeu.appendChild(commentaire);
+    
+
+    let image = document.createElement('img');
+    image.src="img/etoiles-1.png";
+    image.setAttribute("id","etoile");
+    image.style.width="75%";
+    image.style.position = "absolute";
+    image.style.top = "32%";
+    image.style.left = "15%";
+
+    jeu.appendChild(image);
 
     let rejoue = document.createElement('input');
     rejoue.setAttribute("type", "button");
-    rejoue.setAttribute("value", Rejouer);
-    rejouer.setAttribute("id", "rejouer");
-    rejouer.style.width = "35%";
-    rejouer.style.height = "40px";
-    rejouer.style.marginLeft = "12%";
-    rejouer.style.borderRadius = "80px";
-    rejouer.style.boxShadow = "7px 7px 25px 0 rgba(0,0,0,0.25)";
-    rejouer.style.border = "none";
-    rejouer.style.fontFamily = "'Outfit', sans-serif";
-    rejouer.style.fontSize = "90%";
-    rejouer.addEventListener('click', () => { 
-        (() => Suivant(10,0,0))();
+    rejoue.setAttribute("value", "Rejouer");
+    rejoue.setAttribute("id", "rejouer");
+    rejoue.style.width = "35%";
+    rejoue.style.height = "10%";
+    rejoue.style.marginLeft = "12%";
+    rejoue.style.borderRadius = "80px";
+    rejoue.style.boxShadow = "7px 7px 25px 0 rgba(0,0,0,0.25)";
+    rejoue.style.border = "none";
+    rejoue.style.fontFamily = "'Outfit', sans-serif";
+    rejoue.style.fontSize = "90%";
+    rejoue.style.fontWeight = "700";
+    rejoue.style.position = "absolute";
+    rejoue.style.top = "80%";
+    rejoue.style.left = "20%";
+    rejoue.addEventListener('click', () => { 
+        clear();
     });
 
     jeu.appendChild(rejoue);
+
+}
+
+function clear(){
+
+    let bouton = document.querySelector('#rejouer');
+    let fin = document.querySelector('#finjeu');
+    let score = document.querySelector('#score');
+    let comment = document.querySelector('#appr');
+    let image = document.querySelector('#etoile');
+    jeu.removeChild(bouton);
+    jeu.removeChild(fin);
+    jeu.removeChild(score);
+    jeu.removeChild(comment);
+    jeu.removeChild(image);
+    let slide = document.querySelector('#second-slide');
+    slide.style.background ="#a08aff";
+    
+    let timer = document.createElement('div');
+    timer.setAttribute("id", 'timer');
+    jeu.appendChild(timer);
+
+    (() => Suivant(10,0,0))();
 
 }
 
