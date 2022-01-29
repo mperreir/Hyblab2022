@@ -7,20 +7,20 @@ page('/communes-2/gameChoice', async function () {
         page('/communes-2/');
     });
 
-    document.getElementById("btn-gauche").addEventListener('click', function () {
+    document.getElementById("gauche-btn").addEventListener('click', function () {
         initializeGameData('Gauche').then( () => {
             page('/communes-2/resultatInter');
         })
     });
 
-    document.getElementById("btn-centre").addEventListener('click', function () {
+    document.getElementById("centre-btn").addEventListener('click', function () {
         initializeGameData('Centre').then( () => {
             page('/communes-2/affirmation');
         })
 
     });
 
-    document.getElementById("btn-droite").addEventListener('click', function () {
+    document.getElementById("droite-btn").addEventListener('click', function () {
         initializeGameData('Droite').then( () => {
             page('/communes-2/affirmation');
         })
