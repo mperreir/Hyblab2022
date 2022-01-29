@@ -1,9 +1,5 @@
-const CSSProperty = require("./CSSProperty");
-
 class BackgroundImage extends CSSProperty {
     constructor(value){
-        super("BackgroundImage", value);
+        super("background-image", value);
     }
 }
-
-module.exports = BackgroundImage;

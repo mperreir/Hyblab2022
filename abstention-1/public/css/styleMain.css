@@ -19,7 +19,7 @@ body{
     #container{
         margin-top: calc((100vh - 100 * 16vw / 9) / 2);
         width: 100vw;
-        height:5000px;/* calc(100 * 16vw / 9);*/
+        height:calc(100 * 16vw / 9);
     }
 
     /* We set a default font size here. It will be the base for all other font sizes */
@@ -35,7 +35,7 @@ body{
     #container{
         margin-left: calc((100vw - 100 * 9vh / 16) / 2);
         width: calc(100 * 9vh / 16);
-        height: 5000px;/*100vh*/
+        height:100vh;
     }
 
     /* We set a default font size here. It will be the base for all other font sizes */
@@ -48,7 +48,7 @@ body{
 /*Début*/
 #container{
     background-color: white;
-
+    position: absolute;
 }
 
 /*Section dialogue*/
@@ -164,3 +164,12 @@ body{
     top:30vh;
 }
 
+
+lottie-player{
+    position:absolute;
+    width: 100%;
+}
+
+.player {
+    opacity: 0;
+}

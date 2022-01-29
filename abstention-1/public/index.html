@@ -2,18 +2,32 @@
 
 <html lang="fr">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-  <title>Hyblab 2022</title>
-  <link rel="stylesheet" href="css/styleMain.css">
 
-  <script defer src="js/MVC/utils.js"></script>
-  <script defer src="js/MVC/ModelDialogue.js"></script>
-  <script defer src="js/MVC/View.js"></script>
-  <script defer src="js/MVC/Update.js"></script>
-  <script defer src="js/MVC/Controler.js"></script>
-  <script defer src="js/MVC/dialogue.js"></script>
-  <script defer src="js/MVC/main.js"></script>
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>Hyblab 2022</title>
+    <link rel="stylesheet" href="css/styleMain.css">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js" defer></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js" defer></script>
+    <script src="js/utils.js" defer></script>
+    <script src="js/MVC/cssProperties/CSSProperty.js" defer></script>
+    <script src="js/MVC/cssProperties/AnimationFrame.js" defer></script>
+    <script src="js/MVC/cssProperties/BackgroundImage.js" defer></script>
+    <script src="js/MVC/cssProperties/Opacity.js" defer></script>
+    <script src="js/MVC/cssProperties/Transform.js" defer></script>
+    <script src="js/AnimationTransition.js" defer></script>
+    <script src="js/animations.js" defer></script>
+    <script src="js/main.js" defer></script>
+    
+    <script defer src="js/MVC/utils.js"></script>
+    <script defer src="js/MVC/ModelDialogue.js"></script>
+    <script defer src="js/MVC/View.js"></script>
+    <script defer src="js/MVC/Update.js"></script>
+    <script defer src="js/MVC/Controler.js"></script>
+    <script defer src="js/MVC/dialogue.js"></script>
+    <script defer src="js/MVC/main.js"></script>
 </head>
 <body>
     <!-- Le conteneur sert à vérouiller les proportions (aspect ratio) du contenu de la page (ici des slides) -->
@@ -35,15 +49,26 @@
           </div>
       </section>
       <section id="Transition">
-          <div id="animation">
-            <video width="411" muted preload>
-              <source src="https://cdn.ananaspizza.de/file/malte-image-store/v9-webm.webm" type="video/webm">
-			      	<p>Votre navigateur ne supporte pas les vidéos HTML5.</p>
-            </video>
-          </div>
+        <lottie-player class="player ecole-vers-skatepark" src="animations/animation01.json" style="opacity:1"></lottie-player>
+        <lottie-player class="player skatepark-vers-camion" src="animations/animation02.json" ></lottie-player>
+        <lottie-player class="player camion-vers-mairie" src="animations/animation03.json" ></lottie-player>
+        <lottie-player class="player mairie-vers-theatre" src="animations/animation04.json" ></lottie-player>
+        <lottie-player class="player theatre-vers-ecole" src="animations/animation05.json" ></lottie-player>
 
       </section>
-
-  </div>
+      <div id="test">
+        <section class="container ecole-vers-skatepark" style="height:200vh;"></section>
+        <section class="transition ecole-vers-skatepark" style="height:100vh;"></section>
+        <section class="container skatepark-vers-camion" style="height:200vh;"></section>
+        <section class="transition skatepark-vers-camion" style="height:100vh;"></section>
+        <section class="container camion-vers-mairie" style="height:200vh;"></section>
+        <section class="transition camion-vers-mairie" style="height:100vh;"></section>
+        <section class="container mairie-vers-theatre" style="height:200vh;"></section>
+        <section class="transition mairie-vers-theatre" style="height:100vh;"></section>
+        <section class="container theatre-vers-ecole" style="height:200vh;"></section>
+        <section class="transition theatre-vers-ecole" style="height:100vh;"></section>
+        <section class="container conclusion" style="height:200vh;"></section>
+    </div>
+   
 </body>
 </html>
