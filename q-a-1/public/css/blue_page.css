@@ -82,6 +82,25 @@ button{
     width:75%;
 }
 
+#fat-logo{
+    text-align: center;
+    max-width: 85%;
+    width: 65%;
+}
+
+#fat-subtitle{
+    width: 52%;
+}
+
+.credit-section{
+    margin-top: -10%;
+    text-align: center;
+}
+
+#div-subtitle{
+    margin-top: -7%;
+}
+
 @font-face {
     font-family: 'marianneregular';
     src: url('font/marianne-regular-webfont.woff2') format('woff2'),
