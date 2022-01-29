@@ -74,4 +74,7 @@ video.one('loadeddata', (event) => {
   // Debug trace because the loadeddata event is
   // sometime not fired
   console.log("Video loaded");
+etime not fired
+  console.log("Video loaded");
+.log("Video loaded");
 });*/
