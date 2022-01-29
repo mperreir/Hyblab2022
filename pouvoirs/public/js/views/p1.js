@@ -90,7 +90,7 @@ const init_p1 = function() {
   
   diag(diBox, originalText);
   const textContainer = diBox.querySelector("p");
-  textContainer.style.fontSize = "15pt";
+  textContainer.style.fontSize = "3vw";
   textContainer.style.textAlign = "left";
 
   textContainer.style.verticalAlign = "center";
@@ -126,6 +126,7 @@ const init_p1 = function() {
     if (state === nb){
       cancel.play();
       textContainer.innerHTML = originalText;
+      shakeElement(textContainer);
       btn.style.backgroundColor = "purple";
       state = 0;
     }
@@ -140,6 +141,7 @@ const init_p1 = function() {
       x2.style.background= "purple";
       x3.style.background= "purple";
       textContainer.innerHTML = txt;
+      shakeElement(textContainer);
       btn.style.backgroundColor = colors[nb-1];
       state = nb;
     }
