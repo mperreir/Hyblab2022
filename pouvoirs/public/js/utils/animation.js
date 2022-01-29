@@ -1,5 +1,5 @@
 const createAnimation = function(divName, path, loop) {
-	console.log('Animating ', path);
+	//console.log('Animating ', path);
 	let newContainer = document.getElementById(divName);
 
 	return bodymovin.loadAnimation({

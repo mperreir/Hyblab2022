@@ -1,6 +1,6 @@
 "use strict";
 
-const headPhoneTimeout = 500;
+const headPhoneTimeout = 1000;
 let init = false;
 
 let illustration = {
@@ -12,21 +12,28 @@ let illustration = {
 const illuContainer = document.querySelector('#background');
 const playContainer = document.querySelector('.button-container');
 const playButton = document.querySelector('#play-button');
+const bg = createAnimation("background", "data/animations/homeBackground.json", true);
+const ss = createAnimation("spaceship", "data/animations/homeSpaceship.json", true);
 
 // async init function (because of the awaits on fetches)
 const homepage_slide = function(){
   // Ensuring this function only runs once
   if (init) return;
   init = true;
-
-  const playButton = document.querySelector('#play-button');
-
-  const bg = createAnimation("background", "img/animations/ACCUEIL_ANIMATION_FOND.json", true);
-  const ss = createAnimation("spaceship", "img/animations/ACCUEIL_ANIMATION_VAISSEAU.json", true);
+  const sound1 = createAudio("data/sounds/spaceshipStatic.mp3",true);
+  const ambiance = createAudio("data/sounds/ambiance.mp3",true);
+  ambiance.play();
+  sound1.play();
   bg.play();
   ss.play();
   
-  playButton.addEventListener("click", animateLoading);
+  playButton.addEventListener("click", () => {
+    const sound2 = createAudio("data/sounds/spaceshipGone.mp3");
+    sound2.play();
+    animateLoading();
+    sound1.pause();
+    ambiance.play();
+  });
 };
 
 function animateLoading() {
@@ -84,6 +91,4 @@ function animateLoading() {
       });
     }
   });
-
-  console.log("done");
 };
