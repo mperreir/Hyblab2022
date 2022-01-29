@@ -84,13 +84,22 @@ module.exports = (passport) => {
         let tweets = db.getTweetsSemaine()
             .filter(tweet => tweet.themeScore >= 1
                 && tweet.theme_id === parseInt(req.params.theme_id));
-        tweets.sort((a, b) => b.favorite_count - a.favorite_count);
-        tweets = tweets.slice(0, 3);
+        tweets = tweets.sort((a, b) => b.favorite_count - a.favorite_count);
+        tweets = tweets.slice(0, 5);
         tweets = tweets.map(tweet => {
             const candidat = candidats.filter(candidat => candidat.id === tweet.user_id);
             tweet.name = candidat.length > 0 ? candidat[0].name : "ERROR : CANDIDAT INCONNU";
             return tweet;
         })
+        res.json(tweets);
+    });
+
+    app.get('/tweets/tops/:candidat_id', (req, res) => {
+        let tweets = db.getTweetsSemaine()
+            .filter(tweet => tweet.themeScore >= 1
+                && tweet.user_id === parseInt(req.params.candidat_id));
+        tweets = tweets.sort((a, b) => b.favorite_count - a.favorite_count);
+        tweets = tweets.slice(0, 5);
         res.json(tweets);
     });
 
