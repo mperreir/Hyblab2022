@@ -47,42 +47,87 @@ body{
 
 /*Début*/
 #container{
-    background-color: blueviolet;
+    background-color: white;
+
 }
 
 /*Section dialogue*/
 #Dialogue{
     top:0%;
-    opacity: 0;
-    background-color: brown;
+    opacity: 1;
+    /*background-image: url("../img/a889d43ee7cf0837f085391e97e8ffb6.jpg");*/
+   /* background-image: url("../img/Skatepark.svg");*/
+    background-repeat: no-repeat;   
+    background-size: 300%;
     width: calc(100 * 9vh / 16);
     height: 100vh; /*100vh*/
     position: fixed;
+    z-index: 1;
 }
 #personnage1{
-    background-color: chartreuse;
+
+    /*Charlie*/
+    opacity: 1;
+
+   /* background-color: chartreuse;*/
+    background-image: url("../img/Charlie.svg");
+    background-repeat: no-repeat;   
+    background-size: contain;
+
     position:absolute;
-    width: 40%;
-    height: 50vh; /*changer en auto*/
+    width: 60%;
+    height: 50vh; 
     left:0px;
-    top:25vh;
+    top:37vh;
+    z-index: 1;
+
 }
 #personnage2{
+    /*Exemple jeune*/
+    opacity: 1;
+
     position:absolute;
-    background-color: blue;
-    width: 40%;
-    height: 50vh;  /*changer en auto*/
+   /* background-color: pink;*/
+    background-image: url("../img/Jeune.svg");
+    background-position: 100% 0%;
+    background-repeat: no-repeat;   
+    background-size: contain;
+    z-index: 1;
+
+    width: 60%;
+    height: 50vh; 
     right:0px;
-    top:25vh;
+    top:31.5vh; /*à changer à chaque perso*/
 
 }
 #textZone{
+
     position:absolute;
     background-color: darkgoldenrod;
     width: 100%;
     height: calc(100vh/4);
-    top:75vh;/*75vh*/
-    opacity: 0;
+    top:68vh;/*75vh*/
+    opacity: 1;
+}
+#Suite{
+    position:absolute;
+    background-color: red;
+    bottom:17px;
+    right: 0px;
+    z-index: 1;
+}
+#textDialogue{
+    position:absolute;
+    top:20%;
+
+}
+
+.nom{
+    position:absolute;
+    background-color: green;
+    top:0px;
+    left: 0px;
+    padding: 2px;
 }
 /*Quiz*/
 #QuizZone{
@@ -91,7 +136,7 @@ body{
     width: 100%;
     height: calc(100vh/4);
     top:75vh;/*75vh*/
-    opacity: 1;
+    opacity: 0;
 }
 #QuizZone button{
     display: flex;
@@ -103,7 +148,7 @@ body{
 /*Section transition*/
 #Transition{
     position:fixed;
-    opacity: 1;
+    opacity: 0;
     background-color: darkgoldenrod;
     width: calc(100 * 9vh / 16);
     height: 100vh; /*100vh*/

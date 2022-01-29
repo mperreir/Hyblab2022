@@ -1,4 +1,4 @@
-const { Observable } = require("../utils");
+const { Observable } = require("./utils");
 
 class AnimationModel extends Observable {
     constructor(animations, container, actions) {

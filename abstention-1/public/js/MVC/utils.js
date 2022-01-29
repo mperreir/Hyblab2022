@@ -92,6 +92,3 @@ class LinearInterpolate {
     }
 }
 
-module.exports.Observer = Observer;
-module.exports.Observable = Observable;
-module.exports.LinearInterpolate = LinearInterpolate;

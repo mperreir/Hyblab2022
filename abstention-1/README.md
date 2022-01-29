@@ -1,6 +1,6 @@
 # Descriptif du projet
 
-Porteur de projet :
+Porteur de projet : 
 
 Sujet :
 

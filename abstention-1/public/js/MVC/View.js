@@ -12,7 +12,10 @@ class View {
         this.textZone=document.querySelector('#textZone');
         this.quizZone=document.querySelector('#QuizZone');
 
-        this.texte=document.querySelector('#textZone p');
+        this.texte=document.querySelector('#textDialogue');
+        this.suite=document.querySelector('#Suite');
+        this.nom=document.querySelector('.nom');
+
         this.question=document.querySelector('#QuizZone p');
         this.reponseA=document.querySelector('#reponseA');
         this.reponseB=document.querySelector('#reponseB');

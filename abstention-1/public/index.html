@@ -6,6 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
   <title>Hyblab 2022</title>
   <link rel="stylesheet" href="css/styleMain.css">
+
+  <script defer src="js/MVC/utils.js"></script>
+  <script defer src="js/MVC/ModelDialogue.js"></script>
+  <script defer src="js/MVC/View.js"></script>
+  <script defer src="js/MVC/Update.js"></script>
+  <script defer src="js/MVC/Controler.js"></script>
+  <script defer src="js/MVC/dialogue.js"></script>
+  <script defer src="js/MVC/main.js"></script>
 </head>
 <body>
     <!-- Le conteneur sert à vérouiller les proportions (aspect ratio) du contenu de la page (ici des slides) -->
@@ -14,9 +22,12 @@
           <div id="personnage1"></div>
           <div id="personnage2"></div>
           <div id="textZone">
-              <p>Ceci est un exemple pour que je puisse effectuer des tests afin de voir si cela rend très bien.  </p>
+            <p class="nom">Charlie</p>
+            <p id="textDialogue">Ceci est un exemple pour que je puisse effectuer des tests afin de voir si cela rend très bien.  </p>
+            <button id="Suite">Suite</button>
           </div>
           <div id="QuizZone">
+            <p class=nom>Charlie</p>
               <p>Ceci est une question à laquel seul les plus forts d'entre vous pourront répondre correctement. </p>
               <button id='reponseA'>Réponse A</button>
               <button id='reponseB'>Réponse B</button>
