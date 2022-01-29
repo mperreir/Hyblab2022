@@ -90,15 +90,18 @@ const init_p1 = function() {
   
   diag(diBox, originalText);
   const textContainer = diBox.querySelector("p");
-  textContainer.style.fontSize = "3vw";
-  textContainer.style.textAlign = "left";
+  css([textContainer], {
+    'font-size' : '16px',
+    'font-family' : 'Nunito',
+    'text-align' : 'left', 
+    'vertical-align' : 'center',
+    'top' : '20px',
+    'position' : 'absolute',
+    'width' : '80%',
+    'left' : '10%',
+    'margin' : 'auto'
+  })
 
-  textContainer.style.verticalAlign = "center";
-  textContainer.style.top = "20px";
-  textContainer.style.position = "absolute";
-  textContainer.style.width = "80%";
-  textContainer.style.left = "10%";
-  textContainer.style.margin = "auto";
 
 
   infos.appendChild(img);
