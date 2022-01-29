@@ -5,7 +5,32 @@ page('/communes-2/affirmation', async function () {
 
     let response = await fetch('api/carte');
     const dataCarte = await response.json();
-    console.log(dataCarte);
+
+    let response2 = await fetch('api/affirmations')
+    let affirmations = await response2.json();
+
+    //Recuperation des div dans lesquelles on va afficher les affirmations
+    let divAffirmations = document.getElementsByClassName('affirmation-content')
+
+    //Ajout de l'information a la fin de l'affirmation
+    for (let i = 0; i < affirmations.length; i++) {
+        let gameData = JSON.parse(localStorage.getItem('gameData'));
+        let informations = affirmations[i]['columns'];
+        if(informations.length > 1) {
+            for(let j = 0; j < informations.length-1; j++) {
+                affirmations[i]['string'] += gameData['communeCourante'][informations[j]] +", ";
+            }
+            affirmations[i]['string'] += gameData['communeCourante'][informations[informations.length-1]]+".";
+        }
+
+        else affirmations[i]['string'] += gameData['communeCourante'][informations]+".";
+    }
+
+    //parcourt des div et insertion des affirmations
+    for (let i = 0; i < divAffirmations.length; i++) {
+
+        divAffirmations.item(i).textContent = affirmations[i]['string'];
+     }
 
     var map = L.map('map').setView([46.87,-1.64], 8);
     // On affiche la map google maps derrière.
@@ -64,11 +89,11 @@ var slideIndex = 1;
 function sliderplus(n) {
     showAffirmation(slideIndex += n);
   }
-  
+
   function slidercurrent(n) {
     showAffirmation(slideIndex = n);
   }
-  
+
   function showAffirmation(n) {
     var i;
     var slides = document.getElementsByClassName("affirmation-content");
