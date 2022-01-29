@@ -34,8 +34,24 @@ module.exports.themes_name = "themes";
 module.exports.candidat_followers_name = "candidat_followers";
 
 module.exports.getTweetsSemaine = () => {
-    return db.fetch(module.exports.tweets_name)
-        .filter(tweet => (new Date(tweet.date)).isSameWeek(new Date(2022, 0, 20)));
+    return module.exports.getTweets()
+        .filter(tweet => (new Date(parseInt(tweet.created_at) * 1000)).isSameWeek(new Date(2022, 0, 20)));
+}
+
+module.exports.getTweets = () => {
+    let candidats_id = db.fetch(module.exports.candidats_name).map(c => parseInt(c.id));
+        return db.fetch(module.exports.tweets_name).filter((tweet) => candidats_id.includes(parseInt(tweet.user_id)));
+}
+
+module.exports.getCandidats = () => {
+    return db.fetch(module.exports.candidats_name)
+        .sort((a, b) => parseInt(b.followers) - parseInt(a.followers))
+        .slice(0, 12);
+}
+
+module.exports.getCandidatFromId = (id_candidat) => {
+
+    return result.length > 0 ? result[0] : undefined;
 }
 
 // // INIT DB
@@ -90,10 +106,66 @@ module.exports.getTweetsSemaine = () => {
 // ]);
 
 // // INIT Tweets
-const labeler = new textProcessing.Labeler(db.fetch(module.exports.themes_name));
-textProcessing.Parser.getTweetsJSONFromFile(path.join(__dirname, '/data/tweets/tweets_candidats_2.csv'), ts  => {
-    // let older_tweets = db.fetch(module.exports.tweets_name);
-    // if (older_tweets === null) older_tweets = [];
-    ts = labeler.labellingTweets(ts);//.concat(older_tweets);
-    db.set(module.exports.tweets_name, ts);
-});
+// const labeler = new textProcessing.Labeler(db.fetch(module.exports.themes_name));
+// textProcessing.Parser.getTweetsJSONFromFile(path.join(__dirname, '/data/tweets/tweets_candidats_2.csv'), ts  => {
+//     // let older_tweets = db.fetch(module.exports.tweets_name);
+//     // if (older_tweets === null) older_tweets = [];
+//     ts = labeler.labellingTweets(ts);//.concat(older_tweets);
+//     db.set(module.exports.tweets_name, ts);
+// });
+
+module.exports.tweets_update = (file, onFinish) => {
+    const labeler = new textProcessing.Labeler(db.fetch(module.exports.themes_name));
+    textProcessing.Parser.getValuesFromCSVString(file, ts  => {
+        // let older_tweets = db.fetch(module.exports.tweets_name);
+        // if (older_tweets === null) older_tweets = [];
+        ts = labeler.labellingTweets(ts);//.concat(older_tweets);
+        db.set(module.exports.tweets_name, ts);
+        onFinish();
+    });
+}
+
+module.exports.candidats_update = (file, onFinish) => {
+    textProcessing.Parser.getValuesFromCSVString(file, candidats  => {
+        // let older_tweets = db.fetch(module.exports.tweets_name);
+        // if (older_tweets === null) older_tweets = [];
+        db.set(module.exports.candidats_name, candidats);
+
+        onFinish();
+    });
+}
+
+module.exports.followers_update = (file, onFinish) => {
+    textProcessing.Parser.getValuesFromCSVString(file, candidats_line  => {
+        // let older_tweets = db.fetch(module.exports.tweets_name);
+        // if (older_tweets === null) older_tweets = [];
+        const candidats = {}
+        db.fetch(module.exports.candidats_name)
+            .forEach(candidat => candidats[candidat.username] = candidat.id);
+        let followers = {}
+
+        candidats_line.forEach((candidat_line => {
+            const candidat_id = candidats[candidat_line.username];
+            if(followers[candidat_id] === undefined)
+                followers[candidat_id] = {};
+            const date_line = new Date(candidat_line.date);
+            followers[candidat_id][date_line.getFullYear() + "-" + (date_line.getMonth() + 1) + "-" + date_line.getDate()]
+                = candidat_line.followers;
+        }))
+
+
+        // let date_string = new Date().getFullYear() + "-" + (new Date().getMonth()+1) + "-" + new Date().getDate();
+        // let older_followers = db.fetch(module.exports.candidat_followers_name);
+        // if (older_followers === null) older_followers = {};
+        // candidats.forEach((candidat) => {
+        //     if (older_followers[candidat.id] === undefined) {
+        //         older_followers[candidat.id] = {};
+        //     }
+        //     older_followers[candidat.id][date_string] = candidat.followers;
+        // });
+        db.set(module.exports.candidat_followers_name, followers);
+        // db.set(module.exports.candidats_name, candidats);
+
+        onFinish();
+    });
+}

@@ -1,0 +1,51 @@
+<!doctype html>
+
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>Hyblab 2022</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="bottom-sheet-drawer/downupPopup/downupPopup.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/loadingio/loading.css@v2.0.0/dist/loading.css"/>
+    <link href="https://vjs.zencdn.net/7.6.6/video-js.css" rel="stylesheet"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+    <script src="https://vjs.zencdn.net/7.6.6/video.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="bottom-sheet-drawer/downupPopup/downupPopup.js"></script>
+
+</head>
+<body class="body-login">
+<div id="login" class="container">
+    <div class="d-flex justify-content-center h-100">
+        <div class="card">
+            <div class="card-header">
+                <h3>Authentification</h3>
+            </div>
+            <div class="card-body">
+                <form method="post" action="./api/login">
+                    <div class="input-group form-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fas fa-user"></i></span>
+                        </div>
+                        <input id="username-input" name="username" type="text" class="form-control" placeholder="Nom" required>
+                    </div>
+                    <div class="input-group form-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fas fa-key"></i></span>
+                        </div>
+                        <input id="password-input" name="password" type="password" class="form-control" placeholder="Mot de Passe" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Connexion" class="btn">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

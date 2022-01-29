@@ -66,6 +66,7 @@ const initSlide3 = async function(){
 
 
     let tweets = table.childNodes[3];
+
     tweets.innerHTML = `${candidats[i-1].tweets}` +" tweets";
 
     let retweets = table.childNodes[5];
