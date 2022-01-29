@@ -12,8 +12,7 @@ body{
     background-color: black;
     color: white;
     overflow: hidden;   /* to avoid slider bugs on some browsers */
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size:small;
+    font-family: "Outfit", sans-serif;
 }
 
 #container{
@@ -55,7 +54,7 @@ body{
 
 /* the slides and the loader should fill the whole 9:16 zone */
 .swiper-wrapper section, #loader{
-    background-color: slateblue;
+    background-color: white;
     width: 100%;
     height: 100%;
 }
@@ -73,30 +72,140 @@ body{
     z-index: 2;
 }
 
-#logo-hyblab{
-    text-align: center;
-    width: 50%;
-    left: 50%;
-    top: 50%;
-    margin-left:-25%;
-    margin-top:calc(-7.5% * 9 / 16 ); /* margins are relative to the element width... :-( */
-    position: absolute;
-    font-size: 50%;
-    z-index: 2;
-    cursor: pointer;
+#logo-lyse {
+    z-index: -1;
+    height: 100%;
 }
 
+#logo-playlysee{
+    height: 30%;
+    width: 60%;
+    position: absolute;
+    left: 20%;
+    top: 35%;
+    object-fit: contain;
+}
+
+#second-slide{
+    background: #ef7767;
+}
+
+#second-slide #text{ 
+    width: 90%;
+    height: 15%;
+    font-size:1.5em;
+    text-align: center; 
+    color: black;
+    position:absolute;
+    top :40%;
+    left:4%;
+    padding-top:5%;
+    padding-bottom:5%;
+    padding-right:2%;
+    padding-left:2%;
+    border-radius: 25% / 40%; 
+    background: #fff; 
+    box-shadow: 7px 7px 25px 0 rgba(0,0,0,0.25);
+
+}
+
+.rotateimg320 {
+    -webkit-transform:rotate(320deg);
+    -moz-transform: rotate(320deg);
+    -ms-transform: rotate(320deg);
+    -o-transform: rotate(320deg);
+    transform: rotate(320deg);
+}
+
+.rotateimg20 {
+    -webkit-transform:rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    transform: rotate(20deg);
+    }
+
+#second-slide #choix{
+    position:absolute;
+    top :80%;
+    left:5%;
+    width:100%;
+    height:9%;
+}
+
+#second-slide #play{
+    width: 30%;
+    height: 100%;
+    box-shadow: 7px 7px 25px 0 rgba(0,0,0,0.25);
+    font-weight: 700; 
+    font-size: 90%;
+    text-align: center; 
+    color: #000;
+    border : none;
+    border-radius: 80px;
+    margin-right:10%;
+}
+
+#timer{
+    font-family: 'Outfit', sans-serif;
+    font-size: 60px; 
+    font-weight: 900;
+    margin-top:5%;
+    text-align: center; 
+    color: #fff;
+}
 h1{
     margin-top: 1em;
     font-size: large;
 }
 
+.menu {
+    position : absolute;
+    background-color: white;
+    border-radius: 25% 25% 0 0;
+    top:92%; 
+    width :100%;  
+    height:10%;  
+}
+
+.menu button{
+    position : absolute;
+    top : -10%;
+    text-align : center;
+}
+.menu .menu-candidat {
+    height : 60px;
+    width :30%;
+    margin-left : 5%;
+    box-shadow: 7px 7px 25px 0 rgba(0, 0, 0, 0);
+    background : none;
+    border: none;
+}
+
+.menu .menu-jeu {
+    height : 60px;
+    width :30%;
+    margin-left : 35%;
+    box-shadow: 7px 7px 25px 0 rgba(0, 0, 0, 0);
+    background : none;
+    border: none;
+}
+
+.menu .menu-top {
+    height : 60px;
+    width :25%;
+    margin-left : 65%;
+    box-shadow: 7px 7px 25px 0 rgba(0, 0, 0, 0);
+    background : none;
+    border: none;
+}
+
 h2{
-    margin-top: 3em;
-    margin-left: 1em;
-    padding: 1em;
-    font-size: 25px;
-    color:snow;
+    font-family: 'Outfit', sans-serif;
+    font-size: 60px; 
+    font-weight: 900; 
+    text-align: center; 
+    color: white;
 }
 
 div{
@@ -104,24 +213,27 @@ div{
     color : black;
 }
 
-div#choix {
+div #choix {
     display: flex;
     justify-content: space-around;
 
 }
 
-button{
-    width: 30%;
-    height: 40px;
+#third-slide{
+    background: #f1de68;
 }
 
 #candidats{
+    width:100%;
+    height:80%;
     margin-top: 2em;
     margin-left: 1em;
 }
 
 
 .button-candidat{
+    width: 30%;
+    height: 40px;
     padding: 0;
     border: none;
     background: none;
@@ -131,26 +243,20 @@ button{
 
 .profile2{
     border-radius: 50px;
+    border : 2px solid white;
 }
 
 .profile{
     border-radius: 50px;
-    margin-left: 8.5em;
+    margin-left: 40%;
 }
 
 .nom-candidat{
-    margin-left: 4em;
+    margin-left: 30%;
 }
 
 table{
-    margin-left: 2em;
-    background-color: rgba(119, 136, 153, 0.70);
-}
-
-th{
-    font-size: small;
-    border-bottom : 1px solid rgba(119, 136, 153, 0.90);
-    background-color: rgba(119, 136, 153, 0.50);
+    margin-left: 5%;
 }
 
 td{
@@ -165,6 +271,12 @@ th, td {
     padding:1px;
 }
 
+
+.swiper-pagination{
+    position : absolute;
+    top : 20%;
+    left:50%;
+}
 
 /* Last slide image is centered */
 #img-fini{
@@ -246,15 +358,15 @@ th, td {
         height: calc(100 * 16vw / 9);
     }
 
-    /* We set a default font size here. It will be the base for all other font sizes */
-    /* Here the font size is proportional to display width */
+    /*!* We set a default font size here. It will be the base for all other font sizes *!*/
+    /*!* Here the font size is proportional to display width *!*/
     body{
         font-size: calc(12vw*16/9);
     }
 }
 
-/* This media query ensures that we allways will the height of the screen */
-/* as long as the screen aspect ratio is higher than 9:16 */
+/*!* This media query ensures that we allways will the height of the screen *!*/
+/*!* as long as the screen aspect ratio is higher than 9:16 *!*/
 @media screen and (min-aspect-ratio: 9/16){
     #container{
         margin-left: calc((100vw - 100 * 9vh / 16) / 2);
@@ -262,15 +374,26 @@ th, td {
         height: 100vh;
     }
 
-    /* We set a default font size here. It will be the base for all other font sizes */
-    /* Here the font size is proportional to display height */
+/*    !* We set a default font size here. It will be the base for all other font sizes *!*/
+/*    !* Here the font size is proportional to display height *!*/
     body{
         font-size: 12vh;
     }
 }
 
 
+/*@media screen and (min-device-width: 600px){*/
+/*    #container{*/
+/*        width: 100vw;*/
+/*        height: 100vh;*/
+/*    }*/
 
+/*    !* We set a default font size here. It will be the base for all other font sizes *!*/
+/*    !* Here the font size is proportional to display width *!*/
+/*    body{*/
+/*        font-size: calc(12vw*16/9);*/
+/*    }*/
+/*}*/
 
 
 /*Page de login*/
@@ -302,3 +425,4 @@ th, td {
     margin-left: 1em;
     color: #032e5d;
 }
+

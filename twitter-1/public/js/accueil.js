@@ -1,25 +1,24 @@
 "use strict";
 
-// async init function (because of the awaits on fetches)
-const initSlide1 = async function(){
+ 
+let play = document.querySelector('#play');
+play.addEventListener('click', () => {
+  (() => Suivant(10,0,0))();
+});
 
-  // Animate hyblab logo and make shrink on click
-  anime({
-    targets: '#logo-hyblab',
-    scale: '1.2',
-    easing: 'easeInOutQuad',
-    direction: 'alternate',
-    loop: true
+
+
+for (let i = 1; i <= 3; i++){
+  $("#menu-candidat" + i).click(function () { 
+    swiper.slideTo(2);
   });
 
-  /*const logo = document.querySelector('#logo-hyblab');
-  logo.addEventListener('click', () => {
-    anime({
-        targets: '#logo-hyblab',
-        scale: 0
-      });
-    swiper.slideNext()
-    initSlide2();
-  });*/
+  $("#menu-jeu" + i).click(function () { 
+    swiper.slideTo(1);
+  });
 
-};
+  $("#menu-top" + i).click(function () { 
+    swiper.slideTo(3);
+  });
+}
+

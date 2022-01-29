@@ -4,13 +4,14 @@
 const swiper = new Swiper("#mySwiper", {
   direction: "vertical",
   mousewheel: true,
-  pagination: {
+  /*pagination: {
     el: ".swiper-pagination",
     clickable: true,
-  },
+  },*/
 
 });
 
+// Init of the (touch friendly) Swiper slider
 // const swiper2 = new Swiper("#swiper2", {
 //   direction: "vertical",
 //   mousewheel: true,
@@ -36,9 +37,6 @@ anime({
   'z-index' : -1,
   easing: 'easeOutQuad',
 });
-// Init first slide
-initSlide1();
+
+
 initSlide3();
-// Debug trace because the loadeddata event is
-// sometime not fired
-console.log("Video loaded");
