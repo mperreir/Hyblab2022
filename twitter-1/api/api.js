@@ -1,113 +1,178 @@
 'use strict';
 
-const app = require( 'express' )();
 const path = require('path');
 
 const db = require(path.join(__dirname, "../back/db"));
 const textProcessing = require(path.join(__dirname, '/../back/textProcessing'));
 const {tweets_name} = require("../back/db");
 
-// Sample endpoint that sends the partner's name
-app.get('/topic', function ( req, res ) {
-    let topic;
+const multer = require('multer');
+const express = require("express");
+const upload = multer();
 
-    // Get partner's topic from folder name
-    topic = path.basename(path.join(__dirname, '/..'))
-    // Send it as a JSON object
-    res.json({'topic':topic});
-} );
+module.exports = (passport) => {
+    const app = express();
+    // Sample endpoint that sends the partner's name
+    app.get('/topic', function (req, res) {
+        let topic;
 
-app.get('/game/1/new_question', (req, res) => {
-    let candidats = db.fetch(db.candidats_name);
-    let candidat1;
-    let candidat2;
-    let tweet;
-    let is_first_response_true = true;
+        // Get partner's topic from folder name
+        topic = path.basename(path.join(__dirname, '/..'))
+        // Send it as a JSON object
+        res.json({'topic': topic});
+    });
 
-    do {
-        candidat1 = candidats.sort(() => 0.5 - Math.random())[0];
-        candidat2 = candidats
-            .filter(c => candidat1.id !== c.id)
-            .sort(() => 0.5 - Math.random())[0];
-        tweet = db.getTweetsSemaine()
-            .filter(t => t.user_id === candidat1.id
-                && t.retweet === "False"
-                && t.tweet.length > 100)
-            .sort((a, b) => b.likes_count - a.likes_count)
-            .slice(0, 3)
-            .sort(() => 0.5 - Math.random())[0];
-    } while(tweet === undefined);
+    app.get('/game/1/new_question', (req, res) => {
+        let candidats = db.fetch(db.candidats_name);
+        let candidat1;
+        let candidat2;
+        let tweet;
+        let is_first_response_true = true;
 
-    // Supprime les url des tweets
-    tweet.tweet = tweet.tweet.replace(/(?:https?|ftp):\/\/[\n\S]+/g, '');
+        do {
+            candidat1 = candidats.sort(() => 0.5 - Math.random())[0];
+            candidat2 = candidats
+                .filter(c => candidat1.id !== c.id)
+                .sort(() => 0.5 - Math.random())[0];
+            tweet = db.getTweetsSemaine()
+                .filter(t => t.user_id === candidat1.id
+                    && t.retweet === "False"
+                    && t.text.length > 100)
+                .sort((a, b) => b.likes_count - a.likes_count)
+                .slice(0, 3)
+                .sort(() => 0.5 - Math.random())[0];
+        } while(tweet === undefined);
 
-    if (Math.random() > 0.5) {
-        const tmp = candidat1;
-        candidat1 = candidat2;
-        candidat2 = tmp;
-        is_first_response_true = false;
-    }
+        // Supprime les url des tweets
+        tweet.text = tweet.text.replace(/(?:https?|ftp):\/\/[\n\S]+/g, '');
 
-    let question = {
-        text: tweet.tweet,
-        possible_response_1: candidat1,
-        possible_response_2: candidat2,
-        is_response_1_true: is_first_response_true,
-        true_response: is_first_response_true ? candidat1 : candidat2,
-        original_tweet: tweet,
-    };
+        if (Math.random() > 0.5) {
+            const tmp = candidat1;
+            candidat1 = candidat2;
+            candidat2 = tmp;
+            is_first_response_true = false;
+        }
 
-    res.json(question);
-});
+        let question = {
+            text: tweet.text,
+            possible_response_1: candidat1,
+            possible_response_2: candidat2,
+            is_response_1_true: is_first_response_true,
+            true_response: is_first_response_true ? candidat1 : candidat2,
+            original_tweet: tweet,
+        };
 
-app.get('/theme/all', (req, res) => {
-    let themes = db.fetch(db.themes_name);
-    res.json(themes);
-});
+        res.json(question);
+      
+    });
 
-app.get('/tweets/tops/:theme_id', (req, res) => {
-    let tweets = db.getTweetsSemaine()
-        .filter(tweet => tweet.themeScore >= 1
-            && tweet.theme_id === parseInt(req.params.theme_id));
-    tweets.sort((a, b) => b.likes_count - a.likes_count);
-    res.json(tweets.slice(0, 3));
-});
+    app.get('/theme/all', (req, res) => {
+        let themes = db.fetch(db.themes_name);
+        res.json(themes);
+    });
 
-app.get('/candidat/all', (req, res) => {
-    let candidats = db.fetch(db.candidats_name);
-    res.json(candidats);
-});
+    app.get('/tweets/tops/:theme_id', (req, res) => {
+        let tweets = db.getTweetsSemaine()
+            .filter(tweet => tweet.themeScore >= 1
+                && tweet.theme_id === parseInt(req.params.theme_id));
+        tweets.sort((a, b) => b.likes_count - a.likes_count);
+        res.json(tweets.slice(0, 3));
+    });
 
-app.get('/candidat/filtre', (req, res) => {
-    let candidats = db.fetch(db.candidats_name)
-        .filter(t => t.followers > 80000);
-    res.json(candidats);
-});
+    app.get('/candidat/all', (req, res) => {
+        let candidats = db.fetch(db.candidats_name);
+        res.json(candidats);
+    });
 
-app.get('/candidat/:id_candidat/stats', (req, res) => {
-    const candidat = db.fetch(db.candidats_name);
-    const all_tweets = db.fetch(db.tweets_name)
-        .filter(t => t.user_id === req.params.id_candidat);
-    const this_week_tweets = db.getTweetsSemaine()
-        .filter(t => t.user_id === req.params.id_candidat);
+    app.get('/candidat/filtre', (req, res) => {
+        let candidats = db.fetch(db.candidats_name)
+            .filter(t => t.followers > 80000);
+        res.json(candidats);
+    });
 
-    const total_like = all_tweets.reduce((total, tweet) => total + parseInt(tweet.likes_count), 0);
-    const total_like_week = this_week_tweets.reduce((total, tweet) => total + parseInt(tweet.likes_count), 0);
+    app.get('/candidat/:id_candidat/stats', (req, res) => {
+        const candidat = db.fetch(db.candidats_name);
+        const all_tweets = db.fetch(db.tweets_name)
+            .filter(t => t.user_id === req.params.id_candidat);
+        const this_week_tweets = db.getTweetsSemaine()
+            .filter(t => t.user_id === req.params.id_candidat);
 
-    const total_retweets = all_tweets.reduce((total, tweet) => total + parseInt(tweet.retweets_count), 0);
-    const total_retweets_week = this_week_tweets.reduce((total, tweet) => total + parseInt(tweet.retweets_count), 0);
+        const total_like = all_tweets.reduce((total, tweet) => total + parseInt(tweet.likes_count), 0);
+        const total_like_week = this_week_tweets.reduce((total, tweet) => total + parseInt(tweet.likes_count), 0);
 
-    const stats = {
-        total_tweets: all_tweets.length,
-        total_week_tweets: this_week_tweets.length,
-        total_like: total_like,
-        total_like_week: total_like_week,
-        total_retweets: total_retweets,
-        total_retweets_week: total_retweets_week,
-    }
+        const total_retweets = all_tweets.reduce((total, tweet) => total + parseInt(tweet.retweets_count), 0);
+        const total_retweets_week = this_week_tweets.reduce((total, tweet) => total + parseInt(tweet.retweets_count), 0);
 
-    res.json(stats);
-});
+        const stats = {
+            total_tweets: all_tweets.length,
+            total_week_tweets: this_week_tweets.length,
+            total_like: total_like,
+            total_like_week: total_like_week,
+            total_retweets: total_retweets,
+            total_retweets_week: total_retweets_week,
+        }
+
+        res.json(stats);
+    });
+
+    app.post('/admin/tweets/update',
+            [require('connect-ensure-login').ensureLoggedIn(), upload.single('tweets_file')],
+            (req, res) => {
+        if (req.file !== undefined && req.file.buffer !== undefined) {
+            // https://stackoverflow.com/questions/190852/how-can-i-get-file-extensions-with-javascript
+            if (req.file.originalname.slice((req.file.originalname.lastIndexOf(".") - 1 >>> 0) + 2) !== 'csv')
+                res.status(400).send('Erreur : .csv requit.');
+            db.tweets_update(req.file.buffer.toString(), () => {
+                res.redirect('back');
+            });
+        } else {
+            res.status(400).send('Erreur fichier non reçu.');
+        }
+    });
+
+    app.post('/admin/candidats/update',
+            [require('connect-ensure-login').ensureLoggedIn(), upload.single('candidats_file')],
+            (req, res) => {
+        if (req.file !== undefined && req.file.buffer !== undefined) {
+            // https://stackoverflow.com/questions/190852/how-can-i-get-file-extensions-with-javascript
+            if (req.file.originalname.slice((req.file.originalname.lastIndexOf(".") - 1 >>> 0) + 2) !== 'csv')
+                res.status(400).send('Erreur : .csv requit.');
+            db.candidats_update(req.file.buffer.toString(), () => {
+                res.redirect('back');
+            });
+        } else {
+            res.status(400).send('Erreur fichier non reçu.');
+        }
+    });
+
+    // Authentification pour accéder aux parties privées de l'api (on n'en a pas dans cet exemple)
+    // et aux templates privés
+    // C'est ici qu'on utilise passport pour créer une session utilisateur
+    app.post('/login', function (req, res, next) {
+        if (!req.body.username) {
+            return res.status(400).redirect('../login.html');
+        }
+        if (!req.body.password) {
+            return res.status(400).redirect('../login.html');
+        }
+        passport.authenticate('local', function (err, user) {
+            if (err) {
+                return next(err); // will generate a 500 error
+            }
+            if (!user) {
+                return res.status(418).redirect('../login.html');
+            }
+            req.login(user, function (err) {
+                if (err) {
+                    return next(err);
+                }
+                return res.status(200).redirect('../admin/index.html');
+            });
+        })(req, res, next);
+    });
+
+    return app;
+}
 
 
 // const labeler = new textProcessing.Labeler(textProcessing.themesTests);
@@ -119,5 +184,5 @@ app.get('/candidat/:id_candidat/stats', (req, res) => {
 // });
 
 // Export our API
-module.exports = app;
+// module.exports = app;
 

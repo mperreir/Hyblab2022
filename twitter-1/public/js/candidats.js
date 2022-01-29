@@ -41,7 +41,7 @@ const initSlide3 = async function(){
     followers.innerHTML = `${candidats[i-1].followers}`;
 
     let tweets = table.childNodes[3];
-    tweets.innerHTML = `${candidats[i-1].tweets}`;
+    tweets.innerHTML = `${candidats[i-1].text}`;
 
   }
 

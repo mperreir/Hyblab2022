@@ -268,3 +268,37 @@ th, td {
         font-size: 12vh;
     }
 }
+
+
+
+
+
+/*Page de login*/
+.body-login {
+    background-color: white;
+    height: 100%;
+    text-align: center;
+}
+
+#login{
+    height: 100%;
+    align-content: center;
+}
+
+#login .card{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#login .checkbox {
+    margin-right : -0.5em;
+}
+
+#login .card-footer a {
+    margin-left : 1em;
+}
+
+#login .card-footer a hover {
+    margin-left: 1em;
+    color: #032e5d;
+}
