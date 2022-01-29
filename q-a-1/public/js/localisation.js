@@ -27,7 +27,14 @@ function geoFindMe() {
     }
   
   }
+const fs = require('fs');
+
+fs.readFile('../data/bureauxVote.json', (err, data) => {
+    if (err) throw err;
+    let data = JSON.parse(data);
+    console.log(data[1]);
+});
   
-  document.querySelector('#find-me').addEventListener('click', geoFindMe);
- alert(mapLink.textContent)
+document.querySelector('#find-me').addEventListener('click', geoFindMe);
+
   
