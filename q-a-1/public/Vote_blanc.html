@@ -1,0 +1,90 @@
+<!doctype html>
+
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <title>Hyblab 2022</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/white_page.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/loadingio/loading.css@v2.0.0/dist/loading.css" />
+  <link href="https://vjs.zencdn.net/7.6.6/video-js.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+  <script src="https://vjs.zencdn.net/7.6.6/video.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/slide1.js" defer></script>
+  <script src="js/slide2.js" defer></script>
+  <script src="js/Vote_blanc.js" defer></script>
+  
+</head>
+<body>
+  <!-- Le conteneur sert à vérouiller les proportions (aspect ratio) du contenu de la page (ici des slides) -->
+  <div id="container">
+    <div id="mySwiper" class="swiper">
+    
+      <!-- le main est aussi le conteneur des différents slides (contenus à chaque fois dans des sections-->
+      <main class = "main-part">
+          <section id="first-section">
+              <header id ="voteBlanc">
+                <div><img id="logo" src="img/logo/logo blanc.svg"></div>
+                <p><h1>VOTE BLANC</h1></p>
+
+                <p><img id = "elections" src="img/VoteBlanc/Les élections.svg"></p>
+
+                <p>Vote Blanc : C'est une <b>enveloppe vide</b> ou une enveloppe vierge. Ils sont décomptés séparément et ils sont comptabilisés dans les résultats.</p>
+                
+                <p><b>À ton avis, il y a eu combien de votes blanc au premier tour des élections présidentielles en 2017 ?</b></p>
+
+                <div id="Q1">
+                    <input type ="button" value="+ 400 000" id="C1">
+
+                    <input type ="button" value="+ 650 000" id="C2">
+
+                    <input type ="button" value="+ 850 000" id="C3">
+                </div>
+
+                <div id= urne>
+
+                    <p>
+                        Il y a aussi <b>l'abstention</b> qui est le fait de ne pas se déplacer pour aller voter alors que l'on est bien inscrit sur les listes électorales.
+                        
+                    </p>
+
+                    <img src = "img/VoteBlanc/URNE.svg" id="anim-verticale">
+
+                </div>
+                <p><b>À ton avis quel tranche d'âge s'abstient le plus (30%) ?</b></p>
+
+                <p id="Q2">
+                    <input type ="button" value="18-24 ANS" id="C4">
+
+                    <input type ="button" value="40-74 ANS" id="C5">
+
+                    <input type ="button" value="+80 ANS" id="C6">
+                </p>
+
+                <p><img id = "anim-text" src = "img/VoteBlanc/tasdeja.svg"></p>
+
+                <p id="Q3">
+
+                    
+    
+                        <input type="button" value="JAMAIS VOTÉ" onclick="document.location = 'index.html'">
+                        <input type="button" value="DÉJA VOTÉ" onclick="document.location = 'index.html'">
+
+                </p>
+
+            </header>
+              
+             
+              <footer></footer>
+          </section>
+          
+      </main>
+      </div>
+      <div class="swiper-pagination"></div>
+  
+</div>
+</body>
+</html>

@@ -1,3 +1,52 @@
 p{
-    margin-bottom: 10%;
+    margin-bottom: 4%;
+    font-family: 'css/font/marianne-thin-webfont.woff';
+    font-size:60%;
+    padding-left: 1%;
+    padding-right: 1%;
+    
 }
+
+h1{
+    color: gray;
+}
+
+input{
+    color: white;
+    border-radius: 30px;
+    padding : 1% 6% 1% 6%;
+    background-color : #656565;
+    font-family: 'folsomblack';
+    
+}
+
+#Q3 > input {
+    padding : 2% 10% 2% 10%;
+}
+
+/*Style des id*/
+
+#first-section{
+    background-color: white;
+}
+
+#elections{
+    width: 30%;
+    
+}
+
+#Q1, #Q2, #Q3{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+#urne{
+    margin-top: 7%;
+    padding-left: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+

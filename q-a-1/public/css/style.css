@@ -209,6 +209,35 @@ p.alignRight{
     }
 }
 
+@keyframes anim_verticale {
+    from{
+        transform: translateY(-10%);
+    }
+
+    to{
+
+        transform: translateY(3%);
+    }
+}
+
+@keyframes tourner_les_serviettes {
+    0% {
+        -webkit-transform: scale(1) rotateZ(0);
+                transform: scale(1) rotateZ(0);
+                background-color:purple;
+      }
+      50% {
+        -webkit-transform: scale(2) rotateZ(180deg);
+                transform: scale(2) rotateZ(180deg);
+                background-color : green;
+      }
+      100% {
+        -webkit-transform: scale(1) rotateZ(360deg);
+                transform: scale(1) rotateZ(360deg);
+                background-color : white;
+      }
+    
+}
 /*Utiliser une animmation*/
 
 #anim-text {
@@ -217,6 +246,13 @@ p.alignRight{
     -webkit-animation: anim_procuration_texte 1s alternate infinite; 
 }
 
+#anim-verticale {
+    animation : anim_verticale 1s linear infinite alternate;
+}
+
+/*input {
+    animation: tourner_les_serviettes 2s linear 0.5s infinite alternate both;
+}*/
 @font-face {
     font-family: 'folsomblack';
     src: url('font/folsom-black-webfont.woff2') format('woff2'),
