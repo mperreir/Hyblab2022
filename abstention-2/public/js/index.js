@@ -1,13 +1,25 @@
 "use strict";
 
 function date() {
-    const date = document.getElementById('date');
-    let text;
+    const date = document.getElementById('header-date');
+
+    const text = new Date();
     setInterval(() => {
         text = new Date()
     }, 60000);
-    text = new Date();
-    date.textContent = text.getHours() + ":" + text.getMinutes();
+    let dateContent;
+    if (text.getHours < 10) {
+        dateContent = "0" + text.getHours() + ":";
+    } else {
+        dateContent = text.getHours() + ":";
+    }
+    if (text.getMinutes() < 10) {
+        dateContent += "0" + text.getMinutes();
+    } else {
+        dateContent += text.getMinutes();
+    }
+
+    date.textContent = dateContent;
 }
 
 // const templateTest = fetch('templates/folder-absention.ejs').then(value => {

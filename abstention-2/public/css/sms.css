@@ -1,63 +1,50 @@
-#flex-container {
-    display: flex;
-    flex-direction: row;
-    height: 100%;
-}
-
-.flex-item {
-    color: #e4e5fa;
-    text-align: center;
-}
-header{
-    height: 4%;
-}
-#flex-container>.flex-item:nth-child(1) {
-    flex: 1;
-    background-color: #1028fd;
-}
-#flex-container > .flex-item:nth-child(3)
- {
-  flex: 1;
-}
-
-.bulle {
-  width: 16.125rem;
-  height: 1.25rem;
-  opacity: 1;
-  color: #1028fd
-}
-
-#flex-container>.flex-item:nth-child(2) {
-    flex: 4;
-    height: 32px;
-    text-align: left;
-}
-
-.notif_img{
-    margin-left:7px;
-    margin-right:7px;
-}
-#flex-container>.flex-item:nth-child(3) {
-    flex: 1;
-    background-color: #ff2e00;
-}
 
 
-.sms_tread{
+/* SMS style */
+.sms-tread{
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 64%;
+    margin: 16%;
+    z-index: 0;
 }
 
+.sms-tread>* {
+    visibility: hidden;
+    z-index: 0;
+
+}
 
 .sms {
     position: relative;
     border: 2px solid #1028fd;
     margin-top: 40px;
     box-shadow: 4px 4px #1028fd;
-    width: 60%;
-    padding: 12px;
+    width: 80%;
+    padding: 10px;
     font-family: 'CabinetGrotesk-Regular';
+    font-size: 0.9em;
+}
+
+.sms:first-child {
+    margin-top: 0;
+}
+
+.sms.sms-left {
+    align-self: flex-start;
+}
+
+.sms.sms-center {
+    align-self: center;
+}
+
+.sms.sms-right {
+    align-self: flex-end;
+    border: 2px solid #ff2e00;
+    box-shadow: -4px 4px #ff2e00;
+    color:#ff2e00;
 }
 
 .sms-sender {
@@ -70,11 +57,11 @@ header{
     font-family: 'CabinetGrotesk-Bold';
 }
 
-.sms-bottom::before {
+.sms-bottom.sms-left::before {
     content: "";
     position: absolute;
     bottom: -2px;
-    left: -35px;
+    left: -36px;
     display : inline-block;
     height : 0;
     width : 0;
@@ -82,11 +69,11 @@ header{
     border-right : 35px solid #1028fd;
 }
 
-.sms-bottom::after {
+.sms-bottom.sms-left::after {
     content: "";
     position: absolute;
-    bottom: 0px;
-    left: -31px;
+    bottom: -0.5px;
+    left: -31.5px;
     display : inline-block;
     height : 0;
     width : 0;
@@ -94,11 +81,35 @@ header{
     border-right : 33px solid #e4e5fa;
 }
 
-.sms-top::before {
+.sms-bottom.sms-right::before {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    right: -36px;
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-right : 35px solid transparent;
+    border-bottom : 30px solid #ff2e00;
+}
+
+.sms-bottom.sms-right::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    right: -31.5px;
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-right : 33px solid transparent;
+    border-bottom : 28px solid #e4e5fa;
+}
+
+.sms-top.sms-left::before {
     content: "";
     position: absolute;
     top: -2px;
-    left: -35px;
+    left: -36px;
     display : inline-block;
     height : 0;
     width : 0;
@@ -106,7 +117,7 @@ header{
     border-left : 35px solid transparent;
 }
 
-.sms-top::after {
+.sms-top.sms-left::after {
     content: "";
     position: absolute;
     top: 0px;
@@ -116,4 +127,68 @@ header{
     width : 0;
     border-top : 28px solid #e4e5fa;
     border-left : 33px solid transparent;
+}
+
+
+
+/* SMS Slider Button */
+
+.sms-slider {
+    background-color: #ff2e00;
+    margin-top: 40px;
+    width: 90%;
+    border-radius: 10px;
+    padding:  4% 4% 5% 4%;
+
+}
+
+.sms-slider-input {
+    width: 100%;
+    -webkit-appearance: none;
+    outline: none;
+    height: 10px;
+}
+
+.sms-slider-input::-webkit-slider-thumb {
+    width: 6px;
+    -webkit-appearance: none;
+    height: 30px;
+    width: 30px;
+    background: #e4e5fa;
+    border-radius: 100%;
+}
+
+.sms-slider-input::-moz-range-thumb {
+    width: 6px;
+    height: 30px;
+    width: 30px;
+    background: #e4e5fa;
+    border-radius: 100%;
+    border: 0;
+}
+
+/* SMS button  */
+.sms-button {
+    background-color: #ff2e00;
+    margin-top: 40px;
+    width: 90%;
+    border-radius: 10px;
+    border: 0;
+    font-family: 'CabinetGrotesk-regular';
+    font-size: 1.8em;
+    color: #e4e5fa;
+}
+
+.sms-button.sms-button-blue {
+    background-color: #1028fd;
+}
+
+/* SMS number */
+.sms-number {
+    width: 30%;
+    font-family: 'CabinetGrotesk-bold';
+    font-size: 1.8em;
+    padding-top:2px ;
+    padding-bottom:0 ;
+    text-align: center;
 }
