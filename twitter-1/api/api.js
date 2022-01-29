@@ -27,8 +27,10 @@ app.get('/game/1/new_question', (req, res) => {
     let tweet;
     let is_first_response_true = true;
 
+    let cpt_while = 0;
+
     do {
-        candidat1 = candidats[Math.floor(Math.random() * candidats.length)];
+        candidat1 = candidats[  Math.floor(Math.random() * candidats.length)];
         const candidats_2 = candidats.filter(c => candidat1.id !== c.id);
         candidat2 = candidats[Math.floor(Math.random() * candidats_2.length)]
 
@@ -40,6 +42,12 @@ app.get('/game/1/new_question', (req, res) => {
             .slice(0, 3)
             .sort(() => 0.5 - Math.random())[0];
 
+        // arret de la boucle si pas de tweet trouvé
+        if (cpt_while > 3) {
+            res.status(500).send();
+            return;
+        }
+        cpt_while++;
     } while(tweet === undefined);
 
     // Supprime les url des tweets
