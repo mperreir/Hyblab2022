@@ -1,3 +1,12 @@
+const diag = function(dBox, text) {
+  dBox.style.display = "block";
+  shakeElement(dBox);
+  const textContainer = document.createElement("p");
+  textContainer.innerHTML = text;
+  dBox.appendChild(textContainer);
+}
+
+
 const init_p1 = function() {
  "use strict";
 
@@ -28,18 +37,15 @@ const init_p1 = function() {
     'margin' : 'auto',
     'width' : '80%',
     'display' : 'flex',
-    'justify-content' : 'center',
-    'align-items' : 'center',
+    'justify-content' : 'space-evenly',
+    'align-items' : 'start',
     'flex-direction' : 'column',
     'z-index' : '99'
   })
   const img = document.createElement("img");
   img.setAttribute("src", "img/elements/chaise.svg")
   img.setAttribute("height", "300px");
-  css([img], {
-    'display' : 'block',
-    "margin" : "15px auto"
-  })
+
 
   let illustration = {
     illu: '300px',
@@ -49,8 +55,8 @@ const init_p1 = function() {
   function animateLoading() {
     anime({
       targets: illustration,
-      illu: '300px',
-      infos: '50%',
+      illu: '150px',
+      infos: '55%',
       loop: false,
       easing: 'easeInOutCubic',
       update: function(anim) {
@@ -65,17 +71,39 @@ const init_p1 = function() {
     }
   };
 
-  infos.appendChild(img);
-  let displayedText = document.createElement("p");
+
+  const metabox = document.createElement("div");
+  metabox.style.height = "auto";
+  const diBox = document.createElement("div");
+  metabox.appendChild(diBox);
+  diBox.style.position = "relative";
+  diBox.style.verticalAlign = "top";
+  diBox.style.height = "288px";
+
+  diBox.style.width = "100%";
+  diBox.style.margin = "0px auto";
+  
+  const bubble = document.createElement("img");
+  bubble.src = "img/dialogBoxes/advisor_xl.svg";
+  diBox.appendChild(bubble);
   const originalText = "Moua est accueilli par un membre de l'Élysée. Le conseiller de l'ex président lui demande : </br><b>Comment souhaitez-vous gérer la France pendant l'absence momentanée du Président ?</b>";
-  displayedText.innerHTML = originalText;
-  css([displayedText],{
-    'font-size' : '15%',
-    'color' : 'black',
-    'height' : '100px',
-    'text-align' : 'center'
-  })
-  infos.appendChild(displayedText);
+  
+  diag(diBox, originalText);
+  const textContainer = diBox.querySelector("p");
+  textContainer.style.fontSize = "15pt";
+  textContainer.style.textAlign = "left";
+
+  textContainer.style.verticalAlign = "center";
+  textContainer.style.top = "20px";
+  textContainer.style.position = "absolute";
+  textContainer.style.width = "80%";
+  textContainer.style.left = "10%";
+  textContainer.style.margin = "auto";
+
+
+  infos.appendChild(img);
+
+  infos.appendChild(metabox);
 
 
   // buttons
@@ -97,7 +125,7 @@ const init_p1 = function() {
   function changeText(nb, txt, btn) {
     if (state === nb){
       cancel.play();
-      displayedText.innerHTML = originalText;
+      textContainer.innerHTML = originalText;
       btn.style.backgroundColor = "purple";
       state = 0;
     }
@@ -111,7 +139,7 @@ const init_p1 = function() {
       x1.style.background= "purple";
       x2.style.background= "purple";
       x3.style.background= "purple";
-      displayedText.innerHTML = txt;
+      textContainer.innerHTML = txt;
       btn.style.backgroundColor = colors[nb-1];
       state = nb;
     }
