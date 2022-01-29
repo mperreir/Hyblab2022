@@ -4,11 +4,9 @@ var color_droite = "#5B6C9A";
 var color_centre = "#83C49E";
 var color_gauche = "#ED6464";
 
-
-let data={nom:"Bonjfzjekfzkjefkzhfkjzehfjkzefnkjzefkzjnfkjzour"}
 // Pour la gauche
 page('/communes-2/affirmation-gauche', async function () {
-    await renderTemplate(templates('./templates/affirmation.mustache'), data);
+    await renderTemplate(templates('./templates/affirmation.mustache'));
 
     const Retourbtn = document.getElementById("boutonRetour");
     Retourbtn.addEventListener('click', function () {

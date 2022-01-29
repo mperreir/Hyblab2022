@@ -50,6 +50,7 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 .tips-content{
     font-size: 18%;
     line-height: 30px;
@@ -106,22 +107,4 @@
 /* Add a background color to the active dot/circle */
 .active, .dot:hover {
     background-color: #ED6464;
-}
-
-.button{
-    border: none;
-    height: 2rem;
-    width: 4rem;
-    cursor: pointer;
-    border-radius: 5%;
-    margin-left: 10px;
-    bottom: 20%;
-    color: #f0e4d8;
-    background-color: #282246;
-}
-
-.button:hover{
-    color: #282246;
-    background-color: #f0e4d8;
-    border-color: #f0e4d8;
 }
