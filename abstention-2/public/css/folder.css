@@ -1,23 +1,55 @@
 
-.text-color-blue {
+.fd-blue {
     color: #0039ff;
 }
 
-.text-color-red {
+.fd-red {
     color: #ff4800;
 }
 
-.folder-container {
+.fd-bg-blue {
+    background-color: #0039ff;
+}
+
+.fd-bg-red {
+    background-color: #ff4800;
+}
+
+.fd-text-center {
+    text-align: center;
+}
+
+.fd-font {
+    font-family: 'CabinetGrotesk-Regular';
+}
+
+.fd-font-light {
+    font-family: 'CabinetGrotesk-Light';
+}
+
+.fd-font-bold {
     font-family: 'CabinetGrotesk-Bold';
+}
+
+.fd-font-extra-bold {
+    font-family: 'CabinetGrotesk-Extrabold';
+}
+
+.fd-font-black {
+    font-family: 'CabinetGrotesk-Black';
+}
+
+
+.fd-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0%;
-    height: 100%;
+    /* height: 100%; */
     background-color: #e5e6f9;
 }
 
-.folder-header {
+.fd-header {
     display: grid;
     grid-template-columns: 1fr 6fr 1fr;
     width: 100%;
@@ -25,67 +57,77 @@
     margin-bottom: 10%;
 }
 
-.folder-header-center {
-    text-align: center;
+.fd-header-center {
+    margin-top: 5px;
 }
 
-.folder-header-left {
-    background-color: #0039ff;
-}
-
-.folder-header-right {
-    background-color: #ff4800;
-}
-
-.folder-numbers {
+.fd-numbers {
     display: flex;
     justify-content: center;
     width: 80%;
 }
 
-.folder-numbers-number {
+.fd-numbers-number {
     color: #ff4800;
     font-weight: bold;
     font-size: 4em;
 }
 
-.folder-numbers-hab {
+.fd-numbers-hab {
     color: #ff4800;
     font-weight: bold;
 }
 
-.folder-numbers-percent {
+.fd-numbers-percent {
     display: flex;
     justify-content: space-between;
     width: 40%;
     color: #ff4800;
 }
 
-.folder-separator {
+.fd-separator {
     width: 50%;
     color: #ff4800;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.folder-resume {
+.fd-resume {
     width: 80%;
     margin-top: 30px;
     color: #ff4800;
+    font-size: 1.2em;
 }
 
-.folder-message-line {
+.fd-message-line {
     margin-top: 40px;
     width: 80%;
 }
 
-.folder-links {
+.fd-graph {
+    width: 80%;
+    height: 35vh;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.fd-solutions {
+    width: 60%;
+    display: flex;
+}
+
+.fd-solutions-img {
+    width: 70%;
+}
+
+.fd-links {
     display: flex;
     justify-content: space-between;
     width: 90%;
 }
 
-.folder-link {
+.fd-link {
     display: flex;
     flex-direction: column;
     align-items: end;

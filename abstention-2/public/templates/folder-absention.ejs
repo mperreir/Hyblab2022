@@ -1,66 +1,67 @@
-<div class="folder-container">
-    <div class="folder-header">
-        <div class="folder-header-left">
+<div class="fd-container">
+    <div class="fd-header">
+        <div class="fd-bg-blue">
         </div>
-        <div class="folder-header-center">
-            <h1>Absention</h1>
+        <div class="fd-header-center">
+            <img src="img/absention_texte.svg" />
         </div>
-        <div class="folder-header-right">
+        <div class="fd-bg-red">
         </div>
     </div>
-    <div class="folder-numbers">
-        <div class="folder-numbers-number">
-            <%= votingHab %>
+    <div class="fd-numbers fd-font-bold">
+        <div class="fd-numbers-number">
+            <%= votingHab.toLocaleString() %>
         </div>
-        <div class="folder-numbers-hab">
+        <div class="fd-numbers-hab">
             hab
         </div>
     </div>
-    <div class="folder-numbers-percent">
+    <div class="fd-numbers-percent fd-font">
         <div>
             SOIT
         </div>
         <div>
-            35 %
+            <%= pcVotingHab %>  %
         </div>
     </div>
-    <hr class="folder-separator">
-    <div class="folder-numbers-percent">
+    <hr class="fd-separator">
+    <div class="fd-numbers-percent fd-font">
         <div>
             MOYENNE
         </div>
         <div>
-            30 %
+            <%= pcMean %>  %
         </div>
     </div>
-    <div class="folder-resume">
+    <div class="fd-resume fd-font-light">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempor tortor nec nisi maximus vulputate. Vestibulum
         semper semper euismod. Aliquam erat volutpat. Nunc vel bibendum ante. Integer dictum ligula lacus, vitae molestie odio
         imperdiet in. Cras eget commodo mauris. Aliquam ligula lectus
     </div>
-    <div class="folder-message-line">
+    <div class="fd-message-line">
         <img src="img/message_line.svg" />
     </div>
-    <div>
-        data
+    <div class="fd-graph">
+        <div class="fd-bg-red" style="<%= pcVotingHab > pcMean ? 'height: 100%' : `height: ${(pcVotingHab * 100) / pcMean}%` %>"></div>
+        <div class="fd-bg-blue" style="<%= pcMean > pcVotingHab ? 'height: 100%' : `height: ${(pcMean * 100) / pcVotingHab}%` %>"></div>
     </div>
-    <div>
-        <h1>Solutions</h1>
+    <div class="fd-solutions">
+        <img class="fd-solutions-img" src="img/solutions.svg">
     </div>
-    <div class="folder-links">
-        <div class="folder-link">
-            <div class="text-color-blue">
+    <div class="fd-links">
+        <div class="fd-link">
+            <div class="fd-blue">
                 lien cool
             </div>
-            <div class="text-color-red">
+            <div class="fd-red">
                 http://www.example
             </div>
         </div>
-        <div class="folder-link">
-            <div class="text-color-blue">
+        <div class="fd-link">
+            <div class="fd-blue">
                 lien cool
             </div>
-            <div class="text-color-red">
+            <div class="fd-red">
                 http://www.example
             </div>
         </div>
