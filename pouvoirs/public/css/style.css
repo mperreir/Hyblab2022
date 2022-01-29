@@ -154,6 +154,15 @@ body {
   border: none;
   border-radius: 8px;
   padding: 0;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s; /* Safari */
+}
+
+#play-button:hover,
+#next-button:hover {
+  transition-duration: 0.1s;
+  background-color: #4f00ec;
 }
 
 /* Falling alien page */

@@ -39,19 +39,18 @@ const init_p5 = function(){
             isClickable = true;
             animationsContainer.appendChild(clickHere);
             document.querySelector("#animationsContainer img").style.visibility = "hidden";
-            if (!released) {
-                setTimeout(()=>{
+            setTimeout(()=>{
+                if(!released){
                     document.querySelector("#animationsContainer img").style.visibility = "visible";
-                },7000);                            
-            }
+                }                    
+            },7000);                            
         });   
     });
     animationsContainer.addEventListener("click",() =>{
-        
+        const prisonGridUp = createAnimation("animationsContainer","data/animations/prisonGridUp.json",false);
+        const prisonGridUpSound = createAudio("data/sounds/good_choice.mp3");
         if (!released && isClickable) {
             animationsContainer.removeChild(clickHere);
-            const prisonGridUp = createAnimation("animationsContainer","data/animations/prisonGridUp.json",false);
-            const prisonGridUpSound = createAudio("data/sounds/good_choice.mp3");
             prisonGridUpSound.play();
             prisonGridUp.play();
             shakeElement(dialogBox);
@@ -60,7 +59,6 @@ const init_p5 = function(){
             textContainer.style.bottom = "51%";
             textContainer.style.textAlign = "center";
             released = true;
-            prisonGridUpSound.unload();
             setTimeout(() => swiper.slideNext(), 6000);
         }
     })
