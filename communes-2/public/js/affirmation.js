@@ -58,11 +58,11 @@ page('/communes-2/affirmation', async function () {
     }
 
 
-
+    showAffirmation(1);
     const Retourbtn = document.getElementById("boutonRetour");
     Retourbtn.addEventListener('click', function () {
         page('/communes-2/gameChoice');
-        showAffirmation(1);
+        
     });
 });
 
