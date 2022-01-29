@@ -28,6 +28,10 @@
     font-size: 0.9em;
 }
 
+.sms.sms-visible {
+    visibility: visible;
+}
+
 .sms:first-child {
     margin-top: 0;
 }

@@ -40,7 +40,9 @@ function date() {
 
 
 // loadFileExplorer();
-smsScreen();
+// loadSms();
+// loadEnd();
+loadRebet();
 
 
 async function loadTemplate(path, data) {

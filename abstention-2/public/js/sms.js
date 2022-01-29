@@ -1,6 +1,6 @@
 "use strict";
 
-async function smsScreen() {
+async function loadSms() {
     const container = document.getElementById("container");
 
     const messages =
@@ -168,10 +168,6 @@ function handleSlider() {
 
     };
 
-}
-
-function delaySmsInsert(time) {
-    return new Promise(resolve => setTimeout(resolve, time));
 }
 
 // let sms = function () {
