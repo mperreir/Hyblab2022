@@ -427,3 +427,39 @@ body{
 .questionCard-question {
     font-weight: bold;
 }
+
+
+.profilCard {
+    box-sizing: border-box;
+    font-size: 2.8vh;
+    font-family: 'Jost';
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.profilCard_img {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.profilCard_information {
+    position: absolute;
+    top: 32%;
+    left: 10%;
+    z-index: 2;
+}
+
+.profilCard_civility {
+    margin-bottom: 10%;
+}
+
+.profilCard_div_text {
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.profilCard_label {
+    font-weight: bold;
+}
