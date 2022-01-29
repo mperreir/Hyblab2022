@@ -41,6 +41,11 @@
     margin-bottom: 10px;
 }
 
+.popUp-button{
+    width: 20%;
+    margin-right: 10px;
+}
+
 .popUp-inpuText{
     font-family: "Bebas Neue";
     width: 80%;

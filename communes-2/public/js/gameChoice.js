@@ -9,7 +9,7 @@ page('/communes-2/gameChoice', async function () {
 
     document.getElementById("btn-gauche").addEventListener('click', function () {
         initializeGameData('Gauche').then( () => {
-            page('/communes-2/affirmation');
+            page('/communes-2/resultatInter');
         })
     });
 
