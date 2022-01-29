@@ -240,7 +240,7 @@ p.alignRight{
 }
 /*Utiliser une animmation*/
 
-#anim-text {
+.anim-text {
 
     animation: anim_procuration_texte 1s 1s alternate infinite; 
     -webkit-animation: anim_procuration_texte 1s alternate infinite; 
