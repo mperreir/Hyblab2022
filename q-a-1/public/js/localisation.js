@@ -1,3 +1,43 @@
+function getPostCodefromCoordinates(latitude, longitude){
+  var api_key = 'ffeaff9b94954d05b109b647cbff9166';
+
+  var api_url = 'https://api.opencagedata.com/geocode/v1/json';
+
+  var request_url = api_url
+    + '?'
+    + 'key=' + api_key
+    + '&q=' + encodeURIComponent(latitude + ',' + longitude)
+    + '&pretty=1'
+    + '&no_annotations=1';
+
+
+  return new Promise(function(resolve, reject){
+    var request = new XMLHttpRequest();
+    request.onload = function(){
+      if (request.status === 200){ 
+        // Success!
+        var data = JSON.parse(request.responseText);
+        resolve(data);
+  
+      } else if (request.status <= 500){ 
+        // We reached our target server, but it returned an error
+                            
+        console.log("unable to geocode! Response code: " + request.status);
+        var data = JSON.parse(request.responseText);
+        console.log('error msg: ' + data.status.message);
+      } else {
+        console.log("server error");
+      }
+    }
+    request.onerror = reject;
+    request.open('GET', request_url, true);
+    request.send();
+  })
+}
+
+
+
+
 function geoFindMe() {
 
     const status = document.querySelector('#status');
@@ -13,6 +53,16 @@ function geoFindMe() {
       status.textContent = '';
       mapLink.href = `https://www.openstreetmap.org/#map=18/${latitude}/${longitude}`;
       mapLink.textContent = `Latitude: ${latitude} °, Longitude: ${longitude} °`;
+
+      getPostCodefromCoordinates(latitude, longitude)
+        .then(function(result) {
+          //On récupère le code postal ici
+          console.log(result.results[0].components.postcode);
+        })
+        .catch(function(){
+          // There was a connection error of some sort
+          console.log("unable to connect to server");
+        });
     }
   
     function error() {
@@ -27,6 +77,7 @@ function geoFindMe() {
     }
   
   }
+
 const fs = require('fs');
 
 fs.readFile('../data/bureauxVote.json', (err, data) => {
