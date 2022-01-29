@@ -23,7 +23,7 @@ class Labeler {
 
     // labelling a tweet and return this tweet labeled
     labellingTweet(tweet) {
-        tweet.data = natural.PorterStemmerFr.tokenizeAndStem(tweet.tweet);
+        tweet.data = natural.PorterStemmerFr.tokenizeAndStem(tweet.text);
         const trie = new Trie();
         trie.addStrings(tweet.data);
 
