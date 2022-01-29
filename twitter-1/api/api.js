@@ -38,9 +38,9 @@ module.exports = (passport) => {
 
             tweet = db.getTweetsSemaine()
                 .filter(t => t.user_id === candidat1.id
-                    && t.retweet === "False"
+                    && t.is_retweet === "False"
                     && t.text.length > 100)
-                .sort((a, b) => b.likes_count - a.likes_count)
+                .sort((a, b) => b.favorite_count - a.favorite_count)
                 .slice(0, 3)
                 .sort(() => 0.5 - Math.random())[0];
 
@@ -80,11 +80,18 @@ module.exports = (passport) => {
     });
 
     app.get('/tweets/tops/:theme_id', (req, res) => {
+        const candidats = db.getCandidats();
         let tweets = db.getTweetsSemaine()
             .filter(tweet => tweet.themeScore >= 1
                 && tweet.theme_id === parseInt(req.params.theme_id));
-        tweets.sort((a, b) => b.likes_count - a.likes_count);
-        res.json(tweets.slice(0, 3));
+        tweets.sort((a, b) => b.favorite_count - a.favorite_count);
+        tweets = tweets.slice(0, 3);
+        tweets = tweets.map(tweet => {
+            const candidat = candidats.filter(candidat => candidat.id === tweet.user_id);
+            tweet.name = candidat.length > 0 ? candidat[0].name : "ERROR : CANDIDAT INCONNU";
+            return tweet;
+        })
+        res.json(tweets);
     });
 
     app.get('/candidat/all', (req, res) => {
@@ -105,8 +112,8 @@ module.exports = (passport) => {
         const this_week_tweets = db.getTweetsSemaine()
             .filter(t => t.user_id === req.params.id_candidat);
 
-        const total_like = all_tweets.reduce((total, tweet) => total + parseInt(tweet.likes_count), 0);
-        const total_like_week = this_week_tweets.reduce((total, tweet) => total + parseInt(tweet.likes_count), 0);
+        const total_like = all_tweets.reduce((total, tweet) => total + parseInt(tweet.favorite_count), 0);
+        const total_like_week = this_week_tweets.reduce((total, tweet) => total + parseInt(tweet.favorite_count), 0);
 
         const total_retweets = all_tweets.reduce((total, tweet) => total + parseInt(tweet.retweets_count), 0);
         const total_retweets_week = this_week_tweets.reduce((total, tweet) => total + parseInt(tweet.retweets_count), 0);

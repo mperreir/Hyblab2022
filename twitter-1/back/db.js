@@ -35,7 +35,7 @@ module.exports.candidat_followers_name = "candidat_followers";
 
 module.exports.getTweetsSemaine = () => {
     return module.exports.getTweets()
-        .filter(tweet => (new Date(tweet.date)).isSameWeek(new Date(2022, 0, 20)));
+        .filter(tweet => (new Date(parseInt(tweet.created_at) * 1000)).isSameWeek(new Date(2022, 0, 20)));
 }
 
 module.exports.getTweets = () => {
@@ -45,6 +45,11 @@ module.exports.getTweets = () => {
 
 module.exports.getCandidats = () => {
     return db.fetch(module.exports.candidats_name);
+}
+
+module.exports.getCandidatFromId = (id_candidat) => {
+
+    return result.length > 0 ? result[0] : undefined;
 }
 
 // // INIT DB
