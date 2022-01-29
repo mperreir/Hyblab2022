@@ -169,6 +169,8 @@ body{
     height: 8vh;
     width: 30vh;
     cursor: pointer;
+    position: relative;
+    z-index: 100;
 }
 
 .button:active {
@@ -239,6 +241,40 @@ body{
 }
 
 /* ---------- Important media queries for easy responsive content :-) ----------------- */
+/* Can be adapted for other ratios that 9:16 or for horizontal content (ex: 16:9) */
+
+/* This media query ensures that we allways will the width of the screen */
+/* as long as the screen aspect ratio is below 9:16 */
+@media screen and (max-aspect-ratio: 9/16){
+    #root{
+        margin-top: calc((100vh - 100 * 16vw / 9) / 2);
+        width: 100vw;
+        height: calc(100 * 16vw / 9);
+    }
+
+    /* We set a default font size here. It will be the base for all other font sizes */
+    /* Here the font size is proportional to display width */
+    body{
+        background-color: white;
+    }
+}
+
+/* This media query ensures that we allways will the height of the screen */
+/* as long as the screen aspect ratio is higher than 9:16 */
+@media screen and (min-aspect-ratio: 9/16){
+    #root{
+        margin-left: calc((100vw - 100 * 9vh / 16) / 2);
+        width: calc(100 * 9vh / 16);
+        height: 100vh;
+    }
+
+    /* We set a default font size here. It will be the base for all other font sizes */
+    /* Here the font size is proportional to display height */
+    body{
+        /*font-size: 12vh;*/
+    }
+}
+
 .header {
     width: 100%;
     padding: 0 5%;
@@ -372,6 +408,7 @@ body{
 .startingPage_card > p {
     margin-top: 15px;
     font-size: 16px;
+    font-weight: 300;
 }
 
 .startingPage_card > span {
@@ -386,6 +423,7 @@ body{
 }
 
 .mainStepPage {
+    height: 100%;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -401,47 +439,16 @@ body{
 .mainStepPage_subtitle {
     font-size: 2.6vh;
     max-width: 52%;
-    margin-bottom: 10vh;
+    font-weight: 300;
+}
+
+.mainStepPage_button {
+    position: absolute;
+    top: 45.7vh;
 }
 
 #root {
     background-color: white;
-}
-
-  /* ---------- Important media queries for easy responsive content :-) ----------------- */
-/* Can be adapted for other ratios that 9:16 or for horizontal content (ex: 16:9) */
-
-/* This media query ensures that we allways will the width of the screen */
-/* as long as the screen aspect ratio is below 9:16 */
-@media screen and (max-aspect-ratio: 9/16){
-    #root{
-        margin-top: calc((100vh - 100 * 16vw / 9) / 2);
-        width: 100vw;
-        height: calc(100 * 16vw / 9);
-    }
-
-    /* We set a default font size here. It will be the base for all other font sizes */
-    /* Here the font size is proportional to display width */
-    body{
-        background-color: white;
-        /*font-size: calc(12vw*16/9);*/
-    }
-}
-
-/* This media query ensures that we allways will the height of the screen */
-/* as long as the screen aspect ratio is higher than 9:16 */
-@media screen and (min-aspect-ratio: 9/16){
-    #root{
-        margin-left: calc((100vw - 100 * 9vh / 16) / 2);
-        width: calc(100 * 9vh / 16);
-        height: 100vh;
-    }
-
-    /* We set a default font size here. It will be the base for all other font sizes */
-    /* Here the font size is proportional to display height */
-    body{
-        /*font-size: 12vh;*/
-    }
 }
 
 .endGameCard-container {
@@ -611,4 +618,20 @@ body{
     font-weight: 300;
     font-size: 2.1vh;
     margin-bottom: 1vh;
+}
+
+.steps {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.steps_bg {
+    position: absolute;
+    width: 93%;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
 }
