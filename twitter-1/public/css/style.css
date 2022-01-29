@@ -133,7 +133,7 @@ body{
     height:9%;
 }
 
-#second-slide button{
+#second-slide #play{
     width: 30%;
     height: 100%;
     box-shadow: 7px 7px 25px 0 rgba(0,0,0,0.25);

@@ -38,7 +38,7 @@ async function Suivant(temps,score,total) {
     div.setAttribute("id", 'question');
     div.style.position = "absolute";
     div.style.top = "38%";
-    div.style.left = "4%";
+    div.style.left = "5%";
     div.style.width = "75%";
     div.style.minHeight = "100px";
     div.style.marginLeft = "7%";
@@ -236,7 +236,7 @@ function finJeu(score,total){
     image.setAttribute("id","etoile");
     image.style.width="75%";
     image.style.position = "absolute";
-    image.style.top = "32%";
+    image.style.top = "40%";
     image.style.left = "15%";
 
     jeu.appendChild(image);
