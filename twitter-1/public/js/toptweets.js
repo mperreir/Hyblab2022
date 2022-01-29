@@ -6,9 +6,9 @@ let themes;
 
 async function initThemesTopTweets() {
     themes = await fetchThemes();
-    themes.forEach((theme, index_theme) => {
+    themes.forEach((theme) => {
         let o = document.createElement('option');
-        o.setAttribute("value", index_theme + '');
+        o.setAttribute("value", theme.id + '');
         o.innerText = theme.name;
         select.appendChild(o);
     });
