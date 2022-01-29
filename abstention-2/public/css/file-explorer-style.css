@@ -1,0 +1,114 @@
+.file-explorer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2.5em;
+    row-gap: 2.5em;
+    padding: 16%;
+}
+
+.file-explorer-item:last-child {
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    grid-column: 1 / 3;
+    z-index: 10;
+}
+
+.file-explorer-item-file {
+    position: relative;
+    width: 100%;
+    height: 4.5em;
+    aspect-ratio: 1;
+    border: solid 2px #1028fd;
+    background-color: #e4e5fa;
+    z-index: 2;
+}
+
+.file-explorer-item:last-child .file-explorer-item-file { 
+    width: 70%;
+    height: 7em;
+    border: solid 2px #ff2e00;  
+}
+
+
+.file-explorer-item-file::before {
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 15px;
+    top : -17px;
+    left: -2px;
+    border: solid 2px #1028fd;
+    border-bottom: 0;
+    background-color: #e4e5fa;
+    z-index: -1;
+}
+
+.file-explorer-item:last-child .file-explorer-item-file::before {
+    border: solid 2px #ff2e00;
+    border-bottom: 0;
+}
+
+.file-explorer-item-file::after {
+    position: absolute;
+    content: "";
+    left: calc(50% + 1px);
+    width: 8px;
+    height: 9px;
+    top : -10px;
+    left: 50%px;
+    background-color: #1028fd;
+    z-index: -1;
+}
+
+.file-explorer-item:last-child .file-explorer-item-file::after {
+    background-color:#ff2e00;
+}
+
+.file-explorer-item-file-title {
+    position: absolute;
+    top: 25%;
+    margin: 14px;
+    line-height: 1em;
+}
+
+.file-explorer-item-file-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.file-explorer-item-file-progress {
+    position: relative;
+    background-color: #ffb09e;
+    width: calc(100% + 4px);
+    height: 8px;
+    margin-top: 8px;
+    align-self: stretch;
+
+}
+
+.file-explorer-item-file-progress-bar {
+    position: relative;
+    background-color: #ff2e00;
+    height: 100%;
+}
+
+.file-explorer-item-file-progress-text {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 55%;
+    color: #ff2e00;
+    margin-top: 2px;
+}
+
+.file-explorer-item-file-btn {
+    background-color: #ff2e00;
+    color : #e4e5fa;
+    border-radius: 10px;
+    padding: 2px;
+    border: none;
+    margin-top: 8px;
+}

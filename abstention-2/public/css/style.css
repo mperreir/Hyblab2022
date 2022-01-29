@@ -12,13 +12,14 @@ body{
     background-color: black;
     color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #e4e5fa;
 }
 
 #container{
     position: relative; /* for absolute positionning of child elements*/
-    background-color: white;
+    background-color: #e4e5fa;
+    color: #1028fd;
     font-size: 20%;
-    
 }
 
 /* ---------- Important media queries for easy responsive content :-) ----------------- */
