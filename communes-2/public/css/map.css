@@ -82,17 +82,16 @@
     text-align: center;
 }
 
-.affirmation > p{
+.affirmation > h6{
     margin-top: 20px;
     font-size: 25%;
     font-family: "Bebas neue";
-
+    margin-bottom: 20px;
     text-align: center;
 }
 
 .affirmation-content{
     font-size: 18%;
-    line-height: 30px;
     text-align: center;
     display: none;
 }

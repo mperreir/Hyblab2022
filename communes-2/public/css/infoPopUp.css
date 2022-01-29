@@ -23,22 +23,22 @@
     text-align: center;
 }
 
-.text{
-    position: relative;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
 .popUp > h6{
     margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 25%;
 
     text-align: center;
 }
 
+.popUp > img{
+    width: 25%;
+}
+
 .popUp-info{
     font-size: 18%;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .popUp-inpuText{

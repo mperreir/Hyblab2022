@@ -8,7 +8,7 @@ page('/communes-2/gameChoice', async function () {
     });
 
     document.getElementById("btn-gauche").addEventListener('click', function () {
-        page('/communes-2/affirmation');
+        page('/communes-2/resultatFinal');
     });
 
     document.getElementById("btn-centre").addEventListener('click', function () {
