@@ -166,20 +166,16 @@ body{
 .bold{
     font-weight: bold;
 }
+
 .bebas-neue{
     font-family: "Bebas Neue";
 }
+
 .reem-kufi{
     font-family: "Reem Kufi";
 }
+
 .margin-left-right{
     margin-left: 15px;
     margin-right: 15px;
-}
-
-/**
-TEST carte leaflet
-*/
-#map {
-    height: 500px;
 }

@@ -1,12 +1,7 @@
-.affirmation-page{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-}
-
-.map{
-    margin-top: 15px;
-    width: 90%;
+/* Gestion Map */
+#map {
+    margin: 10%;
+    height: 50%;
 }
 
 .surface-area{
@@ -36,6 +31,7 @@
     stroke-miterlimit:6;
     stroke-linecap: round;
 }
+
 .compass{
     fill: #fff;
     stroke: #282246;
@@ -47,6 +43,61 @@
     pointer-events: none;
 }
 
+#cityname{
+    margin-top: 5%;
+    text-align: center;
+    font-family: "Bebas Neue";
+    font-size: 30%;
+}
+
+/* La pop-up affirmation */
+.affirmation-page{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.affirmation{
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 0;
+    bottom: 0;
+
+    border-top-left-radius : 50px;
+    border-top-right-radius : 50px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -15px 15px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px;
+
+    background-color: #282246;
+    color: #f0e4d8;
+    
+    background-position: 9px 0px;
+    background-repeat: no-repeat;
+
+    line-height: 18px;
+    overflow: hidden;
+    padding: 0 60px;
+
+    text-align: center;
+}
+
+.affirmation > p{
+    margin-top: 20px;
+    font-size: 25%;
+    font-family: "Bebas neue";
+
+    text-align: center;
+}
+
+.affirmation-content{
+    font-size: 18%;
+    line-height: 30px;
+    text-align: center;
+    display: none;
+}
+
+/* Confirmer la sélection */
 #panel-confirm{
     position: absolute;
     width: 380px;
@@ -71,129 +122,3 @@
 
     text-align: center;
 }
-
-#cityname{
-    margin-top: 5%;
-    text-align: center;
-    font-family: "Bebas Neue";
-    font-size: 30%;
-}
-
-
-.affirmation{
-    position: absolute;
-    /* Rectangle 1 */
-    width: auto;
-    height: 262px;
-    left: 0px;
-
-    top: 550px;
-    
-
-    border-top-left-radius : 50px;
-    border-top-right-radius : 50px;
-    border: none;
-    box-shadow: rgba(0, 0, 0, 0.17) 0px -15px 15px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px;
-
-    background-color: #282246;
-    color: #f0e4d8;
-    
-    background-position: 9px 0px;
-    background-repeat: no-repeat;
-
-    line-height: 18px;
-    overflow: hidden;
-    padding: 15px 60px;
-
-    text-align: center;
-}
-
-.affirmation > p{
-    margin-top: 20px;
-    font-size: 25%;
-    font-family: "Bebas neue";
-
-    text-align: center;
-}
-
-.text{
-    position: relative;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.affirmation-content{
-    font-size: 18%;
-    line-height: 30px;
-    text-align: center;
-    display: none;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -30px;
-    padding: 16px;
-    color: #f0e4d8;
-    font-weight: bold;
-    font-size: 20px;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-  }
-  
-/* Position the "next button" to the right */
-.next {
-    position: absolute;
-    right: 0;
-    border-radius: 3px 0 0 3px;
-} 
-
-.prev {
-    position: absolute;
-    left: 0;
-    border-radius: 3px 0 0 3px;
-} 
-/* The dot/bullet/indicator container */
-.dot-container {
-    text-align: center;
-    padding-bottom: 10px;
-    background: none;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-    cursor: pointer;
-    height: 10px;
-    width: 10px;
-    margin: 0 2px;
-    background-color: #f0e4d8;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-
-/* Add a background color to the active dot/circle */
-.active, .dot:hover {
-    background-color: #ED6464;
-}
-
-.button{
-    border: none;
-    height: 2rem;
-    width: 4rem;
-    cursor: pointer;
-    border-radius: 5%;
-    margin-left: 10px;
-    bottom: 20%;
-    color: #f0e4d8;
-    background-color: #282246;
-}
-
-.button:hover{
-    color: #282246;
-    background-color: #f0e4d8;
-    border-color: #f0e4d8;
-}
-
