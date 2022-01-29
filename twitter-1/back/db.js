@@ -44,7 +44,9 @@ module.exports.getTweets = () => {
 }
 
 module.exports.getCandidats = () => {
-    return db.fetch(module.exports.candidats_name);
+    return db.fetch(module.exports.candidats_name)
+        .sort((a, b) => parseInt(b.followers) - parseInt(a.followers))
+        .slice(0, 12);
 }
 
 module.exports.getCandidatFromId = (id_candidat) => {
