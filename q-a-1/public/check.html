@@ -1,0 +1,80 @@
+<!doctype html>
+
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <title>Hyblab 2022</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/green_page.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/loadingio/loading.css@v2.0.0/dist/loading.css" />
+  <link href="https://vjs.zencdn.net/7.6.6/video-js.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+  <script src="https://vjs.zencdn.net/7.6.6/video.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/slide1.js" defer></script>
+  <script src="js/slide2.js" defer></script>
+  <script src="js/check.js" defer></script>
+
+</head>
+<body>
+  <!-- Le conteneur sert à vérouiller les proportions (aspect ratio) du contenu de la page (ici des slides) -->
+  <div id="container">
+    <div id="mySwiper" class="swiper">
+    
+      <!-- le main est aussi le conteneur des différents slides (contenus à chaque fois dans des sections-->
+      <main class = "main-part">
+          <section id="first-section">
+              <header>
+                <div><img id="title" src="img/Check/check.svg"></div>
+                <div><img id="subtitle" src="img/Check/pret.svg"></div>
+              </header>
+              <div class="introduction">
+                <p>Voici ta check list, vérifie que tout est ok pour que tu puisses aller voter si tu souhaites !</p>
+              </div>
+              <div class="main-section">
+                <p><b id="white-content">Appuie</b> avec la sourie si tu fais partie de cette case tu en as trois a tamponner</p>
+              </div>
+              <table>
+                <tr>
+                  <td id="case-1">
+                    <p>MAJEUR(E)</p>
+                    <img class = "hidden-check" id="hidden-1" src="img/Check/check-w.svg">
+                  </td>
+                  <td id="case-2"> 
+                    <p>FRANCAIS(E)</p>
+                    <img class = "hidden-check" id="hidden-2" src="img/Check/check-w.svg">
+                  </td>
+                </tr>
+                <tr>
+                  <td id="case-3">
+                    <p>INSCRIT(E)</p>
+                    <img class = "hidden-check" id="hidden-3" src="img/Check/check-w.svg">
+                  </td>
+                  <td>
+                    <p>N°4</p>
+                    <img class="hidden" src="img/Check/check-w.svg">
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>N°5</p>
+                    <img class="hidden" src="img/Check/check-w.svg">
+                  </td>
+                  <td>
+                    <p>N°6</p>
+                    <img class="hidden" src="img/Check/check-w.svg">
+                  </td>
+                </tr>
+              </table>
+              <footer></footer>
+          </section>
+          
+      </main>
+      </div>
+      <div class="swiper-pagination"></div>
+  
+</div>
+</body>
+</html>
