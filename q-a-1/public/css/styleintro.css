@@ -1,0 +1,52 @@
+.main-part section{
+    background-color: #FAF3EE;
+}
+#titreIntro{
+    position: absolute;
+    width: 228px;
+    height: 21px;
+    left: 20%;
+    top: 219px;
+    
+    font-family: Folsom;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 19px;
+    text-align: right;
+    
+    color: #57517D;
+
+}
+#texteIntro{
+    position: absolute;
+width: 284px;
+height: 103px;
+left: 15%;
+top: 255px;
+
+font-family: Marianne;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 21px;
+text-align: center;
+
+color: #57517D;
+}
+#PhraseIntro{
+    position: absolute;
+    left: 32.78%;
+    right: 32.78%;
+    top: 61.72%;
+    bottom: 34.38%;
+    
+    font-family: Reenie Beanie;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 22px;
+    text-align: center;
+    
+    color: #51587D;
+}
