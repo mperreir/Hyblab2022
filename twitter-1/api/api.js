@@ -23,19 +23,17 @@ module.exports = (passport) => {
     });
 
     app.get('/game/1/new_question', (req, res) => {
-        let candidats = db.getCandidats();
+        let candidats = db.fetch(db.candidats_name);
         let candidat1;
         let candidat2;
         let tweet;
         let is_first_response_true = true;
 
-        let cpt_while = 0;
-
         do {
-            candidat1 = candidats[Math.floor(Math.random() * candidats.length)];
-            const candidats_2 = candidats.filter(c => candidat1.id !== c.id);
-            candidat2 = candidats[Math.floor(Math.random() * candidats_2.length)]
-
+            candidat1 = candidats.sort(() => 0.5 - Math.random())[0];
+            candidat2 = candidats
+                .filter(c => candidat1.id !== c.id)
+                .sort(() => 0.5 - Math.random())[0];
             tweet = db.getTweetsSemaine()
                 .filter(t => t.user_id === candidat1.id
                     && t.retweet === "False"
@@ -43,14 +41,7 @@ module.exports = (passport) => {
                 .sort((a, b) => b.likes_count - a.likes_count)
                 .slice(0, 3)
                 .sort(() => 0.5 - Math.random())[0];
-
-            // arret de la boucle si pas de tweet trouvé
-            if (cpt_while > 3) {
-                res.status(500).send();
-                return;
-            }
-            cpt_while++;
-        } while (tweet === undefined);
+        } while(tweet === undefined);
 
         // Supprime les url des tweets
         tweet.text = tweet.text.replace(/(?:https?|ftp):\/\/[\n\S]+/g, '');
@@ -72,6 +63,7 @@ module.exports = (passport) => {
         };
 
         res.json(question);
+      
     });
 
     app.get('/theme/all', (req, res) => {
@@ -88,13 +80,19 @@ module.exports = (passport) => {
     });
 
     app.get('/candidat/all', (req, res) => {
-        let candidats = db.getCandidats();
+        let candidats = db.fetch(db.candidats_name);
+        res.json(candidats);
+    });
+
+    app.get('/candidat/filtre', (req, res) => {
+        let candidats = db.fetch(db.candidats_name)
+            .filter(t => t.followers > 80000);
         res.json(candidats);
     });
 
     app.get('/candidat/:id_candidat/stats', (req, res) => {
-        const candidat = db.getCandidats();
-        const all_tweets = db.getTweets()
+        const candidat = db.fetch(db.candidats_name);
+        const all_tweets = db.fetch(db.tweets_name)
             .filter(t => t.user_id === req.params.id_candidat);
         const this_week_tweets = db.getTweetsSemaine()
             .filter(t => t.user_id === req.params.id_candidat);

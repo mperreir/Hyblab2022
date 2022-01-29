@@ -103,6 +103,13 @@ div{
     font-size: medium;
     color : black;
 }
+
+div#choix {
+    display: flex;
+    justify-content: space-around;
+
+}
+
 button{
     width: 30%;
     height: 40px;
