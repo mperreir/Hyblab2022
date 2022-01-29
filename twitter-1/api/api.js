@@ -21,7 +21,7 @@ app.get('/topic', function ( req, res ) {
 } );
 
 app.get('/game/1/new_question', (req, res) => {
-    let candidats = db.fetch(db.candidats_name);
+    let candidats = db.getCandidats();
     let candidat1;
     let candidat2;
     let tweet;
@@ -86,13 +86,13 @@ app.get('/tweets/tops/:theme_id', (req, res) => {
 });
 
 app.get('/candidat/all', (req, res) => {
-    let candidats = db.fetch(db.candidats_name);
+    let candidats = db.getCandidats();
     res.json(candidats);
 });
 
 app.get('/candidat/:id_candidat/stats', (req, res) => {
-    const candidat = db.fetch(db.candidats_name);
-    const all_tweets = db.fetch(db.tweets_name)
+    const candidat = db.getCandidats();
+    const all_tweets = db.getTweets()
         .filter(t => t.user_id === req.params.id_candidat);
     const this_week_tweets = db.getTweetsSemaine()
         .filter(t => t.user_id === req.params.id_candidat);

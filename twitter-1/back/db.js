@@ -34,8 +34,17 @@ module.exports.themes_name = "themes";
 module.exports.candidat_followers_name = "candidat_followers";
 
 module.exports.getTweetsSemaine = () => {
-    return db.fetch(module.exports.tweets_name)
+    return module.exports.getTweets()
         .filter(tweet => (new Date(tweet.date)).isSameWeek(new Date(2022, 0, 20)));
+}
+
+module.exports.getTweets = () => {
+    let candidats_id = db.fetch(module.exports.candidats_name).map(c => parseInt(c.id));
+        return db.fetch(module.exports.tweets_name).filter((tweet) => candidats_id.includes(parseInt(tweet.user_id)));
+}
+
+module.exports.getCandidats = () => {
+    return db.fetch(module.exports.candidats_name);
 }
 
 // // INIT DB
