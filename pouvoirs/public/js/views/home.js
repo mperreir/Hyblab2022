@@ -30,9 +30,9 @@ const homepage_slide = function(){
   playButton.addEventListener("click", () => {
     const sound2 = createAudio("data/sounds/spaceshipGone.mp3");
     sound2.play();
-    animateLoading();
     sound1.pause();
-    ambiance.play();
+    ambiance.pause();
+    animateLoading();
   });
 };
 
