@@ -128,6 +128,19 @@ app.post('/admin/tweets/update', upload.single('tweets_file'), (req, res) => {
     }
 });
 
+app.post('/admin/candidats/update', upload.single('candidats_file'), (req, res) => {
+    if (req.file !== undefined && req.file.buffer !== undefined) {
+        // https://stackoverflow.com/questions/190852/how-can-i-get-file-extensions-with-javascript
+        if (req.file.originalname.slice((req.file.originalname.lastIndexOf(".") - 1 >>> 0) + 2) !== 'csv')
+            res.status(400).send('Erreur : .csv requit.');
+        db.candidats_update(req.file.buffer.toString(), () => {
+            res.redirect('back');
+        });
+    } else {
+        res.status(400).send('Erreur fichier non reçu.');
+    }
+});
+
 
 // const labeler = new textProcessing.Labeler(textProcessing.themesTests);
 // let tweets;

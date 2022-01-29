@@ -117,3 +117,24 @@ module.exports.tweets_update = (file, onFinish) => {
         onFinish();
     });
 }
+
+module.exports.candidats_update = (file, onFinish) => {
+    textProcessing.Parser.getValuesFromCSVString(file, candidats  => {
+        // let older_tweets = db.fetch(module.exports.tweets_name);
+        // if (older_tweets === null) older_tweets = [];
+
+        let date_string = new Date().getFullYear() + "-" + (new Date().getMonth()+1) + "-" + new Date().getDate();
+        let older_followers = db.fetch(module.exports.candidat_followers_name);
+        if (older_followers === null) older_followers = {};
+        candidats.forEach((candidat) => {
+            if (older_followers[candidat.id] === undefined) {
+                older_followers[candidat.id] = {};
+            }
+            older_followers[candidat.id][date_string] = candidat.followers;
+        });
+        db.set(module.exports.candidat_followers_name, older_followers);
+        db.set(module.exports.candidats_name, candidats);
+
+        onFinish();
+    });
+}

@@ -15,13 +15,9 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="bottom-sheet-drawer/downupPopup/downupPopup.js"></script>
-    <script src="js/accueil.js" defer></script>
-    <script src="js/jeu.js" defer></script>
-    <script src="js/candidats.js" defer></script>
-    <script src="js/toptweets.js" defer></script>
-    <script src="js/graphiques.js" defer></script>
-    <script src="js/credits.js" defer></script>
-    <script src="js/index.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/utils.js" defer></script>
+
 </head>
 <body>
 <!-- Le conteneur sert à vérouiller les proportions (aspect ratio) du contenu de la page (ici des slides) -->
@@ -29,17 +25,39 @@
     <p>
         Page réservée aux administrateurs du site, si vous ête un corp étranger, merci de partir.
     </p>
-    <h1>
+    <h2>
         Updates des tweets ici !
-    </h1>
-    <p>
-        Entrer un fichier .csv ici pour mettre à jour la base de données avec le nouveau fichier.
-    </p>
+    </h2>
+
 
     <form action="../api/admin/tweets/update" enctype="multipart/form-data" method="post">
+        <p>
+            Entrer un fichier .csv pour mettre à jour la base de données avec le nouveau fichier.
+        </p>
         <div class="form-group">
-            <input type="file" class="form-control-file" name="tweets_file" accept="text/csv" required>
-            <input type="submit" value="Upload les nouveaux tweets" class="btn btn-default">
+            <p>
+                <input type="file" class="form-control-file" name="tweets_file" accept="text/csv" required>
+            </p>
+            <p>
+                <input type="submit" value="Upload les nouveaux tweets" class="btn btn-default">
+            </p>
+        </div>
+    </form>
+
+    <h2>
+        Updates des candidats ici !
+    </h2>
+    <form enctype="multipart/form-data" method="post">
+        <p>
+            Entrer un fichier .csv pour mettre à jour la base de données avec le nouveau fichier.
+        </p>
+        <div class="form-group">
+            <p>
+                <input type="file" class="form-control-file" name="candidats_file" accept="text/csv" required>
+            </p>
+            <p>
+                <input type="submit" value="Upload les candidats" class="btn btn-default">
+            </p>
         </div>
     </form>
 </div>
