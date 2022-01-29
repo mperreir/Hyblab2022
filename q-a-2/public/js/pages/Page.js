@@ -1,9 +1,6 @@
 class Page extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {
-            subStepIndex: 0
-        }
     }
 
     nextStep() {
@@ -15,6 +12,6 @@ class Page extends React.Component {
     }
 
     render() {
-        return this.props.subPages[this.state.subStepIndex];
+        return this.state.subPages[this.state.subStepIndex];
     }
 }
