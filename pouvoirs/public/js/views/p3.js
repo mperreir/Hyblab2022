@@ -1,13 +1,4 @@
-const diag = function(dBox, text) {
-  dBox.style.display = "block";
-  shakeElement(dBox);
-  const textContainer = document.createElement("p");
-  textContainer.innerHTML = text;
-  dBox.appendChild(textContainer);
-}
-
-
-const init_p1 = function() {
+const init_p3 = function() {
  "use strict";
 
   function css(elements, style) {
@@ -23,7 +14,7 @@ const init_p1 = function() {
   const cancel = createAudio("data/sounds/cancel.wav", false,0.7, 1);
   let wooshWasPlayed = false;
 
-  const slide = document.getElementById("p1");
+  const slide = document.getElementById("p3");
   slide.addEventListener('click', () => {
     animateLoading();
   })
@@ -38,12 +29,12 @@ const init_p1 = function() {
     'width' : '80%',
     'display' : 'flex',
     'justify-content' : 'space-evenly',
-    'align-items' : 'start',
+    'align-items' : 'center',
     'flex-direction' : 'column',
     'z-index' : '99'
   })
   const img = document.createElement("img");
-  img.setAttribute("src", "img/elements/illu_p1.svg")
+  img.setAttribute("src", "img/elements/illu_p3.svg")
   img.setAttribute("height", "300px");
 
 
@@ -74,19 +65,22 @@ const init_p1 = function() {
 
   const metabox = document.createElement("div");
   metabox.style.height = "auto";
+
+
   const diBox = document.createElement("div");
   metabox.appendChild(diBox);
   diBox.style.position = "relative";
   diBox.style.verticalAlign = "top";
-  diBox.style.height = "288px";
+  diBox.style.height = "196px";
 
   diBox.style.width = "100%";
   diBox.style.margin = "0px auto";
-  
+
+
   const bubble = document.createElement("img");
-  bubble.src = "img/dialogBoxes/advisor_xl.svg";
+  bubble.src = "img/dialogBoxes/primeMinister_m.svg";
   diBox.appendChild(bubble);
-  const originalText = "Moua est accueilli par un membre de l'Élysée. Le conseiller de l'ex président lui demande : </br><b>Comment souhaitez-vous gérer la France pendant l'absence momentanée du Président ?</b>";
+  const originalText = "Une majorité de députés de votre camp n’est pas d’accord avec votre politique et a rallié l’opposition. Tous vos projets de loi sont bloqués. Que peux-tu faire ?";
   
   diag(diBox, originalText);
   const textContainer = diBox.querySelector("p");
@@ -121,6 +115,7 @@ const init_p1 = function() {
     x.style.left = "-40%";
   })
 
+
   const buttons = document.createElement("div");
   buttons.classList.add("boutons");
   buttons.style.height = "30%";
@@ -135,7 +130,7 @@ const init_p1 = function() {
   const t2 = "Bonne réponse ! Le président nomme un Premier Ministre qui lui propose ensuite des mi...."
   const t3 = "Mauvaise réponse ! Il faut passer par un intermédiaire qui propose au président des ministres..."
 
-  const colors = ["#FF2019", "green", "#FF2019"];
+  const colors = ["red", "green", "red"];
   function changeText(nb, txt, btn) {
     if (state === nb){
       cancel.play();

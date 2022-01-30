@@ -1,6 +1,6 @@
 "use strict";
 const slideHandler = function(e){
-  const init_func = [homepage_slide, falling_slide, init_p1, init_default, init_default, init_default, init_p5, init_p6, init_default, init_default];
+  const init_func = [homepage_slide, falling_slide, init_p1, init_default, init_p3, init_default, init_p5, init_p6, init_default, init_default];
   console.log(e.activeIndex);
   init_func[e.activeIndex].call(e);
 }
