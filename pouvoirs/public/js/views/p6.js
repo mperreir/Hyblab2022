@@ -3,7 +3,7 @@ const init_p6 = function () {
     const dialog_pressed = document.querySelector("#p6 .dialog-pressed");
     const dialog_not_pressed = document.querySelector("#p6 .dialog-not-pressed");
     const decompte = document.querySelector("#p6 .decompte");
-    decompte.play();
+    //decompte.play();
     const clockEffect = createAudio("data/sounds/clockTicking.mp3");
     const bouton_rouge = document.querySelector("#p6 .bouton-rouge");
     const power_header = document.querySelector("#p6 .pouvoir-header");
