@@ -10,8 +10,9 @@ page('/communes-2/classementChange', async function () {
         // TODO: vérifier qu'il rentre un nom (un message)
         // TODO: gérer le cas où le pseudo est trop long (un message)
         let pseudoJoueur = document.getElementById("pseudo").value;
-        let scoreJoueur = JSON.parse(localStorage.getItem('gameData')).score;
+        let scoreJoueur = JSON.parse(localStorage.getItem('gameData')).ScoreTotal;
 
+        // on recrée le classement avec le nouveau score
         if (pseudoJoueur.length > 0 && pseudoJoueur.length <= 10) {
             const mapData = new Map();
             let decalage = false;
