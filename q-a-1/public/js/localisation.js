@@ -53,7 +53,9 @@ function geoFindMe() {
       status.textContent = '';
       mapLink.href = `https://www.openstreetmap.org/#map=18/${latitude}/${longitude}`;
       mapLink.textContent = `Latitude: ${latitude} °, Longitude: ${longitude} °`;
-
+      
+      getBureauxVotefromLocation(latitude, longitude);
+      /*
       getPostCodefromCoordinates(latitude, longitude)
         .then(function(result) {
           //On récupère le code postal ici
@@ -62,7 +64,7 @@ function geoFindMe() {
         .catch(function(){
           // There was a connection error of some sort
           console.log("unable to connect to server");
-        });
+        });*/
     }
   
     function error() {
@@ -77,15 +79,12 @@ function geoFindMe() {
     }
   
   }
-
-const fs = require('fs');
-
-fs.readFile('../data/bureauxVote.json', (err, data) => {
-    if (err) throw err;
-    let data = JSON.parse(data);
-    console.log(data[1]);
-});
   
 document.querySelector('#find-me').addEventListener('click', geoFindMe);
 
-  
+
+async function getBureauxVotefromLocation(latitude, longitude){
+  let response = await fetch('api/bureaux_vote/' + latitude + '/' + longitude + '/');
+  let data = await response.json();
+  console.log(data);
+}
