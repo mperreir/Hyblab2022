@@ -207,10 +207,27 @@ searchInput.addEventListener('keyup', function() {
 	suggestions.forEach(function(suggested) {
 		const div = document.createElement('div');
 		div.innerHTML = suggested.name;
+
+		div.addEventListener('click', () => {
+			searchInput.value = suggested.name;
+			suggestionsPanel.innerHTML = '';
+		});
+
 		suggestionsPanel.appendChild(div);
 	});
 
 	if (input === '') {
 		suggestionsPanel.innerHTML = '';  
 	}
+});
+
+// Bouton c'est parti
+const cestparti = document.querySelector('.goToGame');
+
+cestparti.addEventListener('click', () => {
+	communes.forEach(commune => {
+		if (commune.name == searchInput.value) {
+			window.location.href = 'anjoute-game-1.html';
+		}
+	});
 });
