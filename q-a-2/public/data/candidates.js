@@ -3,7 +3,7 @@ const candidates = [
         "id": 0,
         "nameId": "hexagon",
         "baseY": "99",
-        "nom": "M. Hexagone",
+        "name": "M. Hexagone",
         "stepOneGame" : {
             "age": "35 ans",
             "address": "Paris",
@@ -32,7 +32,7 @@ const candidates = [
         "id": 1,
         "nameId": "diamond",
         "baseY": "114",
-        "nom": "M. Losange",
+        "name": "M. Losange",
         "stepOneGame" : {
             "age": "54 ans",
             "address": "Angers",
@@ -61,7 +61,7 @@ const candidates = [
         "id": 2,
         "nameId": "rectangle",
         "baseY": "101",
-        "nom": "M. Pavé",
+        "name": "M. Pavé",
         "stepOneGame" : {
             "age": "66 ans",
             "address": "Paris",
@@ -90,7 +90,7 @@ const candidates = [
         "id": 3,
         "nameId": "triangle",
         "baseY": "110",
-        "nom": "Mme. Equilatérale",
+        "name": "Mme. Equilatérale",
         "stepOneGame" : {
             "age": "52 ans",
             "address": "Paris",
@@ -119,7 +119,7 @@ const candidates = [
         "id": 4,
         "nameId": "square",
         "baseY": "103",
-        "nom": "Mme. Carré",
+        "name": "Mme. Carré",
         "stepOneGame" : {
             "age": "31 ans",
             "address": "Tours",
@@ -148,7 +148,7 @@ const candidates = [
         "id": 5,
         "nameId": "circle",
         "baseY": "115",
-        "nom": "M. Lerond",
+        "name": "M. Lerond",
         "stepOneGame" : {
             "age": "47 ans",
             "address": "Nice",
@@ -177,7 +177,7 @@ const candidates = [
         "id": 6,
         "nameId": "oval",
         "baseY": "133",
-        "nom": "M. Cylindre",
+        "name": "M. Cylindre",
         "stepOneGame" : {
             "age": "42 ans",
             "address": "Nantes",
@@ -206,7 +206,7 @@ const candidates = [
         "id": 7,
         "nameId": "semi_circle",
         "baseY": "98",
-        "nom": "Mme. Amphi",
+        "name": "Mme. Amphi",
         "stepOneGame" : {
             "age": "18 ans",
             "address": "Rennes",
