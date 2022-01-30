@@ -59,10 +59,29 @@
 	right: 5%;
 }
 
+.suggestions {
+	height: 117px;
+	overflow: hidden;
+	width: 60%;
+}
+  
+.suggestions > div {
+	font-family: 'Baloo Tamma 2';
+	padding: 6px;
+	font-size: 17%;
+	color: #fff;
+	background-color: #2978EE;
+	cursor: pointer;
+}
+
+.suggestions > div:hover {
+	background-color: #1e4dd4;
+}
+
 .bottom {
 	display: flex;
 	justify-content: center;
-	margin-top: 28vh;
+	margin-top: 13vh;
 }
 
 .bottom .goToGame {
@@ -85,3 +104,4 @@
 	font-size: 200%;
 	margin: 5%;
 }
+
