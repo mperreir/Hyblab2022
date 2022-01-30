@@ -38,6 +38,27 @@ page('/communes-2/affirmation', async function () {
 
     showAffirmation(slideIndex);
 
+    // Add event click on affirmation box
+    let slide = document.getElementById("slider");
+    slide.addEventListener("click", (event)=>{
+        if (slide !== event.target) return;
+        let slider = document.getElementById("slider");
+        slider.style.bottom ="-190px";
+
+        let box = document.getElementById("affirmation");
+        box.style.bottom = "0";
+    });
+
+    let box_aff = document.getElementById("affirmation");
+    box_aff.addEventListener("click", (event)=>{
+        if (box_aff !== event.target) return;
+        let box = document.getElementById("affirmation");
+        box.style.bottom ="-190px";
+
+        let slider = document.getElementById("slider");
+        slider.style.bottom = "0";
+    });
+    
     function test(nom) {
         console.log(nom);
     }
