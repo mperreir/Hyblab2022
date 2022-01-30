@@ -248,6 +248,26 @@ p.alignRight{
       }
     
 }
+
+@keyframes changeColor{
+    0%{
+        color: #AB4A4A;
+        transform: scale(1);
+    }
+
+    50%{
+        color:#46A882;
+        transform: scale(1.1);
+    }
+
+    100%{
+        color: #ADB3D7;
+        transform: scale(1);
+        
+    }
+
+
+}
 /*Utiliser une animmation*/
 
 .anim-text {
@@ -264,9 +284,13 @@ p.alignRight{
     animation: anim-rotate 1s infinite alternate;
 }
 
-/*input {
+.changeColor {
+    animation : changeColor 3s infinite alternate;
+}
+
+.tourner_les_serviettes {
     animation: tourner_les_serviettes 2s linear 0.5s infinite alternate both;
-}*/
+}
 @font-face {
     font-family: 'folsomblack';
     src: url('font/folsom-black-webfont.woff2') format('woff2'),
