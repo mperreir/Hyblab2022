@@ -6,6 +6,10 @@ page('/communes-2/classementChange', async function () {
 
     creationClassementChange(classement);
 
+    document.getElementById("boutonRetour").addEventListener('click', function () {
+        page('/communes-2/resultatFinal');
+    });
+
     document.getElementById("save-btn").addEventListener('click', function () {
         // TODO: vérifier qu'il rentre un nom (un message)
         // TODO: gérer le cas où le pseudo est trop long (un message)
@@ -84,5 +88,7 @@ function creationClassementChange(tabClassement){
     text.appendChild(place);
     text.appendChild(point);
     text.appendChild(nom);
-    textClassement.appendChild(text)
+    textClassement.appendChild(text);
+
+    document.getElementById("textScore").textContent = "votre score : "+JSON.parse(localStorage.getItem('gameData')).ScoreTotal+" pts";
 }

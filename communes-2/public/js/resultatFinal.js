@@ -1,6 +1,6 @@
 page('/communes-2/resultatFinal', async function () {
     await renderTemplate(templates('./templates/resultatFinal.mustache'));
-
+    
     let scoreJoueur = JSON.parse(localStorage.getItem('gameData')).ScoreTotal;
     if (scoreJoueur === undefined) scoreJoueur = 0;
 
@@ -13,7 +13,7 @@ page('/communes-2/resultatFinal', async function () {
             document.getElementById('scoreTitre').textContent = "VOUS ÊTES UN AS EN POLITIQUE";
             break;
         case scoreJoueur > 20000:
-            document.getElementById('scoreTitre').textContent = "VOUS ÊTES CALE EN POLITIQUE";
+            document.getElementById('scoreTitre').textContent = "VOUS ÊTES CALÉ EN POLITIQUE";
             break;
         case scoreJoueur > 15000:
             document.getElementById('scoreTitre').textContent = "VOUS ÊTES BON EN POLITIQUE";
