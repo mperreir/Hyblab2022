@@ -115,5 +115,5 @@ function mouseHandler(event)
 
 function nextMission(event) {
 	swiper.enable();
-	swiper.slideNext();
+	wrapper_nextSlide();
 }

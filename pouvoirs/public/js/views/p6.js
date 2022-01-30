@@ -2,7 +2,9 @@ const init_p6 = function () {
     const dialog_before = document.querySelector("#p6 .dialog-before");
     const dialog_pressed = document.querySelector("#p6 .dialog-pressed");
     const dialog_not_pressed = document.querySelector("#p6 .dialog-not-pressed");
-    const decompte = document.querySelector("#p6 .decompte")
+    const decompte = document.querySelector("#p6 .decompte");
+    decompte.play();
+    const clockEffect = createAudio("data/sounds/clockTicking.mp3");
     const bouton_rouge = document.querySelector("#p6 .bouton-rouge");
     const power_header = document.querySelector("#p6 .pouvoir-header");
     const illu_fin = document.querySelector("#p6 .illu-fin");
@@ -35,15 +37,16 @@ const init_p6 = function () {
                     targets: [decompte, bouton_rouge],
                     opacity: [0, 1],
                     easing: 'linear',
-                    complete: () => { print_decompte(5); }
+                    complete: () => { print_decompte(5);clockEffect.play(); }
                 });
             }
         })
     });
 
     bouton_rouge.addEventListener('click', () => {
+        clockEffect.unload();
         clearTimeout(timeout);
-        if (choice_made == 0) {
+        if (choice_made == 0) { 
             choice_made = 1;
             anime({
                 targets: bouton_rouge,

@@ -56,7 +56,7 @@ const init_p5 = function(){
             shakeElement(dialogBox);
             const textContainer= dialogBox.querySelector("p");
             textContainer.innerHTML = "Vous venez d'invoquer le pouvoir de grâce présidentielle ! <br><br> (<b>Article 17</b> de la Constitution)"
-            textContainer.style.bottom = "51%";
+            textContainer.style.bottom = "50%";
             textContainer.style.textAlign = "center";
             released = true;
             setTimeout(() => swiper.slideNext(), 6000);

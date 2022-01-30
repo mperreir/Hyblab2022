@@ -85,11 +85,11 @@ const init_p3 = function() {
   diag(diBox, originalText);
   const textContainer = diBox.querySelector("p");
   css([textContainer], {
-    'font-size' : '16px',
+    'font-size' : '16%',
     'font-family' : 'Nunito',
     'text-align' : 'justify', 
     'vertical-align' : 'center',
-    'top' : '25px',
+    'top' : '20px',
     'position' : 'absolute',
     'width' : '80%',
     'left' : '10%',
@@ -117,7 +117,7 @@ const init_p3 = function() {
 
 
   const buttons = document.createElement("div");
-  buttons.classList.add("boutons");
+  buttons.classList.add("choices");
   buttons.style.height = "30%";
   var x1 = document.createElement("BUTTON");
   x1.innerHTML = "Je serai plus efficace en dirigeant seul.";
@@ -181,6 +181,7 @@ const init_p3 = function() {
     'border': 'none',
     'border-radius': '12px',
   })
+  x3.style.height = "70px";
 
 
   buttons.appendChild(x1);
