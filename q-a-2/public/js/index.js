@@ -40,9 +40,11 @@ class App extends React.Component {
           {this.state.stepPages[this.state.step]}
         </div>
       );
+    }
   }
-}
-
+  /*
+  <Step1Game/>
+*/
 ReactDOM.render(
   <App />,
   document.getElementById('root')
