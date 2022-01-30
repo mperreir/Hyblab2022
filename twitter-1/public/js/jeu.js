@@ -37,7 +37,7 @@ async function Suivant(temps,score,total) {
     let div = document.createElement('div');
     div.setAttribute("id", 'question');
     div.style.position = "absolute";
-    div.style.top = "38%";
+    div.style.top = "35%";
     div.style.left = "5%";
     div.style.width = "75%";
     div.style.minHeight = "100px";
@@ -47,6 +47,9 @@ async function Suivant(temps,score,total) {
     div.style.marginTop = "5%";
     div.style.padding = "5px";
     div.style.fontSize = "100%";
+    div.style.display = "flex";
+    div.style.justifyContent = "center";
+    div.style.alignItems = "center";
 
     let content = document.createTextNode(question.text);
 
