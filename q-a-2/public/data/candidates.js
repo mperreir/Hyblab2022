@@ -2,28 +2,28 @@ const candidates = [
     {
         "id": 0,
         "nameId": "hexagon",
+        "baseY": "99",
         "nom": "M. Hexagone",
         "stepOneGame" : {
             "age": "35 ans",
-            "adresse": "Paris",
-            "orientationPolitique": "Droite",
-            "justice": "Casier vierge",
+            "address": "Paris",
+            "politicalOrientation": "Droite",
+            "legalStatus": "Casier vierge",
             "valid": true
         },
         "stepTwoGame" : {
-            "imgParrainages": "img/parrainages_",
-            "parrainages": 500,
+            "signatures": 500,
             "valid": true
         },
         "stepThreeGame": {
-            "declarations": [],
+            "statements": [],
             "valid": true
         },
         "stepFourGame": {
-            "montantChiffres": "4 200",
-            "montantLettres": "Quatre mille deux cents euros",
-            "adresseExpediteur": "Mme. Pierre\nRue Biscarra\nNice",
-            "ville": "Nice",
+            "amountDigits": "4 200",
+            "amountInFull": "Quatre mille deux cents euros",
+            "senderAddress": "Mme. Pierre\nRue Biscarra\nNice",
+            "city": "Nice",
             "date": "28/12/21",
             "valid": true
         }
@@ -31,27 +31,28 @@ const candidates = [
     {
         "id": 1,
         "nameId": "diamond",
+        "baseY": "114",
         "nom": "M. Losange",
         "stepOneGame" : {
             "age": "54 ans",
-            "adresse": "Angers",
-            "orientationPolitique": "Gauche",
-            "justice": "Casier vierge",
+            "address": "Angers",
+            "politicalOrientation": "Gauche",
+            "legalStatus": "Casier vierge",
             "valid": true
         },
         "stepTwoGame" : {
-            "parrainages": 500,
+            "signatures": 500,
             "valid": true
         },
         "stepThreeGame": {
-            "declarations": [],
+            "statements": [],
             "valid": true
         },
         "stepFourGame": {
-            "montantChiffres": "667 000",
-            "montantLettres": "Six cent soixante-sept mille euros",
-            "adresseExpediteur": "Banque française\nParis",
-            "ville": "Nantes",
+            "amountDigits": "667 000",
+            "amountInFull": "Six cent soixante-sept mille euros",
+            "senderAddress": "Banque française\nParis",
+            "city": "Nantes",
             "date": "15/01/22",
             "valid": true
         }
@@ -59,27 +60,28 @@ const candidates = [
     {
         "id": 2,
         "nameId": "rectangle",
+        "baseY": "101",
         "nom": "M. Pavé",
         "stepOneGame" : {
             "age": "66 ans",
-            "adresse": "Paris",
-            "orientationPolitique": "Centre-gauche",
-            "justice": "Casier vierge",
+            "address": "Paris",
+            "politicalOrientation": "Centre-gauche",
+            "legalStatus": "Casier vierge",
             "valid": true
         },
         "stepTwoGame" : {
-            "parrainages": 500,
+            "signatures": 500,
             "valid": true
         },
         "stepThreeGame": {
-            "declarations": [],
+            "statements": [],
             "valid": true
         },
         "stepFourGame": {
-            "montantChiffres": "9 300 000",
-            "montantLettres": "Neuf millions trois cent mille euros",
-            "adresseExpediteur": "Banque française\nParis",
-            "ville": "Paris",
+            "amountDigits": "9 300 000",
+            "amountInFull": "Neuf millions trois cent mille euros",
+            "senderAddress": "Banque française\nParis",
+            "city": "Paris",
             "date": "01/02/22",
             "valid": true
         }
@@ -87,27 +89,28 @@ const candidates = [
     {
         "id": 3,
         "nameId": "triangle",
+        "baseY": "110",
         "nom": "Mme. Equilatérale",
         "stepOneGame" : {
             "age": "52 ans",
-            "adresse": "Paris",
-            "orientationPolitique": "Conservateurs",
-            "justice": "Casier vierge",
+            "address": "Paris",
+            "politicalOrientation": "Conservateurs",
+            "legalStatus": "Casier vierge",
             "valid": true
         },
         "stepTwoGame" : {
-            "parrainages": 500,
+            "signatures": 500,
             "valid": true
         },
         "stepThreeGame": {
-            "declarations": [],
+            "statements": [],
             "valid": true
         },
         "stepFourGame": {
-            "montantChiffres": "1 760",
-            "montantLettres": "Mille sept cent soixante euros",
-            "adresseExpediteur": "M. Raymond\nRue Durieux\nLimoges",
-            "ville": "Limoges",
+            "amountDigits": "1 760",
+            "amountInFull": "Mille sept cent soixante euros",
+            "senderAddress": "M. Raymond\nRue Durieux\nLimoges",
+            "city": "Limoges",
             "date": "12/01/22",
             "valid": true
         }
@@ -115,27 +118,28 @@ const candidates = [
     {
         "id": 4,
         "nameId": "square",
+        "baseY": "103",
         "nom": "Mme. Carré",
         "stepOneGame" : {
             "age": "31 ans",
-            "adresse": "Tours",
-            "orientationPolitique": "Extrême-gauche",
-            "justice": "Casier vierge",
+            "address": "Tours",
+            "politicalOrientation": "Extrême-gauche",
+            "legalStatus": "Casier vierge",
             "valid": true
         },
         "stepTwoGame" : {
-            "parrainages": 500,
+            "signatures": 500,
             "valid": true
         },
         "stepThreeGame": {
-            "declarations": [],
+            "statements": [],
             "valid": true
         },
         "stepFourGame": {
-            "montantChiffres": "2 814",
-            "montantLettres": "Deux mille huit cent quatorze euros",
-            "adresseExpediteur": "Mme. Puits\nRue Chantrerie\nBordeaux",
-            "ville": "Bordeaux",
+            "amountDigits": "2 814",
+            "amountInFull": "Deux mille huit cent quatorze euros",
+            "senderAddress": "Mme. Puits\nRue Chantrerie\nBordeaux",
+            "city": "Bordeaux",
             "date": "17/12/21",
             "valid": true
         }
@@ -143,27 +147,28 @@ const candidates = [
     {
         "id": 5,
         "nameId": "circle",
+        "baseY": "115",
         "nom": "M. Lerond",
         "stepOneGame" : {
             "age": "47 ans",
-            "adresse": "Nice",
-            "orientationPolitique": "Centre-gauche",
-            "justice": "Casier vierge",
+            "address": "Nice",
+            "politicalOrientation": "Centre-gauche",
+            "legalStatus": "Casier vierge",
             "valid": true
         },
         "stepTwoGame" : {
-            "parrainages": 500,
+            "signatures": 500,
             "valid": true
         },
         "stepThreeGame": {
-            "declarations": [],
+            "statements": [],
             "valid": true
         },
         "stepFourGame": {
-            "montantChiffres": "200 000",
-            "montantLettres": "Deux cent mille euros",
-            "adresseExpediteur": "État français\nParis",
-            "ville": "Rennes",
+            "amountDigits": "200 000",
+            "amountInFull": "Deux cent mille euros",
+            "senderAddress": "État français\nParis",
+            "city": "Rennes",
             "date": "03/02/22",
             "valid": true
         }
@@ -171,27 +176,28 @@ const candidates = [
     {
         "id": 6,
         "nameId": "oval",
+        "baseY": "133",
         "nom": "M. Cylindre",
         "stepOneGame" : {
             "age": "42 ans",
-            "adresse": "Nantes",
-            "orientationPolitique": "Ecologistes",
-            "justice": "Casier vierge",
+            "address": "Nantes",
+            "politicalOrientation": "Ecologistes",
+            "legalStatus": "Casier vierge",
             "valid": true
         },
         "stepTwoGame" : {
-            "parrainages": 500,
+            "signatures": 500,
             "valid": true
         },
         "stepThreeGame": {
-            "declarations": [],
+            "statements": [],
             "valid": true
         },
         "stepFourGame": {
-            "montantChiffres": "2 700 000",
-            "montantLettres": "Deux millions sept cent mille euros",
-            "adresseExpediteur": "Banque Européenne\nBruxelles",
-            "ville": "Paris",
+            "amountDigits": "2 700 000",
+            "amountInFull": "Deux millions sept cent mille euros",
+            "senderAddress": "Banque Européenne\nBruxelles",
+            "city": "Paris",
             "date": "03/02/22",
             "valid": true
         }
@@ -199,27 +205,28 @@ const candidates = [
     {
         "id": 7,
         "nameId": "semi_circle",
+        "baseY": "98",
         "nom": "Mme. Amphi",
         "stepOneGame" : {
             "age": "18 ans",
-            "adresse": "Rennes",
-            "orientationPolitique": "Centre-droite",
-            "justice": "Casier vierge",
+            "address": "Rennes",
+            "politicalOrientation": "Centre-droite",
+            "legalStatus": "Casier vierge",
             "valid": true
         },
         "stepTwoGame" : {
-            "parrainages": 500,
+            "signatures": 500,
             "valid": true
         },
         "stepThreeGame": {
-            "declarations": [],
+            "statements": [],
             "valid": true
         },
         "stepFourGame": {
-            "montantChiffres": "200 000",
-            "montantLettres": "Deux cent mille euros",
-            "adresseExpediteur": "État français\nParis",
-            "ville": "Lyon",
+            "amountDigits": "200 000",
+            "amountInFull": "Deux cent mille euros",
+            "senderAddress": "État français\nParis",
+            "city": "Lyon",
             "date": "21/12/21",
             "valid": true
         }
