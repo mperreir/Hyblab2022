@@ -1,0 +1,37 @@
+.top {
+	background-color: #75BE8F;
+	display: flex;
+	height: 7vh;
+	width: 100%;
+	font-size: 12%;
+}
+
+.hp {
+	margin-top: 3vh;
+	text-align: center;
+	width: 25%;
+}
+
+.hp img {
+	width: 20%;
+}
+
+.joute {
+	width: 50%;
+	text-align: center;
+}
+
+.joute img {
+	width: 40%;
+	margin-top: 2vh;
+}
+
+.position {
+	width: 25%;
+	text-align: center;
+}
+
+.position img {
+	width: 30%;
+	margin-top: 1.6vh;
+}

@@ -6,9 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
   <title>Hyblab 2022</title>
   <link rel="stylesheet" href="css/style_anjoute-game-1.css">
+  <link rel="stylesheet" href="css/style_bandeau.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-  <script src="js/js_index.js" defer></script>
 </head>
 <body>
     <!-- Le conteneur sert à vérouiller les proportions (aspect ratio) du contenu de la page (ici des slides) -->
@@ -16,14 +16,22 @@
 
 		<main>	
 			<div class="top">
-				<p in="hp">XXX</p>
-				<h1>Anjoute</h1>
-				<p id="position">0</p>
+				<div class="hp">
+					<img src="img/vie.png" alt="vie">
+					<img src="img/vie.png" alt="vie">
+					<img src="img/vie.png" alt="vie">
+				</div>
+				<div class="joute"> 
+					<img src="img/joute.png" alt="joute">
+				</div>
+				<div class="position">
+					<img src="img/drapeau-1_8.png" alt="position">
+				</div>
 			</div>
 		
 			<div class="mid">
-				<video autoplay muted playsinline loop>
-					<source src="img/ILLU-AURORE.mp4" type="video/mp4">
+				<video autoplay muted playsinline loop class="animation_perso">
+					<source src="img/bonnie.mp4" type="video/mp4">
 				</video>
 			</div>
 		</main>

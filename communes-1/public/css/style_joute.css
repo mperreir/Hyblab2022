@@ -1,0 +1,14 @@
+
+.joute {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	background-color: #C57EB3;
+}
+
+.joute img {
+	height: auto;
+	width: 30%;
+}
+
