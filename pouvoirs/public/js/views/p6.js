@@ -10,7 +10,7 @@ const init_p6 = function() {
     let timeout;
     let choice_made = 0;
 
-
+    shakeElement(dialog_before);
 
     dialog_before.addEventListener('click', () =>{
         anime({
