@@ -32,17 +32,17 @@ function date() {
 // const container = document.getElementById("container");
 
 
-// loadStart();
 
 // loadTemplate('templates/sms.ejs', test).then(value => { container.innerHTML = value ;
 // date();
 // })
 
 
+// loadStart();
 // loadFileExplorer();
-// loadSms();
+loadSms();
 // loadEnd();
-loadRebet();
+// loadRebet();
 
 
 async function loadTemplate(path, data) {

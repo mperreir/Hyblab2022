@@ -1,7 +1,11 @@
 "use strict";
 
+let selectedCity;
+let percentageBet;
+
 async function loadSms() {
     const container = document.getElementById("container");
+
 
     const messages =
 
@@ -54,9 +58,8 @@ async function loadSms() {
         {
             type: "sms",
             sender: "THOMAS",
-            message: "OK c’est parti pour « Nom de la ville » ! Alors tu paries combien ? Ne t’inquiète pas... On arrondit à 5%.",
+            message: "OK c’est parti pour <span id='sms-text-city-name'></span>  ! Alors tu paries combien ? Ne t’inquiète pas... On arrondit à 5%.",
             style: "sms-bottom sms-left"
-
         },
         {
             type: "number",
@@ -66,9 +69,15 @@ async function loadSms() {
             type: "slider"
         },
         {
+            type: "button",
+            text: "Valider",
+            id: "choose-percentage-btn",
+            style: ""
+        },
+        {
             type: "sms",
             sender: "Thomas",
-            message: "\"pourcentage\” retenu ! Aller amuse toi bien ! Télécharge les dossiers pour avoir les infos ! On se tient au courant pour le repas ahah",
+            message: "<strong><span id='sms-text-percentage'></span>% retenu !</strong> Aller amuse toi bien ! Télécharge les dossiers pour avoir les infos ! On se tient au courant pour le repas ahah",
             style: "sms-bottom sms-left"
         },
         {
@@ -90,34 +99,16 @@ async function loadSms() {
     let smsTread = document.getElementById('sms-tread');
     let smsHtml;
 
-    const delay = 1000;
+    const delay = 200;
     let displayedSMSIndex = 0;
 
-    for (const message of messages) {
-        if (message.type === 'slider') {
-            smsHtml = await loadTemplate('templates/sms/slider.ejs', []);
-            smsTread.insertAdjacentHTML('beforeend', smsHtml);
-            handleSlider();
-        }
-        else if (message.type === 'button') {
-            smsHtml = await loadTemplate('templates/sms/button.ejs', message);
-            smsTread.insertAdjacentHTML('beforeend', smsHtml);
-        }
-        else if (message.type === 'number') {
-            smsHtml = await loadTemplate('templates/sms/number.ejs', message);
-            smsTread.insertAdjacentHTML('beforeend', smsHtml);
-        }
-        else {
-            smsHtml = await loadTemplate('templates/sms/sms.ejs', message);
-            smsTread.insertAdjacentHTML('beforeend', smsHtml);
-        }
-    }
+    await createSMSElements(messages, smsTread);
 
 
-    anime({
+    const smsScrollingAnimation = anime({
         targets: '.sms-tread>*',
         easing: 'easeInOutQuart',
-        duration: delay * 9,
+        duration: delay * 10,
         delay: delay * 4,
         keyframes: [
             { translateY: '-=' + getTranslateYSMS(smsTread, 0) },
@@ -128,19 +119,61 @@ async function loadSms() {
             { translateY: '-=' + getTranslateYSMS(smsTread, 5) },
             { translateY: '-=' + getTranslateYSMS(smsTread, 6) },
             { translateY: '-=' + getTranslateYSMS(smsTread, 8) },
-            { translateY: '-=' + getTranslateYSMS(smsTread, 9) }
+            { translateY: '-=' + getTranslateYSMS(smsTread, 9) },
+            { translateY: '-=' + getTranslateYSMS(smsTread, 10) }
         ],
     })
 
-    const displayedSMSInterval = setInterval(displaySMS, delay);
+    let displayedSMSInterval = setInterval(displaySMS, delay);
+
+    setTimeout(() => { smsScrollingAnimation.pause(); pauseDisplaySMS() }, delay * 8);
 
     function displaySMS() {
         smsTread.children.item(displayedSMSIndex).style.visibility = 'visible';
+        console.log(displayedSMSIndex);
         displayedSMSIndex++;
         if (displayedSMSIndex === messages.length) {
             clearInterval(displayedSMSInterval);
         }
     }
+
+    function pauseDisplaySMS() {
+        clearInterval(displayedSMSInterval);
+    }
+
+    document.getElementById('random-city-btn').addEventListener('click', async () => {
+        selectedCity = await pickRandomCity();
+        displayedSMSInterval = setInterval(displaySMS, delay);
+        console.log(selectedCity);
+        smsScrollingAnimation.play();
+        document.getElementById('random-city-btn').disabled = true;
+        document.getElementById('sms-text-city-name').innerHTML = selectedCity;
+
+        setTimeout(() => { smsScrollingAnimation.pause(); pauseDisplaySMS() }, delay * 4);
+
+    })
+
+    document.getElementById('choose-percentage-btn').addEventListener('click', async () => {
+        percentageBet = document.getElementById("sms-slider-input").value;
+        displayedSMSInterval = setInterval(displaySMS, delay);
+        document.getElementById('random-city-btn').disabled = true;
+        document.getElementById('sms-text-percentage').innerHTML = percentageBet;
+        smsScrollingAnimation.play();
+
+    })
+
+    document.getElementById('download-btn').addEventListener('click', async () => {
+        loadFileExplorer();
+
+    })
+
+}
+
+async function pickRandomCity() {
+    const source = await fetch('api/cities');
+    const data = await source.json();
+
+    return data[Math.floor(Math.random() * data.length)];
 }
 
 
@@ -170,119 +203,30 @@ function handleSlider() {
 
 }
 
-// let sms = function () {
-//   let smsScreen = document.querySelector('.screen')
-//   let loadingText = '<b>•</b><b>•</b><b>•</b>';
-//   let typingSpeed = 20;
-//   let messages = [
-//     'Hey there 👋',
-//     'Test',
-//     'mission 35',
-//   ]
-//   let createBubbleElements = function (message, position) {
-//     let bubbleEl = document.createElement('div');
-//     let messageEl = document.createElement('span');
-//     let loadingEl = document.createElement('span');
-//     bubbleEl.classList.add('bubble');
-//     bubbleEl.classList.add('is-loading');
-//     bubbleEl.classList.add('cornered');
-//     bubbleEl.classList.add(position === 'right' ? 'right' : 'left');
-//     messageEl.classList.add('message');
-//     loadingEl.classList.add('loading');
-//     messageEl.innerHTML = message;
-//     loadingEl.innerHTML = loadingText;
-//     bubbleEl.appendChild(loadingEl);
-//     bubbleEl.appendChild(messageEl);
-//     bubbleEl.style.opacity = 0;
-//     return {
-//       bubble: bubbleEl,
-//       message: messageEl,
-//       loading: loadingEl
-//     }
-//   }
 
-//   let sendMessage = function (message, position) {
-//     let loadingDuration = (message.length * typingSpeed) + 500;//500 durée fixe min
-//     let element = createBubbleElements(message, position)
-//     smsScreen.appendChild(element.bubble)
-//     smsScreen.appendChild(document.createElement('br'))
-//     element.bubble.style.width = '20px'
-//     element.bubble.style.height = '20px'
-//     element.message.style.width = '20px'
-//     element.message.style.height = '20px'
-//     element.bubble.style.opacity = 1;
+async function createSMSElements(messages, smsTread) {
+    let smsHtml;
+    for (const message of messages) {
+        if (message.type === 'slider') {
+            smsHtml = await loadTemplate('templates/sms/slider.ejs', []);
+            smsTread.insertAdjacentHTML('beforeend', smsHtml);
+            handleSlider();
+        }
+        else if (message.type === 'button') {
+            smsHtml = await loadTemplate('templates/sms/button.ejs', message);
+            smsTread.insertAdjacentHTML('beforeend', smsHtml);
+            console.log(smsHtml);
+        }
+        else if (message.type === 'number') {
+            smsHtml = await loadTemplate('templates/sms/number.ejs', message);
+            smsTread.insertAdjacentHTML('beforeend', smsHtml);
+        }
+        else {
+            smsHtml = await loadTemplate('templates/sms/sms.ejs', message);
+            smsTread.insertAdjacentHTML('beforeend', smsHtml);
+        }
+    }
+}
 
-//     //animations 4 etapes
-//     let bubbleSize = anime({
-//       targets: elements.bubble,
-//       width: ['0rem', dimensions.loading.w],
-//       marginTop: ['2.5rem', 0],
-//       marginLeft: ['-2.5rem', 0],
-//       duration: 800,
-//       easing: 'easeOutElastic'
-//     });
-//     let loadingLoop = anime({
-//       targets: elements.bubble,
-//       scale: [1.05, .95],
-//       duration: 1100,
-//       loop: true,
-//       direction: 'alternate',
-//       easing: 'easeInOutQuad'
-//     });
-//     let dotsStart = anime({
-//       targets: elements.loading,
-//       translateX: ['-2rem', '0rem'],
-//       scale: [.5, 1],
-//       duration: 400,
-//       delay: 25,
-//       easing: 'easeOutElastic',
-//     });
-//     let dotsPulse = anime({
-//       targets: elements.bubble.querySelectorAll('b'),
-//       scale: [1, 1.25],
-//       opacity: [.5, 1],
-//       duration: 300,
-//       loop: true,
-//       direction: 'alternate',
-//       delay: function (i) { return (i * 100) + 50 }
-//     });
-//     setTimeout(function () {
-//       loadingLoop.pause();
-//       dotsPulse.restart({
-//         opacity: 0,
-//         scale: 0,
-//         loop: false,
-//         direction: 'forwards',
-//         update: function (a) {
-//           if (a.progress >= 65 && elements.bubble.classList.contains('is-loading')) {
-//             elements.bubble.classList.remove('is-loading');
-//             anime({
-//               targets: elements.message,
-//               opacity: [0, 1],
-//               duration: 300,
-//             });
-//           }
-//         }
-//       });
-//       bubbleSize.restart({
-//         scale: 1,
-//         width: [dimensions.loading.w, dimensions.bubble.w],
-//         height: [dimensions.loading.h, dimensions.bubble.h],
-//         marginTop: 0,
-//         marginLeft: 0,
-//         begin: function () {
-//           if (messageIndex < messages.length) elements.bubble.classList.remove('cornered');
-//         }
-//       })
-//     }, loadingDuration - 50);
-//   }
 
-//   let sendMessages = function () {
-//     for (let index = 0; index < messages.length; index++) {
-//       const message = messages[index];
-//       sendMessage(message);
-//       setTimeout(sendMessages, (message.length * typingSpeed) + anime.random(900, 1200));
-//     }
-//   }
-//   sendMessages();
-// }
+

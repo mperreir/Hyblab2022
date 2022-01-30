@@ -183,6 +183,10 @@
     color: #e4e5fa;
 }
 
+.sms-button:active {
+   opacity: 50%;
+}
+
 .sms-button.sms-button-blue {
     background-color: #1028fd;
 }
@@ -196,3 +200,9 @@
     padding-bottom:0 ;
     text-align: center;
 }
+
+#sms-text-city-name {
+    font-family: 'CabinetGrotesk-Bold';
+    text-transform: capitalize;
+}
+
