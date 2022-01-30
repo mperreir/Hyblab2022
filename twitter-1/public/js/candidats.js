@@ -28,7 +28,7 @@ const initSlide3 = async function(){
   const downup_template = await (await fetch("./templates/downup-popup.mustache")).text();
 
 
-  all_candidats.forEach((candidat) => {
+  for (const candidat of all_candidats) {
     // remplace la photo tweeter par une plus grande qualité
     candidat["profile_image_url"] = candidat["profile_image_url"].replace("_normal.j", '.j');
     // render des templates
@@ -89,17 +89,26 @@ const initSlide3 = async function(){
     table = table.childNodes[1];
     table.style.color = "white";
 
-    let followers = table.childNodes[1];
-    followers.innerHTML = `${candidat.followers}` +" followers";
+    try {
+      // statistiques
+      const all_candidats = await (await fetch(`./api/candidat/${candidat.id}/stats`)).json();
+
+      let followers = table.childNodes[1];
+      followers.innerHTML = `${parseInt(all_candidats.followers_now).toLocaleString('en').replaceAll(',', ' ')}`
+          + " followers";
+
+      let tweets = table.childNodes[3];
+      tweets.innerHTML = `${all_candidats.total_tweets.toLocaleString('en').replaceAll(',', ' ')}`
+          + " tweets";
+
+      let retweets = table.childNodes[5];
+      retweets.innerHTML = `${all_candidats.total_retweets.toLocaleString('en').replaceAll(',', ' ')}`
+          + " retweets";
+    } catch(e) {
+      console.error(e);
+    }
 
 
-    let tweets = table.childNodes[3];
-
-    tweets.innerHTML = `${candidat.tweets}` +" tweets";
-
-    let retweets = table.childNodes[5];
-    retweets.innerHTML = `${candidat.retweets}` +" retweets";
-
-  });
+  }
 
 };

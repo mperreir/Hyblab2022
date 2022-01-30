@@ -150,8 +150,8 @@ module.exports = (passport) => {
         const total_like = all_tweets.reduce((total, tweet) => total + parseInt(tweet.favorite_count), 0);
         const total_like_week = this_week_tweets.reduce((total, tweet) => total + parseInt(tweet.favorite_count), 0);
 
-        const total_retweets = all_tweets.reduce((total, tweet) => total + parseInt(tweet.retweets_count), 0);
-        const total_retweets_week = this_week_tweets.reduce((total, tweet) => total + parseInt(tweet.retweets_count), 0);
+        const total_retweets = all_tweets.reduce((total, tweet) => total + parseInt(tweet.retweet_count), 0);
+        const total_retweets_week = this_week_tweets.reduce((total, tweet) => total + parseInt(tweet.retweet_count), 0);
 
         const stats = {
             total_tweets: all_tweets.length,
