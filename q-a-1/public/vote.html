@@ -1,0 +1,57 @@
+<!doctype html>
+
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <title>Hyblab 2022</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/white_page.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/loadingio/loading.css@v2.0.0/dist/loading.css" />
+  <link href="https://vjs.zencdn.net/7.6.6/video-js.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+  <script src="https://vjs.zencdn.net/7.6.6/video.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/slide1.js" defer></script>
+  <script src="js/slide2.js" defer></script>
+</head>
+<body>
+  <!-- Le conteneur sert à vérouiller les proportions (aspect ratio) du contenu de la page (ici des slides) -->
+  <div id="container">
+    <div id="mySwiper" class="swiper">
+    
+      <!-- le main est aussi le conteneur des différents slides (contenus à chaque fois dans des sections-->
+      <main class = "main-part">
+          <section id="first-section">
+            <header>
+                <div><img id="logo" src="img/logo/logo blanc.svg"></div>
+                <div><img id="title" src="img/Vote/vote.svg"></div> 
+                <div><img id = "subtitle" src="img/VoteBlanc/Les élections.svg"></div>
+            </header>
+            <div class = "main-section">
+                <p>Ton bulletin est dépouillé par les <b>scrutateurs</b> (employés de la mairie et bénévoles). Pense à prendre ta pièce d’identité et ta carte électorale !</p>
+            </div>
+            <div class = "main-section">
+                <img class = "alignRight" id = "map" src="img/Vote/carte.svg">
+                <p><b>Taux de vote en France, 2017</b></p>
+                <img class = "alignLeft" id = "legend" src="img/Vote/legende.svg">
+            </div>
+            <div class = "bottom-section">
+                <p>Si tu écris sur ton bulletin, qu’il est raturés, déchirés, non réglementaires ou sans enveloppe il sera considéré comme un <b>vote nul</b>.</p>
+            </div>
+            <p id = "anim-section"><img class = "anim-text" id = "last-section" src = "img/VoteBlanc/tasdeja.svg"></p>
+
+            <footer>
+                <input class="button" type="button" value="JAMAIS VOTÉ" onclick="document.location = 'index.html'">
+                <input class="button" type="button" value="DÉJA VOTÉ" onclick="document.location = 'index.html'">
+            </footer>
+          </section>
+          
+      </main>
+      </div>
+      <div class="swiper-pagination"></div>
+  
+</div>
+</body>
+</html>

@@ -18,11 +18,14 @@ input{
     padding : 1% 6% 1% 6%;
     background-color : #656565;
     font-family: 'folsomblack';
+    border: none;
     
 }
 
 #Q3 > input {
     padding : 2% 10% 2% 10%;
+    border: none;
+    font-size: 100%;
 }
 
 /*Style des id*/
@@ -50,15 +53,49 @@ input{
     justify-content: space-between;
 }
 
-
 #title{
-    width:55%;
+    width:25%;
 }
 
 #subtitle{
-    width: 32%;
+    width: 22%;
+    margin-top: -5%;
 }
 
 #last-section{
     width: 58%;
+}
+
+.main-section p, .bottom-section p {
+    font-size: 16%;
+    padding: 0% 5% 0% 5%;
+}
+
+#map{
+    width:60%;
+}
+
+#legend{
+    width:22%;
+    padding-left: 5%;
+    padding-top: 8%;
+}
+
+.bottom-section{
+    margin-top: 45%;
+}
+
+#anim-section{
+    text-align: center;
+}
+
+.button{ 
+    padding : 2% 0% 2% 0%;
+    margin: 1%;
+    width: 40%;
+    height: 8%;
+    border-radius: 30px;
+    border: none;
+    font-family: 'folsomblack';
+    font-size: 70%;
 }
