@@ -1,10 +1,42 @@
 const canvas = document.getElementById("drawPlace");
 const ctx = canvas.getContext("2d");
-const sendDeactivated = true;
+const button = document.getElementById("send-button");
+const bulle = document.getElementById("bulle-container");
+const drawing = document.getElementById("drawing-container");
+
+let coord = { x: 0, y: 0 };
+let enableButton = false;
+
+button.disabled = true;
+
+controller = {bottom: -50};
 
 const init_p2 = function () {
+	// Disable swiper whilst decret has not been signed
 	swiper.disable();
 
+	bulle.classList.add("apply-shake");
+	setTimeout(() => {
+		bulle.classList.remove("apply-shake");
+
+		anime({
+			targets: controller,
+			bottom: 0,
+			loop: false,
+			easing: 'easeInOutCubic',
+			complete: (anim) => {
+				initHandlers();
+			},
+			update: (anim) => {
+				drawing.style.bottom = controller.bottom + "%";
+			}
+		});
+	}, 750);
+
+	
+}
+
+function initHandlers() {
 	// Handling mouse
 	document.addEventListener("mousedown", start);
 	document.addEventListener("mouseup", stop);
@@ -18,17 +50,16 @@ const init_p2 = function () {
 	const size = canvas.getBoundingClientRect();
 	canvas.width = size.width;
 	canvas.height = size.height;
-
 }
 
-let coord = { x: 0, y: 0 };
-
 function reposition(event) {
-	// TODO check that drawing is inside canvas, then activate button color
-	// in another function
-	// Need to adapt css to add style for deactivated state
-	coord.x = event.clientX - canvas.getBoundingClientRect().x;
-	coord.y = event.clientY - canvas.getBoundingClientRect().y;
+	const size = canvas.getBoundingClientRect();
+	coord.x = event.clientX - size.x;
+	coord.y = event.clientY - size.y;
+
+	if (button.disabled && 0 <= coord.x && coord.x <= size.width && 0 <= coord.y && coord.y <= size.height) {
+		enableButton = true;
+	}
 }
 
 function start(event) {
@@ -38,6 +69,12 @@ function start(event) {
 
 function stop() {
 	document.removeEventListener("mousemove", draw);
+
+	// Enabling the button
+	if (enableButton) {
+		button.disabled = false;
+		button.addEventListener("click", nextMission);
+	}
 }
 
 function draw(event) {
@@ -69,4 +106,10 @@ function mouseHandler(event)
 	});
 
 	document.dispatchEvent(mouseEvent);
+}
+
+
+function nextMission(event) {
+	swiper.enable();
+	swiper.slideNext();
 }

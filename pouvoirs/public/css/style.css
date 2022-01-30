@@ -236,7 +236,7 @@ body {
   font-size: 16%;
   position: absolute;
   width: 68%;
-  top: 22%;
+  top: 19%;
   left: 16%;
   z-index: 2;
 }
@@ -248,7 +248,7 @@ body {
 
 #drawing-container {
   position: absolute;
-  bottom: 0;
+  bottom: -50%;
   height: 50%;
   background-color: #D0BFF7;
 }
@@ -279,11 +279,15 @@ body {
   font-family: 'Nunito';
   font-weight: 800;
   font-size: 20%;
-  background-color: #AAAAAA;
+  background-color: #0AF2E1;
   color: white;
   border: none;
   border-radius: 8px;
   padding: 0;
+}
+
+#send-button:disabled {
+  background-color: #AAAAAA;
 }
 
 /* */
