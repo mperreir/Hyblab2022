@@ -347,7 +347,8 @@ body {
 }
 
 #p6 .dialog .dialog-text {
-  font-size: 16px;
+  font-family: "Nunito";
+  font-size: 12px;
   width: 82%;
   margin: auto;
   color: white;
@@ -382,6 +383,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+  font-family: "First Fun";
 }
 
 #p6 .bouton-rouge {
