@@ -6,12 +6,17 @@ const drawing = document.getElementById("drawing-container");
 
 let coord = { x: 0, y: 0 };
 let enableButton = false;
+controller = {bottom: -50};
 
 button.disabled = true;
 
-controller = {bottom: -50};
+let firstTime = true;
 
 const init_p2 = function () {
+	// In case user comes back
+	if (!firstTime) return;
+	firstTime = false;
+
 	// Disable swiper whilst decret has not been signed
 	swiper.disable();
 
@@ -35,10 +40,10 @@ const init_p2 = function () {
 				drawing.style.bottom = controller.bottom + "%";
 			}
 		});
-	}, 750);
-
-	
+	}, 750);	
 }
+
+/* Code handling drawing in the Canvas */
 
 function initHandlers() {
 	// Handling mouse
@@ -61,6 +66,7 @@ function reposition(event) {
 	coord.x = event.clientX - size.x;
 	coord.y = event.clientY - size.y;
 
+	// Useful for activating Send button once something has been handwritten in the canvas
 	if (button.disabled && 0 <= coord.x && coord.x <= size.width && 0 <= coord.y && coord.y <= size.height) {
 		enableButton = true;
 	}
@@ -82,6 +88,7 @@ function stop() {
 }
 
 function draw(event) {
+	// Actually drawing in the canvas (user signing decret)
 	ctx.beginPath();
 	ctx.lineWidth = 5;
 	ctx.lineCap = "round";
@@ -92,10 +99,9 @@ function draw(event) {
 	ctx.stroke();
 }
 
-function mouseHandler(event)
-{
+function mouseHandler(event){
+	// Converting touch events to mouse events
 	let type = "";
-
 	switch(event.type)
     {
         case "touchstart": type = "mousedown"; break;
@@ -112,8 +118,18 @@ function mouseHandler(event)
 	document.dispatchEvent(mouseEvent);
 }
 
+/* End of code for drawing in the Canvas */
 
 function nextMission(event) {
+	// Removing all sets events
+	document.removeEventListener("mousedown", start);
+	document.removeEventListener("mouseup", stop);
+	
+	// Removing touch events
+	document.removeEventListener("touchstart", mouseHandler);
+	document.removeEventListener("touchend", mouseHandler);
+	document.removeEventListener("touchmove", mouseHandler);
+
 	swiper.enable();
 	wrapper_nextSlide();
 }
