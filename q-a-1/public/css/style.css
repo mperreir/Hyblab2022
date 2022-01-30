@@ -133,6 +133,10 @@ img.alignRight{
     margin-right: 5%;
 }
 
+#alignLeft{
+    float:left;
+}
+
 p.alignLeft{
     text-align: left;
     padding:0%;

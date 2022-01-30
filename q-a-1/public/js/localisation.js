@@ -79,8 +79,10 @@ function geoFindMe() {
     }
   
   }
+
   
-document.querySelector('#find-me').addEventListener('click', geoFindMe);
+document.addEventListener('DOMContentLoaded', geoFindMe);
+document.console.log(mapLink.textContent);
 
 
 async function getBureauxVotefromLocation(latitude, longitude){

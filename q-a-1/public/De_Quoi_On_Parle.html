@@ -4,8 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-  <title>localisation</title>
+  <title>Hyblab 2022</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/simulation.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/loadingio/loading.css@v2.0.0/dist/loading.css" />
   <link href="https://vjs.zencdn.net/7.6.6/video-js.css" rel="stylesheet" />
@@ -14,8 +15,8 @@
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="js/slide1.js" defer></script>
   <script src="js/slide2.js" defer></script>
-  <script src="js/index.js" defer></script>
-  <script src="js/localisation.js" defer></script>
+  <script src="js/sommaire.js" defer></script>
+  <script src="js/header.js" defer></script>
 </head>
 <body>
   <!-- Le conteneur sert à vérouiller les proportions (aspect ratio) du contenu de la page (ici des slides) -->
@@ -25,12 +26,14 @@
       <!-- le main est aussi le conteneur des différents slides (contenus à chaque fois dans des sections-->
       <main class = "main-part">
           <section id="first-section">
-              <header>
+              <header >
+                
+                
               </header>
-              <p id = "status"></p>
-              <a id = "map-link" target="_blank"></a>
 
-              <p id="full_adress"></p>
+                <img src="img/dequoionparle.svg" class="au_milieu">
+                <input type="button" value="OK J t'explique" onclick="window.location='sommaire.html'" id="bouton_jtexplique" >
+                           
               <footer></footer>
           </section>
           

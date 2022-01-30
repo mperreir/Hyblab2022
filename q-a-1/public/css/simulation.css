@@ -1,3 +1,11 @@
+#title{
+    width:55%;
+}
+
+#subtitle{
+    width: 32%;
+}
+
 #first-section{
     background-color: #FAF3EE;
 }
@@ -5,6 +13,46 @@
 p{
     font-size: 15%;
     font-family: "mariannemedium";
+}
+
+.head-simulation{
+    margin-top: 10%;
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+}
+
+.head2-simulation{
+    margin-top: 2%;
+    margin-bottom: 8%;
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+}
+
+.button{ 
+    padding : 2% 0% 2% 0%;
+    margin: 1%;
+    width: 40%;
+    height: 8%;
+    border-radius: 30px;
+    border: none;
+    font-family: 'folsomblack';
+    font-size: 12%;
+    background-color: #565454;
+    color:#FAF3EE;
+}
+
+#vainqueur{
+    opacity: 50%;
+}
+
+#perdant{
+    opacity: 100%;
+}
+
+#gagnant{
+    opacity: 100%;
 }
 
 .main-section{
@@ -21,16 +69,31 @@ p{
     padding-bottom: 1%;
 }
 
+.introduction{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 8%;
+    text-align: center;
+}
+
+.head-section{
+    text-align: center;
+    margin-bottom: 2%;
+}
+
 #f-section{
-    
+    margin-top: 5%;
+    display: block;
 }
 
 #s-section{
-    
+    margin-top: 5%;
+    display: none;
 }
 
 #t-section{
-    
+    margin-top: 5%;
+    display: none;
 }
 
 @keyframes graphic {
@@ -122,6 +185,7 @@ p{
 .anim-graphic {
 	-webkit-animation: graphic 1.2s linear both;
 	        animation: graphic 1.2s linear both;
+    float:left;
 }
 
 
@@ -133,4 +197,20 @@ p{
 .anim-percentage {
 	-webkit-animation: percentage 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 1.2s both;
 	        animation: percentage 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 1.2s both;
+}
+
+.au_milieu{
+        position:absolute;
+        top:35%;
+        left:23%;
+}
+
+#bouton_jtexplique{
+        position:absolute;
+        top:55%;
+        left:35%;
+        border-radius:30px;
+        background-color: white;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding: 1% 6% 1% 6%;
 }
