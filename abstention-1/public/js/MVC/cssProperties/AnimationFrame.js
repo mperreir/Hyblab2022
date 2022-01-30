@@ -19,7 +19,7 @@ class AnimationFrame extends CSSProperty {
 
     toCSS() {
         let css = "";
-        this.value.forEach(property => css += `${property.name}: ${property.value}; `);
+        this.value.forEach(property => css += property.toCSS());
         return css;
     }
 }

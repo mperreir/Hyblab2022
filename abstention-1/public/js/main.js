@@ -17,7 +17,7 @@ new AnimationTransition({
     container: ".transition.ecole-vers-skatepark",
     actions: [
         {
-            visibility:[0, 0.5],
+            visibility:[0.25, 0.33],
         },
     ]
 });
@@ -28,7 +28,7 @@ new AnimationTransition({
     container: ".transition.ecole-vers-skatepark",
     actions: [
         {
-            visibility:[0.5, 1],
+            visibility:[0.66, 0.75],
         },
     ]
 });

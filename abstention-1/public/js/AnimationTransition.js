@@ -40,10 +40,11 @@ class AnimationTransition {
         if(!action) return;
 
         const [start, end] = this.findCurrentFrameValue(currentPercent);
+        // console.log(start, end);
         
-        const interpolationPercent = this.map(currentPercent, 0, 1, start, end);
+        const interpolationPercent = this.map(currentPercent, action.visibility[0], action.visibility[1], 0, 1);
         const currentValue = this.keyframes[start].interpolateWith(this.keyframes[end], interpolationPercent);
-        console.log(currentValue);
+        console.log(currentValue.toCSS());
 
         this.player.style.cssText = currentValue.toCSS();
         
