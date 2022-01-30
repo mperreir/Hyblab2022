@@ -1,6 +1,9 @@
 select = document.querySelector('#top-select');
 tweet = document.querySelector('#tweets');
+theme_pic = document.querySelector('img#theme');
 let themes;
+
+
 
 (() => initThemesTopTweets())();
 
@@ -9,9 +12,12 @@ async function initThemesTopTweets() {
     themes.forEach((theme) => {
         let o = document.createElement('option');
         o.setAttribute("value", theme.id + '');
-        o.innerText = theme.name;
+        o.innerText = theme.name.toUpperCase();
         select.appendChild(o);
     });
+
+    theme_pic.src = './img/topics/securite.png';
+    
     await showTopTweets();
 }
 
@@ -35,6 +41,8 @@ async function showTopTweets () {
         tweet_theme_div.appendChild(document.createTextNode("Pas de top tweet trouvé pour ce theme !"));
     }
     tweet.appendChild(tweet_theme_div);
+
+
 }
 
 
@@ -92,4 +100,8 @@ async function fetchTopTweetsTheme(theme_id) {
         console.error(e);
         return;
     }
+}
+
+function TopTweetsThemePic(theme_id) {
+
 }
