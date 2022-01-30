@@ -80,6 +80,12 @@ app.get('/classement', function(req, res) {
     });
 });
 
+app.get('/lastClassement', function(req, res) {
+    helper.fetchDataAsDict('place','communes-2/public/data/classement.csv').then(data => {
+        res.json(data.get("10ème"));
+    });
+});
+
 app.post('/newClassement', function(req, res) {
     helper.saveCSV(new Map(Object.entries(req.body)),'communes-2/public/data/classement.csv');
 });
