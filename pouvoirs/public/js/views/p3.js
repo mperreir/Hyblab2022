@@ -130,7 +130,7 @@ const init_p3 = function() {
   const t2 = "Bonne réponse ! Le président nomme un Premier Ministre qui lui propose ensuite des mi...."
   const t3 = "Mauvaise réponse ! Il faut passer par un intermédiaire qui propose au président des ministres..."
 
-  const colors = ["red", "green", "red"];
+  const colors = ["red", "#1be5b9", "red"];
   function changeText(nb, txt, btn) {
     if (state === nb){
       cancel.play();
