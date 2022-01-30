@@ -5,25 +5,25 @@ class ProfilCard extends React.Component {
     render(){
         return (
             <div className='profilCard'>
-                <img className='profilCard_img' src={this.props.person.img} alt='Dossier'/>
+                <img className='profilCard_img' src={this.props.profil.img} alt='Dossier'/>
 
                 <div className='profilCard_information'>
                     <div className='profilCard_civility'>
                         <div className='profilCard_div_text'>
-                            <p className='profilCard_label'>Nom: </p><p>{this.props.person.name}</p>
+                            <p><span className='profilCard_label'>Nom&nbsp;:</span> {this.props.profil.name}</p>
                         </div>
                         <div className='profilCard_div_text'>
-                            <p className='profilCard_label'>Âge: </p><p>{this.props.person.age}</p><p>ans</p>
+                            <p><span className='profilCard_label'>Âge&nbsp;:</span> {this.props.profil.age}ans</p>
                         </div>
                         <div className='profilCard_div_text'>
-                            <p className='profilCard_label'>Adresse: </p><p>{this.props.person.address}</p>
+                            <p><span className='profilCard_label'>Adresse&nbsp;:</span> {this.props.profil.address}</p>
                         </div>
                     </div>
-                    <div className='profilCard_div_text'>
-                        <p className='profilCard_label'>Orientation Politique: </p><p>{this.props.person.political_orientation}</p>
+                    <div className='profilCard_div_tex'>
+                        <p><span className='profilCard_label'>Orientation Politique&nbsp;:</span></p><p>{this.props.profil.politicalOrientation}</p>
                     </div>
-                    <div className='profilCard_div_text'>
-                        <p className='profilCard_label'>Justice: </p><p>{this.props.person.justice}</p>
+                    <div className='profilCard_div_tex'>
+                        <p><span className='profilCard_label'>Justice&nbsp;:</span></p><p>{this.props.profil.justice}</p>
                     </div>
                 </div>
             </div>

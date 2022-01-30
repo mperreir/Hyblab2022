@@ -2,11 +2,11 @@ const candidates = [
     {
         "id": 0,
         "nameId": "hexagon",
-        "nom": "M. Hexagone",
+        "name": "M. Hexagone",
         "stepOneGame" : {
             "age": "35 ans",
-            "adresse": "Paris",
-            "orientationPolitique": "Droite",
+            "address": "Paris",
+            "politicalOrientation": "Droite",
             "justice": "Casier vierge",
             "valid": true
         },
@@ -31,11 +31,11 @@ const candidates = [
     {
         "id": 1,
         "nameId": "diamond",
-        "nom": "M. Losange",
+        "name": "M. Losange",
         "stepOneGame" : {
             "age": "54 ans",
-            "adresse": "Angers",
-            "orientationPolitique": "Gauche",
+            "address": "Angers",
+            "politicalOrientation": "Gauche",
             "justice": "Casier vierge",
             "valid": true
         },
@@ -59,11 +59,11 @@ const candidates = [
     {
         "id": 2,
         "nameId": "rectangle",
-        "nom": "M. Pavé",
+        "name": "M. Pavé",
         "stepOneGame" : {
             "age": "66 ans",
-            "adresse": "Paris",
-            "orientationPolitique": "Centre-gauche",
+            "address": "Paris",
+            "politicalOrientation": "Centre-gauche",
             "justice": "Casier vierge",
             "valid": true
         },
@@ -87,11 +87,11 @@ const candidates = [
     {
         "id": 3,
         "nameId": "triangle",
-        "nom": "Mme. Equilatérale",
+        "name": "Mme. Equilatérale",
         "stepOneGame" : {
             "age": "52 ans",
-            "adresse": "Paris",
-            "orientationPolitique": "Conservateurs",
+            "address": "Paris",
+            "politicalOrientation": "Conservateurs",
             "justice": "Casier vierge",
             "valid": true
         },
@@ -115,11 +115,11 @@ const candidates = [
     {
         "id": 4,
         "nameId": "square",
-        "nom": "Mme. Carré",
+        "name": "Mme. Carré",
         "stepOneGame" : {
             "age": "31 ans",
-            "adresse": "Tours",
-            "orientationPolitique": "Extrême-gauche",
+            "address": "Tours",
+            "politicalOrientation": "Extrême-gauche",
             "justice": "Casier vierge",
             "valid": true
         },
@@ -143,11 +143,11 @@ const candidates = [
     {
         "id": 5,
         "nameId": "circle",
-        "nom": "M. Lerond",
+        "name": "M. Lerond",
         "stepOneGame" : {
             "age": "47 ans",
-            "adresse": "Nice",
-            "orientationPolitique": "Centre-gauche",
+            "address": "Nice",
+            "politicalOrientation": "Centre-gauche",
             "justice": "Casier vierge",
             "valid": true
         },
@@ -171,11 +171,11 @@ const candidates = [
     {
         "id": 6,
         "nameId": "oval",
-        "nom": "M. Cylindre",
+        "name": "M. Cylindre",
         "stepOneGame" : {
             "age": "42 ans",
-            "adresse": "Nantes",
-            "orientationPolitique": "Ecologistes",
+            "address": "Nantes",
+            "politicalOrientation": "Ecologistes",
             "justice": "Casier vierge",
             "valid": true
         },
@@ -199,11 +199,11 @@ const candidates = [
     {
         "id": 7,
         "nameId": "semi_circle",
-        "nom": "Mme. Amphi",
+        "name": "Mme. Amphi",
         "stepOneGame" : {
             "age": "18 ans",
-            "adresse": "Rennes",
-            "orientationPolitique": "Centre-droite",
+            "address": "Rennes",
+            "politicalOrientation": "Centre-droite",
             "justice": "Casier vierge",
             "valid": true
         },
