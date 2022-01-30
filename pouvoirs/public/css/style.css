@@ -270,7 +270,13 @@ body {
 
 .dialogBox {
   position: absolute;
+  display: none;
+  left: 11%;
+  bottom: 8%;
+  width: 75%;
+  height: auto;
 }
+
 
 /* Mission 2 : Decret */
 
@@ -344,15 +350,7 @@ body {
   background-color: #AAAAAA;
 }
 
-/* */
 
-#p6 .dialog-before {
-  display: none;
-  left: 11%;
-  bottom: 8%;
-  width: 75%;
-  height: auto;
-}
 
 #p5 h3 {
   font-family: "First Fun", Arial, Helvetica, sans-serif;
