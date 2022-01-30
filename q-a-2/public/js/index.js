@@ -25,21 +25,22 @@ class App extends React.Component {
         <Step6Page data={data} nextStep={() => this.nextStep()} />,
         <Step7Page data={data} nextStep={() => this.nextStep()} />,
         <Step8Page data={data} nextStep={() => this.nextStep()} />,
+        <EndingPage nextStep={() => this.resetStep()} />
       ],
       step: 0
     }
   }
 
   nextStep() {
-    this.setState({ step: this.state.step + 1 })
+    this.setState({ step: this.state.step + 1 });
+  }
+
+  resetStep() {
+    this.setState({ step: 0 });
   }
 
   render() {
-      return (
-        <div>
-          {this.state.stepPages[this.state.step]}
-        </div>
-      );
+      return this.state.stepPages[this.state.step];
   }
 }
 

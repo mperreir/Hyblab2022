@@ -13,7 +13,7 @@ class QuestionCard extends React.Component {
     
     render(){
         return(
-            <div className='questionCard'>
+            <div className={'questionCard ' + (this.props.className || '')}>
                 <h2 className='questionCard_questionTitle'>{this.props.questionTitle}</h2>
                 <div className='questionCard_questionBlock'>
                     <p className='questionCard_question'>{this.props.question}</p>

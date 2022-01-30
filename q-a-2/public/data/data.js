@@ -4,7 +4,7 @@ const data = {
       "title": "Les conditions pour être candidat·e",
       "questions": [
         {
-          "question": "Peut-on candidater aux élections présidentielles dès qu’on est majeur en France ?",
+          "question": "Peut-on candidater aux élections présidentielles dès qu’on est majeur·e en France ?",
           "answer": "Oui, d’après la Loi Organique du code électoral, il est nécessaire d’avoir 18 ans révolus et la nationalité française pour pouvoir candidater aux élections présidentielles.",
           "link": "https://www.vie-publique.fr/fiches/19428-conditions-pour-etre-elu-president-age-parrainages-500-signatures"
         },
