@@ -6,9 +6,19 @@ const init_p6 = function() {
     const bouton_rouge = document.querySelector("#p6 .bouton-rouge");
     const power_header = document.querySelector("#p6 .pouvoir-header");
     const illu_fin = document.querySelector("#p6 .illu-fin");
+    const dialog_arrow = document.querySelector("#p6 .arrow")
 
     let timeout;
     let choice_made = 0;
+
+    anime({
+        targets : dialog_arrow,
+        translateY: "20%",
+        direction: 'alternate',
+        loop: true,
+        easing: "linear",
+        duration: 300
+    });
 
     shakeElement(dialog_before);
 
@@ -88,7 +98,7 @@ const init_p6 = function() {
     };
 
     const print_decompte = function(i) {
-        decompte.querySelector("p").innerText = i;
+        decompte.querySelector("p b").innerText = i;
         anime({
             targets : decompte,
             opacity : [0.5, 1],

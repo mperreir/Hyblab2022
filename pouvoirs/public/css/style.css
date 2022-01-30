@@ -342,15 +342,11 @@ body {
   position: relative;
   text-align: center;
   color: white;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 10%;
+  margin: 10%;
   width: 80%;
 }
 
-#p6 .dialog p {
-  position: absolute;
-  font-family: "Nunito";
+#p6 .dialog .dialog-text {
   font-size: 16px;
   width: 82%;
   margin: auto;
@@ -361,8 +357,12 @@ body {
   left: 10%;
 }
 
-#p6 .dialog-before {
-  height: 20%;
+#p6 .dialog .arrow {
+  position: absolute;
+  margin: auto;
+  font-size: 16px;
+  bottom: 30%;
+  left: 40%;
 }
 
 #p6 .dialog-pressed {
