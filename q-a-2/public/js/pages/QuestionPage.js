@@ -15,6 +15,7 @@ class QuestionPage extends React.Component {
                     buttonText={this.props.buttonText}
                     nextStepMessage={this.props.nextStepMessage}
                     buttonOnClick={() => this.props.buttonOnClick()}
+                    className={this.props.className || ''}
                 />
             </div>
         )

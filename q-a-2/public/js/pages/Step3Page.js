@@ -18,6 +18,7 @@ class Step3Page extends Page {
                     answer={questions[0].answer}
                     learnMoreLink={questions[0].link}
                     nextStepMessage="Passer à l'indication suivante :"
+                    className='declarationPage'
                 />,
                 <QuestionPage
                     step={step}
@@ -28,6 +29,7 @@ class Step3Page extends Page {
                     answer={questions[1].answer}
                     learnMoreLink={questions[1].link}
                     nextStepMessage="Vérifier les déclarations de chaque candidat"
+                    className='declarationPage'
                 />,
             ],
             subStepIndex: 0
