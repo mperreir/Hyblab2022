@@ -1,4 +1,5 @@
 "use strict";
+/* global Mustache, Swiper */
 
 // Init of the (touch friendly) Swiper slider
 const swiper = new Swiper("#mySwiper", {
@@ -37,6 +38,9 @@ anime({
   'z-index' : -1,
   easing: 'easeOutQuad',
 });
+
+
+
 
 
 initSlide3();

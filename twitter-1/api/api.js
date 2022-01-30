@@ -150,8 +150,8 @@ module.exports = (passport) => {
         const total_like = all_tweets.reduce((total, tweet) => total + parseInt(tweet.favorite_count), 0);
         const total_like_week = this_week_tweets.reduce((total, tweet) => total + parseInt(tweet.favorite_count), 0);
 
-        const total_retweets = all_tweets.reduce((total, tweet) => total + parseInt(tweet.retweets_count), 0);
-        const total_retweets_week = this_week_tweets.reduce((total, tweet) => total + parseInt(tweet.retweets_count), 0);
+        const total_retweets = all_tweets.reduce((total, tweet) => total + parseInt(tweet.retweet_count), 0);
+        const total_retweets_week = this_week_tweets.reduce((total, tweet) => total + parseInt(tweet.retweet_count), 0);
 
         const stats = {
             total_tweets: all_tweets.length,
@@ -212,6 +212,25 @@ module.exports = (passport) => {
             res.status(400).send('Erreur fichier non reçu.');
         }
     });
+
+    app.post('/admin/config/update',
+        require('connect-ensure-login').ensureLoggedIn(),
+        (req, res) => {
+            if (req.body.fetch_delay_sec !== undefined
+                    && req.body.url_fetch_candidats !== undefined
+                    && req.body.url_fetch_followers !== undefined
+                    && req.body.url_fetch_tweets !== undefined) {
+                db.config_update({
+                    fetch_delay_sec: req.body.fetch_delay_sec,
+                    url_fetch_candidats: req.body.url_fetch_candidats,
+                    url_fetch_followers: req.body.url_fetch_followers,
+                    url_fetch_tweets: req.body.url_fetch_tweets,
+                });
+                res.redirect('back');
+            } else {
+                res.status(400).send('Erreur inputs.');
+            }
+        });
 
     // Authentification pour accéder aux parties privées de l'api (on n'en a pas dans cet exemple)
     // et aux templates privés
