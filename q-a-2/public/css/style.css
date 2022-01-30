@@ -441,7 +441,7 @@ body{
     position: absolute;
     top: 20px;
     right: 20px;
-    width: 25vw;
+    height: 7.6vh;
 }
 
 .endingPage_card {
@@ -463,7 +463,7 @@ body{
 
 .endingPage_card > .endingPage_card_title {
     font-family: "Spicy Rice";
-    font-size: 3.3vh;
+    font-size: 5.3vh;
 }
 
 .endingPage_card > p {
@@ -496,39 +496,39 @@ body{
 }
 
 .endingPage_card > .hyblab {
-    width: 35vw;
+    height: 3.95vh;
 }
 
 .endingPage_card > .nr {
-    width: 35vw;
+    height: 5.13vh;
 }
 
 .endingPage_card > div > .polytech {
-    width: 25vw;
+    height: 8.81vh;
 }
 
 .endingPage_card > div > .agr {
-    width: 25vw;
+    height: 8.81vh;
 }
 
 .endingPage_card > div > .nu {
-    width: 29vw;
+    height: 4vh;
 }
 
 .endingPage_card > div > .oml {
-    width: 27vw;
+    height: 5.13vh;
 }
 
 .endingPage_card > .NM {
-    width: 24vw;
+    height: 4vh;
 }
 
 .endingPage_card > div > .CC {
-    width: 8.6vw;
+    height: 4vh;
 }
 
 .endingPage_card > div > .OS {
-    width: 8.6vw;
+    height: 5.5vh;
 }
 
 .endingPage_thirdSlide {
