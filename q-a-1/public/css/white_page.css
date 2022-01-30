@@ -4,6 +4,7 @@ p{
     font-size:52%;
     padding-left: 1%;
     padding-right: 1%;
+    margin-top: 4%;
     
 }
 
@@ -22,6 +23,11 @@ input{
     
 }
 
+header > div{
+    margin-top: 6%;
+    margin-bottom: 6%;
+    font-size: 60%;
+}
 #Q3 > input {
     padding : 2% 10% 2% 10%;
     border: none;
@@ -51,10 +57,30 @@ input{
     padding-left: 3%;
     display: flex;
     justify-content: space-between;
+
+}
+
+#urne > p{
+    font-size: 90%;
 }
 
 #title{
     width:25%;
+}
+
+#choisi{
+    font-family:'/q-a-1/public/css/font/marianne-bolditalic-demo.html';
+    font-size: 80%;
+    
+}
+#choix_candidats{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#choix_candidats > img{
+    width: 20%;
 }
 
 #subtitle{
@@ -89,6 +115,20 @@ input{
     text-align: center;
 }
 
+#lettre1{
+    position:absolute;
+    right: 0%;
+    top:32%
+}
+
+#lettre2{
+    width: 40%;
+    position:absolute;
+    left:0%;
+    top:48%;
+    
+}
+
 .button{ 
     padding : 2% 0% 2% 0%;
     margin: 1%;
@@ -98,4 +138,27 @@ input{
     border: none;
     font-family: 'folsomblack';
     font-size: 70%;
+}
+
+.verification{
+    display: flex;
+    justify-content:center;
+    padding-left: 10%;
+    margin-left: 5%;
+}
+
+.left{
+    text-align: left;
+    padding-left: 5%;
+}
+
+.right{
+    text-align: right;
+    padding-right: 5%;
+}
+
+.extright{
+    text-align: right;
+    margin-top: 15%;
+    margin-bottom: 10%;
 }
