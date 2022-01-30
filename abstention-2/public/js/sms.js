@@ -1,90 +1,90 @@
-"use strict";
+'use strict';
 
 async function loadSms() {
-    const container = document.getElementById("container");
+    const container = document.getElementById('container');
 
-    const messages =
+    const messages = [
+        {
+            type: 'sms',
+            sender: '+33* ** ** ** **',
+            message: 'Salut ! C’est <strong>Thomas</strong>.<br/> Je suis ton nouveau <strong> collègue </strong>.',
+            style: 'sms-bottom sms-left'
+        },
+        {
+            type: 'sms',
+            sender: 'THOMAS',
+            message: 'J’ai vu qu’on allait travailler <strong>ensemble</strong> sur le nouvel article de \“<strong>pour cent magazine</strong>\” !',
+            style: 'sms-center sms-left'
+        },
+        {
+            type: 'sms',
+            sender: 'THOMAS',
+            message: 'C’est sur l’<strong>abstention</strong>, trop <strong>intéressant</strong> ! Tu as vu les chiffres de 2017 ? :D',
+            style: 'sms-top sms-left'
+        },
+        {
+            type: 'sms',
+            sender: 'MOI',
+            message: 'Hey Thomas ! Content de bosser avec toi !Non, je n’ai pas vu les chiffres, pourquoi ? :)',
+            style: 'sms-bottom sms-right'
+        },
+        {
+            type: 'sms',
+            sender: 'THOMAS',
+            message: 'Ça tombe bien ! Je te pari le repas de ce midi que tu devineras jamais le pourcentage !',
+            style: 'sms-top sms-left'
+        },
+        {
+            type: 'sms',
+            sender: 'THOMAS',
+            message: 'Alors avec quelle ville veux-tu jouer ? ',
+            style: 'sms-bottom sms-left'
+        },
+        {
+            type: 'button',
+            text: 'Ville aléatoire',
+            id: 'random-city-btn',
+            style: ''
+        },
+        {
+            type: 'button',
+            text: 'Choisi ta ville',
+            id: 'choose-city-btn',
+            style: ''
+        },
+        {
+            type: 'sms',
+            sender: 'THOMAS',
+            message: 'OK c’est parti pour « Nom de la ville » ! Alors tu paries combien ? Ne t’inquiète pas... On arrondit à 5%.',
+            style: 'sms-bottom sms-left'
+        },
+        {
+            type: 'number',
+            style: 'sms-bottom sms-right'
+        },
+        {
+            type: 'slider'
+        },
+        {
+            type: 'sms',
+            sender: 'Thomas',
+            message: '"pourcentage" retenu ! Aller amuse toi bien ! Télécharge les dossiers pour avoir les infos ! On se tient au courant pour le repas ahah',
+            style: 'sms-bottom sms-left'
+        },
+        {
+            type: 'button',
+            text: 'Télécharger',
+            id: 'download-btn',
+            style: 'sms-button-blue'
+        },
+    ];
 
-        [{
-            type: "sms",
-            sender: "+33* ** ** ** **",
-            message: "Salut ! C’est <strong>Thomas</strong>.<br/> Je suis ton nouveau <strong> collègue </strong>.",
-            style: "sms-bottom sms-left"
-        },
-        {
-            type: "sms",
-            sender: "THOMAS",
-            message: "J’ai vu qu’on allait travailler <strong>ensemble</strong> sur le nouvel article de \“<strong>pour cent magazine</strong>\” !",
-            style: "sms-center sms-left"
-        }, {
-            type: "sms",
-            sender: "THOMAS",
-            message: "C’est sur l’<strong>abstention</strong>, trop <strong>intéressant</strong> ! Tu as vu les chiffres de 2017 ? :D",
-            style: "sms-top sms-left"
-        },
-        {
-            type: "sms",
-            sender: "MOI",
-            message: "Hey Thomas ! Content de bosser avec toi !Non, je n’ai pas vu les chiffres, pourquoi ? :)",
-            style: "sms-bottom sms-right"
-        }, {
-            type: "sms",
-            sender: "THOMAS",
-            message: "Ça tombe bien ! Je te pari le repas de ce midi que tu devineras jamais le pourcentage !",
-            style: "sms-top sms-left"
-        }, {
-            type: "sms",
-            sender: "THOMAS",
-            message: "Alors avec quelle ville veux-tu jouer ? ",
-            style: "sms-bottom sms-left"
 
-        },
-        {
-            type: "button",
-            text: "Ville aléatoire",
-            id: "random-city-btn",
-            style: ""
-        },
-        {
-            type: "button",
-            text: "Choisi ta ville",
-            id: "choose-city-btn",
-            style: ""
-        },
-        {
-            type: "sms",
-            sender: "THOMAS",
-            message: "OK c’est parti pour « Nom de la ville » ! Alors tu paries combien ? Ne t’inquiète pas... On arrondit à 5%.",
-            style: "sms-bottom sms-left"
-
-        },
-        {
-            type: "number",
-            style: "sms-bottom sms-right"
-        },
-        {
-            type: "slider"
-        },
-        {
-            type: "sms",
-            sender: "Thomas",
-            message: "\"pourcentage\” retenu ! Aller amuse toi bien ! Télécharge les dossiers pour avoir les infos ! On se tient au courant pour le repas ahah",
-            style: "sms-bottom sms-left"
-        },
-        {
-            type: "button",
-            text: "Télécharger",
-            id: "download-btn",
-            style: "sms-button-blue"
-        },
-        ];
-
-
-    const headerHtml = await loadTemplate('templates/header.ejs', []);
+    const headerHtml = await loadTemplate('templates/header.ejs', {});
     container.innerHTML = headerHtml;
     date();
 
-    let screenHtml = await loadTemplate('templates/sms/sms_tread.ejs', []);
+    let screenHtml = await loadTemplate('templates/sms/sms_tread.ejs', {});
     document.getElementById('screen').innerHTML = screenHtml;
 
     let smsTread = document.getElementById('sms-tread');
@@ -95,7 +95,7 @@ async function loadSms() {
 
     for (const message of messages) {
         if (message.type === 'slider') {
-            smsHtml = await loadTemplate('templates/sms/slider.ejs', []);
+            smsHtml = await loadTemplate('templates/sms/slider.ejs', {});
             smsTread.insertAdjacentHTML('beforeend', smsHtml);
             handleSlider();
         }
@@ -130,7 +130,7 @@ async function loadSms() {
             { translateY: '-=' + getTranslateYSMS(smsTread, 8) },
             { translateY: '-=' + getTranslateYSMS(smsTread, 9) }
         ],
-    })
+    });
 
     const displayedSMSInterval = setInterval(displaySMS, delay);
 
@@ -151,23 +151,20 @@ function getTranslateYSMS(smsTread, i) {
 
 
 function handleSlider() {
-    const slider = document.getElementById("sms-slider-input");
+    const slider = document.getElementById('sms-slider-input');
     const min = slider.min
     const max = slider.max
     const value = slider.value
 
-    const numberDiv = document.getElementById("sms-number");
-    numberDiv.innerHTML = slider.value + "%";
+    const numberDiv = document.getElementById('sms-number');
+    numberDiv.innerHTML = `${slider.value}%`;
 
     slider.style.background = `linear-gradient(to right, #e4e5fa 0%, #e4e5fa ${(value - min) / (max - min) * 100}%, #e4e5fa56 ${(value - min) / (max - min) * 100}%, #e4e5fa56 100%)`
 
     slider.oninput = function (e) {
         this.style.background = `linear-gradient(to right, #e4e5fa 0%, #e4e5fa ${(this.value - this.min) / (this.max - this.min) * 100}%, #e4e5fa56 ${(this.value - this.min) / (this.max - this.min) * 100}%, #e4e5fa56 100%)`;
-
-        numberDiv.innerHTML = e.target.value + "%";
-
+        numberDiv.innerHTML = `${e.target.value}%`;
     };
-
 }
 
 // let sms = function () {
