@@ -65,13 +65,14 @@ body{
 }
 
 #loader-text{
-    padding-top: 90px;
+    padding-top: 25px;
     text-align: center;
     font-size: 25%;
     font-family: 'Century Gothic';
     margin-top: 5%;
     color: #282246;
 }
+
 #loader-text > i, #loader-text > font > i{
     font-size: 15px;
     font-style: normal;
@@ -192,3 +193,9 @@ body{
     overflow: hidden;
 }
 
+#divError{
+    font-size: 18%;
+    text-align: center;
+    color: red;
+    margin-top: 5%;
+}

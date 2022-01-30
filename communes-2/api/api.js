@@ -2,6 +2,10 @@
 
 const app = require( 'express' )();
 const helper = require('./helper');
+const bodyParser = require('body-parser')
+
+// parse application/json
+app.use(bodyParser.json())
 
 app.get('/carte', function(req, res) {
     let dataCarte = require('../public/data/geojson.json')
@@ -74,6 +78,16 @@ app.get('/classement', function(req, res) {
         data.forEach(line => linesClassement.push(line));
         res.json(linesClassement);
     });
+});
+
+app.get('/lastClassement', function(req, res) {
+    helper.fetchDataAsDict('place','communes-2/public/data/classement.csv').then(data => {
+        res.json(data.get("10ème"));
+    });
+});
+
+app.post('/newClassement', function(req, res) {
+    helper.saveCSV(new Map(Object.entries(req.body)),'communes-2/public/data/classement.csv');
 });
 
 // Export our API
