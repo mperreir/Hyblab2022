@@ -17,7 +17,7 @@ const init_p5 = function(){
     const animationsContainer = document.querySelector("#animationsContainer");
     animationsContainer.parentNode.insertBefore(div,animationsContainer.nextSibling);
     const callingAnimation = createAnimation("animationsContainer","data/animations/callAnimation.json",true);
-    const clickHere = document.createElement("img");
+    const clickHere = document.createElement("img");  
     clickHere.setAttribute("src","img/elements/click-here.png");
     callingAnimation.play();
     ringtone.play();
@@ -25,6 +25,7 @@ const init_p5 = function(){
     phoneButton.addEventListener("click", () => {
         phoneButton.style.display = "none";
         ringtone.pause();
+        ringtone.unload();
         callingAnimation.destroy();
         div.classList.remove("apply-shake");
         const prisonGridDownSound = createAudio("data/sounds/prisonGridDown.mp3",false,0.7,0.5);
@@ -36,19 +37,20 @@ const init_p5 = function(){
         prisonGridDownSound.play();
         prisonGridDown.addEventListener('complete', () => {
             isClickable = true;
-            if (!released) {
-                setTimeout(()=>{
-                    animationsContainer.appendChild(clickHere);
-                },7000);                            
-            }
-        });        
+            animationsContainer.appendChild(clickHere);
+            document.querySelector("#animationsContainer img").style.visibility = "hidden";
+            setTimeout(()=>{
+                if(!released){
+                    document.querySelector("#animationsContainer img").style.visibility = "visible";
+                }                    
+            },7000);                            
+        });   
     });
     animationsContainer.addEventListener("click",() =>{
-        
+        const prisonGridUp = createAnimation("animationsContainer","data/animations/prisonGridUp.json",false);
+        const prisonGridUpSound = createAudio("data/sounds/good_choice.mp3");
         if (!released && isClickable) {
             animationsContainer.removeChild(clickHere);
-            const prisonGridUp = createAnimation("animationsContainer","data/animations/prisonGridUp.json",false);
-            const prisonGridUpSound = createAudio("data/sounds/good_choice.mp3");
             prisonGridUpSound.play();
             prisonGridUp.play();
             shakeElement(dialogBox);
