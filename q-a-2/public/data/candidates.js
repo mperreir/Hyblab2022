@@ -33,6 +33,7 @@ const candidates = [
         "nameId": "diamond",
         "name": "M. Losange",
         "baseY": "114",
+        "name": "M. Losange",
         "stepOneGame" : {
             "age": "54 ans",
             "address": "Angers",
@@ -62,6 +63,7 @@ const candidates = [
         "nameId": "rectangle",
         "name": "M. Pavé",
         "baseY": "101",
+        "name": "M. Pavé",
         "stepOneGame" : {
             "age": "66 ans",
             "address": "Paris",
@@ -91,6 +93,7 @@ const candidates = [
         "nameId": "triangle",
         "name": "Mme. Equilatérale",
         "baseY": "110",
+        "name": "Mme. Equilatérale",
         "stepOneGame" : {
             "age": "52 ans",
             "address": "Paris",
@@ -120,6 +123,7 @@ const candidates = [
         "nameId": "square",
         "name": "Mme. Carré",
         "baseY": "103",
+        "name": "Mme. Carré",
         "stepOneGame" : {
             "age": "31 ans",
             "address": "Tours",
@@ -149,6 +153,7 @@ const candidates = [
         "nameId": "circle",
         "name": "M. Lerond",
         "baseY": "115",
+        "name": "M. Lerond",
         "stepOneGame" : {
             "age": "47 ans",
             "address": "Nice",
@@ -178,6 +183,7 @@ const candidates = [
         "nameId": "oval",
         "name": "M. Cylindre",
         "baseY": "133",
+        "name": "M. Cylindre",
         "stepOneGame" : {
             "age": "42 ans",
             "address": "Nantes",
@@ -207,6 +213,7 @@ const candidates = [
         "nameId": "semi_circle",
         "name": "Mme. Amphi",
         "baseY": "98",
+        "name": "Mme. Amphi",
         "stepOneGame" : {
             "age": "18 ans",
             "address": "Rennes",
