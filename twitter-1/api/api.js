@@ -213,6 +213,25 @@ module.exports = (passport) => {
         }
     });
 
+    app.post('/admin/config/update',
+        require('connect-ensure-login').ensureLoggedIn(),
+        (req, res) => {
+            if (req.body.fetch_delay_sec !== undefined
+                    && req.body.url_fetch_candidats !== undefined
+                    && req.body.url_fetch_followers !== undefined
+                    && req.body.url_fetch_tweets !== undefined) {
+                db.config_update({
+                    fetch_delay_sec: req.body.fetch_delay_sec,
+                    url_fetch_candidats: req.body.url_fetch_candidats,
+                    url_fetch_followers: req.body.url_fetch_followers,
+                    url_fetch_tweets: req.body.url_fetch_tweets,
+                });
+                res.redirect('back');
+            } else {
+                res.status(400).send('Erreur inputs.');
+            }
+        });
+
     // Authentification pour accéder aux parties privées de l'api (on n'en a pas dans cet exemple)
     // et aux templates privés
     // C'est ici qu'on utilise passport pour créer une session utilisateur
