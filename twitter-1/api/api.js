@@ -94,7 +94,16 @@ module.exports = (passport) => {
         res.json(tweets);
     });
 
-    app.get('/tweets/tops/candidat/:candidat_id', (req, res) => {
+    app.get('/tweets/tops/all/candidat/:candidat_id', (req, res) => {
+        let tweets = db.getTweets()
+            .filter(tweet => tweet.themeScore >= 2
+                && parseInt(tweet.user_id) === parseInt(req.params.candidat_id));
+        tweets = tweets.sort((a, b) => b.favorite_count - a.favorite_count);
+        tweets = tweets.slice(0, 5);
+        res.json(tweets);
+    });
+
+    app.get('/tweets/tops/semaine/candidat/:candidat_id', (req, res) => {
         let tweets = db.getTweetsSemaine()
             .filter(tweet => tweet.themeScore >= 2
                 && parseInt(tweet.user_id) === parseInt(req.params.candidat_id));
