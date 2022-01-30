@@ -30,6 +30,7 @@
   <script src="js/views/falling.js" defer></script>
   <script src="js/views/p1.js" defer></script>
   <script src="js/views/p3.js" defer></script>
+  <script src="js/views/p2.js" defer></script>
   <script src="js/views/p5.js" defer></script>
   <script src="js/views/p6.js" defer></script>
   <script src="js/views/credits.js" defer></script>
@@ -90,6 +91,21 @@
 
         <section class="swiper-slide" id="p2">
           <img class="pouvoir-header" src="img/headers/POUVOIR_2.svg">
+          
+          <div id="bulle-container">
+            <img id='bulle-pm' src="img/dialogBoxes/GRAND_PREMIERMINISTRE.svg">
+            <p>
+              Je vous informe que le gouvernement a rédigé un décret. 
+              Nous avons besoin de votre signature car sans celle-ci, impossible de le faire passer. <b>Tu veux mettre en place une loi.</b> On lui explique que ce n’est pas son rôle mais le rôle du Sénat/Parlement. On lui montre alors un document qui doit être signer pour approuver la loi.
+            </p>
+          </div>
+          
+          <div id="drawing-container">
+            <img src="img/elements/Decret.svg">
+            <canvas id="drawPlace"></canvas>
+            <input id="send-button" type="button" disabled value="Envoyer">
+          </div>
+
 
         </section>
 

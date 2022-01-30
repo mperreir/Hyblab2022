@@ -267,8 +267,86 @@ body {
 .phoneButton:hover {
   opacity: 75%;
 }
+
 .dialogBox {
   position: absolute;
+}
+
+/* Mission 2 : Decret */
+
+#p2 {
+  background: white;
+}
+
+#bulle-pm {
+  position: absolute;
+  width: 85%;
+  top: 17%;
+  left: 5.5%;
+}
+
+#p2 p {
+  font-family: 'Nunito';
+  font-size: 16%;
+  position: absolute;
+  width: 68%;
+  top: 19%;
+  left: 16%;
+  z-index: 2;
+}
+
+#p2 b {
+  font-family: 'Nunito';
+  font-weight: 800;
+}
+
+#drawing-container {
+  position: absolute;
+  bottom: -50%;
+  height: 50%;
+  background-color: #D0BFF7;
+}
+
+#drawing-container canvas {
+  width: 80%;
+  height: 25%;
+  position: absolute;
+  bottom: 25%;
+  left: 10%;
+  border-radius: 15px;
+  background-color: #E9E7F7;
+}
+
+#drawing-container img {
+  width: 80%;
+  position: absolute;
+  bottom: 57%;
+  left: 10%;
+}
+
+#send-button {
+  position: absolute;
+  width: 65%;
+  height: 15%;
+  bottom: 5%;
+  left: 17.5%;
+  font-family: 'Nunito';
+  font-weight: 800;
+  font-size: 20%;
+  background-color: #0AF2E1;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0;
+}
+
+#send-button:disabled {
+  background-color: #AAAAAA;
+}
+
+/* */
+
+#p6 .dialog-before {
   display: none;
   left: 11%;
   bottom: 8%;
