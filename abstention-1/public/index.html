@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/styleMain.css">
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js" defer></script>
     <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js" defer></script>
-    <script src="js/utils.js" defer></script>
+   <!-- <script src="js/utils.js" defer></script>-->
     <script src="js/MVC/cssProperties/CSSProperty.js" defer></script>
     <script src="js/MVC/cssProperties/AnimationFrame.js" defer></script>
     <script src="js/MVC/cssProperties/BackgroundImage.js" defer></script>
@@ -33,12 +33,21 @@
     <!-- Le conteneur sert à vérouiller les proportions (aspect ratio) du contenu de la page (ici des slides) -->
     <div id="container">
       <section id="Dialogue">
+        <header>
+            <div id='cercle1' class="circle"><p>1</p></div>
+            <div id='cercle2' class="circle"><p>2</p></div>
+            <div id='cercle3' class="circle"><p>3</p></div>
+            <div id='cercle4' class="circle"><p>4</p></div>
+            <div id='cercle5' class="circle"><p>5</p></div>
+          <img id='carnet' src='img/CARNET PICTO.svg'>
+        </header>
           <div id="personnage1"></div>
           <div id="personnage2"></div>
           <div id="textZone">
-            <p class="nom">Charlie</p>
+            <div id='cercle' class="circle"><p>1</p></div>
+            <div class='boxnom'><p class="nom">Arthur 17ans</p></div>
             <p id="textDialogue">Ceci est un exemple pour que je puisse effectuer des tests afin de voir si cela rend très bien.  </p>
-            <button id="Suite">Suite</button>
+       <img id="Suite" src='img/SUIVANT.svg'>
           </div>
           <div id="QuizZone">
             <p class=nom>Charlie</p>

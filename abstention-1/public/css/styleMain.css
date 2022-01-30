@@ -51,7 +51,7 @@ body{
     position: absolute;
 }
 
-/*Section dialogue*/
+/*--------------Section dialogue----------------*/
 #Dialogue{
     top:0%;
     opacity: 1;
@@ -62,8 +62,59 @@ body{
     width: calc(100 * 9vh / 16);
     height: 100vh; /*100vh*/
     position: fixed;
-    z-index: 1;
+    z-index: 3;
 }
+
+/*header*/
+#Dialogue header{
+    height: 10vh;
+    margin: auto;
+    padding: 2%;
+}
+.circle p{
+    margin: auto; /* Important */
+    text-align: center;
+}
+.circle {
+    margin: auto;
+    display:inline-flex;
+    width: 5vh;
+    height: 5vh;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: #0600FF;
+    font-weight:bold;
+    font-size: 60%;
+  
+  }
+  #cercle1{
+      opacity: 1;
+  }
+  #cercle2{
+    opacity: 0.3;
+}
+#cercle3{
+    opacity: 0.3;
+}
+#cercle4{
+    opacity: 0.3;
+}
+#cercle5{
+    opacity: 0.3;
+}
+ #carnet{
+     position: absolute;
+     width: 5vh;
+     height: auto;
+     right: 3%;
+
+     display: inline-flex;
+    margin-top: auto;
+    margin-bottom: auto;
+ }
+
+ /*dialogue*/
 #personnage1{
 
     /*Charlie*/
@@ -75,11 +126,11 @@ body{
     background-size: contain;
 
     position:absolute;
-    width: 60%;
+    width: 50%;
     height: 50vh; 
-    left:0px;
-    top:37vh;
-    z-index: 1;
+    left:9%;
+    top:20.8vh;
+    z-index: 2;
 
 }
 #personnage2{
@@ -92,47 +143,90 @@ body{
     background-position: 100% 0%;
     background-repeat: no-repeat;   
     background-size: contain;
+
+    width: 50%;
+    height: 45vh; 
+    right:9%;
     z-index: 1;
 
-    width: 60%;
-    height: 50vh; 
-    right:0px;
-    top:31.5vh; /*à changer à chaque perso*/
+    top:14vh; /*à changer à chaque perso*/
 
 }
 #textZone{
+position: absolute;
+    background-color: white;
+    border : 1vh solid #0600FF;  
+    border-radius: 5%;
+    width: 85%;
+    display: flex;
 
-    position:absolute;
-    background-color: darkgoldenrod;
-    width: 100%;
-    height: calc(100vh/4);
-    top:68vh;/*75vh*/
+    height: calc(100vh/2.3);
+    top:69.6vh;/*75vh*/
     opacity: 1;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        z-index: 3;
+    
 }
+
 #Suite{
-    position:absolute;
-    background-color: red;
-    bottom:17px;
-    right: 0px;
-    z-index: 1;
+    opacity: 1;
+
+position: absolute;
+display: flex;
+
+vertical-align: center; 
+    height: 5vh;
+    bottom: 5%;
+    left: 40%;
+    width: 10vh;
+
+    z-index: 3;
+ 
 }
 #textDialogue{
     position:absolute;
-    top:20%;
+    display: flex;
+    top:50%;
+    background-color: #0600FF;
+    border-radius: 6%;
+    width: 85%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    height: 50%;
+    padding: 3%;
+    
+}
+#cercle{
+    position:absolute;
+    top:3%;
+    left:15%;
 
 }
-
-.nom{
+.boxnom{
     position:absolute;
-    background-color: green;
-    top:0px;
-    left: 0px;
-    padding: 2px;
+
+        background-color: #E66E78;
+        
+        border-radius: 60px / 50px;
+    left: 30%;
+    top:3%;
+    height: 5vh;
+    width: 57%;
+}
+.nom{
+    margin-top: 2%;
+     text-align: center;
+    
+    
+
 }
 /*Quiz*/
 #QuizZone{
     position:absolute;
-    background-color: red;
+    background-color: #E66E78;
     width: 100%;
     height: calc(100vh/4);
     top:75vh;/*75vh*/
@@ -145,7 +239,7 @@ body{
     font-size: large;
 }
 
-/*Section transition*/
+/*--------------Section transition--------------*/
 #Transition{
     position:fixed;
     opacity: 0;
