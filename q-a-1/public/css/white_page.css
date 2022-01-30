@@ -1,13 +1,14 @@
 p{
     margin-bottom: 4%;
-    font-family: 'css/font/marianne-thin-webfont.woff';
-    font-size:60%;
+    font-family: 'mariannemedium';
+    font-size:52%;
     padding-left: 1%;
     padding-right: 1%;
     
 }
 
 h1{
+    margin-top: -5%;
     color: gray;
 }
 
@@ -31,8 +32,8 @@ input{
 }
 
 #elections{
+    margin-top: -5%;
     width: 30%;
-    
 }
 
 #Q1, #Q2, #Q3{
@@ -50,3 +51,14 @@ input{
 }
 
 
+#title{
+    width:55%;
+}
+
+#subtitle{
+    width: 32%;
+}
+
+#last-section{
+    width: 58%;
+}
