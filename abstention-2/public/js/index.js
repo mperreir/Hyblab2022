@@ -32,9 +32,9 @@ function date() {
 // })
 
 
-loadFolder();
+// loadFolder();
 // loadFileExplorer();
-// loadSms();
+loadSms();
 // loadEnd();
 // loadRebet();
 

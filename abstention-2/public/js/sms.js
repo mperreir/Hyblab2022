@@ -13,7 +13,7 @@ async function loadSms() {
         {
             type: 'sms',
             sender: 'THOMAS',
-            message: 'J’ai vu qu’on allait travailler <strong>ensemble</strong> sur le nouvel article de \“<strong>pour cent magazine</strong>\” !',
+            message: 'J’ai vu qu’on allait travailler <strong>ensemble</strong> sur le nouvel article de “<strong>pour cent magazine</strong>” !',
             style: 'sms-center sms-left'
         },
         {
@@ -25,7 +25,7 @@ async function loadSms() {
         {
             type: 'sms',
             sender: 'MOI',
-            message: 'Hey Thomas ! Content de bosser avec toi !Non, je n’ai pas vu les chiffres, pourquoi ? :)',
+            message: 'Hey Thomas ! Content de bosser avec toi ! Non, je n’ai pas vu les chiffres, pourquoi ? :)',
             style: 'sms-bottom sms-right'
         },
         {
