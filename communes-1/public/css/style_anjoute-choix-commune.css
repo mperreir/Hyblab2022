@@ -61,7 +61,7 @@
 
 .suggestions {
 	height: 117px;
-	overflow: hidden;
+	overflow: auto;
 	width: 60%;
 }
   
