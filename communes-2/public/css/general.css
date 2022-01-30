@@ -72,6 +72,7 @@ body{
     margin-top: 5%;
     color: #282246;
 }
+
 #loader-text > i, #loader-text > font > i{
     font-size: 15px;
     font-style: normal;

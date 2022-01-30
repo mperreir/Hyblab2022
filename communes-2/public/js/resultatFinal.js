@@ -6,6 +6,6 @@ page('/communes-2/resultatFinal', async function () {
     });
 
     document.getElementById("save-btn").addEventListener('click', function () {
-        page('/communes-2/classement');
+        page('/communes-2/classementChange');
     });
 });
