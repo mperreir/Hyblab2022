@@ -426,6 +426,160 @@ body{
     font-size: 2.3vh;
 }
 
+.endingPage {
+    background-color: black;
+}
+
+.endingPage_firstSlide, .endingPage_secondSlide {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.endingPage_firstSlide > img {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 25vw;
+}
+
+.endingPage_card {
+    background-color: white;
+    width: 77%;
+    color: black;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 7%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 4px 4px black,
+                6px 6px white,
+                10px 10px black, 
+                12px 12px white;
+}
+
+.endingPage_card > .endingPage_card_title {
+    font-family: "Spicy Rice";
+    font-size: 3.3vh;
+}
+
+.endingPage_card > p {
+    font-weight: 300;
+    margin-top: 2vh;
+}
+
+.endingPage_eyes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3vh;
+}
+
+.endingPage_eyes > img {
+    filter: invert(100%);
+}
+
+.endingPage_secondSlide > .endingPage_card img {
+    margin-top: 2vh;
+}
+
+.endingPage_secondSlide > .endingPage_card > div {
+    display: flex;
+    align-items: center;
+}
+
+.endingPage_secondSlide > .endingPage_card > div > img:first-child {
+    margin-right: 5vw;
+}
+
+.endingPage_card > .hyblab {
+    width: 35vw;
+}
+
+.endingPage_card > .nr {
+    width: 35vw;
+}
+
+.endingPage_card > div > .polytech {
+    width: 25vw;
+}
+
+.endingPage_card > div > .agr {
+    width: 25vw;
+}
+
+.endingPage_card > div > .nu {
+    width: 29vw;
+}
+
+.endingPage_card > div > .oml {
+    width: 27vw;
+}
+
+.endingPage_card > .NM {
+    width: 24vw;
+}
+
+.endingPage_card > div > .CC {
+    width: 8.6vw;
+}
+
+.endingPage_card > div > .OS {
+    width: 8.6vw;
+}
+
+.endingPage_thirdSlide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.endingPage_members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10vh;
+    width: 90%;
+}
+
+.endingPage_member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: 50%;
+    margin-top: 4vh;
+}
+
+.endingPage_member:last-child {
+    width: 100%;
+}
+
+.endingPage_member_name {
+    font-family: "Spicy Rice";
+    font-size: 2.3vh;
+}
+
+.endingPage_member_school {
+    font-size: 2vh;
+    font-weight: 300;
+}
+
+.endingPage_button {
+    font-size: 2.1vh;
+    height: 5.1vh;
+    margin-top: 8.4vh;
+}
+
+.endingPage_persos {
+    position: absolute;
+    bottom: 5vh;
+}
+
 .mainStepPage {
     height: 100%;
     text-align: center;
@@ -562,14 +716,18 @@ body{
 .questionCard_questionTitle {
     font-size: 4.8vh;
     font-family: "Spicy Rice";
-    margin-bottom: 6vh;
+    margin-bottom: 4vh;
+}
+
+.questionCard > .questionCard_questionTitle {
+    font-size: 4vh;
 }
 
 .questionCard_questionBlock {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-height: 38vh;
+    max-height: 42vh;
     overflow: auto;
     scrollbar-color: #c4c4c4 white;
     scrollbar-width: thin;
@@ -599,6 +757,30 @@ body{
     background-color: white;
 }
 
+.questionCard_questionBlock::-webkit-scrollbar-thumb {
+    background-color: #c4c4c4;
+    border-radius: 9px;
+    border: transparent;
+}
+
+.questionCard_nextStep {
+    position: absolute;
+    bottom: 4vh;
+}
+
+.questionCard_learnMore {
+    margin-top: 4vh;
+    font-size: 2.2vh;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.questionCard_nextStep > p {
+    font-weight: 300;
+    font-size: 2.1vh;
+    margin-bottom: 1vh;
+}
 
 .profilCard {
     display: flex;
@@ -635,30 +817,6 @@ body{
 
 .profilCard_label {
     font-weight: bold;
-}
-.questionCard_questionBlock::-webkit-scrollbar-thumb {
-    background-color: #c4c4c4;
-    border-radius: 9px;
-    border: transparent;
-}
-
-.questionCard_nextStep {
-    position: absolute;
-    bottom: 8vh;
-}
-
-.questionCard_learnMore {
-    margin-top: 4vh;
-    font-size: 2.2vh;
-    color: black;
-    text-decoration: none;
-    font-weight: 700;
-}
-
-.questionCard_nextStep > p {
-    font-weight: 300;
-    font-size: 2.1vh;
-    margin-bottom: 1vh;
 }
 
 .steps {
