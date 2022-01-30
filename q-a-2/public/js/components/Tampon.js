@@ -6,7 +6,7 @@ class Tampon extends React.Component {
         const valid = 'img/tampon_valid.svg';
         const cancel = 'img/tampon_cancel.svg';
         return (
-            <div>
+            <div className='tampon'>
                 <img src={this.props.isValid ? valid : cancel } alt='Tampon'/>
             </div>
         )

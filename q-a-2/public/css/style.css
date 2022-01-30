@@ -833,6 +833,10 @@ body{
     z-index: 0;
 }
 
+.tamponButton {
+    cursor: pointer;
+}
+
 .step1game {
     height: 100%;
     width: 100%;
@@ -842,22 +846,54 @@ body{
     justify-content: space-around;
 }
 
-.step1Game_profil{
-    height: 100%;
-    width: 100%;
+.step1game_header {
+    text-align: center;
+    position: relative;
 }
-.step1Game_profils{
+
+.step1Game_help_point {
+    position: absolute;
+    right: 5%;
+}
+
+.step1Game_profils {
     box-sizing: border-box;
     display: flex;
-    height: 100%;
+    height: 70%;
     width: 100%;
 }
 
-.step1game_header {
-    text-align: center;
+.step1Game_profil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
 }
+
+.step1game_tampon {
+    position: absolute;
+    z-index: 2;
+}
+
+.step1game_tampon_valid {
+    right: 5%;
+    top: -2.5%;
+}
+
+.step1game_tampon_cancel {
+    right: 8.1%;
+}
+
+.step1Game_pannelError {
+    position: absolute;
+    z-index: 2;
+    right: 25%;
+    bottom: 25%;
+}
+
 .step1game_tampon_button {
     display: flex;
     width: 25%;
     justify-content: space-between;
+    margin-top: 5%;
 }
