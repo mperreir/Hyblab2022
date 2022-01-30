@@ -119,6 +119,11 @@ body{
     justify-content: center;
 }
 
+.vertical-box-classement{
+    display: flex;
+    flex-direction: column;
+}
+
 .horizontal-box{
     display: flex;
     flex-direction: row;
@@ -179,3 +184,11 @@ body{
     margin-left: 15px;
     margin-right: 15px;
 }
+
+#background-video{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    overflow: hidden;
+}
+

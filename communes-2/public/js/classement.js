@@ -14,21 +14,24 @@ page('/communes-2/classement', async function () {
     let text = document.createElement('div');
     text.classList.add("horizontal-box");
     let place = document.createElement('div');
-    place.classList.add("vertical-box");
+    place.classList.add("vertical-box-classement");
     place.classList.add("popUp-Space");
     let point = document.createElement('div');
-    point.classList.add("vertical-box");
+    point.classList.add("vertical-box-classement");
     point.classList.add("popUp-Space");
     let nom = document.createElement('div');
-    nom.classList.add("vertical-box");
+    nom.classList.add("vertical-box-classement");
     nom.classList.add("popUp-Space");
 
     for (let index = 0; index < classement.length; index++) {
         let placeText = document.createElement('p');
+
         placeText.textContent = classement[index].place;
         let pointText = document.createElement('p');
+
         pointText.textContent = classement[index].point+"pts";
         let nomText = document.createElement('p');
+
         nomText.textContent = classement[index].nom
 
         place.appendChild(placeText);

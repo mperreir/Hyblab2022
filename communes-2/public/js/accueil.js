@@ -2,7 +2,7 @@
 
 page('/communes-2/', async function () {
     anime({
-        delay: 1500,
+        delay: 2500,
         targets: '#loader',
         opacity: '0',
         'z-index' : -1,
