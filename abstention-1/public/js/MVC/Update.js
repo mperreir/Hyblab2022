@@ -11,7 +11,7 @@ class Update extends Observer{
       }
       this.view.texte.innerText = observable.getDialogue();
       if (observable.getNom()==="Charlie"){
-        this.view.text.style.backgroundColor="#0600FF";
+        this.view.texte.style.backgroundColor="#0600FF";
       }
       else{
         this.view.texte.style.backgroundColor="#E66E78";

@@ -12,6 +12,4 @@ let scene5 = new ModelDialogue(SCRIPT.Scene5,"../img/Charlie.svg","../img/JeuneA
 
 let controleur=new Controler(scene1);
 
-document.querySelector('#Suite').addEventListener("click", ()=>console.log("click"));
-
 
