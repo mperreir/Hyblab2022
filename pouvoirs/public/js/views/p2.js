@@ -16,7 +16,11 @@ const init_p2 = function () {
 	swiper.disable();
 
 	bulle.classList.add("apply-shake");
+	bulle.style.marginBottom = "10px";
+	document.querySelector("#p2 p").style.marginTop = "20px";
 	setTimeout(() => {
+		document.querySelector("#p2 p").style.marginTop = "0px";
+		bulle.style.marginBottom = "0px";
 		bulle.classList.remove("apply-shake");
 
 		anime({

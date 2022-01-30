@@ -87,9 +87,9 @@ const init_p3 = function() {
   css([textContainer], {
     'font-size' : '16px',
     'font-family' : 'Nunito',
-    'text-align' : 'left', 
+    'text-align' : 'justify', 
     'vertical-align' : 'center',
-    'top' : '20px',
+    'top' : '25px',
     'position' : 'absolute',
     'width' : '80%',
     'left' : '10%',

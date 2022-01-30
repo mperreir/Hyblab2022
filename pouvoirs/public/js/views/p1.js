@@ -93,7 +93,7 @@ const init_p1 = function() {
   css([textContainer], {
     'font-size' : '16px',
     'font-family' : 'Nunito',
-    'text-align' : 'left', 
+    'text-align' : 'justify', 
     'vertical-align' : 'center',
     'top' : '20px',
     'position' : 'absolute',

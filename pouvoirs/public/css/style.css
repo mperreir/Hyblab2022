@@ -296,7 +296,6 @@ body {
   height: auto;
 }
 
-
 /* Mission 2 : Decret */
 
 #p2 {
@@ -311,7 +310,7 @@ body {
 }
 
 #p2 p {
-  font-family: 'Nunito';
+  font-family: "Nunito";
   font-size: 16%;
   position: absolute;
   width: 68%;
@@ -321,7 +320,7 @@ body {
 }
 
 #p2 b {
-  font-family: 'Nunito';
+  font-family: "Nunito";
   font-weight: 800;
 }
 
@@ -329,7 +328,7 @@ body {
   position: absolute;
   bottom: -50%;
   height: 50%;
-  background-color: #D0BFF7;
+  background-color: #d0bff7;
 }
 
 #drawing-container canvas {
@@ -339,7 +338,7 @@ body {
   bottom: 25%;
   left: 10%;
   border-radius: 15px;
-  background-color: #E9E7F7;
+  background-color: #e9e7f7;
 }
 
 #drawing-container img {
@@ -355,10 +354,10 @@ body {
   height: 15%;
   bottom: 5%;
   left: 17.5%;
-  font-family: 'Nunito';
+  font-family: "Nunito";
   font-weight: 800;
   font-size: 20%;
-  background-color: #0AF2E1;
+  background-color: #0af2e1;
   color: white;
   border: none;
   border-radius: 8px;
@@ -366,10 +365,8 @@ body {
 }
 
 #send-button:disabled {
-  background-color: #AAAAAA;
+  background-color: #aaaaaa;
 }
-
-
 
 #p5 h3 {
   font-family: "First Fun", Arial, Helvetica, sans-serif;
@@ -384,7 +381,7 @@ body {
 }
 .dialogBox p {
   font-family: "Nunito";
-  font-size: 12px;
+  font-size: 16%;
   width: 82%;
   margin: auto;
   color: white;
@@ -473,7 +470,7 @@ body {
 
 #p6 .decompte {
   display: none;
-  color: #624ECE;
+  color: #624ece;
   height: 30%;
   justify-content: center;
   align-items: center;
@@ -483,7 +480,7 @@ body {
 
 #p6 .bouton-rouge {
   display: none;
-  width : 60%;  
+  width: 60%;
   margin: 0% 10%;
   padding: 10%;
 }
