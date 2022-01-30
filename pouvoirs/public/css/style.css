@@ -227,7 +227,7 @@ body {
 #bulle-pm {
   position: absolute;
   width: 85%;
-  top: 20%;
+  top: 17%;
   left: 5.5%;
 }
 
@@ -249,18 +249,41 @@ body {
 #drawing-container {
   position: absolute;
   bottom: 0;
-  height: 40%;
-  background-color: lightgrey;
+  height: 50%;
+  background-color: #D0BFF7;
 }
 
 #drawing-container canvas {
   width: 80%;
-  height: 30%;
+  height: 25%;
   position: absolute;
-  bottom: 30%;
+  bottom: 25%;
   left: 10%;
   border-radius: 15px;
-  background-color: white;
+  background-color: #E9E7F7;
+}
+
+#drawing-container img {
+  width: 80%;
+  position: absolute;
+  bottom: 57%;
+  left: 10%;
+}
+
+#send-button {
+  position: absolute;
+  width: 65%;
+  height: 15%;
+  bottom: 5%;
+  left: 17.5%;
+  font-family: 'Nunito';
+  font-weight: 800;
+  font-size: 20%;
+  background-color: #AAAAAA;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0;
 }
 
 /* */

@@ -12,6 +12,12 @@ const init_p2 = function () {
 	document.addEventListener("touchstart", mouseHandler);
 	document.addEventListener("touchend", mouseHandler);
 	document.addEventListener("touchmove", mouseHandler);
+
+	// Fixing canvas on screen
+	const size = canvas.getBoundingClientRect();
+	canvas.width = size.width;
+	canvas.height = size.height;
+
 }
 
 let coord = { x: 0, y: 0 };
