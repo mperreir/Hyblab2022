@@ -15,7 +15,9 @@
   <script src="https://vjs.zencdn.net/7.6.6/video.js"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-  <script src="bottom-sheet-drawer/downupPopup/downupPopup.js"></script> 
+  <script src="bottom-sheet-drawer/downupPopup/downupPopup.js"></script>
+  <!-- Mustache ! -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/4.0.1/mustache.min.js" async></script>
   <script src="js/accueil.js" defer></script>
   <script src="js/jeu.js" defer></script>
   <script src="js/candidats.js" defer></script>
@@ -42,7 +44,7 @@
                 <footer></footer>
             </section>
             <section id="second-slide" class="swiper-slide">
-              
+
               <div id="jeu">
                 <div id="timer"></div>
                 <svg
@@ -181,7 +183,7 @@
                   />
 
                 </div>
-              
+
 
                 <div id="text">À qui appartient ce tweet ? Trouvez le plus de bonnes réponses possibles en 1 minute !</div>
 
@@ -239,12 +241,12 @@
                   style="width: 40%; height: 20%; position: absolute; top:20%; left:60%; z-index: 5; display : none;"
                   id="bulle2"
                 />
-              
+
 
                 <div id=choix>
                   <button id="play">Jouer</button>
                 </div>
-                
+
               </div>
 
               <!-- le footer sera rempli à partir de données lues dans un fichier Json-->
@@ -273,332 +275,332 @@
               </header>
 
               <div id="candidats">
-                <button class="button-candidat" id="btn-1" ><img src="img/candidat/taubira.jpeg" alt="Profile Picture" height="200%" class="profile2"></button> 
-                <button class="button-candidat" id="btn-2" ><img src="img/candidat/asselineau.jpeg" alt="Profile Picture" height="200%" class="profile2"></button> 
-                <button class="button-candidat" id="btn-3" ><img src="img/candidat/melenchon.jpeg" alt="Profile Picture" height="200%" class="profile2"></button> 
-                <button class="button-candidat" id="btn-4" ><img src="img/candidat/jadot.jpeg" alt="Profile Picture" height="200%" class="profile2"></button> 
-                <button class="button-candidat" id="btn-5" ><img src="img/candidat/philippot.jpeg" alt="Profile Picture" height="200%" class="profile2"></button> 
-                <button class="button-candidat" id="btn-6" ><img src="img/candidat/pecresse.jpeg" alt="Profile Picture" height="200%" class="profile2"></button> 
-                <button class="button-candidat" id="btn-7" ><img src="img/candidat/zemmour.jpeg" alt="Profile Picture" height="200%" class="profile2"></button> 
-                <button class="button-candidat" id="btn-8" ><img src="img/candidat/hidalgo.jpeg" alt="Profile Picture" height="200%" class="profile2"></button> 
-                <button class="button-candidat" id="btn-9" ><img src="img/candidat/dupontaignant.jpeg" alt="Profile Picture" height="200%" class="profile2"></button> 
-                <button class="button-candidat" id="btn-10" ><img src="img/candidat/poutou.jpeg" alt="Profile Picture" height="200%" class="profile2"></button>
-                <button class="button-candidat" id="btn-11" ><img src="img/candidat/macron.jpeg" alt="Profile Picture" height="200%" class="profile2"></button> 
-                <button class="button-candidat" id="btn-12" ><img src="img/candidat/lepen.jpeg" alt="Profile Picture" height="200%" class="profile2"></button> 
-              </div>
-                         
-              <div id="myElement1">
-                <div class="downupPopup-content">
-                  <img src="img/candidat/taubira.jpeg" alt="Profile Picture" height="70px" class="profile">
-                  <h3 class="nom-candidat">Nom du candidat 1</h3>
-                  <table>
-                    <tbody>
-                      <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <div id="mySwiper1" class="swiper">
-                    <div class="swiper-wrapper">
-                      <!-- Slides -->
-                      <div class="swiper-slide">Slide 1</div>
-                      <div class="swiper-slide">Slide 2</div>
-                      <div class="swiper-slide">Slide 3</div>
-                    
-                    </div>
-                    <div class="swiper-pagination"></div>
-                  </div>
-
-                </div>
+<!--                <button class="button-candidat" id="btn-1" ><img src="img/candidat/taubira.jpeg" alt="Profile Picture" height="200%" class="profile2"></button>-->
+<!--                <button class="button-candidat" id="btn-2" ><img src="img/candidat/asselineau.jpeg" alt="Profile Picture" height="200%" class="profile2"></button>-->
+<!--                <button class="button-candidat" id="btn-3" ><img src="img/candidat/melenchon.jpeg" alt="Profile Picture" height="200%" class="profile2"></button>-->
+<!--                <button class="button-candidat" id="btn-4" ><img src="img/candidat/jadot.jpeg" alt="Profile Picture" height="200%" class="profile2"></button>-->
+<!--                <button class="button-candidat" id="btn-5" ><img src="img/candidat/philippot.jpeg" alt="Profile Picture" height="200%" class="profile2"></button>-->
+<!--                <button class="button-candidat" id="btn-6" ><img src="img/candidat/pecresse.jpeg" alt="Profile Picture" height="200%" class="profile2"></button>-->
+<!--                <button class="button-candidat" id="btn-7" ><img src="img/candidat/zemmour.jpeg" alt="Profile Picture" height="200%" class="profile2"></button>-->
+<!--                <button class="button-candidat" id="btn-8" ><img src="img/candidat/hidalgo.jpeg" alt="Profile Picture" height="200%" class="profile2"></button>-->
+<!--                <button class="button-candidat" id="btn-9" ><img src="img/candidat/dupontaignant.jpeg" alt="Profile Picture" height="200%" class="profile2"></button>-->
+<!--                <button class="button-candidat" id="btn-10" ><img src="img/candidat/poutou.jpeg" alt="Profile Picture" height="200%" class="profile2"></button>-->
+<!--                <button class="button-candidat" id="btn-11" ><img src="img/candidat/macron.jpeg" alt="Profile Picture" height="200%" class="profile2"></button>-->
+<!--                <button class="button-candidat" id="btn-12" ><img src="img/candidat/lepen.jpeg" alt="Profile Picture" height="200%" class="profile2"></button>-->
               </div>
 
-              <div id="myElement2">
-                <div class="downupPopup-content">
-                  <img src="img/candidat/asselineau.jpeg" alt="Profile Picture" height="70px" class="profile">
-                  <h3 class="nom-candidat">Nom du candidat 2</h3>
-                  <table>
-                    <tbody>
-                      <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <div id="mySwiper2" class="swiper">
-                    <div class="swiper-wrapper">
-                      <!-- Slides -->
-                      <div class="swiper-slide">Slide 1</div>
-                      <div class="swiper-slide">Slide 2</div>
-                      <div class="swiper-slide">Slide 3</div>
-                    
-                    </div>
-                    <div class="swiper-pagination"></div>
-                  </div>
-                </div>
-              </div>
-              
-              <div id="myElement3">
-                <div class="downupPopup-content">
-                  <img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile">
-                  <h3 class="nom-candidat">Nom du candidat 3</h3>
-                  <table>
-                    <tbody>
-                      <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <div id="mySwiper3" class="swiper">
-                    <div class="swiper-wrapper">
-                      <!-- Slides -->
-                      <div class="swiper-slide">Slide 1</div>
-                      <div class="swiper-slide">Slide 2</div>
-                      <div class="swiper-slide">Slide 3</div>
-                    
-                    </div>
-                    <div class="swiper-pagination"></div>
-                  </div>
-                </div>
-              </div>
+<!--              <div id="myElement1">-->
+<!--                <div class="downupPopup-content">-->
+<!--                  <img src="img/candidat/taubira.jpeg" alt="Profile Picture" height="70px" class="profile">-->
+<!--                  <h3 class="nom-candidat">Nom du candidat 1</h3>-->
+<!--                  <table>-->
+<!--                    <tbody>-->
+<!--                      <tr>-->
+<!--                        <td></td>-->
+<!--                        <td></td>-->
+<!--                        <td></td>-->
+<!--                      </tr>-->
+<!--                    </tbody>-->
+<!--                  </table>-->
+<!--                  <div id="mySwiper1" class="swiper">-->
+<!--                    <div class="swiper-wrapper">-->
+<!--                      &lt;!&ndash; Slides &ndash;&gt;-->
+<!--                      <div class="swiper-slide">Slide 1</div>-->
+<!--                      <div class="swiper-slide">Slide 2</div>-->
+<!--                      <div class="swiper-slide">Slide 3</div>-->
 
-              <div id="myElement4">
-                <div class="downupPopup-content">
-                  <img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile">
-                  <h3 class="nom-candidat">Nom du candidat 4</h3>
-                  <table>
-                    <tbody>
-                      <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <div id="mySwiper4" class="swiper">
-                    <div class="swiper-wrapper">
-                      <!-- Slides -->
-                      <div class="swiper-slide">Slide 1</div>
-                      <div class="swiper-slide">Slide 2</div>
-                      <div class="swiper-slide">Slide 3</div>
-                    
-                    </div>
-                    <div class="swiper-pagination"></div>
-                  </div>
-                </div>
-              </div>
+<!--                    </div>-->
+<!--                    <div class="swiper-pagination"></div>-->
+<!--                  </div>-->
 
-              <div id="myElement5">
-                <div class="downupPopup-content">
-                  <img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile">
-                  <h3 class="nom-candidat">Nom du candidat 5</h3>
-                  <table>
-                    <tbody>
-                      <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <div id="mySwiper5" class="swiper">
-                    <div class="swiper-wrapper">
-                      <!-- Slides -->
-                      <div class="swiper-slide">Slide 1</div>
-                      <div class="swiper-slide">Slide 2</div>
-                      <div class="swiper-slide">Slide 3</div>
-                    
-                    </div>
-                    <div class="swiper-pagination"></div>
-                  </div>
-                </div>
-              </div>
+<!--                </div>-->
+<!--              </div>-->
 
-              <div id="myElement6">
-                <div class="downupPopup-content">
-                  <img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile">
-                  <h3 class="nom-candidat">Nom du candidat 6</h3>
-                  <table>
-                    <tbody>
-                      <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <div id="mySwiper6" class="swiper">
-                    <div class="swiper-wrapper">
-                      <!-- Slides -->
-                      <div class="swiper-slide">Slide 1</div>
-                      <div class="swiper-slide">Slide 2</div>
-                      <div class="swiper-slide">Slide 3</div>
-                    
-                    </div>
-                    <div class="swiper-pagination"></div>
-                  </div>
-                </div>
-              </div>
+<!--              <div id="myElement2">-->
+<!--                <div class="downupPopup-content">-->
+<!--                  <img src="img/candidat/asselineau.jpeg" alt="Profile Picture" height="70px" class="profile">-->
+<!--                  <h3 class="nom-candidat">Nom du candidat 2</h3>-->
+<!--                  <table>-->
+<!--                    <tbody>-->
+<!--                      <tr>-->
+<!--                        <td></td>-->
+<!--                        <td></td>-->
+<!--                        <td></td>-->
+<!--                      </tr>-->
+<!--                    </tbody>-->
+<!--                  </table>-->
+<!--                  <div id="mySwiper2" class="swiper">-->
+<!--                    <div class="swiper-wrapper">-->
+<!--                      &lt;!&ndash; Slides &ndash;&gt;-->
+<!--                      <div class="swiper-slide">Slide 1</div>-->
+<!--                      <div class="swiper-slide">Slide 2</div>-->
+<!--                      <div class="swiper-slide">Slide 3</div>-->
 
-              <div id="myElement7">
-                <div class="downupPopup-content">
-                  <img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile">
-                  <h3 class="nom-candidat">Nom du candidat 7</h3>
-                  <table>
-                    <tbody>
-                      <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <div id="mySwiper7" class="swiper">
-                    <div class="swiper-wrapper">
-                      <!-- Slides -->
-                      <div class="swiper-slide">Slide 1</div>
-                      <div class="swiper-slide">Slide 2</div>
-                      <div class="swiper-slide">Slide 3</div>
-                    
-                    </div>
-                    <div class="swiper-pagination"></div>
-                  </div>
-                </div>
-              </div>
+<!--                    </div>-->
+<!--                    <div class="swiper-pagination"></div>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </div>-->
 
-              <div id="myElement8">
-                <div class="downupPopup-content">
-                  <img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile">
-                  <h3 class="nom-candidat">Nom du candidat 8</h3>
-                  <table>
-                    <tbody>
-                      <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <div id="mySwiper8" class="swiper">
-                    <div class="swiper-wrapper">
-                      <!-- Slides -->
-                      <div class="swiper-slide">Slide 1</div>
-                      <div class="swiper-slide">Slide 2</div>
-                      <div class="swiper-slide">Slide 3</div>
-                    
-                    </div>
-                    <div class="swiper-pagination"></div>
-                  </div>
-                </div>
-              </div>
+<!--              <div id="myElement3">-->
+<!--                <div class="downupPopup-content">-->
+<!--                  <img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile">-->
+<!--                  <h3 class="nom-candidat">Nom du candidat 3</h3>-->
+<!--                  <table>-->
+<!--                    <tbody>-->
+<!--                      <tr>-->
+<!--                        <td></td>-->
+<!--                        <td></td>-->
+<!--                        <td></td>-->
+<!--                      </tr>-->
+<!--                    </tbody>-->
+<!--                  </table>-->
+<!--                  <div id="mySwiper3" class="swiper">-->
+<!--                    <div class="swiper-wrapper">-->
+<!--                      &lt;!&ndash; Slides &ndash;&gt;-->
+<!--                      <div class="swiper-slide">Slide 1</div>-->
+<!--                      <div class="swiper-slide">Slide 2</div>-->
+<!--                      <div class="swiper-slide">Slide 3</div>-->
 
-              <div id="myElement9">
-                <div class="downupPopup-content">
-                  <img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile">
-                  <h3 class="nom-candidat">Nom du candidat 9</h3>
-                  <table>
-                    <tbody>
-                      <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <div id="mySwiper9" class="swiper">
-                    <div class="swiper-wrapper">
-                      <!-- Slides -->
-                      <div class="swiper-slide">Slide 1</div>
-                      <div class="swiper-slide">Slide 2</div>
-                      <div class="swiper-slide">Slide 3</div>
-                    
-                    </div>
-                    <div class="swiper-pagination"></div>
-                  </div>
-                </div>
-              </div>
-               
-              <div id="myElement10">
-                <div class="downupPopup-content">
-                  <img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile">
-                  <h3 class="nom-candidat">Nom du candidat 10</h3>
-                  <table>
-                    <tbody>
-                      <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <div id="mySwiper10" class="swiper">
-                    <div class="swiper-wrapper">
-                      <!-- Slides -->
-                      <div class="swiper-slide">Slide 1</div>
-                      <div class="swiper-slide">Slide 2</div>
-                      <div class="swiper-slide">Slide 3</div>
-                    
-                    </div>
-                    <div class="swiper-pagination"></div>
-                  </div>
-                </div>
-              </div>
-              
-              <div id="myElement11">
-                <div class="downupPopup-content">
-                  <img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile">
-                  <h3 class="nom-candidat">Nom du candidat 11</h3>
-                  <table>
-                    <tbody>
-                      <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <div id="mySwiper11" class="swiper">
-                    <div class="swiper-wrapper">
-                      <!-- Slides -->
-                      <div class="swiper-slide">Slide 1</div>
-                      <div class="swiper-slide">Slide 2</div>
-                      <div class="swiper-slide">Slide 3</div>
-                    
-                    </div>
-                    <div class="swiper-pagination"></div>
-                  </div>
-                </div>
-              </div>
-              
-              <div id="myElement12">
-                <div class="downupPopup-content">
-                  <img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile">
-                  <h3 class="nom-candidat">Nom du candidat 12</h3>
-                  <table>
-                    <tbody>
-                      <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <div id="mySwiper12" class="swiper">
-                    <div class="swiper-wrapper">
-                      <!-- Slides -->
-                      <div class="swiper-slide">Slide 1</div>
-                      <div class="swiper-slide">Slide 2</div>
-                      <div class="swiper-slide">Slide 3</div>
-                    
-                    </div>
-                    <div class="swiper-pagination"></div>
-                  </div>
-                </div>
-              </div>
+<!--                    </div>-->
+<!--                    <div class="swiper-pagination"></div>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </div>-->
+
+<!--              <div id="myElement4">-->
+<!--                <div class="downupPopup-content">-->
+<!--                  <img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile">-->
+<!--                  <h3 class="nom-candidat">Nom du candidat 4</h3>-->
+<!--                  <table>-->
+<!--                    <tbody>-->
+<!--                      <tr>-->
+<!--                        <td></td>-->
+<!--                        <td></td>-->
+<!--                        <td></td>-->
+<!--                      </tr>-->
+<!--                    </tbody>-->
+<!--                  </table>-->
+<!--                  <div id="mySwiper4" class="swiper">-->
+<!--                    <div class="swiper-wrapper">-->
+<!--                      &lt;!&ndash; Slides &ndash;&gt;-->
+<!--                      <div class="swiper-slide">Slide 1</div>-->
+<!--                      <div class="swiper-slide">Slide 2</div>-->
+<!--                      <div class="swiper-slide">Slide 3</div>-->
+
+<!--                    </div>-->
+<!--                    <div class="swiper-pagination"></div>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </div>-->
+
+<!--              <div id="myElement5">-->
+<!--                <div class="downupPopup-content">-->
+<!--                  <img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile">-->
+<!--                  <h3 class="nom-candidat">Nom du candidat 5</h3>-->
+<!--                  <table>-->
+<!--                    <tbody>-->
+<!--                      <tr>-->
+<!--                        <td></td>-->
+<!--                        <td></td>-->
+<!--                        <td></td>-->
+<!--                      </tr>-->
+<!--                    </tbody>-->
+<!--                  </table>-->
+<!--                  <div id="mySwiper5" class="swiper">-->
+<!--                    <div class="swiper-wrapper">-->
+<!--                      &lt;!&ndash; Slides &ndash;&gt;-->
+<!--                      <div class="swiper-slide">Slide 1</div>-->
+<!--                      <div class="swiper-slide">Slide 2</div>-->
+<!--                      <div class="swiper-slide">Slide 3</div>-->
+
+<!--                    </div>-->
+<!--                    <div class="swiper-pagination"></div>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </div>-->
+
+<!--              <div id="myElement6">-->
+<!--                <div class="downupPopup-content">-->
+<!--                  <img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile">-->
+<!--                  <h3 class="nom-candidat">Nom du candidat 6</h3>-->
+<!--                  <table>-->
+<!--                    <tbody>-->
+<!--                      <tr>-->
+<!--                        <td></td>-->
+<!--                        <td></td>-->
+<!--                        <td></td>-->
+<!--                      </tr>-->
+<!--                    </tbody>-->
+<!--                  </table>-->
+<!--                  <div id="mySwiper6" class="swiper">-->
+<!--                    <div class="swiper-wrapper">-->
+<!--                      &lt;!&ndash; Slides &ndash;&gt;-->
+<!--                      <div class="swiper-slide">Slide 1</div>-->
+<!--                      <div class="swiper-slide">Slide 2</div>-->
+<!--                      <div class="swiper-slide">Slide 3</div>-->
+
+<!--                    </div>-->
+<!--                    <div class="swiper-pagination"></div>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </div>-->
+
+<!--              <div id="myElement7">-->
+<!--                <div class="downupPopup-content">-->
+<!--                  <img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile">-->
+<!--                  <h3 class="nom-candidat">Nom du candidat 7</h3>-->
+<!--                  <table>-->
+<!--                    <tbody>-->
+<!--                      <tr>-->
+<!--                        <td></td>-->
+<!--                        <td></td>-->
+<!--                        <td></td>-->
+<!--                      </tr>-->
+<!--                    </tbody>-->
+<!--                  </table>-->
+<!--                  <div id="mySwiper7" class="swiper">-->
+<!--                    <div class="swiper-wrapper">-->
+<!--                      &lt;!&ndash; Slides &ndash;&gt;-->
+<!--                      <div class="swiper-slide">Slide 1</div>-->
+<!--                      <div class="swiper-slide">Slide 2</div>-->
+<!--                      <div class="swiper-slide">Slide 3</div>-->
+
+<!--                    </div>-->
+<!--                    <div class="swiper-pagination"></div>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </div>-->
+
+<!--              <div id="myElement8">-->
+<!--                <div class="downupPopup-content">-->
+<!--                  <img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile">-->
+<!--                  <h3 class="nom-candidat">Nom du candidat 8</h3>-->
+<!--                  <table>-->
+<!--                    <tbody>-->
+<!--                      <tr>-->
+<!--                        <td></td>-->
+<!--                        <td></td>-->
+<!--                        <td></td>-->
+<!--                      </tr>-->
+<!--                    </tbody>-->
+<!--                  </table>-->
+<!--                  <div id="mySwiper8" class="swiper">-->
+<!--                    <div class="swiper-wrapper">-->
+<!--                      &lt;!&ndash; Slides &ndash;&gt;-->
+<!--                      <div class="swiper-slide">Slide 1</div>-->
+<!--                      <div class="swiper-slide">Slide 2</div>-->
+<!--                      <div class="swiper-slide">Slide 3</div>-->
+
+<!--                    </div>-->
+<!--                    <div class="swiper-pagination"></div>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </div>-->
+
+<!--              <div id="myElement9">-->
+<!--                <div class="downupPopup-content">-->
+<!--                  <img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile">-->
+<!--                  <h3 class="nom-candidat">Nom du candidat 9</h3>-->
+<!--                  <table>-->
+<!--                    <tbody>-->
+<!--                      <tr>-->
+<!--                        <td></td>-->
+<!--                        <td></td>-->
+<!--                        <td></td>-->
+<!--                      </tr>-->
+<!--                    </tbody>-->
+<!--                  </table>-->
+<!--                  <div id="mySwiper9" class="swiper">-->
+<!--                    <div class="swiper-wrapper">-->
+<!--                      &lt;!&ndash; Slides &ndash;&gt;-->
+<!--                      <div class="swiper-slide">Slide 1</div>-->
+<!--                      <div class="swiper-slide">Slide 2</div>-->
+<!--                      <div class="swiper-slide">Slide 3</div>-->
+
+<!--                    </div>-->
+<!--                    <div class="swiper-pagination"></div>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </div>-->
+
+<!--              <div id="myElement10">-->
+<!--                <div class="downupPopup-content">-->
+<!--                  <img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile">-->
+<!--                  <h3 class="nom-candidat">Nom du candidat 10</h3>-->
+<!--                  <table>-->
+<!--                    <tbody>-->
+<!--                      <tr>-->
+<!--                        <td></td>-->
+<!--                        <td></td>-->
+<!--                        <td></td>-->
+<!--                      </tr>-->
+<!--                    </tbody>-->
+<!--                  </table>-->
+<!--                  <div id="mySwiper10" class="swiper">-->
+<!--                    <div class="swiper-wrapper">-->
+<!--                      &lt;!&ndash; Slides &ndash;&gt;-->
+<!--                      <div class="swiper-slide">Slide 1</div>-->
+<!--                      <div class="swiper-slide">Slide 2</div>-->
+<!--                      <div class="swiper-slide">Slide 3</div>-->
+
+<!--                    </div>-->
+<!--                    <div class="swiper-pagination"></div>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </div>-->
+
+<!--              <div id="myElement11">-->
+<!--                <div class="downupPopup-content">-->
+<!--                  <img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile">-->
+<!--                  <h3 class="nom-candidat">Nom du candidat 11</h3>-->
+<!--                  <table>-->
+<!--                    <tbody>-->
+<!--                      <tr>-->
+<!--                        <td></td>-->
+<!--                        <td></td>-->
+<!--                        <td></td>-->
+<!--                      </tr>-->
+<!--                    </tbody>-->
+<!--                  </table>-->
+<!--                  <div id="mySwiper11" class="swiper">-->
+<!--                    <div class="swiper-wrapper">-->
+<!--                      &lt;!&ndash; Slides &ndash;&gt;-->
+<!--                      <div class="swiper-slide">Slide 1</div>-->
+<!--                      <div class="swiper-slide">Slide 2</div>-->
+<!--                      <div class="swiper-slide">Slide 3</div>-->
+
+<!--                    </div>-->
+<!--                    <div class="swiper-pagination"></div>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </div>-->
+
+<!--              <div id="myElement12">-->
+<!--                <div class="downupPopup-content">-->
+<!--                  <img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile">-->
+<!--                  <h3 class="nom-candidat">Nom du candidat 12</h3>-->
+<!--                  <table>-->
+<!--                    <tbody>-->
+<!--                      <tr>-->
+<!--                        <td></td>-->
+<!--                        <td></td>-->
+<!--                        <td></td>-->
+<!--                      </tr>-->
+<!--                    </tbody>-->
+<!--                  </table>-->
+<!--                  <div id="mySwiper12" class="swiper">-->
+<!--                    <div class="swiper-wrapper">-->
+<!--                      &lt;!&ndash; Slides &ndash;&gt;-->
+<!--                      <div class="swiper-slide">Slide 1</div>-->
+<!--                      <div class="swiper-slide">Slide 2</div>-->
+<!--                      <div class="swiper-slide">Slide 3</div>-->
+
+<!--                    </div>-->
+<!--                    <div class="swiper-pagination"></div>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </div>-->
 
 
               <!-- le footer sera rempli à partir de données lues dans un fichier Json-->
@@ -666,7 +668,7 @@
                 <footer id="bandeau">
                         <!-- Logo Hyblab -->
                           <a href="http://www.hyblab.fr/"><img id="hyblab" src="img/logo_hyblab.png" alt="Hyblab DataSport"></a>
-                      
+
                           <!-- Les organisateurs -->
                           <ul>
                             <li><a href="http://www.ouestmedialab.fr/"><img src="logo_oml.png" alt="Ouest Médialab"></a></li>
