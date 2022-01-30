@@ -1,5 +1,6 @@
 const canvas = document.getElementById("drawPlace");
 const ctx = canvas.getContext("2d");
+const sendDeactivated = true;
 
 const init_p2 = function () {
 	swiper.disable();
@@ -23,6 +24,9 @@ const init_p2 = function () {
 let coord = { x: 0, y: 0 };
 
 function reposition(event) {
+	// TODO check that drawing is inside canvas, then activate button color
+	// in another function
+	// Need to adapt css to add style for deactivated state
 	coord.x = event.clientX - canvas.getBoundingClientRect().x;
 	coord.y = event.clientY - canvas.getBoundingClientRect().y;
 }
