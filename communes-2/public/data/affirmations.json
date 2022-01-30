@@ -7,7 +7,7 @@
             ]
         },
         {
-            "string":"La population total de cette Commune est de ",
+            "string":"La population totale de cette Commune est de ",
             "columns":[
                 "population"
             ]
@@ -27,7 +27,7 @@
             ]
         },
         {
-            "string":"La Commune à votée au 2ème tour pour ",
+            "string":"La Commune à voté au 2nd tour pour ",
             "columns":[
                 "premierCandidatTour2",
                 "pourcentage1erCandidatTour2"

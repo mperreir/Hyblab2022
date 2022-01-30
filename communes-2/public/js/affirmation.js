@@ -6,6 +6,8 @@ var slideIndex = 1;
 page('/communes-2/affirmation', async function () {
     await renderTemplate(templates('./templates/affirmation.mustache'));
 
+    let selectedValue = null;
+
     let response = await fetch('api/carte');
     const dataCarte = await response.json();
 
@@ -14,10 +16,10 @@ page('/communes-2/affirmation', async function () {
 
     //Recuperation des div dans lesquelles on va afficher les affirmations
     let divAffirmations = document.getElementsByClassName('affirmation-content')
+    let gameData = JSON.parse(localStorage.getItem('gameData'));
 
     //Ajout de l'information a la fin de l'affirmation
     for (let i = 0; i < affirmations.length; i++) {
-        let gameData = JSON.parse(localStorage.getItem('gameData'));
         let informations = affirmations[i]['columns'];
         if(informations.length > 1) {
             for(let j = 0; j < informations.length-1; j++) {
@@ -36,8 +38,13 @@ page('/communes-2/affirmation', async function () {
 
     showAffirmation(slideIndex);
 
+    function test(nom) {
+        console.log(nom);
+    }
+
     // ------ Gestion de la map
-    var map = L.map('map').setView([46.87,-1.64], 8);
+
+    var map = L.map('map').setView([47.23,-1.70], 8);
     // On affiche la map google maps derrière.
     var tiles = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
         maxZoom: 18,
@@ -54,32 +61,78 @@ page('/communes-2/affirmation', async function () {
 
         // Changement de la couleur en fonction de la propriété "orientation"
         style : function(feature, layer) {
-            switch (feature.properties.orientation) {
-                case "Centre": return {color: "#00ff00"};
-                case "Droite": return {color: "#0000ff"};
-                case "Gauche": return {color: "#ff0000"};
+            switch (gameData['orientation']) {
+
+                case "Centre": 
+                    switch (feature.properties.orientation) {
+                        case "Centre": return {color: "#83C49E", opacity: 1};
+                        case "Droite": return {color: "#A0A0A0", opacity: 0.1}; // gris
+                        case "Gauche": return {color: "#A0A0A0", opacity: 0.1}; // gris
+                    };
+                case "Droite":
+                    switch (feature.properties.orientation) {
+                        case "Centre": return {color: "#A0A0A0", opacity: 0.1}; // gris
+                        case "Droite": return {color: "#5B6C9A", opacity: 1};
+                        case "Gauche": return {color: "#A0A0A0", opacity: 0.1}; // gris
+                    };
+                case "Gauche":
+                    switch (feature.properties.orientation) {
+                        case "Centre": return {color: "#A0A0A0", opacity: 0.1}; // gris
+                        case "Droite": return {color: "#A0A0A0", opacity: 0.1}; // gris
+                        case "Gauche": return {color: "#EA6D5B", opacity: 1};
+                    };
             }
         },
         // Affichage des villes qui ont seulement la proprité orientation à "Gauche" ou à "Droite"
         filter: function(feature, layer) {
-            return feature.properties.orientation == "Gauche" || feature.properties.orientation == "Droite";
+            return true;
         },
         // Pour chaque ville.
         onEachFeature: function(feature, layer) {
             // Voir ici les différentes possibilités pour chaque layer : https://leafletjs.com/reference.html#layer
 
             // Affichage d'un popup avec la propriété "nom" quand on click dessus.
-            layer.bindPopup(feature.properties.nom);
-            // Lors d'un click, on appelle la fonction "whenClicked"
-            layer.on({
-                click: whenClicked
-            });
+            if(feature.properties.orientation == gameData['orientation']) {
+                // Lors d'un click, on appelle la fonction "whenClicked"
+
+                layer.on({
+                    click: popupClicked
+                }); 
+            }
+
         }
     }).addTo(map);
 
-    function whenClicked(e) {
-        console.log(e.target.feature.properties.nom);
+    function popupClicked(e) {
+        let layer = e.target
+        let selectedValue = e.target.feature.properties.nom;
+
+        if(layer.hasOwnProperty('_popup')) {
+            layer.unbindPopup();
+        }
+        
+        // TODO : styliser le popup
+        layer.bindPopup(
+            '<p>' + selectedValue + '</p>' +
+            '<input type="button" value = "Oui" id="validateBtn" class="popupBtn" />' + 
+            '<input type="button" value = "Non" id="closeBtn" class="popupBtn" />'
+        ).openPopup();
+
+                        
+        let validateBtn = L.DomUtil.get('validateBtn');
+        let closeBtn = L.DomUtil.get('closeBtn');
+           
+        L.DomEvent.addListener(validateBtn, 'click', function(e) {
+            // On passe au truc suivant.
+            console.log(selectedValue);
+        });
+
+        L.DomEvent.addListener(closeBtn, 'click', function(e) {
+            // On ferme juste la Popup.
+            layer.closePopup();
+        });
     }
+
 });
 
 function sliderplus(n) {
