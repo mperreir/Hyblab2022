@@ -7,39 +7,45 @@ page('/communes-2/classementChange', async function () {
     creationClassementChange(classement);
 
     document.getElementById("save-btn").addEventListener('click', function () {
-        // TODO: vérifier qu'il rentre un nom
-        // TODO: gérer le cas où le pseudo est trop long
+        // TODO: vérifier qu'il rentre un nom (un message)
+        // TODO: gérer le cas où le pseudo est trop long (un message)
         let pseudoJoueur = document.getElementById("pseudo").value;
         let scoreJoueur = JSON.parse(localStorage.getItem('gameData')).score;
 
-        const mapData = new Map();
-        let decalage = false;
-        for (let index = 0; index < classement.length-1; index++) {
-            if (decalage){
-                mapData.set(classement[index+1].place,{place: classement[index+1].place, point: classement[index].point, nom: classement[index].nom});
-            } else {
-                if (parseInt(classement[index].point) > scoreJoueur) {
-                    mapData.set(classement[index].place,classement[index]);
-                } else {
-                    mapData.set(classement[index].place,{place: classement[index].place, point: scoreJoueur.toString(), nom: pseudoJoueur});
+        if (pseudoJoueur.length > 0 && pseudoJoueur.length <= 10) {
+            const mapData = new Map();
+            let decalage = false;
+            for (let index = 0; index < classement.length-1; index++) {
+                if (decalage){
                     mapData.set(classement[index+1].place,{place: classement[index+1].place, point: classement[index].point, nom: classement[index].nom});
-                    decalage = true;
+                } else {
+                    if (parseInt(classement[index].point) > scoreJoueur) {
+                        mapData.set(classement[index].place,classement[index]);
+                    } else {
+                        mapData.set(classement[index].place,{place: classement[index].place, point: scoreJoueur.toString(), nom: pseudoJoueur});
+                        mapData.set(classement[index+1].place,{place: classement[index+1].place, point: classement[index].point, nom: classement[index].nom});
+                        decalage = true;
+                    }
                 }
             }
+    
+            if (!decalage && classement[classement.length-1].point < scoreJoueur) {
+                mapData.set(classement[classement.length-1].place,{place: classement[classement.length-1].place, point: scoreJoueur.toString(), nom: pseudoJoueur});
+            } else if (!decalage && classement[classement.length-1].point > scoreJoueur) {
+                mapData.set(classement[classement.length-1].place,classement[classement.length-1]); 
+            }
+    
+            fetch('api/newClassement',{
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json; charset=utf-8'
+                },
+                method: 'POST',
+                body: JSON.stringify(Object.fromEntries(mapData))
+            });
+
+            page('/communes-2/gameChoice');
         }
-
-        if (!decalage) mapData.set(classement[classement.length-1].place,{place: classement[classement.length-1].place, point: scoreJoueur.toString(), nom: pseudoJoueur});
-
-        fetch('api/newClassement',{
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json; charset=utf-8'
-            },
-            method: 'POST',
-            body: JSON.stringify(Object.fromEntries(mapData))
-        });
-
-        page('/communes-2/gameChoice');
     });
 });
 
