@@ -1,0 +1,97 @@
+<!doctype html>
+
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <title>Hyblab 2022</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/simulation.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/loadingio/loading.css@v2.0.0/dist/loading.css" />
+  <link href="https://vjs.zencdn.net/7.6.6/video-js.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+  <script src="https://vjs.zencdn.net/7.6.6/video.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/slide1.js" defer></script>
+  <script src="js/slide2.js" defer></script>
+</head>
+<body>
+  <!-- Le conteneur sert à vérouiller les proportions (aspect ratio) du contenu de la page (ici des slides) -->
+  <div id="container">
+    <div id="mySwiper" class="swiper">
+    
+      <!-- le main est aussi le conteneur des différents slides (contenus à chaque fois dans des sections-->
+      <main class = "main-part">
+          <section id="first-section">
+              <header>
+                <div><img id="logo" src="img/logo/logo beige.svg"></div>
+                <div><img id="title" src="img/Simulation/simulation.svg"></div> 
+                <div><img id = "subtitle" src="img/Simulation/qui.svg"></div>
+              </header>
+              <div id="f-section">
+                <div class="main-section">
+                    <img class="anim-graphic" id="alignLeft" src = "img/Simulation/1/first.svg">
+                    <p class="alignLeft, center, anim-percentage">55%</p>
+                </div>
+                <div class="main-section">
+                    <img class="anim-graphic" id="alignLeft" src = "img/Simulation/1/second.svg">
+                    <p class="alignLeft, center, anim-percentage">20%</p>
+                </div>
+                <div class="main-section">
+                    <img class="anim-graphic" id="alignLeft" src = "img/Simulation/1/third.svg">
+                    <p class="alignLeft, center, anim-percentage">19%</p>
+                </div>
+                <div class="main-section">
+                    <img class="anim-graphic" id="alignLeft" src = "img/Simulation/1/white.svg">
+                    <p class="alignLeft, center, anim-percentage">6%</p>
+                </div>
+            </div>
+            <div id="s-section">
+                <div class="main-section">
+                    <img class="anim-graphic" id="alignLeft" src = "img/Simulation/2/first.svg">
+                    <p class="alignLeft, center, anim-percentage">36%</p>
+                </div>
+                <div class="main-section">
+                    <img class="anim-graphic" id="alignLeft" src = "img/Simulation/2/second.svg">
+                    <p class="alignLeft, center, anim-percentage">34%</p>
+                </div>
+                <div class="main-section">
+                    <img class="anim-graphic" id="alignLeft" src = "img/Simulation/2/third.svg">
+                    <p class="alignLeft, center, anim-percentage">18%</p>
+                </div>
+                <div class="main-section">
+                    <img class="anim-graphic" id="alignLeft" src = "img/Simulation/2/white.svg">
+                    <p class="alignLeft, center, anim-percentage">12%</p>
+                </div>
+            </div>
+            <div id="t-section">
+                <div class="main-section">
+                    <img class="anim-graphic" id="alignLeft" src = "img/Simulation/3/first.svg">
+                    <p class="alignLeft, center, anim-percentage">36%</p>
+                </div>
+                <div class="main-section">
+                    <img class="anim-graphic" id="alignLeft" src = "img/Simulation/3/second.svg">
+                    <p class="alignLeft, center, anim-percentage">33%</p>
+                </div>
+                <div class="main-section">
+                    <img class="anim-graphic" id="alignLeft" src = "img/Simulation/3/third.svg">
+                    <p class="alignLeft, center, anim-percentage">21%</p>
+                </div>
+                <div class="main-section">
+                    <img class="anim-graphic" id="alignLeft" src = "img/Simulation/3/white.svg">
+                    <p class="alignLeft, center, anim-percentage">10%</p>
+                </div>
+            </div>
+            <div>
+                <p>test</p>
+            </div>
+              <footer></footer>
+          </section>
+          
+      </main>
+    </div>
+    <div class="swiper-pagination"></div>
+</div>
+</body>
+</html>
