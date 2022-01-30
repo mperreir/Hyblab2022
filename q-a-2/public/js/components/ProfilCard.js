@@ -23,7 +23,7 @@ class ProfilCard extends React.Component {
                         <p><span className='profilCard_label'>Orientation Politique&nbsp;:</span></p><p>{this.props.profil.politicalOrientation}</p>
                     </div>
                     <div className='profilCard_div_tex'>
-                        <p><span className='profilCard_label'>Justice&nbsp;:</span></p><p>{this.props.profil.justice}</p>
+                        <p><span className='profilCard_label'>Justice&nbsp;:</span></p><p>{this.props.profil.legalStatus}</p>
                     </div>
                 </div>
             </div>
