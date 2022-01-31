@@ -56,7 +56,7 @@ app.get('/affirmations', function(req, res) {
 
     //Selection aléatoire des 5 affirmations
     let nombre_affirmations = 0;
-    console.log(affirmations)
+    //console.log(affirmations)
 
     while(nombre_affirmations < 5) {
         let indice = Math.floor(Math.random()*(affirmations.length));

@@ -57,6 +57,12 @@
     width: 100%;
 }
 
+/* TODO */
+.numeroCommune {
+    color:black;
+    font-size: 15px;
+}
+
 #affirmation{
 
     transition: bottom 1s;
