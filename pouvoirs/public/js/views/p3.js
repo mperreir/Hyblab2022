@@ -1,6 +1,8 @@
 const init_p3 = function() {
  "use strict";
 
+  swiper.disable();
+
   function css(elements, style) {
     elements.forEach(element => {
       for (const property in style)
@@ -134,6 +136,7 @@ const init_p3 = function() {
   const colors = ["red", "#1be5b9", "red"];
   function changeText(nb, txt, btn) {
     if (state === nb){
+      swiper.disable();
       cancel.play();
       textContainer.innerHTML = originalText;
       btn.querySelector("img").remove();
@@ -149,10 +152,12 @@ const init_p3 = function() {
         }
       });
       if (nb===2){
+        swiper.enable();
         goodAns.play();
         btn.appendChild(valid);
       }
       else{
+        swiper.disable();
         badAns.play();
         btn.appendChild(invalid);
         shakeElement(diBox);

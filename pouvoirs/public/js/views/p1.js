@@ -10,6 +10,8 @@ const diag = function(dBox, text) {
 const init_p1 = function() {
  "use strict";
 
+ swiper.disable();
+
   function css(elements, style) {
     elements.forEach(element => {
       for (const property in style)
@@ -141,6 +143,7 @@ const init_p1 = function() {
   function changeText(nb, txt, btn) {
     // shakeElement(btn);
     if (state === nb){
+      swiper.disable();
       cancel.play();
       textContainer.innerHTML = originalText;
       btn.querySelector("img").remove();
@@ -157,8 +160,10 @@ const init_p1 = function() {
       if (nb===2){
         goodAns.play();
         btn.appendChild(valid);
+        swiper.enable();
       }
       else{
+        swiper.disable();
         badAns.play();
         btn.appendChild(invalid);
         // shakeElement(btn);
