@@ -178,12 +178,21 @@ body {
   width: 100%;
 }
 
-#background-falling {
+#background-container {
   height: 60%;
   width: 100%;
 }
+#moua-falling {
+  height: 60%;
+  width: 100%;
+}
+#moua-falling svg {
+  position: absolute;
+  bottom: -3%;
+  left: 0%;
+}
 
-#background-falling svg {
+#background-container svg {
   position: absolute;
   top: 0;
 }
