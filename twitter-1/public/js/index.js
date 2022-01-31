@@ -32,7 +32,7 @@ const swiper = new Swiper("#mySwiper", {
 // });
 
 anime({
-  delay: 1000,
+  delay: 1500,
   targets: '#loader',
   opacity: '0',
   'z-index' : -1,

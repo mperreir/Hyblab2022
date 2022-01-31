@@ -46,6 +46,14 @@ Date.prototype.isSameWeek = function(date)
         && this.getWeek() === date.getWeek();
 };
 
+Date.prototype.isBetweenWeekBefore = function(date)
+{
+    // return this.getFullYear() === date.getFullYear()
+    //     && this.getWeek() === date.getWeek();
+    const semaine_flottante = new Date(this.getFullYear(), this.getMonth(), this.getDay() - 7);
+    return semaine_flottante < date < this;
+};
+
 module.exports = db;
 module.exports.tweets_name = "tweets";
 module.exports.candidats_name = "candidats";
@@ -55,7 +63,7 @@ module.exports.config_name = "config";
 
 module.exports.getTweetsSemaine = () => {
     return module.exports.getTweets()
-        .filter(tweet => (new Date(parseInt(tweet.created_at) * 1000)).isSameWeek(new Date()));
+        .filter(tweet => (new Date()).isBetweenWeekBefore(new Date(parseInt(tweet.created_at) * 1000)));
 }
 
 module.exports.getTweets = () => {
@@ -200,30 +208,46 @@ async function autoFetchData() {
     while (true) {
         await new Promise(resolve => setTimeout(resolve, 60000));
         try {
+
             let config = db.fetch(module.exports.config_name);
             if (config === undefined) {
                 config = {
                     fetch_delay_sec: 60*60*6,
-                    url_fetch_candidats: "https://cdn-apps.letelegramme.fr/twitter/candidats_information.csv",
+                    url_fetch_candidats: "https://cdn-apps.letelegramme.fr/twitter/candidats_information_filtre.csv",
                     url_fetch_followers: "https://cdn-apps.letelegramme.fr/twitter/nb_followers_par_candidat_et_par_jour.csv",
                     url_fetch_tweets: "https://cdn-apps.letelegramme.fr/twitter/tweets_candidats.csv",
                 }
             }
+            await new Promise(resolve => setTimeout(resolve, parseInt(config.fetch_delay_sec)*1000));
 
-            const candidats_csv = await (await fetch(config.url_fetch_candidats)).text();
-            module.exports.candidats_update(candidats_csv, async () => {
+            try {
+                const candidats_csv = await (await fetch(config.url_fetch_candidats)).text();
+                module.exports.candidats_update(candidats_csv, async () => {
+                    console.log("Auto update db candidat done !");
+                });
+            }catch (e) {}
+
+            try {
                 const followers_csv = await (await fetch(config.url_fetch_followers)).text();
                 module.exports.followers_update(followers_csv, async () => {
-                    const tweets_csv = await (await fetch(config.url_fetch_tweets)).text();
-                    module.exports.tweets_update(tweets_csv, () => {
-                        console.log("Auto update db done !")
-                    });
+                    console.log("Auto update db followers done !");
                 });
-            });
+            }catch (e) {}
 
-            await new Promise(resolve => setTimeout(resolve, parseInt(config.fetch_delay_sec)*1000));
+            try {
+                const tweets_csv = await (await fetch(config.url_fetch_tweets)).text();
+                module.exports.tweets_update(tweets_csv, () => {
+                    console.log("Auto update db tweets done !");
+                });
+            }catch (e) {}
+
+
+
+
+
         } catch (e) {
             console.error(e);
         }
+
     }
 }
