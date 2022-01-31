@@ -13,7 +13,7 @@
             ]
         },
         {
-            "string":"Le taux d'abstention de la Commune est de  AAA %.",
+            "string":"Le taux d'abstention de la Commune est de AAA %.",
             "columns":[
                 "tauxAbstention"
             ]
@@ -27,7 +27,7 @@
             ]
         },
         {
-            "string":"La Commune à voté au 2nd tour pour  AAA à BBB %.",
+            "string":"La Commune à voté au 2nd tour pour AAA à BBB %.",
             "columns":[
                 "premierCandidatTour2",
                 "pourcentage1erCandidatTour2"
