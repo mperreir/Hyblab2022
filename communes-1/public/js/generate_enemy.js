@@ -56,4 +56,5 @@ function generate_enemy(code_commune_joueur) {
 	return adversaires;
 }
 
+module.exports.generate_enemy = generate_enemy
 
