@@ -1,5 +1,9 @@
 page('/communes-2/information', async function () {
     await renderTemplate(templates('./templates/information.mustache'));
+
+    pie();
+    histo();
+    
 });
 
 let gameData = JSON.parse(localStorage.getItem('gameData'));
@@ -57,22 +61,23 @@ console.log(data2t);
 
 function histo() {
 
-    const margin = 60;
-    const width = 1000 - 2 * margin;
-    const height = 600 - 2 * margin;
+    const margin = 15;
+    const width = 360 - 2 * margin;
+    const height = 250 - 2 * margin;
 
     //let col = ["red", "blue","green","black","yelow","orange","white","red", "blue","green"];
     let col = ["red", "blue"];
 
-    document.querySelector('#nomVariable').textContent = ' ('+variableVoix+')';
     d3.select("#histogramme").selectAll("*").remove();
     let svg = d3.select("#histogramme")
         .append("svg")
         .attr("width", width + 2 * margin)
-        .attr("height", height +  2 * margin)
+        .attr("height", height +  4 * margin)
 
     const chart = svg.append('g')
-    .attr('transform', `translate(${margin}, ${margin})`);
+    .attr('transform', `translate(${margin * 2.8}, ${margin * 2})`)
+    
+
 
     const color = d3.scaleOrdinal(col)
     color.domain(d => d.NomC)
@@ -88,11 +93,12 @@ function histo() {
     const xScale = d3.scaleBand()
         .range([0, width])
         .domain(dataSet.map(data => data.NomC))
-        .padding(0.2)
+        .padding(0.25)
 
     chart.append('g')
         .attr('transform', `translate(0, ${height})`)
-        .call(d3.axisBottom(xScale));
+        .call(d3.axisBottom(xScale))
+        .style('font-size', '5px')
 
     const makeYLines = () => d3.axisLeft()
         .scale(yScale)
@@ -102,6 +108,7 @@ function histo() {
         .call(makeYLines()
           .tickSize(-width, 0, 0)
           .tickFormat('')
+          
         )
 
     const barGroups = chart.selectAll()
@@ -112,17 +119,18 @@ function histo() {
     barGroups
         .append('rect')
         .attr('class', 'bar')
-        .attr('x', (g) => xScale(g.NomC))
-        .attr('y', (g) => yScale(g.Voix))
-        .attr('height', (g) => height - yScale(g.Voix))
-        .attr('width', xScale.bandwidth())
+        .attr('x', (g) => xScale(g.NomC) + 2 )
+        .attr('y', (g) => yScale(g.Voix) )
+        .attr('height', (g) => height - yScale(g.Voix) )
+        .attr('width', xScale.bandwidth() - 4)
         .attr('fill', d => color(d.NomC))
 
     barGroups 
       .append('text')
       .attr('class', 'value')
       .attr('x', (a) => xScale(a.NomC) + xScale.bandwidth() / 2)
-      .attr('y', (a) => yScale(a.Voix) - 5)
+      .attr('y', (a) => yScale(a.Voix))
+      .style('font-size', '5px')
       .attr('text-anchor', 'middle')
       .text((a) => `${a.Voix}%`)
 
@@ -130,14 +138,16 @@ function histo() {
     svg.append('text')
       .attr('class', 'label')
       .attr('x', width / 2 + margin)
-      .attr('y', height + margin * 1.7)
+      .attr('y', height + margin * 3.5)
+      .style('font-size', '10px')
       .attr('text-anchor', 'middle')
       .text('Candidats')
 
     svg.append('text')
       .attr('class', 'title')
-      .attr('x', width / 2 + margin)
-      .attr('y', 40)
+      .attr('x', width / 2 )
+      .attr('y', 14)
+      .style('font-size', '13px')
       .attr('text-anchor', 'middle')
       .text(`Voix des candidats au 1er tour à ${dataSet[0].Commune}`)
 
@@ -145,7 +155,8 @@ function histo() {
     svg.append('text')
       .attr('class', 'label')
       .attr('x', -(height / 2) - margin)
-      .attr('y', margin / 2.4)
+      .attr('y', margin )
+      .style('font-size', '10px')
       .attr('transform', 'rotate(-90)')
       .attr('text-anchor', 'middle')
       .text(' % de voix')
@@ -158,7 +169,7 @@ function pie(){
 
     let col = ["red", "blue"];
 
-    const size = 1000;
+    const size = 350;
     const fourth = size / 4;
     const half = size / 2;
     const labelOffset = fourth / 2;
@@ -167,7 +178,7 @@ function pie(){
 
     const chart = container.append('svg')
         .style('width', '100%')
-        .attr('viewBox', `10 20 ${size-20} ${size}`);
+        .attr('viewBox', `6 10 ${size-5} ${size}`);
 
     const plotArea = chart.append('g')
         .attr('transform', `translate(${half}, ${half/1.5})`);
@@ -209,28 +220,22 @@ function pie(){
         .append('text')
         .style('text-anchor', 'middle')
         .style('alignment-baseline', 'middle')
-        .style('font-size', '15px')
+        .style('font-size', '7px')
         .attr('transform', d => `translate(${arcLabel.centroid(d)})`)
 
 
     labels.append('tspan')
-          .attr('y', '0.1em')
+          .attr('y', '0.01em')
           .attr('x', 0)
           .text(d => `${d.data.Nom2T} (${d.value}%)`);
 
     chart.append('text')
           .attr('class', 'title')
           .attr('x', size/2)
-          .attr('y', 40)
+          .attr('y', 20)
+          .style('font-size', '12px')
           .attr('text-anchor', 'middle')
           .text(`Voix des candidats au 2e tour à ${dataSet[0].Commune}`)
 
 
 }
-
-
-
-
-
-histo();
-pie();
