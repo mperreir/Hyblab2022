@@ -1,10 +1,10 @@
-"use strict";
+'use strict';
 
 let selectedCity;
 let percentageBet;
 
 async function loadSms() {
-    const container = document.getElementById("container");
+    const container = document.getElementById('container');
 
 
     const messages =
@@ -93,11 +93,11 @@ async function loadSms() {
         ];
 
 
-    const headerHtml = await loadTemplate('templates/header.ejs', []);
+    const headerHtml = await loadTemplate('templates/header.ejs', {});
     container.innerHTML = headerHtml;
     date();
 
-    let screenHtml = await loadTemplate('templates/sms/sms_tread.ejs', []);
+    let screenHtml = await loadTemplate('templates/sms/sms_tread.ejs', {});
     document.getElementById('screen').innerHTML = screenHtml;
 
     let smsTread = document.getElementById('sms-tread');
@@ -106,8 +106,10 @@ async function loadSms() {
     const delay = 200;
     let displayedSMSIndex = 0;
 
+
     let citySearchUsed = false;
     await createSMSElements(messages, smsTread);
+
 
 
     let smsScrollingAnimation = anime({
@@ -147,7 +149,7 @@ async function loadSms() {
                 }
             }
         ],
-    })
+    });
 
     let displayedSMSInterval = setInterval(displaySMS, delay);
 
@@ -246,23 +248,20 @@ function getTranslateYSMS(smsTread, i) {
 
 
 function handleSlider() {
-    const slider = document.getElementById("sms-slider-input");
+    const slider = document.getElementById('sms-slider-input');
     const min = slider.min
     const max = slider.max
     const value = slider.value
 
-    const numberDiv = document.getElementById("sms-number");
-    numberDiv.innerHTML = slider.value + "%";
+    const numberDiv = document.getElementById('sms-number');
+    numberDiv.innerHTML = `${slider.value}%`;
 
     slider.style.background = `linear-gradient(to right, #e4e5fa 0%, #e4e5fa ${(value - min) / (max - min) * 100}%, #e4e5fa56 ${(value - min) / (max - min) * 100}%, #e4e5fa56 100%)`
 
     slider.oninput = function (e) {
         this.style.background = `linear-gradient(to right, #e4e5fa 0%, #e4e5fa ${(this.value - this.min) / (this.max - this.min) * 100}%, #e4e5fa56 ${(this.value - this.min) / (this.max - this.min) * 100}%, #e4e5fa56 100%)`;
-
-        numberDiv.innerHTML = e.target.value + "%";
-
+        numberDiv.innerHTML = `${e.target.value}%`;
     };
-
 }
 
 

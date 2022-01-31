@@ -1,14 +1,6 @@
 async function loadFileExplorer() {
-    const data =
-    {
-        filesData: [
-            {
-                title: "Votes blancs",
-                progress: 66
-            },
-            {
-                title: "Nouveaux habitants",
-                progress: 66
+    const container = document.getElementById('container');
+
 
             },
             {
@@ -36,14 +28,15 @@ async function loadFileExplorer() {
     const container = document.getElementById("screen");
 
     const fileExplorerHtml = await loadTemplate('templates/file_explorer/file_explorer.ejs', data);
+
     container.innerHTML = fileExplorerHtml;
 
-    const fileProgressBars = document.getElementsByClassName("file-explorer-item-file-progress-bar");
+    const fileProgressBars = document.getElementsByClassName('file-explorer-item-file-progress-bar');
 
     let i = 0;
-    for (const fileData of data.filesData) {
+    for (const fileData of FOLDER_DATA.filesData) {
         if (fileData.progress !== 100) {
-            fileProgressBars[i].style.width = fileData.progress + "%";
+            fileProgressBars[i].style.width = `${fileData.progress}%`;
             i++;
         }
     }

@@ -1,4 +1,37 @@
-"use strict";
+'use strict';
+
+const FOLDER_TITLES = {
+    filesData: [
+        {
+            title: 'Votes blancs',
+            progress: 66
+        },
+        {
+            title: 'Nouveaux habitants',
+            progress: 66
+        },
+        {
+            title: 'Non-votants',
+            progress: 100
+        },
+        {
+            title: 'Mineurs',
+            progress: 33
+        },
+        {
+            title: 'Abstention',
+            progress: 100
+        },
+        {
+            title: 'Étrangers',
+            progress: 33
+        },
+        {
+            title: 'Les pourcentages finaux second tour 2017',
+            progress: 16.5
+        }
+    ]
+};
 
 function date() {
     const date = document.getElementById('header-date');
@@ -9,12 +42,12 @@ function date() {
     }, 60000);
     let dateContent;
     if (text.getHours < 10) {
-        dateContent = "0" + text.getHours() + ":";
+        dateContent = '0' + text.getHours() + ':';
     } else {
-        dateContent = text.getHours() + ":";
+        dateContent = text.getHours() + ':';
     }
     if (text.getMinutes() < 10) {
-        dateContent += "0" + text.getMinutes();
+        dateContent += '0' + text.getMinutes();
     } else {
         dateContent += text.getMinutes();
     }
@@ -22,14 +55,7 @@ function date() {
     date.textContent = dateContent;
 }
 
-// const templateTest = fetch('templates/folder-absention.ejs').then(value => {
-//     console.log(value.text().then(value => {
-//         const rendered = ejs.render(value, { votingHab: 100000 });
-//         document.getElementById('container').innerHTML = rendered;
-//     }));
-// });
-
-// const container = document.getElementById("container");
+// const container = document.getElementById('container');
 
 
 
@@ -38,7 +64,10 @@ function date() {
 // })
 
 
+
 // loadStart();
+//loadFolder();
+
 // loadFileExplorer();
 loadSms();
 // loadEnd();
@@ -50,5 +79,3 @@ async function loadTemplate(path, data) {
     const fileExplorerHtml = await fileExplorerTemplate.text();
     return ejs.render(fileExplorerHtml, data);
 }
-
-
