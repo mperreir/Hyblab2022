@@ -316,7 +316,7 @@ th, td {
 }
 
 #fourth-slide{
-    background-color: rgb(77, 109, 214);
+    background-color: #fff;
 
 }
 
@@ -349,11 +349,12 @@ th, td {
     background: #fff; 
     box-shadow: 7px 7px 25px 0 rgba(0,0,0,0.25);
     margin: auto;
+    margin-top: 0.5em;
 }
 
 #theme-pic{
     justify-content: center;
-    display: none;
+    display: flex;
 }
 
 img#theme {
@@ -373,13 +374,13 @@ img#theme {
     position: absolute;
     margin-left:-25%;
     margin-top:calc(-25% * 9 / 16 ); /* margins are relative to the element width... :-( */
-
-
+}
 
 #last-slide{
     font-size: 22%;
-    background : #a08aff;
+    background: #a08aff;
 }
+
 /* Footer of last slide is at the bottom and content is centered */
 #first-slide footer{
     bottom: 5%;
