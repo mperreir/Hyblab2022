@@ -9,7 +9,7 @@ page('/communes-2/gameChoice', async function () {
 
     document.getElementById("gauche-btn").addEventListener('click', function () {
         initializeGameData('Gauche').then( () => {
-            page('/communes-2/resultatInterTrue');
+            page('/communes-2/affirmation');
         })
     });
 
@@ -33,9 +33,11 @@ const initializeGameData = async orientation => {
 
     localStorage.setItem('gameData', JSON.stringify({
         'orientation': orientation,
-        'score' : 0,
-        'numeroEssaiCommune': 1, // Soit 1 soit 2, si 2 alors les points sont divisés par 2.
+        'scoreTotal' : 0,
+        'scoreIntermediaire' : 0,
+        'numeroEssai': 1, // Soit 1 soit 2, si 2 alors les points sont divisés par 2.
         'communeCourante' : data.pop(),
-        'communes': data
+        'communes': data,
+        'nbreCommunesTrouvees': 0
     }));
 }

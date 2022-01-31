@@ -11,6 +11,14 @@ page('/communes-2/affirmation', async function () {
     let gameData = JSON.parse(localStorage.getItem('gameData'));
     console.log(gameData);
 
+    // EWEN POUR TESTER SI ON EST AU DEUXIEME ESSAI (donc qu'il faut afficher indice en plus) 
+
+    if (gameData['numeroEssai'] == 2) {
+
+    }
+
+    // FIN
+
     const nbMaxCommunes = 5;
 
     let response = await fetch('api/carte');
@@ -193,8 +201,7 @@ function roundEnding(selectedValue, rightValue) {
     let gameData = JSON.parse(localStorage.getItem('gameData'));
 
 
-    if(gameData['numeroEssaiCommune'] == 1) {
-        console.log('1');
+    if(gameData['numeroEssai'] == 1) {
         if(selectedValue == rightValue) {
             // Gagné premier.
             console.log('Gagne premier');
@@ -205,7 +212,6 @@ function roundEnding(selectedValue, rightValue) {
             nbEssaiSuivant = 2;
         }
     } else {
-        console.log('2');
         if (selectedValue == rightValue) {
             // Gagné deuxieme essai
             console.log('Gagne second');
@@ -223,12 +229,18 @@ function roundEnding(selectedValue, rightValue) {
     localStorage.setItem('gameData', JSON.stringify({
         'orientation': gameData['orientation'],
         'score' : gameData['score'] + scoreRound,
-        'numeroEssaiCommune': nbEssaiSuivant,
+        'nbreCommunesTrouvees': gameData['nbreCommunesTrouvees'] + (selectedValue == rightValue ? 1 : 0),
+        'numeroEssai': nbEssaiSuivant,
         'communeCourante' : nbEssaiSuivant == 2 ? gameData['communeCourante'] : gameData['communes'].pop(),
         'communes': gameData['communes']
     }));
 
-    page('/communes-2/resultatInter');
+    // REDIRECTION VERS LA BONNE PAGE. 
+    if(selectedValue == rightValue) page('/communes-2/resultatInterTrue')
+    else {
+        // Si on s'est trompés et que c'était le second essai, on arrive sur la page d'échec, sinon sur la page avec un indice en plus
+        nbEssaiSuivant == 1 ? page('/communes-2/resultatInterFalse') : page('/communes-2/affirmation');
+    }
 }
 
 function sliderplus(n) {
