@@ -46,6 +46,14 @@ Date.prototype.isSameWeek = function(date)
         && this.getWeek() === date.getWeek();
 };
 
+Date.prototype.isBetweenWeekBefore = function(date)
+{
+    // return this.getFullYear() === date.getFullYear()
+    //     && this.getWeek() === date.getWeek();
+    const semaine_flottante = new Date(this.getFullYear(), this.getMonth(), this.getDay() - 7);
+    return semaine_flottante < date < this;
+};
+
 module.exports = db;
 module.exports.tweets_name = "tweets";
 module.exports.candidats_name = "candidats";
@@ -55,7 +63,7 @@ module.exports.config_name = "config";
 
 module.exports.getTweetsSemaine = () => {
     return module.exports.getTweets()
-        .filter(tweet => (new Date(parseInt(tweet.created_at) * 1000)).isSameWeek(new Date()));
+        .filter(tweet => (new Date()).isBetweenWeekBefore(new Date(parseInt(tweet.created_at) * 1000)));
 }
 
 module.exports.getTweets = () => {
@@ -200,6 +208,8 @@ async function autoFetchData() {
     while (true) {
         await new Promise(resolve => setTimeout(resolve, 60000));
         try {
+            await new Promise(resolve => setTimeout(resolve, parseInt(config.fetch_delay_sec)*1000));
+
             let config = db.fetch(module.exports.config_name);
             if (config === undefined) {
                 config = {
@@ -221,7 +231,6 @@ async function autoFetchData() {
                 });
             });
 
-            await new Promise(resolve => setTimeout(resolve, parseInt(config.fetch_delay_sec)*1000));
         } catch (e) {
             console.error(e);
         }
