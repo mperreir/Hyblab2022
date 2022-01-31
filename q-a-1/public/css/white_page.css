@@ -79,8 +79,9 @@ header > div{
     
 }
 
-#choix_candidats > img{
+#choix_candidats > input{
     width: 20%;
+    background-color: #FFFFFF;
 }
 
 #subtitle{
