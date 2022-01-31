@@ -1,6 +1,5 @@
 select = document.querySelector('#top-select');
 tweet = document.querySelector('#tweets');
-theme_pic_div = document.querySelector('#theme-pic');
 theme_pic = document.querySelector('img#theme');
 let themes;
 
@@ -125,10 +124,9 @@ async function fetchTopTweetsTheme(theme_id) {
 
 function TopTweetsThemePic(theme_id) {
     page = document.querySelector('#fourth-slide');
-    theme_pic_div.style.display = "flex";
     switch (theme_id) {
         case "0":
-          theme_pic_div.style.display = "none";
+          theme_pic.src = './img/topics/podium.png';
           page.style.background= "#fff";
           break;
         case "1":
