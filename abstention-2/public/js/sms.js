@@ -56,6 +56,10 @@ async function loadSms() {
             style: ""
         },
         {
+            type: "city-search",
+            style: ""
+        },
+        {
             type: "sms",
             sender: "THOMAS",
             message: "OK c’est parti pour <span id='sms-text-city-name'></span>  ! Alors tu paries combien ? Ne t’inquiète pas... On arrondit à 5%.",
@@ -102,13 +106,14 @@ async function loadSms() {
     const delay = 200;
     let displayedSMSIndex = 0;
 
+    let citySearchUsed = false;
     await createSMSElements(messages, smsTread);
 
 
-    const smsScrollingAnimation = anime({
+    let smsScrollingAnimation = anime({
         targets: '.sms-tread>*',
         easing: 'easeInOutQuart',
-        duration: delay * 10,
+        duration: delay * 11,
         delay: delay * 4,
         keyframes: [
             { translateY: '-=' + getTranslateYSMS(smsTread, 0) },
@@ -120,17 +125,36 @@ async function loadSms() {
             { translateY: '-=' + getTranslateYSMS(smsTread, 6) },
             { translateY: '-=' + getTranslateYSMS(smsTread, 8) },
             { translateY: '-=' + getTranslateYSMS(smsTread, 9) },
-            { translateY: '-=' + getTranslateYSMS(smsTread, 10) }
+            // { translateY: '-=' + getTranslateYSMS(smsTread, 10) },
+            {
+                translateY: () => {
+                    if (citySearchUsed) {
+                        return '-=' + getTranslateYSMS(smsTread, 10)
+                    }
+                    else {
+                        return '-=' + (getTranslateYSMS(smsTread, 10) - 70);
+
+                    }
+
+                }
+            },
+            {
+                translateY: () => {
+                    if (citySearchUsed) {
+                        return '-=' + getTranslateYSMS(smsTread, 11)
+                    }
+
+                }
+            }
         ],
     })
 
     let displayedSMSInterval = setInterval(displaySMS, delay);
 
-    setTimeout(() => { smsScrollingAnimation.pause(); pauseDisplaySMS() }, delay * 8);
+    setTimeout(() => { smsScrollingAnimation.pause(); pauseDisplaySMS() }, delay * 9);
 
     function displaySMS() {
         smsTread.children.item(displayedSMSIndex).style.visibility = 'visible';
-        console.log(displayedSMSIndex);
         displayedSMSIndex++;
         if (displayedSMSIndex === messages.length) {
             clearInterval(displayedSMSInterval);
@@ -144,28 +168,66 @@ async function loadSms() {
     document.getElementById('random-city-btn').addEventListener('click', async () => {
         selectedCity = await pickRandomCity();
         displayedSMSInterval = setInterval(displaySMS, delay);
-        console.log(selectedCity);
         smsScrollingAnimation.play();
         document.getElementById('random-city-btn').disabled = true;
         document.getElementById('sms-text-city-name').innerHTML = selectedCity;
+        document.getElementById('random-city-btn').style.opacity = "50%"
 
         setTimeout(() => { smsScrollingAnimation.pause(); pauseDisplaySMS() }, delay * 4);
 
-    })
+    });
+
+    document.getElementById('choose-city-btn').addEventListener('click', async () => {
+        selectedCity = await pickRandomCity();
+        // displayedSMSInterval = setInterval(displaySMS, delay);
+        document.getElementById('sms-city-search').style.display = 'block';
+        // smsScrollingAnimation.play();
+        document.getElementById('choose-city-btn').disabled = true;
+        // document.getElementById('sms-text-city-name').innerHTML = selectedCity;
+        document.getElementById('random-city-btn').style.opacity = "50%"
+
+
+    });
+
+    const autoComplete = handleCitySearch()
+    autoComplete.input.addEventListener("selection", function (event) {
+        const feedback = event.detail;
+        // Prepare User's Selected Value
+        const selection = feedback.selection.value;
+
+        // Replace Input value with the selected value
+        autoComplete.input.value = selection;
+
+        selectedCity = selection;
+
+        autoComplete.input.disabled = true;
+
+        document.getElementById('sms-text-city-name').innerHTML = selectedCity;
+        displayedSMSInterval = setInterval(displaySMS, delay);
+        smsScrollingAnimation.play();
+        console.log(smsScrollingAnimation);
+
+        citySearchUsed = true;
+        setTimeout(() => { smsScrollingAnimation.pause(); pauseDisplaySMS() }, delay * 4);
+
+
+    });
+
 
     document.getElementById('choose-percentage-btn').addEventListener('click', async () => {
         percentageBet = document.getElementById("sms-slider-input").value;
         displayedSMSInterval = setInterval(displaySMS, delay);
-        document.getElementById('random-city-btn').disabled = true;
+        document.getElementById('choose-percentage-btn').disabled = true;
         document.getElementById('sms-text-percentage').innerHTML = percentageBet;
-        smsScrollingAnimation.play();
 
-    })
+        smsScrollingAnimation.play();
+    });
 
     document.getElementById('download-btn').addEventListener('click', async () => {
         loadFileExplorer();
 
-    })
+    });
+
 
 }
 
@@ -179,7 +241,7 @@ async function pickRandomCity() {
 
 function getTranslateYSMS(smsTread, i) {
     const boundingRect = smsTread.children.item(smsTread.children.length - i - 1).getBoundingClientRect();
-    return (boundingRect.bottom - boundingRect.top + 40);
+    return (boundingRect.bottom - boundingRect.top + 60);
 }
 
 
@@ -215,10 +277,13 @@ async function createSMSElements(messages, smsTread) {
         else if (message.type === 'button') {
             smsHtml = await loadTemplate('templates/sms/button.ejs', message);
             smsTread.insertAdjacentHTML('beforeend', smsHtml);
-            console.log(smsHtml);
         }
         else if (message.type === 'number') {
             smsHtml = await loadTemplate('templates/sms/number.ejs', message);
+            smsTread.insertAdjacentHTML('beforeend', smsHtml);
+        }
+        else if (message.type === 'city-search') {
+            smsHtml = await loadTemplate('templates/sms/city_search.ejs', message);
             smsTread.insertAdjacentHTML('beforeend', smsHtml);
         }
         else {
