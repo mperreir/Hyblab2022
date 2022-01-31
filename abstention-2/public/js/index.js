@@ -58,16 +58,18 @@ function date() {
 // const container = document.getElementById('container');
 
 
-// loadStart();
 
 // loadTemplate('templates/sms.ejs', test).then(value => { container.innerHTML = value ;
 // date();
 // })
 
 
-loadFolder();
+
+// loadStart();
+//loadFolder();
+
 // loadFileExplorer();
-// loadSms();
+loadSms();
 // loadEnd();
 // loadRebet();
 
