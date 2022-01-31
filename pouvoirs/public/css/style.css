@@ -444,7 +444,7 @@ body {
 
 #p6 .dialog .dialog-text {
   font-family: "Nunito";
-  font-size: 12px;
+  font-size: 1.6vh;
   width: 82%;
   margin: auto;
   color: white;
@@ -492,7 +492,7 @@ body {
 #p6 .illu-fin {
   display: none;
   width: 95%;
-  margin: 0% 2.5%;
+  margin: -10% 2.5%;
 }
 
 /* ---------- Important media queries for easy responsive content :-) ----------------- */
