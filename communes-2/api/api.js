@@ -31,16 +31,7 @@ app.get('/communes/:orientation', function(req, res) {
             })
 
             //Selection aléatoire des 5 communes
-            let nombre_communes = 0;
-            while(nombre_communes < 5) {
-                let indice = Math.floor(Math.random()*(communesOrientation.length-1));
-                //On évite les doublons
-                if(!listesCommunes.includes(communesOrientation[indice])) {
-                    listesCommunes.push(communesOrientation[indice]);
-                    nombre_communes++;
-                }
-
-            }
+            listesCommunes =  helper.remplirTableau(listesCommunes, communesOrientation, 5);
 
             res.json(listesCommunes);
         } catch (error) {
@@ -55,19 +46,10 @@ app.get('/affirmations', function(req, res) {
     let listeAffirmations = [];
 
     //Selection aléatoire des 5 affirmations
-    let nombre_affirmations = 0;
-    //console.log(affirmations)
+    listeAffirmations = helper.remplirTableau(listeAffirmations, affirmations['politique'], 3);
+    listeAffirmations = helper.remplirTableau(listeAffirmations, affirmations['non-politique'], 2);
 
-    while(nombre_affirmations < 5) {
-        let indice = Math.floor(Math.random()*(affirmations.length));
-
-        //On évite les doublons
-        if(!listeAffirmations.includes(affirmations[indice])) {
-            listeAffirmations.push(affirmations[indice]);
-            nombre_affirmations++;
-        }
-    }
-
+    console.log(listeAffirmations);
     res.json(listeAffirmations);
 });
 

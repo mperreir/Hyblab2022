@@ -27,6 +27,8 @@ page('/communes-2/affirmation', async function () {
     let response2 = await fetch('api/affirmations')
     let affirmations = await response2.json();
 
+    console.log(affirmations);
+
     //Recuperation des div dans lesquelles on va afficher les affirmations
     let divAffirmations = document.getElementsByClassName('affirmation-content')
 
