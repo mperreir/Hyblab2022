@@ -20,7 +20,7 @@ window.onload = () => {
   });
 
   document.getElementById("button-explorer").addEventListener("click", () => { 
-    window.location.href = "./exploration.html";
+    window.location.href = "./commencer_explo.html";
   });
 
 }

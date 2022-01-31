@@ -1,6 +1,9 @@
 "use strict";
 
 window.onload = () => {
+    document.getElementById("return").addEventListener("click", () => { 
+      window.location.href = "./index.html";
+    });
   
     const imgSelecCandid = document.getElementsByClassName('img-selec-candidat');
     for (let i = 0; i < imgSelecCandid.length; i++) {

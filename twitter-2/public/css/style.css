@@ -194,7 +194,7 @@ body{
 }
 
 #credits {
-    margin-top: 20%;
+    margin-top: 40%;
     font-size: 20px;
     text-align: center;
 }
@@ -204,8 +204,8 @@ body{
     -webkit-columns: 2;
     -moz-columns: 2;
     list-style-type: none;
-    margin-left: 7%;
-    margin-right: 7%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 #credits ul li {
@@ -238,24 +238,19 @@ body{
 
   #bandeau li{
     list-style-type: none;
-    display: inline-block;
     vertical-align: middle;
     margin: 0 0.5em;
+    margin-bottom: 10%;
   }
 
   #bandeau img{
-    height: 1.5em;
+    height: 2.5em;
   }
 
   #bandeau #hyblab{
     margin: 1em auto;
     height: 3em;
     display: block;
-  }
-
-  #bandeau #cc, #bandeau #opensource
-  {
-    height: 1em;
   }
 
   #bandeau .stacked{
@@ -265,11 +260,28 @@ body{
   #bandeau ul{
     text-align: center;
     padding: 0 0;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
   }
 
   #bandeau .institutionnel
   {
     height: 2em;
+  }
+
+  #logos-op-cc {
+      position: absolute;
+      bottom: 5%;
+      left: 35%;
+  }
+
+  #logos-op-cc img {
+    height: 0.5em;
+  }
+
+  #logos-op-cc li {
+      display: inline-block;
   }
 
 /* ---------- Important media queries for easy responsive content :-) ----------------- */

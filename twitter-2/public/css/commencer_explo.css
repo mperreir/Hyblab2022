@@ -1,0 +1,93 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+@font-face {
+    font-family: 'blatantregular';
+    src: url('../font/blatant-webfont.woff') format('woff'),
+         url('../font/blatant-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    background-color: black;
+    color: white;
+    overflow: hidden;   /* to avoid slider bugs on some browsers */
+    font-family: 'blatantregular';
+}
+
+#container {
+    background: #FFFFFF;
+    color: #1A367A;
+    font-size: 15px;
+    text-align: center;
+}
+
+#return {
+    padding-top: 10%;
+    position: relative;
+    margin-left: 85%;
+}
+
+#illu {
+    position:relative;
+}
+
+#title {
+    font-size: 27px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+}
+
+#button-explorer {
+    background-color: #5571E5;
+    color: #FFFFFF;
+    border-radius: 19px;
+    font-size: 20px;
+    text-align: center;
+    width: 80%;
+    height: 6%;
+    border: 0;
+    margin-top: 5vh;
+}
+
+#container footer{
+    bottom: 5%;
+    font-size: 13px;
+    text-align: center;
+    padding: 0 1em;
+}
+
+@media screen and (max-aspect-ratio: 7/13){
+    #container{
+        margin-top: calc((100vh - 100 * 13vw / 7) / 2);
+        width: 100vw;
+        height: calc(100 * 13vw / 7);
+    }
+
+    /* We set a default font size here. It will be the base for all other font sizes */
+    /* Here the font size is proportional to display width */
+    body{
+        font-size: calc(12vw*13/7);
+    }
+}
+
+/* This media query ensures that we allways will the height of the screen */
+/* as long as the screen aspect ratio is higher than 9:16 */
+@media screen and (min-aspect-ratio: 7/13){
+    #container{
+        margin-left: calc((100vw - 100 * 7vh / 13) / 2);
+        width: calc(100 * 7vh / 13);
+        height: 100vh;
+    }
+
+    /* We set a default font size here. It will be the base for all other font sizes */
+    /* Here the font size is proportional to display height */
+    body{
+        font-size: 12vh;
+    }
+}
