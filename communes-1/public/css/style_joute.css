@@ -9,6 +9,6 @@
 
 .joute img {
 	height: auto;
-	width: 30%;
+	width: 50%;
+	--animate-duration: 2s;
 }
-
