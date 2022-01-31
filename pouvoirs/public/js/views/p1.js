@@ -1,3 +1,5 @@
+let boolp1 = true;
+
 const diag = function(dBox, text) {
   dBox.style.display = "block";
   shakeElement(dBox);
@@ -9,6 +11,9 @@ const diag = function(dBox, text) {
 
 const init_p1 = function() {
  "use strict";
+
+  if (boolp1) {
+  boolp1 = False;
 
   function css(elements, style) {
     elements.forEach(element => {
@@ -197,4 +202,5 @@ const init_p1 = function() {
 
   slide.appendChild(infos);
   slide.appendChild(buttons);
+}
 }

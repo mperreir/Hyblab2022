@@ -1,6 +1,10 @@
+let boolp3 = True;
+
 const init_p3 = function() {
  "use strict";
 
+  if (boolp3){
+  boolp3 = false;
   function css(elements, style) {
     elements.forEach(element => {
       for (const property in style)
@@ -192,4 +196,5 @@ const init_p3 = function() {
 
   slide.appendChild(infos);
   slide.appendChild(buttons);
+}
 }
