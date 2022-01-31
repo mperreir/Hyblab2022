@@ -4,6 +4,7 @@ const candidates = [
         "nameId": "hexagon",
         "name": "M. Hexagone",
         "baseY": "99",
+        "baseWidth": "75",
         "stepOneGame" : {
             "age": "35 ans",
             "address": "Paris",
@@ -33,7 +34,7 @@ const candidates = [
         "nameId": "diamond",
         "name": "M. Losange",
         "baseY": "114",
-        "name": "M. Losange",
+        "baseWidth": "55",
         "stepOneGame" : {
             "age": "54 ans",
             "address": "Angers",
@@ -63,7 +64,7 @@ const candidates = [
         "nameId": "rectangle",
         "name": "M. Pavé",
         "baseY": "101",
-        "name": "M. Pavé",
+        "baseWidth": "69",
         "stepOneGame" : {
             "age": "66 ans",
             "address": "Paris",
@@ -93,7 +94,7 @@ const candidates = [
         "nameId": "triangle",
         "name": "Mme. Equilatérale",
         "baseY": "110",
-        "name": "Mme. Equilatérale",
+        "baseWidth": "66",
         "stepOneGame" : {
             "age": "52 ans",
             "address": "Paris",
@@ -123,7 +124,7 @@ const candidates = [
         "nameId": "square",
         "name": "Mme. Carré",
         "baseY": "103",
-        "name": "Mme. Carré",
+        "baseWidth": "80",
         "stepOneGame" : {
             "age": "31 ans",
             "address": "Tours",
@@ -153,7 +154,7 @@ const candidates = [
         "nameId": "circle",
         "name": "M. Lerond",
         "baseY": "115",
-        "name": "M. Lerond",
+        "baseWidth": "64",
         "stepOneGame" : {
             "age": "47 ans",
             "address": "Nice",
@@ -183,7 +184,7 @@ const candidates = [
         "nameId": "oval",
         "name": "M. Cylindre",
         "baseY": "133",
-        "name": "M. Cylindre",
+        "baseWidth": "61",
         "stepOneGame" : {
             "age": "42 ans",
             "address": "Nantes",
@@ -213,7 +214,7 @@ const candidates = [
         "nameId": "semi_circle",
         "name": "Mme. Amphi",
         "baseY": "98",
-        "name": "Mme. Amphi",
+        "baseWidth": "90",
         "stepOneGame" : {
             "age": "18 ans",
             "address": "Rennes",

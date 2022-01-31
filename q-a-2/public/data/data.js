@@ -80,7 +80,7 @@ const data = {
       "questions": [
         {
           "question": "Peut-on gagner dès le premier tour ?",
-          "answer": "Oui, l’élection présidentielle fonctionne sur un système de scrutin majoritaire à deux tours, ce qui signifie que pour être élu·e, un·e candidat·e doit obtenir la majorité absolue des voix (> 50%) à un des deux tours.",
+          "answer": "Oui, l’élection présidentielle fonctionne sur un système de scrutin majoritaire à deux tours, ce qui signifie que pour être élu·e, un·e candidat·e doit obtenir la majorité absolue des voix (plus de 50%) à un des deux tours.",
           "link": "https://www.vie-publique.fr/fiches/23948-quels-sont-les-differents-modes-de-scrutin"
         }
       ]

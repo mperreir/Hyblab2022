@@ -19,7 +19,9 @@ class Steps extends React.Component {
                         Object.entries(stepsCandidates).map(function([stepNumber, candidatesList]) {
                             let i = 1;
                             candidatesList.forEach(candidate => {
-                                c.push(<image href={"img/candidates/"+candidate.nameId+".svg"} x={30*(stepNumber-1) + (409 - 60 - 31*(stepNumber-1))/(candidatesList.length+1)*i} y={(562-(parseFloat(candidate.baseY)+parseFloat((stepNumber-1)*33.8)))} key={candidate.id} alt={candidate.nom}></image>);
+                                const tempX = 30*(stepNumber-1) + (409 - 30 - 31*(stepNumber-1))/(candidatesList.length+1)*i - candidate.baseWidth/2/stepNumber;
+                                const tempY = (562-(parseFloat(candidate.baseY)+parseFloat((stepNumber-1)*33.8)));
+                                c.push(<image href={"img/candidates/"+candidate.nameId+".svg"} x={tempX} y={tempY} key={candidate.id} alt={candidate.nom}></image>);
                                 ++i;
                             });
                         })
