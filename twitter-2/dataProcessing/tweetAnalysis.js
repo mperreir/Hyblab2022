@@ -22,7 +22,7 @@ const motsCle = {
 };
 
 async function tweetAnalysis() {
-    // await downloadCsvTweets();
+    await downloadCsvTweets();
     console.log('csv downloaded');
 
     const tweets = await neatCsv(fs.readFileSync(path.join(__dirname, '../data/tweets_candidats.csv')));
@@ -30,25 +30,24 @@ async function tweetAnalysis() {
 
     const candidats = {};
     tweets.forEach(tweet => {
-        if (tweet.retweet === 'False') {
-            tweet.username = tweet.link.split('https://twitter.com/')[1].split('/')[0];
-            if (candidatsInformations.find(candidat => candidat.userName === tweet.username)) {
-                if (!candidats[tweet.username]) {
-                    candidats[tweet.username] = {
+        if (tweet.is_retweet === 'False') {
+            if (candidatsInformations.find(candidat => candidat.userName === tweet.screen_name)) {
+                if (!candidats[tweet.screen_name]) {
+                    candidats[tweet.screen_name] = {
                         nbByTopic: {},
                         nbTotalTweet: 0
                     };
                     Object.keys(motsCle).forEach(topic => {
-                        candidats[tweet.username].nbByTopic[topic] = 0;
+                        candidats[tweet.screen_name].nbByTopic[topic] = 0;
                     });
                 }
-                candidats[tweet.username].nbTotalTweet++;
+                candidats[tweet.screen_name].nbTotalTweet++;
     
-                tweet.tweet = traitementTextTweet(tweet.tweet);
+                tweet.text = traitementTextTweet(tweet.text);
     
                 Object.keys(motsCle).forEach(topic => {
-                    if (tweetIncludeTopic(tweet.tweet, motsCle[topic])) {
-                        candidats[tweet.username].nbByTopic[topic]++;
+                    if (tweetIncludeTopic(tweet.text, motsCle[topic])) {
+                        candidats[tweet.screen_name].nbByTopic[topic]++;
                     }
                 });
             }
@@ -56,7 +55,7 @@ async function tweetAnalysis() {
     });
 
     storeTopicCandidat(candidats);
-    // try { fs.unlinkSync(path.join(__dirname, '../data/tweets_candidats.csv')); } catch (_e) {} // suppression du csv car inutile après le traitement
+    try { fs.unlinkSync(path.join(__dirname, '../data/tweets_candidats.csv')); } catch (_e) {} // suppression du csv car inutile après le traitement
     console.log('tweet analysis done');
 
 }
