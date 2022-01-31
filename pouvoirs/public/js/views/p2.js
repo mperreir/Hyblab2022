@@ -6,16 +6,11 @@ const drawing = document.getElementById("drawing-container");
 
 let coord = { x: 0, y: 0 };
 let enableButton = false;
-controller = {bottom: -50};
+let controller = {bottom: -50};
 
 button.disabled = true;
 
-let firstTime = true;
-
 const init_p2 = function () {
-	// In case user comes back
-	if (!firstTime) return;
-	firstTime = false;
 
 	// Disable swiper whilst decret has not been signed
 	swiper.disable();

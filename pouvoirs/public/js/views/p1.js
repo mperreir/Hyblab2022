@@ -1,3 +1,4 @@
+"use strict";
 const diag = function(dBox, text) {
   dBox.style.display = "block";
   shakeElement(dBox);
@@ -8,7 +9,6 @@ const diag = function(dBox, text) {
 
 
 const init_p1 = function() {
- "use strict";
 
   function css(elements, style) {
     elements.forEach(element => {

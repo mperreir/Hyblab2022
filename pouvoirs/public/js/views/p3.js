@@ -1,5 +1,5 @@
+"use strict";
 const init_p3 = function() {
- "use strict";
 
   function css(elements, style) {
     elements.forEach(element => {

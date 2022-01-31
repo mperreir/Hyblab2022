@@ -513,6 +513,10 @@ body {
     font-size: calc(12vw * 16 / 9);
   }
 }
+#thanks #thanks-background {
+  position: absolute;
+  top: 0%;
+}
 
 .fade {
   animation: fadeIn 5s;

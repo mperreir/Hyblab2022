@@ -1,8 +1,7 @@
-let bool = false;
+"use strict";
 let released = false;
 let isClickable = false;
 const init_p5 = function(){
-    if (!bool){
     let dialogBox = document.querySelector(".dialogBox");
     const ringtone = createAudio("data/sounds/marimba.mp3",true,1,0.7);
     const phoneButton = document.querySelector(".phoneButton");
@@ -62,8 +61,6 @@ const init_p5 = function(){
             setTimeout(() => swiper.slideNext(), 6000);
         }
     })
-    bool = true;
-    }
 }
 const showDialogBox = function(dBox) {
     dBox.style.display = "block";
