@@ -13,7 +13,7 @@ class ModelDialogue extends Observable {
     }
 
     changement(){
-        console.log("Changement");
+        console.log(this);
         this.initialisation=false;
         this.counter++;
 
@@ -24,8 +24,12 @@ class ModelDialogue extends Observable {
             super.setChanged();
             super.notifyObservers();
         }
+        else {
+            enableScroll();
+        }
 
-     }
+    }
+    
     getPerso1(){
         return this.perso1;
     }

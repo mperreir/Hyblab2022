@@ -1,56 +1,48 @@
 const ANIMATIONS = {
-    ordre : ["ecole", "skatepark", "camion", "parc", "mairie", "conclusion"],
+    ordre : ["ecole", "skatepark", "camion", "mairie", "theatre"],
     animations : {
-        ecole : {
-
+        perso1 : {
+            in : {
+                [0]: new AnimationFrame()
+                    .addProperty(new Transform().translate(-10,0)),
+                [1]: new AnimationFrame()
+                    .addProperty(new Transform().translate(0,0)),
+            },
+            out : {
+                [0]: new AnimationFrame()
+                .addProperty(new Transform().translate(0,0)),
+                [1]: new AnimationFrame()
+                    .addProperty(new Transform().translate(-10,0)),
+            }
         },
-
-        skatepark : {
-
+        perso2 : {
+            in : {
+                [0]: new AnimationFrame()
+                    .addProperty(new Transform().translate(10,0)),
+                [1]: new AnimationFrame()
+                    .addProperty(new Transform().translate(0,0)),
+            },
+            out : {
+                [0]: new AnimationFrame()
+                .addProperty(new Transform().translate(0,0)),
+                [1]: new AnimationFrame()
+                    .addProperty(new Transform().translate(10,0)),
+            }
         },
-
-        camion : {
-
-        },
-
-        parc : {
-
-        },
-
-        mairie : {
-
-        },
-
-        conclusion : {
-
-        },
-
         fade : {
             in : {
                 [0] : new AnimationFrame()
-                    .addProperty(new Opacity(0))
-                    .addProperty(new Transform()
-                        .translate(10,10)    
-                    ),
+                    .addProperty(new Opacity(-1)),
 
                 [1] : new AnimationFrame()
-                    .addProperty(new Opacity(1))
-                    .addProperty(new Transform()
-                        .translate(0,0)    
-                    ),
+                    .addProperty(new Opacity(2)),
             },
             out : {
                 [0] : new AnimationFrame()
-                    .addProperty(new Opacity(1))
-                    .addProperty(new Transform()
-                        .translate(10,10)    
-                    ),
+                    .addProperty(new Opacity(2)),
 
                 [1] : new AnimationFrame()
-                    .addProperty(new Opacity(0))
-                    .addProperty(new Transform()
-                        .translate(0,0)    
-                    ),
+                    .addProperty(new Opacity(-1)),
             }
         }
     }

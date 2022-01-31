@@ -1,35 +1,36 @@
 class Controler {
-
-    constructor(model){
-      
-        this.view = new View();
-        this.model = model;
-  
-        // update
-  
-        this.model.addObserver(new Update(this.view));
-          
-        //  action
-  
-        this.view.suite.addEventListener("click", ()=>this.model.changement());
-       // this.view.suite.addEventListener("click", ()=>console.log("click"));
-
-  
-    }
-  }
-  /*
     constructor(models){
+
+        this.view = new View();
         this.models = models;
-        this.models.forEach(model => this.addScrollListener(model));
+        this.currentModel = undefined;
+        this.nextModelIndex = 0;
+        this.changement = () => this.currentModel.changement(this);
+        //this.loadNextModel();
+        // update
+
+        //  action
+
     }
 
-    add(model){
-        this.models.push(model);
-        this.addScrollListener(model);
+    loadNextModel() {
+        if (this.nextModelIndex >= this.models.lengt) return;
+
+        // A ne pas executer lors de l'initialisation car currentModel est undefined
+        if (this.nextModelIndex === 0) {
+            this.view.suite.addEventListener("click", this.changement);
+        }
+
+        this.currentModel = this.models[this.nextModelIndex];
+        this.currentModel.addObserver(new Update(this.view));
+
+        this.view.perso1.src = this.currentModel.perso1;
+        this.view.perso2.src = this.currentModel.perso2;
+        this.view.description.innerText = this.currentModel.description;
+
+        this.nextModelIndex++;
     }
 
-    addScrollListener(model) {
-        window.addEventListener("scroll", () => model.updateScroll());
-    }
-    
-}*/
+
+}
+

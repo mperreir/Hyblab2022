@@ -1,7 +1,5 @@
-const { Observable } = require("./utils");
-
 class AnimationModel extends Observable {
-    constructor(keyframes, container, actions) {
+    constructor(player, container, actions) {
         super();
 
         if (typeof container === 'string') {
@@ -11,11 +9,12 @@ class AnimationModel extends Observable {
         this.scroll = undefined;
         this.currentAction = undefined;
         // Liste des keyframes
-        this.keyframes = keyframes;
+        //this.keyframes = keyframes;
         // Conteneur définissant la longueur de l'animation
         this.container = container;
         // Liste des quand jouer et arreter l'animation
         this.actions = actions;
+        this.player = document.querySelector(player); //TODO: créer une vue séparé
     }
 
     updateScroll(){
@@ -54,5 +53,3 @@ class AnimationModel extends Observable {
     }
 
 }
-
-module.exports = AnimationModel;

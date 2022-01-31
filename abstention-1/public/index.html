@@ -2,9 +2,6 @@
 
 <html lang="fr">
 <head>
-
-
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <title>Hyblab 2022</title>
@@ -19,9 +16,15 @@
     <script src="js/MVC/cssProperties/Transform.js" defer></script>
     <script src="js/AnimationTransition.js" defer></script>
     <script src="js/animations.js" defer></script>
-    <script src="js/main.js" defer></script>
+    <!-- <script src="js/main.js" defer></script> -->
     
     <script defer src="js/MVC/utils.js"></script>
+    <script defer src="js/newMVC/TransitionObserver.js"></script>
+    <script defer src="js/newMVC/FullAnimationControler.js"></script>
+    <script defer src="js/newMVC/FullAnimationModel.js"></script>
+    <script defer src="js/MVC/AnimationControler.js"></script>
+    <script defer src="js/MVC/AnimationModel.js"></script>
+    <script defer src="js/MVC/AnimationObserver.js"></script>
     <script defer src="js/MVC/ModelDialogue.js"></script>
     <script defer src="js/MVC/View.js"></script>
     <script defer src="js/MVC/Update.js"></script>
@@ -41,11 +44,11 @@
             <div id='cercle5' class="circle"><p>5</p></div>
           <img id='carnet' src='img/CARNET PICTO.svg'>
         </header>
-          <div id="personnage1"></div>
-          <div id="personnage2"></div>
+          <img src="img/Charlie.svg" id="personnage1"></img>
+          <img src="img/Charlie.svg" id="personnage2"></img>
           <div id="textZone">
             <div id='cercle' class="circle"><p>1</p></div>
-            <div class='boxnom'><p class="nom">Arthur 17ans</p></div>
+            <div class='boxnom'><p id="description" class="nom">Arthur 17ans</p></div>
             <p id="textDialogue">Ceci est un exemple pour que je puisse effectuer des tests afin de voir si cela rend très bien.  </p>
        <img id="Suite" src='img/SUIVANT.svg'>
           </div>
@@ -66,6 +69,7 @@
 
       </section>
       <div id="test">
+        <section class="transition ecole-vers-skatepark" style="height:100vh;"></section>
         <section class="container ecole-vers-skatepark" style="height:200vh;"></section>
         <section class="transition ecole-vers-skatepark" style="height:100vh;"></section>
         <section class="container skatepark-vers-camion" style="height:200vh;"></section>

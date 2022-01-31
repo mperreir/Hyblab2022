@@ -49,13 +49,12 @@ body{
 #container{
     background-color: white;
     position: absolute;
-    overflow: hidden;
 }
 
 /*--------------Section dialogue----------------*/
 #Dialogue{
     top:0%;
-    opacity: 1;
+    opacity: 0;
     /*background-image: url("../img/a889d43ee7cf0837f085391e97e8ffb6.jpg");*/
    /* background-image: url("../img/Skatepark.svg");*/
     background-repeat: no-repeat;   
@@ -64,6 +63,7 @@ body{
     height: 100vh; /*100vh*/
     position: fixed;
     z-index: 3;
+    overflow: hidden;
 }
 
 /*header*/
@@ -122,9 +122,9 @@ body{
     opacity: 1;
 
    /* background-color: chartreuse;*/
-    background-image: url("../img/Charlie.svg");
+    /* background-image: url("../img/Charlie.svg");
     background-repeat: no-repeat;   
-    background-size: contain;
+    background-size: contain; */
 
     position:absolute;
     width: 50%;
@@ -140,10 +140,10 @@ body{
 
     position:absolute;
    /* background-color: pink;*/
-    background-image: url("../img/Jeune.svg");
+    /* background-image: url("../img/Jeune.svg");
     background-position: 100% 0%;
     background-repeat: no-repeat;   
-    background-size: contain;
+    background-size: contain; */
 
     width: 50%;
     height: 45vh; 
