@@ -6,7 +6,7 @@ const init_default = function(){
 
 const transitionEffect = createAudio("data/sounds/pageTransition.mp3");
 // Functions used to render each page
-const init_func = [homepage_slide, falling_slide, init_p1, init_p2, init_p3, init_default, init_p5, init_p6, init_thanks, init_credits];
+const init_func = [homepage_slide, falling_slide, init_p1, init_p2, init_p3, init_p4, init_p5, init_p6, init_thanks, init_credits];
 const alreadyVisited =  new Array(init_func.length).fill(false);
 
 const slideHandler = function(e){
