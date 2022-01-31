@@ -71,7 +71,7 @@ const init_p3 = function() {
   metabox.appendChild(diBox);
   diBox.style.position = "relative";
   diBox.style.verticalAlign = "top";
-  diBox.style.height = "196px";
+  diBox.style.height = "125px";
 
   diBox.style.width = "100%";
   diBox.style.margin = "0px auto";
@@ -112,7 +112,8 @@ const init_p3 = function() {
   [valid, invalid].forEach(x => {
     x.style.height = "20px";
     x.style.position = "absolute";
-    x.style.left = "-40%";
+    x.style.left = "-50%";
+    x.style.top = "15px"
   })
 
 
@@ -136,8 +137,8 @@ const init_p3 = function() {
       cancel.play();
       textContainer.innerHTML = originalText;
       btn.querySelector("img").remove();
-      shakeElement(textContainer);
-      btn.style.backgroundColor = "#6b00ee";
+      // shakeElement(diBox);
+      btn.style.backgroundColor = "#D4C2F0";
       state = 0;
     }
     else {
@@ -154,12 +155,12 @@ const init_p3 = function() {
       else{
         badAns.play();
         btn.appendChild(invalid);
+        shakeElement(diBox);
       }
-      x1.style.background= "#6b00ee";
-      x2.style.background= "#6b00ee";
-      x3.style.background= "#6b00ee";
+      x1.style.background= "#D4C2F0";
+      x2.style.background= "#D4C2F0";
+      x3.style.background= "#D4C2F0";
       textContainer.innerHTML = txt;
-      shakeElement(textContainer);
       btn.style.backgroundColor = colors[nb-1];
       state = nb;
     }
@@ -171,17 +172,17 @@ const init_p3 = function() {
   x3.addEventListener("click", () => changeText(3, t3, x3));
 
   css([x1, x2, x3], {
-    'background-color' : '#6b00ee',
+    'background-color' : '#D4C2F0',
     'color' : 'white',
     'width' : '80%',
     'height' : '50px',
     'padding': '10px 20px',
-    'margin': '5% auto',
+    'margin': '2% auto',
     'display' : 'block',
     'border': 'none',
     'border-radius': '12px',
+    'position' : 'relative'
   })
-  x3.style.height = "70px";
 
 
   buttons.appendChild(x1);

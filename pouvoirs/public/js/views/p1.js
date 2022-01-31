@@ -24,9 +24,7 @@ const init_p1 = function() {
   let wooshWasPlayed = false;
 
   const slide = document.getElementById("p1");
-  slide.addEventListener('click', () => {
-    animateLoading();
-  })
+
 
   // info
   let state = 0;
@@ -53,6 +51,7 @@ const init_p1 = function() {
   }
 
   function animateLoading() {
+    slide.removeEventListener('click', animateLoading);
     anime({
       targets: illustration,
       illu: '150px',
@@ -62,7 +61,6 @@ const init_p1 = function() {
       update: function(anim) {
         img.style.height = illustration.illu;
         infos.style.height = illustration.infos;
-        // infos.style.justifyContent = "space-between";
       }
     })
 
@@ -72,6 +70,7 @@ const init_p1 = function() {
     }
   };
 
+  slide.addEventListener('click', ()=>{animateLoading();});
 
   const metabox = document.createElement("div");
   metabox.style.height = "auto";
@@ -119,22 +118,24 @@ const init_p1 = function() {
   [valid, invalid].forEach(x => {
     x.style.height = "20px";
     x.style.position = "absolute";
-    x.style.left = "-40%";
+    x.style.left = "-50%";
+    x.style.top = "15px"
   })
 
   const buttons = document.createElement("div");
   buttons.classList.add("choices");
-  buttons.style.height = "20%";
+  buttons.style.height = "30%";
   var x1 = document.createElement("BUTTON");
   x1.innerHTML = "Je serai plus efficace en dirigeant seul.";
   var x2 = document.createElement("BUTTON");
   x2.innerHTML = "Je peux nommer un responsable.";
   var x3 = document.createElement("BUTTON");
-  x3.innerHTML = "C'est mon gouvernement ! Je nomme tous ceux qui y siègent !"
+  const tx3 = "C'est mon gouvernement ! Je nomme tous ceux qui y siègent !";
+  x3.innerHTML = "<p>C'est mon gouvernement ! Je nomme tous ceux qui y siègent !</p>";
 
-  const t1 = "Mauvaise réponse ! La Vème république est une démocratie, et le Président ne peut pas..."
-  const t2 = "Bonne réponse ! Le président nomme un Premier Ministre qui lui propose ensuite des mi...."
-  const t3 = "Mauvaise réponse ! Il faut passer par un intermédiaire qui propose au président des ministres..."
+  const t1 = "Mauvaise réponse ! La Vème république est une démocratie, et le Président ne peut pas...";
+  const t2 = "Bonne réponse ! Le président nomme un Premier Ministre qui lui propose ensuite des mi....";
+  const t3 = "Mauvaise réponse ! Il faut passer par un intermédiaire qui propose au président des ministres...";
 
   const colors = ["#FF2019", "#1be5b9", "#FF2019"];
   function changeText(nb, txt, btn) {
@@ -143,8 +144,7 @@ const init_p1 = function() {
       cancel.play();
       textContainer.innerHTML = originalText;
       btn.querySelector("img").remove();
-      shakeElement(textContainer);
-      btn.style.backgroundColor = "#6b00ee";
+      btn.style.backgroundColor = "#D4C2F0";
       state = 0;
     }
     else {
@@ -161,12 +161,13 @@ const init_p1 = function() {
       else{
         badAns.play();
         btn.appendChild(invalid);
+        // shakeElement(btn);
+        shakeElement(diBox);
       }
-      x1.style.background= "#6b00ee";
-      x2.style.background= "#6b00ee";
-      x3.style.background= "#6b00ee";
+      x1.style.background= "#D4C2F0";
+      x2.style.background= "#D4C2F0";
+      x3.style.background= "#D4C2F0";
       textContainer.innerHTML = txt;
-      shakeElement(textContainer);
       btn.style.backgroundColor = colors[nb-1];
       state = nb;
     }
@@ -178,7 +179,7 @@ const init_p1 = function() {
   x3.addEventListener("click", () => changeText(3, t3, x3));
 
   css([x1, x2, x3], {
-    'background-color' : '#6b00ee',
+    'background-color' : '#D4C2F0',
     'color' : 'white',
     'width' : '80%',
     'height' : '50px',
@@ -187,8 +188,8 @@ const init_p1 = function() {
     'display' : 'block',
     'border': 'none',
     'border-radius': '12px',
+    'position' : 'relative'
   })
-  // x3.style.height = "70px";
 
 
   buttons.appendChild(x1);
