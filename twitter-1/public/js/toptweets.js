@@ -10,6 +10,7 @@ let themes;
 async function initThemesTopTweets() {
     themes = await fetchThemes();
     let o = document.createElement('option');
+    o.setAttribute("value", '0');
     o.innerText = "TOUS";
     select.appendChild(o);
 
@@ -35,11 +36,13 @@ async function showTopTweets () {
     tweet_theme_div.setAttribute("id",'tweet-theme');
 
     let tweets = await fetchTopTweetsTheme(parseInt(select.value));
+
     tweets.forEach((t) => {
         let p = document.createElement('p');
         p.appendChild(document.createTextNode(t.name + '\n' + t.text));
         tweet_theme_div.appendChild(p);
     });
+
     // no tweet for this themas
     if (tweets.length === 0) {
         tweet_theme_div.appendChild(document.createTextNode("Pas de top tweet trouvé pour ce theme !"));
@@ -80,19 +83,32 @@ async function fetchThemes() {
 
 async function fetchTopTweetsTheme(theme_id) {
     let result;
-    try {
-        // On fait ensuite un fetch sur l'api pour s'authentifier
-        result = await fetch('./api/tweets/tops/' + theme_id, {
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/x-www-form-urlencoded; charset=utf-8',
-            },
-            method: 'GET',
-        });
-    } catch (e) {
-        console.error(e);
-        return;
+    if (theme_id === 0)
+    {
+        try {
+            // On fait ensuite un fetch sur l'api pour s'authentifier
+            result = await fetch('./api/tweets/tops/');
+        } catch (e) {
+            console.error(e);
+            return;
+        }
     }
+    else {
+        try {
+            // On fait ensuite un fetch sur l'api pour s'authentifier
+            result = await fetch('./api/tweets/tops/' + theme_id, {
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/x-www-form-urlencoded; charset=utf-8',
+                },
+                method: 'GET',
+            });
+        } catch (e) {
+            console.error(e);
+            return;
+        }
+    }
+    
 
     try {
         if (result.ok) {

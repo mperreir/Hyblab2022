@@ -104,10 +104,16 @@ module.exports = (passport) => {
     });
 
     app.get('/tweets/tops/', (req, res) => {
+        const candidats = db.getCandidats();
         let tweets = db.getTweetsSemaine()
             .filter(tweet => tweet.themeScore >= 2);
         tweets = tweets.sort((a, b) => b.favorite_count - a.favorite_count);
         tweets = tweets.slice(0, 5);
+        tweets = tweets.map(tweet => {
+            const candidat = candidats.filter(candidat => candidat.id === tweet.user_id);
+            tweet.name = candidat.length > 0 ? candidat[0].name : "ERROR : CANDIDAT INCONNU";
+            return tweet;
+        })
         res.json(tweets);
     });
 
