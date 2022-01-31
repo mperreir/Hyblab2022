@@ -49,6 +49,7 @@
     color: whitesmoke;
 }
 
+/*TODO : Inutile, pas de hover sur mobile */
 .btn-bleuClair:hover{
     background-color: whitesmoke;
     color: #5B6C9A;

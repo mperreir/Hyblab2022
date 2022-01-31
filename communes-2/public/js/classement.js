@@ -8,6 +8,10 @@ page('/communes-2/classement', async function () {
     let response = await fetch('api/classement');
     const classement = await response.json();
 
+    creationClassement(classement);
+});
+
+function creationClassement(tabClassement){
     const textClassement = document.getElementById("textClassement");
     while (textClassement.firstChild) { textClassement.firstChild.remove() }
     
@@ -23,16 +27,15 @@ page('/communes-2/classement', async function () {
     nom.classList.add("vertical-box-classement");
     nom.classList.add("popUp-Space");
 
-    for (let index = 0; index < classement.length; index++) {
+    for (let index = 0; index < tabClassement.length; index++) {
         let placeText = document.createElement('p');
+        placeText.textContent = tabClassement[index].place;
 
-        placeText.textContent = classement[index].place;
         let pointText = document.createElement('p');
+        pointText.textContent = tabClassement[index].point+"pts";
 
-        pointText.textContent = classement[index].point+"pts";
         let nomText = document.createElement('p');
-
-        nomText.textContent = classement[index].nom
+        nomText.textContent = tabClassement[index].nom;
 
         place.appendChild(placeText);
         point.appendChild(pointText);
@@ -42,5 +45,5 @@ page('/communes-2/classement', async function () {
     text.appendChild(place);
     text.appendChild(point);
     text.appendChild(nom);
-    textClassement.appendChild(text);
-});
+    textClassement.appendChild(text)
+}
