@@ -10,10 +10,11 @@ const init_p6 = function () {
     const illu_fin = document.querySelector("#p6 .illu-fin");
     const dialog_arrow = document.querySelector("#p6 .arrow");
 
-    let timeout;
     let choice_made = 0;
+    let timeout;
+    
 
-    anime({
+    const arrow_anim = anime({
         targets: dialog_arrow,
         translateY: "20%",
         direction: 'alternate',
@@ -24,12 +25,15 @@ const init_p6 = function () {
 
     shakeElement(dialog_before);
 
-    dialog_before.addEventListener('click', () => {
+
+    const listener_dialog_before = () => {
+        dialog_before.removeEventListener('click', listener_dialog_before);
         anime({
             targets: dialog_before,
             opacity: [1, 0],
             easing: 'linear',
             complete: () => {
+                anime.remove(dialog_arrow);
                 dialog_before.style.display = "none";
                 bouton_rouge.style.display = "block";
                 decompte.style.display = "flex";
@@ -41,16 +45,18 @@ const init_p6 = function () {
                 });
             }
         })
-    });
+    };
+    
+    dialog_before.addEventListener('click', listener_dialog_before);
 
-    bouton_rouge.addEventListener('click', () => {
+    const listener_bouton_rouge = () => {
+        bouton_rouge.removeEventListener('click', listener_bouton_rouge);
         clockEffect.unload();
+        choice_made = 1;
         clearTimeout(timeout);
-        if (choice_made == 0) { 
-            choice_made = 1;
             anime({
                 targets: bouton_rouge,
-                scale: 0.98,
+                scale: 0.90,
                 easing: 'linear',
                 direction: 'alternate',
                 duration: 150,
@@ -75,9 +81,9 @@ const init_p6 = function () {
                     })
                 }
             });
-            choice_made = 1;
-        }
-    });
+    };
+
+    bouton_rouge.addEventListener('click', listener_bouton_rouge);
 
     const decompte_func = function () {
         if (choice_made == 0) {
@@ -91,6 +97,7 @@ const init_p6 = function () {
                     bouton_rouge.style.display = "none";
                     dialog_not_pressed.style.display = "block"
                     illu_fin.style.display = "block";
+                    goodAns.play();
                     anime({
                         targets: [dialog_not_pressed, illu_fin],
                         opacity: [0, 1],
@@ -117,6 +124,5 @@ const init_p6 = function () {
             easing: 'linear'
         });
     }
-
 };
 
