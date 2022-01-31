@@ -1,0 +1,72 @@
+<div class="fd-container">
+    <div class="fd-header">
+        <div class="fd-bg-blue">
+        </div>
+        <div class="fd-header-center">
+            <img src="<%= logoPath %>" />
+        </div>
+        <div class="fd-bg-red">
+        </div>
+    </div>
+    <div class="fd-numbers fd-font-bold">
+        <div class="fd-numbers-number">
+            <%= cityPercent %>%
+        </div>
+    </div>
+    <div class="fd-numbers-percent fd-font">
+        <div>
+            SOIT
+        </div>
+        <div>
+            <%= cityValue.toLocaleString() %> <sup>hab</sup>
+        </div>
+    </div>
+    <hr class="fd-separator">
+    <div class="fd-numbers-percent fd-font">
+        <div>
+            MOYENNE
+        </div>
+        <div>
+            <%= meanPercent %> %
+        </div>
+    </div>
+    <div class="fd-main-text fd-font fd-red">
+        <%- mainText %>
+        <br><br>
+        Dans votre commune, il y a <span class="fd-font-bold"><%= cityPercent %>%</span> <%= percentMessage %>
+        <br>
+        <% if (cityPercent > meanPercent) { %>
+        C'est <span class="fd-font-bold">plus</span> que la moyenne nationale.
+        <% } else if (cityPercent < meanPercent) { %>
+        C'est <span class="fd-font-bold">moins</span> que la moyenne nationale.
+        <% } else { %>
+        C'est <span class="fd-font-bold">pareil</span> que la moyenne nationale.
+        <% } %> 
+    </div>
+    <div class="fd-secondary-text fd-font-light">
+        <%- secondaryText %> 
+    </div>
+    <div class="fd-message-line">
+        <img src="img/message_line.svg" />
+    </div>
+    <div id="fd-graph-template" class="fd-graph">
+    </div>
+    <div class="fd-solutions">
+        <img class="fd-solutions-img" src="img/solutions.svg">
+    </div>
+    <div class="fd-links">
+        <div class="fd-link fd-blue">
+            <a target="_blanck" href="<%= firstLink %>">
+                <%= firstLinkName %> 
+            </a>
+        </div>
+        <div class="fd-link fd-blue">
+            <a target="_blanck" href="<%= secondLink %>">
+                <%= secondLinkName %>
+            </a>
+        </div>
+    </div>
+    <div id="fd-back-button" class="fd-back-button">
+        <img src="img/back_button.svg" />
+    </div>
+</div>

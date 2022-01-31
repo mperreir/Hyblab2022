@@ -14,8 +14,7 @@ app.get('/city/:city', function (req, res) {
 app.get('/national', function (req, res) {
     const file = fs.readFileSync(path.join(__dirname, 'france.json'));
     const franceData = JSON.parse(file);
-    console.log(franceData);
-    res.status(franceData ? 200 : 400).json(franceData || { 'error': true, 'message': 'Unknown city.' });
+    res.status(franceData ? 200 : 400).json(franceData || { 'error': true, 'message': 'Error when reading file.' });
 });
 
 // Export our API

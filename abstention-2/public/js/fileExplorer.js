@@ -7,10 +7,16 @@ async function loadFileExplorer() {
     const fileProgressBars = document.getElementsByClassName('file-explorer-item-file-progress-bar');
 
     let i = 0;
-    for (const fileData of FOLDER_DATA.filesData) {
+    let folderElement;
+    for (const fileData of FOLDER_TITLES.filesData) {
         if (fileData.progress !== 100) {
             fileProgressBars[i].style.width = `${fileData.progress}%`;
             i++;
+        }
+        if (fileData.progress === 100) {
+            folderElement = document.getElementById(fileData.tag).addEventListener('click', () => {
+                loadFolder(fileData.folderName);
+            });
         }
     }
 };
