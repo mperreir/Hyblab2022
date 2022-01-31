@@ -38,8 +38,10 @@
             }
         ]
     },
-    "indice": {
-        "string":"Le symbole de cette commune est AAA.",
-        "columns":["symbole"]
-    }
+    "indice": [
+        {
+            "string":"Le symbole de cette commune est AAA.",
+            "columns":["symbole"]
+        }
+    ]
 }

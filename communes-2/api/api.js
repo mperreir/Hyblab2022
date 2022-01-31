@@ -53,6 +53,18 @@ app.get('/affirmations', function(req, res) {
     res.json(listeAffirmations);
 });
 
+app.get('/indice', function(req, res) {
+    let affirmationsJson = require('../public/data/affirmations.json');
+    let indices = affirmationsJson.indice;
+
+    let index = Math.floor(Math.random()*(indices.length));
+    console.log(index);
+    let indice = indices[index];
+    console.log(indice);
+
+    res.json(indice);
+});
+
 app.get('/classement', function(req, res) {
     let linesClassement = [];
 
