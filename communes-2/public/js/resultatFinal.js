@@ -1,7 +1,7 @@
 page('/communes-2/resultatFinal', async function () {
     await renderTemplate(templates('./templates/resultatFinal.mustache'));
 
-    let scoreJoueur = JSON.parse(localStorage.getItem('gameData')).ScoreTotal;
+    let scoreJoueur = JSON.parse(localStorage.getItem('gameData')).score;
     if (scoreJoueur === undefined) scoreJoueur = 0;
 
     // affichage du score

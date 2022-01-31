@@ -33,11 +33,13 @@ const initializeGameData = async orientation => {
 
     localStorage.setItem('gameData', JSON.stringify({
         'orientation': orientation,
-        'scoreTotal' : 0,
+        'score' : 0,
         'scoreIntermediaire' : 0,
         'numeroEssai': 1, // Soit 1 soit 2, si 2 alors les points sont divisés par 2.
         'communeCourante' : data.pop(),
+        'communePrecedente': '',
         'communes': data,
-        'nbreCommunesTrouvees': 0
+        'nbreCommunesTrouvees': 0,
+        'nbreCommunesJouees': 0
     }));
 }

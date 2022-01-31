@@ -199,13 +199,16 @@ function roundEnding(selectedValue, rightValue) {
     let scoreRound = 0;
     let nbEssaiSuivant = 1;
     let gameData = JSON.parse(localStorage.getItem('gameData'));
-
+    let nbCommunesJouees = gameData['nbreCommunesJouees'];
+    let communePrecedente = gameData['communePrecedente'];
 
     if(gameData['numeroEssai'] == 1) {
         if(selectedValue == rightValue) {
             // Gagné premier.
             console.log('Gagne premier');
             scoreRound = 5000;
+            nbCommunesJouees++;
+            communePrecedente = gameData['communeCourante'];
         } else {
             // Perdu premier essai
             console.log('Perdu premier');
@@ -216,11 +219,15 @@ function roundEnding(selectedValue, rightValue) {
             // Gagné deuxieme essai
             console.log('Gagne second');
             scoreRound = 2500;
+            nbCommunesJouees++;
+            communePrecedente = gameData['communeCourante'];
         } else {
             // Perdu deuxieme essai*
             console.log('Perdu second');
             // TODO : Calcul du score
             scoreRound = 1250;
+            nbCommunesJouees++;
+            communePrecedente = gameData['communeCourante'];
         }
     }
 
@@ -229,8 +236,11 @@ function roundEnding(selectedValue, rightValue) {
     localStorage.setItem('gameData', JSON.stringify({
         'orientation': gameData['orientation'],
         'score' : gameData['score'] + scoreRound,
+        'scoreIntermediaire': scoreRound,
         'nbreCommunesTrouvees': gameData['nbreCommunesTrouvees'] + (selectedValue == rightValue ? 1 : 0),
+        'nbreCommunesJouees': nbCommunesJouees,
         'numeroEssai': nbEssaiSuivant,
+        'communePrecedente': communePrecedente,
         'communeCourante' : nbEssaiSuivant == 2 ? gameData['communeCourante'] : gameData['communes'].pop(),
         'communes': gameData['communes']
     }));
