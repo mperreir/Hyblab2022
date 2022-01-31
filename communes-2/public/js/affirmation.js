@@ -27,7 +27,10 @@ page('/communes-2/affirmation', async function () {
     let response2 = await fetch('api/affirmations')
     let affirmations = await response2.json();
 
-    console.log(affirmations);
+    let response3 = await fetch('api/indice');
+    let indice = await response3.json();
+
+    console.log(indice);
 
     //Recuperation des div dans lesquelles on va afficher les affirmations
     let divAffirmations = document.getElementsByClassName('affirmation-content')
@@ -37,7 +40,7 @@ page('/communes-2/affirmation', async function () {
     let nombreCommuneMax = document.getElementById('numeroCommuneMax');
 
     let nbCommuneActuelle = nbMaxCommunes - gameData['communes'].length;
-    
+
     nombreCommuneMax.innerHTML = nbMaxCommunes;
     nombreCommuneActuelle.innerHTML = nbCommuneActuelle;
 
@@ -97,7 +100,7 @@ page('/communes-2/affirmation', async function () {
     //map.fitBounds(bounds);
 
     // On affiche la map google maps derrière.
-    
+
     var tiles = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
         maxZoom: 18,
         /*attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
@@ -196,13 +199,16 @@ function roundEnding(selectedValue, rightValue) {
     let scoreRound = 0;
     let nbEssaiSuivant = 1;
     let gameData = JSON.parse(localStorage.getItem('gameData'));
-
+    let nbCommunesJouees = gameData['nbreCommunesJouees'];
+    let communePrecedente = gameData['communePrecedente'];
 
     if(gameData['numeroEssai'] == 1) {
         if(selectedValue == rightValue) {
             // Gagné premier.
             console.log('Gagne premier');
             scoreRound = 5000;
+            nbCommunesJouees++;
+            communePrecedente = gameData['communeCourante'];
         } else {
             // Perdu premier essai
             console.log('Perdu premier');
@@ -213,11 +219,15 @@ function roundEnding(selectedValue, rightValue) {
             // Gagné deuxieme essai
             console.log('Gagne second');
             scoreRound = 2500;
+            nbCommunesJouees++;
+            communePrecedente = gameData['communeCourante'];
         } else {
             // Perdu deuxieme essai*
             console.log('Perdu second');
             // TODO : Calcul du score
             scoreRound = 1250;
+            nbCommunesJouees++;
+            communePrecedente = gameData['communeCourante'];
         }
     }
 
@@ -226,8 +236,11 @@ function roundEnding(selectedValue, rightValue) {
     localStorage.setItem('gameData', JSON.stringify({
         'orientation': gameData['orientation'],
         'score' : gameData['score'] + scoreRound,
+        'scoreIntermediaire': scoreRound,
         'nbreCommunesTrouvees': gameData['nbreCommunesTrouvees'] + (selectedValue == rightValue ? 1 : 0),
+        'nbreCommunesJouees': nbCommunesJouees,
         'numeroEssai': nbEssaiSuivant,
+        'communePrecedente': communePrecedente,
         'communeCourante' : nbEssaiSuivant == 2 ? gameData['communeCourante'] : gameData['communes'].pop(),
         'communes': gameData['communes']
     }));
