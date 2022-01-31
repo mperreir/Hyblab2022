@@ -1,25 +1,25 @@
 {
     "affirmations":[
         {
-            "string":"Le Canton de la Commune est ",
+            "string":"Le Canton de la Commune est AAA.",
             "columns":[
                 "canton"
             ]
         },
         {
-            "string":"La population totale de cette Commune est de ",
+            "string":"La population totale de cette Commune est de AAA habitants.",
             "columns":[
                 "population"
             ]
         },
         {
-            "string":"Le taux d'abstention de la Commune est de ",
+            "string":"Le taux d'abstention de la Commune est de  AAA %.",
             "columns":[
                 "tauxAbstention"
             ]
         },
         {
-            "string":"La Commune à principalement voté au 1er tour pour ",
+            "string":"La Commune à principalement voté au 1er tour pour AAA, puis BBB, et enfin CCC.",
             "columns":[
                 "premierCandidatTour1",
                 "deuxiemeCandidatTour1",
@@ -27,7 +27,7 @@
             ]
         },
         {
-            "string":"La Commune à voté au 2nd tour pour ",
+            "string":"La Commune à voté au 2nd tour pour  AAA à BBB %.",
             "columns":[
                 "premierCandidatTour2",
                 "pourcentage1erCandidatTour2"
@@ -35,7 +35,7 @@
         }
     ],
     "indice": {
-        "string":"Le symbole de cette commune est ",
+        "string":"Le symbole de cette commune est AAA.",
         "columns":["symbole"]
     }
 }
