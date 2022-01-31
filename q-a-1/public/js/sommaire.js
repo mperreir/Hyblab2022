@@ -28,11 +28,3 @@
   // sometime not fired
   console.log("Video loaded");
 
-
-function go_to_page3(){
-  document.location.href = "informer.html";
-}
-
-
-let bouton2 = document.querySelector("#bouton_sinformer");
-bouton2.addEventListener('click', go_to_page3);
