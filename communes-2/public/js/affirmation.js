@@ -27,7 +27,10 @@ page('/communes-2/affirmation', async function () {
     let response2 = await fetch('api/affirmations')
     let affirmations = await response2.json();
 
-    console.log(affirmations);
+    let response3 = await fetch('api/indice');
+    let indice = await response3.json();
+
+    console.log(indice);
 
     //Recuperation des div dans lesquelles on va afficher les affirmations
     let divAffirmations = document.getElementsByClassName('affirmation-content')
@@ -37,7 +40,7 @@ page('/communes-2/affirmation', async function () {
     let nombreCommuneMax = document.getElementById('numeroCommuneMax');
 
     let nbCommuneActuelle = nbMaxCommunes - gameData['communes'].length;
-    
+
     nombreCommuneMax.innerHTML = nbMaxCommunes;
     nombreCommuneActuelle.innerHTML = nbCommuneActuelle;
 
@@ -97,7 +100,7 @@ page('/communes-2/affirmation', async function () {
     //map.fitBounds(bounds);
 
     // On affiche la map google maps derrière.
-    
+
     var tiles = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
         maxZoom: 18,
         /*attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
