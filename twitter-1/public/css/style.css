@@ -374,13 +374,13 @@ img#theme {
     position: absolute;
     margin-left:-25%;
     margin-top:calc(-25% * 9 / 16 ); /* margins are relative to the element width... :-( */
-
-
+}
 
 #last-slide{
     font-size: 22%;
-    background : #a08aff;
+    background: #a08aff;
 }
+
 /* Footer of last slide is at the bottom and content is centered */
 #first-slide footer{
     bottom: 5%;
