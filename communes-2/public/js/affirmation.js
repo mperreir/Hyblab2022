@@ -34,14 +34,21 @@ page('/communes-2/affirmation', async function () {
     //Ajout de l'information a la fin de l'affirmation
     for (let i = 0; i < affirmations.length; i++) {
         let informations = affirmations[i]['columns'];
-        if(informations.length > 1) {
-            for(let j = 0; j < informations.length-1; j++) {
-                affirmations[i]['string'] += gameData['communeCourante'][informations[j]] +", ";
-            }
-            affirmations[i]['string'] += gameData['communeCourante'][informations[informations.length-1]]+".";
-        }
 
-        else affirmations[i]['string'] += gameData['communeCourante'][informations]+".";
+        let compteur = 0;
+        //On va de A à Z
+        for(let asciiCode = 65; asciiCode < 91; asciiCode++) {
+            let letter = String.fromCharCode(asciiCode);
+            let pattern = letter+letter+letter; //Le pattern est de type AAA, BBB, ZZZ dans le json
+            if(affirmations[i]['string'].includes(pattern)) {
+
+                //Remplacement du pattern par l'information correspondante
+                affirmations[i]['string'] = affirmations[i]['string'].replace(pattern, gameData['communeCourante'][informations[compteur]]);
+                compteur++;
+            }
+
+            else break; //Si plus de pattern correspondant, on stoppe la boucle
+        }
     }
 
     //parcourt des div et insertion des affirmations
@@ -101,7 +108,7 @@ page('/communes-2/affirmation', async function () {
         style : function(feature, layer) {
             switch (gameData['orientation']) {
 
-                case "Centre": 
+                case "Centre":
                     switch (feature.properties.orientation) {
                         case "Centre": return {color: "#83C49E", opacity: 1};
                         case "Droite": return {color: "#A0A0A0", opacity: 0.1}; // gris
@@ -135,7 +142,7 @@ page('/communes-2/affirmation', async function () {
 
                 layer.on({
                     click: popupClicked
-                }); 
+                });
             }
 
         }
@@ -148,18 +155,18 @@ page('/communes-2/affirmation', async function () {
         if(layer.hasOwnProperty('_popup')) {
             layer.unbindPopup();
         }
-        
+
         // TODO : styliser le popup
         layer.bindPopup(
             '<p>' + selectedValue + '</p>' +
-            '<input type="button" value = "Oui" id="validateBtn" class="popupBtn" />' + 
+            '<input type="button" value = "Oui" id="validateBtn" class="popupBtn" />' +
             '<input type="button" value = "Non" id="closeBtn" class="popupBtn" />'
         ).openPopup();
 
-                        
+
         let validateBtn = L.DomUtil.get('validateBtn');
         let closeBtn = L.DomUtil.get('closeBtn');
-           
+
         L.DomEvent.addListener(validateBtn, 'click', function(e) {
             // On passe au truc suivant.
             roundEnding(selectedValue, gameData['communeCourante']['libelleCommune']);
