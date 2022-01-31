@@ -1,7 +1,46 @@
-<div class="fd-container">
-  <div class="fd-header">
-      <div class="fd-bg-blue">
+<div class="pv-container">
+  <div class="pv-header">
+      <div class="pv-bg-blue">
       </div>
-      <div class="fd-bg-red">
+      <div class="pv-hd-center"></div>
+      <div class="pv-bg-red">
       </div>
   </div>
+  <div class="pv-area">    
+    <div class="pv-header-ville">
+      <div class="pv-border-red">
+        <img src="img/geolocalisation.svg" class="pv-geo"/>
+      </div>
+      <div class="pv-nom-ville">
+        <%= ville %>
+      </div>
+    </div>
+    <div class="pv-carte">
+      carte
+    </div>
+    <div class="pv-habitants">
+      <div class="pv-habitants-nombre">
+        <%= pop %>
+      </div>
+      <div class="pv-habitants-hab">
+        hab
+      </div>
+    </div>
+    <div class="pv-superficie">
+      <div class="pv-superficie-superficie">
+        superficie
+      </div>
+      <div class="pv-superficie-nombre">
+        <%= superficie %> km²
+      </div>
+    </div>
+  </div>
+  <div class="pv-graphique">
+    <canvas id="metier"></canvas>
+  </div>
+  <div class="pv-footer">
+    <button class="pv-suite">
+      Suite
+    </button>
+  </div>
+</div>

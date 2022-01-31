@@ -1,0 +1,110 @@
+
+
+.pv-bg-blue {
+  background-color: #0039ff;
+}
+
+.pv-bg-red {
+  background-color: #ff4800;
+}
+.pv-bg-red, .pv-bg-blue{
+  height: 10vh;
+}
+
+
+.pv-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0%;
+  /* height: 100%; */
+  background-color: #e5e6f9;
+  color:#ff4800;
+}
+
+.pv-header {
+  display: grid;
+  grid-template-columns: 1fr 6fr 1fr;
+  width: 100%;
+  height: 20%;
+  margin-bottom: 10%;
+}
+
+
+.pv-area{
+  text-align: center;
+}
+
+.pv-header-ville{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  width: 100%;
+  border : #ff4800 solid 1px;
+  box-shadow: 0.3rem 0.5rem #ff4800;
+  margin-bottom: 2vh;
+}
+
+.pv-geo{
+  height: 100%;
+  border-right:#ff4800 solid 1px;
+}
+
+.pv-nom-ville{
+  color:#ff4800;
+  vertical-align: middle;
+  font-size: 5vh;
+  font-family: "CabinetGrotesk-Regular";
+}
+.pv-carte{
+  height: 10vh;
+}
+
+.pv-habitants {
+  display: flex;
+  width: 100%;
+  text-align: right;
+}
+
+.pv-habitants-nombre {
+  font-weight: bold;
+  font-size: 4em;
+}
+
+.pv-habitants-hab {
+  font-weight: bold;
+}
+
+.pv-superficie {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-bottom: #ff4800 solid 1px;
+  padding-right: 0;
+}
+
+.pv-superficie-superficie {
+  font-weight: bold;
+  vertical-align: middle;
+}
+.pv-superficie-nombre {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.pv-suite{
+  background-color: #e5e6f9;
+  color: #0039ff;
+  position: absolute;
+  bottom: 2vh;
+  right:2vh;
+  border: solid 2px #0039ff;
+  border-radius: 1rem;
+  font-size: 3vh;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  padding-top: 0.5vh;
+  padding-bottom: 0.5vh;
+
+}
+
+
