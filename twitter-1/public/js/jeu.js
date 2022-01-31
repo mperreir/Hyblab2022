@@ -31,7 +31,6 @@ async function Suivant(temps,score,total) {
         jeu.removeChild(reponse);
     } catch {}
 
-
     const question = await fetchResponse();
 
     let div = document.createElement('div');
@@ -51,8 +50,8 @@ async function Suivant(temps,score,total) {
     div.style.justifyContent = "center";
     div.style.alignItems = "center";
 
-    let content = document.createTextNode(question.text);
-
+    let content = document.createElement('div');
+    content.innerHTML = question.text;
 
     let div2 = document.createElement('div');
     div2.setAttribute("id", 'reponses');
@@ -98,18 +97,19 @@ async function Suivant(temps,score,total) {
     jeu.appendChild(div2);
 
     let timerElement = document.getElementById("timer")
-    interval = setInterval(() => {
-        let minute = Math.floor(temps/60);
-        let secondes = temps%60;
-    
+    let interval = setInterval(() => {
+        let minute = Math.floor(temps / 60);
+        let secondes = temps % 60;
+
         secondes = secondes < 10 ? "0" + secondes : secondes
-      
+
         timerElement.innerText = `${minute}:${secondes}`
         temps = temps <= 0 ? 0 : temps - 1
-        if(temps==0){
-            finJeu(score,total);
+        if (temps === 0) {
+            clearInterval(interval);
+            finJeu(score, total);
         }
-      }, 1000)
+    }, 1000);
     
     
     
@@ -140,13 +140,12 @@ function Reponse(button, is_success, temps, interval, score, total){
     jeu.removeChild(question);
     jeu.removeChild(reponse);
     
-    clearInterval(interval);
     Suivant(temps, score,total);
 
 }
  
 function finJeu(score,total){
-    clearInterval(interval);
+    // clearInterval(interval);
 
     let slide = document.querySelector('#second-slide');
     slide.style.background ="#5467d3";
@@ -205,7 +204,7 @@ function finJeu(score,total){
     let contentappr;
 
     console.log(score/total);
-    if((score/total)<=0.5 || total ==0){
+    if((score/total)<=0.5 || total === 0){
         console.log("here");
         contentcom = document.createTextNode( "Améliorez vos connaissances en découvrant les Top Tweets de la semaine !" );
         contentappr = document.createTextNode( "OH OH..." );
