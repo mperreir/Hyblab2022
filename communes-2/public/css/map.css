@@ -57,10 +57,19 @@
     width: 100%;
 }
 
-/* TODO */
-.numeroCommune {
-    color:black;
-    font-size: 15px;
+
+#couter-country{
+    font-size: 25%;
+    color : #282246;
+    display: inline-block;
+    margin-right: 10%;
+    font-family: "Bebas Neue";
+    position: absolute;
+    right: 0;
+}
+
+#couter-country > p{
+    display: inline-block;
 }
 
 #affirmation{
@@ -91,6 +100,52 @@
 
     text-align: center;
 }
+
+#indice-box{
+
+    transition: bottom 1s;
+
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 0;
+    right: 0;
+    bottom: -190px;
+
+    border-top-left-radius : 50px;
+    border-top-right-radius : 50px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -15px 15px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px;
+
+    background-color: #282246;
+    color: #f0e4d8;
+    
+    background-position: 9px 0px;
+    background-repeat: no-repeat;
+
+    line-height: 18px;
+    overflow: hidden;
+    padding: 0 60px;
+
+    text-align: center;
+}
+
+#indice-box > h6{
+    margin-top: 20px;
+    font-size: 25%;
+    font-family: "Bebas neue";
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#indice-box > p{
+    margin-top: 20px;
+    font-size: 18%;
+    font-family: "Reem Kufi";
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 #slider{
 
     transition: bottom 1s;

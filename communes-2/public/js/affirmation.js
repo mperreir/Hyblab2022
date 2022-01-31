@@ -71,25 +71,47 @@ page('/communes-2/affirmation', async function () {
 
     showAffirmation(slideIndex);
 
+    
+
     // Add event click on affirmation box
-    let slide = document.getElementById("slider");
+    let slide = document.getElementById("show");
     slide.addEventListener("click", (event)=>{
         if (slide !== event.target) return;
-        let slider = document.getElementById("slider");
+        var slider = document.getElementById("slider");
         slider.style.bottom ="-190px";
 
-        let box = document.getElementById("affirmation");
+        var box = document.getElementById("affirmation");
         box.style.bottom = "0";
     });
 
     let box_aff = document.getElementById("affirmation");
     box_aff.addEventListener("click", (event)=>{
         if (box_aff !== event.target) return;
-        let box = document.getElementById("affirmation");
+        var box = document.getElementById("affirmation");
         box.style.bottom ="-190px";
 
-        let slider = document.getElementById("slider");
+        var slider = document.getElementById("slider");
         slider.style.bottom = "0";
+    });
+
+    let indicebutton = document.getElementById("indice");
+    indicebutton.addEventListener("click", (event)=>{
+        if (indicebutton !== event.target) return;
+        var indicebox = document.getElementById("indice-box");
+        indicebox.style.bottom ="0";
+
+        var slider = document.getElementById("slider");
+        slider.style.bottom ="-190px";
+    });
+
+    let indicebox = document.getElementById("indice-box");
+    indicebox.addEventListener("click", (event)=>{
+        if (indicebox !== event.target) return;
+        var indiceb = document.getElementById("indice-box");
+        indiceb.style.bottom ="-190px";
+
+        var slider = document.getElementById("slider");
+        slider.style.bottom ="0";
     });
 
     // ------ Gestion de la map

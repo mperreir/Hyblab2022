@@ -1,11 +1,6 @@
 page('/communes-2/information', async function () {
     await renderTemplate(templates('./templates/information.mustache'));
 
-<<<<<<< HEAD
-    var Nom_commune = "Libellé de la commune";
-    var Commune = gameData.communeCourante;
-    
-=======
     let gameData = JSON.parse(localStorage.getItem('gameData'));
     let nom_commune = "Libellé de la commune";
     let communeCourante = gameData.communeCourante.libelleCommune;
@@ -50,74 +45,16 @@ page('/communes-2/information', async function () {
     dataSet = data_Nom_Voix(dat,communeCourante);
     data2t = data_Nom_Voix_2T(data2,communeCourante);
 
->>>>>>> d80c811219a51b738e07f06cabc6a7fda58ed8c3
     pie();
     histo();
 });
 
-<<<<<<< HEAD
-let gameData = JSON.parse(localStorage.getItem('gameData'));
-    gameData.score += 5000;
-    localStorage.setItem('gameData',JSON.stringify(gameData));
-    console.log(localStorage.getItem('gameData'));
-
-
-
-let remplacer_virgule_par_point = function(decimal) {
-	return parseFloat((decimal+"").replace(",","."));
-}
-
-let data_Nom_Voix = function(d, commune){
-    let l = 0;
-    while(commune != d[l][Nom_commune]){
-        l++;
-    }
-    n = d[l]; 
-    tab =  [];
-    for(let i= 1; i<12; i++){
-        let NomC = `NomC${i}`;
-        let Voix = `% Voix/ExpC${i}`;
-        tab.push({"NomC" : n[NomC], "Voix" : remplacer_virgule_par_point(n[Voix]), "Commune" : commune});
-    }
-    
-    return tab;
-}
-
-let data_Nom_Voix_2T = function(d, commune){
-    let l = 0;
-    while(commune != d[l][Nom_commune]){
-        l++;
-    }
-    n = d[l]; 
-    tab2 =  [];
-    let V1 = "% Voix/Exp" ;
-    let V2 = "% Voix/Exp__1";
-    let N1 ="Nom";
-    let N2 = "Nom__1"
-    tab2.push({"Nom2T" : n[N1], "Voix2T" : remplacer_virgule_par_point(n[V1]), "Commune2T" : commune});
-    tab2.push({"Nom2T" : n[N2], "Voix2T" : remplacer_virgule_par_point(n[V2]), "Commune2T" : commune});  
-
-    return tab2;
-}
-
-dataSet = data_Nom_Voix(dat,"Basse-Goulaine");
-
-data2t = data_Nom_Voix_2T(data2,"Basse-Goulaine");
-
-console.log(data2t);
-
-=======
->>>>>>> d80c811219a51b738e07f06cabc6a7fda58ed8c3
 function histo() {
     const margin = 15;
     const width = 360 - 2 * margin;
     const height = 250 - 2 * margin;
 
-<<<<<<< HEAD
-    let col = ["#5B6C9A", "#ED6464"];
-=======
     let col = ["red", "blue"];
->>>>>>> d80c811219a51b738e07f06cabc6a7fda58ed8c3
 
     d3.select("#histogramme").selectAll("*").remove();
     let svg = d3.select("#histogramme")
@@ -128,11 +65,7 @@ function histo() {
         
 
     const chart = svg.append('g')
-<<<<<<< HEAD
-    .attr('transform', `translate(${margin * 2.5}, ${margin * 2})`)
-=======
         .attr('transform', `translate(${margin * 2.8}, ${margin * 2})`)
->>>>>>> d80c811219a51b738e07f06cabc6a7fda58ed8c3
     
     const color = d3.scaleOrdinal(col)
     color.domain(d => d.NomC)
@@ -220,22 +153,10 @@ function histo() {
       .attr('transform', 'rotate(-90)')
       .attr('text-anchor', 'middle')
       .text(' % de voix')
-<<<<<<< HEAD
-
-    
-    
-
-=======
->>>>>>> d80c811219a51b738e07f06cabc6a7fda58ed8c3
 }
 
 function pie(){
-<<<<<<< HEAD
-
-    let col = ["#ED6464","#5B6C9A"];
-=======
     let col = ["red", "blue"];
->>>>>>> d80c811219a51b738e07f06cabc6a7fda58ed8c3
 
     const size = 350;
     const fourth = size / 4;
@@ -297,11 +218,5 @@ function pie(){
           .attr('y', 20)
           .style('font-size', '11px')
           .attr('text-anchor', 'middle')
-<<<<<<< HEAD
-          .text(`Voix des candidats au 2e tour en 2017 à ${dataSet[0].Commune}`)
-
-
-=======
           .text(`Voix des candidats au 2e tour à ${dataSet[0].Commune}`)
->>>>>>> d80c811219a51b738e07f06cabc6a7fda58ed8c3
 }
