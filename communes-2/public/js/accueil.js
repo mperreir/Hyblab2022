@@ -24,9 +24,9 @@ page('/communes-2/', async function () {
     });
 
     document.getElementById("credits-btn").addEventListener('click', function () {
-        page('/communes-2/credits');
+        page('/communes-2/information');//credits
     });
 });
-
+ 
 // On démarre le routing
 page.start();
