@@ -95,75 +95,76 @@ const initSlide3 = async function () {
             poppups.style.background = "#47d19f";
             headerpoppup.style.background = "#47d19f";
 
-            // let image1 = document.createElement('img');
-            // image1.src = "img/emotes/@-1.png";
-            // image1.setAttribute("id", "image1");
-            // image1.setAttribute("class", "rotateimg320");
-            // image1.style.width = "30%";
-            // image1.style.position = "absolute";
-            // image1.style.top = "65%";
-            // image1.style.left = "5%";
-            // image1.style.zIndex = "5";
-            // image.appendChild(image1);
+             let image1 = document.createElement('img');
+             image1.src = "img/emotes/@-1.png";
+             image1.setAttribute("id", "image1");
+             image1.setAttribute("class", "rotateimg320");
+             image1.style.width = "30%";
+             image1.style.position = "absolute";
+             image1.style.top = "65%";
+             image1.style.left = "5%";
+            image1.style.zIndex = "5";
+            image.appendChild(image1);
             //
-            // let image2 = document.createElement('img');
-            // image2.src = "img/emotes/hashtag-1.png";
-            // image2.setAttribute("id", "image1");
-            // image2.setAttribute("class", "rotateimg20");
-            // image2.style.width = "20%";
-            // image2.style.position = "absolute";
-            // image2.style.top = "45%";
-            // image2.style.left = "70%";
-            // image2.style.zIndex = "5";
-            // image.appendChild(image2);
+             let image2 = document.createElement('img');
+             image2.src = "img/emotes/hashtag-1.png";
+             image2.setAttribute("id", "image1");
+             image2.setAttribute("class", "rotateimg20");
+             image2.style.width = "20%";
+             image2.style.position = "absolute";
+             image2.style.top = "45%";
+             image2.style.left = "70%";
+             image2.style.zIndex = "5";
+             image.appendChild(image2);
             //
-            // let image3 = document.createElement('img');
-            // image3.src = "img/emotes/twitter-1.png";
-            // image3.setAttribute("id", "image1");
-            // image3.setAttribute("class", "rotateimg20");
-            // image3.style.width = "15%";
-            // image3.style.position = "absolute";
-            // image3.style.top = "70%";
-            // image3.style.left = "25%";
-            // image3.style.zIndex = "5";
-            // image.appendChild(image3);
+             let image3 = document.createElement('img');
+             image3.src = "img/emotes/twitter-1.png";
+             image3.setAttribute("id", "image1");
+             image3.setAttribute("class", "rotateimg20");
+             image3.style.width = "15%";
+             image3.style.position = "absolute";
+             image3.style.top = "70%";
+             image3.style.left = "25%";
+             image3.style.zIndex = "5";
+             image.appendChild(image3);
         }
         if (candidat.name === "Jean-Luc Mélenchon" || candidat.name === "Philippe Poutou" || candidat.name === "Anne Hidalgo" || candidat.name === "Christiane Taubira") {
             poppups.style.background = "#ef7767";
             headerpoppup.style.background = "#ef7767";
 
-            // let image1 = document.createElement('img');
-            // image1.src = "img/emotes/coeur-1.png";
-            // image1.setAttribute("id", "image1");
-            // image1.setAttribute("class", "rotateimg320");
-            // image1.style.height = "110%";
-            // image1.style.position = "absolute";
-            // image1.style.bottom = "-60%";
-            // image1.style.left = "-20%";
-            // image1.style.zIndex = "5";
-            // image.appendChild(image1);
-            //
-            // let image2 = document.createElement('img');
-            // image2.src = "img/emotes/retweet-1.png";
-            // image2.setAttribute("id", "image1");
-            // image2.setAttribute("class", "rotateimg20");
-            // image2.style.height = "75%";
-            // image2.style.position = "absolute";
-            // image2.style.top = "-50%";
-            // image2.style.right = "-10%";
-            // image2.style.zIndex = "5";
-            // image.appendChild(image2);
-            //
-            // let image3 = document.createElement('img');
-            // image3.src = "img/emotes/twitter-1.png";
-            // image3.setAttribute("id", "image1");
-            // image3.setAttribute("class", "rotateimg20");
-            // image3.style.height = "50%";
-            // image3.style.position = "absolute";
-            // image3.style.top = "-30%";
-            // image3.style.right = "13%";
-            // image3.style.zIndex = "5";
-            // image.appendChild(image3);
+            let image1 = document.createElement('img');
+            image1.src="img/emotes/coeur-1.png";
+            image1.setAttribute("id","image1");
+            image1.setAttribute("class","rotateimg320");
+            image1.style.width="30%";
+            image1.style.position = "absolute";
+            image1.style.top = "75%";
+            image1.style.left = "5%";
+            image1.style.zIndex = "5";
+            image.appendChild(image1);
+
+            let image2 = document.createElement('img');
+            image2.src="img/emotes/retweet-1.png";
+            image2.setAttribute("id","image1");
+            image2.setAttribute("class","rotateimg20");
+            image2.style.width="25%";
+            image2.style.position = "absolute";
+            image2.style.top = "50%";
+            image2.style.left = "76%";
+            image2.style.zIndex = "5";
+            image.appendChild(image2);
+
+            let image3 = document.createElement('img');
+            image3.src="img/emotes/twitter-1.png";
+            image3.setAttribute("id","image1");
+            image3.setAttribute("class","rotateimg20");
+            image3.style.width="15%";
+            image3.style.position = "absolute";
+            image3.style.top = "50%";
+            image3.style.left = "70%";
+            image3.style.zIndex = "5";
+            image.appendChild(image3);
+    
         }
         if (candidat.name === "Emmanuel Macron" || candidat.name === "Valérie Pécresse" || candidat.name === "Marine Le Pen" || candidat.name === "Eric Zemmour" || candidat.name === "Florian Philippot" || candidat.name === "N. Dupont-Aignan" || candidat.name === "François Asselineau") {
             poppups.style.background = "#5467d3";

@@ -12,6 +12,9 @@ async function Suivant(temps,score,total) {
 
     let menu = document.querySelector('#menu1');
     menu.style.display= "none";
+
+    let slide = document.querySelector('#second-slide');
+    slide.style.background ="#a08aff";
     
     try {
         let text = document.querySelector('#text');
@@ -22,8 +25,6 @@ async function Suivant(temps,score,total) {
         jeu.removeChild(choix);
         jeu.removeChild(svg);
         jeu.removeChild(images);
-        let slide = document.querySelector('#second-slide');
-        slide.style.background ="#a08aff";
     } catch {}
 
     try {
@@ -230,13 +231,14 @@ function finJeu(score,total){
     div.style.fontSize = "20px";
     div.style.marginTop = "5%";
     div.style.textAlign = "center";
+    div.style.padding = "1%";
     jeu.appendChild(div);
     
 
     let image = document.createElement('img');
     image.src="img/etoiles-1.png";
     image.setAttribute("id","etoile");
-    image.style.width="75%";
+    image.style.width="70%";
     image.style.position = "absolute";
     image.style.top = "40%";
     image.style.left = "15%";
@@ -257,8 +259,8 @@ function finJeu(score,total){
     rejoue.style.fontSize = "90%";
     rejoue.style.fontWeight = "700";
     rejoue.style.position = "absolute";
-    rejoue.style.top = "80%";
-    rejoue.style.left = "20%";
+    rejoue.style.top = "78%";
+    rejoue.style.left = "5%";
     rejoue.addEventListener('click', () => { 
         clear();
     });
@@ -277,8 +279,8 @@ function finJeu(score,total){
     partager.style.fontSize = "90%";
     partager.style.fontWeight = "700";
     partager.style.position = "absolute";
-    partager.style.top = "80%";
-    partager.style.left = "20%";
+    partager.style.top = "78%";
+    partager.style.left = "40%";
     partager.addEventListener('click', () => { 
         window.open("https://twitter.com/");
     });
