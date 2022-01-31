@@ -64,13 +64,12 @@ function date() {
 // date();
 // })
 
-
-loadFolder();
+//loadFolder();
 // loadFileExplorer();
 // loadSms();
 // loadEnd();
 // loadRebet();
-
+loadPresVille();
 
 async function loadTemplate(path, data) {
     const fileExplorerTemplate = await fetch(path);
