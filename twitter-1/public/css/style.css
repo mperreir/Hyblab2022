@@ -291,6 +291,7 @@ th, td {
     text-align: center;
     margin: auto;
     display: flex;
+    padding: 0.5em;
 }
 
 #tweet-theme {
@@ -314,8 +315,8 @@ th, td {
 }
 
 #theme-pic{
-    display: flex;
     justify-content: center;
+    display: none;
 }
 
 img#theme {

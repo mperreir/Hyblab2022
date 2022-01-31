@@ -1,5 +1,6 @@
 select = document.querySelector('#top-select');
 tweet = document.querySelector('#tweets');
+theme_pic_div = document.querySelector('#theme-pic');
 theme_pic = document.querySelector('img#theme');
 let themes;
 
@@ -20,8 +21,6 @@ async function initThemesTopTweets() {
         o.innerText = theme.name.toUpperCase();
         select.appendChild(o);
     });
-
-    theme_pic.src = './img/topics/securite.png';
     
     await showTopTweets();
 }
@@ -36,6 +35,8 @@ async function showTopTweets () {
     tweet_theme_div.setAttribute("id",'tweet-theme');
 
     let tweets = await fetchTopTweetsTheme(parseInt(select.value));
+    
+    TopTweetsThemePic(select.value);
 
     tweets.forEach((t) => {
         let p = document.createElement('p');
@@ -123,5 +124,27 @@ async function fetchTopTweetsTheme(theme_id) {
 }
 
 function TopTweetsThemePic(theme_id) {
-
+    theme_pic_div.style.display = "flex";
+    switch (theme_id) {
+        case "0":
+          theme_pic_div.style.display = "none";
+          break;
+        case "1":
+          theme_pic.src = './img/topics/securite.png';
+          break;
+        case "2":
+          theme_pic.src = './img/topics/sante.png';
+          break;
+        case "3":
+          theme_pic.src = './img/topics/economie.png';
+          break;
+        case "4":
+          theme_pic.src = './img/topics/education.png';
+          break;
+        case "5":
+          theme_pic.src = './img/topics/environnement.png';
+          break;
+        case "6":
+          theme_pic.src = './img/topics/culture.png';
+      }
 }
