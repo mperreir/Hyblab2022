@@ -349,7 +349,7 @@
           },
           "properties":{
              "code":"44148",
-             "nom":"Ruffigne",
+             "nom":"Ruffigné",
              "orientation":"Centre"
           }
        },
@@ -646,7 +646,7 @@
           },
           "properties":{
              "code":"44077",
-             "nom":"Joue-sur-Erdre",
+             "nom":"Joué-sur-Erdre",
              "orientation":"Gauche"
           }
        },
@@ -927,7 +927,7 @@
           },
           "properties":{
              "code":"44006",
-             "nom":"Asserac",
+             "nom":"Assérac",
              "orientation":"Centre"
           }
        },
@@ -1457,7 +1457,7 @@
           },
           "properties":{
              "code":"44073",
-             "nom":"Heric",
+             "nom":"Héric",
              "orientation":"Centre"
           }
        },
@@ -1738,7 +1738,7 @@
           },
           "properties":{
              "code":"44053",
-             "nom":"Dreffeac",
+             "nom":"Drefféac",
              "orientation":"Centre"
           }
        },
@@ -2210,7 +2210,7 @@
           },
           "properties":{
              "code":"44146",
-             "nom":"Rouge",
+             "nom":"Rougé",
              "orientation":"Centre"
           }
        },
@@ -2424,7 +2424,7 @@
           },
           "properties":{
              "code":"44096",
-             "nom":"Mesanger",
+             "nom":"Mésanger",
              "orientation":"Centre"
           }
        },
@@ -4166,7 +4166,7 @@
           },
           "properties":{
              "code":"44013",
-             "nom":"Besne",
+             "nom":"Besné",
              "orientation":"Gauche"
           }
        },
@@ -4890,7 +4890,7 @@
           },
           "properties":{
              "code":"44065",
-             "nom":"Grand-Auverne",
+             "nom":"Grand-Auverné",
              "orientation":"Droite"
           }
        },
@@ -5703,7 +5703,7 @@
           },
           "properties":{
              "code":"44149",
-             "nom":"Saffre",
+             "nom":"Saffré",
              "orientation":"Gauche"
           }
        },
@@ -6023,7 +6023,7 @@
           },
           "properties":{
              "code":"44016",
-             "nom":"La Boissière-du-Dore",
+             "nom":"La Boissière-du-Doré",
              "orientation":"Droite"
           }
        },
@@ -6157,7 +6157,7 @@
           },
           "properties":{
              "code":"44143",
-             "nom":"Reze",
+             "nom":"Rezé",
              "orientation":"Centre"
           }
        },
@@ -6216,7 +6216,7 @@
           },
           "properties":{
              "code":"44160",
-             "nom":"Saint-Gereon",
+             "nom":"Saint-Géréon",
              "orientation":"Centre"
           }
        },
@@ -6775,7 +6775,7 @@
           },
           "properties":{
              "code":"44038",
-             "nom":"Chauve",
+             "nom":"Chauvé",
              "orientation":"Droite"
           }
        },
@@ -6962,7 +6962,7 @@
           },
           "properties":{
              "code":"44067",
-             "nom":"Guemene-Penfao",
+             "nom":"Guémené-Penfao",
              "orientation":"Centre"
           }
        },
@@ -7164,7 +7164,7 @@
           },
           "properties":{
              "code":"44144",
-             "nom":"Riaille",
+             "nom":"Riaillé",
              "orientation":"Centre"
           }
        },
@@ -7243,7 +7243,7 @@
           },
           "properties":{
              "code":"44142",
-             "nom":"Remouille",
+             "nom":"Remouillé",
              "orientation":"Centre"
           }
        },
@@ -7730,7 +7730,7 @@
           },
           "properties":{
              "code":"44081",
-             "nom":"Lege",
+             "nom":"Legé",
              "orientation":"Droite"
           }
        },
@@ -8373,7 +8373,7 @@
           },
           "properties":{
              "code":"44156",
-             "nom":"Corcoue-sur-Logne",
+             "nom":"Corcoué-sur-Logne",
              "orientation":"Centre"
           }
        },
@@ -10170,7 +10170,7 @@
           },
           "properties":{
              "code":"44202",
-             "nom":"Teille",
+             "nom":"Teillé",
              "orientation":"Centre"
           }
        },
@@ -10463,7 +10463,7 @@
           },
           "properties":{
              "code":"44075",
-             "nom":"Isse",
+             "nom":"Issé",
              "orientation":"Droite"
           }
        },
@@ -10992,7 +10992,7 @@
           },
           "properties":{
              "code":"44151",
-             "nom":"Saint-Andre-des-Eaux",
+             "nom":"Saint-André-des-Eaux",
              "orientation":"Centre"
           }
        },
@@ -11578,7 +11578,7 @@
           },
           "properties":{
              "code":"44164",
-             "nom":"Saint-Hilaire-de-Chaleons",
+             "nom":"Saint-Hilaire-de-Chaléons",
              "orientation":"Centre"
           }
        },
@@ -11946,7 +11946,7 @@
           },
           "properties":{
              "code":"44179",
-             "nom":"Saint-Mars-du-Desert",
+             "nom":"Saint-Mars-du-Désert",
              "orientation":"Centre"
           }
        },
@@ -12021,7 +12021,7 @@
           },
           "properties":{
              "code":"44058",
-             "nom":"Ferce",
+             "nom":"Fercé",
              "orientation":"Droite"
           }
        },
@@ -12600,7 +12600,7 @@
           },
           "properties":{
              "code":"44134",
-             "nom":"Pouille-les-Côteaux",
+             "nom":"Pouillé-les-Côteaux",
              "orientation":"Droite"
           }
        },
@@ -12818,7 +12818,7 @@
           },
           "properties":{
              "code":"44121",
-             "nom":"Petit-Auverne",
+             "nom":"Petit-Auverné",
              "orientation":"Droite"
           }
        },
@@ -13198,7 +13198,7 @@
           },
           "properties":{
              "code":"44048",
-             "nom":"Couffe",
+             "nom":"Couffé",
              "orientation":"Centre"
           }
        },
@@ -13879,7 +13879,7 @@
           },
           "properties":{
              "code":"44092",
-             "nom":"Masserac",
+             "nom":"Massérac",
              "orientation":"Gauche"
           }
        },
@@ -14270,7 +14270,7 @@
           },
           "properties":{
              "code":"44190",
-             "nom":"Saint-Sebastien-sur-Loire",
+             "nom":"Saint-Sébastien-sur-Loire",
              "orientation":"Centre"
           }
        },
@@ -14682,7 +14682,7 @@
           },
           "properties":{
              "code":"44136",
-             "nom":"Prefailles",
+             "nom":"Préfailles",
              "orientation":"Droite"
           }
        },
@@ -15069,7 +15069,7 @@
           },
           "properties":{
              "code":"44204",
-             "nom":"Thouare-sur-Loire",
+             "nom":"Thouaré-sur-Loire",
              "orientation":"Centre"
           }
        },
@@ -15516,7 +15516,7 @@
           },
           "properties":{
              "code":"44078",
-             "nom":"Juigne-des-Moutiers",
+             "nom":"Juigné-des-Moutiers",
              "orientation":"Droite"
           }
        },
@@ -16351,7 +16351,7 @@
           },
           "properties":{
              "code":"44037",
-             "nom":"Château-Thebaud",
+             "nom":"Château-Thébaud",
              "orientation":"Centre"
           }
        },
@@ -17223,7 +17223,7 @@
           },
           "properties":{
              "code":"44082",
-             "nom":"Ligne",
+             "nom":"Ligné",
              "orientation":"Centre"
           }
        },
@@ -18006,7 +18006,7 @@
           },
           "properties":{
              "code":"44019",
-             "nom":"Bouee",
+             "nom":"Bouée",
              "orientation":"Centre"
           }
        },
@@ -18160,7 +18160,7 @@
           },
           "properties":{
              "code":"44196",
-             "nom":"Severac",
+             "nom":"Sévérac",
              "orientation":"Centre"
           }
        },
@@ -18771,7 +18771,7 @@
           },
           "properties":{
              "code":"44069",
-             "nom":"Guerande",
+             "nom":"Guérande",
              "orientation":"Droite"
           }
        },
@@ -19872,7 +19872,7 @@
           },
           "properties":{
              "code":"44057",
-             "nom":"Fegreac",
+             "nom":"Fégréac",
              "orientation":"Centre"
           }
        },
@@ -20174,7 +20174,7 @@
           },
           "properties":{
              "code":"44201",
-             "nom":"Suce-sur-Erdre",
+             "nom":"Sucé-sur-Erdre",
              "orientation":"Centre"
           }
        },
@@ -20265,7 +20265,7 @@
           },
           "properties":{
              "code":"44118",
-             "nom":"Pannece",
+             "nom":"Pannecé",
              "orientation":"Droite"
           }
        },
@@ -20420,7 +20420,7 @@
           },
           "properties":{
              "code":"44128",
-             "nom":"Plesse",
+             "nom":"Plessé",
              "orientation":"Gauche"
           }
        },
@@ -20503,7 +20503,7 @@
           },
           "properties":{
              "code":"44063",
-             "nom":"Getigne",
+             "nom":"Gétigné",
              "orientation":"Centre"
           }
        },
@@ -20558,7 +20558,7 @@
           },
           "properties":{
              "code":"44171",
-             "nom":"Saint-Leger-les-Vignes",
+             "nom":"Saint-Léger-les-Vignes",
              "orientation":"Centre"
           }
        },
