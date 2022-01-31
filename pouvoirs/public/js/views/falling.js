@@ -32,7 +32,7 @@ function makeFall() {
             loop: false,
             easing: 'easeInOutCubic',
             complete:function(){
-              fallingEffect.play();
+              setTimeout(() => fallingEffect.play(),600);
               const background2 = createAnimation("background-container","data/animations/mouaFallingOnPresident.json",false);
               background1.destroy();
               background2.play();
@@ -44,7 +44,11 @@ function makeFall() {
                     opacity: ['1', '0'],
                     loop: false,
                     easing: 'easeInOutCubic',
-                    complete: () => swiper.slideTo(2)
+                    complete: () => {
+                      background2.destroy();
+                      [fallingEffect,oups,swoosh].forEach((e)=>e.unload());
+                      swiper.slideTo(2)
+                    }
                   })
                 },1000);
               });
