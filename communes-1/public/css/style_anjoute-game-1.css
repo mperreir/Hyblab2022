@@ -5,7 +5,8 @@
 }
 
 .blabla {
-	font-size: 13%;
+	font-size: 14%;
+	font-weight: 800;
 	margin-top: 8%;
 	margin-left: 8%;
 	color: #75BE8F;
@@ -13,7 +14,7 @@
 }
 
 .blabla .texte {
-	width: 50%;
+	width: 60%;
 }
 
 .blabla .recompense {
