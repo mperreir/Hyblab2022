@@ -124,27 +124,36 @@ async function fetchTopTweetsTheme(theme_id) {
 }
 
 function TopTweetsThemePic(theme_id) {
+    page = document.querySelector('#fourth-slide');
     theme_pic_div.style.display = "flex";
     switch (theme_id) {
         case "0":
           theme_pic_div.style.display = "none";
+          page.style.background= "#fff";
           break;
         case "1":
           theme_pic.src = './img/topics/securite.png';
+          page.style.background= "rgb(77, 109, 214)";
           break;
         case "2":
           theme_pic.src = './img/topics/sante.png';
+          page.style.background= "rgb(207, 79, 207)";
           break;
         case "3":
           theme_pic.src = './img/topics/economie.png';
+          page.style.background= "#f1de68";
           break;
         case "4":
           theme_pic.src = './img/topics/education.png';
+          page.style.background= "#ef7767";
           break;
         case "5":
           theme_pic.src = './img/topics/environnement.png';
+          page.style.background= "rgb(53, 226, 68)";
           break;
         case "6":
           theme_pic.src = './img/topics/culture.png';
+          page.style.background= "rgb(153, 0, 241)";
+          break;
       }
 }
