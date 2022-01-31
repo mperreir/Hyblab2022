@@ -26,4 +26,7 @@ window.onload = () => {
    document.getElementById("score").innerHTML = score;
    sessionStorage.removeItem("question");
    sessionStorage.setItem('question', '1');
+   sessionStorage.removeItem("alreadyGivenCandidate1");
+   sessionStorage.removeItem("alreadyGivenCandidate2");
+
 }

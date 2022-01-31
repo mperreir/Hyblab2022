@@ -8,13 +8,14 @@ const swiper = new Swiper("#mySwiper", {
     clickable: true,
   },
 });
-
+sessionStorage.clear();
 sessionStorage.setItem('question', '1');
 
 // Init first slide
 initSlide1();
 
 window.onload = () => {
+  
   document.getElementById("button-slide-2").addEventListener("click", () => { 
     window.location.href = "./commencer_partie.html";
   });
