@@ -28,7 +28,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-left : -3vw;
+    height: 4vh;
 
 }
 
@@ -41,6 +41,7 @@
     padding-left: 5vw;
     padding-right: 5vw;
     text-align: justify;
+    height:10vh;
 }
 
 body {
@@ -58,6 +59,7 @@ body {
     flex-direction: column; 
     align-items: center;
     padding-top: 4vh;
+    height: 48vh;
 }
 
 .answer-button{
@@ -75,9 +77,9 @@ body {
 
 #progression-bar{
     display: flex;
-    height:10vh;
     justify-content: center;
-    padding-top: 10vh;
+    align-items: center;
+    height: 21vh;
 }
 
 #bar{
@@ -85,29 +87,29 @@ body {
     justify-content: center;
     align-items: center;
     height:1.5vh;
-    width:80vw;
+    width: 80vw;
     line-height: 1.5vh;
 }
 
 #point1{
   
-    width:4vw;
-    height:2vh;
-    border-radius: 10px;
+    width:15px;
+    height:15px;
+    border-radius: 50%;
     border : solid 1px #1A367A;
 }
 #point2{
   
-    width:4vw;
-    height:2vh;
-    border-radius: 10px;
+    width:15px;
+    height:15px;
+    border-radius: 50%;
     border : solid 1px #1A367A;
 }
 #point3{
  
-    width:4vw;
-    height:2vh;
-    border-radius: 10px;
+    width:15px;
+    height:15px;
+    border-radius: 50%;
     border : solid 1px #1A367A;
 }
 
