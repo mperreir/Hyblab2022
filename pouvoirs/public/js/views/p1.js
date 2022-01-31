@@ -1,5 +1,3 @@
-let boolp1 = true;
-
 const diag = function(dBox, text) {
   dBox.style.display = "block";
   shakeElement(dBox);
@@ -11,9 +9,6 @@ const diag = function(dBox, text) {
 
 const init_p1 = function() {
  "use strict";
-
-  if (boolp1) {
-  boolp1 = False;
 
   function css(elements, style) {
     elements.forEach(element => {
@@ -42,7 +37,7 @@ const init_p1 = function() {
     'margin' : 'auto',
     'width' : '80%',
     'display' : 'flex',
-    'justify-content' : 'space-evenly',
+    'justify-content' : 'space-evenly ',
     'align-items' : 'start',
     'flex-direction' : 'column',
     'z-index' : '99'
@@ -67,6 +62,7 @@ const init_p1 = function() {
       update: function(anim) {
         img.style.height = illustration.illu;
         infos.style.height = illustration.infos;
+        // infos.style.justifyContent = "space-between";
       }
     })
 
@@ -83,7 +79,7 @@ const init_p1 = function() {
   metabox.appendChild(diBox);
   diBox.style.position = "relative";
   diBox.style.verticalAlign = "top";
-  diBox.style.height = "288px";
+  diBox.style.height = "184px ";
 
   diBox.style.width = "100%";
   diBox.style.margin = "0px";
@@ -128,7 +124,7 @@ const init_p1 = function() {
 
   const buttons = document.createElement("div");
   buttons.classList.add("choices");
-  buttons.style.height = "30%";
+  buttons.style.height = "20%";
   var x1 = document.createElement("BUTTON");
   x1.innerHTML = "Je serai plus efficace en dirigeant seul.";
   var x2 = document.createElement("BUTTON");
@@ -142,6 +138,7 @@ const init_p1 = function() {
 
   const colors = ["#FF2019", "#1be5b9", "#FF2019"];
   function changeText(nb, txt, btn) {
+    // shakeElement(btn);
     if (state === nb){
       cancel.play();
       textContainer.innerHTML = originalText;
@@ -186,12 +183,12 @@ const init_p1 = function() {
     'width' : '80%',
     'height' : '50px',
     'padding': '10px 20px',
-    'margin': '5% auto',
+    'margin': '2% auto',
     'display' : 'block',
     'border': 'none',
     'border-radius': '12px',
   })
-  x3.style.height = "70px";
+  // x3.style.height = "70px";
 
 
   buttons.appendChild(x1);
@@ -202,5 +199,4 @@ const init_p1 = function() {
 
   slide.appendChild(infos);
   slide.appendChild(buttons);
-}
 }
