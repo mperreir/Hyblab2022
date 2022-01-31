@@ -3,6 +3,7 @@
 const app = require( 'express' )();
 const path = require('path');
 
+const { candidatAnalysis } = require('../dataProcessing/candidatAnalysis');
 const { tweetAnalysis } = require('../dataProcessing/tweetAnalysis');
 const { followersAnalysis } = require('../dataProcessing/followersAnalysis');
 
@@ -12,9 +13,15 @@ module.exports = app;
 
 /* ----- Traitements ----- */
 // traitements des tweets
-app.get('/traitements/tweet', function ( req, res ) {
+app.get('/traitements/candidats', function ( req, res ) {
+    candidatAnalysis();
+    res.send('Ok');
+});
+
+// traitements des tweets
+app.get('/traitements/tweets', function ( req, res ) {
     tweetAnalysis();
-    res.send('Processing');
+    res.send('Ok');
 });
 
 // traitements des followers
@@ -107,6 +114,11 @@ app.get('/randomQuestion/:theme', function (req, res) {
 
 
 /* ----- Exploration ----- */
+// avoir la liste des candidats à afficher
+app.get('/candidats', function ( req, res ) {
+    res.send(require(path.join(__dirname, '../data/infosCandidats.json')));
+});
+
 // avoir les ratio de tweet par candidat par followers en commun
 app.get('/ratioNearCandidate/followers/:userName', function (req, res) {
     const dataFollowersCommon = require(path.join(__dirname, '../data/dataFollowersCommon.json'));
