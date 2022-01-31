@@ -1,7 +1,6 @@
 "use strict";
 
 const headPhoneTimeout = 1000;
-let init = false;
 
 let illustration = {
   illu: '55%',
@@ -17,9 +16,6 @@ const ss = createAnimation("spaceship", "data/animations/homeSpaceship.json", tr
 
 // async init function (because of the awaits on fetches)
 const homepage_slide = function(){
-  // Ensuring this function only runs once
-  if (init) return;
-  init = true;
   const sound1 = createAudio("data/sounds/spaceshipStatic.mp3",true);
   const ambiance = createAudio("data/sounds/ambiance.mp3",true);
   ambiance.play();
