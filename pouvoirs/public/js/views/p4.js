@@ -8,6 +8,7 @@ function init_p4() {
 
     /////////////////////////////////////////////////////////////////////////////////for fonction//////////////////  
 
+    /*
     const logimg = document.createElement('img');
     logimg.src = "/image/POUVOIR_4.svg";
     logimg.id = "logoimg";
@@ -23,6 +24,8 @@ function init_p4() {
         'width': '100%',
         'height': 'auto',
     })
+    */
+    
     /////////////////////////////////////////////////////////////////////////////////for titre//////////////////  
 
     const introduce = document.createElement('div');
@@ -34,7 +37,7 @@ function init_p4() {
 
     const introimg = document.createElement('img');
     introimg.id = "logoimg";
-    introimg.src = "/image/SECRETAIRE GRAND.svg";
+    introimg.src = "img/elements/SECRETAIRE GRAND.svg";
     introduce.appendChild(introimg);
     introimg.style.cssText = "margin-left:8.5%;padding-top:24px;";
     css([introimg], {
@@ -191,7 +194,7 @@ function init_p4() {
 
 
     const maires = document.createElement('img');
-    maires.src = "/image/ASSEMBLE DES MAIRES.svg";
+    maires.src = "img/elements/ASSEMBLE DES MAIRES.svg";
     css([maires], {
         'width': '15%',
         'height': 'auto',
@@ -199,14 +202,14 @@ function init_p4() {
     })
 
     const president = document.createElement('img');
-    president.src = "/image/PRESIDENT DES MAIRES.svg";
+    president.src = "img/elements/PRESIDENT DES MAIRES.svg";
     css([president], {
         'width': '18%',
         'height': 'auto'
     })
 
     const vf1 = document.createElement('img');
-    vf1.src = "/image/BOUTON FAUX.svg";
+    vf1.src = "img/elements/button_invalid.svg";
     css([vf1], {
         'width': '4%',
         'height': 'auto',
@@ -215,7 +218,7 @@ function init_p4() {
     })
 
     const vf2 = document.createElement('img');
-    vf2.src = "/image/BOUTON VALIDE.svg";
+    vf2.src = "img/elements/button_valid.svg";
     css([vf2], {
         'width': '4%',
         'height': 'auto',
@@ -227,7 +230,7 @@ function init_p4() {
     //////////////////////////////////////////////////////////////////////////////for button 1 & 2/////////////////
 
     const conseil = document.createElement('img');
-    conseil.src = "/image/CONSEIL CONSTITU.svg";
+    conseil.src = "img/elements/CONSEIL CONSTITU.svg";
     css([conseil], {
         'width': '14%',
         'height': 'auto',
@@ -235,14 +238,14 @@ function init_p4() {
     })
 
     const ministre = document.createElement('img');
-    ministre.src = "/image/PREMIER MINISTRE.svg";
+    ministre.src = "img/elements/PREMIER MINISTRE.svg";
     css([ministre], {
         'width': '18%',
         'height': 'auto',
     })
 
     const vf3 = document.createElement('img');
-    vf3.src = "/image/BOUTON VALIDE.svg";
+    vf3.src = "img/elements/button_valid.svg";
     css([vf3], {
         'width': '4%',
         'height': 'auto',
@@ -251,7 +254,7 @@ function init_p4() {
     })
 
     const vf4 = document.createElement('img');
-    vf4.src = "/image/BOUTON VALIDE.svg";
+    vf4.src = "img/elements/button_valid.svg";
     css([vf4], {
         'width': '4%',
         'height': 'auto',
@@ -392,7 +395,7 @@ function init_p4() {
     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     const div = document.createElement('div');
-    div.appendChild(pageheader);
+    //div.appendChild(pageheader);
     div.appendChild(introduce);
     div.appendChild(line1);
     div.appendChild(line2);
