@@ -90,3 +90,24 @@ const readCSV = async (filePath) => {
     });
 }
 
+/**
+ * Retourne un tableau passé en parametre avec des elements d'un autre
+ * @param {Array} tabResult tableau auquel on va ajouter les éléments de l'autre
+ * @param {Array} tabEntree tableau auquel on va prendre les élements pour les ajouter dans l'autre
+ * @param {Number} nombreAInserer nombre d'element à ajouter dans le tableau à retourner
+ * @returns le tableau passé en parametre avec n nouveau elements de l'autre tableau
+ */
+module.exports.remplirTableau =  function (tabResult, tabEntree , nombreAInserer) {
+    let compteur = 0;
+    while(compteur < nombreAInserer) {
+        let indice = Math.floor(Math.random()*(tabEntree.length));
+
+        //On évite les doublons
+        if(!tabResult.includes(tabEntree[indice])) {
+            tabResult.push(tabEntree[indice]);
+            compteur++;
+        }
+    }
+    return tabResult;
+    }
+

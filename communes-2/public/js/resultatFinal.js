@@ -4,7 +4,7 @@ page('/communes-2/resultatFinal', async function () {
     let scoreJoueur = JSON.parse(localStorage.getItem('gameData')).ScoreTotal;
     if (scoreJoueur === undefined) scoreJoueur = 0;
 
-    // affiche du score
+    // affichage du score
     document.getElementById('scoreTotal').textContent = scoreJoueur;
 
     // affichage du titre

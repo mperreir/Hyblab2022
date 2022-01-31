@@ -3,10 +3,23 @@
 // Show slider
 var slideIndex = 1;
 
+
 page('/communes-2/affirmation', async function () {
     await renderTemplate(templates('./templates/affirmation.mustache'));
 
     let selectedValue = null;
+    let gameData = JSON.parse(localStorage.getItem('gameData'));
+    console.log(gameData);
+
+    // EWEN POUR TESTER SI ON EST AU DEUXIEME ESSAI (donc qu'il faut afficher indice en plus) 
+
+    if (gameData['numeroEssai'] == 2) {
+
+    }
+
+    // FIN
+
+    const nbMaxCommunes = 5;
 
     let response = await fetch('api/carte');
     const dataCarte = await response.json();
@@ -14,21 +27,38 @@ page('/communes-2/affirmation', async function () {
     let response2 = await fetch('api/affirmations')
     let affirmations = await response2.json();
 
+    console.log(affirmations);
+
     //Recuperation des div dans lesquelles on va afficher les affirmations
     let divAffirmations = document.getElementsByClassName('affirmation-content')
-    let gameData = JSON.parse(localStorage.getItem('gameData'));
+
+    // Recuperation des données du jeu et affichage du nombre actuel
+    let nombreCommuneActuelle = document.getElementById('numeroCommuneActuelle');
+    let nombreCommuneMax = document.getElementById('numeroCommuneMax');
+
+    let nbCommuneActuelle = nbMaxCommunes - gameData['communes'].length;
+    
+    nombreCommuneMax.innerHTML = nbMaxCommunes;
+    nombreCommuneActuelle.innerHTML = nbCommuneActuelle;
 
     //Ajout de l'information a la fin de l'affirmation
     for (let i = 0; i < affirmations.length; i++) {
         let informations = affirmations[i]['columns'];
-        if(informations.length > 1) {
-            for(let j = 0; j < informations.length-1; j++) {
-                affirmations[i]['string'] += gameData['communeCourante'][informations[j]] +", ";
-            }
-            affirmations[i]['string'] += gameData['communeCourante'][informations[informations.length-1]]+".";
-        }
 
-        else affirmations[i]['string'] += gameData['communeCourante'][informations]+".";
+        let compteur = 0;
+        //On va de A à Z
+        for(let asciiCode = 65; asciiCode < 91; asciiCode++) {
+            let letter = String.fromCharCode(asciiCode);
+            let pattern = letter+letter+letter; //Le pattern est de type AAA, BBB, ZZZ dans le json
+            if(affirmations[i]['string'].includes(pattern)) {
+
+                //Remplacement du pattern par l'information correspondante
+                affirmations[i]['string'] = affirmations[i]['string'].replace(pattern, gameData['communeCourante'][informations[compteur]]);
+                compteur++;
+            }
+
+            else break; //Si plus de pattern correspondant, on stoppe la boucle
+        }
     }
 
     //parcourt des div et insertion des affirmations
@@ -58,15 +88,16 @@ page('/communes-2/affirmation', async function () {
         let slider = document.getElementById("slider");
         slider.style.bottom = "0";
     });
-    
-    function test(nom) {
-        console.log(nom);
-    }
 
     // ------ Gestion de la map
 
     var map = L.map('map').setView([47.23,-1.70], 8);
+    var bounds = [[47.856,-2.63],[46.845,-0.895]];
+    //var img = L.imageOverlay('img/ZOOM3_DROITE.svg', bounds).addTo(map);
+    //map.fitBounds(bounds);
+
     // On affiche la map google maps derrière.
+    
     var tiles = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
         maxZoom: 18,
         /*attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
@@ -75,6 +106,9 @@ page('/communes-2/affirmation', async function () {
         tileSize: 512,
         zoomOffset: -1
     }).addTo(map);
+
+    map.zoomControl.remove();
+
     // On ajoute le fichier GEOJson comme une couche.
     L.geoJson(dataCarte, {
         // Plusieurs paramètres pour pouvoir modifier ce qu'on affiche, la manière dont on l'affiche, etc.
@@ -84,7 +118,7 @@ page('/communes-2/affirmation', async function () {
         style : function(feature, layer) {
             switch (gameData['orientation']) {
 
-                case "Centre": 
+                case "Centre":
                     switch (feature.properties.orientation) {
                         case "Centre": return {color: "#83C49E", opacity: 1};
                         case "Droite": return {color: "#A0A0A0", opacity: 0.1}; // gris
@@ -118,7 +152,7 @@ page('/communes-2/affirmation', async function () {
 
                 layer.on({
                     click: popupClicked
-                }); 
+                });
             }
 
         }
@@ -131,21 +165,22 @@ page('/communes-2/affirmation', async function () {
         if(layer.hasOwnProperty('_popup')) {
             layer.unbindPopup();
         }
-        
+
         // TODO : styliser le popup
         layer.bindPopup(
             '<p>' + selectedValue + '</p>' +
-            '<input type="button" value = "Oui" id="validateBtn" class="popupBtn" />' + 
+            '<input type="button" value = "Oui" id="validateBtn" class="popupBtn" />' +
             '<input type="button" value = "Non" id="closeBtn" class="popupBtn" />'
         ).openPopup();
 
-                        
+
         let validateBtn = L.DomUtil.get('validateBtn');
         let closeBtn = L.DomUtil.get('closeBtn');
-           
+
         L.DomEvent.addListener(validateBtn, 'click', function(e) {
             // On passe au truc suivant.
-            console.log(selectedValue);
+            roundEnding(selectedValue, gameData['communeCourante']['libelleCommune']);
+
         });
 
         L.DomEvent.addListener(closeBtn, 'click', function(e) {
@@ -155,6 +190,55 @@ page('/communes-2/affirmation', async function () {
     }
 
 });
+
+function roundEnding(selectedValue, rightValue) {
+
+    let scoreRound = 0;
+    let nbEssaiSuivant = 1;
+    let gameData = JSON.parse(localStorage.getItem('gameData'));
+
+
+    if(gameData['numeroEssai'] == 1) {
+        if(selectedValue == rightValue) {
+            // Gagné premier.
+            console.log('Gagne premier');
+            scoreRound = 5000;
+        } else {
+            // Perdu premier essai
+            console.log('Perdu premier');
+            nbEssaiSuivant = 2;
+        }
+    } else {
+        if (selectedValue == rightValue) {
+            // Gagné deuxieme essai
+            console.log('Gagne second');
+            scoreRound = 2500;
+        } else {
+            // Perdu deuxieme essai*
+            console.log('Perdu second');
+            // TODO : Calcul du score
+            scoreRound = 1250;
+        }
+    }
+
+    // changer game data et localstorage.
+    // passer page inter.
+    localStorage.setItem('gameData', JSON.stringify({
+        'orientation': gameData['orientation'],
+        'score' : gameData['score'] + scoreRound,
+        'nbreCommunesTrouvees': gameData['nbreCommunesTrouvees'] + (selectedValue == rightValue ? 1 : 0),
+        'numeroEssai': nbEssaiSuivant,
+        'communeCourante' : nbEssaiSuivant == 2 ? gameData['communeCourante'] : gameData['communes'].pop(),
+        'communes': gameData['communes']
+    }));
+
+    // REDIRECTION VERS LA BONNE PAGE. 
+    if(selectedValue == rightValue) page('/communes-2/resultatInterTrue')
+    else {
+        // Si on s'est trompés et que c'était le second essai, on arrive sur la page d'échec, sinon sur la page avec un indice en plus
+        nbEssaiSuivant == 1 ? page('/communes-2/resultatInterFalse') : page('/communes-2/affirmation');
+    }
+}
 
 function sliderplus(n) {
     showAffirmation(slideIndex += n);
