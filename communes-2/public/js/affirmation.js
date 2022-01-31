@@ -75,6 +75,8 @@ page('/communes-2/affirmation', async function () {
         tileSize: 512,
         zoomOffset: -1
     }).addTo(map);
+
+    console.log(gameData['orientation']);
     // On ajoute le fichier GEOJson comme une couche.
     L.geoJson(dataCarte, {
         // Plusieurs paramètres pour pouvoir modifier ce qu'on affiche, la manière dont on l'affiche, etc.

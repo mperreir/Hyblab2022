@@ -34,6 +34,7 @@ const initializeGameData = async orientation => {
     let communeDeDepart = data[0]
 
     localStorage.setItem('gameData', JSON.stringify({
+        'orientation': orientation,
         'score' : 0,
         'communeCourante' :communeDeDepart,
         'communes': data
