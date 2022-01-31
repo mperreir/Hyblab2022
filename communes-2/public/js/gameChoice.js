@@ -34,7 +34,8 @@ const initializeGameData = async orientation => {
     localStorage.setItem('gameData', JSON.stringify({
         'orientation': orientation,
         'score' : 0,
-        'numeroEssaiCommune': 1, // Soit 1 soit 2, si 2 alors les points sont divisés par 2.
+        'nbreCommunesTrouvees': 0,
+        'numeroEssai': 1, // Soit 1 soit 2, si 2 alors les points sont divisés par 2.
         'communeCourante' : data.pop(),
         'communes': data
     }));
