@@ -17,6 +17,7 @@ function getPostCodefromCoordinates(latitude, longitude){
       if (request.status === 200){ 
         // Success!
         var data = JSON.parse(request.responseText);
+        console.log(data);
         resolve(data);
   
       } else if (request.status <= 500){ 
@@ -47,19 +48,26 @@ function geoFindMe() {
     mapLink.textContent = '';
   
     function success(position) {
-      const latitude  = position.coords.latitude;
-      const longitude = position.coords.longitude;
+      let latitude  = position.coords.latitude;
+      let longitude = position.coords.longitude;
   
       status.textContent = '';
       mapLink.href = `https://www.openstreetmap.org/#map=18/${latitude}/${longitude}`;
       mapLink.textContent = `Latitude: ${latitude} °, Longitude: ${longitude} °`;
+
+      latitude = latitude.toFixed(7);
+      longitude = longitude.toFixed(7);
       
+      console.log(latitude);
+      console.log(longitude);
+
       getBureauxVotefromLocation(latitude, longitude);
-      /*
-      getPostCodefromCoordinates(latitude, longitude)
+  
+      /*getPostCodefromCoordinates(latitude, longitude)
         .then(function(result) {
           //On récupère le code postal ici
-          console.log(result.results[0].components.postcode);
+          let post_code = result.results[0].components.postcode;
+          console.log(result);
         })
         .catch(function(){
           // There was a connection error of some sort
