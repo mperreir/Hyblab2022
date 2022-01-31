@@ -47,6 +47,7 @@ body{
     position: absolute;
 }
 
+
 /* white navigation bullets */
 .swiper-pagination-bullet-active {
     background-color: white !important;
@@ -75,6 +76,8 @@ body{
 #logo-lyse {
     z-index: -1;
     height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 #logo-playlysee{
@@ -90,23 +93,24 @@ body{
     background: #ef7767;
 }
 
-#second-slide #text{ 
-    width: 90%;
+#second-slide #text{
+    display: flex;
+    width: 70%;
     height: 15%;
-    font-size:1.5em;
     text-align: center; 
     color: black;
     position:absolute;
     top :40%;
     left:4%;
-    padding-top:5%;
-    padding-bottom:5%;
-    padding-right:2%;
-    padding-left:2%;
+    padding: 5% 10%;
     border-radius: 25% / 40%; 
     background: #fff; 
     box-shadow: 7px 7px 25px 0 rgba(0,0,0,0.25);
 
+}
+
+#text p {
+    align-self: center;
 }
 
 .rotateimg320 {
@@ -137,8 +141,7 @@ body{
     width: 30%;
     height: 100%;
     box-shadow: 7px 7px 25px 0 rgba(0,0,0,0.25);
-    font-weight: 700; 
-    font-size: 90%;
+    font-weight: 700;
     text-align: center; 
     color: #000;
     border : none;
@@ -160,17 +163,17 @@ h1{
 }
 
 .menu {
-    position : absolute;
+    position: absolute;
     background-color: white;
     border-radius: 25% 25% 0 0;
-    top:92%; 
-    width :100%;  
-    height:10%;  
+    bottom: 0%;
+    width: 100%;
+    height: 10%;
 }
 
 .menu button{
     position : absolute;
-    top : -10%;
+    /*top : -15%;*/
     text-align : center;
 }
 .menu .menu-candidat {
@@ -202,14 +205,18 @@ h1{
 
 h2{
     font-family: 'Outfit', sans-serif;
-    font-size: 60px; 
+    font-size: 60%;
     font-weight: 900; 
     text-align: center; 
     color: white;
 }
 
+#jeu {
+    font-size: 20%;
+}
+
 div{
-    font-size: medium;
+    /*font-size: 1em;*/
     color : black;
 }
 
@@ -226,37 +233,43 @@ div #choix {
 #candidats{
     width:100%;
     height:80%;
-    margin-top: 2em;
-    margin-left: 1em;
+    margin-top: 0;
+    margin-left: 0;
 }
 
 
 .button-candidat{
     width: 30%;
-    height: 40px;
+    /*height: 40px;*/
+    height:8%;
     padding: 0;
     border: none;
     background: none;
-    margin-bottom: 3em;
-    margin-top:1em;
+    margin-bottom: 5%;
+    margin-top:3%;
 }
 
 .profile2{
-    border-radius: 50px;
-    border : 2px solid white;
+    max-width: 100%;
+    max-height: 180%;
+    border-radius: 50%;
+    border : 3px solid white;
 }
 
 .profile{
-    border-radius: 50px;
-    margin-left: 40%;
+    border-radius: 50%;
+    margin-left: 38%;
+    border : 3px solid white;
 }
 
 .nom-candidat{
-    margin-left: 30%;
+    text-align: center;
+    font-size: 30%;
 }
 
 table{
-    margin-left: 5%;
+    font-size: 20%;
+    margin: auto;
 }
 
 td{
@@ -272,10 +285,34 @@ th, td {
 }
 
 
-.swiper-pagination{
-    position : absolute;
-    top : 20%;
-    left:50%;
+.box-tweet {
+    background: white;
+    height: 35vh;
+    width: 80%;
+    border-radius: 70px;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: visible !important;
+    font-size: 18%;
+}
+
+.candidattweet {
+    overflow: hidden;
+}
+
+
+.candidattweet .tweet p{
+    padding: 5%;
+    margin-left : 2%;
+    height : 30vh;
+    width:80%;
+    text-align: center;
+
+}
+
+.candidattweet .swiper-pagination{
+    margin-top : 1vh;
 }
 
 #fourth-slide{
@@ -337,8 +374,13 @@ img#theme {
     position: absolute;
     margin-left:-25%;
     margin-top:calc(-25% * 9 / 16 ); /* margins are relative to the element width... :-( */
-}
 
+
+
+#last-slide{
+    font-size: 22%;
+    background : #a08aff;
+}
 /* Footer of last slide is at the bottom and content is centered */
 #first-slide footer{
     bottom: 5%;
@@ -397,6 +439,9 @@ img#theme {
     height: 8em;
 }
 
+
+
+
 /* ---------- Important media queries for easy responsive content :-) ----------------- */
 /* Can be adapted for other ratios that 9:16 or for horizontal content (ex: 16:9) */
 
@@ -404,9 +449,9 @@ img#theme {
 /* as long as the screen aspect ratio is below 9:16 */
 @media screen and (max-aspect-ratio: 9/16){
     #container{
-        margin-top: calc((100vh - 100 * 16vw / 9) / 2);
+        /*margin-top: calc((100vh - 100 * 16vw / 9) / 2);*/
         width: 100vw;
-        height: calc(100 * 16vw / 9);
+        height: 100vh;
     }
 
     /*!* We set a default font size here. It will be the base for all other font sizes *!*/

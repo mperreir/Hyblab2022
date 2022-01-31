@@ -1,9 +1,9 @@
 
 // doc : https://npm.io/package/sileco.db
 const { Database } = require('sileco.db');
+const fetch = require('node-fetch');
 
 const path = require('path');
-const path_to_db = path.join("db");
 const db_sileco = new Database("twitter-1/back/db/database.json");
 const textProcessing = require(path.join(__dirname, '/../back/textProcessing'));
 
@@ -46,15 +46,24 @@ Date.prototype.isSameWeek = function(date)
         && this.getWeek() === date.getWeek();
 };
 
+Date.prototype.isBetweenWeekBefore = function(date)
+{
+    // return this.getFullYear() === date.getFullYear()
+    //     && this.getWeek() === date.getWeek();
+    const semaine_flottante = new Date(this.getFullYear(), this.getMonth(), this.getDay() - 7);
+    return semaine_flottante < date < this;
+};
+
 module.exports = db;
 module.exports.tweets_name = "tweets";
 module.exports.candidats_name = "candidats";
 module.exports.themes_name = "themes";
 module.exports.candidat_followers_name = "candidat_followers";
+module.exports.config_name = "config";
 
 module.exports.getTweetsSemaine = () => {
     return module.exports.getTweets()
-        .filter(tweet => (new Date(parseInt(tweet.created_at) * 1000)).isSameWeek(new Date(2022, 0, 20)));
+        .filter(tweet => (new Date()).isBetweenWeekBefore(new Date(parseInt(tweet.created_at) * 1000)));
 }
 
 module.exports.getTweets = () => {
@@ -154,6 +163,10 @@ module.exports.candidats_update = (file, onFinish) => {
     });
 }
 
+module.exports.config_update = (config) => {
+    db.set(module.exports.config_name, config);
+}
+
 module.exports.followers_update = (file, onFinish) => {
     textProcessing.Parser.getValuesFromCSVString(file, candidats_line  => {
         // let older_tweets = db.fetch(module.exports.tweets_name);
@@ -187,4 +200,54 @@ module.exports.followers_update = (file, onFinish) => {
 
         onFinish();
     });
+}
+
+autoFetchData();
+
+async function autoFetchData() {
+    while (true) {
+        await new Promise(resolve => setTimeout(resolve, 60000));
+        try {
+
+            let config = db.fetch(module.exports.config_name);
+            if (config === undefined) {
+                config = {
+                    fetch_delay_sec: 60*60*6,
+                    url_fetch_candidats: "https://cdn-apps.letelegramme.fr/twitter/candidats_information_filtre.csv",
+                    url_fetch_followers: "https://cdn-apps.letelegramme.fr/twitter/nb_followers_par_candidat_et_par_jour.csv",
+                    url_fetch_tweets: "https://cdn-apps.letelegramme.fr/twitter/tweets_candidats.csv",
+                }
+            }
+            await new Promise(resolve => setTimeout(resolve, parseInt(config.fetch_delay_sec)*1000));
+
+            try {
+                const candidats_csv = await (await fetch(config.url_fetch_candidats)).text();
+                module.exports.candidats_update(candidats_csv, async () => {
+                    console.log("Auto update db candidat done !");
+                });
+            }catch (e) {}
+
+            try {
+                const followers_csv = await (await fetch(config.url_fetch_followers)).text();
+                module.exports.followers_update(followers_csv, async () => {
+                    console.log("Auto update db followers done !");
+                });
+            }catch (e) {}
+
+            try {
+                const tweets_csv = await (await fetch(config.url_fetch_tweets)).text();
+                module.exports.tweets_update(tweets_csv, () => {
+                    console.log("Auto update db tweets done !");
+                });
+            }catch (e) {}
+
+
+
+
+
+        } catch (e) {
+            console.error(e);
+        }
+
+    }
 }

@@ -1,6 +1,6 @@
 <div id="downup-{{id}}">
     <div class="downupPopup-content">
-        <img src="{{profile_image_url}}" alt="Profile Picture {{name}}" height="70px" class="profile">
+        <img src="{{profile_image_url}}" alt="Profile Picture {{name}}" height="100px" class="profile">
         <h3 class="nom-candidat">{{name}}</h3>
         <table>
             <tbody>
@@ -11,16 +11,21 @@
             </tr>
             </tbody>
         </table>
-        <div id="mySwiper1" class="swiper">
-            <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide">Slide 1</div>
-                <div class="swiper-slide">Slide 2</div>
-                <div class="swiper-slide">Slide 3</div>
-
+        <select name="lenght" id="select-{{id}}">
+            <option value="semaine">Ses tops tweets cette semaine</option>
+            <option value="tous">Tous ses tops tweets</option>
+        </select>
+        <div class="box-tweet">
+            <div id="mySwiper{{id}}" class="swiper candidattweet">
+                <div class="swiper-wrapper">
+                    <!-- auto generated slides -->
+                </div>
+                <div class="swiper-pagination"></div>
             </div>
-            <div class="swiper-pagination"></div>
+            <div id="images{{id}}"></div>
+
         </div>
+
 
     </div>
 </div>

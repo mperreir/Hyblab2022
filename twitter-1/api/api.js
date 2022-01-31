@@ -94,7 +94,16 @@ module.exports = (passport) => {
         res.json(tweets);
     });
 
-    app.get('/tweets/tops/candidat/:candidat_id', (req, res) => {
+    app.get('/tweets/tops/all/candidat/:candidat_id', (req, res) => {
+        let tweets = db.getTweets()
+            .filter(tweet => tweet.themeScore >= 2
+                && parseInt(tweet.user_id) === parseInt(req.params.candidat_id));
+        tweets = tweets.sort((a, b) => b.favorite_count - a.favorite_count);
+        tweets = tweets.slice(0, 5);
+        res.json(tweets);
+    });
+
+    app.get('/tweets/tops/semaine/candidat/:candidat_id', (req, res) => {
         let tweets = db.getTweetsSemaine()
             .filter(tweet => tweet.themeScore >= 2
                 && parseInt(tweet.user_id) === parseInt(req.params.candidat_id));
@@ -218,6 +227,25 @@ module.exports = (passport) => {
             res.status(400).send('Erreur fichier non reçu.');
         }
     });
+
+    app.post('/admin/config/update',
+        require('connect-ensure-login').ensureLoggedIn(),
+        (req, res) => {
+            if (req.body.fetch_delay_sec !== undefined
+                    && req.body.url_fetch_candidats !== undefined
+                    && req.body.url_fetch_followers !== undefined
+                    && req.body.url_fetch_tweets !== undefined) {
+                db.config_update({
+                    fetch_delay_sec: req.body.fetch_delay_sec,
+                    url_fetch_candidats: req.body.url_fetch_candidats,
+                    url_fetch_followers: req.body.url_fetch_followers,
+                    url_fetch_tweets: req.body.url_fetch_tweets,
+                });
+                res.redirect('back');
+            } else {
+                res.status(400).send('Erreur inputs.');
+            }
+        });
 
     // Authentification pour accéder aux parties privées de l'api (on n'en a pas dans cet exemple)
     // et aux templates privés
