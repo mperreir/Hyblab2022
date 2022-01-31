@@ -4,104 +4,119 @@
     "firstName": "Anne",
     "lastName": "Hidalgo",
     "displayFullName": "Anne Hidalgo",
-    "displayShortName": "Anne Hidalgo"
+    "displayShortName": "Anne Hidalgo",
+    "imageLink": "hover-hidalgo"
   },
   {
     "userName": "ChTaubira",
     "firstName": "Christiane",
     "lastName": "Taubira",
     "displayFullName": "Christiane Taubira",
-    "displayShortName": "Christiane Taubira"
+    "displayShortName": "Christiane Taubira",
+    "imageLink": "hover-taubira"
   },
   {
     "userName": "EmmanuelMacron",
     "firstName": "Emmanuel",
     "lastName": "Macron",
     "displayFullName": "Emmanuel Macron",
-    "displayShortName": "E. Macron"
+    "displayShortName": "E. Macron",
+    "imageLink": "hover-macron"
   },
   {
     "userName": "ZemmourEric",
     "firstName": "Eric",
     "lastName": "Zemmour",
     "displayFullName": "Eric Zemmour",
-    "displayShortName": "E. Zemmour"
+    "displayShortName": "E. Zemmour",
+    "imageLink": "hover-zemmour"
   },
   {
     "userName": "Fabien_Roussel",
     "firstName": "Fabien",
     "lastName": "Roussell",
     "displayFullName": "Fabien Roussell",
-    "displayShortName": "F. Roussell"
+    "displayShortName": "F. Roussell",
+    "imageLink": "hover-roussell"
   },
   {
     "userName": "f_philippot",
     "firstName": "Florian",
     "lastName": "Philippot",
     "displayFullName": "Florian Philippot",
-    "displayShortName": "F. Philippot"
+    "displayShortName": "F. Philippot",
+    "imageLink": "hover-philippot"
   },
   {
     "userName": "UPR_Asselineau",
     "firstName": "François",
     "lastName": "Asselineau",
     "displayFullName": "François Asselineau",
-    "displayShortName": "F. Asselineau"
+    "displayShortName": "F. Asselineau",
+    "imageLink": "hover-asselineau"
   },
   {
     "userName": "jeanlassalle",
     "firstName": "Jean",
     "lastName": "Lassalle",
     "displayFullName": "Jean Lassalle",
-    "displayShortName": "J. Lassalle"
+    "displayShortName": "J. Lassalle",
+    "imageLink": "hover-lassalle"
   },
   {
     "userName": "JLMelenchon",
     "firstName": "Jean Luc",
     "lastName": "Mélenchon",
     "displayFullName": "Jean Luc Mélenchon",
-    "displayShortName": "J.L. Mélenchon"
+    "displayShortName": "J.L. Mélenchon",
+    "imageLink": "hover-melenchon"
   },
   {
     "userName": "MLP_officiel",
     "firstName": "Marine",
     "lastName": "Le Pen",
     "displayFullName": "Marine Le Pen",
-    "displayShortName": "M. Le Pen"
+    "displayShortName": "M. Le Pen",
+    "imageLink": "hover-lepen"
   },
   {
     "userName": "n_arthaud",
     "firstName": "Nathalie",
     "lastName": "Arthaud",
     "displayFullName": "Nathalie Arthaud",
-    "displayShortName": "N. Arthaud"
+    "displayShortName": "N. Arthaud",
+    "imageLink": "hover-arthaud"
   },
   {
     "userName": "dupontaignan",
     "firstName": "Nicolas",
     "lastName": "Dupont Aignan",
     "displayFullName": "Nicolas Dupont Aignan",
-    "displayShortName": "N. Dupont Aignan"
+    "displayShortName": "N. Dupont Aignan",
+    "imageLink": "hover-dupontaignan"
   },
   {
     "userName": "PhilippePoutou",
     "firstName": "Philippe",
     "lastName": "Poutou",
     "displayFullName": "Philippe Poutou",
-    "displayShortName": "P. Poutou"
+    "displayShortName": "P. Poutou",
+    "imageLink": "hover-poutou"
   },
   {
     "userName": "vpecresse",
     "firstName": "Valérie",
     "lastName": "Pécresse",
     "displayFullName": "Valérie Pécresse",
-    "displayShortName": "V. Pécresse"
+    "displayShortName": "V. Pécresse",
+    "imageLink": "hover-pecresse"
   },
   {
     "userName": "yjadot",
     "firstName": "Yannick",
     "lastName": "Jadot",
     "displayFullName": "Yannick Jadot",
-    "displayShortName": "Y. Jadot"
+    "displayShortName": "Y. Jadot",
+    "imageLink": "hover-jadot"
   }
 ]
