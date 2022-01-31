@@ -11,6 +11,12 @@ app.get('/city/:city', function (req, res) {
     res.status(cityData ? 200 : 400).json(cityData || { 'error': true, 'message': 'Unknown city.' });
 });
 
+app.get('/cities', function (req, res) {
+    const file = fs.readFileSync(path.join(__dirname, 'data.json'));
+    const cityData = Object.keys(JSON.parse(file))
+    res.status(cityData ? 200 : 400).json(cityData || { 'error': true, 'message': 'Unknown city.' });
+});
+
 app.get('/national', function (req, res) {
     const file = fs.readFileSync(path.join(__dirname, 'france.json'));
     const franceData = JSON.parse(file);

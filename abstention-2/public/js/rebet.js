@@ -108,25 +108,4 @@ async function loadRebet() {
     }
 }
 
-function getTranslateYSMS(smsTread, i) {
-    const boundingRect = smsTread.children.item(smsTread.children.length - i - 1).getBoundingClientRect();
-    return (boundingRect.bottom - boundingRect.top + 40);
-}
 
-
-function handleSlider() {
-    const slider = document.getElementById('sms-slider-input');
-    const min = slider.min
-    const max = slider.max
-    const value = slider.value
-
-    const numberDiv = document.getElementById('sms-number');
-    numberDiv.innerHTML = `${slider.value}%`;
-
-    slider.style.background = `linear-gradient(to right, #e4e5fa 0%, #e4e5fa ${(value - min) / (max - min) * 100}%, #e4e5fa56 ${(value - min) / (max - min) * 100}%, #e4e5fa56 100%)`
-
-    slider.oninput = function (e) {
-        this.style.background = `linear-gradient(to right, #e4e5fa 0%, #e4e5fa ${(this.value - this.min) / (this.max - this.min) * 100}%, #e4e5fa56 ${(this.value - this.min) / (this.max - this.min) * 100}%, #e4e5fa56 100%)`;
-        numberDiv.innerHTML = `${e.target.value}%`;
-    };
-}
