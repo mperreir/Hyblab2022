@@ -77,6 +77,41 @@
             </p>
         </div>
     </form>
+
+    <form action="../api/admin/config/update" method="post">
+        <h2>
+            Updates des configs ici !
+        </h2>
+        <div class="form-group">
+            <p>
+                <label>
+                    Temps entre chaque synchronisation en secondes :
+                    <input type="text" class="form-control-file" name="fetch_delay_sec" placeholder="3600" required>
+                </label>
+            </p>
+            <p>
+                <label>
+                    Url pour récupérer les données des candidats :
+                    <input type="text" class="form-control-file" name="url_fetch_candidats" placeholder="https://exemple.com/candidats.csv" required size="75">
+                </label>
+            </p>
+            <p>
+                <label>
+                    Url pour récupérer les données des followers :
+                    <input type="text" class="form-control-file" name="url_fetch_followers" placeholder="https://exemple.com/followers.csv" required size="75">
+                </label>
+            </p>
+            <p>
+                <label>
+                    Url pour récupérer les données des tweets :
+                    <input type="text" class="form-control-file" name="url_fetch_tweets" placeholder="https://exemple.com/tweets.csv" required size="75">
+                </label>
+            </p>
+            <p>
+                <input type="submit" value="Modifier les config'" class="btn btn-default">
+            </p>
+        </div>
+    </form>
 </div>
 </body>
 </html>

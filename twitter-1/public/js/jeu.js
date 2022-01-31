@@ -12,6 +12,9 @@ async function Suivant(temps,score,total) {
 
     let menu = document.querySelector('#menu1');
     menu.style.display= "none";
+
+    let slide = document.querySelector('#second-slide');
+    slide.style.background ="#a08aff";
     
     try {
         let text = document.querySelector('#text');
@@ -22,8 +25,6 @@ async function Suivant(temps,score,total) {
         jeu.removeChild(choix);
         jeu.removeChild(svg);
         jeu.removeChild(images);
-        let slide = document.querySelector('#second-slide');
-        slide.style.background ="#a08aff";
     } catch {}
 
     try {
@@ -31,13 +32,12 @@ async function Suivant(temps,score,total) {
         jeu.removeChild(reponse);
     } catch {}
 
-
     const question = await fetchResponse();
 
     let div = document.createElement('div');
     div.setAttribute("id", 'question');
     div.style.position = "absolute";
-    div.style.top = "38%";
+    div.style.top = "35%";
     div.style.left = "5%";
     div.style.width = "75%";
     div.style.minHeight = "100px";
@@ -47,9 +47,12 @@ async function Suivant(temps,score,total) {
     div.style.marginTop = "5%";
     div.style.padding = "5px";
     div.style.fontSize = "100%";
+    div.style.display = "flex";
+    div.style.justifyContent = "center";
+    div.style.alignItems = "center";
 
-    let content = document.createTextNode(question.text);
-
+    let content = document.createElement('div');
+    content.innerHTML = question.text;
 
     let div2 = document.createElement('div');
     div2.setAttribute("id", 'reponses');
@@ -95,18 +98,19 @@ async function Suivant(temps,score,total) {
     jeu.appendChild(div2);
 
     let timerElement = document.getElementById("timer")
-    interval = setInterval(() => {
-        let minute = Math.floor(temps/60);
-        let secondes = temps%60;
-    
+    let interval = setInterval(() => {
+        let minute = Math.floor(temps / 60);
+        let secondes = temps % 60;
+
         secondes = secondes < 10 ? "0" + secondes : secondes
-      
+
         timerElement.innerText = `${minute}:${secondes}`
         temps = temps <= 0 ? 0 : temps - 1
-        if(temps==0){
-            finJeu(score,total);
+        if (temps === 0) {
+            clearInterval(interval);
+            finJeu(score, total);
         }
-      }, 1000)
+    }, 1000);
     
     
     
@@ -137,13 +141,12 @@ function Reponse(button, is_success, temps, interval, score, total){
     jeu.removeChild(question);
     jeu.removeChild(reponse);
     
-    clearInterval(interval);
     Suivant(temps, score,total);
 
 }
  
 function finJeu(score,total){
-    clearInterval(interval);
+    // clearInterval(interval);
 
     let slide = document.querySelector('#second-slide');
     slide.style.background ="#5467d3";
@@ -202,16 +205,16 @@ function finJeu(score,total){
     let contentappr;
 
     console.log(score/total);
-    if((score/total)<=0.5 || total ==0){
+    if((score/total)<=0.5 || total === 0){
         console.log("here");
-        contentcom = document.createTextNode( "Améliorez vos connaissances en découvrant les Top Tweets de la semaine !" );
+        contentcom = document.createTextNode( "Vous avez raté quelques actus de la semaine. Pas de problèmes, remettez-vous à niveau en consultant les tweets qui ont le plus fait réagir." );
         contentappr = document.createTextNode( "OH OH..." );
     }else{
         if((score/total)<=0.75){
-            contentcom = document.createTextNode( "Vous êtes presque un expert ! Améliorez vos connaissances en découvrant les Top Tweets de la semaine !" );
+            contentcom = document.createTextNode( "Vous êtes au top de l'actu de la semaine ! Découvrez plus de détails sur les thématiques qui font parler." );
             contentappr = document.createTextNode( "BRAVO !");
         }else{
-            contentcom = document.createTextNode( "Restez à la page en découvrant les Top Tweets !" );
+            contentcom = document.createTextNode( "Vous êtes au top de l'actu de la semaine ! Restez à la page en consultant les tweets qui ont le plus fait réagir." );
             contentappr = document.createTextNode( "QUEL EXPERT !!" );
         }
     }
@@ -228,13 +231,14 @@ function finJeu(score,total){
     div.style.fontSize = "20px";
     div.style.marginTop = "5%";
     div.style.textAlign = "center";
+    div.style.padding = "1%";
     jeu.appendChild(div);
     
 
     let image = document.createElement('img');
     image.src="img/etoiles-1.png";
     image.setAttribute("id","etoile");
-    image.style.width="75%";
+    image.style.width="70%";
     image.style.position = "absolute";
     image.style.top = "40%";
     image.style.left = "15%";
@@ -247,7 +251,7 @@ function finJeu(score,total){
     rejoue.setAttribute("id", "rejouer");
     rejoue.style.width = "35%";
     rejoue.style.height = "10%";
-    rejoue.style.marginLeft = "12%";
+    rejoue.style.marginLeft = "5%";
     rejoue.style.borderRadius = "80px";
     rejoue.style.boxShadow = "7px 7px 25px 0 rgba(0,0,0,0.25)";
     rejoue.style.border = "none";
@@ -255,24 +259,47 @@ function finJeu(score,total){
     rejoue.style.fontSize = "90%";
     rejoue.style.fontWeight = "700";
     rejoue.style.position = "absolute";
-    rejoue.style.top = "80%";
-    rejoue.style.left = "20%";
+    rejoue.style.top = "78%";
+    rejoue.style.left = "5%";
     rejoue.addEventListener('click', () => { 
         clear();
     });
 
+    let partager = document.createElement('input');
+    partager.setAttribute("type", "button");
+    partager.setAttribute("value", "Partager");
+    partager.setAttribute("id", "partager");
+    partager.style.width = "35%";
+    partager.style.height = "10%";
+    partager.style.marginLeft = "20%";
+    partager.style.borderRadius = "80px";
+    partager.style.boxShadow = "7px 7px 25px 0 rgba(0,0,0,0.25)";
+    partager.style.border = "none";
+    partager.style.fontFamily = "'Outfit', sans-serif";
+    partager.style.fontSize = "90%";
+    partager.style.fontWeight = "700";
+    partager.style.position = "absolute";
+    partager.style.top = "78%";
+    partager.style.left = "40%";
+    partager.addEventListener('click', () => { 
+        window.open("https://twitter.com/");
+    });
+
     jeu.appendChild(rejoue);
+    jeu.appendChild(partager);
 
 }
 
 function clear(){
 
     let bouton = document.querySelector('#rejouer');
+    let bouton2 = document.querySelector('#partager');
     let fin = document.querySelector('#finjeu');
     let score = document.querySelector('#score');
     let comment = document.querySelector('#appr');
     let image = document.querySelector('#etoile');
     jeu.removeChild(bouton);
+    jeu.removeChild(bouton2);
     jeu.removeChild(fin);
     jeu.removeChild(score);
     jeu.removeChild(comment);
