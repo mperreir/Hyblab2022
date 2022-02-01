@@ -92,14 +92,10 @@ module.exports = (passport) => {
         let listCount = [];
         let listCandidates = db.getCandidats();
         let arrayTweets = db.getTweetsSemaine();
-        console.log(1)
-        console.log(arrayTweets.length);
         listCandidates.forEach((candidat) => {
             let newCount = Object();
             newCount.nameCandidates = candidat.name;
             let result = arrayTweets.filter(arrayTweets => arrayTweets.user_id === candidat.id);
-            console.log(2)
-            console.log(result.length)
             newCount.nbTweetsByThemes = result.length;
             listCount.push(newCount);
         })
@@ -124,7 +120,8 @@ module.exports = (passport) => {
             listCount.push(newCount);
         })
         listCount = listCount.sort((a, b) => a.nbTweetsByThemes - b.nbTweetsByThemes);
-        let result = listCount.slice(0,4);
+        let result = listCount.slice(0,3);
+        console.log(result)
         res.json(result);
     });
 
