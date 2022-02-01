@@ -337,7 +337,7 @@ class Question10 extends Question{
 //tests
 //console.log(new Question1(7,"2002").generate_question());
 //console.log(new Question2(7,"2002").generate_question());
-//console.log(new Question3(7,"2002").generate_question());  !!! SERA PATCH APRES SCRIPT CELIAN !!!
+//console.log(new Question3(7,"2002").generate_question());
 //console.log(new Question4(2,"2002").generate_question());
 console.log(new Question5(7,"2002").generate_question());
 //console.log(new Question6(7,"2002").generate_question());
