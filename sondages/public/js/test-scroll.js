@@ -20,6 +20,33 @@ const COMPATIBLE_BACKGROUNDS = {
     9: [2, 6, 7],
 }
 
+function InitDesIntentions(intentionsCandidats){
+    intentionsCandidats.forEach(candidat => {
+        const divCandidat = document.createElement('div');
+        divCandidat.setAttribute('data-name') = candidat.prenom + ' ' + candidat.nom;
+
+        const divName = document.createElement('div');
+        const divFirstName = document.createElement('div');
+        divFirstName.classList.add('firstName', candidat.prenom);
+        const divLastName = document.createElement('div');
+        divLastName.classList.add('lastName', candidat.nom);
+        divName.appendChild(divFirstName);
+        divName.append(divLastName);
+
+        const divBlock = document.createElement('div');
+        divBlock.classList.add('block');
+        const img = document.createElement('img');
+        img.setAttribute('src', candidat.image);
+        const divPourcent = document.createElement('div');
+        divPourcent.classList.add('pourcent', '0%');
+        divBlock.appendChild(img);
+        divBlock.appendChild(divPourcent);
+
+        divCandidat.appendChild(divName);
+        divCandidat.appendChild(divBlock);
+    });
+}
+
 function AjoutDesCandidats(candidats) {
 
     const CandidatSelection = document.body.querySelector("#CandidatSelection")
@@ -171,7 +198,7 @@ function start() {
         } else {
             setAfterScrolling()
         }
-
+        console.log(indexJour)
         if (indexJour > 0 && POLL[indexJour]) {
             for (let i = 0; i < POLL[indexJour].length; i++) {
 
