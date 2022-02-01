@@ -10,16 +10,16 @@ page('/communes-2/resultatFinal', async function () {
     // affichage du titre
     switch (scoreJoueur) {
         case scoreJoueur > 24500:
-            document.getElementById('scoreTitre').textContent = "VOUS ÊTES UN AS EN POLITIQUE";
+            document.getElementById('scoreTitre').textContent = "VOUS ÊTES UN AS EN POLITIQUE !";
             break;
         case scoreJoueur > 20000:
-            document.getElementById('scoreTitre').textContent = "VOUS ÊTES CALÉ EN POLITIQUE";
+            document.getElementById('scoreTitre').textContent = "VOUS ÊTES CALÉ EN POLITIQUE ! ";
             break;
-        case scoreJoueur > 15000:
-            document.getElementById('scoreTitre').textContent = "VOUS ÊTES BON EN POLITIQUE";
+        case scoreJoueur > 10000:
+            document.getElementById('scoreTitre').textContent = "VOUS ÊTES BON EN POLITIQUE !";
             break;
         default:
-            document.getElementById('scoreTitre').textContent = "VOUS AVEZ FAIT DE VOTRE MIEUX";
+            document.getElementById('scoreTitre').textContent = "VOUS AVEZ FAIT DE VOTRE MIEUX !";
             break;
     }
 
