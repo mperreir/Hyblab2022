@@ -62,7 +62,7 @@ body{
     margin-bottom: 10%;
 }
 
-#choix-theme ul li button, #followers-commun-btn {
+#choix-theme ul li button, #followers {
     background-color: #F24A41;
     border-radius: 19px;
     width: 217px;
