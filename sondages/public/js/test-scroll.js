@@ -64,6 +64,8 @@ function AjoutDesCandidats(candidats) {
 
         // Ajout des blocks
         block.appendChild(avatar)
+        block.appendChild(document.createTextNode(candidat.prenom))
+        block.appendChild(document.createElement("br"))
         block.appendChild(document.createTextNode(candidat.nom))
         CandidatSelection.appendChild(block)
 
