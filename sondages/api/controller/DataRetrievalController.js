@@ -11,10 +11,12 @@ const https = require("https");
 const request = require('request');
 const science = require("science");
 const DateController = require('./DateController');
+const CandidatController = require('./CandidatController');
 
 const URL_DATA = "https://raw.githubusercontent.com/nsppolls/nsppolls/master/presidentielle.json";
 
 let cacheData;
+let cacheCandidat;
 const range = n => [...Array(n).keys()];
 
 
@@ -88,6 +90,7 @@ function getData() {
  *
  */
 getData().then(data => {
+    cacheCandidat = CandidatController.listCandidat(Object.keys(data));
     const points = Object.keys(data).map(candidat => {
         const [dx, dy] = moyenne(data[candidat]["x"], data[candidat]["y"]);
 
