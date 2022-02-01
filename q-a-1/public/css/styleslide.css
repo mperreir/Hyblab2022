@@ -12,6 +12,8 @@ body{
     background-color: black;
     color: rgb(34, 36, 66);
     overflow: hidden;   /* to avoid slider bugs on some browsers */
+    font-family: impact;
+    font-variant: small-caps;
 }
 
 #container{
