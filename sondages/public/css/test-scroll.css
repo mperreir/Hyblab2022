@@ -87,18 +87,18 @@ header .startTheRace button {
     margin-top: -1.5vh;
     border-radius: 500px;
     border: 0;
-    background: red;
+    background: #CF4B45;
     z-index: 5;
     font-family: 'Goldman', cursive;
     color: white;
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 500;
     outline: none;
     -webkit-tap-highlight-color: transparent;
 }
 
 header .startTheRace button:active {
-    background: darkred;
+    background: #AE272C;
 }
 
 header .startTheRace .damier {
@@ -117,8 +117,9 @@ header .routeDebut {
     width: 100%;
     height: 12vh;
     bottom: 0;
-    object-fit: fill;
-    background: red;
+    background: url(../img/fond_debut.svg);
+    background-size: 100%;
+    background-repeat: repeat-y;
 }
 
 .hidden {
