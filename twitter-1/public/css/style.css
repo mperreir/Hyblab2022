@@ -423,6 +423,12 @@ img#theme {
 
 }
 
+#table-top {
+    margin: auto;
+    font-size: initial;
+
+}
+
 #last-slide{
     font-size: 100%;
     background: #EF7767;
