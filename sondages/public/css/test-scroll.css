@@ -2,17 +2,151 @@
     box-sizing: border-box;
 }
 
+html, body {
+    overscroll-behavior: none;
+}
+
 body {
     background-color: black;
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background: #303844;
+}
+
+header .main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFF;
+    color: black;
+    width: 90%;
+    height: 70vh;
+    padding: 25px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+header .main .logo {
+    width: 80%;
+}
+
+header .main .car {
+    position: absolute;
+    width: 70vw;
+}
+
+header .main .car-b {
+    bottom: -25px;
+    left: 15vw;
+}
+
+header .main .car-r {
+    bottom: -60px;
+    left: -100px;
+}
+
+header .startTheRace {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    bottom: 5vh;
+}
+
+header .startTheRace button {
+    display: block;
+    width: 80%;
+    height: 10vh;
+    margin-top: -1.5vh;
+    border-radius: 500px;
+    border: 0;
+    background: red;
+    z-index: 5;
+    font-family: 'Goldman', cursive;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+header .startTheRace button:active {
+    background: darkred;
+}
+
+header .startTheRace .damier {
+    z-index: 0;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 7vh;
+    object-fit: cover;
+}
+
+.details {
+    margin-top: 25px;
+    width: 100%;
+    /* background: red; */
+}
+
+.details .title {
+    font-size: 25px;
+    font-family: 'Goldman', cursive;
+    font-weight: 400;
+    padding: 15px 0;
+}
+
+.details .body {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.details .body .candidat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 14px;
+    width: 90px;
+    padding: 5px 0;
+}
+
+.details .body .candidat img {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 555px;
+    padding: 5px;
+    background: white;
+}
+
+.details .body .candidat[data-selected="true"] img {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 555px;
+    padding: 5px;
+    background: blue;
 }
 
 #container {
-    padding: 50px 0;
     display: block;
     position: relative;
-    background-color: white;
+    background-color: red;
 }
 
 #animation {
@@ -20,30 +154,54 @@ body {
 }
 
 #race {
+    position: absolute;
     z-index: 99;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
     height: 100vh;
+    background-color: #55001588;
+    width: 100%;
 }
 
-#race img {
-    width: 125px;
-} 
-
-header {
+#race .candidat {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 100vh;
+    font-size: 18px;
+    transition: all .3s;
 }
 
-header p {
-    color: #26336e;
+#race .candidat .name {
+    text-align: center;
+    font-size: 19px;
+    font-style: italic;
+    margin-right: 15px;
+}
+
+#race .candidat .name .firstName {
+    font-weight: 200;
+}
+
+#race .candidat .name .lastName {
     font-weight: 400;
-    margin-top: 50px;
-    font-size: 80px;
+}
+
+#race .candidat .block {
+    display: flex;
+    align-items: center;
+    background: #000;
+    border-radius: 500px;
+    padding: 5px;
+}
+
+#race .candidat .block img {
+    width: 60px;
+    height: 60px;
+    background: red;
+    border-radius: 100px;
+}
+
+#race .candidat .pourcent {
+    color: #FFF;
+    margin: 0 10px;
+    font-weight: 500;
 }
 
 #info {
@@ -55,16 +213,7 @@ header p {
     width: 100%;
 }
 
-#barre {
-    position: fixed;
-    top: 0px;
-    display: block;
-    width: 100%;
-    height: 2px;
-    background-color: red;
-}
-
-#blocks > * {
+#blocks>* {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -73,7 +222,7 @@ header p {
     width: 100%;
 }
 
-#blocks > *:nth-child(2n) {
+#blocks>*:nth-child(2n) {
     background-color: orange;
 }
 
@@ -99,15 +248,6 @@ footer p {
         min-height: calc(100 * 16vw / 9);
     }
 
-    #barre {
-        width: 100vw;
-    }
-
-    /* We set a default font size here. It will be the base for all other font sizes */
-    /* Here the font size is proportional to display width */
-    body {
-        font-size: calc(12vw*16/9);
-    }
 }
 
 /* This media query ensures that we allways will the height of the screen */
@@ -117,13 +257,9 @@ footer p {
         margin-left: calc((100vw - 100 * 9vh / 16) / 2);
         min-height: 100vh;
     }
-    #container, #race, #barre {
+
+    #container, #race {
         width: calc(100 * 9vh / 16);
     }
 
-    /* We set a default font size here. It will be the base for all other font sizes */
-    /* Here the font size is proportional to display height */
-    body {
-        font-size: 12vh;
-    }
 }

@@ -1,18 +1,29 @@
 function start() {
 
+    console.log(candidat)
+
     const NBR_JOUR = 100 // A changer dynamiquement
     const PIXEL_PAR_JOUR = 500
     const HAUTEUR_DE_LA_PAGE = NBR_JOUR * PIXEL_PAR_JOUR
-    
-    const info = document.querySelector("#info")
-    const barre = document.querySelector("#barre")
+
     const blocks = document.body.querySelector("#blocks")
     const animation = document.body.querySelector("#animation")
     const race = document.body.querySelector("#race")
 
-    animation.setAttribute("style", "height: " + HAUTEUR_DE_LA_PAGE + "px")
-    barre.setAttribute("style", "top: " + (window.innerHeight / 2) + "px")
+    const startTheRace = document.body.querySelector("button#startTheRace")
 
+    const candidats = document.body.querySelectorAll("#race .candidat")
+
+    const POLL = [
+        [12, 45, 32],
+        [45, 10, 20],
+        [30, 20, 45],
+        [20, 20, 20],
+        [200, 210, 400],
+        [700, 50, 70],
+        [100, 200, 800],
+        [500, 200, 100],
+    ]
 
     function getRandomInt(max) {
         return Math.floor(Math.random() * max);
@@ -100,7 +111,6 @@ function start() {
 
 
 
-
     function setBeforeScrolling() {
         race.setAttribute("style", "position:absolute;top:0px")
     }
@@ -113,32 +123,53 @@ function start() {
         race.setAttribute("style", "position:absolute;bottom:0px")
     }
 
+    function scrollToRace() {
+
+        console.log(window.scrollY)
+
+        window.scrollTo({
+            top: window.innerHeight,
+            left: 0,
+            behavior: 'smooth'
+        });
+    }
+
     function scrollPosition(scroll) {
 
         const rect = animation.getBoundingClientRect()
+
+        const not_seeing_bottom = (rect.bottom - window.innerHeight) >= 0
+
         const y_to_top = rect.top + window.scrollY
 
         const hauteur = (scroll - y_to_top) + (window.innerHeight / 2)
-        console.log(y_to_top, hauteur)
 
         let indexJour = parseInt(hauteur / PIXEL_PAR_JOUR) + 1
 
         indexJour = indexJour <= 0 ? 0 : indexJour
 
-        if(indexJour === 0) {
-            setBeforeScrolling()
-        } else if (indexJour > NBR_JOUR) {
-            setAfterScrolling()
-        } else {
+        if (rect.top <= 0 && not_seeing_bottom) {
             setWhileScrolling()
+        } else if (rect.top > 0 && not_seeing_bottom) {
+            setBeforeScrolling()
+        } else {
+            setAfterScrolling()
         }
 
-        info.innerHTML = "Jour: " + indexJour
+        if (indexJour > 0 && POLL[indexJour]) {
+            for (let i = 0; i < POLL[indexJour].length; i++) {
+
+                const candidat = POLL[indexJour][i]
+                // candidats[i].setAttribute("style", "margin-top:" + candidat + "px")
+
+            }
+        }
+
     }
 
-   
-
     scrollPosition(0)
+
+    startTheRace.addEventListener("click", _ => scrollToRace())
 
     document.addEventListener("scroll", _ => scrollPosition(window.scrollY))
 }
