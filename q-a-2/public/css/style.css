@@ -889,6 +889,111 @@ body{
     margin-top: 5%;
 }
 
+.step3Game {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.step3Game_help_point {
+    position: absolute;
+    right: 5%;
+}
+
+.step3Game_profiles {
+    box-sizing: border-box;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.step3Game_profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.statementsCard {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    font-size: 2vh;
+    font-family: 'Jost';
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.statementsCard_img {
+    position: absolute;
+    height: 100%;
+    z-index: 1;
+}
+
+.statementsCard_information {
+    position: absolute;
+    bottom: 7%;
+    width: 44%;
+    z-index: 2;
+}
+
+.statementsCard_information > * {
+    display: block;
+    margin-top: 2vh;
+}
+
+.statementsCard_information > *:first-child {
+    margin-top: 0px;
+}
+
+.statementsCard_div_text {
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.statementsCard_label {
+    font-weight: bold;
+}
+
+.checkbox_round {
+    width: 3vh;
+    height: 3vh;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 0.3vh solid black;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    vertical-align: bottom;
+    position: relative;
+    top: -0.3vh;
+}
+
+.checkbox_round:checked {
+    background-color: lightgreen;
+}
+
+.checkbox_label {
+    display: block;
+    margin-left: 12%;
+}
+
+.checkbox_container {
+    line-height: 0vh;
+}
+
+input[type="checkbox"] {
+    vertical-align:middle;
+    margin-right: 1%;
+    margin-left: -15%;
+}
+
 .gamePage {
     display: flex;
     flex-direction: column;
@@ -927,7 +1032,7 @@ body{
 }
 
 .gamePage_container {
-    height: 55vh;
+    height: 50vh;
     width: 100%;
     margin-bottom: 3vh;
 }
