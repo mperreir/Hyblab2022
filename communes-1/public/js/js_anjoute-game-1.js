@@ -1,13 +1,22 @@
 const loader = document.querySelector('.loader');
 
 
-const logo_joute = document.querySelector('#logo-joute');
-logo_joute.classList.add('animate__animated', 'animate__fadeInDown');
+console.log(document.referrer);
+let chemins = document.referrer.split('/');
 
-logo_joute.addEventListener('animationend', () => {
-	logo_joute.classList.add('animate__animated', 'animate__fadeOutDown');
 
+if (chemins[chemins.length-1] != 'anjoute-inventaire.html') {
+	const logo_joute = document.querySelector('#logo-joute');
+	logo_joute.classList.add('animate__animated', 'animate__fadeInDown');
+	
 	logo_joute.addEventListener('animationend', () => {
-		loader.textContent = '';
+		logo_joute.classList.add('animate__animated', 'animate__fadeOutDown');
+	
+		logo_joute.addEventListener('animationend', () => {
+			loader.textContent = '';
+		});
 	});
-});
+} else {
+	loader.textContent = '';
+}
+
