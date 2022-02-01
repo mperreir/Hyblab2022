@@ -136,6 +136,7 @@ const init_p3 = function() {
 
   const colors = ["#1be5b9", "#FF2019", "#FF2019"];
   function changeText(nb, txt, btn) {
+    hideArrow();
     textContainer.style.top = "10%";
     if (state === nb){
       swiper.disable();
@@ -154,6 +155,7 @@ const init_p3 = function() {
       });
       if (nb===1){
         showTitle("p3");
+        showArrow();
         swiper.enable();
         goodAns.play();
         btn.appendChild(valid);

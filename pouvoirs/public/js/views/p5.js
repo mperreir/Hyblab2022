@@ -35,7 +35,6 @@ const init_p5 = function(){
             textContainer.style.bottom = "50%";
             textContainer.style.textAlign = "center";
             released = true;
-            setTimeout(() => swiper.slideNext(), 6000);
         }
     })
 }

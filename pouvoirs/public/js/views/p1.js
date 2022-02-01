@@ -136,6 +136,7 @@ const init_p1 = function() {
 
   const colors = ["#FF2019", "#1be5b9"];
   function changeText(nb, txt, btn) {
+    hideArrow();
     if (state === nb){
       swiper.disable();
       cancel.play();
@@ -156,6 +157,7 @@ const init_p1 = function() {
         btn.appendChild(valid);
         showTitle("p1");
         swiper.enable();
+        showArrow();
       }
       else{
         swiper.disable();
@@ -198,6 +200,14 @@ const init_p1 = function() {
   buttons.appendChild(x1);
   buttons.appendChild(x2);
 
+  // const divArrow = document.createElement("div");
+  // const arrow = document.createElement("img");
+  // arrow.src = "img/arrow.svg";
+  // divArrow.style.height = "5%";
+  // divArrow.style.position = "absolute";
+  // arrow.style.height = "100%";
+  // arrow.style.position = "absolute"
+  // divArrow.appendChild(arrow);
 
   slide.appendChild(infos);
   slide.appendChild(buttons);

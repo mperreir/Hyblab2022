@@ -795,3 +795,18 @@ body {
     font-size: 12vh;
   }
 }
+
+
+#arrowSwipe {
+  visibility: hidden;
+  display: block;
+  float: right;  
+  z-index: 99;
+  position: absolute;
+  
+  bottom: 1%;
+  right: 2%;
+
+  width: 3%;
+  height: 3%;
+}
