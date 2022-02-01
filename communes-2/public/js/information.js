@@ -1,6 +1,20 @@
 page('/communes-2/information', async function () {
     await renderTemplate(templates('./templates/information.mustache'));
 
+    // Init swiper slider
+    const swiper = new Swiper("#mySwiper", {
+        direction: "vertical",
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+    });
+
+    document.getElementById("first-slide").addEventListener('click', () => {
+        swiper.slideNext()
+    });
+
+    // chargement de la visualisation
     let gameData = JSON.parse(localStorage.getItem('gameData'));
     let nom_commune = "Libellé de la commune";
     let communeCourante = "Nantes";//gameData.communeCourante;
@@ -47,6 +61,10 @@ page('/communes-2/information', async function () {
 
     pie();
     histo();
+
+    document.getElementById("continue-btn").addEventListener('click', function () {
+        page('/communes-2/affirmation');
+    });
 });
 
 function histo() {

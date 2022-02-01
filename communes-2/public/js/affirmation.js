@@ -3,7 +3,6 @@
 // Show slider
 var slideIndex = 1;
 
-
 page('/communes-2/affirmation', async function () {
     await renderTemplate(templates('./templates/affirmation.mustache'));
 
@@ -11,9 +10,11 @@ page('/communes-2/affirmation', async function () {
     let gameData = JSON.parse(localStorage.getItem('gameData'));
     console.log(gameData);
 
-    // EWEN POUR TESTER SI ON EST AU DEUXIEME ESSAI (donc qu'il faut afficher indice en plus) 
+    // EWEN POUR TESTER SI ON EST AU DEUXIEME ESSAI (donc qu'il faut afficher indice en plus)
 
     if (gameData['numeroEssai'] == 2) {
+        let response3 = await fetch('api/indice');
+        let indice = await response3.json();
 
     }
 
@@ -27,11 +28,6 @@ page('/communes-2/affirmation', async function () {
     let response2 = await fetch('api/affirmations')
     let affirmations = await response2.json();
 
-    let response3 = await fetch('api/indice');
-    let indice = await response3.json();
-
-    console.log(indice);
-
     //Recuperation des div dans lesquelles on va afficher les affirmations
     let divAffirmations = document.getElementsByClassName('affirmation-content')
 
@@ -44,7 +40,7 @@ page('/communes-2/affirmation', async function () {
     nombreCommuneMax.innerHTML = nbMaxCommunes;
     nombreCommuneActuelle.innerHTML = nbCommuneActuelle;
 
-    //Ajout de l'information a la fin de l'affirmation
+    //Ajout de l'information dans les affirmations
     for (let i = 0; i < affirmations.length; i++) {
         let informations = affirmations[i]['columns'];
 
@@ -247,32 +243,79 @@ function roundEnding(selectedValue, rightValue) {
             // Perdu deuxieme essai*
             console.log('Perdu second');
             // TODO : Calcul du score
-            scoreRound = 1250;
             nbCommunesJouees++;
             communePrecedente = gameData['communeCourante'];
+            calculateScore(selectedValue, rightValue).then(score => {
+                localStorage.setItem('gameData', JSON.stringify({
+                    'orientation': gameData['orientation'],
+                    'score' : gameData['score'] + score,
+                    'scoreIntermediaire': score,
+                    'nbreCommunesTrouvees': gameData['nbreCommunesTrouvees'] + (selectedValue == rightValue ? 1 : 0),
+                    'nbreCommunesJouees': nbCommunesJouees,
+                    'numeroEssai': nbEssaiSuivant,
+                    'communePrecedente': communePrecedente,
+                    'communeCourante' : nbEssaiSuivant == 2 ? gameData['communeCourante'] : gameData['communes'].pop(),
+                    'communes': gameData['communes']
+                }));
+                page('/communes-2/resultatInterFalse');
+            });
         }
     }
 
-    // changer game data et localstorage.
-    // passer page inter.
-    localStorage.setItem('gameData', JSON.stringify({
-        'orientation': gameData['orientation'],
-        'score' : gameData['score'] + scoreRound,
-        'scoreIntermediaire': scoreRound,
-        'nbreCommunesTrouvees': gameData['nbreCommunesTrouvees'] + (selectedValue == rightValue ? 1 : 0),
-        'nbreCommunesJouees': nbCommunesJouees,
-        'numeroEssai': nbEssaiSuivant,
-        'communePrecedente': communePrecedente,
-        'communeCourante' : nbEssaiSuivant == 2 ? gameData['communeCourante'] : gameData['communes'].pop(),
-        'communes': gameData['communes']
-    }));
+    if(selectedValue == rightValue || gameData['numeroEssai'] == 1) {
+        localStorage.setItem('gameData', JSON.stringify({
+            'orientation': gameData['orientation'],
+            'score' : gameData['score'] + scoreRound,
+            'scoreIntermediaire': scoreRound,
+            'nbreCommunesTrouvees': gameData['nbreCommunesTrouvees'] + (selectedValue == rightValue ? 1 : 0),
+            'nbreCommunesJouees': nbCommunesJouees,
+            'numeroEssai': nbEssaiSuivant,
+            'communePrecedente': communePrecedente,
+            'communeCourante' : nbEssaiSuivant == 2 ? gameData['communeCourante'] : gameData['communes'].pop(),
+            'communes': gameData['communes']
+        }));
+    }
 
-    // REDIRECTION VERS LA BONNE PAGE. 
+
+    // REDIRECTION VERS LA BONNE PAGE.
     if(selectedValue == rightValue) page('/communes-2/resultatInterTrue')
     else {
         // Si on s'est trompés et que c'était le second essai, on arrive sur la page d'échec, sinon sur la page avec un indice en plus
-        nbEssaiSuivant == 1 ? page('/communes-2/resultatInterFalse') : page('/communes-2/affirmation');
+        if(nbEssaiSuivant == 2) page('/communes-2/affirmation');
     }
+}
+
+/**
+ * Calcule le score obtenu pour le second tour. On se base sur la distance entre la ville sélectionnée et la bonne ville.
+ * 
+ * @param {String} selectedValue 
+ * @param {String} rightValue 
+ */
+async function calculateScore(selectedValue, rightValue) {
+
+    const scoreReussite = 2500;
+    const maxScoreEchec = 2000;
+
+    if(selectedValue == rightValue) return scoreReussite;
+
+    /**
+     * Pour les coordonnées, on utilisera la première valeur du tableau coordinates du geojson.json
+     * En valeur de référence, on prendra la plus grande distance possible (à déterminer).
+     * On fait le ratio entre la distance entre les selectedValue et rightValue sur la plus grande distance, que l'on multiplie par le scoreMax.
+     *  */ 
+
+    const distanceMax = 179378; // Cela correspond à la distance en mètres la plus longue en Loire-Atlantique, entre les bords éloignés de Piriac-sur-Mer et Montrelais
+    let scoreRetour = await fetch('api/distance/' + selectedValue + '/' + rightValue)
+    .then(function(response) {
+        return response.json();
+    })
+    .then(function(responseJson) {
+        let score = (1 - (responseJson / distanceMax)) * maxScoreEchec;
+        return Math.round(score);
+    });
+
+    console.log(scoreRetour);
+    return scoreRetour;
 }
 
 function sliderplus(n) {
@@ -284,6 +327,7 @@ function sliderplus(n) {
   }
 
   function showAffirmation(n) {
+    slide();
     var i;
     var slides = document.getElementsByClassName("affirmation-content");
     console.log(slides)
