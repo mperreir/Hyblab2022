@@ -937,3 +937,18 @@ body{
     width: 100%;
     height: 60vh;
 }
+
+.step6Game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.step6Game > img {
+    width: 45%;
+}
+
+#chart {
+    width: 40%;
+    height: 40%;
+}

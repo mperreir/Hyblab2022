@@ -16,11 +16,11 @@ class Page extends React.Component {
     }
 
     enableGameButton() {
-        this.setState({ gameButtonDisabled: true });
+        this.setState({ gameButtonDisabled: false });
     }
 
     disableGameButton() {
-        this.setState({ gameButtonDisabled: false });
+        this.setState({ gameButtonDisabled: true });
     }
 
     render() {
