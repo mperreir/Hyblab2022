@@ -1,5 +1,5 @@
 'use strict';
-window.scrollTo(0, 1);
+
 const swiper = new Swiper('#mySwiper', {
   direction: 'vertical',
   pagination: {
