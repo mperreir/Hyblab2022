@@ -10,7 +10,8 @@ const cheval = document.querySelector('.nine img');
 const bateau = document.querySelector('.ten img');
 
 
-var inventaire_joueur = localStorage.getItem('inventaire');
+var inventaire_joueur = localStorage.getItem('inventaire').split(',');
+
 
 if (!inventaire_joueur.includes('magnum')) {
 	magnum.style.display = 'none';
