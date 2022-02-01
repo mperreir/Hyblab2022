@@ -31,17 +31,38 @@ window.onload = () => {
       window.location.href = "./question.html";
    });
 
-   
    let mainCandidate = sessionStorage.getItem("mainCandidate");
    let solutionCandidate = sessionStorage.getItem("solutionCandidate");
-   let ratio = sessionStorage.getItem("ratio");
-   document.getElementById("mainCandidate").innerHTML = mainCandidate;
-   document.getElementById("solutionCandidate").innerHTML = solutionCandidate;
-   document.getElementById("percentage").innerHTML = Math.trunc(ratio * 10) / 10;
-   if (sessionStorage.getItem("question").length == 3) {
+   
+   const theme = sessionStorage.getItem("theme");
+   if (theme === 'followers') {
+      let ratio = sessionStorage.getItem("ratio");
+      document.querySelector("#themes").style.visibility = 'hidden';
+      document.querySelector("#followers").style.visibility = 'visible';
+      
+      document.getElementById("solutionCandidate").innerHTML = solutionCandidate;
+      document.getElementById("mainCandidate").innerHTML = mainCandidate;
+      document.getElementById("percentage").innerHTML = Math.trunc(ratio * 10) / 10;
+      
+   } else {
+      document.querySelector("#themes").style.visibility = 'visible';
+      document.querySelector("#followers").style.visibility = 'hidden';
+
+      document.querySelector("#theme_percentage1").innerHTML = sessionStorage.getItem("percentage1");
+      document.querySelector("#theme_mainCandidate").innerHTML = mainCandidate;
+      document.querySelector("#theme").innerHTML = sessionStorage.getItem("wordsTheme");
+      document.querySelector("#theme_solutionCandidate").innerHTML = solutionCandidate;
+      document.querySelector("#theme_percentage2").innerHTML = sessionStorage.getItem("percentage2");
+   }
+
+   if (sessionStorage.getItem("question").length >= 3) {
       sessionStorage.removeItem("mainCandidate");
       sessionStorage.removeItem("solutionCandidate");
       sessionStorage.removeItem("ratio");
+      sessionStorage.removeItem("theme");
+      sessionStorage.removeItem("wordsTheme");
+      sessionStorage.removeItem("percentage1");
+      sessionStorage.removeItem("percentage2");
       document.getElementById("next-question").innerHTML = "Voir mon score";
       document.getElementById("next-question").addEventListener("click", () => {
          window.location.href = "./score.html";

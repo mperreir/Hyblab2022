@@ -71,7 +71,7 @@ body {
     position: absolute;
 }
 
-#answer>#answer-text {
+#answer>.answer-text {
     width: 80%;
     position: absolute;
     text-align: center;
@@ -79,6 +79,19 @@ body {
     margin-top: 30vh;
     margin-left: 10%;
     font-family: 'Lato', sans-serif;
+}
+
+#solutionCandidate {
+    display: inline;
+    font-weight: bold;
+}
+
+#percentage {
+    font-weight: bold;
+}
+
+#mainCandidate {
+    display: inline;
 }
 
 #buttons {

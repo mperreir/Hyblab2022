@@ -10,9 +10,13 @@ const margin = { top: 0, right: 0, bottom: 0, left: 0 },
     height = 400 - margin.top - margin.bottom;
 
 window.onload = () => {
-    document.getElementById("return").addEventListener("click", () => {
+    document.getElementById("other_candidate").addEventListener("click", () => {
+        window.location.href = "./exploration.html";
+     });
+    
+    document.getElementById("exit").addEventListener("click", () => {
         window.location.href = "./index.html";
-    });
+     });
 
     const candidate = sessionStorage.getItem("selected_candidate");
     const theme = sessionStorage.getItem("selected_theme");

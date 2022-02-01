@@ -53,10 +53,18 @@ function click(randomNumber) {
     });
 }
 
+function random(min, max) {
+    return Math.floor(Math.random() * (max - min + 1) + min);
+}
 
+function randomTheme() {
+    const themes = [ 'followers', 'education', 'sante', 'environnement', 'economie' ];
+    return themes[random(0, themes.length-1)];
+}
 
 function fetchCandidates(x) {
-    fetch("api/randomQuestion/followers")
+    const theme = randomTheme();
+    fetch(`api/randomQuestion/${theme}`)
         .then(res => res.json())
         .then(data => {
             if (data.mainCandidat.displayShortName != sessionStorage.getItem("alreadyGivenCandidate1") && data.mainCandidat.displayShortName != sessionStorage.getItem("alreadyGivenCandidate2")) {
@@ -66,17 +74,22 @@ function fetchCandidates(x) {
                 sessionStorage.setItem("mainCandidate", data.mainCandidat.displayShortName);
                 sessionStorage.setItem("solutionCandidate", data.solutionCandidat.displayShortName);
                 sessionStorage.setItem("ratio", data.ratio);
-
+                sessionStorage.setItem("theme", theme);
+                sessionStorage.setItem("wordsTheme", data.wordsTheme);
+                sessionStorage.setItem("percentage1", data.ratioMainCandidat);
+                sessionStorage.setItem("percentage2", data.ratioSolutionCandidat);
 
                 let alea = Math.trunc(Math.random() * 10);
                 let randomNumber = NombreChoisi(alea);
+
+                document.querySelector('#questionPart1').innerHTML = data.questionPart1;
+                document.querySelector('#questionPart2').innerHTML = data.questionPart2;
 
                 let candidate = document.getElementById("candidate");
 
                 let ans1 = document.getElementById("ans1");
                 let ans2 = document.getElementById("ans2");
                 let ans3 = document.getElementById("ans3");
-                console.log(data.solutionCandidat.displayShortName);
 
                 candidate.innerHTML = data.mainCandidat.displayShortName;
                 if (randomNumber == 1) {
