@@ -114,10 +114,10 @@ const init_p1 = function() {
   const invalid = document.createElement('img');
   invalid.src = "img/elements/button_invalid.svg";
   [valid, invalid].forEach(x => {
-    x.style.height = "50%";
+    x.style.height = "30%";
     x.style.position = "absolute";
     x.style.left = "-50%";
-    x.style.top = "25%"
+    x.style.top = "35%"
   })
 
   const buttons = document.createElement("div");
