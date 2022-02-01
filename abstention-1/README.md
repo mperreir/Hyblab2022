@@ -1,15 +1,15 @@
 # Descriptif du projet
 
-Porteur de projet : 
+Porteur de projet : Denis Vannier
 
-Sujet :
+Sujet : L'abstention
 
-Nom d'équipe :
+Nom d'équipe : La Prise
 
 Participants : 
 
 - 
 
-- AGR :
+- AGR : Ewen DERIDDER, Paul GUIBERT & Rose MIGNE
 
-- Polytech :  
+- Polytech :  Colin AUVINET, Aurélien BOISSIERE, Aurélie BOULAIS, Fatma HMIDA & Julien MOULIN
