@@ -29,7 +29,7 @@
   console.log("Video loaded");
 
 function go_to_page2(){
-  document.location.href = "De_Quoi_On_Parle.html";
+  document.location.href = "de_quoi_on_parle.html";
 }
 
 
