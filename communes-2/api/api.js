@@ -64,29 +64,107 @@ app.get('/communes/:orientation', function(req, res) {
     })
 });
 
-app.get('/affirmations', function(req, res) {
+
+async function getInformationCommune(nomCommune) {
+    let commune = helper.fetchDataAsDict('libelleCommune', 'communes-2/public/data/communes.csv').then(data => {
+        let communeTrouvee = null;
+        data.forEach(commune => {
+            if (commune['libelleCommune'] == nomCommune) communeTrouvee = commune;
+        });
+        return communeTrouvee; 
+    });
+
+    return commune;
+}
+
+app.get('/commune/:commune', function(req, res) {
+
+    let nomCommune = req.params.commune;
+    getInformationCommune(nomCommune).then(data => { 
+        res.json(data);
+    });
+
+});
+
+app.get('/affirmations/:commune', function(req, res) {
     let affirmationsJson = require('../public/data/affirmations.json');
     let affirmations = affirmationsJson.affirmations;
     let listeAffirmations = [];
+    let communeNom = req.params.commune;
 
-    //Selection aléatoire des 5 affirmations
-    listeAffirmations = helper.remplirTableau(listeAffirmations, affirmations['politique'], 3);
-    listeAffirmations = helper.remplirTableau(listeAffirmations, affirmations['non-politique'], 2);
+    getInformationCommune(communeNom)
+    .then(commune => {
+        try {
+            //Selection aléatoire des 5 affirmations
+            listeAffirmations = helper.remplirTableau(listeAffirmations, affirmations['politique'], 3);
+            listeAffirmations = helper.remplirTableau(listeAffirmations, affirmations['non-politique'], 2);
 
-    console.log(listeAffirmations);
-    res.json(listeAffirmations);
+            //Ajout de l'information dans les affirmations
+            for (let i = 0; i < listeAffirmations.length; i++) {
+                let informations = listeAffirmations[i]['columns'];
+
+                let compteur = 0;
+                //On va de A à Z
+                for(let asciiCode = 65; asciiCode < 91; asciiCode++) {
+                    let letter = String.fromCharCode(asciiCode);
+                    let pattern = letter+letter+letter; //Le pattern est de type AAA, BBB, ZZZ dans le json
+                    if(listeAffirmations[i]['string'].includes(pattern)) {
+
+                        //Remplacement du pattern par l'information correspondante
+                        listeAffirmations[i]['string'] = listeAffirmations[i]['string'].replace(pattern, commune[informations[compteur]]);
+                        compteur++;
+                    }
+
+                    else break; //Si plus de pattern correspondant, on stoppe la boucle
+                }
+            }
+            res.json(listeAffirmations);
+        } catch(error) {
+            console.log(error);
+        }
+    })
+
+    
 });
 
-app.get('/indice', function(req, res) {
+app.get('/indice/:commune', function(req, res) {
     let affirmationsJson = require('../public/data/affirmations.json');
-    let indices = affirmationsJson.indice;
+    let copie = JSON.parse(JSON.stringify(affirmationsJson));
+    console.log(copie);
+    console.log(affirmationsJson);
+    let indices = copie.indice;
+    let nomCommune = req.params.commune;
 
     let index = Math.floor(Math.random()*(indices.length));
-    console.log(index);
-    let indice = indices[index];
-    console.log(indice);
 
-    res.json(indice);
+    let indiceChoisi = indices[index];
+    let informations = indiceChoisi['columns'];
+
+    getInformationCommune(nomCommune)
+    .then(commune => {
+
+        try {
+            console.log(commune);
+            let compteur = 0;
+
+            for(let asciiCode = 65; asciiCode < 91; asciiCode++) {
+                let letter = String.fromCharCode(asciiCode);
+                let pattern = letter+letter+letter; //Le pattern est de type AAA, BBB, ZZZ dans le json
+                if(indiceChoisi['string'].includes(pattern)) {
+        
+                    //Remplacement du pattern par l'information correspondante
+                    indiceChoisi['string'] = indiceChoisi['string'].replace(pattern, commune[informations[compteur]]);
+                    compteur++;
+                }
+        
+                //else break; //Si plus de pattern correspondant, on stoppe la boucle
+            }
+            console.log(indiceChoisi);
+            res.json(indiceChoisi);
+        } catch(error) {
+            console.log(error);
+        }
+    });
 });
 
 app.get('/classement', function(req, res) {
