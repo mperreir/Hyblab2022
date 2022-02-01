@@ -798,7 +798,7 @@ body{
 .profilCard_information {
     position: absolute;
     top: 35%;
-    left: 25%;
+    left: 30%;
     z-index: 2;
 }
 
@@ -866,8 +866,8 @@ body{
 }
 
 .step1game_tampon_valid {
-    right: 10%;
-    top: -2.5%;
+    right: 8%;
+    top: -4.5%;
     transform: rotate(20deg);
 }
 
