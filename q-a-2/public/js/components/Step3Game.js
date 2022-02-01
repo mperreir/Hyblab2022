@@ -2,9 +2,9 @@ class Step3Game extends React.Component {
     constructor(props) {
         super(props);
 
-        const profilsState = candidates.reduce((previus, candidate) => {
+        const profilsState = candidates.reduce((previous, candidate) => {
             return {
-                ...previus,
+                ...previous,
                 [candidate.nameId]: {
                     error: false,
                     isAcceptClick: false,
@@ -37,14 +37,14 @@ class Step3Game extends React.Component {
                 </div>
             ) 
         });
-        
-        return(
+
+        return (
             <div className='step3Game_profiles swiper'>
                 <div className='swiper-wrapper'>
                     {profils}
                 </div>
                 <Button value={'Valider'} disabled={this.state.validateDisabled} white={false}/>
             </div>
-        )
+        );
     }
 }

@@ -945,13 +945,9 @@ body{
 
 .statementsCard_information {
     position: absolute;
-    top: 35%;
-    left: 20%;
+    bottom: 15%;
+    left: 30%;
     z-index: 2;
-}
-
-.statementsCard_civility {
-    margin-bottom: 20%;
 }
 
 .statementsCard_div_text {
@@ -962,6 +958,24 @@ body{
 .statementsCard_label {
     font-weight: bold;
 }
+
+.checkbox-round {
+    width: 3vh;
+    height: 3vh;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 0.3vh solid black;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkbox-round:checked {
+    background-color: lightgreen;
+}
+
 .gamePage {
     display: flex;
     flex-direction: column;

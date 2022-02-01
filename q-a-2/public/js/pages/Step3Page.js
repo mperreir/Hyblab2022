@@ -22,7 +22,7 @@ class Step3Page extends Page {
                 />,
                 <QuestionPage
                     step={step}
-                    buttonOnClick={() => this.nextStep()}
+                    buttonOnClick={() => this.nextSubStep()}
                     buttonText="Vérifier"
                     questionTitle={data.title}
                     question={questions[1].question}
@@ -31,6 +31,18 @@ class Step3Page extends Page {
                     nextStepMessage="Vérifier les déclarations de chaque candidat"
                     className='declarationPage'
                 />,
+                <GamePage
+                    step={step}
+                    title='Vérifie les déclarations des candidats.'
+                    subtitle="Les candidats ont rempli leur déclaration du patrimoine et des intérêts mais tout n'a pas besoin d'être déclaré. Coche ce qui est nécessaire."
+                    buttonTitle='Valider'
+                    returnToExplanations={() => this.returnToExplanations()}
+                >
+                    <Step3Game
+                        disableGameButton={() => this.disableGameButton()}
+                        enableGameButton={() => this.enableGameButton()}
+                    />
+                </GamePage>
             ],
             subStepIndex: 0
         }

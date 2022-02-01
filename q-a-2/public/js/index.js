@@ -16,14 +16,14 @@ class App extends React.Component {
     super(props);
     this.state = {
       stepPages: [
-        /*<StartingPage nextStep={() => this.nextStep()} />,
-        <Step1Page data={data} nextStep={() => this.nextStep()} />,
-        <Step2Page data={data} nextStep={() => this.nextStep()} />,
+        //<StartingPage nextStep={() => this.nextStep()} />,
+        //<Step1Page data={data} nextStep={() => this.nextStep()} />,
+        //<Step2Page data={data} nextStep={() => this.nextStep()} />,
         <Step3Page data={data} nextStep={() => this.nextStep()} />,
-        <Step4Page data={data} nextStep={() => this.nextStep()} />,
-        <Step5Page data={data} nextStep={() => this.nextStep()} />,*/
-        <Step6Page data={data} nextStep={() => this.nextStep()} />,
-        <Step7Page data={data} nextStep={() => this.nextStep()} />,
+        //<Step4Page data={data} nextStep={() => this.nextStep()} />,
+        //<Step5Page data={data} nextStep={() => this.nextStep()} />,
+        //<Step6Page data={data} nextStep={() => this.nextStep()} />,
+        //<Step7Page data={data} nextStep={() => this.nextStep()} />,
         /*<Step8Page data={data} nextStep={() => this.nextStep()} />,
         <EndingPage nextStep={() => this.resetStep()} />*/
       ],
@@ -40,13 +40,10 @@ class App extends React.Component {
   }
 
   render() {
-      //return this.state.stepPages[this.state.step];
-      return <Step3Game />
+      return this.state.stepPages[this.state.step];
   }
 }
-  /*
-  <Step1Game/>
-*/
+
 ReactDOM.render(
   <App />,
   document.getElementById('root')
