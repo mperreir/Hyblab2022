@@ -12,7 +12,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <link rel="stylesheet" href="https://fontlibrary.org//face/lineal"/>
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Baloo Tamma 2'/>
-  <script src="js/js_anjoute-game-1.js" defer></script>
+	<script type="module" src="js/question.js" defer></script>
+	<script type="module" src="js/js_anjoute-game-1.js" defer></script>
 </head>
 <body>
     <!-- Le conteneur sert à vérouiller les proportions (aspect ratio) du contenu de la page (ici des slides) -->
@@ -46,7 +47,7 @@
 		
 			<div class="mid">
 				<div class="blabla">
-					<p class="texte">Moi, habitant de XXX, je possède :</p>
+					<p class="texte">Moi, habitant de <span class="commune">XXX</span>, je possède :</p>
 					<p class="recompense">Le meilleur bottereau</p>
 					<p class="texte">Si tu réponds juste à cette question sur ma commune, il te reviendra.
 						Sinon tu me donnes une de tes vies !
@@ -59,10 +60,10 @@
 
 				<div class="bloc-reponses">
 					<button class="reponse">
-						<p>Oui eLLe adore</p>
+						<p class="reponse_1">Oui eLLe adore</p>
 					</button>
 					<button class="reponse">
-						<p>Non pas du tout</p>
+						<p class="reponse_2">Non pas du tout</p>
 					</button>
 				</div>
 				<video autoplay muted playsinline loop class="animation_perso">
