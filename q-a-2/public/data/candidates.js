@@ -5,6 +5,8 @@ const candidates = [
         "name": "M. Hexagone",
         "baseY": "99",
         "baseWidth": "75",
+        "color": "#3154FF",
+        "head_img": "head_hexagone.svg",
         "stepOneGame" : {
             "age": "35 ans",
             "address": "Paris",
@@ -52,6 +54,8 @@ const candidates = [
         "name": "M. Losange",
         "baseY": "114",
         "baseWidth": "55",
+        "color": "#FF6700",
+        "head_img": "head_losange.svg",
         "stepOneGame" : {
             "age": "54 ans",
             "address": "Angers",
@@ -99,6 +103,8 @@ const candidates = [
         "name": "M. Pavé",
         "baseY": "101",
         "baseWidth": "69",
+        "color": "#FFABE5",
+        "head_img": "head_rec.svg",
         "stepOneGame" : {
             "age": "66 ans",
             "address": "Paris",
@@ -146,10 +152,12 @@ const candidates = [
         "name": "Mme. Equilatérale",
         "baseY": "110",
         "baseWidth": "66",
+        "color": "#7352FF",
+        "head_img": "head_equilateral.svg",
         "stepOneGame" : {
             "age": "52 ans",
             "address": "Paris",
-            "politicalOrientation": "Conservateurs",
+            "politicalOrientation": "Centre-droit",
             "legalStatus": "Casier vierge",
             "valid": true
         },
@@ -193,6 +201,8 @@ const candidates = [
         "name": "Mme. Carré",
         "baseY": "103",
         "baseWidth": "80",
+        "color": "#FF2E3F",
+        "head_img": "head_carre.svg",
         "stepOneGame" : {
             "age": "31 ans",
             "address": "Tours",
@@ -240,6 +250,8 @@ const candidates = [
         "name": "M. Lerond",
         "baseY": "115",
         "baseWidth": "64",
+        "color": "#FFEE1A",
+        "head_img": "head_rond.svg",
         "stepOneGame" : {
             "age": "47 ans",
             "address": "Nice",
@@ -287,6 +299,8 @@ const candidates = [
         "name": "M. Cylindre",
         "baseY": "133",
         "baseWidth": "61",
+        "color": "#89F798",
+        "head_img": "head_cylindre.svg",
         "stepOneGame" : {
             "age": "42 ans",
             "address": "Nantes",
@@ -334,10 +348,12 @@ const candidates = [
         "name": "Mme. Amphi",
         "baseY": "98",
         "baseWidth": "90",
+        "color": "#76C8FF",
+        "head_img": "head_amphi.svg",
         "stepOneGame" : {
             "age": "18 ans",
             "address": "Rennes",
-            "politicalOrientation": "Centre-droite",
+            "politicalOrientation": "Centre-droit",
             "legalStatus": "Casier vierge",
             "valid": true
         },

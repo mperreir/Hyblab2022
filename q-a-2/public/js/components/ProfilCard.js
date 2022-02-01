@@ -13,7 +13,7 @@ class ProfilCard extends React.Component {
                             <p><span className='profilCard_label'>Nom&nbsp;:</span> {this.props.profil.name}</p>
                         </div>
                         <div className='profilCard_div_text'>
-                            <p><span className='profilCard_label'>Âge&nbsp;:</span> {this.props.profil.age}ans</p>
+                            <p><span className='profilCard_label'>Âge&nbsp;:</span> {this.props.profil.age}</p>
                         </div>
                         <div className='profilCard_div_text'>
                             <p><span className='profilCard_label'>Adresse&nbsp;:</span> {this.props.profil.address}</p>

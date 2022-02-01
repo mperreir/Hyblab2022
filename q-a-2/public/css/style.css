@@ -786,7 +786,7 @@ body{
     display: flex;
     justify-content: center;
     box-sizing: border-box;
-    font-size: 2.8vh;
+    font-size: 2.1vh;
     font-family: 'Jost';
     width: 100%;
     height: 100%;
@@ -797,12 +797,12 @@ body{
     position: absolute;
     height: 100%;
     z-index: 1;
-}
+}   
 
 .profilCard_information {
     position: absolute;
     top: 35%;
-    left: 20%;
+    left: 25%;
     z-index: 2;
 }
 
@@ -846,20 +846,10 @@ body{
     justify-content: space-around;
 }
 
-.step1game_header {
-    text-align: center;
-    position: relative;
-}
-
-.step1Game_help_point {
-    position: absolute;
-    right: 5%;
-}
-
 .step1Game_profils {
     box-sizing: border-box;
     display: flex;
-    height: 70%;
+    height: 100%;
     width: 100%;
 }
 
@@ -876,12 +866,13 @@ body{
 }
 
 .step1game_tampon_valid {
-    right: 5%;
+    right: 10%;
     top: -2.5%;
+    transform: rotate(20deg);
 }
 
 .step1game_tampon_cancel {
-    right: 8.1%;
+    right:12%;
 }
 
 .step1Game_pannelError {
@@ -893,7 +884,7 @@ body{
 
 .step1game_tampon_button {
     display: flex;
-    width: 25%;
+    width: 30%;
     justify-content: space-between;
     margin-top: 5%;
 }
@@ -1042,3 +1033,41 @@ input[type="checkbox"] {
     width: 100%;
     height: 60vh;
 }
+<<<<<<< HEAD
+=======
+
+.step5game {
+    height: 100%;
+    width: 100%;
+}
+
+.step5Game_videos {
+    display: flex;
+    flex-direction: column;
+}
+
+.step5Game_video {
+    width: 100%;
+    height: 100%;
+}
+
+.step5Game_video_control {
+    width: 100%;
+    height: 100%;
+}
+
+.step6Game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.step6Game > img {
+    width: 45%;
+}
+
+#chart {
+    width: 40%;
+    height: 40%;
+}
+>>>>>>> 35ef02a8f662ccf1cf8abd64c7246525c363944c
