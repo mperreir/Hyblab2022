@@ -1,9 +1,9 @@
 class Step1Game extends React.Component {
     constructor(props) {
         super(props);
-        console.log(this.props.data);
-        if ( this.props.data && Object.keys(this.props.data).length) {
-            this.state = { ...this.props.data};
+        console.log(this.props.game);
+        if (Object.keys(this.props.game.data).length) {
+            this.state = { ...this.props.game.data};
         } else {
 
             const profilsState = stepsCandidates['1'].reduce((previous, candidate) => {
@@ -69,7 +69,7 @@ class Step1Game extends React.Component {
             data: {...tmpState},
             candidatesNextStep: this.state.candidatesNextStep,
         }
-        //this.props.gameSaveState(gameState);
+        this.props.gameSaveState(gameState);
     }
 
     render(){
