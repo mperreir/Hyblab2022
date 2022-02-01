@@ -1,5 +1,6 @@
 .top {
 	position: relative;
+	overflow: visible;
 	background-color: #75BE8F;
 	display: flex;
 	height: 7vh;
