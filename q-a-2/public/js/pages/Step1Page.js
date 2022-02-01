@@ -1,6 +1,7 @@
 class Step1Page extends Page {
     constructor(props) {
         super(props);
+        const step = 1;
         const data = props.data.steps['1'];
         const questions = data.questions;
         this.state = {
@@ -9,7 +10,7 @@ class Step1Page extends Page {
                     subtitle="Qui peut se présenter à la présidence ?"
                 />,
                 <QuestionPage
-                    step={1}
+                    step={step}
                     buttonOnClick={() => this.nextSubStep()}
                     buttonText="Continuer"
                     questionTitle={data.title}
@@ -19,8 +20,8 @@ class Step1Page extends Page {
                     nextStepMessage="Passer à l'indication suivante :"
                 />,
                 <QuestionPage
-                    step={1}
-                    buttonOnClick={() => this.nextStep()}
+                    step={step}
+                    buttonOnClick={() => this.nextSubStep()}
                     buttonText="Vérifier"
                     questionTitle={data.title}
                     question={questions[1].question}
@@ -28,6 +29,18 @@ class Step1Page extends Page {
                     learnMoreLink={questions[1].link}
                     nextStepMessage="Examine les profils des candidats"
                 />,
+                <GamePage
+                    step={step}
+                    title='À toi de jouer ! Examine ces candidatures'
+                    subtitle="Les candidats t’ont envoyé leurs profils, à toi de sélectionner ceux qui peuvent continuer."
+                    buttonTitle='Valider'
+                    returnToExplanations={() => this.returnToExplanations()}
+                >
+                    <Step1Game
+                        disableGameButton={() => this.disableGameButton()}
+                        enableGameButton={() => this.enableGameButton()}
+                    />
+                </GamePage>
             ],
             subStepIndex: 0
         }

@@ -6,7 +6,7 @@ class Step1Game extends React.Component {
             return {
                 ...previous,
                 [candidate.nameId]: {
-                    error: true,
+                    error: false,
                     isAcceptClick: false,
                     isCancelClick: false,
                     profil: { ...candidate.stepOneGame, img:`img/step1Game/${candidate.nameId}.svg`, name: candidate.name},
@@ -15,7 +15,6 @@ class Step1Game extends React.Component {
         }, {});
 
         this.state = {
-            validateDisabled: false,
             ...profilsState, 
         };
 
@@ -39,12 +38,25 @@ class Step1Game extends React.Component {
 
     isEnd() {
         const tmpState = {...this.state};
-        delete tmpState.validateDisabled;
-        console.log(tmpState);
         const keys = Object.keys(tmpState);
         const validateDisabled = keys.reduce((previous, current) => previous && (tmpState[current].isAcceptClick || tmpState[current].isCancelClick));
-        console.log(validateDisabled);
-        this.setState({ validateDisabled });
+        if (validateDisabled) {
+            this.isWin();
+            this.props.enableGameButton();
+        } 
+        else {
+            this.props.disableGameButton();
+        }
+    }
+
+    isWin() {
+        const tmpState = {...this.state};
+        //const keys = Object.keys(tmpState);
+        const isWin = candidates.reduce((previous, current) => {
+            const valid = current.stepOneGame.valid;
+            console.log(current);
+            return previous && ((valid && tmpState[current.nameId].isAcceptClick) || (!valid && tmpState[current.nameId].isCancelClick))
+        }, true);
     }
 
     render(){
@@ -70,17 +82,11 @@ class Step1Game extends React.Component {
         
         return(
             <div className='step1Game'>
-                <div className='step1Game_header'>
-                    <a href='#' className='step1Game_help_point'><img src='img/help_point.svg' alt='Aide'/></a>
-                    <h2 className='step1Game_title'>À toi de jouer ! </h2><h2>Examine ces candidatures</h2>
-                    <p className='step1Game_subtitle'>Les candidats t’ont envoyé leurs profils, à toi de sélectionner ceux qui peuvent continuer.</p>
-                </div>
                 <div className='step1Game_profils swiper'>
                     <div className='swiper-wrapper'>
                         {profils}
                     </div>
                 </div>
-                <Button value={'Valider'} disabled={!this.state.validateDisabled} white={false}/>
             </div>
         )
     }
