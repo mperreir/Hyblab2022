@@ -43,10 +43,12 @@ header .main .car {
     position: absolute;
     width: 70vw;
 }
+
 header .main .car-b {
     bottom: -25px;
     left: 15vw;
 }
+
 header .main .car-r {
     bottom: -60px;
     left: -100px;
@@ -74,6 +76,7 @@ header .startTheRace button {
     font-size: 22px;
     font-weight: 500;
     outline: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 header .startTheRace button:active {
