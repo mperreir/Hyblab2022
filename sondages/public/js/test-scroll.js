@@ -1,6 +1,48 @@
-function start() {
+const POLL = [
+    [12, 45, 32],
+    [45, 10, 20],
+    [30, 20, 45],
+    [20, 20, 20],
+    [200, 210, 400],
+    [700, 50, 70],
+    [100, 200, 800],
+    [500, 200, 100],
+]
 
-    console.log(candidat)
+function AjoutDesCandidats(CandidatSelection) {
+
+    for (const candidat of [...CANDIDATS, ...CANDIDATS]) {
+
+        const block = document.createElement("div")
+        const avatar = document.createElement("img")
+
+        block.className = "candidat"
+        avatar.src = "img/candidats/" + candidat.img
+
+        // Ajout des blocks
+        block.appendChild(avatar)
+        block.appendChild(document.createTextNode(candidat.nom))
+        CandidatSelection.appendChild(block)
+
+        // Event listener
+        block.addEventListener("click", evt => {
+            const bool = JSON.parse(evt.currentTarget.dataset.selected || "false")
+            evt.currentTarget.setAttribute("data-selected", !bool)
+        })
+
+    }
+}
+
+function ToggleButton(button, img = [1, 2], callback = _ => { }) {
+    let state = false
+    button.addEventListener("click", _ => {
+        state = !state
+        button.innerHTML = `<img src="${img[state ? 1 : 0]}" />`
+        callback(state)
+    })
+}
+
+function start() {
 
     const NBR_JOUR = 100 // A changer dynamiquement
     const PIXEL_PAR_JOUR = 500
@@ -12,18 +54,20 @@ function start() {
 
     const startTheRace = document.body.querySelector("button#startTheRace")
 
-    const candidats = document.body.querySelectorAll("#race .candidat")
+    const CandidatSelection = document.body.querySelector("#CandidatSelection")
+    const ButtonShowCandidat = document.body.querySelector("#ShowCandidat")
+    ToggleButton(ButtonShowCandidat, ["img/bouton_plus.svg", "img/bouton_moins.svg"], showed => {
+        CandidatSelection.className = showed ? "body" : "hidden"
+    })
 
-    const POLL = [
-        [12, 45, 32],
-        [45, 10, 20],
-        [30, 20, 45],
-        [20, 20, 20],
-        [200, 210, 400],
-        [700, 50, 70],
-        [100, 200, 800],
-        [500, 200, 100],
-    ]
+    const CourseSelection = document.body.querySelector("#CourseSelection")
+    const ButtonShowCourses = document.body.querySelector("#ShowCourses")
+    ToggleButton(ButtonShowCourses, ["img/bouton_plus.svg", "img/bouton_moins.svg"], showed => {
+        CourseSelection.className = showed ? "body" : "hidden"
+    })
+
+
+    AjoutDesCandidats(CandidatSelection)
 
     function getRandomInt(max) {
         return Math.floor(Math.random() * max);

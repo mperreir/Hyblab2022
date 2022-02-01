@@ -19,39 +19,49 @@ header {
     justify-content: center;
     height: 100vh;
     background: #303844;
+    overflow: hidden;
+}
+
+header .forCars {
+    position: relative;
+    width: 90%;
+    height: 70vh;
+    margin-top: 25px;
 }
 
 header .main {
-    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     background: #FFF;
     color: black;
-    width: 90%;
+    width: 100%;
+    height: 100%;
     height: 70vh;
     padding: 25px;
-    margin-top: 25px;
     border-radius: 10px;
+    overflow-y: hidden;
 }
 
 header .main .logo {
     width: 80%;
 }
 
-header .main .car {
+header .car {
     position: absolute;
-    width: 70vw;
+    height: 10vh;
+    background-position: center center;
+    max-width: 400px;
 }
 
-header .main .car-b {
-    bottom: -25px;
-    left: 15vw;
+header .car-b {
+    bottom: -5%;
+    left: 40%;
 }
 
-header .main .car-r {
-    bottom: -60px;
-    left: -100px;
+header .car-r {
+    bottom: -10%;
+    left: -20%;
 }
 
 header .startTheRace {
@@ -94,10 +104,32 @@ header .startTheRace .damier {
     object-fit: cover;
 }
 
+.hidden {
+    display: none;
+}
+
 .details {
     margin-top: 25px;
     width: 100%;
     /* background: red; */
+}
+
+.details .top {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.details .top button {
+    border: none;
+    background: transparent;
+    border-radius: 100%;
+}
+
+.details .top button img {
+    width: 35px;
+    height: 35px;
 }
 
 .details .title {
@@ -111,6 +143,9 @@ header .startTheRace .damier {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    max-height: 50vh;
+    overflow-y: scroll;
+    padding-bottom: 50px;
 }
 
 .details .body .candidat {
@@ -123,6 +158,7 @@ header .startTheRace .damier {
     line-height: 14px;
     width: 90px;
     padding: 5px 0;
+    cursor: pointer;
 }
 
 .details .body .candidat img {
