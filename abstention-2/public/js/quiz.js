@@ -13,19 +13,21 @@ async function quizScreen() {
     quiz: {
       question: "Est-ce que les votes blancs sont pris en compte ?",
       answer: ["Non", "Oui", "Oui, mais que pour les départementales"],
-      goodAnswer: 1
+      goodAnswer: 0
     }
-  }, {
-    quiz: {
-      question: "Quand sont les prochaines présidentielles ?",
-      answer: ["2025", "2023", "2022"],
-      goodAnswer: 1
-    }
-  }, {
+  },
+  //  {
+  //   quiz: {
+  //     question: "Quand sont les prochaines présidentielles ?",
+  //     answer: ["2025", "2023", "2022"],
+  //     goodAnswer: 2
+  //   }
+  // },
+  {
     quiz: {
       question: "À quoi est lié le droit de vote ?",
       answer: ["Pays de résidence", "Âges", "Nationalité"],
-      goodAnswer: 1
+      goodAnswer: 2
     }
   }, {
     quiz: {
@@ -50,35 +52,116 @@ async function quizScreen() {
   },
   ]
 
+  let headerHtml = await loadTemplate('templates/header.ejs', [])
+  container.innerHTML = headerHtml;
+  date();
+
+  let step = 0;
+  let hearts = 3;
+
   async function newQuiz(i) {
-    let headerHtml = await loadTemplate('templates/header.ejs', [])
-    container.innerHTML = headerHtml;
-    date();
     let quizHtml = await loadTemplate('templates/quiz/quiz.ejs', quiz[i])
     document.getElementById('screen').innerHTML = quizHtml;
+
+    updateHearts();
+    document.getElementById("goodAnswer").addEventListener("click", () => goodAnswer(step));
+
+    const badClass = document.getElementsByClassName("badAnswer")
+    Array.from(badClass).forEach(button => {
+      button.addEventListener("click", () => badAnswer(step));
+    });
   }
+
   await newQuiz(0);
 
-  document.getElementById("goodAnswer").addEventListener("click", goodAnswer(0));
-  document.getElementsByClassName("badAnswer").addEventListener("click", badAnswer(0));
+  async function goodAnswer(i) {
+    let quizHtml = await loadTemplate('templates/quiz/goodAnswer.ejs', code[i])
+    document.getElementById('screen').innerHTML = quizHtml;
 
-  function goodAnswer(i) {
-    loadTemplate('templates/header.ejs', []).then(value => {
-      container.innerHTML = value;
-      date();
-      loadTemplate('templates/quiz/goodAnswer.ejs', code[i]).then(value => {
-        document.getElementById('screen').innerHTML = value;
-      });
-    })
+    updateHearts();
+    document.getElementById("nextQuiz").addEventListener("click", () => {
+      step++;
+      if (step > quiz.length) {
+        //topSecret 
+        step = 0;
+        newQuiz(step);
+      } else {
+        newQuiz(step);
+      }
+    });
   }
 
-  function badAnswer(i) {
-    loadTemplate('templates/header.ejs', []).then(value => {
-      container.innerHTML = value;
-      date();
-      loadTemplate('templates/quiz/badAnswer.ejs', code[i]).then(value => {
-        document.getElementById('screen').innerHTML = value;
+  async function badAnswer(i) {
+    hearts--;//perd une vie
+    if (hearts < 0) {
+      //TODO appel topSecret
+    } else {
+      let quizHtml = await loadTemplate('templates/quiz/badAnswer.ejs', [])
+      document.getElementById('screen').innerHTML = quizHtml;
+      updateBigHeartsBad();
+      document.getElementById("nextQuiz").addEventListener("click", () => {
+        newQuiz(step);
       });
-    })
+    }
+  }
+
+  function updateBigHeartsBad() {
+    const heartsDiv = document.getElementById("hearts");
+    switch (hearts) {
+      case 0:
+        heartsDiv.innerHTML =
+          `<img src="img/coeur-grand-casse.svg" height="18px">
+        <img src="img/coeur-grand-casse.svg" height="18px">
+        <img src="img/coeur-grand-casse.svg" height="18px">`;
+        break;
+      case 1:
+        heartsDiv.innerHTML =
+          `<img src="img/coeur-grand-plein.svg" height="18px">
+        <img src="img/coeur-grand-casse.svg" height="18px">
+        <img src="img/coeur-grand-casse.svg" height="18px">`;
+        break;
+      case 2:
+        heartsDiv.innerHTML =
+          `<img src="img/coeur-grand-plein.svg" height="18px">
+        <img src="img/coeur-grand-plein.svg" height="18px">
+        <img src="img/coeur-grand-casse.svg" height="18px">`;
+        break;
+      default:
+        heartsDiv.innerHTML =
+          `<img src="img/coeur-grand-plein.svg" height="18px">
+        <img src="img/coeur-grand-plein.svg" height="18px">
+        <img src="img/coeur-grand-plein.svg" height="18px">`;
+        break;
+    }
+  }
+  function updateHearts() {
+    const heartsDiv = document.getElementById("hearts");
+    switch (hearts) {
+      case 0:
+        heartsDiv.innerHTML =
+          `<img src="img/coeur-petit-contour.svg" height="18px">
+        <img src="img/coeur-petit-contour.svg" height="18px">
+        <img src="img/coeur-petit-contour.svg" height="18px">`;
+        break;
+      case 1:
+        heartsDiv.innerHTML =
+          `<img src="img/coeur-petit-plein.svg" height="18px">
+        <img src="img/coeur-petit-contour.svg" height="18px">
+        <img src="img/coeur-petit-contour.svg" height="18px">`;
+        break;
+      case 2:
+        heartsDiv.innerHTML =
+          `<img src="img/coeur-petit-plein.svg" height="18px">
+        <img src="img/coeur-petit-plein.svg" height="18px">
+        <img src="img/coeur-petit-contour.svg" height="18px">`;
+        break;
+      case 3:
+        heartsDiv.innerHTML =
+          `<img src="img/coeur-petit-plein.svg" height="18px">
+        <img src="img/coeur-petit-plein.svg" height="18px">
+        <img src="img/coeur-petit-plein.svg" height="18px">`;
+      default:
+        break;
+    }
   }
 }
