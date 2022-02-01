@@ -11,6 +11,18 @@ class Page extends React.Component {
         this.setState({ subStepIndex: this.state.subStepIndex + 1 });
     }
 
+    returnToExplanations() {
+        this.setState({ subStepIndex: 1 });
+    }
+
+    enableGameButton() {
+        this.setState({ gameButtonDisabled: true });
+    }
+
+    disableGameButton() {
+        this.setState({ gameButtonDisabled: false });
+    }
+
     render() {
         return this.state.subPages[this.state.subStepIndex];
     }
