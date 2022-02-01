@@ -1,6 +1,7 @@
 'use strict'
 
 page('/communes-2/', async function () {
+    window.scrollTo(0,1)
     anime({
         delay: 2500,
         targets: '#loader',
