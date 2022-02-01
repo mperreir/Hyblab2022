@@ -80,7 +80,6 @@
 #cityname{
     margin-top: 5%;
     text-align: center;
-    font-family: "Bebas Neue";
     font-size: 30%;
 }
 
@@ -97,7 +96,6 @@
     color : #282246;
     display: inline-block;
     margin-right: 10%;
-    font-family: "Bebas Neue";
     position: absolute;
     right: 0;
 }
@@ -167,7 +165,6 @@
 #indice-box > h6{
     margin-top: 20px;
     font-size: 25%;
-    font-family: "Bebas neue";
     margin-bottom: 20px;
     text-align: center;
 }
@@ -175,7 +172,6 @@
 #indice-box > p{
     margin-top: 20px;
     font-size: 18%;
-    font-family: "Reem Kufi";
     margin-bottom: 20px;
     text-align: center;
 }
@@ -222,7 +218,6 @@
 #affirmation > h6{
     margin-top: 20px;
     font-size: 25%;
-    font-family: "Bebas neue";
     margin-bottom: 20px;
     text-align: center;
 }

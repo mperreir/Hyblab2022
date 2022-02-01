@@ -8,6 +8,7 @@
         margin-top: calc((100vh - 100 * 16vw / 9) / 2);
         width: 100vw;
         height: calc(100 * 16vw / 9);
+        overflow: hidden;
     }
 
     /* We set a default font size here. It will be the base for all other font sizes */
@@ -24,6 +25,7 @@
         margin-left: calc((100vw - 100 * 9vh / 16) / 2);
         width: calc(100 * 9vh / 16);
         height: 100vh;
+        overflow: hidden;
     }
 
     /* We set a default font size here. It will be the base for all other font sizes */
@@ -43,7 +45,7 @@ body{
     background-color: black;
     color: white;
     overflow: hidden;   /* to avoid slider bugs on some browsers */
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Reem Kufi', sans-serif;
 }
 
 #container{
@@ -152,10 +154,6 @@ body{
     margin-bottom: 5%;
 }
 
-.genericText{
-    font-family: "Reem Kufi";
-}
-
 .text-app, .genericText{
     font-size: 20%;
     color: #282246;
@@ -171,7 +169,6 @@ body{
 }
 
 .textZone{
-    font-family: "Bebas Neue";
     font-size: 20%;
     background-color: #282246;
     padding: 10px 60px 10px 60px;
@@ -187,11 +184,7 @@ body{
 }
 
 .bebas-neue{
-    font-family: "Bebas Neue";
-}
-
-.reem-kufi{
-    font-family: "Reem Kufi";
+    font-family: "Bebas Neue", cursive;
 }
 
 .margin-left-right{
@@ -225,4 +218,10 @@ body{
 
 .cursor-hand:hover{
     cursor: pointer;
+}
+
+#echarpe {
+    height: 55.47px;
+    top: 291.41px;
+    transform: rotate(-9.5deg);
 }
