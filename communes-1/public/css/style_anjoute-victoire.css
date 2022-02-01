@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow:hidden ;
+}
+
+#container {
+    height: 100%;
+    background-color: #11151B;
+}
+
+
+.img_container {
+    text-align: center;
+}
+
+.img_container img {
+    width: 70%;
+    height: auto;
+    padding-top: 5vh;
+}
+
+.mid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20vh;
+}
+
+.label-joute {
+    color: #C8A166;
+    font-family: 'Baloo Tamma 2';
+    font-size: 17%;
+    width: 60%;
+    margin-bottom: 20px;
+    line-height: 1.3;
+}
+
+.bravo{
+    font-size: 50%;
+    font-family: 'Baloo Tamma 2';
+    height: 1.2em;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    letter-spacing: 0em;
+
+}
+
+
+.red-letter{
+    color: #AF3834;
+}
+
+.yellow-letter{
+    color: #C8A166;
+}
+
+.green-letter{
+    color: #75BE8F;
+}
+
+.blue-letter{
+    color: #2978EE;
+}
+
+.pink-letter{
+    color: #C57EB3;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.bottom .restart {
+    color: #C8A166;
+    background-color: #10141A;
+    border:  2px solid #C8A166;
+    border-radius: 10px;
+    width: 70%;
+    right: 35%;
+    cursor: pointer;
+}
+
+.bottom .restart:hover {
+    color: black;
+    background-color: #C8A166;
+}
+
+.bottom .restart p {
+    font-family: 'Lineal', sans-serif;
+    font-size: 200%;
+    margin: 5%;
+}
+
