@@ -146,11 +146,6 @@ module.exports.getCandidats = () => {
         .slice(0, 12);
 }
 
-module.exports.getCandidatFromId = (id_candidat) => {
-
-    return result.length > 0 ? result[0] : undefined;
-}
-
 // // INIT DB
 //
 // // INIT Candidats
@@ -173,42 +168,43 @@ module.exports.getCandidatFromId = (id_candidat) => {
 //     {
 //         id: 1,
 //         name: "Sécurité",
-//         keywords: "securite immigration police violence manifestation voleurs balle lachrymo arme defence drogue trafiquant",
+//         keywords: "commissariat securite immigration police policiers paix violence manifestation voleurs balle lachrymo arme defence drogue trafiquant",
 //     },
 //     {
 //         id: 2,
 //         name: "Sante",
-//         keywords: "covid hopitaux vaccin lit cancer santé medecin malade sanitaire traitement médicament",
+//         keywords: "passvacinal covid19 covid hopitaux vaccin lit cancer santé medecin malade sanitaire traitement médicament vaccination EHPAD",
 //     },
 //     {
 //         id: 3,
 //         name: "Economie",
-//         keywords: "economie salaire emplois relocalisation localisation entreprise startup start-up finaces argent budget euro bercy compte",
+//         keywords: "retraite précarité syndiqué economie salaire emplois relocalisation localisation entreprise startup start-up finaces argent budget euro bercy compte métallurgie € essence cher taxe travail 40 45 35 pauvres chômeurs déficit subvention",
 //     },
 //     {
 //         id: 4,
 //         name: "Education",
-//         keywords: "education ecole lycee universitee classe cours professeurs cantine cartable atsem pedagogie blanquer",
+//         keywords: "enfant établissement élèves étudiants education ecole lycee universitee classe cours professeurs cantine cartable atsem pedagogie blanquer",
 //     },
 //     {
 //         id: 5,
 //         name: "Environnement",
-//         keywords: "environnement durable vert pollution recyclage trie arbre nucléaire petrole énergie electricité ",
+//         keywords: "énergétique énergie environnementaux environnement durable vert pollution recyclage trie arbre nucléaire petrole énergie electricité écologie",
 //     },
 //     {
 //         id: 6,
 //         name: "Culture",
-//         keywords: "culture musique film cinema livre libraire concert festival dedicace album auteur acteur musicien symphonique",
+//         keywords: "music musique vaccances bal culture musique film cinema livre libraire concert festival dedicace album auteur acteur musicien symphonique LGBTQI+",
 //     }
 // ]);
 
 // // INIT Tweets
 // const labeler = new textProcessing.Labeler(db.fetch(module.exports.themes_name));
-// textProcessing.Parser.getTweetsJSONFromFile(path.join(__dirname, '/data/tweets/tweets_candidats_2.csv'), ts  => {
+// textProcessing.Parser.getTweetsJSONFromFile(path.join(__dirname, '/data/tweets/tweets_candidats_4.csv'), ts  => {
 //     // let older_tweets = db.fetch(module.exports.tweets_name);
 //     // if (older_tweets === null) older_tweets = [];
 //     ts = labeler.labellingTweets(ts);//.concat(older_tweets);
 //     db.set(module.exports.tweets_name, ts);
+//     // console.log("mano tweets labeling done")
 // });
 
 module.exports.tweets_update = (file, onFinish) => {
@@ -310,13 +306,10 @@ async function autoFetchData() {
                 });
             }catch (e) {}
 
-
-
-
-
         } catch (e) {
             console.error(e);
         }
+        await new Promise(resolve => setTimeout(resolve, 600000));
 
     }
 }

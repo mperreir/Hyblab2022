@@ -10,6 +10,15 @@ const multer = require('multer');
 const express = require("express");
 const upload = multer();
 
+const clearUrlFromTweets = (tweets) => {
+    return tweets.map((tweet) => clearUrlFromTweet(tweet));
+}
+
+const clearUrlFromTweet = (tweet) => {
+    tweet.text = tweet.text.replace(/(?:https?|ftp):\/\/[\n\S]+/g, '');
+    return tweet;
+}
+
 module.exports = (passport) => {
     const app = express();
     // Sample endpoint that sends the partner's name
@@ -53,7 +62,7 @@ module.exports = (passport) => {
         } while (tweet === undefined);
 
         // Supprime les url des tweets
-        tweet.text = tweet.text.replace(/(?:https?|ftp):\/\/[\n\S]+/g, '');
+        tweet = clearUrlFromTweet(tweet);
 
         if (Math.random() > 0.5) {
             const tmp = candidat1;
@@ -102,20 +111,20 @@ module.exports = (passport) => {
 
     app.get('/theme/count/:theme_id',(req, res) =>{
         let listCount = [];
-        let listCandidates = db.getCandidats();
+        const listCandidates = db.getCandidats();
+        const arrayTweets = db.getTweetsSemaine()
+
         listCandidates.forEach((candidat) => {
             let newCount = Object()
             newCount.nameCandidates = candidat.name
-            let arrayTweets = db.getTweetsSemaine()
             let result = arrayTweets.filter(arrayTweets =>
                 arrayTweets.theme_id === parseInt(req.params.theme_id)
                 && arrayTweets.user_id === candidat.id);
             newCount.nbTweetsByThemes = result.length;
             listCount.push(newCount);
         })
-        listCount.sort((a, b) => a.nbTweetsByThemes - b.nbTweetsByThemes);
-        let result = listCount.slice(0,3);
-        console.log(result)
+        listCount = listCount.sort((a, b) => a.nbTweetsByThemes - b.nbTweetsByThemes);
+        let result = listCount.slice(0,4);
         res.json(result);
     });
 
@@ -131,6 +140,7 @@ module.exports = (passport) => {
             tweet.name = candidat.length > 0 ? candidat[0].name : "ERROR : CANDIDAT INCONNU";
             return tweet;
         })
+        tweets = clearUrlFromTweets(tweets);
         res.json(tweets);
     });
 
@@ -140,6 +150,7 @@ module.exports = (passport) => {
                 && parseInt(tweet.user_id) === parseInt(req.params.candidat_id));
         tweets = tweets.sort((a, b) => b.favorite_count - a.favorite_count);
         tweets = tweets.slice(0, 5);
+        tweets = clearUrlFromTweets(tweets);
         res.json(tweets);
     });
 
@@ -149,6 +160,7 @@ module.exports = (passport) => {
                 && parseInt(tweet.user_id) === parseInt(req.params.candidat_id));
         tweets = tweets.sort((a, b) => b.favorite_count - a.favorite_count);
         tweets = tweets.slice(0, 5);
+        tweets = clearUrlFromTweets(tweets);
         res.json(tweets);
     });
 
@@ -164,6 +176,7 @@ module.exports = (passport) => {
             // tweet.pic_url = 
             return tweet;
         })
+        tweets = clearUrlFromTweets(tweets);
         res.json(tweets);
     });
 
@@ -179,7 +192,6 @@ module.exports = (passport) => {
     });
 
     app.get('/candidat/:id_candidat/stats', (req, res) => {
-
         const candidat = db.getCandidats();
         const candidat_followers = db.fetch(db.candidat_followers_name)[req.params.id_candidat];
         // liste des dates par ordre croissant
