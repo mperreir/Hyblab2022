@@ -1,4 +1,5 @@
 async function loadFileExplorer() {
+    // selectedCityData = await fetchCityData(selectedCity);
     const container = document.getElementById('container');
 
     const fileExplorerHtml = await loadTemplate('templates/file_explorer/file_explorer.ejs', FOLDER_TITLES);
