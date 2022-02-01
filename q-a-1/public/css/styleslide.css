@@ -26,6 +26,20 @@ body{
     position:absolute;
 }
 
+#loader-img{
+    top:40%;
+    left:40%;
+    position: absolute;
+}
+
+#loader-text{
+    text-align: center;
+    font-size: 25%;
+    position: absolute;
+    top:60%;
+    width: 100%
+}
+
 h1{
     font-size: 128%;
     font-family: folsomblack;
@@ -41,20 +55,6 @@ button{
     border: none;
     font-family: 'folsomblack';
     color:#FFFFFF;
-}
-
-#loader-img{
-    top:40%;
-    left:40%;
-    position: absolute;
-}
-
-#loader-text{
-    text-align: center;
-    font-size: 25%;
-    position: absolute;
-    top:60%;
-    width: 100%
 }
 /* -------------- End of Loader --------------*/
 
