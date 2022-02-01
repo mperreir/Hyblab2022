@@ -1,5 +1,7 @@
 
 window.onload = () => {
+
+    window.scrollTo(0, 25);
     
     var x;
     if (sessionStorage.getItem("question").length == 1) {

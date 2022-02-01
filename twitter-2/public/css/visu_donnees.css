@@ -97,4 +97,10 @@ body{
 
 text {
     font-size: 12px;
+    fill: #1A367A;
+}
+
+.lato {
+    font-size: 11px;
+    font-family: 'Lato', sans-serif;
 }
