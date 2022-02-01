@@ -44,12 +44,15 @@
     height:10vh;
 }
 
-body {
-    background-color: black;
+html,body {
+    background-color: white;
     color: white;
     overflow: hidden;
     /* to avoid slider bugs on some browsers */
     font-family: 'blatantregular';
+    height:100%;
+    width:100%;
+    min-height: 100%;
 }
 
 /* section des réponses */
@@ -71,6 +74,8 @@ body {
     height:6vh;
     margin-top: 10vh;
     line-height: 6vh;
+    border:none;
+    font-size: 80%;
 }
 
 /* setion de la barre de progression */

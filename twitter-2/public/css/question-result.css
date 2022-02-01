@@ -95,7 +95,8 @@ body{
     text-align: center;
     width:65vw;
     height:6vh;
-    
+    border:none;
+    font-size: 80%;
     line-height: 6vh;
 }
 

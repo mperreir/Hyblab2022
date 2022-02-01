@@ -117,17 +117,16 @@ body{
     padding: 0 1em;
 }
 
-@media screen and (max-aspect-ratio: 7/13){
+@media screen and (max-aspect-ratio: 9/16){
     #container{
-        margin-top: calc((100vh - 100 * 13vw / 7) / 2);
         width: 100vw;
-        height: calc(100 * 13vw / 7);
+        height: 100vh;
     }
 
     /* We set a default font size here. It will be the base for all other font sizes */
     /* Here the font size is proportional to display width */
     body{
-        font-size: calc(12vw*13/7);
+        font-size: calc(12vw*9/16);
     }
 }
 
@@ -135,8 +134,8 @@ body{
 /* as long as the screen aspect ratio is higher than 9:16 */
 @media screen and (min-aspect-ratio: 7/13){
     #container{
-        margin-left: calc((100vw - 100 * 7vh / 13) / 2);
-        width: calc(100 * 7vh / 13);
+        margin-left: calc((100vw - 100 * 9vh / 16) / 2);
+        width: calc(100 * 9vh / 16);
         height: 100vh;
     }
 

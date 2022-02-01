@@ -76,6 +76,8 @@ body{
     height:6vh;
     margin-top: 5vh;
     line-height: 6vh;
+    border:none;
+    font-size: 90%;
 }
 
 
