@@ -30,6 +30,16 @@ button{
     
 }
 
+.buttonservice{
+    width:33%;
+    border-radius: 30px;
+    font-family: 'folsomblack';
+    background-color : #656565;
+    font-size: 40%;
+    color: white;
+
+
+}
 
 #Q3 > input {
     padding : 2% 10% 2% 10%;
