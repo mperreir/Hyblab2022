@@ -10,6 +10,15 @@ const multer = require('multer');
 const express = require("express");
 const upload = multer();
 
+const clearUrlFromTweets = (tweets) => {
+    return tweets.map((tweet) => clearUrlFromTweet(tweet));
+}
+
+const clearUrlFromTweet = (tweet) => {
+    tweet.text = tweet.text.replace(/(?:https?|ftp):\/\/[\n\S]+/g, '');
+    return tweet;
+}
+
 module.exports = (passport) => {
     const app = express();
     // Sample endpoint that sends the partner's name
@@ -53,7 +62,7 @@ module.exports = (passport) => {
         } while (tweet === undefined);
 
         // Supprime les url des tweets
-        tweet.text = tweet.text.replace(/(?:https?|ftp):\/\/[\n\S]+/g, '');
+        tweet = clearUrlFromTweet(tweet);
 
         if (Math.random() > 0.5) {
             const tmp = candidat1;
@@ -109,6 +118,7 @@ module.exports = (passport) => {
             tweet.name = candidat.length > 0 ? candidat[0].name : "ERROR : CANDIDAT INCONNU";
             return tweet;
         })
+        tweets = clearUrlFromTweets(tweets);
         res.json(tweets);
     });
 
@@ -118,6 +128,7 @@ module.exports = (passport) => {
                 && parseInt(tweet.user_id) === parseInt(req.params.candidat_id));
         tweets = tweets.sort((a, b) => b.favorite_count - a.favorite_count);
         tweets = tweets.slice(0, 5);
+        tweets = clearUrlFromTweets(tweets);
         res.json(tweets);
     });
 
@@ -127,6 +138,7 @@ module.exports = (passport) => {
                 && parseInt(tweet.user_id) === parseInt(req.params.candidat_id));
         tweets = tweets.sort((a, b) => b.favorite_count - a.favorite_count);
         tweets = tweets.slice(0, 5);
+        tweets = clearUrlFromTweets(tweets);
         res.json(tweets);
     });
 
@@ -142,6 +154,7 @@ module.exports = (passport) => {
             // tweet.pic_url = 
             return tweet;
         })
+        tweets = clearUrlFromTweets(tweets);
         res.json(tweets);
     });
 
