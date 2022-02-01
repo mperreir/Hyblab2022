@@ -40,6 +40,61 @@ Date.prototype.getWeek = function() {
         - 3 + (week1.getDay() + 6) % 7) / 7);
 }
 
+
+// Source: http://stackoverflow.com/questions/497790
+const Dates = {
+    convert:function(d) {
+        // Converts the date in d to a date-object. The input can be:
+        //   a date object: returned without modification
+        //  an array      : Interpreted as [year,month,day]. NOTE: month is 0-11.
+        //   a number     : Interpreted as number of milliseconds
+        //                  since 1 Jan 1970 (a timestamp)
+        //   a string     : Any format supported by the javascript engine, like
+        //                  "YYYY/MM/DD", "MM/DD/YYYY", "Jan 31 2009" etc.
+        //  an object     : Interpreted as an object with year, month and date
+        //                  attributes.  **NOTE** month is 0-11.
+        return (
+            d.constructor === Date ? d :
+                d.constructor === Array ? new Date(d[0],d[1],d[2]) :
+                    d.constructor === Number ? new Date(d) :
+                        d.constructor === String ? new Date(d) :
+                            typeof d === "object" ? new Date(d.year,d.month,d.date) :
+                                NaN
+        );
+    },
+    compare:function(a,b) {
+        // Compare two dates (could be of any type supported by the convert
+        // function above) and returns:
+        //  -1 : if a < b
+        //   0 : if a = b
+        //   1 : if a > b
+        // NaN : if a or b is an illegal date
+        // NOTE: The code inside isFinite does an assignment (=).
+        return (
+            isFinite(a=this.convert(a).valueOf()) &&
+            isFinite(b=this.convert(b).valueOf()) ?
+                (a>b)-(a<b) :
+                NaN
+        );
+    },
+    inRange:function(d,start,end) {
+        // Checks if date in d is between dates in start and end.
+        // Returns a boolean or NaN:
+        //    true  : if d is between start and end (inclusive)
+        //    false : if d is before start or after end
+        //    NaN   : if one or more of the dates is illegal.
+        // NOTE: The code inside isFinite does an assignment (=).
+        return (
+            isFinite(d=this.convert(d).valueOf()) &&
+            isFinite(start=this.convert(start).valueOf()) &&
+            isFinite(end=this.convert(end).valueOf()) ?
+                start <= d && d <= end :
+                NaN
+        );
+    }
+}
+
+
 Date.prototype.isSameWeek = function(date)
 {
     return this.getFullYear() === date.getFullYear()
@@ -51,7 +106,7 @@ Date.prototype.isBetweenWeekBefore = function(date)
     // return this.getFullYear() === date.getFullYear()
     //     && this.getWeek() === date.getWeek();
     const semaine_flottante = new Date(this.getFullYear(), this.getMonth(), this.getDay() - 7);
-    return semaine_flottante < date < this;
+    return Dates.inRange(date, semaine_flottante, this);
 };
 
 module.exports = db;
@@ -72,8 +127,22 @@ module.exports.getTweets = () => {
 }
 
 module.exports.getCandidats = () => {
+    const followers = db.fetch(module.exports.candidat_followers_name);
+    // const followers_date = followers.map(candidat =>
+    //     Object.entries(candidat)
+    //     .map(([key, value]) => {new Date(key)})
+    //     .sort((date1, date2) => date1 - date2));
+
     return db.fetch(module.exports.candidats_name)
-        .sort((a, b) => parseInt(b.followers) - parseInt(a.followers))
+        .sort((a, b) => {
+            // const b_followers_date = followers_date[b.id];
+            // const a_followers_date = followers_date[a.id]
+
+            return b.followers - a.followers;
+
+            // return parseInt(b_followers ? b_followers[b_followers.length - 1] : b.followers)
+            // - parseInt(a_followers ? a_followers[a_followers.length - 1] : a.followers);
+        })
         .slice(0, 12);
 }
 
@@ -154,9 +223,9 @@ module.exports.tweets_update = (file, onFinish) => {
 }
 
 module.exports.candidats_update = (file, onFinish) => {
+    file = file.replace('﻿', '');
     textProcessing.Parser.getValuesFromCSVString(file, candidats  => {
-        // let older_tweets = db.fetch(module.exports.tweets_name);
-        // if (older_tweets === null) older_tweets = [];
+
         db.set(module.exports.candidats_name, candidats);
 
         onFinish();
@@ -207,8 +276,8 @@ autoFetchData();
 async function autoFetchData() {
     while (true) {
         await new Promise(resolve => setTimeout(resolve, 60000));
-        try {
 
+        try {
             let config = db.fetch(module.exports.config_name);
             if (config === undefined) {
                 config = {

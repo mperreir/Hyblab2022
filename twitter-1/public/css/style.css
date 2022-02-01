@@ -319,6 +319,18 @@ th, td {
     left : 10%;
 }
 
+.box-tweet-top {
+    background: white;
+    height: 35vh;
+    width: 80%;
+    border-radius: 70px;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: visible !important;
+}
+
+
 .candidattweet {
     overflow: hidden;
 }
