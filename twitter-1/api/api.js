@@ -10,6 +10,15 @@ const multer = require('multer');
 const express = require("express");
 const upload = multer();
 
+const clearUrlFromTweets = (tweets) => {
+    return tweets.map((tweet) => clearUrlFromTweet(tweet));
+}
+
+const clearUrlFromTweet = (tweet) => {
+    tweet.text = tweet.text.replace(/(?:https?|ftp):\/\/[\n\S]+/g, '');
+    return tweet;
+}
+
 module.exports = (passport) => {
     const app = express();
     // Sample endpoint that sends the partner's name
@@ -34,7 +43,7 @@ module.exports = (passport) => {
         do {
             candidat1 = candidats[Math.floor(Math.random() * candidats.length)];
             const candidats_2 = candidats.filter(c => candidat1.id !== c.id);
-            candidat2 = candidats[Math.floor(Math.random() * candidats_2.length)]
+            candidat2 = candidats_2[Math.floor(Math.random() * candidats_2.length)]
 
             tweet = db.getTweetsSemaine()
                 .filter(t => t.user_id === candidat1.id
@@ -45,7 +54,7 @@ module.exports = (passport) => {
                 .sort(() => 0.5 - Math.random())[0];
 
             // arret de la boucle si pas de tweet trouvé
-            if (cpt_while > 3) {
+            if (cpt_while > 4) {
                 res.status(500).send();
                 return;
             }
@@ -53,7 +62,7 @@ module.exports = (passport) => {
         } while (tweet === undefined);
 
         // Supprime les url des tweets
-        tweet.text = tweet.text.replace(/(?:https?|ftp):\/\/[\n\S]+/g, '');
+        tweet = clearUrlFromTweet(tweet);
 
         if (Math.random() > 0.5) {
             const tmp = candidat1;
@@ -83,14 +92,10 @@ module.exports = (passport) => {
         let listCount = [];
         let listCandidates = db.getCandidats();
         let arrayTweets = db.getTweetsSemaine();
-        console.log(1)
-        console.log(arrayTweets.length);
         listCandidates.forEach((candidat) => {
             let newCount = Object();
             newCount.nameCandidates = candidat.name;
             let result = arrayTweets.filter(arrayTweets => arrayTweets.user_id === candidat.id);
-            console.log(2)
-            console.log(result.length)
             newCount.nbTweetsByThemes = result.length;
             listCount.push(newCount);
         })
@@ -102,18 +107,19 @@ module.exports = (passport) => {
 
     app.get('/theme/count/:theme_id',(req, res) =>{
         let listCount = [];
-        let listCandidates = db.getCandidats();
+        const listCandidates = db.getCandidats();
+        const arrayTweets = db.getTweetsSemaine()
+
         listCandidates.forEach((candidat) => {
             let newCount = Object()
             newCount.nameCandidates = candidat.name
-            let arrayTweets = db.getTweetsSemaine()
             let result = arrayTweets.filter(arrayTweets =>
                 arrayTweets.theme_id === parseInt(req.params.theme_id)
                 && arrayTweets.user_id === candidat.id);
             newCount.nbTweetsByThemes = result.length;
             listCount.push(newCount);
         })
-        listCount.sort((a, b) => a.nbTweetsByThemes - b.nbTweetsByThemes);
+        listCount = listCount.sort((a, b) => a.nbTweetsByThemes - b.nbTweetsByThemes);
         let result = listCount.slice(0,3);
         console.log(result)
         res.json(result);
@@ -131,6 +137,7 @@ module.exports = (passport) => {
             tweet.name = candidat.length > 0 ? candidat[0].name : "ERROR : CANDIDAT INCONNU";
             return tweet;
         })
+        tweets = clearUrlFromTweets(tweets);
         res.json(tweets);
     });
 
@@ -140,6 +147,7 @@ module.exports = (passport) => {
                 && parseInt(tweet.user_id) === parseInt(req.params.candidat_id));
         tweets = tweets.sort((a, b) => b.favorite_count - a.favorite_count);
         tweets = tweets.slice(0, 5);
+        tweets = clearUrlFromTweets(tweets);
         res.json(tweets);
     });
 
@@ -149,6 +157,7 @@ module.exports = (passport) => {
                 && parseInt(tweet.user_id) === parseInt(req.params.candidat_id));
         tweets = tweets.sort((a, b) => b.favorite_count - a.favorite_count);
         tweets = tweets.slice(0, 5);
+        tweets = clearUrlFromTweets(tweets);
         res.json(tweets);
     });
 
@@ -164,6 +173,7 @@ module.exports = (passport) => {
             // tweet.pic_url = 
             return tweet;
         })
+        tweets = clearUrlFromTweets(tweets);
         res.json(tweets);
     });
 
@@ -173,13 +183,11 @@ module.exports = (passport) => {
     });
 
     app.get('/candidat/filtre', (req, res) => {
-        let candidats = db.getCandidats()
-            .filter(t => t.followers > 80000);
+        let candidats = db.getCandidats();
         res.json(candidats);
     });
 
     app.get('/candidat/:id_candidat/stats', (req, res) => {
-
         const candidat = db.getCandidats();
         const candidat_followers = db.fetch(db.candidat_followers_name)[req.params.id_candidat];
         // liste des dates par ordre croissant
