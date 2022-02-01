@@ -1,4 +1,8 @@
-let data_voisins = require('./chargement.js').data_voisins;
+let dataVoisins;
+fetch("api/dataVoisins").then(response => response.json())
+	.then(data => dataVoisins = data);
+const data_voisins = new Map(Object.entries(dataVoisins));
+
 
 
 function randomize(tab) {

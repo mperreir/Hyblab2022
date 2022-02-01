@@ -7,14 +7,14 @@ const jsonData6 = require('../public/data/ResultatJSON/Resultat2012Tour2.json');
 const jsonData7 = require('../public/data/ResultatJSON/Resultat2017Tour1.json');
 const jsonData8 = require('../public/data/ResultatJSON/Resultat2017Tour2.json');
 
-const map2002_1 = new Map();
-const map2002_2 = new Map();
-const map2007_1 = new Map();
-const map2007_2 = new Map();
-const map2012_1 = new Map();
-const map2012_2 = new Map();
-const map2017_1 = new Map();
-const map2017_2 = new Map();
+let map2002_1 = new Map();
+let map2002_2 = new Map();
+let map2007_1 = new Map();
+let map2007_2 = new Map();
+let map2012_1 = new Map();
+let map2012_2 = new Map();
+let map2017_1 = new Map();
+let map2017_2 = new Map();
 
 let data_election = new Map();
 
@@ -35,13 +35,17 @@ data_election.set("2012_1",Object.fromEntries(map2012_1));
 data_election.set("2012_2",Object.fromEntries(map2012_2));
 data_election.set("2017_1",Object.fromEntries(map2017_1));
 data_election.set("2017_2",Object.fromEntries(map2017_2));
-console.log(data_election)
+
 data_election = Object.fromEntries(data_election);
-console.log(data_election)
 module.exports.data_election = data_election;
 
-/*const jsonDatavoisin = require('../data/voisin.json');
-const mapVoisins = new Map();
+
+
+const jsonDatavoisin = require('../data/voisin.json');
+let data_voisins = new Map();
 for (let jsonDatavoisinKey in jsonDatavoisin) {
-	mapVoisins.set(parseInt(jsonDatavoisinKey), jsonDatavoisin[jsonDatavoisinKey]);
-}*/
+	data_voisins.set(parseInt(jsonDatavoisinKey), jsonDatavoisin[jsonDatavoisinKey]);
+}
+
+data_voisins = Object.fromEntries(data_voisins);
+module.exports.data_voisins = data_voisins;
