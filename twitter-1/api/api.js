@@ -168,7 +168,7 @@ module.exports = (passport) => {
 
         const date_update_followers = Object.keys(candidat_followers)
             .map(string_date => new Date(string_date))
-            .sort((date1, date2) => date1 - date2);
+            .sort((date1, date2) => date1.getTime() - date2.getTime());
         const last_date = date_update_followers[date_update_followers.length - 1];
 
         // selectionne la date une semaine avant la date la plus récente
@@ -176,7 +176,7 @@ module.exports = (passport) => {
             last_date.getFullYear(),
             last_date.getMonth(),
             last_date.getDate() - 7);
-        oneWeekBefore = date_update_followers.filter(date => date < oneWeekBefore);
+        oneWeekBefore = date_update_followers.filter(date => date.getTime() < oneWeekBefore.getTime());
         oneWeekBefore = (oneWeekBefore.length > 0) ? oneWeekBefore.pop() : date_update_followers[0];
         const followers_before = candidat_followers[oneWeekBefore.getFullYear() + "-" + (oneWeekBefore.getMonth()+1) + "-" + oneWeekBefore.getDate()];
         const followers_now = candidat_followers[last_date.getFullYear() + "-" + (last_date.getMonth()+1) + "-" + last_date.getDate()];
