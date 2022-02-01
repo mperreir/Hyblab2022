@@ -246,14 +246,7 @@ header .routeDebut {
     font-size: 15px;
     font-style: italic;
     margin-right: 10px;
-}
-
-#race .candidat .name .firstName {
-    font-weight: 200;
-}
-
-#race .candidat .name .lastName {
-    font-weight: 400;
+    font-weight: 300;
 }
 
 #race .candidat .block {
