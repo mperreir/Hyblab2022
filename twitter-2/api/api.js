@@ -102,8 +102,9 @@ app.get('/randomQuestion/:theme', function (req, res) {
     }
 
     res.send({
-        questionPart1: "Qui tweet autant que",
-        questionPart2: `sur ${req.params.theme}`,
+        questionPart1: `Sur le sujet de ${wordsTheme(req.params.theme)},<br>qui tweet autant que `,
+        questionPart2: ' ?',
+        wordsTheme: wordsTheme(req.params.theme),
         mainCandidat,
         solutionCandidat,
         wrongCandidats,
@@ -111,6 +112,13 @@ app.get('/randomQuestion/:theme', function (req, res) {
         ratioSolutionCandidat: dataRatioTweet[solutionCandidat.userName].ratio
     });
 });
+
+function wordsTheme(theme) {
+    if (theme === 'education') return `l'éducation`;
+    else if (theme === 'sante') return 'la santé';
+    else if (theme === 'environnement') return `l'environnement`;
+    else if (theme === 'economie') return `l'économie`;
+}
 
 
 /* ----- Exploration ----- */
