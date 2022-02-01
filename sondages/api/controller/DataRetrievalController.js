@@ -147,9 +147,9 @@ getData().then(data => {
     })
 })
 
-/*async function sendDataToFront(req, res) {
+async function sendDataToFront(req, res) {
     await getData();
     res.status(201).json(cacheData)
 }
 
-module.exports = sendDataToFront;*/
+module.exports = sendDataToFront;
