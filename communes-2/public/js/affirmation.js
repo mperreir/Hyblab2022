@@ -13,6 +13,7 @@ page('/communes-2/affirmation', async function () {
 
     let indiceP = document.getElementById('indiceText');
     if (gameData['numeroEssai'] == 2) {
+        indiceP.innerHTML="";
         /*
         let response3 = await fetch('api/indice')
         .then( response => {
@@ -22,6 +23,12 @@ page('/communes-2/affirmation', async function () {
             indiceP.innerHTML = indice;
         })*/
 
+        
+
+        let response3 = await fetch('api/indice/' + gameData['communeCourante']['libelleCommune']);
+        let indice = await response3.json();
+        indiceP.innerHTML = indice['string'];
+
         // Affichage box affirmation
         var aff_box = document.getElementById("affirmation");
         aff_box.style.bottom ="-190px";
@@ -29,9 +36,6 @@ page('/communes-2/affirmation', async function () {
         var indice_box = document.getElementById("indice-box");
         indice_box.style.bottom ="0";
 
-        let response3 = await fetch('api/indice/' + gameData['communeCourante']['libelleCommune']);
-        let indice = await response3.json();
-        indiceP.innerHTML = indice['string'];
     } else {
         indiceP.innerHTML = "Pas d'indice au premier essai !";
     }
@@ -81,7 +85,7 @@ page('/communes-2/affirmation', async function () {
 
     let box_aff = document.getElementById("sliderline-aff");
     box_aff.addEventListener("click", (event)=>{
-        if (box_aff !== event.target) return;
+        //if (box_aff !== event.target) return;
         var box = document.getElementById("affirmation");
         box.style.bottom ="-190px";
 
@@ -101,7 +105,7 @@ page('/communes-2/affirmation', async function () {
 
     let indicebox = document.getElementById("sliderline-ind");
     indicebox.addEventListener("click", (event)=>{
-        if (indicebox !== event.target) return;
+        //if (indicebox !== event.target) return;
         var indiceb = document.getElementById("indice-box");
         indiceb.style.bottom ="-190px";
 
