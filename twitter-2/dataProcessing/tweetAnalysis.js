@@ -10,13 +10,13 @@ const motsCle = {
     'education': [
         'education', 'crous', 'etudiant', 'ecole', 'jeune', 'enseignant', 'etude', 'professeur', 'parcoursup'
     ],
-    'santé': [
+    'sante': [
         'sante', 'passe sanitaire', 'passe vaccinal', 'covid19', 'omicron', 'protocole sanitaire', 'hopital', 'vaccin'
     ],
     'environnement': [
         'environnement', 'nucleaire', 'energie', 'renouvelables', 'cop26', 'g20'
     ],
-    'économie': [
+    'economie': [
         'economie', 'nucleaire', 'essence', 'economique', 'smic', 'salaire', 'retraite', 'chomage', 'union europeenne'
     ]
 };
