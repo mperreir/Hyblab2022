@@ -227,14 +227,14 @@ function histo() {
       .attr('text-anchor', 'middle')
       .text(`${dataSet[0].Commune}`)
 
-    svg.append('text')
+    /*svg.append('text')
       .attr('class', 'label')
-      .attr('x', -(height/1.2))
-      .attr('y', margin + 4)
+      .attr('x', -(height/1.5))
+      .attr('y', margin / 5 )
       .style('font-size', '10px')
       .attr('transform', 'rotate(-90)')
       .attr('text-anchor', 'middle')
-      .text(' % de voix')
+      .text(' % de voix')*/
 
 }
 
@@ -300,7 +300,8 @@ function pie(){
           .attr('class', 'title')
           .attr('x', size/2)
           .attr('y', 40)
-          .style('font-size', '11px')
+          .style('font-size', '18px')
           .attr('text-anchor', 'middle')
-          .text(`${dataSet[0].Commune}`);         
+          .text(`${dataSet[0].Commune}`);  
+
 }
