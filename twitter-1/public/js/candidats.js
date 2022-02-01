@@ -63,7 +63,7 @@ const initSlide3 = async function () {
 
         let select = document.querySelector('#select-' + candidat.id);
         select.style.borderRadius = "80px";
-        select.style.marginLeft = "25%";
+        select.style.marginLeft = "20%";
         select.style.marginTop = "1em";
         select.style.fontFamily = "'Outfit', sans-serif";
         select.style.height = "3em";
@@ -88,6 +88,7 @@ const initSlide3 = async function () {
         let title = document.querySelector('#downup-' + candidat.id + ' h3');
         title.style.color = "white";
         title.style.fontWeight = "700";
+        title.style.marginBottom = "-12%";
 
         let image = document.querySelector('#images' + candidat.id);
 
@@ -275,4 +276,14 @@ const update_semaine = async function (truc, candidat_id) {
         new_slide.appendChild(p);
         swiper_wrapper.appendChild(new_slide);
     });
+
+    if (top_tweets.length === 0) {
+
+        let new_slide = document.createElement('div');
+        let p = document.createElement('p');
+        new_slide.setAttribute("class", "swiper-slide tweet");
+        p.innerText = "Pas de top tweet trouvé pour ce candidat !";
+        new_slide.appendChild(p);
+        swiper_wrapper.appendChild(new_slide);
+    }
 };
