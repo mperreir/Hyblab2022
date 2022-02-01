@@ -157,6 +157,12 @@ body{
     text-align: center;
 }
 
+.bottom-text{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 5%;
+}
+
 .textZone{
     font-family: "Bebas Neue";
     font-size: 20%;

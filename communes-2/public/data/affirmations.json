@@ -2,7 +2,7 @@
     "affirmations": {
         "politique" : [
             {
-                "string":"Le taux d'abstention de la Commune est de  AAA %.",
+                "string":"Le taux d'abstention de la Commune est de  AAA % au 1er tour.",
                 "columns":[
                     "tauxAbstention"
                 ]

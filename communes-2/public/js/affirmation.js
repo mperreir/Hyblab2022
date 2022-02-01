@@ -6,14 +6,26 @@ var slideIndex = 1;
 page('/communes-2/affirmation', async function () {
     await renderTemplate(templates('./templates/affirmation.mustache'));
 
-    let selectedValue = null;
     let gameData = JSON.parse(localStorage.getItem('gameData'));
     console.log(gameData);
 
     // EWEN POUR TESTER SI ON EST AU DEUXIEME ESSAI (donc qu'il faut afficher indice en plus) 
 
+    let indiceP = document.getElementById('indiceText');
     if (gameData['numeroEssai'] == 2) {
-
+        /*
+        let response3 = await fetch('api/indice')
+        .then( response => {
+            return response.json();
+        })
+        .then(indice => {
+            indiceP.innerHTML = indice;
+        })*/
+        let response3 = await fetch('api/indice/' + gameData['communeCourante']['libelleCommune']);
+        let indice = await response3.json();
+        indiceP.innerHTML = indice['string'];
+    } else {
+        indiceP.innerHTML = "Pas d'indice au premier essai !";
     }
 
     // FIN
@@ -22,17 +34,6 @@ page('/communes-2/affirmation', async function () {
 
     let response = await fetch('api/carte');
     const dataCarte = await response.json();
-
-    let response2 = await fetch('api/affirmations')
-    let affirmations = await response2.json();
-
-    let response3 = await fetch('api/indice');
-    let indice = await response3.json();
-
-    console.log(indice);
-
-    //Recuperation des div dans lesquelles on va afficher les affirmations
-    let divAffirmations = document.getElementsByClassName('affirmation-content')
 
     // Recuperation des données du jeu et affichage du nombre actuel
     let nombreCommuneActuelle = document.getElementById('numeroCommuneActuelle');
@@ -43,25 +44,12 @@ page('/communes-2/affirmation', async function () {
     nombreCommuneMax.innerHTML = nbMaxCommunes;
     nombreCommuneActuelle.innerHTML = nbCommuneActuelle;
 
-    //Ajout de l'information a la fin de l'affirmation
-    for (let i = 0; i < affirmations.length; i++) {
-        let informations = affirmations[i]['columns'];
+    let response2 = await fetch('api/affirmations/' + gameData['communeCourante']['libelleCommune']);
+    let affirmations = await response2.json();
 
-        let compteur = 0;
-        //On va de A à Z
-        for(let asciiCode = 65; asciiCode < 91; asciiCode++) {
-            let letter = String.fromCharCode(asciiCode);
-            let pattern = letter+letter+letter; //Le pattern est de type AAA, BBB, ZZZ dans le json
-            if(affirmations[i]['string'].includes(pattern)) {
+    //Recuperation des div dans lesquelles on va afficher les affirmations
+    let divAffirmations = document.getElementsByClassName('affirmation-content')
 
-                //Remplacement du pattern par l'information correspondante
-                affirmations[i]['string'] = affirmations[i]['string'].replace(pattern, gameData['communeCourante'][informations[compteur]]);
-                compteur++;
-            }
-
-            else break; //Si plus de pattern correspondant, on stoppe la boucle
-        }
-    }
 
     //parcourt des div et insertion des affirmations
     for (let i = 0; i < divAffirmations.length; i++) {
@@ -254,31 +242,45 @@ function roundEnding(selectedValue, rightValue) {
             // Perdu deuxieme essai*
             console.log('Perdu second');
             // TODO : Calcul du score
-            scoreRound = calculateScore(selectedValue, rightValue);
             nbCommunesJouees++;
             communePrecedente = gameData['communeCourante'];
+            calculateScore(selectedValue, rightValue).then(score => {
+                localStorage.setItem('gameData', JSON.stringify({
+                    'orientation': gameData['orientation'],
+                    'score' : gameData['score'] + score,
+                    'scoreIntermediaire': score,
+                    'nbreCommunesTrouvees': gameData['nbreCommunesTrouvees'] + (selectedValue == rightValue ? 1 : 0),
+                    'nbreCommunesJouees': nbCommunesJouees,
+                    'numeroEssai': nbEssaiSuivant,
+                    'communePrecedente': communePrecedente,
+                    'communeCourante' : nbEssaiSuivant == 2 ? gameData['communeCourante'] : gameData['communes'].pop(),
+                    'communes': gameData['communes']
+                }));
+                page('/communes-2/resultatInterFalse');
+            });
         }
     }
 
-    // changer game data et localstorage.
-    // passer page inter.
-    localStorage.setItem('gameData', JSON.stringify({
-        'orientation': gameData['orientation'],
-        'score' : gameData['score'] + scoreRound,
-        'scoreIntermediaire': scoreRound,
-        'nbreCommunesTrouvees': gameData['nbreCommunesTrouvees'] + (selectedValue == rightValue ? 1 : 0),
-        'nbreCommunesJouees': nbCommunesJouees,
-        'numeroEssai': nbEssaiSuivant,
-        'communePrecedente': communePrecedente,
-        'communeCourante' : nbEssaiSuivant == 2 ? gameData['communeCourante'] : gameData['communes'].pop(),
-        'communes': gameData['communes']
-    }));
+    if(selectedValue == rightValue || gameData['numeroEssai'] == 1) {
+        localStorage.setItem('gameData', JSON.stringify({
+            'orientation': gameData['orientation'],
+            'score' : gameData['score'] + scoreRound,
+            'scoreIntermediaire': scoreRound,
+            'nbreCommunesTrouvees': gameData['nbreCommunesTrouvees'] + (selectedValue == rightValue ? 1 : 0),
+            'nbreCommunesJouees': nbCommunesJouees,
+            'numeroEssai': nbEssaiSuivant,
+            'communePrecedente': communePrecedente,
+            'communeCourante' : nbEssaiSuivant == 2 ? gameData['communeCourante'] : gameData['communes'].pop(),
+            'communes': gameData['communes']
+        }));
+    }
+
 
     // REDIRECTION VERS LA BONNE PAGE. 
     if(selectedValue == rightValue) page('/communes-2/resultatInterTrue')
     else {
         // Si on s'est trompés et que c'était le second essai, on arrive sur la page d'échec, sinon sur la page avec un indice en plus
-        nbEssaiSuivant == 1 ? page('/communes-2/resultatInterFalse') : page('/communes-2/affirmation');
+        if(nbEssaiSuivant == 2) page('/communes-2/affirmation');
     }
 }
 
@@ -288,10 +290,10 @@ function roundEnding(selectedValue, rightValue) {
  * @param {String} selectedValue 
  * @param {String} rightValue 
  */
-function calculateScore(selectedValue, rightValue) {
+async function calculateScore(selectedValue, rightValue) {
 
     const scoreReussite = 2500;
-    const maxScoreEchec = 1250;
+    const maxScoreEchec = 2000;
 
     if(selectedValue == rightValue) return scoreReussite;
 
@@ -302,7 +304,7 @@ function calculateScore(selectedValue, rightValue) {
      *  */ 
 
     const distanceMax = 179378; // Cela correspond à la distance en mètres la plus longue en Loire-Atlantique, entre les bords éloignés de Piriac-sur-Mer et Montrelais
-    let distanceChoisie = fetch('api/distance/' + selectedValue + '/' + rightValue)
+    let scoreRetour = await fetch('api/distance/' + selectedValue + '/' + rightValue)
     .then(function(response) {
         return response.json();
     })
@@ -311,8 +313,8 @@ function calculateScore(selectedValue, rightValue) {
         return Math.round(score);
     });
 
-    console.log(distanceChoisie);
-    return distanceChoisie;
+    console.log(scoreRetour);
+    return scoreRetour;
 }
 
 function sliderplus(n) {
