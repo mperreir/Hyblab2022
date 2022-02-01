@@ -5,7 +5,8 @@
     "lastName": "Asselineau",
     "displayFullName": "François Asselineau",
     "displayShortName": "F. Asselineau",
-    "imageLink": "hover-asselineau"
+    "imageLinkCercle": "cercle-asselineau",
+    "imageLink": "françois-asselineau"
   },
   {
     "userName": "dupontaignan",
@@ -13,7 +14,8 @@
     "lastName": "Dupont Aignan",
     "displayFullName": "Nicolas Dupont Aignan",
     "displayShortName": "N. Dupont Aignan",
-    "imageLink": "hover-dupontaignan"
+    "imageLinkCercle": "cercle-dupontaignan",
+    "imageLink": "nicolas-dupont-aignan"
   },
   {
     "userName": "Anne_Hidalgo",
@@ -21,7 +23,8 @@
     "lastName": "Hidalgo",
     "displayFullName": "Anne Hidalgo",
     "displayShortName": "A. Hidalgo",
-    "imageLink": "hover-hidalgo"
+    "imageLinkCercle": "cercle-hidalgo",
+    "imageLink": "anne-hidalgo"
   },
   {
     "userName": "yjadot",
@@ -29,7 +32,8 @@
     "lastName": "Jadot",
     "displayFullName": "Yannick Jadot",
     "displayShortName": "Y. Jadot",
-    "imageLink": "hover-jadot"
+    "imageLinkCercle": "cercle-jadot",
+    "imageLink": "yannick-jadot"
   },
   {
     "userName": "AnasseKazib",
@@ -37,7 +41,8 @@
     "lastName": "Kazib",
     "displayFullName": "Anasse Kazib",
     "displayShortName": "A. Kazib",
-    "imageLink": "hover-kazib"
+    "imageLinkCercle": "cercle-kazib",
+    "imageLink": "anasse-kazib"
   },
   {
     "userName": "larrouturou",
@@ -45,7 +50,8 @@
     "lastName": "Larrouturou",
     "displayFullName": "Pierre Larrouturou",
     "displayShortName": "P. Larrouturou",
-    "imageLink": "hover-larrouturou"
+    "imageLinkCercle": "cercle-larrouturou",
+    "imageLink": "pierre-larrouturou"
   },
   {
     "userName": "jeanlassalle",
@@ -53,7 +59,8 @@
     "lastName": "Lassalle",
     "displayFullName": "Jean Lassalle",
     "displayShortName": "J. Lassalle",
-    "imageLink": "hover-lassalle"
+    "imageLinkCercle": "cercle-lassalle",
+    "imageLink": "jean-lassalle"
   },
   {
     "userName": "MLP_officiel",
@@ -61,16 +68,17 @@
     "lastName": "Le Pen",
     "displayFullName": "Marine Le Pen",
     "displayShortName": "M. Le Pen",
-    "imageLink": "hover-lepen"
+    "imageLinkCercle": "cercle-lepen",
+    "imageLink": "marine-le-pen"
   },
-  
   {
     "userName": "EmmanuelMacron",
     "firstName": "Emmanuel",
     "lastName": "Macron",
     "displayFullName": "Emmanuel Macron",
     "displayShortName": "E. Macron",
-    "imageLink": "hover-macron"
+    "imageLinkCercle": "cercle-macron",
+    "imageLink": "emmanuel-macron"
   },
   {
     "userName": "JLMelenchon",
@@ -78,7 +86,8 @@
     "lastName": "Mélenchon",
     "displayFullName": "Jean Luc Mélenchon",
     "displayShortName": "J.L. Mélenchon",
-    "imageLink": "hover-melenchon"
+    "imageLinkCercle": "cercle-melenchon",
+    "imageLink": "jean-luc-melenchon"
   },
   {
     "userName": "vpecresse",
@@ -86,7 +95,8 @@
     "lastName": "Pécresse",
     "displayFullName": "Valérie Pécresse",
     "displayShortName": "V. Pécresse",
-    "imageLink": "hover-pecresse"
+    "imageLinkCercle": "cercle-pecresse",
+    "imageLink": "valerie-pecresse"
   },
   {
     "userName": "f_philippot",
@@ -94,7 +104,8 @@
     "lastName": "Philippot",
     "displayFullName": "Florian Philippot",
     "displayShortName": "F. Philippot",
-    "imageLink": "hover-philippot"
+    "imageLinkCercle": "cercle-philippot",
+    "imageLink": "florian-philippot"
   },
   {
     "userName": "PhilippePoutou",
@@ -102,7 +113,8 @@
     "lastName": "Poutou",
     "displayFullName": "Philippe Poutou",
     "displayShortName": "P. Poutou",
-    "imageLink": "hover-poutou"
+    "imageLinkCercle": "cercle-poutou",
+    "imageLink": "philippe-poutou"
   },
   {
     "userName": "ChTaubira",
@@ -110,7 +122,8 @@
     "lastName": "Taubira",
     "displayFullName": "Christiane Taubira",
     "displayShortName": "C. Taubira",
-    "imageLink": "hover-taubira"
+    "imageLinkCercle": "cercle-taubira",
+    "imageLink": "christiane-taubira"
   },
   {
     "userName": "ZemmourEric",
@@ -118,6 +131,7 @@
     "lastName": "Zemmour",
     "displayFullName": "Eric Zemmour",
     "displayShortName": "E. Zemmour",
-    "imageLink": "hover-zemmour"
+    "imageLinkCercle": "cercle-zemmour",
+    "imageLink": "eric-zemmour"
   }
 ]

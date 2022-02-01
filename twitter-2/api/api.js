@@ -130,7 +130,7 @@ app.get('/ratioNearCandidate/followers/:userName', function (req, res) {
     let candidatsRatio = [
         {
             shortname: mainCandidat.displayShortName,
-            img: `img/candidats/${mainCandidat.imageLink}.svg`,
+            img: `img/candidats/${mainCandidat.imageLinkCercle}.png`,
             ratio: '50.0'
         }
     ];
@@ -140,14 +140,14 @@ app.get('/ratioNearCandidate/followers/:userName', function (req, res) {
             const candidat = candidats.find(candidat => candidat.userName === data.name2);
             candidatsRatio.push({
                 shortname: candidat.displayShortName,
-                img: `img/candidats/${candidat.imageLink}.svg`,
+                img: `img/candidats/${candidat.imageLink}.png`,
                 ratio: data.ratio
             });
         } else if (data.name2 === mainCandidat.userName) {
             const candidat = candidats.find(candidat => candidat.userName === data.name1);
             candidatsRatio.push({
                 shortname: candidat.displayShortName,
-                img: `img/candidats/${candidat.imageLink}.svg`,
+                img: `img/candidats/${candidat.imageLink}.png`,
                 ratio: data.ratio
             });
         }
@@ -230,7 +230,7 @@ function createStructureDataVisualisation(candidats) {
         resultat.nodes.push({
             id,
             shortname: candidat.displayShortName,
-            img: `img/candidats/${candidat.imageLink}.svg`,
+            img: `img/candidats/${id === 1 ? candidat.imageLinkCercle : candidat.imageLink}.png`,
             ratio: candidat.ratio
         });
         id++;
