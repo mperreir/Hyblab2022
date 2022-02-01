@@ -11,18 +11,19 @@ candidates.forEach(candidate => {
 })
 //stepsCandidates["1"] = candidates;
 stepsCandidates["6"] = candidates.slice(0, 5);
+//stepsCandidates["7"] = [];
 
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       stepPages: [
-        <StartingPage nextStep={() => this.nextStep()} />,
-        <Step1Page data={data} nextStep={() => this.nextStep()} />,
+        //<StartingPage nextStep={() => this.nextStep()} />,
+        /*<Step1Page data={data} nextStep={() => this.nextStep()} />,
         <Step2Page data={data} nextStep={() => this.nextStep()} />,
         <Step3Page data={data} nextStep={() => this.nextStep()} />,
         <Step4Page data={data} nextStep={() => this.nextStep()} />,
-        <Step5Page data={data} nextStep={() => this.nextStep()} />,
+        <Step5Page data={data} nextStep={() => this.nextStep()} />,*/
         <Step6Page data={data} nextStep={() => this.nextStep()} />,
         <Step7Page data={data} nextStep={() => this.nextStep()} />,
         <Step8Page data={data} nextStep={() => this.nextStep()} />,
@@ -37,6 +38,9 @@ class App extends React.Component {
   }
 
   resetStep() {
+    stepsCandidates = {
+      "1": [...candidates], "2": [], "3": [], "4": [], "5": [], "6": [], "7": [], "8": [],
+    }
     this.setState({ step: 0 });
   }
 

@@ -31,7 +31,7 @@ class Step1Page extends Page {
                 />,
                 <GamePage
                     step={step}
-                    title='À toi de jouer ! Examine ces candidatures'
+                    title='Examine ces candidatures'
                     subtitle="Les candidats t’ont envoyé leurs profils, à toi de sélectionner ceux qui peuvent continuer."
                     buttonTitle='Valider'
                     returnToExplanations={() => this.returnToExplanations()}

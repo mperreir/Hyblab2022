@@ -55,8 +55,7 @@ class Step6GameChart extends React.Component {
                     yAxes: [{
                         ticks: {
                             beginAtZero: true,
-                            display: false,
-                            max: 100
+                            display: false
                         },
                         gridLines: {
                             display:false

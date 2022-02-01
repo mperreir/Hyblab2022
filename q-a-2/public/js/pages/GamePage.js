@@ -2,7 +2,13 @@ class GamePage extends Page {
     constructor(props) {
         super(props);
         this.state = {
-            buttonDisabled: true
+            buttonDisabled: true,
+            endScreen: false,
+            game: {
+                win: false,
+                data: {},
+                candidatesNextStep: []
+            }
         }
     }
 
@@ -14,7 +20,32 @@ class GamePage extends Page {
         this.setState({ buttonDisabled: true });
     }
 
+    gameSaveState(game) {
+        this.setState({ game: game });
+    }
+
+    gameFinish() {
+        this.setState({ endScreen: true })
+    }
+
+    onClickEndCard() {
+        if (this.state.game.win) {
+            this.candidatesClimbSteps(this.state.game.candidatesNextStep)
+            this.props.nextStep()
+        } else {
+            this.setState({ endScreen: false })
+        }
+    }
+
     render() {
+        if (this.state.endScreen) {
+            return (
+                <div className='gamePage'>
+                    <Header step={this.props.step} />
+                    <EndGameCard isWin={this.state.game.win} onClickButton={() => this.onClickEndCard()} />
+                </div> 
+            ) 
+        }
         return (
             <div className='gamePage'>
                 <Header step={this.props.step} />
@@ -25,10 +56,15 @@ class GamePage extends Page {
                 </div>
                 <div className='gamePage_container'>
                     {
-                        React.cloneElement(this.props.children, { enableGameButton: () => this.enableGameButton(), disableGameButton: () => this.disableGameButton() })
+                        React.cloneElement(this.props.children, {
+                            enableGameButton: () => this.enableGameButton(),
+                            disableGameButton: () => this.disableGameButton(),
+                            gameSaveState: (game) => this.gameSaveState(game),
+                            game: this.state.game
+                        })
                     }
                 </div>
-                <Button value={this.props.buttonTitle} onClick={() => this.props.buttonOnClick()} disabled={this.state.buttonDisabled} />
+                <Button value={this.props.buttonTitle} onClick={() => this.gameFinish()} disabled={this.state.buttonDisabled} />
             </div>
         )
     }
