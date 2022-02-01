@@ -25,7 +25,6 @@ body {
     align-items: center;
     justify-content: space-around;
     height: 100vh;
-    background-color: #55001588;
 }
 
 #race img {
@@ -71,6 +70,7 @@ header p {
     justify-content: center;
     background-color: yellow;
     color: #00000022;
+    width: 100%;
 }
 
 #blocks > *:nth-child(2n) {
