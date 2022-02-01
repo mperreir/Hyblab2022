@@ -438,7 +438,7 @@ body {
   position: relative;
   text-align: center;
   color: white;
-  margin: 10%;
+  margin: 5% 10%;
   width: 80%;
 }
 
@@ -454,22 +454,28 @@ body {
   left: 10%;
 }
 
-#p6 .dialog .arrow {
+#p6 .dialog .arrow-small{
+  position: absolute;
+  margin: auto;
+  font-size: 16px;
+  bottom: 50%;
+  left: 40%;
+}
+
+#p6 .dialog .arrow-medium{
+  position: absolute;
+  margin: auto;
+  font-size: 16px;
+  bottom: 40%;
+  left: 40%;
+}
+
+#p6 .dialog .arrow-big {
   position: absolute;
   margin: auto;
   font-size: 16px;
   bottom: 30%;
   left: 40%;
-}
-
-#p6 .dialog-pressed {
-  display: none;
-  height: 30%;
-}
-
-#p6 .dialog-not-pressed {
-  display: none;
-  height: 30%;
 }
 
 #p6 .decompte {
@@ -483,16 +489,14 @@ body {
 }
 
 #p6 .bouton-rouge {
-  display: none;
   width: 60%;
   margin: 0% 10%;
   padding: 10%;
 }
 
 #p6 .illu-fin {
-  display: none;
   width: 95%;
-  margin: -15% 2.5%;
+  margin: 2.5%;
 }
 
 /* ---------- Important media queries for easy responsive content :-) ----------------- */

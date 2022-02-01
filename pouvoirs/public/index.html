@@ -74,7 +74,9 @@
           <div id="background-falling"></div>
           <div class='bulle'>
             <p style="text-align: justify;">
-              En incarnant Moua, un être venu d’ailleurs devenu malgré lui le Président français sous la Vème république, découvrez et expérimentez les pouvoirs du chef du pays.<br> Laissez vous guider tout le long du
+              En incarnant Moua, un être venu d’ailleurs devenu malgré lui le Président français sous la Vème
+              république, découvrez et expérimentez les pouvoirs du chef du pays.<br> Laissez vous guider tout le long
+              du
               jeu. Choisissez la ou les bonnes réponses pour chaque situation.<br><br>
             </p>
             <p style="text-align: center;">
@@ -94,15 +96,17 @@
 
         <section class="swiper-slide" id="p2">
           <img class="pouvoir-header" src="img/headers/POUVOIR_2.svg">
-          
+
           <div id="bulle-container">
             <img id='bulle-pm' src="img/dialogBoxes/GRAND_PREMIERMINISTRE.svg">
             <p style="text-align: justify;">
-              Je vous informe que le gouvernement a rédigé un décret. 
-              Nous avons besoin de votre signature car sans celle-ci, impossible de le faire passer. <b>Tu veux mettre en place une loi.</b> On lui explique que ce n’est pas son rôle mais le rôle du Sénat/Parlement. On lui montre alors un document qui doit être signer pour approuver la loi.
+              Je vous informe que le gouvernement a rédigé un décret.
+              Nous avons besoin de votre signature car sans celle-ci, impossible de le faire passer. <b>Tu veux mettre
+                en place une loi.</b> On lui explique que ce n’est pas son rôle mais le rôle du Sénat/Parlement. On lui
+              montre alors un document qui doit être signer pour approuver la loi.
             </p>
           </div>
-          
+
           <div id="drawing-container">
             <img src="img/elements/Decret.svg">
             <canvas id="drawPlace"></canvas>
@@ -137,45 +141,64 @@
             <img src="img/headers/POUVOIR_6.svg">
           </div>
 
-          <div class="decompte">
-            <p><b></b></p>
-          </div>
+            <div class="dialog-before dialog" style="height: 25%;">
+              <img src="img/dialogBoxes/ETAT MOYEN.svg">
+              <p class="dialog-text">
+                En tant que Président de la République, vous devenez le chef des armées.
+                Vous seul pouvez décider d'utiliser
+                l'arme nucléaire.
+              </p>
+              <p class="arrow-medium">
+                ▼
+              </p>
+            </div>
 
-          <div class="dialog-before dialog">
-            <img src="img/dialogBoxes/ETAT GRAND.svg">
-            <p class="dialog-text">En tant que président, vous obtenez le statut de chef des armées. Vous avez à
-              disposition l’arme
-              nucléaire. <b>Vous pouvez, si vous le souhaitez, l’utiliser contre un pays ennemi au vôtre qui se nomme
-                Lukabec</b></p>
-            <p class="arrow">
-              ▼
-            </p>
-          </div>
 
-          <div class="dialog-pressed dialog">
-            <img src="img/dialogBoxes/ETAT MOYEN.svg">
-            <p class="dialog-text">
-              Bon, vous avez totalement le droit de déclencher les forces nucléaires. Mais rappeler vous, il faut penser
-              à votre peuple et à la sécurité du pays. ......
-            </p>
-          </div>
+            <div class="dialog-moua dialog" style="display: none; height: 25%;">
+              <img src="img/dialogBoxes/primeMinister_s.svg">
+              <p class="dialog-text">
+                hm, j’hésite sur l’avenir du
+                pays de Lukabec ..
+              </p>
+              <p class="arrow-small">
+                ▼
+              </p>
+            </div>
 
-          <div class="dialog-not-pressed dialog">
-            <img src="img/dialogBoxes/ETAT MOYEN.svg">
-            <p class="dialog-text">
-              BRAVO, vous avez choisi la voix de la diplomatie, ce qui est une des qualité primoridale. En tant que
-              président,
-            </p>
-          </div>
+            <div class="decompte" style="display: none;">
+              <p><b></b></p>
+            </div>
 
-          <div class="bouton-rouge" style="font-size : 12px; text-align: center;">
-            <img src="img/elements/BOUTON NUCLEAIRE.svg">
-          </div>
+            <div class="dialog-pressed dialog" style="display: none;">
+              <img src="img/dialogBoxes/ETAT MOYEN.svg">
+              <p class="dialog-text">
+                Bon, vous avez totalement le droit de déclencher les forces nucléaires. Mais rappeler vous, il faut
+                penser
+                à votre peuple et à la sécurité du pays. ......
+              </p>
+              <p class="arrow-medium">
+                ▼
+              </p>
+            </div>
 
-          <div class="illu-fin">
-            <img src="img/elements/ILLUSTRATION_POUVOIR 6.svg">
-          </div>
+            <div class="dialog-not-pressed dialog" style="display: none;">
+              <img src="img/dialogBoxes/ETAT MOYEN.svg">
+              <p class="dialog-text">
+                BRAVO, vous avez choisi la voix de la diplomatie, ce qui est une des qualité primoridale. En tant que
+                président,
+              </p>
+              <p class="arrow-medium">
+                ▼
+              </p>
+            </div>
 
+            <div class="bouton-rouge">
+              <img src="img/elements/BOUTON NUCLEAIRE.svg">
+            </div>
+
+            <div class="illu-fin" style="display: none;">
+              <img src="img/elements/ILLUSTRATION_POUVOIR 6.svg">
+            </div>
         </section>
 
         <section class="swiper-slide" id="end">

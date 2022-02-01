@@ -1,18 +1,21 @@
 const init_p6 = function () {
     const dialog_before = document.querySelector("#p6 .dialog-before");
+    const dialog_moua = document.querySelector("#p6 .dialog-moua")
     const dialog_pressed = document.querySelector("#p6 .dialog-pressed");
     const dialog_not_pressed = document.querySelector("#p6 .dialog-not-pressed");
+
     const decompte = document.querySelector("#p6 .decompte");
-    //decompte.play();
-    const clockEffect = createAudio("data/sounds/clockTicking.mp3");
     const bouton_rouge = document.querySelector("#p6 .bouton-rouge");
     const power_header = document.querySelector("#p6 .pouvoir-header");
     const illu_fin = document.querySelector("#p6 .illu-fin");
-    const dialog_arrow = document.querySelector("#p6 .arrow");
+
+    const dialog_arrow = document.querySelectorAll("#p6 .arrow-small, .arrow-medium, .arrow-big");
+
+    const clockEffect = createAudio("data/sounds/clockTicking.mp3");
 
     let choice_made = 0;
     let timeout;
-    
+
 
     const arrow_anim = anime({
         targets: dialog_arrow,
@@ -25,62 +28,80 @@ const init_p6 = function () {
 
     shakeElement(dialog_before);
 
-
-    const listener_dialog_before = () => {
-        dialog_before.removeEventListener('click', listener_dialog_before);
+    dialog_before.addEventListener('click', () => {
         anime({
             targets: dialog_before,
             opacity: [1, 0],
             easing: 'linear',
             complete: () => {
-                anime.remove(dialog_arrow);
                 dialog_before.style.display = "none";
-                bouton_rouge.style.display = "block";
-                decompte.style.display = "flex";
+                dialog_moua.style.display = "block";
                 anime({
-                    targets: [decompte, bouton_rouge],
+                    targets: dialog_moua,
                     opacity: [0, 1],
                     easing: 'linear',
-                    complete: () => { print_decompte(5);clockEffect.play(); }
                 });
             }
         })
-    };
+    }, 
+    {once : true}
+    );
     
-    dialog_before.addEventListener('click', listener_dialog_before);
+    dialog_moua.addEventListener('click', () => {
+        anime({
+            targets: dialog_moua,
+            opacity: [1, 0],
+            easing: 'linear',
+            complete: () => {
+                dialog_moua.style.display = "none";
+                decompte.style.display = "flex";
+                anime({
+                    targets: decompte,
+                    opacity: [0, 1],
+                    easing: 'linear',
+                    complete: () => {
+                        print_decompte(5);
+                        clockEffect.play();
+                    }
+                });
+            }
+        })
+    }, 
+    {once : true}
+    );
 
     const listener_bouton_rouge = () => {
         bouton_rouge.removeEventListener('click', listener_bouton_rouge);
         clockEffect.unload();
         choice_made = 1;
         clearTimeout(timeout);
-            anime({
-                targets: bouton_rouge,
-                scale: 0.90,
-                easing: 'linear',
-                direction: 'alternate',
-                duration: 150,
-                complete: () => {
-                    anime({
-                        targets: [decompte, bouton_rouge],
-                        opacity: [1, 0],
-                        easing: 'linear',
-                        complete: () => {
-                            decompte.style.display = "none";
-                            bouton_rouge.style.display = "none";
-                            dialog_pressed.style.display = "block";
-                            illu_fin.style.display = "block";
+        anime({
+            targets: bouton_rouge,
+            scale: 0.90,
+            easing: 'linear',
+            direction: 'alternate',
+            duration: 150,
+            complete: () => {
+                anime({
+                    targets: [decompte, bouton_rouge],
+                    opacity: [1, 0],
+                    easing: 'linear',
+                    complete: () => {
+                        decompte.style.display = "none";
+                        bouton_rouge.style.display = "none";
+                        dialog_pressed.style.display = "block";
+                        illu_fin.style.display = "block";
 
-                            anime({
-                                targets: [dialog_pressed, illu_fin],
-                                opacity: [0, 1],
-                                easing: 'linear',
-                            })
-                        }
+                        anime({
+                            targets: [dialog_pressed, illu_fin],
+                            opacity: [0, 1],
+                            easing: 'linear',
+                        })
+                    }
 
-                    })
-                }
-            });
+                })
+            }
+        });
     };
 
     bouton_rouge.addEventListener('click', listener_bouton_rouge);
