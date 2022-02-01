@@ -12,6 +12,30 @@ app.get('/carte', function(req, res) {
     res.json(dataCarte);
 });
 
+app.get('/distance/:ville1/:ville2', function(req, res) {
+
+    try {
+        let ville1 = req.params.ville1;
+        let ville2 = req.params.ville2;
+    
+        // peut etre appel à l'API ?
+        let dataCarte = require('../public/data/geojson.json')
+    
+        let coord1 = dataCarte['features'].filter(function(feature) {
+            return feature['properties']['nom'] == ville1;
+        })[0]['geometry']['coordinates'][0][0];
+    
+        let coord2 = dataCarte['features'].filter(function(feature) {
+            return feature['properties']['nom'] == ville2;
+        })[0]['geometry']['coordinates'][0][0];
+    
+        res.json(helper.calculateDistance(coord1, coord2));
+    } catch(error) {
+        console.log(error);
+    }
+
+});
+
 //Endpoint retournant 5 communes tirées aléatoirement selon leur orientation
 app.get('/communes/:orientation', function(req, res) {
     let listesCommunes = []; //Liste des communes déterminées pour le jeu

@@ -3,7 +3,6 @@
 // Show slider
 var slideIndex = 1;
 
-
 page('/communes-2/affirmation', async function () {
     await renderTemplate(templates('./templates/affirmation.mustache'));
 
@@ -247,7 +246,7 @@ function roundEnding(selectedValue, rightValue) {
             // Perdu deuxieme essai*
             console.log('Perdu second');
             // TODO : Calcul du score
-            scoreRound = 1250;
+            scoreRound = calculateScore(selectedValue, rightValue);
             nbCommunesJouees++;
             communePrecedente = gameData['communeCourante'];
         }
@@ -273,6 +272,39 @@ function roundEnding(selectedValue, rightValue) {
         // Si on s'est trompés et que c'était le second essai, on arrive sur la page d'échec, sinon sur la page avec un indice en plus
         nbEssaiSuivant == 1 ? page('/communes-2/resultatInterFalse') : page('/communes-2/affirmation');
     }
+}
+
+/**
+ * Calcule le score obtenu pour le second tour. On se base sur la distance entre la ville sélectionnée et la bonne ville.
+ * 
+ * @param {String} selectedValue 
+ * @param {String} rightValue 
+ */
+function calculateScore(selectedValue, rightValue) {
+
+    const scoreReussite = 2500;
+    const maxScoreEchec = 1250;
+
+    if(selectedValue == rightValue) return scoreReussite;
+
+    /**
+     * Pour les coordonnées, on utilisera la première valeur du tableau coordinates du geojson.json
+     * En valeur de référence, on prendra la plus grande distance possible (à déterminer).
+     * On fait le ratio entre la distance entre les selectedValue et rightValue sur la plus grande distance, que l'on multiplie par le scoreMax.
+     *  */ 
+
+    const distanceMax = 179378; // Cela correspond à la distance en mètres la plus longue en Loire-Atlantique, entre les bords éloignés de Piriac-sur-Mer et Montrelais
+    let distanceChoisie = fetch('api/distance/' + selectedValue + '/' + rightValue)
+    .then(function(response) {
+        return response.json();
+    })
+    .then(function(responseJson) {
+        let score = (1 - (responseJson / distanceMax)) * maxScoreEchec;
+        return Math.round(score);
+    });
+
+    console.log(distanceChoisie);
+    return distanceChoisie;
 }
 
 function sliderplus(n) {
