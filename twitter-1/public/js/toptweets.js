@@ -3,11 +3,10 @@ tweet = document.querySelector('#tweets');
 theme_pic = document.querySelector('img#theme');
 let themes;
 
-
-
 (() => initThemesTopTweets())();
 
 async function initThemesTopTweets() {
+
     themes = await fetchThemes();
     let o = document.createElement('option');
     o.setAttribute("value", '0');
@@ -31,25 +30,52 @@ select.addEventListener("input", async ev =>  {
 })
 
 async function showTopTweets () {
+    //Get the swiper template
+    const fourth_slide_dom = $("#fourth-slide");
+    const swiper_template = await (await fetch("./templates/swiper-toptweet.mustache")).text();
+
+    //Render the swiper template
+    //const swiper_template_rendered = Mustache.render(swiper_template);
+    //fourth_slide_dom.append(swiper_template_rendered);
+
+    //Get the rendered swiper
+    let swiper_wrapper = document.querySelector('#mySwiperTop .swiper-wrapper');
+    swiper_wrapper.innerHTML = '';
+
     tweet.removeChild(document.querySelector('#tweet-theme'));
     let tweet_theme_div = document.createElement('div');
     tweet_theme_div.setAttribute("id",'tweet-theme');
 
     let tweets = await fetchTopTweetsTheme(parseInt(select.value));
     
+    const swiper = new Swiper("#mySwiperTop", {
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+    });
+
     TopTweetsThemePic(select.value);
 
-    //Add each top tweet
+    //Add each top tweet to the swiper
     tweets.forEach((t) => {
+
+        let new_slide = document.createElement('div');
         let p = document.createElement('p');
+        p.appendChild(document.createTextNode(t.name + " @" + t.screen_name + '\n' + t.text));
+        new_slide.setAttribute("class", "swiper-slide tweet");
+        new_slide.appendChild(p);
+        swiper_wrapper.appendChild(new_slide);
+
         // let img = document.createElement('img');
         // img.src = t.src;
-        p.appendChild(document.createTextNode(t.name + " @" + t.screen_name + '\n' + t.text));
-        tweet_theme_div.appendChild(p);
+
+        //tweet_theme_div.appendChild(p);
     });
 
     // no tweet for this themas
     if (tweets.length === 0) {
+
         tweet_theme_div.appendChild(document.createTextNode("Pas de top tweet trouvé pour ce theme !"));
     }
     tweet.appendChild(tweet_theme_div);
@@ -158,3 +184,25 @@ function TopTweetsThemePic(theme_id) {
           break;
       }
 }
+
+// tops tweets
+/*
+let swiper_wrapper = document.querySelector('#mySwiperTop' + candidat_id + ' .swiper-wrapper');
+swiper_wrapper.innerHTML = '';
+
+let top_tweets;
+if (truc === "semaine") {
+    top_tweets = await (await fetch(`./api/tweets/tops/semaine/candidat/${candidat_id}`)).json();
+} else {
+    top_tweets = await (await fetch(`./api/tweets/tops/all/candidat/${candidat_id}`)).json();
+}
+
+top_tweets.forEach(top_tweet => {
+    let new_slide = document.createElement('div');
+    let p = document.createElement('p');
+    new_slide.setAttribute("class", "swiper-slide tweet");
+    p.innerText = top_tweet.text;
+    new_slide.appendChild(p);
+    swiper_wrapper.appendChild(new_slide);
+});
+*/
