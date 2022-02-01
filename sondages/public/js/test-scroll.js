@@ -9,6 +9,17 @@ const POLL = [
     [500, 200, 100],
 ]
 
+const COMPATIBLE_BACKGROUNDS = {
+    2: [5, 6, 7],
+    3: [4, 9],
+    4: [3, 8],
+    5: [3, 8],
+    6: [2, 5, 7],
+    7: [2, 5, 6],
+    8: [2, 6, 7],
+    9: [2, 6, 7],
+}
+
 function AjoutDesCandidats(CandidatSelection) {
 
     for (const candidat of [...CANDIDATS, ...CANDIDATS]) {
@@ -42,6 +53,37 @@ function ToggleButton(button, img = [1, 2], callback = _ => { }) {
     })
 }
 
+function getRandomInt(max) {
+    return Math.floor(Math.random() * max);
+}
+
+function GenereLaListeDesBackgrounds(nb_jours) {
+    let background = []
+    background.push('fond2');
+    let backgroundBefore = 2;
+    for (let i = 0; i < nb_jours - 2; i++) {
+        if (i == nb_jours - 3) {
+            if (backgroundBefore === 3) {
+                background.push('fond9');
+            }
+            else if (backgroundBefore === 4 || backgroundBefore === 5) {
+                background.push('fond8');
+            }
+            else {
+                background.push('fond6');
+            }
+        }
+        else {
+            let index = getRandomInt(COMPATIBLE_BACKGROUNDS[backgroundBefore].length);
+            let currBackground = COMPATIBLE_BACKGROUNDS[backgroundBefore][index];
+            background.push('fond' + currBackground);
+            backgroundBefore = currBackground;
+        }
+    }
+    background.push('arrivee');
+    return background;
+}
+
 function start() {
 
     const NBR_JOUR = 100 // A changer dynamiquement
@@ -69,89 +111,38 @@ function start() {
 
     AjoutDesCandidats(CandidatSelection)
 
-    function getRandomInt(max) {
-        return Math.floor(Math.random() * max);
-    }
 
-    function getBackground(nb_jours){
-        let background = []
-        background.push('fond2');
-        let backgroundBefore = 2;
-        for(let i = 0; i < nb_jours-2; i++){
-            if (i == nb_jours-3){
-                if (backgroundBefore === 3){
-                    background.push('fond9');
-                }
-                else if (backgroundBefore === 4 || backgroundBefore === 5){
-                    background.push('fond8');
-                }
-                else{
-                    background.push('fond6');
-                }
-            }
-            else{
-                let index = getRandomInt(compatibleBackgrounds[backgroundBefore].length);
-                let currBackground = compatibleBackgrounds[backgroundBefore][index];
-                background.push('fond' + currBackground);
-                backgroundBefore = currBackground;
-            }
-        }
-        background.push('arrivee');
-        return background;
-    }
+    const clientPatternHeight = document.getElementById('pattern').clientHeight;
+    const background = GenereLaListeDesBackgrounds(Math.floor(HAUTEUR_DE_LA_PAGE / clientPatternHeight));
 
-    const compatibleBackgrounds = {
-        2: [5,6,7],
-        3: [4,9],
-        4: [3,8],
-        5: [3,8],
-        6: [2,5,7],
-        7: [2,5,6],
-        8: [2,6,7],
-        9: [2,6,7],
-    } 
+    let currHauteur = 0
 
-    /*
-    for (let i = 1; i <= NBR_JOUR; i++) {
-        var element = document.createElement("div");
-        element.innerText = i
-        element.setAttribute("style", "height: " + PIXEL_PAR_JOUR + "px")
-        blocks.appendChild(element)
-    }
-    */
-
-    clientPatternHeight = document.getElementById('pattern').clientHeight;
-    const background = getBackground(Math.floor(HAUTEUR_DE_LA_PAGE / clientPatternHeight));
-
-    let currHauteur = 0;
-    let i = 0;
-    while (i < background.length-1){
-        let element = document.createElement("div");
-        element.setAttribute("style", "height: " + clientPatternHeight + "px");
-        element.style.backgroundImage = `url('./data/_AGR src/pattern/${background[i]}.svg')`;
-        element.style.backgroundRepeat = 'no-repeat';
-        blocks.appendChild(element);
+    for (let i = 0; i < background.length - 1; i++) {
+        const img = document.createElement("img")
+        img.src = `./data/_AGR src/pattern/${background[i]}.svg`
+        blocks.appendChild(img)
         currHauteur += clientPatternHeight;
-        i++;
     }
 
     // partie restante & manquante à combler
     let remainingBackground = HAUTEUR_DE_LA_PAGE - currHauteur - clientPatternHeight;
+
+    console.log(remainingBackground)
+    console.log(HAUTEUR_DE_LA_PAGE)
+    console.log(currHauteur)
+    console.log(clientPatternHeight)
 
     let element = document.createElement("div");
     element.setAttribute("style", "height: " + remainingBackground + "px");
     element.style.backgroundImage = `url('./data/_AGR src/pattern/un_px.svg')`;
     element.style.backgroundRepeat = 'repeat';
     blocks.appendChild(element);
-    // arrivee
 
-    let arrivee = document.createElement("div");
-    arrivee.setAttribute("style", "height: " + clientPatternHeight + "px");
-    arrivee.style.backgroundImage = `url('./data/_AGR src/pattern/${background[background.length-1]}.svg')`;
-    arrivee.style.backgroundRepeat = 'no-repeat';
-    blocks.appendChild(arrivee);
 
-    
+    // Ajout de l'arrivée
+    const img = document.createElement("img")
+    img.src = `./data/_AGR src/pattern/${background[background.length - 1]}.svg`
+    blocks.appendChild(img)
 
 
 
@@ -168,14 +159,11 @@ function start() {
     }
 
     function scrollToRace() {
-
-        console.log(window.scrollY)
-
         window.scrollTo({
             top: window.innerHeight,
             left: 0,
             behavior: 'smooth'
-        });
+        })
     }
 
     function scrollPosition(scroll) {
@@ -214,7 +202,6 @@ function start() {
     scrollPosition(0)
 
     startTheRace.addEventListener("click", _ => scrollToRace())
-
     document.addEventListener("scroll", _ => scrollPosition(window.scrollY))
 }
 
