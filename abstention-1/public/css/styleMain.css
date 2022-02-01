@@ -268,32 +268,56 @@ lottie-player{
 .player {
     opacity: 0;
 }
+
+/* Pierre Feuille Ciseaux */
 .box {
     display : flex;
     align-items : center;
     justify-content : center;
+    flex-direction: column;
     padding : 10px ;
-    opacity:0;
-  }
-  .box button {
-    padding : 10px;
+    /*opacity:0;*/
+}
+.box button {
+    padding : 15px 70px 15px 50px;
     margin : 10px;
-    border-radius : 3px;
+    border-radius : 10px;
     outline : none;
     border : none;
-    color : rgb(235, 215, 215);
-    background-color : blue;
+    color : white;
     cursor: pointer;
     transition : 0.2s;
-    z-index:3 ;
-  }
-  .box button:active {
+    z-index:3;
+    font-weight: bold;
+    font-size: large;
+    width: 220px;
+}
+
+.box button[id='Pierre']{
+    background-color : blue;
+}
+
+.box button[id='Feuille']{
+    background-color : #29BA9B;
+}
+
+.box button[id='Ciseaux']{
+    background-color : #E66E78;
+}
+
+.box button:active {
     transform : scale(0.97);
-  }
-  .resultat {
+}
+.resultat {
     height : 50px;
     text-align : center;
     font-weight: bold;
     padding : 10px;
     color:rgb(26, 27, 27);
-  }
+}
+
+img[id="Pierre"], img[id="Feuille"], img[id="Ciseaux"]{
+    width: 20%;
+	height: auto;
+    margin-left: 10px;
+}
