@@ -2,10 +2,6 @@ body{
     color: #57517D;
 }
 
-#title{
-    width:55%;
-}
-
 #subtitle{
     width: 32%;
 }
@@ -69,8 +65,7 @@ p{
 }
 
 button{ 
-    color:#FFFFFF;
-    font-size: 70%;
+    background-color: #514B77 ;
 }
 
 .last-section{
@@ -152,3 +147,28 @@ button{
   #bandeau .metropole{
       height: 1.5em;
   }
+
+.pagenumber{
+    position: absolute;
+    color:#8282AA;;
+    margin-top: 5%;
+    text-align:center;
+    font-weight:bolder;
+    font-size:15%;
+    width: 100%;
+    font-family:"mariannemedium";
+    bottom:2.5%;
+}
+
+#currentnum{
+display:inline-block;
+        color:#57517D;
+        text-decoration:none
+}
+a:link,a:visited{
+    display:inline-block;
+    color:#8282AA;;
+    padding:0% 3%;
+    margin:0.5%;
+    text-decoration:none;
+}

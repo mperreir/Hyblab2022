@@ -25,9 +25,9 @@
       <main class = "main-part">
           <section id="first-section">
             <header>
-                <div><img id="logo" src="img/logo/logo blanc.svg"></div>
-                <div><img id="title" src="img/Vote/vote.svg"></div> 
-                <div><img id = "subtitle" src="img/VoteBlanc/Les élections.svg"></div>
+              <div><input type="image" id="logo" src="img/logo/logo blanc.svg" onclick="window.location='sommaire.html'"></div>
+                <h1>VOTE</h1>
+                <img id = "subtitle" src="img/VoteBlanc/Les élections.svg">
             </header>
             <div class = "main-section">
                 <p>Ton bulletin est dépouillé par les <b>scrutateurs</b> (employés de la mairie et bénévoles). Pense à prendre ta pièce d’identité et ta carte électorale !</p>
@@ -41,10 +41,22 @@
                 <p>Si tu écris sur ton bulletin, qu’il est raturés, déchirés, non réglementaires ou sans enveloppe il sera considéré comme un <b>vote nul</b>.</p>
             </div>
             <p id = "anim-section"><img class = "anim-text" id = "last-section" src = "img/VoteBlanc/tasdeja.svg"></p>
-
             <footer>
-                <input class="button" type="button" value="JAMAIS VOTÉ" onclick="document.location = 'jamais_vote.html'">
-                <input class="button" type="button" value="DÉJA VOTÉ" onclick="document.location = 'Deja_vote.html'">
+              <div id="choix_vote">
+                <button onclick="document.location = 'jamais_vote.html'">jamais voté</button>
+                <button onclick="document.location = 'deja_vote.html'">déjà voté</button>
+              </div>
+              <div class="pagenumber">
+                <a href="#" class="not_current">1</a>
+                <b class="not_current">|</b>
+                <a href="#" class="not_current">2</a>
+                <b class="not_current">|</b>
+                <a href="vote.html" id="currentnum">3</a>
+                <b class="not_current">|</b>
+                <a href="#" class="not_current">4</a>
+                <b class="not_current">|</b>
+                <a href="#" class="not_current">5</a>
+              </div>
             </footer>
           </section>
           

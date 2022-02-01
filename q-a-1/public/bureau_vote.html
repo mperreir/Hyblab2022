@@ -7,7 +7,6 @@
   <title>Hyblab 2022</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/red_page.css">
-  <link rel="stylesheet" href="css/pagenumber_red.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/loadingio/loading.css@v2.0.0/dist/loading.css" />
   <link href="https://vjs.zencdn.net/7.6.6/video-js.css" rel="stylesheet" />
@@ -28,8 +27,8 @@
       <main class = "main-part">
           <section id="first-section">
               <header>
-                <img id="logo" src="img/logo/logo rouge.svg">
-                <img id="title" src="img/Bureau_vote/titre_bureau_vote.svg">
+                <div><input type="image" id="logo" src="img/logo/logo rouge.svg" onclick="window.location='sommaire.html'"></div>
+                <h1>BUREAU DE VOTE</h1>
                 <img id="subtitle" src="img/Bureau_vote/sous-titre_bureau_vote.svg">
               </header>
 
@@ -50,26 +49,24 @@
               <button id="bureaux_localisation">Mes bureaux de vote</button>
 
               <img class="transition_phrase" id="anim-text" src="img/Bureau_vote/transition.svg">
-              <div id="choix_vote">
-                <button>Vote</button>
-                <button>Vote blanc</button>
-              </div>
 
-
-              <div class="pagenumber">
-                <a href="informer.html" class="sansserif" id="currentnum">1</a>
-                <b>|</b>
-                <a href="#" class="sansserif">2</a>
-                <b>|</b>
-                <a href="#" class="sansserif">3</a>
-                <b>|</b>
-                <a href="#" class="sansserif">4</a>
-                <b>|</b>
-                <a href="#" class="sansserif">5</a>
-                <b>|</b>
-                <a href="#" class="sansserif">6</a>
-              </div>
-              <footer></footer>
+              <footer>
+                <div id="choix_vote">
+                  <button onclick="document.location = 'vote.html'">vote</button>
+                  <button onclick="document.location = 'vote_blanc.html'">vote blanc</button>
+                </div>
+                <div class="pagenumber">
+                  <a href="#" class="not_current">1</a>
+                  <b class="not_current">|</b>
+                  <a href="bureau_vote.html" id="currentnum">2</a>
+                  <b class="not_current">|</b>
+                  <a href="#" class="not_current">3</a>
+                  <b class="not_current">|</b>
+                  <a href="#" class="not_current">4</a>
+                  <b class="not_current">|</b>
+                  <a href="#" class="not_current">5</a>
+                </div>
+              </footer>
           </section>
           
       </main>

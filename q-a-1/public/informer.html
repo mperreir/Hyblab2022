@@ -17,7 +17,6 @@
   <script src="js/slide1.js" defer></script>
   <script src="js/slide2.js" defer></script>
   <script src="js/index.js" defer></script>
-  <script src="js/informer.js" defer></script>
 </head>
 <body>
     <!-- Le conteneur sert à vérouiller les proportions (aspect ratio) du contenu de la page (ici des slides) -->
@@ -30,10 +29,9 @@
             <section id="first-section">
                 <header>
                     <!--<div id="logo"></div>-->
-                    <div><img id="logo" src="img/logo/logo bleu.svg"></div>
-                    <div><img id="title" src="img/informer.svg"></div>
+                    <div><input type="image" id="logo" src="img/logo/logo bleu.svg" onclick="window.location='sommaire.html'"></div>
+                    <h1>S'INFORMER</h1>
                     <div><img id="subtitle" src="img/les_programmes.svg"></div>
-                      
                 </header>
                 <p id="introduction">Pour prendre connaissance des différents programmes, les français utilisent :</p>
                 <div class="main-section" id="large-div">
@@ -52,22 +50,22 @@
                     <img src="img/premier_tour.svg">
                   </p>
                 </div>
-                <div class="pagenumber">
-                  <a href="informer.html" class="sansserif" id="currentnum">1</a>
-                  <b>|</b>
-                  <a href="#" class="sansserif">2</a>
-                  <b>|</b>
-                  <a href="#" class="sansserif">3</a>
-                  <b>|</b>
-                  <a href="#" class="sansserif">4</a>
-                  <b>|</b>
-                  <a href="#" class="sansserif">5</a>
-                  <b>|</b>
-                  <a href="#" class="sansserif">6</a>
-              </div>
                 <footer>
-                  
-      
+                  <div id="choix_vote">
+                    <button onclick="document.location = 'procuration.html'">procuration</button>
+                    <button onclick="document.location = 'bureau_vote.html'">bureau de vote</button>
+                  </div>
+                  <div class="pagenumber">
+                    <a href="informer.html" class="sansserif" id="currentnum">1</a>
+                    <b>|</b>
+                    <a href="#" class="sansserif">2</a>
+                    <b>|</b>
+                    <a href="#" class="sansserif">3</a>
+                    <b>|</b>
+                    <a href="#" class="sansserif">4</a>
+                    <b>|</b>
+                    <a href="#" class="sansserif">5</a>
+                </div>
                 </footer>
             </section>
         </main>

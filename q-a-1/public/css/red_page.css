@@ -16,32 +16,12 @@ p{
     margin-top: 2%;
 }
 
-div{
-   padding-bottom: 2%;
-}
-
-
-input{
-    color: rgb(224, 209, 209);
-    border-radius: 30px;
-    padding : 1% 6% 1% 6%;
-    background-color : #AC4B4B;
-    font-family: 'folsomblack';
-    border: #AC4B4B;
-    
-}
-
 #introduction{
     position:absolute;
     width:72.6%;
     height:7.4%;
     left:4%;
     top:27%;
-}
-
-
-#title{
-    width:77%;
 }
 
 #subtitle{
@@ -121,19 +101,9 @@ input{
 .center{
     text-align: center;
 }
-#choix_vote{
-    position:absolute;
-    top:78%;
-    left:6%;
-    width:100%;
-}
 
-#choix_vote button{
-    color: white;
+button{
     background-color: #A34142;
-    width:38.6%;
-    height:8.4%;
-    font-size:18%;
 }
 
 #démarche{
@@ -161,4 +131,33 @@ input{
 #Quest_Proc{
     display: flex;
     justify-content: space-between;
+}
+
+.pagenumber{
+    position: absolute;
+    color:#AC4B4B;
+    margin-top: 5%;
+    text-align:center;
+    font-weight:bolder;
+    font-size:15%;
+    width: 100%;
+    font-family:"mariannemedium";
+    bottom:2.5%;
+}
+
+#currentnum{
+display:inline-block;
+        color:#AB4A4A;
+        text-decoration:none
+}
+a:link,a:visited{
+    display:inline-block;
+    color:#AC4B4B;
+    padding:0% 3%;
+    margin:0.5%;
+    text-decoration:none;
+}
+
+.not_current{
+    opacity: 50%;
 }

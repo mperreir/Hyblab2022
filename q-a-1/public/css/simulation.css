@@ -1,9 +1,17 @@
-h1{
+#first-page{
     margin-top: 65%;
     text-align: center;
     font-family: folsomblack;
     font-size: 85%;
     color: #57517D;
+}
+
+#first-page-body{
+        color:#57517D;
+}
+
+body{
+        color: #656565;
 }
 
 #intro-text{
@@ -243,3 +251,32 @@ p{
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         padding: 1% 6% 1% 6%;
 }
+
+.pagenumber{
+        position: absolute;
+        color:#656565;
+        margin-top: 5%;
+        text-align:center;
+        font-weight:bolder;
+        font-size:15%;
+        width: 100%;
+        font-family:"mariannemedium";
+        bottom:2.5%;
+    }
+    
+    #currentnum{
+    display:inline-block;
+            color:#656565;
+            text-decoration:none
+    }
+    a:link,a:visited{
+        display:inline-block;
+        color:#656565;
+        padding:0% 3%;
+        margin:0.5%;
+        text-decoration:none;
+    }
+    
+    .not_current{
+        opacity: 50%;
+    }

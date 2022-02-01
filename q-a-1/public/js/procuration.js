@@ -28,8 +28,7 @@ img.src = "img/logo/logo rouge.svg";
 img.id = "ok";
 logo.appendChild(img);
   
-footer.appendChild(button_first_procuration);
-footer.appendChild(button_second_procuration);
+
 
 const QP1 = document.getElementById("QP1");
 QP1.addEventListener("click", function(event){

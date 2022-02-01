@@ -79,3 +79,31 @@ table{
     display: none;
 }
 
+.pagenumber{
+    position: absolute;
+    color:#165E46;
+    margin-top: 5%;
+    text-align:center;
+    font-weight:bolder;
+    font-size:15%;
+    width: 100%;
+    font-family:"mariannemedium";
+    bottom:2.5%;
+}
+
+#currentnum{
+display:inline-block;
+        color:#165E46;
+        text-decoration:none
+}
+a:link,a:visited{
+    display:inline-block;
+    color:#165E46;
+    padding:0% 3%;
+    margin:0.5%;
+    text-decoration:none;
+}
+
+.not_current{
+    opacity: 50%;
+}

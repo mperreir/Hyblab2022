@@ -9,11 +9,14 @@ p{
 }
 
 h1{
-    margin-top: -5%;
     color: gray;
 }
 
-input{
+button{ 
+    background-color: #656565 ;
+}
+
+IIIII{
     color: white;
     border-radius: 30px;
     padding : 1% 6% 1% 6%;
@@ -23,11 +26,7 @@ input{
     
 }
 
-header > div{
-    margin-top: 6%;
-    margin-bottom: 6%;
-    font-size: 60%;
-}
+
 #Q3 > input {
     padding : 2% 10% 2% 10%;
     border: none;
@@ -60,14 +59,6 @@ header > div{
 
 }
 
-#urne > p{
-    font-size: 90%;
-}
-
-#title{
-    width:25%;
-}
-
 #choisi{
     font-family:'/q-a-1/public/css/font/marianne-bolditalic-demo.html';
     font-size: 80%;
@@ -85,8 +76,7 @@ header > div{
 }
 
 #subtitle{
-    width: 22%;
-    margin-top: -5%;
+    width: 24%;
 }
 
 #last-section{
@@ -162,4 +152,33 @@ header > div{
     text-align: right;
     margin-top: 15%;
     margin-bottom: 10%;
+}
+
+.pagenumber{
+    position: absolute;
+    color:#656565;
+    margin-top: 5%;
+    text-align:center;
+    font-weight:bolder;
+    font-size:15%;
+    width: 100%;
+    font-family:"mariannemedium";
+    bottom:2.5%;
+}
+
+#currentnum{
+display:inline-block;
+        color:#656565;
+        text-decoration:none
+}
+a:link,a:visited{
+    display:inline-block;
+    color:#656565;
+    padding:0% 3%;
+    margin:0.5%;
+    text-decoration:none;
+}
+
+.not_current{
+    opacity: 50%;
 }
