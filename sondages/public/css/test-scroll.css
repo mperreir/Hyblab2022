@@ -180,7 +180,7 @@ header .routeDebut {
     padding: 15px 0;
 }
 
-.details .body {
+.details #CandidatSelection.body {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -334,6 +334,9 @@ footer {
     align-items: center;
     flex-direction: column;
     background-color: #899853;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    margin-bottom: 50px;
 }
 
 footer p {
@@ -355,7 +358,6 @@ footer p {
         width: 100vw;
         min-height: calc(100 * 16vw / 9);
     }
-
 }
 
 /* This media query ensures that we allways will the height of the screen */
@@ -365,6 +367,10 @@ footer p {
         min-height: 100vh;
         width: calc(100 * 9vh / 16);
         margin: 0 auto;
+    }
+
+    lottie-player {
+        margin-left: calc( 50vw - 50vh / 2 )
     }
 
 }
