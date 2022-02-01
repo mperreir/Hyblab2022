@@ -183,6 +183,10 @@
     color: #e4e5fa;
 }
 
+.sms-button:active {
+   opacity: 50%;
+}
+
 .sms-button.sms-button-blue {
     background-color: #1028fd;
 }
@@ -195,4 +199,70 @@
     padding-top:2px ;
     padding-bottom:0 ;
     text-align: center;
+}
+
+#sms-text-city-name {
+    font-family: 'CabinetGrotesk-Bold';
+    text-transform: capitalize;
+}
+
+.sms-city-search {
+    position: relative;
+    align-self: flex-end;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 80%;
+    padding: 10px;
+    font-family: 'CabinetGrotesk-Regular';
+    font-size: 0.9em;
+    border: 2px solid #ff2e00;
+    box-shadow: -4px 4px #ff2e00;
+    color:#ff2e00;
+    display: none;
+
+}
+
+.sms-city-search-input {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    outline: none;
+    background-color: #e4e5fa;
+    font-family: 'CabinetGrotesk-Regular';
+    font-size: 1em;
+    color:#ff2e00;
+
+}
+
+.sms-city-search-results {
+    cursor: pointer;
+    margin-top: 10px;
+}
+.sms-city-search-results-item:hover {
+    opacity: 70%;
+}
+
+
+.sms-city-search::before {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    right: -36px;
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-right : 35px solid transparent;
+    border-bottom : 30px solid #ff2e00;
+}
+
+.sms-city-search::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    right: -31.5px;
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-right : 33px solid transparent;
+    border-bottom : 28px solid #e4e5fa;
 }

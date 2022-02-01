@@ -1,7 +1,7 @@
 <div class="file-explorer">
-    <% filesData.forEach(element=> { %>
+    <% filesData.forEach(element => { %>
 
-        <div class="file-explorer-item">
+        <div id="<%= element.tag %>" class="file-explorer-item">
 
 
             <div class="file-explorer-item-file">
@@ -10,7 +10,7 @@
                 </p>
             </div>
             <div class="file-explorer-item-file-center">
-                <% if (element.progress !==100) { %>
+                <% if (element.progress !== 100) { %>
 
                     <div class="file-explorer-item-file-progress">
                         <div class="file-explorer-item-file-progress-bar"></div>

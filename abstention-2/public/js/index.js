@@ -4,30 +4,44 @@ const FOLDER_TITLES = {
     filesData: [
         {
             title: 'Votes blancs',
+            tag: 'fe-votes-blancs',
+            folderName: 'blancsNuls',
             progress: 66
         },
         {
             title: 'Nouveaux habitants',
+            tag: 'fe-nouveaux-habitants',
+            folderName: 'nouveauxHabitants',
             progress: 66
         },
         {
             title: 'Non-votants',
+            tag: 'fe-non-votants',
+            folderName: 'nonVotants',
             progress: 100
         },
         {
             title: 'Mineurs',
+            tag: 'fe-mineurs',
+            folderName: 'mineurs',
             progress: 33
         },
         {
             title: 'Abstention',
+            tag: 'fe-abstention',
+            folderName: 'abstention',
             progress: 100
         },
         {
             title: 'Étrangers',
+            tag: 'fe-etrangers',
+            folderName: 'etrangers',
             progress: 33
         },
         {
             title: 'Les pourcentages finaux second tour 2017',
+            tag: 'fe-finaux',
+            folderName: 'finaux',
             progress: 16.5
         }
     ]
@@ -58,18 +72,27 @@ function date() {
 // const container = document.getElementById('container');
 
 
-// loadStart();
 
 // loadTemplate('templates/sms.ejs', test).then(value => { container.innerHTML = value ;
 // date();
 // })
 
-//loadFolder();
-//loadFileExplorer();
-// loadSms();
+
+// const cityData = await fetchCityData('nantes');
+
+
+// loadStart();
+loadSms();
+// loadFolder('nonVotants');
+loadFileExplorer();
 // loadEnd();
 // loadRebet();
 
+async function fetchCityData(city) {
+    const cityRq = await fetch(`/api/city/${city}`);
+    const rqJson = await cityRq.json();
+    return rqJson;
+}
 
 
 

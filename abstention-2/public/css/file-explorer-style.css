@@ -3,7 +3,7 @@
     grid-template-columns: 1fr 1fr;
     column-gap: 2.5em;
     row-gap: 2.5em;
-    padding: 16%;
+    padding: 12% 16% 16% 16%;
 }
 
 .file-explorer-item:last-child {

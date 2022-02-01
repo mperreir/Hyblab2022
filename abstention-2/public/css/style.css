@@ -19,6 +19,7 @@ body{
     position: relative; /* for absolute positionning of child elements*/
     background-color: #e4e5fa;
     color: #1028fd;
+    overflow: hidden;
     font-size: 20%;
 }
 
