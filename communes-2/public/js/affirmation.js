@@ -21,6 +21,14 @@ page('/communes-2/affirmation', async function () {
         .then(indice => {
             indiceP.innerHTML = indice;
         })*/
+
+        // Affichage box affirmation
+        var aff_box = document.getElementById("affirmation");
+        aff_box.style.bottom ="-190px";
+
+        var indice_box = document.getElementById("indice-box");
+        indice_box.style.bottom ="0";
+
         let response3 = await fetch('api/indice/' + gameData['communeCourante']['libelleCommune']);
         let indice = await response3.json();
         indiceP.innerHTML = indice['string'];
@@ -100,6 +108,7 @@ page('/communes-2/affirmation', async function () {
         var slider = document.getElementById("slider");
         slider.style.bottom ="0";
     });
+    
 
     // ------ Gestion de la map
 
@@ -529,7 +538,7 @@ page('/communes-2/affirmation', async function () {
                 // Lors d'un click, on appelle la fonction "whenClicked"
 
                 layer.on({
-                    click: popupClicked
+                    click: popup
                 });
             }
 
@@ -540,12 +549,32 @@ page('/communes-2/affirmation', async function () {
         let layer = e.target
         let selectedValue = e.target.feature.properties.nom;
         let infobox = document.getElementById("panel-confirm");
+        infobox.style.visibility = "visible";
 
-        let p = document.querySelector("panel-confirm > a")
-        infobox.style.display = "visible";
+        let p = document.getElementById("counrty-name");
+        p.innerHTML = selectedValue;
+        
         console.log("Bonjour")
 
+        // Choix reponse 
+        let reject = document.getElementById("reject-btn");
+        reject.addEventListener("click", (event)=>{
+            let infobox = document.getElementById("panel-confirm");
+            infobox.style.visibility = "hidden";
+        })
+
+        let accept = document.getElementById("confirm-btn");
+        
+        accept.addEventListener("click", ()=>{
+            let infobox = document.getElementById("panel-confirm");
+            infobox.style.visibility = "hidden";
+
+            // On passe au truc suivant.
+            roundEnding(selectedValue, gameData['communeCourante']['libelleCommune']);
+        })
     }
+    
+
     function popupClicked(e) {
         let layer = e.target
         let selectedValue = e.target.feature.properties.nom;

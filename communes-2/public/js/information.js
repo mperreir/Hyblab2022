@@ -15,9 +15,9 @@ page('/communes-2/information', async function () {
     });
 
     // chargement de la visualisation
-    let gameData = JSON.parse(localStorage.getItem('gameData'));
     let nom_commune = "Libellé de la commune";
-    let communeCourante = "Nantes";//gameData.communeCourante;
+    let communeCourante = JSON.parse(localStorage.getItem('gameData')).communePrecedente.libelleCommune;
+    console.log(communeCourante);
 
     let remplacer_virgule_par_point = function(decimal) {
         return parseFloat((decimal+"").replace(",","."));
@@ -33,7 +33,7 @@ page('/communes-2/information', async function () {
         for(let i= 1; i<6; i++){
             let NomC = `NomC${i}`;
             let Voix = `% Voix/ExpC${i}`;
-            tab.push({"NomC" : n[NomC], "Voix" : remplacer_virgule_par_point(n[Voix]), "Commune" : commune});
+            tab.push({"NomC" : n[NomC], "Voix" : remplacer_virgule_par_point(n[Voix]), "Commune" : commune, "InscritsCommune" : n["Inscrits"], "OrientationCommune" : n["Orientation"], "VotantsCommune" : n["Votants"], "AbstentionsCommune" : n["Abstentions"], "BlancsCommune" : n["Blancs"], "NulsCommune" : n["Nuls"], "ExprimésCommune" : n["Exprimés"]});
         }
         
         return tab;
@@ -50,21 +50,87 @@ page('/communes-2/information', async function () {
         let V2 = "% Voix/Exp__1";
         let N1 ="Nom";
         let N2 = "Nom__1"
-        tab2.push({"Nom2T" : n[N1], "Voix2T" : remplacer_virgule_par_point(n[V1]), "Commune2T" : commune});
-        tab2.push({"Nom2T" : n[N2], "Voix2T" : remplacer_virgule_par_point(n[V2]), "Commune2T" : commune});  
+        tab2.push({"Nom2T" : n[N1], "Voix2T" : remplacer_virgule_par_point(n[V1]), "Commune2T" : commune, "InscritsCommune" : n["Inscrits"], "VotantsCommune" : n["Votants"], "AbstentionsCommune" : n["Abstentions"], "BlancsCommune" : n["Blancs"], "NulsCommune" : n["Nuls"], "ExprimésCommune" : n["Exprimés"]});
+        tab2.push({"Nom2T" : n[N2], "Voix2T" : remplacer_virgule_par_point(n[V2]), "Commune2T" : commune, "InscritsCommune" : n["Inscrits"], "VotantsCommune" : n["Votants"], "AbstentionsCommune" : n["Abstentions"], "BlancsCommune" : n["Blancs"], "NulsCommune" : n["Nuls"], "ExprimésCommune" : n["Exprimés"]});  
 
         return tab2;
     }
 
     dataSet = data_Nom_Voix(dat,communeCourante);
     data2t = data_Nom_Voix_2T(data2,communeCourante);
+    console.log(data2t[0]);
 
     pie();
     histo();
 
+
+    //Info commune tour1
+    const info1 = document.querySelector("#sous_titre1");
+    const  ul = document.createElement("ul");
+    const  li7 = document.createElement("li");
+    const  li1 = document.createElement("li");
+    const  li2 = document.createElement("li");
+    const  li3 = document.createElement("li");
+    const  li4 = document.createElement("li");
+    const  li5 = document.createElement("li");
+    const  li6 = document.createElement("li");
+    
+    ul.className = "popUp-infoCommune";
+    
+    li7.innerHTML = `Orientation de la Commune : ${dataSet[0].OrientationCommune}`;
+    li1.innerHTML = `Nombre d'inscrits : ${dataSet[0].InscritsCommune}`;
+    li2.innerHTML = `Nombre de votants : ${dataSet[0].VotantsCommune}`;
+    li3.innerHTML = `Nombre Abstentionistes : ${dataSet[0].AbstentionsCommune}`;
+    li4.innerHTML = `Nombre de bulletins blancs : ${dataSet[0].BlancsCommune}`;
+    li5.innerHTML = `Nombre de bulletins nuls : ${dataSet[0].NulsCommune}`;
+    li6.innerHTML = `Nombre de bulletins exprimés : ${dataSet[0].ExprimésCommune}`;
+
+
+    info1.appendChild(ul);
+    ul.appendChild(li7);
+    ul.appendChild(li1);
+    ul.appendChild(li2);
+    ul.appendChild(li3);
+    ul.appendChild(li4);
+    ul.appendChild(li5);
+    ul.appendChild(li6);
+    
+//Info commune tour2
+    const info2 = document.querySelector("#sous_titre2");
+    const  ul2 = document.createElement("ul");
+    const  li21 = document.createElement("li");
+    const  li22 = document.createElement("li");
+    const  li23 = document.createElement("li");
+    const  li24 = document.createElement("li");
+    const  li25 = document.createElement("li");
+    const  li26 = document.createElement("li");
+    
+    ul2.className = "popUp-infoCommune";
+    
+    li21.innerHTML = `Nombre d'inscrits : ${data2t[0].InscritsCommune}`;
+    li22.innerHTML = `Nombre de votants : ${data2t[0].VotantsCommune}`;
+    li23.innerHTML = `Nombre Abstentionistes : ${data2t[0].AbstentionsCommune}`;
+    li24.innerHTML = `Nombre de bulletins blancs : ${data2t[0].BlancsCommune}`;
+    li25.innerHTML = `Nombre de bulletins nuls : ${data2t[0].NulsCommune}`;
+    li26.innerHTML = `Nombre de bulletins exprimés : ${data2t[0].ExprimésCommune}`;
+
+
+    info2.appendChild(ul2);
+    ul2.appendChild(li21);
+    ul2.appendChild(li22);
+    ul2.appendChild(li23);
+    ul2.appendChild(li24);
+    ul2.appendChild(li25);
+    ul2.appendChild(li26);
+
+
+
     document.getElementById("continue-btn").addEventListener('click', function () {
         page('/communes-2/affirmation');
     });
+
+
+    
 });
 
 function histo() {
@@ -72,18 +138,18 @@ function histo() {
     const width = 330 - 2 * margin;
     const height = 250 - 2 * margin;
 
-    let col = ["#5B6C9A", "#ED6464"];
+    let col = ["#282246"];
 
     d3.select("#histogramme").selectAll("*").remove();
     let svg = d3.select("#histogramme")
         .append("svg")
         .attr("width", width + margin )
-        .attr("height", height +  8.5 * margin)
-        .attr('transform', `translate(${0}, ${margin * 2})`)
+        .attr("height", height +  5 * margin)
+        .attr('transform', `translate(${0}, ${margin - 20})`)
         
 
     const chart = svg.append('g')
-    .attr('transform', `translate(${margin*2.5}, ${margin * 4})`)
+    .attr('transform', `translate(${margin*2.5}, ${margin * 2})`)
     
     const color = d3.scaleOrdinal(col)
     color.domain(d => d.NomC)
@@ -155,32 +221,25 @@ function histo() {
     svg.append('text')
       .attr('class', 'title')
       .attr('x', 330 / 2 )
-      .attr('y', 50)
-      .style('font-size', '12px')
+      .attr('y', 25)
+      .style('font-size', '18px')
       .attr('text-anchor', 'middle')
-      .text(`Voix des candidats au 1er tour en 2017 à ${dataSet[0].Commune}`)
+      .text(`${dataSet[0].Commune}`)
 
     svg.append('text')
       .attr('class', 'label')
       .attr('x', -(height/1.2))
-      .attr('y', margin - 7)
+      .attr('y', margin + 4)
       .style('font-size', '10px')
       .attr('transform', 'rotate(-90)')
       .attr('text-anchor', 'middle')
       .text(' % de voix')
 
-    /*svg.append('text')
-      .attr('class', 'title')
-      .attr('x', 380 / 2 )
-      .attr('y', 20)
-      .style('font-size', '15px')
-      .attr('text-anchor', 'middle')
-      .text(`Résultat de l'élection présidentielle 2017 à ${dataSet[0].Commune}`)*/
 }
 
 function pie(){
 
-    let col = ["#ED6464","#5B6C9A"];
+    let col = ["#ED6464","#83C49E"]; 
 
     const size = 350;
     const fourth = size / 4;
@@ -191,7 +250,7 @@ function pie(){
     const chart = container.append('svg')
         .style('width', '100%')
         .attr('transform', `translate(${5}, ${30})`)
-        .attr('viewBox', `6 10 ${size-5} ${size}`);
+        .attr('viewBox', `6 10 ${size-5} ${size/1.4}`);
 
     const plotArea = chart.append('g')
         .attr('transform', `translate(${half}, ${half/1.2})`);
@@ -242,7 +301,5 @@ function pie(){
           .attr('y', 40)
           .style('font-size', '11px')
           .attr('text-anchor', 'middle')
-          .text(`Voix des candidats au 2e tour en 2017 à ${dataSet[0].Commune}`)
-
-        
+          .text(`Voix des candidats au 2e tour en 2017 à ${dataSet[0].Commune}`);         
 }

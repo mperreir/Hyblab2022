@@ -1,7 +1,12 @@
 'use strict'
 
 page('/communes-2/', async function () {
-    window.scrollTo(0,1)
+    /*// Wait for the video to preload and display 1st slide
+    var vid = document.getElementById("background-video");
+    vid.onloadeddata = function() {
+        document.querySelector('#background-video').style.display = "block";
+    };*/
+
     anime({
         delay: 2500,
         targets: '#loader',
@@ -25,7 +30,7 @@ page('/communes-2/', async function () {
     });
 
     document.getElementById("credits-btn").addEventListener('click', function () {
-        page('/communes-2/information'); //credits
+        page('/communes-2/credits');
     });
 
     // let allbutton = document.querySelectorAll("input[type='button']");

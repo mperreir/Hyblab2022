@@ -15,22 +15,28 @@
     <div id="map"></div>
 
 
-    
+
     <div class="affir-box">
     <div id="slider">
-        <img class="button-slider" id="show" src="img/pictogrammes/pictoAffirmation.png">
+        <img id="sliderline"src="img/pictogrammes/slideLine.png" >
+        <div id="indice-box">
+            <img class="button-slider" id="show" src="img/pictogrammes/pictoAffirmation.png">
         <img class="button-slider" id="indice" src="img/pictogrammes/pictoIdee.png">
         {{!<img class="button-slider" id="" src="img/pictogrammes/pictoSuivant.png">}}
+        </div>
+        
     </div>
 
     <div id="indice-box">
+        <img id="sliderline"src="img/pictogrammes/slideLine.png" >
         <h6>Indice</h6>
         <p id="indiceText"></p>
     </div>
 
     <div id="affirmation">
+        <img id="sliderline"src="img/pictogrammes/slideLine.png" >
         <h6>Affirmation</h6>
-        
+
         <div class="affirmation-content"></div>
         <div class="affirmation-content"></div>
         <div class="affirmation-content"></div>
@@ -51,14 +57,20 @@
             <span class="dot" onclick="slidercurrent(5)"></span>
         </div>
     </div>
-    
-    
+
+
 
     <div id="panel-confirm">
-        <p></p>
+        <p id="counrty-name"></p>
+
+        <div class="button-choose" >
+            <img id="confirm-btn" src="img/pictogrammes/pictoValider.png">
+            <img id="reject-btn" src="img/pictogrammes/pictoCroix.png">
+        </div>
+        
     </div>
 </div>
-    
+
 
 </div>
 
