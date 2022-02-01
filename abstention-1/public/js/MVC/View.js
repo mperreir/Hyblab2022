@@ -3,6 +3,10 @@ class View {
 
     constructor(){
     
+        this.info=document.querySelector('#info');
+        this.popupInfo=document.querySelector('#popupPointInfo');
+
+        /*
         this.dialoguePart=document.querySelector('#Dialogue');
         this.transitionPartPart=document.querySelector('#Transition');
 
@@ -24,7 +28,7 @@ class View {
 
         this.animation= document.querySelector('#animation');
 
-       
+       */
     }
   }
   

@@ -51,6 +51,81 @@ body{
     position: absolute;
 }
 
+/*--------------Section intro--------------------*/
+#sujet{
+    opacity:1;
+    width: 100%;
+    height: 100%;
+}
+#info{
+    width: 10%;
+    margin-left: 3%;
+    margin-top: 3%;
+
+}
+#SujetExpose{
+    border : 1vh solid #0600FF;  
+    border-radius: 5%;
+    width: 50vh;
+    height: 76vh;
+    color: #0600FF;
+    padding: 6%;
+    background-color: white;
+    transform:translate(16%) rotate(-10deg);
+    clip-path: polygon(0% 0%, 93.5% 0%, 68% 100%, 50% 100%, 0% 100%);
+
+}
+#SujetExpose h1{
+    margin:auto;
+    text-align:center;
+    font-size: 300%;
+    
+
+}
+#SujetExpose h2{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-decoration: underline;
+}
+
+#PieChart{
+position: absolute;
+width: 30%;
+height: auto;
+left:12%;
+bottom: 26%;
+}
+#BarChart{
+    position: absolute;
+    width: 30%;
+    height: auto;
+    right: 20%;
+    bottom: 13%;
+}
+#popupPointInfo{
+    opacity: 0;
+    width: 40vh;
+    height: 72vh;
+    top:13%;
+    left:10%;
+    position: absolute;
+    color: #29BA9B;
+    border : 1vh solid #29BA9B;  
+    border-radius: 5%;
+    padding: 3%;
+    background-color: white;
+   
+}
+#popupPointInfo p {
+margin-top: 10%;
+}
+/*--------------Section popup carnet----------------*/
+
+#popupCarnet{
+    opacity: 0;
+    z-index: 0;
+}
+
 /*--------------Section dialogue----------------*/
 #Dialogue{
     top:0%;
@@ -64,6 +139,7 @@ body{
     position: fixed;
     z-index: 3;
     overflow: hidden;
+    display: none;
 }
 
 /*header*/
@@ -89,6 +165,8 @@ body{
     font-size: 60%;
   
   }
+
+  /*
   #cercle1{
       opacity: 1;
   }
@@ -104,7 +182,10 @@ body{
 #cercle5{
     opacity: 0.3;
 }
+
+*/
  #carnet{
+     opacity: 0;
      position: absolute;
      width: 5vh;
      height: auto;
@@ -248,7 +329,7 @@ vertical-align: center;
     width: calc(100 * 9vh / 16);
     height: 100vh; /*100vh*/
     top:0%;
-
+    display: none;  /*Permet de cacher les éléments*/
 }
 
 #animation{

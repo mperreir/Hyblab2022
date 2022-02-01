@@ -3,9 +3,13 @@ let scene2 = new ModelDialogue(SCRIPT.Scene2,"img/Charlie.svg","img/Jeune.svg","
 let scene3 = new ModelDialogue(SCRIPT.Scene3,"img/Charlie.svg","img/JeuneActive.svg","Arthur 17ans");
 let scene4 = new ModelDialogue(SCRIPT.Scene4,"img/Charlie.svg","img/JeuneActive.svg","Arthur 17ans");
 let scene5 = new ModelDialogue(SCRIPT.Scene5,"img/Charlie.svg","img/JeuneActive.svg","Arthur 17ans");
-
+this.view=document.querySelector('#info');
+this.view.popupInfo=document.querySelector('#popupPointInfo');
 // let controleur = [new Controler(scene1), new Controler(scene2), new Controler(scene3), new Controler(scene4), new Controler(scene5)];
 const dialogueControler = new Controler([scene1, scene2, scene3, scene4, scene5]);
+
+
+
 
 function getAnimations() {
     return ANIMATIONS.ordre.map((etape, i, etapes) => {
@@ -57,6 +61,7 @@ function getAnimations() {
         }
     })
 }
+
 
 const animations = getAnimations().map(({container, actions}) => new FullAnimationModel(container, actions, dialogueControler));
 
