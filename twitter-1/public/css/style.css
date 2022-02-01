@@ -313,6 +313,9 @@ th, td {
     margin-right: auto;
     overflow: visible !important;
     font-size: 18%;
+    position : absolute;
+    top:40%;
+    left : 10%;
 }
 
 .candidattweet {
