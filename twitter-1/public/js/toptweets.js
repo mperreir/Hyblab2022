@@ -7,6 +7,16 @@ let themes;
 
 async function initThemesTopTweets() {
 
+    const fourth_slide_dom = $("#fourth-slide #SlideTop");
+    //Get the swiper template
+    const swiper_template = await (await fetch("./templates/swiper-toptweet.mustache")).text();
+
+    //Render the swiper template
+    const swiper_template_rendered = Mustache.render(swiper_template);
+
+    //Get the rendered swiper
+    fourth_slide_dom.append(swiper_template_rendered);
+
     themes = await fetchThemes();
     let o = document.createElement('option');
     o.setAttribute("value", '0');
@@ -30,15 +40,11 @@ select.addEventListener("input", async ev =>  {
 })
 
 async function showTopTweets () {
+    const all_candidats = await (await fetch("./api/candidat/all")).json();
+
     //Get the swiper template
-    const fourth_slide_dom = $("#fourth-slide");
-    //const swiper_template = await (await fetch("./templates/swiper-toptweet.mustache")).text();
+    const swiper_inside_template = await (await fetch("./templates/swiper-insidetoptweet.mustache")).text();
 
-    //Render the swiper template
-    //const swiper_template_rendered = Mustache.render(swiper_template);
-    //fourth_slide_dom.append(swiper_template_rendered);
-
-    //Get the rendered swiper
     let swiper_wrapper = document.querySelector('#mySwiperTop .swiper-wrapper');
     swiper_wrapper.innerHTML = '';
 
@@ -59,27 +65,20 @@ async function showTopTweets () {
 
     //Add each top tweet to the swiper
     tweets.forEach((t) => {
-
-        let new_slide = document.createElement('div');
-        let p_name = document.createElement('p');
-        let p_text = document.createElement('p');
-
-        p_name.setAttribute('id','tweetname');
-        let name = document.createTextNode(t.name);
-        p_name.innerHTML = document.createTextNode(name.data.toUpperCase() + " @" + t.screen_name).data;
-
-        p_text.setAttribute('id','tweetcontent');
-        p_text.innerHTML = document.createTextNode(t.text).data;
-
-        new_slide.setAttribute("class", "swiper-slide tweet");
-        new_slide.appendChild(p_name);
-        new_slide.appendChild(p_text);
-        swiper_wrapper.appendChild(new_slide);
-
-        // let img = document.createElement('img');
-        // img.src = t.src;
-
-        //tweet_theme_div.appendChild(p);
+        let candidat = all_candidats.filter(c => t.user_id === c.id);
+        if (candidat){
+            let new_slide = document.createElement('div');
+            let name = document.createTextNode(t.name);
+            t["name_UP"] = name.data.toUpperCase();
+            candidat[0].profile_image_url = candidat[0].profile_image_url.replace("_normal.j", '.j');
+            t["url"] = candidat[0].profile_image_url;
+            const swiper_inside_template_rendered = Mustache.render(swiper_inside_template,t);
+    
+            new_slide.setAttribute("class", "swiper-slide tweet");
+            new_slide.innerHTML = swiper_inside_template_rendered;
+            swiper_wrapper.appendChild(new_slide);
+        }
+        
     });
 
     // no tweet for this themas
@@ -193,6 +192,7 @@ function TopTweetsThemePic(theme_id) {
           break;
       }
 }
+
 
 // tops tweets
 /*

@@ -187,6 +187,7 @@ h1{
     bottom: 0%;
     width: 100%;
     height: 10%;
+    box-shadow: 7px 7px 25px rgba(0, 0, 0, 0.25);
     font-family: "Outfit", sans-serif;
 }
 
@@ -301,6 +302,15 @@ div{
     font-size : 17%;
 }
 
+.profile3{
+    max-width: 18%;
+    max-height: 180%;
+    border-radius: 50%;
+    border: 3px solid white;
+    position: absolute;
+    bottom:50%;
+}
+
 .profile2{
     max-width: 100%;
     max-height: 180%;
@@ -355,7 +365,7 @@ th, td {
 .box-tweet-top {
     background: white;
     height: 35vh;
-    width: 80%;
+    width: 90%;
     border-radius: 70px;
     margin-top: 5vh;
     margin-left: auto;
@@ -462,8 +472,9 @@ th, td {
     box-shadow: 7px 7px 25px 0 rgba(0,0,0,0.25);
     text-align: center;
     margin: auto;
+    margin-top: 5%;
     display: flex;
-    padding: 0.5em;
+    padding: 2.5%;
 }
 
 #tweet-theme {
@@ -501,10 +512,9 @@ th, td {
 
 .swiper .toptweet #tweetcontent{
     padding: 5%;
-    margin-left : 2%;
-    height : 30vh;
-    width:80%;
-    text-align: center;
+    margin-left : 20%;
+    width:70%;
+    text-align: justify;
 
 }
 
@@ -518,7 +528,13 @@ img#theme {
     border-radius: 100% / 100%; 
     background: #fff; 
     box-shadow: 7px 7px 25px 0 rgba(0,0,0,0.25);
-    margin-top: 10px;
+    margin-top: 2.5%;
+
+}
+
+#table-top {
+    margin: auto;
+    font-size: initial;
 
 }
 
