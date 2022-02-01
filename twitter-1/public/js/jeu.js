@@ -176,6 +176,7 @@ function finJeu(score,total){
     let reponse = document.querySelector('#reponses');
     let timerElement = document.querySelector('#timer');
     let imagetweet = document.querySelector('#image1');
+    imagetweet.style.display = "none";
     
     jeu.removeChild(question);
     jeu.removeChild(reponse);
