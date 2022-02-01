@@ -42,26 +42,23 @@ function getPostCodefromCoordinates(latitude, longitude){
 function geoFindMe() {
 
     const status = document.querySelector('#status');
-    const mapLink = document.querySelector('#map-link');
+    //const mapLink = document.querySelector('#map-link');
   
-    mapLink.href = '';
-    mapLink.textContent = '';
+    //mapLink.href = '';
+    //mapLink.textContent = '';
   
     function success(position) {
       let latitude  = position.coords.latitude;
       let longitude = position.coords.longitude;
   
       status.textContent = '';
-      mapLink.href = `https://www.openstreetmap.org/#map=18/${latitude}/${longitude}`;
-      mapLink.textContent = `Latitude: ${latitude} °, Longitude: ${longitude} °`;
+      //mapLink.href = `https://www.openstreetmap.org/#map=18/${latitude}/${longitude}`;
+      //mapLink.textContent = `Latitude: ${latitude} °, Longitude: ${longitude} °`;
 
       latitude = latitude.toFixed(7);
       longitude = longitude.toFixed(7);
-      
-      console.log(latitude);
-      console.log(longitude);
 
-      getBureauxVotefromLocation(latitude, longitude);
+      displayBureauxVotefromLocation(latitude, longitude);
   
       /*getPostCodefromCoordinates(latitude, longitude)
         .then(function(result) {
@@ -82,24 +79,49 @@ function geoFindMe() {
     if (!navigator.geolocation) {
       status.textContent = 'Geolocation is not supported by your browser';
     } else {
-      status.textContent = 'Locating…';
+      //status.textContent = 'Locating…';
       navigator.geolocation.getCurrentPosition(success, error);
     }
   
   }
 
-function ouvre_popup(page) {
-  window.open(page,"nom_popup","menubar=no, status=no, scrollbars=no, menubar=no, width=200, height=100");
-}
-
-ouvre_popup('/test');
 
 document.addEventListener('DOMContentLoaded', geoFindMe);
-document.console.log(mapLink.textContent);
 
 
-async function getBureauxVotefromLocation(latitude, longitude){
+async function displayBureauxVotefromLocation(latitude, longitude){
   let response = await fetch('api/bureaux_vote/' + latitude + '/' + longitude + '/');
   let data = await response.json();
   console.log(data);
+
+  let global_div = document.querySelector('#liste_bureaux');
+
+  for(let i=0; i<5; i++){
+    let div = document.createElement('div');
+    div.setAttribute('class', 'div_bureau');
+
+    nb_bureaux_same_adress = data[i].length;
+  
+    let p_name = document.createElement('p');
+    let p_adress = document.createElement('p');
+    let p_hours = document.createElement('p');
+    let p_distance = document.createElement('p');
+    let p_others = document.createElement('p');
+  
+    p_name.textContent = "Bureau " + data[i][0].fields.code_bureau_vote + " : " + data[i][0].fields.nom_bureau_vote;
+    p_adress.textContent = data[i][0].fields.adresse;
+    p_hours.textContent = "Horaires : " + data[i][0].fields.ouverture + "h - " + data[i][0].fields.fermeture + "h";
+    p_distance.textContent = "À " + data[i][0].fields.dist.toFixed(2) + "km de chez toi";
+    p_others.textContent = nb_bureaux_same_adress - 1 + " autre(s) bureau(x) à cette adresse";
+  
+    div.appendChild(p_name);
+    div.appendChild(p_adress);
+    div.appendChild(p_hours);
+    div.appendChild(p_distance);
+    div.appendChild(p_others);
+  
+    global_div.appendChild(div);
+  }
+
+
 }
