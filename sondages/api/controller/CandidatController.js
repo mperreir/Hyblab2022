@@ -41,5 +41,4 @@ class CandidatController {
     }
 }
 
-
 module.exports = new CandidatController();

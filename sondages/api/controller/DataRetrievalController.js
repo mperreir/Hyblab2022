@@ -88,6 +88,7 @@ function getData() {
  */
 getData().then(data => {
     cacheCandidat = CandidatController.listCandidat(Object.keys(data));
+    console.log(cacheCandidat);
     const points = Object.keys(data).map(candidat => {
         const [dx, dy] = moyenne(data[candidat]["x"], data[candidat]["y"]);
 
@@ -149,6 +150,7 @@ function sendDataToFront(req, res) {
 }
 
 function sendCandidatToFront(req, res) {
+    //console.log(cacheCandidat);
     if (CandidatController.shouldWeUpdateData()) {
         getData()
             .then(res.status(201).json(cacheCandidat))
@@ -159,3 +161,4 @@ function sendCandidatToFront(req, res) {
 }
 
 module.exports = {sendDataToFront, sendCandidatToFront};
+//console.log(cacheCandidat);
