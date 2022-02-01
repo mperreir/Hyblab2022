@@ -1,4 +1,5 @@
 window.onload = () => {
+  window.scrollTo(0, 25);
   let a =[];
   sessionStorage.setItem("alreadyGivenCandidates", a);
     document.getElementById("exit").addEventListener("click", () => { 
