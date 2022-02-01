@@ -19,31 +19,38 @@ const COMPATIBLE_BACKGROUNDS = {
     8: [2, 6, 7],
     9: [2, 6, 7],
 }
-
-function InitDesIntentions(intentionsCandidats) {
-    intentionsCandidats.forEach(candidat => {
+let CANDIDATS = []
+function InitDesIntentions(intentionsCandidats){
+    const divRace = document.getElementById('race');
+    CANDIDATS = intentionsCandidats;
+    intentionsCandidats.map(candidat => {
         const divCandidat = document.createElement('div');
-        divCandidat.setAttribute('data-name') = candidat.prenom + ' ' + candidat.nom;
+        divCandidat.setAttribute('style', 'margin-left:-75px;');
+        divCandidat.className = 'candidat';
+        divCandidat.setAttribute('data-name',  candidat.name);
 
         const divName = document.createElement('div');
-        const divFirstName = document.createElement('div');
-        divFirstName.classList.add('firstName', candidat.prenom);
-        const divLastName = document.createElement('div');
-        divLastName.classList.add('lastName', candidat.nom);
-        divName.appendChild(divFirstName);
-        divName.append(divLastName);
+        divName.className = 'name';
+        divName.innerText = candidat.name;
 
         const divBlock = document.createElement('div');
-        divBlock.classList.add('block');
+        divBlock.className = 'block';
         const img = document.createElement('img');
-        img.setAttribute('src', candidat.image);
+        img.src = document.getElementById(candidat.name).src;
+        img.onerror = function(e) {
+            e.target.src='img/candidats/profil_inconnu_cadre.svg'
+        } 
         const divPourcent = document.createElement('div');
-        divPourcent.classList.add('pourcent', '0%');
+        divPourcent.className = 'pourcent'
+        divPourcent.innerText = "0 %"
         divBlock.appendChild(img);
         divBlock.appendChild(divPourcent);
 
         divCandidat.appendChild(divName);
         divCandidat.appendChild(divBlock);
+
+        divRace.appendChild(divCandidat);
+
     });
 }
 
@@ -57,6 +64,7 @@ function AjoutDesCandidats(candidats) {
         const avatar = document.createElement("img")
 
         block.className = "candidat"
+        avatar.id = candidat.prenom + ' ' + candidat.nom
         avatar.src = "img/candidats/" + candidat.img + '.png'
         avatar.onerror = function (e) {
             e.target.src = 'img/candidats/profil_inconnu_cadre.svg'
@@ -198,6 +206,18 @@ function start() {
         })
     }
 
+
+    const GetScrollDate = (index) => {
+        let dateIn = new Date();
+        dateIn.setHours(12);
+        let date = new Date(dateIn.setDate(dateIn.getDate() - (NBR_JOUR-index)));
+        
+        let strDate = date.getFullYear() + '-' + ('0' +(date.getMonth()+1)).slice(-2) + '-' + ('0' + date.getDate()).slice(-2);
+        return strDate;
+    }
+
+    INDEX_PREV = -1;
+    
     function scrollPosition(scroll) {
 
         const rect = animation.getBoundingClientRect()
@@ -208,7 +228,7 @@ function start() {
         let indexJour = parseInt(hauteur / PIXEL_PAR_JOUR) + 1
 
         indexJour = indexJour <= 0 ? 0 : indexJour
-
+        
         if (rect.top <= 0 && not_seeing_bottom) {
             setWhileScrolling()
         } else if (rect.top > 0 && not_seeing_bottom) {
@@ -216,16 +236,20 @@ function start() {
         } else {
             setAfterScrolling()
         }
-        console.log(indexJour)
-        if (indexJour > 0 && POLL[indexJour]) {
-            for (let i = 0; i < POLL[indexJour].length; i++) {
+        if (INDEX_PREV != indexJour){
+            INDEX_PREV = indexJour
+            const currDate = GetScrollDate(indexJour);
 
-                const candidat = POLL[indexJour][i]
-                // candidats[i].setAttribute("style", "margin-top:" + candidat + "px")
-
+            if (indexJour > 0) {
+                CANDIDATS.map(candidat => {
+                    let index = candidat.x.indexOf(currDate);
+                    if (index >= 0){
+                        const divPourcent = document.querySelector(`div[data-name='${candidat.name}'] div[class='pourcent']`);
+                        divPourcent.innerText = parseFloat(candidat.y[index]).toFixed(1) + ' %';
+                    }
+                });
             }
         }
-
     }
 
     scrollPosition(0)
