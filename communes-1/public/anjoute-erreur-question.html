@@ -2,44 +2,43 @@
 
 <html lang="fr">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-  <title>Hyblab 2022</title>
-  <link rel="stylesheet" href="css/style_bandeau.css">
-  <link rel="stylesheet" href="css/style_anjoute-erreur.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Baloo Tamma 2'/>
-  <script src="js/js_index.js" defer></script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<title>Hyblab 2022</title>
+	<link rel="stylesheet" href="css/style_bandeau.css">
+	<link rel="stylesheet" href="css/style_anjoute-erreur.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://fontlibrary.org//face/lineal"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Baloo Tamma 2'/>
 </head>
 <body>
-<!-- Le conteneur sert à vérouiller les proportions (aspect ratio) du contenu de la page (ici des slides) -->
+	<!-- Le conteneur sert à vérouiller les proportions (aspect ratio) du contenu de la page (ici des slides) -->
+	<div id="container">
+		<div class="top">
+			<div class="hp">
+				<img src="img/vie.png" alt="vie">
+				<img src="img/vie.png" alt="vie">
+				<img src="img/vie.png" alt="vie">
+			</div>
+			<div class="joute">
+				<img src="img/joute.png" alt="joute">
+			</div>
+			<div class="position">
+				<img src="img/drapeau-1_8.png" alt="position">
+			</div>
+		</div>
+		<div class="mid">
+			<p id="erreur" class="no">OH NON</p>
+			<p id="text-erreur" class="label-erreur">Tu n'as pas remporté le bottereau....
+			Une question sur ta commune va suivre, si tu la connais bien tu repartiras avec toutes tes vies !</p>
+		</div>
 
-<div id="container">
-  <div class="top">
-    <div class="hp">
-      <img src="img/vie.png" alt="vie">
-      <img src="img/vie.png" alt="vie">
-      <img src="img/vie.png" alt="vie">
-    </div>
-    <div class="joute">
-      <img src="img/joute.png" alt="joute">
-    </div>
-    <div class="position">
-      <img src="img/drapeau-1_8.png" alt="position">
-    </div>
-  </div>
-  <div class="mid">
-    <label id="erreur" class="no">OH NON</label>
-    <label id="text-erreur" class="label-erreur">Tu n'as pas remporter le bottereau....
-      Une question sur ta commune va suivre, si tu la connais bien tu repartiras avec toutes tes vies !</label>
-  </div>
-
-  <div class="bottom">
-    <button class="goToBonusQuestion">
-      <p>Suivant</p>
-    </button>
-  </div>
-</div>
+		<div class="bottom">
+			<button class="goToBonusQuestion">
+			<p>Suivant</p>
+			</button>
+		</div>
+	</div>
 </body>
 </html>
