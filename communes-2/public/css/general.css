@@ -64,6 +64,10 @@ body{
     position: absolute; /* for absolute positionning of child elements*/
 }
 
+.bebas-neue{
+    font-family: "Bebas Neue", cursive;
+}
+
 /* -------------- Loader --------------*/
 #loader{
     z-index: 2;
@@ -193,10 +197,6 @@ body{
 
 .bold{
     font-weight: bold;
-}
-
-.bebas-neue{
-    font-family: "Bebas Neue", cursive;
 }
 
 .margin-left-right{
