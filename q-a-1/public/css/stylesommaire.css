@@ -2,7 +2,6 @@
     background-color: #FAF3EE;
 }
 
-
 #enveloppebleue{
     position: absolute;
     left: -8.49%;
@@ -15,7 +14,7 @@
     -webkit-animation:enveloppebleue_animation 1.5s; /* Safari and Chrome */
 }
 
-@keyframes menveloppebleue_animation
+@keyframes enveloppebleue_animation
 {
     0%   {left: -69.88%;right: 84.32%;top: -8.75%;bottom: 75.94%;}
     /*25%  {background:yellow; left:200px; top:0px;}*/
@@ -121,4 +120,73 @@ transform: rotate(-0.75deg);
     bottom: 5%;
     margin-left: 5%;
     width: 10%;
+}
+
+@keyframes enveloppebleue_reverse
+{
+    0% {left:-8.49%;right:22.94%;top:1.25%;bottom:65.94%;}
+    100%   {left: -69.88%;right: 84.32%;top: -8.75%;bottom: 75.94%;}
+    /*25%  {background:yellow; left:200px; top:0px;}*/
+    /*50%  {background:blue; left:200px; top:200px;}*/
+    /*75%  {background:green; left:0px; top:200px;}*/
+    
+}
+@-webkit-keyframes enveloppebleue_reverse /* Safari and Chrome */
+{
+    0% {left:-8.49%;right:22.94%;top:1.25%;bottom:65.94%;}
+    100%   {left: -69.88%;right: 84.32%;top: -8.75%;bottom: 75.94%;}
+    /*25%  {background:yellow; left:200px; top:0px;}*/
+    /*50%  {background:blue; left:200px; top:200px;}*/
+    /*75%  {background:green; left:0px; top:200px;}*/
+}
+
+@keyframes envelopperouge_reverse
+{
+    0% {left: 27.22%;right: -10.44%;top: 30.78%;bottom: 41.96%;}
+    100%   {left: 87.22%;right: -70.44%;top: 40.78%;bottom: 31.96%;}
+    /*25%  {background:yellow; left:200px; top:0px;}*/
+    /*50%  {background:blue; left:200px; top:200px;}*/
+    /*75%  {background:green; left:0px; top:200px;}*/
+}
+@-webkit-keyframes envelopperouge_reverse/* Safari and Chrome */
+{
+    0% {left: 27.22%;right: -10.44%;top: 30.78%;bottom: 41.96%;}
+    100%   {left: 87.22%;right: -70.44%;top: 40.78%;bottom: 31.96%;}
+    /*25%  {background:yellow; left:200px; top:0px;}*/
+    /*50%  {background:blue; left:200px; top:200px;}*/
+    /*75%  {background:green; left:0px; top:200px;}*/
+}
+
+@keyframes enveloppeblanche_reverse
+{
+    0% {left: -19.36%;right: 32.44%;top: 52.91%;bottom: 11.89%;}
+    100%   {left: -79.36%;right: 92.44%;top: 52.91%;bottom: 11.89%;}
+    /*25%  {background:yellow; left:200px; top:0px;}*/
+    /*50%  {background:blue; left:200px; top:200px;}*/
+    /*75%  {background:green; left:0px; top:200px;}*/
+}
+@-webkit-keyframes enveloppeblanche_reverse /* Safari and Chrome */
+{
+    0% {left: -19.36%;right: 32.44%;top: 52.91%;bottom: 11.89%;}
+    100%   {left: -79.36%;right: 92.44%;top: 52.91%;bottom: 11.89%;}
+    /*25%  {background:yellow; left:200px; top:0px;}*/
+    /*50%  {background:blue; left:200px; top:200px;}*/
+    /*75%  {background:green; left:0px; top:200px;}*/
+}
+
+@keyframes carte_reverse
+{
+    0% {left: 46.39%;right: 6.47%;top: 70.47%;bottom: -2.48%;}
+    100%   {left: 46.39%;right: 6.47%;top: 100.47%;bottom: -32.48%;}
+    /*25%  {background:yellow; left:200px; top:0px;}*/
+    /*50%  {background:blue; left:200px; top:200px;}*/
+    /*75%  {background:green; left:0px; top:200px;}*/
+}
+@-webkit-keyframes carte_reverse /* Safari and Chrome */
+{
+    0% {left: 46.39%;right: 6.47%;top: 70.47%;bottom: -2.48%;}
+    100%   {left: 46.39%;right: 6.47%;top: 100.47%;bottom: -32.48%;}
+    /*25%  {background:yellow; left:200px; top:0px;}*/
+    /*50%  {background:blue; left:200px; top:200px;}*/
+    /*75%  {background:green; left:0px; top:200px;}*/
 }
