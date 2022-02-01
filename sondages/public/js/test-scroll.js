@@ -30,7 +30,10 @@ function AjoutDesCandidats(candidats) {
         const avatar = document.createElement("img")
 
         block.className = "candidat"
-        avatar.src = "img/candidats/" + candidat.img
+        avatar.src = "img/candidats/" + candidat.img + '.png'
+        avatar.onerror = function(e) {
+            e.target.src='img/candidats/profil_inconnu_cadre.svg'
+        } 
 
         // Ajout des blocks
         block.appendChild(avatar)
