@@ -79,6 +79,24 @@ module.exports = (passport) => {
         res.json(themes);
     });
 
+    app.get('/theme/count/:theme_id',(req, res) =>{
+        let listCount = [];
+        let listCandidates = db.getCandidats();
+        listCandidates.forEach((candidat) => {
+            let newCount = Object()
+            newCount.nameCandidates = candidat.name
+            let arrayTweets = db.getTweetsSemaine()
+            let result = arrayTweets.filter(arrayTweets =>
+                arrayTweets.theme_id === parseInt(req.params.theme_id)
+                && arrayTweets.name === candidat.name);
+            newCount.nbTweetsByThemes = result.length;
+            listCount.push(newCount);
+        })
+        listCount.sort((a, b) => a.nbTweetsByThemes - b.nbTweetsByThemes);
+        let result = listCount.slice(0,4);
+        res.json(result);
+    });
+
     app.get('/tweets/tops/:theme_id', (req, res) => {
         const candidats = db.getCandidats();
         let tweets = db.getTweetsSemaine()
@@ -139,9 +157,15 @@ module.exports = (passport) => {
     });
 
     app.get('/candidat/:id_candidat/stats', (req, res) => {
+
         const candidat = db.getCandidats();
         const candidat_followers = db.fetch(db.candidat_followers_name)[req.params.id_candidat];
         // liste des dates par ordre croissant
+        if (!candidat_followers) {
+            res.status(400).send();
+            return;
+        }
+
         const date_update_followers = Object.keys(candidat_followers)
             .map(string_date => new Date(string_date))
             .sort((date1, date2) => date1 - date2);

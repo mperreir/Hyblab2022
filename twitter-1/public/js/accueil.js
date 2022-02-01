@@ -10,15 +10,15 @@ play.addEventListener('click', () => {
 
 for (let i = 1; i <= 3; i++){
   $("#menu-candidat" + i).click(function () { 
-    swiper.slideTo(2);
-  });
-
-  $("#menu-jeu" + i).click(function () { 
     swiper.slideTo(1);
   });
 
+  $("#menu-jeu" + i).click(function () { 
+    swiper.slideTo(0);
+  });
+
   $("#menu-top" + i).click(function () { 
-    swiper.slideTo(3);
+    swiper.slideTo(2);
   });
 }
 
