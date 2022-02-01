@@ -1,8 +1,12 @@
 let dataVoisins;
-fetch("api/dataVoisins").then(response => response.json())
-	.then(data => dataVoisins = data);
+async function fetchData() {
+	let response = await fetch("api/dataVoisins");
+	let d =  await response.json();
+	return d;
+}
+dataVoisins = await fetchData();
+dataVoisins = dataVoisins.data_voisins
 const data_voisins = new Map(Object.entries(dataVoisins));
-
 const list_communes = {
 	"2": "Allonnes",
 	"3": "Tuffalun",
@@ -208,7 +212,6 @@ function randomize(tab) {
 function generate_enemy(code_commune_joueur) {
 	let adversaires = ["7", "99", "328", "331"];
 	let voisins = data_voisins.get(code_commune_joueur);
-
 	if (adversaires.includes(code_commune_joueur)) {
 		adversaires.splice(adversaires.indexOf(code_commune_joueur), 1);
 		if (voisins.length >= 7) {
@@ -248,11 +251,10 @@ function generate_enemy(code_commune_joueur) {
 	adversaires = randomize(adversaires);
 
 	for (let adv in adversaires) {
-		adversaires[adv] = [adversaires[adv], list_communes[adversaires[adv].toString()]]
+		adversaires[adv] = [adversaires[adv].toString(), list_communes[adversaires[adv].toString()]]
 	}
-
 	return adversaires;
 }
 
-module.exports.generate_enemy = generate_enemy
+export {generate_enemy}
 
