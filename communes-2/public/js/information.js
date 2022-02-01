@@ -3,7 +3,7 @@ page('/communes-2/information', async function () {
 
     let gameData = JSON.parse(localStorage.getItem('gameData'));
     let nom_commune = "Libellé de la commune";
-    let communeCourante = "Nantes";
+    let communeCourante = "Nantes";//gameData.communeCourante;
 
     let remplacer_virgule_par_point = function(decimal) {
         return parseFloat((decimal+"").replace(",","."));
@@ -16,7 +16,7 @@ page('/communes-2/information', async function () {
         }
         n = d[l]; 
         tab =  [];
-        for(let i= 1; i<12; i++){
+        for(let i= 1; i<6; i++){
             let NomC = `NomC${i}`;
             let Voix = `% Voix/ExpC${i}`;
             tab.push({"NomC" : n[NomC], "Voix" : remplacer_virgule_par_point(n[Voix]), "Commune" : commune});
@@ -50,8 +50,8 @@ page('/communes-2/information', async function () {
 });
 
 function histo() {
-    const margin = 15;
-    const width = 360 - 2 * margin;
+    const margin = 20;
+    const width = 330 - 2 * margin;
     const height = 250 - 2 * margin;
 
     let col = ["#5B6C9A", "#ED6464"];
@@ -59,13 +59,13 @@ function histo() {
     d3.select("#histogramme").selectAll("*").remove();
     let svg = d3.select("#histogramme")
         .append("svg")
-        .attr("width", width + 3 * margin)
+        .attr("width", width + margin )
         .attr("height", height +  8.5 * margin)
-        .attr('transform', `translate(${5}, ${margin * 2})`)
+        .attr('transform', `translate(${0}, ${margin * 2})`)
         
 
     const chart = svg.append('g')
-    .attr('transform', `translate(${margin * 2.5}, ${margin * 4})`)
+    .attr('transform', `translate(${margin*2.5}, ${margin * 4})`)
     
     const color = d3.scaleOrdinal(col)
     color.domain(d => d.NomC)
@@ -82,9 +82,9 @@ function histo() {
             .attr("fill", "black" );
 
     const xScale = d3.scaleBand()
-        .range([0, width])
+        .range([0, width - 40])
         .domain(dataSet.map(data => data.NomC))
-        .padding(0.25)
+        .padding(0.1)
 
 
     chart.append('g')
@@ -96,7 +96,7 @@ function histo() {
             .attr("dx", "-.8em")
             .attr("dy", ".15em")
             .attr("transform", "rotate(-65)")
-            .attr("fill", "black" );
+            .attr("fill", "black");
         
 
     const makeYLines = () => d3.axisLeft()
@@ -118,10 +118,10 @@ function histo() {
     barGroups
         .append('rect')
         .attr('class', 'bar')
-        .attr('x', (g) => xScale(g.NomC) )
+        .attr('x', (g) => xScale(g.NomC) + 5 )
         .attr('y', (g) => yScale(g.Voix) )
         .attr('height', (g) => height - yScale(g.Voix))
-        .attr('width', xScale.bandwidth())
+        .attr('width', xScale.bandwidth() - 10)
         .attr('fill', d => color(d.NomC))
 
     barGroups 
@@ -134,11 +134,9 @@ function histo() {
       .text((a) => `${a.Voix}%`)
 
 
-
-
     svg.append('text')
       .attr('class', 'title')
-      .attr('x', 350 / 2 )
+      .attr('x', 330 / 2 )
       .attr('y', 50)
       .style('font-size', '12px')
       .attr('text-anchor', 'middle')
@@ -146,20 +144,20 @@ function histo() {
 
     svg.append('text')
       .attr('class', 'label')
-      .attr('x', -(height / 2) - margin)
-      .attr('y', margin )
+      .attr('x', -(height/1.2))
+      .attr('y', margin - 7)
       .style('font-size', '10px')
       .attr('transform', 'rotate(-90)')
       .attr('text-anchor', 'middle')
       .text(' % de voix')
 
-    svg.append('text')
+    /*svg.append('text')
       .attr('class', 'title')
       .attr('x', 380 / 2 )
       .attr('y', 20)
       .style('font-size', '15px')
       .attr('text-anchor', 'middle')
-      .text(`Résultat de l'élection présidentielle 2017 à ${dataSet[0].Commune}`)
+      .text(`Résultat de l'élection présidentielle 2017 à ${dataSet[0].Commune}`)*/
 }
 
 function pie(){
@@ -226,5 +224,7 @@ function pie(){
           .attr('y', 40)
           .style('font-size', '11px')
           .attr('text-anchor', 'middle')
-          .text(`Voix des candidats au 2e tour en 2017 tour à ${dataSet[0].Commune}`)
+          .text(`Voix des candidats au 2e tour en 2017 à ${dataSet[0].Commune}`)
+
+        
 }
