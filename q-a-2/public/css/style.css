@@ -921,7 +921,7 @@ body{
     display: flex;
     justify-content: center;
     box-sizing: border-box;
-    font-size: 2vh;
+    font-size: 2.5vh;
     font-family: 'Jost';
     width: 100%;
     height: 100%;
@@ -937,13 +937,13 @@ body{
 .statementsCard_information {
     position: absolute;
     bottom: 7%;
-    width: 44%;
+    width: 50%;
     z-index: 2;
 }
 
 .statementsCard_information > * {
     display: block;
-    margin-top: 2vh;
+    margin-top: 1.5vh;
 }
 
 .statementsCard_information > *:first-child {
@@ -960,8 +960,8 @@ body{
 }
 
 .checkbox_round {
-    width: 3vh;
-    height: 3vh;
+    width: 3.5vh;
+    height: 3.5vh;
     background-color: white;
     border-radius: 50%;
     vertical-align: middle;
@@ -981,17 +981,17 @@ body{
 
 .checkbox_label {
     display: block;
-    margin-left: 12%;
+    margin-left: 14%;
 }
 
 .checkbox_container {
-    line-height: 0vh;
+    line-height: 1vh;
 }
 
 input[type="checkbox"] {
     vertical-align:middle;
     margin-right: 1%;
-    margin-left: -15%;
+    margin-left: -18%;
 }
 
 .gamePage {
