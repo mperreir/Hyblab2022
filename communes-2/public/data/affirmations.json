@@ -40,7 +40,7 @@
     },
     "indice": [
         {
-            "string":"Le symbole de cette commune est AAA.",
+            "string":"Un des \"symboles\" le plus proche de la commune est : AAA.",
             "columns":["symbole"]
         }
     ]
