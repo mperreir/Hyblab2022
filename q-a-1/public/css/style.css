@@ -79,7 +79,10 @@ svg
     background-color: #ADB3D7;
     width: 100%;
     height: 100%;
-    position: relative
+}
+
+.swiper-pagination-bullet-active {
+    background-color: white !important;
 }
 
 .warp {
@@ -108,7 +111,7 @@ svg
 
 
 /* Most of the elements in this demo are absolute positionned with percentages */
-#first-section header{
+#first-section header, #first-slide header{
     text-align: center;
     width: 100%;
     font-size: 30%;
@@ -129,7 +132,13 @@ svg
     width: 35%;
 }
 
+#fleche{
+    width:20%;
+}
 
+.asterisque{
+    width:5%;
+}
 /* Last slide image is centered */
 #img-fini{
     width: 50%;
@@ -180,6 +189,7 @@ p.alignRight{
  .grey{
     background: gray;
  }
+<<<<<<< HEAD
 
  #first-slide header{
     text-align: center;
@@ -197,6 +207,12 @@ p.alignRight{
     padding: 0 1em;
 }
 
+=======
+.gif{
+    width: 100%;
+    margin-top: -20%;
+}
+>>>>>>> 275652d6637b8183aa036a8436400dd5653a03c7
  
 /* ---------- Important media queries for easy responsive content :-) ----------------- */
 /* Can be adapted for other ratios that 9:16 or for horizontal content (ex: 16:9) */
@@ -258,6 +274,17 @@ p.alignRight{
     }
 }
 
+@keyframes anim_horizontale {
+    from{
+        transform:translateX(-5%);
+    }
+
+    to{
+
+        transform: translateX(15%);
+    }
+}
+
 @keyframes anim-rotate {
     from{
         transform: rotateZ(-15deg);
@@ -306,7 +333,35 @@ p.alignRight{
 
 
 }
-/*Utiliser une animmation*/
+
+@keyframes wobble {
+    0%,
+    100% {
+      transform: translateX(0%);
+      transform-origin: 50% 50%;
+    }
+    15% {
+      transform: translateX(-5%) rotate(-6deg);
+    }
+    30% {
+      transform: translateX(4%) rotate(6deg);
+    }
+    45% {
+      transform: translateX(-3%) rotate(-3.6deg);
+    }
+    60% {
+      transform: translateX(2%) rotate(2.4deg);
+    }
+    75% {
+      transform: translateX(-1%) rotate(-1.2deg);
+    }
+  }
+
+/*Utiliser une animation*/
+
+.anim-wobble {
+    animation: wobble 2s 1s alternate infinite
+}
 
 .anim-text {
 
@@ -316,6 +371,10 @@ p.alignRight{
 
 .anim-verticale {
     animation : anim_verticale 1s linear infinite alternate;
+}
+
+.anim-horizontale {
+    animation : anim_horizontale 1s linear infinite alternate;
 }
 
 .anim-rotation {
@@ -360,5 +419,4 @@ p.alignRight{
          url('font/marianne-thin-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }

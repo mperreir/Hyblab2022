@@ -43,6 +43,10 @@ body{
     width: 32%;
 }
 
+#subtitle2{
+        width:75%;
+}
+
 #first-section{
     background-color: #FAF3EE;
 }
@@ -50,6 +54,7 @@ body{
 p{
     font-size: 15%;
     font-family: "mariannemedium";
+    font-variant: normal;
 }
 
 .head-simulation{
@@ -219,6 +224,60 @@ p{
     }
   }
 
+@keyframes bounce-in-bottom {
+0% {
+        -webkit-transform: translateY(500px);
+                transform: translateY(500px);
+        -webkit-animation-timing-function: ease-in;
+                animation-timing-function: ease-in;
+        opacity: 0;
+}
+38% {
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+        -webkit-animation-timing-function: ease-out;
+                animation-timing-function: ease-out;
+        opacity: 1;
+}
+55% {
+        -webkit-transform: translateY(65px);
+                transform: translateY(65px);
+        -webkit-animation-timing-function: ease-in;
+                animation-timing-function: ease-in;
+}
+72% {
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+        -webkit-animation-timing-function: ease-out;
+                animation-timing-function: ease-out;
+}
+81% {
+        -webkit-transform: translateY(28px);
+                transform: translateY(28px);
+        -webkit-animation-timing-function: ease-in;
+                animation-timing-function: ease-in;
+}
+90% {
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+        -webkit-animation-timing-function: ease-out;
+                animation-timing-function: ease-out;
+}
+95% {
+        -webkit-transform: translateY(8px);
+                transform: translateY(8px);
+        -webkit-animation-timing-function: ease-in;
+                animation-timing-function: ease-in;
+}
+100% {
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+        -webkit-animation-timing-function: ease-out;
+                animation-timing-function: ease-out;
+}
+}
+
+
 .anim-graphic {
 	-webkit-animation: graphic 1.2s linear both;
 	        animation: graphic 1.2s linear both;
@@ -251,6 +310,19 @@ p{
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         padding: 1% 6% 1% 6%;
 }
+
+
+.div_bureau{
+        position: relative;
+        margin-top:2.5%;
+        -webkit-animation: bounce-in-bottom 1.1s 1s both;
+	        animation: bounce-in-bottom 1.1s 1s both;
+}
+
+.div_bureau p{
+        text-align: center;
+}
+
 
 .pagenumber{
         position: absolute;

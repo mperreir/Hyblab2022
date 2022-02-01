@@ -13,8 +13,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
   <script src="https://vjs.zencdn.net/7.6.6/video.js"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <script src="js/slide1.js" defer></script>
-  <script src="js/slide2.js" defer></script>
   <script src="js/sommaire.js" defer></script>
   <script src="js/header.js" defer></script>
 </head>
@@ -27,22 +25,22 @@
       <main class = "main-part">
           <section id="first-section">
               <header>
-                  <div><img src="img/logo/logo blanc.svg"></div>
-                  <div><img src="img/JamaisVoté/deja_vote.svg"></div>
-                  <div><img src="img/JamaisVoté/elections.svg"></div>
-
+                  <div><input type="image" id="logo" src="img/logo/logo blanc.svg" onclick="window.location='sommaire.html'"></div>
+                  
+                  <h1>DÉJA VOTÉ</h1>
+                  <div><img id="subtitle" src="img/JamaisVoté/elections.svg"></div>
                   <p class="left">Si tu n'as pas déménagé, tu es toujours inscrit dans ta circonscription</p>
 
                   <p class="left">
-                      <img src="img/JamaisVoté/asterisque.svg"> Tu peux le vérifier en ligne !
+                      <img src="img/JamaisVoté/asterisque.svg" class="asterisque"> Tu peux le vérifier en ligne !
                       
 
                   </p>
-                  <img  id = "lettre1" src= "img/JamaisVoté/Lettre.svg">
+                  <img  id = "lettre1" class="anim-wobble" src= "img/JamaisVoté/Lettre.svg">
                   <div class = "verification">
 
-                    <img class = "anim-rotation" src= "img/JamaisVoté/fleche.svg">
-                    <input type="button" onclick="window.location='https://www.service-public.fr/particuliers/vosdroits/R51788'" value ="servicepublic.fr">
+                    <img class = "anim-horizontale" id="fleche" src= "img/JamaisVoté/fleche.svg">
+                    <input type="button" class="white_button" onclick="window.location='https://www.service-public.fr/particuliers/vosdroits/R51788'" value ="servicepublic.fr">
 
                   </div>
 
@@ -50,7 +48,7 @@
                       Si tu as pas déménagé et que tu veux t'inscrire tu peux le faire par Internet jusqu'au 2 mars 2022 !
                   </p>
 
-                  <img id="lettre2" src="img/JamaisVoté/Lettre2.svg">
+                  <img id="lettre2" class="anim-wobble" src="img/JamaisVoté/Lettre2.svg">
 
                   <p class="extright">Ok, je vais te donner un exemple d'élection :</p>
                   <p class="changeColor" id="choisi"> Choisi ton candidat</p> 

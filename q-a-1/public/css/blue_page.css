@@ -12,6 +12,7 @@ div p{
 }
 
 p{
+    font-variant: normal;
     font-family: 'mariannemedium';
 }
 
@@ -171,4 +172,17 @@ a:link,a:visited{
     padding:0% 3%;
     margin:0.5%;
     text-decoration:none;
+}
+
+
+#diagram{
+    position:absolute;
+    right:0%
+
+}
+
+.Right{
+    text-align: right;
+    margin-right: 25%;
+
 }

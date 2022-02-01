@@ -14,6 +14,7 @@ p{
     font-family: 'mariannemedium';
     margin-bottom: 2%;
     margin-top: 2%;
+    font-variant: normal;
 }
 
 #introduction{
@@ -106,6 +107,19 @@ button{
     background-color: #A34142;
 }
 
+.bouton{ 
+    padding : 2% 0% 2% 0%;
+    margin: 1%;
+    width: 40%;
+    height: 8%;
+    border-radius: 30px;
+    border: none;
+    font-family: 'folsomblack';
+    font-size: 70%;
+    background-color: #AC4B4B;
+    color: #eed2d2;
+}
+
 #démarche{
     display: flex;
     justify-content:center;
@@ -161,3 +175,17 @@ a:link,a:visited{
 .not_current{
     opacity: 50%;
 }
+#div1
+{
+    width:100%;
+    height:50%;
+    background:#EC8989;
+    position:absolute;
+}
+
+#div2 {
+    width:100%;
+    height:50%;
+    background:#A34142;
+    position:absolute;
+    bottom:0;}
