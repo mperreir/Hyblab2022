@@ -282,6 +282,7 @@ lottie-player{
     flex-direction: column;
     padding : 10px ;
     /*opacity:0;*/
+    visibility: hidden;
 }
 .box button {
     padding : 15px 70px 15px 50px;
