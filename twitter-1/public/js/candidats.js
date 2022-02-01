@@ -271,7 +271,7 @@ const update_semaine = async function (truc, candidat_id) {
         let new_slide = document.createElement('div');
         let p = document.createElement('p');
         new_slide.setAttribute("class", "swiper-slide tweet");
-        p.innerText = top_tweet.text;
+        p.innerHTML = top_tweet.text;
         new_slide.appendChild(p);
         swiper_wrapper.appendChild(new_slide);
     });

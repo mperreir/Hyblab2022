@@ -187,12 +187,15 @@ h1{
     bottom: 0%;
     width: 100%;
     height: 10%;
+    font-family: "Outfit", sans-serif;
 }
 
 .menu button{
     position : absolute;
     /*top : -15%;*/
     text-align : center;
+    font-family: "Outfit", sans-serif;
+    font-size:17%;
 }
 .menu .menu-candidat {
     height : 60px;
@@ -239,10 +242,16 @@ div{
     color : black;
 }
 
-div #choix {
+#choix {
     display: flex;
     justify-content: space-around;
+    margin-top: -15%;
+}
 
+#choix button{
+    font-family: "Outfit", sans-serif;
+    font-weight:500;
+    font-size:100%;
 }
 
 #third-slide{

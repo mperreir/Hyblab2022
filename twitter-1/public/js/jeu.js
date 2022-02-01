@@ -105,12 +105,23 @@ async function Suivant(temps,score,total) {
         Reponse(b, !question.is_response_1_true, temps, interval, score, total);
     });
 
+    let image = document.createElement('img');
+    image.src="img/emotes/twitter-1.png";
+    image.setAttribute("id","image1");
+    image.setAttribute("class","rotateimg20");
+    image.style.width="23%";
+    image.style.position = "absolute";
+    image.style.top = "23%";
+    image.style.left = "68%";
+    image.style.zIndex = "5";
+
     div.appendChild(content);
     div2.appendChild(a);
     div2.appendChild(b);
 
     jeu.appendChild(div);
-    jeu.appendChild(div2);   
+    jeu.appendChild(div2);
+    jeu.appendChild(image);   
     
     
 }
@@ -164,10 +175,12 @@ function finJeu(score,total){
     let question = document.querySelector('#question');
     let reponse = document.querySelector('#reponses');
     let timerElement = document.querySelector('#timer');
+    let imagetweet = document.querySelector('#image1');
     
     jeu.removeChild(question);
     jeu.removeChild(reponse);
     jeu.removeChild(timerElement);
+    jeu.removeChild(imagetweet);
 
     let div = document.createElement('div');
     div.setAttribute("id", 'finjeu');
