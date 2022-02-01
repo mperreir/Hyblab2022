@@ -149,8 +149,8 @@ const initSlide3 = async function () {
             image2.setAttribute("class","rotateimg20");
             image2.style.width="25%";
             image2.style.position = "absolute";
-            image2.style.top = "50%";
-            image2.style.left = "76%";
+            image2.style.top = "-8%";
+            image2.style.left = "84%";
             image2.style.zIndex = "5";
             image.appendChild(image2);
 
@@ -160,8 +160,8 @@ const initSlide3 = async function () {
             image3.setAttribute("class","rotateimg20");
             image3.style.width="15%";
             image3.style.position = "absolute";
-            image3.style.top = "50%";
-            image3.style.left = "70%";
+            image3.style.top = "-8%";
+            image3.style.left = "80%";
             image3.style.zIndex = "5";
             image.appendChild(image3);
     
@@ -176,7 +176,7 @@ const initSlide3 = async function () {
             image1.setAttribute("class","rotateimg20");
             image1.style.width="20%";
             image1.style.position = "absolute";
-            image1.style.top = "84%";
+            image1.style.top = "82%";
             image1.style.left = "9%";
             image1.style.zIndex = "5";
             image.appendChild(image1);
@@ -187,8 +187,8 @@ const initSlide3 = async function () {
             image2.setAttribute("class","rotateimg20");
             image2.style.width="25%";
             image2.style.position = "absolute";
-            image2.style.top = "48%";
-            image2.style.left = "70%";
+            image2.style.top = "-10%";
+            image2.style.left = "78%";
             image2.style.zIndex = "5";
             image.appendChild(image2);
 
@@ -198,8 +198,8 @@ const initSlide3 = async function () {
             image3.setAttribute("class","rotateimg320");
             image3.style.width="15%";
             image3.style.position = "absolute";
-            image3.style.top = "56%";
-            image3.style.left = "82%";
+            image3.style.top = "9%";
+            image3.style.left = "87%";
             image3.style.zIndex = "5";
             image.appendChild(image3);
         }
