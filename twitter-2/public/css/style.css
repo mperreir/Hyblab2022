@@ -55,6 +55,7 @@ body{
     font-size: 30%;
     z-index: 2;
     background: rgba(110, 134, 233);
+    height: 100vh;
 }
 
 #imagesLogo {
@@ -104,6 +105,7 @@ body{
     background: #FFFFFF;
     color: #1A367A;
     font-size: 15px;
+    height: 100vh;
 }
 
 #second-slide div {
@@ -165,19 +167,11 @@ body{
     height: 15px;
 }
 
-/* THIRD SLIDE */
-#third-slide {
-    background: #FFFFFF;
-    color: #1A367A;
-    font-size: 15px;
-    position: relative;
-    width: 100%;
-}
-
 /* FOURTH SLIDE */
 #fourth-slide {
     background: #FFFFFF;
     color: #1A367A;
+    height: 100vh;
 }
 
 #logo-hyblab{
@@ -284,22 +278,16 @@ body{
       display: inline-block;
   }
 
-/* ---------- Important media queries for easy responsive content :-) ----------------- */
-/* Can be adapted for other ratios that 9:16 or for horizontal content (ex: 16:9) */
-
-/* This media query ensures that we allways will the width of the screen */
-/* as long as the screen aspect ratio is below 9:16 */
-@media screen and (max-aspect-ratio: 7/13){
+  @media screen and (max-aspect-ratio: 9/16){
     #container{
-        margin-top: calc((100vh - 100 * 13vw / 7) / 2);
         width: 100vw;
-        height: calc(100 * 13vw / 7);
+        height: 100vh;
     }
 
     /* We set a default font size here. It will be the base for all other font sizes */
     /* Here the font size is proportional to display width */
     body{
-        font-size: calc(12vw*13/7);
+        font-size: calc(12vw*9/16);
     }
 }
 
@@ -307,8 +295,8 @@ body{
 /* as long as the screen aspect ratio is higher than 9:16 */
 @media screen and (min-aspect-ratio: 7/13){
     #container{
-        margin-left: calc((100vw - 100 * 7vh / 13) / 2);
-        width: calc(100 * 7vh / 13);
+        margin-left: calc((100vw - 100 * 9vh / 16) / 2);
+        width: calc(100 * 9vh / 16);
         height: 100vh;
     }
 
