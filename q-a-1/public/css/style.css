@@ -181,6 +181,22 @@ p.alignRight{
     background: gray;
  }
 
+ #first-slide header{
+    text-align: center;
+    width: 100%;
+    top: 10%;
+    position: absolute;
+    font-size: 30%;
+    z-index: 2;
+}
+#first-slide footer{
+    bottom: 5%;
+    position: absolute;
+    font-size: 20%;
+    text-align: center;
+    padding: 0 1em;
+}
+
  
 /* ---------- Important media queries for easy responsive content :-) ----------------- */
 /* Can be adapted for other ratios that 9:16 or for horizontal content (ex: 16:9) */
