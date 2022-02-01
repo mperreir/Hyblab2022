@@ -5,19 +5,20 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
   <title>Hyblab 2022</title>
-  <link rel="stylesheet" href="css/styleslide.css">
-  <link rel="stylesheet" href="css/red_page.css">
+  <link rel="stylesheet" href="css/styleslide.css"/>
+  <link rel="stylesheet" href="css/red_page.css"/>
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/loadingio/loading.css@v2.0.0/dist/loading.css" />
   <link href="https://vjs.zencdn.net/7.6.6/video-js.css" rel="stylesheet" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
-  <script src="https://vjs.zencdn.net/7.6.6/video.js"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="js/slide.js" defer></script>
   <script src="js/slide1.js"></script>
   <script src="js/slide2.js"></script>
+  <script src="js/localisation.js" defer></script>
 </head>
 <body>
+  
     <!-- Le conteneur sert à vérouiller les proportions (aspect ratio) du contenu de la page (ici des slides) -->
     <div id="container">
       <!-- Le loader-->
@@ -39,8 +40,8 @@
                 <button>+ 65 000</button>
                 <button>+ 80 000</button>
               </div>
-
-              <p id=p_etoile>
+              
+              <p id="p_etoile">
               <img src="img/etoile.svg">
               Si tu ne connais pas l’adresse de ton bureau, tu peux le vérifier ici !
               </p>
@@ -72,8 +73,16 @@
                 </footer>
             </section>
             <section id="second-slide" class="swiper-slide">
-                <footer>
-                </footer>
+                <header>
+                  <div><input type="image" id="logo" src="img/logo/logo beige.svg" onclick="window.location='sommaire.html'"></div>
+                  <h1>OÙ VOTER ?</h1>
+                  <img id="subtitle2" src="img/Bureau_vote/sous-titre_mes_bureaux.svg">
+                </header>
+
+                <p id='status'></p>
+                <div id="liste_bureaux"></div>
+               
+                <footer>ATTENTION !<br> Tu n’es pas forcément rattaché au bureau de vote le plus proche de chez toi</footer>
             </section>
         </main>
         <div class="swiper-pagination"></div>

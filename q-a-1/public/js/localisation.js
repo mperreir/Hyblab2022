@@ -86,7 +86,11 @@ function geoFindMe() {
   }
 
 
-document.addEventListener('DOMContentLoaded', geoFindMe);
+//document.addEventListener('DOMContentLoaded', geoFindMe);
+
+const button_to_slide2 = document.getElementById('bureaux_localisation');
+console.log(button_to_slide2);
+button_to_slide2.addEventListener('click', geoFindMe);
 
 
 async function displayBureauxVotefromLocation(latitude, longitude){
