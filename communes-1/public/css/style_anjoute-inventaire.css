@@ -7,9 +7,23 @@
 #container {
     height: 100%;
     background-color: #11151B;
+}
 
+.top {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
+.top .richesses {
+	font-family: 'Lineal', sans-serif;
+	color: #11151B;
+	font-size: 400%;
+}
 
+.container-wrapper {
+	margin-top: 10%;
+	height: 100%;
 }
 
 .wrapper {
