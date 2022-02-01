@@ -224,6 +224,10 @@ h1{
     border: none;
 }
 
+#menu3 button{
+    font-size : 100%;
+}
+
 h2{
     font-family: 'Outfit', sans-serif;
     font-size: 60%;

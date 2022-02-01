@@ -227,11 +227,11 @@ const update_semaine = async function (truc, candidat_id) {
                 + " followers";
 
             let tweets = table.childNodes[3];
-            tweets.innerHTML = `${candidat_stat.total_week_tweets.toLocaleString('en').replaceAll(',', ' ')}`
+            tweets.innerHTML = '+' + `${candidat_stat.total_week_tweets.toLocaleString('en').replaceAll(',', ' ')}`
                 + " tweets";
 
             let retweets = table.childNodes[5];
-            retweets.innerHTML = `${candidat_stat.total_retweets_week.toLocaleString('en').replaceAll(',', ' ')}`
+            retweets.innerHTML = '+' + `${candidat_stat.total_retweets_week.toLocaleString('en').replaceAll(',', ' ')}`
                 + " retweets";
         } catch (e) {
             console.error(e);
