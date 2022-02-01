@@ -148,9 +148,13 @@ getData().then(data => {
 });
 
 function sendDataToFront(req, res) {
-    getData()
-        .then(res.status(201).json(cacheData))
-        .catch(res.status(500).send());
+    if (DateController.shouldWeUpdateData()) {Addition of a data cache function (daily update)
+        getData()
+            .then(res.status(201).json(cacheData))
+            .catch(res.status(500).send());
+    } else {
+        res.status(201).json(cacheData);
+    }
 }
 
 module.exports = sendDataToFront;
