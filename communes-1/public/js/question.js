@@ -348,7 +348,7 @@ class Question10 extends Question{
 //console.log(new Question2(7,"2002").generate_question());
 //console.log(new Question3(7,"2002").generate_question());
 //console.log(new Question4(2,"2002").generate_question());
-console.log(new Question5(7,"2002").generate_question());
+//console.log(new Question5("7","2002").generate_question());
 //console.log(new Question6(7,"2002").generate_question());
 //console.log(new Question7(7,"2002").generate_question());
 //console.log(new Question8(7,"2002").generate_question());
@@ -357,4 +357,4 @@ console.log(new Question5(7,"2002").generate_question());
 
 
 
-module.exports.classFactoryQuestion = FactoryQuestion;
+export {FactoryQuestion};
