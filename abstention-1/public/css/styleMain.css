@@ -88,11 +88,11 @@ body{
     font-weight:bold;
     font-size: 60%;
   
-  }
-  #cercle1{
-      opacity: 1;
-  }
-  #cercle2{
+}
+#cercle1{
+    opacity: 1;
+}
+#cercle2{
     opacity: 0.3;
 }
 #cercle3{
@@ -102,6 +102,9 @@ body{
     opacity: 0.3;
 }
 #cercle5{
+    opacity: 0.3;
+}
+#cercle6{
     opacity: 0.3;
 }
  #carnet{
@@ -115,13 +118,13 @@ body{
     margin-bottom: auto;
  }
 
- /*dialogue*/
+/*dialogue*/
 #personnage1{
 
     /*Charlie*/
     opacity: 1;
 
-   /* background-color: chartreuse;*/
+    /* background-color: chartreuse;*/
     /* background-image: url("../img/Charlie.svg");*/ 
     background-repeat: no-repeat;   
     background-size: contain;
@@ -139,7 +142,7 @@ body{
     opacity: 1;
 
     position:absolute;
-   /* background-color: pink;*/
+    /* background-color: pink;*/
     /* background-image: url("../img/Jeune.svg");*/
     background-position: 100% 0%;
     background-repeat: no-repeat;   
@@ -153,13 +156,14 @@ body{
     top:14vh; /*à changer à chaque perso*/
 
 }
+
 #textZone{
-position: absolute;
+    position: absolute;
     background-color: white;
     border : 1vh solid #0600FF;  
     border-radius: 5%;
     width: 85%;
-    display: flex;
+    display: inline-block;
 
     height: calc(100vh/2.3);
     top:69.6vh;/*75vh*/
@@ -173,30 +177,26 @@ position: absolute;
 
 #Suite{
     opacity: 1;
-
-position: absolute;
-display: flex;
-
-vertical-align: center; 
+    position: absolute;
+    display: flex;
+    vertical-align: center; 
     height: 5vh;
     bottom: 5%;
     left: 40%;
     width: 10vh;
-
     z-index: 3;
- 
+
 }
 #textDialogue{
-    position:absolute;
-    display: flex;
-    top:50%;
+    position:relative;
+    top:120px;
     background-color: #0600FF;
     border-radius: 6%;
     width: 85%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
-    height: 50%;
+    /*height: 50%;*/
     padding: 3%;
     
 }
@@ -208,10 +208,8 @@ vertical-align: center;
 }
 .boxnom{
     position:absolute;
-
-        background-color: #E66E78;
-        
-        border-radius: 60px / 50px;
+    background-color: #E66E78;
+    border-radius: 60px / 50px;
     left: 30%;
     top:3%;
     height: 5vh;
@@ -219,11 +217,10 @@ vertical-align: center;
 }
 .nom{
     margin-top: 2%;
-     text-align: center;
-    
-    
-
+    text-align: center;
 }
+
+
 /*Quiz*/
 #QuizZone{
     position:absolute;
