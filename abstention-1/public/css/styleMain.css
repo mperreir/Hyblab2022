@@ -278,6 +278,10 @@ lottie-player{
     overflow: hidden;
 }
 
+.dialogue {
+    height: 150vh;
+}
+
 /*--------------Section Pierre Feuille Ciseaux--------------*/
 
 .box {
