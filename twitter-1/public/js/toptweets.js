@@ -7,6 +7,16 @@ let themes;
 
 async function initThemesTopTweets() {
 
+    const fourth_slide_dom = $("#fourth-slide #SlideTop");
+    //Get the swiper template
+    const swiper_template = await (await fetch("./templates/swiper-toptweet.mustache")).text();
+
+    //Render the swiper template
+    const swiper_template_rendered = Mustache.render(swiper_template);
+
+    //Get the rendered swiper
+    fourth_slide_dom.append(swiper_template_rendered);
+
     themes = await fetchThemes();
     let o = document.createElement('option');
     o.setAttribute("value", '0');
@@ -30,19 +40,11 @@ select.addEventListener("input", async ev =>  {
 })
 
 async function showTopTweets () {
-
     const all_candidats = await (await fetch("./api/candidat/all")).json();
 
     //Get the swiper template
-    const fourth_slide_dom = $("#fourth-slide #SlideTop");
-    const swiper_template = await (await fetch("./templates/swiper-toptweet.mustache")).text();
     const swiper_inside_template = await (await fetch("./templates/swiper-insidetoptweet.mustache")).text();
 
-    //Render the swiper template
-    const swiper_template_rendered = Mustache.render(swiper_template);
-    fourth_slide_dom.append(swiper_template_rendered);
-
-    //Get the rendered swiper
     let swiper_wrapper = document.querySelector('#mySwiperTop .swiper-wrapper');
     swiper_wrapper.innerHTML = '';
 
