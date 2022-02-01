@@ -2,7 +2,7 @@
 
 page('/communes-2/', async function () {
     anime({
-        delay: 10000,
+        delay: 2500,
         targets: '#loader',
         opacity: '0',
         'z-index' : -1,
@@ -24,7 +24,7 @@ page('/communes-2/', async function () {
     });
 
     document.getElementById("credits-btn").addEventListener('click', function () {
-        page('/communes-2/credits');
+        page('/communes-2/information'); //credits
     });
 
     // let allbutton = document.querySelectorAll("input[type='button']");
