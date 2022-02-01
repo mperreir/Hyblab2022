@@ -65,7 +65,7 @@
           </video>-->
           <img alt="" id="background-video" src="video/animationLogoGif.gif"/>
 
-          <p id="loader-text">
+          <p id="loader-text" class="zoomInUp">
             <i>La </i>
             <b>Poli</b><font color="#EA6D5B"><b>tique</b></font> <br/> <i>en</i> <b>Loire-Atlantique</b> <br/> <font color="#EA6D5B"><i>c'est </i> <b>Ludique !</b></font>
           </p>
@@ -80,7 +80,7 @@
   <script>
     let loaer = document.getElementById("loader").addEventListener("click", (event)=>{
       if(loader !== event.target) return;
-      play();
+      //play();
     })
 
     function play() {
