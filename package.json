@@ -12,5 +12,7 @@
   },
   "author": "MPDS",
   "license": "MIT",
-  "devDependencies": {}
+  "devDependencies": {
+    "science": "^1.9.3"
+  }
 }
