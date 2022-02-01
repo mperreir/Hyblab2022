@@ -198,14 +198,14 @@ module.exports.getCandidats = () => {
 // ]);
 
 // // INIT Tweets
-const labeler = new textProcessing.Labeler(db.fetch(module.exports.themes_name));
-textProcessing.Parser.getTweetsJSONFromFile(path.join(__dirname, '/data/tweets/tweets_candidats_4.csv'), ts  => {
-    // let older_tweets = db.fetch(module.exports.tweets_name);
-    // if (older_tweets === null) older_tweets = [];
-    ts = labeler.labellingTweets(ts);//.concat(older_tweets);
-    db.set(module.exports.tweets_name, ts);
-    // console.log("mano tweets labeling done")
-});
+// const labeler = new textProcessing.Labeler(db.fetch(module.exports.themes_name));
+// textProcessing.Parser.getTweetsJSONFromFile(path.join(__dirname, '/data/tweets/tweets_candidats_4.csv'), ts  => {
+//     // let older_tweets = db.fetch(module.exports.tweets_name);
+//     // if (older_tweets === null) older_tweets = [];
+//     ts = labeler.labellingTweets(ts);//.concat(older_tweets);
+//     db.set(module.exports.tweets_name, ts);
+//     // console.log("mano tweets labeling done")
+// });
 
 module.exports.tweets_update = (file, onFinish) => {
     const labeler = new textProcessing.Labeler(db.fetch(module.exports.themes_name));
