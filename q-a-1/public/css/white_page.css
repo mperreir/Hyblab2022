@@ -20,16 +20,26 @@ button{
 .white_button{
     color: white;
     border-radius: 30px;
-    padding : 1% 6% 1% 6%;
+    padding : 2% 6% 2% 6%;
     background-color : #656565;
     font-family: 'folsomblack';
     border: none;
-    max-width:60%;
-    height: 30%;
-    font-size: 30%;
+    width:25%;
+    
+    font-size: 40%;
     
 }
 
+.buttonservice{
+    width:33%;
+    border-radius: 30px;
+    font-family: 'folsomblack';
+    background-color : #656565;
+    font-size: 40%;
+    color: white;
+
+
+}
 
 #Q3 > input {
     padding : 2% 10% 2% 10%;
@@ -56,17 +66,21 @@ button{
 }
 
 #urne{
-    margin-top: 7%;
+    margin-top: 5%;
     padding-left: 3%;
     display: flex;
     justify-content: space-between;
 
 }
 
+#urne > img{
+    width: 20%;
+}
+
 #choisi{
     font-family:'/q-a-1/public/css/font/marianne-bolditalic-demo.html';
     font-size: 80%;
-    padding-top: 12%;
+   
     
 }
 #choix_candidats{
@@ -122,8 +136,8 @@ button{
     width: 40%;
     position:absolute;
     left:0%;
-    top:58%;
-    width:40%;
+    top:56%;
+    width:30%;
     
 }
 
@@ -137,6 +151,7 @@ button{
     font-family: 'folsomblack';
     font-size: 70%;
 }
+
 
 .verification{
     display: flex;
@@ -204,4 +219,9 @@ a:link,a:visited{
     background:#656565;
     position:absolute;
     bottom:0;
+}
+
+#Avis{
+    font-size: 50%;
+    margin-top: -2%;
 }

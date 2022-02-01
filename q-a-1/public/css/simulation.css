@@ -81,20 +81,27 @@ p{
     border: none;
     font-family: 'folsomblack';
     font-size: 12%;
-    background-color: #565454;
+    background-color: #C9C4C2;;
     color:#FAF3EE;
 }
 
 #vainqueur{
-    opacity: 50%;
+   position: absolute;
+   height: 30px;
+   width: 136.36363220214844px;
+   left: 111px;
+   top: 254px;
+   border-radius: 30px;
+   
+
 }
 
 #perdant{
-    opacity: 100%;
+    opacity: 50%;
 }
 
 #gagnant{
-    opacity: 100%;
+    opacity: 50%;
 }
 
 .main-section{
@@ -137,7 +144,29 @@ p{
     margin-top: 5%;
     display: none;
 }
+#persoA{
+        margin-top: 3%;
+        position: absolute;
+left: 44.09%;
+right: 45.69%;
+top: 25.14%;
+bottom: 68.75%;
+width: 15.65%;
+}
+.textintrosim{
+        position: absolute;
+        font-family: "mariannemedium";
+        font-variant: normal;
+        font-size:15%;
+        color:#989595;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 8%;
+        text-align: center;
+        top:36%;
+        
 
+}
 @keyframes graphic {
     0% {
       -webkit-transform: scaleX(0.2);
