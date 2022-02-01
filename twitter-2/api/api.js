@@ -130,7 +130,8 @@ app.get('/ratioNearCandidate/followers/:userName', function (req, res) {
     let candidatsRatio = [
         {
             shortname: mainCandidat.displayShortName,
-            img: `img/candidats/${mainCandidat.imageLink}.svg`
+            img: `img/candidats/${mainCandidat.imageLink}.svg`,
+            ratio: '50.0'
         }
     ];
 
