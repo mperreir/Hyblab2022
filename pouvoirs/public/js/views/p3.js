@@ -75,21 +75,26 @@ const init_p3 = function() {
 
   const bubble = document.createElement("img");
   bubble.src = "img/dialogBoxes/primeMinister_m.svg";
+  bubble.style.display = "block";
   diBox.appendChild(bubble);
-  const originalText = "Une majorité de députés de votre camp n’est pas d’accord avec votre politique et a rallié l’opposition. Tous vos projets de loi sont bloqués. Que peux-tu faire ?";
-  
+  const originalText = getText("p3");
+
   diag(diBox, originalText);
   const textContainer = diBox.querySelector("p");
   css([textContainer], {
-    'font-size' : '16%',
+    'font-size' : '15%',
     'font-family' : 'Nunito',
+    'font-weight' : '700',
     'text-align' : 'justify', 
     'vertical-align' : 'center',
-    'top' : '20px',
+    'line-height' : '125%',
+    'top' : '5%',
     'position' : 'absolute',
-    'width' : '80%',
-    'left' : '10%',
-    'margin' : 'auto'
+    'display' : 'block',
+    'width' : '85%',
+    'left' : '7.5%',
+    'margin' : 'auto',
+    'hyphens' : 'auto'
   })
 
 
@@ -117,18 +122,21 @@ const init_p3 = function() {
   buttons.classList.add("choices");
   buttons.style.height = "25%";
   var x1 = document.createElement("BUTTON");
-  x1.innerHTML = "Je serai plus efficace en dirigeant seul.";
+  x1.innerHTML = getText("p3-a1");
   var x2 = document.createElement("BUTTON");
-  x2.innerHTML = "Je peux nommer un responsable.";
+  x2.innerHTML = getText("p3-a2");
   var x3 = document.createElement("BUTTON");
-  x3.innerHTML = "C'est mon gouvernement !<br>Je nomme tous ceux qui y siègent !"
+  x3.innerHTML = getText("p3-a3");
 
-  const t1 = "Mauvaise réponse ! La Vème république est une démocratie, et le Président ne peut pas..."
-  const t2 = "Bonne réponse ! Le président nomme un Premier Ministre qui lui propose ensuite des mi...."
-  const t3 = "Mauvaise réponse ! Il faut passer par un intermédiaire qui propose au président des ministres..."
+  const t1 = getText("p3-a1-desc");
+  const t2 = getText("p3-a2-desc");
+  const t3 = getText("p3-a3-desc");
 
-  const colors = ["#FF2019", "#1be5b9", "#FF2019"];
+
+
+  const colors = ["#1be5b9", "#FF2019", "#FF2019"];
   function changeText(nb, txt, btn) {
+    textContainer.style.top = "5%";
     if (state === nb){
       swiper.disable();
       cancel.play();
@@ -144,7 +152,7 @@ const init_p3 = function() {
           circ.remove();
         }
       });
-      if (nb===2){
+      if (nb===1){
         showTitle("p3");
         swiper.enable();
         goodAns.play();
@@ -159,6 +167,11 @@ const init_p3 = function() {
       x1.style.background= "#D4C2F0";
       x2.style.background= "#D4C2F0";
       x3.style.background= "#D4C2F0";
+      if (nb == 3){
+        css([textContainer], {
+          'top' : '35%'
+        })
+      }
       textContainer.innerHTML = txt;
       btn.style.backgroundColor = colors[nb-1];
       state = nb;
@@ -173,6 +186,7 @@ const init_p3 = function() {
   css([x1, x2, x3], {
     'background-color' : '#D4C2F0',
     'font-size' : '15%',
+    'font-weight' : '700',
     'color' : 'white',
     'width' : '80%',
     'height' : '25%',
@@ -186,7 +200,7 @@ const init_p3 = function() {
     '-moz-box-sizing': 'border-box',
     '-webkit-box-sizing': 'border-box',
     'vertical-align' : 'middle'
-  })
+    })
 
 
   buttons.appendChild(x1);
