@@ -79,7 +79,7 @@ page('/communes-2/affirmation', async function () {
         box.style.bottom = "0";
     });
 
-    let box_aff = document.getElementById("affirmation");
+    let box_aff = document.getElementById("sliderline-aff");
     box_aff.addEventListener("click", (event)=>{
         if (box_aff !== event.target) return;
         var box = document.getElementById("affirmation");
@@ -99,7 +99,7 @@ page('/communes-2/affirmation', async function () {
         slider.style.bottom ="-190px";
     });
 
-    let indicebox = document.getElementById("indice-box");
+    let indicebox = document.getElementById("sliderline-ind");
     indicebox.addEventListener("click", (event)=>{
         if (indicebox !== event.target) return;
         var indiceb = document.getElementById("indice-box");

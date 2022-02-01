@@ -292,7 +292,7 @@
     margin-left: 25%;
 }
 
-#sliderline{
+#sliderline-ind, #sliderline-aff, #sliderline {
     width: 14%;
     height: 1%;
 }
