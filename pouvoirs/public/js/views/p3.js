@@ -152,6 +152,7 @@ const init_p3 = function() {
         }
       });
       if (nb===2){
+        showTitle("p3");
         swiper.enable();
         goodAns.play();
         btn.appendChild(valid);

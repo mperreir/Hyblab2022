@@ -64,6 +64,7 @@ function reposition(event) {
 
 	// Useful for activating Send button once something has been handwritten in the canvas
 	if (button.disabled && 0 <= coord.x && coord.x <= size.width && 0 <= coord.y && coord.y <= size.height) {
+		showTitle("p2");
 		enableButton = true;
 	}
 }

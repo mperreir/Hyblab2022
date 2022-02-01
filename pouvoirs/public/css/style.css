@@ -224,7 +224,16 @@ body {
 }
 
 /* Styles for all "power" sections */
-
+.title h1 {
+  font-size: 16%;
+  color: white;
+  font-family: "First Fun";
+  font-weight: 100;
+  position: absolute;
+  z-index: 3;
+  left: 6.5%;
+  top: 10.5%;
+}
 .pouvoir-header {
   width: 90%;
 }
@@ -397,7 +406,10 @@ body {
   z-index: 2;
 }
 
-#invalid1, #valid2, #valid3, #valid4 {
+#invalid1,
+#valid2,
+#valid3,
+#valid4 {
   display: none;
   position: absolute;
   width: 15%;
@@ -420,15 +432,18 @@ body {
   right: -7%;
 }
 
-#assemblee, #maires, #conseil, #prime {
+#assemblee,
+#maires,
+#conseil,
+#prime {
   position: absolute;
   width: 35%;
   height: 19%;
   display: flex;
   flex-flow: column;
   align-items: center;
-  justify-content:space-between;
-  background: #D4C2F0;
+  justify-content: space-between;
+  background: #d4c2f0;
   padding: 5px;
   border-radius: 15px;
 }
@@ -444,7 +459,7 @@ body {
 }
 
 #conseil {
-  top:72%;
+  top: 72%;
   left: 10%;
 }
 
@@ -464,14 +479,14 @@ body {
 }
 
 #buttons-container p {
-  font-family: 'First Fun';
+  font-family: "First Fun";
   font-size: 12%;
   background: white;
   text-align: center;
   padding: 5%;
   width: 90%;
   border-radius: 15px;
-  color: #4F00EC;
+  color: #4f00ec;
 }
 
 /* */

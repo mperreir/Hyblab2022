@@ -50,6 +50,7 @@ const init_p5 = function(){
         const prisonGridUpSound = createAudio("data/sounds/good_choice.mp3");
         if (!released && isClickable) {
             animationsContainer.removeChild(clickHere);
+            showTitle("p5");
             prisonGridUpSound.play();
             prisonGridUp.play();
             shakeElement(dialogBox);
