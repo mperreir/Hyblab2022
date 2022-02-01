@@ -92,6 +92,8 @@ async function fetchCityData(city) {
     const rqJson = await cityRq.json();
     return rqJson;
 }
+// loadFileExplorer();
+// smsScreen();
 
 async function loadTemplate(path, data) {
     const fileExplorerTemplate = await fetch(path);
