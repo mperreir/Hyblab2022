@@ -11,12 +11,14 @@
 
     <div id="answers">
         <% for(var i = 0; i < quiz.answer.length; i++) {%>
-        <input type="button" value="<%= quiz.answer[i] %>">
+        <% if (i == quiz.goodAnswer) { %>
+        <input id="goodAnswer" type="button" value="<%= quiz.answer[i] %>">
+        <% } else{ %>
+        <input class="badAnswer" type="button" value="<%= quiz.answer[i] %>">
         <% } %>
-    </div>
 
-    <div id="validate">
-        <input type="button" value="Valider">
+
+        <% } %>
     </div>
 </div>
 <% } %>

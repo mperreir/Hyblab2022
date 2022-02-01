@@ -81,12 +81,12 @@ function date() {
 
 
 // loadStart();
-loadSms();
+// loadSms();
 // loadFolder('nonVotants');
-loadFileExplorer();
+// loadFileExplorer();
 // loadEnd();
 // loadRebet();
-
+quizScreen();
 async function fetchCityData(city) {
     const cityRq = await fetch(`/api/city/${city}`);
     const rqJson = await cityRq.json();
