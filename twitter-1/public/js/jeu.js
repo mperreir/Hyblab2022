@@ -136,6 +136,9 @@ function Reponse(button, is_success, temps, interval, score, total){
     let bulle2 = document.querySelector('#bulle2');
     bulle2.style.display= "none";
 
+    let imagetweet = document.querySelector('#image1');
+    jeu.removeChild(imagetweet);
+
     if (is_success) {
         button.style.background="green";
         score +=1;
@@ -176,7 +179,6 @@ function finJeu(score,total){
     let reponse = document.querySelector('#reponses');
     let timerElement = document.querySelector('#timer');
     let imagetweet = document.querySelector('#image1');
-    imagetweet.style.display = "none";
     
     jeu.removeChild(question);
     jeu.removeChild(reponse);
