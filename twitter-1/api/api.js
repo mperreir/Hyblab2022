@@ -79,6 +79,22 @@ module.exports = (passport) => {
         res.json(themes);
     });
 
+    app.get('/theme/count/:theme_id',(req, res) =>{
+        let listCount = [];
+        let listCandidates=db.fetch(db.candidats_name);
+        for (let i = 0; i < listCandidates.length; i++) {
+            let newCount = Object()
+            newCount.nameCandidates = listCandidates[i].name
+            let arrayTweets = db.getTweetsSemaine()
+            let result = arrayTweets.filter(arrayTweets => arrayTweets.theme_id === parseInt(req.params.theme_id) && arrayTweets.name === listCandidates[i].name);
+            newCount.nbTweetsByThemes = result.length;
+            listCount.push(newCount);
+        };
+        listCount.sort((a, b) => a.nbTweetsByThemes > b.nbTweetsByThemes ? -1:1);
+        let result = listCount.slice(0,4);
+        res.json(result);
+    })
+
     app.get('/tweets/tops/:theme_id', (req, res) => {
         const candidats = db.getCandidats();
         let tweets = db.getTweetsSemaine()
