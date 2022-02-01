@@ -34,13 +34,13 @@ body{
 
 #illu {
     position:relative;
+    width: 35vh;
+    margin-bottom: 3%;
 }
 
 #title {
-    font-size: 27px;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-bottom: 5%;
+    font-size: 4vh;
+    font-style: bold;
 }
 
 #button-explorer {
