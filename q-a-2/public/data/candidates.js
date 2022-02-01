@@ -17,7 +17,24 @@ const candidates = [
             "valid": true
         },
         "stepThreeGame": {
-            "statements": [],
+            "statements": {
+                "0": {
+                    "statement": "Compte courant",
+                    "valid": true
+                },
+                "1": {
+                    "statement": "Compte bancaire en Espagne",
+                    "valid": true
+                },
+                "2": {
+                    "statement": "Maison de vacances en Suisse",
+                    "valid": true
+                },
+                "3": {
+                    "statement": "Assurance vie",
+                    "valid": true
+                }
+            },
             "valid": true
         },
         "stepFourGame": {
@@ -47,7 +64,24 @@ const candidates = [
             "valid": true
         },
         "stepThreeGame": {
-            "statements": [],
+            "statements": {
+                "0": {
+                    "statement": "Actions dans une entreprise française",
+                    "valid": true
+                },
+                "1": {
+                    "statement": "Compte bancaire courant",
+                    "valid": true
+                },
+                "2": {
+                    "statement": "Résidence principale",
+                    "valid": true
+                },
+                "3": {
+                    "statement": "Trois voitures",
+                    "valid": true
+                }
+            },
             "valid": true
         },
         "stepFourGame": {
@@ -77,7 +111,24 @@ const candidates = [
             "valid": true
         },
         "stepThreeGame": {
-            "statements": [],
+            "statements": {
+                "0": {
+                    "statement": "Assurance vie",
+                    "valid": true
+                },
+                "1": {
+                    "statement": "Dettes",
+                    "valid": true
+                },
+                "2": {
+                    "statement": "Appartement à Paris",
+                    "valid": true
+                },
+                "3": {
+                    "statement": "Voiture de luxe",
+                    "valid": true
+                }
+            },
             "valid": true
         },
         "stepFourGame": {
@@ -107,7 +158,24 @@ const candidates = [
             "valid": true
         },
         "stepThreeGame": {
-            "statements": [],
+            "statements": {
+                "0": {
+                    "statement": "Château dans la Somme",
+                    "valid": true
+                },
+                "1": {
+                    "statement": "Compte bancaire courant",
+                    "valid": true
+                },
+                "2": {
+                    "statement": "Appartement aux Etats-Unis",
+                    "valid": true
+                },
+                "3": {
+                    "statement": "Actions dans une entreprise française",
+                    "valid": true
+                }
+            },
             "valid": true
         },
         "stepFourGame": {
@@ -137,7 +205,24 @@ const candidates = [
             "valid": true
         },
         "stepThreeGame": {
-            "statements": [],
+            "statements": {
+                "0": {
+                    "statement": "Bâteau motorisé",
+                    "valid": true
+                },
+                "1": {
+                    "statement": "Maison à Marseille",
+                    "valid": true
+                },
+                "2": {
+                    "statement": "Assurance vie",
+                    "valid": true
+                },
+                "3": {
+                    "statement": "Actions dans une entreprise allemande",
+                    "valid": true
+                }
+            },
             "valid": true
         },
         "stepFourGame": {
@@ -167,7 +252,24 @@ const candidates = [
             "valid": true
         },
         "stepThreeGame": {
-            "statements": [],
+            "statements": {
+                "0": {
+                    "statement": "Maison en Bretagne",
+                    "valid": true
+                },
+                "1": {
+                    "statement": "Compte bancaire en Belgique",
+                    "valid": true
+                },
+                "2": {
+                    "statement": "Compte bancaire (Livret A)",
+                    "valid": true
+                },
+                "3": {
+                    "statement": "Maison en Finlande",
+                    "valid": true
+                }
+            },
             "valid": true
         },
         "stepFourGame": {
@@ -197,7 +299,24 @@ const candidates = [
             "valid": true
         },
         "stepThreeGame": {
-            "statements": [],
+            "statements": {
+                "0": {
+                    "statement": "Assurance vie",
+                    "valid": true
+                },
+                "1": {
+                    "statement": "Voiture de luxe",
+                    "valid": true
+                },
+                "2": {
+                    "statement": "Maison à Amiens",
+                    "valid": true
+                },
+                "3": {
+                    "statement": "Appartement à Berlin",
+                    "valid": true
+                }
+            },
             "valid": true
         },
         "stepFourGame": {
@@ -227,7 +346,24 @@ const candidates = [
             "valid": true
         },
         "stepThreeGame": {
-            "statements": [],
+            "statements": {
+                "0": {
+                    "statement": "Compte bancaire (Livret A)",
+                    "valid": true
+                },
+                "1": {
+                    "statement": "Maison de vacances en Italie",
+                    "valid": true
+                },
+                "2": {
+                    "statement": "Hélicoptère",
+                    "valid": true
+                },
+                "3": {
+                    "statement": "Actions dans une entreprise suédoise",
+                    "valid": true
+                }
+            },
             "valid": true
         },
         "stepFourGame": {

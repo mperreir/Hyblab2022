@@ -9,7 +9,7 @@ class Step3Game extends React.Component {
                     error: false,
                     isAcceptClick: false,
                     isCancelClick: false,
-                    profile: { ...candidate.stepOneGame, img:`img/step3Game/${candidate.nameId}.svg`, name: candidate.name},
+                    profile: { ...candidate.stepThreeGame, img:`img/step3Game/${candidate.nameId}.svg`, name: candidate.name},
                 },
             }
         }, {});

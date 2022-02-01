@@ -10,11 +10,13 @@ class StatementsCard extends React.Component {
 
                 <div className='statementsCard_information'>
                     {
-                        Object.entries(this.props.profile).map(function([key, value]) {
+                        Object.entries(this.props.profile.statements).map(function([key, value]) {
                             return (
-                            <div>
-                                <input type="checkbox" className="checkbox-round" id={this.props.profile.name+"-"+key} name={key}/>
-                                <label for={this.props.profile.name+"-"+key}>{value}</label>
+                            <div className="checkbox_container">
+                                <label className="checkbox_label" for={this.props.profile.name+"-"+key}>
+                                <input type="checkbox" className="checkbox_round" id={this.props.profile.name+"-"+key} name={key} checked={value.valid}/>
+                                    {value.statement}
+                                </label>
                             </div>)
                         }, this).slice(0, 4)
                     }
