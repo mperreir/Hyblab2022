@@ -107,6 +107,19 @@ button{
     background-color: #A34142;
 }
 
+.bouton{ 
+    padding : 2% 0% 2% 0%;
+    margin: 1%;
+    width: 40%;
+    height: 8%;
+    border-radius: 30px;
+    border: none;
+    font-family: 'folsomblack';
+    font-size: 70%;
+    background-color: #AC4B4B;
+    color: #eed2d2;
+}
+
 #démarche{
     display: flex;
     justify-content:center;
