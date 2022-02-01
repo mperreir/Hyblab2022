@@ -66,9 +66,9 @@ function AjoutDesCandidats(candidats) {
         block.className = "candidat"
         avatar.id = candidat.prenom + ' ' + candidat.nom
         avatar.src = "img/candidats/" + candidat.img + '.png'
-        avatar.onerror = function(e) {
-            e.target.src='img/candidats/profil_inconnu_cadre.svg'
-        } 
+        avatar.onerror = function (e) {
+            e.target.src = 'img/candidats/profil_inconnu_cadre.svg'
+        }
 
         // Ajout des blocks
         block.appendChild(avatar)
@@ -139,7 +139,7 @@ function start() {
 
     const NBR_JOUR = 100 // A changer dynamiquement
     const PIXEL_PAR_JOUR = 500
-    const HAUTEUR_DE_LA_PAGE = NBR_JOUR * PIXEL_PAR_JOUR
+    const HAUTEUR_DE_LA_PAGE = 25000
 
     const blocks = document.body.querySelector("#blocks")
     const animation = document.body.querySelector("#animation")
@@ -159,7 +159,23 @@ function start() {
         CourseSelection.className = showed ? "body" : "hidden"
     })
 
-    AjoutDesCandidats([])
+
+    const BtnCourse30 = document.getElementById("BtnCourse30")
+    const BtnCourse15 = document.getElementById("BtnCourse15")
+    const BtnCourse5 = document.getElementById("BtnCourse5")
+
+    function changeSelection(evt) {
+
+        BtnCourse30.className = ""
+        BtnCourse15.className = ""
+        BtnCourse5.className = ""
+
+        evt.target.className = "selected"
+    }
+
+    BtnCourse30.addEventListener("click", changeSelection)
+    BtnCourse15.addEventListener("click", changeSelection)
+    BtnCourse5.addEventListener("click", changeSelection)
 
     const clientPatternHeight = document.getElementById('pattern').clientHeight;
     const background = GenereLaListeDesBackgrounds(Math.floor(HAUTEUR_DE_LA_PAGE / clientPatternHeight));

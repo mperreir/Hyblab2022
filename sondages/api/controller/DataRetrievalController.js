@@ -88,6 +88,7 @@ function getData() {
  */
 getData().then(data => {
     cacheCandidat = CandidatController.listCandidat(Object.keys(data));
+    console.log(cacheCandidat);
     const points = Object.keys(data).map(candidat => {
         const [dx, dy] = moyenne(data[candidat]["x"], data[candidat]["y"]);
 
