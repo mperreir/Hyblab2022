@@ -6,11 +6,30 @@
 #enveloppebleue{
     position: absolute;
     left: -8.49%;
-right: 22.94%;
-top: 1.25%;
-bottom: 65.94%;
+    right: 22.94%;
+    top: 1.25%;
+    bottom: 65.94%;
 
-transform: rotate(4.76deg);
+    transform: rotate(4.76deg);
+    animation:enveloppebleue_animation 1.5s;
+    -webkit-animation:enveloppebleue_animation 1.5s; /* Safari and Chrome */
+}
+
+@keyframes menveloppebleue_animation
+{
+    0%   {left: -69.88%;right: 84.32%;top: -8.75%;bottom: 75.94%;}
+    /*25%  {background:yellow; left:200px; top:0px;}*/
+    /*50%  {background:blue; left:200px; top:200px;}*/
+    /*75%  {background:green; left:0px; top:200px;}*/
+    100% {left:-8.49%;right:22.94%;top:1.25%;bottom:65.94%;}
+}
+@-webkit-keyframes enveloppebleue_animation /* Safari and Chrome */
+{
+    0%   {left: -69.88%;right: 84.32%;top: -8.75%;bottom: 75.94%;}
+    /*25%  {background:yellow; left:200px; top:0px;}*/
+    /*50%  {background:blue; left:200px; top:200px;}*/
+    /*75%  {background:green; left:0px; top:200px;}*/
+    100% {left:-8.49%;right:22.94%;top:1.25%;bottom:65.94%;}
 }
 
 #envelopperouge{
@@ -19,7 +38,25 @@ transform: rotate(4.76deg);
     right: -10.44%;
     top: 30.78%;
     bottom: 41.96%;
+    animation:envelopperouge_animation 1.5s;
+    -webkit-animation:envelopperouge_animation 1.5s; /* Safari and Chrome */
+}
 
+@keyframes envelopperouge_animation
+{
+    0%   {left: 87.22%;right: -70.44%;top: 40.78%;bottom: 31.96%;}
+    /*25%  {background:yellow; left:200px; top:0px;}*/
+    /*50%  {background:blue; left:200px; top:200px;}*/
+    /*75%  {background:green; left:0px; top:200px;}*/
+    100% {left: 27.22%;right: -10.44%;top: 30.78%;bottom: 41.96%;}
+}
+@-webkit-keyframes envelopperouge_animation /* Safari and Chrome */
+{
+    0%   {left: 87.22%;right: -70.44%;top: 40.78%;bottom: 31.96%;}
+    /*25%  {background:yellow; left:200px; top:0px;}*/
+    /*50%  {background:blue; left:200px; top:200px;}*/
+    /*75%  {background:green; left:0px; top:200px;}*/
+    100% {left: 27.22%;right: -10.44%;top: 30.78%;bottom: 41.96%;}
 }
 
 #enveloppeblanche{
@@ -29,6 +66,25 @@ right: 32.44%;
 top: 52.91%;
 bottom: 11.89%;
 transform: rotate(-0.75deg);
+    animation:enveloppeblanche_animation 1.5s;
+    -webkit-animation:enveloppeblanche_animation 1.5s; /* Safari and Chrome */
+}
+
+@keyframes enveloppeblanche_animation
+{
+    0%   {left: -79.36%;right: 92.44%;top: 52.91%;bottom: 11.89%;}
+    /*25%  {background:yellow; left:200px; top:0px;}*/
+    /*50%  {background:blue; left:200px; top:200px;}*/
+    /*75%  {background:green; left:0px; top:200px;}*/
+    100% {left: -19.36%;right: 32.44%;top: 52.91%;bottom: 11.89%;}
+}
+@-webkit-keyframes enveloppeblanche_animation /* Safari and Chrome */
+{
+    0%   {left: -79.36%;right: 92.44%;top: 52.91%;bottom: 11.89%;}
+    /*25%  {background:yellow; left:200px; top:0px;}*/
+    /*50%  {background:blue; left:200px; top:200px;}*/
+    /*75%  {background:green; left:0px; top:200px;}*/
+    100% {left: -19.36%;right: 32.44%;top: 52.91%;bottom: 11.89%;}
 }
 
 #carte{
@@ -39,6 +95,24 @@ transform: rotate(-0.75deg);
     bottom: -2.48%;
     border: 0.5px;
     transform: rotate(5.75deg);
+    animation:carte_animation 1.5s;
+    -webkit-animation:carte_animation 1.5s; /* Safari and Chrome */
+}
+@keyframes carte_animation
+{
+    0%   {left: 46.39%;right: 6.47%;top: 100.47%;bottom: -32.48%;}
+    /*25%  {background:yellow; left:200px; top:0px;}*/
+    /*50%  {background:blue; left:200px; top:200px;}*/
+    /*75%  {background:green; left:0px; top:200px;}*/
+    100% {left: 46.39%;right: 6.47%;top: 70.47%;bottom: -2.48%;}
+}
+@-webkit-keyframes carte_animation /* Safari and Chrome */
+{
+    0%   {left: 46.39%;right: 6.47%;top: 100.47%;bottom: -32.48%;}
+    /*25%  {background:yellow; left:200px; top:0px;}*/
+    /*50%  {background:blue; left:200px; top:200px;}*/
+    /*75%  {background:green; left:0px; top:200px;}*/
+    100% {left: 46.39%;right: 6.47%;top: 70.47%;bottom: -2.48%;}
 }
 
 #return{

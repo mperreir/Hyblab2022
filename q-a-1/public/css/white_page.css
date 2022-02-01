@@ -189,3 +189,19 @@ a:link,a:visited{
 .not_current{
     opacity: 50%;
 }
+
+#div1
+{
+    width:100%;
+    height:50%;
+    background:#FFFFFF;
+    position:absolute;
+}
+
+#div2 {
+    width:100%;
+    height:50%;
+    background:#656565;
+    position:absolute;
+    bottom:0;
+}

@@ -79,7 +79,10 @@ svg
     background-color: #ADB3D7;
     width: 100%;
     height: 100%;
-    position: relative
+}
+
+.swiper-pagination-bullet-active {
+    background-color: white !important;
 }
 
 .warp {
@@ -108,7 +111,7 @@ svg
 
 
 /* Most of the elements in this demo are absolute positionned with percentages */
-#first-section header{
+#first-section header, #first-slide header{
     text-align: center;
     width: 100%;
     font-size: 30%;
