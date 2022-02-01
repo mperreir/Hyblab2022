@@ -20,6 +20,7 @@ body {
 }
 
 #race {
+    position: absolute;
     z-index: 99;
     display: flex;
     align-items: center;
@@ -56,15 +57,6 @@ header p {
     width: 100%;
 }
 
-#barre {
-    position: fixed;
-    top: 0px;
-    display: block;
-    width: 100%;
-    height: 2px;
-    background-color: red;
-}
-
 #blocks > * {
     display: flex;
     align-items: center;
@@ -99,10 +91,6 @@ footer p {
         min-height: calc(100 * 16vw / 9);
     }
 
-    #barre {
-        width: 100vw;
-    }
-
     /* We set a default font size here. It will be the base for all other font sizes */
     /* Here the font size is proportional to display width */
     body {
@@ -117,7 +105,7 @@ footer p {
         margin-left: calc((100vw - 100 * 9vh / 16) / 2);
         min-height: 100vh;
     }
-    #container, #race, #barre {
+    #container, #race {
         width: calc(100 * 9vh / 16);
     }
 

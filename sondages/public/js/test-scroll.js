@@ -5,13 +5,11 @@ function start() {
     const HAUTEUR_DE_LA_PAGE = NBR_JOUR * PIXEL_PAR_JOUR
     
     const info = document.querySelector("#info")
-    const barre = document.querySelector("#barre")
     const blocks = document.body.querySelector("#blocks")
     const animation = document.body.querySelector("#animation")
     const race = document.body.querySelector("#race")
 
     animation.setAttribute("style", "height: " + HAUTEUR_DE_LA_PAGE + "px")
-    barre.setAttribute("style", "top: " + (window.innerHeight / 2) + "px")
 
 
     for (let i = 1; i <= NBR_JOUR; i++) {
@@ -37,21 +35,23 @@ function start() {
     function scrollPosition(scroll) {
 
         const rect = animation.getBoundingClientRect()
+
+        const not_seeing_bottom = (rect.bottom - window.innerHeight) >= 0   
+
         const y_to_top = rect.top + window.scrollY
 
         const hauteur = (scroll - y_to_top) + (window.innerHeight / 2)
-        console.log(y_to_top, hauteur)
 
         let indexJour = parseInt(hauteur / PIXEL_PAR_JOUR) + 1
 
         indexJour = indexJour <= 0 ? 0 : indexJour
 
-        if(indexJour === 0) {
-            setBeforeScrolling()
-        } else if (indexJour > NBR_JOUR) {
-            setAfterScrolling()
-        } else {
+        if(rect.top <= 0 && not_seeing_bottom) {
             setWhileScrolling()
+        } else if(rect.top > 0 && not_seeing_bottom) {
+            setBeforeScrolling()
+        } else {
+            setAfterScrolling()
         }
 
         info.innerHTML = "Jour: " + indexJour
