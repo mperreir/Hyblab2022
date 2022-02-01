@@ -17,24 +17,38 @@ header {
     display: flex;
     justify-content: center;
     height: 100vh;
-    background-image: url("../img/fond_principale.svg");
+    background: #303844;
 }
 
 header .main {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     background: #FFF;
     color: black;
     width: 90%;
-    height: 80%;
-    padding: 25px 10px;
+    height: 70vh;
+    padding: 25px;
     margin-top: 25px;
     border-radius: 10px;
 }
 
-header .main img {
+header .main .logo {
     width: 80%;
+}
+
+header .main .car {
+    position: absolute;
+    width: 55vw;
+}
+header .main .car-b {
+    bottom: -30px;
+    left: 10vw;
+}
+header .main .car-r {
+    bottom: -100px;
+    left: -10%;
 }
 
 .details {
