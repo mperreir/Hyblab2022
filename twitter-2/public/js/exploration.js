@@ -12,7 +12,7 @@ window.onload = () => {
       let html = '';
 
       candidats.forEach(candidat => {
-        html += `<li><img src="img/candidats/${candidat.imageLink}.svg" class="img-selec-candidat" name="${candidat.userName}"><p class="txt-selec-candidat">${candidat.displayShortName}</p></li>`;
+        html += `<li><img src="img/candidats/${candidat.imageLink}.png" class="img-selec-candidat" name="${candidat.userName}"><p class="txt-selec-candidat">${candidat.displayShortName}</p></li>`;
       });
 
       const divCandidats = document.querySelector('#list-candidat');

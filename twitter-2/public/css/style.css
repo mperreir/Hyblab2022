@@ -65,12 +65,13 @@ body{
     margin-right: auto;
     margin-top: 10%;
     margin-bottom: 5%;
+    width: 40vh;
 }
 
 #phrase-daccroche {
     font-style: normal;
     font-weight: normal;
-    font-size: 85%;
+    font-size: 3.5vh;
     text-align: center;
 }
 
@@ -78,11 +79,15 @@ body{
     margin-top: 5%;
 }
 
+#vector1 {
+    width: 5vh;
+}
+
 
 /* Footer of last slide is at the bottom and content is centered */
 #first-slide footer{
     bottom: 5%;
-    font-size: 60%;
+    font-size: 2.5vh;
     text-align: center;
     padding: 0 1em;
     position: absolute;
@@ -95,7 +100,7 @@ body{
 #second-slide {
     background: #FFFFFF;
     color: #1A367A;
-    font-size: 65%;
+    font-size: 2.5vh;
     height: 100vh;
 }
 
@@ -104,50 +109,30 @@ body{
 }
 
 #text-slide-2 {
-    margin-left: 15%;
-    margin-right: 15%;
-}
-
-#title-slide-2 {
-    margin-top: 10%;
-    margin-bottom: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 #illustration-slide-2 {
     margin-top: 10%;
-    margin-bottom: 5%;
+    margin-bottom: 15%;
 }
 
 #illustration-slide-2 img {
     position: relative;
-    width: 204px;
-    height: 269px;
+    width: 40vh;
 }
 
 .button-slide-2 {
     background-color: #5571E5;
     color: #FFFFFF;
     border-radius: 19px;
-    font-size: 20px;
+    font-size: 2.7vh;
+    width: 28vh;
+    height: 6vh;
     text-align: center;
-    width: 191px;
-    height: 39px;
     border: 0;
     margin-top: 5vh;
-}
-
-#second-slide footer{
-    bottom: 5%;
-    font-size: 13px;
-    text-align: center;
-    padding: 0 1em;
-}
-
-#second-slide footer p{
-    position: absolute;
-    bottom: 8%;
-    left: 0;
-    right: 0;
 }
 
 /* FOURTH SLIDE */
@@ -276,7 +261,7 @@ body{
 
 /* This media query ensures that we allways will the height of the screen */
 /* as long as the screen aspect ratio is higher than 9:16 */
-@media screen and (min-aspect-ratio: 7/13){
+@media screen and (min-aspect-ratio: 9/16){
     #container{
         margin-left: calc((100vw - 100 * 9vh / 16) / 2);
         width: calc(100 * 9vh / 16);
