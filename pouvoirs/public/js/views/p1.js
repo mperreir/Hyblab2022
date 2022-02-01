@@ -160,7 +160,6 @@ const init_p1 = function() {
       if (nb===2){
         goodAns.play();
         btn.appendChild(valid);
-        console.log('test');
         showTitle("p1");
         swiper.enable();
       }

@@ -32,10 +32,10 @@ const wrapper_nextSlide = function(){
   swiper.slideNext();
 };
 const showTitle = function(index) {
-  const allTitles = getText("pouvoirs-title");
+  const allTitles = getText("pouvoirs-titre");
   const titleDiv = document.querySelector("#" + index + " .title");
   const current = document.createElement("h1");
-  title.innerHTML = allTitles[index];
+  current.innerHTML = allTitles[index];
   titleDiv.appendChild(current);
 }
 

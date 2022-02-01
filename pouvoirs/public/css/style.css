@@ -226,13 +226,19 @@ body {
 /* Styles for all "power" sections */
 .title h1 {
   font-size: 16%;
+  background-color: none;
   color: white;
   font-family: "First Fun";
   font-weight: 100;
   position: absolute;
-  z-index: 3;
+  width: auto;
+  letter-spacing: normal;
+  z-index: 5;
   left: 6.5%;
   top: 10.5%;
+}
+#p2 .title h1 {
+  font-weight: lighter;
 }
 .pouvoir-header {
   width: 90%;
