@@ -1,5 +1,7 @@
 
-.joute {
+.joute-loader {
+	z-index: 100;
+	position: absolute;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -7,7 +9,7 @@
 	background-color: #C57EB3;
 }
 
-.joute img {
+.joute-loader img {
 	height: auto;
 	width: 50%;
 	--animate-duration: 1s;

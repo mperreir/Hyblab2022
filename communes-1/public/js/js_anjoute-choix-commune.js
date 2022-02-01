@@ -227,7 +227,7 @@ const cestparti = document.querySelector('.goToGame');
 cestparti.addEventListener('click', () => {
 	communes.forEach(commune => {
 		if (commune.name == searchInput.value) {
-			window.location.href = 'anjoute-joute.html';
+			window.location.href = 'anjoute-game-1.html';
 		}
 	});
 });
