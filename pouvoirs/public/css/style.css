@@ -473,7 +473,7 @@ body {
 #p4-bulle-pm {
   position: absolute;
   width: 85%;
-  top: 17%;
+  top: 20%;
   left: 5.5%;
 }
 
@@ -483,7 +483,7 @@ body {
   font-size: 16%;
   position: absolute;
   width: 68%;
-  top: 19%;
+  top: 23%;
   left: 16%;
   z-index: 2;
 }
@@ -520,55 +520,89 @@ body {
 #prime {
   position: absolute;
   width: 35%;
-  height: 19%;
+  height: 18%;
   display: flex;
   flex-flow: column;
   align-items: center;
+<<<<<<< HEAD
   justify-content: space-between;
   background: #d4c2f0;
+=======
+  justify-content:space-between;
+  background: #fff;
+>>>>>>> p4-decret
   padding: 5px;
-  border-radius: 15px;
+  border-radius: 25px;
+  /* padding-bottom: 3%; */
 }
 
 #assemblee {
-  top: 50%;
+  top: 55%;
   left: 10%;
 }
 
 #maires {
-  top: 50%;
+  top: 55%;
   right: 10%;
 }
 
 #conseil {
+<<<<<<< HEAD
   top: 72%;
+=======
+  top:77%;
+>>>>>>> p4-decret
   left: 10%;
 }
 
 #prime {
-  top: 72%;
+  top: 77%;
   right: 10%;
 }
 
 .button-illu {
   width: 50%;
-  margin-bottom: 5%;
-  margin-top: 5%;
+  /* margin-bottom: 3%; */
+  margin-top: 3%;
 }
-
+#assemblee .button-illu {
+  width: 50%;
+  margin-top: 3%;
+  
+}
+#maires .button-illu {
+  width: 52%;
+  margin-top: 8%;
+}
 #conseil .button-illu {
   width: 45%;
+  margin-top: 3%;
+}
+#prime .button-illu {
+  width: 52%;
+  margin-top: 8%;
 }
 
 #buttons-container p {
+<<<<<<< HEAD
   font-family: "First Fun";
+=======
+  margin-top: -2%;
+  font-family: 'First Fun';
+>>>>>>> p4-decret
   font-size: 12%;
-  background: white;
+  background:#D4C2F0;
   text-align: center;
   padding: 5%;
   width: 90%;
+<<<<<<< HEAD
   border-radius: 15px;
   color: #4f00ec;
+=======
+  height:18%;
+  border-radius: 25px;
+  color: #fff;
+>>>>>>> p4-decret
 }
 
 /* */
