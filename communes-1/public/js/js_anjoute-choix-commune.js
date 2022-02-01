@@ -201,7 +201,7 @@ searchInput.addEventListener('keyup', function() {
 	const input = searchInput.value;
 	suggestionsPanel.innerHTML = '';
 	const suggestions = communes.filter(function(commune) {
-		return commune.name.startsWith(input);
+		return commune.name.toLowerCase().startsWith(input.toLowerCase());
 	});
 
 	suggestions.forEach(function(suggested) {
