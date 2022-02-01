@@ -1,3 +1,4 @@
+
 /**
  * @name : DataRetrievalController.js
  * @description : Automatically retrieves data from nsppolls and parses it for the Poll Position application
@@ -7,10 +8,11 @@
 
 const axios = require("axios");
 const science = require("science");
-const getDaysBetween = require('./DateController');
+const DateController = require('./DateController');
 
 const URL_DATA = "https://raw.githubusercontent.com/nsppolls/nsppolls/master/presidentielle.json";
 
+let cacheData;
 const range = n => [...Array(n).keys()];
 
 
@@ -89,7 +91,7 @@ getData().then(data => {
         const [dx, dy] = moyenne(data[candidat]["x"], data[candidat]["y"]);
 
         /* */
-        const days = getDaysBetween(new Date(dx[0] + 'T12:00:00'), new Date(dx[dx.length - 1] + 'T12:00:00'));
+        const days = DateController.getDaysBetween(new Date(dx[0] + 'T12:00:00'), new Date(dx[dx.length - 1] + 'T12:00:00'));
 
         /* */
         let intentions = [];
@@ -137,6 +139,13 @@ getData().then(data => {
                 y: loess_values
             })
         }
-        return result;
+        cacheData = result;
     })
 })
+
+async function sendDataToFront(req, res) {
+    await getData();
+    res.status(201).json(cacheData)
+}
+
+module.exports = sendDataToFront;

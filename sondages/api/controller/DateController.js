@@ -4,6 +4,7 @@
  * @author : Team Genesis
  */
 
+let letDataRetrival = new Date(70, 1);
 
 /**
  *
@@ -11,15 +12,21 @@
  * @param end
  * @return *[]
  */
-function getDaysBetween(start, end) {
-    let days = [];
-    let dt = start
-    while(dt <= end){
-        let [date, heure] = dt.toISOString().split('T')
-        days.push(date);
-        dt.setDate(dt.getDate()+1);
+class DateController {
+    getDaysBetween(start, end) {
+        let days = [];
+        let dt = start
+        while(dt <= end){
+            let [date, heure] = dt.toISOString().split('T')
+            days.push(date);
+            dt.setDate(dt.getDate()+1);
+        }
+        return days;
     }
-    return days;
+
+    shouldWeUpdateData() {
+
+    }
 }
 
-module.exports = getDaysBetween;
+module.exports = new DateController();
