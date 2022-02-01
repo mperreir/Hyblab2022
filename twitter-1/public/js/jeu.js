@@ -258,61 +258,49 @@ function finJeu(score,total){
 
     jeu.appendChild(image);
 
+    let btn_action_jeu = document.createElement('div');
+    btn_action_jeu.setAttribute("class", "container-btn-end-game");
+
     let rejoue = document.createElement('input');
     rejoue.setAttribute("type", "button");
     rejoue.setAttribute("value", "Rejouer");
     rejoue.setAttribute("id", "rejouer");
-    rejoue.style.width = "35%";
-    rejoue.style.height = "10%";
-    rejoue.style.marginLeft = "5%";
-    rejoue.style.borderRadius = "80px";
-    rejoue.style.boxShadow = "7px 7px 25px 0 rgba(0,0,0,0.25)";
-    rejoue.style.border = "none";
-    rejoue.style.fontFamily = "'Outfit', sans-serif";
-    rejoue.style.fontSize = "90%";
-    rejoue.style.fontWeight = "700";
-    rejoue.style.position = "absolute";
-    rejoue.style.top = "78%";
-    rejoue.style.left = "5%";
+    rejoue.setAttribute("class", "btn-end-game");
     rejoue.addEventListener('click', () => { 
         clear();
+    });
+
+    let goTopTweets = document.createElement('input');
+    goTopTweets.setAttribute("type", "button");
+    goTopTweets.setAttribute("value", "Voir les tops tweets");
+    goTopTweets.setAttribute("class", "btn-end-game");
+    goTopTweets.addEventListener('click', () => {
+        swiper.slideTo(2);
     });
 
     let partager = document.createElement('input');
     partager.setAttribute("type", "button");
     partager.setAttribute("value", "Partager");
     partager.setAttribute("id", "partager");
-    partager.style.width = "35%";
-    partager.style.height = "10%";
-    partager.style.marginLeft = "20%";
-    partager.style.borderRadius = "80px";
-    partager.style.boxShadow = "7px 7px 25px 0 rgba(0,0,0,0.25)";
-    partager.style.border = "none";
-    partager.style.fontFamily = "'Outfit', sans-serif";
-    partager.style.fontSize = "90%";
-    partager.style.fontWeight = "700";
-    partager.style.position = "absolute";
-    partager.style.top = "78%";
-    partager.style.left = "40%";
+    partager.setAttribute("class", "btn-end-game");
     partager.addEventListener('click', () => { 
         window.open("https://twitter.com/");
     });
 
-    jeu.appendChild(rejoue);
-    jeu.appendChild(partager);
-
+    btn_action_jeu.appendChild(rejoue);
+    btn_action_jeu.appendChild(goTopTweets);
+    btn_action_jeu.appendChild(partager);
+    jeu.appendChild(btn_action_jeu) ;
 }
 
 function clear(){
 
-    let bouton = document.querySelector('#rejouer');
-    let bouton2 = document.querySelector('#partager');
+    let boutons = document.querySelector('.container-btn-end-game');
     let fin = document.querySelector('#finjeu');
     let score = document.querySelector('#score');
     let comment = document.querySelector('#appr');
     let image = document.querySelector('#etoile');
-    jeu.removeChild(bouton);
-    jeu.removeChild(bouton2);
+    jeu.removeChild(boutons);
     jeu.removeChild(fin);
     jeu.removeChild(score);
     jeu.removeChild(comment);
