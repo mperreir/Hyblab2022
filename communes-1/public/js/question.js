@@ -1,12 +1,20 @@
-let dataElection;
-fetch("api/dataElection").then(response => response.json())
-	.then(data => dataElection = data);
-const data_election = new Map(Object.entries(dataElection));
-
-for (let map in data_election) {
-	map = new Map(Object.entries(map));
+let data_election;
+async function fetchData() {
+	let response_2 = await fetch("api/dataElection");
+	let d =  await response_2.json();
+	return d;
 }
-
+data_election = await fetchData();
+data_election = data_election.data_election;
+data_election = new Map(Object.entries(data_election))
+data_election.set('2002_1', new Map(Object.entries(data_election.get("2002_1"))));
+data_election.set('2002_2', new Map(Object.entries(data_election.get("2002_2"))));
+data_election.set('2007_1', new Map(Object.entries(data_election.get("2007_1"))));
+data_election.set('2007_2', new Map(Object.entries(data_election.get("2007_2"))));
+data_election.set('2012_1', new Map(Object.entries(data_election.get("2012_1"))));
+data_election.set('2012_2', new Map(Object.entries(data_election.get("2012_2"))));
+data_election.set('2017_1', new Map(Object.entries(data_election.get("2017_1"))));
+data_election.set('2017_2', new Map(Object.entries(data_election.get("2017_2"))));
 
 class FactoryQuestion {
 	constructor(code_commune_joueur) {
@@ -181,8 +189,9 @@ class Question5 extends Question{
 	generate_question()
 	{
 		let key = this.annee + "_1";
+		console.log(data_election)
 		let info_commune = data_election.get(key).get(this.code_commune);
-
+		console.log(data_election.get(key))
 		let nom = info_commune.nom;
 		let prenom = info_commune.prenom;
 
