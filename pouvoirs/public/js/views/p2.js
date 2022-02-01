@@ -3,19 +3,15 @@ const ctx = canvas.getContext("2d");
 const button = document.getElementById("send-button");
 const bulle = document.getElementById("bulle-container");
 const drawing = document.getElementById("drawing-container");
+const penSound = createAudio("data/sounds/pen.mp3",true,1,0.5);
 
 let coord = { x: 0, y: 0 };
 let enableButton = false;
-controller = {bottom: -50};
+let controller = {bottom: -50};
 
 button.disabled = true;
 
-let firstTime = true;
-
 const init_p2 = function () {
-	// In case user comes back
-	if (!firstTime) return;
-	firstTime = false;
 
 	// Disable swiper whilst decret has not been signed
 	swiper.disable();
@@ -74,12 +70,13 @@ function reposition(event) {
 
 function start(event) {
 	document.addEventListener("mousemove", draw);
+	penSound.play();
 	reposition(event);
 }
 
 function stop() {
 	document.removeEventListener("mousemove", draw);
-
+	penSound.pause();
 	// Enabling the button
 	if (enableButton) {
 		button.disabled = false;

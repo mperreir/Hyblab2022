@@ -29,13 +29,16 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
   <script src="js/utils/animation.js" defer></script>
   <script src="js/utils/audio.js" defer></script>
+  <script src="js/utils/textes.js" defer></script>
   <script src="js/views/home.js" defer></script>
   <script src="js/views/falling.js" defer></script>
   <script src="js/views/p1.js" defer></script>
+  <script src="js/views/p4.js" defer></script>
   <script src="js/views/p3.js" defer></script>
   <script src="js/views/p2.js" defer></script>
   <script src="js/views/p5.js" defer></script>
   <script src="js/views/p6.js" defer></script>
+  <script src="js/views/thanks.js" defer></script>
   <script src="js/views/credits.js" defer></script>
   <script src="js/index.js" defer></script>
 </head>
@@ -71,7 +74,8 @@
         </section>
 
         <section class="swiper-slide" , id="falling">
-          <div id="background-falling"></div>
+          <div id="background-container"></div>
+          <div id = "moua-falling"></div>
           <div class='bulle'>
             <p style="text-align: justify;">
               En incarnant Moua, un être venu d’ailleurs devenu malgré lui le Président français sous la Vème
@@ -123,8 +127,47 @@
         </section>
 
         <section class="swiper-slide" id="p4">
-          <img class="pouvoir-header" src="img/headers/POUVOIR_4.svg">
+
+          <div style="height:15%">
+            <img class="pouvoir-header" src="img/headers/POUVOIR_4.svg">
+          </div>
+
+          <div id="p4-bulle-container">
+            <img id='p4-bulle-pm' src="img/dialogBoxes/GRAND_PREMIERMINISTRE.svg">
+            <p style="text-align: justify;">
+              Malgré tous vos efforts, le pays fait face à une grave crise qui menace le pays. Pour gérer cette situation, 
+              la Constitution vous laisse la possibilité de recourir à des pouvoirs exceptionnels. Mais avant toute mesure, il vous faudra consulter plusieurs personnes. Choisissez les bonnes personnes auprès desquelles vous pouvez consulter.
+            </p>
+          </div>
+
+          <div id=buttons-container>
+            <div id="assemblee">
+              <img class="button-illu" src="img/elements/ASSEMBLE DES MAIRES.svg">
+              <img id="invalid1" class="validityIcon" src="img/elements/button_invalid.svg">
+              <p>Assemblée des maires de France</p>
+            </div>
+
+            <div id="maires">
+              <img class="button-illu" src="img/elements/PRESIDENT DES MAIRES.svg">
+              <img id="valid2" class="validityIcon" src="img/elements/button_valid.svg">
+              <p>Président de l'assemblée nationale / sénat</p>
+            </div>
+
+            <div id="conseil">
+              <img class="button-illu" src="img/elements/CONSEIL CONSTITU.svg">
+              <img id="valid3" class="validityIcon" src="img/elements/button_valid.svg">
+              <p>Conseil constitutionnel</p>
+            </div>
+
+            <div id="prime">
+              <img class="button-illu" src="img/elements/PREMIER MINISTRE.svg">
+              <img id="valid4" class="validityIcon" src="img/elements/button_valid.svg">
+              <p>Premier Ministre</p>
+            </div>
+          </div>
+
         </section>
+
         <section class="swiper-slide" id="p5">
           <img class="pouvoir-header" src="img/headers/POUVOIR_5.svg">
           <div id="animationsContainer"> </div>
@@ -201,8 +244,8 @@
             </div>
         </section>
 
-        <section class="swiper-slide" id="end">
-
+        <section class="swiper-slide" id="thanks">
+          <div id = "thanks-background"></div>
         </section>
 
         <section class="swiper-slide" id="credit">
