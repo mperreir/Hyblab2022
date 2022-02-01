@@ -1,5 +1,6 @@
 
 window.onload = () => {
+    
     var x;
     if (sessionStorage.getItem("question").length == 1) {
         document.getElementById("point1").style.backgroundColor = "#1A367A";

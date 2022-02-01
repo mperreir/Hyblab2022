@@ -57,6 +57,8 @@ body{
     line-height: 6vh;
     padding-left: 2vw;
     padding-right: 2vw;
+    border:none;
+    font-size: 80%;
 }
 /* ---------- Important media queries for easy responsive content :-) ----------------- */
 /* Can be adapted for other ratios that 9:16 or for horizontal content (ex: 16:9) */
