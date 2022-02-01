@@ -49,6 +49,9 @@ function getDialogueTransition(etape){
 }
 
 
+
+
+
 function getAnimations() {
     const etapes = ANIMATIONS.ordre;
 

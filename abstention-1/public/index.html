@@ -30,13 +30,35 @@
 <body>
     <!-- Le conteneur sert à vérouiller les proportions (aspect ratio) du contenu de la page (ici des slides) -->
     <div id="container">
+      <section id='sujet'>
+        <img id="info" src="img/INFO.svg">
+        <div id='SujetExpose'>
+          <h1>EXPOSÉ</h1>
+          <h2>SUJET</h2>
+          <p>
+            1) <b>L'abstention</b> dans la zone d'influence de Bordeaux, qui sont'ils?
+          </p>
+          <img id='PieChart' src='img/CAMEMBErt.svg'>
+          <img id='BarChart' src='img/GRAPHIQUE BATONS.svg'>
+
+        </div>
+        <div id='popupPointInfo'>
+          <h1>L'abstention</h1>
+          <p>
+            L’abstention c’est le fait de s’abstenir de voter lors d’une élection. Le vote n’étant pas un acte obligatoire en France, beaucoup de personnes décident de faire ce choix. 
+          </p>
+          <p>
+            Pourquoi ces gens prennent-ils cette décision ? Qui sont-ils ? 
+          </p>
+          <p>
+            Pars à leur rencontre avec notre jeune reporter Charlie dans la ville de Bordeaux pour mieux comprendre ce choix.
+          </p>
+        </div>
+      </section>
+   
       <section id="Dialogue">
         <header>
-            <div id='cercle1' class="circle"><p>1</p></div>
-            <div id='cercle2' class="circle"><p>2</p></div>
-            <div id='cercle3' class="circle"><p>3</p></div>
-            <div id='cercle4' class="circle"><p>4</p></div>
-            <div id='cercle5' class="circle"><p>5</p></div>
+
           <img id='carnet' src='img/CARNET PICTO.svg'>
         </header>
           <div id="personnage1"></div>
@@ -62,6 +84,7 @@
   
           <div class="resultat"></div>
       </section>
+
       <section id="LottieAnimation">
         <lottie-player class="player ecole1-vers-foraine" src="animations/animation01.json" ></lottie-player>
         <lottie-player class="player foraine-vers-camion" src="animations/animation02.json" ></lottie-player>
@@ -70,6 +93,22 @@
         <lottie-player class="player mairie-vers-ecole2" src="animations/animation05.json" ></lottie-player>
 
       </section>
+
+      <section id="popupCarnet">
+        <img id='anneaux' src='img/ANNEAUX.svg'>
+        <img id='croix' src='img/CROIX.svg'>
+        <h1>Ce que<br> j'ai retenu</h1>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+
+        </ul>
+ 
+      </section>
+    
       <div id="SequencesAnimation">
         <section class="transition" style="height:100vh;"></section>
         <section class="container dialogue ecole1"></section>
@@ -95,6 +134,8 @@
         <section class="container dialogue ecole2"></section>
         <section class="transition"></section>
         <section class="container conclusion" style="height:200vh;"></section>
+      </div>
+  
     </div>
    
 </body>
