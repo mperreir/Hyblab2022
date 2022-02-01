@@ -1,5 +1,5 @@
+"use strict";
 const init_p3 = function() {
- "use strict";
 
   swiper.disable();
 

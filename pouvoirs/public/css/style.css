@@ -178,12 +178,21 @@ body {
   width: 100%;
 }
 
-#background-falling {
+#background-container {
   height: 60%;
   width: 100%;
 }
+#moua-falling {
+  height: 60%;
+  width: 100%;
+}
+#moua-falling svg {
+  position: absolute;
+  bottom: -3%;
+  left: 0%;
+}
 
-#background-falling svg {
+#background-container svg {
   position: absolute;
   top: 0;
 }
@@ -368,6 +377,105 @@ body {
   background-color: #aaaaaa;
 }
 
+/* p4 */
+
+#p4-bulle-pm {
+  position: absolute;
+  width: 85%;
+  top: 17%;
+  left: 5.5%;
+}
+
+#p4-bulle-container p {
+  position: absolute;
+  font-family: "Nunito";
+  font-size: 16%;
+  position: absolute;
+  width: 68%;
+  top: 19%;
+  left: 16%;
+  z-index: 2;
+}
+
+#invalid1, #valid2, #valid3, #valid4 {
+  display: none;
+  position: absolute;
+  width: 15%;
+  top: 40%;
+}
+
+#invalid1 {
+  left: -7%;
+}
+
+#valid2 {
+  right: -7%;
+}
+
+#valid3 {
+  left: -7%;
+}
+
+#valid4 {
+  right: -7%;
+}
+
+#assemblee, #maires, #conseil, #prime {
+  position: absolute;
+  width: 35%;
+  height: 19%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content:space-between;
+  background: #D4C2F0;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+#assemblee {
+  top: 50%;
+  left: 10%;
+}
+
+#maires {
+  top: 50%;
+  right: 10%;
+}
+
+#conseil {
+  top:72%;
+  left: 10%;
+}
+
+#prime {
+  top: 72%;
+  right: 10%;
+}
+
+.button-illu {
+  width: 50%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+#conseil .button-illu {
+  width: 45%;
+}
+
+#buttons-container p {
+  font-family: 'First Fun';
+  font-size: 12%;
+  background: white;
+  text-align: center;
+  padding: 5%;
+  width: 90%;
+  border-radius: 15px;
+  color: #4F00EC;
+}
+
+/* */
+
 #p5 h3 {
   font-family: "First Fun", Arial, Helvetica, sans-serif;
   position: absolute;
@@ -512,6 +620,10 @@ body {
   body {
     font-size: calc(12vw * 16 / 9);
   }
+}
+#thanks #thanks-background {
+  position: absolute;
+  top: 0%;
 }
 
 .fade {
