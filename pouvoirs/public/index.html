@@ -30,6 +30,7 @@
   <script src="js/utils/animation.js" defer></script>
   <script src="js/utils/audio.js" defer></script>
   <script src="js/utils/textes.js"></script>
+  <script src="js/utils/arrow.js"></script>
   <script src="js/views/home.js" defer></script>
   <script src="js/views/falling.js" defer></script>
   <script src="js/views/p1.js" defer></script>
@@ -139,7 +140,7 @@
 
         <section class="swiper-slide" id="p4">
           <div class="title" style="height:15%">
-            <img class="pouvoir-header" src="img/headers/POUVOIR_4.svg">
+            <img class="pouvoir-header" id="header4" src="img/headers/POUVOIR_4.svg">
           </div>
 
           <div id="p4-bulle-container">
@@ -157,25 +158,25 @@
             <div id="assemblee">
               <img class="button-illu" src="img/elements/ASSEMBLE DES MAIRES.svg">
               <img id="invalid1" class="validityIcon" src="img/elements/button_invalid.svg">
-              <p>Assemblée des maires de France</p>
+              <p class = "positiontext">Assemblée des maires de France</p>
             </div>
 
             <div id="maires">
               <img class="button-illu" src="img/elements/PRESIDENT DES MAIRES.svg">
               <img id="valid2" class="validityIcon" src="img/elements/button_valid.svg">
-              <p>Président de l'assemblée nationale / sénat</p>
+              <p  class = "positiontext" style = "padding-top:3%;height:25%">Président de l’Assemblée Nationale / Sénat</p>       
             </div>
 
             <div id="conseil">
               <img class="button-illu" src="img/elements/CONSEIL CONSTITU.svg">
               <img id="valid3" class="validityIcon" src="img/elements/button_valid.svg">
-              <p>Conseil constitutionnel</p>
+              <p  class = "positiontext">Conseil constitutionnel</p>
             </div>
 
             <div id="prime">
               <img class="button-illu" src="img/elements/PREMIER MINISTRE.svg">
               <img id="valid4" class="validityIcon" src="img/elements/button_valid.svg">
-              <p>Premier Ministre</p>
+              <p  class = "positiontext" style = "padding-top: 10%;height:13%">Premier Ministre</p>
             </div>
           </div>
 
@@ -258,6 +259,7 @@
       </main>
       <!-- <div class="swiper-pagination"></div> -->
     </div>
+  <img id="arrowSwipe" src="img/arrow.svg">
   </div>
 </body>
 

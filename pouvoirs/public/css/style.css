@@ -473,7 +473,7 @@ body {
 #p4-bulle-pm {
   position: absolute;
   width: 85%;
-  top: 17%;
+  top: 20%;
   left: 5.5%;
 }
 
@@ -483,7 +483,7 @@ body {
   font-size: 16%;
   position: absolute;
   width: 68%;
-  top: 19%;
+  top: 23%;
   left: 16%;
   z-index: 2;
 }
@@ -520,55 +520,71 @@ body {
 #prime {
   position: absolute;
   width: 35%;
-  height: 19%;
+  height: 18%;
   display: flex;
   flex-flow: column;
   align-items: center;
-  justify-content: space-between;
-  background: #d4c2f0;
+  justify-content:space-between;
+  background: #fff;
   padding: 5px;
-  border-radius: 15px;
+  border-radius: 25px;
+  /* padding-bottom: 3%; */
 }
 
 #assemblee {
-  top: 50%;
+  top: 55%;
   left: 10%;
 }
 
 #maires {
-  top: 50%;
+  top: 55%;
   right: 10%;
 }
 
 #conseil {
-  top: 72%;
+  top:77%;
   left: 10%;
 }
 
 #prime {
-  top: 72%;
+  top: 77%;
   right: 10%;
 }
 
 .button-illu {
   width: 50%;
-  margin-bottom: 5%;
-  margin-top: 5%;
+  /* margin-bottom: 3%; */
+  margin-top: 3%;
 }
-
+#assemblee .button-illu {
+  width: 50%;
+  margin-top: 3%;
+  
+}
+#maires .button-illu {
+  width: 52%;
+  margin-top: 8%;
+}
 #conseil .button-illu {
   width: 45%;
+  margin-top: 3%;
+}
+#prime .button-illu {
+  width: 52%;
+  margin-top: 8%;
 }
 
 #buttons-container p {
-  font-family: "First Fun";
+  margin-top: -2%;
+  font-family: 'First Fun';
   font-size: 12%;
-  background: white;
+  background:#D4C2F0;
   text-align: center;
   padding: 5%;
   width: 90%;
-  border-radius: 15px;
-  color: #4f00ec;
+  height:18%;
+  border-radius: 25px;
+  color: #fff;
 }
 
 /* */
@@ -782,18 +798,63 @@ body {
   }
 }
 
+/* ---------- Important media queries for easy responsive content :-) ----------------- */
+/* Can be adapted for other ratios that 9:16 or for horizontal content (ex: 16:9) */
+
+/* This media query ensures that we allways will the width of the screen */
+/* as long as the screen aspect ratio is below 9:16 */
+@media screen and (max-aspect-ratio: 9/16) and (min-width :480px){
+  #container{
+      width: 100vw;
+      margin-top: calc((100vh - 100 * 16vw / 9) / 2);
+      height: calc(100 * 16vw / 9);
+  }
+
+  /* We set a default font size here. It will be the base for all other font sizes */
+  /* Here the font size is proportional to display width */
+  body{
+      font-size: calc(12vw*16/9);
+  }
+}
+
+/* Mobile */
+
+@media screen and (max-width: 480px) {
+  #container{
+      margin-top: 0;
+      width: 100vw;
+      height: 88vh;
+      font-size: calc(12vw*16/9);
+  }
+}
+
 /* This media query ensures that we allways will the height of the screen */
 /* as long as the screen aspect ratio is higher than 9:16 */
-@media screen and (min-aspect-ratio: 9/16) {
-  #container {
-    margin-left: calc((100vw - 100 * 9vh / 16) / 2);
-    width: calc(100 * 9vh / 16);
-    height: 100vh;
+@media screen and (min-aspect-ratio: 9/16) and (min-width :480px) {
+  #container{
+      margin-left: calc((100vw - 100 * 9vh / 16) / 2);
+      width: calc(100 * 9vh / 16);
+      height: 100vh;
   }
 
   /* We set a default font size here. It will be the base for all other font sizes */
   /* Here the font size is proportional to display height */
-  body {
-    font-size: 12vh;
+  body{
+      font-size: 12vh;
   }
+}
+
+
+#arrowSwipe {
+  visibility: hidden;
+  display: block;
+  float: right;  
+  z-index: 99;
+  position: absolute;
+  
+  bottom: 1%;
+  right: 2%;
+
+  width: 3%;
+  height: 3%;
 }
