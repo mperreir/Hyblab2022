@@ -36,7 +36,7 @@ body{
 }
 
 .swiper-pagination-bullet {
-    border: 1.5px solid #1A367A !important;
+    border: 0.01rem solid #1A367A !important;
     background-color: #E5E5E5 !important;
 }
 
@@ -50,20 +50,16 @@ body{
     text-align: center;
     width: 100%;
     height: 100%;
-    left: 0px;
-    top: 0px;
     font-size: 30%;
     z-index: 2;
     background: rgba(110, 134, 233);
-    height: 100vh;
 }
 
 #imagesLogo {
-    margin-top: 25%;
+    margin-top: 5%;
 }
 
 #logo {
-    width: 220px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -74,29 +70,24 @@ body{
 #phrase-daccroche {
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
-    line-height: 14px;
+    font-size: 85%;
     text-align: center;
 }
 
 .vector {
-    position: absolute;
-    bottom: 5%;
-    left: 0;
-    right: 0;
+    margin-top: 5%;
 }
 
-#vector1 {
-    width: 22px;
-    height: 15px;
-}
 
 /* Footer of last slide is at the bottom and content is centered */
 #first-slide footer{
     bottom: 5%;
-    font-size: 13px;
+    font-size: 60%;
     text-align: center;
     padding: 0 1em;
+    position: absolute;
+    left: 0;
+    right: 0;
 }
 
 /* SECOND SLIDE */
@@ -104,7 +95,7 @@ body{
 #second-slide {
     background: #FFFFFF;
     color: #1A367A;
-    font-size: 15px;
+    font-size: 65%;
     height: 100vh;
 }
 
@@ -113,15 +104,12 @@ body{
 }
 
 #text-slide-2 {
-    font-size: 15px;
     margin-left: 15%;
     margin-right: 15%;
 }
 
 #title-slide-2 {
-    font-size: 30px;
-    font-weight: bold;
-    margin-top: 5%;
+    margin-top: 10%;
     margin-bottom: 15%;
 }
 
@@ -160,11 +148,6 @@ body{
     bottom: 8%;
     left: 0;
     right: 0;
-}
-
-#vector2 {
-    width: 22px;
-    height: 15px;
 }
 
 /* FOURTH SLIDE */
