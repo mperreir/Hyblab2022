@@ -19,15 +19,17 @@ class Step6Page extends Page {
                     learnMoreLink={questions[0].link}
                     nextStepMessage="Dépouiller les bulletins de vote et compter les voies"
                 />,
-                <GamePage step={step}
+                <GamePage
+                    step={step}
                     title='Le 1er tour'
                     subtitle="Clique sur l'urne pour ouvrir toutes les enveloppes."
                     buttonTitle='Continuer'
                     returnToExplanations={() => this.returnToExplanations()}
-                    disableGameButton={() => this.disableGameButton()}
-                    enableGameButton={() => this.enableGameButton()}
                 >
-                    <Step6Game />
+                    <Step6Game
+                        disableGameButton={() => this.disableGameButton()}
+                        enableGameButton={() => this.enableGameButton()}
+                    />
                 </GamePage>
             ],
             subStepIndex: 0
