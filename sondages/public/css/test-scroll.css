@@ -13,6 +13,7 @@ body {
     font-family: 'Kanit', sans-serif;
     font-weight: 400;
     background: #303844;
+    overflow-x: hidden;
 }
 
 #container {
@@ -26,7 +27,6 @@ header {
     display: flex;
     justify-content: center;
     height: 100vh;
-    overflow: hidden;
     width: 100%;
 }
 
@@ -83,7 +83,7 @@ header .startTheRace {
 header .startTheRace button {
     display: block;
     width: 80%;
-    height: 10vh;
+    height: 9vh;
     margin-top: -1.5vh;
     border-radius: 500px;
     border: 0;
@@ -91,7 +91,7 @@ header .startTheRace button {
     z-index: 5;
     font-family: 'Goldman', cursive;
     color: white;
-    font-size: 22px;
+    font-size: 25px;
     font-weight: 500;
     outline: none;
     -webkit-tap-highlight-color: transparent;
@@ -292,12 +292,9 @@ footer p {
 /* as long as the screen aspect ratio is higher than 9:16 */
 @media screen and (min-aspect-ratio: 9/16) {
     #container {
-        margin-left: calc((100vw - 100 * 9vh / 16) / 2);
         min-height: 100vh;
-    }
-
-    #container, #race {
         width: calc(100 * 9vh / 16);
+        margin: 0 auto;
     }
 
 }
