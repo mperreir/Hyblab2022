@@ -134,6 +134,7 @@ page('/communes-2/information', async function () {
 });
 
 function histo() {
+
     const margin = 20;
     const width = 330 - 2 * margin;
     const height = 250 - 2 * margin;
@@ -144,12 +145,12 @@ function histo() {
     let svg = d3.select("#histogramme")
         .append("svg")
         .attr("width", width + margin )
-        .attr("height", height +  5 * margin)
-        .attr('transform', `translate(${0}, ${margin - 20})`)
+        .attr("height", height +  6 * margin)
+        .attr('transform', `translate(${margin}, ${margin - 20})`)
         
 
     const chart = svg.append('g')
-    .attr('transform', `translate(${margin*2.5}, ${margin * 2})`)
+    .attr('transform', `translate(${margin*1.2}, ${margin * 2})`)
     
     const color = d3.scaleOrdinal(col)
     color.domain(d => d.NomC)
@@ -241,7 +242,7 @@ function pie(){
 
     let col = ["#ED6464","#83C49E"]; 
 
-    const size = 350;
+    const size = 300;
     const fourth = size / 4;
     const half = size / 2;
     const labelOffset = fourth / 2;
@@ -249,7 +250,7 @@ function pie(){
 
     const chart = container.append('svg')
         .style('width', '100%')
-        .attr('transform', `translate(${5}, ${30})`)
+        .attr('transform', `translate(${0}, ${50})`)
         .attr('viewBox', `6 10 ${size-5} ${size/1.4}`);
 
     const plotArea = chart.append('g')
@@ -301,5 +302,5 @@ function pie(){
           .attr('y', 40)
           .style('font-size', '11px')
           .attr('text-anchor', 'middle')
-          .text(`Voix des candidats au 2e tour en 2017 à ${dataSet[0].Commune}`);         
+          .text(`${dataSet[0].Commune}`);         
 }

@@ -19,7 +19,7 @@
 }
 
 .popUp > h6{
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 20px;
     font-size: 25%;
     text-align: center;
@@ -70,6 +70,6 @@
 .popUp-infoCommune{
     font-size: 50%;
     text-align: left;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }

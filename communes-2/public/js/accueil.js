@@ -30,7 +30,7 @@ page('/communes-2/', async function () {
     });
 
     document.getElementById("credits-btn").addEventListener('click', function () {
-        page('/communes-2/credits');
+        page('/communes-2/information');//credits
     });
 
     // let allbutton = document.querySelectorAll("input[type='button']");
