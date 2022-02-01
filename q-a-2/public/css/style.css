@@ -609,7 +609,7 @@ body{
     background-color: white;
 }
 
-.endGameCard-container {
+.endGameCard_container {
     text-align: center;
     display: flex;
     height: 100%;
@@ -631,31 +631,27 @@ body{
                 10px 10px black;
 }
 
-.endGameCard-title {
+.endGameCard_title {
     font-family: 'Spicy Rice';
     font-weight: bold;
     font-size: 40%;
-    padding:20px;
+    padding: 20px;
+    font-size: 5.26vh;
 }
 
-.endGameCard-text {
+.endGameCard_text {
     font-family: 'Jost';
     font-size: 20%;
-    padding:20px;
+    padding: 20px;
+    font-size: 2.1vh;
+    font-weight: 300;
 }
 
-.endGameCard-button {
-    font-family: 'Spicy Rice';
-    font-weight: bold;
-    font-size:30%;
-    border:none;
-    border-radius: 36px;
-    padding:10px 30px 10px 30px;
-    background-color: white;
-    cursor: pointer;
+.endGameCard_button {
+    margin-bottom: 5vh;
 }
 
-.endGameCard-image {
+.endGameCard_image {
     display: flex;
     flex-direction:column;
     align-items: center;
@@ -837,6 +833,10 @@ body{
     cursor: pointer;
 }
 
+.tamponButton > img {
+    height: 5.25vh;
+}
+
 .step1game {
     height: 100%;
     width: 100%;
@@ -1012,7 +1012,7 @@ input[type="checkbox"] {
 
 .gamePage_title_container > img {
     position: absolute;
-    top: 20px;
+    top: 10px;
     right: 0;
     height: 4vh;
     cursor: pointer;
@@ -1022,16 +1022,19 @@ input[type="checkbox"] {
     margin-top: 5vh;
     font-family: "Spicy Rice";
     font-size: 4vh;
+    text-align: center;
 }
 
 .gamePage_title_container > p {
+    text-align: center;
     font-size: 2.1vh;
     font-weight: 300;
 }
 
 .gamePage_container {
+    height: 55vh;
     width: 100%;
-    height: 60vh;
+    margin-bottom: 3vh;
 }
 
 .step5game {
