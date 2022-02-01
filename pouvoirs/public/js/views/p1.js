@@ -83,7 +83,6 @@ const init_p1 = function() {
   const bubble = document.createElement("img");
   bubble.src = "img/dialogBoxes/advisor_xl.svg";
   bubble.style.verticalAlign = "top";
-  // diBox.style.height = bubble.clientHeight;
   diBox.appendChild(bubble);
   const originalText = "Moua est accueilli par un membre de l'Élysée. Le conseiller de l'ex président lui demande : </br><br><b>Comment souhaitez-vous gérer la France pendant l'absence momentanée du Président ?</b>";
   
@@ -126,12 +125,12 @@ const init_p1 = function() {
   buttons.style.height = "25%";
   // buttons.style.overflow = "auto";
   var x1 = document.createElement("BUTTON");
-  x1.innerHTML = "Je serai plus efficace en dirigeant seul.";
+  x1.innerHTML = getText("p1-a1");
   var x2 = document.createElement("BUTTON");
-  x2.innerHTML = "Je peux nommer un responsable.";
+  x2.innerHTML = getText("p1-a2");
 
-  const t1 = "Mauvaise réponse ! La Vème république est une démocratie, et le Président ne peut pas...";
-  const t2 = "Bonne réponse ! Le président nomme un Premier Ministre qui lui propose ensuite des mi....";
+  const t1 = getText("p1-a1-desc");
+  const t2 = getText("p1-a2-desc");
 
   const colors = ["#FF2019", "#1be5b9"];
   function changeText(nb, txt, btn) {
@@ -176,7 +175,7 @@ const init_p1 = function() {
 
   css([x1, x2], {
     'background-color' : '#D4C2F0',
-    'font-size' : '25%',
+    'font-size' : '15%',
     'color' : 'white',
     'width' : '80%',
     'height' : '45%',
