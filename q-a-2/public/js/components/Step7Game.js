@@ -1,11 +1,11 @@
-class Step6Game extends React.Component {
+class Step7Game extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
             urneState: 0,
             maxUrneState: 8,
-            vote: [0, 0, 0, 0, 0],
-            candidates: stepsCandidates["6"]
+            vote: [0, 0],
+            candidates: stepsCandidates["7"]
         }
     }
 
@@ -17,7 +17,7 @@ class Step6Game extends React.Component {
             for (let i = 0; i < it; i++) {
                 const g = Math.random() * toGive
                 toGive -= g;
-                vote[Math.floor(Math.random() * 5)] += g;
+                vote[Math.floor(Math.random() * 2)] += g;
             }
             this.setState({ vote: vote.map((v, i) =>  this.state.vote[i] + (v / it / this.state.vote.length)), urneState: this.state.urneState+1 }, () => {
                 if (this.state.urneState === this.state.maxUrneState) {

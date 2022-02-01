@@ -26,10 +26,7 @@ class Step6Page extends Page {
                     buttonTitle='Continuer'
                     returnToExplanations={() => this.returnToExplanations()}
                 >
-                    <Step6Game
-                        disableGameButton={() => this.disableGameButton()}
-                        enableGameButton={() => this.enableGameButton()}
-                    />
+                    <Step6Game />
                 </GamePage>
             ],
             subStepIndex: 0

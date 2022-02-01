@@ -2,8 +2,16 @@ class GamePage extends Page {
     constructor(props) {
         super(props);
         this.state = {
-            gameButtonDisabled: true
+            buttonDisabled: true
         }
+    }
+
+    enableGameButton() {
+        this.setState({ buttonDisabled: false });
+    }
+
+    disableGameButton() {
+        this.setState({ buttonDisabled: true });
     }
 
     render() {
@@ -16,9 +24,11 @@ class GamePage extends Page {
                     <p>{this.props.subtitle}</p>
                 </div>
                 <div className='gamePage_container'>
-                    {this.props.children}
+                    {
+                        React.cloneElement(this.props.children, { enableGameButton: () => this.enableGameButton(), disableGameButton: () => this.disableGameButton() })
+                    }
                 </div>
-                <Button value={this.props.buttonTitle} onClick={() => this.props.buttonOnClick()} disabled={this.state.gameButtonDisabled} />
+                <Button value={this.props.buttonTitle} onClick={() => this.props.buttonOnClick()} disabled={this.state.buttonDisabled} />
             </div>
         )
     }

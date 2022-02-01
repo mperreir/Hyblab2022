@@ -10,6 +10,7 @@ candidates.forEach(candidate => {
   stepsCandidates[step].push(candidate);
 })
 //stepsCandidates["1"] = candidates;
+stepsCandidates["6"] = candidates.slice(0, 5);
 
 class App extends React.Component {
   constructor(props) {
@@ -40,9 +41,9 @@ class App extends React.Component {
   }
 
   render() {
-      return this.state.stepPages[this.state.step];
-    }
+    return this.state.stepPages[this.state.step];
   }
+}
 
 ReactDOM.render(
   <App />,
