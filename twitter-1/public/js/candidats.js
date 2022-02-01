@@ -77,8 +77,15 @@ const initSlide3 = async function () {
 
         //Get the candidats from html document
         let button = document.querySelector('#btn-' + candidat.id);
-        /*let nom = button.childNodes[1];
-        nom.data = `${candidats[i-1].name}`;*/
+        button.style.fontFamily = "'Outfit', sans-serif";
+        let nom = button.childNodes[3];
+
+        if (candidat.name === "N. Dupont-Aignan") {
+            nom.innerHTML = "Nicolas Dupont-Aignan"
+        }else{
+            nom.innerHTML = `${candidat.name}`;
+        }
+        console.log(nom);
 
         //Get the candidats:popup from html document (have to change number)
         let poppups = document.querySelector('#downup-' + candidat.id);
@@ -268,7 +275,7 @@ const update_semaine = async function (truc, candidat_id) {
         top_tweets = await (await fetch(`./api/tweets/tops/all/candidat/${candidat_id}`)).json();
     }
 
-    top_tweets.forEach(top_tweet => {
+        top_tweets.forEach(top_tweet => {
         let new_slide = document.createElement('div');
         let p = document.createElement('p');
         new_slide.setAttribute("class", "swiper-slide tweet");
