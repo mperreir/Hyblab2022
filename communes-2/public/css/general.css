@@ -1,12 +1,12 @@
-/* ------- Important ! Please at least keep the last part of this CSS ----------- */
-/* that forces a 9:16 format (portrait) on all contents */
+/* ---------- Important media queries for easy responsive content :-) ----------------- */
+/* Can be adapted for other ratios that 9:16 or for horizontal content (ex: 16:9) */
 
 /* This media query ensures that we allways will the width of the screen */
 /* as long as the screen aspect ratio is below 9:16 */
-@media screen and (max-aspect-ratio: 9/16){
+@media screen and (max-aspect-ratio: 9/16) and (min-width :480px){
     #container{
-        margin-top: calc((100vh - 100 * 16vw / 9) / 2);
         width: 100vw;
+        margin-top: calc((100vh - 100 * 16vw / 9) / 2);
         height: calc(100 * 16vw / 9);
         overflow: hidden;
     }
@@ -18,9 +18,21 @@
     }
 }
 
+/* Mobile */
+@media screen and (max-width: 480px) {
+    #container{
+        margin-top: 0;
+        width: 100vw;
+        height: 88vh; /* pour les navigateurs qui ne supportent pas  -webkit-fill-available */
+        height: -webkit-fill-available;
+        font-size: calc(12vw*16/9);
+        overflow: hidden;
+    }
+}
+
 /* This media query ensures that we allways will the height of the screen */
 /* as long as the screen aspect ratio is higher than 9:16 */
-@media screen and (min-aspect-ratio: 9/16){
+@media screen and (min-aspect-ratio: 9/16) and (min-width :480px) {
     #container{
         margin-left: calc((100vw - 100 * 9vh / 16) / 2);
         width: calc(100 * 9vh / 16);
@@ -45,11 +57,15 @@ body{
     background-color: black;
     color: white;
     overflow: hidden;   /* to avoid slider bugs on some browsers */
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Reem Kufi', sans-serif;
 }
 
 #container{
-    position: relative; /* for absolute positionning of child elements*/
+    position: absolute; /* for absolute positionning of child elements*/
+}
+
+.bebas-neue{
+    font-family: "Bebas Neue", cursive;
 }
 
 /* -------------- Loader --------------*/
@@ -138,6 +154,10 @@ body{
     margin-bottom: 50%;
 }
 
+.decalageBottom40{
+    margin-bottom: 30%;
+}
+
 .decalageBottom30{
     margin-bottom: 30%;
 }
@@ -150,8 +170,7 @@ body{
     margin-bottom: 5%;
 }
 
-.genericText{
-    font-family: "Reem Kufi";
+.text-app, .genericText{
     font-size: 20%;
     color: #282246;
     margin-left: 10%;
@@ -166,7 +185,6 @@ body{
 }
 
 .textZone{
-    font-family: "Bebas Neue";
     font-size: 20%;
     background-color: #282246;
     padding: 10px 60px 10px 60px;
@@ -179,14 +197,6 @@ body{
 
 .bold{
     font-weight: bold;
-}
-
-.bebas-neue{
-    font-family: "Bebas Neue";
-}
-
-.reem-kufi{
-    font-family: "Reem Kufi";
 }
 
 .margin-left-right{
@@ -220,8 +230,16 @@ body{
 
 .titre-info{
     margin-top: 20px;
-    font-size: 25%;
-    margin-bottom: 20px;
+    font-size: 23%;
+    margin-bottom: 5px;
+    font-family: "Bebas Neue";
+    text-align: center;
+    background-color: #282246;
+}
+
+#tour{
+    margin-left: 5%;
+    font-size: 20%;
     font-family: "Bebas Neue";
     text-align: center;
 }
@@ -243,7 +261,7 @@ body{
 }
 
 #echarpe {
-    height: 55.47px;
-    top: 291.41px;
+    height: 50%;
+    width: 110%;
     transform: rotate(-9.5deg);
 }

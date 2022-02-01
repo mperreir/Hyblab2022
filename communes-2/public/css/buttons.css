@@ -1,17 +1,36 @@
+.btn-popUp:hover, .btn-menu:hover, .btn-accueil:hover, .btn-accueilBonus:hover{
+    cursor: pointer;
+}
+
 .btn-accueil{  
-    font-family: "Bebas Neue";
     width: 13em;
     height: 3em;
-    font-size: 18%;
+    font-size: 20%;
     margin-bottom: 30px;
     border: none;
-    border-radius: 50px;
+    border-radius: 20px;
     transition: transform 250ms;
     line-height: 40px;
 }
 
+.btn-accueilBonus{  
+    background-color: #f0e4d8;
+    color:#282246;
+    border-color: #282246;
+    width: 13em;
+    height: 3em;
+    font-size: 20%;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    transition: transform 250ms;
+}
+
+.btn-accueilBonus:hover{
+    background-color: whitesmoke;
+    color: #282246;
+}
+
 .btn-menu{  
-    font-family: "Bebas Neue";
     width: 91px;
     height: 83px;
     font-size: 20%;
@@ -21,7 +40,6 @@
 }
 
 .btn-popUp{  
-    font-family: "Bebas Neue";
     width: 80%;
     height: 3em;
     font-size: 18%;
@@ -29,10 +47,6 @@
     border: none;
     border-radius: 50px;
     transition: transform 250ms;
-}
-
-.btn-popUp:hover, .btn-menu:hover, .btn-accueil:hover{
-    cursor: pointer;
 }
 
 .btn-bleu{
