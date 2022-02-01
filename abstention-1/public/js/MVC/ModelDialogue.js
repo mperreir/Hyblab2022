@@ -26,7 +26,6 @@ class ModelDialogue extends Observable {
             super.notifyObservers();
         }
         else {
-            console.log("ouais aussi")
             this.animationModel.finishDialogue();
         }
 
