@@ -7,6 +7,8 @@
 
 
 const axios = require("axios");
+const https = require("https");
+const request = require('request');
 const science = require("science");
 const DateController = require('./DateController');
 
@@ -49,7 +51,18 @@ function moyenne(arr_x, arr_y) {
  */
 function getData() {
     return new Promise((resolve, reject) => {
-        axios.get(URL_DATA)
+        request(URL_DATA, function (error, response, data) {
+            const result = {};
+
+            console.error('error:', error);
+            console.log('statusCode:', response && response.statusCode);
+
+            resolve(result)
+        }).on("error", err => {
+            reject(err);
+        })
+
+        /*https.get(URL_DATA, {})
             .then(({ status, data }) => {
                 const result = {};
                 if (status === 200) {
@@ -78,7 +91,7 @@ function getData() {
             })
             .catch(error => {
                 reject(error);
-            });
+            });*/
     })
 }
 
@@ -139,6 +152,7 @@ getData().then(data => {
                 y: loess_values
             })
         }
+
         cacheData = result;
     })
 })
