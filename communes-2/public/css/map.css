@@ -1,7 +1,41 @@
 /* Gestion Map */
 #map {
-    margin: 10%;
-    height: 50%;
+    height: 100%;
+    z-index: 0;
+    top: -14%;
+}
+.leaflet-tile-container {
+    display: none;
+    background-color: #F0F0F0;
+}
+.entete{
+    position: absolute;
+    display: flex;
+    flex-direction: center;
+    align-content: center;
+    align-items: center;
+
+    right: 0;
+    margin-right: 45%;
+    z-index: 1;
+}
+#head-back{
+    position: absolute;
+    width: 100%;
+    background-color: #282246;
+    opacity: 100%;
+}
+#couter-country{
+    margin-top: 20%;
+    z-index: 1;
+}
+
+#map-page{
+    position: relative;
+    height: 100%;
+}
+.affir-box{
+    z-index: 1;
 }
 
 .surface-area{
@@ -199,13 +233,15 @@
     display: none;
 }
 
-/* Confirmer la sélection */
+/* Confirmer la sélection 
 #panel-confirm{
     position: absolute;
-    width: 380px;
-    height: 153px;
-    left: 58px;
-    top: 208px;
+    width: 100%;
+    top: 0;
+    margin-top: 60%;
+    margin-left: 5%;
+    margin-right: 8%;
+
 
     border-radius: 20px;
     
@@ -224,3 +260,4 @@
 
     text-align: center;
 }
+*/
