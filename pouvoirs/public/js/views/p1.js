@@ -153,6 +153,7 @@ const init_p1 = function() {
       if (nb===2){
         goodAns.play();
         btn.appendChild(valid);
+        showTitle("p1");
         swiper.enable();
       }
       else{

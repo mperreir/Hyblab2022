@@ -20,8 +20,8 @@ function linkDiv(divId, valid) {
 
             if (points <= 0) {
                 // Enable swiper once the right answers have been given
-                swiper.enable();
-        
+                showTitle("p4");
+                swiper.enable();        
                 deleteEventListener("assemblee");
                 deleteEventListener("maires");
                 deleteEventListener("conseil");
