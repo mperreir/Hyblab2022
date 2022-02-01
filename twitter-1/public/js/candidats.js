@@ -63,7 +63,7 @@ const initSlide3 = async function () {
 
         let select = document.querySelector('#select-' + candidat.id);
         select.style.borderRadius = "80px";
-        select.style.marginLeft = "25%";
+        select.style.marginLeft = "20%";
         select.style.marginTop = "1em";
         select.style.fontFamily = "'Outfit', sans-serif";
         select.style.height = "3em";
@@ -77,8 +77,15 @@ const initSlide3 = async function () {
 
         //Get the candidats from html document
         let button = document.querySelector('#btn-' + candidat.id);
-        /*let nom = button.childNodes[1];
-        nom.data = `${candidats[i-1].name}`;*/
+        button.style.fontFamily = "'Outfit', sans-serif";
+        let nom = button.childNodes[3];
+
+        if (candidat.name === "N. Dupont-Aignan") {
+            nom.innerHTML = "Nicolas Dupont-Aignan"
+        }else{
+            nom.innerHTML = `${candidat.name}`;
+        }
+        console.log(nom);
 
         //Get the candidats:popup from html document (have to change number)
         let poppups = document.querySelector('#downup-' + candidat.id);
@@ -88,6 +95,7 @@ const initSlide3 = async function () {
         let title = document.querySelector('#downup-' + candidat.id + ' h3');
         title.style.color = "white";
         title.style.fontWeight = "700";
+        title.style.marginBottom = "-12%";
 
         let image = document.querySelector('#images' + candidat.id);
 
@@ -101,8 +109,8 @@ const initSlide3 = async function () {
             image1.setAttribute("class","rotateimg320");
             image1.style.width="30%";
             image1.style.position = "absolute";
-            image1.style.top = "65%";
-            image1.style.left = "5%";
+            image1.style.top = "84%";
+            image1.style.left = "0%";
             image1.style.zIndex = "5";
             image.appendChild(image1);
 
@@ -112,8 +120,8 @@ const initSlide3 = async function () {
             image2.setAttribute("class","rotateimg20");
             image2.style.width="20%";
             image2.style.position = "absolute";
-            image2.style.top = "45%";
-            image2.style.left = "70%";
+            image2.style.top = "-10%";
+            image2.style.left = "82%";
             image2.style.zIndex = "5";
             image.appendChild(image2);
 
@@ -123,8 +131,8 @@ const initSlide3 = async function () {
             image3.setAttribute("class","rotateimg20");
             image3.style.width="15%";
             image3.style.position = "absolute";
-            image3.style.top = "70%";
-            image3.style.left = "25%";
+            image3.style.top = "89%";
+            image3.style.left = "18%";
             image3.style.zIndex = "5";
             image.appendChild(image3);
         }
@@ -150,7 +158,7 @@ const initSlide3 = async function () {
             image2.style.width="25%";
             image2.style.position = "absolute";
             image2.style.top = "-8%";
-            image2.style.left = "84%";
+            image2.style.left = "87%";
             image2.style.zIndex = "5";
             image.appendChild(image2);
 
@@ -187,8 +195,8 @@ const initSlide3 = async function () {
             image2.setAttribute("class","rotateimg20");
             image2.style.width="25%";
             image2.style.position = "absolute";
-            image2.style.top = "-10%";
-            image2.style.left = "78%";
+            image2.style.top = "-13%";
+            image2.style.left = "82%";
             image2.style.zIndex = "5";
             image.appendChild(image2);
 
@@ -199,7 +207,7 @@ const initSlide3 = async function () {
             image3.style.width="15%";
             image3.style.position = "absolute";
             image3.style.top = "9%";
-            image3.style.left = "87%";
+            image3.style.left = "89%";
             image3.style.zIndex = "5";
             image.appendChild(image3);
         }
@@ -226,11 +234,11 @@ const update_semaine = async function (truc, candidat_id) {
                 + " followers";
 
             let tweets = table.childNodes[3];
-            tweets.innerHTML = `${candidat_stat.total_week_tweets.toLocaleString('en').replaceAll(',', ' ')}`
+            tweets.innerHTML = '+' + `${candidat_stat.total_week_tweets.toLocaleString('en').replaceAll(',', ' ')}`
                 + " tweets";
 
             let retweets = table.childNodes[5];
-            retweets.innerHTML = `${candidat_stat.total_retweets_week.toLocaleString('en').replaceAll(',', ' ')}`
+            retweets.innerHTML = '+' + `${candidat_stat.total_retweets_week.toLocaleString('en').replaceAll(',', ' ')}`
                 + " retweets";
         } catch (e) {
             console.error(e);
@@ -267,12 +275,22 @@ const update_semaine = async function (truc, candidat_id) {
         top_tweets = await (await fetch(`./api/tweets/tops/all/candidat/${candidat_id}`)).json();
     }
 
-    top_tweets.forEach(top_tweet => {
+        top_tweets.forEach(top_tweet => {
         let new_slide = document.createElement('div');
         let p = document.createElement('p');
         new_slide.setAttribute("class", "swiper-slide tweet");
-        p.innerText = top_tweet.text;
+        p.innerHTML = top_tweet.text;
         new_slide.appendChild(p);
         swiper_wrapper.appendChild(new_slide);
     });
+
+    if (top_tweets.length === 0) {
+
+        let new_slide = document.createElement('div');
+        let p = document.createElement('p');
+        new_slide.setAttribute("class", "swiper-slide tweet");
+        p.innerText = "Pas de top tweet trouvé pour ce candidat !";
+        new_slide.appendChild(p);
+        swiper_wrapper.appendChild(new_slide);
+    }
 };

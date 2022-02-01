@@ -2,6 +2,10 @@
     <div class="downupPopup-content">
         <img src="{{profile_image_url}}" alt="Profile Picture {{name}}" height="100px" class="profile">
         <h3 class="nom-candidat">{{name}}</h3>
+        <select name="lenght" id="select-{{id}}">
+            <option value="semaine">Ses tweets populaires cette semaine</option>
+            <option value="tous">Ses tweets populaires depuis septembre</option>
+        </select>
         <table>
             <tbody>
             <tr>
@@ -11,10 +15,6 @@
             </tr>
             </tbody>
         </table>
-        <select name="lenght" id="select-{{id}}">
-            <option value="semaine">Ses tops tweets cette semaine</option>
-            <option value="tous">Tous ses tops tweets</option>
-        </select>
         <div class="box-tweet">
             <div id="mySwiper{{id}}" class="swiper candidattweet">
                 <div class="swiper-wrapper">
@@ -25,6 +25,14 @@
             <div id="images{{id}}" class="img"></div>
 
         </div>
+        
+        <div id="tweets-candidat">
+            <div id="tweet-candidat">
+            </div>
+        </div>
+
+        <p class="scroll-tip">Voir les autres top tweets!</p>
+        <span class="hovertree-upslide"></span>
 
 
     </div>

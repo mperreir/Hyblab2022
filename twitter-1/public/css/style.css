@@ -68,7 +68,7 @@ body {
 
 /* white navigation bullets */
 .swiper-pagination-bullet-active {
-    background-color: white !important;
+    background-color: grey !important;
 }
 
 /* the slides and the loader should fill the whole 9:16 zone */
@@ -188,12 +188,15 @@ h1{
     width: 100%;
     height: 10%;
     box-shadow: 7px 7px 25px rgba(0, 0, 0, 0.25);
+    font-family: "Outfit", sans-serif;
 }
 
 .menu button{
     position : absolute;
     /*top : -15%;*/
     text-align : center;
+    font-family: "Outfit", sans-serif;
+    font-size:17%;
 }
 .menu .menu-candidat {
     height : 60px;
@@ -222,6 +225,10 @@ h1{
     border: none;
 }
 
+#menu3 button{
+    font-size : 100%;
+}
+
 h2{
     font-family: 'Outfit', sans-serif;
     font-size: 60%;
@@ -235,15 +242,40 @@ h2{
     font-size: 20%;
 }
 
+.container-btn-end-game {
+    top: 78%;
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.btn-end-game {
+    border-radius: 80px;
+    box-shadow: rgba(0, 0, 0, 0.25) 7px 7px 25px 0;
+    border: none;
+    padding: 5%;
+    justify-content: space-around;
+    font-family: Outfit, sans-serif;
+    font-size: 90%;
+    font-weight: 700;
+}
+
 div{
     /*font-size: 1em;*/
     color : black;
 }
 
-div #choix {
+#choix {
     display: flex;
     justify-content: space-around;
+    margin-top: -15%;
+}
 
+#choix button{
+    font-family: "Outfit", sans-serif;
+    font-weight:500;
+    font-size:100%;
 }
 
 #third-slide{
@@ -265,8 +297,9 @@ div #choix {
     padding: 0;
     border: none;
     background: none;
-    margin-bottom: 5%;
-    margin-top:3%;
+    margin-bottom: 6%;
+    margin-top:5%;
+    font-size : 17%;
 }
 
 .profile3{
@@ -297,7 +330,7 @@ div #choix {
 }
 
 table{
-    font-size: 20%;
+    font-size: 18%;
     margin: auto;
 }
 
@@ -359,6 +392,74 @@ th, td {
 .candidattweet .swiper-pagination{
     margin-top : 1vh;
 }
+
+.ThemeGraphe {
+    position: absolute;
+    bottom: 10%;
+    left: 7.5%;
+}
+
+.scroll-tip {
+    position: absolute;
+    font-size: 20%;
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+    left: 25%;
+    bottom:5%;
+    color: white;
+
+}
+
+.hovertree-upslide {
+    position: absolute;
+    /*left: calc(50% - 10px);*/
+    display:inline-block;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    margin-left:auto;
+    margin-right:auto;
+
+    width: 20px;
+    height: 20px;
+    z-index: 99;
+    animation: hovertreemove 1.5s infinite ease-in-out;
+    -webkit-animation: hovertreemove 1.5s infinite ease-in-out;
+    background-image:url(http://hovertree.com/texiao/css3/29/hovertreeup.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+@keyframes hovertreemove {
+    0% {
+        opacity: 0.1;
+        transform: translate3d(0,8px,0);
+    }
+    50% {
+        opacity: 1;
+        transform: translate3d(0,-8px,0);
+    }
+    100% {
+        opacity: 0.1;
+        transform: translate3d(0,-16px,0);
+    }
+}
+@-webkit-keyframes hovertreemove {
+    0% {
+        opacity: 0.1;
+        -webkit-transform: translate3d(0,8px,0);
+    }
+    50% {
+        opacity: 1;
+        -webkit-transform: translate3d(0,-8px,0);
+    }
+    100% {
+        opacity: 0.1;
+        -webkit-transform: translate3d(0,-16px,0);
+    }
+}
+
 
 #fourth-slide{
     background-color: #fff;
@@ -535,35 +636,37 @@ img#theme {
 
 /* This media query ensures that we allways will the width of the screen */
 /* as long as the screen aspect ratio is below 9:16 */
-@media screen and (max-aspect-ratio: 9/16){
+/*@media screen and (max-aspect-ratio: 9/16){
     #container{
         margin-bottom: calc(100vh - 100 * 16vw / 9);
         width: 100vw;
         height: calc(100 * 16vw / 9);
-    }
+    }*/
 
     /* We set a default font size here. It will be the base for all other font sizes */
     /* Here the font size is proportional to display width */
-    body{
+    /*body{
         font-size: calc(12vw*16/9);
+        background-color: white;
     }
-}
+}*/
 
 /*!* This media query ensures that we allways will the height of the screen *!*/
 /*!* as long as the screen aspect ratio is higher than 9:16 *!*/
-@media screen and (min-aspect-ratio: 9/16){
+/*@media screen and (min-aspect-ratio: 9/16){
     #container{
         margin-left: calc((100vw - 100 * 9vh / 16) / 2);
         width: calc(100 * 9vh / 16);
         height: 100vh;
-    }
+    }*/
 
 /*    !* We set a default font size here. It will be the base for all other font sizes *!*/
 /*    !* Here the font size is proportional to display height *!*/
-    body{
+    /*body{
         font-size: 12vh;
+        background-color: white;
     }
-}
+}*/
 
 
 /*@media screen and (min-device-width: 600px){*/
@@ -579,6 +682,56 @@ img#theme {
 /*    }*/
 /*}*/
 
+/* ---------- Important media queries for easy responsive content :-) ----------------- */
+/* Can be adapted for other ratios that 9:16 or for horizontal content (ex: 16:9) */
+
+/* This media query ensures that we allways will the width of the screen */
+/* as long as the screen aspect ratio is below 9:16 */
+@media screen and (max-aspect-ratio: 9/16) and (min-width :480px){
+    #container{
+        width: 100vw;
+        margin-top: calc((100vh - 100 * 16vw / 9) / 2);
+        height: calc(100 * 16vw / 9);
+    }
+
+    /* We set a default font size here. It will be the base for all other font sizes */
+    /* Here the font size is proportional to display width */
+    body{
+        font-size: calc(12vw*16/9);
+    }
+}
+
+/* Mobile */
+
+@media screen and (max-width: 480px) {
+    #container{
+        margin-top: 0;
+        width: 100vw;
+        height: 88vh; /* pour les navigateurs qui ne supportent pas  -webkit-fill-available */
+        height: -webkit-fill-available;
+        font-size: calc(12vw*16/9);
+    }
+}
+
+/* This media query ensures that we allways will the height of the screen */
+/* as long as the screen aspect ratio is higher than 9:16 */
+@media screen and (min-aspect-ratio: 9/16) and (min-width :480px) {
+    #container{
+        margin-left: calc((100vw - 100 * 9vh / 16) / 2);
+        width: calc(100 * 9vh / 16);
+        height: 100vh;
+    }
+
+    /* We set a default font size here. It will be the base for all other font sizes */
+    /* Here the font size is proportional to display height */
+    body{
+        font-size: 12vh;
+    }
+}
+
+#container{
+    position: absolute; /* for absolute positionning of child elements*/
+}
 
 /*Page de login*/
 .body-login {
