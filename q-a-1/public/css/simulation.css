@@ -54,6 +54,7 @@ body{
 p{
     font-size: 15%;
     font-family: "mariannemedium";
+    font-variant: normal;
 }
 
 .head-simulation{
