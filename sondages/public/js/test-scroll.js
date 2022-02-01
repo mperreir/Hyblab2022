@@ -108,43 +108,16 @@ function start() {
         CourseSelection.className = showed ? "body" : "hidden"
     })
 
-
     AjoutDesCandidats(CandidatSelection)
-
 
     const clientPatternHeight = document.getElementById('pattern').clientHeight;
     const background = GenereLaListeDesBackgrounds(Math.floor(HAUTEUR_DE_LA_PAGE / clientPatternHeight));
 
-    let currHauteur = 0
-
-    for (let i = 0; i < background.length - 1; i++) {
+    for (let i = 0; i < background.length; i++) {
         const img = document.createElement("img")
         img.src = `./data/_AGR src/pattern/${background[i]}.svg`
         blocks.appendChild(img)
-        currHauteur += clientPatternHeight;
     }
-
-    // partie restante & manquante à combler
-    let remainingBackground = HAUTEUR_DE_LA_PAGE - currHauteur - clientPatternHeight;
-
-    console.log(remainingBackground)
-    console.log(HAUTEUR_DE_LA_PAGE)
-    console.log(currHauteur)
-    console.log(clientPatternHeight)
-
-    let element = document.createElement("div");
-    element.setAttribute("style", "height: " + remainingBackground + "px");
-    element.style.backgroundImage = `url('./data/_AGR src/pattern/un_px.svg')`;
-    element.style.backgroundRepeat = 'repeat';
-    blocks.appendChild(element);
-
-
-    // Ajout de l'arrivée
-    const img = document.createElement("img")
-    img.src = `./data/_AGR src/pattern/${background[background.length - 1]}.svg`
-    blocks.appendChild(img)
-
-
 
     function setBeforeScrolling() {
         race.setAttribute("style", "position:absolute;top:0px")
@@ -169,11 +142,8 @@ function start() {
     function scrollPosition(scroll) {
 
         const rect = animation.getBoundingClientRect()
-
         const not_seeing_bottom = (rect.bottom - window.innerHeight) >= 0
-
         const y_to_top = rect.top + window.scrollY
-
         const hauteur = (scroll - y_to_top) + (window.innerHeight / 2)
 
         let indexJour = parseInt(hauteur / PIXEL_PAR_JOUR) + 1
