@@ -4,10 +4,11 @@
     font-family: 'blatantregular';
 }
 
-body{
+html,body{
     overflow: hidden;
     background-size: cover;
     background-color: black;
+    background: transparent;
 }
 
 @font-face {
@@ -19,8 +20,9 @@ body{
 
 }
 
-#container {
+#container {    
     background-color: white;
+    background-color: transparent;
     color: black;
     padding-top: 3vh;
     font-size: 30%;
