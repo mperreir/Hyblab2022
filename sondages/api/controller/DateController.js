@@ -4,7 +4,7 @@
  * @author : Team Genesis
  */
 
-let letDataRetrival = new Date(70, 1);
+let lastDataRetrieval = new Date(70, 1);
 
 /**
  *
@@ -25,7 +25,15 @@ class DateController {
     }
 
     shouldWeUpdateData() {
+        let currentDate = new Date();
+        currentDate.setHours(0,0,0,0);
 
+        if (currentDate > lastDataRetrieval) {
+            lastDataRetrieval = currentDate;
+            return true;
+        } else {
+            return false;
+        }
     }
 }
 

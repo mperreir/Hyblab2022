@@ -61,7 +61,6 @@
                             const tours = sondage.tours.filter(x => x.tour == "Premier tour")
                             if (tours.length != 1) {
                                 console.log(sondage)
-                                console.warn("Alerte au gogole les enfants", tours.length)
                                 continue
                             }
 
@@ -90,6 +89,7 @@
       
 
         getData().then(data => {
+            console.log(data)
 
             const points = Object.keys(data).map(candidat => {
 
@@ -142,14 +142,11 @@
 
 
                 var loess_generator = science.stats.loess();
-                loess_generator.bandwidth(1);
+                loess_generator.bandwidth(0.5);
                 let loess_values = loess_generator(range(days.length), intentions);
-
                 if (loess_values.length > 0) {
                     result.push({
                         name: "moyliss-" + candidat,
-                        type: "lines",
-                        type: 'scatter',
                         x: days,
                         y: loess_values
                     })

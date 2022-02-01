@@ -1,4 +1,4 @@
-const candidat = [
+const CANDIDATS = [
 	{
 		"nom": 'Jean-Luc Mélenchon',
 		"img": 'melenchon.png'
@@ -21,7 +21,7 @@ const candidat = [
 	},
 	{
 		"nom": 'Christiane Taubira',
-		"img": 'taubira'
+		"img": 'taubira.png'
 	},
 	{
 		"nom": 'Arnaud Montebourg',

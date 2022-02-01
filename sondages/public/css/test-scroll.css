@@ -4,13 +4,22 @@
 
 html, body {
     overscroll-behavior: none;
+    -webkit-overflow-scrolling: touch;
 }
 
 body {
-    background-color: black;
+    display: block;
     color: white;
     font-family: 'Kanit', sans-serif;
     font-weight: 400;
+    background: #303844;
+    overflow-x: hidden;
+}
+
+#container {
+    display: block;
+    position: relative;
+    width: 100%;
 }
 
 header {
@@ -18,40 +27,54 @@ header {
     display: flex;
     justify-content: center;
     height: 100vh;
-    background: #303844;
+    width: 100%;
+}
+
+header .forCars {
+    position: relative;
+    width: 90%;
+    height: 70vh;
+    margin-top: 25px;
 }
 
 header .main {
-    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     background: #FFF;
     color: black;
-    width: 90%;
-    height: 70vh;
+    width: 100%;
+    height: 100%;
+    height: 70.5vh;
     padding: 25px;
-    margin-top: 25px;
     border-radius: 10px;
+    overflow-y: hidden;
 }
 
 header .main .logo {
     width: 80%;
 }
 
-header .main .car {
+header .main p {
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+header .car {
     position: absolute;
-    width: 70vw;
+    height: 10vh;
+    background-position: center center;
+    max-width: 400px;
 }
 
-header .main .car-b {
-    bottom: -25px;
-    left: 15vw;
+header .car-b {
+    bottom: -5%;
+    left: 40%;
 }
 
-header .main .car-r {
-    bottom: -60px;
-    left: -100px;
+header .car-r {
+    bottom: -10%;
+    left: -20%;
 }
 
 header .startTheRace {
@@ -59,17 +82,17 @@ header .startTheRace {
     display: flex;
     justify-content: center;
     width: 100%;
-    bottom: 5vh;
+    bottom: 9vh;
 }
 
 header .startTheRace button {
     display: block;
     width: 80%;
-    height: 10vh;
+    height: 9vh;
     margin-top: -1.5vh;
     border-radius: 500px;
     border: 0;
-    background: red;
+    background: #CF4B45;
     z-index: 5;
     font-family: 'Goldman', cursive;
     color: white;
@@ -80,24 +103,55 @@ header .startTheRace button {
 }
 
 header .startTheRace button:active {
-    background: darkred;
+    background: #AE272C;
 }
 
 header .startTheRace .damier {
-    z-index: 0;
+    z-index: 2;
     display: block;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 7vh;
+    height: 6vh;
     object-fit: cover;
+}
+
+header .routeDebut {
+    position: absolute;
+    width: 100%;
+    height: 12vh;
+    bottom: 0;
+    background: url(../img/fond_debut.svg);
+    background-size: 100%;
+    background-repeat: repeat-y;
+}
+
+.hidden {
+    display: none;
 }
 
 .details {
     margin-top: 25px;
     width: 100%;
-    /* background: red; */
+}
+
+.details .top {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.details .top button {
+    border: none;
+    background: transparent;
+    border-radius: 100%;
+}
+
+.details .top button img {
+    width: 35px;
+    height: 35px;
 }
 
 .details .title {
@@ -111,6 +165,9 @@ header .startTheRace .damier {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    max-height: 50vh;
+    overflow-y: scroll;
+    padding-bottom: 50px;
 }
 
 .details .body .candidat {
@@ -123,6 +180,7 @@ header .startTheRace .damier {
     line-height: 14px;
     width: 90px;
     padding: 5px 0;
+    cursor: pointer;
 }
 
 .details .body .candidat img {
@@ -143,11 +201,7 @@ header .startTheRace .damier {
     background: blue;
 }
 
-#container {
-    display: block;
-    position: relative;
-    background-color: red;
-}
+
 
 #animation {
     position: relative;
@@ -157,7 +211,6 @@ header .startTheRace .damier {
     position: absolute;
     z-index: 99;
     height: 100vh;
-    background-color: #55001588;
     width: 100%;
 }
 
@@ -213,27 +266,20 @@ header .startTheRace .damier {
     width: 100%;
 }
 
-#blocks>* {
+footer {
     display: flex;
     align-items: center;
-    justify-content: center;
-    background-color: yellow;
-    color: #00000022;
-}
-
-#blocks>*:nth-child(2n) {
-    background-color: orange;
-}
-
-footer {
-    padding: 50px 0;
-    background-color: purple;
+    flex-direction: column;
+    background-color: #899853;
 }
 
 footer p {
-    margin: 50px 0 0;
     text-align: center;
-    font-size: 50px;
+    width: 70%;
+    text-align: center;
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 50px;
 }
 
 /* ---------- Important media queries for easy responsive content :-) ----------------- */
@@ -253,12 +299,9 @@ footer p {
 /* as long as the screen aspect ratio is higher than 9:16 */
 @media screen and (min-aspect-ratio: 9/16) {
     #container {
-        margin-left: calc((100vw - 100 * 9vh / 16) / 2);
         min-height: 100vh;
-    }
-
-    #container, #race {
         width: calc(100 * 9vh / 16);
+        margin: 0 auto;
     }
 
 }

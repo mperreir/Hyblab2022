@@ -7,6 +7,8 @@
 
 
 const axios = require("axios");
+const https = require("https");
+const request = require('request');
 const science = require("science");
 const DateController = require('./DateController');
 const CandidatController = require('./CandidatController');
@@ -51,36 +53,35 @@ function moyenne(arr_x, arr_y) {
  */
 function getData() {
     return new Promise((resolve, reject) => {
-        axios.get(URL_DATA)
-            .then(({ status, data }) => {
-                const result = {};
-                if (status === 200) {
-                    for (const sondage of data) {
+        request(URL_DATA, (error, response, data) => {
+            const result = {};
+            data = JSON.parse(data);
 
-                        const tours = sondage.tours.filter(x => x.tour === "Premier tour");
-                        if (tours.length !== 1) {
-                            continue;
-                        }
+            if (response.statusCode === 200) {
+                for (const sondage of data) {
+                    const tours = sondage.tours.filter(x => x.tour === "Premier tour");
+                    if (tours.length !== 1) {
+                        continue;
+                    }
 
-                        for (const candidat of tours[0].hypotheses.map(x => x.candidats).flat()) {
-                            if (candidat.candidat) {
-                                if (!result[candidat.candidat]) {
-                                    result[candidat.candidat] = {
-                                        "x": [],
-                                        "y": []
-                                    }
+                    for (const candidat of tours[0].hypotheses.map(x => x.candidats).flat()) {
+                        if (candidat.candidat) {
+                            if (!result[candidat.candidat]) {
+                                result[candidat.candidat] = {
+                                    "x": [],
+                                    "y": []
                                 }
-                                result[candidat.candidat]["y"].push(candidat.intentions);
-                                result[candidat.candidat]["x"].push(sondage.fin_enquete);
                             }
+                            result[candidat.candidat]["y"].push(candidat.intentions);
+                            result[candidat.candidat]["x"].push(sondage.fin_enquete);
                         }
                     }
                 }
-                resolve(result);
-            })
-            .catch(error => {
-                reject(error);
-            });
+            }
+            resolve(result)
+        }).on("error", err => {
+            reject(err);
+        })
     })
 }
 
@@ -120,35 +121,34 @@ getData().then(data => {
             }
         }
 
-        const result = [
-            /* {
-                 name: candidat,
-                 mode: "markers",
-                 type: "scatter",
-                 color: "red",
-                 ...data[candidat]
-            } */
-        ]
+        let result = {}
 
         let loess_generator = science.stats.loess();
-        loess_generator.bandwidth(1);
+        loess_generator.bandwidth(0.5);
         let loess_values = loess_generator(range(days.length), intentions);
 
         if (loess_values.length > 0) {
-            result.push({
-                name: "moyliss-" + candidat,
-                type: "lines",
+            result = {...result,
+                name: candidat,
                 x: days,
                 y: loess_values
-            })
+            };
         }
-        cacheData = result;
-    })
-})
 
-async function sendDataToFront(req, res) {
-    await getData();
-    res.status(201).json(cacheData)
+        return result;
+    })
+    cacheData = points;
+    return points;
+});
+
+function sendDataToFront(req, res) {
+    if (DateController.shouldWeUpdateData()) {
+        getData()
+            .then(res.status(201).json(cacheData))
+            .catch(res.status(500).send());
+    } else {
+        res.status(201).json(cacheData);
+    }
 }
 
 module.exports = sendDataToFront;

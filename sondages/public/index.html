@@ -18,6 +18,7 @@
 
   <script src="js/candidat.js" defer></script>
   <script src="js/test-scroll.js" defer></script>
+  <script src="js/intentions.js" defer></script>
 </head>
 
 <body>
@@ -26,40 +27,37 @@
 
     <header>
 
-      <div class="main">
-        <img src="img/logo.svg" class="logo">
+      <div class="forCars">
 
-        <div class="details">
-          <div class="title">Candidats</div>
-          <div class="body">
+        <div class="main">
+          <img src="img/logo.svg" class="logo">
 
-            <div class="candidat" data-selected="true">
-              <img src="img/candidats/macron.png" alt="">
-              Emmanuel Macron
-            </div>
-            <div class="candidat" data-selected="true">
-              <img src="img/candidats/macron.png" alt="">
-              Emmanuel Macron
-            </div>
-            <div class="candidat" data-selected="true">
-              <img src="img/candidats/macron.png" alt="">
-              Emmanuel Macron
-            </div>
-            <div class="candidat" data-selected="true">
-              <img src="img/candidats/macron.png" alt="">
-              Emmanuel Macron
-            </div>
+          <p>Suis la course présidentielle en direct !</p>
 
+          <div class="details">
+            <div class="top">
+              <div class="title">Candidats</div>
+              <button id="ShowCandidat"><img src="img/bouton_plus.svg"></button>
+            </div>
+            <div id="CandidatSelection" class="hidden"></div>
           </div>
+
+          <div class="details">
+            <div class="top">
+              <div class="title">Courses</div>
+              <button id="ShowCourses"><img src="img/bouton_plus.svg"></button>
+            </div>
+            <div id="CourseSelection" class="hidden">
+
+              <div style="width: 100px;height:100px;background:red;"></div>
+
+            </div>
+          </div>
+
         </div>
 
         <img src="img/voiture_bleue.svg" class="car car-b">
         <img src="img/voiture_rouge.svg" class="car car-r">
-
-        <div class="details">
-          <div class="title">Courses</div>
-          <div class="body"></div>
-        </div>
 
       </div>
 
@@ -68,11 +66,16 @@
         <img src="img/damier.svg" class="damier">
       </div>
 
+      <div  class="routeDebut"></div>
+
     </header>
 
     <div id="animation">
 
       <div id="race">
+
+        <img id="pattern" src="./data/_AGR src/pattern/fond2.svg"
+          style="display:block; visibility: hidden; width:100%; height: auto; position: absolute; top: -200vh; right:0">
 
         <div class="candidat" data-name="jeanlucmelenchon">
           <div class="name">
@@ -103,11 +106,20 @@
     </div>
 
     <footer>
-      <img src="https://www.svgrepo.com/show/42919/penguin.svg" alt="La mascote">
-      <p>Fait avec ❤️ à Nantes, France.</p>
+      <p>
+        La course des sondages à laquelle tu viens d’assister ne reflète que les intentions de votes mesurées au 1er
+        tour.
+      </p>
+      <p>
+        L’élection présidentielle se joue les 10 et 24 avril prochains.
+      </p>
+      <p>
+        Vote !
+      </p>
     </footer>
 
   </div>
+
 </body>
 
 </html>
