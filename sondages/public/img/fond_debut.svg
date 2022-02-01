@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 24.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 719.9 250" style="enable-background:new 0 0 719.9 250;" xml:space="preserve">
+	 viewBox="0 0 720 250" style="enable-background:new 0 0 720 250;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#41505B;}
-	.st1{fill:#E4E4E4;}
-	.st2{fill:#8D985C;}
+	.st0{fill:#899853;}
+	.st1{fill:#3D505C;}
+	.st2{fill:#E5E5E5;}
 </style>
 <title>fond_debutPlan de travail 13</title>
-<g id="Calque_3">
-	<rect x="144.9" class="st0" width="430" height="250"/>
-	<rect x="134.9" class="st1" width="10" height="250"/>
-	<rect x="574.9" class="st1" width="10" height="250"/>
-	<rect class="st2" width="135" height="250"/>
-	<rect x="584.9" class="st2" width="135" height="250"/>
+<rect y="0" class="st0" width="720" height="250"/>
+<g>
+	<rect x="144.9" y="0" transform="matrix(-1 -8.794865e-12 8.794865e-12 -1 719.8542 250)" class="st1" width="430" height="250"/>
+	<rect x="135" y="0" transform="matrix(-1 -8.911660e-12 8.911660e-12 -1 280.0015 250)" class="st2" width="10" height="250"/>
+	<rect x="575" y="0" transform="matrix(-1 -8.911660e-12 8.911660e-12 -1 1159.9984 250)" class="st2" width="10" height="250"/>
 </g>
 </svg>
