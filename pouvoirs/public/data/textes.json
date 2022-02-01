@@ -30,10 +30,15 @@
     "p5-bernard2": "Oh ? Tu serais d’accord ? Merci mon vieux, je savais que je pouvais compter sur toi !",
     "p5-note": "Depuis 2008, la grâce présidentielle n'est plus collective, mais individuelle. Ce qui explique qu'il y en a beaucoup moins qu'avant. Pompidou (1969-1974) en a, par exemple, accordé près de 2 000, alors que François Hollande en a accordé une quarantaine seulement.",
     "p6-etatmajor": "En tant que Président de la République, vous devenez le chef des armées. Vous seul pouvez décider d'utiliser l'arme nucléaire." ,
-    "p6-moua": "Hmmm, j’hésite sur l’avenir du pays de Lukabec…",
-    "p6-notpush": "Bravo, vous avez choisi la voie de la diplomatie, comme vos prédécesseurs. En France l'emploi de l'arme nucléaire n'a jamais été envisagé. C'est ce qu'on appelle une arme de dissuasion.",
+    "p6-moua": "Hmmm, j’hésite sur l’avenir du pays <br> de Lukabec…",
+    "p6-notpush": "Bravo, vous avez choisi la voie de la diplomatie. En France l'emploi de l'arme nucléaire n'a jamais été envisagé. C'est ce qu'on appelle une arme de dissuasion.",
     "p6-push": "Bon, vous avez totalement le droit de déclencher les forces nucléaires. Mais rappelez-vous, il faut penser à votre peuple et à la sécurité du pays…",
-    "p6-desc": "Vous êtes le garant de l'indépendance nationale, de l'intégrité du territoire et du respect des traités. Vous décidez l'emploi des forces et détenez à cet effet la responsabilité et le pouvoir d'engager le cas échéant les forces nucléaires. Vous présidez le conseil de politique nucléaire et le conseil de défense et de sécurité nationale(ce dernier est compétent pour toute question de défense et de sécurité et peut se réunir en formations spécialisées : conseil national du renseignement ou conseil restreint pour les problématiques liées aux opérations extérieures). À savoir que vous ne pouvez pas déclarer seul la guerre à un autre pays. Celle-ci doit être autorisée par le Parlement.",
+    "p6-info1": "Vous êtes le garant de l'indépendance nationale, de l'intégrité du territoire <br> et du respect des traités.",
+    "p6-info2": "Vous décidez l'emploi des forces <br> et détenez à cet effet la responsabilité <br> et le pouvoir d'engager le cas échéant <br> les forces nucléaires.",
+    "p6-info3": "Vous présidez le conseil de politique nucléaire et le conseil de défense <br> et de sécurité nationale.",
+    "p6-info4": "Ce dernier est compétent pour toute question de défense et de sécurité et peut se réunir en formations spécialisées.",
+    "p6-info5": "Soit en conseil national <br> du renseignement, ou soit en conseil restreint pour les problématiques liées aux opérations extérieures.",
+    "p6-info6": "À savoir que vous ne pouvez pas déclarer seul la guerre à un autre pays. Celle-ci doit être autorisée par le Parlement.",
     "thanks" : "Comme Moua, vous avez pu découvrir une partie des pouvoirs du Président de la République. Nous espérons que le jeu vous aura plu. À vous maintenant de vous renseigner et d’en apprendre davantage sur les autres pouvoirs du Président sur le site vie-publique.fr. Sur ce, je retourne chez Moua.",
     "pouvoirs-titre": {
         "p1": "Nommer le premier ministre",
@@ -41,6 +46,6 @@
         "p3": "Dissoudre l'assemblee nationale",
         "p4": "Article 16 : Pleins pouvoirs",
         "p5": "Article 17 : Droit de grace",
-        "p6": "Chef des armees"
+        "p6": "Chef des armées"
     }
 }
