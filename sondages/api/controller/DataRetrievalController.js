@@ -150,7 +150,6 @@ function sendDataToFront(req, res) {
 }
 
 function sendCandidatToFront(req, res) {
-    //console.log(cacheCandidat);
     if (CandidatController.shouldWeUpdateData()) {
         getData()
             .then(res.status(201).json(cacheCandidat))
@@ -161,4 +160,3 @@ function sendCandidatToFront(req, res) {
 }
 
 module.exports = {sendDataToFront, sendCandidatToFront};
-//console.log(cacheCandidat);

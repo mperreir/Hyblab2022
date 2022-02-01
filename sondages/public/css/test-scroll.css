@@ -16,6 +16,25 @@ body {
     overflow-x: hidden;
 }
 
+#Introduction {
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    transition: all .3s;
+    transform: translateY(0);
+    z-index: 500;
+    width: 100%;
+    height: 100%;
+    background: #303844;
+    display: block;
+}
+
+#Introduction.hide-introduction {
+    opacity: 0;
+    transform: translateY(-100%);
+}
+
 #container {
     display: block;
     position: relative;
@@ -215,6 +234,7 @@ header .routeDebut {
 }
 
 #race .candidat {
+    position: absolute;
     display: flex;
     align-items: center;
     font-size: 18px;
@@ -223,9 +243,9 @@ header .routeDebut {
 
 #race .candidat .name {
     text-align: center;
-    font-size: 19px;
+    font-size: 15px;
     font-style: italic;
-    margin-right: 15px;
+    margin-right: 10px;
 }
 
 #race .candidat .name .firstName {
@@ -245,8 +265,8 @@ header .routeDebut {
 }
 
 #race .candidat .block img {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     background: red;
     border-radius: 100px;
 }
@@ -255,6 +275,7 @@ header .routeDebut {
     color: #FFF;
     margin: 0 10px;
     font-weight: 500;
+    font-size: 15px;
 }
 
 #info {

@@ -20,8 +20,35 @@ const COMPATIBLE_BACKGROUNDS = {
     9: [2, 6, 7],
 }
 
+function InitDesIntentions(intentionsCandidats){
+    intentionsCandidats.forEach(candidat => {
+        const divCandidat = document.createElement('div');
+        divCandidat.setAttribute('data-name') = candidat.prenom + ' ' + candidat.nom;
+
+        const divName = document.createElement('div');
+        const divFirstName = document.createElement('div');
+        divFirstName.classList.add('firstName', candidat.prenom);
+        const divLastName = document.createElement('div');
+        divLastName.classList.add('lastName', candidat.nom);
+        divName.appendChild(divFirstName);
+        divName.append(divLastName);
+
+        const divBlock = document.createElement('div');
+        divBlock.classList.add('block');
+        const img = document.createElement('img');
+        img.setAttribute('src', candidat.image);
+        const divPourcent = document.createElement('div');
+        divPourcent.classList.add('pourcent', '0%');
+        divBlock.appendChild(img);
+        divBlock.appendChild(divPourcent);
+
+        divCandidat.appendChild(divName);
+        divCandidat.appendChild(divBlock);
+    });
+}
+
 function AjoutDesCandidats(candidats) {
-    
+
     const CandidatSelection = document.body.querySelector("#CandidatSelection")
 
     for (const candidat of candidats) {
@@ -30,10 +57,15 @@ function AjoutDesCandidats(candidats) {
         const avatar = document.createElement("img")
 
         block.className = "candidat"
-        avatar.src = "img/candidats/" + candidat.img
+        avatar.src = "img/candidats/" + candidat.img + '.png'
+        avatar.onerror = function(e) {
+            e.target.src='img/candidats/profil_inconnu_cadre.svg'
+        } 
 
         // Ajout des blocks
         block.appendChild(avatar)
+        block.appendChild(document.createTextNode(candidat.prenom))
+        block.appendChild(document.createElement("br"))
         block.appendChild(document.createTextNode(candidat.nom))
         CandidatSelection.appendChild(block)
 
@@ -89,6 +121,13 @@ function GenereLaListeDesBackgrounds(nb_jours) {
 function start() {
 
     window.scrollTo(0, 1);
+
+    const player = document.querySelector("lottie-player");
+    player.load("anim/debut.json");
+    player.addEventListener("complete", _ => {
+        window.scrollTo(0, 1);
+        document.body.querySelector("#Introduction").className = "hide-introduction"
+    })
 
     const NBR_JOUR = 100 // A changer dynamiquement
     const PIXEL_PAR_JOUR = 500
@@ -161,7 +200,7 @@ function start() {
         } else {
             setAfterScrolling()
         }
-
+        console.log(indexJour)
         if (indexJour > 0 && POLL[indexJour]) {
             for (let i = 0; i < POLL[indexJour].length; i++) {
 

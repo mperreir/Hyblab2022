@@ -4,7 +4,8 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1"> <title>Test Scroll - Hyblab 2022</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Test Scroll - Hyblab 2022</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/test-scroll.css">
 
@@ -15,11 +16,18 @@
     href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Kanit:ital,wght@0,200;0,400;0,500;1,200;1,400;1,500&display=swap"
     rel="stylesheet">
 
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@0.4.0/dist/lottie-player.js"></script>
+
   <script src="js/test-scroll.js" defer></script>
   <script src="js/intentions.js" defer></script>
 </head>
 
 <body>
+
+  <div id="Introduction" class="hide-introduction">
+    <lottie-player autoplay mode="normal">
+    </lottie-player>
+  </div>
 
   <div id="container">
 
@@ -64,7 +72,7 @@
         <img src="img/damier.svg" class="damier">
       </div>
 
-      <div  class="routeDebut"></div>
+      <div class="routeDebut"></div>
 
     </header>
 
@@ -75,7 +83,7 @@
         <img id="pattern" src="./data/_AGR src/pattern/fond2.svg"
           style="display:block; visibility: hidden; width:100%; height: auto; position: absolute; top: -200vh; right:0">
 
-        <div class="candidat" data-name="jeanlucmelenchon">
+        <div class="candidat" data-name="jeanlucmelenchon" style="margin-left: -75px;">
           <div class="name">
             <div class="firstName">Jean-Luc</div>
             <div class="lastName">Mélenchon</div>
@@ -86,7 +94,7 @@
           </div>
         </div>
 
-        <div class="candidat" data-name="jeanlucmelenchon">
+        <div class="candidat" data-name="jeanlucmelenchon" style="margin-left: 75px;">
           <div class="name">
             <div class="firstName">Jean-Luc</div>
             <div class="lastName">Mélenchon</div>
