@@ -74,59 +74,56 @@ p{
 
 .button{ 
     margin: 1%;
-    width: 40%;
-    height: 6%;
+    width: 35%;
+    height: 5.5%;
     border-radius: 30px;
     border: none;
     font-family: 'folsomblack';
     font-size: 15%;
     background-color: #C9C4C2;;
     color:#FFFFFF;
+    align-items: center;
 }
 
 #vainqueur{
         position: absolute;
-        opacity: 50%;
-        top: 42%;
-        left:30%; 
+        top: 43%;
         margin-bottom: 2%;
+        text-align: center;
 }
 #perdant{
         position: absolute;
-        opacity: 50%;
-        left:30%; 
         top: 54%;
         margin-bottom: 2%;
+        text-align: center;
 }
 #gagnant{
         position: absolute;
-        opacity: 50%;
-        left:30%; 
-        top: 64%;
+        top: 65%;
         margin-bottom: 32%;
+        text-align: center;
 
 }
 #buttonvainqueur{
         position: absolute;
-        top:50%;
+        top:49%;
         text-align: center;
 }
 #buttonlooser{
         position: absolute;
-        top:61%;
+        top:60%;
         text-align: center;
-        left: 5%;
 }
 #buttonsecondtour{
         position: absolute;
         top:71%;
         text-align: center;
-        left: 8%;
+        left: 10%;
 }
 #checkup{
         position: absolute;
         top: 76%;
-        left: 37%;
+        text-align: center;
 }
 
 
@@ -173,11 +170,10 @@ p{
 #persoA{
         margin-top: 3%;
         position: absolute;
-left: 44.09%;
-right: 45.69%;
-top: 25.14%;
-bottom: 68.75%;
-width: 15.65%;
+        text-align: center;
+        top: 25.14%;
+        bottom: 68.75%;
+        width: 15.65%;
 }
 .textintrosim{
         position: absolute;
