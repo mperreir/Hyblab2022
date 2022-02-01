@@ -4,4 +4,11 @@ async function loadTopSecret() {
   date();
   let topSecret = await loadTemplate('templates/topsecret.ejs', {})
     document.getElementById('screen').innerHTML = topSecret;
+
+}
+
+function autotab(original,destination){
+  if (original.getAttribute&&original.value.length==original.getAttribute("maxlength")){
+    destination.focus();
+  }
 }
