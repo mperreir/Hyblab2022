@@ -17,6 +17,7 @@
     <script src="js/AnimationTransition.js" defer></script>
     <script src="js/animations.js" defer></script>
     <script src="js/pfs.js" defer></script>
+    <script src="js/morpion.js" defer></script>
     <!-- <script src="js/main.js" defer></script> -->
     
     <script defer src="js/MVC/utils.js"></script>
@@ -53,6 +54,7 @@
             <p id="textDialogue">Ceci est un exemple pour que je puisse effectuer des tests afin de voir si cela rend très bien.  </p>
        <img id="Suite" src='img/SUIVANT.svg'>
           </div>
+      
           <div id="QuizZone">
             <p class=nom>Charlie</p>
               <p>Ceci est une question à laquel seul les plus forts d'entre vous pourront répondre correctement. </p>
@@ -67,6 +69,61 @@
           </div>
   
           <div class="resultat"></div>
+          
+          <div class= "morpion">
+<div id="end-display" class="row">
+  <div class="col text-center">
+    <div class="endgame">
+      <div class="text"></div>
+    </div>
+  </div>
+</div>
+<div id="char-selection" class="container selections pt-3 pb-4 border border-primary bg-dark">
+  <h1 id="game-header" class="text-center text-light border-bottom">Tic Tac Toe</h1>
+  <div class="row justify-content-center">
+    <div class="col-12 text-white text-center py-3">
+      <h3>Select Character</h3>
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-sm-4 text-center py-2">
+      <button id="x-char" class="btn btn-primary char-btn" onClick="charSelect('X')">X</button>
+    </div>
+    <div class="col-sm-4 text-center py-2">
+      <button id="o-char" class="btn btn-primary char-btn" onClick="charSelect('O')">O</button>
+    </div>
+  </div>
+</div>
+<div id="game-board" class="container">
+  <div class="row justify-content-center pb-2 mt-3">
+  <div class="col- btn-group">
+    <button id="x-turn" class="btn btn-success no-clicky mx-2 px-3 rounded">X</button>
+    <button id="o-turn" class="btn btn-secondary no-clicky mx-2 px-3 rounded">O</button>
+  </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-">
+      <table>
+        <tr>
+          <td class="cell" id="0"></td>
+          <td class="cell" id="1"></td>
+          <td class="cell" id="2"></td>
+        </tr>
+        <tr>
+          <td class="cell" id="3"></td>
+          <td class="cell" id="4"></td>
+          <td class="cell" id="5"></td>
+        </tr>
+        <tr>
+          <td class="cell" id="6"></td>
+          <td class="cell" id="7"></td>
+          <td class="cell" id="8"></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+          </div>
       </section>
       <section id="Transition">
         <lottie-player class="player ecole-vers-skatepark" src="animations/animation01.json" style="opacity:1"></lottie-player>

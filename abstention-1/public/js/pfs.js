@@ -1,5 +1,4 @@
 const buttons = document.querySelectorAll(".box button");
-console.log(buttons);
 // const resultat = document.querySelector(".resultat");
 
 for (let i = 0; i < buttons.length; i++) {
