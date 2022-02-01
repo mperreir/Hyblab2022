@@ -164,38 +164,38 @@ module.exports.getCandidats = () => {
 // });
 //
 // // INIT Themes
-// db.set(module.exports.themes_name, [
-//     {
-//         id: 1,
-//         name: "Sécurité",
-//         keywords: "commissariat securite immigration police policiers paix violence manifestation voleurs balle lachrymo arme defence drogue trafiquant",
-//     },
-//     {
-//         id: 2,
-//         name: "Sante",
-//         keywords: "passvacinal covid19 covid hopitaux vaccin lit cancer santé medecin malade sanitaire traitement médicament vaccination EHPAD",
-//     },
-//     {
-//         id: 3,
-//         name: "Economie",
-//         keywords: "retraite précarité syndiqué economie salaire emplois relocalisation localisation entreprise startup start-up finaces argent budget euro bercy compte métallurgie € essence cher taxe travail 40 45 35 pauvres chômeurs déficit subvention",
-//     },
-//     {
-//         id: 4,
-//         name: "Education",
-//         keywords: "enfant établissement élèves étudiants education ecole lycee universitee classe cours professeurs cantine cartable atsem pedagogie blanquer",
-//     },
-//     {
-//         id: 5,
-//         name: "Environnement",
-//         keywords: "énergétique énergie environnementaux environnement durable vert pollution recyclage trie arbre nucléaire petrole énergie electricité écologie",
-//     },
-//     {
-//         id: 6,
-//         name: "Culture",
-//         keywords: "music musique vaccances bal culture musique film cinema livre libraire concert festival dedicace album auteur acteur musicien symphonique LGBTQI+",
-//     }
-// ]);
+db.set(module.exports.themes_name, [
+    {
+        id: 1,
+        name: "Sécurité",
+        keywords: "commissariat securite immigration police policiers paix violence manifestation voleurs balle lachrymo arme defence drogue trafiquant",
+    },
+    {
+        id: 2,
+        name: "Sante",
+        keywords: "passvacinal covid19 covid hopitaux vaccin lit cancer santé medecin malade sanitaire traitement médicament vaccination EHPAD",
+    },
+    {
+        id: 3,
+        name: "Economie",
+        keywords: "retraite précarité syndiqué economie salaire emplois relocalisation localisation entreprise startup start-up finaces argent budget euro bercy compte métallurgie € essence cher taxe travail 40 45 35 pauvres chômeurs déficit subvention",
+    },
+    {
+        id: 4,
+        name: "Education",
+        keywords: "enfant établissement élèves étudiants education ecole lycee universitee classe cours professeurs cantine cartable atsem pedagogie blanquer",
+    },
+    {
+        id: 5,
+        name: "Environnement",
+        keywords: "énergétique énergie environnementaux environnement durable vert pollution recyclage trie arbre nucléaire petrole énergie electricité écologie",
+    },
+    {
+        id: 6,
+        name: "Culture",
+        keywords: "music musique vaccances bal culture musique film cinema livre libraire concert festival dedicace album auteur acteur musicien symphonique LGBTQI+",
+    }
+]);
 
 // // INIT Tweets
 // const labeler = new textProcessing.Labeler(db.fetch(module.exports.themes_name));
@@ -309,7 +309,7 @@ async function autoFetchData() {
         } catch (e) {
             console.error(e);
         }
-        await new Promise(resolve => setTimeout(resolve, 600000));
+        // await new Promise(resolve => setTimeout(resolve, 600000));
 
     }
 }

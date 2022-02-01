@@ -315,7 +315,7 @@ function clear(){
     timer.setAttribute("id", 'timer');
     jeu.appendChild(timer);
 
-    (() => Suivant(10,0,0))();
+    (() => Suivant(60,0,0))();
 
 }
 
