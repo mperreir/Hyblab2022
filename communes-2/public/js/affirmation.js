@@ -11,9 +11,11 @@ page('/communes-2/affirmation', async function () {
     let gameData = JSON.parse(localStorage.getItem('gameData'));
     console.log(gameData);
 
-    // EWEN POUR TESTER SI ON EST AU DEUXIEME ESSAI (donc qu'il faut afficher indice en plus) 
+    // EWEN POUR TESTER SI ON EST AU DEUXIEME ESSAI (donc qu'il faut afficher indice en plus)
 
     if (gameData['numeroEssai'] == 2) {
+        let response3 = await fetch('api/indice');
+        let indice = await response3.json();
 
     }
 
@@ -27,11 +29,6 @@ page('/communes-2/affirmation', async function () {
     let response2 = await fetch('api/affirmations')
     let affirmations = await response2.json();
 
-    let response3 = await fetch('api/indice');
-    let indice = await response3.json();
-
-    console.log(indice);
-
     //Recuperation des div dans lesquelles on va afficher les affirmations
     let divAffirmations = document.getElementsByClassName('affirmation-content')
 
@@ -44,7 +41,7 @@ page('/communes-2/affirmation', async function () {
     nombreCommuneMax.innerHTML = nbMaxCommunes;
     nombreCommuneActuelle.innerHTML = nbCommuneActuelle;
 
-    //Ajout de l'information a la fin de l'affirmation
+    //Ajout de l'information dans les affirmations
     for (let i = 0; i < affirmations.length; i++) {
         let informations = affirmations[i]['columns'];
 
@@ -235,7 +232,7 @@ function roundEnding(selectedValue, rightValue) {
         'communes': gameData['communes']
     }));
 
-    // REDIRECTION VERS LA BONNE PAGE. 
+    // REDIRECTION VERS LA BONNE PAGE.
     if(selectedValue == rightValue) page('/communes-2/resultatInterTrue')
     else {
         // Si on s'est trompés et que c'était le second essai, on arrive sur la page d'échec, sinon sur la page avec un indice en plus
