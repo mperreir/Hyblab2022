@@ -27,11 +27,62 @@
 	font-family: 'Baloo Tamma 2';
 }
 
-.credit_footer {
-	color: black;
-	font-weight: 800;
-	text-align: center;
+#second-slide {
+	height: 100%;
+	background-color: #11151B;
+}
+
+.top {
+	margin-top: 50px;
+
+	font-family: 'Baloo Tamma 2';
+}
+
+.mid {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 20%;
+	color: #C8A166;
+}
+
+.mid img {
+	width:50%;
+}
+
+#logo_anjoute_sans {
+	width:70%;
+	height: auto;
+}
+
+#cc {
+	width:70%;
+	height: auto;
+}
+
+.credit_footer_agr {
+	font-size: 30%;
 	margin-top: 20px;
+	width: 10%;
+	position:absolute;
+	left: 0%;
+}
+
+.credit_footer_agr img {
+
+}
+
+.credit_footer_polytech {
+	font-size: 30%;
+	margin-top: 20px;
+	width: 20%;
+	position:absolute;
+	left: 50%;
+}
+
+.credit_footer_polytech img {
+
 }
 
 .credit_footer li  {
