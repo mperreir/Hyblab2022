@@ -91,7 +91,8 @@ const init_p1 = function() {
   css([textContainer], {
     'font-size' : '15%',
     'font-family' : 'Nunito',
-    'text-align' : 'justify', 
+    'text-align' : 'justify',
+    'font-weight' : '700',
     'vertical-align' : 'center',
     'top' : '10%',
     'position' : 'absolute',
@@ -177,6 +178,7 @@ const init_p1 = function() {
   css([x1, x2], {
     'background-color' : '#D4C2F0',
     'font-size' : '15%',
+    'font-weight' : '700',
     'color' : 'white',
     'width' : '80%',
     'height' : '45%',
