@@ -203,9 +203,9 @@ margin-top: 10%;
     opacity: 1;
 
    /* background-color: chartreuse;*/
-    /* background-image: url("../img/Charlie.svg");
+    /* background-image: url("../img/Charlie.svg");*/ 
     background-repeat: no-repeat;   
-    background-size: contain; */
+    background-size: contain;
 
     position:absolute;
     width: 50%;
@@ -221,10 +221,10 @@ margin-top: 10%;
 
     position:absolute;
    /* background-color: pink;*/
-    /* background-image: url("../img/Jeune.svg");
+    /* background-image: url("../img/Jeune.svg");*/
     background-position: 100% 0%;
     background-repeat: no-repeat;   
-    background-size: contain; */
+    background-size: contain;
 
     width: 50%;
     height: 45vh; 
@@ -322,7 +322,7 @@ vertical-align: center;
 }
 
 /*--------------Section transition--------------*/
-#Transition{
+#LottieAnimation{
     position:fixed;
     opacity: 1;
     background-color: white;
@@ -349,3 +349,45 @@ lottie-player{
 .player {
     opacity: 0;
 }
+
+.transition {
+    height: 100vh;
+}
+
+.stop-scroll{
+    height: 100vh;
+    overflow: hidden;
+}
+
+/*--------------Section Pierre Feuille Ciseaux--------------*/
+
+.box {
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    padding : 10px ;
+    opacity:0;
+  }
+  .box button {
+    padding : 10px;
+    margin : 10px;
+    border-radius : 3px;
+    outline : none;
+    border : none;
+    color : rgb(235, 215, 215);
+    background-color : blue;
+    cursor: pointer;
+    transition : 0.2s;
+    z-index:3 ;
+  }
+  .box button:active {
+    transform : scale(0.97);
+  }
+  .resultat {
+    height : 50px;
+    text-align : center;
+    font-weight: bold;
+    padding : 10px;
+    color:rgb(26, 27, 27);
+  }
+

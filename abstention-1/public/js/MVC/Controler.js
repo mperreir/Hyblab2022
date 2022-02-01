@@ -44,8 +44,8 @@ class Controler {
         this.currentModel = this.models[this.nextModelIndex];
         this.currentModel.addObserver(new Update(this.view));
 
-        this.view.perso1.src = this.currentModel.perso1;
-        this.view.perso2.src = this.currentModel.perso2;
+        //this.view.perso1.src = this.currentModel.perso1;
+        //this.view.perso2.src = this.currentModel.perso2;
         this.view.description.innerText = this.currentModel.description;
 
         this.nextModelIndex++;

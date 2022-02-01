@@ -1,29 +1,51 @@
 class AnimationModel extends Observable {
-    constructor(player, container, actions) {
+    /**
+     * 
+     * @param {string} container 
+     * @param {Object[]} actions 
+     * @param {Number[]} actions.visibility % du temps d'apparation de container à l'écran
+     * @param {Object} actions.keyframes Voir animation.js pour plus de détails
+     * @param {string} actions.player nom / id / class de l'HTMLElement sur lequel appliquer l'animation
+     */
+     constructor(container, actions, dialogueControler) {
         super();
-
-        if (typeof container === 'string') {
-            container = document.querySelector(container);
-        }
+        // Partie transition
+        this.container = document.querySelector(container);
+        // TODO: Faire une vue qui se charge de récupérer les éléments, ça fait pas trop MVC comme ça
+        this.actions = actions.map(action => {
+            action.player = document.querySelector(action.player);
+            return action;
+        });
 
         this.scroll = undefined;
-        this.currentAction = undefined;
-        // Liste des keyframes
-        //this.keyframes = keyframes;
-        // Conteneur définissant la longueur de l'animation
-        this.container = container;
-        // Liste des quand jouer et arreter l'animation
-        this.actions = actions;
-        this.player = document.querySelector(player); //TODO: créer une vue séparé
+        this.currentActions = undefined;
+        this.dialogueStartScrollValue = 0.4;
+        this.dialogueDone = false;
+        this.dialogueStarted = false;
+
+        this.dialogueControler = dialogueControler;
+        this.modelChanged = false;
     }
 
+    
     updateScroll(){
         this.scroll = this.getContainerVisibility();
-        this.currentAction = this.actions.find(
+
+        // On s'assure que le dialogue commence a apparaitre avant de pouvoir intéragir avec
+        if(!this.modelChanged && this.scroll > 0.1) {
+            this.dialogueControler.loadNextModel();
+            this.modelChanged = true;
+        }
+
+        if (this.canStartDialogue()) {
+            this.startDialogue();
+        }
+
+        this.currentActions = this.actions.filter(
             ({ visibility }) => this.scroll >= visibility[0] && this.scroll <= visibility[1],
         )
 
-        if (this.currentAction !== undefined) {
+        if (this.currentActions !== []) {
             this.setChanged();
         }
 
@@ -50,6 +72,22 @@ class AnimationModel extends Observable {
         // 0 <= r <= 1 : L'élément est visible à l'écran
         // r > 1 : L'élément est apparu et n'est plus visible
         return current / max;
+    }
+
+    canStartDialogue(){
+        return !this.dialogueStarted && !this.dialogueDone && this.scroll > this.dialogueStartScrollValue;
+    }
+
+    startDialogue(){
+        document.getElementById("SequencesAnimation").classList.add("stop-scroll");
+        this.dialogueStarted = true;
+    }
+
+    finishDialogue(){
+        document.getElementById("SequencesAnimation").classList.remove("stop-scroll");
+        this.dialogueDone = true;
+        console.log(this.container.getBoundingClientRect().top);
+        window.scrollTo(0, this.container.getBoundingClientRect().top);
     }
 
 }
