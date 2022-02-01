@@ -1,10 +1,10 @@
-'use strict';
+"use strict";
 
 let selectedCity;
 let percentageBet;
 
 async function loadSms() {
-    const container = document.getElementById('container');
+    const container = document.getElementById("container");
 
 
     const messages =
@@ -13,57 +13,69 @@ async function loadSms() {
             type: "sms",
             sender: "+33* ** ** ** **",
             message: "Salut ! C’est <strong>Thomas</strong>.<br/> Je suis ton nouveau <strong> collègue </strong>.",
-            style: "sms-bottom sms-left"
+            style: "sms-bottom sms-left",
+            id: "",
         },
         {
             type: "sms",
             sender: "THOMAS",
             message: "J’ai vu qu’on allait travailler <strong>ensemble</strong> sur le nouvel article de \“<strong>pour cent magazine</strong>\” !",
-            style: "sms-center sms-left"
+            style: "sms-center sms-left",
+            id: "",
         }, {
             type: "sms",
             sender: "THOMAS",
             message: "C’est sur l’<strong>abstention</strong>, trop <strong>intéressant</strong> ! Tu as vu les chiffres de 2017 ? :D",
-            style: "sms-top sms-left"
+            style: "sms-top sms-left",
+            id: "",
         },
         {
             type: "sms",
             sender: "MOI",
             message: "Hey Thomas ! Content de bosser avec toi !Non, je n’ai pas vu les chiffres, pourquoi ? :)",
-            style: "sms-bottom sms-right"
+            id: "",
+            style: "sms-bottom sms-right",
+            id: "",
+
         }, {
             type: "sms",
             sender: "THOMAS",
             message: "Ça tombe bien ! Je te pari le repas de ce midi que tu devineras jamais le pourcentage !",
-            style: "sms-top sms-left"
+            style: "sms-top sms-left",
+            id: "",
+
         }, {
             type: "sms",
             sender: "THOMAS",
             message: "Alors avec quelle ville veux-tu jouer ? ",
-            style: "sms-bottom sms-left"
+            style: "sms-bottom sms-left",
+            id: "",
 
         },
         {
             type: "button",
             text: "Ville aléatoire",
             id: "random-city-btn",
-            style: ""
+            style: "",
+            id: "",
         },
         {
             type: "button",
             text: "Choisi ta ville",
             id: "choose-city-btn",
-            style: ""
+            style: "",
+            id: "",
         },
         {
             type: "city-search",
-            style: ""
+            style: "",
         },
         {
             type: "sms",
             sender: "THOMAS",
             message: "OK c’est parti pour <span id='sms-text-city-name'></span>  ! Alors tu paries combien ? Ne t’inquiète pas... On arrondit à 5%.",
-            style: "sms-bottom sms-left"
+            style: "sms-bottom sms-left",
+            id: "",
         },
         {
             type: "number",
@@ -82,7 +94,8 @@ async function loadSms() {
             type: "sms",
             sender: "Thomas",
             message: "<strong><span id='sms-text-percentage'></span>% retenu !</strong> Aller amuse toi bien ! Télécharge les dossiers pour avoir les infos ! On se tient au courant pour le repas ahah",
-            style: "sms-bottom sms-left"
+            style: "sms-bottom sms-left",
+            id: "",
         },
         {
             type: "button",
@@ -93,11 +106,11 @@ async function loadSms() {
         ];
 
 
-    const headerHtml = await loadTemplate('templates/header.ejs', {});
+    const headerHtml = await loadTemplate('templates/header.ejs', []);
     container.innerHTML = headerHtml;
     date();
 
-    let screenHtml = await loadTemplate('templates/sms/sms_tread.ejs', {});
+    let screenHtml = await loadTemplate('templates/sms/sms_tread.ejs', []);
     document.getElementById('screen').innerHTML = screenHtml;
 
     let smsTread = document.getElementById('sms-tread');
@@ -106,10 +119,8 @@ async function loadSms() {
     const delay = 200;
     let displayedSMSIndex = 0;
 
-
     let citySearchUsed = false;
     await createSMSElements(messages, smsTread);
-
 
 
     let smsScrollingAnimation = anime({
@@ -149,7 +160,7 @@ async function loadSms() {
                 }
             }
         ],
-    });
+    })
 
     let displayedSMSInterval = setInterval(displaySMS, delay);
 
@@ -181,11 +192,8 @@ async function loadSms() {
 
     document.getElementById('choose-city-btn').addEventListener('click', async () => {
         selectedCity = await pickRandomCity();
-        // displayedSMSInterval = setInterval(displaySMS, delay);
         document.getElementById('sms-city-search').style.display = 'block';
-        // smsScrollingAnimation.play();
         document.getElementById('choose-city-btn').disabled = true;
-        // document.getElementById('sms-text-city-name').innerHTML = selectedCity;
         document.getElementById('random-city-btn').style.opacity = "50%"
 
 
@@ -207,7 +215,6 @@ async function loadSms() {
         document.getElementById('sms-text-city-name').innerHTML = selectedCity;
         displayedSMSInterval = setInterval(displaySMS, delay);
         smsScrollingAnimation.play();
-        console.log(smsScrollingAnimation);
 
         citySearchUsed = true;
         setTimeout(() => { smsScrollingAnimation.pause(); pauseDisplaySMS() }, delay * 4);
@@ -248,20 +255,23 @@ function getTranslateYSMS(smsTread, i) {
 
 
 function handleSlider() {
-    const slider = document.getElementById('sms-slider-input');
+    const slider = document.getElementById("sms-slider-input");
     const min = slider.min
     const max = slider.max
     const value = slider.value
 
-    const numberDiv = document.getElementById('sms-number');
-    numberDiv.innerHTML = `${slider.value}%`;
+    const numberDiv = document.getElementById("sms-number");
+    numberDiv.innerHTML = slider.value + "%";
 
     slider.style.background = `linear-gradient(to right, #e4e5fa 0%, #e4e5fa ${(value - min) / (max - min) * 100}%, #e4e5fa56 ${(value - min) / (max - min) * 100}%, #e4e5fa56 100%)`
 
     slider.oninput = function (e) {
         this.style.background = `linear-gradient(to right, #e4e5fa 0%, #e4e5fa ${(this.value - this.min) / (this.max - this.min) * 100}%, #e4e5fa56 ${(this.value - this.min) / (this.max - this.min) * 100}%, #e4e5fa56 100%)`;
-        numberDiv.innerHTML = `${e.target.value}%`;
+
+        numberDiv.innerHTML = e.target.value + "%";
+
     };
+
 }
 
 
