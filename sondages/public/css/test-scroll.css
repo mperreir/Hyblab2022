@@ -2,17 +2,94 @@
     box-sizing: border-box;
 }
 
+html, body {
+    overscroll-behavior: none;
+}
+
 body {
     background-color: black;
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("../img/fond_principale.svg");
+}
+
+header .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFF;
+    color: black;
+    width: 90%;
+    height: 80%;
+    padding: 25px 10px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+header .main img {
+    width: 80%;
+}
+
+.details {
+    margin-top: 25px;
+    width: 100%;
+    /* background: red; */
+}
+
+.details .title {
+    font-size: 25px;
+    font-family: 'Goldman', cursive;
+    font-weight: 400;
+    padding: 15px 0;
+}
+
+.details .body {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.details .body .candidat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 14px;
+    width: 90px;
+    padding: 5px 0;
+}
+
+.details .body .candidat img {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 555px;
+    padding: 5px;
+    background: white;
+}
+
+.details .body .candidat[data-selected="true"] img {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 555px;
+    padding: 5px;
+    background: blue;
 }
 
 #container {
-    padding: 50px 0;
     display: block;
     position: relative;
-    background-color: white;
+    background-color: red;
 }
 
 #animation {
@@ -20,9 +97,6 @@ body {
 }
 
 #race {
-    /* display: flex; */
-    flex-direction: column;
-    align-items: center;
     position: absolute;
     z-index: 99;
     height: 100vh;
@@ -35,7 +109,6 @@ body {
     align-items: center;
     font-size: 18px;
     transition: all .3s;
-    font-family: 'Kanit', sans-serif;
 }
 
 #race .candidat .name {
@@ -72,21 +145,6 @@ body {
     color: #FFF;
     margin: 0 10px;
     font-weight: 500;
-}
-
-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
-
-header p {
-    color: #26336e;
-    font-weight: 400;
-    margin-top: 50px;
-    font-size: 80px;
 }
 
 #info {
@@ -132,11 +190,6 @@ footer p {
         min-height: calc(100 * 16vw / 9);
     }
 
-    /* We set a default font size here. It will be the base for all other font sizes */
-    /* Here the font size is proportional to display width */
-    body {
-        font-size: calc(12vw*16/9);
-    }
 }
 
 /* This media query ensures that we allways will the height of the screen */
@@ -151,9 +204,4 @@ footer p {
         width: calc(100 * 9vh / 16);
     }
 
-    /* We set a default font size here. It will be the base for all other font sizes */
-    /* Here the font size is proportional to display height */
-    body {
-        font-size: 12vh;
-    }
 }
