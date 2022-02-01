@@ -11,6 +11,7 @@ body {
     color: white;
     font-family: 'Kanit', sans-serif;
     font-weight: 400;
+    /* background: #303844; */
 }
 
 header {
@@ -18,7 +19,6 @@ header {
     display: flex;
     justify-content: center;
     height: 100vh;
-    background: #303844;
     overflow: hidden;
 }
 
@@ -104,6 +104,16 @@ header .startTheRace .damier {
     object-fit: cover;
 }
 
+header .routeDebut {
+    position: absolute;
+    width: 100%;
+    height: 7vh;
+    bottom: 0;
+    object-fit: cover;
+    /* background-size: cover; */
+    /* background-image: url(../img/fond_debut.svg); */
+}
+
 .hidden {
     display: none;
 }
@@ -111,7 +121,6 @@ header .startTheRace .damier {
 .details {
     margin-top: 25px;
     width: 100%;
-    /* background: red; */
 }
 
 .details .top {
@@ -182,7 +191,7 @@ header .startTheRace .damier {
 #container {
     display: block;
     position: relative;
-    background-color: red;
+    background: red;
 }
 
 #animation {
@@ -249,14 +258,19 @@ header .startTheRace .damier {
 }
 
 footer {
-    padding: 50px 0;
-    background-color: purple;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #899853;
 }
 
 footer p {
-    margin: 50px 0 0;
     text-align: center;
-    font-size: 50px;
+    width: 70%;
+    text-align: center;
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 50px;
 }
 
 /* ---------- Important media queries for easy responsive content :-) ----------------- */
