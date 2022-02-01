@@ -3,7 +3,7 @@
 const app = require( 'express' )();
 const path = require('path');
 
-const sendDataToFront = require("./controller/DataRetrievalController");
+const DataRetrievalController = require("./controller/DataRetrievalController");
 
 // Sample endpoint that sends the partner's name
 app.get('/topic', function ( req, res ) {
@@ -23,7 +23,9 @@ Sinon, tu vérifies que la date a laquelle les données ont été récupéré es
 Si oui, Tu récupères les données en ligne -> parseData -> stocker dans le cache
 Si non, tu renvois le cache*/
 
-app.get('/getData', sendDataToFront);
+app.get('/getData', DataRetrievalController.sendDataToFront);
+
+app.get('/getCandidate', DataRetrievalController.sendCandidatToFront);
 
 // Export our API
 module.exports = app;

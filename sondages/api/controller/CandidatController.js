@@ -4,6 +4,8 @@
  * @author : Team Genesis
  */
 
+ let lastDataRetrieval = new Date(70, 1);
+
 function Candidat(nom, prenom, img) {
     this.nom = nom;
     this.prenom = prenom;
@@ -24,6 +26,18 @@ class CandidatController {
             object.push(new Candidat(nom, prenom, img));
         })
         return object;
+    }
+
+    shouldWeUpdateData() {
+        let currentDate = new Date();
+        currentDate.setHours(0,0,0,0);
+
+        if (currentDate > lastDataRetrieval) {
+            lastDataRetrieval = currentDate;
+            return true;
+        } else {
+            return false;
+        }
     }
 }
 
