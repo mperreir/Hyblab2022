@@ -15,12 +15,6 @@ const FOLDER_TITLES = {
             progress: 66
         },
         {
-            title: 'Non-votants',
-            tag: 'fe-non-votants',
-            folderName: 'nonVotants',
-            progress: 100
-        },
-        {
             title: 'Mineurs',
             tag: 'fe-mineurs',
             folderName: 'mineurs',
@@ -81,8 +75,8 @@ function date() {
 
 
 // loadStart();
-loadSms();
-// loadFolder('nonVotants');
+// loadSms();
+// loadFolder('nouveauxHabitants');
 loadFileExplorer();
 // loadEnd();
 // loadRebet();
