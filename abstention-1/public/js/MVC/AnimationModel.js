@@ -19,7 +19,7 @@ class AnimationModel extends Observable {
 
         this.scroll = undefined;
         this.currentActions = undefined;
-        this.deltaScroll = 0.02;
+        this.dialogueStartScrollValue = 0.4;
         this.dialogueDone = false;
         this.dialogueStarted = false;
 
@@ -39,10 +39,6 @@ class AnimationModel extends Observable {
 
         if (this.canStartDialogue()) {
             this.startDialogue();
-        }
-
-        if (this.hasToPreventScroll()){
-            return;
         }
 
         this.currentActions = this.actions.filter(
@@ -79,19 +75,19 @@ class AnimationModel extends Observable {
     }
 
     canStartDialogue(){
-        return !this.dialogueDone && this.scroll > 1 - this.deltaScroll;
-    }
-
-    hasToPreventScroll(){
-        return this.dialogueStarted && !this.dialogueDone;
+        return !this.dialogueStarted && !this.dialogueDone && this.scroll > this.dialogueStartScrollValue;
     }
 
     startDialogue(){
+        document.getElementById("SequencesAnimation").classList.add("stop-scroll");
         this.dialogueStarted = true;
     }
 
     finishDialogue(){
+        document.getElementById("SequencesAnimation").classList.remove("stop-scroll");
         this.dialogueDone = true;
+        console.log(this.container.getBoundingClientRect().top);
+        window.scrollTo(0, this.container.getBoundingClientRect().top);
     }
 
 }

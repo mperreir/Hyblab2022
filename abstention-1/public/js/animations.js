@@ -1,7 +1,45 @@
 const ANIMATIONS = {
-    ordre : ["skatepark", "camion", "theatre", "mairie", "ecole"],
+    ordre : ["ecole1", "foraine", "camion", "theatre", "mairie", "ecole2"],
     animations : {
-        skatepark: {
+        ecole1: {
+            perso1 : {
+                in : {
+                    [0]: new AnimationFrame()
+                        .addProperty(new Transform().translate(-10,0))
+                        .addProperty(new BackgroundImage("url(img/Charlie.svg)")),
+                    [1]: new AnimationFrame()
+                        .addProperty(new Transform().translate(0,0))
+                        .addProperty(new BackgroundImage("url(img/Charlie.svg)")),
+                },
+                out : {
+                    [0]: new AnimationFrame()
+                    .addProperty(new Transform().translate(0,0))
+                    .addProperty(new BackgroundImage("url(img/Charlie.svg)")),
+                    [1]: new AnimationFrame()
+                        .addProperty(new Transform().translate(-10,0))
+                        .addProperty(new BackgroundImage("url(img/Charlie.svg)")),
+                }
+            },
+            perso2 : {
+                in : {
+                    [0]: new AnimationFrame()
+                        .addProperty(new Transform().translate(10,6))
+                        .addProperty(new BackgroundImage("url(img/VieuxActif.svg)")),
+                    [1]: new AnimationFrame()
+                        .addProperty(new Transform().translate(0,6))
+                        .addProperty(new BackgroundImage("url(img/VieuxActif.svg)")),
+                },
+                out : {
+                    [0]: new AnimationFrame()
+                        .addProperty(new Transform().translate(0,6))
+                        .addProperty(new BackgroundImage("url(img/VieuxActif.svg)")),
+                    [1]: new AnimationFrame()
+                        .addProperty(new Transform().translate(10,6))
+                        .addProperty(new BackgroundImage("url(img/VieuxActif.svg)")),
+                }
+            },
+        },
+        foraine: {
             perso1 : {
                 in : {
                     [0]: new AnimationFrame()
@@ -153,7 +191,7 @@ const ANIMATIONS = {
                 }
             },
         },
-        ecole: {
+        ecole2: {
             perso1 : {
                 in : {
                     [0]: new AnimationFrame()
