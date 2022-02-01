@@ -9,6 +9,8 @@ function start() {
     const animation = document.body.querySelector("#animation")
     const race = document.body.querySelector("#race")
 
+    const startTheRace = document.body.querySelector("button#startTheRace")
+
     const candidats = document.body.querySelectorAll("#race .candidat")
 
     const POLL = [
@@ -41,6 +43,17 @@ function start() {
         race.setAttribute("style", "position:absolute;bottom:0px")
     }
 
+    function scrollToRace() {
+
+        console.log(window.scrollY)
+
+        window.scrollTo({
+            top: window.innerHeight,
+            left: 0,
+            behavior: 'smooth'
+        });
+    }
+
     function scrollPosition(scroll) {
 
         const rect = animation.getBoundingClientRect()
@@ -67,7 +80,7 @@ function start() {
             for (let i = 0; i < POLL[indexJour].length; i++) {
 
                 const candidat = POLL[indexJour][i]
-                candidats[i].setAttribute("style", "margin-top:" + candidat + "px")
+                // candidats[i].setAttribute("style", "margin-top:" + candidat + "px")
 
             }
         }
@@ -76,6 +89,8 @@ function start() {
     }
 
     scrollPosition(0)
+
+    startTheRace.addEventListener("click", _ => scrollToRace())
 
     document.addEventListener("scroll", _ => scrollPosition(window.scrollY))
 }
