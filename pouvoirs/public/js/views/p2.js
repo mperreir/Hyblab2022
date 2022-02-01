@@ -1,42 +1,59 @@
 const canvas = document.getElementById("drawPlace");
 const ctx = canvas.getContext("2d");
 const button = document.getElementById("send-button");
-const bulle = document.getElementById("bulle-container");
+const bullePm = document.getElementById("bulle-container-pm");
+const bulleMoua = document.getElementById("bulle-container-moua");
 const drawing = document.getElementById("drawing-container");
-const penSound = createAudio("data/sounds/pen.mp3",true,1,0.5);
+const penSound = createAudio("data/sounds/pen.mp3", true, 1, 0.5);
+
+const interestPoint = document.getElementById("interest-point");
+const hintText = document.querySelector('#drawing-container p');
+const hintNote = document.querySelector('#p2 #note p');
+
+const textMoua = document.querySelector("#bulle-container-moua p");
+const textPm = document.querySelector("#bulle-container-pm p");
 
 let coord = { x: 0, y: 0 };
 let enableButton = false;
-let controller = {bottom: -50};
+let controller = { bottom: -50 };
 
 button.disabled = true;
 
 const init_p2 = function () {
+	// Setting texts
+	textMoua.textContent = getText("p2-moua");
+	textPm.textContent = getText("p2-prime");
+	hintNote.textContent = getText("p2-neutral");
 
 	// Disable swiper whilst decret has not been signed
 	swiper.disable();
 
-	bulle.classList.add("apply-shake");
-	bulle.style.marginBottom = "10px";
-	document.querySelector("#p2 p").style.marginTop = "20px";
-	setTimeout(() => {
-		document.querySelector("#p2 p").style.marginTop = "0px";
-		bulle.style.marginBottom = "0px";
-		bulle.classList.remove("apply-shake");
+	// Bulle Moua moves into view
+	anime({
+		targets: bulleMoua,
+		opacity: 1,
+		loop: false,
+		easing: 'easeInOutCubic',
+		complete: (anim) => {
+			setTimeout(() => {
+				// Bulle PM moves into view
+				anime({
+					targets: bullePm,
+					opacity: 1,
+					loop: false,
+					easing: 'easeInOutCubic',
+					complete: (anim) => {
+						setTimeout(() => {
+							interestPoint.style.display = 'block';
+							document.getElementById("p2").addEventListener("click", showNote);
 
-		anime({
-			targets: controller,
-			bottom: 0,
-			loop: false,
-			easing: 'easeInOutCubic',
-			complete: (anim) => {
-				initHandlers();
-			},
-			update: (anim) => {
-				drawing.style.bottom = controller.bottom + "%";
-			}
-		});
-	}, 750);	
+						}, 1000)
+					}
+				});
+
+			}, 1000)
+		}
+	})
 }
 
 /* Code handling drawing in the Canvas */
@@ -71,6 +88,7 @@ function reposition(event) {
 
 function start(event) {
 	document.addEventListener("mousemove", draw);
+	hintText.style.opacity = '0';
 	penSound.play();
 	reposition(event);
 }
@@ -97,16 +115,15 @@ function draw(event) {
 	ctx.stroke();
 }
 
-function mouseHandler(event){
+function mouseHandler(event) {
 	// Converting touch events to mouse events
 	let type = "";
-	switch(event.type)
-    {
-        case "touchstart": type = "mousedown"; break;
-        case "touchmove":  type = "mousemove"; break;        
-        case "touchend":   type = "mouseup";   break;
-        default:           return;
-    }
+	switch (event.type) {
+		case "touchstart": type = "mousedown"; break;
+		case "touchmove": type = "mousemove"; break;
+		case "touchend": type = "mouseup"; break;
+		default: return;
+	}
 
 	let mouseEvent = new MouseEvent(type, {
 		clientX: event.touches[0].clientX,
@@ -122,7 +139,7 @@ function nextMission(event) {
 	// Removing all sets events
 	document.removeEventListener("mousedown", start);
 	document.removeEventListener("mouseup", stop);
-	
+
 	// Removing touch events
 	document.removeEventListener("touchstart", mouseHandler);
 	document.removeEventListener("touchend", mouseHandler);
@@ -130,4 +147,51 @@ function nextMission(event) {
 
 	swiper.enable();
 	wrapper_nextSlide();
+}
+
+
+let noteShown = false;
+function showNote() {
+	if (noteShown) { return; }
+	noteShown = true;
+
+	interestPoint.style.display = 'none';
+
+	anime({
+		targets: bullePm,
+		opacity: 0,
+		loop: false,
+		easing: 'easeInOutCubic',
+	});
+
+	anime({
+		targets: bulleMoua,
+		opacity: 0,
+		loop: false,
+		easing: 'easeInOutCubic',
+		complete: (anim) => {
+			anime({
+				targets: document.querySelector('#p2 #note'),
+				opacity: 1,
+				loop: false,
+				easing: 'easeInOutCubic',
+				complete: (anim) => {
+
+					// Make decret appear
+					anime({
+						targets: controller,
+						bottom: 0,
+						loop: false,
+						easing: 'easeInOutCubic',
+						complete: (anim) => {
+							initHandlers();
+						},
+						update: (anim) => {
+							drawing.style.bottom = controller.bottom + "%";
+						}
+					});
+				}
+			})
+		}
+	});
 }

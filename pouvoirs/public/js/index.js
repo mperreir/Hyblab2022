@@ -10,6 +10,7 @@ const init_func = [homepage_slide, falling_slide, init_p1, init_p2, init_p3, ini
 const alreadyVisited =  new Array(init_func.length).fill(false);
 
 const slideHandler = function(e){
+  hideArrow();
   transitionEffect.play();
   // console.log(e.activeIndex);
   // Ensuring each initialization function only runs once
@@ -29,6 +30,7 @@ const swiper = new Swiper("#mySwiper", {
 });
 
 const wrapper_nextSlide = function(){
+  hideArrow();
   swiper.slideNext();
 };
 const showTitle = function(index) {

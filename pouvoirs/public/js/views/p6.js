@@ -12,8 +12,18 @@ const init_p6 = function () {
     const dialog_arrow = document.querySelectorAll("#p6 .arrow-small, .arrow-medium, .arrow-big");
 
     const dialog_info1 = document.querySelector("#p6 .info1");
+    const dialog_info2 = document.querySelector("#p6 .info2");
 
     const clockEffect = createAudio("data/sounds/clockTicking.mp3");
+
+    dialog_before.querySelector(".dialog-text").innerHTML = getText("p6-etatmajor");
+    dialog_moua.querySelector(".dialog-text").innerHTML = getText("p6-moua");
+    dialog_pressed.querySelector(".dialog-text").innerHTML = getText("p6-push");
+    dialog_not_pressed.querySelector(".dialog-text").innerHTML = getText("p6-notpush")
+
+    
+    dialog_info1.querySelector(".dialog-text").innerHTML = getText("p6-info1");
+    dialog_info2.querySelector(".dialog-text").innerHTML = getText("p6-info2");
 
     let choice_made = 0;
     let timeout;
@@ -113,7 +123,7 @@ const init_p6 = function () {
     dialog_pressed.addEventListener('click', () => {
         anime({
             targets : dialog_pressed,
-            opacity : [0,1],
+            opacity : [1,0],
             easing : 'linear',
             complete : () => {
                 dialog_pressed.style.display = "none";
@@ -124,10 +134,46 @@ const init_p6 = function () {
                 })
                 
             }
-        })
-    });
+        })}
+        ,{once: true}
+    );
 
+    dialog_not_pressed.addEventListener('click', () => {
+        anime({
+            targets : dialog_not_pressed,
+            opacity : [1,0],
+            easing : 'linear',
+            complete : () => {
+                dialog_not_pressed.style.display = "none";
+                dialog_info1.style.display = "block";
+                anime({
+                    targets : dialog_info1,
+                    opacity : [0,1]
+                })
+                
+            }
+        })}
+        ,{once: true}
+    );
 
+    dialog_info1.addEventListener('click', () => {
+        anime({
+            targets : dialog_info1,
+            opacity : [1,0],
+            easing : 'linear',
+            complete : () => {
+                dialog_info1.style.display = "none";
+                dialog_info2.style.display = "block";
+                anime.remove(dialog_arrow);
+                anime({
+                    targets : dialog_info2,
+                    opacity : [0,1]
+                })
+                
+            }
+        })}
+        ,{once: true}
+    );
 
     const decompte_func = function () {
         if (choice_made == 0) {

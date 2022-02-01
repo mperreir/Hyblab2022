@@ -81,23 +81,25 @@ const init_p1 = function() {
   diBox.style.margin = "0px";
   
   const bubble = document.createElement("img");
-  bubble.src = "img/dialogBoxes/advisor_xl.svg";
+  bubble.src = "img/dialogBoxes/advisor_m.svg";
   bubble.style.verticalAlign = "top";
   diBox.appendChild(bubble);
-  const originalText = "Moua est accueilli par un membre de l'Élysée. Le conseiller de l'ex président lui demande : </br><br><b>Comment souhaitez-vous gérer la France pendant l'absence momentanée du Président ?</b>";
+  const originalText = getText("p1-secretary");
   
   diag(diBox, originalText);
   const textContainer = diBox.querySelector("p");
   css([textContainer], {
-    'font-size' : '16%',
+    'font-size' : '15%',
     'font-family' : 'Nunito',
-    'text-align' : 'justify', 
+    'text-align' : 'justify',
+    'font-weight' : '700',
     'vertical-align' : 'center',
-    'top' : '35px',
+    'top' : '10%',
     'position' : 'absolute',
-    'width' : '80%',
-    'left' : '10%',
-    'margin' : 'auto'
+    'width' : '85%',
+    'left' : '7.5%',
+    'margin' : 'auto',
+    'hyphens' : 'auto'
   })
 
 
@@ -114,10 +116,10 @@ const init_p1 = function() {
   const invalid = document.createElement('img');
   invalid.src = "img/elements/button_invalid.svg";
   [valid, invalid].forEach(x => {
-    x.style.height = "50%";
+    x.style.height = "30%";
     x.style.position = "absolute";
     x.style.left = "-50%";
-    x.style.top = "25%"
+    x.style.top = "35%"
   })
 
   const buttons = document.createElement("div");
@@ -134,6 +136,7 @@ const init_p1 = function() {
 
   const colors = ["#FF2019", "#1be5b9"];
   function changeText(nb, txt, btn) {
+    hideArrow();
     if (state === nb){
       swiper.disable();
       cancel.play();
@@ -154,6 +157,7 @@ const init_p1 = function() {
         btn.appendChild(valid);
         showTitle("p1");
         swiper.enable();
+        showArrow();
       }
       else{
         swiper.disable();
@@ -176,6 +180,7 @@ const init_p1 = function() {
   css([x1, x2], {
     'background-color' : '#D4C2F0',
     'font-size' : '15%',
+    'font-weight' : '700',
     'color' : 'white',
     'width' : '80%',
     'height' : '45%',
@@ -195,6 +200,14 @@ const init_p1 = function() {
   buttons.appendChild(x1);
   buttons.appendChild(x2);
 
+  // const divArrow = document.createElement("div");
+  // const arrow = document.createElement("img");
+  // arrow.src = "img/arrow.svg";
+  // divArrow.style.height = "5%";
+  // divArrow.style.position = "absolute";
+  // arrow.style.height = "100%";
+  // arrow.style.position = "absolute"
+  // divArrow.appendChild(arrow);
 
   slide.appendChild(infos);
   slide.appendChild(buttons);
