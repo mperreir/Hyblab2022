@@ -328,6 +328,7 @@ th, td {
     margin-left: auto;
     margin-right: auto;
     overflow: visible !important;
+    box-shadow: 7px 7px 25px rgba(0, 0, 0, 0.25);
 }
 
 
@@ -352,10 +353,6 @@ th, td {
 #fourth-slide{
     background-color: #fff;
     font-size: 18%;
-}
-
-#fourth-slide h2 {
-    font-size: 300%;
 }
 
 #top-select{
@@ -387,6 +384,27 @@ th, td {
     box-shadow: 7px 7px 25px 0 rgba(0,0,0,0.25);
     margin: auto;
     margin-top: 0.5em;
+}
+
+.swiper .toptweet {
+    border-radius: 80px;
+}
+
+.swiper .toptweet #tweetname{
+    padding: 5%;
+    margin-left : 2%;
+    height : 1vh;
+    text-align: center;
+
+}
+
+.swiper .toptweet #tweetcontent{
+    padding: 5%;
+    margin-left : 2%;
+    height : 30vh;
+    width:80%;
+    text-align: center;
+
 }
 
 #theme-pic{
@@ -503,13 +521,13 @@ img#theme {
 /* as long as the screen aspect ratio is below 9:16 */
 @media screen and (max-aspect-ratio: 9/16){
     #container{
-        /*margin-top: calc((100vh - 100 * 16vw / 9) / 2);*/
+        margin-bottom: calc(100vh - 100 * 16vw / 9);
         width: 100vw;
-        height: 100vh;
+        height: calc(100 * 16vw / 9);
     }
 
-    /*!* We set a default font size here. It will be the base for all other font sizes *!*/
-    /*!* Here the font size is proportional to display width *!*/
+    /* We set a default font size here. It will be the base for all other font sizes */
+    /* Here the font size is proportional to display width */
     body{
         font-size: calc(12vw*16/9);
     }
