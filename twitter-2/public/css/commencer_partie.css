@@ -32,7 +32,9 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 5%;
 }
+
 #testez_connaissances{
     text-align: center;
     margin-left: 10%;
@@ -51,16 +53,20 @@ body{
     background-color: #5571E5;
     color: #FFFFFF;
     border-radius: 19px;
-    font-size: 1.5rem;
+    font-size: 3vh;
     text-align: center;
-    width:75%;
+    width: 40vh;
     height:6vh;
-    margin-top: 5vh;
+    margin-top: 3vh;
     line-height: 6vh;
     padding-left: 2%;
     padding-right: 2%;
     border:none;
-    font-size: 80%;
+    font-family: 'blatantregular';
+    src: url('../font/blatant-webfont.woff') format('woff'),
+         url('../font/blatant-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
 }
 /* ---------- Important media queries for easy responsive content :-) ----------------- */
 /* Can be adapted for other ratios that 9:16 or for horizontal content (ex: 16:9) */
