@@ -5,9 +5,6 @@
  * @author : Team Genesis
  */
 
-
-const axios = require("axios");
-const https = require("https");
 const request = require('request');
 const science = require("science");
 const DateController = require('./DateController');
@@ -24,7 +21,7 @@ const range = n => [...Array(n).keys()];
  *
  * @param arr_x
  * @param arr_y
- * @return {*[][]}
+ * @return {*[][]} 
  */
 function moyenne(arr_x, arr_y) {
     const count = {};
@@ -151,4 +148,14 @@ function sendDataToFront(req, res) {
     }
 }
 
-module.exports = sendDataToFront;
+function sendCandidatToFront(req, res) {
+    if (CandidatController.shouldWeUpdateData()) {
+        getData()
+            .then(res.status(201).json(cacheCandidat))
+            .catch(res.status(500).send());
+    } else {
+        res.status(201).json(cacheCandidat);
+    }
+}
+
+module.exports = {sendDataToFront, sendCandidatToFront};
