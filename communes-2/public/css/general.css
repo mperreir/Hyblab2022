@@ -206,4 +206,6 @@ body{
     margin-top: 5%;
 }
 
-
+.cursor-hand:hover{
+    cursor: pointer;
+}
