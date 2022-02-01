@@ -20,7 +20,6 @@ body{
 }
 #container{
     height: 100vh;
-    padding-top: 3vh;
 }
 #top-section{
     display: flex;
@@ -44,7 +43,7 @@ body{
     text-align: center;
     width:65%;
     height:6vh;
-    margin-top: 5vh;
+    margin-top: 3vh;
     line-height: 6vh;
     border:none;
     font-size: 90%;
