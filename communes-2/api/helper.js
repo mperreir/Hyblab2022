@@ -1,7 +1,6 @@
 const fs = require('fs');
 const Papa = require('papaparse');
 
-
 /**
  * Lis un fichier CSV et le parse dans un tableau.
  * @param {String} filePath le chemin d'accès au fichier CSV
@@ -109,5 +108,29 @@ module.exports.remplirTableau =  function (tabResult, tabEntree , nombreAInserer
         }
     }
     return tabResult;
-    }
+}
 
+
+/**
+ * Retourne la distance en mètres entre deux coordonnées géographiques.
+ * @param {[latitude, longitude]} pointA 
+ * @param {[latitude, longitude]} pointB 
+ * @returns distance en mètres entre pointA et pointB
+ */
+module.exports.calculateDistance = function(pointA, pointB) {
+
+    const R = 6371e3;
+    const phi1 = pointA[0] * Math.PI/180;
+    const phi2 = pointB[0] * Math.PI/180;
+
+    const deltaPhi = (pointB[0] - pointA[0]) * Math.PI/180;
+    const deltaLambda = (pointB[1] - pointA[1]) * Math.PI/180;
+
+    const a = Math.sin(deltaPhi/2) * Math.sin(deltaPhi/2) + Math.cos(phi1) * Math.cos(phi2) * Math.sin(deltaLambda/2) * Math.sin(deltaLambda/2);
+
+    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+    
+    const d = R * c;
+
+    return d;
+}

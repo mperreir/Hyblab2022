@@ -3,7 +3,6 @@
 // Show slider
 var slideIndex = 1;
 
-
 page('/communes-2/affirmation', async function () {
     await renderTemplate(templates('./templates/affirmation.mustache'));
 
@@ -68,25 +67,47 @@ page('/communes-2/affirmation', async function () {
 
     showAffirmation(slideIndex);
 
+    
+
     // Add event click on affirmation box
-    let slide = document.getElementById("slider");
+    let slide = document.getElementById("show");
     slide.addEventListener("click", (event)=>{
         if (slide !== event.target) return;
-        let slider = document.getElementById("slider");
+        var slider = document.getElementById("slider");
         slider.style.bottom ="-190px";
 
-        let box = document.getElementById("affirmation");
+        var box = document.getElementById("affirmation");
         box.style.bottom = "0";
     });
 
     let box_aff = document.getElementById("affirmation");
     box_aff.addEventListener("click", (event)=>{
         if (box_aff !== event.target) return;
-        let box = document.getElementById("affirmation");
+        var box = document.getElementById("affirmation");
         box.style.bottom ="-190px";
 
-        let slider = document.getElementById("slider");
+        var slider = document.getElementById("slider");
         slider.style.bottom = "0";
+    });
+
+    let indicebutton = document.getElementById("indice");
+    indicebutton.addEventListener("click", (event)=>{
+        if (indicebutton !== event.target) return;
+        var indicebox = document.getElementById("indice-box");
+        indicebox.style.bottom ="0";
+
+        var slider = document.getElementById("slider");
+        slider.style.bottom ="-190px";
+    });
+
+    let indicebox = document.getElementById("indice-box");
+    indicebox.addEventListener("click", (event)=>{
+        if (indicebox !== event.target) return;
+        var indiceb = document.getElementById("indice-box");
+        indiceb.style.bottom ="-190px";
+
+        var slider = document.getElementById("slider");
+        slider.style.bottom ="0";
     });
 
     // ------ Gestion de la map
@@ -196,13 +217,16 @@ function roundEnding(selectedValue, rightValue) {
     let scoreRound = 0;
     let nbEssaiSuivant = 1;
     let gameData = JSON.parse(localStorage.getItem('gameData'));
-
+    let nbCommunesJouees = gameData['nbreCommunesJouees'];
+    let communePrecedente = gameData['communePrecedente'];
 
     if(gameData['numeroEssai'] == 1) {
         if(selectedValue == rightValue) {
             // Gagné premier.
             console.log('Gagne premier');
             scoreRound = 5000;
+            nbCommunesJouees++;
+            communePrecedente = gameData['communeCourante'];
         } else {
             // Perdu premier essai
             console.log('Perdu premier');
@@ -213,11 +237,15 @@ function roundEnding(selectedValue, rightValue) {
             // Gagné deuxieme essai
             console.log('Gagne second');
             scoreRound = 2500;
+            nbCommunesJouees++;
+            communePrecedente = gameData['communeCourante'];
         } else {
             // Perdu deuxieme essai*
             console.log('Perdu second');
             // TODO : Calcul du score
-            scoreRound = 1250;
+            scoreRound = calculateScore(selectedValue, rightValue);
+            nbCommunesJouees++;
+            communePrecedente = gameData['communeCourante'];
         }
     }
 
@@ -226,8 +254,11 @@ function roundEnding(selectedValue, rightValue) {
     localStorage.setItem('gameData', JSON.stringify({
         'orientation': gameData['orientation'],
         'score' : gameData['score'] + scoreRound,
+        'scoreIntermediaire': scoreRound,
         'nbreCommunesTrouvees': gameData['nbreCommunesTrouvees'] + (selectedValue == rightValue ? 1 : 0),
+        'nbreCommunesJouees': nbCommunesJouees,
         'numeroEssai': nbEssaiSuivant,
+        'communePrecedente': communePrecedente,
         'communeCourante' : nbEssaiSuivant == 2 ? gameData['communeCourante'] : gameData['communes'].pop(),
         'communes': gameData['communes']
     }));
@@ -240,6 +271,39 @@ function roundEnding(selectedValue, rightValue) {
     }
 }
 
+/**
+ * Calcule le score obtenu pour le second tour. On se base sur la distance entre la ville sélectionnée et la bonne ville.
+ * 
+ * @param {String} selectedValue 
+ * @param {String} rightValue 
+ */
+function calculateScore(selectedValue, rightValue) {
+
+    const scoreReussite = 2500;
+    const maxScoreEchec = 1250;
+
+    if(selectedValue == rightValue) return scoreReussite;
+
+    /**
+     * Pour les coordonnées, on utilisera la première valeur du tableau coordinates du geojson.json
+     * En valeur de référence, on prendra la plus grande distance possible (à déterminer).
+     * On fait le ratio entre la distance entre les selectedValue et rightValue sur la plus grande distance, que l'on multiplie par le scoreMax.
+     *  */ 
+
+    const distanceMax = 179378; // Cela correspond à la distance en mètres la plus longue en Loire-Atlantique, entre les bords éloignés de Piriac-sur-Mer et Montrelais
+    let distanceChoisie = fetch('api/distance/' + selectedValue + '/' + rightValue)
+    .then(function(response) {
+        return response.json();
+    })
+    .then(function(responseJson) {
+        let score = (1 - (responseJson / distanceMax)) * maxScoreEchec;
+        return Math.round(score);
+    });
+
+    console.log(distanceChoisie);
+    return distanceChoisie;
+}
+
 function sliderplus(n) {
     showAffirmation(slideIndex += n);
   }
@@ -249,6 +313,7 @@ function sliderplus(n) {
   }
 
   function showAffirmation(n) {
+    slide();
     var i;
     var slides = document.getElementsByClassName("affirmation-content");
     console.log(slides)

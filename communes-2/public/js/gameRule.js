@@ -22,6 +22,7 @@ function plusSlides(n) {
   }
   
   function showSlides(n) {
+    slide();
     var i;
     var slides = document.getElementsByClassName("tips-content");
     var dots = document.getElementsByClassName("dot");

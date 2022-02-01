@@ -12,7 +12,7 @@ page('/communes-2/classementChange', async function () {
 
     document.getElementById("save-btn").addEventListener('click', function () {
         let pseudoJoueur = document.getElementById("pseudo").value;
-        let scoreJoueur = JSON.parse(localStorage.getItem('gameData')).ScoreTotal;
+        let scoreJoueur = JSON.parse(localStorage.getItem('gameData')).score;
 
         // on recrée le classement avec le nouveau score
         if (pseudoJoueur.length > 0)  {
@@ -104,5 +104,5 @@ function creationClassementChange(tabClassement){
     text.appendChild(nom);
     textClassement.appendChild(text);
 
-    document.getElementById("textScore").textContent = "votre score : "+JSON.parse(localStorage.getItem('gameData')).ScoreTotal+" pts";
+    document.getElementById("textScore").textContent = "votre score : "+JSON.parse(localStorage.getItem('gameData')).score+" points";
 }
