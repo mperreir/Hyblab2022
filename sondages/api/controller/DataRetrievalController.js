@@ -53,45 +53,34 @@ function getData() {
     return new Promise((resolve, reject) => {
         request(URL_DATA, function (error, response, data) {
             const result = {};
+            data = JSON.parse(data);
 
-            console.error('error:', error);
-            console.log('statusCode:', response && response.statusCode);
+            if (response.statusCode === 200) {
+                for (const sondage of data) {
+                    const tours = sondage.tours.filter(x => x.tour === "Premier tour");
+                    if (tours.length !== 1) {
+                        continue;
+                    }
+
+                    for (const candidat of tours[0].hypotheses.map(x => x.candidats).flat()) {
+                        if (candidat.candidat) {
+                            if (!result[candidat.candidat]) {
+                                result[candidat.candidat] = {
+                                    "x": [],
+                                    "y": []
+                                }
+                            }
+                            result[candidat.candidat]["y"].push(candidat.intentions);
+                            result[candidat.candidat]["x"].push(sondage.fin_enquete);
+                        }
+                    }
+                }
+            }
 
             resolve(result)
         }).on("error", err => {
             reject(err);
         })
-
-        /*https.get(URL_DATA, {})
-            .then(({ status, data }) => {
-                const result = {};
-                if (status === 200) {
-                    for (const sondage of data) {
-
-                        const tours = sondage.tours.filter(x => x.tour === "Premier tour");
-                        if (tours.length !== 1) {
-                            continue;
-                        }
-
-                        for (const candidat of tours[0].hypotheses.map(x => x.candidats).flat()) {
-                            if (candidat.candidat) {
-                                if (!result[candidat.candidat]) {
-                                    result[candidat.candidat] = {
-                                        "x": [],
-                                        "y": []
-                                    }
-                                }
-                                result[candidat.candidat]["y"].push(candidat.intentions);
-                                result[candidat.candidat]["x"].push(sondage.fin_enquete);
-                            }
-                        }
-                    }
-                }
-                resolve(result);
-            })
-            .catch(error => {
-                reject(error);
-            });*/
     })
 }
 
@@ -153,13 +142,14 @@ getData().then(data => {
             })
         }
 
+        console.log(result);
         cacheData = result;
     })
 })
 
-async function sendDataToFront(req, res) {
+/*async function sendDataToFront(req, res) {
     await getData();
     res.status(201).json(cacheData)
 }
 
-module.exports = sendDataToFront;
+module.exports = sendDataToFront;*/
