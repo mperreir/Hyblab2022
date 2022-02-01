@@ -1,5 +1,6 @@
 {
     "abbaretz": {
+        "nom": "Abbaretz",
         "population": 2089,
         "metiers": [
             96,
@@ -61,6 +62,7 @@
         "pourcentage_total_absention": 51.56
     },
     "basse-goulaine": {
+        "nom": "Basse-Goulaine",
         "population": 9036,
         "metiers": [
             15,
@@ -122,6 +124,7 @@
         "pourcentage_total_absention": 39.87
     },
     "le bignon": {
+        "nom": "Le Bignon",
         "population": 3770,
         "metiers": [
             10,
@@ -183,6 +186,7 @@
         "pourcentage_total_absention": 46.26
     },
     "blain": {
+        "nom": "Blain",
         "population": 9792,
         "metiers": [
             64,
@@ -244,6 +248,7 @@
         "pourcentage_total_absention": 52.12
     },
     "la boissiere-du-dore": {
+        "nom": "La Boissière-du-Doré",
         "population": 1048,
         "metiers": [
             20,
@@ -305,6 +310,7 @@
         "pourcentage_total_absention": 49.71
     },
     "bouaye": {
+        "nom": "Bouaye",
         "population": 7846,
         "metiers": [
             5,
@@ -366,6 +372,7 @@
         "pourcentage_total_absention": 46.25
     },
     "bouee": {
+        "nom": "Bouée",
         "population": 989,
         "metiers": [
             26,
@@ -427,6 +434,7 @@
         "pourcentage_total_absention": 50.15
     },
     "bouguenais": {
+        "nom": "Bouguenais",
         "population": 19334,
         "metiers": [
             13,
@@ -488,6 +496,7 @@
         "pourcentage_total_absention": 50.41
     },
     "bouvron": {
+        "nom": "Bouvron",
         "population": 3115,
         "metiers": [
             50,
@@ -549,6 +558,7 @@
         "pourcentage_total_absention": 52.81
     },
     "brains": {
+        "nom": "Brains",
         "population": 2840,
         "metiers": [
             15,
@@ -610,6 +620,7 @@
         "pourcentage_total_absention": 45.92
     },
     "campbon": {
+        "nom": "Campbon",
         "population": 3999,
         "metiers": [
             70,
@@ -671,6 +682,7 @@
         "pourcentage_total_absention": 49.41
     },
     "carquefou": {
+        "nom": "Carquefou",
         "population": 19805,
         "metiers": [
             52,
@@ -732,6 +744,7 @@
         "pourcentage_total_absention": 46.66
     },
     "casson": {
+        "nom": "Casson",
         "population": 2303,
         "metiers": [
             20,
@@ -793,6 +806,7 @@
         "pourcentage_total_absention": 52.32
     },
     "le cellier": {
+        "nom": "Le Cellier",
         "population": 3793,
         "metiers": [
             29,
@@ -854,6 +868,7 @@
         "pourcentage_total_absention": 44.98
     },
     "divatte-sur-loire": {
+        "nom": "Divatte-sur-Loire",
         "population": 6846,
         "metiers": [
             70,
@@ -915,6 +930,7 @@
         "pourcentage_total_absention": 46.68
     },
     "la chapelle-heulin": {
+        "nom": "La Chapelle-Heulin",
         "population": 3263,
         "metiers": [
             30,
@@ -976,6 +992,7 @@
         "pourcentage_total_absention": 49.34
     },
     "la chapelle-launay": {
+        "nom": "La Chapelle-Launay",
         "population": 3052,
         "metiers": [
             5,
@@ -1037,6 +1054,7 @@
         "pourcentage_total_absention": 46.4
     },
     "la chapelle-sur-erdre": {
+        "nom": "La Chapelle-sur-Erdre",
         "population": 19609,
         "metiers": [
             40,
@@ -1098,6 +1116,7 @@
         "pourcentage_total_absention": 41.7
     },
     "chateau-thebaud": {
+        "nom": "Château-Thébaud",
         "population": 3025,
         "metiers": [
             15,
@@ -1159,6 +1178,7 @@
         "pourcentage_total_absention": 45.22
     },
     "cheix-en-retz": {
+        "nom": "Cheix-en-Retz",
         "population": 1067,
         "metiers": [
             5,
@@ -1220,6 +1240,7 @@
         "pourcentage_total_absention": 50.23
     },
     "la chevroliere": {
+        "nom": "La Chevrolière",
         "population": 5589,
         "metiers": [
             40,
@@ -1281,6 +1302,7 @@
         "pourcentage_total_absention": 45.82
     },
     "clisson": {
+        "nom": "Clisson",
         "population": 7187,
         "metiers": [
             20,
@@ -1342,6 +1364,7 @@
         "pourcentage_total_absention": 46.14
     },
     "cordemais": {
+        "nom": "Cordemais",
         "population": 3705,
         "metiers": [
             25,
@@ -1403,6 +1426,7 @@
         "pourcentage_total_absention": 50.23
     },
     "coueron": {
+        "nom": "Couëron",
         "population": 21373,
         "metiers": [
             48,
@@ -1464,6 +1488,7 @@
         "pourcentage_total_absention": 51.8
     },
     "couffe": {
+        "nom": "Couffé",
         "population": 2565,
         "metiers": [
             35,
@@ -1525,6 +1550,7 @@
         "pourcentage_total_absention": 52.59
     },
     "fay-de-bretagne": {
+        "nom": "Fay-de-Bretagne",
         "population": 3616,
         "metiers": [
             60,
@@ -1586,6 +1612,7 @@
         "pourcentage_total_absention": 52.3
     },
     "frossay": {
+        "nom": "Frossay",
         "population": 3217,
         "metiers": [
             55,
@@ -1647,6 +1674,7 @@
         "pourcentage_total_absention": 51.1
     },
     "le gavre": {
+        "nom": "Le Gâvre",
         "population": 1791,
         "metiers": [
             5,
@@ -1708,6 +1736,7 @@
         "pourcentage_total_absention": 51.76
     },
     "gorges": {
+        "nom": "Gorges",
         "population": 4659,
         "metiers": [
             35,
@@ -1769,6 +1798,7 @@
         "pourcentage_total_absention": 50.48
     },
     "grandchamps-des-fontaines": {
+        "nom": "Grandchamps-des-Fontaines",
         "population": 6016,
         "metiers": [
             10,
@@ -1830,6 +1860,7 @@
         "pourcentage_total_absention": 50.86
     },
     "la haie-fouassiere": {
+        "nom": "La Haie-Fouassière",
         "population": 4656,
         "metiers": [
             15,
@@ -1891,6 +1922,7 @@
         "pourcentage_total_absention": 45.08
     },
     "haute-goulaine": {
+        "nom": "Haute-Goulaine",
         "population": 5765,
         "metiers": [
             24,
@@ -1952,6 +1984,7 @@
         "pourcentage_total_absention": 39.84
     },
     "heric": {
+        "nom": "Héric",
         "population": 6049,
         "metiers": [
             45,
@@ -2013,6 +2046,7 @@
         "pourcentage_total_absention": 48.88
     },
     "indre": {
+        "nom": "Indre",
         "population": 3969,
         "metiers": [
             0,
@@ -2074,6 +2108,7 @@
         "pourcentage_total_absention": 51.85
     },
     "jans": {
+        "nom": "Jans",
         "population": 1370,
         "metiers": [
             45,
@@ -2135,6 +2170,7 @@
         "pourcentage_total_absention": 51.53
     },
     "joue-sur-erdre": {
+        "nom": "Joué-sur-Erdre",
         "population": 2483,
         "metiers": [
             35,
@@ -2196,6 +2232,7 @@
         "pourcentage_total_absention": 52.76
     },
     "le landreau": {
+        "nom": "Le Landreau",
         "population": 2995,
         "metiers": [
             45,
@@ -2257,6 +2294,7 @@
         "pourcentage_total_absention": 48.91
     },
     "lavau-sur-loire": {
+        "nom": "Lavau-sur-Loire",
         "population": 766,
         "metiers": [
             0,
@@ -2318,6 +2356,7 @@
         "pourcentage_total_absention": 48.17
     },
     "ligne": {
+        "nom": "Ligné",
         "population": 5173,
         "metiers": [
             40,
@@ -2379,6 +2418,7 @@
         "pourcentage_total_absention": 51.92
     },
     "la limouziniere": {
+        "nom": "La Limouzinière",
         "population": 2414,
         "metiers": [
             35,
@@ -2440,6 +2480,7 @@
         "pourcentage_total_absention": 55.34
     },
     "le loroux-bottereau": {
+        "nom": "Le Loroux-Bottereau",
         "population": 8231,
         "metiers": [
             50,
@@ -2501,6 +2542,7 @@
         "pourcentage_total_absention": 48.84
     },
     "maisdon-sur-sevre": {
+        "nom": "Maisdon-sur-Sèvre",
         "population": 2942,
         "metiers": [
             30,
@@ -2562,6 +2604,7 @@
         "pourcentage_total_absention": 50.0
     },
     "malville": {
+        "nom": "Malville",
         "population": 3463,
         "metiers": [
             30,
@@ -2623,6 +2666,7 @@
         "pourcentage_total_absention": 51.6
     },
     "la marne": {
+        "nom": "La Marne",
         "population": 1506,
         "metiers": [
             25,
@@ -2684,6 +2728,7 @@
         "pourcentage_total_absention": 55.38
     },
     "marsac-sur-don": {
+        "nom": "Marsac-sur-Don",
         "population": 1506,
         "metiers": [
             80,
@@ -2745,6 +2790,7 @@
         "pourcentage_total_absention": 48.01
     },
     "mauves-sur-loire": {
+        "nom": "Mauves-sur-Loire",
         "population": 3216,
         "metiers": [
             15,
@@ -2806,6 +2852,7 @@
         "pourcentage_total_absention": 46.24
     },
     "monnieres": {
+        "nom": "Monnières",
         "population": 2240,
         "metiers": [
             20,
@@ -2867,6 +2914,7 @@
         "pourcentage_total_absention": 47.5
     },
     "la montagne": {
+        "nom": "La Montagne",
         "population": 6230,
         "metiers": [
             0,
@@ -2928,6 +2976,7 @@
         "pourcentage_total_absention": 49.71
     },
     "montbert": {
+        "nom": "Montbert",
         "population": 3124,
         "metiers": [
             45,
@@ -2989,6 +3038,7 @@
         "pourcentage_total_absention": 48.27
     },
     "mouzeil": {
+        "nom": "Mouzeil",
         "population": 1889,
         "metiers": [
             10,
@@ -3050,6 +3100,7 @@
         "pourcentage_total_absention": 48.65
     },
     "mouzillon": {
+        "nom": "Mouzillon",
         "population": 2828,
         "metiers": [
             45,
@@ -3111,6 +3162,7 @@
         "pourcentage_total_absention": 47.67
     },
     "nantes": {
+        "nom": "Nantes",
         "population": 309347,
         "metiers": [
             62,
@@ -3172,6 +3224,7 @@
         "pourcentage_total_absention": 59.04
     },
     "nort-sur-erdre": {
+        "nom": "Nort-sur-Erdre",
         "population": 8763,
         "metiers": [
             80,
@@ -3233,6 +3286,7 @@
         "pourcentage_total_absention": 48.25
     },
     "notre-dame-des-landes": {
+        "nom": "Notre-Dame-des-Landes",
         "population": 2182,
         "metiers": [
             25,
@@ -3294,6 +3348,7 @@
         "pourcentage_total_absention": 53.25
     },
     "nozay": {
+        "nom": "Nozay",
         "population": 4148,
         "metiers": [
             70,
@@ -3355,6 +3410,7 @@
         "pourcentage_total_absention": 52.22
     },
     "orvault": {
+        "nom": "Orvault",
         "population": 26356,
         "metiers": [
             20,
@@ -3416,6 +3472,7 @@
         "pourcentage_total_absention": 47.38
     },
     "oudon": {
+        "nom": "Oudon",
         "population": 3805,
         "metiers": [
             25,
@@ -3477,6 +3534,7 @@
         "pourcentage_total_absention": 47.1
     },
     "le pallet": {
+        "nom": "Le Pallet",
         "population": 3239,
         "metiers": [
             15,
@@ -3538,6 +3596,7 @@
         "pourcentage_total_absention": 49.58
     },
     "le pellerin": {
+        "nom": "Le Pellerin",
         "population": 5101,
         "metiers": [
             10,
@@ -3599,6 +3658,7 @@
         "pourcentage_total_absention": 52.83
     },
     "petit-mars": {
+        "nom": "Petit-Mars",
         "population": 3601,
         "metiers": [
             10,
@@ -3660,6 +3720,7 @@
         "pourcentage_total_absention": 48.96
     },
     "la planche": {
+        "nom": "La Planche",
         "population": 2637,
         "metiers": [
             60,
@@ -3721,6 +3782,7 @@
         "pourcentage_total_absention": 49.72
     },
     "pont-saint-martin": {
+        "nom": "Pont-Saint-Martin",
         "population": 6039,
         "metiers": [
             25,
@@ -3782,6 +3844,7 @@
         "pourcentage_total_absention": 44.44
     },
     "port-saint-pere": {
+        "nom": "Port-Saint-Père",
         "population": 2914,
         "metiers": [
             60,
@@ -3843,6 +3906,7 @@
         "pourcentage_total_absention": 48.35
     },
     "prinquiau": {
+        "nom": "Prinquiau",
         "population": 3458,
         "metiers": [
             20,
@@ -3904,6 +3968,7 @@
         "pourcentage_total_absention": 50.95
     },
     "puceul": {
+        "nom": "Puceul",
         "population": 1127,
         "metiers": [
             40,
@@ -3965,6 +4030,7 @@
         "pourcentage_total_absention": 54.92
     },
     "quilly": {
+        "nom": "Quilly",
         "population": 1381,
         "metiers": [
             15,
@@ -4026,6 +4092,7 @@
         "pourcentage_total_absention": 54.02
     },
     "la regrippiere": {
+        "nom": "La Regrippière",
         "population": 1529,
         "metiers": [
             30,
@@ -4087,6 +4154,7 @@
         "pourcentage_total_absention": 49.12
     },
     "la remaudiere": {
+        "nom": "La Remaudière",
         "population": 1286,
         "metiers": [
             35,
@@ -4148,6 +4216,7 @@
         "pourcentage_total_absention": 57.15
     },
     "remouille": {
+        "nom": "Remouillé",
         "population": 1901,
         "metiers": [
             10,
@@ -4209,6 +4278,7 @@
         "pourcentage_total_absention": 47.97
     },
     "reze": {
+        "nom": "Rezé",
         "population": 41412,
         "metiers": [
             22,
@@ -4270,6 +4340,7 @@
         "pourcentage_total_absention": 52.06
     },
     "rouans": {
+        "nom": "Rouans",
         "population": 2956,
         "metiers": [
             35,
@@ -4331,6 +4402,7 @@
         "pourcentage_total_absention": 51.76
     },
     "saffre": {
+        "nom": "Saffré",
         "population": 3907,
         "metiers": [
             40,
@@ -4392,6 +4464,7 @@
         "pourcentage_total_absention": 51.29
     },
     "saint-aignan-grandlieu": {
+        "nom": "Saint-Aignan-Grandlieu",
         "population": 3944,
         "metiers": [
             0,
@@ -4453,6 +4526,7 @@
         "pourcentage_total_absention": 42.42
     },
     "saint-colomban": {
+        "nom": "Saint-Colomban",
         "population": 3355,
         "metiers": [
             25,
@@ -4514,6 +4588,7 @@
         "pourcentage_total_absention": 54.58
     },
     "corcoue-sur-logne": {
+        "nom": "Corcoué-sur-Logne",
         "population": 2927,
         "metiers": [
             100,
@@ -4575,6 +4650,7 @@
         "pourcentage_total_absention": 54.25
     },
     "saint-etienne-de-montluc": {
+        "nom": "Saint-Etienne-de-Montluc",
         "population": 7129,
         "metiers": [
             35,
@@ -4636,6 +4712,7 @@
         "pourcentage_total_absention": 43.92
     },
     "saint-fiacre-sur-maine": {
+        "nom": "Saint-Fiacre-sur-Maine",
         "population": 1207,
         "metiers": [
             0,
@@ -4697,6 +4774,7 @@
         "pourcentage_total_absention": 42.67
     },
     "saint-herblain": {
+        "nom": "Saint-Herblain",
         "population": 46267,
         "metiers": [
             19,
@@ -4758,6 +4836,7 @@
         "pourcentage_total_absention": 54.12
     },
     "saint-hilaire-de-chaleons": {
+        "nom": "Saint-Hilaire-de-Chaléons",
         "population": 2284,
         "metiers": [
             25,
@@ -4819,6 +4898,7 @@
         "pourcentage_total_absention": 52.76
     },
     "saint-hilaire-de-clisson": {
+        "nom": "Saint-Hilaire-de-Clisson",
         "population": 2284,
         "metiers": [
             25,
@@ -4880,6 +4960,7 @@
         "pourcentage_total_absention": 46.23
     },
     "saint-jean-de-boiseau": {
+        "nom": "Saint-Jean-de-Boiseau",
         "population": 5828,
         "metiers": [
             5,
@@ -4941,6 +5022,7 @@
         "pourcentage_total_absention": 48.94
     },
     "saint-julien-de-concelles": {
+        "nom": "Saint-Julien-de-Concelles",
         "population": 6917,
         "metiers": [
             40,
@@ -5002,6 +5084,7 @@
         "pourcentage_total_absention": 44.44
     },
     "saint-leger-les-vignes": {
+        "nom": "Saint-Léger-les-Vignes",
         "population": 1844,
         "metiers": [
             0,
@@ -5063,6 +5146,7 @@
         "pourcentage_total_absention": 46.42
     },
     "sainte-luce-sur-loire": {
+        "nom": "Sainte-Luce-sur-Loire",
         "population": 15361,
         "metiers": [
             6,
@@ -5124,6 +5208,7 @@
         "pourcentage_total_absention": 48.5
     },
     "saint-lumine-de-clisson": {
+        "nom": "Saint-Lumine-de-Clisson",
         "population": 2101,
         "metiers": [
             15,
@@ -5185,6 +5270,7 @@
         "pourcentage_total_absention": 50.17
     },
     "saint-lumine-de-coutais": {
+        "nom": "Saint-Lumine-de-Coutais",
         "population": 2160,
         "metiers": [
             40,
@@ -5246,6 +5332,7 @@
         "pourcentage_total_absention": 49.12
     },
     "saint-mars-de-coutais": {
+        "nom": "Saint-Mars-de-Coutais",
         "population": 2610,
         "metiers": [
             40,
@@ -5307,6 +5394,7 @@
         "pourcentage_total_absention": 48.54
     },
     "saint-mars-du-desert": {
+        "nom": "Saint-Mars-du-Désert",
         "population": 4899,
         "metiers": [
             30,
@@ -5368,6 +5456,7 @@
         "pourcentage_total_absention": 45.74
     },
     "sainte-pazanne": {
+        "nom": "Sainte-Pazanne",
         "population": 6774,
         "metiers": [
             35,
@@ -5429,6 +5518,7 @@
         "pourcentage_total_absention": 51.17
     },
     "saint-philbert-de-grand-lieu": {
+        "nom": "Saint-Philbert-de-Grand-Lieu",
         "population": 8922,
         "metiers": [
             85,
@@ -5490,6 +5580,7 @@
         "pourcentage_total_absention": 48.7
     },
     "saint-sebastien-sur-loire": {
+        "nom": "Saint-Sébastien-sur-Loire",
         "population": 26840,
         "metiers": [
             2,
@@ -5551,6 +5642,7 @@
         "pourcentage_total_absention": 46.03
     },
     "sautron": {
+        "nom": "Sautron",
         "population": 8192,
         "metiers": [
             20,
@@ -5612,6 +5704,7 @@
         "pourcentage_total_absention": 41.6
     },
     "les sorinieres": {
+        "nom": "Les Sorinières",
         "population": 8540,
         "metiers": [
             0,
@@ -5673,6 +5766,7 @@
         "pourcentage_total_absention": 45.96
     },
     "suce-sur-erdre": {
+        "nom": "Sucé-sur-Erdre",
         "population": 7022,
         "metiers": [
             40,
@@ -5734,6 +5828,7 @@
         "pourcentage_total_absention": 37.95
     },
     "le temple-de-bretagne": {
+        "nom": "Le Temple-de-Bretagne",
         "population": 1967,
         "metiers": [
             0,
@@ -5795,6 +5890,7 @@
         "pourcentage_total_absention": 50.43
     },
     "thouare-sur-loire": {
+        "nom": "Thouaré-sur-Loire",
         "population": 10026,
         "metiers": [
             5,
@@ -5856,6 +5952,7 @@
         "pourcentage_total_absention": 48.08
     },
     "les touches": {
+        "nom": "Les Touches",
         "population": 2473,
         "metiers": [
             30,
@@ -5917,6 +6014,7 @@
         "pourcentage_total_absention": 51.44
     },
     "trans-sur-erdre": {
+        "nom": "Trans-sur-Erdre",
         "population": 1076,
         "metiers": [
             20,
@@ -5978,6 +6076,7 @@
         "pourcentage_total_absention": 57.81
     },
     "treffieux": {
+        "nom": "Treffieux",
         "population": 883,
         "metiers": [
             25,
@@ -6039,6 +6138,7 @@
         "pourcentage_total_absention": 51.53
     },
     "treillieres": {
+        "nom": "Treillières",
         "population": 9217,
         "metiers": [
             30,
@@ -6100,6 +6200,7 @@
         "pourcentage_total_absention": 44.63
     },
     "vallet": {
+        "nom": "Vallet",
         "population": 9016,
         "metiers": [
             90,
@@ -6161,6 +6262,7 @@
         "pourcentage_total_absention": 48.58
     },
     "vay": {
+        "nom": "Vay",
         "population": 2044,
         "metiers": [
             70,
@@ -6222,6 +6324,7 @@
         "pourcentage_total_absention": 52.69
     },
     "vertou": {
+        "nom": "Vertou",
         "population": 24220,
         "metiers": [
             47,
@@ -6283,6 +6386,7 @@
         "pourcentage_total_absention": 42.75
     },
     "vieillevigne": {
+        "nom": "Vieillevigne",
         "population": 3957,
         "metiers": [
             90,
@@ -6344,6 +6448,7 @@
         "pourcentage_total_absention": 46.07
     },
     "vigneux-de-bretagne": {
+        "nom": "Vigneux-de-Bretagne",
         "population": 6030,
         "metiers": [
             35,
@@ -6405,6 +6510,7 @@
         "pourcentage_total_absention": 44.49
     },
     "vue": {
+        "nom": "Vue",
         "population": 1639,
         "metiers": [
             5,
@@ -6466,6 +6572,7 @@
         "pourcentage_total_absention": 53.14
     },
     "la chevallerais": {
+        "nom": "La Chevallerais",
         "population": 1545,
         "metiers": [
             10,
@@ -6527,6 +6634,7 @@
         "pourcentage_total_absention": 54.89
     },
     "geneston": {
+        "nom": "Geneston",
         "population": 3641,
         "metiers": [
             5,
@@ -6588,6 +6696,7 @@
         "pourcentage_total_absention": 50.89
     },
     "la grigonnais": {
+        "nom": "La Grigonnais",
         "population": 1672,
         "metiers": [
             25,
@@ -6649,6 +6758,7 @@
         "pourcentage_total_absention": 52.03
     },
     "saint-philbert-de-bouaine": {
+        "nom": "Saint-Philbert-de-Bouaine",
         "population": 3426,
         "metiers": [
             75,

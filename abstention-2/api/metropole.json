@@ -1,0 +1,24 @@
+{
+    "nantes": {
+        "nom": "nantes",
+        "population": 956482,
+        "diplome_bac+5": 0,
+        "pourcentage_diplome_bac+5": 0,
+        "non_votants": 295479,
+        "pourcentage_non_votants": 30.89,
+        "abstention": 142595,
+        "pourcentage_abstention": 14.91,
+        "vote_blanc": 45870,
+        "pourcentage_vote_blanc": 4.8,
+        "vote_nul": 12303,
+        "pourcentage_vote_nul": 1.29,
+        "nouveaux_habitants": 54515,
+        "pourcentage_nouveaux_habitants": 5.7,
+        "mineurs": 222664,
+        "pourcentage_mineurs": 23.28,
+        "etrangers": 37668,
+        "pourcentage_etranger": 3.94,
+        "total_abstention": 496247,
+        "pourcentage_total_absention": 51.88
+    }
+}
