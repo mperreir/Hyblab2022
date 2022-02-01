@@ -2,9 +2,9 @@ class Step1Game extends React.Component {
     constructor(props) {
         super(props);
 
-        const profilsState = candidates.reduce((previus, candidate) => {
+        const profilsState = candidates.reduce((previous, candidate) => {
             return {
-                ...previus,
+                ...previous,
                 [candidate.nameId]: {
                     error: false,
                     isAcceptClick: false,
@@ -15,7 +15,6 @@ class Step1Game extends React.Component {
         }, {});
 
         this.state = {
-            validateDisabled: true,
             ...profilsState, 
         };
 
@@ -29,13 +28,35 @@ class Step1Game extends React.Component {
     }
 
     clickCancel(id) {
-        console.log('cancel');
-        const tampon = (<Tampon isValid={false}/>);
-        this.setState({ [id]: {...this.state[id], isAcceptClick: false, isCancelClick: !this.state[id].isCancelClick }});
+        this.setState({ [id]: {...this.state[id], isAcceptClick: false, isCancelClick: !this.state[id].isCancelClick }}, () => { this.isEnd()});
+        // this.isEnd();
     }
     clickAccept(id) {
-        console.log('accept');
-        this.setState({ [id]: {...this.state[id], isAcceptClick: !this.state[id].isAcceptClick, isCancelClick: false }});
+        this.setState({ [id]: {...this.state[id], isAcceptClick: !this.state[id].isAcceptClick, isCancelClick: false }}, () => { this.isEnd()});
+        // this.isEnd();
+    }
+
+    isEnd() {
+        const tmpState = {...this.state};
+        const keys = Object.keys(tmpState);
+        const validateDisabled = keys.reduce((previous, current) => previous && (tmpState[current].isAcceptClick || tmpState[current].isCancelClick));
+        if (validateDisabled) {
+            this.isWin();
+            this.props.enableGameButton();
+        } 
+        else {
+            this.props.disableGameButton();
+        }
+    }
+
+    isWin() {
+        const tmpState = {...this.state};
+        //const keys = Object.keys(tmpState);
+        const isWin = candidates.reduce((previous, current) => {
+            const valid = current.stepOneGame.valid;
+            console.log(current);
+            return previous && ((valid && tmpState[current.nameId].isAcceptClick) || (!valid && tmpState[current.nameId].isCancelClick))
+        }, true);
     }
 
     render(){
@@ -61,17 +82,11 @@ class Step1Game extends React.Component {
         
         return(
             <div className='step1Game'>
-                <div className='step1Game_header'>
-                    <a href='#' className='step1Game_help_point'><img src='img/help_point.svg' alt='Aide'/></a>
-                    <h2 className='step1Game_title'>À toi de jouer ! </h2><h2>Examine ces candidatures</h2>
-                    <p className='step1Game_subtitle'>Les candidats t’ont envoyé leurs profils, à toi de sélectionner ceux qui peuvent continuer.</p>
-                </div>
                 <div className='step1Game_profils swiper'>
                     <div className='swiper-wrapper'>
                         {profils}
                     </div>
                 </div>
-                <Button value={'Valider'} disabled={this.state.validateDisabled} white={false}/>
             </div>
         )
     }
