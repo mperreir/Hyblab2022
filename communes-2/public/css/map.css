@@ -289,6 +289,17 @@
     height: 1%;
 }
 
+#message{
+    font-size: 40%;
+    z-index: 1;
+    margin-top: 69%;
+    position: absolute;
+    margin-left: 19%;
+    top: 0;
+    color: #282246;
+
+}
+
 /*Animation part*/
 .fadeInRight {
 -webkit-animation-name: fadeInRight;
@@ -325,8 +336,8 @@ transform: none;
 .fadeOutLeft {
 -webkit-animation-name: fadeOutLeft;
 animation-name: fadeOutLeft;
--webkit-animation-duration: 1s;
-animation-duration: 1s;
+-webkit-animation-duration: 3.5s;
+animation-duration: 3.5s;
 -webkit-animation-fill-mode: both;
 animation-fill-mode: both;
 }
@@ -420,8 +431,8 @@ animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
 backface-visibility: visible !important;
 -webkit-animation-name: flipInX;
 animation-name: flipInX;
--webkit-animation-duration: 5s;
-animation-duration: 5s;
+-webkit-animation-duration: 3s;
+animation-duration: 3s;
 -webkit-animation-fill-mode: both;
 animation-fill-mode: both;
 }
