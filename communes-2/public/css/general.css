@@ -8,6 +8,7 @@
         margin-top: calc((100vh - 100 * 16vw / 9) / 2);
         width: 100vw;
         height: calc(100 * 16vw / 9);
+        overflow: hidden;
     }
 
     /* We set a default font size here. It will be the base for all other font sizes */
@@ -24,6 +25,7 @@
         margin-left: calc((100vw - 100 * 9vh / 16) / 2);
         width: calc(100 * 9vh / 16);
         height: 100vh;
+        overflow: hidden;
     }
 
     /* We set a default font size here. It will be the base for all other font sizes */
@@ -208,4 +210,10 @@ body{
 
 .cursor-hand:hover{
     cursor: pointer;
+}
+
+#echarpe {
+    height: 55.47px;
+    top: 291.41px;
+    transform: rotate(-9.5deg);
 }
