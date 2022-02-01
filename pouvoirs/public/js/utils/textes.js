@@ -11,7 +11,6 @@ fetch("./data/textes.json")
     })
 
 function getText(key) {
-    console.log(key);
     if (gotText) return textes[key];
     return;
 }
