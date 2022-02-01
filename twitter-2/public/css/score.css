@@ -34,6 +34,8 @@ html,body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-top: 3vh;
+    margin-right: 4%;
 }
 
 #congrats{

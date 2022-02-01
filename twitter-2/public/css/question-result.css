@@ -29,7 +29,8 @@ body {
 
 #top-section {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-right: 4%;
     align-items: center;
     height: 4vh;
     padding-top: 3vh;
@@ -119,7 +120,7 @@ body {
 #about {
     background-color: #84A6FC;
     color: white;
-    margin-top: 5vh;
+    margin-top: 3vh;
     text-align: center;
     border: none;
 }

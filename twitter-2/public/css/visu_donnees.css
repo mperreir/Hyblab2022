@@ -26,6 +26,7 @@ body{
     justify-content: space-around;
     align-items: center;
     height: 10vh;
+    margin-right: 4%;
 }
 
 #buttons{
