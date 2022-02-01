@@ -3,12 +3,12 @@ function BarChart(data, {
     x = (d, i) => i, // given d in data, returns the (ordinal) x-value
     y = d => d, // given d in data, returns the (quantitative) y-value
     title, // given d in data, returns the title text
-    marginTop = 20, // the top margin, in pixels
+    marginTop = 40, // the top margin, in pixels
     marginRight = 0, // the right margin, in pixels
-    marginBottom = 100, // the bottom margin, in pixels
+    marginBottom = 0, // the bottom margin, in pixels
     marginLeft = 0, // the left margin, in pixels
-    width = 300, // the outer width of the chart, in pixels
-    height = 300, // the outer height of the chart, in pixels
+    width = 400, // the outer width of the chart, in pixels
+    height = 120, // the outer height of the chart, in pixels
     xDomain, // an array of (ordinal) x-values
     xRange = [marginLeft, width - marginRight], // [left, right]
     yType = d3.scaleLinear, // y-scale type
@@ -166,20 +166,25 @@ async function ThemeGraphe() {
 
     svg1.append(await BarChart(data, {
         x: d => d.nameCandidates,
-        y: d => d.nbTweetsByThemes
+        y: d => d.nbTweetsByThemes,
+        color: "#EF7767"
     }))
 
     let selector = document.getElementById("top-select")
     selector.addEventListener('input', async () => {
-        console.log(selector.value)
         d3.select('#barplot').remove();
         if(parseInt(selector.value) === 0){
-            console.log("haha")
             data = await fetch("api/theme/count/all")
                 .then((response) => response.json())
                 .then((result) => {
                     return result;
                 });
+            svg1.append(await BarChart(data, {
+                x: d => d.nameCandidates,
+                y: d => d.nbTweetsByThemes,
+                xDomain: d3.groupSort(data, ([d]) => -d.nbTweetsByThemes, d => d.nameCandidates), // sort by descending frequency
+                color: "#EF7767"
+            }))
         }
         else{
             data = await fetch("api/theme/count/"+selector.value)
@@ -187,15 +192,13 @@ async function ThemeGraphe() {
                 .then((result) => {
                     return result;
                 });
+            svg1.append(await BarChart(data, {
+                x: d => d.nameCandidates,
+                y: d => d.nbTweetsByThemes,
+                xDomain: d3.groupSort(data, ([d]) => -d.nbTweetsByThemes, d => d.nameCandidates), // sort by descending frequency
+                color: "white"
+            }))
         }
-        svg1.append(await BarChart(data, {
-            x: d => d.nameCandidates,
-            y: d => d.nbTweetsByThemes,
-            xDomain: d3.groupSort(data, ([d]) => -d.nbTweetsByThemes, d => d.nameCandidates), // sort by descending frequency
-            yFormat: "%",
-            yLabel: "↑ Nombre de tweets",
-            color: "black"
-        }))
     })
 
 }

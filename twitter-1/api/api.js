@@ -117,6 +117,7 @@ module.exports = (passport) => {
         })
         listCount.sort((a, b) => a.nbTweetsByThemes - b.nbTweetsByThemes);
         let result = listCount.slice(0,3);
+        console.log(result)
         res.json(result);
     });
 
