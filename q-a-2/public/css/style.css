@@ -193,7 +193,7 @@ body{
 }
 
 .button_disabled {
-    opacity: 50%;
+    opacity: 20%;
     pointer-events: none;
 }
 
@@ -896,4 +896,69 @@ body{
     width: 25%;
     justify-content: space-between;
     margin-top: 5%;
+}
+
+.step3Game {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.step3Game_help_point {
+    position: absolute;
+    right: 5%;
+}
+
+.step3Game_profiles {
+    box-sizing: border-box;
+    display: flex;
+    height: 70%;
+    width: 100%;
+}
+
+.step3Game_profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.statementsCard {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    font-size: 2.8vh;
+    font-family: 'Jost';
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.statementsCard_img {
+    position: absolute;
+    height: 100%;
+    z-index: 1;
+}
+
+.statementsCard_information {
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    z-index: 2;
+}
+
+.statementsCard_civility {
+    margin-bottom: 20%;
+}
+
+.statementsCard_div_text {
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.statementsCard_label {
+    font-weight: bold;
 }

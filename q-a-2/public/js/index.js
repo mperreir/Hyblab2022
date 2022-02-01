@@ -40,7 +40,8 @@ class App extends React.Component {
   }
 
   render() {
-      return this.state.stepPages[this.state.step];
+      //return this.state.stepPages[this.state.step];
+      return <Step3Game />
   }
 }
   /*
