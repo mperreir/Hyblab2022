@@ -85,14 +85,14 @@ const init_p3 = function() {
     'font-size' : '15%',
     'font-family' : 'Nunito',
     'font-weight' : '700',
-    'text-align' : 'justify', 
+    'text-align' : 'left', 
     'vertical-align' : 'center',
     'line-height' : '125%',
-    'top' : '5%',
+    'top' : '10%',
     'position' : 'absolute',
     'display' : 'block',
     'width' : '85%',
-    'left' : '7.5%',
+    'left' : '10%',
     'margin' : 'auto',
     'hyphens' : 'auto'
   })
@@ -136,7 +136,7 @@ const init_p3 = function() {
 
   const colors = ["#1be5b9", "#FF2019", "#FF2019"];
   function changeText(nb, txt, btn) {
-    textContainer.style.top = "5%";
+    textContainer.style.top = "10%";
     if (state === nb){
       swiper.disable();
       cancel.play();

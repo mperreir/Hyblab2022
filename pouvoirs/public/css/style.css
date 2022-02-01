@@ -666,36 +666,37 @@ body {
 
 #p6 .dialog .dialog-text {
   font-family: "Nunito";
-  font-size: 1.6vmin;
+  font-weight: 900;
+  font-size: 15%;
   width: 82%;
   margin: auto;
   color: white;
-  text-align: justify;
+  text-align: left;
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 10%;
 }
 
-#p6 .dialog .arrow-small {
+.arrow-small{
   position: absolute;
   margin: auto;
-  font-size: 16px;
+  font-size: 15%;
   bottom: 60%;
   left: 40%;
 }
 
-#p6 .dialog .arrow-medium {
+.arrow-medium{
   position: absolute;
   margin: auto;
-  font-size: 16px;
+  font-size: 15%;
   bottom: 40%;
   left: 40%;
 }
 
-#p6 .dialog .arrow-big {
+.arrow-big {
   position: absolute;
   margin: auto;
-  font-size: 16px;
+  font-size: 15%;
   bottom: 30%;
   left: 40%;
 }
