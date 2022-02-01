@@ -1,12 +1,12 @@
-/* ------- Important ! Please at least keep the last part of this CSS ----------- */
-/* that forces a 9:16 format (portrait) on all contents */
+/* ---------- Important media queries for easy responsive content :-) ----------------- */
+/* Can be adapted for other ratios that 9:16 or for horizontal content (ex: 16:9) */
 
 /* This media query ensures that we allways will the width of the screen */
 /* as long as the screen aspect ratio is below 9:16 */
-@media screen and (max-aspect-ratio: 9/16){
+@media screen and (max-aspect-ratio: 9/16) and (min-width :480px){
     #container{
-        margin-top: calc((100vh - 100 * 16vw / 9) / 2);
         width: 100vw;
+        margin-top: calc((100vh - 100 * 16vw / 9) / 2);
         height: calc(100 * 16vw / 9);
         overflow: hidden;
     }
@@ -18,9 +18,21 @@
     }
 }
 
+/* Mobile */
+
+@media screen and (max-width: 480px) {
+    #container{
+        margin-top: 0;
+        width: 100vw;
+        height: 88vh;
+        font-size: calc(12vw*16/9);
+        overflow: hidden;
+    }
+}
+
 /* This media query ensures that we allways will the height of the screen */
 /* as long as the screen aspect ratio is higher than 9:16 */
-@media screen and (min-aspect-ratio: 9/16){
+@media screen and (min-aspect-ratio: 9/16) and (min-width :480px) {
     #container{
         margin-left: calc((100vw - 100 * 9vh / 16) / 2);
         width: calc(100 * 9vh / 16);
@@ -218,7 +230,6 @@ body{
     margin-top: 5%;
 }
 
-<<<<<<< HEAD
 .titre-info{
     margin-top: 20px;
     font-size: 25%;
@@ -239,14 +250,12 @@ body{
     width: 10%;
     margin-left: 7px;
 }
-=======
 .cursor-hand:hover{
     cursor: pointer;
 }
 
 #echarpe {
-    height: 55.47px;
-    top: 291.41px;
+    height: 50%;
+    width: 110%;
     transform: rotate(-9.5deg);
 }
->>>>>>> 5ce8724a427a1ab37de14bca2383036fdebb16f4
