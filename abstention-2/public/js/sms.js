@@ -103,7 +103,7 @@ async function loadSms() {
     let smsTread = document.getElementById('sms-tread');
     let smsHtml;
 
-    const delay = 200;
+    const delay = 2000;
     let displayedSMSIndex = 0;
 
 

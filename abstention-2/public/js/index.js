@@ -50,9 +50,9 @@ const FOLDER_TITLES = {
 function date() {
     const date = document.getElementById('header-date');
 
-    const text = new Date();
+    let text = new Date();
     setInterval(() => {
-        text = new Date()
+        text = new Date();
     }, 60000);
     let dateContent;
     if (text.getHours < 10) {
@@ -83,9 +83,9 @@ function date() {
 // loadFolder('nonVotants');
 // loadFileExplorer();
 // loadSms();
-// loadEnd();
+loadEnd();
 // loadRebet();
-loadAnswer();
+// loadAnswer();
 
 async function fetchCityData(city) {
     const cityRq = await fetch(`/api/city/${city}`);
