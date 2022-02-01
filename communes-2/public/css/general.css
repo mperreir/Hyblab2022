@@ -8,6 +8,7 @@
         margin-top: calc((100vh - 100 * 16vw / 9) / 2);
         width: 100vw;
         height: calc(100 * 16vw / 9);
+        overflow: hidden;
     }
 
     /* We set a default font size here. It will be the base for all other font sizes */
@@ -24,6 +25,7 @@
         margin-left: calc((100vw - 100 * 9vh / 16) / 2);
         width: calc(100 * 9vh / 16);
         height: 100vh;
+        overflow: hidden;
     }
 
     /* We set a default font size here. It will be the base for all other font sizes */
@@ -157,6 +159,12 @@ body{
     text-align: center;
 }
 
+.bottom-text{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 5%;
+}
+
 .textZone{
     font-family: "Bebas Neue";
     font-size: 20%;
@@ -186,13 +194,23 @@ body{
     margin-right: 15px;
 }
 
-#background-video{
+#background-video, #background-image{
     width: 100%;
     height: auto;
     object-fit: contain;
     overflow: hidden;
 }
+/*
+#background-image{
+    z-index: 0;
+}
 
+#background-video {
+    z-index: 1;
+    display: none;
+    position: absolute;
+}
+*/
 #divError{
     font-size: 18%;
     text-align: center;
@@ -200,6 +218,7 @@ body{
     margin-top: 5%;
 }
 
+<<<<<<< HEAD
 .titre-info{
     margin-top: 20px;
     font-size: 25%;
@@ -220,3 +239,14 @@ body{
     width: 10%;
     margin-left: 7px;
 }
+=======
+.cursor-hand:hover{
+    cursor: pointer;
+}
+
+#echarpe {
+    height: 55.47px;
+    top: 291.41px;
+    transform: rotate(-9.5deg);
+}
+>>>>>>> 5ce8724a427a1ab37de14bca2383036fdebb16f4

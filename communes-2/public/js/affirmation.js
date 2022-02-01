@@ -6,16 +6,26 @@ var slideIndex = 1;
 page('/communes-2/affirmation', async function () {
     await renderTemplate(templates('./templates/affirmation.mustache'));
 
-    let selectedValue = null;
     let gameData = JSON.parse(localStorage.getItem('gameData'));
     console.log(gameData);
 
-    // EWEN POUR TESTER SI ON EST AU DEUXIEME ESSAI (donc qu'il faut afficher indice en plus)
+    // EWEN POUR TESTER SI ON EST AU DEUXIEME ESSAI (donc qu'il faut afficher indice en plus) 
 
+    let indiceP = document.getElementById('indiceText');
     if (gameData['numeroEssai'] == 2) {
-        let response3 = await fetch('api/indice');
+        /*
+        let response3 = await fetch('api/indice')
+        .then( response => {
+            return response.json();
+        })
+        .then(indice => {
+            indiceP.innerHTML = indice;
+        })*/
+        let response3 = await fetch('api/indice/' + gameData['communeCourante']['libelleCommune']);
         let indice = await response3.json();
-
+        indiceP.innerHTML = indice['string'];
+    } else {
+        indiceP.innerHTML = "Pas d'indice au premier essai !";
     }
 
     // FIN
@@ -24,12 +34,6 @@ page('/communes-2/affirmation', async function () {
 
     let response = await fetch('api/carte');
     const dataCarte = await response.json();
-
-    let response2 = await fetch('api/affirmations')
-    let affirmations = await response2.json();
-
-    //Recuperation des div dans lesquelles on va afficher les affirmations
-    let divAffirmations = document.getElementsByClassName('affirmation-content')
 
     // Recuperation des données du jeu et affichage du nombre actuel
     let nombreCommuneActuelle = document.getElementById('numeroCommuneActuelle');
@@ -40,25 +44,12 @@ page('/communes-2/affirmation', async function () {
     nombreCommuneMax.innerHTML = nbMaxCommunes;
     nombreCommuneActuelle.innerHTML = nbCommuneActuelle;
 
-    //Ajout de l'information dans les affirmations
-    for (let i = 0; i < affirmations.length; i++) {
-        let informations = affirmations[i]['columns'];
+    let response2 = await fetch('api/affirmations/' + gameData['communeCourante']['libelleCommune']);
+    let affirmations = await response2.json();
 
-        let compteur = 0;
-        //On va de A à Z
-        for(let asciiCode = 65; asciiCode < 91; asciiCode++) {
-            let letter = String.fromCharCode(asciiCode);
-            let pattern = letter+letter+letter; //Le pattern est de type AAA, BBB, ZZZ dans le json
-            if(affirmations[i]['string'].includes(pattern)) {
+    //Recuperation des div dans lesquelles on va afficher les affirmations
+    let divAffirmations = document.getElementsByClassName('affirmation-content')
 
-                //Remplacement du pattern par l'information correspondante
-                affirmations[i]['string'] = affirmations[i]['string'].replace(pattern, gameData['communeCourante'][informations[compteur]]);
-                compteur++;
-            }
-
-            else break; //Si plus de pattern correspondant, on stoppe la boucle
-        }
-    }
 
     //parcourt des div et insertion des affirmations
     for (let i = 0; i < divAffirmations.length; i++) {
@@ -172,13 +163,24 @@ page('/communes-2/affirmation', async function () {
                 // Lors d'un click, on appelle la fonction "whenClicked"
 
                 layer.on({
-                    click: popupClicked
+                    click: popup
                 });
             }
 
         }
     }).addTo(map);
 
+    function popup(e){
+        let layer = e.target
+        let selectedValue = e.target.feature.properties.nom;
+        let infobox = document.getElementById("panel-confirm");
+
+        let p = document.querySelector("panel-confirm > a")
+        infobox.style.display = "visible";
+        console.log("Bonjour")
+
+
+    }
     function popupClicked(e) {
         let layer = e.target
         let selectedValue = e.target.feature.properties.nom;
@@ -277,7 +279,7 @@ function roundEnding(selectedValue, rightValue) {
     }
 
 
-    // REDIRECTION VERS LA BONNE PAGE.
+    // REDIRECTION VERS LA BONNE PAGE. 
     if(selectedValue == rightValue) page('/communes-2/resultatInterTrue')
     else {
         // Si on s'est trompés et que c'était le second essai, on arrive sur la page d'échec, sinon sur la page avec un indice en plus

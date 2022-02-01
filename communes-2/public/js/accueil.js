@@ -1,6 +1,12 @@
 'use strict'
 
 page('/communes-2/', async function () {
+    /*// Wait for the video to preload and display 1st slide
+    var vid = document.getElementById("background-video");
+    vid.onloadeddata = function() {
+        document.querySelector('#background-video').style.display = "block";
+    };*/
+
     anime({
         delay: 2500,
         targets: '#loader',

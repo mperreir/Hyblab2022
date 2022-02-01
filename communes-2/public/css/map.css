@@ -1,7 +1,41 @@
 /* Gestion Map */
 #map {
-    margin: 10%;
-    height: 50%;
+    height: 150%;
+    z-index: 0;
+    top: -14%;
+}
+.leaflet-tile-container {
+    
+    background-color: #F0F0F0;
+}
+.entete{
+    position: absolute;
+    display: flex;
+    flex-direction: center;
+    align-content: center;
+    align-items: center;
+
+    right: 0;
+    margin-right: 45%;
+    z-index: 1;
+}
+#head-back{
+    position: absolute;
+    width: 100%;
+    background-color: #282246;
+    opacity: 100%;
+}
+#couter-country{
+    margin-top: 20%;
+    z-index: 1;
+}
+
+#map-page{
+    position: relative;
+    height: 100%;
+}
+.affir-box{
+    z-index: 1;
 }
 
 .surface-area{
@@ -199,15 +233,8 @@
     display: none;
 }
 
-/* Confirmer la sélection */
 #panel-confirm{
     position: absolute;
-    width: 380px;
-    height: 153px;
-    left: 58px;
-    top: 208px;
-
-    border-radius: 20px;
     
     border: none;
     box-shadow: rgba(0, 0, 0, 0.17) 0px -15px 15px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px;
@@ -217,10 +244,13 @@
     
     background-position: 9px 0px;
     background-repeat: no-repeat;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
 
     line-height: 18px;
     overflow: hidden;
-    padding: 10px 10px;
-
-    text-align: center;
+    padding: 15px 30px;
 }
