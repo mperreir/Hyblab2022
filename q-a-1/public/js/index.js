@@ -26,14 +26,6 @@
   initSlide1();
   // Debug trace because the loadeddata event is
   // sometime not fired
-  console.log("Video loaded");
-
-function go_to_page2(){
-  document.location.href = "de_quoi_on_parle.html";
-}
-
-
-let bouton1 = document.querySelector("#bouton_to_page_accueil");
-bouton1.addEventListener('click', go_to_page2);
+  
 
 

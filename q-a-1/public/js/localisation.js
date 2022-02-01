@@ -96,22 +96,38 @@ async function displayBureauxVotefromLocation(latitude, longitude){
 
   let global_div = document.querySelector('#liste_bureaux');
 
-  for(let i=0; i<5; i++){
+  let waiting_time = 0;
+
+  for(let i=0; i<3; i++){
+    waiting_time += 0.7;
     let div = document.createElement('div');
     div.setAttribute('class', 'div_bureau');
 
+
+    div.style["-webkit-animation"] = 'slide-in-bottom 1.1s ' + waiting_time + 's both';
+    div.style.animation = 'slide-in-bottom 1.1s ' + waiting_time + 's both';
+
     nb_bureaux_same_adress = data[i].length;
   
+    let bold_name_bureau = document.createElement('b');
+    let bold_hours = document.createElement('b');
+
     let p_name = document.createElement('p');
     let p_adress = document.createElement('p');
     let p_hours = document.createElement('p');
     let p_distance = document.createElement('p');
     let p_others = document.createElement('p');
+
+    p_name.appendChild(bold_name_bureau);
+    p_name.style["font-size"] = '18%';
   
-    p_name.textContent = "Bureau " + data[i][0].fields.code_bureau_vote + " : " + data[i][0].fields.nom_bureau_vote;
+    bold_name_bureau.textContent = "Bureau " + data[i][0].fields.code_bureau_vote + " : " + data[i][0].fields.nom_bureau_vote;
     p_adress.textContent = data[i][0].fields.adresse;
     p_hours.textContent = "Horaires : " + data[i][0].fields.ouverture + "h - " + data[i][0].fields.fermeture + "h";
-    p_distance.textContent = "À " + data[i][0].fields.dist.toFixed(2) + "km de chez toi";
+    p_distance.textContent = "À ";
+    bold_hours.textContent = data[i][0].fields.dist.toFixed(2);
+    p_distance.appendChild(bold_hours);
+    p_distance.textContent = p_distance.textContent + "km de toi";
     p_others.textContent = nb_bureaux_same_adress - 1 + " autre(s) bureau(x) à cette adresse";
   
     div.appendChild(p_name);
@@ -122,6 +138,5 @@ async function displayBureauxVotefromLocation(latitude, longitude){
   
     global_div.appendChild(div);
   }
-
 
 }
