@@ -7,6 +7,7 @@
 body{
     overflow: hidden;
     background-size: cover;
+    background-color: black;
 }
 
 @font-face {
@@ -19,6 +20,7 @@ body{
 }
 
 #container {
+    background-color: white;
     color: black;
     padding-top: 3vh;
     font-size: 30%;
@@ -72,7 +74,7 @@ body{
     color: white;
     border-radius: 19px;
     text-align: center;
-    width:65vw;
+    width:65%;
     height:6vh;
     margin-top: 5vh;
     line-height: 6vh;

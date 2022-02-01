@@ -75,7 +75,7 @@ body{
     position: absolute;
     margin-top: 25vh;
     display: inline;
-    text-align: right;
+    text-align: center;
     right:5vh;
 }
 
@@ -93,7 +93,7 @@ body{
     color: #5571E5;
     border-radius: 19px;
     text-align: center;
-    width:65vw;
+    width:65%;
     height:6vh;
     border:none;
     font-size: 80%;
@@ -101,9 +101,11 @@ body{
 }
 
 #about{
+    background-color:#84A6FC;   
     color: white;
     margin-top: 5vh;
     text-align: center;
+    border: none;
 }
 
 #about img{

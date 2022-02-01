@@ -5,6 +5,7 @@ window.addEventListener("load", function (event) {
       const collectionRight = document.getElementsByClassName("right");
       const collectionWrong = document.getElementsByClassName("wrong");
       document.getElementById("container").style.backgroundColor = "#F24A41";
+      this.document.getElementById("about").style.backgroundColor = "#F24A41";
       for (let i = 0; i < collectionRight.length; i++) {
          collectionRight[i].style.visibility = "hidden";
       }
@@ -23,6 +24,9 @@ window.onload = () => {
 
    document.getElementById("about").addEventListener("click", () => {
       window.location.href = "./index.html";
+   });
+   document.getElementById("next-question").addEventListener("click", () => {
+      window.location.href = "./question.html";
    });
 
    

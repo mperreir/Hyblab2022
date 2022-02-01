@@ -45,7 +45,7 @@
 }
 
 html,body {
-    background-color: white;
+    background-color: black;
     color: white;
     overflow: hidden;
     /* to avoid slider bugs on some browsers */
@@ -70,7 +70,7 @@ html,body {
     color: #FFFFFF;
     border-radius: 19px;
     text-align: center;
-    width:65vw;
+    width:65%;
     height:6vh;
     margin-top: 10vh;
     line-height: 6vh;

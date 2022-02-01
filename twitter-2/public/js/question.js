@@ -57,12 +57,12 @@ function fetchCandidates(x) {
     fetch("api/randomQuestion/followers")
         .then(res => res.json())
         .then(data => {
-            if (data.mainCandidat.displayFullName != sessionStorage.getItem("alreadyGivenCandidate1") && data.mainCandidat.displayFullName != sessionStorage.getItem("alreadyGivenCandidate2")) {
+            if (data.mainCandidat.displayShortName != sessionStorage.getItem("alreadyGivenCandidate1") && data.mainCandidat.displayShortName != sessionStorage.getItem("alreadyGivenCandidate2")) {
                 console.log("cand déjà donné 1 :" + sessionStorage.getItem("alreadyGivenCandidate1"));
                 console.log("cand déjà donné 2 :" + sessionStorage.getItem("alreadyGivenCandidate2"));
-                sessionStorage.setItem("alreadyGivenCandidate" + x, data.mainCandidat.displayFullName);
-                sessionStorage.setItem("mainCandidate", data.mainCandidat.displayFullName);
-                sessionStorage.setItem("solutionCandidate", data.solutionCandidat.displayFullName);
+                sessionStorage.setItem("alreadyGivenCandidate" + x, data.mainCandidat.displayShortName);
+                sessionStorage.setItem("mainCandidate", data.mainCandidat.displayShortName);
+                sessionStorage.setItem("solutionCandidate", data.solutionCandidat.displayShortName);
                 sessionStorage.setItem("ratio", data.ratio);
 
 
@@ -74,23 +74,23 @@ function fetchCandidates(x) {
                 let ans1 = document.getElementById("ans1");
                 let ans2 = document.getElementById("ans2");
                 let ans3 = document.getElementById("ans3");
-                console.log(data.solutionCandidat.displayFullName);
+                console.log(data.solutionCandidat.displayShortName);
 
-                candidate.innerHTML = data.mainCandidat.displayFullName;
+                candidate.innerHTML = data.mainCandidat.displayShortName;
                 if (randomNumber == 1) {
-                    ans1.innerHTML = data.solutionCandidat.displayFullName;
-                    ans2.innerHTML = data.wrongCandidats[0].displayFullName;
-                    ans3.innerHTML = data.wrongCandidats[1].displayFullName;
+                    ans1.innerHTML = data.solutionCandidat.displayShortName;
+                    ans2.innerHTML = data.wrongCandidats[0].displayShortName;
+                    ans3.innerHTML = data.wrongCandidats[1].displayShortName;
                 }
                 else if (randomNumber == 2) {
-                    ans2.innerHTML = data.solutionCandidat.displayFullName;
-                    ans3.innerHTML = data.wrongCandidats[0].displayFullName;
-                    ans1.innerHTML = data.wrongCandidats[1].displayFullName;
+                    ans2.innerHTML = data.solutionCandidat.displayShortName;
+                    ans3.innerHTML = data.wrongCandidats[0].displayShortName;
+                    ans1.innerHTML = data.wrongCandidats[1].displayShortName;
                 }
                 else if (randomNumber == 3) {
-                    ans3.innerHTML = data.solutionCandidat.displayFullName;
-                    ans1.innerHTML = data.wrongCandidats[0].displayFullName;
-                    ans2.innerHTML = data.wrongCandidats[1].displayFullName;
+                    ans3.innerHTML = data.solutionCandidat.displayShortName;
+                    ans1.innerHTML = data.wrongCandidats[0].displayShortName;
+                    ans2.innerHTML = data.wrongCandidats[1].displayShortName;
                 }
 
                 click(randomNumber);
