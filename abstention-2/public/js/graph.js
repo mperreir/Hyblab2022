@@ -755,6 +755,12 @@ function popdot(id,data){
   );
 }
 
+function beforePrintHandler () {
+  for (var id in Chart.instances) {
+    Chart.instances[id].resize()
+  }
+}
+
 /*
 donut("donut",'nantes',[45,20]);
 pie("pie","toulouse",[30,45]);
