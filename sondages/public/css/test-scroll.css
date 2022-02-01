@@ -20,18 +20,59 @@ body {
 }
 
 #race {
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
     position: absolute;
     z-index: 99;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
     height: 100vh;
     background-color: #55001588;
+    width: 100%;
 }
 
-#race img {
-    width: 125px;
-} 
+#race .candidat {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    transition: all .3s;
+    font-family: 'Kanit', sans-serif;
+}
+
+#race .candidat .name {
+    text-align: center;
+    font-size: 19px;
+    font-style: italic;
+    margin-right: 15px;
+}
+
+#race .candidat .name .firstName {
+    font-weight: 200;
+}
+
+#race .candidat .name .lastName {
+    font-weight: 400;
+}
+
+#race .candidat .block {
+    display: flex;
+    align-items: center;
+    background: #000;
+    border-radius: 500px;
+    padding: 5px;
+}
+
+#race .candidat .block img {
+    width: 60px;
+    height: 60px;
+    background: red;
+    border-radius: 100px;
+}
+
+#race .candidat .pourcent {
+    color: #FFF;
+    margin: 0 10px;
+    font-weight: 500;
+}
 
 header {
     display: flex;
@@ -57,7 +98,7 @@ header p {
     width: 100%;
 }
 
-#blocks > * {
+#blocks>* {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -65,7 +106,7 @@ header p {
     color: #00000022;
 }
 
-#blocks > *:nth-child(2n) {
+#blocks>*:nth-child(2n) {
     background-color: orange;
 }
 
@@ -105,6 +146,7 @@ footer p {
         margin-left: calc((100vw - 100 * 9vh / 16) / 2);
         min-height: 100vh;
     }
+
     #container, #race {
         width: calc(100 * 9vh / 16);
     }
