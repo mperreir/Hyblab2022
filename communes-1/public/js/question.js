@@ -1,5 +1,12 @@
-let data_election = require('./chargement.js');
-data_election = data_election.data_election
+let dataElection;
+fetch("api/dataElection").then(response => response.json())
+	.then(data => dataElection = data);
+const data_election = new Map(Object.entries(dataElection));
+
+for (let map in data_election) {
+	map = new Map(Object.entries(map));
+}
+
 
 class FactoryQuestion {
 	constructor(code_commune_joueur) {
@@ -14,7 +21,6 @@ class FactoryQuestion {
 		return annees[Math.floor(Math.random()*annees.length)];
 	}
 
-	//TODO question bonus
 	generate_question(numero_question, attaque, code_commune_adverse){
 
 		let code_commune_question = attaque ? code_commune_adverse : this.code_commune_joueur;
@@ -58,9 +64,6 @@ class FactoryQuestion {
 
 		}
 	}
-
-
-
 }
 
 
@@ -329,12 +332,6 @@ class Question10 extends Question{
 	}
 }
 
-// ---------------   Question Bonus  ----------------------
-//TODO Question bonus
-
-
-
-
 
 
 //tests
@@ -348,3 +345,7 @@ console.log(new Question5(7,"2002").generate_question());
 //console.log(new Question8(7,"2002").generate_question());
 //console.log(new Question9(7,"2002").generate_question());
 //console.log(new Question10(8,7,"2002").generate_question());
+
+
+
+module.exports.classFactoryQuestion = FactoryQuestion;
