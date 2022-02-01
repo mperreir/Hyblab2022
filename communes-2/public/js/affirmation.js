@@ -284,6 +284,7 @@ function sliderplus(n) {
   }
 
   function showAffirmation(n) {
+    slide();
     var i;
     var slides = document.getElementsByClassName("affirmation-content");
     console.log(slides)
