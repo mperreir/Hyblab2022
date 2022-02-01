@@ -962,3 +962,42 @@ body{
 .statementsCard_label {
     font-weight: bold;
 }
+.gamePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gamePage_title_container {
+    margin: 0 5%;
+    box-sizing: border-box;
+    width: 90%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gamePage_title_container > img {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    height: 4vh;
+    cursor: pointer;
+}
+
+.gamePage_title_container > h2 {
+    margin-top: 5vh;
+    font-family: "Spicy Rice";
+    font-size: 4vh;
+}
+
+.gamePage_title_container > p {
+    font-size: 2.1vh;
+    font-weight: 300;
+}
+
+.gamePage_container {
+    width: 100%;
+    height: 60vh;
+}
