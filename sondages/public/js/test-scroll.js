@@ -21,7 +21,7 @@ const COMPATIBLE_BACKGROUNDS = {
 }
 
 function AjoutDesCandidats(candidats) {
-    
+
     const CandidatSelection = document.body.querySelector("#CandidatSelection")
 
     for (const candidat of candidats) {
@@ -89,6 +89,13 @@ function GenereLaListeDesBackgrounds(nb_jours) {
 function start() {
 
     window.scrollTo(0, 1);
+
+    const player = document.querySelector("lottie-player");
+    player.load("anim/debut.json");
+    player.addEventListener("complete", _ => {
+        window.scrollTo(0, 1);
+        document.body.querySelector("#Introduction").className = "hide-introduction"
+    })
 
     const NBR_JOUR = 100 // A changer dynamiquement
     const PIXEL_PAR_JOUR = 500

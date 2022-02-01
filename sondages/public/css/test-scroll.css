@@ -16,6 +16,21 @@ body {
     overflow-x: hidden;
 }
 
+#Introduction {
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    transition: all .3s;
+    transform: translateY(0);
+    z-index: 500;
+}
+
+#Introduction.hide-introduction {
+    opacity: 0;
+    transform: translateY(-100%);
+}
+
 #container {
     display: block;
     position: relative;
