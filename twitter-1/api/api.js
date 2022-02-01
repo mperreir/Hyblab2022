@@ -139,6 +139,7 @@ module.exports = (passport) => {
         tweets = tweets.map(tweet => {
             const candidat = candidats.filter(candidat => candidat.id === tweet.user_id);
             tweet.name = candidat.length > 0 ? candidat[0].name : "ERROR : CANDIDAT INCONNU";
+            // tweet.pic_url = 
             return tweet;
         })
         res.json(tweets);
