@@ -76,7 +76,7 @@
 	position: absolute;
 	width: 100%;
 	z-index: 0;
-	top: 40vh;
+	bottom: 8vh;
 }
 
 .ville {
