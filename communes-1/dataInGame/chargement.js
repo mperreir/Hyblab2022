@@ -41,7 +41,7 @@ module.exports.data_election = data_election;
 
 
 
-const jsonDatavoisin = require('../data/voisin.json');
+const jsonDatavoisin = require('../public/data/voisin.json');
 let data_voisins = new Map();
 for (let jsonDatavoisinKey in jsonDatavoisin) {
 	data_voisins.set(parseInt(jsonDatavoisinKey), jsonDatavoisin[jsonDatavoisinKey]);
