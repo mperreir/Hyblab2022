@@ -117,8 +117,36 @@
     width: 80%;
     height: 35vh;
     margin: 20px auto;
+}
+
+.fd-graph-abstention {
+    height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.fd-graph-nouveaux-habitants {
+    height: 100%;
+    width: 100%;
+}
+
+#graph-chartjs {
+    max-height: 100%;
+}
+
+.graph-etrangers-values {
+    margin-top: 5%;
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+}
+
+.graph-nouveaux-habitants-values {
+    margin-top: 5%;
+    display: flex;
+    width: 93%;
+    justify-content: space-between;
+
 }
 
 .fd-bar-names {
@@ -128,6 +156,7 @@
 
 .fd-solutions {
     width: 60%;
+    margin-top: 5%;
     display: flex;
 }
 

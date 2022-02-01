@@ -15,12 +15,6 @@ const FOLDER_TITLES = {
             progress: 66
         },
         {
-            title: 'Non-votants',
-            tag: 'fe-non-votants',
-            folderName: 'nonVotants',
-            progress: 100
-        },
-        {
             title: 'Mineurs',
             tag: 'fe-mineurs',
             folderName: 'mineurs',
@@ -77,13 +71,16 @@ function date() {
 // date();
 // })
 
+
 // const cityData = await fetchCityData('nantes');
 
 
 // loadStart();
 // loadSms();
+
 // // loadFolder('nonVotants');
 // loadFileExplorer();
+
 // loadEnd();
 loadRebet();
 
@@ -92,6 +89,11 @@ async function fetchCityData(city) {
     const rqJson = await cityRq.json();
     return rqJson;
 }
+
+
+
+loadPresVille();
+
 
 async function loadTemplate(path, data) {
     const fileExplorerTemplate = await fetch(path);
