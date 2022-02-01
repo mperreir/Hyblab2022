@@ -1,29 +1,23 @@
 class AnimationObserver extends Observer {
-    constructor(){
+    constructor() {
         super();
     }
 
     update(observable, object) {
         const currentPercent = observable.scroll;
 
-        // const action = observable.actions.find(
-        //     ({ visibility }) => currentPercent >= visibility[0] && currentPercent <= visibility[1],
-        // );
-
         const actions = observable.currentActions;
 
-        // console.log(action);
+        if(actions === []) return;
 
-        if(!action) return;
+        actions.forEach(action => {
+            const [start, end] = this.findCurrentFrameValue(action.keyframes, currentPercent);
+            
+            const interpolationPercent = this.map(currentPercent, action.visibility[0], action.visibility[1], 0, 1);
+            const currentValue = action.keyframes[start].interpolateWith(action.keyframes[end], interpolationPercent);
 
-        const [start, end] = this.findCurrentFrameValue(action.keyframes, currentPercent);
-        // console.log(start, end);
-        
-        const interpolationPercent = this.map(currentPercent, action.visibility[0], action.visibility[1], 0, 1);
-        const currentValue = action.keyframes[start].interpolateWith(action.keyframes[end], interpolationPercent);
-        console.log(observable.player);
-
-        observable.player.style.cssText = currentValue.toCSS();
+            action.player.style.cssText = currentValue.toCSS();
+        });
     }
 
     findCurrentFrameValue(keyframes, currentFrame){
