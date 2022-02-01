@@ -1,7 +1,11 @@
+.btn-popUp:hover, .btn-menu:hover, .btn-accueil:hover, .btn-accueilBonus:hover{
+    cursor: pointer;
+}
+
 .btn-accueil{  
     width: 13em;
     height: 3em;
-    font-size: 18%;
+    font-size: 20%;
     margin-bottom: 30px;
     border: none;
     border-radius: 20px;
@@ -14,13 +18,13 @@
     border-color: #282246;
     width: 13em;
     height: 3em;
-    font-size: 18%;
+    font-size: 20%;
     margin-bottom: 30px;
     border-radius: 20px;
     transition: transform 250ms;
 }
 
-.accueilBonus:hover{
+.btn-accueilBonus:hover{
     background-color: whitesmoke;
     color: #282246;
 }
@@ -42,10 +46,6 @@
     border: none;
     border-radius: 50px;
     transition: transform 250ms;
-}
-
-.btn-popUp:hover, .btn-menu:hover, .btn-accueil:hover{
-    cursor: pointer;
 }
 
 .btn-bleu{

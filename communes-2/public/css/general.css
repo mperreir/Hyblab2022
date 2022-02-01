@@ -19,12 +19,12 @@
 }
 
 /* Mobile */
-
 @media screen and (max-width: 480px) {
     #container{
         margin-top: 0;
         width: 100vw;
-        height: 88vh;
+        height: 88vh; /* pour les navigateurs qui ne supportent pas  -webkit-fill-available */
+        height: -webkit-fill-available;
         font-size: calc(12vw*16/9);
         overflow: hidden;
     }
@@ -61,7 +61,7 @@ body{
 }
 
 #container{
-    position: relative; /* for absolute positionning of child elements*/
+    position: absolute; /* for absolute positionning of child elements*/
 }
 
 /* -------------- Loader --------------*/
