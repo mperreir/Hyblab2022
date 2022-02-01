@@ -81,23 +81,24 @@ const init_p1 = function() {
   diBox.style.margin = "0px";
   
   const bubble = document.createElement("img");
-  bubble.src = "img/dialogBoxes/advisor_xl.svg";
+  bubble.src = "img/dialogBoxes/advisor_m.svg";
   bubble.style.verticalAlign = "top";
   diBox.appendChild(bubble);
-  const originalText = "Moua est accueilli par un membre de l'Élysée. Le conseiller de l'ex président lui demande : </br><br><b>Comment souhaitez-vous gérer la France pendant l'absence momentanée du Président ?</b>";
+  const originalText = getText("p1-secretary");
   
   diag(diBox, originalText);
   const textContainer = diBox.querySelector("p");
   css([textContainer], {
-    'font-size' : '16%',
+    'font-size' : '15%',
     'font-family' : 'Nunito',
     'text-align' : 'justify', 
     'vertical-align' : 'center',
-    'top' : '35px',
+    'top' : '10%',
     'position' : 'absolute',
-    'width' : '80%',
-    'left' : '10%',
-    'margin' : 'auto'
+    'width' : '85%',
+    'left' : '7.5%',
+    'margin' : 'auto',
+    'hyphens' : 'auto'
   })
 
 
