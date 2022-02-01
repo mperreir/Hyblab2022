@@ -1,5 +1,10 @@
 {
   "education": {
+    "AnasseKazib": {
+      "tweetOnTopic": 79,
+      "totalTweet": 1366,
+      "ratio": 5.8
+    },
     "Anne_Hidalgo": {
       "tweetOnTopic": 75,
       "totalTweet": 715,
@@ -20,11 +25,6 @@
       "totalTweet": 481,
       "ratio": 7.1
     },
-    "Fabien_Roussel": {
-      "tweetOnTopic": 107,
-      "totalTweet": 1030,
-      "ratio": 10.4
-    },
     "f_philippot": {
       "tweetOnTopic": 90,
       "totalTweet": 2114,
@@ -40,15 +40,15 @@
       "totalTweet": 2759,
       "ratio": 5.1
     },
+    "larrouturou": {
+      "tweetOnTopic": 35,
+      "totalTweet": 378,
+      "ratio": 9.3
+    },
     "MLP_officiel": {
       "tweetOnTopic": 80,
       "totalTweet": 1182,
       "ratio": 6.8
-    },
-    "n_arthaud": {
-      "tweetOnTopic": 13,
-      "totalTweet": 171,
-      "ratio": 7.6
     },
     "PhilippePoutou": {
       "tweetOnTopic": 23,
@@ -76,7 +76,12 @@
       "ratio": 6.3
     }
   },
-  "santé": {
+  "sante": {
+    "AnasseKazib": {
+      "tweetOnTopic": 48,
+      "totalTweet": 1366,
+      "ratio": 3.5
+    },
     "Anne_Hidalgo": {
       "tweetOnTopic": 47,
       "totalTweet": 715,
@@ -97,11 +102,6 @@
       "totalTweet": 481,
       "ratio": 4.6
     },
-    "Fabien_Roussel": {
-      "tweetOnTopic": 71,
-      "totalTweet": 1030,
-      "ratio": 6.9
-    },
     "f_philippot": {
       "tweetOnTopic": 674,
       "totalTweet": 2114,
@@ -117,15 +117,15 @@
       "totalTweet": 2759,
       "ratio": 5.4
     },
+    "larrouturou": {
+      "tweetOnTopic": 12,
+      "totalTweet": 378,
+      "ratio": 3.2
+    },
     "MLP_officiel": {
       "tweetOnTopic": 88,
       "totalTweet": 1182,
       "ratio": 7.4
-    },
-    "n_arthaud": {
-      "tweetOnTopic": 16,
-      "totalTweet": 171,
-      "ratio": 9.4
     },
     "PhilippePoutou": {
       "tweetOnTopic": 24,
@@ -154,6 +154,11 @@
     }
   },
   "environnement": {
+    "AnasseKazib": {
+      "tweetOnTopic": 10,
+      "totalTweet": 1366,
+      "ratio": 0.7
+    },
     "Anne_Hidalgo": {
       "tweetOnTopic": 44,
       "totalTweet": 715,
@@ -174,11 +179,6 @@
       "totalTweet": 481,
       "ratio": 11.4
     },
-    "Fabien_Roussel": {
-      "tweetOnTopic": 59,
-      "totalTweet": 1030,
-      "ratio": 5.7
-    },
     "f_philippot": {
       "tweetOnTopic": 30,
       "totalTweet": 2114,
@@ -194,15 +194,15 @@
       "totalTweet": 2759,
       "ratio": 5.4
     },
+    "larrouturou": {
+      "tweetOnTopic": 19,
+      "totalTweet": 378,
+      "ratio": 5
+    },
     "MLP_officiel": {
       "tweetOnTopic": 62,
       "totalTweet": 1182,
       "ratio": 5.2
-    },
-    "n_arthaud": {
-      "tweetOnTopic": 6,
-      "totalTweet": 171,
-      "ratio": 3.5
     },
     "PhilippePoutou": {
       "tweetOnTopic": 6,
@@ -230,7 +230,12 @@
       "ratio": 1.1
     }
   },
-  "économie": {
+  "economie": {
+    "AnasseKazib": {
+      "tweetOnTopic": 102,
+      "totalTweet": 1366,
+      "ratio": 7.5
+    },
     "Anne_Hidalgo": {
       "tweetOnTopic": 53,
       "totalTweet": 715,
@@ -251,11 +256,6 @@
       "totalTweet": 481,
       "ratio": 7.5
     },
-    "Fabien_Roussel": {
-      "tweetOnTopic": 162,
-      "totalTweet": 1030,
-      "ratio": 15.7
-    },
     "f_philippot": {
       "tweetOnTopic": 77,
       "totalTweet": 2114,
@@ -271,15 +271,15 @@
       "totalTweet": 2759,
       "ratio": 12
     },
+    "larrouturou": {
+      "tweetOnTopic": 32,
+      "totalTweet": 378,
+      "ratio": 8.5
+    },
     "MLP_officiel": {
       "tweetOnTopic": 140,
       "totalTweet": 1182,
       "ratio": 11.8
-    },
-    "n_arthaud": {
-      "tweetOnTopic": 43,
-      "totalTweet": 171,
-      "ratio": 25.1
     },
     "PhilippePoutou": {
       "tweetOnTopic": 28,
