@@ -129,7 +129,7 @@ getData().then(data => {
         ]
 
         let loess_generator = science.stats.loess();
-        loess_generator.bandwidth(1);
+        loess_generator.bandwidth(0.5);
         let loess_values = loess_generator(range(days.length), intentions);
 
         if (loess_values.length > 0) {
@@ -141,9 +141,11 @@ getData().then(data => {
             })
         }
 
-        cacheData = result;
+        return result;
     })
-})
+    cacheData = points;
+    return points;
+});
 
 function sendDataToFront(req, res) {
     getData()
