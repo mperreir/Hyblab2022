@@ -94,6 +94,7 @@ transform: rotate(-0.75deg);
     top: 70.47%;
     bottom: -2.48%;
     border: 0.5px;
+    width: 50%;
     transform: rotate(5.75deg);
     animation:carte_animation 1.5s;
     -webkit-animation:carte_animation 1.5s; /* Safari and Chrome */

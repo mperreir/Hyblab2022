@@ -48,6 +48,12 @@ button{
     bottom: 6%;
 }
 
+#intro_gif{
+    position: absolute;
+    width: 100%;
+    margin-top:-5%;
+}
+
 svg
 {
     width:80%;
@@ -189,11 +195,28 @@ p.alignRight{
  .grey{
     background: gray;
  }
+
+ #first-slide header{
+    text-align: center;
+    width: 100%;
+    top: 10%;
+    position: absolute;
+    font-size: 30%;
+    z-index: 2;
+}
+#first-slide footer{
+    bottom: 5%;
+    position: absolute;
+    font-size: 20%;
+    text-align: center;
+    padding: 0 1em;
+}
+
 .gif{
     width: 100%;
     margin-top: -20%;
 }
- 
+
 /* ---------- Important media queries for easy responsive content :-) ----------------- */
 /* Can be adapted for other ratios that 9:16 or for horizontal content (ex: 16:9) */
 
@@ -337,6 +360,20 @@ p.alignRight{
     }
   }
 
+  @keyframes slide-out-bottom {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: translateY(1000px);
+              transform: translateY(1000px);
+      opacity: 1;
+    }
+  }
+  
+
 /*Utiliser une animation*/
 
 .anim-wobble {
@@ -363,6 +400,11 @@ p.alignRight{
 
 .changeColor {
     animation : changeColor 3s infinite alternate;
+}
+
+.anim_intro {
+	-webkit-animation: slide-out-bottom 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) 2.9s both;
+	        animation: slide-out-bottom 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) 2.9s both;
 }
 
 .tourner_les_serviettes {
