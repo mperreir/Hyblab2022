@@ -15,6 +15,10 @@ function q2(code, year, candidate1, candidate2, compare, answer) {
     return ans == answer;
 }
 
+function q3(code, ans, answer) {
+
+}
+
 function q4(code, year, compare, value, answer) {
     let data = dataList.get(year, 1);
     let commune = data.get(code);
