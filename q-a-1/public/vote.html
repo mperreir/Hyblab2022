@@ -13,6 +13,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
   <script src="https://vjs.zencdn.net/7.6.6/video.js"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/graphsvg.js" defer></script>
 </head>
 <body>
   <!-- Le conteneur sert à vérouiller les proportions (aspect ratio) du contenu de la page (ici des slides) -->
@@ -31,8 +32,142 @@
                 <p>Ton bulletin est dépouillé par les <b>scrutateurs</b> (employés de la mairie et bénévoles). Pense à prendre ta pièce d’identité et ta carte électorale !</p>
             </div>
             <div class = "main-section">
-                <img class = "alignRight" id = "map" src="img/Vote/carte.svg">
+<!--                <img class = "alignRight" id = "map" src="img/Vote/carte.svg">-->
+
                 <p><b>Taux de vote en France, 2017</b></p>
+              <div style="width: 84%;height: 70%;position: absolute;right: 20%;left: 35%;top:32%" >
+              <svg xmlns="http://www.w3.org/2000/svg"  id="G_figure5a" aria-labelledby="tableau-figure5a" role="img" viewBox="0 0 600 600" width="60%" onload="init('G_figure5a',evt)" xml:space="default" preserveAspectRatio="xMinYMin meet" version="1.1">
+                <script type="text/javascript">
+                  {
+
+
+                    var G_figure5a_graph_l = 600 ;
+                    var G_figure5a_help_nblig=3;
+                    var G_figure5a_help_fontsize=12;
+                    var G_figure5a_help_last=0;
+                    var G_figure5a_keep_title=1;
+                    var G_figure5a_prefixegeo="france_regions2016";
+                    var G_figure5a_code_geo_data=["75","76","53","28","24","27","52","32","84","11","44","93","94","04","02","01"];
+                    var G_figure5a_lib_colonne_brut=["","Vote systématique"]
+                    var G_figure5a_graph_data=[ ["","Vote systématique"],["Nouvelle-Aquitaine","38,9 %"],["Occitanie","38,4 %"],["Bretagne","38,0 %"],["Normandie","36,7 %"],["Centre-Val de Loire","36,7 %"],
+                      ["Bourgogne-Franche-Comté","36,4 %"],["Pays de la Loire","36,2 %"],["Hauts-de-France","35,5 %"],["Auvergne-Rhône-Alpes","35,2 %"],["Île-de-France","34,0 %"],
+                      ["Grand Est","34,0 %"],["Provence-Alpes-Côte d'Azur","33,7 %"],["Corse","32,6 %"],["La Réunion","26,3 %"],["Martinique","15,7 %"],
+                      ["Guadeloupe","15,5 %"]
+                    ];
+                  }
+                </script>
+                <defs>
+                  <clipPath id="G_figure5a_clipRectGraph">
+                    <rect x="12" y="71" width="576" height="517"></rect>
+                  </clipPath>
+                </defs>
+                <style type="text/css">
+                  /* Styles statiques par défaut extraits d'un fichier XML */
+
+                  svg {max-width: 698px;}
+                  text {stroke:none}
+                  #G_figure5a_axex-titre2 {text-anchor:start}
+                  #G_figure5a_axex-titre {text-anchor:end}
+                  #G_figure5a_axey-titre-pyramide {text-anchor:middle}
+                  #G_figure5a_sources {font-style:italic}
+                  #G_figure5a_extra_elements {pointer-events:none}
+                  #G_figure5a_help-lib1b {text-anchor:end}
+                  #G_figure5a_help-lib2b {text-anchor:end}
+                  @media print {use[class*="marque"],path[class*="surface"],rect[class*="surface"] {opacity:1 !important}}
+                  @media print {path[class*="pie-slice"] {stroke:white;stroke-width:1.5}}
+
+                  /* Styles multiples pour les lignes, surfaces, marques à partir des paramètres (couleurs, traits, largeurs, tailles, marques ...)
+                      générés par la transformation */
+
+                  .G_figure5a_surface1 { fill-opacity:0.8; fill:#ADB3D7; stroke:black; stroke-opacity:1; stroke-width:0.8; }
+                  .G_figure5a_surface2 { fill-opacity:0.8; fill:#767AB7; stroke:black; stroke-opacity:1; stroke-width:0.8; }
+                  .G_figure5a_surface3 { fill-opacity:0.8; fill:#43458D; stroke:black; stroke-opacity:1; stroke-width:0.8; }
+                  .G_figure5a_surface4 { fill-opacity:0.8; fill:#373684; stroke:black; stroke-opacity:1; stroke-width:0.8; }
+                  .G_figure5a_surface5 { fill-opacity:0.8; fill:#2F2F70; stroke:black; stroke-opacity:1; stroke-width:0.8; }
+
+
+                  #G_figure5a_couche1 { fill:none; stroke:black; stroke-width:0.8; }
+
+                  #G_figure5a_graphique { font-family:"marianneextrabold", sans-serif;stroke-linejoin:round; stroke-linecap:butt; }
+                  #G_figure5a_cadre { stroke-width:0.7; fill:none; stroke:white; }
+                  #G_figure5a_titre { font-weight:bolder; font-size:12px; fill:black; text-anchor:start; }
+                  #G_figure5a_soustitre { font-size:12px; text-anchor:start; }
+                  #G_figure5a_legende { stroke-width:1; text-anchor:start; font-size:12px; }
+                  #G_figure5a_unite { font-size:13px; text-anchor:start; }
+                  #G_figure5a_notes-sources { text-anchor:start; fill:black; font-size:11px; }
+                  #G_figure5a_help-bubble { fill:#FFE070; stroke:gray; stroke-width:0.5; stroke-opacity:0.8; fill-opacity:0.8; }
+                  #G_figure5a_help { pointer-events:none; font-size:12px; }
+
+                  #G_figure5a_path_selec { stroke:red; stroke-width:3; stroke-opacity:1; }
+                  #G_figure5a_carte { clip-path:url(#G_figure5a_clipRectGraph)}
+
+                  /* extra style */
+                  #G_figure5a_soustitre-1{font-weight: bold;}
+                </style>
+                <g id="G_figure5a_graphique">
+                  <text id="G_figure5a_debug" x="100" y="590"></text>
+                  <rect id="G_figure5a_cadre" x="1" y="1" width="598" height="598"></rect>
+                  <!--unite du graphique-->
+                  <g id="G_figure5a_notes-sources" transform="translate(17,597)"><!--Notes-->
+                    <g id="G_figure5a_notes"></g>
+                    <!--Sources-->
+                    <g id="G_figure5a_sources" transform="translate(0,0)"></g>
+                  </g>
+                  <!--Ticks-->
+                  <!--Séries-->
+                  <g id="G_figure5a_graph">
+                    <g id="G_figure5a_carte">
+                      <rect id="G_figure5a_rect_inclusion_carte" x="12" y="71" width="576" height="517" fill="none" stroke="salmon" stroke-width="1" opacity="0"></rect>
+                      <g id="G_figure5a_carte1" transform="translate(35,71) scale(0.8155)">
+                        <rect id="G_figure5a_rect_zoom100_carte" x="0" y="0" width="650" height="634" fill="none" stroke="crimson" stroke-width="1" opacity="0"></rect>
+                        <g id="G_figure5a_couche1">
+                          <path id="G_figure5a_carte1_trame_france_regions2016_75" d="M 203 333 L 209 332 211 338 203 333 M 216 311 L 224 308 231 313 238 310 238 293 235 286 234 280 227 270 236 270 242 266 255 263 261 266 268 260 279 269 282 274 291 274 296 277 300 282 302 287 307 299 313 302 315 311 326 313 331 310 338 310 343 308 350 308 358 309 363 309 366 315 371 317 376 327 377 337 370 344 372 352 371 361 373 368 373 374 367 375 360 383 359 390 355 394 353 400 339 401 332 396 325 397 324 403 319 414 311 418 308 424 307 436 300 439 301 445 299 451 292 456 286 455 279 458 267 458 262 460 261 465 257 460 251 463 247 476 246 484 253 485 257 494 258 500 243 525 241 530 235 533 230 534 221 522 214 522 201 517 197 513 190 516 193 502 177 497 188 485 192 478 199 447 203 427 205 420 210 416 211 410 205 414 210 375 211 364 214 359 226 373 228 380 230 374 228 367 213 353 208 345 212 340 216 333 216 325 210 321 214 316 216 311 " class="G_figure5a_surface5" onmouseout="hide_help_path('G_figure5a')" onmousemove="show_help_path('G_figure5a',evt,1,1)"></path>
+                          <path id="G_figure5a_carte1_trame_france_regions2016_76" d="M 241 530 L 243 525 258 500 257 494 253 485 246 484 247 476 251 463 257 460 261 465 262 460 267 458 279 458 286 455 292 456 299 451 301 445 300 439 307 436 308 424 311 418 319 414 324 403 325 397 332 396 339 401 353 400 355 408 356 416 359 422 365 421 372 418 378 406 384 403 388 408 394 421 400 405 411 400 416 410 423 406 433 414 436 425 439 432 446 441 464 440 469 444 472 455 478 460 473 465 469 469 468 478 461 481 459 487 451 495 445 489 436 492 431 496 421 503 414 506 406 511 401 516 398 522 396 528 397 534 396 545 397 552 402 558 395 557 387 559 375 565 361 560 354 561 347 564 343 558 335 555 338 550 330 547 324 547 318 542 311 541 304 537 295 534 288 532 286 538 278 541 264 538 256 540 250 537 241 530 " class="G_figure5a_surface5" onmouseout="hide_help_path('G_figure5a')" onmousemove="show_help_path('G_figure5a',evt,2,1)"></path>
+                          <path id="G_figure5a_carte1_trame_france_regions2016_53" d="M 204 165 L 206 171 212 176 219 171 225 174 221 207 215 217 215 219 207 215 197 222 188 222 178 226 178 232 169 233 162 237 160 232 146 233 151 230 146 225 138 227 136 233 133 220 127 219 129 214 121 217 119 211 111 211 103 208 100 203 94 204 87 209 84 204 81 197 69 192 75 190 84 189 89 186 86 182 81 180 78 184 78 183 78 179 75 177 84 177 90 179 87 174 70 173 69 168 72 161 80 160 82 155 89 153 96 153 104 152 109 159 111 153 118 156 126 153 128 148 136 146 136 152 143 145 139 153 145 149 147 155 157 170 163 166 174 161 177 168 181 165 186 168 188 171 188 170 185 164 193 159 194 166 204 165 " class="G_figure5a_surface5" onmouseout="hide_help_path('G_figure5a')" onmousemove="show_help_path('G_figure5a',evt,3,1)"></path>
+                          <path id="G_figure5a_carte1_trame_france_regions2016_28" d="M 287 117 L 278 117 274 113 279 102 296 92 314 89 321 85 329 79 338 87 342 92 345 99 342 106 342 121 341 132 337 142 331 145 332 150 327 156 321 162 313 163 304 167 309 176 310 181 305 187 302 197 297 194 291 192 285 188 284 180 277 179 267 184 263 179 257 175 251 175 245 177 240 177 233 175 225 174 219 171 212 176 206 171 204 165 212 165 207 159 205 154 206 140 205 133 201 122 197 118 196 110 196 101 193 95 201 99 208 101 216 98 221 102 220 112 223 116 224 123 231 118 240 122 248 122 260 126 271 124 276 120 284 118 287 117 " class="G_figure5a_surface4" onmouseout="hide_help_path('G_figure5a')" onmousemove="show_help_path('G_figure5a',evt,4,1)"></path>
+                          <path id="G_figure5a_carte1_trame_france_regions2016_24" d="M 268 260 L 271 251 276 238 277 233 284 234 293 228 297 223 303 209 304 202 302 197 305 187 310 181 309 176 304 167 313 163 321 162 327 156 332 150 336 155 339 170 344 178 349 181 352 192 363 190 369 190 374 195 375 201 380 202 387 202 392 200 396 204 400 211 395 216 394 223 389 225 394 237 389 240 391 245 389 252 393 256 395 269 397 278 396 286 388 290 382 290 376 294 376 302 366 304 363 309 358 309 350 308 343 308 338 310 331 310 326 313 315 311 313 302 307 299 302 287 300 282 296 277 291 274 282 274 279 269 268 260 " class="G_figure5a_surface4" onmouseout="hide_help_path('G_figure5a')" onmousemove="show_help_path('G_figure5a',evt,5,1)"></path>
+                          <path id="G_figure5a_carte1_trame_france_regions2016_27" d="M 392 200 L 400 187 412 185 419 192 419 198 426 200 435 214 443 213 449 214 460 211 466 208 474 214 478 224 483 230 495 233 505 229 516 212 526 206 530 212 538 210 544 213 549 213 556 218 557 217 566 226 567 231 570 237 562 241 567 246 561 256 551 269 544 272 543 280 530 298 528 307 523 314 515 317 510 312 504 317 498 313 495 306 487 302 479 302 472 324 467 316 455 321 449 325 444 324 438 325 434 318 437 314 438 307 427 302 422 288 417 293 411 291 405 291 400 290 396 286 397 278 395 269 393 256 389 252 391 245 389 240 394 237 389 225 394 223 395 216 400 211 396 204 392 200 " class="G_figure5a_surface4" onmouseout="hide_help_path('G_figure5a')" onmousemove="show_help_path('G_figure5a',evt,6,1)"></path>
+                          <path id="G_figure5a_carte1_trame_france_regions2016_52" d="M 167 266 L 169 264 173 270 167 266 M 162 237 L 169 233 178 232 178 226 188 222 197 222 207 215 215 219 215 217 221 207 225 174 233 175 240 177 245 177 251 175 257 175 263 179 267 184 277 179 284 180 285 188 291 192 297 194 302 197 304 202 303 209 297 223 293 228 284 234 277 233 276 238 271 251 268 260 261 266 255 263 242 266 236 270 227 270 234 280 235 286 238 293 238 310 231 313 224 308 216 311 210 312 201 309 188 300 184 291 181 286 176 280 173 273 181 264 176 259 174 254 168 251 161 248 159 242 162 237 " class="G_figure5a_surface4" onmouseout="hide_help_path('G_figure5a')" onmousemove="show_help_path('G_figure5a',evt,7,1)"></path>
+                          <path id="G_figure5a_carte1_trame_france_regions2016_32" d="M 329 79 L 333 73 340 72 336 66 340 62 337 51 337 41 339 34 344 25 358 21 372 18 378 20 379 30 390 40 395 36 401 35 403 40 406 47 409 53 417 53 421 56 423 65 431 63 439 64 441 73 444 79 441 85 446 90 441 104 437 108 439 114 438 121 431 122 421 127 424 136 421 142 419 149 415 156 405 151 402 143 397 140 386 142 378 142 368 137 358 135 350 136 341 132 342 121 342 106 345 99 342 92 338 87 329 79 " class="G_figure5a_surface3" onmouseout="hide_help_path('G_figure5a')" onmousemove="show_help_path('G_figure5a',evt,8,1)"></path>
+                          <path id="G_figure5a_carte1_trame_france_regions2016_84" d="M 353 400 L 355 394 359 390 360 383 367 375 373 374 373 368 371 361 372 352 370 344 377 337 376 327 371 317 366 315 363 309 366 304 376 302 376 294 382 290 388 290 396 286 400 290 405 291 411 291 417 293 422 288 427 302 438 307 437 314 434 318 438 325 444 324 449 325 455 321 467 316 472 324 479 302 487 302 495 306 498 313 504 317 510 312 515 317 523 314 528 307 530 315 523 325 532 323 538 319 537 311 550 307 559 307 562 313 560 319 565 324 569 331 570 339 561 346 566 352 570 356 571 362 577 367 576 374 566 386 556 388 545 391 539 387 544 402 534 405 520 415 521 416 512 424 510 429 504 435 509 439 515 447 508 452 502 448 493 446 492 440 476 442 469 440 469 444 464 440 446 441 439 432 436 425 433 414 423 406 416 410 411 400 400 405 394 421 388 408 384 403 378 406 372 418 365 421 359 422 356 416 355 408 353 400 " class="G_figure5a_surface3" onmouseout="hide_help_path('G_figure5a')" onmousemove="show_help_path('G_figure5a',evt,9,1)"></path>
+                          <path id="G_figure5a_carte1_trame_france_regions2016_11" d="M 341 132 L 350 136 358 135 368 137 378 142 386 142 397 140 402 143 405 151 415 156 414 164 418 171 411 180 412 185 400 187 392 200 387 202 380 202 375 201 374 195 369 190 363 190 352 192 349 181 344 178 339 170 336 155 332 150 331 145 337 142 341 132 " class="G_figure5a_surface2" onmouseout="hide_help_path('G_figure5a')" onmousemove="show_help_path('G_figure5a',evt,10,1)"></path>
+                          <path id="G_figure5a_carte1_trame_france_regions2016_44" d="M 418 171 L 414 164 415 156 419 149 421 142 424 136 421 127 431 122 438 121 439 114 437 108 441 104 446 90 445 87 453 88 459 85 465 77 470 78 467 86 470 92 482 101 492 107 496 114 503 111 513 114 518 116 527 112 535 114 540 117 542 123 548 132 560 131 562 136 571 135 577 131 586 138 592 138 602 139 609 142 606 152 601 156 595 167 590 190 587 197 589 206 587 212 586 224 589 231 583 240 575 242 570 237 567 231 566 226 557 217 556 218 549 213 544 213 538 210 530 212 526 206 516 212 505 229 495 233 483 230 478 224 474 214 466 208 460 211 449 214 443 213 435 214 426 200 419 198 419 192 412 185 411 180 418 171 " class="G_figure5a_surface2" onmouseout="hide_help_path('G_figure5a')" onmousemove="show_help_path('G_figure5a',evt,11,1)"></path>
+                          <path id="G_figure5a_carte1_trame_france_regions2016_93" d="M 451 495 L 459 487 461 481 468 478 469 469 473 465 478 460 472 455 469 444 469 440 476 442 492 440 493 446 502 448 508 452 515 447 509 439 504 435 510 429 512 424 521 416 520 415 534 405 544 402 539 387 545 391 556 388 560 393 562 400 574 407 577 413 571 416 568 423 572 430 570 434 575 441 588 447 606 444 608 450 604 458 599 464 599 471 592 475 586 478 584 485 574 489 571 494 559 503 564 507 545 513 540 518 533 515 526 518 517 511 510 510 503 503 497 502 488 502 493 497 491 491 480 495 481 501 471 502 467 496 461 495 451 495 " class="G_figure5a_surface2" onmouseout="hide_help_path('G_figure5a')" onmousemove="show_help_path('G_figure5a',evt,12,1)"></path>
+                          <path id="G_figure5a_carte1_trame_france_regions2016_94" d="M 629 544 L 630 555 625 562 625 570 621 576 615 572 606 568 601 564 605 559 597 551 600 545 593 544 595 531 589 526 593 522 588 515 592 510 594 503 599 499 606 497 611 491 619 493 621 486 621 476 625 473 628 485 627 494 630 499 634 517 635 527 629 538 629 544 " class="G_figure5a_surface2" onmouseout="hide_help_path('G_figure5a')" onmousemove="show_help_path('G_figure5a',evt,13,1)"></path>
+                          <path id="G_figure5a_carte1_trame_france_regions2016_04" d="M 59 521 L 58 521 58 523 57 524 56 525 56 526 56 527 56 528 56 530 56 531 56 533 56 534 56 536 54 537 52 537 51 538 50 538 49 538 48 538 46 538 45 539 44 539 43 539 42 539 40 539 39 539 38 538 37 538 35 538 34 537 31 536 30 536 29 536 28 535 27 534 25 534 24 534 24 533 23 532 22 531 21 531 18 530 17 530 17 528 15 527 15 526 14 526 13 524 13 521 13 520 12 518 12 517 11 516 10 515 9 514 8 513 8 512 8 511 8 510 7 509 8 508 9 507 10 507 11 507 12 506 12 505 13 504 13 503 12 502 12 501 13 501 13 500 13 499 14 499 15 499 16 500 18 499 18 498 22 495 24 494 25 494 25 495 26 494 27 494 28 495 29 495 31 495 33 496 34 496 35 496 36 496 37 496 39 496 41 497 42 498 43 498 44 499 45 500 46 501 47 502 47 503 47 506 48 508 49 508 49 509 50 511 52 513 52 514 53 514 54 516 55 516 57 517 57 518 58 519 59 521 " class="G_figure5a_surface1" onmouseout="hide_help_path('G_figure5a')" onmousemove="show_help_path('G_figure5a',evt,14,1)"></path>
+                          <path id="G_figure5a_carte1_trame_france_regions2016_02" d="M 66 373 L 59 382 54 381 55 377 56 373 53 374 51 372 47 373 43 372 39 369 37 372 34 370 31 371 29 374 25 372 24 368 22 366 23 362 30 358 32 361 36 362 40 360 39 357 36 354 33 353 36 349 32 350 29 352 27 351 23 352 21 349 19 347 15 346 10 338 8 335 10 329 6 325 3 322 2 318 2 315 4 313 7 310 9 309 12 308 15 308 19 309 21 311 25 313 28 315 31 317 36 321 41 326 42 329 44 327 47 326 52 325 55 324 56 325 55 325 52 325 52 329 47 328 46 330 46 334 49 334 50 337 48 339 46 341 47 343 51 341 54 342 53 346 56 348 56 352 60 353 60 356 62 358 61 364 63 366 65 370 66 373 " class="G_figure5a_surface1" onmouseout="hide_help_path('G_figure5a')" onmousemove="show_help_path('G_figure5a',evt,15,1)"></path>
+                          <path id="G_figure5a_carte1_trame_france_regions2016_01" d="M 85 250 L 84 250 83 250 75 249 74 250 71 250 70 251 67 251 64 251 62 252 61 252 60 253 59 253 58 253 57 254 56 254 55 255 54 255 53 255 52 255 51 256 48 257 45 256 44 256 43 255 42 255 41 255 40 254 41 254 40 254 38 250 38 246 38 244 39 243 39 242 39 241 39 239 40 239 41 238 42 238 43 239 43 238 44 237 44 234 44 233 43 232 41 231 40 231 40 229 39 228 39 227 39 226 39 225 39 224 40 223 43 221 43 220 45 218 47 216 48 216 48 217 49 218 51 218 51 219 52 219 53 220 54 221 55 224 56 226 56 227 56 232 56 234 59 238 60 238 62 239 63 239 65 239 67 239 68 240 69 240 70 241 72 242 73 242 74 243 74 244 76 246 77 247 81 249 83 249 85 250 M 82 291 L 82 292 81 295 80 296 79 297 77 298 76 299 72 300 69 299 67 297 66 297 65 296 66 294 65 291 65 290 67 288 67 286 68 285 70 282 71 282 72 282 73 282 75 283 76 283 77 284 78 286 80 288 81 289 82 289 82 291 M 39 252 L 38 254 36 252 34 252 33 253 33 254 33 255 33 256 33 257 33 258 33 259 33 262 34 263 35 265 36 265 36 266 35 267 35 268 36 269 37 270 36 272 36 274 37 275 36 276 36 277 36 278 35 279 34 280 33 281 30 284 29 286 27 287 26 287 25 287 23 287 22 289 19 290 18 289 18 288 18 287 17 285 16 284 13 282 12 278 10 276 10 274 10 272 10 271 9 266 10 265 9 265 9 264 9 261 8 259 8 257 8 256 8 253 7 252 6 252 6 250 5 248 6 246 6 242 7 241 8 241 8 239 9 238 11 237 12 237 13 236 15 237 17 239 21 240 22 241 23 241 24 241 25 241 26 242 27 243 28 243 29 243 30 243 30 244 30 245 29 246 29 245 28 246 28 247 29 246 29 248 31 247 31 246 31 248 32 248 33 247 34 246 36 246 37 247 38 247 38 248 37 252 39 252 " class="G_figure5a_surface1" onmouseout="hide_help_path('G_figure5a')" onmousemove="show_help_path('G_figure5a',evt,16,1)"></path>
+                        </g>
+                        <path id="G_figure5a_path_selec" fill="none" opacity="0" pointer-events="none" style="stroke:red; stroke-width:3; stroke-opacity:1; " d="M 418 171 L 414 164 415 156 419 149 421 142 424 136 421 127 431 122 438 121 439 114 437 108 441 104 446 90 445 87 453 88 459 85 465 77 470 78 467 86 470 92 482 101 492 107 496 114 503 111 513 114 518 116 527 112 535 114 540 117 542 123 548 132 560 131 562 136 571 135 577 131 586 138 592 138 602 139 609 142 606 152 601 156 595 167 590 190 587 197 589 206 587 212 586 224 589 231 583 240 575 242 570 237 567 231 566 226 557 217 556 218 549 213 544 213 538 210 530 212 526 206 516 212 505 229 495 233 483 230 478 224 474 214 466 208 460 211 449 214 443 213 435 214 426 200 419 198 419 192 412 185 411 180 418 171 "></path>
+                      </g>
+                    </g>
+                  </g>
+                  <!--Legende-->
+
+                  <g id="G_figure5a_extra_elements" style=";pointer-events:none; ">
+                    <g id="G_figure5a_extra_texte_1" transform="translate(20,470) rotate(0)" style="font-size:10px; text-anchor:start; fill:black; stroke:none; ">
+                      <text id="G_figure5a_extra_textepointe_1-1">©&nbsp;IGN&nbsp;-&nbsp;Insee</text>
+                    </g>
+                  </g>
+                  <g id="G_figure5a_help" opacity="0" style="pointer-events:none; font-size:12px; " transform="translate(471.11168670654297,126.75090812480133)">
+                    <rect id="G_figure5a_help-rect" x="0" y="0" rx="3" ry="3" width="150" height="70" visibility="hidden"></rect>
+                    <path id="G_figure5a_help-bubble" d="M10 55 c-10 0 -10 -5 -10 -10 v-35 c0 -10 5 -10 10 -10 h103.88831329345703 c10 0 10 5 10 10 v35 c0 10 -5 10 -10 10 H83 L51.958735828668296 70 L59 55 H10" style="fill:#E5E5E5; stroke:transparent; stroke-width:0.5; stroke-opacity:0.8; fill-opacity:0.8; "></path>
+                    <g id="G_figure5a_help-libs" transform="translate(0,3.1200000000000006)">
+                      <text id="G_figure5a_help-lib1" x="10" y="13" style="text-anchor:start;">Vote systématique</text>
+                      <text id="G_figure5a_help-lib1b" x="100" y="15" style=";text-anchor:end; " opacity="0">lib1b</text>
+                      <text id="G_figure5a_help-lib2" x="10" y="28" style="text-anchor:start;">Grand Est</text>
+                      <text id="G_figure5a_help-lib2b" x="100" y="26" style=";text-anchor:end; " opacity="0">lib2b</text>
+                      <text id="G_figure5a_help-lib3" x="10" y="44" style="">34,0 %</text>
+                    </g>
+                  </g>
+
+                  <text id="G_figure5a_first-date" opacity="0">Nouvelle-Aquitaine</text>
+                  <text id="G_figure5a_last-date" opacity="0">Guadeloupe</text>
+                </g>
+                <!--chargement paramètres=0 millisecondes-->
+                <!--                suite=-1 millisecondes-->
+              </svg>
+              </div>
                 <img class = "alignLeft" id = "legend" src="img/Vote/legende.svg">
             </div>
             <div class = "bottom-section">
