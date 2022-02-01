@@ -65,10 +65,11 @@ async function showTopTweets () {
         let p_text = document.createElement('p');
 
         p_name.setAttribute('id','tweetname');
-        p_name.appendChild(document.createTextNode(t.name + " @" + t.screen_name));
+        let name = document.createTextNode(t.name);
+        p_name.innerHTML = document.createTextNode(name.data.toUpperCase() + " @" + t.screen_name).data;
 
         p_text.setAttribute('id','tweetcontent');
-        p_text.appendChild(document.createTextNode(t.text));
+        p_text.innerHTML = document.createTextNode(t.text).data;
 
         new_slide.setAttribute("class", "swiper-slide tweet");
         new_slide.appendChild(p_name);
