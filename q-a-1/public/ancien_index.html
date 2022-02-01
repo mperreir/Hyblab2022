@@ -6,17 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
   <title>Hyblab 2022</title>
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/simulation.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/loadingio/loading.css@v2.0.0/dist/loading.css" />
   <link href="https://vjs.zencdn.net/7.6.6/video-js.css" rel="stylesheet" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
   <script src="https://vjs.zencdn.net/7.6.6/video.js"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <script src="js/sommaire.js" defer></script>
+  <script src="js/index.js" defer></script>
   <script src="js/header.js" defer></script>
 </head>
-<body id="first-page-body">
+<body>
   <!-- Le conteneur sert à vérouiller les proportions (aspect ratio) du contenu de la page (ici des slides) -->
   <div id="container">
     <div id="mySwiper" class="swiper">
@@ -24,13 +23,14 @@
       <!-- le main est aussi le conteneur des différents slides (contenus à chaque fois dans des sections-->
       <main class = "main-part">
           <section id="first-section">
-              <header >
-                <h1 id="first-page">DE QUOI ON PARLE ?</h1>
+              <header>
               </header>
-                <p id="intro-text">Notre but est de créer un mode d'emploi te permettant de comprendre de façon ludique et simple le déroulement d'une élection présidentielle</p>
-                <div id="but">
-                  <input type="image" onclick="window.location='sommaire.html'" id="go_to" src="img/Simulation/bouton.svg">
+
+              <button type="button" id="bouton_to_page_accueil">Aller page d'accueil</button>
+              <div class="warp">
+                  <img src="img/logo/logo first.svg" class="img"></img>
               </div>
+             
               <footer></footer>
           </section>
           
