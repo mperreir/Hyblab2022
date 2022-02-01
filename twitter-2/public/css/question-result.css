@@ -4,7 +4,7 @@
     font-family: 'blatantregular';
 }
 
-body{
+body {
     background-color: black;
     overflow: hidden;
 }
@@ -12,7 +12,7 @@ body{
 @font-face {
     font-family: 'blatantregular';
     src: url('../font/blatant-webfont.woff') format('woff'),
-         url('../font/blatant-webfont.woff2') format('woff2');
+        url('../font/blatant-webfont.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 
@@ -23,63 +23,65 @@ body{
     color: black;
     padding-top: 3vh;
     font-size: 30%;
-    height:100vh;
+    height: 100vh;
     overflow: hidden;
 }
 
-#top-section{
+#top-section {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 4vh;
 }
 
-#result{
+#result {
     display: flex;
     justify-content: center;
     position: relative;
-    color:white;
+    color: white;
     font-size: 2.5rem;
     padding-top: 7vh;
     text-align: justify;
-    height:5vh;
+    height: 5vh;
 }
 
-#result div{
+#result div {
     position: absolute;
 }
 
 /* changer la visibilité selon le résultat */
-.right{
+.right {
     visibility: visible;
 }
 
-.wrong{
+.wrong {
     visibility: hidden;
 }
 
 
-#answer{
+#answer {
     margin-top: 10vh;
     color: white;
     font-size: 0.8rem;
     position: relative;
-    height:40vh;
+    height: 40vh;
 }
 
-#answer img{
+#answer img {
     position: absolute;
 }
 
-#answer > #answer-text {
+#answer>#answer-text {
+    width: 80%;
     position: absolute;
-    margin-top: 25vh;
-    display: inline;
     text-align: center;
-    right:5vh;
+    display: inline;
+    margin-top: 30vh;
+    margin-left: 10%;
+    font-family: 'Lato', sans-serif;
 }
 
-#buttons{
+#buttons {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -88,27 +90,27 @@ body{
     height: 31vh;
 }
 
-.button{
+.button {
     background-color: white;
     color: #5571E5;
     border-radius: 19px;
     text-align: center;
-    width:65%;
-    height:6vh;
-    border:none;
+    width: 65%;
+    height: 6vh;
+    border: none;
     font-size: 80%;
     line-height: 6vh;
 }
 
-#about{
-    background-color:#84A6FC;   
+#about {
+    background-color: #84A6FC;
     color: white;
     margin-top: 5vh;
     text-align: center;
     border: none;
 }
 
-#about img{
+#about img {
     margin-top: 2vh;
 }
 
