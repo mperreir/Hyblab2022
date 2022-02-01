@@ -169,10 +169,13 @@ page('/communes-2/affirmation', async function () {
 
         }
     }).addTo(map);
+
     function popup(e){
         let layer = e.target
         let selectedValue = e.target.feature.properties.nom;
         let infobox = document.getElementById("panel-confirm");
+
+        let p = document.querySelector("panel-confirm > a")
         infobox.style.display = "visible";
         console.log("Bonjour")
 
