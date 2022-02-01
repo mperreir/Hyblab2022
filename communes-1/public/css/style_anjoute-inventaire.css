@@ -10,6 +10,8 @@
 }
 
 .top {
+	overflow:visible;
+	position: relative;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -20,6 +22,21 @@
 	color: #11151B;
 	font-size: 400%;
 }
+
+.top .retour {
+	z-index: 1;
+	position: absolute;
+	font-size: 200%;
+	bottom: -5vh;
+	right: 2vh;
+	font-family: 'Lineal', sans-serif;
+}
+
+.top .retour a {
+	text-decoration: none;
+	color: white;
+}
+
 
 .container-wrapper {
 	overflow: auto;
