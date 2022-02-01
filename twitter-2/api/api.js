@@ -127,7 +127,12 @@ app.get('/ratioNearCandidate/followers/:userName', function (req, res) {
     const mainCandidat = candidats.find(candidat => candidat.userName === req.params.userName);
     if (!mainCandidat) return res.send({ error: 'true' });
 
-    let candidatsRatio = [];
+    let candidatsRatio = [
+        {
+            shortname: mainCandidat.displayShortName,
+            img: `img/candidats/${mainCandidat.imageLink}.svg`
+        }
+    ];
 
     dataFollowersCommon.forEach(data => {
         if (data.name1 === mainCandidat.userName) {
@@ -136,14 +141,14 @@ app.get('/ratioNearCandidate/followers/:userName', function (req, res) {
                 shortname: candidat.displayShortName,
                 img: `img/candidats/${candidat.imageLink}.svg`,
                 ratio: data.ratio
-            })
+            });
         } else if (data.name2 === mainCandidat.userName) {
             const candidat = candidats.find(candidat => candidat.userName === data.name1);
             candidatsRatio.push({
                 shortname: candidat.displayShortName,
                 img: `img/candidats/${candidat.imageLink}.svg`,
                 ratio: data.ratio
-            })
+            });
         }
     });
 
