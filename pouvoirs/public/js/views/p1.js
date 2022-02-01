@@ -44,7 +44,6 @@ const init_p1 = function() {
   })
   const img = document.createElement("img");
   img.setAttribute("src", "img/elements/illu_p1.svg")
-  // img.setAttribute("height", "300px");
   img.style.height = "40%";
 
 
@@ -125,19 +124,16 @@ const init_p1 = function() {
   const buttons = document.createElement("div");
   buttons.classList.add("choices");
   buttons.style.height = "25%";
-  buttons.style.overflow = "auto";
+  // buttons.style.overflow = "auto";
   var x1 = document.createElement("BUTTON");
   x1.innerHTML = "Je serai plus efficace en dirigeant seul.";
   var x2 = document.createElement("BUTTON");
   x2.innerHTML = "Je peux nommer un responsable.";
-  var x3 = document.createElement("BUTTON");
-  x3.innerHTML = "<p>C'est mon gouvernement !<br>Je nomme tous ceux qui y siègent !</p>";
 
   const t1 = "Mauvaise réponse ! La Vème république est une démocratie, et le Président ne peut pas...";
   const t2 = "Bonne réponse ! Le président nomme un Premier Ministre qui lui propose ensuite des mi....";
-  const t3 = "Mauvaise réponse ! Il faut passer par un intermédiaire qui propose au président des ministres...";
 
-  const colors = ["#FF2019", "#1be5b9", "#FF2019"];
+  const colors = ["#FF2019", "#1be5b9"];
   function changeText(nb, txt, btn) {
     if (state === nb){
       swiper.disable();
@@ -148,7 +144,7 @@ const init_p1 = function() {
       state = 0;
     }
     else {
-      [x1,x2,x3].forEach(x => {
+      [x1,x2].forEach(x => {
         let circ = x.querySelector("img");
         if (circ != null){
           circ.remove();
@@ -167,7 +163,6 @@ const init_p1 = function() {
       }
       x1.style.background= "#D4C2F0";
       x2.style.background= "#D4C2F0";
-      x3.style.background= "#D4C2F0";
       textContainer.innerHTML = txt;
       btn.style.backgroundColor = colors[nb-1];
       state = nb;
@@ -177,14 +172,13 @@ const init_p1 = function() {
 
   x1.addEventListener("click", () => changeText(1, t1, x1));
   x2.addEventListener("click", () => changeText(2, t2, x2));
-  x3.addEventListener("click", () => changeText(3, t3, x3));
 
-  css([x1, x2, x3], {
+  css([x1, x2], {
     'background-color' : '#D4C2F0',
-    'font-size' : '15%',
+    'font-size' : '25%',
     'color' : 'white',
     'width' : '80%',
-    'height' : '25%',
+    'height' : '45%',
     'padding': '0px 20px',
     'margin': '2.5% auto',
     'display' : 'block',
@@ -200,8 +194,6 @@ const init_p1 = function() {
 
   buttons.appendChild(x1);
   buttons.appendChild(x2);
-  buttons.appendChild(x3);
-
 
 
   slide.appendChild(infos);
