@@ -227,6 +227,7 @@ h2{
     font-weight: 900; 
     text-align: center; 
     color: white;
+    margin-top: 2%;
 }
 
 #jeu {
@@ -390,19 +391,9 @@ img#theme {
 
 }
 
-/* Last slide image is centered */
-#img-fini{
-    width: 50%;
-    left: 50%;
-    top: 40%;
-    position: absolute;
-    margin-left:-25%;
-    margin-top:calc(-25% * 9 / 16 ); /* margins are relative to the element width... :-( */
-}
-
 #last-slide{
-    font-size: 22%;
-    background: #a08aff;
+    font-size: 100%;
+    background: #EF7767;
 }
 
 /* Footer of last slide is at the bottom and content is centered */
@@ -422,11 +413,27 @@ img#theme {
 #bandeau {
     padding-top: 3%;
     width:100%;
-    height:25%;
+    height:87%;
     position: absolute;
     bottom: 0;
     background-color: white;
-    font-size: 20%;
+    font-size: 18%;
+}
+
+#bandeau a{
+    text-decoration:none;
+    color: black;
+}
+
+#bandeau div{
+    padding-left : 1%;
+    padding-right : 1%;
+    padding-bottom:2%;
+    text-align : justify;
+    width:80%;
+    margin-left:9%;
+    margin-top:3%;
+    font-size:80%;
 }
 
 #bandeau li{
@@ -437,22 +444,28 @@ img#theme {
 }
 
 #bandeau img{
-    height: 8em;
+    height: 2.5em;
 }
 
 #bandeau #hyblab{
     margin: 1em auto;
-    height: 15em;
+    height: 2em;
     display: block;
 }
 
 #bandeau #cc, #bandeau #opensource{
-    height: 8em;
+    height: 2.5em;
 }
 
 #bandeau .stacked{
     display:block;
 }
+
+#bandeau .inline{
+    display:inline;
+}
+
+
 
 #bandeau ul{
     text-align: center;
@@ -460,7 +473,12 @@ img#theme {
 }
 
 #bandeau .institutionnel{
-    height: 8em;
+    height: 2em;
+}
+
+#bandeau .porteur{
+    height: 2em;
+    margin-top:1em;
 }
 
 
