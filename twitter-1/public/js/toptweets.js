@@ -30,6 +30,9 @@ select.addEventListener("input", async ev =>  {
 })
 
 async function showTopTweets () {
+
+    const all_candidats = await (await fetch("./api/candidat/all")).json();
+
     //Get the swiper template
     const fourth_slide_dom = $("#fourth-slide #SlideTop");
     const swiper_template = await (await fetch("./templates/swiper-toptweet.mustache")).text();
@@ -60,28 +63,20 @@ async function showTopTweets () {
 
     //Add each top tweet to the swiper
     tweets.forEach((t) => {
-        let new_slide = document.createElement('div');
-        let name = document.createTextNode(t.name);
-        t["name_UP"] = name.data.toUpperCase();
-        const swiper_inside_template_rendered = Mustache.render(swiper_inside_template,t);
-        //p_name.innerHTML = document.createTextNode(name.data.toUpperCase() + " @" + t.screen_name).data;
-
-        //p_text.setAttribute('id','tweetcontent');
-        //p_text.innerHTML = document.createTextNode(t.text).data;
-
-        new_slide.setAttribute("class", "swiper-slide tweet");
-        new_slide.innerHTML = swiper_inside_template_rendered;
-        //new_slide.appendChild(p_name);
-        //new_slide.appendChild(p_text);
-        swiper_wrapper.appendChild(new_slide);
-
-        //const slide_dom = $("#swiper-slide" + i);
-        //slide_dom.append(swiper_inside_template_rendered);
-
-        // let img = document.createElement('img');
-        // img.src = t.src;
-
-        //tweet_theme_div.appendChild(p);
+        let candidat = all_candidats.filter(c => t.user_id === c.id);
+        if (candidat){
+            let new_slide = document.createElement('div');
+            let name = document.createTextNode(t.name);
+            t["name_UP"] = name.data.toUpperCase();
+            candidat[0].profile_image_url = candidat[0].profile_image_url.replace("_normal.j", '.j');
+            t["url"] = candidat[0].profile_image_url;
+            const swiper_inside_template_rendered = Mustache.render(swiper_inside_template,t);
+    
+            new_slide.setAttribute("class", "swiper-slide tweet");
+            new_slide.innerHTML = swiper_inside_template_rendered;
+            swiper_wrapper.appendChild(new_slide);
+        }
+        
     });
 
     // no tweet for this themas
