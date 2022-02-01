@@ -16,3 +16,7 @@ const first_slide = document.querySelector('#first-slide');
 first_slide.addEventListener('click', () => {
 	window.location.href = 'anjoute-règles.html';
 });
+
+// Storage
+const inventaire = [];
+localStorage.setItem('inventaire', inventaire);
