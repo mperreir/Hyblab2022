@@ -12,21 +12,21 @@ body{
     background-color: black;
     color: rgb(34, 36, 66);
     overflow: hidden;   /* to avoid slider bugs on some browsers */
-    font-family: impact;
-    font-variant: small-caps;
-    /*font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
+}
+
+#container{
+    position: relative; /* for absolute positionning of child elements*/
+}
+
+/* -------------- Loader --------------*/
+#loader{
+    z-index: 2;
+    position:absolute;
 }
 
 h1{
     font-size: 128%;
     font-family: folsomblack;
-}
-
-footer {
-    width: 100%;
-    height: 20%;
-    display:flex;
-    justify-content: space-around;
 }
 
 button{ 
@@ -41,89 +41,52 @@ button{
     color:#FFFFFF;
 }
 
-#choix_vote{
-    position:absolute;
-    width:100%;
+#loader-img{
+    top:40%;
+    left:40%;
+    position: absolute;
+}
+
+#loader-text{
     text-align: center;
-    bottom: 6%;
+    font-size: 25%;
+    position: absolute;
+    top:60%;
+    width: 100%
 }
+/* -------------- End of Loader --------------*/
 
-svg
-{
-    width:80%;
-    margin-bottom: 8%;
-}
-
-#container{
-    position: relative; /* for absolute positionning of child elements*/
-}
-
+/* Swiper slider. Need to fill the 9:16 constrained container */
 #mySwiper{
     width: 100%;
     height:100%;
     position: absolute;
 }
 
-.main-part {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    display: flex;
-    transition-property: transform;
-    box-sizing: content-box;
-}
-
-/* the slides and the loader should fill the whole 9:16 zone */
-.main-part section, #loader{
-    background-color: #ADB3D7;
-    width: 100%;
-    height: 100%;
-}
-
+/* white navigation bullets */
 .swiper-pagination-bullet-active {
     background-color: white !important;
 }
 
-.warp {
-    width: 500px;
-    height: 350px;
-    line-height: 700px;
-    text-align: center;
-}
-.img{
-    display: inline-block;
-    width: auto;
-    height: auto;
-    max-width: 100%;
-    max-height: 100%;
-    vertical-align: middle;
+/* the slides and the loader should fill the whole 9:16 zone */
+.swiper-wrapper section, #loader{
+    background-color: #EC8989;
+    width: 100%;
+    height: 100%;
 }
 
-.last-section{
-    text-align: center;
-    margin-top:12%;
-}
-
-.last-section img{
-    width:75%;
-}
-
+/* Pour que la vidéo remplisse son conteneur (elle sera un peu coupée si nécessaire...) */
+.vjs-tech { object-fit: cover; }
 
 /* Most of the elements in this demo are absolute positionned with percentages */
-#first-section header, #first-slide header{
+#first-slide header{
     text-align: center;
     width: 100%;
     font-size: 30%;
     margin-top: 5%;
     z-index: 2;
     top: 10%;
-}
 
-.header-img{
-    width:100%;
-    height:100%;
-    position: relative;
 }
 
 #logo{
@@ -131,7 +94,6 @@ svg
     max-width: 35%;
     width: 35%;
 }
-
 
 /* Last slide image is centered */
 #img-fini{
@@ -144,47 +106,77 @@ svg
 }
 
 /* Footer of last slide is at the bottom and content is centered */
-
-img.alignLeft{
-    float:left;
+#first-slide footer{
+    width: 100%;
+    height: 20%;
+    display:flex;
+    justify-content: space-around;
 }
 
-img.alignRight{
-    float:right;
-    margin-right: 5%;
+
+/* ---------- Positionning of logos on the last slide ----------------- */
+/* here we have a contraint on the height of the logos (not the width) */
+/* so we cannot use % and use em (which are proportinal to the size of the */
+/* slide because of body's font size rule at the beginning of this CSS */
+#bandeau {
+    padding-top: 3%;
+    width:100%;
+    height:25%;
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    font-size: 20%;
+  }
+
+  #bandeau li{
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0.5em;
+  }
+
+  #bandeau img{
+    height: 1.5em;
+  }
+
+  #bandeau #hyblab{
+    margin: 1em auto;
+    height: 3em;
+    display: block;
+  }
+
+  #bandeau #cc, #bandeau #opensource
+  {
+    height: 1em;
+  }
+
+  #choix_vote{
+    position:absolute;
+    width:100%;
+    text-align: center;
+    bottom: 6%;
 }
 
-#alignLeft{
-    float:left;
+svg
+{
+    width:80%;
+    margin-bottom: 8%;
 }
 
-p.alignLeft{
-    text-align: left;
-    padding:0%;
-}
+  #bandeau .stacked{
+    display:block;
+  }
 
-p.alignRight{
-    text-align: right;
-}
+  #bandeau ul{
+    text-align: center;
+    padding: 0 0;
+  }
 
- .blue{
-    background: #57517D;
- }
+  #bandeau .institutionnel
+  {
+    height: 2em;
+  }
 
- .red{
-    background: #AB4A4A;
- }
-
- .green{
-    background: green;
-    
- }
-
- .grey{
-    background: gray;
- }
-
- 
 /* ---------- Important media queries for easy responsive content :-) ----------------- */
 /* Can be adapted for other ratios that 9:16 or for horizontal content (ex: 16:9) */
 
@@ -220,102 +212,6 @@ p.alignRight{
     }
 }
 
-/*animations*/
-
-/*Créer une animation*/
-@keyframes anim_procuration_texte {
-
-    from {
-
-    }
-
-    to {
-        transform: scale(1.1);
-    }
-}
-
-@keyframes anim_verticale {
-    from{
-        transform: translateY(-10%);
-    }
-
-    to{
-
-        transform: translateY(3%);
-    }
-}
-
-@keyframes anim-rotate {
-    from{
-        transform: rotateZ(-15deg);
-    }
-
-    to{
-        transform:rotateZ(15deg);
-    }
-}
-
-@keyframes tourner_les_serviettes {
-    0% {
-        -webkit-transform: scale(1) rotateZ(0);
-                transform: scale(1) rotateZ(0);
-                background-color:purple;
-      }
-      50% {
-        -webkit-transform: scale(2) rotateZ(180deg);
-                transform: scale(2) rotateZ(180deg);
-                background-color : green;
-      }
-      100% {
-        -webkit-transform: scale(1) rotateZ(360deg);
-                transform: scale(1) rotateZ(360deg);
-                background-color : white;
-      }
-    
-}
-
-@keyframes changeColor{
-    0%{
-        color: #AB4A4A;
-        transform: scale(1);
-    }
-
-    50%{
-        color:#46A882;
-        transform: scale(1.1);
-    }
-
-    100%{
-        color: #ADB3D7;
-        transform: scale(1);
-        
-    }
-
-
-}
-/*Utiliser une animmation*/
-
-.anim-text {
-
-    animation: anim_procuration_texte 1s 1s alternate infinite; 
-    -webkit-animation: anim_procuration_texte 1s alternate infinite; 
-}
-
-.anim-verticale {
-    animation : anim_verticale 1s linear infinite alternate;
-}
-
-.anim-rotation {
-    animation: anim-rotate 1s infinite alternate;
-}
-
-.changeColor {
-    animation : changeColor 3s infinite alternate;
-}
-
-.tourner_les_serviettes {
-    animation: tourner_les_serviettes 2s linear 0.5s infinite alternate both;
-}
 @font-face {
     font-family: 'folsomblack';
     src: url('font/folsom-black-webfont.woff2') format('woff2'),
