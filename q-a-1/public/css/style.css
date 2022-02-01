@@ -57,7 +57,7 @@ svg
 }
 
 #container{
-    position: relative; /* for absolute positionning of child elements*/
+    position: absolute; /* for absolute positionning of child elements*/
 }
 
 #mySwiper{
