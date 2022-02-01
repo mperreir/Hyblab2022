@@ -11,11 +11,12 @@ const init_p6 = function () {
 
     const dialog_arrow = document.querySelectorAll("#p6 .arrow-small, .arrow-medium, .arrow-big");
 
+    const dialog_info1 = document.querySelector("#p6 .info1");
+
     const clockEffect = createAudio("data/sounds/clockTicking.mp3");
 
     let choice_made = 0;
     let timeout;
-
 
     const arrow_anim = anime({
         targets: dialog_arrow,
@@ -62,6 +63,7 @@ const init_p6 = function () {
                     complete: () => {
                         print_decompte(5);
                         clockEffect.play();
+                        ready_bouton();
                     }
                 });
             }
@@ -70,8 +72,9 @@ const init_p6 = function () {
     {once : true}
     );
 
-    const listener_bouton_rouge = () => {
-        bouton_rouge.removeEventListener('click', listener_bouton_rouge);
+
+    const ready_bouton = () => {
+        bouton_rouge.addEventListener('click', () => {
         clockEffect.unload();
         choice_made = 1;
         clearTimeout(timeout);
@@ -91,6 +94,7 @@ const init_p6 = function () {
                         bouton_rouge.style.display = "none";
                         dialog_pressed.style.display = "block";
                         illu_fin.style.display = "block";
+                        showTitle("p6");
 
                         anime({
                             targets: [dialog_pressed, illu_fin],
@@ -102,9 +106,28 @@ const init_p6 = function () {
                 })
             }
         });
-    };
+    }, {once: true}
+    )
+};
 
-    bouton_rouge.addEventListener('click', listener_bouton_rouge);
+    dialog_pressed.addEventListener('click', () => {
+        anime({
+            targets : dialog_pressed,
+            opacity : [0,1],
+            easing : 'linear',
+            complete : () => {
+                dialog_pressed.style.display = "none";
+                dialog_info1.style.display = "block";
+                anime({
+                    targets : dialog_info1,
+                    opacity : [0,1]
+                })
+                
+            }
+        })
+    });
+
+
 
     const decompte_func = function () {
         if (choice_made == 0) {
@@ -118,7 +141,8 @@ const init_p6 = function () {
                     bouton_rouge.style.display = "none";
                     dialog_not_pressed.style.display = "block"
                     illu_fin.style.display = "block";
-                    goodAns.play();
+                    showTitle("p6");
+                    // goodAns.play();
                     anime({
                         targets: [dialog_not_pressed, illu_fin],
                         opacity: [0, 1],
