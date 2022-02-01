@@ -185,6 +185,7 @@ body{
     left: 40%;
     width: 10vh;
     z-index: 3;
+    /*visibility: hidden;*/
 
 }
 #textDialogue{
@@ -198,6 +199,7 @@ body{
         transform: translate(-50%, -50%);
     /*height: 50%;*/
     padding: 3%;
+    /*visibility: hidden;*/
     
 }
 #cercle{
@@ -278,11 +280,13 @@ lottie-player{
 /*--------------Section Pierre Feuille Ciseaux--------------*/
 
 .box {
+    position: relative;
     display : flex;
     align-items : center;
     justify-content : center;
     flex-direction: column;
     padding : 10px ;
+    bottom: 20%;
     /*opacity:0;*/
     visibility: hidden;
 }
@@ -317,15 +321,45 @@ lottie-player{
     transform : scale(0.97);
 }
 .resultat {
-    height : 50px;
+    position: relative;
+    display : flex;
+    flex-direction: row;
+    align-items : flex-start;
+    justify-content : center;
     text-align : center;
     font-weight: bold;
-    padding : 10px;
-    color:rgb(26, 27, 27);
+    bottom : 80%;
+    color:white;
+    z-index: 3;
 }
 
 img[id="Pierre"], img[id="Feuille"], img[id="Ciseaux"]{
     width: 20%;
 	height: auto;
     margin-left: 10px;
+}
+
+.resultat p{
+    padding: 10px 20px 10px 20px;
+    margin : 10px;
+    border-radius : 10px;
+    outline : none;
+    border : none;
+}
+
+.resultat p[id="Pierre"], .resultat p[id="Egalité"]{
+    background-color : blue;
+}
+
+.resultat p[id="Feuille"], .resultat p[id="Gagné"]{
+    background-color : #29BA9B;
+}
+
+.resultat p[id="Ciseaux"], .resultat p[id="Perdu"]{
+    background-color : #E66E78;
+}
+
+.resultat p img{
+    width: 35%;
+	height: auto;
 }
