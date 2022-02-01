@@ -216,6 +216,28 @@ body{
     margin-top: 5%;
 }
 
+<<<<<<< HEAD
+.titre-info{
+    margin-top: 20px;
+    font-size: 25%;
+    margin-bottom: 20px;
+    font-family: "Bebas Neue";
+    text-align: center;
+}
+
+
+#hist_box{
+
+    height:32%;
+
+}
+
+#pictoSuivant{
+
+    width: 10%;
+    margin-left: 7px;
+}
+=======
 .cursor-hand:hover{
     cursor: pointer;
 }
@@ -225,3 +247,4 @@ body{
     top: 291.41px;
     transform: rotate(-9.5deg);
 }
+>>>>>>> 5ce8724a427a1ab37de14bca2383036fdebb16f4
