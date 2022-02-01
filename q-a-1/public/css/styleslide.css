@@ -12,6 +12,8 @@ body{
     background-color: black;
     color: rgb(34, 36, 66);
     overflow: hidden;   /* to avoid slider bugs on some browsers */
+    font-family: impact;
+    font-variant: small-caps;
 }
 
 #container{
@@ -22,6 +24,20 @@ body{
 #loader{
     z-index: 2;
     position:absolute;
+}
+
+#loader-img{
+    top:40%;
+    left:40%;
+    position: absolute;
+}
+
+#loader-text{
+    text-align: center;
+    font-size: 25%;
+    position: absolute;
+    top:60%;
+    width: 100%
 }
 
 h1{
@@ -39,20 +55,6 @@ button{
     border: none;
     font-family: 'folsomblack';
     color:#FFFFFF;
-}
-
-#loader-img{
-    top:40%;
-    left:40%;
-    position: absolute;
-}
-
-#loader-text{
-    text-align: center;
-    font-size: 25%;
-    position: absolute;
-    top:60%;
-    width: 100%
 }
 /* -------------- End of Loader --------------*/
 

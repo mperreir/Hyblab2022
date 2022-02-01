@@ -2,7 +2,7 @@
     margin-top: 65%;
     text-align: center;
     font-family: folsomblack;
-    font-size: 85%;
+    font-size: 30%;
     color: #57517D;
 }
 
@@ -41,6 +41,10 @@ body{
 
 #subtitle{
     width: 32%;
+}
+
+#subtitle2{
+        width:75%;
 }
 
 #first-section{
@@ -220,6 +224,22 @@ p{
     }
   }
 
+
+@keyframes slide-in-bottom {
+0% {
+        -webkit-transform: translateY(1000px);
+                transform: translateY(1000px);
+        opacity: 0;
+}
+100% {
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+        opacity: 1;
+}
+}
+      
+
+
 .anim-graphic {
 	-webkit-animation: graphic 1.2s linear both;
 	        animation: graphic 1.2s linear both;
@@ -251,6 +271,28 @@ p{
         background-color: white;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         padding: 1% 6% 1% 6%;
+}
+
+
+.div_bureau{
+        position: relative;
+        margin-top:4%;
+        -webkit-animation: slide-in-bottom 1.1s 1s both;
+	        animation: slide-in-bottom 1.1s 1s both;
+}
+
+.div_bureau p{
+        text-align: center;
+}
+
+footer{
+        font-family: 'mariannemedium';
+        font-style: italic;
+        font-size:18%;
+        text-align: center;
+        -webkit-animation: slide-in-bottom 1.1s 4.2s both;
+                animation: slide-in-bottom 1.1s 4.2s both;
+        margin-top: 25%;
 }
 
 .pagenumber{
