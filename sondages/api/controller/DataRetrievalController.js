@@ -51,7 +51,7 @@ function moyenne(arr_x, arr_y) {
  */
 function getData() {
     return new Promise((resolve, reject) => {
-        request(URL_DATA, function (error, response, data) {
+        request(URL_DATA, (error, response, data) => {
             const result = {};
             data = JSON.parse(data);
 
@@ -76,7 +76,6 @@ function getData() {
                     }
                 }
             }
-
             resolve(result)
         }).on("error", err => {
             reject(err);
@@ -130,7 +129,7 @@ getData().then(data => {
         ]
 
         let loess_generator = science.stats.loess();
-        loess_generator.bandwidth(1);
+        loess_generator.bandwidth(0.5);
         let loess_values = loess_generator(range(days.length), intentions);
 
         if (loess_values.length > 0) {
@@ -142,14 +141,16 @@ getData().then(data => {
             })
         }
 
-        console.log(result);
-        cacheData = result;
+        return result;
     })
-})
+    cacheData = points;
+    return points;
+});
 
-async function sendDataToFront(req, res) {
-    await getData();
-    res.status(201).json(cacheData)
+function sendDataToFront(req, res) {
+    getData()
+        .then(res.status(201).json(cacheData))
+        .catch(res.status(500).send());
 }
 
 module.exports = sendDataToFront;
