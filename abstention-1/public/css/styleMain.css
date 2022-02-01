@@ -122,14 +122,52 @@ margin-top: 10%;
 /*--------------Section popup carnet----------------*/
 
 #popupCarnet{
-    opacity: 0;
-    z-index: 0;
+    opacity: 1;
+    z-index: 2;
+    width: 45vh;
+    height: 85vh;
+    top: 5%;
+    position: absolute;
+    border : 1vh solid #0600FF;  
+    background-color: white;
+    border-radius: 5%;
+    display: none;
+    left: 4.5%;
+    color: #0600FF;
+    padding: 4%;
 }
+#croix{
+right:10% ;
+top:10%;
+width: 12%;
+position: absolute;
+}
+#anneaux{
+position: relative;
+width: 95%;
+top:-6%;
+left: 3%;
+}
+
+#popupCarnet h1{
+    position: relative;
+    width: 100%;
+    top:-5%;
+    font-size: 8vh;
+
+}
+#popupCarnet li{
+    font-size:6vh;
+}
+#popupCarnet ul{
+    margin-left: 10%;
+}
+
 
 /*--------------Section dialogue----------------*/
 #Dialogue{
     top:0%;
-    opacity: 0;
+    opacity: 1;
     /*background-image: url("../img/a889d43ee7cf0837f085391e97e8ffb6.jpg");*/
    /* background-image: url("../img/Skatepark.svg");*/
     background-repeat: no-repeat;   
@@ -139,7 +177,7 @@ margin-top: 10%;
     position: fixed;
     z-index: 3;
     overflow: hidden;
-    display: none;
+    display: block;
 }
 
 /*header*/
@@ -147,6 +185,7 @@ margin-top: 10%;
     height: 10vh;
     margin: auto;
     padding: 2%;
+    z-index: 3;
 }
 .circle p{
     margin: auto; /* Important */
@@ -329,7 +368,7 @@ vertical-align: center;
     width: calc(100 * 9vh / 16);
     height: 100vh; /*100vh*/
     top:0%;
-    display: none;  /*Permet de cacher les éléments*/
+    display: block;  /*Permet de cacher les éléments*/
 }
 
 #animation{

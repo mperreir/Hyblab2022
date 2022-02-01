@@ -24,6 +24,13 @@ class Controler {
                     this.view.popupInfo.style.opacity=0;}}
         );
 
+        this.view.carnet.addEventListener("click", ()=> {
+            this.view.popupcarnet.style.display='block';
+        });
+        this.view.croix.addEventListener("click", ()=> {
+            this.view.popupcarnet.style.display='none';
+        });
+
     }
 
 

@@ -5,8 +5,10 @@ class View {
     
         this.info=document.querySelector('#info');
         this.popupInfo=document.querySelector('#popupPointInfo');
-
-        /*
+        this.carnet=document.querySelector('#carnet');
+        this.popupcarnet=document.querySelector('#popupCarnet');
+        this.croix=document.querySelector('#croix');
+     
         this.dialoguePart=document.querySelector('#Dialogue');
         this.transitionPartPart=document.querySelector('#Transition');
 
@@ -28,7 +30,6 @@ class View {
 
         this.animation= document.querySelector('#animation');
 
-       */
     }
   }
   
