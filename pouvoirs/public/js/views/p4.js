@@ -4,7 +4,11 @@ const goodAns = createAudio("data/sounds/good_choice.mp3", false,0.7, 1);
 const badAns = createAudio("data/sounds/bad_choice.mp3", false,0.7, 1);
 const cancel = createAudio("data/sounds/cancel.wav", false,0.7, 1);
 
+const mainText = document.querySelector("#p4-bulle-container p");
+
 function init_p4() {
+
+    mainText.textContent = getText("p4");
     // Disable swiper when arriving
     //swiper.disable();
     linkDiv("assemblee", false);

@@ -14,8 +14,12 @@ const playButton = document.querySelector('#play-button');
 const bg = createAnimation("background", "data/animations/homeBackground.json", true);
 const ss = createAnimation("spaceship", "data/animations/homeSpaceship.json", true);
 
+const textIntro = document.querySelector("#homepage p");
+
 // async init function (because of the awaits on fetches)
 const homepage_slide = function(){
+  textIntro.textContent = getText("home");
+
   const sound1 = createAudio("data/sounds/spaceshipStatic.mp3",true);
   const ambiance = createAudio("data/sounds/ambiance.mp3",true);
   ambiance.play();
