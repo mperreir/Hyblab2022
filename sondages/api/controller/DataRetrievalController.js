@@ -51,7 +51,7 @@ function moyenne(arr_x, arr_y) {
  */
 function getData() {
     return new Promise((resolve, reject) => {
-        request(URL_DATA, function (error, response, data) {
+        request(URL_DATA, (error, response, data) => {
             const result = {};
             data = JSON.parse(data);
 
@@ -76,7 +76,6 @@ function getData() {
                     }
                 }
             }
-
             resolve(result)
         }).on("error", err => {
             reject(err);
@@ -142,14 +141,14 @@ getData().then(data => {
             })
         }
 
-        console.log(result);
         cacheData = result;
     })
 })
 
-async function sendDataToFront(req, res) {
-    await getData();
-    res.status(201).json(cacheData)
+function sendDataToFront(req, res) {
+    getData()
+        .then(res.status(201).json(cacheData))
+        .catch(res.status(500).send());
 }
 
 module.exports = sendDataToFront;
