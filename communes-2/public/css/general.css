@@ -218,11 +218,18 @@ body{
     margin-top: 5%;
 }
 
-<<<<<<< HEAD
 .titre-info{
     margin-top: 20px;
-    font-size: 25%;
-    margin-bottom: 20px;
+    font-size: 23%;
+    margin-bottom: 5px;
+    font-family: "Bebas Neue";
+    text-align: center;
+    background-color: #282246;
+}
+
+#tour{
+    margin-left: 5%;
+    font-size: 20%;
     font-family: "Bebas Neue";
     text-align: center;
 }
@@ -239,7 +246,6 @@ body{
     width: 10%;
     margin-left: 7px;
 }
-=======
 .cursor-hand:hover{
     cursor: pointer;
 }
@@ -249,4 +255,3 @@ body{
     top: 291.41px;
     transform: rotate(-9.5deg);
 }
->>>>>>> 5ce8724a427a1ab37de14bca2383036fdebb16f4

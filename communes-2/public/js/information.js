@@ -15,9 +15,9 @@ page('/communes-2/information', async function () {
     });
 
     // chargement de la visualisation
-    let gameData = JSON.parse(localStorage.getItem('gameData'));
     let nom_commune = "Libellé de la commune";
-    let communeCourante = gameData.communeCourante;
+    let communeCourante = JSON.parse(localStorage.getItem('gameData')).communePrecedente.libelleCommune;
+    console.log(communeCourante);
 
     let remplacer_virgule_par_point = function(decimal) {
         return parseFloat((decimal+"").replace(",","."));
@@ -58,7 +58,7 @@ page('/communes-2/information', async function () {
 
     dataSet = data_Nom_Voix(dat,communeCourante);
     data2t = data_Nom_Voix_2T(data2,communeCourante);
-    console.log(data2t[0].InscritsCommune);
+    console.log(data2t[0]);
 
     pie();
     histo();
@@ -221,10 +221,10 @@ function histo() {
     svg.append('text')
       .attr('class', 'title')
       .attr('x', 330 / 2 )
-      .attr('y', 30)
-      .style('font-size', '12px')
+      .attr('y', 25)
+      .style('font-size', '18px')
       .attr('text-anchor', 'middle')
-      .text(`Voix des candidats au 1er tour en 2017 à ${dataSet[0].Commune}`)
+      .text(`${dataSet[0].Commune}`)
 
     svg.append('text')
       .attr('class', 'label')
