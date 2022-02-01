@@ -1,10 +1,11 @@
 function start() {
 
+    console.log(candidat)
+
     const NBR_JOUR = 100 // A changer dynamiquement
     const PIXEL_PAR_JOUR = 500
     const HAUTEUR_DE_LA_PAGE = NBR_JOUR * PIXEL_PAR_JOUR
 
-    const info = document.querySelector("#info")
     const blocks = document.body.querySelector("#blocks")
     const animation = document.body.querySelector("#animation")
     const race = document.body.querySelector("#race")
@@ -85,7 +86,6 @@ function start() {
             }
         }
 
-        info.innerHTML = "Jour: " + indexJour
     }
 
     scrollPosition(0)
