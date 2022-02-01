@@ -10,7 +10,7 @@ const visitedFolders = {
 
 const FOLDER_DATA = {
     abstention: {
-        logoPath: 'img/folders_titles/absention.svg',
+        logoPath: 'img/folders_titles/abstention.svg',
         mainText: 'L\'absention constitue le plus souvent <span class="fd-font-bold">un choix et une mode d\'expression politique</span>. Le rapport au vote comme un devoir d\'étant érodé, il est désormais employé comme mode d\'expression contre les élus qui incarnent la démocratie.',
         percentMessage: 'd\'abstention.',
         secondaryText: 'Selon les résultats de la consultation publique menée sur le site de l\'Assemblée nationale, les raisons sont premièrement le mécontentement à l\'égard de la classe politique et également les accusations de corruption ou de manque d\'honnêteté.<br><br>L\'acte politique au travers de l\'abstention n\'est donc pas le refus des candidats, mais le rejet du système en lui-même.<br><br>Pour éviter cela, il est proposé de comptabiliser le vote blanc dans les résultats, mais en pratique cela est impossible, puisque si le vote blanc est majoritaire, aucun candidat n\'est élu.',
@@ -73,7 +73,7 @@ const FOLDER_DATA = {
 
 async function loadFolder(folderName) {
     const data = { cityName: 'Nantes', cityValue: 100000, cityPercent: 30, meanPercent: 35 };
-    const container = document.getElementById('container');
+    const container = document.getElementById('screen');
     const folderHtml = await loadTemplate('templates/folders/folder.ejs', Object.assign(data, FOLDER_DATA[folderName]));
     container.innerHTML = folderHtml;
     document.getElementById('fd-back-button').addEventListener('click', () => {
@@ -83,10 +83,16 @@ async function loadFolder(folderName) {
             FOLDER_TITLES.filesData.find(f => f.folderName === 'nouveauxHabitants').progress = 100;
             FOLDER_TITLES.filesData.find(f => f.folderName === 'mineurs').progress = 66;
             FOLDER_TITLES.filesData.find(f => f.folderName === 'etrangers').progress = 66;
+            FOLDER_TITLES.filesData.find(f => f.folderName === 'finaux').progress = 44;
         }
         if (visitedFolders.blancsNuls && visitedFolders.nouveauxHabitants) {
             FOLDER_TITLES.filesData.find(f => f.folderName === 'mineurs').progress = 100;
             FOLDER_TITLES.filesData.find(f => f.folderName === 'etrangers').progress = 100;
+            FOLDER_TITLES.filesData.find(f => f.folderName === 'finaux').progress = 66;
+
+        }
+        if (visitedFolders.mineurs && visitedFolders.etrangers) {
+            FOLDER_TITLES.filesData.find(f => f.folderName === 'finaux').progress = 100;
         }
         loadFileExplorer();
     });

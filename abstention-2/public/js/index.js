@@ -41,7 +41,7 @@ const FOLDER_TITLES = {
         {
             title: 'Les pourcentages finaux second tour 2017',
             tag: 'fe-finaux',
-            folderName: '',
+            folderName: 'finaux',
             progress: 16.5
         }
     ]
@@ -80,9 +80,10 @@ function date() {
 // const cityData = await fetchCityData('nantes');
 
 
+// loadStart();
+loadSms();
 // loadFolder('nonVotants');
 loadFileExplorer();
-// loadSms();
 // loadEnd();
 // loadRebet();
 

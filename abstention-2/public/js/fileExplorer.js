@@ -1,5 +1,5 @@
 async function loadFileExplorer() {
-    const container = document.getElementById('container');
+    const container = document.getElementById('screen');
 
     const fileExplorerHtml = await loadTemplate('templates/file_explorer/file_explorer.ejs', FOLDER_TITLES);
     container.innerHTML = fileExplorerHtml;
