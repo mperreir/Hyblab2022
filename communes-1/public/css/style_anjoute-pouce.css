@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow:hidden ;
+}
+
+#container {
+    height: 100%;
+    background-color: #11151B;
+}
+
+
+.mid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20vh;
+}
+
+.logo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-top: 0vh;
+}
+
+.coup{
+    font-size: 90%;
+    font-family: 'Baloo Tamma 2';
+    height: 1.2em;
+    margin-bottom: 10px;
+    white-space: nowrap;
+}
+
+.pouce{
+    font-size: 90%;
+    font-family: 'Baloo Tamma 2';
+    height: 1.2em;
+    margin-bottom: 10px;
+    white-space: nowrap;
+}
+
+.b-letter{
+    color: #AF3834;
+}
+
+.r-letter{
+    color: #C8A166;
+}
+
+.a-letter{
+    color: #75BE8F;
+}
+
+.v-letter{
+    color: #2978EE;
+}
+
+.o-letter{
+    color: #C57EB3;
+}
+
+.bloc-question {
+	z-index: 10;
+	margin-top: 5vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	font-size: 19%;
+}
+
+.question {
+	text-align: center;
+	width: 80%;
+	background-color: #2978EE;
+	border-radius: 10px;
+	padding-top: 0.9vh;
+	font-family: 'Baloo Tamma 2';
+	z-index: 3;
+}
+
+.bloc-reponses {
+	display: flex;
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 0.5vh;
+}
+
+.bloc-reponses .reponse {
+	color: #C8A166;
+	background-color: #10141A;
+	border:  2px solid #C8A166;
+	border-radius: 10px;
+	width: 40%;
+	cursor: pointer;
+	margin: 5%;
+	z-index: 3;
+}
+
+.bloc-reponses .reponse:hover {
+	color: black;
+	background-color: #C8A166;
+}
+
+.bloc-reponses .reponse p {
+	font-family: 'Lineal', sans-serif;
+	font-size: 150%;
+	padding: 1.5vh;
+}
+
+.animation_perso {
+	position: absolute;
+	width: 100%;
+	z-index: 0;
+	bottom: 8vh;
+}
