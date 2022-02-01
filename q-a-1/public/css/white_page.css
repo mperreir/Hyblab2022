@@ -17,13 +17,16 @@ button{
     background-color: #656565 ;
 }
 
-IIIII{
+.white_button{
     color: white;
     border-radius: 30px;
     padding : 1% 6% 1% 6%;
     background-color : #656565;
     font-family: 'folsomblack';
     border: none;
+    max-width:60%;
+    height: 30%;
+    font-size: 30%;
     
 }
 
@@ -63,6 +66,7 @@ IIIII{
 #choisi{
     font-family:'/q-a-1/public/css/font/marianne-bolditalic-demo.html';
     font-size: 80%;
+    padding-top: 12%;
     
 }
 #choix_candidats{
@@ -110,14 +114,16 @@ IIIII{
 #lettre1{
     position:absolute;
     right: 0%;
-    top:32%
+    top:28%;
+    width:30%;
 }
 
 #lettre2{
     width: 40%;
     position:absolute;
     left:0%;
-    top:48%;
+    top:58%;
+    width:40%;
     
 }
 
