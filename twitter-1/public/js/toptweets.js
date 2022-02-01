@@ -32,7 +32,7 @@ select.addEventListener("input", async ev =>  {
 async function showTopTweets () {
     //Get the swiper template
     const fourth_slide_dom = $("#fourth-slide");
-    const swiper_template = await (await fetch("./templates/swiper-toptweet.mustache")).text();
+    //const swiper_template = await (await fetch("./templates/swiper-toptweet.mustache")).text();
 
     //Render the swiper template
     //const swiper_template_rendered = Mustache.render(swiper_template);
@@ -61,10 +61,18 @@ async function showTopTweets () {
     tweets.forEach((t) => {
 
         let new_slide = document.createElement('div');
-        let p = document.createElement('p');
-        p.appendChild(document.createTextNode(t.name + " @" + t.screen_name + '\n' + t.text));
+        let p_name = document.createElement('p');
+        let p_text = document.createElement('p');
+
+        p_name.setAttribute('id','tweetname');
+        p_name.appendChild(document.createTextNode(t.name + " @" + t.screen_name));
+
+        p_text.setAttribute('id','tweetcontent');
+        p_text.appendChild(document.createTextNode(t.text));
+
         new_slide.setAttribute("class", "swiper-slide tweet");
-        new_slide.appendChild(p);
+        new_slide.appendChild(p_name);
+        new_slide.appendChild(p_text);
         swiper_wrapper.appendChild(new_slide);
 
         // let img = document.createElement('img');
