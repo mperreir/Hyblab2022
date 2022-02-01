@@ -134,14 +134,14 @@ app.get('/ratioNearCandidate/followers/:userName', function (req, res) {
             const candidat = candidats.find(candidat => candidat.userName === data.name2);
             candidatsRatio.push({
                 shortname: candidat.displayShortName,
-                img: `/img/${candidat.displayFullName.toLowerCase().replace(/ /g,'-')}`,
+                img: `/img/candidats/${candidat.imageLink}.svg`,
                 ratio: data.ratio
             })
         } else if (data.name2 === mainCandidat.userName) {
             const candidat = candidats.find(candidat => candidat.userName === data.name1);
             candidatsRatio.push({
                 shortname: candidat.displayShortName,
-                img: `/img/${candidat.displayFullName.toLowerCase().replace(/ /g,'-')}`,
+                img: `/img/candidats/${candidat.imageLink}.svg`,
                 ratio: data.ratio
             })
         }
