@@ -32,6 +32,21 @@ async function Suivant(temps,score,total) {
         jeu.removeChild(reponse);
     } catch {}
 
+    let timerElement = document.getElementById("timer")
+    let interval = setInterval(() => {
+        let minute = Math.floor(temps / 60);
+        let secondes = temps % 60;
+
+        secondes = secondes < 10 ? "0" + secondes : secondes
+
+        timerElement.innerText = `${minute}:${secondes}`
+        temps = temps <= 0 ? 0 : temps - 1
+        if (temps === 0) {
+            clearInterval(interval);
+            finJeu(score, total);
+        }
+    }, 1000);
+
     const question = await fetchResponse();
 
     let div = document.createElement('div');
@@ -95,23 +110,7 @@ async function Suivant(temps,score,total) {
     div2.appendChild(b);
 
     jeu.appendChild(div);
-    jeu.appendChild(div2);
-
-    let timerElement = document.getElementById("timer")
-    let interval = setInterval(() => {
-        let minute = Math.floor(temps / 60);
-        let secondes = temps % 60;
-
-        secondes = secondes < 10 ? "0" + secondes : secondes
-
-        timerElement.innerText = `${minute}:${secondes}`
-        temps = temps <= 0 ? 0 : temps - 1
-        if (temps === 0) {
-            clearInterval(interval);
-            finJeu(score, total);
-        }
-    }, 1000);
-    
+    jeu.appendChild(div2);   
     
     
 }
@@ -141,6 +140,7 @@ function Reponse(button, is_success, temps, interval, score, total){
     jeu.removeChild(question);
     jeu.removeChild(reponse);
     
+    clearInterval(interval);
     Suivant(temps, score,total);
 
 }
@@ -238,10 +238,10 @@ function finJeu(score,total){
     let image = document.createElement('img');
     image.src="img/etoiles-1.png";
     image.setAttribute("id","etoile");
-    image.style.width="70%";
+    image.style.width="60%";
     image.style.position = "absolute";
-    image.style.top = "40%";
-    image.style.left = "15%";
+    image.style.top = "48%";
+    image.style.left = "25%";
 
     jeu.appendChild(image);
 
