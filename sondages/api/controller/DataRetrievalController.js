@@ -145,9 +145,10 @@ getData().then(data => {
     })
 })
 
-async function sendDataToFront(req, res) {
-    await getData();
-    res.status(201).json(cacheData)
+function sendDataToFront(req, res) {
+    getData()
+        .then(res.status(201).json(cacheData))
+        .catch(res.status(500).send());
 }
 
 module.exports = sendDataToFront;
