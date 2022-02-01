@@ -79,6 +79,24 @@ module.exports = (passport) => {
         res.json(themes);
     });
 
+    app.get('/theme/count/:theme_id',(req, res) =>{
+        let listCount = [];
+        let listCandidates = db.getCandidats();
+        listCandidates.forEach((candidat) => {
+            let newCount = Object()
+            newCount.nameCandidates = candidat.name
+            let arrayTweets = db.getTweetsSemaine()
+            let result = arrayTweets.filter(arrayTweets =>
+                arrayTweets.theme_id === parseInt(req.params.theme_id)
+                && arrayTweets.name === candidat.name);
+            newCount.nbTweetsByThemes = result.length;
+            listCount.push(newCount);
+        })
+        listCount.sort((a, b) => a.nbTweetsByThemes - b.nbTweetsByThemes);
+        let result = listCount.slice(0,4);
+        res.json(result);
+    });
+
     app.get('/tweets/tops/:theme_id', (req, res) => {
         const candidats = db.getCandidats();
         let tweets = db.getTweetsSemaine()
@@ -121,6 +139,7 @@ module.exports = (passport) => {
         tweets = tweets.map(tweet => {
             const candidat = candidats.filter(candidat => candidat.id === tweet.user_id);
             tweet.name = candidat.length > 0 ? candidat[0].name : "ERROR : CANDIDAT INCONNU";
+            // tweet.pic_url = 
             return tweet;
         })
         res.json(tweets);

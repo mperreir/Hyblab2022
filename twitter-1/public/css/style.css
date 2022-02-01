@@ -19,6 +19,24 @@ body{
     position: relative; /* for absolute positionning of child elements*/
 }
 
+/* -------------- Fixed bar bug -------*/
+html {
+    height: -webkit-fill-available;
+}
+body {
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+}
+
+/* Avoid Chrome to see Safari hack */
+@supports (-webkit-touch-callout: none) {
+    body {
+        /* The hack for Safari */
+        min-height: -webkit-fill-available;
+    }
+}
+
 /* -------------- Loader --------------*/
 #loader{
     z-index: 5;
@@ -317,12 +335,15 @@ th, td {
 
 #fourth-slide{
     background-color: #fff;
+    font-size: 18%;
+}
 
+#fourth-slide h2 {
+    font-size: 300%;
 }
 
 #top-select{
     background-color: #fff;
-    font-size:1em;
     border-radius: 10% / 50%;
     box-shadow: 7px 7px 25px 0 rgba(0,0,0,0.25);
     text-align: center;
