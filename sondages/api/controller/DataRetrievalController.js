@@ -148,7 +148,7 @@ getData().then(data => {
 });
 
 function sendDataToFront(req, res) {
-    if (DateController.shouldWeUpdateData()) {Addition of a data cache function (daily update)
+    if (DateController.shouldWeUpdateData()) {
         getData()
             .then(res.status(201).json(cacheData))
             .catch(res.status(500).send());
