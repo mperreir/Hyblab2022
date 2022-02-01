@@ -255,6 +255,7 @@ header .startTheRace .damier {
     justify-content: center;
     background-color: yellow;
     color: #00000022;
+    width: 100%;
 }
 
 #blocks>*:nth-child(2n) {
