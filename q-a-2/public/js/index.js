@@ -11,6 +11,7 @@ candidates.forEach(candidate => {
 })
 //stepsCandidates["1"] = candidates;
 stepsCandidates["6"] = candidates.slice(0, 5);
+//stepsCandidates["7"] = [];
 
 class App extends React.Component {
   constructor(props) {
@@ -37,6 +38,9 @@ class App extends React.Component {
   }
 
   resetStep() {
+    stepsCandidates = {
+      "1": [...candidates], "2": [], "3": [], "4": [], "5": [], "6": [], "7": [], "8": [],
+    }
     this.setState({ step: 0 });
   }
 

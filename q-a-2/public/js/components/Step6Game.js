@@ -9,19 +9,24 @@ class Step6Game extends React.Component {
         }
     }
 
+    get2MaxIndex() {
+        const maxValue = [...this.state.vote].sort((x, y) => y - x).slice(0, 2);
+        return [
+            this.state.vote.indexOf(maxValue[0]),
+            this.state.vote.indexOf(maxValue[1])
+        ]
+    }
+
     giveRandomVote() {
         if (this.state.urneState < this.state.maxUrneState) {
-            const it = 100 / this.state.maxUrneState;
-            const vote = Array(this.state.vote.length).fill(0);
-            let toGive = 1000;
-            for (let i = 0; i < it; i++) {
-                const g = Math.random() * toGive
-                toGive -= g;
-                vote[Math.floor(Math.random() * 5)] += g;
-            }
-            this.setState({ vote: vote.map((v, i) =>  this.state.vote[i] + (v / it / this.state.vote.length)), urneState: this.state.urneState+1 }, () => {
+            this.setState({ vote: this.state.vote.map(_ => Math.random() * 10000), urneState: this.state.urneState+1 }, () => {
                 if (this.state.urneState === this.state.maxUrneState) {
                     this.props.enableGameButton();
+                    this.props.gameSaveState({
+                        win: true,
+                        data: {},
+                        candidatesNextStep: this.state.candidates.filter((_, i) => this.get2MaxIndex().includes(i))
+                    })
                 }
             });
         }

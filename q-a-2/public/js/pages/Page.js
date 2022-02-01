@@ -23,6 +23,11 @@ class Page extends React.Component {
         this.setState({ gameButtonDisabled: true });
     }
 
+    candidatesClimbSteps(candidates) {
+        stepsCandidates[`${this.props.step + 1}`] = [...candidates];
+        stepsCandidates[`${this.props.step}`] = stepsCandidates[`${this.props.step}`].filter(c => !candidates.includes(c));
+    }
+
     render() {
         return this.state.subPages[this.state.subStepIndex];
     }

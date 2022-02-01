@@ -25,6 +25,7 @@ class Step7Page extends Page {
                     subtitle="Clique sur l'urne pour ouvrir toutes les enveloppes."
                     buttonTitle='Continuer'
                     returnToExplanations={() => this.returnToExplanations()}
+                    nextStep={() => this.nextStep()}
                 >
                     <Step7Game />
                 </GamePage>

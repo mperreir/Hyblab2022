@@ -26,7 +26,7 @@ class Step7GameChart extends React.Component {
                     labels: {
                         render: 'image',
                         textMargin: 10,
-                        images: candidates.map(c => ({ src: 'img/step67Game/' + c.head_img, width: 40, height: 40 }))
+                        images: this.props.candidates.map(c => ({ src: 'img/step67Game/' + c.head_img, width: 20, height: 20 }))
                     }
                 },
                 tooltips: {
@@ -52,8 +52,7 @@ class Step7GameChart extends React.Component {
                     yAxes: [{
                         ticks: {
                             beginAtZero: true,
-                            display: false,
-                            max: 100
+                            display: false
                         },
                         gridLines: {
                             display:false
