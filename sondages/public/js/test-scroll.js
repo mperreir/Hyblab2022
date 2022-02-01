@@ -20,9 +20,11 @@ const COMPATIBLE_BACKGROUNDS = {
     9: [2, 6, 7],
 }
 
-function AjoutDesCandidats(CandidatSelection) {
+function AjoutDesCandidats(candidats) {
+    
+    const CandidatSelection = document.body.querySelector("#CandidatSelection")
 
-    for (const candidat of [...CANDIDATS, ...CANDIDATS]) {
+    for (const candidat of candidats) {
 
         const block = document.createElement("div")
         const avatar = document.createElement("img")
@@ -86,6 +88,8 @@ function GenereLaListeDesBackgrounds(nb_jours) {
 
 function start() {
 
+    window.scrollTo(0, 1);
+
     const NBR_JOUR = 100 // A changer dynamiquement
     const PIXEL_PAR_JOUR = 500
     const HAUTEUR_DE_LA_PAGE = NBR_JOUR * PIXEL_PAR_JOUR
@@ -108,7 +112,7 @@ function start() {
         CourseSelection.className = showed ? "body" : "hidden"
     })
 
-    AjoutDesCandidats(CandidatSelection)
+    AjoutDesCandidats([])
 
     const clientPatternHeight = document.getElementById('pattern').clientHeight;
     const background = GenereLaListeDesBackgrounds(Math.floor(HAUTEUR_DE_LA_PAGE / clientPatternHeight));
