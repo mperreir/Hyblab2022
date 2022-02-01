@@ -26,40 +26,35 @@
 
     <header>
 
-      <div class="main">
-        <img src="img/logo.svg" class="logo">
+      <div class="forCars">
 
-        <div class="details">
-          <div class="title">Candidats</div>
-          <div class="body">
+        <div class="main">
+          <img src="img/logo.svg" class="logo">
 
-            <div class="candidat" data-selected="true">
-              <img src="img/candidats/macron.png" alt="">
-              Emmanuel Macron
+          <div class="details">
+            <div class="top">
+              <div class="title">Candidats</div>
+              <button id="ShowCandidat"><img src="img/bouton_plus.svg"></button>
             </div>
-            <div class="candidat" data-selected="true">
-              <img src="img/candidats/macron.png" alt="">
-              Emmanuel Macron
-            </div>
-            <div class="candidat" data-selected="true">
-              <img src="img/candidats/macron.png" alt="">
-              Emmanuel Macron
-            </div>
-            <div class="candidat" data-selected="true">
-              <img src="img/candidats/macron.png" alt="">
-              Emmanuel Macron
-            </div>
-
+            <div id="CandidatSelection" class="hidden"></div>
           </div>
+
+          <div class="details">
+            <div class="top">
+              <div class="title">Courses</div>
+              <button id="ShowCourses"><img src="img/bouton_plus.svg"></button>
+            </div>
+            <div id="CourseSelection" class="hidden">
+
+              <div style="width: 100px;height:100px;background:red;"></div>
+
+            </div>
+          </div>
+
         </div>
 
         <img src="img/voiture_bleue.svg" class="car car-b">
         <img src="img/voiture_rouge.svg" class="car car-r">
-
-        <div class="details">
-          <div class="title">Courses</div>
-          <div class="body"></div>
-        </div>
 
       </div>
 
