@@ -77,6 +77,7 @@ function date() {
 // date();
 // })
 
+
 // const cityData = await fetchCityData('nantes');
 
 
@@ -92,6 +93,11 @@ async function fetchCityData(city) {
     const rqJson = await cityRq.json();
     return rqJson;
 }
+
+
+
+loadPresVille();
+
 
 async function loadTemplate(path, data) {
     const fileExplorerTemplate = await fetch(path);
