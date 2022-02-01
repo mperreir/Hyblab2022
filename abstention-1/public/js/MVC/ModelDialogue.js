@@ -5,8 +5,8 @@ class ModelDialogue extends Observable {
         this.perso1=perso1;
         this.perso2=perso2;
         this.description =description;
-        this.nom=this.scene[0].nom;
-        this.dialogue=this.scene[0].texte;
+        this.nom=this.scene[0].Personne;
+        this.dialogue=this.scene[0].Replique;
         this.counter=-1;
         this.initialisation=true;
         this.animationModel = undefined;
@@ -20,8 +20,8 @@ class ModelDialogue extends Observable {
 
         if(this.counter<this.scene.length){
             //dialogue suivant
-            this.dialogue=this.scene[this.counter].texte;
-            this.nom=this.scene[this.counter].nom;
+            this.dialogue=this.scene[this.counter].Replique;
+            this.nom=this.scene[this.counter].Personne;
             super.setChanged();
             super.notifyObservers();
         }

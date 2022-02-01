@@ -1,9 +1,10 @@
 let scenes = [
-    new ModelDialogue(SCRIPT.Scene1,"img/Charlie.svg","img/JeuneActive.svg","Arthur 17ans"),
-    new ModelDialogue(SCRIPT.Scene2,"img/Charlie.svg","img/Jeune.svg","Arthur 17ans"),
-    new ModelDialogue(SCRIPT.Scene3,"img/Charlie.svg","img/JeuneActive.svg","Arthur 17ans"),
-    new ModelDialogue(SCRIPT.Scene4,"img/Charlie.svg","img/JeuneActive.svg","Arthur 17ans"),
-    new ModelDialogue(SCRIPT.Scene5,"img/Charlie.svg","img/JeuneActive.svg","Arthur 17ans"),
+    new ModelDialogue(dialogues[0].Texte,"img/Charlie.svg","img/VieuxActif.svg","M. Martin 51ans"),
+    new ModelDialogue(dialogues[1].Texte,"img/Charlie.svg","img/Jeune.svg","Arthur 17ans"),
+    new ModelDialogue(dialogues[2].Texte,"img/Charlie.svg","img/JeuneActive.svg","Nouvelle arrivante 24ans"),
+    new ModelDialogue(dialogues[3].Texte,"img/Charlie.svg","img/Maire.svg","M. le maire 46ans"),
+    new ModelDialogue(dialogues[4].Texte,"img/Charlie.svg","img/Vieille.svg","Mme Robert 82ans"),
+    new ModelDialogue(dialogues[5].Texte,"img/Charlie.svg","img/VieuxActif.svg","M. Martin 51ans"),
 ]
 
 // let controleur = [new Controler(scene1), new Controler(scene2), new Controler(scene3), new Controler(scene4), new Controler(scene5)];
