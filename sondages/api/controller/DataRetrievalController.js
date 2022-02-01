@@ -118,27 +118,18 @@ getData().then(data => {
             }
         }
 
-        const result = [
-            /* {
-                 name: candidat,
-                 mode: "markers",
-                 type: "scatter",
-                 color: "red",
-                 ...data[candidat]
-            } */
-        ]
+        let result = {}
 
         let loess_generator = science.stats.loess();
         loess_generator.bandwidth(0.5);
         let loess_values = loess_generator(range(days.length), intentions);
 
         if (loess_values.length > 0) {
-            result.push({
-                name: "moyliss-" + candidat,
-                type: "lines",
+            result = {...result,
+                name: candidat,
                 x: days,
                 y: loess_values
-            })
+            };
         }
 
         return result;
