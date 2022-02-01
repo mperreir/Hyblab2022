@@ -327,11 +327,26 @@ body {
   background: white;
 }
 
+#bulle-container-pm {
+  opacity: 0;
+}
+
+#bulle-container-moua {
+  opacity: 0;
+}
+
+#bulle-moua {
+  position: absolute;
+  width: 85%;
+  right: 5.5%;
+  top: 17%;
+}
+
 #bulle-pm {
   position: absolute;
   width: 85%;
-  top: 17%;
   left: 5.5%;
+  top: 32%;
 }
 
 #p2 p {
@@ -339,9 +354,17 @@ body {
   font-size: 16%;
   position: absolute;
   width: 68%;
-  top: 19%;
-  left: 16%;
   z-index: 2;
+}
+
+#bulle-container-moua p {
+  top: 19%;
+  right: 16%;
+}
+
+#bulle-container-pm p {
+  top: 34%;
+  left: 16%;
 }
 
 #p2 b {
@@ -364,6 +387,9 @@ body {
   left: 10%;
   border-radius: 15px;
   background-color: #e9e7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #drawing-container img {
@@ -391,6 +417,55 @@ body {
 
 #send-button:disabled {
   background-color: #aaaaaa;
+}
+
+#drawing-container p {
+  position: absolute;
+  bottom: 34%;
+  width: 100%;
+  font-family: 'Nunito';
+  font-weight: 900;
+  text-align: center;
+  color: #C4C4C4;
+  z-index: 4;
+}
+
+#interest-point {
+  display: none;
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  z-index: 10;
+  width: 12%;
+  height: auto;
+  -webkit-animation: blink 2s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation: blink 2s;
+  -moz-animation-iteration-count: infinite;
+  -o-animation: blink 2s;
+  -o-animation-iteration-count: infinite;
+}
+
+#p2 #note {
+  opacity: 0;
+  position: absolute;
+  background: #F4C708;
+  right: 10%;
+  top: 22%;
+  height: 20%;
+  width: 80%;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#p2 #note p {
+  font-size: 17%;
+  font-family: 'Nunito';
+  font-weight: 700;
+  text-align: center;
 }
 
 /* p4 */
