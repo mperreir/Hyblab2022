@@ -63,6 +63,7 @@ const init_p6 = function () {
                     complete: () => {
                         print_decompte(5);
                         clockEffect.play();
+                        ready_bouton();
                     }
                 });
             }
@@ -71,7 +72,9 @@ const init_p6 = function () {
     {once : true}
     );
 
-    bouton_rouge.addEventListener('click', () => {
+
+    const ready_bouton = () => {
+        bouton_rouge.addEventListener('click', () => {
         clockEffect.unload();
         choice_made = 1;
         clearTimeout(timeout);
@@ -91,6 +94,7 @@ const init_p6 = function () {
                         bouton_rouge.style.display = "none";
                         dialog_pressed.style.display = "block";
                         illu_fin.style.display = "block";
+                        showTitle("p6");
 
                         anime({
                             targets: [dialog_pressed, illu_fin],
@@ -103,7 +107,8 @@ const init_p6 = function () {
             }
         });
     }, {once: true}
-    );
+    )
+};
 
     dialog_pressed.addEventListener('click', () => {
         anime({
@@ -136,6 +141,7 @@ const init_p6 = function () {
                     bouton_rouge.style.display = "none";
                     dialog_not_pressed.style.display = "block"
                     illu_fin.style.display = "block";
+                    showTitle("p6");
                     // goodAns.play();
                     anime({
                         targets: [dialog_not_pressed, illu_fin],
