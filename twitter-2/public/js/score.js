@@ -1,5 +1,7 @@
 
 window.onload = () => {
+
+   window.scrollTo(0, 25);
    
    let score = sessionStorage.getItem("score").length;
    sessionStorage.removeItem("score");

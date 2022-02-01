@@ -15,7 +15,7 @@ sessionStorage.setItem('question', '1');
 initSlide1();
 
 window.onload = () => {
-  window.scrollTo(0, 50);
+  window.scrollTo(0, 25);
   
   document.getElementById("button-slide-2").addEventListener("click", () => { 
     window.location.href = "./commencer_partie.html";

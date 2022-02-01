@@ -18,6 +18,37 @@ body{
     overflow: hidden;   /* to avoid slider bugs on some browsers */
     font-family: 'blatantregular';
 }
+#container{
+    height: 100vh;
+    padding-top: 3vh;
+}
+#top-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
+
+#buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+    height: 20vh;
+}
+
+.button{
+    background-color: #5571E5;
+    color: white;
+    border-radius: 19px;
+    text-align: center;
+    width:65%;
+    height:6vh;
+    margin-top: 5vh;
+    line-height: 6vh;
+    border:none;
+    font-size: 90%;
+}
 
 /* ---------- Important media queries for easy responsive content :-) ----------------- */
 /* Can be adapted for other ratios that 9:16 or for horizontal content (ex: 16:9) */

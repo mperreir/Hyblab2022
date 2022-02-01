@@ -7,7 +7,11 @@ function random(min, max) {
 window.onload = () => {
     window.scrollTo(0, 25);
 
-    document.getElementById("return").addEventListener("click", () => {
+    document.getElementById("other_candidate").addEventListener("click", () => {
+        window.location.href = "./exploration.html";
+    });
+
+    document.getElementById("exit").addEventListener("click", () => {
         window.location.href = "./index.html";
     });
 
