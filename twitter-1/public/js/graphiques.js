@@ -3,7 +3,7 @@ function BarChart(data, {
     x = (d, i) => i, // given d in data, returns the (ordinal) x-value
     y = d => d, // given d in data, returns the (quantitative) y-value
     title, // given d in data, returns the title text
-    marginTop = 40, // the top margin, in pixels
+    marginTop = 0, // the top margin, in pixels
     marginRight = 0, // the right margin, in pixels
     marginBottom = 0, // the bottom margin, in pixels
     marginLeft = 0, // the left margin, in pixels
@@ -17,7 +17,8 @@ function BarChart(data, {
     xPadding = 0.5, // amount of x-range to reserve to separate bars
     yFormat, // a format specifier string for the y-axis
     yLabel, // a label for the y-axis
-    color = "currentColor" // bar fill color
+    color = "currentColor", // bar fill color
+    textColor = "textColor"
 } = {}) {
     // Compute values.
     const X = d3.map(data, x);
@@ -107,22 +108,6 @@ function BarChart(data, {
         // });
 
 
-    if (title) bar.append("title")
-        .text(title);
-
-    // svg.append("g")
-    //     .attr("transform", `translate(0,${height - marginBottom})`)
-    //     .call(xAxis)
-    //     .selectAll("text")
-    //         .style("font-family", "sans-serif")
-    //         .style("font", "7px times")
-    //         .attr("dy", "+0.8em")
-    //         .attr("transform", "rotate(-15)")
-
-
-
-
-
     svg.selectAll(".bar-title")
         .data(I)
         .enter()
@@ -130,11 +115,10 @@ function BarChart(data, {
         .classed('bar-title', true)
         .attr('text-anchor', 'middle')
         .attr("x", d => xScale(X[d]) + xScale.bandwidth()/2)
-        .attr("y", d => yScale(Y[d])+10)
+        .attr("y", d => yScale(Y[d])+15)
         .text(d => `${Y[d]}`)
-            .style("font", "7px times")
-            .attr("font-family", "sans-serif")
-            .attr("fill", "white");
+            .style("font", "sans-serif")
+            .attr("fill", textColor);
 
     svg.selectAll(".candidates-name")
         .data(I)
@@ -145,9 +129,8 @@ function BarChart(data, {
         .attr("x", d => xScale(X[d]) + xScale.bandwidth()/2)
         .attr("y", d => yScale(Y[d])-10)
         .text(d => `${X[d]}`)
-        .style("font", "10px times")
-        .attr("font-family", "sans-serif")
-        .attr("fill", "black");
+        .style("font", "sans-serif")
+        .attr("fill", textColor)
 
 
     return svg.node();
@@ -167,7 +150,8 @@ async function ThemeGraphe() {
     svg1.append(await BarChart(data, {
         x: d => d.nameCandidates,
         y: d => d.nbTweetsByThemes,
-        color: "#EF7767"
+        color: "#EF7767",
+        textColor: "black"
     }))
 
     let selector = document.getElementById("top-select")
@@ -183,7 +167,8 @@ async function ThemeGraphe() {
                 x: d => d.nameCandidates,
                 y: d => d.nbTweetsByThemes,
                 xDomain: d3.groupSort(data, ([d]) => -d.nbTweetsByThemes, d => d.nameCandidates), // sort by descending frequency
-                color: "#EF7767"
+                color: "#EF7767",
+                textColor: "black"
             }))
         }
         else{
@@ -196,7 +181,8 @@ async function ThemeGraphe() {
                 x: d => d.nameCandidates,
                 y: d => d.nbTweetsByThemes,
                 xDomain: d3.groupSort(data, ([d]) => -d.nbTweetsByThemes, d => d.nameCandidates), // sort by descending frequency
-                color: "white"
+                color: "white",
+                textColor: "white"
             }))
         }
     })
