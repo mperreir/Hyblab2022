@@ -93,13 +93,13 @@ p{
 }
 #perdant{
         position: absolute;
-        top: 53%;
+        top: 54%;
         margin-bottom: 2%;
         text-align: center;
 }
 #gagnant{
         position: absolute;
-        top: 64%;
+        top: 65%;
         margin-bottom: 32%;
         text-align: center;
 
@@ -111,12 +111,12 @@ p{
 }
 #buttonlooser{
         position: absolute;
-        top:59%;
+        top:60%;
         text-align: center;
 }
 #buttonsecondtour{
         position: absolute;
-        top:70%;
+        top:71%;
         text-align: center;
         left: 10%;
 }
