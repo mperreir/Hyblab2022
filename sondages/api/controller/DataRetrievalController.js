@@ -35,6 +35,7 @@ class DataRetrievalController {
         });
     }
 
+    /* update data every hours */
     updateData() {
         setInterval(data = this.getData(), 1000 * 60 * 60);
     }
