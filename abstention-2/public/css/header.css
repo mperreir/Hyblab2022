@@ -40,6 +40,9 @@ header{
 .header-right>*:first-child {
     margin-right: 4px;
 }
+#screen{
+    height:96%;
+}
 /* 
 #flex-container>.flex-item:nth-child(1) {
     flex: 1;
