@@ -72,8 +72,22 @@ module.exports.getTweets = () => {
 }
 
 module.exports.getCandidats = () => {
+    const followers = db.fetch(module.exports.candidat_followers_name);
+    // const followers_date = followers.map(candidat =>
+    //     Object.entries(candidat)
+    //     .map(([key, value]) => {new Date(key)})
+    //     .sort((date1, date2) => date1 - date2));
+
     return db.fetch(module.exports.candidats_name)
-        .sort((a, b) => parseInt(b.followers) - parseInt(a.followers))
+        .sort((a, b) => {
+            // const b_followers_date = followers_date[b.id];
+            // const a_followers_date = followers_date[a.id]
+
+            return b.followers - a.followers;
+
+            // return parseInt(b_followers ? b_followers[b_followers.length - 1] : b.followers)
+            // - parseInt(a_followers ? a_followers[a_followers.length - 1] : a.followers);
+        })
         .slice(0, 12);
 }
 
@@ -154,9 +168,9 @@ module.exports.tweets_update = (file, onFinish) => {
 }
 
 module.exports.candidats_update = (file, onFinish) => {
+    file = file.replace('﻿', '');
     textProcessing.Parser.getValuesFromCSVString(file, candidats  => {
-        // let older_tweets = db.fetch(module.exports.tweets_name);
-        // if (older_tweets === null) older_tweets = [];
+
         db.set(module.exports.candidats_name, candidats);
 
         onFinish();
@@ -207,8 +221,8 @@ autoFetchData();
 async function autoFetchData() {
     while (true) {
         await new Promise(resolve => setTimeout(resolve, 60000));
-        try {
 
+        try {
             let config = db.fetch(module.exports.config_name);
             if (config === undefined) {
                 config = {
