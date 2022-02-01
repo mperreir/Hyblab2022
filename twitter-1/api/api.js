@@ -79,6 +79,27 @@ module.exports = (passport) => {
         res.json(themes);
     });
 
+    app.get('/theme/count/all', (req, res) =>{
+        let listCount = [];
+        let listCandidates = db.getCandidats();
+        let arrayTweets = db.getTweetsSemaine();
+        console.log(1)
+        console.log(arrayTweets.length);
+        listCandidates.forEach((candidat) => {
+            let newCount = Object();
+            newCount.nameCandidates = candidat.name;
+            let result = arrayTweets.filter(arrayTweets => arrayTweets.user_id === candidat.id);
+            console.log(2)
+            console.log(result.length)
+            newCount.nbTweetsByThemes = result.length;
+            listCount.push(newCount);
+        })
+        listCount.sort((a, b) => b.nbTweetsByThemes - a.nbTweetsByThemes);
+        let result = listCount.slice(0,3);
+        console.log(result)
+        res.json(result);
+    });
+
     app.get('/theme/count/:theme_id',(req, res) =>{
         let listCount = [];
         let listCandidates = db.getCandidats();
@@ -88,12 +109,13 @@ module.exports = (passport) => {
             let arrayTweets = db.getTweetsSemaine()
             let result = arrayTweets.filter(arrayTweets =>
                 arrayTweets.theme_id === parseInt(req.params.theme_id)
-                && arrayTweets.name === candidat.name);
+                && arrayTweets.user_id === candidat.id);
             newCount.nbTweetsByThemes = result.length;
             listCount.push(newCount);
         })
         listCount.sort((a, b) => a.nbTweetsByThemes - b.nbTweetsByThemes);
-        let result = listCount.slice(0,4);
+        let result = listCount.slice(0,3);
+        console.log(result)
         res.json(result);
     });
 
