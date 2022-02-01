@@ -3,7 +3,7 @@
  
 let play = document.querySelector('#play');
 play.addEventListener('click', () => {
-  (() => Suivant(10,0,0))();
+  (() => Suivant(60,0,0))();
 });
 
 

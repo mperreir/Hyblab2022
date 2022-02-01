@@ -186,8 +186,7 @@ module.exports = (passport) => {
     });
 
     app.get('/candidat/filtre', (req, res) => {
-        let candidats = db.getCandidats()
-            .filter(t => t.followers > 80000);
+        let candidats = db.getCandidats();
         res.json(candidats);
     });
 
