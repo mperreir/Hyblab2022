@@ -23,11 +23,13 @@ page('/communes-2/affirmation', async function () {
             indiceP.innerHTML = indice;
         })*/
 
-        
+               
 
         let response3 = await fetch('api/indice/' + gameData['communeCourante']['libelleCommune']);
         let indice = await response3.json();
         indiceP.innerHTML = indice['string'];
+
+        showmesg("Mauvaise réponse", "#ED6464");
 
         // Affichage box affirmation
         var aff_box = document.getElementById("affirmation");
@@ -112,6 +114,8 @@ page('/communes-2/affirmation', async function () {
         var slider = document.getElementById("slider");
         slider.style.bottom ="0";
     });
+
+    
     
 
     // ------ Gestion de la map
@@ -610,6 +614,11 @@ page('/communes-2/affirmation', async function () {
         });
     }
 
+    // Affichage c'est partie
+    if(gameData['numeroEssai'] == 1){
+        showmesg("C\'est partie !", "#282246");
+    }
+
 });
 
 function roundEnding(selectedValue, rightValue) {
@@ -683,6 +692,8 @@ function roundEnding(selectedValue, rightValue) {
         // Si on s'est trompés et que c'était le second essai, on arrive sur la page d'échec, sinon sur la page avec un indice en plus
         if(nbEssaiSuivant == 2) page('/communes-2/affirmation');
     }
+
+    
 }
 
 /**
@@ -743,3 +754,24 @@ function sliderplus(n) {
     slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
 }
+
+// Show firt message !
+function showmesg(message, color){
+    let msg = document.getElementById("message");
+    msg.innerHTML=message;
+    msg.style.color = color;
+    msg.removeAttribute("class");
+    msg.setAttribute("class", "reem-kufi" );
+    msg.setAttribute("class", "fadeOutLeft" );
+}
+
+// sleep
+function sleep(milliseconds) {
+    var start = new Date().getTime();
+    for (var i = 0; i < 1e7; i++) {
+      if ((new Date().getTime() - start) > milliseconds){
+        break;
+      }
+    }
+  }
+
