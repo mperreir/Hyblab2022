@@ -1,7 +1,6 @@
 
 const visitedFolders = {
     abstention: false,
-    nonVotants: false,
     nouveauxHabitants: false,
     blancsNuls: false,
     etrangers: false,
@@ -14,20 +13,10 @@ const FOLDER_DATA = {
         mainText: 'L\'absention constitue le plus souvent <span class="fd-font-bold">un choix et une mode d\'expression politique</span>. Le rapport au vote comme un devoir d\'étant érodé, il est désormais employé comme mode d\'expression contre les élus qui incarnent la démocratie.',
         percentMessage: 'd\'abstention.',
         secondaryText: 'Selon les résultats de la consultation publique menée sur le site de l\'Assemblée nationale, les raisons sont premièrement le mécontentement à l\'égard de la classe politique et également les accusations de corruption ou de manque d\'honnêteté.<br><br>L\'acte politique au travers de l\'abstention n\'est donc pas le refus des candidats, mais le rejet du système en lui-même.<br><br>Pour éviter cela, il est proposé de comptabiliser le vote blanc dans les résultats, mais en pratique cela est impossible, puisque si le vote blanc est majoritaire, aucun candidat n\'est élu.',
-        firstLinkName: 'link_1',
-        firstLink: 'http://example.com',
-        secondLinkName: 'link_2',
-        secondLink: 'http://example.com'
-    },
-    nonVotants: {
-        logoPath: 'img/folders_titles/non_votants.svg',
-        mainText: '',
-        percentMessage: 'de non-votants.',
-        secondaryText: '',
-        firstLinkName: 'link_1',
-        firstLink: 'http://example.com',
-        secondLinkName: 'link_2',
-        secondLink: 'http://example.com'
+        firstLinkName: 'Site du gouvernement',
+        firstLink: 'https://www.vie-publique.fr/fiches/23931-abstention-vote-blanc-et-vote-nul-quelles-differences',
+        secondLinkName: 'Article L\'Express',
+        secondLink: 'https://www.lexpress.fr/actualite/politique/l-abstention-c-est-un-acte-politique_1100505.html'
     },
     nouveauxHabitants: {
         logoPath: 'img/folders_titles/nouveaux_habitants.svg',
@@ -72,13 +61,15 @@ const FOLDER_DATA = {
 }
 
 async function loadFolder(folderName) {
+    const container = document.getElementById('container');
+    container.style.overflow = 'visible';
     const data = { cityName: 'Nantes', cityValue: 100000, cityPercent: 30, meanPercent: 35 };
-    const container = document.getElementById('screen');
+    const screen = document.getElementById('container');
     const folderHtml = await loadTemplate('templates/folders/folder.ejs', Object.assign(data, FOLDER_DATA[folderName]));
-    container.innerHTML = folderHtml;
+    screen.innerHTML = folderHtml;
     document.getElementById('fd-back-button').addEventListener('click', () => {
         visitedFolders[folderName] = true;
-        if (visitedFolders.abstention && visitedFolders.nonVotants) {
+        if (visitedFolders.abstention) {
             FOLDER_TITLES.filesData.find(f => f.folderName === 'blancsNuls').progress = 100;
             FOLDER_TITLES.filesData.find(f => f.folderName === 'nouveauxHabitants').progress = 100;
             FOLDER_TITLES.filesData.find(f => f.folderName === 'mineurs').progress = 66;
@@ -98,17 +89,110 @@ async function loadFolder(folderName) {
     });
     switch (folderName) {
         case 'abstention':
+        case 'etrangers':
             const graphAbstention = await loadTemplate('templates/folders/graphAbsention.ejs', {
                 cityName: 'Nantes', cityPercent: 30, meanPercent: 35
             });
             document.getElementById('fd-graph-template').innerHTML = graphAbstention;
             break;
+        case 'blancsNuls':
+            const graphEtrangers = await loadTemplate('templates/folders/graphEtrangers.ejs', {
+                cityName: 'Nantes', cityPercent: 30, meanPercent: 35
+            });
+            document.getElementById('fd-graph-template').innerHTML = graphEtrangers;
+            new Chart(document.getElementById('graph-chartjs'), {
+                type: 'bubble',
+                data: {
+                    datasets: [{
+                        initalData: [30, 35],
+                        data: getEtrangersData([30, 35])[0],
+                        backgroundColor: getEtrangersData([30, 35])[1]
+                    }]
+                },
+                options: {
+                    // responsive: true,
+                    // maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            display: false
+                        }
+                    },
+                    scales: {
+                        x: {
+                            suggestedMin: 0,
+                            suggestedMax: 6,
+                            grid: {
+                                drawBorder: false,
+                                lineWidth: 0
+                            },
+                            ticks: {
+                                display: false
+                            }
+                        },
+                        y: {
+                            suggestedMin: 0,
+                            suggestedMax: Math.floor(Math.max(...[30, 35]) / 3) + 1,
+                            grid: {
+                                drawBorder: false,
+                                lineWidth: 0
+                            },
+                            ticks: {
+                                display: false
+                            }
+                        }
+                    }
+                }
+            }
+            );
+            break;
         case 'nouveauxHabitants':
-            const graphNouveauxHabitants = await loadTemplate('templates/folders/graphNouveauxHabitants.ejs', {})
-            document.getElementById('fd-graph-template').innerHTML = graphAbstention;
-            const canvas = document.getElementById('graph-nouveaux-habitants');
+        case 'mineurs':
+            const graphNouveauxHabitants = await loadTemplate('templates/folders/graphNouveauxHabitants.ejs', {
+                cityName: 'Nantes', cityPercent: 30, meanPercent: 35
+            });
+            document.getElementById('fd-graph-template').innerHTML = graphNouveauxHabitants;
             break;
         default:
             break;
     }
+}
+
+
+
+
+function getEtrangersData(data) {
+    renderData = [];
+    renderColor = [];
+    for (i = 0; i < data[0]; i++) {
+        d = {
+            x: i % 3,
+            y: Math.floor(i / 3),
+            r: 10
+        };
+        renderData.push(d);
+        renderColor.push('rgb(0, 57, 255)');
+    }
+    renderData.push({
+        x: data[0] % 3,
+        y: Math.floor(data[0] / 3),
+        r: Math.floor((data[0] - Math.floor(data[0])) * 10)
+    })
+    renderColor.push('rgb(0, 57, 255)');
+
+    for (i = 0; i < data[1]; i++) {
+        d = {
+            x: i % 3 + 4,
+            y: Math.floor(i / 3),
+            r: 10
+        };
+        renderData.push(d);
+        renderColor.push('rgb(255, 72, 0)');
+    }
+    renderData.push({
+        x: Math.floor(data[1]) % 3 + 5,
+        y: Math.floor(data[1] / 3),
+        r: Math.floor((data[1] - Math.floor(data[1])) * 10)
+    });
+    renderColor.push('rgb(255, 72, 0)');
+    return ([renderData, renderColor]);
 }
