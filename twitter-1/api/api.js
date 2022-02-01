@@ -90,18 +90,20 @@ module.exports = (passport) => {
 
     app.get('/theme/count/:theme_id',(req, res) =>{
         let listCount = [];
-        let listCandidates = db.getCandidats();
+        const listCandidates = db.getCandidats();
+        const arrayTweets = db.getTweetsSemaine()
+
         listCandidates.forEach((candidat) => {
             let newCount = Object()
+            newCount.id = candidat.id
             newCount.nameCandidates = candidat.name
-            let arrayTweets = db.getTweetsSemaine()
             let result = arrayTweets.filter(arrayTweets =>
                 arrayTweets.theme_id === parseInt(req.params.theme_id)
-                && arrayTweets.name === candidat.name);
+                && arrayTweets.id === candidat.id);
             newCount.nbTweetsByThemes = result.length;
             listCount.push(newCount);
         })
-        listCount.sort((a, b) => a.nbTweetsByThemes - b.nbTweetsByThemes);
+        listCount = listCount.sort((a, b) => a.nbTweetsByThemes - b.nbTweetsByThemes);
         let result = listCount.slice(0,4);
         res.json(result);
     });
@@ -170,7 +172,6 @@ module.exports = (passport) => {
     });
 
     app.get('/candidat/:id_candidat/stats', (req, res) => {
-
         const candidat = db.getCandidats();
         const candidat_followers = db.fetch(db.candidat_followers_name)[req.params.id_candidat];
         // liste des dates par ordre croissant
