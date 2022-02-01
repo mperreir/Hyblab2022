@@ -57,7 +57,7 @@ body{
     background-color: black;
     color: white;
     overflow: hidden;   /* to avoid slider bugs on some browsers */
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Reem Kufi', sans-serif;
 }
 
 #container{
@@ -150,6 +150,10 @@ body{
     margin-bottom: 50%;
 }
 
+.decalageBottom40{
+    margin-bottom: 30%;
+}
+
 .decalageBottom30{
     margin-bottom: 30%;
 }
@@ -162,8 +166,7 @@ body{
     margin-bottom: 5%;
 }
 
-.genericText{
-    font-family: "Reem Kufi";
+.text-app, .genericText{
     font-size: 20%;
     color: #282246;
     margin-left: 10%;
@@ -178,7 +181,6 @@ body{
 }
 
 .textZone{
-    font-family: "Bebas Neue";
     font-size: 20%;
     background-color: #282246;
     padding: 10px 60px 10px 60px;
@@ -194,11 +196,7 @@ body{
 }
 
 .bebas-neue{
-    font-family: "Bebas Neue";
-}
-
-.reem-kufi{
-    font-family: "Reem Kufi";
+    font-family: "Bebas Neue", cursive;
 }
 
 .margin-left-right{

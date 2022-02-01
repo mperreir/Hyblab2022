@@ -1,16 +1,31 @@
 .btn-accueil{  
-    font-family: "Bebas Neue";
     width: 13em;
     height: 3em;
     font-size: 18%;
     margin-bottom: 30px;
     border: none;
-    border-radius: 50px;
+    border-radius: 20px;
     transition: transform 250ms;
 }
 
+.btn-accueilBonus{  
+    background-color: #f0e4d8;
+    color:#282246;
+    border-color: #282246;
+    width: 13em;
+    height: 3em;
+    font-size: 18%;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    transition: transform 250ms;
+}
+
+.accueilBonus:hover{
+    background-color: whitesmoke;
+    color: #282246;
+}
+
 .btn-menu{  
-    font-family: "Bebas Neue";
     width: 91px;
     height: 83px;
     font-size: 20%;
@@ -20,7 +35,6 @@
 }
 
 .btn-popUp{  
-    font-family: "Bebas Neue";
     width: 80%;
     height: 3em;
     font-size: 18%;
