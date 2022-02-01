@@ -43,7 +43,7 @@ module.exports = (passport) => {
         do {
             candidat1 = candidats[Math.floor(Math.random() * candidats.length)];
             const candidats_2 = candidats.filter(c => candidat1.id !== c.id);
-            candidat2 = candidats[Math.floor(Math.random() * candidats_2.length)]
+            candidat2 = candidats_2[Math.floor(Math.random() * candidats_2.length)]
 
             tweet = db.getTweetsSemaine()
                 .filter(t => t.user_id === candidat1.id
@@ -54,7 +54,7 @@ module.exports = (passport) => {
                 .sort(() => 0.5 - Math.random())[0];
 
             // arret de la boucle si pas de tweet trouvé
-            if (cpt_while > 3) {
+            if (cpt_while > 4) {
                 res.status(500).send();
                 return;
             }
