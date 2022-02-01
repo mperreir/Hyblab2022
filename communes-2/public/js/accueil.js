@@ -2,7 +2,7 @@
 
 page('/communes-2/', async function () {
     anime({
-        delay: 2500,
+        delay: 10000,
         targets: '#loader',
         opacity: '0',
         'z-index' : -1,
@@ -27,10 +27,10 @@ page('/communes-2/', async function () {
         page('/communes-2/credits');
     });
 
-    let allbutton = document.querySelectorAll("input[type='button']");
-    allbutton.forEach(elt => {
-        elt.addEventListener("click", clickmodern);
-    })
+    // let allbutton = document.querySelectorAll("input[type='button']");
+    // allbutton.forEach(elt => {
+    //    elt.addEventListener("click", clickmodern);
+    //})
 });
 
 
