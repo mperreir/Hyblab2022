@@ -172,3 +172,16 @@ a:link,a:visited{
     margin:0.5%;
     text-decoration:none;
 }
+
+
+#diagram{
+    position:absolute;
+    right:0%
+
+}
+
+.Right{
+    text-align: right;
+    margin-right: 25%;
+
+}
