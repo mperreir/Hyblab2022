@@ -193,7 +193,6 @@ header .startTheRace .damier {
     position: absolute;
     z-index: 99;
     height: 100vh;
-    background-color: #55001588;
     width: 100%;
 }
 
