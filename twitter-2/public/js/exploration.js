@@ -1,6 +1,9 @@
 "use strict";
 
 window.onload = () => {
+  document.getElementById("autre_candidat").addEventListener("click", () => {
+    window.location.reload();
+  });
   document.getElementById("return").addEventListener("click", () => {
     window.location.href = "./index.html";
   });
@@ -30,7 +33,7 @@ window.onload = () => {
 
   // partie visu de données
   const buttons = document.getElementsByTagName("button");
-  for (let i = 0; i < buttons.length; i++) {
+  for (let i = 0; i < buttons.length-1; i++) {
     buttons[i].addEventListener("click", () => {
       sessionStorage.setItem("selected_theme", buttons[i].id);
       window.location.href = "./visu_donnees.html";
