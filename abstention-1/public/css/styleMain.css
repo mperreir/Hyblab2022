@@ -268,3 +268,32 @@ lottie-player{
 .player {
     opacity: 0;
 }
+.box {
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    padding : 10px ;
+    opacity:0;
+  }
+  .box button {
+    padding : 10px;
+    margin : 10px;
+    border-radius : 3px;
+    outline : none;
+    border : none;
+    color : rgb(235, 215, 215);
+    background-color : blue;
+    cursor: pointer;
+    transition : 0.2s;
+    z-index:3 ;
+  }
+  .box button:active {
+    transform : scale(0.97);
+  }
+  .resultat {
+    height : 50px;
+    text-align : center;
+    font-weight: bold;
+    padding : 10px;
+    color:rgb(26, 27, 27);
+  }
