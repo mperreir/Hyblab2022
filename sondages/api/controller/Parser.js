@@ -101,6 +101,7 @@ class Parser {
 
 	parse(data){
 		let donnee = [];
+
 		// we keep only "Premier tour" sondage with hypothese "null"
 		data.forEach(element => {
 			element.tours.forEach(tour => {
@@ -145,4 +146,4 @@ class Parser {
 	}
 }
 
-module.exports = Parser;
+module.exports = new Parser();
