@@ -524,13 +524,8 @@ body {
   display: flex;
   flex-flow: column;
   align-items: center;
-<<<<<<< HEAD
-  justify-content: space-between;
-  background: #d4c2f0;
-=======
   justify-content:space-between;
   background: #fff;
->>>>>>> p4-decret
   padding: 5px;
   border-radius: 25px;
   /* padding-bottom: 3%; */
@@ -547,11 +542,7 @@ body {
 }
 
 #conseil {
-<<<<<<< HEAD
-  top: 72%;
-=======
   top:77%;
->>>>>>> p4-decret
   left: 10%;
 }
 
@@ -584,25 +575,16 @@ body {
 }
 
 #buttons-container p {
-<<<<<<< HEAD
-  font-family: "First Fun";
-=======
   margin-top: -2%;
   font-family: 'First Fun';
->>>>>>> p4-decret
   font-size: 12%;
   background:#D4C2F0;
   text-align: center;
   padding: 5%;
   width: 90%;
-<<<<<<< HEAD
-  border-radius: 15px;
-  color: #4f00ec;
-=======
   height:18%;
   border-radius: 25px;
   color: #fff;
->>>>>>> p4-decret
 }
 
 /* */
