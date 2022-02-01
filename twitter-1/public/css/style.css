@@ -241,6 +241,25 @@ h2{
     font-size: 20%;
 }
 
+.container-btn-end-game {
+    top: 78%;
+    position: absolute;
+    font-family: Outfit, sans-serif;
+    font-size: 90%;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.btn-end-game {
+    border-radius: 80px;
+    box-shadow: rgba(0, 0, 0, 0.25) 7px 7px 25px 0;
+    border: none;
+    padding: 5%;
+    justify-content: space-around;
+}
+
 div{
     /*font-size: 1em;*/
     color : black;
