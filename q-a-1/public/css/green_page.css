@@ -20,8 +20,10 @@
 
 .main-section{
     margin-top: 8%;
-    font-size: 22%;
+    font-size: 18%;
     font-family: folsomblack;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 p{
@@ -37,7 +39,7 @@ p{
 }
 
 tr{
-    height: 10%;    
+    height: 20%;    
 }
 
 td{
@@ -50,8 +52,10 @@ td{
 td p{
     font-family: mariannemedium;
     font-size: 15%;
-    margin-top: -30%;
-    margin-bottom: 5%;
+    margin-top: 0%;
+    margin-block-start: -22%;
+    
+    
 }
 
 td img{
@@ -59,14 +63,12 @@ td img{
     display: flex;
     justify-content: center;
     margin-left:22%;
-    margin-top:5%;
-
 }
 
 table{
     margin: 5%;
     width: 90%;
-    height: 50%;
+    height: 35%;
     border-width: 6px;
     border: solid;
     border-collapse: collapse;
