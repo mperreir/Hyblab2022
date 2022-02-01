@@ -31,8 +31,8 @@ class AnimationModel extends Observable {
     updateScroll(){
         this.scroll = this.getContainerVisibility();
 
-        // On s'assure que le dialogue ne soit pas afficher pour load les nouveaux personnages
-        if(!this.modelChanged && this.scroll > 0.5) {
+        // On s'assure que le dialogue commence a apparaitre avant de pouvoir intéragir avec
+        if(!this.modelChanged && this.scroll > 0.1) {
             this.dialogueControler.loadNextModel();
             this.modelChanged = true;
         }
