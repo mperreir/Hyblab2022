@@ -286,7 +286,7 @@ body{
 }
 
 .header_logo {
-    margin-top: 30px;
+    margin-top: 2.5vh;
     width: 25%;
 }
 
@@ -1021,7 +1021,7 @@ input[type="checkbox"] {
 .gamePage_title_container > h2 {
     margin-top: 5vh;
     font-family: "Spicy Rice";
-    font-size: 4vh;
+    font-size: 3.5vh;
     text-align: center;
 }
 
