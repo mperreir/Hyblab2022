@@ -21,7 +21,7 @@ class Step5Page extends Page {
                 />,
                 <QuestionPage
                     step={step}
-                    buttonOnClick={() => this.nextStep()}
+                    buttonOnClick={() => this.nextSubStep()}
                     buttonText="Vérifier"
                     questionTitle={data.title}
                     question={questions[1].question}
@@ -29,6 +29,18 @@ class Step5Page extends Page {
                     learnMoreLink={questions[1].link}
                     nextStepMessage="Vérifier le temps de parole de chaque candidat"
                 />,
+                <GamePage
+                    step={step}
+                    title='Débats, temps de parole'
+                    subtitle="Tous les candidats ont droit à un temps de parole équitable, fait en sorte d’égaliser les temps en cliquant sur les minuteurs."
+                    buttonTitle='Valider'
+                    returnToExplanations={() => this.returnToExplanations()}
+                    >
+                    <Step5Game
+                        disableGameButton={() => this.disableGameButton()}
+                        enableGameButton={() => this.enableGameButton()}
+                    />
+                </GamePage>
             ],
             subStepIndex: 0
         }
