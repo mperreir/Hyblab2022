@@ -25,8 +25,17 @@ p{
     top:27%;
 }
 
+
+
 #subtitle{
     width: 32%;
+}
+
+.gifbureau{
+    position: absolute;
+    bottom:15%;
+    width:80%;
+    left:13%;
 }
 
 #img_mairie{
@@ -110,12 +119,12 @@ button{
 .bouton{ 
     padding : 2% 0% 2% 0%;
     margin: 1%;
-    width: 40%;
+    width: 20%;
+    font-size: 50%;
     height: 8%;
     border-radius: 30px;
     border: none;
     font-family: 'folsomblack';
-    font-size: 70%;
     background-color: #AC4B4B;
     color: #eed2d2;
 }
@@ -129,9 +138,10 @@ button{
 
 #butproc{
     margin-left: 5%;
-    border-radius: 30px;
     padding: 1% 5% 1% 5%;
     background-color: #A34142;
+    font-size: 10%;
+    width:60%;
     color: rgb(224, 209, 209);
 
 }
@@ -142,9 +152,17 @@ button{
     
 }
 
+#diagramm{
+    width: 100%;
+}
+
 #Quest_Proc{
     display: flex;
     justify-content: space-between;
+}
+
+#titreproc{
+    width: 60%;
 }
 
 .pagenumber{
@@ -188,4 +206,5 @@ a:link,a:visited{
     height:50%;
     background:#A34142;
     position:absolute;
-    bottom:0;}
+    bottom:0;
+}

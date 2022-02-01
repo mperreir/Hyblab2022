@@ -190,9 +190,11 @@ p.alignRight{
     background: gray;
  }
 .gif{
-    width: 100%;
-    margin-top: -20%;
+    width: 80%;
+    margin-top: -1%;
 }
+
+
  
 /* ---------- Important media queries for easy responsive content :-) ----------------- */
 /* Can be adapted for other ratios that 9:16 or for horizontal content (ex: 16:9) */
