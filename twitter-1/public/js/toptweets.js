@@ -14,6 +14,7 @@ async function initThemesTopTweets() {
     o.innerText = "TOUS";
     select.appendChild(o);
 
+    //Create the list of options
     themes.forEach((theme) => {
         o = document.createElement('option');
         o.setAttribute("value", theme.id + '');
@@ -21,9 +22,10 @@ async function initThemesTopTweets() {
         select.appendChild(o);
     });
     
-    await showTopTweets();
+    await showTopTweets(); //Ask for top tweets
 }
 
+//Update top tweet when option is selected
 select.addEventListener("input", async ev =>  {
     await showTopTweets();
 })
@@ -37,9 +39,12 @@ async function showTopTweets () {
     
     TopTweetsThemePic(select.value);
 
+    //Add each top tweet
     tweets.forEach((t) => {
         let p = document.createElement('p');
-        p.appendChild(document.createTextNode(t.name + '\n' + t.text));
+        // let img = document.createElement('img');
+        // img.src = t.src;
+        p.appendChild(document.createTextNode(t.name + " @" + t.screen_name + '\n' + t.text));
         tweet_theme_div.appendChild(p);
     });
 
@@ -48,8 +53,6 @@ async function showTopTweets () {
         tweet_theme_div.appendChild(document.createTextNode("Pas de top tweet trouvé pour ce theme !"));
     }
     tweet.appendChild(tweet_theme_div);
-
-
 }
 
 
@@ -125,33 +128,33 @@ async function fetchTopTweetsTheme(theme_id) {
 function TopTweetsThemePic(theme_id) {
     page = document.querySelector('#fourth-slide');
     switch (theme_id) {
-        case "0":
+        case "0": //All Tweet
           theme_pic.src = './img/topics/podium.png';
           page.style.background= "#fff";
           break;
-        case "1":
+        case "1": //Topic Security
           theme_pic.src = './img/topics/securite.png';
-          page.style.background= "rgb(77, 109, 214)";
+          page.style.background= "#5467D3";
           break;
-        case "2":
+        case "2": //Topic Health
           theme_pic.src = './img/topics/sante.png';
-          page.style.background= "rgb(207, 79, 207)";
+          page.style.background= "#E26088";
           break;
-        case "3":
+        case "3": //Topic Economie
           theme_pic.src = './img/topics/economie.png';
           page.style.background= "#f1de68";
           break;
-        case "4":
+        case "4": //Topic Education
           theme_pic.src = './img/topics/education.png';
-          page.style.background= "#ef7767";
+          page.style.background= "#EF7767";
           break;
-        case "5":
+        case "5": //Topic Environnement
           theme_pic.src = './img/topics/environnement.png';
-          page.style.background= "rgb(53, 226, 68)";
+          page.style.background= "#47D19F";
           break;
-        case "6":
+        case "6": //Topic Culture
           theme_pic.src = './img/topics/culture.png';
-          page.style.background= "rgb(153, 0, 241)";
+          page.style.background= "#A08AFF";
           break;
       }
 }
