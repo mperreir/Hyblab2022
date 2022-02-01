@@ -7,6 +7,7 @@
 body {
     background-color: black;
     overflow: hidden;
+    position: relative;
 }
 
 @font-face {
@@ -18,8 +19,14 @@ body {
 
 }
 
+/* Swiper slider. Need to fill the 9:16 constrained container */
+#mySwiper{
+    width: 100%;
+    height:100%;
+}
+
 #container {
-    background-color: #84A6FC;
+    background-color: white;
     color: black;
     padding-top: 3vh;
     font-size: 30%;
@@ -53,7 +60,7 @@ body {
 
 /* changer la visibilité selon le résultat */
 .right {
-    visibility: visible;
+    visibility: hidden;
 }
 
 .wrong {
@@ -104,7 +111,20 @@ body {
     font-size: 1rem;
     height: 31vh;
 }
+#dataviz{
+    height: 85vh;
+}
+#back-toquiz{
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+    padding-top: 3vh;
+}
 
+#legende{
+    text-align: center;
+    bottom: 0;
+}
 .button {
     background-color: white;
     color: #5571E5;

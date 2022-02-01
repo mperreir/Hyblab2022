@@ -11,6 +11,17 @@ html,body{
     background: transparent;
 }
 
+video { 
+    z-index: -100;
+    position: absolute;
+    width:100%;
+}
+
+#content{
+    position: absolute;
+    width: 100%;
+}
+
 @font-face {
     font-family: 'blatantregular';
     src: url('../font/blatant-webfont.woff') format('woff'),
@@ -28,6 +39,7 @@ html,body{
     font-size: 30%;
     height:100vh;
     overflow: hidden;
+    position: relative;
 }
 
 #top-section{
