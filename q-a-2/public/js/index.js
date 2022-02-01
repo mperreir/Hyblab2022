@@ -41,11 +41,9 @@ class App extends React.Component {
 
   render() {
       return this.state.stepPages[this.state.step];
+    }
   }
-}
-  /*
-  <Step1Game/>
-*/
+  
 ReactDOM.render(
   <App />,
   document.getElementById('root')

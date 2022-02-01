@@ -193,7 +193,7 @@ body{
 }
 
 .button_disabled {
-    opacity: 50%;
+    opacity: 20%;
     pointer-events: none;
 }
 
@@ -878,10 +878,11 @@ body{
 .step1game_tampon_valid {
     right: 5%;
     top: -2.5%;
+    transform: rotate(20deg);
 }
 
 .step1game_tampon_cancel {
-    right: 8.1%;
+    right:8.2%;
 }
 
 .step1Game_pannelError {
@@ -893,7 +894,7 @@ body{
 
 .step1game_tampon_button {
     display: flex;
-    width: 25%;
+    width: 30%;
     justify-content: space-between;
     margin-top: 5%;
 }

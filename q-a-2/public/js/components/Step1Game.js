@@ -2,11 +2,11 @@ class Step1Game extends React.Component {
     constructor(props) {
         super(props);
 
-        const profilsState = candidates.reduce((previus, candidate) => {
+        const profilsState = candidates.reduce((previous, candidate) => {
             return {
-                ...previus,
+                ...previous,
                 [candidate.nameId]: {
-                    error: false,
+                    error: true,
                     isAcceptClick: false,
                     isCancelClick: false,
                     profil: { ...candidate.stepOneGame, img:`img/step1Game/${candidate.nameId}.svg`, name: candidate.name},
@@ -15,7 +15,7 @@ class Step1Game extends React.Component {
         }, {});
 
         this.state = {
-            validateDisabled: true,
+            validateDisabled: false,
             ...profilsState, 
         };
 
@@ -29,13 +29,22 @@ class Step1Game extends React.Component {
     }
 
     clickCancel(id) {
-        console.log('cancel');
-        const tampon = (<Tampon isValid={false}/>);
-        this.setState({ [id]: {...this.state[id], isAcceptClick: false, isCancelClick: !this.state[id].isCancelClick }});
+        this.setState({ [id]: {...this.state[id], isAcceptClick: false, isCancelClick: !this.state[id].isCancelClick }}, () => { this.isEnd()});
+        // this.isEnd();
     }
     clickAccept(id) {
-        console.log('accept');
-        this.setState({ [id]: {...this.state[id], isAcceptClick: !this.state[id].isAcceptClick, isCancelClick: false }});
+        this.setState({ [id]: {...this.state[id], isAcceptClick: !this.state[id].isAcceptClick, isCancelClick: false }}, () => { this.isEnd()});
+        // this.isEnd();
+    }
+
+    isEnd() {
+        const tmpState = {...this.state};
+        delete tmpState.validateDisabled;
+        console.log(tmpState);
+        const keys = Object.keys(tmpState);
+        const validateDisabled = keys.reduce((previous, current) => previous && (tmpState[current].isAcceptClick || tmpState[current].isCancelClick));
+        console.log(validateDisabled);
+        this.setState({ validateDisabled });
     }
 
     render(){
@@ -71,7 +80,7 @@ class Step1Game extends React.Component {
                         {profils}
                     </div>
                 </div>
-                <Button value={'Valider'} disabled={this.state.validateDisabled} white={false}/>
+                <Button value={'Valider'} disabled={!this.state.validateDisabled} white={false}/>
             </div>
         )
     }
