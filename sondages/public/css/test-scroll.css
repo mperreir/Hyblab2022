@@ -45,7 +45,7 @@ header .main {
     color: black;
     width: 100%;
     height: 100%;
-    height: 70vh;
+    height: 70.5vh;
     padding: 25px;
     border-radius: 10px;
     overflow-y: hidden;
@@ -53,6 +53,11 @@ header .main {
 
 header .main .logo {
     width: 80%;
+}
+
+header .main p {
+    font-size: 20px;
+    margin-top: 25px;
 }
 
 header .car {
