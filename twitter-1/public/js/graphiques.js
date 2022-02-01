@@ -3,7 +3,7 @@ function BarChart(data, {
     x = (d, i) => i, // given d in data, returns the (ordinal) x-value
     y = d => d, // given d in data, returns the (quantitative) y-value
     title, // given d in data, returns the title text
-    marginTop = 0, // the top margin, in pixels
+    marginTop = 20, // the top margin, in pixels
     marginRight = 0, // the right margin, in pixels
     marginBottom = 0, // the bottom margin, in pixels
     marginLeft = 0, // the left margin, in pixels
@@ -23,6 +23,7 @@ function BarChart(data, {
     // Compute values.
     const X = d3.map(data, x);
     const Y = d3.map(data, y);
+    console.log(Y[0])
 
 
     // Compute default domains, and unique the x-domain.
@@ -41,8 +42,6 @@ function BarChart(data, {
 
     // Compute titles.
     title = i => `${X[i]}\n${Y[i]}`+' tweets';
-
-
 
 
     const svg = d3.create("svg")
@@ -96,16 +95,16 @@ function BarChart(data, {
         .attr("height", i => yScale(0) - yScale(Y[i]))
         .attr("width", xScale.bandwidth())
         .attr("filter", "url(#dropshadow)");
-        // .on("mouseover", function(d){
-        //     d3.select(this).attr("fill", "red");
-        //     div.transition()
-        //         .style("opacity", .9)
-        // })
-        // .on("mouseout", function(d){
-        //     d3.select(this).attr("fill", color)
-        //     div.transition()
-        //         .style("opacity", 0);
-        // });
+    // .on("mouseover", function(d){
+    //     d3.select(this).attr("fill", "red");
+    //     div.transition()
+    //         .style("opacity", .9)
+    // })
+    // .on("mouseout", function(d){
+    //     d3.select(this).attr("fill", color)
+    //     div.transition()
+    //         .style("opacity", 0);
+    // });
 
 
     svg.selectAll(".bar-title")
@@ -117,8 +116,8 @@ function BarChart(data, {
         .attr("x", d => xScale(X[d]) + xScale.bandwidth()/2)
         .attr("y", d => yScale(Y[d])+15)
         .text(d => `${Y[d]}`)
-            .style("font", "sans-serif")
-            .attr("fill", textColor);
+        .style("font", "sans-serif")
+        .attr("fill", textColor);
 
     svg.selectAll(".candidates-name")
         .data(I)
@@ -182,7 +181,7 @@ async function ThemeGraphe() {
                 y: d => d.nbTweetsByThemes,
                 xDomain: d3.groupSort(data, ([d]) => -d.nbTweetsByThemes, d => d.nameCandidates), // sort by descending frequency
                 color: "white",
-                textColor: "white"
+                textColor: "black"
             }))
         }
     })
@@ -191,3 +190,23 @@ async function ThemeGraphe() {
 
 
 ThemeGraphe()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

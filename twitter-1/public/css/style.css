@@ -382,6 +382,74 @@ th, td {
     margin-top : 1vh;
 }
 
+.ThemeGraphe {
+    position: absolute;
+    bottom: 10%;
+    left: 7.5%;
+}
+
+.scroll-tip {
+    position: absolute;
+    font-size: 20%;
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+    left: 25%;
+    bottom:5%;
+    color: white;
+
+}
+
+.hovertree-upslide {
+    position: absolute;
+    /*left: calc(50% - 10px);*/
+    display:inline-block;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    margin-left:auto;
+    margin-right:auto;
+
+    width: 20px;
+    height: 20px;
+    z-index: 99;
+    animation: hovertreemove 1.5s infinite ease-in-out;
+    -webkit-animation: hovertreemove 1.5s infinite ease-in-out;
+    background-image:url(http://hovertree.com/texiao/css3/29/hovertreeup.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+@keyframes hovertreemove {
+    0% {
+        opacity: 0.1;
+        transform: translate3d(0,8px,0);
+    }
+    50% {
+        opacity: 1;
+        transform: translate3d(0,-8px,0);
+    }
+    100% {
+        opacity: 0.1;
+        transform: translate3d(0,-16px,0);
+    }
+}
+@-webkit-keyframes hovertreemove {
+    0% {
+        opacity: 0.1;
+        -webkit-transform: translate3d(0,8px,0);
+    }
+    50% {
+        opacity: 1;
+        -webkit-transform: translate3d(0,-8px,0);
+    }
+    100% {
+        opacity: 0.1;
+        -webkit-transform: translate3d(0,-16px,0);
+    }
+}
+
+
 #fourth-slide{
     background-color: #fff;
     font-size: 18%;
