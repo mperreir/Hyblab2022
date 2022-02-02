@@ -108,8 +108,8 @@ function AjoutDesCandidatsPourSelection(candidats) {
     }
 }
 
-function ToggleButton(button, img = [1, 2], callback = _ => {}) {
-    let state = false
+function ToggleButton(button, img = [1, 2], defaultState = false, callback = _ => {}) {
+    let state = defaultState
     button.addEventListener("click", _ => {
         state = !state
         button.innerHTML = `<img src="${img[state ? 1 : 0]}" />`
@@ -150,13 +150,13 @@ function start() {
     // Menu du haut pour les choix
     const CandidatSelection = document.getElementById("CandidatSelection")
     const ButtonShowCandidat = document.getElementById("ShowCandidat")
-    ToggleButton(ButtonShowCandidat, ["img/bouton_plus.svg", "img/bouton_moins.svg"], showed => {
+    ToggleButton(ButtonShowCandidat, ["img/bouton_plus.svg", "img/bouton_moins.svg"], false, showed => {
         CandidatSelection.className = showed ? "body" : "hidden"
     })
 
     const CourseSelection = document.getElementById("CourseSelection")
     const ButtonShowCourses = document.getElementById("ShowCourses")
-    ToggleButton(ButtonShowCourses, ["img/bouton_plus.svg", "img/bouton_moins.svg"], showed => {
+    ToggleButton(ButtonShowCourses, ["img/bouton_plus.svg", "img/bouton_moins.svg"], true, showed => {
         CourseSelection.className = showed ? "body" : "hidden"
     })
 
