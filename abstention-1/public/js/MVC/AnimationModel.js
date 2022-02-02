@@ -45,7 +45,7 @@ class AnimationModel extends Observable {
             ({ visibility }) => this.scroll >= visibility[0] && this.scroll <= visibility[1],
         )
 
-        if (this.currentActions !== []) {
+        if (this.currentActions.length !== 0) {
             this.setChanged();
         }
 

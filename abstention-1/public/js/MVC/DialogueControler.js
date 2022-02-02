@@ -38,9 +38,6 @@ class DialogueControler {
 
     }
 
-
-    
-
     loadNextModel() {
         if (this.nextModelIndex >= this.models.length) return;
 

@@ -20,8 +20,8 @@ let scenes = [
     new DialogueModel(dialogues[0].Texte,"M. Martin 51ans"),
     new DialogueModel(dialogues[1].Texte,"Arthur 17ans"),
     new DialogueModel(dialogues[2].Texte,"Nouvelle arrivante 24ans"),
-    new DialogueModel(dialogues[3].Texte,"M. le maire 46ans"),
-    new DialogueModel(dialogues[4].Texte,"Mme Robert 82ans"),
+    new DialogueModel(dialogues[3].Texte,"Mme Robert 82ans"),
+    new DialogueModel(dialogues[4].Texte,"M. le maire 46ans"),
     new DialogueModel(dialogues[5].Texte,"M. Martin 51ans"),
 ]
 
@@ -66,9 +66,6 @@ function getDialogueTransition(etape){
         }
     ]
 }
-
-
-
 
 
 function getAnimations() {
@@ -134,6 +131,21 @@ const animations = getAnimations().map(({container, actions}) => new AnimationMo
 let animationControler = new AnimationControler(animations);
 
 scenes.forEach((scene, i) => scene.linkAnimationModel(animations[i]));
+
+const AUDIO = new Audio("sound/SONS-ANIMATION.mp3");
+AUDIO.loop = true;
+
+window.addEventListener("scroll", () => {
+    const dialogue = document.getElementById("Dialogue");
+
+    if(dialogueControler.nextModelIndex > 0 && dialogue.style.opacity <= 0) {
+        AUDIO.play();
+        //TODO : transition smooth du son
+    }
+    else {
+        AUDIO.pause();
+    }
+})
 
 
 LottieInteractivity.create({
