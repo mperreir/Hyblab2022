@@ -110,10 +110,11 @@ body{
 /* so we cannot use % and use em (which are proportinal to the size of the */
 /* slide because of body's font size rule at the beginning of this CSS */
 #bandeau {
+    position: absolute;
+    bottom: 0;
     padding-top: 3%;
     width:100%;
-	height: 100%;
-    background-color: #C57EB3;
+    background-color: white;
     font-size: 20%;
   }
 
@@ -126,12 +127,6 @@ body{
 
   #bandeau img{
     height: 1.5em;
-  }
-
-  #bandeau #hyblab{
-    margin: 1em auto;
-    height: 3em;
-    display: block;
   }
 
   #bandeau #cc, #bandeau #opensource
