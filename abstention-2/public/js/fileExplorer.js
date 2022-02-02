@@ -1,8 +1,6 @@
 async function loadFileExplorer() {
-    selectedCity = 'nantes';
     selectedCityData = await fetchCityData(selectedCity);
-    const citiesRq = await fetch('api/cities/');
-    citiesMap = await citiesRq.json();
+    
     const metropoleRq = await fetch('api/metropole/');
     metropoleData = await metropoleRq.json();
     metropoleData = metropoleData[selectedCity];
