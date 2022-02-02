@@ -42,12 +42,9 @@ video {
     position: relative;
 }
 
-#top-section{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-top: 3vh;
-    margin-right: 4%;
+#exit {
+    padding-top: 10%;
+    margin-left: 85%;
 }
 
 #congrats{
@@ -72,10 +69,12 @@ video {
 
 #success{
     visibility: hidden;
+    width:100%;
 }
 
 #fail{
-    visibility: visible;
+    visibility: hidden;
+    width:100%;
 }
 
 #sentence{

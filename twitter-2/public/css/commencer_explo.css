@@ -29,17 +29,14 @@ body{
     text-align: center;
 }
 
-#top-section{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 5%;
-    margin-right: 4%;
+#return {
+    padding-top: 10%;
+    margin-left: 78%;
 }
 
 #illu {
     position:relative;
-    width: 35vh;
+    height:40vh;
     margin-bottom: 3%;
 }
 

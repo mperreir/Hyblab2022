@@ -28,13 +28,9 @@ body{
     overflow: hidden;
 }
 
-#top-section {
-    display: flex;
-    justify-content: space-between;
-    margin-right: 4%;
-    align-items: center;
-    height: 4vh;
-    padding-top: 3vh;
+#exit {
+    padding-top: 10%;
+    margin-left: 85%;
 }
 
 #testez_connaissances{

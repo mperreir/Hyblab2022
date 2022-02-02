@@ -23,13 +23,9 @@
 
 /* section du haut croix + numéro */
 
-#top-section{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 4vh;
-    margin-right: 4%;
-
+#exit {
+    padding-top: 4%;
+    margin-left: 85%;
 }
 
 
