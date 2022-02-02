@@ -405,8 +405,13 @@ header .routeDebut {
     text-align: center;
     font-size: 10px;
     font-style: italic;
-    margin-right: 10px;
     font-weight: 300;
+    width: 75px;
+}
+
+#race .candidat .name .nom {
+    display: block;
+    font-weight: 500;
 }
 
 #race .candidat .block {
@@ -425,9 +430,10 @@ header .routeDebut {
 
 #race .candidat .pourcent {
     color: #FFF;
-    margin: 0 10px;
     font-weight: 500;
     font-size: 15px;
+    width: 50px;
+    text-align: center;
 }
 
 #race #TimeInfo {

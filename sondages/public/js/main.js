@@ -8,9 +8,19 @@ function InitDesIntentions(intentionsCandidats) {
         const divCandidat = document.createElement('div');
         divCandidat.className = 'candidat';
 
+        const name = candidat.name.split(" ")
+        const prenom = name.shift()
+        const nom = name.join(" ")
+
         const divName = document.createElement('div');
         divName.className = 'name';
-        divName.innerText = candidat.name;
+        divName.innerText = prenom;
+
+        const divNom = document.createElement('div');
+        divNom.className = 'nom';
+        divNom.innerText = nom;
+
+        divName.appendChild(divNom)
 
         const divBlock = document.createElement('div');
         divBlock.className = 'block';
@@ -204,8 +214,14 @@ function start() {
                             pourcent = parseFloat(CANDIDATS[nom_candidat].y[index]).toFixed(1)
                         }
 
+
+                        const hauteur_regle = document.querySelector("#race .regle").clientHeight
+
+                        // hauteur_regle == 100% dans le cas actuel
+                        const position = pourcent / 30 * hauteur_regle
+
                         pourcent <= 15 && (CANDIDATS[nom_candidat].div.style.top = "-500px")
-                        pourcent > 15 && (CANDIDATS[nom_candidat].div.style.top = "calc( 13vh + " + pourcent + "%" + " ) ")
+                        pourcent > 15 && (CANDIDATS[nom_candidat].div.style.top = "calc( 12.5vh + " + position + "px" + " ) ")
 
                         CANDIDATS[nom_candidat].div.querySelector(".pourcent").innerText = pourcent + ' %';
                     })
