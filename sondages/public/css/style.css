@@ -330,7 +330,7 @@ header .routeDebut {
     z-index: 50;
 }
 
-#race #grid {
+#race .regle {
     position: absolute;
     top: 12.5vh;
     left: 0;
@@ -343,14 +343,14 @@ header .routeDebut {
     height: 70vh;
 }
 
-#race #grid .line {
+#race .regle .line {
     position: relative;
     width: 100%;
     height: 1px;
     border-bottom: 0.4vh dashed #2e3845;
 }
 
-#race #grid .line .number {
+#race .regle .line .number {
     position: absolute;
     right: -55px;
     top: -7.5px;
@@ -362,7 +362,7 @@ header .routeDebut {
     font-style: italic;
 }
 
-#race #grid .mark {
+#race .regle .mark {
     display: block;
     margin-right: -15px;
     width: 15px;
@@ -371,7 +371,7 @@ header .routeDebut {
     background: #2e3845;
 }
 
-#race #grid .mark:nth-child(5n + 1) {
+#race .regle .mark:nth-child(5n + 1) {
     margin-right: -25px;
     width: 25px;
 }
