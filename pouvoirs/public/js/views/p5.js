@@ -1,7 +1,7 @@
 "use strict";
 let released = false;
-let isClickable = false;
 const init_p5 = function(){
+    swiper.disable();
     const ringtone = createAudio("data/sounds/marimba.mp3",true,1,0.7);
     const phoneButton = document.querySelector(".phoneButton");
     const nameContainer = document.createElement("div");
@@ -19,26 +19,12 @@ const init_p5 = function(){
     callingAnimation.play();
     ringtone.play();
     
-    phoneButton.addEventListener("click", () => pickUp(ringtone,callingAnimation,nameContainer));
-
-    animationsContainer.addEventListener("click",() => {
-        const prisonGridUp = switchingAnimation();
-        const prisonGridUpSound = createAudio("data/sounds/good_choice.mp3");
-        if (!released && isClickable) {
-            animationsContainer.removeChild(document.querySelector("#animationsContainer img"));
-            prisonGridUpSound.play();
-            prisonGridUp.play();
-/*             shakeElement(dialogBox);
-            const textContainer= dialogBox.querySelector("p");
-            textContainer.innerHTML = "Vous venez d'invoquer le pouvoir de grâce présidentielle ! <br><br> (<b>Article 17</b> de la Constitution)"
-            textContainer.style.bottom = "50%";
-            textContainer.style.textAlign = "center"; */
-            released = true;
-        }
-    })
+    phoneButton.addEventListener("click", () => pickUp(ringtone,callingAnimation,nameContainer), { once: true });
 }
+
 const pickUp = function(ringtone,callingAnimation,nameContainer,dialogBox) {
-    document.querySelector(".phoneButton").remove();
+    const phoneButton = document.querySelector(".phoneButton");
+    phoneButton.remove();
     ringtone.pause();
     ringtone.unload();
     callingAnimation.destroy();
@@ -46,18 +32,30 @@ const pickUp = function(ringtone,callingAnimation,nameContainer,dialogBox) {
     const prisonGridDownSound = createAudio("data/sounds/prisonGridDown.mp3",false,0.7,0.5);
     const prisonGridDown = createAnimation("animationsContainer","data/animations/prisonGridDown.json",false,0.7,0.7);
     document.querySelector("#nameContainer").remove();
-    setTimeout(() => showDialogBoxes(), 1500);    
+    setTimeout(() => showDialogBoxes(), 2500);    
     prisonGridDown.play();         
     prisonGridDownSound.play();
     prisonGridDown.addEventListener('complete', () => {
         prisonGridDownSound.unload();
-        isClickable = true;
-        showTitle("p5");    
+        showTitle("p5");
     });
+};
+const release = function() {
+    const prisonGridUp = switchingAnimation();  
+    const prisonGridUpSound = createAudio("data/sounds/good_choice.mp3");
+    if (!released) {
+        document.querySelector("#animationsContainer img").remove();
+        prisonGridUpSound.play();
+        prisonGridUp.play();
+        released = true;
+        setTimeout(() => showNoteBox(), 4000);
+    }
 };
 const switchingAnimation = function() {
     animationsContainer.removeChild(document.querySelector("#animationsContainer svg"));
+    console.log(document.querySelector("#animationsContainer"));
     const prisonGridUp = createAnimation("animationsContainer","data/animations/prisonGridUp.json",false);
+    console.log(document.querySelector("#animationsContainer"));
     return prisonGridUp;
 };
 const displayHelp = function(){
@@ -144,8 +142,8 @@ const showDialogBoxes = function() {
     },3000);
 
     setTimeout(() => {
-        dialogBox1.remove();
-        dialogBox2.remove();
+        deleteDialogBox("1");
+        deleteDialogBox("2");
         const dialogBox3 = createDialogBox(3,"img/dialogBoxes/P5_BULLE_SMALL_MOUA.svg",{x:110,y:60},"p5-moua");
         displayHelp();
         anime({
@@ -179,11 +177,41 @@ const showDialogBoxes = function() {
              });
         },3000);      
     },10000);
+    animationsContainer.addEventListener("click",() => release(), { once: true });  
     phoneCallSound.unload();
 }
+const showNoteBox = function() {
+    deleteDialogBox("3");
+    deleteDialogBox("4");
+    const hintNote = document.querySelector('#p5 #note p');
+    hintNote.textContent = getText("p5-note");
+    anime({
+        targets: document.querySelector('#p5 #note'),
+        opacity: 1,
+        loop: false,
+        easing: 'easeInOutCubic'
+    })    
+    //const noteBox = createDialogBox(5,"img/dialogBoxes/P6_BIG_NOTE.svg",{x:12,y:60},"p5-note");
+    setTimeout(() => {
+        swiper.enable();
+        showArrow();
+    }, 3000);
+}
+
 const shakeElement = function(elt){
     elt.classList.add("apply-shake");
     setTimeout(() =>{
         elt.classList.remove("apply-shake");
     },500);
+}
+
+const deleteDialogBox = function(id) {
+    const dBox = document.querySelector("#p5 #box" + id);
+    anime({
+        targets: dBox,
+        opacity: 0,
+        loop: false,
+        easing: 'easeInOutCubic'
+    });
+    dBox.remove();
 }
