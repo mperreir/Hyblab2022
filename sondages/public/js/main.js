@@ -1,9 +1,10 @@
-let CANDIDATS = []
-
 function InitDesIntentions(intentionsCandidats) {
-    const divRace = document.getElementById('race');
-    CANDIDATS = intentionsCandidats;
-    intentionsCandidats.map(candidat => {
+    const divRace = document.getElementById('race')
+
+    const candidats = {}
+
+    intentionsCandidats.forEach(candidat => {
+
         const divCandidat = document.createElement('div');
         divCandidat.setAttribute('style', 'margin-left:-75px;');
         divCandidat.className = 'candidat';
@@ -31,12 +32,17 @@ function InitDesIntentions(intentionsCandidats) {
 
         divRace.appendChild(divCandidat);
 
-    });
+        candidats[candidat.name] = candidat
+        candidats[candidat.name].div = divCandidat
+
+    })
+
+    return candidats
 }
 
-function AjoutDesCandidats(candidats) {
+function AjoutDesCandidatsPourSelection(candidats) {
 
-    const CandidatSelection = document.body.querySelector("#CandidatSelection")
+    const CandidatSelection = document.getElementById('CandidatSelection')
 
     for (const candidat of candidats) {
 
@@ -132,19 +138,17 @@ function start() {
 
 
 
-
-
-
     // Chargement des données
     getCandidats().then(candidats => {
 
         console.info("Candidats chargés !")
-        AjoutDesCandidats(candidats)
+        AjoutDesCandidatsPourSelection(candidats)
 
         getSondages().then(sondages => {
 
             console.info("Données de sondage chargés !")
-            InitDesIntentions(sondages)
+            const CANDIDATS = InitDesIntentions(sondages)
+            const CANDIDATS_KEYS = Object.keys(CANDIDATS)
 
             // Calcul de l'hauteur de la page
             const NBR_JOUR = 360 // On affiche 360 jours de course
@@ -157,16 +161,21 @@ function start() {
 
             function scrollPosition() {
 
+                // On récupère la position du block #animation par rapport à l'écran
                 const animation_rect = animation.getBoundingClientRect()
 
+                // Pour stick la div #race a l'écran
                 const not_seeing_bottom = (animation_rect.bottom - window.innerHeight) >= 0
 
+                // Récupération de l'index du jour en fonction du scroll + la taille de la fenetre
                 const hauteur = -animation_rect.top + (window.innerHeight)
-
                 let indexJour = Math.ceil(hauteur / PIXEL_PAR_JOUR) + PADDING_POUR_DERNIER_JOUR
 
+                // On s'assure que l'index du jour est compris entre la borne 0 et le nombre max de jour
                 indexJour = indexJour <= 0 ? 0 : (indexJour > NBR_JOUR ? NBR_JOUR : indexJour)
 
+
+                // Permet de stick la div #race à l'écran
                 if (animation_rect.top <= 0 && not_seeing_bottom) {
                     setWhileScrolling()
                 } else if (animation_rect.top > 0 && not_seeing_bottom) {
@@ -176,31 +185,37 @@ function start() {
                 }
 
 
-                // On met a jour si on change de jour
+                // On met a jour l'affichage si on change de jour #PerformanceOpti
                 if (indexJour > 0 && INDEX_PREV != indexJour) {
+
                     INDEX_PREV = indexJour
 
+                    // Récupération du jour en fonction du scroll
                     const currDate = GetScrollDate(indexJour, NBR_JOUR);
-                    const t_date = new Date(currDate)
 
+                    // On met a jour la progress bar
                     TimeInfoProgress.style.width = (indexJour / NBR_JOUR * 100) + "%";
-                    TimeInfoDate.innerHTML = t_date.toLocaleDateString("fr")
 
-                    CANDIDATS.map(candidat => {
-                        let index = candidat.x.indexOf(currDate);
+                    // On change la date
+                    TimeInfoDate.innerHTML = new Date(currDate).toLocaleDateString("fr")
+
+                    // On change la position des candidats
+                    CANDIDATS_KEYS.map(nom_candidat => {
+                        const index = CANDIDATS[nom_candidat].x.indexOf(currDate);
                         if (index >= 0) {
-                            const divPourcent = document.querySelector(`div[data-name='${candidat.name}'] div[class='pourcent']`);
-                            divPourcent.innerText = parseFloat(candidat.y[index]).toFixed(1) + ' %';
+                            const divPourcent = document.querySelector(`div[data-name='${nom_candidat}'] div[class='pourcent']`);
+                            divPourcent.innerText = parseFloat(CANDIDATS[nom_candidat].y[index]).toFixed(1) + ' %';
                         }
-                    });
+                    })
                 }
             }
 
+            // On initialise tout a 0
             scrollPosition()
 
+            // Ajout les évents listeners nécéssaires
             startTheRace.addEventListener("click", scrollToRace)
             document.addEventListener("scroll", scrollPosition)
-
 
         })
 
