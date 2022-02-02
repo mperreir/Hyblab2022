@@ -41,7 +41,7 @@ function bonneVersion(name){
 	switch (name){
 		case 'magnum':
 			return "Un Magnum De Cointreau"
-		case 'boule':
+		case 'boules_de_fort':
 			return "BouLes De Fort Gagnantes"
 		case 'oie':
 			return "L\'oie Aux Œufs D'or"

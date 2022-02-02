@@ -57,6 +57,8 @@ reponse1.addEventListener('click', () => {
 	{
 		localStorage.setItem("vies_joueur",(parseInt(localStorage.getItem("vies_joueur"))+1).toString());
 	}
+
+	console.log(parseInt(localStorage.getItem("vies_joueur")) === 0);
 	if(parseInt(localStorage.getItem("vies_joueur")) === 0)
 	{
 		window.location.href = 'anjoute-fini-question.html';
@@ -81,6 +83,8 @@ reponse2.addEventListener('click', () => {
 	{
 		localStorage.setItem("vies_joueur",(parseInt(localStorage.getItem("vies_joueur"))+1).toString());
 	}
+
+	console.log(parseInt(localStorage.getItem("vies_joueur")) === 0);
 	if(parseInt(localStorage.getItem("vies_joueur")) === 0)
 	{
 		window.location.href = 'anjoute-fini-question.html';
