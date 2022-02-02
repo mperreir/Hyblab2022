@@ -1,4 +1,4 @@
-class ModelDialogue extends Observable {
+class DialogueModel extends Observable {
     constructor(scene,perso1,perso2,description){
         super();
         this.scene=scene;

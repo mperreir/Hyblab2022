@@ -1,6 +1,22 @@
 const ANIMATIONS = {
     ordre : ["ecole1", "foraine", "camion", "theatre", "mairie", "ecole2"],
     animations : {
+        sujet: {
+            scroll: {
+                [0]: new AnimationFrame()
+                    .addProperty(new Transform().translate(0,0))
+                    .addProperty(new Opacity(1)),
+                [1]: new AnimationFrame()
+                    .addProperty(new Transform().translate(0,-100))
+                    .addProperty(new Opacity(0)),
+            },
+            hide: {
+                [0]: new AnimationFrame()
+                    .addProperty(new Display("none")),
+                [1]: new AnimationFrame()
+                    .addProperty(new Display("none")),
+            }
+        },
         ecole1: {
             perso1 : {
                 in : {

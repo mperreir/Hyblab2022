@@ -1,5 +1,5 @@
 
-class View {
+class DialogueView {
 
     constructor(){
     
