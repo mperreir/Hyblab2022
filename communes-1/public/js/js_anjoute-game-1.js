@@ -87,9 +87,7 @@ localStorage.setItem("objetGagner", bonneVersion(objet));
 let reponse1 = document.querySelector(".reponse1");
 let reponse2 = document.querySelector(".reponse2");
 reponse1.addEventListener('click', () => {
-	localStorage.setItem("question",(nb+1).toString());
 	localStorage.setItem("enemies",JSON.stringify(enemies));
-	localStorage.setItem("position_joueur",(parseInt(localStorage.getItem("position_joueur"))+1).toString());
 	if(question_data[1][1])
 	{
 		let inventaire = localStorage.getItem("inventaire");
@@ -99,6 +97,8 @@ reponse1.addEventListener('click', () => {
 			inventaire = inventaire.split(',');
 		}
 		inventaire.push(objet);
+		localStorage.setItem("question",(nb+1).toString());
+		localStorage.setItem("position_joueur",(parseInt(localStorage.getItem("position_joueur"))+1).toString());
 		localStorage.setItem("inventaire",inventaire);
 		let object = generateObject();
 		localStorage.setItem("currentItem",object);
@@ -107,13 +107,12 @@ reponse1.addEventListener('click', () => {
 	else {
 		let object = generateObject();
 		localStorage.setItem("currentItem",object);
+		localStorage.setItem("vies_joueur",(parseInt(localStorage.getItem("vies_joueur"))-1).toString());
 		window.location.href = 'anjoute-erreur-question.html';
 	}
 });
 reponse2.addEventListener('click', () => {
-	localStorage.setItem("question",(nb+1).toString());
 	localStorage.setItem("enemies",JSON.stringify(enemies));
-	localStorage.setItem("position_joueur",(parseInt(localStorage.getItem("position_joueur"))+1).toString());
 	if(question_data[2][1])
 	{
 		let inventaire = localStorage.getItem("inventaire");
@@ -126,11 +125,14 @@ reponse2.addEventListener('click', () => {
 		localStorage.setItem("inventaire",inventaire);
 		let object = generateObject();
 		localStorage.setItem("currentItem",object);
+		localStorage.setItem("question",(nb+1).toString());
+		localStorage.setItem("position_joueur",(parseInt(localStorage.getItem("position_joueur"))+1).toString());
 		window.location.href = 'anjoute-joute-win.html';
 	}
 	else {
 		let object = generateObject();
 		localStorage.setItem("currentItem",object);
+		localStorage.setItem("vies_joueur",(parseInt(localStorage.getItem("vies_joueur"))-1).toString());
 		window.location.href = 'anjoute-erreur-question.html';
 	}
 });
