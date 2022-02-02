@@ -56,12 +56,13 @@ async function Suivant(temps,score,total) {
     div.style.left = "5%";
     div.style.width = "75%";
     div.style.minHeight = "100px";
+    div.style.maxHeight = "35%";
     div.style.marginLeft = "7%";
     div.style.overflow = "hidden";
     div.style.background="none";
     div.style.marginTop = "5%";
     div.style.padding = "5px";
-    div.style.fontSize = "100%";
+    div.style.fontSize = "90%";
     div.style.display = "flex";
     div.style.justifyContent = "center";
     div.style.alignItems = "center";
