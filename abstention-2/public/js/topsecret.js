@@ -13,7 +13,7 @@ const codeAnswer = [2,0,4,6];
 function autotab(original,destination,index){
   inputCode[index] = original.value;
   if (inputCode.equals(codeAnswer)){
-    loadAnswers();
+    loadAnswer();
   }
   if (original.getAttribute&&original.value.length==original.getAttribute("maxlength")){
     destination.focus();
