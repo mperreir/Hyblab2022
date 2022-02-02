@@ -3,6 +3,8 @@ import {FactoryQuestion} from "./question.js";
 
 const loader = document.querySelector('.loader');
 
+let ma_commune = localStorage.getItem('commune_name');
+
 let chemins = document.referrer.split('/');
 
 if (chemins[chemins.length-1] != 'anjoute-inventaire.html') {
@@ -36,6 +38,8 @@ function toLowerMdr(nom)
 
 
 const question = document.querySelector('.question');
+const commune_enemy_deux = document.querySelector('.commune_2');
+commune_enemy_deux.textContent = toLowerMdr(ma_commune);
 const reponse_1 = document.querySelector('.reponse_1');
 const reponse_2 = document.querySelector('.reponse_2');
 let reponse1 = document.querySelector(".reponse1");
