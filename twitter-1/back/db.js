@@ -7,6 +7,13 @@ const path = require('path');
 const db_sileco = new Database("twitter-1/back/db/database.json");
 const textProcessing = require(path.join(__dirname, '/../back/textProcessing'));
 
+const DB_KEY_TWEETS = "tweets";
+const DB_KEY_CANDIDATS = "candidats";
+const DB_KEY_THEMES = "themes";
+const DB_KEY_FOLLOWERS = "candidat_followers";
+const DB_KEY_CONFIG = "config";
+
+
 // adapteur pour optimiser les accès disques
 class DbAdapter {
     constructor(db) {
@@ -25,6 +32,8 @@ class DbAdapter {
 }
 
 const db = new DbAdapter(db_sileco);
+if (Object.keys(db.data).length === 0)
+    initDb();
 
 // https://weeknumber.com/how-to/javascript
 // Returns the ISO week of the date.
@@ -110,11 +119,11 @@ Date.prototype.isBetweenWeekBefore = function(date)
 };
 
 module.exports = db;
-module.exports.tweets_name = "tweets";
-module.exports.candidats_name = "candidats";
-module.exports.themes_name = "themes";
-module.exports.candidat_followers_name = "candidat_followers";
-module.exports.config_name = "config";
+module.exports.tweets_name = DB_KEY_TWEETS;
+module.exports.candidats_name = DB_KEY_CANDIDATS;
+module.exports.themes_name = DB_KEY_THEMES;
+module.exports.candidat_followers_name = DB_KEY_FOLLOWERS;
+module.exports.config_name = DB_KEY_CONFIG;
 
 module.exports.getTweetsSemaine = () => {
     return module.exports.getTweets()
@@ -123,17 +132,17 @@ module.exports.getTweetsSemaine = () => {
 
 module.exports.getTweets = () => {
     let candidats_id = module.exports.getCandidats().map(c => parseInt(c.id));
-    return db.fetch(module.exports.tweets_name).filter((tweet) => candidats_id.includes(parseInt(tweet.user_id)));
+    return db.fetch(DB_KEY_TWEETS).filter((tweet) => candidats_id.includes(parseInt(tweet.user_id)));
 }
 
 module.exports.getCandidats = () => {
-    const followers = db.fetch(module.exports.candidat_followers_name);
+    const followers = db.fetch(DB_KEY_FOLLOWERS);
     // const followers_date = followers.map(candidat =>
     //     Object.entries(candidat)
     //     .map(([key, value]) => {new Date(key)})
     //     .sort((date1, date2) => date1 - date2));
 
-    return db.fetch(module.exports.candidats_name)
+    return db.fetch(DB_KEY_CANDIDATS)
         .sort((a, b) => {
             // const b_followers_date = followers_date[b.id];
             // const a_followers_date = followers_date[a.id]
@@ -162,40 +171,6 @@ module.exports.getCandidats = () => {
 //     db.set(module.exports.candidat_followers_name, older_followers);
 //     db.set(module.exports.candidats_name, candidats);
 // });
-//
-// // INIT Themes
-db.set(module.exports.themes_name, [
-    {
-        id: 1,
-        name: "Sécurité",
-        keywords: "commissariat securite immigration police policiers paix violence manifestation voleurs balle lachrymo arme defence drogue trafiquant",
-    },
-    {
-        id: 2,
-        name: "Sante",
-        keywords: "passvacinal covid19 covid hopitaux vaccin lit cancer santé medecin malade sanitaire traitement médicament vaccination EHPAD",
-    },
-    {
-        id: 3,
-        name: "Economie",
-        keywords: "retraite précarité syndiqué economie salaire emplois relocalisation localisation entreprise startup start-up finaces argent budget euro bercy compte métallurgie € essence cher taxe travail 40 45 35 pauvres chômeurs déficit subvention",
-    },
-    {
-        id: 4,
-        name: "Education",
-        keywords: "enfant établissement élèves étudiants education ecole lycee universitee classe cours professeurs cantine cartable atsem pedagogie blanquer",
-    },
-    {
-        id: 5,
-        name: "Environnement",
-        keywords: "énergétique énergie environnementaux environnement durable vert pollution recyclage trie arbre nucléaire petrole énergie electricité écologie",
-    },
-    {
-        id: 6,
-        name: "Culture",
-        keywords: "music musique vaccances bal culture musique film cinema livre libraire concert festival dedicace album auteur acteur musicien symphonique LGBTQI+",
-    }
-]);
 
 // // INIT Tweets
 // const labeler = new textProcessing.Labeler(db.fetch(module.exports.themes_name));
@@ -208,12 +183,12 @@ db.set(module.exports.themes_name, [
 // });
 
 module.exports.tweets_update = (file, onFinish) => {
-    const labeler = new textProcessing.Labeler(db.fetch(module.exports.themes_name));
+    const labeler = new textProcessing.Labeler(db.fetch(DB_KEY_THEMES));
     textProcessing.Parser.getValuesFromCSVString(file, ts  => {
         // let older_tweets = db.fetch(module.exports.tweets_name);
         // if (older_tweets === null) older_tweets = [];
         ts = labeler.labellingTweets(ts);//.concat(older_tweets);
-        db.set(module.exports.tweets_name, ts);
+        db.set(DB_KEY_TWEETS, ts);
         onFinish();
     });
 }
@@ -222,14 +197,14 @@ module.exports.candidats_update = (file, onFinish) => {
     file = file.replace('﻿', '');
     textProcessing.Parser.getValuesFromCSVString(file, candidats  => {
 
-        db.set(module.exports.candidats_name, candidats);
+        db.set(DB_KEY_CANDIDATS, candidats);
 
         onFinish();
     });
 }
 
 module.exports.config_update = (config) => {
-    db.set(module.exports.config_name, config);
+    db.set(DB_KEY_CONFIG, config);
 }
 
 module.exports.followers_update = (file, onFinish) => {
@@ -237,7 +212,7 @@ module.exports.followers_update = (file, onFinish) => {
         // let older_tweets = db.fetch(module.exports.tweets_name);
         // if (older_tweets === null) older_tweets = [];
         const candidats = {}
-        db.fetch(module.exports.candidats_name)
+        db.fetch(DB_KEY_CANDIDATS)
             .forEach(candidat => candidats[candidat.username] = candidat.id);
         let followers = {}
 
@@ -260,56 +235,97 @@ module.exports.followers_update = (file, onFinish) => {
         //     }
         //     older_followers[candidat.id][date_string] = candidat.followers;
         // });
-        db.set(module.exports.candidat_followers_name, followers);
+        db.set(DB_KEY_FOLLOWERS, followers);
         // db.set(module.exports.candidats_name, candidats);
 
         onFinish();
     });
 }
 
-autoFetchData();
+async function initDb() {
+    // INIT Themes
+    db.set(DB_KEY_THEMES, [
+        {
+            id: 1,
+            name: "Sécurité",
+            keywords: "commissariat securite immigration police policiers paix violence manifestation voleurs balle lachrymo arme defence drogue trafiquant mort violence violente guerre",
+        },
+        {
+            id: 2,
+            name: "Sante",
+            keywords: "passvacinal covid19 covid hopitaux vaccin lit cancer santé medecin malade sanitaire traitement médicament vaccination EHPAD",
+        },
+        {
+            id: 3,
+            name: "Economie",
+            keywords: "retraite précarité syndiqué economie salaire emplois relocalisation localisation entreprise startup start-up finaces argent budget euro bercy compte métallurgie € essence cher taxe travail 40 45 35 pauvres chômeurs déficit subvention",
+        },
+        {
+            id: 4,
+            name: "Education",
+            keywords: "enfant établissement élèves étudiants education ecole lycee universitee classe cours professeurs cantine cartable atsem pedagogie blanquer",
+        },
+        {
+            id: 5,
+            name: "Environnement",
+            keywords: "énergétique énergie environnementaux environnement durable vert pollution recyclage trie arbre nucléaire petrole énergie electricité écologie",
+        },
+        {
+            id: 6,
+            name: "Culture",
+            keywords: "music musique vaccances bal culture musique film cinema livre libraire concert festival dedicace album auteur acteur musicien symphonique LGBTQI+",
+        }
+    ]);
+
+    await fetchData(false);
+}
 
 async function autoFetchData() {
     while (true) {
         await new Promise(resolve => setTimeout(resolve, 60000));
-
-        try {
-            let config = db.fetch(module.exports.config_name);
-            if (config === undefined) {
-                config = {
-                    fetch_delay_sec: 60*60*6,
-                    url_fetch_candidats: "https://cdn-apps.letelegramme.fr/twitter/candidats_information_filtre.csv",
-                    url_fetch_followers: "https://cdn-apps.letelegramme.fr/twitter/nb_followers_par_candidat_et_par_jour.csv",
-                    url_fetch_tweets: "https://cdn-apps.letelegramme.fr/twitter/tweets_candidats.csv",
-                }
-            }
-            await new Promise(resolve => setTimeout(resolve, parseInt(config.fetch_delay_sec)*1000));
-
-            try {
-                const candidats_csv = await (await fetch(config.url_fetch_candidats)).text();
-                module.exports.candidats_update(candidats_csv, async () => {
-                    console.log("Auto update db candidat done !");
-                });
-            }catch (e) {}
-
-            try {
-                const followers_csv = await (await fetch(config.url_fetch_followers)).text();
-                module.exports.followers_update(followers_csv, async () => {
-                    console.log("Auto update db followers done !");
-                });
-            }catch (e) {}
-
-            try {
-                const tweets_csv = await (await fetch(config.url_fetch_tweets)).text();
-                module.exports.tweets_update(tweets_csv, () => {
-                    console.log("Auto update db tweets done !");
-                });
-            }catch (e) {}
-
-        } catch (e) {
-            console.error(e);
-        }
+        await fetchData(true);
         // await new Promise(resolve => setTimeout(resolve, 600000));
-
     }
 }
+
+async function fetchData(wait_fetch_delay = true) {
+    try {
+        let config = db.fetch(DB_KEY_CONFIG);
+        if (config === undefined) {
+            config = {
+                fetch_delay_sec: 60*60*6,
+                url_fetch_candidats: "https://cdn-apps.letelegramme.fr/twitter/candidats_information_filtre.csv",
+                url_fetch_followers: "https://cdn-apps.letelegramme.fr/twitter/nb_followers_par_candidat_et_par_jour.csv",
+                url_fetch_tweets: "https://cdn-apps.letelegramme.fr/twitter/tweets_candidats.csv",
+            }
+        }
+        if (wait_fetch_delay)
+            await new Promise(resolve => setTimeout(resolve, parseInt(config.fetch_delay_sec)*1000));
+
+        try {
+            const candidats_csv = await (await fetch(config.url_fetch_candidats)).text();
+            module.exports.candidats_update(candidats_csv, async () => {
+                console.log("Auto update db candidat done !");
+            });
+        }catch (e) {}
+
+        try {
+            const followers_csv = await (await fetch(config.url_fetch_followers)).text();
+            module.exports.followers_update(followers_csv, async () => {
+                console.log("Auto update db followers done !");
+            });
+        }catch (e) {}
+
+        try {
+            const tweets_csv = await (await fetch(config.url_fetch_tweets)).text();
+            module.exports.tweets_update(tweets_csv, () => {
+                console.log("Auto update db tweets done !");
+            });
+        }catch (e) {}
+
+    } catch (e) {
+        console.error(e);
+    }
+}
+
+autoFetchData();

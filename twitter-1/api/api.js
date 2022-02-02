@@ -90,25 +90,24 @@ module.exports = (passport) => {
 
     app.get('/theme/count/all', (req, res) =>{
         let listCount = [];
-        let listCandidates = db.getCandidats();
-        let arrayTweets = db.getTweetsSemaine();
+        const listCandidates = db.getCandidats();
+        const arrayTweets = db.getTweetsSemaine();
         listCandidates.forEach((candidat) => {
-            let newCount = Object();
-            newCount.nameCandidates = candidat.name;
+            let newCount = Object()
+            newCount.nameCandidates = candidat.name
             let result = arrayTweets.filter(arrayTweets => arrayTweets.user_id === candidat.id);
             newCount.nbTweetsByThemes = result.length;
             listCount.push(newCount);
         })
-        listCount.sort((a, b) => b.nbTweetsByThemes - a.nbTweetsByThemes);
+        listCount = listCount.sort((a, b) => b.nbTweetsByThemes - a.nbTweetsByThemes);
         let result = listCount.slice(0,3);
-        console.log(result)
         res.json(result);
     });
 
     app.get('/theme/count/:theme_id',(req, res) =>{
         let listCount = [];
         const listCandidates = db.getCandidats();
-        const arrayTweets = db.getTweetsSemaine()
+        const arrayTweets = db.getTweetsSemaine();
 
         listCandidates.forEach((candidat) => {
             let newCount = Object()
@@ -119,9 +118,8 @@ module.exports = (passport) => {
             newCount.nbTweetsByThemes = result.length;
             listCount.push(newCount);
         })
-        listCount = listCount.sort((a, b) => a.nbTweetsByThemes - b.nbTweetsByThemes);
+        listCount = listCount.sort((a, b) => b.nbTweetsByThemes - a.nbTweetsByThemes);
         let result = listCount.slice(0,3);
-        console.log(result)
         res.json(result);
     });
 
