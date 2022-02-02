@@ -3,35 +3,37 @@
 
 
 /* Normalize margin and padding to ease elements positioning */
-*{
-    padding:0;
-    margin:0;
+* {
+    padding: 0;
+    margin: 0;
 }
 
 @font-face {
     font-family: 'blatantregular';
     src: url('../font/blatant-webfont.woff') format('woff'),
-         url('../font/blatant-webfont.woff2') format('woff2');
+        url('../font/blatant-webfont.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 
 }
 
-body{
+body {
     background-color: black;
     color: white;
-    overflow: hidden;   /* to avoid slider bugs on some browsers */
+    overflow: hidden;
+    /* to avoid slider bugs on some browsers */
     font-family: 'blatantregular';
 }
 
-#container{
-    position: relative; /* for absolute positionning of child elements*/
+#container {
+    position: relative;
+    /* for absolute positionning of child elements*/
 }
 
 /* Swiper slider. Need to fill the 9:16 constrained container */
-#mySwiper{
+#mySwiper {
     width: 100%;
-    height:100%;
+    height: 100%;
     position: absolute;
 }
 
@@ -85,7 +87,7 @@ body{
 
 
 /* Footer of last slide is at the bottom and content is centered */
-#first-slide footer{
+#first-slide footer {
     bottom: 5%;
     font-size: 2.5vh;
     text-align: center;
@@ -142,46 +144,7 @@ body{
     height: 100vh;
 }
 
-#logo-hyblab{
-    text-align: center;
-    width: 50%;
-    left: 50%;
-    top: 50%;
-    margin-left:-25%;
-    margin-top:calc(-7.5% * 9 / 16 ); /* margins are relative to the element width... :-( */
-    position: absolute;
-    font-size: 50%;
-    z-index: 2;
-    cursor: pointer;
-}
 
-#credits {
-    margin-top: 40%;
-    font-size: 20px;
-    text-align: center;
-}
-
-#credits ul {
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
-    list-style-type: none;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-#credits ul li {
-    margin-bottom: 15%;
-}
-
-.prenom {
-    font-weight: bold;
-}
-
-.nom {
-    font-size: 17px;
-    color: #5571E5;
-}
 
 
 /* ---------- Positionning of logos on the last slide ----------------- */
@@ -189,80 +152,79 @@ body{
 /* so we cannot use % and use em (which are proportinal to the size of the */
 /* slide because of body's font size rule at the beginning of this CSS */
 #bandeau {
-    padding-bottom: 3%;
-    width:100%;
-    height:25%;
-    position: relative;
-    top: 0;
-    background-color: white;
-    font-size: 20%;
-  }
+    display: grid;
+    width: 100%;
+    height: 35%;
+    margin-top: 3%;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(4, 35%);
+}
 
-  #bandeau li{
-    list-style-type: none;
-    vertical-align: middle;
-    margin: 0 0.5em;
-    margin-bottom: 10%;
-  }
-
-  #bandeau img{
-    height: 2.5em;
-  }
-
-  #bandeau #hyblab{
-    margin: 1em auto;
-    height: 3em;
-    display: block;
-  }
-
-  #bandeau .stacked{
-    display:block;
-  }
-
-  #bandeau ul{
+#bandeau div {
     text-align: center;
-    padding: 0 0;
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
-  }
+    justify-content: center;
+    align-items: center;
+}
 
-  #bandeau .institutionnel
-  {
-    height: 2em;
-  }
+#bandeau img {
+    height: 50%;
+}
 
-  #logos-op-cc {
-      position: absolute;
-      bottom: 5%;
-      left: 35%;
-  }
+#bandeau #hyblab {
+    grid-area: 1 / 1 / 2 / 3;
+    text-align: center;
+}
 
-  #logos-op-cc img {
-    height: 0.5em;
-  }
+#credits{
+    margin-top: 40%;
+    display: grid;
+    height:35%;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(3, 35%);
+}
 
-  #logos-op-cc li {
-      display: inline-block;
-  }
+#credits div{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
 
-  @media screen and (max-aspect-ratio: 9/16){
-    #container{
+.prenom {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.nom {
+    font-size: 1rem;
+    color: #5571E5;
+}
+
+#logos-op-cc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -3%;
+}
+
+
+
+@media screen and (max-aspect-ratio: 9/16) {
+    #container {
         width: 100vw;
         height: 100vh;
     }
 
     /* We set a default font size here. It will be the base for all other font sizes */
     /* Here the font size is proportional to display width */
-    body{
+    body {
         font-size: calc(12vw*9/16);
     }
 }
 
 /* This media query ensures that we allways will the height of the screen */
 /* as long as the screen aspect ratio is higher than 9:16 */
-@media screen and (min-aspect-ratio: 9/16){
-    #container{
+@media screen and (min-aspect-ratio: 9/16) {
+    #container {
         margin-left: calc((100vw - 100 * 9vh / 16) / 2);
         width: calc(100 * 9vh / 16);
         height: 100vh;
@@ -270,7 +232,7 @@ body{
 
     /* We set a default font size here. It will be the base for all other font sizes */
     /* Here the font size is proportional to display height */
-    body{
+    body {
         font-size: 12vh;
     }
 }

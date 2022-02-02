@@ -1,12 +1,13 @@
 <!doctype html>
 
 <html lang="fr">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
   <title>Hyblab 2022</title>
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/loadingio/loading.css@v2.0.0/dist/loading.css" />
   <link href="https://vjs.zencdn.net/7.6.6/video-js.css" rel="stylesheet" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
@@ -17,97 +18,118 @@
   <script src="js/slide3.js" defer></script>
   <script src="js/index.js" defer></script>
 </head>
+
 <body>
-    <!-- Le conteneur sert à vérouiller les proportions (aspect ratio) du contenu de la page (ici des slides) -->
-    <div id="container">
-      <div id="mySwiper" class="swiper">
-        <!-- le main est aussi le conteneur des différents slides (contenus à chaque fois dans des sections-->
-        <main class = "swiper-wrapper">
-            <section id="first-slide" class="swiper-slide">
-              <div id="imagesLogo">
-                <img src="img/illuPres.svg">
-                <img src="img/logoPolitiliens.svg" id="logo">
-              </div>
-              <p id="phrase-daccroche" style="margin-top: 10%;">Les opposés s'attirent-ils ?</p>
-              <!-- le footer sera rempli à partir de données lues dans un fichier Json-->
-              <footer>
-                <p>Découvrez les liens que Twitter révèle sur les candidats à la présidentielle.</p>
-                <div class="vector">
-                  <img src="img/vector.svg" id="vector1">
-                </div>
-              </footer>
-            </section>
+  <!-- Le conteneur sert à vérouiller les proportions (aspect ratio) du contenu de la page (ici des slides) -->
+  <div id="container">
+    <div id="mySwiper" class="swiper">
+      <!-- le main est aussi le conteneur des différents slides (contenus à chaque fois dans des sections-->
+      <main class="swiper-wrapper">
+        <section id="first-slide" class="swiper-slide">
+          <div id="imagesLogo">
+            <img src="img/illuPres.svg">
+            <img src="img/logoPolitiliens.svg" id="logo">
+          </div>
+          <p id="phrase-daccroche" style="margin-top: 10%;">Les opposés s'attirent-ils ?</p>
+          <!-- le footer sera rempli à partir de données lues dans un fichier Json-->
+          <footer>
+            <p>Découvrez les liens que Twitter révèle sur les candidats à la présidentielle.</p>
+            <div class="vector">
+              <img src="img/vector.svg" id="vector1">
+            </div>
+          </footer>
+        </section>
 
-            <section id="second-slide" class="swiper-slide">
-              <div id="illustration-slide-2">
-                <img src="img/illu-3 1.svg">
-              </div>
-              <div id="text-slide-2">
-                <p>Quels liens surprenants trouve-t-on entre les candidats à travers Twitter ?</p>
-                
-              </div>
-              <div>
-                <button class="button-slide-2" id="button-slide-2" type="button">JOUER</button>
-              </div>
-              <div>
-                <button class="button-slide-2" id="button-explorer" type="button">EXPLORER</button>
-              </div>
-          
-            </section>
+        <section id="second-slide" class="swiper-slide">
+          <div id="illustration-slide-2">
+            <img src="img/illu-3 1.svg">
+          </div>
+          <div id="text-slide-2">
+            <p>Quels liens surprenants trouve-t-on entre les candidats à travers Twitter ?</p>
 
-            <section id="fourth-slide" class="swiper-slide">
-                <div id="bandeau">
-                        <!-- Logo Hyblab -->
-                          <a href="http://www.hyblab.fr/"><img id="hyblab" src="logo_hyblab.png" alt="Hyblab DataSport"></a>
-                      
-                          <!-- Les organisateurs -->
-                          <ul>
-                            <li><a href="http://www.nantesmetropole.fr/"><img class="institutionnel" src="institutionnels/logo_nantesmetropole.png" alt="Nantes Métropole"></a></li>
-                            <li><a href="https://www.letelegramme.fr/"><img style="height: 1.5em" src="img/Logo_du_Télégramme.png" alt="Le Télégramme"></a></li>
-                            <li><a href="http://www.polytech.univ-nantes.fr/"><img src="ecoles/logo_polytech.png" alt="Polytech Nantes"></a></li>
-                            <li><a href="http://www.univ-nantes.fr/"><img src="ecoles/logo_nantesuniversite.png" alt="Université de Nantes"></a></li>
-                            <li><a href="http://www.ouestmedialab.fr/"><img src="logo_oml.png" alt="Ouest Médialab"></a></li>
-                            <li><a href="http://www.agrnantes.fr"><img src="ecoles/logo_agr.png" alt="AGR école de l'image"></a></li>
-                          </ul>
-                  </div>
-                  <div id="credits">
-                    <ul>
-                      <li>
-                        <p class="prenom">Pierre</p>
-                        <p class="nom">DOUMENC</p>
-                      </li>
-                      <li>
-                        <p class="prenom">Zacharie</p>
-                        <p class="nom">COUSINEAU</p>
-                      </li>
-                      <li>
-                        <p class="prenom">Erwan</p>
-                        <p class="nom">BOUVRON</p>
-                      </li>
-                      <li>
-                        <p class="prenom">Malo</p>
-                        <p class="nom">KERVESTIN</p>
-                      </li>
-                      <li>
-                        <p class="prenom">Lola</p>
-                        <p class="nom">COURANT-LAMOTTE</p>
-                      </li>
-                      <li>
-                        <p class="prenom">François</p>
-                        <p class="nom">CHARPENTIER</p>
-                      </li>
-                    </ul>
-                  </div>
-                  <div id="logos-op-cc">
-                    <ul>
-                      <li class="stacked"><img id="opensource" src="logo_opensource.png" alt="Open source"></li>
-                      <li class="stacked"><img id="cc" src="logo_cc.png" alt="Creative commons"></li>
-                    </ul>
-                  </div>
-            </section>
-        </main>
-        <div class="swiper-pagination"></div>
+          </div>
+          <div>
+            <button class="button-slide-2" id="button-slide-2" type="button">JOUER</button>
+          </div>
+          <div>
+            <button class="button-slide-2" id="button-explorer" type="button">EXPLORER</button>
+          </div>
+
+        </section>
+
+        <section id="fourth-slide" class="swiper-slide">
+          <div id="bandeau">
+            <!-- Logo Hyblab -->
+            <div id="hyblab"><a href="http://www.hyblab.fr/"><img id="hyblab" src="logo_hyblab.png"
+                  alt="Hyblab DataSport"></a></div>
+
+
+            <!-- Les organisateurs -->
+
+            <div><a href="http://www.nantesmetropole.fr/"><img class="institutionnel"
+                  src="institutionnels/logo_nantesmetropole.png" alt="Nantes Métropole"></a></div>
+            <div><a href="http://www.univ-nantes.fr/"><img src="ecoles/logo_nantesuniversite.png"
+                  alt="Université de Nantes"></a></div>
+
+            <div><a href="https://www.letelegramme.fr/"><img src="img/Logo_du_Télégramme.png" alt="Le Télégramme"
+                  style="height:35% !important;padding-bottom: 1vh;"></a></div>
+            <div><a href="http://www.ouestmedialab.fr/"><img src="logo_oml.png" alt="Ouest Médialab"></a></div>
+
+
+            <div><a href="http://www.polytech.univ-nantes.fr/"><img src="ecoles/logo_polytech.png" alt="Polytech Nantes"
+                  style="height: 65% !important;"></a></div>
+
+
+
+
+
+            <div><a href="http://www.agrnantes.fr"><img src="ecoles/logo_agr.png" alt="AGR école de l'image"
+                  style="height: 65% !important;"></a></div>
+
+
+          </div>
+          <div id="credits">
+            <div>
+              <p class="prenom">Pierre</p>
+              <p class="nom">DOUMENC</p>
+            </div>
+            <div>
+              <p class="prenom">Zacharie</p>
+              <p class="nom">COUSINEAU</p>
+            </div>
+
+            <div>
+              <p class="prenom">Erwan</p>
+              <p class="nom">BOUVRON</p>
+            </div>
+
+            <div>
+              <p class="prenom">Malo</p>
+              <p class="nom">KERVESTIN</p>
+            </div>
+
+            <div>
+              <p class="prenom">Lola</p>
+              <p class="nom">COURANT-LAMOTTE</p>
+            </div>
+            <div>
+              <p class="prenom">François</p>
+              <p class="nom">CHARPENTIER</p>
+            </div>
+
+
+          </div>
+          <div id="logos-op-cc">
+
+            <img  src="logo_opensource.png" alt="Open source" style="width:10%;height:auto;margin-right: 5%;">
+            <img  src="logo_cc.png" alt="Creative commons" style="width:10%;height:auto;margin-left: 5%;">
+
+          </div>
+        </section>
+      </main>
+      <div class="swiper-pagination"></div>
     </div>
   </div>
 </body>
+
 </html>
