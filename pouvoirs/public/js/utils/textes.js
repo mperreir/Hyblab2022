@@ -1,6 +1,6 @@
 const textes = {
     "home": "Grace a Moua, découvrez et expérimentez les pouvoirs du Président francais",
-    "rules": "En incarnant Moua, un être venu d’ailleurs devenu malgré lui le Président français sous la Vème République, découvrez et expérimentez les pouvoirs du chef du pays. Laissez vous guider tout le long du jeu. Choisissez-la ou les bonnes réponses pour chaque situation. Bonne immersion.",
+    "rules": "En incarnant Moua, un être venu d’ailleurs devenu malgré lui le Président français sous la Vème République, découvrez et expérimentez les pouvoirs du chef du pays. Laissez vous guider tout le long du jeu. Choisissez-la ou les bonnes réponses pour chaque situation.<br><b>Bonne immersion.</b>",
     "p1-secretary": "Bonjour, je suis le secrétaire général de l'Élysée. Maintenant, vous allez devoir diriger la France.",
     "p1-a1": "Ok, je serai plus efficace en dirigeant seul.<br>Je n’ai besoin de personne.",
     "p1-a2": "Je nomme un bras droit qui va mener ma politique.",
