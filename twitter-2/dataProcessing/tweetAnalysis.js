@@ -26,7 +26,7 @@ async function tweetAnalysis() {
     console.log('csv downloaded');
 
     const tweets = await neatCsv(fs.readFileSync(path.join(__dirname, '../data/tweets_candidats.csv')));
-    const candidatsInformations = require(path.join(__dirname, '../data/infosCandidats.json'));
+    const candidatsInformations = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/infosCandidats.json')));
 
     const candidats = {};
     tweets.forEach(tweet => {

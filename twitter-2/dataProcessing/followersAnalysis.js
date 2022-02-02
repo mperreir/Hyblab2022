@@ -11,7 +11,7 @@ async function followersAnalysis() {
     // try { fs.unlinkSync(path.join(__dirname, '../data/dataFollowersCommon.json')); } catch (_e) {} // suppression ancien json
     if (!fs.existsSync(path.join(__dirname, '../data/followers'))) fs.mkdirSync(path.join(__dirname, '../data/followers'));  // creation du dossier pour les csv followers
 
-    const candidatsInformations = require(path.join(__dirname, '../data/infosCandidats.json'));
+    const candidatsInformations = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/infosCandidats.json')));
     await downloadAllCsvFollowers(candidatsInformations);
     console.log('csv downloaded');
 

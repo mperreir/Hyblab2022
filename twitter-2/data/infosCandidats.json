@@ -45,15 +45,6 @@
     "imageLink": "anasse-kazib"
   },
   {
-    "userName": "larrouturou",
-    "firstName": "Pierre",
-    "lastName": "Larrouturou",
-    "displayFullName": "Pierre Larrouturou",
-    "displayShortName": "P. Larrouturou",
-    "imageLinkCercle": "cercle-larrouturou",
-    "imageLink": "pierre-larrouturou"
-  },
-  {
     "userName": "jeanlassalle",
     "firstName": "Jean",
     "lastName": "Lassalle",
@@ -115,6 +106,15 @@
     "displayShortName": "P. Poutou",
     "imageLinkCercle": "cercle-poutou",
     "imageLink": "philippe-poutou"
+  },
+  {
+    "userName": "Fabien_Roussel",
+    "firstName": "Fabien",
+    "lastName": "Roussel",
+    "displayFullName": "Fabien Roussel",
+    "displayShortName": "F. Roussel",
+    "imageLinkCercle": "cercle-roussel",
+    "imageLink": "fabien-roussel"
   },
   {
     "userName": "ChTaubira",

@@ -1,763 +1,19 @@
 [
   {
-    "name1": "EmmanuelMacron",
-    "name2": "MLP_officiel",
-    "common": 1138551,
-    "nbFollowersName1": 7575925,
-    "nbFollowersName2": 2669755,
-    "ratio": "12.5"
-  },
-  {
-    "name1": "EmmanuelMacron",
-    "name2": "JLMelenchon",
-    "common": 1087356,
-    "nbFollowersName1": 7575925,
-    "nbFollowersName2": 2354359,
-    "ratio": "12.3"
-  },
-  {
-    "name1": "EmmanuelMacron",
-    "name2": "Anne_Hidalgo",
-    "common": 551270,
-    "nbFollowersName1": 7575925,
-    "nbFollowersName2": 1541372,
-    "ratio": "6.4"
-  },
-  {
-    "name1": "EmmanuelMacron",
-    "name2": "ChTaubira",
-    "common": 432996,
-    "nbFollowersName1": 7575925,
-    "nbFollowersName2": 829568,
-    "ratio": "5.4"
-  },
-  {
-    "name1": "EmmanuelMacron",
-    "name2": "vpecresse",
-    "common": 235098,
-    "nbFollowersName1": 7575925,
-    "nbFollowersName2": 422881,
-    "ratio": "3.0"
-  },
-  {
-    "name1": "EmmanuelMacron",
-    "name2": "ZemmourEric",
-    "common": 143604,
-    "nbFollowersName1": 7575925,
-    "nbFollowersName2": 351147,
-    "ratio": "1.8"
-  },
-  {
-    "name1": "EmmanuelMacron",
-    "name2": "f_philippot",
-    "common": 133815,
-    "nbFollowersName1": 7575925,
-    "nbFollowersName2": 322827,
-    "ratio": "1.7"
-  },
-  {
-    "name1": "EmmanuelMacron",
+    "name1": "UPR_Asselineau",
     "name2": "dupontaignan",
-    "common": 144764,
-    "nbFollowersName1": 7575925,
-    "nbFollowersName2": 293265,
-    "ratio": "1.9"
-  },
-  {
-    "name1": "EmmanuelMacron",
-    "name2": "PhilippePoutou",
-    "common": 51741,
-    "nbFollowersName1": 7575925,
-    "nbFollowersName2": 205759,
-    "ratio": "0.7"
-  },
-  {
-    "name1": "EmmanuelMacron",
-    "name2": "UPR_Asselineau",
-    "common": 41066,
-    "nbFollowersName1": 7575925,
-    "nbFollowersName2": 122554,
-    "ratio": "0.5"
-  },
-  {
-    "name1": "EmmanuelMacron",
-    "name2": "yjadot",
-    "common": 53720,
-    "nbFollowersName1": 7575925,
-    "nbFollowersName2": 91182,
-    "ratio": "0.7"
-  },
-  {
-    "name1": "EmmanuelMacron",
-    "name2": "jeanlassalle",
-    "common": 34170,
-    "nbFollowersName1": 7575925,
-    "nbFollowersName2": 68361,
-    "ratio": "0.4"
-  },
-  {
-    "name1": "EmmanuelMacron",
-    "name2": "AnasseKazib",
-    "common": 22365,
-    "nbFollowersName1": 7575925,
-    "nbFollowersName2": 61463,
-    "ratio": "0.3"
-  },
-  {
-    "name1": "EmmanuelMacron",
-    "name2": "larrouturou",
-    "common": 23487,
-    "nbFollowersName1": 7575925,
-    "nbFollowersName2": 52288,
-    "ratio": "0.3"
-  },
-  {
-    "name1": "MLP_officiel",
-    "name2": "JLMelenchon",
-    "common": 1343298,
-    "nbFollowersName1": 2669755,
-    "nbFollowersName2": 2354359,
-    "ratio": "36.5"
-  },
-  {
-    "name1": "MLP_officiel",
-    "name2": "Anne_Hidalgo",
-    "common": 499986,
-    "nbFollowersName1": 2669755,
-    "nbFollowersName2": 1541372,
-    "ratio": "13.5"
-  },
-  {
-    "name1": "MLP_officiel",
-    "name2": "ChTaubira",
-    "common": 319773,
-    "nbFollowersName1": 2669755,
-    "nbFollowersName2": 829568,
-    "ratio": "10.1"
-  },
-  {
-    "name1": "MLP_officiel",
-    "name2": "vpecresse",
-    "common": 169696,
-    "nbFollowersName1": 2669755,
-    "nbFollowersName2": 422881,
-    "ratio": "5.8"
-  },
-  {
-    "name1": "MLP_officiel",
-    "name2": "ZemmourEric",
-    "common": 124788,
-    "nbFollowersName1": 2669755,
-    "nbFollowersName2": 351147,
-    "ratio": "4.3"
-  },
-  {
-    "name1": "MLP_officiel",
-    "name2": "f_philippot",
-    "common": 200446,
-    "nbFollowersName1": 2669755,
-    "nbFollowersName2": 322827,
-    "ratio": "7.2"
-  },
-  {
-    "name1": "MLP_officiel",
-    "name2": "dupontaignan",
-    "common": 182149,
-    "nbFollowersName1": 2669755,
-    "nbFollowersName2": 293265,
-    "ratio": "6.6"
-  },
-  {
-    "name1": "MLP_officiel",
-    "name2": "PhilippePoutou",
-    "common": 71963,
-    "nbFollowersName1": 2669755,
-    "nbFollowersName2": 205759,
-    "ratio": "2.6"
-  },
-  {
-    "name1": "MLP_officiel",
-    "name2": "UPR_Asselineau",
-    "common": 42805,
-    "nbFollowersName1": 2669755,
-    "nbFollowersName2": 122554,
-    "ratio": "1.6"
-  },
-  {
-    "name1": "MLP_officiel",
-    "name2": "yjadot",
-    "common": 24221,
-    "nbFollowersName1": 2669755,
-    "nbFollowersName2": 91182,
-    "ratio": "0.9"
-  },
-  {
-    "name1": "MLP_officiel",
-    "name2": "jeanlassalle",
-    "common": 23088,
-    "nbFollowersName1": 2669755,
-    "nbFollowersName2": 68361,
-    "ratio": "0.9"
-  },
-  {
-    "name1": "MLP_officiel",
-    "name2": "AnasseKazib",
-    "common": 11353,
-    "nbFollowersName1": 2669755,
-    "nbFollowersName2": 61463,
-    "ratio": "0.4"
-  },
-  {
-    "name1": "MLP_officiel",
-    "name2": "larrouturou",
-    "common": 7960,
-    "nbFollowersName1": 2669755,
-    "nbFollowersName2": 52288,
-    "ratio": "0.3"
-  },
-  {
-    "name1": "JLMelenchon",
-    "name2": "Anne_Hidalgo",
-    "common": 547229,
-    "nbFollowersName1": 2354359,
-    "nbFollowersName2": 1541372,
-    "ratio": "16.3"
-  },
-  {
-    "name1": "JLMelenchon",
-    "name2": "ChTaubira",
-    "common": 400677,
-    "nbFollowersName1": 2354359,
-    "nbFollowersName2": 829568,
-    "ratio": "14.4"
-  },
-  {
-    "name1": "JLMelenchon",
-    "name2": "vpecresse",
-    "common": 179810,
-    "nbFollowersName1": 2354359,
-    "nbFollowersName2": 422881,
-    "ratio": "6.9"
-  },
-  {
-    "name1": "JLMelenchon",
-    "name2": "ZemmourEric",
-    "common": 74646,
-    "nbFollowersName1": 2354359,
-    "nbFollowersName2": 351147,
-    "ratio": "2.8"
-  },
-  {
-    "name1": "JLMelenchon",
-    "name2": "f_philippot",
-    "common": 131455,
-    "nbFollowersName1": 2354359,
-    "nbFollowersName2": 322827,
-    "ratio": "5.2"
-  },
-  {
-    "name1": "JLMelenchon",
-    "name2": "dupontaignan",
-    "common": 144499,
-    "nbFollowersName1": 2354359,
-    "nbFollowersName2": 293265,
-    "ratio": "5.8"
-  },
-  {
-    "name1": "JLMelenchon",
-    "name2": "PhilippePoutou",
-    "common": 121196,
-    "nbFollowersName1": 2354359,
-    "nbFollowersName2": 205759,
-    "ratio": "5.0"
-  },
-  {
-    "name1": "JLMelenchon",
-    "name2": "UPR_Asselineau",
-    "common": 40398,
-    "nbFollowersName1": 2354359,
-    "nbFollowersName2": 122554,
-    "ratio": "1.7"
-  },
-  {
-    "name1": "JLMelenchon",
-    "name2": "yjadot",
-    "common": 45100,
-    "nbFollowersName1": 2354359,
-    "nbFollowersName2": 91182,
-    "ratio": "1.9"
-  },
-  {
-    "name1": "JLMelenchon",
-    "name2": "jeanlassalle",
-    "common": 25798,
-    "nbFollowersName1": 2354359,
-    "nbFollowersName2": 68361,
-    "ratio": "1.1"
-  },
-  {
-    "name1": "JLMelenchon",
-    "name2": "AnasseKazib",
-    "common": 32228,
-    "nbFollowersName1": 2354359,
-    "nbFollowersName2": 61463,
-    "ratio": "1.4"
-  },
-  {
-    "name1": "JLMelenchon",
-    "name2": "larrouturou",
-    "common": 21003,
-    "nbFollowersName1": 2354359,
-    "nbFollowersName2": 52288,
-    "ratio": "0.9"
-  },
-  {
-    "name1": "Anne_Hidalgo",
-    "name2": "ChTaubira",
-    "common": 289360,
-    "nbFollowersName1": 1541372,
-    "nbFollowersName2": 829568,
-    "ratio": "13.9"
-  },
-  {
-    "name1": "Anne_Hidalgo",
-    "name2": "vpecresse",
-    "common": 165016,
-    "nbFollowersName1": 1541372,
-    "nbFollowersName2": 422881,
-    "ratio": "9.2"
-  },
-  {
-    "name1": "Anne_Hidalgo",
-    "name2": "ZemmourEric",
-    "common": 30840,
-    "nbFollowersName1": 1541372,
-    "nbFollowersName2": 351147,
-    "ratio": "1.7"
-  },
-  {
-    "name1": "Anne_Hidalgo",
-    "name2": "f_philippot",
-    "common": 57270,
-    "nbFollowersName1": 1541372,
-    "nbFollowersName2": 322827,
-    "ratio": "3.2"
-  },
-  {
-    "name1": "Anne_Hidalgo",
-    "name2": "dupontaignan",
-    "common": 67906,
-    "nbFollowersName1": 1541372,
-    "nbFollowersName2": 293265,
-    "ratio": "3.8"
-  },
-  {
-    "name1": "Anne_Hidalgo",
-    "name2": "PhilippePoutou",
-    "common": 61265,
-    "nbFollowersName1": 1541372,
-    "nbFollowersName2": 205759,
-    "ratio": "3.6"
-  },
-  {
-    "name1": "Anne_Hidalgo",
-    "name2": "UPR_Asselineau",
-    "common": 13663,
-    "nbFollowersName1": 1541372,
-    "nbFollowersName2": 122554,
-    "ratio": "0.8"
-  },
-  {
-    "name1": "Anne_Hidalgo",
-    "name2": "yjadot",
-    "common": 39237,
-    "nbFollowersName1": 1541372,
-    "nbFollowersName2": 91182,
-    "ratio": "2.5"
-  },
-  {
-    "name1": "Anne_Hidalgo",
-    "name2": "jeanlassalle",
-    "common": 12106,
-    "nbFollowersName1": 1541372,
-    "nbFollowersName2": 68361,
-    "ratio": "0.8"
-  },
-  {
-    "name1": "Anne_Hidalgo",
-    "name2": "AnasseKazib",
-    "common": 10245,
-    "nbFollowersName1": 1541372,
-    "nbFollowersName2": 61463,
-    "ratio": "0.6"
-  },
-  {
-    "name1": "Anne_Hidalgo",
-    "name2": "larrouturou",
-    "common": 17825,
-    "nbFollowersName1": 1541372,
-    "nbFollowersName2": 52288,
-    "ratio": "1.1"
-  },
-  {
-    "name1": "ChTaubira",
-    "name2": "vpecresse",
-    "common": 117604,
-    "nbFollowersName1": 829568,
-    "nbFollowersName2": 422881,
-    "ratio": "10.4"
-  },
-  {
-    "name1": "ChTaubira",
-    "name2": "ZemmourEric",
-    "common": 23118,
-    "nbFollowersName1": 829568,
-    "nbFollowersName2": 351147,
-    "ratio": "2.0"
-  },
-  {
-    "name1": "ChTaubira",
-    "name2": "f_philippot",
-    "common": 49123,
-    "nbFollowersName1": 829568,
-    "nbFollowersName2": 322827,
-    "ratio": "4.5"
-  },
-  {
-    "name1": "ChTaubira",
-    "name2": "dupontaignan",
-    "common": 50806,
-    "nbFollowersName1": 829568,
-    "nbFollowersName2": 293265,
-    "ratio": "4.7"
-  },
-  {
-    "name1": "ChTaubira",
-    "name2": "PhilippePoutou",
-    "common": 45881,
-    "nbFollowersName1": 829568,
-    "nbFollowersName2": 205759,
-    "ratio": "4.6"
-  },
-  {
-    "name1": "ChTaubira",
-    "name2": "UPR_Asselineau",
-    "common": 13307,
-    "nbFollowersName1": 829568,
-    "nbFollowersName2": 122554,
-    "ratio": "1.4"
-  },
-  {
-    "name1": "ChTaubira",
-    "name2": "yjadot",
-    "common": 39430,
-    "nbFollowersName1": 829568,
-    "nbFollowersName2": 91182,
-    "ratio": "4.5"
-  },
-  {
-    "name1": "ChTaubira",
-    "name2": "jeanlassalle",
-    "common": 13312,
-    "nbFollowersName1": 829568,
-    "nbFollowersName2": 68361,
-    "ratio": "1.5"
-  },
-  {
-    "name1": "ChTaubira",
-    "name2": "AnasseKazib",
-    "common": 15630,
-    "nbFollowersName1": 829568,
-    "nbFollowersName2": 61463,
-    "ratio": "1.8"
-  },
-  {
-    "name1": "ChTaubira",
-    "name2": "larrouturou",
-    "common": 20532,
-    "nbFollowersName1": 829568,
-    "nbFollowersName2": 52288,
-    "ratio": "2.4"
-  },
-  {
-    "name1": "vpecresse",
-    "name2": "ZemmourEric",
-    "common": 50157,
-    "nbFollowersName1": 422881,
-    "nbFollowersName2": 351147,
-    "ratio": "6.9"
-  },
-  {
-    "name1": "vpecresse",
-    "name2": "f_philippot",
-    "common": 56874,
-    "nbFollowersName1": 422881,
-    "nbFollowersName2": 322827,
-    "ratio": "8.3"
-  },
-  {
-    "name1": "vpecresse",
-    "name2": "dupontaignan",
-    "common": 78110,
-    "nbFollowersName1": 422881,
-    "nbFollowersName2": 293265,
-    "ratio": "12.2"
-  },
-  {
-    "name1": "vpecresse",
-    "name2": "PhilippePoutou",
-    "common": 34060,
-    "nbFollowersName1": 422881,
-    "nbFollowersName2": 205759,
-    "ratio": "5.7"
-  },
-  {
-    "name1": "vpecresse",
-    "name2": "UPR_Asselineau",
-    "common": 17075,
-    "nbFollowersName1": 422881,
-    "nbFollowersName2": 122554,
-    "ratio": "3.2"
-  },
-  {
-    "name1": "vpecresse",
-    "name2": "yjadot",
-    "common": 25550,
-    "nbFollowersName1": 422881,
-    "nbFollowersName2": 91182,
-    "ratio": "5.2"
-  },
-  {
-    "name1": "vpecresse",
-    "name2": "jeanlassalle",
-    "common": 13725,
-    "nbFollowersName1": 422881,
-    "nbFollowersName2": 68361,
-    "ratio": "2.9"
-  },
-  {
-    "name1": "vpecresse",
-    "name2": "AnasseKazib",
-    "common": 7743,
-    "nbFollowersName1": 422881,
-    "nbFollowersName2": 61463,
-    "ratio": "1.6"
-  },
-  {
-    "name1": "vpecresse",
-    "name2": "larrouturou",
-    "common": 9171,
-    "nbFollowersName1": 422881,
-    "nbFollowersName2": 52288,
-    "ratio": "2.0"
-  },
-  {
-    "name1": "ZemmourEric",
-    "name2": "f_philippot",
-    "common": 78505,
-    "nbFollowersName1": 351147,
-    "nbFollowersName2": 322827,
-    "ratio": "13.2"
-  },
-  {
-    "name1": "ZemmourEric",
-    "name2": "dupontaignan",
-    "common": 72031,
-    "nbFollowersName1": 351147,
-    "nbFollowersName2": 293265,
-    "ratio": "12.6"
-  },
-  {
-    "name1": "ZemmourEric",
-    "name2": "PhilippePoutou",
-    "common": 11739,
-    "nbFollowersName1": 351147,
-    "nbFollowersName2": 205759,
-    "ratio": "2.2"
-  },
-  {
-    "name1": "ZemmourEric",
-    "name2": "UPR_Asselineau",
-    "common": 37187,
-    "nbFollowersName1": 351147,
-    "nbFollowersName2": 122554,
-    "ratio": "8.5"
-  },
-  {
-    "name1": "ZemmourEric",
-    "name2": "yjadot",
-    "common": 12069,
-    "nbFollowersName1": 351147,
-    "nbFollowersName2": 91182,
-    "ratio": "2.8"
-  },
-  {
-    "name1": "ZemmourEric",
-    "name2": "jeanlassalle",
-    "common": 21641,
-    "nbFollowersName1": 351147,
-    "nbFollowersName2": 68361,
-    "ratio": "5.4"
-  },
-  {
-    "name1": "ZemmourEric",
-    "name2": "AnasseKazib",
-    "common": 9258,
-    "nbFollowersName1": 351147,
-    "nbFollowersName2": 61463,
-    "ratio": "2.3"
-  },
-  {
-    "name1": "ZemmourEric",
-    "name2": "larrouturou",
-    "common": 3744,
-    "nbFollowersName1": 351147,
-    "nbFollowersName2": 52288,
-    "ratio": "0.9"
-  },
-  {
-    "name1": "f_philippot",
-    "name2": "dupontaignan",
-    "common": 128590,
-    "nbFollowersName1": 322827,
-    "nbFollowersName2": 293265,
-    "ratio": "26.4"
-  },
-  {
-    "name1": "f_philippot",
-    "name2": "PhilippePoutou",
-    "common": 15323,
-    "nbFollowersName1": 322827,
-    "nbFollowersName2": 205759,
-    "ratio": "3.0"
-  },
-  {
-    "name1": "f_philippot",
-    "name2": "UPR_Asselineau",
-    "common": 64209,
-    "nbFollowersName1": 322827,
-    "nbFollowersName2": 122554,
-    "ratio": "16.8"
-  },
-  {
-    "name1": "f_philippot",
-    "name2": "yjadot",
-    "common": 11717,
-    "nbFollowersName1": 322827,
-    "nbFollowersName2": 91182,
-    "ratio": "2.9"
-  },
-  {
-    "name1": "f_philippot",
-    "name2": "jeanlassalle",
-    "common": 18090,
-    "nbFollowersName1": 322827,
-    "nbFollowersName2": 68361,
-    "ratio": "4.8"
-  },
-  {
-    "name1": "f_philippot",
-    "name2": "AnasseKazib",
-    "common": 8225,
-    "nbFollowersName1": 322827,
-    "nbFollowersName2": 61463,
-    "ratio": "2.2"
-  },
-  {
-    "name1": "f_philippot",
-    "name2": "larrouturou",
-    "common": 4432,
-    "nbFollowersName1": 322827,
-    "nbFollowersName2": 52288,
-    "ratio": "1.2"
-  },
-  {
-    "name1": "dupontaignan",
-    "name2": "PhilippePoutou",
-    "common": 25189,
-    "nbFollowersName1": 293265,
-    "nbFollowersName2": 205759,
-    "ratio": "5.3"
-  },
-  {
-    "name1": "dupontaignan",
-    "name2": "UPR_Asselineau",
     "common": 50349,
-    "nbFollowersName1": 293265,
-    "nbFollowersName2": 122554,
+    "nbFollowersName1": 122554,
+    "nbFollowersName2": 293265,
     "ratio": "13.8"
   },
   {
-    "name1": "dupontaignan",
-    "name2": "yjadot",
-    "common": 14489,
-    "nbFollowersName1": 293265,
-    "nbFollowersName2": 91182,
-    "ratio": "3.9"
-  },
-  {
-    "name1": "dupontaignan",
-    "name2": "jeanlassalle",
-    "common": 21216,
-    "nbFollowersName1": 293265,
-    "nbFollowersName2": 68361,
-    "ratio": "6.2"
-  },
-  {
-    "name1": "dupontaignan",
-    "name2": "AnasseKazib",
-    "common": 7744,
-    "nbFollowersName1": 293265,
-    "nbFollowersName2": 61463,
-    "ratio": "2.2"
-  },
-  {
-    "name1": "dupontaignan",
-    "name2": "larrouturou",
-    "common": 5676,
-    "nbFollowersName1": 293265,
-    "nbFollowersName2": 52288,
-    "ratio": "1.7"
-  },
-  {
-    "name1": "PhilippePoutou",
-    "name2": "UPR_Asselineau",
-    "common": 11732,
-    "nbFollowersName1": 205759,
-    "nbFollowersName2": 122554,
-    "ratio": "3.7"
-  },
-  {
-    "name1": "PhilippePoutou",
-    "name2": "yjadot",
-    "common": 15689,
-    "nbFollowersName1": 205759,
-    "nbFollowersName2": 91182,
-    "ratio": "5.6"
-  },
-  {
-    "name1": "PhilippePoutou",
-    "name2": "jeanlassalle",
-    "common": 11221,
-    "nbFollowersName1": 205759,
-    "nbFollowersName2": 68361,
-    "ratio": "4.3"
-  },
-  {
-    "name1": "PhilippePoutou",
-    "name2": "AnasseKazib",
-    "common": 23173,
-    "nbFollowersName1": 205759,
-    "nbFollowersName2": 61463,
-    "ratio": "9.5"
-  },
-  {
-    "name1": "PhilippePoutou",
-    "name2": "larrouturou",
-    "common": 8959,
-    "nbFollowersName1": 205759,
-    "nbFollowersName2": 52288,
-    "ratio": "3.6"
+    "name1": "UPR_Asselineau",
+    "name2": "Anne_Hidalgo",
+    "common": 13663,
+    "nbFollowersName1": 122554,
+    "nbFollowersName2": 1541372,
+    "ratio": "0.8"
   },
   {
     "name1": "UPR_Asselineau",
@@ -769,14 +25,6 @@
   },
   {
     "name1": "UPR_Asselineau",
-    "name2": "jeanlassalle",
-    "common": 14145,
-    "nbFollowersName1": 122554,
-    "nbFollowersName2": 68361,
-    "ratio": "8.0"
-  },
-  {
-    "name1": "UPR_Asselineau",
     "name2": "AnasseKazib",
     "common": 7443,
     "nbFollowersName1": 122554,
@@ -785,19 +33,283 @@
   },
   {
     "name1": "UPR_Asselineau",
-    "name2": "larrouturou",
-    "common": 3212,
+    "name2": "jeanlassalle",
+    "common": 14145,
     "nbFollowersName1": 122554,
-    "nbFollowersName2": 52288,
+    "nbFollowersName2": 68361,
+    "ratio": "8.0"
+  },
+  {
+    "name1": "UPR_Asselineau",
+    "name2": "MLP_officiel",
+    "common": 42805,
+    "nbFollowersName1": 122554,
+    "nbFollowersName2": 2669755,
+    "ratio": "1.6"
+  },
+  {
+    "name1": "UPR_Asselineau",
+    "name2": "EmmanuelMacron",
+    "common": 41066,
+    "nbFollowersName1": 122554,
+    "nbFollowersName2": 7575925,
+    "ratio": "0.5"
+  },
+  {
+    "name1": "UPR_Asselineau",
+    "name2": "JLMelenchon",
+    "common": 40398,
+    "nbFollowersName1": 122554,
+    "nbFollowersName2": 2354359,
+    "ratio": "1.7"
+  },
+  {
+    "name1": "UPR_Asselineau",
+    "name2": "vpecresse",
+    "common": 17075,
+    "nbFollowersName1": 122554,
+    "nbFollowersName2": 422881,
+    "ratio": "3.2"
+  },
+  {
+    "name1": "UPR_Asselineau",
+    "name2": "f_philippot",
+    "common": 64209,
+    "nbFollowersName1": 122554,
+    "nbFollowersName2": 322827,
+    "ratio": "16.8"
+  },
+  {
+    "name1": "UPR_Asselineau",
+    "name2": "PhilippePoutou",
+    "common": 11732,
+    "nbFollowersName1": 122554,
+    "nbFollowersName2": 205759,
+    "ratio": "3.7"
+  },
+  {
+    "name1": "UPR_Asselineau",
+    "name2": "Fabien_Roussel",
+    "common": 5380,
+    "nbFollowersName1": 122554,
+    "nbFollowersName2": 51257,
+    "ratio": "3.2"
+  },
+  {
+    "name1": "UPR_Asselineau",
+    "name2": "ChTaubira",
+    "common": 13307,
+    "nbFollowersName1": 122554,
+    "nbFollowersName2": 829568,
+    "ratio": "1.4"
+  },
+  {
+    "name1": "UPR_Asselineau",
+    "name2": "ZemmourEric",
+    "common": 37187,
+    "nbFollowersName1": 122554,
+    "nbFollowersName2": 351147,
+    "ratio": "8.5"
+  },
+  {
+    "name1": "dupontaignan",
+    "name2": "Anne_Hidalgo",
+    "common": 67906,
+    "nbFollowersName1": 293265,
+    "nbFollowersName2": 1541372,
+    "ratio": "3.8"
+  },
+  {
+    "name1": "dupontaignan",
+    "name2": "yjadot",
+    "common": 14489,
+    "nbFollowersName1": 293265,
+    "nbFollowersName2": 91182,
+    "ratio": "3.9"
+  },
+  {
+    "name1": "dupontaignan",
+    "name2": "AnasseKazib",
+    "common": 7744,
+    "nbFollowersName1": 293265,
+    "nbFollowersName2": 61463,
+    "ratio": "2.2"
+  },
+  {
+    "name1": "dupontaignan",
+    "name2": "jeanlassalle",
+    "common": 21216,
+    "nbFollowersName1": 293265,
+    "nbFollowersName2": 68361,
+    "ratio": "6.2"
+  },
+  {
+    "name1": "dupontaignan",
+    "name2": "MLP_officiel",
+    "common": 182150,
+    "nbFollowersName1": 293265,
+    "nbFollowersName2": 2669755,
+    "ratio": "6.6"
+  },
+  {
+    "name1": "dupontaignan",
+    "name2": "EmmanuelMacron",
+    "common": 144764,
+    "nbFollowersName1": 293265,
+    "nbFollowersName2": 7575925,
     "ratio": "1.9"
   },
   {
-    "name1": "yjadot",
+    "name1": "dupontaignan",
+    "name2": "JLMelenchon",
+    "common": 144499,
+    "nbFollowersName1": 293265,
+    "nbFollowersName2": 2354359,
+    "ratio": "5.8"
+  },
+  {
+    "name1": "dupontaignan",
+    "name2": "vpecresse",
+    "common": 78109,
+    "nbFollowersName1": 293265,
+    "nbFollowersName2": 422881,
+    "ratio": "12.2"
+  },
+  {
+    "name1": "dupontaignan",
+    "name2": "f_philippot",
+    "common": 128590,
+    "nbFollowersName1": 293265,
+    "nbFollowersName2": 322827,
+    "ratio": "26.4"
+  },
+  {
+    "name1": "dupontaignan",
+    "name2": "PhilippePoutou",
+    "common": 25189,
+    "nbFollowersName1": 293265,
+    "nbFollowersName2": 205759,
+    "ratio": "5.3"
+  },
+  {
+    "name1": "dupontaignan",
+    "name2": "Fabien_Roussel",
+    "common": 8668,
+    "nbFollowersName1": 293265,
+    "nbFollowersName2": 51257,
+    "ratio": "2.6"
+  },
+  {
+    "name1": "dupontaignan",
+    "name2": "ChTaubira",
+    "common": 50806,
+    "nbFollowersName1": 293265,
+    "nbFollowersName2": 829568,
+    "ratio": "4.7"
+  },
+  {
+    "name1": "dupontaignan",
+    "name2": "ZemmourEric",
+    "common": 72030,
+    "nbFollowersName1": 293265,
+    "nbFollowersName2": 351147,
+    "ratio": "12.6"
+  },
+  {
+    "name1": "Anne_Hidalgo",
+    "name2": "yjadot",
+    "common": 39237,
+    "nbFollowersName1": 1541372,
+    "nbFollowersName2": 91182,
+    "ratio": "2.5"
+  },
+  {
+    "name1": "Anne_Hidalgo",
+    "name2": "AnasseKazib",
+    "common": 10245,
+    "nbFollowersName1": 1541372,
+    "nbFollowersName2": 61463,
+    "ratio": "0.6"
+  },
+  {
+    "name1": "Anne_Hidalgo",
     "name2": "jeanlassalle",
-    "common": 6350,
-    "nbFollowersName1": 91182,
+    "common": 12106,
+    "nbFollowersName1": 1541372,
     "nbFollowersName2": 68361,
-    "ratio": "4.1"
+    "ratio": "0.8"
+  },
+  {
+    "name1": "Anne_Hidalgo",
+    "name2": "MLP_officiel",
+    "common": 499984,
+    "nbFollowersName1": 1541372,
+    "nbFollowersName2": 2669755,
+    "ratio": "13.5"
+  },
+  {
+    "name1": "Anne_Hidalgo",
+    "name2": "EmmanuelMacron",
+    "common": 551266,
+    "nbFollowersName1": 1541372,
+    "nbFollowersName2": 7575925,
+    "ratio": "6.4"
+  },
+  {
+    "name1": "Anne_Hidalgo",
+    "name2": "JLMelenchon",
+    "common": 547225,
+    "nbFollowersName1": 1541372,
+    "nbFollowersName2": 2354359,
+    "ratio": "16.3"
+  },
+  {
+    "name1": "Anne_Hidalgo",
+    "name2": "vpecresse",
+    "common": 165016,
+    "nbFollowersName1": 1541372,
+    "nbFollowersName2": 422881,
+    "ratio": "9.2"
+  },
+  {
+    "name1": "Anne_Hidalgo",
+    "name2": "f_philippot",
+    "common": 57270,
+    "nbFollowersName1": 1541372,
+    "nbFollowersName2": 322827,
+    "ratio": "3.2"
+  },
+  {
+    "name1": "Anne_Hidalgo",
+    "name2": "PhilippePoutou",
+    "common": 61265,
+    "nbFollowersName1": 1541372,
+    "nbFollowersName2": 205759,
+    "ratio": "3.6"
+  },
+  {
+    "name1": "Anne_Hidalgo",
+    "name2": "Fabien_Roussel",
+    "common": 16351,
+    "nbFollowersName1": 1541372,
+    "nbFollowersName2": 51257,
+    "ratio": "1.0"
+  },
+  {
+    "name1": "Anne_Hidalgo",
+    "name2": "ChTaubira",
+    "common": 289360,
+    "nbFollowersName1": 1541372,
+    "nbFollowersName2": 829568,
+    "ratio": "13.9"
+  },
+  {
+    "name1": "Anne_Hidalgo",
+    "name2": "ZemmourEric",
+    "common": 30840,
+    "nbFollowersName1": 1541372,
+    "nbFollowersName2": 351147,
+    "ratio": "1.7"
   },
   {
     "name1": "yjadot",
@@ -809,34 +321,522 @@
   },
   {
     "name1": "yjadot",
-    "name2": "larrouturou",
-    "common": 14480,
+    "name2": "jeanlassalle",
+    "common": 6350,
     "nbFollowersName1": 91182,
-    "nbFollowersName2": 52288,
-    "ratio": "11.2"
+    "nbFollowersName2": 68361,
+    "ratio": "4.1"
   },
   {
-    "name1": "jeanlassalle",
-    "name2": "AnasseKazib",
-    "common": 3813,
-    "nbFollowersName1": 68361,
-    "nbFollowersName2": 61463,
-    "ratio": "3.0"
+    "name1": "yjadot",
+    "name2": "MLP_officiel",
+    "common": 24221,
+    "nbFollowersName1": 91182,
+    "nbFollowersName2": 2669755,
+    "ratio": "0.9"
   },
   {
-    "name1": "jeanlassalle",
-    "name2": "larrouturou",
-    "common": 3427,
-    "nbFollowersName1": 68361,
-    "nbFollowersName2": 52288,
+    "name1": "yjadot",
+    "name2": "EmmanuelMacron",
+    "common": 53719,
+    "nbFollowersName1": 91182,
+    "nbFollowersName2": 7575925,
+    "ratio": "0.7"
+  },
+  {
+    "name1": "yjadot",
+    "name2": "JLMelenchon",
+    "common": 45097,
+    "nbFollowersName1": 91182,
+    "nbFollowersName2": 2354359,
+    "ratio": "1.9"
+  },
+  {
+    "name1": "yjadot",
+    "name2": "vpecresse",
+    "common": 25549,
+    "nbFollowersName1": 91182,
+    "nbFollowersName2": 422881,
+    "ratio": "5.2"
+  },
+  {
+    "name1": "yjadot",
+    "name2": "f_philippot",
+    "common": 11717,
+    "nbFollowersName1": 91182,
+    "nbFollowersName2": 322827,
     "ratio": "2.9"
   },
   {
+    "name1": "yjadot",
+    "name2": "PhilippePoutou",
+    "common": 15689,
+    "nbFollowersName1": 91182,
+    "nbFollowersName2": 205759,
+    "ratio": "5.6"
+  },
+  {
+    "name1": "yjadot",
+    "name2": "Fabien_Roussel",
+    "common": 11522,
+    "nbFollowersName1": 91182,
+    "nbFollowersName2": 51257,
+    "ratio": "8.8"
+  },
+  {
+    "name1": "yjadot",
+    "name2": "ChTaubira",
+    "common": 39430,
+    "nbFollowersName1": 91182,
+    "nbFollowersName2": 829568,
+    "ratio": "4.5"
+  },
+  {
+    "name1": "yjadot",
+    "name2": "ZemmourEric",
+    "common": 12069,
+    "nbFollowersName1": 91182,
+    "nbFollowersName2": 351147,
+    "ratio": "2.8"
+  },
+  {
     "name1": "AnasseKazib",
-    "name2": "larrouturou",
-    "common": 3930,
+    "name2": "jeanlassalle",
+    "common": 3813,
     "nbFollowersName1": 61463,
-    "nbFollowersName2": 52288,
-    "ratio": "3.6"
+    "nbFollowersName2": 68361,
+    "ratio": "3.0"
+  },
+  {
+    "name1": "AnasseKazib",
+    "name2": "MLP_officiel",
+    "common": 11353,
+    "nbFollowersName1": 61463,
+    "nbFollowersName2": 2669755,
+    "ratio": "0.4"
+  },
+  {
+    "name1": "AnasseKazib",
+    "name2": "EmmanuelMacron",
+    "common": 22365,
+    "nbFollowersName1": 61463,
+    "nbFollowersName2": 7575925,
+    "ratio": "0.3"
+  },
+  {
+    "name1": "AnasseKazib",
+    "name2": "JLMelenchon",
+    "common": 32228,
+    "nbFollowersName1": 61463,
+    "nbFollowersName2": 2354359,
+    "ratio": "1.4"
+  },
+  {
+    "name1": "AnasseKazib",
+    "name2": "vpecresse",
+    "common": 7743,
+    "nbFollowersName1": 61463,
+    "nbFollowersName2": 422881,
+    "ratio": "1.6"
+  },
+  {
+    "name1": "AnasseKazib",
+    "name2": "f_philippot",
+    "common": 8225,
+    "nbFollowersName1": 61463,
+    "nbFollowersName2": 322827,
+    "ratio": "2.2"
+  },
+  {
+    "name1": "AnasseKazib",
+    "name2": "PhilippePoutou",
+    "common": 23173,
+    "nbFollowersName1": 61463,
+    "nbFollowersName2": 205759,
+    "ratio": "9.5"
+  },
+  {
+    "name1": "AnasseKazib",
+    "name2": "Fabien_Roussel",
+    "common": 7416,
+    "nbFollowersName1": 61463,
+    "nbFollowersName2": 51257,
+    "ratio": "7.0"
+  },
+  {
+    "name1": "AnasseKazib",
+    "name2": "ChTaubira",
+    "common": 15630,
+    "nbFollowersName1": 61463,
+    "nbFollowersName2": 829568,
+    "ratio": "1.8"
+  },
+  {
+    "name1": "AnasseKazib",
+    "name2": "ZemmourEric",
+    "common": 9258,
+    "nbFollowersName1": 61463,
+    "nbFollowersName2": 351147,
+    "ratio": "2.3"
+  },
+  {
+    "name1": "jeanlassalle",
+    "name2": "MLP_officiel",
+    "common": 23088,
+    "nbFollowersName1": 68361,
+    "nbFollowersName2": 2669755,
+    "ratio": "0.9"
+  },
+  {
+    "name1": "jeanlassalle",
+    "name2": "EmmanuelMacron",
+    "common": 34170,
+    "nbFollowersName1": 68361,
+    "nbFollowersName2": 7575925,
+    "ratio": "0.4"
+  },
+  {
+    "name1": "jeanlassalle",
+    "name2": "JLMelenchon",
+    "common": 25797,
+    "nbFollowersName1": 68361,
+    "nbFollowersName2": 2354359,
+    "ratio": "1.1"
+  },
+  {
+    "name1": "jeanlassalle",
+    "name2": "vpecresse",
+    "common": 13725,
+    "nbFollowersName1": 68361,
+    "nbFollowersName2": 422881,
+    "ratio": "2.9"
+  },
+  {
+    "name1": "jeanlassalle",
+    "name2": "f_philippot",
+    "common": 18090,
+    "nbFollowersName1": 68361,
+    "nbFollowersName2": 322827,
+    "ratio": "4.8"
+  },
+  {
+    "name1": "jeanlassalle",
+    "name2": "PhilippePoutou",
+    "common": 11221,
+    "nbFollowersName1": 68361,
+    "nbFollowersName2": 205759,
+    "ratio": "4.3"
+  },
+  {
+    "name1": "jeanlassalle",
+    "name2": "Fabien_Roussel",
+    "common": 5777,
+    "nbFollowersName1": 68361,
+    "nbFollowersName2": 51257,
+    "ratio": "5.1"
+  },
+  {
+    "name1": "jeanlassalle",
+    "name2": "ChTaubira",
+    "common": 13312,
+    "nbFollowersName1": 68361,
+    "nbFollowersName2": 829568,
+    "ratio": "1.5"
+  },
+  {
+    "name1": "jeanlassalle",
+    "name2": "ZemmourEric",
+    "common": 21641,
+    "nbFollowersName1": 68361,
+    "nbFollowersName2": 351147,
+    "ratio": "5.4"
+  },
+  {
+    "name1": "MLP_officiel",
+    "name2": "EmmanuelMacron",
+    "common": 1138549,
+    "nbFollowersName1": 2669755,
+    "nbFollowersName2": 7575925,
+    "ratio": "12.5"
+  },
+  {
+    "name1": "MLP_officiel",
+    "name2": "JLMelenchon",
+    "common": 1343298,
+    "nbFollowersName1": 2669755,
+    "nbFollowersName2": 2354359,
+    "ratio": "36.5"
+  },
+  {
+    "name1": "MLP_officiel",
+    "name2": "vpecresse",
+    "common": 169696,
+    "nbFollowersName1": 2669755,
+    "nbFollowersName2": 422881,
+    "ratio": "5.8"
+  },
+  {
+    "name1": "MLP_officiel",
+    "name2": "f_philippot",
+    "common": 200446,
+    "nbFollowersName1": 2669755,
+    "nbFollowersName2": 322827,
+    "ratio": "7.2"
+  },
+  {
+    "name1": "MLP_officiel",
+    "name2": "PhilippePoutou",
+    "common": 71963,
+    "nbFollowersName1": 2669755,
+    "nbFollowersName2": 205759,
+    "ratio": "2.6"
+  },
+  {
+    "name1": "MLP_officiel",
+    "name2": "Fabien_Roussel",
+    "common": 12817,
+    "nbFollowersName1": 2669755,
+    "nbFollowersName2": 51257,
+    "ratio": "0.5"
+  },
+  {
+    "name1": "MLP_officiel",
+    "name2": "ChTaubira",
+    "common": 319773,
+    "nbFollowersName1": 2669755,
+    "nbFollowersName2": 829568,
+    "ratio": "10.1"
+  },
+  {
+    "name1": "MLP_officiel",
+    "name2": "ZemmourEric",
+    "common": 124788,
+    "nbFollowersName1": 2669755,
+    "nbFollowersName2": 351147,
+    "ratio": "4.3"
+  },
+  {
+    "name1": "EmmanuelMacron",
+    "name2": "JLMelenchon",
+    "common": 1087356,
+    "nbFollowersName1": 7575925,
+    "nbFollowersName2": 2354359,
+    "ratio": "12.3"
+  },
+  {
+    "name1": "EmmanuelMacron",
+    "name2": "vpecresse",
+    "common": 235098,
+    "nbFollowersName1": 7575925,
+    "nbFollowersName2": 422881,
+    "ratio": "3.0"
+  },
+  {
+    "name1": "EmmanuelMacron",
+    "name2": "f_philippot",
+    "common": 133815,
+    "nbFollowersName1": 7575925,
+    "nbFollowersName2": 322827,
+    "ratio": "1.7"
+  },
+  {
+    "name1": "EmmanuelMacron",
+    "name2": "PhilippePoutou",
+    "common": 51741,
+    "nbFollowersName1": 7575925,
+    "nbFollowersName2": 205759,
+    "ratio": "0.7"
+  },
+  {
+    "name1": "EmmanuelMacron",
+    "name2": "Fabien_Roussel",
+    "common": 27756,
+    "nbFollowersName1": 7575925,
+    "nbFollowersName2": 51257,
+    "ratio": "0.4"
+  },
+  {
+    "name1": "EmmanuelMacron",
+    "name2": "ChTaubira",
+    "common": 432996,
+    "nbFollowersName1": 7575925,
+    "nbFollowersName2": 829568,
+    "ratio": "5.4"
+  },
+  {
+    "name1": "EmmanuelMacron",
+    "name2": "ZemmourEric",
+    "common": 143604,
+    "nbFollowersName1": 7575925,
+    "nbFollowersName2": 351147,
+    "ratio": "1.8"
+  },
+  {
+    "name1": "JLMelenchon",
+    "name2": "vpecresse",
+    "common": 179810,
+    "nbFollowersName1": 2354359,
+    "nbFollowersName2": 422881,
+    "ratio": "6.9"
+  },
+  {
+    "name1": "JLMelenchon",
+    "name2": "f_philippot",
+    "common": 131455,
+    "nbFollowersName1": 2354359,
+    "nbFollowersName2": 322827,
+    "ratio": "5.2"
+  },
+  {
+    "name1": "JLMelenchon",
+    "name2": "PhilippePoutou",
+    "common": 121196,
+    "nbFollowersName1": 2354359,
+    "nbFollowersName2": 205759,
+    "ratio": "5.0"
+  },
+  {
+    "name1": "JLMelenchon",
+    "name2": "Fabien_Roussel",
+    "common": 27021,
+    "nbFollowersName1": 2354359,
+    "nbFollowersName2": 51257,
+    "ratio": "1.1"
+  },
+  {
+    "name1": "JLMelenchon",
+    "name2": "ChTaubira",
+    "common": 400677,
+    "nbFollowersName1": 2354359,
+    "nbFollowersName2": 829568,
+    "ratio": "14.4"
+  },
+  {
+    "name1": "JLMelenchon",
+    "name2": "ZemmourEric",
+    "common": 74646,
+    "nbFollowersName1": 2354359,
+    "nbFollowersName2": 351147,
+    "ratio": "2.8"
+  },
+  {
+    "name1": "vpecresse",
+    "name2": "f_philippot",
+    "common": 56874,
+    "nbFollowersName1": 422881,
+    "nbFollowersName2": 322827,
+    "ratio": "8.3"
+  },
+  {
+    "name1": "vpecresse",
+    "name2": "PhilippePoutou",
+    "common": 34060,
+    "nbFollowersName1": 422881,
+    "nbFollowersName2": 205759,
+    "ratio": "5.7"
+  },
+  {
+    "name1": "vpecresse",
+    "name2": "Fabien_Roussel",
+    "common": 12618,
+    "nbFollowersName1": 422881,
+    "nbFollowersName2": 51257,
+    "ratio": "2.7"
+  },
+  {
+    "name1": "vpecresse",
+    "name2": "ChTaubira",
+    "common": 117607,
+    "nbFollowersName1": 422881,
+    "nbFollowersName2": 829568,
+    "ratio": "10.4"
+  },
+  {
+    "name1": "vpecresse",
+    "name2": "ZemmourEric",
+    "common": 50157,
+    "nbFollowersName1": 422881,
+    "nbFollowersName2": 351147,
+    "ratio": "6.9"
+  },
+  {
+    "name1": "f_philippot",
+    "name2": "PhilippePoutou",
+    "common": 15323,
+    "nbFollowersName1": 322827,
+    "nbFollowersName2": 205759,
+    "ratio": "3.0"
+  },
+  {
+    "name1": "f_philippot",
+    "name2": "Fabien_Roussel",
+    "common": 7472,
+    "nbFollowersName1": 322827,
+    "nbFollowersName2": 51257,
+    "ratio": "2.0"
+  },
+  {
+    "name1": "f_philippot",
+    "name2": "ChTaubira",
+    "common": 49123,
+    "nbFollowersName1": 322827,
+    "nbFollowersName2": 829568,
+    "ratio": "4.5"
+  },
+  {
+    "name1": "f_philippot",
+    "name2": "ZemmourEric",
+    "common": 78502,
+    "nbFollowersName1": 322827,
+    "nbFollowersName2": 351147,
+    "ratio": "13.2"
+  },
+  {
+    "name1": "PhilippePoutou",
+    "name2": "Fabien_Roussel",
+    "common": 13015,
+    "nbFollowersName1": 205759,
+    "nbFollowersName2": 51257,
+    "ratio": "5.3"
+  },
+  {
+    "name1": "PhilippePoutou",
+    "name2": "ChTaubira",
+    "common": 45882,
+    "nbFollowersName1": 205759,
+    "nbFollowersName2": 829568,
+    "ratio": "4.6"
+  },
+  {
+    "name1": "PhilippePoutou",
+    "name2": "ZemmourEric",
+    "common": 11740,
+    "nbFollowersName1": 205759,
+    "nbFollowersName2": 351147,
+    "ratio": "2.2"
+  },
+  {
+    "name1": "Fabien_Roussel",
+    "name2": "ChTaubira",
+    "common": 17003,
+    "nbFollowersName1": 51257,
+    "nbFollowersName2": 829568,
+    "ratio": "2.0"
+  },
+  {
+    "name1": "Fabien_Roussel",
+    "name2": "ZemmourEric",
+    "common": 11514,
+    "nbFollowersName1": 51257,
+    "nbFollowersName2": 351147,
+    "ratio": "2.9"
+  },
+  {
+    "name1": "ChTaubira",
+    "name2": "ZemmourEric",
+    "common": 23118,
+    "nbFollowersName1": 829568,
+    "nbFollowersName2": 351147,
+    "ratio": "2.0"
   }
 ]

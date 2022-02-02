@@ -11,7 +11,7 @@ async function candidatAnalysis() {
     console.log('csv candidat downloaded');
 
     const csvCandidats = await neatCsv(fs.readFileSync(path.join(__dirname, '../data/candidats_noms_couleurs.csv')));
-    let candidatsInformations = require(path.join(__dirname, '../data/infosCandidats.json'));
+    let candidatsInformations = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/infosCandidats.json')));
 
 
 

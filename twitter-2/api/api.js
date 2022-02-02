@@ -2,6 +2,7 @@
 
 const app = require('express')();
 const path = require('path');
+const fs = require('fs');
 
 const { candidatAnalysis } = require('../dataProcessing/candidatAnalysis');
 const { tweetAnalysis } = require('../dataProcessing/tweetAnalysis');
@@ -33,8 +34,8 @@ app.get('/traitements/followers', function (req, res) {
 
 /* ----- Questions random ----- */
 app.get('/randomQuestion/followers', function (req, res) {
-    const dataFollowersCommon = require(path.join(__dirname, '../data/dataFollowersCommon.json'));
-    const candidats = require(path.join(__dirname, '../data/infosCandidats.json'));
+    const dataFollowersCommon = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/dataFollowersCommon.json')));
+    const candidats = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/infosCandidats.json')));
 
     const mainCandidat = candidats[random(0, candidats.length - 1)];
 
@@ -72,12 +73,12 @@ app.get('/randomQuestion/followers', function (req, res) {
 });
 
 app.get('/randomQuestion/:theme', function (req, res) {
-    let dataRatioTweet = require(path.join(__dirname, '../data/dataRatioTweetTheme.json'));
+    let dataRatioTweet = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/dataRatioTweetTheme.json')));
     if (!dataRatioTweet || !dataRatioTweet[req.params.theme]) return res.send({ error: 'true' });
 
     dataRatioTweet = dataRatioTweet[req.params.theme];
 
-    const candidats = require(path.join(__dirname, '../data/infosCandidats.json'));
+    const candidats = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/infosCandidats.json')));
 
     const mainCandidat = candidats[random(0, candidats.length - 1)];
     const ratioMainCandidat = dataRatioTweet[mainCandidat.userName].ratio;
@@ -124,13 +125,13 @@ function wordsTheme(theme) {
 /* ----- Exploration ----- */
 // avoir la liste des candidats à afficher
 app.get('/candidats', function (req, res) {
-    res.send(require(path.join(__dirname, '../data/infosCandidats.json')));
+    res.send(JSON.parse(fs.readFileSync(path.join(__dirname, '../data/infosCandidats.json'))));
 });
 
 // avoir les ratio de tweet par candidat par followers en commun
 app.get('/ratioNearCandidate/followers/:userName', function (req, res) {
-    const dataFollowersCommon = require(path.join(__dirname, '../data/dataFollowersCommon.json'));
-    const candidats = require(path.join(__dirname, '../data/infosCandidats.json'));
+    const dataFollowersCommon = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/dataFollowersCommon.json')));
+    const candidats = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/infosCandidats.json')));
 
     const mainCandidat = candidats.find(candidat => candidat.userName === req.params.userName);
     if (!mainCandidat) return res.send({ error: 'true' });
@@ -181,12 +182,12 @@ app.get('/ratioNearCandidate/followers/:userName', function (req, res) {
 
 // avoir les ratio de tweet par candidat en fonction du theme
 app.get('/ratioNearCandidate/:theme/:userName', function (req, res) {
-    let dataRatioTweet = require(path.join(__dirname, '../data/dataRatioTweetTheme.json'));
+    let dataRatioTweet = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/dataRatioTweetTheme.json')));
     if (!dataRatioTweet || !dataRatioTweet[req.params.theme]) return res.send({ error: 'true' });
 
     dataRatioTweet = dataRatioTweet[req.params.theme];
 
-    const candidats = require(path.join(__dirname, '../data/infosCandidats.json'));
+    const candidats = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/infosCandidats.json')));
 
     const mainCandidat = candidats.find(candidat => candidat.userName === req.params.userName);
     if (!mainCandidat) return res.send({ error: 'true' });
