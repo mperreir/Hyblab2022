@@ -32,9 +32,8 @@ async function loadRebet() {
             type: 'sms',
             sender: 'THOMAS',
             message: 'J’aurai fait pareil. Alors tu parierais sur combien? <br/> PS: Je mange saignant mon steak',
-            style: 'sms-top sms-left'
+            style: 'sms-top sms-left',
             id: "sms-keep-percentage-answer",
-            style: 'sms-top sms-left '
         },
         {
             type: 'sms',

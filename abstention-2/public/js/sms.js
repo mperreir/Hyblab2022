@@ -290,6 +290,15 @@ async function createSMSElements(messages, smsTread) {
         else if (message.type === 'city-search') {
             smsHtml = await loadTemplate('templates/sms/city_search.ejs', message);
             smsTread.insertAdjacentHTML('beforeend', smsHtml);
+        } else if (message.type === 'image') {
+            smsHtml = await loadTemplate('templates/sms/sms_img.ejs', message);
+            smsTread.insertAdjacentHTML('beforeend', smsHtml);
+        } else if (message.type === 'image2') {
+            smsHtml = await loadTemplate('templates/sms/sms_img2.ejs', message);
+            smsTread.insertAdjacentHTML('beforeend', smsHtml);
+        } else if (message.type === 'image4') {
+            smsHtml = await loadTemplate('templates/sms/sms_img4.ejs', message);
+            smsTread.insertAdjacentHTML('beforeend', smsHtml);
         }
         else {
             smsHtml = await loadTemplate('templates/sms/sms.ejs', message);
