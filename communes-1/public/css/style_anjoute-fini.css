@@ -59,7 +59,7 @@
     justify-content: center;
 }
 
-.bottom .goToQuestion {
+.bottom .restart {
     color: #C8A166;
     background-color: #10141A;
     border:  2px solid #C8A166;
@@ -69,12 +69,12 @@
     cursor: pointer;
 }
 
-.bottom .goToQuestion:hover {
+.bottom .restart:hover {
     color: black;
     background-color: #C8A166;
 }
 
-.bottom .goToQuestion p {
+.bottom .restart p {
     font-family: 'Lineal', sans-serif;
     font-size: 200%;
 
