@@ -15,6 +15,8 @@
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="js/index.js" defer></script>
   <script src="js/procuration.js" defer></script>
+  <script src="js/draw.js" defer></script>
+
 </head>
 <body>
     <!-- Le conteneur sert à vérouiller les proportions (aspect ratio) du contenu de la page (ici des slides) -->
@@ -42,7 +44,7 @@
 
                 <div id ="diag">
                     <p><img  src="img/Procuration/diagramme.svg" id="diagramm"></p>
-                    <p >Nombres de demandes de procurations durant l'élection présidentielle de <b>2017, en millions.</b></p>
+                    <p>Nombres de demandes de procurations durant l'élection présidentielle de <b>2017, en millions.</b></p>
                 </div>
                
                 <p>À ton avis, quelle tranche d'âge fait le plus de demandes de procuration ?</p>
@@ -50,11 +52,18 @@
                <p id="Quest_Proc">
                 <input type ="button" class="bouton" value="30-50 ANS" id="QP1">
 
-                <input type ="button" class="bouton" value="18-29 ANS" id="QP2">
+                <input type ="button" class="bouton" value="18-29 ANS" id="activateur">
 
                 <input type ="button" class="bouton" value="+60 ANS" id="QP3">
               </p>
-
+              <svg id="svg1" width="5%" height="5%" viewBox="0 0 83 33" fill="none" xmlns="http://www.w3.org/2000/svg" 
+              style="position: absolute; top: 63%; left: 10%;"> 
+                <path 
+                d="M47.6585 0.509203C35.2529 1.30484 13.9251 9.65515 6.4778 15.9834C0.117439 21.3881 -2.61768 28.0905 8.76088 31.1266C21.7848 34.6018 41.0576 30.8271 53.1152 26.7881C62.8497 23.5272 80.5086 15.7876 82.3584 8.10782C84.2304 0.33587 63.0918 1.97888 55.9935 2.22503C42.9039 2.67893 35.5778 -0.168256 20.8781 4.35567" 
+                stroke="#542429" 
+                stroke-linecap="round"
+                />
+                </svg>
               <div  class="center"><img src="img/Procuration/types.gif" class="gif"></div>
                 <footer>
                     <div id="choix_vote">
@@ -64,7 +73,7 @@
                       <div class="pagenumber">
                         <a href="#" class="not_current">1</a>
                         <b class="not_current">|</b>
-                        <a href="procuration.html" id="currentnum">2</a>
+                        <a href="#" id="currentnum">2</a>
                         <b class="not_current">|</b>
                         <a href="#" class="not_current">3</a>
                         <b class="not_current">|</b>

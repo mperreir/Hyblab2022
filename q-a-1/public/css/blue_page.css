@@ -118,7 +118,7 @@ button{
     padding-top: 3%;
     width:100%;
     font-size: 20%;
-    margin-top: 20%;
+    margin-top: 10%;
   }
 
   #bandeau li{
@@ -189,5 +189,5 @@ a:link,a:visited{
 }
 
 #check-header{
-    height: 18%;
+    height: 25%;
 }

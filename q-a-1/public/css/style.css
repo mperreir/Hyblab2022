@@ -1,3 +1,7 @@
+/* ------- Important ! Please at least keep the last part of this CSS ----------- */
+/* that forces a 9:16 format (portrait) on all contents */
+
+
 /* Normalize margin and padding to ease elements positioning */
 *{
     padding:0;
@@ -30,7 +34,7 @@ button{
     margin: 1%;
     width: 40%;
     height: 8%;
-    border-radius: 30px;
+    border-radius: 600px;
     font-size: 13%;
     border: none;
     font-family: 'folsomblack';
@@ -42,12 +46,6 @@ button{
     width:100%;
     text-align: center;
     bottom: 6%;
-}
-
-#intro_gif{
-    position: absolute;
-    width: 100%;
-    margin-top:-5%;
 }
 
 svg
@@ -81,10 +79,7 @@ svg
     background-color: #ADB3D7;
     width: 100%;
     height: 100%;
-}
-
-.swiper-pagination-bullet-active {
-    background-color: white !important;
+    position: relative
 }
 
 .warp {
@@ -111,6 +106,9 @@ svg
     width:75%;
 }
 
+.gif{
+    width: 90%;
+}
 
 /* Most of the elements in this demo are absolute positionned with percentages */
 #first-section header, #first-slide header{
@@ -134,6 +132,7 @@ svg
     width: 35%;
 }
 
+
 #fleche{
     width:20%;
 }
@@ -141,6 +140,7 @@ svg
 .asterisque{
     width:5%;
 }
+
 /* Last slide image is centered */
 #img-fini{
     width: 50%;
@@ -213,8 +213,13 @@ p.alignRight{
     margin-top: -1%;
 }
 
+ #intro_gif{
+    position: absolute;
+    width: 100%;
+    margin-top:-5%;
+}
 
-
+ 
 /* ---------- Important media queries for easy responsive content :-) ----------------- */
 /* Can be adapted for other ratios that 9:16 or for horizontal content (ex: 16:9) */
 
@@ -275,17 +280,6 @@ p.alignRight{
     }
 }
 
-@keyframes anim_verticale {
-    from{
-        transform: translateY(-10%);
-    }
-
-    to{
-
-        transform: translateY(3%);
-    }
-}
-
 @keyframes anim_horizontale {
     from{
         transform:translateX(-5%);
@@ -294,6 +288,17 @@ p.alignRight{
     to{
 
         transform: translateX(15%);
+    }
+}
+
+@keyframes anim_verticale {
+    from{
+        transform: translateY(-10%);
+    }
+
+    to{
+
+        transform: translateY(3%);
     }
 }
 
@@ -381,13 +386,22 @@ p.alignRight{
       opacity: 1;
     }
   }
-  
+
+  .anim_intro {
+	-webkit-animation: slide-out-bottom 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) 2.9s both;
+	        animation: slide-out-bottom 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) 2.9s both;
+}
+
+  .anim-horizontale {
+    animation : anim_horizontale 1s linear infinite alternate;
+}
 
 /*Utiliser une animation*/
 
 .anim-wobble {
     animation: wobble 2s 1s alternate infinite
 }
+/*Utiliser une animmation*/
 
 .anim-text {
 
@@ -399,21 +413,12 @@ p.alignRight{
     animation : anim_verticale 1s linear infinite alternate;
 }
 
-.anim-horizontale {
-    animation : anim_horizontale 1s linear infinite alternate;
-}
-
 .anim-rotation {
     animation: anim-rotate 1s infinite alternate;
 }
 
 .changeColor {
     animation : changeColor 3s infinite alternate;
-}
-
-.anim_intro {
-	-webkit-animation: slide-out-bottom 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) 2.9s both;
-	        animation: slide-out-bottom 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) 2.9s both;
 }
 
 .tourner_les_serviettes {
@@ -450,4 +455,36 @@ p.alignRight{
          url('font/marianne-thin-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
+
+.dessin_rond{
+    stroke-dasharray: 1400px;
+    stroke-dashoffset: 1400px;
+    animation-name: draw;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+.dessin_rond_latence{
+    stroke-dasharray: 1400px;
+    stroke-dashoffset: 1400px;
+    animation-name: draw;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+#svg1 , #svg2{
+    opacity: 0;
+}
+
+@keyframes draw {
+    from{
+        opacity: 1;
+    }
+    to {
+        stroke-dashoffset: 0;
+        opacity: 1;
+    }
 }
