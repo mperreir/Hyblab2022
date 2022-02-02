@@ -30,8 +30,8 @@ page('/communes-2/information', async function () {
         while(commune != d[l][nom_commune]){
             l++;
         }
-        n = d[l]; 
-        tab =  [];
+        let n = d[l]; 
+        let tab =  [];
         for(let i= 1; i<6; i++){
             let NomC = `NomC${i}`;
             let Voix = `% Voix/ExpC${i}`;
@@ -46,8 +46,8 @@ page('/communes-2/information', async function () {
         while(commune != d[l][nom_commune]){
             l++;
         }
-        n = d[l]; 
-        tab2 =  [];
+        let n = d[l]; 
+        let tab2 =  [];
         let V1 = "% Voix/Exp" ;
         let V2 = "% Voix/Exp__1";
         let N1 ="Nom";
@@ -58,12 +58,12 @@ page('/communes-2/information', async function () {
         return tab2;
     }
 
-    dataSet = data_Nom_Voix(dat,communeCourante);
-    data2t = data_Nom_Voix_2T(data2,communeCourante);
+    let dataSet = data_Nom_Voix(dat,communeCourante);
+    let data2t = data_Nom_Voix_2T(data2,communeCourante);
     console.log(data2t[0]);
 
-    pie();
-    histo();
+    pie(data2t);
+    histo(dataSet);
 
 
     //Info commune tour1
@@ -129,7 +129,7 @@ page('/communes-2/information', async function () {
     });
 });
 
-function histo() {
+function histo(dataSet) {
     const margin = 20;
     const width = 330 - 2 * margin;
     const height = 250 - 2 * margin;
@@ -219,7 +219,7 @@ function histo() {
       .text(`${dataSet[0].Commune}`)
 }
 
-function pie(){
+function pie(data2t){
     let col = ["#ED6464","#83C49E"]; 
     const size = 300;
     const fourth = size / 4;
