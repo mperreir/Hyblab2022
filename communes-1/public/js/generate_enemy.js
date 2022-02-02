@@ -216,25 +216,28 @@ function generate_enemy(code_commune_joueur) {
 		adversaires.splice(adversaires.indexOf(code_commune_joueur), 1);
 		if (voisins.length >= 7) {
 			for (let i = 0; i < 7; i++) {
-				adversaires.push(voisins[i]);
+				adversaires.push(voisins[i].toString());
 			}
 		}
 	}
 	else  {
 		if (voisins.length >= 6) {
 			for (let i = 0; i < 6; i++) {
-				adversaires.push(voisins[i]);
+				adversaires.push(voisins[i].toString());
 			}
 		}
 		else {
 			let nb_villes_manquantes = 6 - voisins.length;
-			adversaires.push(...voisins);
+			for (let idx in voisins) {
+				adversaires.push(voisins[idx].toString());
+			}
+
 
 			for (let idx_voisin in voisins) {
 				let voisinsRangDeux = data_voisins.get(voisins[idx_voisin]);
 				for (let idx_voisinDouble in voisinsRangDeux) {
 					if (!adversaires.includes(voisinsRangDeux[idx_voisinDouble])) {
-						adversaires.push(voisinsRangDeux[idx_voisinDouble]);
+						adversaires.push(voisinsRangDeux[idx_voisinDouble].toString());
 						nb_villes_manquantes--;
 						if (nb_villes_manquantes === 0) {
 							break;
