@@ -2,20 +2,11 @@ select = document.querySelector('#top-select');
 tweet = document.querySelector('#tweets');
 theme_pic = document.querySelector('img#theme');
 let themes;
+let i = false;
 
 (() => initThemesTopTweets())();
 
 async function initThemesTopTweets() {
-
-    const fourth_slide_dom = $("#fourth-slide #SlideTop");
-    //Get the swiper template
-    const swiper_template = await (await fetch("./templates/swiper-toptweet.mustache")).text();
-
-    //Render the swiper template
-    const swiper_template_rendered = Mustache.render(swiper_template);
-
-    //Get the rendered swiper
-    fourth_slide_dom.append(swiper_template_rendered);
 
     themes = await fetchThemes();
     let o = document.createElement('option');
@@ -50,6 +41,7 @@ async function showTopTweets () {
 
     let tweets = await fetchTopTweetsTheme(parseInt(select.value));
 
+    //Create a new Swiper
     const swiper = new Swiper("#mySwiperTop", {
         pagination: {
             el: ".swiper-pagination",
@@ -69,25 +61,19 @@ async function showTopTweets () {
             candidat[0].profile_image_url = candidat[0].profile_image_url.replace("_normal.j", '.j');
             t["url"] = candidat[0].profile_image_url;
             const swiper_inside_template_rendered = Mustache.render(swiper_inside_template,t);
-    
             new_slide.setAttribute("class", "swiper-slide tweet");
             new_slide.innerHTML = swiper_inside_template_rendered;
             swiper_wrapper.appendChild(new_slide);
         }
-        
     });
-
-    //const SwiperTop = document.querySelector("#mySwiperTop");
-    //let swiper_notification = document.querySelector(".swiper-notification");
-    //SwiperTop.removeChild(swiper_notification);
 
     // no tweet for this themas
     if (tweets.length === 0) {
-
-        swiper_wrapper.appendChild(document.createTextNode("Pas de top tweet trouvé pour ce theme !"));
-        //tweet_theme_div.appendChild(document.createTextNode("Pas de top tweet trouvé pour ce theme !"));
+        let no = document.createElement("p");
+        no.setAttribute("class","no-tweet");
+        no.innerHTML = "Pas de top tweet trouvé pour ce theme !"
+        swiper_wrapper.appendChild(no);
     }
-    //tweet.appendChild(tweet_theme_div);
 }
 
 
@@ -193,26 +179,3 @@ function TopTweetsThemePic(theme_id) {
           break;
       }
 }
-
-
-// tops tweets
-/*
-let swiper_wrapper = document.querySelector('#mySwiperTop' + candidat_id + ' .swiper-wrapper');
-swiper_wrapper.innerHTML = '';
-
-let top_tweets;
-if (truc === "semaine") {
-    top_tweets = await (await fetch(`./api/tweets/tops/semaine/candidat/${candidat_id}`)).json();
-} else {
-    top_tweets = await (await fetch(`./api/tweets/tops/all/candidat/${candidat_id}`)).json();
-}
-
-top_tweets.forEach(top_tweet => {
-    let new_slide = document.createElement('div');
-    let p = document.createElement('p');
-    new_slide.setAttribute("class", "swiper-slide tweet");
-    p.innerText = top_tweet.text;
-    new_slide.appendChild(p);
-    swiper_wrapper.appendChild(new_slide);
-});
-*/
