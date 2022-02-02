@@ -1,10 +1,16 @@
 "use strict";
 
-
 // temporaire (pour tester)
 let stepsCandidates = {
-  "1": [], "2": [], "3": [], "4": [], "5": [], "6": [], "7": [], "8": [],
-}
+  1: [],
+  2: [],
+  3: [],
+  4: [],
+  5: [],
+  6: [],
+  7: [],
+  8: [],
+};
 /*
 candidates.forEach(candidate => {
   let step = Math.floor(Math.random() * (Math.floor(9) - Math.ceil(1)) + Math.ceil(1));
@@ -28,10 +34,10 @@ class App extends React.Component {
         <Step6Page data={data} nextStep={() => this.nextStep()} />,
         <Step7Page data={data} nextStep={() => this.nextStep()} />,
         <Step8Page data={data} nextStep={() => this.nextStep()} />,
-        <EndingPage nextStep={() => this.resetStep()} />
+        <EndingPage nextStep={() => this.resetStep()} />,
       ],
-      step: 0
-    }
+      step: 0,
+    };
   }
 
   nextStep() {
@@ -40,8 +46,15 @@ class App extends React.Component {
 
   resetStep() {
     stepsCandidates = {
-      "1": [...candidates], "2": [], "3": [], "4": [], "5": [], "6": [], "7": [], "8": [],
-    }
+      1: [...candidates],
+      2: [],
+      3: [],
+      4: [],
+      5: [],
+      6: [],
+      7: [],
+      8: [],
+    };
     this.setState({ step: 0 });
   }
 
@@ -50,10 +63,7 @@ class App extends React.Component {
   }
 }
 
-ReactDOM.render(
-  <App />,
-  document.getElementById('root')
-);
+ReactDOM.render(<Step4Game />, document.getElementById("root"));
 
 /*
 // Init of the (touch friendly) Swiper slider
