@@ -324,12 +324,10 @@ class Question10 extends Question{
 	}
 	generate_question()
 	{
-		console.log(this.code_commune)
 		let key = this.annee + "_2";
 		let info_commune = data_election.get(key).get(this.code_commune);
 		let info_commune_joueur = data_election.get(key).get(this.code_commune_du_joueur);
 		let pour_voix = info_commune.pour_voix.exp[0];
-		console.log(this.code_commune_du_joueur)
 		let pour_voix_commune_joueur = info_commune_joueur.pour_voix.exp[0];
 
 		let question = "Au second tour de " + this.annee + ", votre commune a-t-elle voté comme " + info_commune.nom_com +
