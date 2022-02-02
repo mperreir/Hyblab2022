@@ -71,10 +71,9 @@ body {
 #answer {
     margin-top: 10vh;
     color: white;
-    font-size: 2.8vh;
+    font-size: 2.6vh;
     position: relative;
     height: 40vh;
-    padding-bottom: 5%;
 }
 
 #answer img {
