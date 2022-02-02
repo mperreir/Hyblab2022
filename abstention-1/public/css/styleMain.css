@@ -514,6 +514,91 @@ lottie-player{
     justify-content : center;
     text-align : center;
     font-weight: bold;
+    padding : 10px;
+    color:rgb(26, 27, 27);
+  }
+  
+  .no-clicky {
+      pointer-events:none;
+      z-index:4;
+}
+  
+  #game-header {
+    font-variant:small-caps;
+    letter-spacing:0.05em;
+    z-index: 4;
+  }
+  
+  
+  #game-board {
+    display:none;
+    position:absolute;
+    z-index: 4;
+  }
+  
+  #end-display {
+    display:none;
+    position:absolute;
+    top:5em;
+    z-index: 4;
+  }
+  
+  table {
+    border-collapse:collapse;
+  }
+  
+  td {
+    height:3em;
+    width:3em;
+    border:2px solid black;
+    text-align:center;
+    vertical-align:middle;
+    font-size:2em;
+    cursor:pointer;
+  }
+  
+  table tr:first-child td {border-top:0;}
+  
+  table tr:last-child td {border-bottom:0;}
+  
+  table tr td:first-child {border-left:0;}
+  
+  table tr td:last-child {border-right:0;}
+  
+  .endgame {
+    font-size:2em; 
+  }
+  
+  .selections {
+    display:none;
+    border-radius:1em;
+  }
+  
+  .char-btn {
+    height:3.5em;
+    width:3.5em;
+  }
+  
+  .fadeOut {
+    animation:leaving 100ms linear 1 alternate;
+  }
+  
+  @keyframes leaving {
+    from {
+      transform:scale(1);
+      opacity:1;
+    }
+    
+    to {
+      transform:scale(0);
+      opacity:0;
+    }
+  }
+  
+  @keyframes sliding {
+    from {top:-5em;}
+    to {top: 0;}
+  }
     bottom : 80%;
     color:white;
     z-index: 3;
