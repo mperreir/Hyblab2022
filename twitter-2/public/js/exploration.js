@@ -2,11 +2,19 @@
 
 window.onload = () => {
   document.getElementById("autre_candidat").addEventListener("click", () => {
+    sessionStorage.removeItem('selected_candidate');
     window.location.reload();
   });
   document.getElementById("return").addEventListener("click", () => {
     window.location.href = "./index.html";
   });
+
+  if (sessionStorage.getItem("selected_candidate") === null) {
+    document.getElementById('selection-candidat').style.visibility = 'visible';
+  }
+  else if (sessionStorage.getItem('selected_theme') === null) {
+    document.getElementById('categorie').style.visibility = 'visible';
+  }
 
   fetch("api/candidats")
     .then(res => res.json())

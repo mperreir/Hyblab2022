@@ -8,10 +8,17 @@ window.onload = () => {
     window.scrollTo(0, 25);
 
     document.getElementById("other_candidate").addEventListener("click", () => {
+        sessionStorage.removeItem('selected_candidate');
+        window.location.href = "./exploration.html";
+    });
+
+    document.getElementById("other_category").addEventListener("click", () => {
+        sessionStorage.removeItem('selected_theme');
         window.location.href = "./exploration.html";
     });
 
     document.getElementById("exit").addEventListener("click", () => {
+        sessionStorage.removeItem('selected_candidate');
         window.location.href = "./index.html";
     });
 
