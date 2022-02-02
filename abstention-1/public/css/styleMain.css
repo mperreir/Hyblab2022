@@ -54,14 +54,16 @@ body{
 
 #logoVelo{
     position:absolute;
-    left: 55%;
-    top:5%;
-    text-align: center;
-    width: 30%;
+    left: 35%;
+    top:2.5%;
+    width: 60%;
     height: 30%;
+    transform: scale(0.75,0.75);
 }
 #gifVelo{
-    width: 60%;
+    width: 30%;
+    padding-top: 12.5%;
+    padding-left: 2.5%;
 }
 
 #logo{
