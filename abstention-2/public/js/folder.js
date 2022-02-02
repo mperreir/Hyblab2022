@@ -136,7 +136,7 @@ async function loadFolder(folderName) {
             break;
     }
 
-    const screen = document.getElementById('container');
+    const screen = document.getElementById('screen');
     const folderHtml = await loadTemplate('templates/folders/folder.ejs', Object.assign(data, FOLDER_DATA[folderName]));
     screen.innerHTML = folderHtml;
 
@@ -211,78 +211,7 @@ async function loadFolder(folderName) {
         }
         loadFileExplorer();
     });
-
-    // switch (folderName) {
-    //     case 'abstention':
-    //     case 'etrangers':
-    //         const graphAbstention = await loadTemplate('templates/folders/graphAbsention.ejs', {
-    //             cityName: 'Nantes', cityPercent: 30, meanPercent: 35
-    //         });
-    //         document.getElementById('fd-graph-template').innerHTML = graphAbstention;
-    //         break;
-    //     case 'blancsNuls':
-    //         const graphEtrangers = await loadTemplate('templates/folders/graphEtrangers.ejs', {
-    //             cityName: 'Nantes', cityPercent: 30, meanPercent: 35
-    //         });
-    //         document.getElementById('fd-graph-template').innerHTML = graphEtrangers;
-    //         new Chart(document.getElementById('graph-chartjs'), {
-    //             type: 'bubble',
-    //             data: {
-    //                 datasets: [{
-    //                     initalData: [30, 35],
-    //                     data: getEtrangersData([30, 35])[0],
-    //                     backgroundColor: getEtrangersData([30, 35])[1]
-    //                 }]
-    //             },
-    //             options: {
-    //                 // responsive: true,
-    //                 // maintainAspectRatio: false,
-    //                 plugins: {
-    //                     legend: {
-    //                         display: false
-    //                     }
-    //                 },
-    //                 scales: {
-    //                     x: {
-    //                         suggestedMin: 0,
-    //                         suggestedMax: 6,
-    //                         grid: {
-    //                             drawBorder: false,
-    //                             lineWidth: 0
-    //                         },
-    //                         ticks: {
-    //                             display: false
-    //                         }
-    //                     },
-    //                     y: {
-    //                         suggestedMin: 0,
-    //                         suggestedMax: Math.floor(Math.max(...[30, 35]) / 3) + 1,
-    //                         grid: {
-    //                             drawBorder: false,
-    //                             lineWidth: 0
-    //                         },
-    //                         ticks: {
-    //                             display: false
-    //                         }
-    //                     }
-    //                 }
-    //             }
-    //         }
-    //         );
-    //         break;
-    //     case 'nouveauxHabitants':
-    //     case 'mineurs':
-    //         const graphNouveauxHabitants = await loadTemplate('templates/folders/graphNouveauxHabitants.ejs', {
-    //             cityName: 'Nantes', cityPercent: 30, meanPercent: 35
-    //         });
-    //         document.getElementById('fd-graph-template').innerHTML = graphNouveauxHabitants;
-    //         break;
-    //     default:
-    //         break;
-    // }
 }
-
-
 
 
 function getEtrangersData(data) {

@@ -3,7 +3,7 @@ async function loadFileExplorer() {
     
     const metropoleRq = await fetch('api/metropole/');
     metropoleData = await metropoleRq.json();
-    metropoleData = metropoleData[selectedCity];
+    metropoleData = metropoleData.nantes;
 
     const screen = document.getElementById('screen');
 
