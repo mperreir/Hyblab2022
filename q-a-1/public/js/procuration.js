@@ -30,25 +30,4 @@ logo.appendChild(img);
   
 
 
-const QP1 = document.getElementById("QP1");
-QP1.addEventListener("click", function(event){
-
-    window.alert("Mauvaise Réponse !");
-})
-
-const QP2 = document.getElementById("QP2");
-QP2.addEventListener("click", function(event){
-
-    window.alert("Bonne Réponse, bien joué !");
-    QP1.style.backgroundColor="red";
-    QP2.style.backgroundColor="green";
-    QP3.style.backgroundColor="red";
-
-})
-
-const QP3 = document.getElementById("QP3");
-QP3.addEventListener("click", function(event){
-
-    window.alert("Mauvaise Réponse !");
-})
 

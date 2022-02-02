@@ -153,13 +153,16 @@ button{
 }
 
 #diag{
-    display: flex;
+    display:flex;
     justify-content: space-between;
+    object-fit: contain;
+    
     
 }
 
 #diagramm{
-    width: 100%;
+    width: 125%;
+    height: 100%;
 }
 
 #Quest_Proc{
