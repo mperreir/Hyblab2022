@@ -69,7 +69,7 @@ reponse1.addEventListener('click', () => {
 	}
 	else if(question_data[1][1])
 	{
-		window.location.href = 'anjoute-joute-win.html';
+		window.location.href = 'anjoute-commune-win.html';
 	}
 	else {
 		window.location.href = 'anjoute-oups.html';
@@ -91,7 +91,7 @@ reponse2.addEventListener('click', () => {
 		window.location.href = 'anjoute-victoire.html';
 	}
 	if(question_data[2][1]) {
-		window.location.href = 'anjoute-joute-win.html';
+		window.location.href = 'anjoute-commune-win.html';
 	}
 	else {
 		window.location.href = 'anjoute-oups.html';
