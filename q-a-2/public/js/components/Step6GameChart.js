@@ -29,7 +29,7 @@ class Step6GameChart extends React.Component {
                     labels: {
                         render: 'image',
                         textMargin: 5,
-                        images: candidates.map(c => ({ src: 'img/step67Game/' + c.head_img, width: 30, height: 30 }))
+                        images: this.props.candidates.map(c => ({ src: 'img/step67Game/' + c.head_img, width: 30, height: 30 }))
                     }
                 },
                 tooltips: {

@@ -7,17 +7,19 @@ class Step2Game extends React.Component {
             this.state = { ...this.props.game.data};
         }
         else {
-            const selectedCharacters = {} 
+            const selectedCharacters = {}; 
             stepsCandidates['2'].map((e) => {
-                if(e.id < 6) selectedCharacters[e.id] = false    //enlever le if quand on aura tout
+                selectedCharacters[e.id] = false
             });
+            console.log(selectedCharacters);
 
+            const tempId = stepsCandidates['2'].find(c => !c.stepTwoGame.valid).id;
+            stepsCandidates['2'].find(c => c.id === tempId).stepTwoGame.valid = false;
             this.state = {
                 selected: selectedCharacters,
-                IDloser: stepsCandidates['2'][Math.floor(Math.random()*6)].id,
+                IDloser: tempId,
                 candidates: stepsCandidates['2'],
             };
-            candidates[this.state.IDloser].stepTwoGame.valid = false;
         }
     }
 
@@ -32,10 +34,10 @@ class Step2Game extends React.Component {
         const tmpState = JSON.parse(JSON.stringify(this.state));
         let winner = true;
 
-        if (this.state.selected[this.state.IDloser]) winner = false;
+        if (Object.entries(this.state.selected).find(([id, value]) => id == this.state.IDloser)[1]) winner = false;
     
         for(const [key, value] of Object.entries(this.state.selected)) {
-            if(parseInt(key) !== this.state.IDloser && value === false) winner = false;
+            if(key != this.state.IDloser && value === false) winner = false;
         }
 
         const gameState = {
@@ -69,16 +71,18 @@ class Step2Game extends React.Component {
         return(            
             <div className='step2Game'>
                 <table className='step2Game-images-container'>
-                    <tr>
-                        {imageCandidates[0]}
-                        {imageCandidates[1]}
-                        {imageCandidates[2]}
-                    </tr>
-                    <tr>
-                        {imageCandidates[3]}
-                        {imageCandidates[4]}
-                        {imageCandidates[5]}
-                    </tr>
+                    <tbody>
+                        <tr>
+                            {imageCandidates[0]}
+                            {imageCandidates[1]}
+                            {imageCandidates[2]}
+                        </tr>
+                        <tr>
+                            {imageCandidates[3]}
+                            {imageCandidates[4]}
+                            {imageCandidates[5]}
+                        </tr>
+                    </tbody>
                 </table>
             </div>
         );

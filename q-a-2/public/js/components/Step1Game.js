@@ -49,7 +49,7 @@ class Step1Game extends React.Component {
         const tmpState = {...this.state};
         delete tmpState.candidatesNextStep;
         const keys = Object.keys(tmpState);
-        const validateDisabled = keys.reduce((previous, current) => previous && (tmpState[current].isAcceptClick || tmpState[current].isCancelClick));
+        const validateDisabled = keys.reduce((previous, current) => previous && (tmpState[current].isAcceptClick || tmpState[current].isCancelClick), true);
         if (validateDisabled) {
             this.isWin();
             this.props.enableGameButton();

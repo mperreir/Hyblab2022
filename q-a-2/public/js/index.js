@@ -52,7 +52,36 @@ class App extends React.Component {
 }
 
 function randomizeCandidates() {
+  let candidatesTemp = [...candidates];
+  let randomId;
 
+  let candidateTemp = getRandomCandidate(candidatesTemp);
+  candidateTemp.stepOneGame.age = "17 ans";
+  candidateTemp.stepOneGame.valid = false;
+
+  candidateTemp = getRandomCandidate(candidatesTemp);
+  candidateTemp.stepOneGame.legalStatus = "Perte des droits d'éligibilité";
+  candidateTemp.stepOneGame.valid = false;
+
+  candidateTemp = getRandomCandidate(candidatesTemp);
+  candidateTemp.stepTwoGame.valid = false;
+
+  candidateTemp = getRandomCandidate(candidatesTemp);
+  randomId = Math.floor(Math.random()*4);
+  Object.values(candidateTemp.stepThreeGame.statements)[randomId].statement = "Ordinateur portable";
+  Object.values(candidateTemp.stepThreeGame.statements)[randomId].valid = false;
+
+  candidateTemp = getRandomCandidate(candidatesTemp);
+  randomId = Math.floor(Math.random()*4);
+  Object.values(candidateTemp.stepThreeGame.statements)[randomId].statement = "Maison de ses parents";
+  Object.values(candidateTemp.stepThreeGame.statements)[randomId].valid = false;
+}
+
+function getRandomCandidate(candidatesTemp) {
+  const randomIndex = Math.floor(Math.random()*candidatesTemp.length);
+  const candidateTemp = candidatesTemp[randomIndex];
+  candidatesTemp.splice(randomIndex, 1);
+  return candidateTemp;
 }
 
 randomizeCandidates();
