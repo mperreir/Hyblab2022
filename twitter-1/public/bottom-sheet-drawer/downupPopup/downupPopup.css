@@ -26,6 +26,8 @@
     align-self: center;
     font-size: 20px;
     cursor: pointer;
+    margin-top : 2%;
+    margin-right: 5%;
 }
 
 .downupPopup-content {

@@ -30,7 +30,7 @@ app.post('/islogged', function(req, res) {
 // Minimum routing: serve static content from the html directory
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/admin',
-    require('connect-ensure-login').ensureLoggedIn("../login.html"),
+    require('connect-ensure-login').ensureLoggedIn("./login.html"),
     express.static(path.join(__dirname, 'admin')));
 app.use(express.static(path.join(__dirname, '../__common-logos__')));
 

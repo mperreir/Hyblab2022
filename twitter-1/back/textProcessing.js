@@ -10,11 +10,26 @@ const TfIdf = natural.TfIdf;
 
 const Readable = require('stream').Readable;
 
+accentsTidy = function(s){
+    let r = s.toLowerCase();
+    r = r.replace(new RegExp(/[àáâãäå]/g),"a");
+    r = r.replace(new RegExp(/æ/g),"ae");
+    r = r.replace(new RegExp(/ç/g),"c");
+    r = r.replace(new RegExp(/[èéêë]/g),"e");
+    r = r.replace(new RegExp(/[ìíîï]/g),"i");
+    r = r.replace(new RegExp(/ñ/g),"n");
+    r = r.replace(new RegExp(/[òóôõö]/g),"o");
+    r = r.replace(new RegExp(/œ/g),"oe");
+    r = r.replace(new RegExp(/[ùúûü]/g),"u");
+    r = r.replace(new RegExp(/[ýÿ]/g),"y");
+    return r;
+};
+
 class Labeler {
     constructor(themes) {
         // réduit à la forme primitive les keyswords
         themes = themes.map(theme => {
-            theme.keywords = natural.PorterStemmerFr.tokenizeAndStem(theme.keywords);
+            theme.keywords = natural.PorterStemmerFr.tokenizeAndStem(accentsTidy(theme.keywords));
             return theme;
         });
 
@@ -23,7 +38,7 @@ class Labeler {
 
     // labelling a tweet and return this tweet labeled
     labellingTweet(tweet) {
-        tweet.data = natural.PorterStemmerFr.tokenizeAndStem(tweet.text);
+        tweet.data = natural.PorterStemmerFr.tokenizeAndStem(accentsTidy(tweet.text.replace('#', '')));
         const trie = new Trie();
         trie.addStrings(tweet.data);
 
@@ -37,26 +52,55 @@ class Labeler {
             themeScores.push(themeDistance);
         });
 
+        // if((new Date()).isBetweenWeekBefore(new Date(parseInt(tweet.created_at)*1000)))
+        //     console.log("ok");
+
         // pondération en fonction du nombre de keywords
         themeScores.map((value, index) => value / this.themes[index].keywords.length);
 
-        let maxSCoreIndex = 0;
+        let maxSCoreIndex = -1;
         themeScores.forEach((value, index) => {
-            if (value > themeScores[maxSCoreIndex]) {
+            if (value > 0 && (maxSCoreIndex === -1 || maxSCoreIndex > themeScores[maxSCoreIndex])) {
                 maxSCoreIndex = index;
             }
         });
 
+        // if((new Date()).isBetweenWeekBefore(new Date(parseInt(tweet.created_at)*1000)))
+        //     console.log("ok");
+
+
+
+
+        if (maxSCoreIndex === -1) {
+            tweet.theme_id = -1;
+            tweet.themeScore = 0;
+        } else {
+            tweet.theme_id = this.themes[maxSCoreIndex].id;
+            tweet.themeScore = themeScores[maxSCoreIndex];
+        }
+
+        // if (tweet.theme_id === 1)
+        //     console.log("ok")
+        // if (tweet.theme_id === 2)
+        //     console.log("ok")
+        // if (tweet.theme_id === 3)
+        //     console.log("ok")
+        // if (tweet.theme_id === 4)
+        //     console.log("ok")
+        // if (tweet.theme_id === 5)
+        //     console.log("ok")
+        // if (tweet.theme_id === 6)
+        //     console.log("ok")
+
         delete tweet.data;
-
-        tweet.theme_id = this.themes[maxSCoreIndex].id;
-        tweet.themeScore = themeScores[maxSCoreIndex];
-
         return tweet;
     };
 
     // labbeling a list of tweets and return the labeled list of tweets
     labellingTweets(tweets) {
+        // filtre les tweets trop petites
+        tweets = tweets.filter(tweet => tweet.text.length > 70);
+
         tweets = tweets.map((tweet) => this.labellingTweet(tweet));
         tweets.sort((a, b) => b.themeScore - a.themeScore);
         return tweets;

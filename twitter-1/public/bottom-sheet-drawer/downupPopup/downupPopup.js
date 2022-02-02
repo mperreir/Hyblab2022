@@ -10,7 +10,7 @@
         if (!$this.hasClass("downupPopup")) {
             $this.addClass("downupPopup")
                 .addClass("no-act")
-                .prepend('<div class="downupPopup-header"><svg class="downupPopup-kapat" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></div>');
+                .prepend('<div class="downupPopup-header"><svg class="downupPopup-kapat" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></div>');
 
             $this.find(".downupPopup-kapat").click(function () {
                 $this.addClass("no-act");
@@ -36,6 +36,7 @@
                     duration: "300",
                     animation: "ease",
                     background: true,
+                    radius: "50px",
                     radiusLeft: "10px",
                     radiusRight: "10px",
                     distance: 20,
@@ -49,7 +50,7 @@
 
                 setTimeout(() => {
                     $this.css('transition', 'transform ' + settings.duration + 'ms ' + settings.animation + '');
-                    $this.css('border-radius', '' + settings.radiusLeft + ' ' + settings.radiusRight + ' 0px 0px');
+                    $this.css('border-radius', settings.radius);
                     $this.css('width', '' + settings.width + '');
                     const hgt = (((100 - settings.distance) - 10) + 3);
                     if (settings.contentScroll) {

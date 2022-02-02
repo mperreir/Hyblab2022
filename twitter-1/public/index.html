@@ -17,6 +17,7 @@
   <script src="bottom-sheet-drawer/downupPopup/downupPopup.js"></script>
   <!-- Mustache ! -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/4.0.1/mustache.min.js" async></script>
+  <script src="https://d3js.org/d3.v6.min.js"></script>
   <script src="js/accueil.js" defer></script>
   <script src="js/jeu.js" defer></script>
   <script src="js/candidats.js" defer></script>
@@ -31,17 +32,12 @@
       <!-- Le loader-->
       <section id="loader">
         <!--<div id="loader-img" class="ld ld-ring ld-cycle"></div>-->
-        <img src="img/logo_play_lyse.gif" id="logo-lyse" alt="logo lyse" style="z-index: -1; height: 100%"></img>
+        <img src="img/logo_play_lyse.gif" id="logo-lyse" alt="logo lyse"></img>
 
       </section>
       <div id="mySwiper" class="swiper">
         <!-- le main est aussi le conteneur des différents slides (contenus à chaque fois dans des sections-->
         <main class = "swiper-wrapper">
-            <section id="first-slide" class="swiper-slide">
-              <img src="img/image-3.png" id="logo-playlysee" alt="logo playlyse" ></img>
-                <!-- le footer sera rempli à partir de données lues dans un fichier Json-->
-                <footer></footer>
-            </section>
             <section id="second-slide" class="swiper-slide">
 
               <div id="jeu">
@@ -159,32 +155,21 @@
                     <clipPath id="clip0_11_400"><rect width="334" height="145" fill="white"></rect></clipPath>
                   </defs>
                 </svg>
-                <div id="images">
-                  <img
-                    src="img/emotes/retweet-1.png"
-                    class="rotateimg20"
-                    style="width: 20%; height: 15%; position: absolute; left: 10%; top: 55%; object-fit: cover;  z-index:5;"
-                  /><img
-                    src="img/emotes/coeur-1.png"
-                    class="rotateimg320"
-                    style="width: 25%; height: 18%; position: absolute; left: -5%; top: 28%; object-fit: cover; z-index:5; "
-                  /><img
-                    src="img/emotes/twitter-1.png"
-                    class="rotateimg20"
-                    style="width: 15%; height: 10%; position: absolute; left: 80%; top: 35%; object-fit: cover; z-index:5;"
-                  /><img
-                    src="img/emotes/@-1.png"
-                    class="rotateimg320"
-                    style="width:25%; height: 18%; position: absolute; left: 60%; top: 53%; object-fit: cover; z-index:5;"
-                  /><img
-                    src="img/emotes/hashtag-1.png"
-                    style="width: 15%; height: 10%; position: absolute; left: 60%; top: 63%; object-fit: cover; z-index:5;"
-                  />
+
+
+
+                <div id="text">
+                    <p>Retrouvez l'auteur des Tweets marquants de cette semaine. Trouvez le plus de bonnes réponses en moins de 45 secondes !</p>
+                    <div id="images">
+                        <img src="img/emotes/retweet-1.png" class="rotateimg20" style="height: 70%;position: absolute;left: 10%;bottom: -50%;object-fit: contain;z-index:5;">
+                        <img src="img/emotes/coeur-1.png" class="rotateimg320" style="height: 130%;position: absolute;left: -25%;top: -80%;object-fit: contain;z-index:5;">
+                        <img src="img/emotes/twitter-1.png" class="rotateimg20" style="height: 50%;/* height: 10%; */position: absolute;right: 0%;top: -23%;object-fit: contain;z-index:5;">
+                        <img src="img/emotes/@-1.png" class="rotateimg320" style="height: 80%;position: absolute;right: 0%;bottom: -35%;object-fit: contain;z-index:5;">
+                        <img src="img/emotes/hashtag-1.png" style="height: 60%;position: absolute;right: 12%;bottom: -55%;object-fit: contain;z-index:5;">
+
+                    </div>
 
                 </div>
-
-
-                <div id="text">À qui appartient ce tweet ? Trouvez le plus de bonnes réponses possibles en 1 minute !</div>
 
                 <svg
                   width="596"
@@ -243,28 +228,18 @@
 
 
                 <div id=choix>
-                  <button id="play">Jouer</button>
+                  <button id="play">JOUER</button>
                 </div>
 
               </div>
 
               <!-- le footer sera rempli à partir de données lues dans un fichier Json-->
               <footer>
-                <nav class="menu" id="menu1">
-                  <button class="menu-candidat" id="menu-candidat1"><img
-                    src="img/emotes/candidats-1.png"
-                    style="width: 25%; z-index:5;"
-                  /><p>Candidats</p></button>
-                  <button class="menu-jeu" id="menu-jeu1"><img
-                    src="img/emotes/jouer-1.png"
-                    style="width: 25%; z-index:5;"
-                  /><p>Jeu</p></button>
-                  <button class="menu-top" id="menu-top1"><img
-                    src="img/emotes/twitter-2.png"
-                    style="width: 40%; z-index:5;"
-                  /><p>Top Tweets</p></button>
-                </nav>
-
+                  <nav class="menu" id="menu1">
+                      <button class="menu-candidat" id="menu-candidat1"><img src="img/emotes/candidats-1.png" style="height: 50%;z-index:5;"><p>Candidats</p></button>
+                      <button class="menu-jeu" id="menu-jeu1"><img src="img/emotes/jouer-1.png" style="height: 50%;z-index:5;"><p>Jeu</p></button>
+                      <button class="menu-top" id="menu-top1"><img src="img/emotes/twitter-2.png" style="height: 60%;z-index:5;"><p>Top Tweets</p></button>
+                  </nav>
               </footer>
             </section>
 
@@ -274,423 +249,97 @@
               </header>
 
               <div id="candidats">
-<!--                <button class="button-candidat" id="btn-1" ><img src="img/candidat/taubira.jpeg" alt="Profile Picture" height="200%" class="profile2"></button>-->
-<!--                <button class="button-candidat" id="btn-2" ><img src="img/candidat/asselineau.jpeg" alt="Profile Picture" height="200%" class="profile2"></button>-->
-<!--                <button class="button-candidat" id="btn-3" ><img src="img/candidat/melenchon.jpeg" alt="Profile Picture" height="200%" class="profile2"></button>-->
-<!--                <button class="button-candidat" id="btn-4" ><img src="img/candidat/jadot.jpeg" alt="Profile Picture" height="200%" class="profile2"></button>-->
-<!--                <button class="button-candidat" id="btn-5" ><img src="img/candidat/philippot.jpeg" alt="Profile Picture" height="200%" class="profile2"></button>-->
-<!--                <button class="button-candidat" id="btn-6" ><img src="img/candidat/pecresse.jpeg" alt="Profile Picture" height="200%" class="profile2"></button>-->
-<!--                <button class="button-candidat" id="btn-7" ><img src="img/candidat/zemmour.jpeg" alt="Profile Picture" height="200%" class="profile2"></button>-->
-<!--                <button class="button-candidat" id="btn-8" ><img src="img/candidat/hidalgo.jpeg" alt="Profile Picture" height="200%" class="profile2"></button>-->
-<!--                <button class="button-candidat" id="btn-9" ><img src="img/candidat/dupontaignant.jpeg" alt="Profile Picture" height="200%" class="profile2"></button>-->
-<!--                <button class="button-candidat" id="btn-10" ><img src="img/candidat/poutou.jpeg" alt="Profile Picture" height="200%" class="profile2"></button>-->
-<!--                <button class="button-candidat" id="btn-11" ><img src="img/candidat/macron.jpeg" alt="Profile Picture" height="200%" class="profile2"></button>-->
-<!--                <button class="button-candidat" id="btn-12" ><img src="img/candidat/lepen.jpeg" alt="Profile Picture" height="200%" class="profile2"></button>-->
               </div>
 
-<!--              <div id="myElement1">-->
-<!--                <div class="downupPopup-content">-->
-<!--                  <img src="img/candidat/taubira.jpeg" alt="Profile Picture" height="70px" class="profile">-->
-<!--                  <h3 class="nom-candidat">Nom du candidat 1</h3>-->
-<!--                  <table>-->
-<!--                    <tbody>-->
-<!--                      <tr>-->
-<!--                        <td></td>-->
-<!--                        <td></td>-->
-<!--                        <td></td>-->
-<!--                      </tr>-->
-<!--                    </tbody>-->
-<!--                  </table>-->
-<!--                  <div id="mySwiper1" class="swiper">-->
-<!--                    <div class="swiper-wrapper">-->
-<!--                      &lt;!&ndash; Slides &ndash;&gt;-->
-<!--                      <div class="swiper-slide">Slide 1</div>-->
-<!--                      <div class="swiper-slide">Slide 2</div>-->
-<!--                      <div class="swiper-slide">Slide 3</div>-->
-
-<!--                    </div>-->
-<!--                    <div class="swiper-pagination"></div>-->
-<!--                  </div>-->
-
-<!--                </div>-->
-<!--              </div>-->
-
-<!--              <div id="myElement2">-->
-<!--                <div class="downupPopup-content">-->
-<!--                  <img src="img/candidat/asselineau.jpeg" alt="Profile Picture" height="70px" class="profile">-->
-<!--                  <h3 class="nom-candidat">Nom du candidat 2</h3>-->
-<!--                  <table>-->
-<!--                    <tbody>-->
-<!--                      <tr>-->
-<!--                        <td></td>-->
-<!--                        <td></td>-->
-<!--                        <td></td>-->
-<!--                      </tr>-->
-<!--                    </tbody>-->
-<!--                  </table>-->
-<!--                  <div id="mySwiper2" class="swiper">-->
-<!--                    <div class="swiper-wrapper">-->
-<!--                      &lt;!&ndash; Slides &ndash;&gt;-->
-<!--                      <div class="swiper-slide">Slide 1</div>-->
-<!--                      <div class="swiper-slide">Slide 2</div>-->
-<!--                      <div class="swiper-slide">Slide 3</div>-->
-
-<!--                    </div>-->
-<!--                    <div class="swiper-pagination"></div>-->
-<!--                  </div>-->
-<!--                </div>-->
-<!--              </div>-->
-
-<!--              <div id="myElement3">-->
-<!--                <div class="downupPopup-content">-->
-<!--                  <img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile">-->
-<!--                  <h3 class="nom-candidat">Nom du candidat 3</h3>-->
-<!--                  <table>-->
-<!--                    <tbody>-->
-<!--                      <tr>-->
-<!--                        <td></td>-->
-<!--                        <td></td>-->
-<!--                        <td></td>-->
-<!--                      </tr>-->
-<!--                    </tbody>-->
-<!--                  </table>-->
-<!--                  <div id="mySwiper3" class="swiper">-->
-<!--                    <div class="swiper-wrapper">-->
-<!--                      &lt;!&ndash; Slides &ndash;&gt;-->
-<!--                      <div class="swiper-slide">Slide 1</div>-->
-<!--                      <div class="swiper-slide">Slide 2</div>-->
-<!--                      <div class="swiper-slide">Slide 3</div>-->
-
-<!--                    </div>-->
-<!--                    <div class="swiper-pagination"></div>-->
-<!--                  </div>-->
-<!--                </div>-->
-<!--              </div>-->
-
-<!--              <div id="myElement4">-->
-<!--                <div class="downupPopup-content">-->
-<!--                  <img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile">-->
-<!--                  <h3 class="nom-candidat">Nom du candidat 4</h3>-->
-<!--                  <table>-->
-<!--                    <tbody>-->
-<!--                      <tr>-->
-<!--                        <td></td>-->
-<!--                        <td></td>-->
-<!--                        <td></td>-->
-<!--                      </tr>-->
-<!--                    </tbody>-->
-<!--                  </table>-->
-<!--                  <div id="mySwiper4" class="swiper">-->
-<!--                    <div class="swiper-wrapper">-->
-<!--                      &lt;!&ndash; Slides &ndash;&gt;-->
-<!--                      <div class="swiper-slide">Slide 1</div>-->
-<!--                      <div class="swiper-slide">Slide 2</div>-->
-<!--                      <div class="swiper-slide">Slide 3</div>-->
-
-<!--                    </div>-->
-<!--                    <div class="swiper-pagination"></div>-->
-<!--                  </div>-->
-<!--                </div>-->
-<!--              </div>-->
-
-<!--              <div id="myElement5">-->
-<!--                <div class="downupPopup-content">-->
-<!--                  <img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile">-->
-<!--                  <h3 class="nom-candidat">Nom du candidat 5</h3>-->
-<!--                  <table>-->
-<!--                    <tbody>-->
-<!--                      <tr>-->
-<!--                        <td></td>-->
-<!--                        <td></td>-->
-<!--                        <td></td>-->
-<!--                      </tr>-->
-<!--                    </tbody>-->
-<!--                  </table>-->
-<!--                  <div id="mySwiper5" class="swiper">-->
-<!--                    <div class="swiper-wrapper">-->
-<!--                      &lt;!&ndash; Slides &ndash;&gt;-->
-<!--                      <div class="swiper-slide">Slide 1</div>-->
-<!--                      <div class="swiper-slide">Slide 2</div>-->
-<!--                      <div class="swiper-slide">Slide 3</div>-->
-
-<!--                    </div>-->
-<!--                    <div class="swiper-pagination"></div>-->
-<!--                  </div>-->
-<!--                </div>-->
-<!--              </div>-->
-
-<!--              <div id="myElement6">-->
-<!--                <div class="downupPopup-content">-->
-<!--                  <img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile">-->
-<!--                  <h3 class="nom-candidat">Nom du candidat 6</h3>-->
-<!--                  <table>-->
-<!--                    <tbody>-->
-<!--                      <tr>-->
-<!--                        <td></td>-->
-<!--                        <td></td>-->
-<!--                        <td></td>-->
-<!--                      </tr>-->
-<!--                    </tbody>-->
-<!--                  </table>-->
-<!--                  <div id="mySwiper6" class="swiper">-->
-<!--                    <div class="swiper-wrapper">-->
-<!--                      &lt;!&ndash; Slides &ndash;&gt;-->
-<!--                      <div class="swiper-slide">Slide 1</div>-->
-<!--                      <div class="swiper-slide">Slide 2</div>-->
-<!--                      <div class="swiper-slide">Slide 3</div>-->
-
-<!--                    </div>-->
-<!--                    <div class="swiper-pagination"></div>-->
-<!--                  </div>-->
-<!--                </div>-->
-<!--              </div>-->
-
-<!--              <div id="myElement7">-->
-<!--                <div class="downupPopup-content">-->
-<!--                  <img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile">-->
-<!--                  <h3 class="nom-candidat">Nom du candidat 7</h3>-->
-<!--                  <table>-->
-<!--                    <tbody>-->
-<!--                      <tr>-->
-<!--                        <td></td>-->
-<!--                        <td></td>-->
-<!--                        <td></td>-->
-<!--                      </tr>-->
-<!--                    </tbody>-->
-<!--                  </table>-->
-<!--                  <div id="mySwiper7" class="swiper">-->
-<!--                    <div class="swiper-wrapper">-->
-<!--                      &lt;!&ndash; Slides &ndash;&gt;-->
-<!--                      <div class="swiper-slide">Slide 1</div>-->
-<!--                      <div class="swiper-slide">Slide 2</div>-->
-<!--                      <div class="swiper-slide">Slide 3</div>-->
-
-<!--                    </div>-->
-<!--                    <div class="swiper-pagination"></div>-->
-<!--                  </div>-->
-<!--                </div>-->
-<!--              </div>-->
-
-<!--              <div id="myElement8">-->
-<!--                <div class="downupPopup-content">-->
-<!--                  <img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile">-->
-<!--                  <h3 class="nom-candidat">Nom du candidat 8</h3>-->
-<!--                  <table>-->
-<!--                    <tbody>-->
-<!--                      <tr>-->
-<!--                        <td></td>-->
-<!--                        <td></td>-->
-<!--                        <td></td>-->
-<!--                      </tr>-->
-<!--                    </tbody>-->
-<!--                  </table>-->
-<!--                  <div id="mySwiper8" class="swiper">-->
-<!--                    <div class="swiper-wrapper">-->
-<!--                      &lt;!&ndash; Slides &ndash;&gt;-->
-<!--                      <div class="swiper-slide">Slide 1</div>-->
-<!--                      <div class="swiper-slide">Slide 2</div>-->
-<!--                      <div class="swiper-slide">Slide 3</div>-->
-
-<!--                    </div>-->
-<!--                    <div class="swiper-pagination"></div>-->
-<!--                  </div>-->
-<!--                </div>-->
-<!--              </div>-->
-
-<!--              <div id="myElement9">-->
-<!--                <div class="downupPopup-content">-->
-<!--                  <img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile">-->
-<!--                  <h3 class="nom-candidat">Nom du candidat 9</h3>-->
-<!--                  <table>-->
-<!--                    <tbody>-->
-<!--                      <tr>-->
-<!--                        <td></td>-->
-<!--                        <td></td>-->
-<!--                        <td></td>-->
-<!--                      </tr>-->
-<!--                    </tbody>-->
-<!--                  </table>-->
-<!--                  <div id="mySwiper9" class="swiper">-->
-<!--                    <div class="swiper-wrapper">-->
-<!--                      &lt;!&ndash; Slides &ndash;&gt;-->
-<!--                      <div class="swiper-slide">Slide 1</div>-->
-<!--                      <div class="swiper-slide">Slide 2</div>-->
-<!--                      <div class="swiper-slide">Slide 3</div>-->
-
-<!--                    </div>-->
-<!--                    <div class="swiper-pagination"></div>-->
-<!--                  </div>-->
-<!--                </div>-->
-<!--              </div>-->
-
-<!--              <div id="myElement10">-->
-<!--                <div class="downupPopup-content">-->
-<!--                  <img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile">-->
-<!--                  <h3 class="nom-candidat">Nom du candidat 10</h3>-->
-<!--                  <table>-->
-<!--                    <tbody>-->
-<!--                      <tr>-->
-<!--                        <td></td>-->
-<!--                        <td></td>-->
-<!--                        <td></td>-->
-<!--                      </tr>-->
-<!--                    </tbody>-->
-<!--                  </table>-->
-<!--                  <div id="mySwiper10" class="swiper">-->
-<!--                    <div class="swiper-wrapper">-->
-<!--                      &lt;!&ndash; Slides &ndash;&gt;-->
-<!--                      <div class="swiper-slide">Slide 1</div>-->
-<!--                      <div class="swiper-slide">Slide 2</div>-->
-<!--                      <div class="swiper-slide">Slide 3</div>-->
-
-<!--                    </div>-->
-<!--                    <div class="swiper-pagination"></div>-->
-<!--                  </div>-->
-<!--                </div>-->
-<!--              </div>-->
-
-<!--              <div id="myElement11">-->
-<!--                <div class="downupPopup-content">-->
-<!--                  <img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile">-->
-<!--                  <h3 class="nom-candidat">Nom du candidat 11</h3>-->
-<!--                  <table>-->
-<!--                    <tbody>-->
-<!--                      <tr>-->
-<!--                        <td></td>-->
-<!--                        <td></td>-->
-<!--                        <td></td>-->
-<!--                      </tr>-->
-<!--                    </tbody>-->
-<!--                  </table>-->
-<!--                  <div id="mySwiper11" class="swiper">-->
-<!--                    <div class="swiper-wrapper">-->
-<!--                      &lt;!&ndash; Slides &ndash;&gt;-->
-<!--                      <div class="swiper-slide">Slide 1</div>-->
-<!--                      <div class="swiper-slide">Slide 2</div>-->
-<!--                      <div class="swiper-slide">Slide 3</div>-->
-
-<!--                    </div>-->
-<!--                    <div class="swiper-pagination"></div>-->
-<!--                  </div>-->
-<!--                </div>-->
-<!--              </div>-->
-
-<!--              <div id="myElement12">-->
-<!--                <div class="downupPopup-content">-->
-<!--                  <img src="img/blanck_pp.png" alt="Profile Picture" height="70px" class="profile">-->
-<!--                  <h3 class="nom-candidat">Nom du candidat 12</h3>-->
-<!--                  <table>-->
-<!--                    <tbody>-->
-<!--                      <tr>-->
-<!--                        <td></td>-->
-<!--                        <td></td>-->
-<!--                        <td></td>-->
-<!--                      </tr>-->
-<!--                    </tbody>-->
-<!--                  </table>-->
-<!--                  <div id="mySwiper12" class="swiper">-->
-<!--                    <div class="swiper-wrapper">-->
-<!--                      &lt;!&ndash; Slides &ndash;&gt;-->
-<!--                      <div class="swiper-slide">Slide 1</div>-->
-<!--                      <div class="swiper-slide">Slide 2</div>-->
-<!--                      <div class="swiper-slide">Slide 3</div>-->
-
-<!--                    </div>-->
-<!--                    <div class="swiper-pagination"></div>-->
-<!--                  </div>-->
-<!--                </div>-->
-<!--              </div>-->
-
-
               <!-- le footer sera rempli à partir de données lues dans un fichier Json-->
-              <footer>
-                <nav class="menu">
-                  <button class="menu-candidat" id="menu-candidat2"><img
-                    src="img/emotes/candidats-1.png"
-                    style="width: 25%; z-index:5;"
-                  /><p>Candidats</p></button>
-                  <button class="menu-jeu" id="menu-jeu2"><img
-                    src="img/emotes/jouer-1.png"
-                    style="width: 25%; z-index:5;"
-                  /><p>Jeu</p></button>
-                  <button class="menu-top" id="menu-top2"><img
-                    src="img/emotes/twitter-2.png"
-                    style="width: 40%; z-index:5;"
-                  /><p>Top Tweets</p></button>
-          </nav>
-              </footer>
+                <footer>
+                    <nav class="menu" id="menu2">
+                        <button class="menu-candidat" id="menu-candidat2"><img src="img/emotes/candidats-1.png" style="height: 50%;z-index:5;"><p>Candidats</p></button>
+                        <button class="menu-jeu" id="menu-jeu2"><img src="img/emotes/jouer-1.png" style="height: 50%;z-index:5;"><p>Jeu</p></button>
+                        <button class="menu-top" id="menu-top2"><img src="img/emotes/twitter-2.png" style="height: 60%;z-index:5;"><p>Top Tweets</p></button>
+                    </nav>
+                </footer>
             </section>
             <section id="fourth-slide" class="swiper-slide">
               <header>
-                  <h2 id="titre">Top Tweets</h2>
               </header>
-
-              <label for="top-select">Choisissez un thème :</label>
 
               <select name="top-tweet" id="top-select">
               </select>
 
-              <div id="tweets">
-                <div id="tweet-theme">
+              <div id="theme-pic"><img id="theme"></div>
+
+              <div id="SlideTop">
+                <div class="box-tweet-top">
+                  <div id="mySwiperTop" class="swiper toptweet">
+                    <div class="swiper-wrapper"></div>
+                    <div class="swiper-pagination"></div>
+                  </div>
                 </div>
               </div>
 
-              <!-- le footer sera rempli à partir de données lues dans un fichier Json-->
-              <footer>
-                <nav class="menu">
-                      <button class="menu-candidat" id="menu-candidat3"><img
-                        src="img/emotes/candidats-1.png"
-                        style="width: 25%; z-index:5;"
-                      /><p>Candidats</p></button>
-                      <button class="menu-jeu" id="menu-jeu3"><img
-                        src="img/emotes/jouer-1.png"
-                        style="width: 25%; z-index:5;"
-                      /><p>Jeu</p></button>
-                      <button class="menu-top" id="menu-top3"><img
-                        src="img/emotes/twitter-2.png"
-                        style="width: 40%; z-index:5;"
-                      /><p>Top Tweets</p></button>
-              </nav>
-              </footer>
-            </section>
-
-            <section id="fifth-slide" class="swiper-slide">
-              <header>
-                  <h2 id="titre">Graphiques</h2>
-                  TODO
-              </header>
+              <div id="comment"></div>
+              
+              <div id="ThemeGraphe" class="ThemeGraphe"></div>
 
               <!-- le footer sera rempli à partir de données lues dans un fichier Json-->
-              <footer></footer>
+                <footer>
+                    <nav class="menu" id="menu3">
+                        <button class="menu-candidat" id="menu-candidat3"><img src="img/emotes/candidats-1.png" style="height: 50%;z-index:5;"><p>Candidats</p></button>
+                        <button class="menu-jeu" id="menu-jeu3"><img src="img/emotes/jouer-1.png" style="height: 50%;z-index:5;"><p>Jeu</p></button>
+                        <button class="menu-top" id="menu-top3"><img src="img/emotes/twitter-2.png" style="height: 60%;z-index:5;"><p>Top Tweets</p></button>
+                    </nav>
+                </footer>
             </section>
+
             <section id="last-slide" class="swiper-slide">
-              <div>Les candidats étudiés ici sont les 12 candidats déclarés pour la présidentielle le 30 janvier 2022 et ayant plus de 80 000 abonnés sur Twitter.</div>
-              <div>Nous classons les tweets "populaires" sur la base du nombre de likes et de retweets qu'ils ont reçu.</div>
-              <div> Pierre Gabillaud, Elodie Menara, Marianne Peyrègne</div>
-              <div>Sviatoslav Besnard, Chama El Majeny, Yvann Gouraud, Yi Lu</div>
+              <h2>LES CREDITS</h2>
+
                 <footer id="bandeau">
+                  <div>Les candidats suivis ici sont les 12 candidats déclarés pour la présidentielle au 30 janvier 2022 et ayant plus de 80 000 abonnés sur Twitter.</div>
+                  <div>Les tweets présents sur notre plateforme sont récupérés sur une semaine glissante depuis le 30 septembre 2021.</div>
+                  <div>Nous classons les tweets "populaires" sur la base du nombre de likes et de retweets qu'ils ont reçu.</div>
+                  <div>Les tweets sont classés en thématique grâce à de la reconnaissance de mots clés. Nous avons supposé que si plusieurs mots-clés relatifs à un même thème se trouvaient dans un tweet (par ex : école, professeur), celui-ci appartenait à la thématique liée (dans notre exemple, Education).</div>
+                        <!-- Logo de votre porteur de projet -->
+                        <ul>
+                          <li class="stacked"><a href="https://www.letelegramme.fr/"><img class="porteur" src="logo_telegramme.png" alt="Le Télégramme"></a></li>
+                          <li class="stacked">BLANDINE LE CAIN</li>
+                          <li class="stacked">NICOLAS ARZUR</li>
+                          <li class="stacked">YOANN PERON</li>
+                        </ul>
+
+                        <ul>
+                          <li>
+                            <ul class="inline">
+                              <li class="stacked"><a href="http://www.polytech.univ-nantes.fr/"><img src="ecoles/logo_polytech.png" alt="Polytech Nantes"></a></li>
+                              <li class="stacked"><a href="https://www.linkedin.com/in/sviatoslav-besnard-453669195/">SVIATOSLAV BESNARD</a></li>
+                              <li class="stacked"><a href="https://www.linkedin.com/in/chama-el-majeny-0642591bb/">CHAMA EL MAJENY</a></li>
+                              <li class="stacked"><a href="https://www.linkedin.com/in/yvann-gouraud-6a5388209/">YVANN GOURAUD</a></li>
+                              <li class="stacked"><a href="https://www.linkedin.com/in/yi-lu-77a278208">LU YI</a></li>
+                            </ul>
+                          </li>
+
+                          <li>
+                            <ul class="inline">
+                              <li class="stacked"><a href="http://www.agrnantes.fr"><img src="ecoles/logo_agr.png" alt="AGR école de l'image"></a></li>
+                              <li class="stacked"><a href="https://www.instagram.com/tramwayyy_/?hl=fr">PIERRE GABILLAUD</a></li>
+                              <li class="stacked"><a href="https://www.behance.net/mariannepeyrgne">MARIANNE PEYREGNE</a></li>
+                              <li class="stacked">ELODIE MENARA</li>
+                            </ul>
+                          </li>
+                        </ul>
                         <!-- Logo Hyblab -->
-                          <a href="http://www.hyblab.fr/"><img id="hyblab" src="img/logo_hyblab.png" alt="Hyblab DataSport"></a>
+                        <ul>
+                          <li><img id="cc" src="logo_cc.png" alt="Creative commons"></li>   
+                          <li><a href="http://www.hyblab.fr/"><img id="hyblab" src="img/logo_hyblab.png" alt="Hyblab DataSport"></a></li>
+                          <li><img id="opensource" src="logo_opensource.png" alt="Open source"></li>
+                        </ul>
 
                           <!-- Les organisateurs -->
-                          <ul>
-                            <li><a href="http://www.ouestmedialab.fr/"><img src="logo_oml.png" alt="Ouest Médialab"></a></li>
-                            <li><a href="http://www.agrnantes.fr"><img src="ecoles/logo_agr.png" alt="AGR école de l'image"></a></li>
-                            <li><a href="http://www.univ-nantes.fr/"><img src="ecoles/logo_nantesuniversite.png" alt="Université de Nantes"></a></li>
-                            <li><a href="http://www.polytech.univ-nantes.fr/"><img src="ecoles/logo_polytech.png" alt="Polytech Nantes"></a></li>
-                          <!-- Les autres logos -->
-                          <ul>
-                            <!-- Logos CC et opensource -->
-                            <li>
-                            <ul>
-                              <li class="stacked"><img id="cc" src="logo_cc.png" alt="Creative commons"></li>
-                              <li class="stacked"><img id="opensource" src="logo_opensource.png" alt="Open source"></li>
-                            </ul>
-                            </li>
-                            <!-- Logo de votre porteur de projet -->
-                            <li><a href="https://www.letelegramme.fr/"><img src="logo_telegramme.png" alt="Le Télégramme"></a></li>
-                            <!-- Partenaires institutionnels -->
-                            <li><a href="http://www.nantesmetropole.fr/"><img class="institutionnel" src="institutionnels/logo_nantesmetropole.png" alt="Nantes Métropole"></a></li>
+                          <ul>                          
+                            <li><a href="http://www.univ-nantes.fr/"><img class="institutionnel" src="ecoles/logo_nantesuniversite.png" alt="Université de Nantes"></a></li>
+                            <li><a href="http://www.ouestmedialab.fr/"><img class="institutionnel" src="logo_oml.png" alt="Ouest Médialab"></a></li>
+                            <li><a href="http://www.nantesmetropole.fr/"><img class="institutionnel" src="institutionnels/logo_nantesmetropole.png" alt="Nantes Métropole"></a></li>  
                           </ul>
                 </footer>
             </section>
