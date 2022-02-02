@@ -40,6 +40,8 @@
 	background-color: #2978EE;
 	border-radius: 10px;
 	padding-top: 0.9vh;
+	padding-left: 0.9vh;
+	padding-right: 0.9vh;
 	font-family: 'Baloo Tamma 2';
 	z-index: 3;
 }
@@ -74,8 +76,9 @@
 }
 
 .animation_perso {
+	text-align: center;
 	position: absolute;
-	width: 100%;
+	width: 90%;
 	z-index: 0;
 	bottom: 8vh;
 }
@@ -91,6 +94,6 @@
 .ville p {
 	font-family: 'Lineal', sans-serif;
 	color: #C8A166;	
-	font-size: 60%;
+	font-size: 35%;
 	border-top: #C8A166 4px solid;
 }
