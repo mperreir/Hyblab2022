@@ -1,10 +1,15 @@
 async function loadFileExplorer() {
+
     selectedCityData = await fetchCityData(selectedCity);
     
+    const citiesRq = await fetch('api/cities/');
+    citiesMap = await citiesRq.json();
     const metropoleRq = await fetch('api/metropole/');
     metropoleData = await metropoleRq.json();
     metropoleData = metropoleData.nantes;
-
+    const container = document.getElementById("container");
+    const headerHtml = await loadTemplate('templates/header.ejs', []);
+    container.innerHTML = headerHtml;
     const screen = document.getElementById('screen');
 
     const fileExplorerHtml = await loadTemplate('templates/file_explorer/file_explorer.ejs', FOLDER_TITLES);

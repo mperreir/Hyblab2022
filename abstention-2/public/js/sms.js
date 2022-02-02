@@ -39,7 +39,7 @@ async function loadSms() {
         }, {
             type: "sms",
             sender: "THOMAS",
-            message: "Ça tombe bien ! Je te parie le repas de ce midi que tu devineras jamais le pourcentage d'abstention !",
+            message: "Ça tombe bien ! Je te parie le repas de ce midi que tu devineras jamais le pourcentage de non votants !",
             style: "sms-top sms-left",
             id: "",
         }, {

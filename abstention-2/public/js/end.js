@@ -69,7 +69,7 @@ async function loadEnd() {
     let displayedSMSIndex = 0;
 
 
-    // percentageBet = 60;
+    percentageBet = 60;
     console.log(percentageBet - selectedCityData.pourcentage_total_absention);
     if (Math.abs(percentageBet - selectedCityData.pourcentage_total_absention) < 5) {
         messages.splice(0, 1);

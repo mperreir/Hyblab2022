@@ -4,7 +4,8 @@ const visitedFolders = {
     nouveauxHabitants: false,
     blancsNuls: false,
     etrangers: false,
-    mineurs: false
+    mineurs: false,
+    finaux: false,
 }
 
 const FOLDER_DATA = {
@@ -133,6 +134,7 @@ async function loadFolder(folderName) {
             });
             break;
         default:
+            loadTopSecret();
             break;
     }
 
@@ -193,23 +195,30 @@ async function loadFolder(folderName) {
 
     document.getElementById('fd-back-button').addEventListener('click', () => {
         visitedFolders[folderName] = true;
-        if (visitedFolders.abstention) {
-            FOLDER_TITLES.filesData.find(f => f.folderName === 'blancsNuls').progress = 100;
-            FOLDER_TITLES.filesData.find(f => f.folderName === 'nouveauxHabitants').progress = 100;
-            FOLDER_TITLES.filesData.find(f => f.folderName === 'mineurs').progress = 66;
-            FOLDER_TITLES.filesData.find(f => f.folderName === 'etrangers').progress = 66;
-            FOLDER_TITLES.filesData.find(f => f.folderName === 'finaux').progress = 44;
+        if(visitedFolders.finaux){
+            loadTopSecret();
         }
-        if (visitedFolders.blancsNuls && visitedFolders.nouveauxHabitants) {
-            FOLDER_TITLES.filesData.find(f => f.folderName === 'mineurs').progress = 100;
-            FOLDER_TITLES.filesData.find(f => f.folderName === 'etrangers').progress = 100;
-            FOLDER_TITLES.filesData.find(f => f.folderName === 'finaux').progress = 66;
+        else{
+            if (visitedFolders.abstention) {
+                FOLDER_TITLES.filesData.find(f => f.folderName === 'blancsNuls').progress = 100;
+                FOLDER_TITLES.filesData.find(f => f.folderName === 'nouveauxHabitants').progress = 100;
+                FOLDER_TITLES.filesData.find(f => f.folderName === 'mineurs').progress = 66;
+                FOLDER_TITLES.filesData.find(f => f.folderName === 'etrangers').progress = 66;
+                FOLDER_TITLES.filesData.find(f => f.folderName === 'finaux').progress = 44;
+            }
+            if (visitedFolders.blancsNuls && visitedFolders.nouveauxHabitants) {
+                FOLDER_TITLES.filesData.find(f => f.folderName === 'mineurs').progress = 100;
+                FOLDER_TITLES.filesData.find(f => f.folderName === 'etrangers').progress = 100;
+                FOLDER_TITLES.filesData.find(f => f.folderName === 'finaux').progress = 66;
+    
+            }
+            if (visitedFolders.mineurs && visitedFolders.etrangers) {
+                FOLDER_TITLES.filesData.find(f => f.folderName === 'finaux').progress = 100;
+                all_progress = true;
+            }
+            loadFileExplorer();
+        }
 
-        }
-        if (visitedFolders.mineurs && visitedFolders.etrangers) {
-            FOLDER_TITLES.filesData.find(f => f.folderName === 'finaux').progress = 100;
-        }
-        loadFileExplorer();
     });
 }
 
