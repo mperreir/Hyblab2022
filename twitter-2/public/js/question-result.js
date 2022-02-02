@@ -93,7 +93,6 @@ window.onload = () => {
       window.location.href = "./index.html";
    });
 
-   let candidateName = sessionStorage.getItem("mainCandidate");
 
    let str_theme = "";
    switch (theme) {
