@@ -43,3 +43,10 @@ if (!inventaire_joueur.includes('cheval')) {
 if (!inventaire_joueur.includes('bateau')) {
 	bateau.style.display = 'none';
 }
+
+// gestion du bouton retour
+const bouton_retour = document.querySelector('.retour');
+
+bouton_retour.addEventListener('click', () => {
+	window.location.href = document.referrer;
+});

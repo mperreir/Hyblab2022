@@ -34,8 +34,18 @@
 
 .top {
 	margin-top: 50px;
-
 	font-family: 'Baloo Tamma 2';
+}
+
+
+.header-bottom {
+	text-align: center;
+	background-color: blue;
+}
+
+.header-bottom .hyblab {
+	font-family: 'Baloo Tamma 2';
+	font-size: 70%;
 }
 
 .mid {
@@ -48,44 +58,8 @@
 }
 
 .mid img {
-	width:50%;
+	width: 50%;
 }
 
-#logo_anjoute_sans {
-	width:70%;
-	height: auto;
-}
 
-#cc {
-	width:70%;
-	height: auto;
-}
-
-.credit_footer_agr {
-	font-size: 30%;
-	margin-top: 20px;
-	width: 10%;
-	position:absolute;
-	left: 0%;
-}
-
-.credit_footer_agr img {
-
-}
-
-.credit_footer_polytech {
-	font-size: 30%;
-	margin-top: 20px;
-	width: 20%;
-	position:absolute;
-	left: 50%;
-}
-
-.credit_footer_polytech img {
-
-}
-
-.credit_footer li  {
-	padding: 18px;
-}
 

@@ -255,6 +255,9 @@ class Question7 extends Question{
 		let answer1 = [voteb_n2 + " %", false];
 		let answer2 = [voteb_n1 + " %", true];
 
+		answer1[0] = answer1[0].replace('.', ',');
+		answer2[0] = answer2[0].replace('.', ',');
+
 		return [question,answer1,answer2];
 	}
 }
