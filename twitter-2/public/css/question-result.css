@@ -28,21 +28,27 @@ body {
 #container {
     background-color: white;
     color: black;
-    padding-top: 3vh;
     font-size: 30%;
     height: 100vh;
     overflow: hidden;
 }
-#exit {
-    padding-top: 10%;
-    margin-left: 85%;
+
+#exit-div {
+    text-align: center;
 }
+
+#exit {
+    padding-top: 7%;
+    margin-left: 79%;
+    width: 8%;
+}
+
 #result {
     display: flex;
     justify-content: center;
     position: relative;
     color: white;
-    font-size: 2.5rem;
+    font-size: 8vh;
     padding-top: 7vh;
     text-align: justify;
     height: 5vh;
@@ -65,7 +71,7 @@ body {
 #answer {
     margin-top: 10vh;
     color: white;
-    font-size: 1rem;
+    font-size: 2.8vh;
     position: relative;
     height: 40vh;
 }
@@ -112,11 +118,15 @@ body {
 
 #back-toquiz{
     text-align: center;
-    font-size: 14px;
+    font-size: 2.5vh;
     font-weight: 700;
     font-family: 'Lato', sans-serif;
     padding-top: 3vh;
     color: #1A367A;
+}
+
+#back-toquiz img {
+    width: 9%;
 }
 
 #legende{
@@ -124,7 +134,7 @@ body {
     font-weight: 400;
     color: #1A367A;
     font-family: 'blatantregular';
-    font-size: 15px;
+    font-size: 2.5vh;
     padding: 0 10%;
 }
 
@@ -136,12 +146,13 @@ body {
     background-color: white;
     color: #5571E5;
     border-radius: 19px;
-    text-align: center;
     width: 65%;
     height: 6vh;
     border: none;
-    font-size: 80%;
-    line-height: 6vh;
+    font-size: 3vh;
+    width: 60%;
+    font-family: 'blatantregular';
+    margin-top: 2%;
 }
 
 #about {
@@ -155,6 +166,7 @@ body {
 
 #about img {
     margin-top: 2vh;
+    width: 16%;
 }
 
 #dataviz {
@@ -163,12 +175,12 @@ body {
 }
 
 .label {
-    font-size: 12px;
+    font-size: 2vh;
     fill: #1A367A;
 }
 
 .lato {
-    font-size: 11px;
+    font-size: 2vh;
     fill: #1A367A;
     font-family: 'Lato', sans-serif;
 }

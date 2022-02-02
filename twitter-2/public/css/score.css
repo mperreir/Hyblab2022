@@ -43,8 +43,9 @@ video {
 }
 
 #exit {
-    padding-top: 10%;
-    margin-left: 85%;
+    padding-top: 7%;
+    margin-left: 79%;
+    width: 8%;
 }
 
 #congrats{
@@ -85,22 +86,21 @@ video {
 }
 #sentence p{
     position: absolute;
-    font-size: 2.2rem;
+    font-size: 9vh;
 }
+
 .button{
     background-color: #5571E5;
     color: white;
     border-radius: 19px;
     text-align: center;
-    width:65%;
-    height:6vh;
+    width: 70%;
+    height: 6vh;
     margin-top: 5vh;
     line-height: 6vh;
-    border:none;
-    font-size: 17px;
+    border: none;
+    font-size: 2.7vh;
 }
-
-
 
 
 /* ---------- Important media queries for easy responsive content :-) ----------------- */

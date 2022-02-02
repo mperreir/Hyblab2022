@@ -15,17 +15,20 @@
 #container {
     background-color: white;
     color: black;
-    padding-top: 3vh;
     font-size: 30%;
     height:100vh;
     overflow: hidden;
+    text-align: center;
 }
+
+button{font-family: 'blatantregular';}
 
 /* section du haut croix + numéro */
 
 #exit {
-    padding-top: 4%;
-    margin-left: 85%;
+    padding-top: 7%;
+    margin-left: 79%;
+    width: 8%;
 }
 
 
@@ -33,7 +36,7 @@
 /* section avec les questions */
 
 #question-section{
-    margin-top: 10vh;
+    margin-top: 5vh;
     padding-left: 5vw;
     padding-right: 5vw;
     text-align: center;
@@ -65,13 +68,11 @@ html,body {
     background-color: #5571E5;
     color: #FFFFFF;
     border-radius: 19px;
-    text-align: center;
-    width:65%;
+    width:60%;
     height:6vh;
     margin-top: 10vh;
-    line-height: 6vh;
     border:none;
-    font-size: 80%;
+    font-size: 2.8vh;
 }
 
 /* setion de la barre de progression */
@@ -89,27 +90,26 @@ html,body {
     align-items: center;
     height:1.5vh;
     width: 80%;
-    line-height: 1.5vh;
 }
 
 #point1{
   
-    width:15px;
-    height:15px;
+    width: 6.7%;
+    height: 3vh;
     border-radius: 50%;
     border : solid 1px #1A367A;
 }
 #point2{
   
-    width:15px;
-    height:15px;
+    width: 6.7%;
+    height: 3vh;
     border-radius: 50%;
     border : solid 1px #1A367A;
 }
 #point3{
  
-    width:15px;
-    height:15px;
+    width: 6.7%;
+    height: 3vh;
     border-radius: 50%;
     border : solid 1px #1A367A;
 }

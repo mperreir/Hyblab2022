@@ -24,17 +24,15 @@ body{
     color: #1A367A;
     font-size: 15px;
     position: relative;
-}
-
-#container div {
     text-align: center;
 }
 
 button{font-family: 'blatantregular';}
 
 #return {
-    padding-top: 10%;
-    margin-left: 85%;
+    padding-top: 7%;
+    margin-left: 79%;
+    width: 8%;
 }
 
 #categorie ul {
@@ -49,7 +47,7 @@ button{font-family: 'blatantregular';}
 }
 
 #followers-commun p, #choix-theme p {
-    font-size: 13px;
+    font-size: 2.4vh;
     padding-bottom: 5%;
     padding-left: 15%;
     padding-right: 15%;
@@ -66,11 +64,11 @@ button{font-family: 'blatantregular';}
 #choix-theme ul li button, #followers {
     background-color: #F24A41;
     border-radius: 19px;
-    width: 217px;
-    height: 33px;
+    width: 60%;
+    height: 5.3vh;
     color: white;
     border: 0;
-    font-size: 17px;
+    font-size: 2.6vh;
 }
 
 #categorie {
@@ -95,41 +93,32 @@ button{font-family: 'blatantregular';}
 
 #selection-candidat ul li {
     padding-bottom: 3%;
-    width: 30%;
+    width: 16vh;
     padding-left: 1%;
 }
 
 #text-selec-candidat, #text-categorie {
     margin-bottom: 5%;
     margin-top: 3%;
-    font-size: 20px;
+    font-size: 4vh;
 }
 
 .txt-selec-candidat {
-    font-size: 12px;
+    font-size: 2vh;
 }
 
 .img-selec-candidat {
-    width: 73%;
-}
-
-#container footer{
-    bottom: 5%;
-    font-size: 13px;
-    text-align: center;
-    padding: 0 1em;
+    width: 11vh;
 }
 
 #autre_candidat{
     background-color: #5571E5;
     color: #FFFFFF;
     border-radius: 19px;
-    text-align: center;
-    width:65%;
-    height:6vh;
-    line-height: 6vh;
+    width: 70%;
+    height: 6vh;
     border: 0;
-    font-size: 17px;
+    font-size: 2.6vh;
 }
 
 @media screen and (max-aspect-ratio: 9/16){

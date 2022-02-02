@@ -67,7 +67,7 @@ body {
     margin-right: auto;
     margin-top: 10%;
     margin-bottom: 5%;
-    width: 40vh;
+    width: 80%;
 }
 
 #phrase-daccroche {
@@ -82,7 +82,7 @@ body {
 }
 
 #vector1 {
-    width: 5vh;
+    width: 12%;
 }
 
 
@@ -122,23 +122,24 @@ body {
 
 #illustration-slide-2 img {
     position: relative;
-    height: 40vh;
+    width: 65%;
 }
 
 .button-slide-2 {
     background-color: #5571E5;
     color: #FFFFFF;
     border-radius: 19px;
-    font-size: 2.7vh;
-    width: 28vh;
+    font-size: 3.5vh;
+    width: 60%;
     height: 6vh;
-    text-align: center;
     border: 0;
     margin-top: 5vh;
 }
 
-/* FOURTH SLIDE */
-#fourth-slide {
+button{font-family: 'blatantregular';}
+
+/* THIRD SLIDE */
+#third-slide {
     background: #FFFFFF;
     color: #1A367A;
     height: 100vh;
@@ -176,7 +177,7 @@ body {
 }
 
 #credits{
-    margin-top: 40%;
+    margin-top: 32%;
     display: grid;
     height:35%;
     grid-template-columns: repeat(2, 50%);
@@ -190,12 +191,12 @@ body {
 }
 
 .prenom {
-    font-size: 1.3rem;
+    font-size: 3.5vh;
     font-weight: bold;
 }
 
 .nom {
-    font-size: 1rem;
+    font-size: 2.7vh;
     color: #5571E5;
 }
 
@@ -203,7 +204,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -3%;
 }
 
 
