@@ -867,4 +867,24 @@ body {
 
   width: 3%;
   height: 3%;
+
+  animation: ani 1.3s infinite;
+  transition: all 0.001s linear;
+}
+
+@keyframes ani {
+  0% {
+    transform: translateX(0%);  }
+  35% {
+    right: 3%;
+  }
+  50% {
+    transform: translateX(-50%);
+  }
+  65% {
+    right: 3%;
+  }
+  100% {
+    transform: translateX(0%);  }
+  }
 }
