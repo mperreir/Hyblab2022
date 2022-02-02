@@ -25,6 +25,8 @@ p{
     top:27%;
 }
 
+
+
 #subtitle{
     width: 32%;
 }
@@ -128,7 +130,7 @@ button{
     width: 20%;
     font-size: 50%;
     height: 8%;
-    border-radius: 30px;
+    border-radius: 600px;
     border: none;
     font-family: 'folsomblack';
     background-color: #AC4B4B;
