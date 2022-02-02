@@ -264,7 +264,6 @@ function start() {
                     let min_pourcent = 100;
                     let max_pourcent = 0;
 
-                    console.log(CANDIDATS_KEYS, NOMS_CANDIDATS_SELECTIONES)
                     let keys_selected_candidats;
                     if (SELECTION_COURSE()) {
                         console.log("COURSE SELECTIONNEE")
@@ -302,10 +301,9 @@ function start() {
                     min_pourcent = min_pourcent === 100 ? 0 : min_pourcent;
                     max_pourcent = max_pourcent === 0 ? 100 : max_pourcent;
 
-                    console.log(min_pourcent, '% ', max_pourcent, '%')
-                        // Echelle dynamique :
-                        // arrondissement a la dizaine inférieur
-                        // -> borne min
+                    // Echelle dynamique :
+                    // arrondissement a la dizaine inférieur
+                    // -> borne min
                     const min_regle = Math.floor(min_pourcent / 5) * 5;
                     const divRegleBas = document.getElementById("RegleBas");
                     divRegleBas.innerText = min_regle + '%';
@@ -315,8 +313,6 @@ function start() {
                     const max_regle = Math.ceil(max_pourcent / 5) * 5;
                     const divRegleHaut = document.getElementById("RegleHaut");
                     divRegleHaut.innerText = max_regle + '%';
-
-                    console.log("Min : ", min_regle, " Max : ", max_regle)
 
                     // On change la position des candidats
                     CANDIDATS_KEYS.map(nom_candidat => {
@@ -330,14 +326,12 @@ function start() {
 
                         const position = (pourcent - min_regle) / (max_regle - min_regle) * hauteur_regle
 
-                        console.log(keys_selected_candidats.includes(nom_candidat), keys_selected_candidats, nom_candidat)
-                            // si candidats dans la borne sélectionnée :
+                        // si candidats dans la borne sélectionnée :
                         if ((!SELECTION_COURSE() && keys_selected_candidats.includes(nom_candidat)) || (SELECTION_COURSE() && Math.floor(pourcent) > POURCENT_BORNE_MIN && pourcent <= POURCENT_BORNE_MAX)) {
                             CANDIDATS[nom_candidat].div.style.top = "calc( 12.5vh + " + (position - TAILLE_DIV_CANDIDAT / 2) + "px" + " ) ";
                         } else // sinon candidats hors borne :
                         {
                             CANDIDATS[nom_candidat].div.style.top = "-500px";
-
                         }
 
                         CANDIDATS[nom_candidat].div.querySelector(".pourcent").innerText = pourcent + ' %';
