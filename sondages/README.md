@@ -1,15 +1,14 @@
 # Descriptif du projet
 
-Porteur de projet :
+Porteur de projet : Ouest Médialab
 
-Sujet :
+Sujet : Sondages
 
-Nom d'équipe :
+Nom d'équipe : Genesis
 
 Participants : 
 
-- 
+- AGR : Timothée Guitton, Angèle Renaudin
 
-- AGR :
+- Polytech :  Josik Sallaud, Nathan Rocher, Mattéo Boursault, Adame Naji, Henri Fakhouri
 
-- Polytech :  
