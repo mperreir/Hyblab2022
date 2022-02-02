@@ -18,7 +18,6 @@ class Step2Game extends React.Component {
                 candidates: stepsCandidates['2'],
             };
             candidates[this.state.IDloser].stepTwoGame.valid = false;
-            console.log(this.state);
         }
     }
 

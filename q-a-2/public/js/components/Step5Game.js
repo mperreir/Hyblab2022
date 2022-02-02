@@ -40,12 +40,10 @@ class Step5Game extends React.Component {
 
 
     isWin() {
-        console.log('isWin')
         const isWin = stepsCandidates['5'].reduce((previous, candidate) => {
             return previous && this.state[candidate.nameId].end;
         }, true);
         if (isWin) {
-            console.log('heho')
             const gameState = {
                 win: isWin,
                 data: {},
