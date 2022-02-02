@@ -127,7 +127,7 @@ header .main .logo {
     width: 80%;
 }
 
-header .main p {
+header .main p.sub {
     font-size: 20px;
     margin-top: 25px;
     text-align: center;
@@ -588,6 +588,7 @@ footer p {
     left: 150vw;
     transition: left .3s;
     font-size: 20px;
+    line-height: 25px;
 }
 
 #fonctionnementPOPUP.show,
@@ -600,11 +601,13 @@ footer p {
     text-align: center;
     width: 90%;
     font-size: 20px;
+    line-height: 25px;
 }
 
 .creditsTitle {
     font-family: "Goldman", cursive;
     color: #CF4B45;
+    line-height: 25px;
     font-size: 25px;
 }
 
