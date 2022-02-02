@@ -98,13 +98,13 @@ async function loadFolder(folderName) {
             data = {
                 cityName: citiesMap[selectedCity],
                 cityValue: selectedCityData['vote_blanc'] + selectedCityData['vote_nul'],
-                cityPercent: selectedCityData['pourcentage_vote_blanc'] + selectedCityData['pourcentage_vote_nul'],
-                meanPercent: metropoleData['pourcentage_vote_blanc'] + metropoleData['pourcentage_vote_nul']
+                cityPercent: Math.round((selectedCityData['pourcentage_vote_blanc'] + selectedCityData['pourcentage_vote_nul'])*100)/100,
+                meanPercent: Math.round((metropoleData['pourcentage_vote_blanc'] + metropoleData['pourcentage_vote_nul'])*100)/100
             };
             graphData = await loadTemplate('templates/folders/graphNouveauxHabitants.ejs', {
                 cityName: citiesMap[selectedCity],
-                cityPercent: selectedCityData['pourcentage_vote_blanc'] + selectedCityData['pourcentage_vote_nul'],
-                meanPercent: metropoleData['pourcentage_vote_blanc'] + metropoleData['pourcentage_vote_nul']
+                cityPercent: Math.round((selectedCityData['pourcentage_vote_blanc'] + selectedCityData['pourcentage_vote_nul'])*100)/100,
+                meanPercent: Math.round((metropoleData['pourcentage_vote_blanc'] + metropoleData['pourcentage_vote_nul'])*100)/100
             });
             break;
         case 'nouveauxHabitants':
@@ -253,7 +253,5 @@ function getEtrangersData(data) {
         r: Math.floor((data[1] - Math.floor(data[1])) * 10)
     });
     renderColor.push('rgb(255, 72, 0)');
-    console.log(renderData);
-    console.log(data[0]%3,data[1]%3)
     return ([renderData, renderColor]);
 }
