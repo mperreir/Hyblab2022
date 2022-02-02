@@ -32,8 +32,9 @@ class Step5Page extends Page {
                 <GamePage
                     step={step}
                     title='Débats, temps de parole'
-                    subtitle="Tous les candidat·e·s ont droit à un temps de parole équitable, fait en sorte d’égaliser les temps en cliquant sur les boutons."
+                    subtitle="Tous les candidat·e·s ont droit à un temps de parole équitable, fait en sorte que tous les temps de parole atteignent 5 minutes."
                     buttonTitle='Valider'
+                    nextStep={() => this.nextStep()}
                     returnToExplanations={() => this.returnToExplanations()}
                     >
                     <Step5Game

@@ -21,7 +21,7 @@ class Step2Page extends Page {
                 />,
                 <QuestionPage
                     step={step}
-                    buttonOnClick={() => this.nextStep()}
+                    buttonOnClick={() => this.nextSubStep()}
                     buttonText="Vérifier"
                     questionTitle={data.title}
                     question={questions[1].question}
@@ -29,6 +29,18 @@ class Step2Page extends Page {
                     learnMoreLink={questions[1].link}
                     nextStepMessage="Vérifier le nombre de signatures de chaque candidat·e"
                 />,
+                <GamePage
+                    step={step}
+                    title='Valide le nombre de signatures'
+                    subtitle='Voici le nombre de signatures de chaque candidat·e. Sélectionne celleux qui peuvent continuer.'
+                    buttonTitle='Valider'
+                    nextStep={() => this.nextStep()}
+                    returnToExplanations={() => this.returnToExplanations()}
+                >
+                    <Step2Game
+                        enableGameButton={() => this.enableGameButton()}
+                    />
+                </GamePage>
             ],
             subStepIndex: 0
         }
