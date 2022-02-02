@@ -136,7 +136,6 @@ function histo() {
         .attr("width", width + margin )
         .attr("height", height +  6 * margin)
         .attr('transform', `translate(${margin}, ${margin - 20})`)
-        
 
     const chart = svg.append('g')
     .attr('transform', `translate(${margin*1.2}, ${margin * 2})`)
