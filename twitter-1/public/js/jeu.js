@@ -289,8 +289,10 @@ function finJeu(score,total){
     partager.setAttribute("id", "partager");
     partager.setAttribute("class", "btn-end-game");
     partager.addEventListener('click', () => { 
-        window.open("https://twitter.com/");
+        url = "https://twitter.com/intent/tweet?text=J%27ai%20eu%20"+score+"%20sur%20"+total+"%20en%20jouant%20%C3%A0%20%23PlayLys%C3%A9e%20!!%0AToi%20aussi%20apprends%20en%20plus%20sur%20les%20actualit%C3%A9s%20Twitter%20des%20candidats%20%C3%A0%20la%20pr%C3%A9sidentielle%20!%0A%40LeTelegramme"
+        window.open(url);
     });
+
 
     btn_action_jeu.appendChild(rejoue);
     btn_action_jeu.appendChild(goTopTweets);
