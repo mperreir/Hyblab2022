@@ -29,14 +29,29 @@ window.onload = () => {
     const candidate = sessionStorage.getItem("selected_candidate");
     const candidateName = sessionStorage.getItem("selected_nameCandidate");
     const theme = sessionStorage.getItem("selected_theme");
+    let str_theme = "";
+    switch (theme) {
+        case 'education':
+            str_theme = "de l'éducation";
+            break;
+        case 'sante':
+            str_theme = "de la santé";
+            break;
+        case 'environnement':
+            str_theme = "de l'environnement";
+            break;
+        case 'economie':
+            str_theme = "d'économie";
+            break;
+        default:
+            break;
+    }
 
     if (theme == "followers") {
         document.getElementById("title").innerHTML = "Followers commun en %";
     } else {
-        document.getElementById("title").innerHTML = `Les candidats qui parlent autant de ${theme} que ${candidateName}`;
+        document.getElementById("title").innerHTML = `Les candidats qui parlent autant <span>${str_theme}</span> que <span>${candidateName}</span>`;
     }
-
-    console.log(window.screen.width);
 
     // append the svg object to the body of the page
     const svg = d3.select("#dataviz")
@@ -56,16 +71,24 @@ window.onload = () => {
                 .data(data.nodes)
                 .join("g")
 
+            let i = 0;
             const candidates = node
                 .append("image")
+                .attr("id", d => d.id)
                 .attr("xlink:href", d => {
                     return d.img;
                 })
                 .attr("heigh", d => {
-                    return 50 + parseFloat(d.ratio);
+                    if (theme == "followers") {
+                        return 50 + parseFloat(d.ratio);
+                    }
+                    return 50 + 3 * parseFloat(d.ratio);
                 })
                 .attr("width", d => {
-                    return 50 + parseFloat(d.ratio);
+                    if (theme == "followers") {
+                        return 50 + parseFloat(d.ratio);
+                    }
+                    return 50 + 3 * parseFloat(d.ratio);
                 });
 
             const shortname = node.append("text")
@@ -98,15 +121,41 @@ window.onload = () => {
             // This function is run at each iteration of the force algorithm, updating the nodes position.
             function ticked() {
                 candidates
-                    .attr('transform', d => `translate(${d.x}, ${d.y})`)
+                    .attr('transform', d => {
+                        if (d.x + document.getElementById(d.id).getBoundingClientRect().width >= window.screen.width - 20) {
+
+                            return `translate(${d.x - 20}, ${d.y})`;
+                        }
+                        return `translate(${d.x}, ${d.y})`;
+                    })
 
                 shortname
-                    .attr('dy', d => 50 + parseFloat(d.ratio) + 12)
-                    .attr('transform', d => `translate(${d.x}, ${d.y})`);
+                    .attr('dy', d => {
+                        if (theme == "followers") {
+                            return 50 + parseFloat(d.ratio) + 12;
+                        }
+                        return 50 + 3 * parseFloat(d.ratio) + 12;
+                    })
+                    .attr('transform', d => {
+                        if (d.x + document.getElementById(d.id).getBoundingClientRect().width >= window.screen.width - 20) {
+                            return `translate(${d.x - 20}, ${d.y})`;
+                        }
+                        return `translate(${d.x}, ${d.y})`;
+                    });
 
                 ratio
-                    .attr('dy', d => 50 + parseFloat(d.ratio) + 25)
-                    .attr('transform', d => `translate(${d.x}, ${d.y})`);
+                    .attr('dy', d => {
+                        if (theme == "followers") {
+                            return 50 + parseFloat(d.ratio) + 25;
+                        }
+                        return 50 + 3 * parseFloat(d.ratio) + 25;
+                    })
+                    .attr('transform', d => {
+                        if (d.x + document.getElementById(d.id).getBoundingClientRect().width >= window.screen.width - 20) {
+                            return `translate(${d.x - 20}, ${d.y})`;
+                        }
+                        return `translate(${d.x}, ${d.y})`;
+                    });
             }
         });
 }

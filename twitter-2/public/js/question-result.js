@@ -160,7 +160,13 @@ window.onload = () => {
          // This function is run at each iteration of the force algorithm, updating the nodes position.
          function ticked() {
             candidates
-               .attr('transform', d => `translate(${d.x}, ${d.y})`)
+               .attr('transform', d => {
+                  if (d.x + document.getElementById(d.id).getBoundingClientRect().width >= window.screen.width - 20) {
+
+                     return `translate(${d.x - 20}, ${d.y})`;
+                  }
+                  return `translate(${d.x}, ${d.y})`;
+               })
 
             shortname
                .attr('dy', d => 50 + parseFloat(d.ratio) + 12)

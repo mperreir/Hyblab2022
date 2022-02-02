@@ -50,7 +50,7 @@ button{font-family: 'blatantregular';}
 }
 
 #followers-commun p, #choix-theme p {
-    font-size: 15px;
+    font-size: 13px;
     padding-bottom: 5%;
     padding-left: 15%;
     padding-right: 15%;
@@ -71,6 +71,7 @@ button{font-family: 'blatantregular';}
     height: 33px;
     color: white;
     border: 0;
+    font-size: 17px;
 }
 
 #categorie {
@@ -128,8 +129,8 @@ button{font-family: 'blatantregular';}
     width:65%;
     height:6vh;
     line-height: 6vh;
-    border:none;
-    font-size: 80%;
+    border: 0;
+    font-size: 17px;
 }
 
 @media screen and (max-aspect-ratio: 9/16){

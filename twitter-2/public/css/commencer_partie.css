@@ -28,12 +28,13 @@ body{
     overflow: hidden;
 }
 
-#top-section{
+#top-section {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 5%;
+    justify-content: space-between;
     margin-right: 4%;
+    align-items: center;
+    height: 4vh;
+    padding-top: 3vh;
 }
 
 #testez_connaissances{
