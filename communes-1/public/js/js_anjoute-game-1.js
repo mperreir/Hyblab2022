@@ -42,21 +42,21 @@ function bonneVersion(name){
 		case 'magnum':
 			return "Un Magnum De Cointreau"
 		case 'boule':
-			return "Boules De Fort Gagnantes"
+			return "BouLes De Fort Gagnantes"
 		case 'oie':
 			return "L\'oie Aux Œufs D'or"
 		case 'medaille':
-			return "Une Médaille Du Roi René"
+			return "Une MédaiLLe Du Roi René"
 		case 'soupe':
-			return "Une Soupe Angevine A Volonté"
+			return "Une Soupe Angevine A VoLonté"
 		case 'bottereau':
-			return "Les Meilleurs Bottereaux"
+			return "Les MeiLLeurs Bottereaux"
 		case 'manuscrit':
-			return "Le Manuscrit De Joachim Du Belay"
+			return "Le Manuscrit De Joachim Du BeLay"
 		case'chateau':
 			return "Le Chateau D \'Angers"
 		case 'cheval':
-			return "Un Cheval Du Cadre Noir"
+			return "Un ChevaL Du Cadre Noir"
 		case 'bateau':
 			return "Le Bateau De Loire Expres"
 	}
