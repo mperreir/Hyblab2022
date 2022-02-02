@@ -12,7 +12,7 @@
 }
 
 .sms-tread>* {
-    /* visibility: hidden; */
+    visibility: hidden;
     z-index: 0;
 
 }
@@ -29,9 +29,9 @@
     font-size: 0.9em;
 }
 
-.sms.sms-visible {
+/* .sms.sms-visible {
     visibility: visible;
-}
+} */
 
 .sms:first-child {
     margin-top: 0;

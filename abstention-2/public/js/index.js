@@ -84,9 +84,8 @@ function date() {
 
 // loadSms();
 // // loadFolder('nonVotants');
-loadFileExplorer();
 
-// loadEnd();
+loadFileExplorer().then(loadEnd());
 
 // loadRebet();
 
