@@ -1,3 +1,16 @@
+let images = document.getElementsByClassName("anim-graphic");
+let percentages = document.getElementsByClassName("anim-percentage");
+
+for (let i = 0; i < images.length; i++) {
+  let p = parseInt(percentages[i]);
+  console.log(p)
+    let ch = "";
+    for(let j = 0; j < 2; j++){
+      ch += percentages[i].textContent[j];
+    }
+    images[i].style.width = parseFloat(ch)*1.1+"%";
+}
+
 let first_simulation = document.getElementById("f-section");
 let second_simulation = document.getElementById("s-section");
 let third_simulation = document.getElementById("t-section");
@@ -6,6 +19,7 @@ let vainqueur = document.getElementById("vainqueur");
 let perdant = document.getElementById("perdant");
 let gagnant = document.getElementById("gagnant");
 
+/*
 vainqueur.addEventListener("click", () => {
   if(getComputedStyle(first_simulation).display != "block"){
     first_simulation.style.display = "block";
@@ -40,5 +54,5 @@ gagnant.addEventListener("click", () => {
       perdant.style.opacity = "100%";
       gagnant.style.opacity = "50%";
     }
-})
+})*/
 

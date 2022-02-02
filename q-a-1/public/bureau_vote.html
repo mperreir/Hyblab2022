@@ -18,11 +18,12 @@
   <script src="js/slide1.js" defer></script>
   <script src="js/slide2.js" defer></script>
   <script src="js/localisation.js" defer></script>
+
 </head>
 <body>
     <!-- Le conteneur sert à vérouiller les proportions (aspect ratio) du contenu de la page (ici des slides) -->
     <div id="container">
-      <!-- Le loader-->
+
       <div id="mySwiper" class="swiper">
         <!-- le main est aussi le conteneur des différents slides (contenus à chaque fois dans des sections-->
         <main class = "swiper-wrapper">
@@ -49,29 +50,29 @@
               <img id="fleche_bureaux" src="img/fleche_courbe.svg">
               <button id="bureaux_localisation">Mes bureaux de vote</button>
 
-              <img class="transition_phrase" id="anim-text" src="img/Bureau_vote/transition.svg">
-
-                <footer>
-                  <div id="choix_vote">
-                    <button>Vote</button>
-                    <button>Vote blanc</button>
-                  </div>
-    
-    
-                  <div class="pagenumber">
-                    <a href="#" class="sansserif">1</a>
-                    <b>|</b>
-                    <a href="informer.html" class="sansserif" id="currentnum">2</a>
-                    <b>|</b>
-                    <a href="#" class="sansserif">3</a>
-                    <b>|</b>
-                    <a href="#" class="sansserif">4</a>
-                    <b>|</b>
-                    <a href="#" class="sansserif">5</a>
-                    <b>|</b>
-                    <a href="#" class="sansserif">6</a>
-                  </div>
-                </footer>
+              <img src="img/Procuration/types.gif" class="gifbureau">
+      
+              <footer>
+                <div id="choix_vote">
+                  <button onclick="window.location='vote.html'">Vote</button>
+                  <button onclick="window.location='vote_blanc.html'">Vote blanc </button>
+                </div>
+  
+  
+                <div class="pagenumber">
+                  <a href="informer.html" class="sansserif" id="currentnum">1</a>
+                  <b>|</b>
+                  <a href="#" class="sansserif">2</a>
+                  <b>|</b>
+                  <a href="#" class="sansserif">3</a>
+                  <b>|</b>
+                  <a href="#" class="sansserif">4</a>
+                  <b>|</b>
+                  <a href="#" class="sansserif">5</a>
+                  <b>|</b>
+                  <a href="#" class="sansserif">6</a>
+                </div>
+              </footer>
             </section>
             <section id="second-slide" class="swiper-slide">
                 <header>
@@ -79,6 +80,7 @@
                   <div><h1>OÙ VOTER ?</h1></div>
                   <div id="div_subtitle"><img id="subtitle2" src="img/Bureau_vote/sous-titre_mes_bureaux.svg"></div>
                 </header>
+
 
                 <p id='status'></p>
                 <div id="liste_bureaux"></div>

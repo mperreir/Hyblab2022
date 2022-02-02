@@ -2,7 +2,7 @@
     margin-top: 65%;
     text-align: center;
     font-family: folsomblack;
-    font-size: 30%;
+    font-size: 25%;
     color: #57517D;
 }
 
@@ -17,7 +17,7 @@ body{
 
 #intro-text{
         text-align: center;
-        padding: 10% 15% 10% 15%;
+        padding: 6% 15% 6% 15%;
         font-size: 18%;
         color: #57517D;
 }
@@ -71,36 +71,59 @@ p{
 }
 
 .button{ 
-    padding : 2% 0% 2% 0%;
     margin: 1%;
-    width: 40%;
-    height: 8%;
+    width: 35%;
+    height: 5.5%;
     border-radius: 30px;
     border: none;
     font-family: 'folsomblack';
-    font-size: 12%;
+    font-size: 15%;
     background-color: #C9C4C2;;
-    color:#FAF3EE;
+    color:#FFFFFF;
+    align-items: center;
 }
 
 #vainqueur{
-   position: absolute;
-   height: 30px;
-   width: 136.36363220214844px;
-   left: 111px;
-   top: 254px;
-   border-radius: 30px;
-   
-
+        position: absolute;
+        top: 43%;
+        margin-bottom: 2%;
+        text-align: center;
 }
-
 #perdant{
-    opacity: 50%;
+        position: absolute;
+        top: 54%;
+        margin-bottom: 2%;
+        text-align: center;
+}
+#gagnant{
+        position: absolute;
+        top: 65%;
+        margin-bottom: 32%;
+        text-align: center;
+
+}
+#buttonvainqueur{
+        position: absolute;
+        top:49%;
+        text-align: center;
+}
+#buttonlooser{
+        position: absolute;
+        top:60%;
+        text-align: center;
+}
+#buttonsecondtour{
+        position: absolute;
+        top:71%;
+        text-align: center;
+        left: 10%;
+}
+#checkup{
+        position: absolute;
+        top: 76%;
+        text-align: center;
 }
 
-#gagnant{
-    opacity: 50%;
-}
 
 .main-section{
     margin-top: 2%;
@@ -145,11 +168,10 @@ p{
 #persoA{
         margin-top: 3%;
         position: absolute;
-left: 44.09%;
-right: 45.69%;
-top: 25.14%;
-bottom: 68.75%;
-width: 15.65%;
+        text-align: center;
+        top: 25.14%;
+        bottom: 68.75%;
+        width: 15.65%;
 }
 .textintrosim{
         position: absolute;
@@ -280,6 +302,7 @@ width: 15.65%;
 }
 
 .anim-percentage {
+        font-size: 20%;
 	-webkit-animation: percentage 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 1.2s both;
 	        animation: percentage 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 1.2s both;
 }
@@ -303,7 +326,7 @@ width: 15.65%;
 
 #second-slide .div_bureau{
         position: relative;
-        margin-top:4%;
+        margin-top:2.5%;
         -webkit-animation: slide-in-bottom 1.1s 1s both;
 	        animation: slide-in-bottom 1.1s 1s both;
 }
@@ -321,6 +344,7 @@ width: 15.65%;
                 animation: slide-in-bottom 1.1s 4.2s both;
         margin-top: 25%;
 }
+
 
 .pagenumber{
         position: absolute;

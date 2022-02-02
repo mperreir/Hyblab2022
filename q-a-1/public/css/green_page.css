@@ -110,3 +110,19 @@ a:link,a:visited{
 .not_current{
     opacity: 50%;
 }
+
+#po_up_window{
+    position: absolute;
+    width: 70%;
+    height: 50%;
+    top: 27%;
+    left: 15%;
+}
+
+#po_up_exit{
+    position: absolute;
+    width: 4%;
+    height: 4%;
+    top: 45%;
+    left: 75%;
+}
