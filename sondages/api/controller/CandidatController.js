@@ -54,7 +54,7 @@ class CandidatController {
                 'Philippe Juvin': '#1FB2BA',
                 'Denis Payre': '#1FB2BA'
             }
-            let couleur = '#ffffff';
+            let couleur = '#c8c8c8';
             if (candidat in correspondace) {
                 couleur = correspondace[candidat];
             }
