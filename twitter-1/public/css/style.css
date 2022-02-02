@@ -318,12 +318,14 @@ div{
     max-height: 180%;
     border-radius: 50%;
     border : 3px solid white;
+    box-shadow: 7px 7px 25px rgba(0, 0, 0, 0.25);
 }
 
 .profile{
     border-radius: 50%;
     margin-left: 38%;
     border : 3px solid white;
+    box-shadow: 7px 7px 25px rgba(0, 0, 0, 0.25);
 }
 
 .nom-candidat{
@@ -362,6 +364,7 @@ th, td {
     position : absolute;
     top:40%;
     left : 10%;
+    box-shadow: 7px 7px 25px rgba(0, 0, 0, 0.25);
 }
 
 .box-tweet-top {
@@ -393,7 +396,16 @@ th, td {
 }
 
 .candidattweet .swiper-pagination{
-    margin-top : 1vh;
+    padding-top:5%;
+    margin-top : 5%;
+}
+
+.table-candidat {
+    margin-top:-17%;
+    margin-bottom : 5%;
+    /*margin: auto;*/
+    font-size: initial;
+
 }
 
 .ThemeGraphe {
