@@ -94,30 +94,30 @@ window.onload = () => {
    });
 
    let candidateName = sessionStorage.getItem("mainCandidate");
-   
-    let str_theme = "";
-    switch (theme) {
-        case 'education':
-            str_theme = "de l'éducation";
-            break;
-        case 'sante':
-            str_theme = "de la santé";
-            break;
-        case 'environnement':
-            str_theme = "de l'environnement";
-            break;
-        case 'economie':
-            str_theme = "d'économie";
-            break;
-        default:
-            break;
-    }
 
-    if (theme == "followers") {
-        document.getElementById("legende").innerHTML = "Followers commun en %";
-    } else {
-        document.getElementById("legende").innerHTML = `Les candidats qui parlent autant <span>${str_theme}</span> que <span>${candidateName}</span>`;
-    }
+   let str_theme = "";
+   switch (theme) {
+      case 'education':
+         str_theme = "de l'éducation";
+         break;
+      case 'sante':
+         str_theme = "de la santé";
+         break;
+      case 'environnement':
+         str_theme = "de l'environnement";
+         break;
+      case 'economie':
+         str_theme = "d'économie";
+         break;
+      default:
+         break;
+   }
+
+   if (theme == "followers") {
+      document.getElementById("legende").innerHTML = "Followers commun en %";
+   } else {
+      document.getElementById("legende").innerHTML = `Les candidats qui parlent autant <span>${str_theme}</span> que <span>${candidateName}</span>`;
+   }
 
    const usernameMainCandidate = sessionStorage.getItem("usernameMainCandidate");
 
@@ -125,7 +125,7 @@ window.onload = () => {
    const svg = d3.select("#dataviz")
       .append("svg")
       .attr("width", "100%")
-      .attr("height", 400)
+      .attr("height", 500)
       .append("g")
 
    fetch(`api/ratioNearCandidate/${theme}/${usernameMainCandidate}`)
@@ -139,14 +139,27 @@ window.onload = () => {
 
          const candidates = node
             .append("image")
+            .attr("id", d => d.id)
             .attr("xlink:href", d => {
                return d.img;
             })
             .attr("heigh", d => {
-               return 50 + parseFloat(d.ratio);
+               if (theme == "followers") {
+                  return 50 + parseFloat(d.ratio);
+               }
+               if (d.ratio < 10) {
+                  return 50 + 2 * parseFloat(d.ratio);
+               }
+               return 50 + 1.5 * parseFloat(d.ratio);
             })
             .attr("width", d => {
-               return 50 + parseFloat(d.ratio);
+               if (theme == "followers") {
+                  return 50 + parseFloat(d.ratio);
+               }
+               if (d.ratio < 10) {
+                  return 50 + 2 * parseFloat(d.ratio);
+               }
+               return 50 + 1.5 * parseFloat(d.ratio);
             });
 
          const shortname = node.append("text")
@@ -181,20 +194,46 @@ window.onload = () => {
          function ticked() {
             candidates
                .attr('transform', d => {
+                  console.log(document.getElementById(d.id));
                   if (d.x + document.getElementById(d.id).getBoundingClientRect().width >= window.screen.width - 20) {
-
                      return `translate(${d.x - 20}, ${d.y})`;
                   }
                   return `translate(${d.x}, ${d.y})`;
                })
 
             shortname
-               .attr('dy', d => 50 + parseFloat(d.ratio) + 12)
-               .attr('transform', d => `translate(${d.x}, ${d.y})`);
+               .attr('dy', d => {
+                  if (theme == "followers") {
+                     return 50 + parseFloat(d.ratio) + 12;
+                  }
+                  if (d.ratio < 10) {
+                     return 50 + 2 * parseFloat(d.ratio) + 12;
+                  }
+                  return 50 + 1.5 * parseFloat(d.ratio) + 12;
+               })
+               .attr('transform', d => {
+                  if (d.x + document.getElementById(d.id).getBoundingClientRect().width >= window.screen.width - 20) {
+                     return `translate(${d.x - 20}, ${d.y})`;
+                  }
+                  return `translate(${d.x}, ${d.y})`;
+               });
 
             ratio
-               .attr('dy', d => 50 + parseFloat(d.ratio) + 25)
-               .attr('transform', d => `translate(${d.x}, ${d.y})`);
+               .attr('dy', d => {
+                  if (theme == "followers") {
+                     return 50 + parseFloat(d.ratio) + 25;
+                  }
+                  if (d.ratio < 10) {
+                     return 50 + 2 * parseFloat(d.ratio) + 25;
+                  }
+                  return 50 + 1.5 * parseFloat(d.ratio) + 25;
+               })
+               .attr('transform', d => {
+                  if (d.x + document.getElementById(d.id).getBoundingClientRect().width >= window.screen.width - 20) {
+                     return `translate(${d.x - 20}, ${d.y})`;
+                  }
+                  return `translate(${d.x}, ${d.y})`;
+               });
          }
       });
 

@@ -121,9 +121,7 @@ body {
 
 #legende{
     text-align: center;
-    font-size: 15px;
     font-weight: 400;
-    bottom: 0;
     color: #1A367A;
     font-family: 'blatantregular';
     font-size: 15px;
@@ -160,7 +158,6 @@ body {
 }
 
 #dataviz {
-    height: 85vh;
     display: table-cell;
     vertical-align: middle;
 }

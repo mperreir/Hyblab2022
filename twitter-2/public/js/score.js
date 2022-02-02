@@ -2,7 +2,7 @@
 window.onload = () => {
 
    window.scrollTo(0, 25);
-   
+
    let score = sessionStorage.getItem("score").length;
    sessionStorage.removeItem("score");
    if (score >= 2) {
@@ -10,7 +10,7 @@ window.onload = () => {
       document.getElementById("success").style.visibility = "visible";
       document.querySelector("video").style.visibility = "visible";
    }
-   else{
+   else {
       document.getElementById("sentence").appendChild(document.createElement("br"));
       document.getElementById("fail").style.visibility = "visible";
    }
@@ -23,7 +23,7 @@ window.onload = () => {
    });
 
    document.getElementById("go-exploration").addEventListener("click", () => {
-      window.location.href = "./exploration.html";
+      window.location.href = "./commencer_explo.html";
 
    });
    document.getElementById("score").innerHTML = score;

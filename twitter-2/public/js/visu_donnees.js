@@ -29,6 +29,7 @@ window.onload = () => {
     const candidate = sessionStorage.getItem("selected_candidate");
     const candidateName = sessionStorage.getItem("selected_nameCandidate");
     const theme = sessionStorage.getItem("selected_theme");
+
     let str_theme = "";
     switch (theme) {
         case 'education':
@@ -71,7 +72,6 @@ window.onload = () => {
                 .data(data.nodes)
                 .join("g")
 
-            let i = 0;
             const candidates = node
                 .append("image")
                 .attr("id", d => d.id)
@@ -82,13 +82,13 @@ window.onload = () => {
                     if (theme == "followers") {
                         return 50 + parseFloat(d.ratio);
                     }
-                    return 50 + 3 * parseFloat(d.ratio);
+                    return 50 + 2.5 * parseFloat(d.ratio);
                 })
                 .attr("width", d => {
                     if (theme == "followers") {
                         return 50 + parseFloat(d.ratio);
                     }
-                    return 50 + 3 * parseFloat(d.ratio);
+                    return 50 + 2.5 * parseFloat(d.ratio);
                 });
 
             const shortname = node.append("text")
@@ -123,7 +123,6 @@ window.onload = () => {
                 candidates
                     .attr('transform', d => {
                         if (d.x + document.getElementById(d.id).getBoundingClientRect().width >= window.screen.width - 20) {
-
                             return `translate(${d.x - 20}, ${d.y})`;
                         }
                         return `translate(${d.x}, ${d.y})`;
@@ -134,7 +133,7 @@ window.onload = () => {
                         if (theme == "followers") {
                             return 50 + parseFloat(d.ratio) + 12;
                         }
-                        return 50 + 3 * parseFloat(d.ratio) + 12;
+                        return 50 + 2.5 * parseFloat(d.ratio) + 12;
                     })
                     .attr('transform', d => {
                         if (d.x + document.getElementById(d.id).getBoundingClientRect().width >= window.screen.width - 20) {
@@ -148,7 +147,7 @@ window.onload = () => {
                         if (theme == "followers") {
                             return 50 + parseFloat(d.ratio) + 25;
                         }
-                        return 50 + 3 * parseFloat(d.ratio) + 25;
+                        return 50 + 2.5 * parseFloat(d.ratio) + 25;
                     })
                     .attr('transform', d => {
                         if (d.x + document.getElementById(d.id).getBoundingClientRect().width >= window.screen.width - 20) {
