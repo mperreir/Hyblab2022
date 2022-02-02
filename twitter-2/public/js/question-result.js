@@ -1,19 +1,23 @@
 "use strict";
-
+ 
 window.addEventListener("load", function (event) {
    if (sessionStorage.answer == '0') {
-      const collectionRight = document.getElementsByClassName("right");
+      
       const collectionWrong = document.getElementsByClassName("wrong");
-      document.getElementById("container").style.backgroundColor = "#F24A41";
-      this.document.getElementById("about").style.backgroundColor = "#F24A41";
-      for (let i = 0; i < collectionRight.length; i++) {
-         collectionRight[i].style.visibility = "hidden";
-      }
+      document.getElementById("first-slide").style.backgroundColor = "#F24A41";
+      document.getElementById("about").style.backgroundColor = "#F24A41";
+      
       for (let i = 0; i < collectionWrong.length; i++) {
          collectionWrong[i].style.visibility = "visible";
       }
    }
    else {
+      const collectionRight = document.getElementsByClassName("right");
+      document.getElementById("first-slide").style.backgroundColor = "#5571E5";
+      document.getElementById("about").style.backgroundColor = "#5571E5";
+      for (let i = 0; i < collectionRight.length; i++) {
+         collectionRight[i].style.visibility = "visible";
+      }
       sessionStorage.setItem("score", sessionStorage.getItem("score") + 1);
    }
 });
@@ -21,6 +25,7 @@ window.addEventListener("load", function (event) {
 
 
 window.onload = () => {
+
 
    window.scrollTo(0, 25);
 

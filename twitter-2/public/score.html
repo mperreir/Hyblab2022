@@ -11,36 +11,44 @@
 
 <body>
     <div id="container">
+        <video style="object-fit: cover;" autoplay muted>
 
-        <section id="top-section">
-            <div></div>
-            <div></div>
-            <img src="img/home.svg" id="exit">
-        </section>
+            <source src="./img/anim-confetti-quiz.mp4">
+        </video>
+        <div id="content">
+            <section id="top-section">
+                <div></div>
+                <div></div>
+                <img src="img/home.svg" id="exit">
+            </section>
 
-        <section id="congrats">
-            <div id="sentence">
-                <p style="color:#1A367A" id="success">Bravo ! <img src="./img/ligne.png"
-                        style="margin-bottom: 1.5vh;margin-right: -30%;height:5px;width:55%;"></p>
-                <p style="color:#1A367A" id="fail"><img src="./img/ligne.png"
-                        style="margin-bottom: 1.5vh;margin-left: -15%;height:5px;width:50%;">&nbsp;Retentez votre chance !</p>
-            </div>
-            <br>
-            <p style="font-size: 1.5rem;">Votre score <br>est de
-            <span id="score"></span>/3
-            </p>
-        </section>
-        <section id="buttons">
+            <section id="congrats">
+                <div id="sentence">
+                    <p style="color:#1A367A" id="success">Bravo ! <img src="./img/ligne.png"
+                            style="margin-bottom: 1.5vh;margin-right: -30%;height:5px;width:55%;"></p>
+                    <p style="color:#1A367A" id="fail"><img src="./img/ligne.png"
+                            style="margin-bottom: 1.5vh;margin-left: -15%;height:5px;width:50%;">&nbsp;Retentez votre
+                        chance
+                        !</p>
+                </div>
+                <br>
+                <p style="font-size: 1.5rem;">Votre score <br>est de
+                    <span id="score"></span>/3
+                </p>
+            </section>
+            <section id="buttons">
 
-            <button class="button" id="new-quiz">
-                Faire un nouveau quiz
-            </button>
-            <button class="button" id="go-exploration">
-                Passer au mode exploration
-            </button>
+                <button class="button" id="new-quiz">
+                    Faire un nouveau quiz
+                </button>
+                <button class="button" id="go-exploration">
+                    Passer au mode exploration
+                </button>
 
-        </section>
+            </section>
+        </div>
     </div>
+
 </body>
 
 </html>

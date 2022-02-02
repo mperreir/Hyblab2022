@@ -21,13 +21,13 @@ body {
 
 #container{
     height: 100vh;
-    padding-top: 3vh;
 }
 #top-section{
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 10vh;
+    margin-right: 4%;
 }
 
 #buttons{
@@ -45,7 +45,7 @@ body {
     text-align: center;
     width:65%;
     height:6vh;
-    margin-top: 5vh;
+    margin-top: 3vh;
     line-height: 6vh;
     border:none;
     font-size: 90%;

@@ -8,57 +8,88 @@
     <link rel="stylesheet" href="./css/question-result.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./js/question-result.js"></script>
 </head>
 
 <body>
-    <div id="container">
-        <section id="top-section">
-            <div></div>
-            <div></div>
-            <img src="img/home.svg" id="exit">
-        </section>
+    <div id="container" >
+        <div id="mySwiper" class="swiper mySwiper">
+            <main class="swiper-wrapper">
+                <section id="first-slide" class="swiper-slide">
+                    <section id="top-section">
+                        <div></div>
+                        <div></div>
+                        <img src="img/home.svg" id="exit">
+                    </section>
 
-        <section id="result">
-            <div class="right">
-                <p>Bonne<br><img src="./img/ligne-blanche.png" style="margin-bottom: 0.7vh;width:40%;height:5px;margin-left: -25%;">&nbsp;Réponse !</p>
-            </div>
-            <div class="wrong">
-                <p>Mauvaise<br><img src="./img/ligne-blanche.png" style="margin-bottom: 0.7vh;width:40%;height:5px;margin-left: -25%;">&nbsp;Réponse ...</p>
-            </div>
+                    <section id="result">
+                        <div class="right">
+                            <p>Bonne<br><img src="./img/ligne-blanche.png"
+                                    style="margin-bottom: 0.7vh;width:40%;height:5px;margin-left: -25%;">&nbsp;Réponse !
+                            </p>
+                        </div>
+                        <div class="wrong">
+                            <p>Mauvaise<br><img src="./img/ligne-blanche.png"
+                                    style="margin-bottom: 0.7vh;width:40%;height:5px;margin-left: -25%;">&nbsp;Réponse
+                                ...
+                            </p>
+                        </div>
 
-        </section>
-
-        <div id="swipe-down-zone">
-            <section id="answer">
-                <img class="right" src="./img/illu-2 1.png">
-                <img class="wrong" src="./img/illu-6.svg"
-                    style="margin-top: -15%;margin-left: -10%;clip-path:circle(50%);height: 100%;">
-                <div class="answer-text" id="followers">
-                    C'est avec <span id="solutionCandidate"></span> que<br><span id="mainCandidate"></span> a le plus de followers en commun :<br>ils en partagent <span id="percentage"></span>% !
-                </div>
-
-                <div class="answer-text" id="themes">
-                    <span id="theme_percentage1"></span>% des tweets de <span id="theme_mainCandidate"></span><br>sont sur le theme de <span id="theme"></span>, c'est presque autant que <span id="theme_solutionCandidate"></span> qui tweet à <span id="theme_percentage2"></span>% sur ce sujet !
-                </div>
-            </section>
-
-            <section id="buttons">
-
-                <button class="button" id="next-question">
-                    <p>
-                        Question suivante</p>
-                </button>
-                <button id="about">
-                    <p> En savoir plus sur ce candidat</p>
-                    <img src="./img/down-arrow.svg" alt="">
-                </button>
+                    </section>
 
 
-            </section>
+                    <section id="answer">
+                        <img class="right" src="./img/illu-2 1.png">
+                        <img class="wrong" src="./img/illu-6.svg"
+                            style="margin-top: -15%;margin-left: -10%;clip-path:circle(50%);height: 100%;">
+                        <div class="answer-text" id="followers">
+                            C'est avec <span id="solutionCandidate"></span> que<br><span id="mainCandidate"></span> a le
+                            plus de followers en commun :<br>ils en partagent <span id="percentage"></span>% !
+                        </div>
+
+                        <div class="answer-text" id="themes">
+                            <span id="theme_percentage1"></span>% des tweets de <span
+                                id="theme_mainCandidate"></span><br>sont sur le theme de <span id="theme"></span>, c'est
+                            presque autant que <span id="theme_solutionCandidate"></span> qui tweet à <span
+                                id="theme_percentage2"></span>% sur ce sujet !
+                        </div>
+                    </section>
+
+                    <section id="buttons">
+
+                        <button class="button" id="next-question">
+                            <p>
+                                Question suivante</p>
+                        </button>
+                        <button id="about">
+                            <p> En savoir plus sur ce candidat</p>
+                            <img src="./img/down-arrow.svg" alt="">
+                        </button>
+
+
+                    </section>
+                </section>
+                <section id="second-slide" class="swiper-slide swiper-slide-next" aria-label="2 / 2" role="group" style="height: 384px;">
+                    <section id="back-toquiz"><img src="./img/up-arrow.svg" alt=""><br>Retourner au quiz</section>
+                    <section id="dataviz"></section>
+                    <section id="legende">Followers en commun en %</section>
+                
+                  </section>
+            </main>
         </div>
     </div>
+    
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          direction: "vertical",
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+        });
+      </script>
 </body>
 
 </html>

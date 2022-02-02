@@ -81,6 +81,7 @@ button{font-family: 'blatantregular';}
 
 #selection-candidat {
     width: 100%;
+    visibility: hidden;
 }
 
 #selection-candidat ul {
