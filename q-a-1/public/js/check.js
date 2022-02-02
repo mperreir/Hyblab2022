@@ -107,6 +107,8 @@ case5.addEventListener("click", () => {
 case6.addEventListener("click",()=>{
     po_up_window.style.display="none";
     po_up_exit.style.display="none";
+    window.location.replace("sommaire.html");
+
 })
 
 
