@@ -30,9 +30,11 @@ window.onload = () => {
       divCandidats.innerHTML = html;
 
       const imgSelecCandid = document.getElementsByClassName('img-selec-candidat');
+      const textImg = document.getElementsByClassName("txt-selec-candidat");
       for (let i = 0; i < imgSelecCandid.length; i++) {
         imgSelecCandid[i].addEventListener('click', () => {
           sessionStorage.setItem("selected_candidate", imgSelecCandid[i].name);
+          sessionStorage.setItem("selected_nameCandidate", textImg[i].innerHTML);
           document.getElementById('selection-candidat').style.visibility = 'hidden';
           document.getElementById('categorie').style.visibility = 'visible';
         });
@@ -41,7 +43,7 @@ window.onload = () => {
 
   // partie visu de données
   const buttons = document.getElementsByTagName("button");
-  for (let i = 0; i < buttons.length-1; i++) {
+  for (let i = 0; i < buttons.length - 1; i++) {
     buttons[i].addEventListener("click", () => {
       sessionStorage.setItem("selected_theme", buttons[i].id);
       window.location.href = "./visu_donnees.html";

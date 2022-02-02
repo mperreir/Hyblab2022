@@ -27,7 +27,16 @@ window.onload = () => {
     });
 
     const candidate = sessionStorage.getItem("selected_candidate");
+    const candidateName = sessionStorage.getItem("selected_nameCandidate");
     const theme = sessionStorage.getItem("selected_theme");
+
+    if (theme == "followers") {
+        document.getElementById("title").innerHTML = "Followers commun en %";
+    } else {
+        document.getElementById("title").innerHTML = `Les candidats qui parlent autant de ${theme} que ${candidateName}`;
+    }
+
+    console.log(window.screen.width);
 
     // append the svg object to the body of the page
     const svg = d3.select("#dataviz")

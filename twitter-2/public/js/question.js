@@ -2,7 +2,7 @@
 window.onload = () => {
 
     window.scrollTo(0, 25);
-    
+
     var x;
     if (sessionStorage.getItem("question").length == 1) {
         document.getElementById("point1").style.backgroundColor = "#1A367A";
@@ -18,7 +18,7 @@ window.onload = () => {
         document.getElementById("point2").style.backgroundColor = "#1A367A";
         document.getElementById("point3").style.backgroundColor = "#1A367A";
     }
-    
+
     var randomNumber;
     fetchCandidates(x);
 
@@ -58,8 +58,8 @@ function random(min, max) {
 }
 
 function randomTheme() {
-    const themes = [ 'followers', 'education', 'sante', 'environnement', 'economie' ];
-    return themes[random(0, themes.length-1)];
+    const themes = ['followers', 'education', 'sante', 'environnement', 'economie'];
+    return themes[random(0, themes.length - 1)];
 }
 
 function fetchCandidates(x) {
@@ -72,6 +72,7 @@ function fetchCandidates(x) {
                 console.log("cand déjà donné 2 :" + sessionStorage.getItem("alreadyGivenCandidate2"));
                 sessionStorage.setItem("alreadyGivenCandidate" + x, data.mainCandidat.displayShortName);
                 sessionStorage.setItem("mainCandidate", data.mainCandidat.displayShortName);
+                sessionStorage.setItem("usernameMainCandidate", data.mainCandidat.userName);
                 sessionStorage.setItem("solutionCandidate", data.solutionCandidat.displayShortName);
                 sessionStorage.setItem("ratio", data.ratio);
                 sessionStorage.setItem("theme", theme);

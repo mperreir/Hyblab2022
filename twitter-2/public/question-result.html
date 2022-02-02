@@ -9,12 +9,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- Load d3.js -->
+    <script src="https://d3js.org/d3.v6.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./js/question-result.js"></script>
 </head>
 
 <body>
-    <div id="container" >
+    <div id="container">
         <div id="mySwiper" class="swiper mySwiper">
             <main class="swiper-wrapper">
                 <section id="first-slide" class="swiper-slide">
@@ -71,25 +73,26 @@
 
                     </section>
                 </section>
-                <section id="second-slide" class="swiper-slide swiper-slide-next" aria-label="2 / 2" role="group" style="height: 384px;">
+                <section id="second-slide" class="swiper-slide swiper-slide-next" aria-label="2 / 2" role="group"
+                    style="height: 384px;">
                     <section id="back-toquiz"><img src="./img/up-arrow.svg" alt=""><br>Retourner au quiz</section>
                     <section id="dataviz"></section>
                     <section id="legende">Followers en commun en %</section>
-                
-                  </section>
+
+                </section>
             </main>
         </div>
     </div>
-    
+
     <script>
         var swiper = new Swiper(".mySwiper", {
-          direction: "vertical",
-          pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-          },
+            direction: "vertical",
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
         });
-      </script>
+    </script>
 </body>
 
 </html>
