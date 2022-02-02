@@ -232,11 +232,11 @@ function generate_enemy(code_commune_joueur) {
 				adversaires.push(voisins[idx].toString());
 			}
 
-
 			for (let idx_voisin in voisins) {
-				let voisinsRangDeux = data_voisins.get(voisins[idx_voisin]);
+				let voisinsRangDeux = data_voisins.get(voisins[idx_voisin].toString()); //undefined
+
 				for (let idx_voisinDouble in voisinsRangDeux) {
-					if (!adversaires.includes(voisinsRangDeux[idx_voisinDouble])) {
+					if (!adversaires.includes(voisinsRangDeux[idx_voisinDouble]) && voisinsRangDeux[idx_voisinDouble].toString() !== code_commune_joueur.toString()) {
 						adversaires.push(voisinsRangDeux[idx_voisinDouble].toString());
 						nb_villes_manquantes--;
 						if (nb_villes_manquantes === 0) {
@@ -250,7 +250,7 @@ function generate_enemy(code_commune_joueur) {
 			}
 		}
 	}
-	//TODO mettre le nom de la commune avec le numéro
+
 	adversaires = randomize(adversaires);
 
 	for (let adv in adversaires) {
