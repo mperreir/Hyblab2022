@@ -25,14 +25,14 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-top: 20vh;
+    margin-top: 10vh;
 }
 
 .label-joute {
     color: #C8A166;
     font-family: 'Baloo Tamma 2';
     font-size: 17%;
-    width: 60%;
+    width: 80%;
     margin-bottom: 20px;
     line-height: 1.3;
 }
@@ -65,10 +65,15 @@
 .o-letter{
     color: #C57EB3;
 }
+
+.recompense img {
+    width: 60%;
+}
+
 .bottom {
     display: flex;
     justify-content: center;
-    margin-top: 10vh;
+    margin-top: 1vh;
 }
 
 .bottom .goToJouteSuivante {
