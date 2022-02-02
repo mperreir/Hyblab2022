@@ -20,14 +20,15 @@ const COMPATIBLE_BACKGROUNDS = {
     9: [2, 6, 7],
 }
 let CANDIDATS = []
-function InitDesIntentions(intentionsCandidats){
+
+function InitDesIntentions(intentionsCandidats) {
     const divRace = document.getElementById('race');
     CANDIDATS = intentionsCandidats;
     intentionsCandidats.map(candidat => {
         const divCandidat = document.createElement('div');
         divCandidat.setAttribute('style', 'margin-left:-75px;');
         divCandidat.className = 'candidat';
-        divCandidat.setAttribute('data-name',  candidat.name);
+        divCandidat.setAttribute('data-name', candidat.name);
 
         const divName = document.createElement('div');
         divName.className = 'name';
@@ -38,8 +39,8 @@ function InitDesIntentions(intentionsCandidats){
         const img = document.createElement('img');
         img.src = document.getElementById(candidat.name).src;
         img.onerror = function(e) {
-            e.target.src='img/candidats/profil_inconnu_cadre.svg'
-        } 
+            e.target.src = 'img/candidats/profil_inconnu_cadre.svg'
+        }
         const divPourcent = document.createElement('div');
         divPourcent.className = 'pourcent'
         divPourcent.innerText = "0 %"
@@ -66,7 +67,7 @@ function AjoutDesCandidats(candidats) {
         block.className = "candidat"
         avatar.id = candidat.prenom + ' ' + candidat.nom
         avatar.src = "img/candidats/" + candidat.img + '.png'
-        avatar.onerror = function (e) {
+        avatar.onerror = function(e) {
             e.target.src = 'img/candidats/profil_inconnu_cadre.svg'
         }
 
@@ -86,7 +87,7 @@ function AjoutDesCandidats(candidats) {
     }
 }
 
-function ToggleButton(button, img = [1, 2], callback = _ => { }) {
+function ToggleButton(button, img = [1, 2], callback = _ => {}) {
     let state = false
     button.addEventListener("click", _ => {
         state = !state
@@ -107,15 +108,12 @@ function GenereLaListeDesBackgrounds(nb_jours) {
         if (i == nb_jours - 3) {
             if (backgroundBefore === 3) {
                 background.push('fond9');
-            }
-            else if (backgroundBefore === 4 || backgroundBefore === 5) {
+            } else if (backgroundBefore === 4 || backgroundBefore === 5) {
                 background.push('fond8');
-            }
-            else {
+            } else {
                 background.push('fond6');
             }
-        }
-        else {
+        } else {
             let index = getRandomInt(COMPATIBLE_BACKGROUNDS[backgroundBefore].length);
             let currBackground = COMPATIBLE_BACKGROUNDS[backgroundBefore][index];
             background.push('fond' + currBackground);
@@ -132,6 +130,9 @@ function start() {
 
     const player = document.querySelector("lottie-player");
     player.load("anim/debut.json");
+    player.addEventListener("ready", _ => {
+        document.body.querySelector("#Introduction .loader").remove()
+    })
     player.addEventListener("complete", _ => {
         window.scrollTo(0, 1);
         document.body.querySelector("#Introduction").className = "hide-introduction"
@@ -210,14 +211,14 @@ function start() {
     const GetScrollDate = (index) => {
         let dateIn = new Date();
         dateIn.setHours(12);
-        let date = new Date(dateIn.setDate(dateIn.getDate() - (NBR_JOUR-index)));
-        
-        let strDate = date.getFullYear() + '-' + ('0' +(date.getMonth()+1)).slice(-2) + '-' + ('0' + date.getDate()).slice(-2);
+        let date = new Date(dateIn.setDate(dateIn.getDate() - (NBR_JOUR - index)));
+
+        let strDate = date.getFullYear() + '-' + ('0' + (date.getMonth() + 1)).slice(-2) + '-' + ('0' + date.getDate()).slice(-2);
         return strDate;
     }
 
     INDEX_PREV = -1;
-    
+
     function scrollPosition(scroll) {
 
         const rect = animation.getBoundingClientRect()
@@ -228,7 +229,7 @@ function start() {
         let indexJour = parseInt(hauteur / PIXEL_PAR_JOUR) + 1
 
         indexJour = indexJour <= 0 ? 0 : indexJour
-        
+
         if (rect.top <= 0 && not_seeing_bottom) {
             setWhileScrolling()
         } else if (rect.top > 0 && not_seeing_bottom) {
@@ -236,14 +237,14 @@ function start() {
         } else {
             setAfterScrolling()
         }
-        if (INDEX_PREV != indexJour){
+        if (INDEX_PREV != indexJour) {
             INDEX_PREV = indexJour
             const currDate = GetScrollDate(indexJour);
 
             if (indexJour > 0) {
                 CANDIDATS.map(candidat => {
                     let index = candidat.x.indexOf(currDate);
-                    if (index >= 0){
+                    if (index >= 0) {
                         const divPourcent = document.querySelector(`div[data-name='${candidat.name}'] div[class='pourcent']`);
                         divPourcent.innerText = parseFloat(candidat.y[index]).toFixed(1) + ' %';
                     }
