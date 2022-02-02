@@ -23,7 +23,6 @@ function InitDesIntentions(intentionsCandidats, objCandidats) {
         divName.appendChild(divNom)
 
         const divBlock = document.createElement('div');
-        console.log(candidat.name)
         const objCandidat = objCandidats.filter(c => candidat.name === c.prenom + ' ' + c.nom)[0];
         divBlock.style.background = objCandidat.couleur;
         divBlock.className = 'block';
