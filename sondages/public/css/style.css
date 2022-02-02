@@ -442,11 +442,11 @@ header .routeDebut {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all .3s;
+    transition: bottom .3s;
 }
 
 #race.after-scrolling #TimeInfo {
-    bottom: -25vh
+    bottom: -13vh
 }
 
 #race #TimeInfo .slider {
