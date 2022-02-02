@@ -110,9 +110,9 @@ body{
 /* so we cannot use % and use em (which are proportinal to the size of the */
 /* slide because of body's font size rule at the beginning of this CSS */
 #bandeau {
-    position: absolute;
-    bottom : 0;
     padding-top: 3%;
+    position: absolute;
+    bottom: 0;
     width: 100%;
     background-color: white;
     font-size: 20%;
