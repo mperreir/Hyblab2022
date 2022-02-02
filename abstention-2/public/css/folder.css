@@ -137,14 +137,14 @@
 .graph-etrangers-values {
     margin-top: 5%;
     display: flex;
-    width: 85%;
+    width: 95%;
     justify-content: space-between;
 }
 
 .graph-nouveaux-habitants-values {
     margin-top: 5%;
     display: flex;
-    width: 93%;
+    width: 94%;
     justify-content: space-between;
 
 }
@@ -156,7 +156,7 @@
 
 .fd-solutions {
     width: 60%;
-    margin-top: 5%;
+    margin-top: 15%;
     display: flex;
 }
 
