@@ -204,7 +204,7 @@ function histo(dataSet) {
       .append('text')
       .attr('class', 'value')
       .attr('x', (a) => xScale(a.NomC) + xScale.bandwidth() / 2)
-      .attr('y', (a) => yScale(a.Voix))
+      .attr('y', (a) => yScale(a.Voix) - 3)
       .style('font-size', '10px')
       .attr('text-anchor', 'middle')
       .text((a) => `${a.Voix}%`)
