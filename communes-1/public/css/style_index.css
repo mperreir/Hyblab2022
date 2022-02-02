@@ -43,6 +43,8 @@
 
 
 .header-bottom {
+	position: absolute;
+	top: 0;
 	text-align: center;
 }
 
@@ -55,6 +57,8 @@
 }
 
 .mid {
+	position: absolute;
+	top: 30vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
