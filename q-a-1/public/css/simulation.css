@@ -55,73 +55,77 @@ p{
     font-variant: normal;
 }
 
-.head-simulation{
-    margin-top: 10%;
-    width: 100%;
-    display:flex;
-    justify-content: space-around;
+#buttonvainqueur{
+        position: absolute;
+        top:49%;
+        width: 80%;
 }
 
-.head2-simulation{
-    margin-top: 2%;
-    margin-bottom: 8%;
+#buttonlooser{
+        position:absolute;
+        top:60%;
+        width: 80%;
+}
+
+#buttonsecondtour{
+        position:absolute;
+        top:71%;
+        width: 80%;
+}
+
+#head_simulation{
+    margin-top: 10%;
     width: 100%;
-    display:flex;
-    justify-content: space-around;
+    display:block;
+
+}
+
+#head_simulation p{
+        text-align: center;
+}
+
+#close{
+        position: absolute;
+        top:5%;
+        right:5%;
+        width: 7%;
+        display: none;
 }
 
 .button{ 
-    margin: 1%;
+    margin-top: -5%;
     width: 35%;
-    height: 5.5%;
+    padding: 2% 4% 2% 4%;
     border-radius: 30px;
     border: none;
     font-family: 'folsomblack';
     font-size: 15%;
     background-color: #C9C4C2;;
     color:#FFFFFF;
-    align-items: center;
+    position: absolute;
 }
 
 #vainqueur{
-        position: absolute;
-        top: 43%;
-        margin-bottom: 2%;
-        text-align: center;
+        top: 46%;
+        margin-bottom: 1%;
+        margin-left: 34%;
 }
 #perdant{
-        position: absolute;
-        top: 54%;
-        margin-bottom: 2%;
-        text-align: center;
+        top: 57%;
+        margin-bottom: 1%;
+        margin-left: 34%;
 }
 #gagnant{
-        position: absolute;
-        top: 65%;
-        margin-bottom: 32%;
-        text-align: center;
+        top: 68%;
+        margin-bottom: 1%;
+        margin-left: 34%;
+}
 
-}
-#buttonvainqueur{
-        position: absolute;
-        top:49%;
-        text-align: center;
-}
-#buttonlooser{
-        position: absolute;
-        top:60%;
-        text-align: center;
-}
-#buttonsecondtour{
-        position: absolute;
-        top:71%;
-        text-align: center;
-        left: 10%;
-}
 #checkup{
+        top: 75%;
+        left: 37%;
+        width: 26%;
         position: absolute;
-        top: 76%;
-        text-align: center;
 }
 
 
@@ -153,7 +157,7 @@ p{
 
 #f-section{
     margin-top: 5%;
-    display: block;
+    display: none;
 }
 
 #s-section{
@@ -166,27 +170,34 @@ p{
     display: none;
 }
 #persoA{
-        margin-top: 3%;
+        width: 13%;
+        left:44.5%;
+        top:27%;
         position: absolute;
-        text-align: center;
-        top: 25.14%;
-        bottom: 68.75%;
-        width: 15.65%;
 }
 .textintrosim{
-        position: absolute;
         font-family: "mariannemedium";
         font-variant: normal;
         font-size:15%;
         color:#989595;
         margin-left: 10%;
         margin-right: 10%;
-        margin-bottom: 8%;
+        margin-bottom: -10%;
+        margin-top: -2%;
         text-align: center;
-        top:36%;
         
 
 }
+
+#description{
+        position: absolute;
+        top:36%;
+}
+
+.intro_page_section{
+        margin-top: -15%;
+}
+
 @keyframes graphic {
     0% {
       -webkit-transform: scaleX(0.2);
