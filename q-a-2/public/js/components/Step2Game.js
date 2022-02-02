@@ -69,18 +69,16 @@ class Step2Game extends React.Component {
         return(            
             <div className='step2Game'>
                 <table className='step2Game-images-container'>
-                    <tbody>
-                        <tr>
-                            {imageCandidates[0]}
-                            {imageCandidates[1]}
-                            {imageCandidates[2]}
-                        </tr>
-                        <tr>
-                            {imageCandidates[3]}
-                            {imageCandidates[4]}
-                            {imageCandidates[5]}
-                        </tr>
-                    </tbody>
+                    <tr>
+                        {imageCandidates[0]}
+                        {imageCandidates[1]}
+                        {imageCandidates[2]}
+                    </tr>
+                    <tr>
+                        {imageCandidates[3]}
+                        {imageCandidates[4]}
+                        {imageCandidates[5]}
+                    </tr>
                 </table>
             </div>
         );

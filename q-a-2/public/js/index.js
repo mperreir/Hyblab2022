@@ -10,7 +10,7 @@ candidates.forEach(candidate => {
   stepsCandidates[step].push(candidate);
 })*/
 stepsCandidates["1"] = [...candidates];
-//stepsCandidates["5"] = candidates.slice(0, 5);
+//stepsCandidates["6"] = candidates.slice(0, 5);
 //stepsCandidates["7"] = [];
 //stepsCandidates['8'].push(candidates[0]);
 
@@ -19,16 +19,16 @@ class App extends React.Component {
     super(props);
     this.state = {
       stepPages: [
-        <StartingPage nextStep={() => this.nextStep()} />,
-        <Step1Page data={data} nextStep={() => this.nextStep()} />,
+        //<StartingPage nextStep={() => this.nextStep()} />,
+        //<Step1Page data={data} nextStep={() => this.nextStep()} />,
         <Step2Page data={data} nextStep={() => this.nextStep()} />,
         <Step3Page data={data} nextStep={() => this.nextStep()} />,
-        <Step4Page data={data} nextStep={() => this.nextStep()} />,
+        /*<Step4Page data={data} nextStep={() => this.nextStep()} />,
         <Step5Page data={data} nextStep={() => this.nextStep()} />,
         <Step6Page data={data} nextStep={() => this.nextStep()} />,
         <Step7Page data={data} nextStep={() => this.nextStep()} />,
         <Step8Page data={data} nextStep={() => this.nextStep()} />,
-        <EndingPage nextStep={() => this.resetStep()} />
+        <EndingPage nextStep={() => this.resetStep()} />*/
       ],
       step: 0
     }
@@ -49,6 +49,12 @@ class App extends React.Component {
     return this.state.stepPages[this.state.step];
   }
 }
+
+function randomizeCandidates() {
+
+}
+
+randomizeCandidates();
 
 ReactDOM.render(
   <App />,
