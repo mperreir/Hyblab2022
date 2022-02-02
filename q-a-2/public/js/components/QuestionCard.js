@@ -21,6 +21,7 @@ class QuestionCard extends React.Component {
                     <a className='questionCard_learnMore' href={this.props.learnMoreLink || '#'} target="_blank">En savoir plus</a>
                 </div>
                 <div className='questionCard_nextStep'>
+                    {this.props.step == 8 ? <img src={`img/investiture/investiture-${stepsCandidates['8'][0].nameId}.svg`} /> : null}
                     <p>{this.props.nextStepMessage}</p>
                     <Button value={this.props.buttonText} onClick={() => this.props.buttonOnClick()} />
                 </div>

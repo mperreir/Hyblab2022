@@ -25,12 +25,14 @@ class GamePage extends Page {
     }
 
     gameFinish() {
+        if (this.state.game.win) {
+            this.candidatesClimbSteps(this.state.game.candidatesNextStep)
+        }
         this.setState({ endScreen: true })
     }
 
     onClickEndCard() {
         if (this.state.game.win) {
-            this.candidatesClimbSteps(this.state.game.candidatesNextStep)
             this.props.nextStep()
         } else {
             this.setState({ endScreen: false })
@@ -42,7 +44,7 @@ class GamePage extends Page {
             return (
                 <div className='gamePage'>
                     <Header step={this.props.step} />
-                    <EndGameCard isWin={this.state.game.win} onClickButton={() => this.onClickEndCard()} />
+                    <EndGameCard isWin={this.state.game.win} step={this.props.step} onClickButton={() => this.onClickEndCard()} />
                 </div> 
             ) 
         }
@@ -64,7 +66,7 @@ class GamePage extends Page {
                         })
                     }
                 </div>
-                <Button value={this.props.buttonTitle} onClick={() => this.gameFinish()} disabled={this.state.buttonDisabled} />
+                <Button value={this.props.buttonTitle} onClick={() => this.gameFinish()} disabled={this.state.buttonDisabled} className={(this.props.step == 6 || this.props.step == 7 ? 'buttonMarginTop' : '')} />
             </div>
         )
     }
