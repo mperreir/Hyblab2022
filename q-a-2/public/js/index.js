@@ -1,5 +1,6 @@
 "use strict";
 
+window.addEventListener('load', () => window.scrollTo(1))
 
 let stepsCandidates = {
   "1": [], "2": [], "3": [], "4": [], "5": [], "6": [], "7": [], "8": [],
