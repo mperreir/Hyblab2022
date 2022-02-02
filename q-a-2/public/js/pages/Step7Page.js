@@ -11,7 +11,7 @@ class Step7Page extends Page {
                 />,
                 <QuestionPage
                     step={step}
-                    buttonOnClick={() => this.nextStep()}
+                    buttonOnClick={() => this.nextSubStep()}
                     buttonText="Dépouiller"
                     questionTitle={data.title}
                     question={questions[0].question}
@@ -19,6 +19,16 @@ class Step7Page extends Page {
                     learnMoreLink={questions[0].link}
                     nextStepMessage="Dépouiller les bulletins de vote et compter les voies"
                 />,
+                <GamePage
+                    step={step}
+                    title='Le 2nd tour'
+                    subtitle="Clique sur l'urne pour ouvrir toutes les enveloppes."
+                    buttonTitle='Continuer'
+                    returnToExplanations={() => this.returnToExplanations()}
+                    nextStep={() => this.nextStep()}
+                >
+                    <Step7Game />
+                </GamePage>
             ],
             subStepIndex: 0
         }

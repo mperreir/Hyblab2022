@@ -5,13 +5,14 @@ class Step6Page extends Page {
         const data = props.data.steps['6'];
         const questions = data.questions;
         this.state = {
+            step: step,
             subPages: [
                 <MainStepPage step={step} nextSubStep={() => this.nextSubStep()}
                     subtitle="Le 1er tour"
                 />,
                 <QuestionPage
                     step={step}
-                    buttonOnClick={() => this.nextStep()}
+                    buttonOnClick={() => this.nextSubStep()}
                     buttonText="Dépouiller"
                     questionTitle={data.title}
                     question={questions[0].question}
@@ -19,6 +20,16 @@ class Step6Page extends Page {
                     learnMoreLink={questions[0].link}
                     nextStepMessage="Dépouiller les bulletins de vote et compter les voies"
                 />,
+                <GamePage
+                    step={step}
+                    title='Le 1er tour'
+                    subtitle="Clique sur l'urne pour ouvrir toutes les enveloppes."
+                    buttonTitle='Continuer'
+                    returnToExplanations={() => this.returnToExplanations()}
+                    nextStep={() => this.nextStep()}
+                >
+                    <Step6Game />
+                </GamePage>
             ],
             subStepIndex: 0
         }

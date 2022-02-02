@@ -5,6 +5,8 @@ const candidates = [
         "name": "M. Hexagone",
         "baseY": "99",
         "baseWidth": "75",
+        "color": "#3154FF",
+        "head_img": "head_hexagone.svg",
         "stepOneGame" : {
             "age": "35 ans",
             "address": "Paris",
@@ -17,7 +19,24 @@ const candidates = [
             "scale":"scale(0.8)",
         },
         "stepThreeGame": {
-            "statements": [],
+            "statements": {
+                "0": {
+                    "statement": "Compte courant",
+                    "valid": true
+                },
+                "1": {
+                    "statement": "Compte bancaire en Espagne",
+                    "valid": true
+                },
+                "2": {
+                    "statement": "Maison de vacances en Suisse",
+                    "valid": true
+                },
+                "3": {
+                    "statement": "Assurance vie",
+                    "valid": true
+                }
+            },
             "valid": true
         },
         "stepFourGame": {
@@ -35,6 +54,8 @@ const candidates = [
         "name": "M. Losange",
         "baseY": "114",
         "baseWidth": "55",
+        "color": "#FF6700",
+        "head_img": "head_losange.svg",
         "stepOneGame" : {
             "age": "54 ans",
             "address": "Angers",
@@ -47,7 +68,24 @@ const candidates = [
             "scale": "scale(1)",
         },
         "stepThreeGame": {
-            "statements": [],
+            "statements": {
+                "0": {
+                    "statement": "Actions dans une entreprise française",
+                    "valid": true
+                },
+                "1": {
+                    "statement": "Compte bancaire courant",
+                    "valid": true
+                },
+                "2": {
+                    "statement": "Résidence principale",
+                    "valid": true
+                },
+                "3": {
+                    "statement": "Trois voitures",
+                    "valid": true
+                }
+            },
             "valid": true
         },
         "stepFourGame": {
@@ -65,6 +103,8 @@ const candidates = [
         "name": "M. Pavé",
         "baseY": "101",
         "baseWidth": "69",
+        "color": "#FFABE5",
+        "head_img": "head_rec.svg",
         "stepOneGame" : {
             "age": "66 ans",
             "address": "Paris",
@@ -77,7 +117,24 @@ const candidates = [
             "scale": "scale(1)",
         },
         "stepThreeGame": {
-            "statements": [],
+            "statements": {
+                "0": {
+                    "statement": "Assurance vie",
+                    "valid": true
+                },
+                "1": {
+                    "statement": "Dettes",
+                    "valid": true
+                },
+                "2": {
+                    "statement": "Appartement à Paris",
+                    "valid": true
+                },
+                "3": {
+                    "statement": "Voiture de luxe",
+                    "valid": true
+                }
+            },
             "valid": true
         },
         "stepFourGame": {
@@ -95,10 +152,12 @@ const candidates = [
         "name": "Mme. Equilatérale",
         "baseY": "110",
         "baseWidth": "66",
+        "color": "#7352FF",
+        "head_img": "head_equilateral.svg",
         "stepOneGame" : {
             "age": "52 ans",
             "address": "Paris",
-            "politicalOrientation": "Conservateurs",
+            "politicalOrientation": "Centre-droit",
             "legalStatus": "Casier vierge",
             "valid": true
         },
@@ -107,7 +166,24 @@ const candidates = [
             "scale": "scale(0.8)",
         },
         "stepThreeGame": {
-            "statements": [],
+            "statements": {
+                "0": {
+                    "statement": "Château dans la Somme",
+                    "valid": true
+                },
+                "1": {
+                    "statement": "Compte bancaire courant",
+                    "valid": true
+                },
+                "2": {
+                    "statement": "Appartement aux Etats-Unis",
+                    "valid": true
+                },
+                "3": {
+                    "statement": "Actions dans une entreprise française",
+                    "valid": true
+                }
+            },
             "valid": true
         },
         "stepFourGame": {
@@ -125,6 +201,8 @@ const candidates = [
         "name": "Mme. Carré",
         "baseY": "103",
         "baseWidth": "80",
+        "color": "#FF2E3F",
+        "head_img": "head_carre.svg",
         "stepOneGame" : {
             "age": "31 ans",
             "address": "Tours",
@@ -137,7 +215,24 @@ const candidates = [
             "scale": "scale(1)",
         },
         "stepThreeGame": {
-            "statements": [],
+            "statements": {
+                "0": {
+                    "statement": "Bâteau motorisé",
+                    "valid": true
+                },
+                "1": {
+                    "statement": "Maison à Marseille",
+                    "valid": true
+                },
+                "2": {
+                    "statement": "Assurance vie",
+                    "valid": true
+                },
+                "3": {
+                    "statement": "Actions dans une entreprise allemande",
+                    "valid": true
+                }
+            },
             "valid": true
         },
         "stepFourGame": {
@@ -155,6 +250,8 @@ const candidates = [
         "name": "M. Lerond",
         "baseY": "115",
         "baseWidth": "64",
+        "color": "#FFEE1A",
+        "head_img": "head_rond.svg",
         "stepOneGame" : {
             "age": "47 ans",
             "address": "Nice",
@@ -167,7 +264,24 @@ const candidates = [
             "scale": "scale(0.9)",
         },
         "stepThreeGame": {
-            "statements": [],
+            "statements": {
+                "0": {
+                    "statement": "Maison en Bretagne",
+                    "valid": true
+                },
+                "1": {
+                    "statement": "Compte bancaire en Belgique",
+                    "valid": true
+                },
+                "2": {
+                    "statement": "Compte bancaire (Livret A)",
+                    "valid": true
+                },
+                "3": {
+                    "statement": "Maison en Finlande",
+                    "valid": true
+                }
+            },
             "valid": true
         },
         "stepFourGame": {
@@ -185,6 +299,8 @@ const candidates = [
         "name": "M. Cylindre",
         "baseY": "133",
         "baseWidth": "61",
+        "color": "#89F798",
+        "head_img": "head_cylindre.svg",
         "stepOneGame" : {
             "age": "42 ans",
             "address": "Nantes",
@@ -197,7 +313,24 @@ const candidates = [
             "scale": "scale(1)",
         },
         "stepThreeGame": {
-            "statements": [],
+            "statements": {
+                "0": {
+                    "statement": "Assurance vie",
+                    "valid": true
+                },
+                "1": {
+                    "statement": "Voiture de luxe",
+                    "valid": true
+                },
+                "2": {
+                    "statement": "Maison à Amiens",
+                    "valid": true
+                },
+                "3": {
+                    "statement": "Appartement à Berlin",
+                    "valid": true
+                }
+            },
             "valid": true
         },
         "stepFourGame": {
@@ -215,10 +348,12 @@ const candidates = [
         "name": "Mme. Amphi",
         "baseY": "98",
         "baseWidth": "90",
+        "color": "#76C8FF",
+        "head_img": "head_amphi.svg",
         "stepOneGame" : {
             "age": "18 ans",
             "address": "Rennes",
-            "politicalOrientation": "Centre-droite",
+            "politicalOrientation": "Centre-droit",
             "legalStatus": "Casier vierge",
             "valid": true
         },
@@ -227,7 +362,24 @@ const candidates = [
             "scale": "scale(0.8)",
         },
         "stepThreeGame": {
-            "statements": [],
+            "statements": {
+                "0": {
+                    "statement": "Compte bancaire (Livret A)",
+                    "valid": true
+                },
+                "1": {
+                    "statement": "Maison de vacances en Italie",
+                    "valid": true
+                },
+                "2": {
+                    "statement": "Hélicoptère",
+                    "valid": true
+                },
+                "3": {
+                    "statement": "Actions dans une entreprise suédoise",
+                    "valid": true
+                }
+            },
             "valid": true
         },
         "stepFourGame": {
