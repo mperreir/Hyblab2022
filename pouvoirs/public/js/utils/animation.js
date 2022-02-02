@@ -10,7 +10,8 @@ const createAnimation = function(divName, path, loop) {
 		direction:-1,
 		autoplay: false,
 		rendererSettings: {
-			preserveAspectRatio: "xMaxYMax meet"
+			// preserveAspectRatio: "xMaxYMax meet"
+			preserveAspectRatio: "none"
 		}
 	});
 }

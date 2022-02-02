@@ -15,6 +15,8 @@ const init_p6 = function () {
     const dialog_info2 = document.querySelector("#p6 .info2");
 
     const clockEffect = createAudio("data/sounds/clockTicking.mp3");
+    const goodAns = createAudio("data/sounds/good_choice.mp3", false,0.7, 1);
+    const explosionSE = createAudio("data/sounds/explosion.mp3", false,0.7, 1);
 
     dialog_before.querySelector(".dialog-text").innerHTML = getText("p6-etatmajor");
     dialog_moua.querySelector(".dialog-text").innerHTML = getText("p6-moua");
@@ -86,6 +88,10 @@ const init_p6 = function () {
     const ready_bouton = () => {
         bouton_rouge.addEventListener('click', () => {
         clockEffect.unload();
+        shakeElement(power_header);
+        shakeElement(bouton_rouge);
+        shakeElement(decompte);
+        explosionSE.play();
         choice_made = 1;
         clearTimeout(timeout);
         anime({
@@ -167,7 +173,10 @@ const init_p6 = function () {
                 anime.remove(dialog_arrow);
                 anime({
                     targets : dialog_info2,
-                    opacity : [0,1]
+                    opacity : [0,1],
+                    complete : () => {
+                        showArrow();
+                    }
                 })
                 
             }
@@ -188,7 +197,7 @@ const init_p6 = function () {
                     dialog_not_pressed.style.display = "block"
                     illu_fin.style.display = "block";
                     showTitle("p6");
-                    // goodAns.play();
+                    goodAns.play();
                     anime({
                         targets: [dialog_not_pressed, illu_fin],
                         opacity: [0, 1],
