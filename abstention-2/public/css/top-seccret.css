@@ -1,7 +1,6 @@
 .ts-dossier{
   position: relative;
   height: 5%;
-  position: relative;
   display: grid;
   grid-template-columns: 5fr 5fr;
   text-align: center;
@@ -10,7 +9,7 @@
 
 .ts-finaux{
   position: relative;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: center;
   border-right: #1028fd solid 1px;
   box-shadow: 10px 10px #1028fd;
