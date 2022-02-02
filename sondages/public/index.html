@@ -34,13 +34,21 @@
 
     </div>
 
+    <button id="fonctionnementButton">
+        <img src="img/bouton_fonctionnement.svg" />
+    </button>
+
+    <button id="creditsButton">
+        <img src="img/bouton_credits.svg" />
+    </button>
+
     <div id="container">
 
         <header>
 
             <div class="forCars">
 
-                <div class="main">
+                <div class="main" id="main">
                     <img src="img/logo.svg" class="logo">
 
                     <p>Présidentielle : la course dans les sondages</p>
@@ -76,6 +84,45 @@
                             </div>
 
                         </div>
+                    </div>
+
+
+                    <div id="fonctionnementPOPUP">
+                        <h1 class="creditsTitle">Candidats</h1>
+                        <div class="candidatsFonctionnementDiv">
+                            <p>Choisis les candidats dont tu souhaites voir la course dans les sondages.</p>
+                            <p>Lance la course et scroll pour te déplacer.</p>
+                        </div>
+                        <div class="coursesDiv">
+                            <h1 class="creditsTitle">Courses</h1>
+                            <p>Préselections pour observer en détails certains parties de la course</p>
+                        </div>
+                    </div>
+
+
+
+                    <div id="creditsPOPUP">
+                        <h1 class="creditsTitle">Credits</h1>
+                        <br />Projet réalisé en janvier-février 2022 par les étudiants de Polytech Nantes:
+
+                        <p><a href="https://www.linkedin.com/in/josik-sallaud/">Josik Sallaud - Linkedin</a></p>
+                        <p><a href=" https://www.linkedin.com/in/nathan-rocher/">Nathan Rocher - Linkedin</a></p>
+                        <p><a href=" https://www.linkedin.com/in/henri-fakhouri-6618a6125/">Henri Fakhouri -
+                                Linkedin</a></p>
+                        <p><a href=" https://www.linkedin.com/in/adame-naji/">Adame Naji - Linkedin</a></p>
+                        <p><a href="https://www.linkedin.com/in/mattéo-boursault-485b30227/">Mattéo Boursault -
+                                Linkedin</a></p>
+
+                        <br />Ainsi que les étudiants de l'école AGR:
+                        <p><a href="https://www.instagram.com/mooneow/?hl=fr">Angèle Renaudin - Instagram </a></p>
+                        <p><a href="https://www.instagram.com/tim_skern/?hl=fr">Thimothée Guitton - Instagram</a></p>
+
+                        <br />Ce projet est soutenu par:<br>
+                        <div><img class="logoImages" src="img/logos/logo_nantesmetropole.png"><img class="logoImages" src="img/logos/logo_oml.png"><img class="logoImages" src="img/logos/logo_nantesuniversite.png">
+                            <img class="logoImages" src="img/logos/logo_polytech.png"><img class="logoImages" src="img/logos/logo_agr.png"><img class="logoImages" src="img/logos/logo_hyblab.png">
+                        </div>
+                        <br />Ce projet a été développé sous:
+                        <div><img class="logoImages" src="img/logos/logo_opensource.png"><img class="logoImages" src="img/logos/logo_cc.png"></div>
                     </div>
 
                 </div>
@@ -158,6 +205,9 @@
         </div>
 
         <footer>
+
+            <button id="restartTheRace">Recommencer</button>
+
             <p>
                 La course des sondages à laquelle tu viens d’assister ne reflète que les intentions de votes mesurées au 1er tour.
             </p>

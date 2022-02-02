@@ -110,7 +110,8 @@ function start() {
     const TimeInfoDate = document.body.querySelector("#TimeInfo .date")
 
 
-    const startTheRace = document.body.querySelector("button#startTheRace")
+    const startTheRace = document.getElementById("startTheRace")
+    const restartTheRace = document.getElementById("restartTheRace")
 
 
     // Menu du haut pour les choix
@@ -135,7 +136,7 @@ function start() {
     let POURCENT_BORNE_MAX = 30;
 
     BtnCourse30.addEventListener("click", evt => {
-        if (evt.target.className !== "selected"){
+        if (evt.target.className !== "selected") {
             BtnCourse15.className = ""
             BtnCourse5.className = ""
             evt.target.className = "selected"
@@ -145,7 +146,7 @@ function start() {
     })
 
     BtnCourse15.addEventListener("click", evt => {
-        if (evt.target.className !== "selected"){
+        if (evt.target.className !== "selected") {
             BtnCourse30.className = ""
             BtnCourse5.className = ""
             evt.target.className = ""
@@ -155,7 +156,7 @@ function start() {
     })
 
     BtnCourse5.addEventListener("click", evt => {
-        if (evt.target.className !== "selected"){
+        if (evt.target.className !== "selected") {
             BtnCourse30.className = ""
             BtnCourse15.className = ""
             evt.target.className = "selected"
@@ -252,28 +253,28 @@ function start() {
                         let pourcent_max = Math.ceil(pourcent);
 
                         // on prend en compte seulement les candidats dans les bornes
-                        if (pourcent >= POURCENT_BORNE_MIN && pourcent <= POURCENT_BORNE_MAX){
-                            if (pourcent_max > max_pourcent){
+                        if (pourcent >= POURCENT_BORNE_MIN && pourcent <= POURCENT_BORNE_MAX) {
+                            if (pourcent_max > max_pourcent) {
                                 max_pourcent = pourcent_max;
                             }
-                            if (pourcent_min < min_pourcent){
+                            if (pourcent_min < min_pourcent) {
                                 min_pourcent = pourcent_min;
                             }
                         }
-                        
+
                     });
 
                     console.log(min_pourcent, '% ', max_pourcent, '%')
-                    // Echelle dynamique :
-                    // arrondissement a la dizaine inférieur
-                    // -> borne min
-                    const min_regle = Math.floor(min_pourcent/5)*5;
+                        // Echelle dynamique :
+                        // arrondissement a la dizaine inférieur
+                        // -> borne min
+                    const min_regle = Math.floor(min_pourcent / 5) * 5;
                     const divRegleBas = document.getElementById("RegleBas");
                     divRegleBas.innerText = min_regle + '%';
 
                     // -> borne max
                     // arrondissement a la dizaine supérieure
-                    const max_regle = Math.ceil(max_pourcent/5)*5;
+                    const max_regle = Math.ceil(max_pourcent / 5) * 5;
                     const divRegleHaut = document.getElementById("RegleHaut");
                     divRegleHaut.innerText = max_regle + '%';
 
@@ -289,13 +290,12 @@ function start() {
                             pourcent = parseFloat(CANDIDATS[nom_candidat].y[index]).toFixed(1)
                         }
 
-                        const position = (pourcent-min_regle) / (max_regle-min_regle) * hauteur_regle
+                        const position = (pourcent - min_regle) / (max_regle - min_regle) * hauteur_regle
 
                         // si candidats dans la borne sélectionnée :
-                        if (pourcent >= POURCENT_BORNE_MIN && pourcent <= POURCENT_BORNE_MAX){
+                        if (pourcent >= POURCENT_BORNE_MIN && pourcent <= POURCENT_BORNE_MAX) {
                             CANDIDATS[nom_candidat].div.style.top = "calc( 12.5vh + " + (position - TAILLE_DIV_CANDIDAT / 2) + "px" + " ) ";
-                        }
-                        else // sinon candidats hors borne :
+                        } else // sinon candidats hors borne :
                         {
                             CANDIDATS[nom_candidat].div.style.top = "-500px";
 
@@ -312,6 +312,9 @@ function start() {
             // Ajout les évents listeners nécéssaires
             startTheRace.addEventListener("click", scrollToRace)
             document.addEventListener("scroll", scrollPosition)
+            restartTheRace.addEventListener("click", _ => {
+                window.scrollTo(0, 1);
+            })
 
         })
 
