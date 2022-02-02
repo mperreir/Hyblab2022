@@ -29,11 +29,9 @@
   color:#ff4800;
 }
 
-
-
-
 .pv-area{
   text-align: center;
+  width: 90%;
 }
 
 .pv-header-ville{
@@ -52,7 +50,7 @@
 
 .pv-nom-ville{
   color:#ff4800;
-  font-size: 3vh;
+  font-size: 2.5rem;
   font-family: "CabinetGrotesk-Regular";
   display: flex;
   align-items: center;

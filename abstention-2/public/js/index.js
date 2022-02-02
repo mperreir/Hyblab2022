@@ -1,5 +1,9 @@
 'use strict';
 
+let selectedCityData;
+let metropoleData;
+let citiesMap;
+
 const FOLDER_TITLES = {
     filesData: [
         {
@@ -45,8 +49,10 @@ function date() {
     const date = document.getElementById('header-date');
 
     let text = new Date();
+
     window.setInterval(() => {
         text = new Date()
+
     }, 60000);
     let dateContent;
     if (text.getHours < 10) {
@@ -77,22 +83,25 @@ function date() {
 
 // loadStart();
 // loadSms();
-
 // // loadFolder('nonVotants');
-// loadFileExplorer();
+loadFileExplorer();
 
 // loadEnd();
-loadRebet();
+
+// loadRebet();
+
 
 async function fetchCityData(city) {
-    const cityRq = await fetch(`/api/city/${city}`);
+    const cityRq = await fetch(`api/city/${city}`);
     const rqJson = await cityRq.json();
     return rqJson;
 }
+// loadFileExplorer();
+// smsScreen();
 
 
 
-// loadPresVille();
+
 
 
 async function loadTemplate(path, data) {
