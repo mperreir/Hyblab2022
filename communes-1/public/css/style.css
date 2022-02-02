@@ -111,7 +111,7 @@ body{
 /* slide because of body's font size rule at the beginning of this CSS */
 #bandeau {
     position: absolute;
-    bottom: 5vh;
+    bottom: 8vh;
     padding-top: 3%;
     width:100%;
     background-color: white;
