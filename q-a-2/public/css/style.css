@@ -13,7 +13,7 @@ html {
 }
 
 body{
-    background-color: black;
+    background-color: white;
     overflow: hidden;   /* to avoid slider bugs on some browsers */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -252,7 +252,9 @@ body{
     #root{
         /*margin-top: calc((100vh - 100 * 16vw / 9) / 2);*/
         width: 100vw;
-        height: 100vh;
+        height: -moz-available;          /* WebKit-based browsers will ignore this. */
+        height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+        height: fill-available;
         /*height: calc(100 * 16vw / 9);*/
     }
 
@@ -822,7 +824,7 @@ body{
 }
 
 .profilCard_civility {
-    margin-bottom: 20%;
+    margin-bottom: 10%;
 }
 
 .profilCard_div_text {
@@ -884,14 +886,24 @@ body{
     z-index: 2;
 }
 
+
+.step1game_tampon_valid  > .tampon > img {
+    height: 14vh;
+}
+
+.step1game_tampon_cancel  > .tampon > img {
+    height: 11vh;
+}
+
 .step1game_tampon_valid {
-    right: 8%;
-    top: -4.5%;
+    right: 20%;
+    top: 0%;
     transform: rotate(20deg);
 }
 
 .step1game_tampon_cancel {
-    right:12%;
+    right:23%;
+    top: 3%;
 }
 
 .step1Game_pannelError {
@@ -1328,3 +1340,12 @@ input[type="checkbox"] {
 .step4game_tampon  > .tampon > img {
     height: 12vh;
 }
+
+.step2Game_img {
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+  }

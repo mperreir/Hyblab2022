@@ -1,5 +1,6 @@
 "use strict";
 
+window.addEventListener('load', () => window.scrollTo(1))
 
 let stepsCandidates = {
   "1": [], "2": [], "3": [], "4": [], "5": [], "6": [], "7": [], "8": [],
@@ -10,6 +11,7 @@ candidates.forEach(candidate => {
   stepsCandidates[step].push(candidate);
 })*/
 stepsCandidates["1"] = [...candidates];
+//stepsCandidates["5"] = candidates.slice(0, 5);
 //stepsCandidates["6"] = candidates.slice(0, 5);
 //stepsCandidates["7"] = [];
 //stepsCandidates['8'].push(candidates[0]);
