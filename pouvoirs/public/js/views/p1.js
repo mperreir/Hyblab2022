@@ -7,8 +7,16 @@ const diag = function(dBox, text) {
   dBox.appendChild(textContainer);
 }
 
+let musicNotPlaying = true;
 
 const init_p1 = function() {
+
+  if (musicNotPlaying){
+    const bgmusic = createAudio("data/sounds/bgMusic.mp3", true, 1, .35);
+    bgmusic.play();
+    bgmusic.fade(0,.35,4000);
+    musicNotPlaying = false;
+  }
 
  swiper.disable();
 
@@ -21,7 +29,7 @@ const init_p1 = function() {
 
   const woosh = createAudio("data/sounds/swoosh.mp3", false,0.7, 1);
   const goodAns = createAudio("data/sounds/good_choice.mp3", false,0.7, 1);
-  const badAns = createAudio("data/sounds/bad_choice.mp3", false,0.7, 1);
+  const badAns = createAudio("data/sounds/bad_choice.mp3", false,1, 1);
   const cancel = createAudio("data/sounds/cancel.wav", false,0.7, 1);
   let wooshWasPlayed = false;
 
