@@ -1,5 +1,7 @@
 async function loadFileExplorer() {
 
+
+
     selectedCityData = await fetchCityData(selectedCity);
     
     const citiesRq = await fetch('api/cities/');
@@ -29,5 +31,10 @@ async function loadFileExplorer() {
                 loadFolder(fileData.folderName);
             });
         }
+    }
+    let count = Object.values(visitedFolders).filter(el => el === true).length;
+    if(count === 3){
+        loadRebet();
+        visitedFolders.el = true;
     }
 };

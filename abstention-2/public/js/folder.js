@@ -1,12 +1,5 @@
 
-const visitedFolders = {
-    abstention: false,
-    nouveauxHabitants: false,
-    blancsNuls: false,
-    etrangers: false,
-    mineurs: false,
-    finaux: false,
-}
+
 
 const FOLDER_DATA = {
     abstention: {
@@ -205,8 +198,7 @@ async function loadFolder(folderName) {
             if (visitedFolders.blancsNuls && visitedFolders.nouveauxHabitants) {
                 FOLDER_TITLES.filesData.find(f => f.folderName === 'mineurs').progress = 100;
                 FOLDER_TITLES.filesData.find(f => f.folderName === 'etrangers').progress = 100;
-                FOLDER_TITLES.filesData.find(f => f.folderName === 'finaux').progress = 66;
-    
+                FOLDER_TITLES.filesData.find(f => f.folderName === 'finaux').progress = 66;  
             }
             if (visitedFolders.mineurs && visitedFolders.etrangers) {
                 FOLDER_TITLES.filesData.find(f => f.folderName === 'finaux').progress = 100;
