@@ -40,7 +40,7 @@ anime({
 });
 
 
-
+window.scrollTo(0, 1);
 
 
 initSlide3();
