@@ -29,6 +29,10 @@ body {
   font-weight: 700;
 }
 
+b {
+  font-weight: 900;
+}
+
 #container {
   position: relative; /* for absolute positionning of child elements*/
 }
@@ -100,6 +104,7 @@ body {
   font-family: "First Fun", Arial, Helvetica, sans-serif;
   margin-top: 10px;
   font-size: 19%;
+  font-weight: 700;
   width: 85%;
   text-align: center;
   z-index: 3;
@@ -166,7 +171,7 @@ body {
 #falling p {
   font-family: "Nunito";
   font-size: 18%;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 #falling {
@@ -664,7 +669,7 @@ body {
 
 #p6 .dialog .dialog-text {
   font-family: "Nunito";
-  font-weight: 900;
+  font-weight: 700;
   font-size: 15%;
   width: 82%;
   margin: auto;

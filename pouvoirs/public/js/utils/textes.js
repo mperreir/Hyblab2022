@@ -21,6 +21,7 @@ const textes = {
     "p4-a1-desc": "Non, il n’en fait pas partie",
     "p4-all-desc-good": "Bien joué, tu les as tous trouvés !",
     "p4-note": "L'article 16 donne des pouvoirs très forts au Président. Mais pour pouvoir être utilisé, il faut qu'une situation de crise soit clairement identifiée et qu'elle soit temporaire. Hors de question d'utiliser ce pouvoir quand il le souhaite. D'ailleurs, un seul Président y a eu recours : le général de Gaulle en 1961, après une tentative de coup d'État en Algérie française.",
+    "p5-name": "Bernard le Taulard",
     "p5-bernard1": "Salut, ça fait un bail que l'on ne s'est pas vu. J’ai besoin de ton aide pour sortir de prison. En tant que président, tu as le pouvoir de me gracier. Je serai toujours tenu responsable de mes actes commis. Mais au moins je pourrai sortir d’ici.",
     "p5-moua": "Oh ? je ne savais pas que j’avais ce pouvoir là. Bien sûr, je vais le faire.",
     "p5-bernard2": "Oh ? Tu serais d’accord ? Merci mon vieux, je savais que je pouvais compter sur toi !",
