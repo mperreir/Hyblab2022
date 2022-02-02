@@ -105,3 +105,35 @@ function GetScrollDate(index, nbr_jour) {
     let strDate = date.getFullYear() + '-' + ('0' + (date.getMonth() + 1)).slice(-2) + '-' + ('0' + date.getDate()).slice(-2);
     return strDate;
 }
+
+
+
+
+
+
+
+
+/* CREDITS BUTTON EVENT LISTENER AND LOGIC */
+const creditsButton = document.getElementById("creditsButton")
+const fonctionnementButton = document.getElementById("fonctionnementButton")
+
+const creditsPOPUP = document.getElementById("creditsPOPUP")
+const fonctionnementPOPUP = document.getElementById("fonctionnementPOPUP")
+
+creditsButton.addEventListener("click", _ => {
+    if (creditsPOPUP.className === "show") {
+        creditsPOPUP.className = ""
+    } else {
+        fonctionnementPOPUP.className = ""
+        creditsPOPUP.className = "show"
+    }
+})
+
+fonctionnementButton.addEventListener("click", _ => {
+    if (fonctionnementPOPUP.className === "show") {
+        fonctionnementPOPUP.className = ""
+    } else {
+        fonctionnementPOPUP.className = "show"
+        creditsPOPUP.className = ""
+    }
+})

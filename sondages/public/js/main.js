@@ -23,7 +23,6 @@ function InitDesIntentions(intentionsCandidats, objCandidats) {
         divName.appendChild(divNom)
 
         const divBlock = document.createElement('div');
-        console.log(candidat.name)
         const objCandidat = objCandidats.filter(c => candidat.name === c.prenom + ' ' + c.nom)[0];
         divBlock.style.background = objCandidat.couleur;
         divBlock.className = 'block';
@@ -103,13 +102,21 @@ function ToggleButton(button, img = [1, 2], callback = _ => {}) {
 
 function start() {
 
-    const player = document.querySelector("lottie-player");
-    player.load("anim/debut.json");
-    player.addEventListener("ready", _ => {
+    const video = document.querySelector("video");
+
+    const startVideo = _ => {
         document.body.querySelector("#Introduction .loader").remove()
-    })
-    player.addEventListener("complete", _ => {
-        // window.scrollTo(0, 1);
+        video.play()
+    }
+
+    if (video.readyState === 4) {
+        startVideo()
+    } else {
+        video.addEventListener("canplaythrough", startVideo)
+    }
+
+    video.addEventListener("ended", _ => {
+        window.scrollTo(0, 1);
         document.body.querySelector("#Introduction").className = "hide-introduction"
     })
 
@@ -119,7 +126,8 @@ function start() {
     const TimeInfoDate = document.body.querySelector("#TimeInfo .date")
 
 
-    const startTheRace = document.body.querySelector("button#startTheRace")
+    const startTheRace = document.getElementById("startTheRace")
+    const restartTheRace = document.getElementById("restartTheRace")
 
 
     // Menu du haut pour les choix
@@ -147,7 +155,7 @@ function start() {
 
 
     BtnCourse30.addEventListener("click", evt => {
-        if (evt.target.className !== "selected"){
+        if (evt.target.className !== "selected") {
             BtnCourse15.className = ""
             BtnCourse5.className = ""
             evt.target.className = "selected"
@@ -160,7 +168,7 @@ function start() {
     })
 
     BtnCourse15.addEventListener("click", evt => {
-        if (evt.target.className !== "selected"){
+        if (evt.target.className !== "selected") {
             BtnCourse30.className = ""
             BtnCourse5.className = ""
             evt.target.className = "selected"
@@ -173,7 +181,7 @@ function start() {
     })
 
     BtnCourse5.addEventListener("click", evt => {
-        if (evt.target.className !== "selected"){
+        if (evt.target.className !== "selected") {
             BtnCourse30.className = ""
             BtnCourse15.className = ""
             evt.target.className = "selected"
@@ -296,27 +304,27 @@ function start() {
                             if (pourcent_max > max_pourcent){
                                 max_pourcent = pourcent_max;
                             }
-                            if (pourcent_min < min_pourcent){
+                            if (pourcent_min < min_pourcent) {
                                 min_pourcent = pourcent_min;
                             }
                         }
-                        
+
                     });
 
                     min_pourcent = min_pourcent === 100 ? 0 : min_pourcent;
                     max_pourcent = max_pourcent === 0 ? 100 : max_pourcent;
 
                     console.log(min_pourcent, '% ', max_pourcent, '%')
-                    // Echelle dynamique :
-                    // arrondissement a la dizaine inférieur
-                    // -> borne min
-                    const min_regle = Math.floor(min_pourcent/5)*5;
+                        // Echelle dynamique :
+                        // arrondissement a la dizaine inférieur
+                        // -> borne min
+                    const min_regle = Math.floor(min_pourcent / 5) * 5;
                     const divRegleBas = document.getElementById("RegleBas");
                     divRegleBas.innerText = min_regle + '%';
 
                     // -> borne max
                     // arrondissement a la dizaine supérieure
-                    const max_regle = Math.ceil(max_pourcent/5)*5;
+                    const max_regle = Math.ceil(max_pourcent / 5) * 5;
                     const divRegleHaut = document.getElementById("RegleHaut");
                     divRegleHaut.innerText = max_regle + '%';
 
@@ -332,14 +340,13 @@ function start() {
                             pourcent = parseFloat(CANDIDATS[nom_candidat].y[index]).toFixed(1)
                         }
 
-                        const position = (pourcent-min_regle) / (max_regle-min_regle) * hauteur_regle
+                        const position = (pourcent - min_regle) / (max_regle - min_regle) * hauteur_regle
 
                         console.log(keys_selected_candidats.includes(nom_candidat), keys_selected_candidats, nom_candidat)
                         // si candidats dans la borne sélectionnée :
                         if ((!SELECTION_COURSE() && keys_selected_candidats.includes(nom_candidat)) || (SELECTION_COURSE() && pourcent >= POURCENT_BORNE_MIN && pourcent <= POURCENT_BORNE_MAX) ){
                             CANDIDATS[nom_candidat].div.style.top = "calc( 12.5vh + " + (position - TAILLE_DIV_CANDIDAT / 2) + "px" + " ) ";
-                        }
-                        else // sinon candidats hors borne :
+                        } else // sinon candidats hors borne :
                         {
                             CANDIDATS[nom_candidat].div.style.top = "-500px";
 
@@ -356,6 +363,13 @@ function start() {
             // Ajout les évents listeners nécéssaires
             startTheRace.addEventListener("click", scrollToRace)
             document.addEventListener("scroll", scrollPosition)
+            restartTheRace.addEventListener("click", _ => {
+                window.scrollTo({
+                    top: 1,
+                    left: 0,
+                    behavior: 'smooth'
+                })
+            })
 
         })
 
