@@ -4,20 +4,10 @@ function handleCitySearch() {
     // The autoComplete.js Engine instance creator
     return new autoComplete({
         data: {
-            src: async () => {
-                try {
-                    const source = await fetch('api/cities');
-                    const data = await source.json();
-
-                    return data;
-                } catch (error) {
-                    return error;
-                }
-            },
+            src: Object.values(citiesMap),
             cache: true,
         },
-
-
+        diacritics: true,
         placeHolder: "Chercher une ville",
 
         resultsList: {

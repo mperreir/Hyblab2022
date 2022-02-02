@@ -1,10 +1,12 @@
 "use strict";
 
 let selectedCity;
-// let percentageBet;
+let percentageBet;
 
 async function loadSms() {
-    const container = document.getElementById("container");
+    const citiesRq = await fetch('api/cities/');
+    citiesMap = await citiesRq.json();
+    const container = document.getElementById('container');
 
     const messages =
         [{
@@ -188,14 +190,13 @@ async function loadSms() {
         selectedCity = await pickRandomCity();
         document.getElementById('random-city-btn').disabled = true;
         document.getElementById('choose-city-btn').disabled = true;
-        document.getElementById('sms-text-city-name').innerHTML = selectedCity;
+        document.getElementById('sms-text-city-name').innerHTML = Object.keys(citiesMap).find(key => citiesMap[key] === selection);;
         document.getElementById('random-city-btn').style.opacity = "50%";
         displayedSMSIndex++;
         displaySMS();
     });
 
     document.getElementById('choose-city-btn').addEventListener('click', async () => {
-        selectedCity = await pickRandomCity();
         document.getElementById('sms-city-search').style.display = 'block';
         document.getElementById('choose-city-btn').disabled = true;
         document.getElementById('choose-city-btn').style.opacity = "50%";
@@ -219,9 +220,10 @@ async function loadSms() {
         const selection = feedback.selection.value;
         // Replace Input value with the selected value
         autoComplete.input.value = selection;
-        selectedCity = selection;
+        selectedCity = Object.keys(citiesMap).find(key => citiesMap[key] === selection);
+        console.log(selectedCity);
 
-        document.getElementById('sms-text-city-name').innerHTML = selectedCity;
+        document.getElementById('sms-text-city-name').innerHTML = selection;
         displayedSMSIndex++;
         displaySMS();
     });
@@ -240,9 +242,7 @@ async function loadSms() {
 }
 
 async function pickRandomCity() {
-    const source = await fetch('api/cities');
-    const data = await source.json();
-    return data[Math.floor(Math.random() * data.length)];
+    return Object.keys(citiesMap)[Math.floor(Math.random() * Object.keys(citiesMap).length)];
 }
 
 
