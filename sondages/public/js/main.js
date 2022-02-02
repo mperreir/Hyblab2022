@@ -89,14 +89,11 @@ function start() {
         document.body.querySelector("#Introduction .loader").remove()
     })
     player.addEventListener("complete", _ => {
-        window.scrollTo(0, 1);
+        // window.scrollTo(0, 1);
         document.body.querySelector("#Introduction").className = "hide-introduction"
     })
 
-
-    const blocks = document.body.querySelector("#blocks")
-    const animation = document.body.querySelector("#animation")
-
+    const animation = document.getElementById("animation")
 
     const TimeInfoProgress = document.body.querySelector("#TimeInfo .progress")
     const TimeInfoDate = document.body.querySelector("#TimeInfo .date")
@@ -106,14 +103,14 @@ function start() {
 
 
     // Menu du haut pour les choix
-    const CandidatSelection = document.body.querySelector("#CandidatSelection")
-    const ButtonShowCandidat = document.body.querySelector("#ShowCandidat")
+    const CandidatSelection = document.getElementById("CandidatSelection")
+    const ButtonShowCandidat = document.getElementById("ShowCandidat")
     ToggleButton(ButtonShowCandidat, ["img/bouton_plus.svg", "img/bouton_moins.svg"], showed => {
         CandidatSelection.className = showed ? "body" : "hidden"
     })
 
-    const CourseSelection = document.body.querySelector("#CourseSelection")
-    const ButtonShowCourses = document.body.querySelector("#ShowCourses")
+    const CourseSelection = document.getElementById("CourseSelection")
+    const ButtonShowCourses = document.getElementById("ShowCourses")
     ToggleButton(ButtonShowCourses, ["img/bouton_plus.svg", "img/bouton_moins.svg"], showed => {
         CourseSelection.className = showed ? "body" : "hidden"
     })
@@ -155,7 +152,7 @@ function start() {
             const PIXEL_PAR_JOUR = 50 // 50 pixels de haut par jour
             const PADDING_POUR_DERNIER_JOUR = 20 // Jours sautés au début pour laisser de la place à la fin
 
-            GenereLaListeDesBackgrounds(blocks, NBR_JOUR, PIXEL_PAR_JOUR)
+            GenereLaListeDesBackgrounds(NBR_JOUR, PIXEL_PAR_JOUR)
 
             var INDEX_PREV = -1;
 

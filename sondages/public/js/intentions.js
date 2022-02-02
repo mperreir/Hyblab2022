@@ -31,7 +31,10 @@ function getRandomInt(max) {
     return Math.floor(Math.random() * max);
 }
 
-function GenereLaListeDesBackgrounds(parent, nbr_jour, pixel_par_jour) {
+function GenereLaListeDesBackgrounds(nbr_jour, pixel_par_jour) {
+
+    // Récupation de la div parente
+    const divParent = document.getElementById('BACKGROUNDS')
 
     // Récupération de la hauteur d'un pattern pour calculer l'hauteur de la page
     const clientPatternHeight = document.getElementById('PATTERN_EXAMPLE').clientHeight;
@@ -66,7 +69,7 @@ function GenereLaListeDesBackgrounds(parent, nbr_jour, pixel_par_jour) {
     for (let i = 0; i < background.length; i++) {
         const img = document.createElement("img")
         img.src = `./img/pattern/${background[i]}.svg`
-        parent.appendChild(img)
+        divParent.appendChild(img)
     }
 
     return clientPatternHeight * nbr_pattern
