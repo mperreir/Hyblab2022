@@ -3,6 +3,7 @@
 var viewport = document.querySelector('meta[name=viewport]');
 viewport.setAttribute('content', viewport.content + ', height=' + window.innerHeight);
 import {generate_enemy} from "./generate_enemy.js";
+import {generateObject} from "./generateObject.js";
 // Autocomplete
 const communes = [
 		{
@@ -793,6 +794,8 @@ cestparti.addEventListener('click', () => {
 			console.log(temp);
 			localStorage.setItem("enemies",JSON.stringify(temp));
 			localStorage.setItem("question",1);
+			const object = generateObject();
+			localStorage.setItem("currentItem",object);
 			window.location.href = 'anjoute-game-1.html';
 		}
 	});
