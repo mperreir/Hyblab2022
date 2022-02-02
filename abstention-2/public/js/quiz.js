@@ -83,8 +83,8 @@ async function quizScreen() {
       step++;
       if (step > quiz.length) {
         //topSecret 
-        step = 0;
-        newQuiz(step);
+        loadTopSecret();
+        return;
       } else {
         newQuiz(step);
       }

@@ -4,7 +4,7 @@ async function loadTopSecret() {
   date();
   let topSecret = await loadTemplate('templates/topsecret.ejs', {})
     document.getElementById('screen').innerHTML = topSecret;
-
+  document.getElementById('quizLink').addEventListener("click", () => quizScreen());
 }
 
 function autotab(original,destination){
