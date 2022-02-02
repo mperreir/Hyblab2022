@@ -101,7 +101,7 @@ async function loadFolder(folderName) {
                 cityPercent: selectedCityData['pourcentage_vote_blanc'] + selectedCityData['pourcentage_vote_nul'],
                 meanPercent: metropoleData['pourcentage_vote_blanc'] + metropoleData['pourcentage_vote_nul']
             };
-            graphData = await loadTemplate('templates/folders/graphEtrangers.ejs', {
+            graphData = await loadTemplate('templates/folders/graphNouveauxHabitants.ejs', {
                 cityName: citiesMap[selectedCity],
                 cityPercent: selectedCityData['pourcentage_vote_blanc'] + selectedCityData['pourcentage_vote_nul'],
                 meanPercent: metropoleData['pourcentage_vote_blanc'] + metropoleData['pourcentage_vote_nul']
@@ -127,7 +127,7 @@ async function loadFolder(folderName) {
                 cityPercent: selectedCityData['pourcentage_mineurs'],
                 meanPercent: metropoleData['pourcentage_mineurs']
             };
-            graphData = await loadTemplate('templates/folders/graphNouveauxHabitants.ejs', {
+            graphData = await loadTemplate('templates/folders/graphEtrangers.ejs', {
                 cityName: citiesMap[selectedCity],
                 cityPercent: selectedCityData['pourcentage_mineurs'],
                 meanPercent: metropoleData['pourcentage_mineurs']
@@ -143,10 +143,10 @@ async function loadFolder(folderName) {
     screen.innerHTML = folderHtml;
 
     document.getElementById('fd-graph-template').innerHTML = graphData;
-    if (folderName === 'blancsNuls') {
+    if (folderName === 'mineurs') {
         const percentArray = [
-            selectedCityData['pourcentage_vote_blanc'] + selectedCityData['pourcentage_vote_nul'],
-            metropoleData['pourcentage_vote_blanc'] + metropoleData['pourcentage_vote_nul']
+            selectedCityData['pourcentage_mineurs'],
+            metropoleData['pourcentage_mineurs']
         ];
         new Chart(document.getElementById('graph-chartjs'), {
             type: 'bubble',
