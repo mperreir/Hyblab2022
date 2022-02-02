@@ -7,6 +7,7 @@ async function loadEnd() {
             sender: 'THOMAS',
             message: 'Tu me dois un restaurant ! Tu pourras retenter de parier pour 2022 ! Hésite pas à faire passer ce pari à d’autres collègues et à tes amis pour voir ceux qui s’y connaissent !',
             style: 'sms-top sms-left sms-visible'
+            id: "",
         },
         {
             type: 'sms',

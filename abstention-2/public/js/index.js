@@ -1,5 +1,9 @@
 'use strict';
 
+let selectedCityData;
+let metropoleData;
+let citiesMap;
+
 const FOLDER_TITLES = {
     filesData: [
         {
@@ -13,12 +17,6 @@ const FOLDER_TITLES = {
             tag: 'fe-nouveaux-habitants',
             folderName: 'nouveauxHabitants',
             progress: 66
-        },
-        {
-            title: 'Non-votants',
-            tag: 'fe-non-votants',
-            folderName: 'nonVotants',
-            progress: 100
         },
         {
             title: 'Mineurs',
@@ -41,7 +39,7 @@ const FOLDER_TITLES = {
         {
             title: 'Les pourcentages finaux second tour 2017',
             tag: 'fe-finaux',
-            folderName: '',
+            folderName: 'finaux',
             progress: 16.5
         }
     ]
@@ -51,8 +49,10 @@ function date() {
     const date = document.getElementById('header-date');
 
     let text = new Date();
-    setInterval(() => {
-        text = new Date();
+
+    window.setInterval(() => {
+        text = new Date()
+
     }, 60000);
     let dateContent;
     if (text.getHours < 10) {
@@ -77,21 +77,32 @@ function date() {
 // date();
 // })
 
+
 // const cityData = await fetchCityData('nantes');
 
 
-// loadFolder('nonVotants');
-// loadFileExplorer();
+
 // loadSms();
+// // loadFolder('nonVotants');
+loadFileExplorer();
+
 // loadEnd();
+
 // loadRebet();
-loadAnswer();
+
 
 async function fetchCityData(city) {
-    const cityRq = await fetch(`/api/city/${city}`);
+    const cityRq = await fetch(`api/city/${city}`);
     const rqJson = await cityRq.json();
     return rqJson;
 }
+// loadFileExplorer();
+// smsScreen();
+
+
+
+
+
 
 async function loadTemplate(path, data) {
     const fileExplorerTemplate = await fetch(path);

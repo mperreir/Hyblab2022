@@ -1,0 +1,122 @@
+.ts-dossier{
+  position: relative;
+  height: 5%;
+  display: grid;
+  grid-template-columns: 5fr 5fr;
+  text-align: center;
+  z-index: 0;
+}
+
+.ts-finaux{
+  position: relative;
+  font-size: 1.5rem;
+  text-align: center;
+  border-right: #1028fd solid 1px;
+  box-shadow: 10px 10px #1028fd;
+}
+
+.ts-none{
+  border-bottom: #1028fd solid 1px;
+  background-color: grey;
+}
+
+.ts-cover{
+  height: 3%;
+  position: relative;
+  background-color: #e4e5fa;
+  z-index: 2;
+  border: none;
+}
+
+.ts-screen{
+  position: relative;
+  display :flex;
+  flex-direction: column;
+  height: 90%;
+  width:100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.ts-topsecret{
+  height: 30%;
+  position: relative;
+ /* Équivalent à rotateZ(45deg) */
+}
+.ts-p-topsecret{
+  position: absolute;
+  font-size: 1.5rem;
+  font-family: 'CabinetGrotesk-Extrabold';
+  border: #ff2e00 solid 3px;
+  color: #ff2e00;
+  border-radius: 1rem;
+  width: 15rem;
+  top: 0%;
+  left: 50%;
+  transform: rotate(330deg) translate(-50%, -50%);
+}
+
+.ts-code-acces{
+  height: 15%;
+  font-size:1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.ts-inputs{
+  height: 10%;
+}
+.ts-input{
+  font-size: 3rem;
+  height: 100%;
+  margin-right: 1rem;
+  margin-left:1rem;
+  width: 9%;
+  border: #1028fd solid 1px;
+  border-radius: 0.4rem;
+  font-family: 'CabinetGrotesk-Regular';
+  background-color: #e4e5fa;
+  color: #1028fd;
+}
+
+.ts-obtain-code{
+  height: 15%;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ts-link{
+  border-bottom: #1028fd solid 1px;
+}
+
+.ts-footer{
+  border: #1028fd solid 1px;
+  border-radius: 50%;
+  position:absolute;
+  bottom : 1rem;
+  left: 1rem;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ts-footer-button{
+  height:50%;
+  width: 50%;
+  border:none;
+
+}
+
+.ts-fleche{
+  height: 100%;
+  background-color: #e4e5fa;
+}
