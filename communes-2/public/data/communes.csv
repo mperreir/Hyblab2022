@@ -2,7 +2,7 @@ libelleCommune,canton,population,superficie,orientation,tauxAbstention,premierCa
 Abbaretz,Guéméné-Penfao,2067,"61,76",Droite,"16,28",FILLON,MACRON,MÉLENCHON,MACRON,"67,49",La vache Nantaise
 Aigrefeuille-sur-Maine,Clisson,4014,"14,58",Centre,"11,81",MACRON,MÉLENCHON,FILLON,MACRON,"76,35",Le Helfest
 Ancenis,Ancenis,7656,"20,07",Centre,"17,26",MACRON,FILLON,MÉLENCHON,MACRON,"79,42",Le Chateau d'ancenis
-Chaumes-en-Retz,Pornic,6895,"76,55",Centre,"14,73",MACRON,LE PEN,FILLON,MACRON,"65,19",Le voilier
+Chaumes-en-Retz,Pornic,6895,"76,55",Droite,"14,73",MACRON,LE PEN,FILLON,MACRON,"65,19",Le voilier
 Assérac,Saint-Nazaire,1847,"32,91",Centre,"16,61",MACRON,FILLON,MÉLENCHON,MACRON,"67,42",Les paquebots
 Avessac,Pont-Château,2458,"76,49",Droite,"14,32",FILLON,LE PEN,MÉLENCHON,MACRON,"64,79",La vache Nantaise
 Basse-Goulaine,Saint-Sébastien-sur-Loire,9136,"13,74",Centre,"11,74",MACRON,FILLON,MÉLENCHON,MACRON,"84,85",L'éléphant
@@ -17,7 +17,7 @@ Bouaye,Rezé,8008,"13,83",Centre,"11,1",MACRON,MÉLENCHON,FILLON,MACRON,"81,1",L
 Bouée,Blain,937,"21,29",Centre,"13,93",MACRON,MÉLENCHON,LE PEN,MACRON,"67,14",La Centrale à charbon
 Bouguenais,Rezé,18815,"31,5",Centre,"16,55",MACRON,MÉLENCHON,LE PEN,MACRON,"78,41",L'aéroport
 Villeneuve-en-Retz,Machecoul,5050,"73,68",Droite,"17,36",LE PEN,FILLON,MACRON,MACRON,"60,2",La foret
-Boussay,Clisson,2629,"26,45",Centre,"13,04",MACRON,FILLON,LE PEN,MACRON,"71,61",Le Helfest
+Boussay,Clisson,2629,"26,45",Droite,"13,04",MACRON,FILLON,LE PEN,MACRON,"71,61",Le Helfest
 Bouvron,Blain,3068,"47,63",Centre,"12,62",MACRON,MÉLENCHON,FILLON,MACRON,"70,27",La Centrale à charbon
 Brains,Rezé,2741,"15,31",Centre,"10,39",MACRON,MÉLENCHON,FILLON,MACRON,"75,91",L'aéroport
 Campbon,Blain,3959,"49,82",Centre,"11,01",MACRON,MÉLENCHON,LE PEN,MACRON,"74,3",La Centrale à charbon
@@ -46,13 +46,13 @@ Crossac,Pont-Château,2983,"25,85",Gauche,14,MÉLENCHON,MACRON,LE PEN,MACRON,"65
 Derval,Guéméné-Penfao,3505,"63,51",Centre,"17,72",MACRON,FILLON,MÉLENCHON,MACRON,"72,61",La vache Nantaise
 Donges,Saint-Nazaire,7699,"59,9",Gauche,"18,64",MÉLENCHON,LE PEN,MACRON,MACRON,"60,62",Les paquebots
 Drefféac,Pont-Château,2270,"14,16",Centre,"11,13",MACRON,LE PEN,MÉLENCHON,MACRON,"63,24",La vache Nantaise
-Erbray,Châteaubriant,3043,"58,18",Centre,"15,49",MACRON,LE PEN,FILLON,MACRON,"70,29",La Carrière des fusillés
+Erbray,Châteaubriant,3043,"58,18",Droite,"15,49",MACRON,LE PEN,FILLON,MACRON,"70,29",La Carrière des fusillés
 La Baule-Escoublac,La Baule-Escoublac,16255,"22,19",Droite,"16,1",FILLON,MACRON,LE PEN,MACRON,"76,78",Le Casino Barrière
 Fay-de-Bretagne,La Chapelle-sur-Erdre,3676,"64,81",Gauche,"12,85",MÉLENCHON,MACRON,FILLON,MACRON,"68,99",Le Parc des Naudières
 Fégréac,Pont-Château,2349,"44,18",Centre,"14,13",MACRON,LE PEN,MÉLENCHON,MACRON,"66,17",La vache Nantaise
 Fercé,Châteaubriant,472,"22,04",Droite,"14,33",LE PEN,MACRON,MÉLENCHON,MACRON,"64,71",La Carrière des fusillés
 Frossay,Saint-Brévin-les-Pins,3216,"57,22",Droite,"16,09",FILLON,LE PEN,MACRON,MACRON,"63,95",Le voilier
-Le Gâvre,Blain,1821,"53,58",Centre,"16,48",MACRON,MÉLENCHON,LE PEN,MACRON,"68,75",La Centrale à charbon
+Le Gâvre,Blain,1821,"53,58",Gauche,"16,48",MACRON,MÉLENCHON,LE PEN,MACRON,"68,75",La Centrale à charbon
 Gétigné,Clisson,3719,"23,8",Centre,"12,55",MACRON,FILLON,MÉLENCHON,MACRON,"73,29",Le Helfest
 Gorges,Clisson,19373,"15,77",Centre,"11,69",MACRON,FILLON,MÉLENCHON,MACRON,"78,2",Le Helfest
 Grand-Auverné,Châteaubriant,769,"34,4",Droite,"13,36",FILLON,MACRON,LE PEN,MACRON,"66,35",La Carrière des fusillés
@@ -69,14 +69,14 @@ Issé,Châteaubriant,1807,"38,66",Droite,"13,31",LE PEN,MACRON,FILLON,MACRON,"62
 Jans,Guéméné-Penfao,1391,"33,21",Centre,"17,27",MACRON,LE PEN,MÉLENCHON,MACRON,"66,11",La vache Nantaise
 Joué-sur-Erdre,Nort-sur-Erdre,2561,"54,53",Gauche,"13,87",MÉLENCHON,MACRON,LE PEN,MACRON,"68,63",La Nuit de L'Erdre
 Juigné-des-Moutiers,Châteaubriant,332,"24,65",Droite,"13,97",LE PEN,FILLON,MÉLENCHON,MACRON,"42,56",La Carrière des fusillés
-Le Landreau,Vallet,3083,"53,58",Centre,"15,1",MACRON,FILLON,LE PEN,MACRON,"71,76",Le Zoo de La Boissière du Doré
+Le Landreau,Vallet,3083,"53,58",Droite,"15,1",MACRON,FILLON,LE PEN,MACRON,"71,76",Le Zoo de La Boissière du Doré
 Lavau-sur-Loire,Blain,772,"16,22",Gauche,"8,99",MÉLENCHON,MACRON,LE PEN,MACRON,"78,59",La Centrale à charbon
 Legé,Saint-Philbert-de-Grand-Lieu,4491,"63,32",Droite,"16,08",LE PEN,FILLON,MACRON,MACRON,"60,21",Les Vignes
 Ligné,Nort-sur-Erdre,5302,"45,41",Centre,"13,43",MACRON,MÉLENCHON,LE PEN,MACRON,"69,36",La Nuit de L'Erdre
 La Limouzinière,Saint-Philbert-de-Grand-Lieu,2467,"29,54",Droite,"15,49",LE PEN,MACRON,FILLON,MACRON,"63,73",Les Vignes
 Le Loroux-Bottereau,Vallet,8397,"45,31",Centre,"11,6",MACRON,MÉLENCHON,FILLON,MACRON,"74,61",Le Zoo de La Boissière du Doré
-Louisfert,Châteaubriant,986,"18,16",Centre,"10,82",MACRON,LE PEN,FILLON,MACRON,"61,84",La Carrière des fusillés
-Lusanger,Guéméné-Penfao,1055,"35,38",Centre,"19,48",MACRON,FILLON,LE PEN,MACRON,"69,29",La vache Nantaise
+Louisfert,Châteaubriant,986,"18,16",Droite,"10,82",MACRON,LE PEN,FILLON,MACRON,"61,84",La Carrière des fusillés
+Lusanger,Guéméné-Penfao,1055,"35,38",Droite,"19,48",MACRON,FILLON,LE PEN,MACRON,"69,29",La vache Nantaise
 Machecoul-Saint-Même,Machecoul,7851,"84,89",Droite,"17,24",FILLON,MACRON,LE PEN,MACRON,"69,76",La foret
 Maisdon-sur-Sèvre,Clisson,3007,"17,45",Centre,"15,64",MACRON,MÉLENCHON,FILLON,MACRON,"77,02",Le Helfest
 Malville,Blain,3531,"31,24",Gauche,"12,36",MÉLENCHON,MACRON,LE PEN,MACRON,"68,44",La Centrale à charbon
@@ -86,7 +86,7 @@ Massérac,Guéméné-Penfao,694,"18,78",Gauche,"20,04",MÉLENCHON,LE PEN,MACRON,
 Maumusson,Ancenis,1046,"24,56",Droite,"14,85",FILLON,MACRON,LE PEN,MACRON,"69,02",Le Chateau d'ancenis
 Mauves-sur-Loire,Carquefou,3244,"14,75",Centre,"11,07",MACRON,MÉLENCHON,FILLON,MACRON,"79,01",Le Stade de la Beaujoire
 La Meilleraye-de-Bretagne,Châteaubriant,1574,"27,63",Droite,"15,01",LE PEN,MACRON,FILLON,MACRON,"65,46",La Carrière des fusillés
-Mésanger,Ancenis,4749,"49,75",Centre,"15,38",MACRON,LE PEN,FILLON,MACRON,"67,43",Le Chateau d'ancenis
+Mésanger,Ancenis,4749,"49,75",Droite,"15,38",MACRON,LE PEN,FILLON,MACRON,"67,43",Le Chateau d'ancenis
 Mesquer,Guérande,2039,"16,72",Droite,"13,49",FILLON,MACRON,MÉLENCHON,MACRON,"78,5",Le Sel
 Missillac,Pont-Château,5398,"59,55",Centre,"15,06",MACRON,LE PEN,MÉLENCHON,MACRON,"64,43",La vache Nantaise
 Moisdon-la-Rivière,Châteaubriant,1968,"50,43",Droite,"14,35",FILLON,MACRON,LE PEN,MACRON,"73,56",La Carrière des fusillés
@@ -102,7 +102,7 @@ Mouzillon,Vallet,2865,"16,5",Centre,"10,83",MACRON,FILLON,MÉLENCHON,MACRON,"73,
 Nantes,Nantes,303382,"65,19",Centre,"19,07",MACRON,MÉLENCHON,FILLON,MACRON,"86,52",L'éléphant
 Nort-sur-Erdre,Nort-sur-Erdre,8539,"66,56",Centre,"14,8",MACRON,MÉLENCHON,FILLON,MACRON,"76,25",La Nuit de L'Erdre
 Notre-Dame-des-Landes,Nort-sur-Erdre,2260,"37,4",Gauche,"15,37",MÉLENCHON,MACRON,LE PEN,MACRON,"66,76",La Nuit de L'Erdre
-Noyal-sur-Brutz,Châteaubriant,591,"7,71",Centre,"14,84",MACRON,LE PEN,FILLON,MACRON,"61,56",La Carrière des fusillés
+Noyal-sur-Brutz,Châteaubriant,591,"7,71",Droite,"14,84",MACRON,LE PEN,FILLON,MACRON,"61,56",La Carrière des fusillés
 Nozay,Guéméné-Penfao,4087,"57,7",Centre,"12,63",MACRON,FILLON,MÉLENCHON,MACRON,"72,35",La vache Nantaise
 Orvault,Saint-Herblain,25634,"27,67",Centre,"17,44",MACRON,FILLON,MÉLENCHON,MACRON,"84,71",Le bac
 Oudon,Ancenis,3720,"22,12",Centre,"15,06",MACRON,MÉLENCHON,FILLON,MACRON,"78,04",Le Chateau d'ancenis
@@ -117,7 +117,7 @@ Pierric,Guéméné-Penfao,981,"27,3",Droite,"16,32",LE PEN,MACRON,MÉLENCHON,MAC
 Le Pin,Ancenis,1411,"24,95",Droite,"15,94",FILLON,LE PEN,MACRON,MACRON,"63,79",Le Chateau d'ancenis
 Piriac-sur-Mer,Guérande,2231,"12,37",Droite,"14,25",FILLON,MACRON,LE PEN,MACRON,75,Le Sel
 La Plaine-sur-Mer,Pornic,4058,"16,39",Droite,"16,32",LE PEN,FILLON,MACRON,MACRON,"61,67",Le voilier
-La Planche,Clisson,2576,"24,42",Centre,"15,28",MACRON,LE PEN,FILLON,MACRON,"70,74",Le Helfest
+La Planche,Clisson,2576,"24,42",Droite,"15,28",MACRON,LE PEN,FILLON,MACRON,"70,74",Le Helfest
 Plessé,Pont-Château,5193,"104,38",Gauche,"17,26",MÉLENCHON,MACRON,LE PEN,MACRON,"67,62",La vache Nantaise
 Pontchâteau,Pont-Château,10604,"55,79",Centre,"15,77",MACRON,MÉLENCHON,LE PEN,MACRON,"70,95",La vache Nantaise
 Pont-Saint-Martin,Saint-Philbert-de-Grand-Lieu,5696,"21,88",Centre,"15,4",MACRON,MÉLENCHON,FILLON,MACRON,"74,93",Les Vignes
@@ -136,23 +136,23 @@ Remouillé,Clisson,1862,"21,38",Centre,"11,92",MACRON,FILLON,MÉLENCHON,MACRON,"
 Rezé,Rezé,39649,"13,78",Centre,"20,23",MACRON,MÉLENCHON,FILLON,MACRON,"83,73",L'aéroport
 Riaillé,Nort-sur-Erdre,2288,"50,02",Centre,"14,26",MACRON,FILLON,MÉLENCHON,MACRON,"70,57",La Nuit de L'Erdre
 Rouans,Machecoul,2860,"37,73",Centre,"15,25",MACRON,MÉLENCHON,LE PEN,MACRON,"67,04",La foret
-Rougé,Châteaubriant,2247,"56,32",Centre,"16,65",MACRON,FILLON,LE PEN,MACRON,"63,34",La Carrière des fusillés
-Ruffigné,Châteaubriant,714,"33,63",Centre,"11,76",MACRON,LE PEN,FILLON,MACRON,"65,58",La Carrière des fusillés
+Rougé,Châteaubriant,2247,"56,32",Droite,"16,65",MACRON,FILLON,LE PEN,MACRON,"63,34",La Carrière des fusillés
+Ruffigné,Châteaubriant,714,"33,63",Droite,"11,76",MACRON,LE PEN,FILLON,MACRON,"65,58",La Carrière des fusillés
 Saffré,Guéméné-Penfao,3814,"57,46",Gauche,"15,73",MÉLENCHON,MACRON,LE PEN,MACRON,"70,15",La vache Nantaise
 Saint-Aignan-Grandlieu,Rezé,3879,"17,94",Centre,"12,4",MACRON,MÉLENCHON,LE PEN,MACRON,"73,14",L'aéroport
 Saint-André-des-Eaux,La Baule-Escoublac,6197,"24,71",Centre,"13,27",MACRON,FILLON,MÉLENCHON,MACRON,"73,13",Le Casino Barrière
 Sainte-Anne-sur-Brivet,Pont-Château,2922,"25,99",Centre,"14,8",MACRON,MÉLENCHON,LE PEN,MACRON,"69,35",La vache Nantaise
 Saint-Aubin-des-Châteaux,Châteaubriant,1765,"47,56",Droite,"13,9",LE PEN,MACRON,MÉLENCHON,MACRON,"64,37",La Carrière des fusillés
 Saint-Brevin-les-Pins,Saint-Brévin-les-Pins,13492,"19,29",Centre,"15,89",MACRON,FILLON,MÉLENCHON,MACRON,"74,14",Le voilier
-Saint-Colomban,Saint-Philbert-de-Grand-Lieu,3316,"35,72",Centre,"12,67",MACRON,LE PEN,FILLON,MACRON,"66,6",Les Vignes
+Saint-Colomban,Saint-Philbert-de-Grand-Lieu,3316,"35,72",Droite,"12,67",MACRON,LE PEN,FILLON,MACRON,"66,6",Les Vignes
 Corcoué-sur-Logne,Saint-Philbert-de-Grand-Lieu,2825,"50,39",Centre,"16,16",MACRON,MÉLENCHON,FILLON,MACRON,"67,29",Les Vignes
 Saint-Etienne-de-Mer-Morte,Machecoul,1680,"27,33",Droite,"18,4",FILLON,LE PEN,MACRON,MACRON,"61,53",La foret
 Saint-Etienne-de-Montluc,Blain,6840,"57,57",Centre,"13,74",MACRON,FILLON,MÉLENCHON,MACRON,"77,74",La Centrale à charbon
 Saint-Fiacre-sur-Maine,Vertou,1164,"5,97",Centre,"11,57",MACRON,MÉLENCHON,FILLON,MACRON,"82,8",Les Vignes
 Saint-Géréon,Ancenis,2893,"7,51",Centre,"12,57",MACRON,FILLON,MÉLENCHON,MACRON,"78,44",Le Chateau d'ancenis
-Saint-Gildas-des-Bois,Pont-Château,3751,"33,42",Centre,"13,28",MACRON,LE PEN,FILLON,MACRON,"66,82",La vache Nantaise
+Saint-Gildas-des-Bois,Pont-Château,3751,"33,42",Droite,"13,28",MACRON,LE PEN,FILLON,MACRON,"66,82",La vache Nantaise
 Saint-Herblain,Saint-Herblain,45786,"30,02",Centre,"19,05",MACRON,MÉLENCHON,FILLON,MACRON,"81,64",Le bac
-Vair-sur-Loire,Ancenis,4764,"51,73",Centre,"13,43",MACRON,LE PEN,FILLON,MACRON,"68,88",Le Chateau d'ancenis
+Vair-sur-Loire,Ancenis,4764,"51,73",Droite,"13,43",MACRON,LE PEN,FILLON,MACRON,"68,88",Le Chateau d'ancenis
 Saint-Hilaire-de-Chaléons,Machecoul,2235,"34,98",Centre,"15,26",MACRON,MÉLENCHON,FILLON,MACRON,"69,51",La foret
 Saint-Hilaire-de-Clisson,Clisson,2222,"18,43",Centre,"11,46",MACRON,MÉLENCHON,FILLON,MACRON,"76,71",Le Helfest
 Saint-Jean-de-Boiseau,Saint-Brévin-les-Pins,5566,"11,4",Gauche,"13,72",MÉLENCHON,MACRON,LE PEN,MACRON,"75,17",Le voilier
@@ -168,12 +168,12 @@ Saint-Malo-de-Guersac,Saint-Nazaire,3181,"14,62",Gauche,"16,47",MÉLENCHON,MACRO
 Saint-Mars-de-Coutais,Machecoul,2627,"34,67",Centre,"15,9",MACRON,MÉLENCHON,LE PEN,MACRON,"70,81",La foret
 Saint-Mars-du-Désert,Nort-sur-Erdre,4721,"30,46",Centre,"14,24",MACRON,FILLON,MÉLENCHON,MACRON,"71,97",La Nuit de L'Erdre
 Saint-Mars-la-Jaille,Ancenis,2400,"20,06",Droite,"18,07",LE PEN,FILLON,MACRON,MACRON,"59,77",Le Chateau d'ancenis
-Saint-Michel-Chef-Chef,Pornic,4642,"25,12",Centre,"15,48",MACRON,FILLON,LE PEN,MACRON,"67,73",Le voilier
+Saint-Michel-Chef-Chef,Pornic,4642,"25,12",Droite,"15,48",MACRON,FILLON,LE PEN,MACRON,"67,73",Le voilier
 Saint-Molf,Guérande,2499,"22,82",Gauche,"14,85",MÉLENCHON,MACRON,LE PEN,MACRON,"63,99",Le Sel
 Saint-Nazaire,Saint-Nazaire,69784,"46,79",Centre,"22,29",MACRON,MÉLENCHON,FILLON,MACRON,"77,15",Les paquebots
 Saint-Nicolas-de-Redon,Pont-Château,3157,"22,32",Centre,"16,23",MACRON,MÉLENCHON,FILLON,MACRON,"69,41",La vache Nantaise
 Sainte-Pazanne,Machecoul,6547,"41,56",Centre,"12,09",MACRON,MÉLENCHON,FILLON,MACRON,"74,91",La foret
-Saint-Père-en-Retz,Saint-Brévin-les-Pins,4488,"62,72",Centre,"16,21",MACRON,LE PEN,FILLON,MACRON,"64,45",Le voilier
+Saint-Père-en-Retz,Saint-Brévin-les-Pins,4488,"62,72",Droite,"16,21",MACRON,LE PEN,FILLON,MACRON,"64,45",Le voilier
 Saint-Philbert-de-Grand-Lieu,Saint-Philbert-de-Grand-Lieu,8767,"58,81",Centre,"14,4",MACRON,FILLON,MÉLENCHON,MACRON,"69,35",Les Vignes
 Sainte-Reine-de-Bretagne,Pont-Château,2330,"19,73",Gauche,"17,49",MÉLENCHON,MACRON,LE PEN,MACRON,"64,6",La vache Nantaise
 Saint-Sébastien-sur-Loire,Saint-Sébastien-sur-Loire,26371,"11,66",Centre,"16,35",MACRON,MÉLENCHON,FILLON,MACRON,"84,67",L'éléphant
@@ -183,23 +183,23 @@ Saint-Vincent-des-Landes,Guéméné-Penfao,1519,"33,7",Droite,"14,51",LE PEN,MAC
 Sautron,Saint-Herblain,7639,"17,28",Droite,"10,19",FILLON,MACRON,MÉLENCHON,MACRON,"82,53",Le bac
 Savenay,Blain,8319,26,Centre,"16,55",MACRON,MÉLENCHON,FILLON,MACRON,0,La Centrale à charbon
 Sévérac,Pont-Château,1632,"22,41",Centre,"12,77",MACRON,MÉLENCHON,LE PEN,MACRON,"65,52",La vache Nantaise
-Sion-les-Mines,Guéméné-Penfao,1612,"54,71",Centre,"17,84",MACRON,LE PEN,FILLON,MACRON,"64,35",La vache Nantaise
+Sion-les-Mines,Guéméné-Penfao,1612,"54,71",Droite,"17,84",MACRON,LE PEN,FILLON,MACRON,"64,35",La vache Nantaise
 Les Sorinières,Vertou,8063,"13,02",Centre,"11,85",MACRON,MÉLENCHON,FILLON,MACRON,"78,85",Les Vignes
-Soudan,Châteaubriant,1998,"53,82",Centre,"18,51",MACRON,LE PEN,FILLON,MACRON,"63,87",La Carrière des fusillés
+Soudan,Châteaubriant,1998,"53,82",Droite,"18,51",MACRON,LE PEN,FILLON,MACRON,"63,87",La Carrière des fusillés
 Soulvache,Châteaubriant,356,"11,27",Droite,"19,19",LE PEN,MACRON,MÉLENCHON,MACRON,"51,52",La Carrière des fusillés
 Sucé-sur-Erdre,La Chapelle-sur-Erdre,6903,"41,33",Centre,"11,44",MACRON,FILLON,MÉLENCHON,MACRON,"84,35",Le Parc des Naudières
 Teillé,Nort-sur-Erdre,1779,"28,55",Centre,"15,83",MACRON,LE PEN,MÉLENCHON,MACRON,"68,47",La Nuit de L'Erdre
 Le Temple-de-Bretagne,Blain,1889,"1,6",Centre,"11,79",MACRON,MÉLENCHON,LE PEN,MACRON,"68,51",La Centrale à charbon
 Thouaré-sur-Loire,Carquefou,9468,"12,76",Centre,"12,01",MACRON,MÉLENCHON,FILLON,MACRON,"82,73",Le Stade de la Beaujoire
 Les Touches,Nort-sur-Erdre,2463,"35,15",Centre,"14,54",MACRON,LE PEN,MÉLENCHON,MACRON,"68,19",La Nuit de L'Erdre
-Touvois,Saint-Philbert-de-Grand-Lieu,1770,"39,21",Centre,"15,54",MACRON,LE PEN,FILLON,MACRON,"63,94",Les Vignes
+Touvois,Saint-Philbert-de-Grand-Lieu,1770,"39,21",Droite,"15,54",MACRON,LE PEN,FILLON,MACRON,"63,94",Les Vignes
 Trans-sur-Erdre,Nort-sur-Erdre,1046,"22,56",Droite,"11,96",LE PEN,MACRON,FILLON,MACRON,"64,1",La Nuit de L'Erdre
 Treffieux,Guéméné-Penfao,841,"19,12",Droite,"14,62",LE PEN,MACRON,MÉLENCHON,MACRON,"62,85",La vache Nantaise
 Treillières,La Chapelle-sur-Erdre,8734,"29,05",Centre,"11,79",MACRON,MÉLENCHON,FILLON,MACRON,"80,42",Le Parc des Naudières
 Trignac,Saint-Nazaire,7636,"14,38",Gauche,"21,62",MÉLENCHON,MACRON,LE PEN,MACRON,"63,73",Les paquebots
 La Turballe,Guérande,4460,"18,53",Centre,"16,76",MACRON,FILLON,MÉLENCHON,MACRON,"73,61",Le Sel
 Vallet,Vallet,8838,"58,96",Centre,"13,55",MACRON,FILLON,MÉLENCHON,MACRON,"75,73",Le Zoo de La Boissière du Doré
-Loireauxence,Ancenis,7480,"118,28",Centre,"15,72",MACRON,LE PEN,FILLON,MACRON,"66,39",Le Chateau d'ancenis
+Loireauxence,Ancenis,7480,"118,28",Droite,"15,72",MACRON,LE PEN,FILLON,MACRON,"66,39",Le Chateau d'ancenis
 Vay,Guéméné-Penfao,2071,"36,13",Gauche,"14,67",MÉLENCHON,LE PEN,MACRON,MACRON,"64,32",La vache Nantaise
 Vertou,Vertou,23124,"35,68",Centre,13,MACRON,FILLON,MÉLENCHON,MACRON,"84,2",Les Vignes
 Vieillevigne,Clisson,3964,"51,76",Centre,"15,75",MACRON,FILLON,MÉLENCHON,MACRON,"70,52",Le Helfest
@@ -208,6 +208,6 @@ Villepot,Châteaubriant,668,"20,59",Droite,"16,73",FILLON,LE PEN,MACRON,MACRON,"
 Vritz,Ancenis,767,"32,89",Droite,"20,39",FILLON,LE PEN,MACRON,MACRON,"58,11",Le Chateau d'ancenis
 Vue,Machecoul,1608,"19,51",Gauche,"17,45",MÉLENCHON,LE PEN,MACRON,MACRON,"62,5",La foret
 La Chevallerais,Guéméné-Penfao,1563,"10,23",Gauche,"10,82",MÉLENCHON,MACRON,LE PEN,MACRON,"68,72",La vache Nantaise
-La Roche-Blanche,Ancenis,3260,"14,82",Centre,"9,55",MACRON,FILLON,LE PEN,MACRON,"68,62",Le Chateau d'ancenis
+La Roche-Blanche,Ancenis,3260,"14,82",Droite,"9,55",MACRON,FILLON,LE PEN,MACRON,"68,62",Le Chateau d'ancenis
 Geneston,Saint-Philbert-de-Grand-Lieu,3636,"8,04",Centre,"18,22",MACRON,FILLON,MÉLENCHON,MACRON,"72,93",Les Vignes
 La Grigonnais,Guéméné-Penfao,1651,"21,22",Gauche,"13,49",MÉLENCHON,MACRON,FILLON,MACRON,"70,95",La vache Nantaise
