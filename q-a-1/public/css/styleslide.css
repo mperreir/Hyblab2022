@@ -60,7 +60,7 @@ header div{
 }
 
 #container{
-    position: relative; /* for absolute positionning of child elements*/
+    position: absolute; /* for absolute positionning of child elements*/
 }
 
 /* -------------- Loader --------------*/
@@ -221,10 +221,10 @@ svg
 
 /* This media query ensures that we allways will the width of the screen */
 /* as long as the screen aspect ratio is below 9:16 */
-@media screen and (max-aspect-ratio: 9/16){
+@media screen and (max-aspect-ratio: 9/16) and (min-width :480px){
     #container{
-        margin-top: calc((100vh - 100 * 16vw / 9) / 2);
         width: 100vw;
+        margin-top: calc((100vh - 100 * 16vw / 9) / 2);
         height: calc(100 * 16vw / 9);
     }
 
@@ -235,9 +235,20 @@ svg
     }
 }
 
+/* Mobile */
+
+@media screen and (max-width: 480px) {
+    #container{
+        margin-top: 0;
+        width: 100vw;
+        height: 88vh;
+        font-size: calc(12vw*16/9);
+    }
+}
+
 /* This media query ensures that we allways will the height of the screen */
 /* as long as the screen aspect ratio is higher than 9:16 */
-@media screen and (min-aspect-ratio: 9/16){
+@media screen and (min-aspect-ratio: 9/16) and (min-width :480px) {
     #container{
         margin-left: calc((100vw - 100 * 9vh / 16) / 2);
         width: calc(100 * 9vh / 16);
@@ -282,4 +293,40 @@ svg
          url('font/marianne-thin-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
+
+
+.pagenumber_bureau{
+    position: absolute;
+    color:#AC4B4B;
+    margin-top: 5%;
+    text-align:center;
+    font-weight:bolder;
+    font-size:15%;
+    width: 100%;
+    font-family:"mariannemedium";
+    bottom:2.5%;
+}
+
+#currentnum_bureau{
+display:inline-block;
+        color:#AB4A4A;
+        text-decoration:none;
+}
+
+.sansserif{
+    color:#AC4B4B;
+}
+
+a:link,a:visited{
+    display:inline-block;
+    color:#AC4B4B;
+    padding:0% 3%;
+    margin:0.5%;
+    text-decoration:none;
+}
+
+.not_current{
+    opacity: 50%;
+    color:#AB4A4A;
 }
