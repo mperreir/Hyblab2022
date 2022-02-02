@@ -39,27 +39,5 @@ page('/communes-2/', async function () {
     //})
 });
 
-
-
-function click() {
-    var audio = new Audio('sound/click.wav');
-    audio.play();
-}
-
-function slide() {
-    var audio = new Audio('sound/slide.wav');
-    audio.play();
-}
-
-function win() {
-    var audio = new Audio('sound/win.wav');
-    audio.play();
-}
-
-function clickmodern() {
-    var audio = new Audio('sound/clickmoden.wav');
-    audio.play();
-}
-
 // On démarre le routing
 page.start();
