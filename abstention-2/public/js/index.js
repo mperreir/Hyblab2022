@@ -81,7 +81,7 @@ function date() {
 // const cityData = await fetchCityData('nantes');
 
 
-// loadStart();
+
 // loadSms();
 // // loadFolder('nonVotants');
 loadFileExplorer();

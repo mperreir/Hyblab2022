@@ -31,16 +31,18 @@ async function loadRebet() {
         {
             type: 'sms',
             sender: 'THOMAS',
-            message: 'J’aurai fais pareil. Alors tu parierais sur combien? <br/> PS: Je mange saignant mon steak',
+            message: 'J’aurai fait pareil. Alors tu parierais sur combien? <br/> PS: Je mange saignant mon steak',
+            style: 'sms-top sms-left'
             id: "sms-keep-percentage-answer",
             style: 'sms-top sms-left '
         },
         {
             type: 'sms',
             sender: 'THOMAS',
-            message: 'D’accord on reste sur ça alors ;) J’aurai fais pareil.<br/>PS : Je mange saignant mon steak',
+            message: 'D’accord on reste sur ça alors ;) J’aurai fait pareil.<br/>PS : Je mange saignant mon steak',
             id: "sms-change-percentage-answer",
             style: 'sms-bottom sms-left ',
+
         },
         {
             type: 'number',
