@@ -78,15 +78,15 @@ function GenereLaListeDesBackgrounds(nbr_jour, pixel_par_jour) {
 
 
 function setBeforeScrolling() {
-    race.setAttribute("style", "position:absolute;top:0px")
+    document.getElementById('race').className = "before-scrolling"
 }
 
 function setWhileScrolling() {
-    race.setAttribute("style", "position:fixed;top:0px")
+    document.getElementById('race').className = "while-scrolling"
 }
 
 function setAfterScrolling() {
-    race.setAttribute("style", "position:absolute;bottom:0px")
+    document.getElementById('race').className = "after-scrolling"
 }
 
 function scrollToRace() {
