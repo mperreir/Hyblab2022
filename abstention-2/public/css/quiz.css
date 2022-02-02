@@ -25,12 +25,17 @@
     margin-bottom: 4%;
 }
 
-#questionBulle{
+.questionBulle{
     padding: 3%;
     font-family: 'CabinetGrotesk-Regular';
     font-size: 1.9em;
     text-align: center;
     border: 2px solid #1028fd;
+    margin:3%;
+}
+
+.questionBulle.Bad{
+    border: 2px solid #ff2e00;
 }
 
 #answers{
@@ -55,22 +60,16 @@
     color: #e4e5fa;
 }
 
-#codeNumber{
-    height: 20%;
-    width: 80%;
-    margin:auto;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: flex-end;
-    margin-bottom: 4%;
-}
 
 #validate{
     height:10%;
     position: relative;
 }
 
+#validate>*:hover{
+    background-color: #1028fd;
+    color: #e4e5fa;
+}
 #validate>*{
     position: absolute;
     margin-right: 3%;
