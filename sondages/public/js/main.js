@@ -60,6 +60,13 @@ function resetCoursesSelection() {
     document.getElementById("BtnCourse5").className = ""
 }
 
+
+function resetCandidatSelection() {
+    document.querySelectorAll('#CandidatSelection .candidat').forEach(elem => {
+        elem.setAttribute("data-selected", "false")
+    })
+}
+
 function AjoutDesCandidatsPourSelection(candidats) {
 
     const CandidatSelection = document.getElementById('CandidatSelection')
@@ -164,6 +171,7 @@ function start() {
     let POURCENT_BORNE_MAX = 30;
 
     BtnCourse30.addEventListener("click", evt => {
+        resetCandidatSelection()
         if (evt.target.className !== "selected") {
             BtnCourse15.className = ""
             BtnCourse5.className = ""
@@ -176,6 +184,7 @@ function start() {
     })
 
     BtnCourse15.addEventListener("click", evt => {
+        resetCandidatSelection()
         if (evt.target.className !== "selected") {
             BtnCourse30.className = ""
             BtnCourse5.className = ""
@@ -188,6 +197,7 @@ function start() {
     })
 
     BtnCourse5.addEventListener("click", evt => {
+        resetCandidatSelection()
         if (evt.target.className !== "selected") {
             BtnCourse30.className = ""
             BtnCourse15.className = ""
