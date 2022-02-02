@@ -1,6 +1,26 @@
-let dataset_obj = require('./abstention_dataset.json');
+//var dataset_obj = require('./abstention_dataset.json');
 
 //Partie 3 : Ecole
+//création de la colonne des adultes pouvant voter
+dataset_obj.forEach(function(town){
+	let nb_adults = 0;
+	nb_adults += town["18_24_ANS_2017"];
+	nb_adults += town["25_39_ANS_2017"];
+	nb_adults += town["40_54_ANS_2017"];
+	nb_adults += town["55_64_ANS_2017"];
+	nb_adults += town["65_79_ANS_2017"];
+	nb_adults += town["80_ANS_ETPLUS_2017"];
+	town["ADULTES"] = nb_adults;
+})
+
+//création de la colonne du taux d'abstention
+dataset_obj.forEach(function(town){
+	let nb_abstention = town["ABSTENTIONS_PRESID_T1_2017"];
+	let nb_adults = town["ADULTES"];
+	let tx_abstention = nb_abstention/nb_adults;
+	town["TAUX_ABSTENTION"] = tx_abstention;
+})
+
 //création de la colonne de la profession majoritaire
 let categories = ["ETRANGERS","AGRIC_2017","ART_COM_CHEF_2017","CADRES_INTELLECT_2017","PROF_INTERM_2017","EMPLOYES_2017","OUVRIERS_2017","RETRAITES_2017","SANS_ACTIV_2017"];
 dataset_obj.forEach(function(town){
@@ -26,26 +46,6 @@ Object.keys(abstention_by_category).forEach(function(category){
 	})
 	let tx_abs_t1_by_category = nb_abs_t1_by_category/nb_adults_by_category;
 	abstention_by_category[category] = tx_abs_t1_by_category;
-})
-
-//création de la colonne des adultes pouvant voter
-dataset_obj.forEach(function(town){
-	let nb_adults = 0;
-	nb_adults += town["18_24_ANS_2017"];
-	nb_adults += town["25_39_ANS_2017"];
-	nb_adults += town["40_54_ANS_2017"];
-	nb_adults += town["55_64_ANS_2017"];
-	nb_adults += town["65_79_ANS_2017"];
-	nb_adults += town["80_ANS_ETPLUS_2017"];
-	town["ADULTES"] = nb_adults;
-})
-
-//création de la colonne du taux d'abstention
-dataset_obj.forEach(function(town){
-	let nb_abstention = town["ABSTENTIONS_PRESID_T1_2017"];
-	let nb_adults = town["ADULTES"];
-	let tx_abstention = nb_abstention/nb_adults;
-	town["TAUX_ABSTENTION"] = tx_abstention;
 })
 
 //données nationales sur le taux d'abstention des catégories socio-pro pour montrer la nuance
@@ -95,6 +95,9 @@ let tx_adults_unregistered = (nb_adults-nb_registered)/nb_adults;
 
 //Partie 6 : Mairie
 //Nombre de villes dans l'aire urbaine de Bordeaux où l'abstention est supérieure au Tour 2 par rapport au Tour 1 (cf page "Etude tour élections" dans doc données)
+
+//nombre de villages dans la zone d'influence de bordeaux
+let nb_towns = dataset_obj.length;
 
 //création de la colonne du tour d'abstention majoritaire (leger biais)
 dataset_obj.forEach(function(town){
@@ -189,14 +192,15 @@ Object.keys(abstention_by_age_range).forEach(function(age_range){
 
 //Données nationales pour nuancer
 
-/*Affichage
-console.log(dataset_obj[0]);
-console.log(dataset_obj[1]);
+
+//Affichage
+//console.log(dataset_obj[0]);
+//console.log(dataset_obj[1]);
+
 
 //pourcentage des jeunes
-console.log(youngs_prop);
+//console.log(youngs_prop);
 //pourcentage des etrangers
-console.log(strangers_prop);
+//console.log(strangers_prop);
 //pourcentage des autres
-console.log(1-youngs_prop-strangers_prop);
-*/
+//console.log(1-youngs_prop-strangers_prop);
