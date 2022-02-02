@@ -1173,7 +1173,7 @@ input[type="checkbox"] {
 }
 
 .questionCard_nextStep > img {
-    height: 14vh;
+    height: 10vh;
 }
 
 .enveloppes {
@@ -1195,4 +1195,128 @@ input[type="checkbox"] {
 
 .enveloppes >img:last-child {
     transform: rotate(11.28deg);
+}
+
+.step4game {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.step4game_tampon {
+  position: absolute;
+  z-index: 2;
+}
+
+.step4game_tampon_valid {
+  right: 0;
+  top: 0;
+}
+
+.step4game_tampon_cancel {
+  right: 0;
+  top: 0;
+}
+
+.step4game_pannelError {
+  position: absolute;
+  z-index: 2;
+  right: 25%;
+  bottom: 25%;
+}
+
+.step4game_tampon_button {
+  display: flex;
+  width: 25%;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+
+.step4game_cheques {
+  box-sizing: border-box;
+  display: flex;
+  height: 70%;
+  width: 100%;
+}
+
+.step4game_cheque {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.step4game_header {
+  text-align: center;
+  position: relative;
+}
+
+.step4game_help_point {
+  position: absolute;
+  right: 5%;
+}
+
+.chequeCard {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  font-size: 2.8vh;
+  font-family: "Jost";
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.chequeCard_img {
+  width: 90%;
+  z-index: 1;
+}
+
+.statementsCard {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  font-size: 2vh;
+  font-family: "Jost";
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.statementsCard_img {
+  position: absolute;
+  height: 100%;
+  z-index: 1;
+}
+
+.statementsCard_information {
+  position: absolute;
+  bottom: 7%;
+  width: 44%;
+  z-index: 2;
+}
+
+.statementsCard_information > * {
+  display: block;
+  margin-top: 2vh;
+}
+
+.statementsCard_information > *:first-child {
+  margin-top: 0px;
+}
+
+.statementsCard_div_text {
+  display: flex;
+  margin-bottom: 2%;
+}
+
+.statementsCard_label {
+  font-weight: bold;
+}
+
+.step4game_tampon  > .tampon > img {
+    height: 12vh;
 }
