@@ -27,9 +27,9 @@
               <header>
                   <div><input type="image" id="logo" src="img/logo/logo blanc.svg" onclick="window.location='sommaire.html'"></div>
                   <h1>JAMAIS VOTÉ</h1>
-                  <div><img src="img/JamaisVoté/elections.svg"></div>
+                  <div><img id="subtitle" src="img/JamaisVoté/elections.svg"></div>
 
-                  <p>Pour voter, tu dois <b>ëtre inscrit </b> sur les listes électorales, être <b>français </b> et <b>majeur</b>.</p>
+                  <p>Pour voter, tu dois <b>être inscrit </b> sur les listes électorales, être <b>français </b> et <b>majeur</b>.</p>
 
                   <p class="left">
                       <img src="img/JamaisVoté/asterisque.svg" class="asterisque"> Tu peux le vérifier en ligne !
@@ -37,23 +37,23 @@
                   </p>
                   <div class = "verification">
 
-                    <img class = "anim-horizontale" src= "img/JamaisVoté/fleche.svg" id="fleche">
-                    <input type="button" class="white_button" onclick="window.location='https://www.service-public.fr/particuliers/vosdroits/R51788'" value ="servicepublic.fr">
+                    <img class = "anim-horizontale" src= "img/JamaisVoté/fleche.svg" id="fleche1">
+                    <input id="first-link" type="button" class="link_button" onclick="window.location='https://www.service-public.fr/particuliers/vosdroits/R51788'" value ="servicepublic.fr">
 
                   </div>
 
                   <p class="right">
-                      Si tu as pas déménagé et que tu veux t'inscrire tu peux le faire par Internet jusqu'au 2 mars 2022 !
+                      <i>Si tu as pas déménagé et que tu veux t'inscrire tu peux le faire par Internet jusqu'au 2 mars 2022 !</i>
                   </p>
 
                   <div >
 
                     
-                    <input type="button" class="white_button" onclick="window.location='https://www.service-public.fr/particuliers/vosdroits/R16396'" value ="servicepublic.fr">
-                    <img class = "anim-horizontale" src= "img/JamaisVoté/fleche_inversée.svg" id="fleche">
+                    <input id="second-link" type="button" class="link_button" onclick="window.location='https://www.service-public.fr/particuliers/vosdroits/R16396'" value ="servicepublic.fr">
+                    <img class = "anim-horizontale" src= "img/JamaisVoté/fleche_inversée.svg" id="fleche2">
                   </div>
 
-                  <p class="left">Ok, je vais te donner un exemple d'élection :</p>
+                  <p class="left", id="last-sentence">Ok, je vais te donner un exemple d'élection :</p>
                   <p id="choisi"> <img class="gif" src="img/JamaisVoté/choisi-ton-candidat-!.gif"></p> 
 
                   <div id="choix_candidats">
@@ -75,7 +75,7 @@
                   <b class="not_current">|</b>
                   <a href="#" class="not_current">2</a>
                   <b class="not_current">|</b>
-                  <a href="jamais_vote.html" id="currentnum">3</a>
+                  <a href="#" id="currentnum">3</a>
                   <b class="not_current">|</b>
                   <a href="#" class="not_current">4</a>
                   <b class="not_current">|</b>

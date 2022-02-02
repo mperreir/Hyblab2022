@@ -30,6 +30,44 @@ button{
     
 }
 
+#fleche1{
+    width:20%;
+    position: absolute;
+    left: 25%;
+    top: 39%;
+}
+
+#fleche2{
+    width:20%;
+    position: absolute;
+    right: 25%;
+    top:52%;
+}
+
+#first-link{
+    position: absolute;
+    right: 7%;
+}
+
+#second-link{
+    position: absolute;
+    left: 8%;
+    top: 55%;
+}
+
+.link_button{
+    background-color: white;
+    border-radius: 30px;
+    font-family: 'mariannemedium';
+    border: solid;
+    width:42%;
+    color: #505050;
+    text-align: center;
+    font-size: 40%;
+    border-width: 2px;
+    
+}
+
 .buttonservice{
     width:33%;
     border-radius: 30px;
@@ -168,6 +206,11 @@ button{
 .right{
     text-align: right;
     padding-right: 5%;
+    margin-top: 8%;
+}
+
+#last-sentence{
+    margin-top:15%;
 }
 
 .extright{
