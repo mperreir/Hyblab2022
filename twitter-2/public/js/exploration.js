@@ -1,6 +1,7 @@
 "use strict";
 
 window.onload = () => {
+  window.scrollTo(0, 25);
   document.getElementById("autre_candidat").addEventListener("click", () => {
     sessionStorage.removeItem('selected_candidate');
     window.location.reload();
