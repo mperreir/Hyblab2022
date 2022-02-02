@@ -612,7 +612,8 @@ footer p {
 }
 
 .logoImages {
-    width: 30vw;
+    max-width: 30vw;
+    max-height: 100px;
     padding: 10px 20px;
 }
 
