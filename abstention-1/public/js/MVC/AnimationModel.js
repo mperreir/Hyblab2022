@@ -7,7 +7,7 @@ class AnimationModel extends Observable {
      * @param {Object} actions.keyframes Voir animation.js pour plus de détails
      * @param {string} actions.player nom / id / class de l'HTMLElement sur lequel appliquer l'animation
      */
-     constructor(container, actions, dialogueControler) {
+     constructor(container, actions, dialogueControler = undefined) {
         super();
         // Partie transition
         this.container = document.querySelector(container);
@@ -32,7 +32,7 @@ class AnimationModel extends Observable {
     updateScroll(){
         this.scroll = this.getContainerVisibility();
         // On s'assure que le dialogue commence a apparaitre avant de pouvoir intéragir avec
-        if(!this.modelChanged && this.scroll > 0.1) {
+        if(this.dialogueControler && !this.modelChanged && this.scroll > 0.1) {
             this.dialogueControler.loadNextModel();
             this.modelChanged = true;
         }
@@ -45,7 +45,7 @@ class AnimationModel extends Observable {
             ({ visibility }) => this.scroll >= visibility[0] && this.scroll <= visibility[1],
         )
 
-        if (this.currentActions !== []) {
+        if (this.currentActions.length !== 0) {
             this.setChanged();
         }
 
@@ -75,7 +75,7 @@ class AnimationModel extends Observable {
     }
 
     canStartDialogue(){
-        return !this.dialogueStarted && !this.dialogueDone && this.scroll > this.startScrollValueRelative;
+        return this.dialogueControler && !this.dialogueStarted && !this.dialogueDone && this.scroll > this.startScrollValueRelative;
     }
 
     startDialogue(){

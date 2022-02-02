@@ -1,14 +1,32 @@
+const sujetAnimation = new AnimationModel(
+    ".container.sujet",
+    [
+        {
+            visibility: [0.75, 1],
+            keyframes: ANIMATIONS.animations.sujet.scroll,
+            player: "#sujet",
+        },
+        {
+            visibility: [1.2, 1.5],
+            keyframes: ANIMATIONS.animations.sujet.hide,
+            player: "#sujet",
+        },
+    ]
+)
+
+let sujetControler = new AnimationControler([sujetAnimation]);
+
 let scenes = [
-    new ModelDialogue(dialogues[0].Texte,"img/Charlie.svg","img/VieuxActif.svg","M. Martin 51ans"),
-    new ModelDialogue(dialogues[1].Texte,"img/Charlie.svg","img/Jeune.svg","Arthur 17ans"),
-    new ModelDialogue(dialogues[2].Texte,"img/Charlie.svg","img/JeuneActive.svg","Nouvelle arrivante 24ans"),
-    new ModelDialogue(dialogues[3].Texte,"img/Charlie.svg","img/Maire.svg","M. le maire 46ans"),
-    new ModelDialogue(dialogues[4].Texte,"img/Charlie.svg","img/Vieille.svg","Mme Robert 82ans"),
-    new ModelDialogue(dialogues[5].Texte,"img/Charlie.svg","img/VieuxActif.svg","M. Martin 51ans"),
+    new DialogueModel(dialogues[0].Texte,"M. Martin 51ans"),
+    new DialogueModel(dialogues[1].Texte,"Arthur 17ans"),
+    new DialogueModel(dialogues[2].Texte,"Nouvelle arrivante 24ans"),
+    new DialogueModel(dialogues[3].Texte,"Mme Robert 82ans"),
+    new DialogueModel(dialogues[4].Texte,"M. le maire 46ans"),
+    new DialogueModel(dialogues[5].Texte,"M. Martin 51ans"),
 ]
 
 // let controleur = [new Controler(scene1), new Controler(scene2), new Controler(scene3), new Controler(scene4), new Controler(scene5)];
-const dialogueControler = new Controler(scenes);
+const dialogueControler = new DialogueControler(scenes);
 
 function mod(a,b) {
 	return (( a % b ) + b ) % b;
@@ -48,9 +66,6 @@ function getDialogueTransition(etape){
         }
     ]
 }
-
-
-
 
 
 function getAnimations() {
@@ -110,12 +125,27 @@ function getAnimations() {
     return [firstAnim, ...anims, lastAnim];
 }
 
-console.log(getAnimations());
+
 const animations = getAnimations().map(({container, actions}) => new AnimationModel(container, actions, dialogueControler));
 
 let animationControler = new AnimationControler(animations);
 
 scenes.forEach((scene, i) => scene.linkAnimationModel(animations[i]));
+
+const AUDIO = new Audio("sound/SONS-ANIMATION.mp3");
+AUDIO.loop = true;
+
+window.addEventListener("scroll", () => {
+    const dialogue = document.getElementById("Dialogue");
+
+    if(dialogueControler.nextModelIndex > 0 && dialogue.style.opacity <= 0) {
+        AUDIO.play();
+        //TODO : transition smooth du son
+    }
+    else {
+        AUDIO.pause();
+    }
+})
 
 
 LottieInteractivity.create({

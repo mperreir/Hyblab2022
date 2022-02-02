@@ -1,3 +1,9 @@
+const ETAT = {
+    demarrage: 0,
+    lottie: 1,
+    dialogue: 2,
+}
+
 class Observable {
 
     constructor(){

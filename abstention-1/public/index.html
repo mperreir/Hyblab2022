@@ -8,148 +8,45 @@
     <link rel="stylesheet" href="css/styleMain.css">
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js" defer></script>
     <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js" defer></script>
-    <script src="js/MVC/cssProperties/CSSProperty.js" defer></script>
-    <script src="js/MVC/cssProperties/AnimationFrame.js" defer></script>
-    <script src="js/MVC/cssProperties/BackgroundImage.js" defer></script>
-    <script src="js/MVC/cssProperties/Opacity.js" defer></script>
-    <script src="js/MVC/cssProperties/Transform.js" defer></script>
-    <script src="js/animations.js" defer></script>
-    <script src="js/pfs.js" defer></script>
-    
-    <script defer src="js/MVC/utils.js"></script>
-    <script defer src="js/MVC/AnimationControler.js"></script>
-    <script defer src="js/MVC/AnimationModel.js"></script>
-    <script defer src="js/MVC/AnimationObserver.js"></script>
-    <script defer src="js/MVC/ModelDialogue.js"></script>
-    <script defer src="js/MVC/View.js"></script>
-    <script defer src="js/MVC/Update.js"></script>
-    <script defer src="js/MVC/Controler.js"></script>
-    <!-- <script defer src="js/MVC/dialogue.js"></script>-->
-    <script defer src="data/dialogues.js"></script>
-    <script defer src="js/MVC/main.js"></script>
+   <!-- <script src="js/utils.js" defer></script>-->
+   <script src="js/MVC/cssProperties/CSSProperty.js" defer></script>
+   <script src="js/MVC/cssProperties/AnimationFrame.js" defer></script>
+   <script src="js/MVC/cssProperties/BackgroundImage.js" defer></script>
+   <script src="js/MVC/cssProperties/Opacity.js" defer></script>
+   <script src="js/MVC/cssProperties/Transform.js" defer></script>
+   <script src="js/MVC/cssProperties/Display.js" defer></script>
+   <script src="js/animations.js" defer></script>
+   <script src="js/pfs.js" defer></script>
+   
+   <script defer src="js/MVC/utils.js"></script>
+   <script defer src="js/MVC/AnimationControler.js"></script>
+   <script defer src="js/MVC/AnimationModel.js"></script>
+   <script defer src="js/MVC/AnimationObserver.js"></script>
+   <script defer src="js/MVC/DialogueModel.js"></script>
+   <script defer src="js/MVC/DialogueView.js"></script>
+   <script defer src="js/MVC/DialogueObserver.js"></script>
+   <script defer src="js/MVC/DialogueControler.js"></script>
+   <!-- <script defer src="js/MVC/dialogue.js"></script>-->
+   <script defer src="data/dialogues.js"></script>
+   <script defer src="js/MVC/main.js"></script>
+   <script defer src="pageAccueil.html"></script>
+    <!-- <script defer src="index.html"></script> -->
+
 </head>
 <body>
     <!-- Le conteneur sert à vérouiller les proportions (aspect ratio) du contenu de la page (ici des slides) -->
     <div id="container">
-      <section id='sujet'>
-        <img id="info" src="img/INFO.svg">
-        <div id='SujetExpose'>
-          <h1>EXPOSÉ</h1>
-          <h2>SUJET</h2>
-          <p>
-            1) <b>L'abstention</b> dans la zone d'influence de Bordeaux, qui sont'ils?
-          </p>
-          <img id='PieChart' src='img/CAMEMBErt.svg'>
-          <img id='BarChart' src='img/GRAPHIQUE BATONS.svg'>
-
-        </div>
-        <div id='popupPointInfo'>
-          <h1>L'abstention</h1>
-          <p>
-            L’abstention c’est le fait de s’abstenir de voter lors d’une élection. Le vote n’étant pas un acte obligatoire en France, beaucoup de personnes décident de faire ce choix. 
-          </p>
-          <p>
-            Pourquoi ces gens prennent-ils cette décision ? Qui sont-ils ? 
-          </p>
-          <p>
-            Pars à leur rencontre avec notre jeune reporter Charlie dans la ville de Bordeaux pour mieux comprendre ce choix.
-          </p>
-        </div>
-      </section>
-   
-      <section id="Dialogue">
-        <header>
-<<<<<<< HEAD
-            <div id='cercle1' class="circle"><p>1</p></div>
-            <div id='cercle2' class="circle"><p>2</p></div>
-            <div id='cercle3' class="circle"><p>3</p></div>
-            <div id='cercle4' class="circle"><p>4</p></div>
-            <div id='cercle5' class="circle"><p>5</p></div>
-            <div id='cercle6' class="circle"><p>6</p></div>
-            <img id='carnet' src='img/CARNET PICTO.svg'>
-=======
-
-          <img id='carnet' src='img/CARNET PICTO.svg'>
->>>>>>> 6bc8374fb7aefddc836df31211dc640dbed5d931
-        </header>
-          <div id="personnage1"></div>
-          <div id="personnage2"></div>
-          <div id="textZone">
-            <!--Dialogue-->
-            <div id='cercle' class="circle"><p>1</p></div>
-            <div class='boxnom'><p id="description" class="nom">Arthur 17ans</p></div>
-            <p id="textDialogue">Ceci est un exemple pour que je puisse effectuer des tests afin de voir si cela rend très bien.  </p>
-            <img id="Suite" src='img/SUIVANT.svg'>
-
-            <!--Pierre Feuille Ciseaux-->
-            <div class="box">
-              <button id='Pierre'>Pierre<img src="img/Pierre.svg" id="Pierre"></button>
-              <button id='Feuille'>Feuille<img src="img/Feuille.svg" id="Feuille"></button>
-              <button id='Ciseaux'>Ciseaux<img src="img/Ciseaux.svg" id="Ciseaux"></button>
+        <section id='accueil'>
+            <div id='logoVelo'>
+                <img id='gifVelo' src="img/New_Velo_rouge_blanc.gif">
+                <img id='logo' src="img/Frame.svg">
             </div>
-            <div class="resultat"></div>
-
-          </div>
-          <div id="QuizZone">
-            <p class=nom>Charlie</p>
-              <p>Ceci est une question à laquel seul les plus forts d'entre vous pourront répondre correctement. </p>
-              <button id='reponseA'>Réponse A</button>
-              <button id='reponseB'>Réponse B</button>
-              <button id='reponseC'>Réponse C</button>
-          </div>
-      </section>
-
-      <section id="LottieAnimation">
-        <lottie-player class="player ecole1-vers-foraine" src="animations/animation01.json" ></lottie-player>
-        <lottie-player class="player foraine-vers-camion" src="animations/animation02.json" ></lottie-player>
-        <lottie-player class="player camion-vers-theatre" src="animations/animation03.json" ></lottie-player>
-        <lottie-player class="player theatre-vers-mairie" src="animations/animation04.json" ></lottie-player>
-        <lottie-player class="player mairie-vers-ecole2" src="animations/animation05.json" ></lottie-player>
-
-      </section>
-
-      <section id="popupCarnet">
-        <img id='anneaux' src='img/ANNEAUX.svg'>
-        <img id='croix' src='img/CROIX.svg'>
-        <h1>Ce que<br> j'ai retenu</h1>
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-
-        </ul>
- 
-      </section>
-    
-      <div id="SequencesAnimation">
-        <section class="transition" style="height:100vh;"></section>
-        <section class="container dialogue ecole1"></section>
-        <section class="transition"></section>
-        <section class="container lottie ecole1-vers-foraine" style="height:200vh;"></section>
-        <section class="transition"></section>
-        <section class="container dialogue foraine"></section>
-        <section class="transition"></section>
-        <section class="container lottie foraine-vers-camion" style="height:200vh;"></section>
-        <section class="transition"></section>
-        <section class="container dialogue camion"></section>
-        <section class="transition"></section>
-        <section class="container lottie camion-vers-theatre" style="height:200vh;"></section>
-        <section class="transition"></section>
-        <section class="container dialogue theatre"></section>
-        <section class="transition"></section>
-        <section class="container lottie theatre-vers-mairie" style="height:200vh;"></section>
-        <section class="transition"></section>
-        <section class="container dialogue mairie"></section>
-        <section class="transition"></section>
-        <section class="container lottie mairie-vers-ecole2" style="height:200vh;"></section>
-        <section class="transition"></section>
-        <section class="container dialogue ecole2"></section>
-        <section class="transition"></section>
-        <section class="container conclusion" style="height:200vh;"></section>
-      </div>
-  
+            <h1>Salut!</h1>
+            <p>
+                C’est <b>Charlie</b> ! Je fais un exposé sur l’abstention et je vous emmène avec moi à <b>Bordeaux</b>, rencontrer des personnes qui ne votent pas !
+            </p>
+            <button id='go'>C'EST PARTI</button>
+        </section>
     </div>
    
 </body>
