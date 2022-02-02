@@ -1,5 +1,3 @@
-
-
 header{
     position:relative;
     display: grid;
@@ -69,6 +67,7 @@ header{
 .hd-msg, .hd-tel, .hd-res, .hd-bat{
     height: auto;
 }
+
 #screen{
     height:95%;
 }
