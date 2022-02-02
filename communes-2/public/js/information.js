@@ -91,7 +91,7 @@ page('/communes-2/information', async function () {
     ul.appendChild(li5);
     ul.appendChild(li6);
     
-//Info commune tour2
+    //Info commune tour2
     const info2 = document.querySelector("#sous_titre2");
     const  ul2 = document.createElement("ul");
     const  li21 = document.createElement("li");
