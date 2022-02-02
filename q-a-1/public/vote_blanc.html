@@ -14,6 +14,7 @@
   <script src="https://vjs.zencdn.net/7.6.6/video.js"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="js/Vote_blanc.js" defer></script>
+  <script src="js/draw.js" defer></script>
   
 </head>
 <body>
@@ -33,11 +34,11 @@
                 <p>Vote Blanc : C'est une <b>enveloppe vide</b> ou une enveloppe vierge. Ils sont décomptés séparément et ils sont comptabilisés dans les résultats.</p>
                 
                 <p><b>À ton avis, il y a eu combien de votes blanc au premier tour des élections présidentielles en 2017 ?</b></p>
-
+                
                 <div id="Q1">
                     <input type ="button" class="white_button" value="+ 400 000" id="C1">
 
-                    <input type ="button" class="white_button" value="+ 650 000" id="C2">
+                    <input type ="button" class="white_button" value="+ 650 000" id="activateur">
 
                     <input type ="button" class="white_button" value="+ 850 000" id="C3">
                 </div>
@@ -59,13 +60,30 @@
 
                     <input type ="button" class="white_button" value="40-74 ANS" id="C5">
 
-                    <input type ="button" class="white_button" value="+80 ANS" id="C6">
+                    <input type ="button" class="white_button" value="+80 ANS" id="activateur2">
                 </p>
 
                 <p><img class="gif" src="img/VoteBlanc/tas-deja - .gif"></p>
 
             </header>
-              
+
+            <svg id="svg1" width="5%" height="5%" viewBox="0 0 83 33" fill="none" xmlns="http://www.w3.org/2000/svg" 
+            style="position: absolute; top: 48%; left: 10%;"> 
+            <path 
+            d="M47.6585 0.509203C35.2529 1.30484 13.9251 9.65515 6.4778 15.9834C0.117439 21.3881 -2.61768 28.0905 8.76088 31.1266C21.7848 34.6018 41.0576 30.8271 53.1152 26.7881C62.8497 23.5272 80.5086 15.7876 82.3584 8.10782C84.2304 0.33587 63.0918 1.97888 55.9935 2.22503C42.9039 2.67893 35.5778 -0.168256 20.8781 4.35567" 
+            stroke="red" 
+            stroke-linecap="round"
+            />
+            </svg>
+
+            <svg id="svg2" width="5%" height="5%" viewBox="0 0 83 33" fill="none" xmlns="http://www.w3.org/2000/svg" 
+            style="position: absolute; top: 70%; left: 43%;"> 
+            <path 
+            d="M47.6585 0.509203C35.2529 1.30484 13.9251 9.65515 6.4778 15.9834C0.117439 21.3881 -2.61768 28.0905 8.76088 31.1266C21.7848 34.6018 41.0576 30.8271 53.1152 26.7881C62.8497 23.5272 80.5086 15.7876 82.3584 8.10782C84.2304 0.33587 63.0918 1.97888 55.9935 2.22503C42.9039 2.67893 35.5778 -0.168256 20.8781 4.35567" 
+            stroke="red" 
+            stroke-linecap="round"
+            />
+            </svg>
              
             <footer>
               <div id="choix_vote">
