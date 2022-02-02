@@ -26,12 +26,12 @@ class StartingPage extends Page {
                         <div className='startingPage_card'>
                             <h1>Bienvenue sur Elys'able&nbsp;!</h1>
                             <p>
-                                Les candidats n'attendent plus que toi pour commencer leur campagne !
+                                Les candidat·e·s n'attendent plus que toi pour commencer leur campagne !
                                 Tu vas pouvoir les suivre tout au long de ces huit étapes vers l'Élysée.
                             </p>
                             <p>
                                 Tu auras la responsabilité de valider ou non leur candidature à plusieurs étapes.
-                                Mais pas de panique, tu aras toutes les clefs pour faire les bons choix.
+                                Mais pas de panique, tu auras toutes les clefs pour faire les bons choix.
                             </p>
                             <span>À toi de jouer !</span>
                             <Button value="Commencer l'aventure !" className='startingPage_button' onClick={() => this.nextStep()} />

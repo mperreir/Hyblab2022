@@ -4,13 +4,13 @@ const data = {
       "title": "Les conditions pour être candidat·e",
       "questions": [
         {
-          "question": "Peut-on candidater aux élections présidentielles dès qu’on est majeur·e en France ?",
-          "answer": "Oui, d’après la Loi Organique du code électoral, il est nécessaire d’avoir 18 ans révolus et la nationalité française pour pouvoir candidater aux élections présidentielles.",
+          "question": "Peut-on candidater à l'élection présidentielle dès qu’on est majeur·e en France ?",
+          "answer": "Oui, d’après l’article LO127 du code électoral, il est nécessaire d’avoir 18 ans révolus et la nationalité française pour pouvoir candidater aux élections présidentielles.",
           "link": "https://www.vie-publique.fr/fiches/19428-conditions-pour-etre-elu-president-age-parrainages-500-signatures"
         },
         {
-          "question": "Doit-on avoir un casier judiciaire vide pour candidater ?",
-          "answer": "Non, il n’est en aucun cas nécessaire d’avoir un casier judiciaire vierge pour devenir candidat aux élections présidentielles. Cependant, il faut ne pas être privé de ses droits d'éligibilité par une décision de justice.",
+          "question": "Doit-on avoir un casier judiciaire vierge pour candidater ?",
+          "answer": "Non, il n’est en aucun cas nécessaire d’avoir un casier judiciaire vierge pour devenir candidat à l'élection présidentielle. Cependant, il faut ne pas être privé·e de ses droits d'éligibilité par une décision de justice.",
           "link": "https://www.vie-publique.fr/fiches/19428-conditions-pour-etre-elu-president-age-parrainages-500-signatures"
         }
       ]
@@ -20,7 +20,7 @@ const data = {
       "questions": [
         {
           "question": "Faut-il l'approbation de certains élus pour se présenter ?",
-          "answer": "Oui, un·e candidat·e doit collecter 500 signatures (parrainages) d’élus (maires, députés, sénateurs, conseillers départementaux et régionaux, …) afin de valider sa candidature. En 2017, la liste des élus habilités à donner leur parrainage comptait environ 42 000 élus.",
+          "answer": "Oui, un·e candidat·e doit collecter 500 signatures (parrainages) d’élus (maires, députés, sénateurs, conseillers départementaux et régionaux, …) afin de valider sa candidature. En 2017, la liste des élus habilités à donner leur parrainage en comptait environ 42 000.",
           "link": "https://www.vie-publique.fr/eclairage/23872-parrainage-des-candidats-la-presidentielle-les-500-signatures"
         },
         {
@@ -50,7 +50,7 @@ const data = {
       "questions": [
         {
           "question": "Tout le monde peut-il financer une campagne présidentielle ?",
-          "answer": "Non, les entreprises privées n’ont pas le droit de financer des campagnes présidentielles. Les particuliers peuvent, avec un maximum de 4 600€, et à condition d’être de nationalité française ou de résider en France. L’Etat verse également une avance de 200 000€. Enfin, les partis politiques et banques ayant leur siège social dans l'Espace économique européen peuvent accorder des prêts aux candidat·e·s. Un État étranger ou une banque non-européenne ne peut plus prêter de l'argent à un parti ou un·e candidat·e. La CNCCFP (Commission Nationale des Comptes de Campagne et des Financements Politiques) est chargée de contrôler les dépenses de campagne électorale et le financement des partis.",
+          "answer": "Non, les entreprises privées n’ont pas le droit de financer la campagne. Les particuliers le peuvent, avec un maximum de 4 600€, et à condition d’être de nationalité française ou de résider en France. Les partis politiques et banques ayant leur siège social dans l'espace économique européen peuvent accorder des prêts aux candidat·e·s, mais pas un Etat étranger ou une banque non-européenne. La CNCCFP (Commission Nationale des Comptes de Campagne et des Financements Politiques) est chargée de contrôler les dépenses de campagne électorale et le financement des partis.",
           "link": "https://www.vie-publique.fr/fiches/19431-election-presidentielle-comment-est-financee-la-campagne-electorale"
         },
         {
@@ -70,7 +70,7 @@ const data = {
         },
         {
           "question": "Existe-t-il une obligation de débattre avec son adversaire lors du second tour ?",
-          "answer": "Non, rien n’oblige les deux candidats restant à participer à un débat télévisé dans l'entre-deux-tours. C’est cependant devenu une tradition depuis les élections de 1974, ayant eu lieu lors de toutes les élections présidentielles exceptée celle de 2002.",
+          "answer": "Non, rien n’oblige les deux candidats restant à participer à un débat télévisé dans l'entre-deux-tours. C’est cependant devenu une tradition depuis les élections de 1974, qui a eu lieu lors de toutes les élections présidentielles exceptée celle de 2002.",
           "link": "https://www.vie-publique.fr/discours-dans-lactualite/269522-presidentielles-1974-2017-les-debats-televises-entre-les-deux-tours"
         }
       ]

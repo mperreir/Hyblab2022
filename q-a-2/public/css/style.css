@@ -1126,8 +1126,8 @@ input[type="checkbox"] {
     height: 40%;
 }
 
-.step1Game .swiper-button-next::after,
-.step1Game .swiper-button-prev::after {
+.swiper-button-next::after,
+.swiper-button-prev::after {
     color: black;
     font-weight: 900;
 }

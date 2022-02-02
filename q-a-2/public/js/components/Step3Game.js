@@ -41,6 +41,10 @@ class Step3Game extends React.Component {
             direction: 'horizontal',
             slidesPerView: 1,
             mousewheel: true,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
         });
     }
 
@@ -85,6 +89,8 @@ class Step3Game extends React.Component {
                 <div className='swiper-wrapper'>
                     {profils}
                 </div>
+                <div className="swiper-button-next"></div>
+                <div className="swiper-button-prev"></div>
             </div>
         );
     }
