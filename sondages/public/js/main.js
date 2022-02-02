@@ -6,9 +6,7 @@ function InitDesIntentions(intentionsCandidats) {
     intentionsCandidats.forEach(candidat => {
 
         const divCandidat = document.createElement('div');
-        divCandidat.setAttribute('style', 'margin-left:-75px;');
         divCandidat.className = 'candidat';
-        divCandidat.setAttribute('data-name', candidat.name);
 
         const divName = document.createElement('div');
         divName.className = 'name';
@@ -23,7 +21,7 @@ function InitDesIntentions(intentionsCandidats) {
         }
         const divPourcent = document.createElement('div');
         divPourcent.className = 'pourcent'
-        divPourcent.innerText = "0 %"
+        divPourcent.innerText = "0%"
         divBlock.appendChild(img);
         divBlock.appendChild(divPourcent);
 
@@ -199,10 +197,17 @@ function start() {
                     // On change la position des candidats
                     CANDIDATS_KEYS.map(nom_candidat => {
                         const index = CANDIDATS[nom_candidat].x.indexOf(currDate);
+
+                        let pourcent = 0
+
                         if (index >= 0) {
-                            const divPourcent = document.querySelector(`div[data-name='${nom_candidat}'] div[class='pourcent']`);
-                            divPourcent.innerText = parseFloat(CANDIDATS[nom_candidat].y[index]).toFixed(1) + ' %';
+                            pourcent = parseFloat(CANDIDATS[nom_candidat].y[index]).toFixed(1)
                         }
+
+                        pourcent <= 15 && (CANDIDATS[nom_candidat].div.style.top = "-500px")
+                        pourcent > 15 && (CANDIDATS[nom_candidat].div.style.top = "calc( 13vh + " + pourcent + "%" + " ) ")
+
+                        CANDIDATS[nom_candidat].div.querySelector(".pourcent").innerText = pourcent + ' %';
                     })
                 }
             }
