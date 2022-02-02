@@ -27,7 +27,7 @@ class Step2Page extends Page {
                     question={questions[1].question}
                     answer={questions[1].answer}
                     learnMoreLink={questions[1].link}
-                    nextStepMessage="Vérifier le nombre de signatures de chaque candidat"
+                    nextStepMessage="Vérifier le nombre de signatures de chaque candidat·e"
                 />,
             ],
             subStepIndex: 0

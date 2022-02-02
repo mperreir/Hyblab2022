@@ -27,12 +27,12 @@ class Step1Page extends Page {
                     question={questions[1].question}
                     answer={questions[1].answer}
                     learnMoreLink={questions[1].link}
-                    nextStepMessage="Examine les profils des candidats"
+                    nextStepMessage="Examine les profils des candidat·e·s"
                 />,
                 <GamePage
                     step={step}
                     title='Examine ces candidatures'
-                    subtitle="Les candidats t’ont envoyé leurs profils, à toi de sélectionner ceux qui peuvent continuer."
+                    subtitle="Les candidat·e·s t’ont envoyé leurs profils, à toi de sélectionner celleux qui peuvent continuer."
                     buttonTitle='Valider'
                     nextStep={() => this.nextStep()}
                     returnToExplanations={() => this.returnToExplanations()}

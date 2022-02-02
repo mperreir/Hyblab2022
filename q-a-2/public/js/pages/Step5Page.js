@@ -27,12 +27,12 @@ class Step5Page extends Page {
                     question={questions[1].question}
                     answer={questions[1].answer}
                     learnMoreLink={questions[1].link}
-                    nextStepMessage="Vérifier le temps de parole de chaque candidat"
+                    nextStepMessage="Vérifier le temps de parole de chaque candidat·e"
                 />,
                 <GamePage
                     step={step}
                     title='Débats, temps de parole'
-                    subtitle="Tous les candidats ont droit à un temps de parole équitable, fait en sorte d’égaliser les temps en cliquant sur les minuteurs."
+                    subtitle="Tous les candidat·e·s ont droit à un temps de parole équitable, fait en sorte d’égaliser les temps en cliquant sur les boutons."
                     buttonTitle='Valider'
                     returnToExplanations={() => this.returnToExplanations()}
                     >

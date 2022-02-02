@@ -100,7 +100,7 @@ const data = {
       "questions": [
         {
           "question": "Devient-on président·e de la République dès l’annonce officielle des résultats ?",
-          "answer": "Non, à partir de l’annonce officielle des résultats, le·a nouveau·elle président·e élu·e doit simplement convenir avec son·sa prédécesseur·e de la date où se tiendra la journée d'investiture accompagnée d’une cérémonie (au plus tard le jour de l'expiration du mandat du·de la président·e sortant), qui marque officiellement la prise de fonction du·de la président·e élu·e.",
+          "answer": "Non, à partir de l’annonce officielle des résultats, le·a nouveau·elle président·e élu·e doit simplement convenir avec saon prédécesseur·e de la date où se tiendra la journée d'investiture accompagnée d’une cérémonie (au plus tard le jour de l'expiration du mandat du·de la président·e sortant), qui marque officiellement la prise de fonction du·de la président·e élu·e.",
           "link": "https://www.elysee.fr/la-presidence/l-investiture-des-presidents-de-la-republique"
         }
       ]

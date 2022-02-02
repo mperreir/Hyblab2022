@@ -8,7 +8,7 @@ class Step6Page extends Page {
             step: step,
             subPages: [
                 <MainStepPage step={step} nextSubStep={() => this.nextSubStep()}
-                    subtitle="Le 1er tour"
+                    subtitle="Le premier tour"
                 />,
                 <QuestionPage
                     step={step}
@@ -18,11 +18,11 @@ class Step6Page extends Page {
                     question={questions[0].question}
                     answer={questions[0].answer}
                     learnMoreLink={questions[0].link}
-                    nextStepMessage="Dépouiller les bulletins de vote et compter les voies"
+                    nextStepMessage="Dépouiller les bulletins de vote et compter les votes"
                 />,
                 <GamePage
                     step={step}
-                    title='Le 1er tour'
+                    title='Le premier tour'
                     subtitle="Clique sur l'urne pour ouvrir toutes les enveloppes."
                     buttonTitle='Continuer'
                     returnToExplanations={() => this.returnToExplanations()}
