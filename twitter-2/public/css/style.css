@@ -111,6 +111,8 @@ body {
 }
 
 #text-slide-2 {
+    font-size: 2.5vh;
+    font-family: 'Lato', sans-serif;
     margin-left: 10%;
     margin-right: 10%;
 }

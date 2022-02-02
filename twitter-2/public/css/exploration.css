@@ -47,7 +47,8 @@ button{font-family: 'blatantregular';}
 }
 
 #followers-commun p, #choix-theme p {
-    font-size: 2.4vh;
+    font-size: 2.2vh;
+    font-family: 'Lato', sans-serif;
     padding-bottom: 5%;
     padding-left: 15%;
     padding-right: 15%;
@@ -58,7 +59,7 @@ button{font-family: 'blatantregular';}
 }
 
 #choix-theme ul li {
-    margin-bottom: 10%;
+    margin-bottom: 7%;
 }
 
 #choix-theme ul li button, #followers {
@@ -100,11 +101,12 @@ button{font-family: 'blatantregular';}
 #text-selec-candidat, #text-categorie {
     margin-bottom: 5%;
     margin-top: 3%;
-    font-size: 4vh;
+    font-size: 3.5vh;
 }
 
 .txt-selec-candidat {
-    font-size: 2vh;
+    font-size: 1.5vh;
+    font-family: 'Lato', sans-serif;
 }
 
 .img-selec-candidat {
@@ -118,7 +120,15 @@ button{font-family: 'blatantregular';}
     width: 70%;
     height: 6vh;
     border: 0;
-    font-size: 2.6vh;
+    font-size: 2.5vh;
+}
+
+#reminder_candidate {
+    margin: 10% 0 5% 0;
+}
+
+#reminder_candidate span {
+    color: #F24A41;
 }
 
 @media screen and (max-aspect-ratio: 9/16){

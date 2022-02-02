@@ -35,6 +35,10 @@ window.onload = () => {
         imgSelecCandid[i].addEventListener('click', () => {
           sessionStorage.setItem("selected_candidate", imgSelecCandid[i].name);
           sessionStorage.setItem("selected_nameCandidate", textImg[i].innerHTML);
+
+          let selected_candidate = sessionStorage.getItem("selected_nameCandidate");
+          document.getElementById("reminder_candidate").innerHTML = `Vous avez choisit <span>${selected_candidate}</span>.`
+
           document.getElementById('selection-candidat').style.visibility = 'hidden';
           document.getElementById('categorie').style.visibility = 'visible';
         });
