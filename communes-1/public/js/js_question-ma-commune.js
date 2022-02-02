@@ -68,7 +68,7 @@ reponse1.addEventListener('click', () => {
 		window.location.href = 'anjoute-victoire.html';
 	}
 	else {
-		window.location.href = 'anjoute-oups.js.html';
+		window.location.href = 'anjoute-oups.html';
 	}
 });
 reponse2.addEventListener('click', () => {
@@ -87,6 +87,6 @@ reponse2.addEventListener('click', () => {
 		window.location.href = 'anjoute-victoire.html';
 	}
 	else {
-		window.location.href = 'anjoute-oups.js.html';
+		window.location.href = 'anjoute-oups.html';
 	}
 });
