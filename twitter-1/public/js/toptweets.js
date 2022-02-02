@@ -43,6 +43,9 @@ async function showTopTweets () {
 
     //Create a new Swiper
     const swiper = new Swiper("#mySwiperTop", {
+        hashNavigation: {
+            watchState: true,
+        },
         pagination: {
             el: ".swiper-pagination",
             clickable: true,
@@ -74,6 +77,7 @@ async function showTopTweets () {
 
     TopTweetsThemePic(select.value);
 
+    let j = 0;
     //Add each top tweet to the swiper
     tweets.forEach((t) => {
         let candidat = all_candidats.filter(c => t.user_id === c.id);
@@ -85,17 +89,21 @@ async function showTopTweets () {
             t["url"] = candidat[0].profile_image_url;
             const swiper_inside_template_rendered = Mustache.render(swiper_inside_template,t);
             new_slide.setAttribute("class", "swiper-slide tweet");
+            new_slide.setAttribute("data-hash", "slide" + j);
             new_slide.innerHTML = swiper_inside_template_rendered;
             swiper_wrapper.appendChild(new_slide);
         }
+        j = j + 1;
     });
 
     // no tweet for this themas
     if (tweets.length === 0) {
-        let no = document.createElement("p");
-        no.setAttribute("class","no-tweet");
-        no.innerHTML = "Aucun tweet n’a été populaire sur ce thème cette semaine."
-        swiper_wrapper.appendChild(no);
+        for (let i = 0; i < 5; i++) {
+            let slide = document.createElement('div');
+            slide.setAttribute("class", "swiper-slide no-tweet");
+            slide.innerHTML = "Aucun tweet n’a été populaire sur ce thème cette semaine."
+            swiper_wrapper.appendChild(slide);
+        }
     }
 }
 
