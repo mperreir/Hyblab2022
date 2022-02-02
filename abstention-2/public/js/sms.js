@@ -190,7 +190,7 @@ async function loadSms() {
         selectedCity = await pickRandomCity();
         document.getElementById('random-city-btn').disabled = true;
         document.getElementById('choose-city-btn').disabled = true;
-        document.getElementById('sms-text-city-name').innerHTML = Object.keys(citiesMap).find(key => citiesMap[key] === selection);;
+        document.getElementById('sms-text-city-name').innerHTML = Object.keys(citiesMap).find(key => citiesMap[key] === selectedCity);
         document.getElementById('random-city-btn').style.opacity = "50%";
         displayedSMSIndex++;
         displaySMS();
