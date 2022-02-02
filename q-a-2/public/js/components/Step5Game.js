@@ -5,17 +5,27 @@ class Step5Game extends React.Component {
         stepsCandidates['5'].forEach(candidate => {
             this[candidate.nameId] = React.createRef();
         })
-        const stateCandidates = stepsCandidates['5'].reduce((previous, candidate) => {
+
+
+        const newState = stepsCandidates['5'].reduce((previus, candidate) => {
+            const time = Math.random() * 6;
             return {
-                ...previous,
+                ...previus,
                 [candidate.nameId]: {
-                    play: false,
+                    play: true,
                     end: false,
+                    timeFirstEnd: time,
+                    stopPlayFirst: false
                 }
             }
         }, {});
 
-        this.state = {...stateCandidates};
+
+        this.state = {...newState};
+    }
+
+    componentDidMount() {
+        Object.keys(this.state).forEach(key => this[key].current.play());
     }
 
     onClickPlay(id) {
@@ -34,6 +44,14 @@ class Step5Game extends React.Component {
         }
     }
     
+    onPlaying(id) {
+        console.log(this.state[id].time);
+        if (!this.state[id].stopPlayFirst && this[id].current.currentTime >= this.state[id].timeFirstEnd) {
+            this[id].current.pause();
+            this.setState({ [id]: {...this.state[id], play: false, stopPlayFirst: true}});
+        }
+    }
+
     onEnded(id) {
         this.setState({ [id]: {...this.state[id], end: true, play: false}}, this.isWin);
     }
@@ -63,7 +81,7 @@ class Step5Game extends React.Component {
                 <div className='step5Game_video_container' key={id}>
                     <PlayButton play={this.state[candidate.nameId].play}  onClick={() => this.onClickPlay(candidate.nameId)}/>
                     <div className='step5Game_video'>
-                        <video ref={this[candidate.nameId]} preload='' height={window.innerHeight / 12+'px'} onPause={()=> this.onPause(candidate.nameId)} onEnded={() => this.onEnded(candidate.nameId)}>
+                        <video ref={this[candidate.nameId]} preload='' height={window.innerHeight / 12+'px'} onTimeUpdate={() => this.onPlaying(candidate.nameId)} onPause={()=> this.onPause(candidate.nameId)} onEnded={() => this.onEnded(candidate.nameId)}>
                             <source src={`video/${candidate.nameId}.mp4`} type='video/mp4'/>
                         </video>                      
                     </div>
