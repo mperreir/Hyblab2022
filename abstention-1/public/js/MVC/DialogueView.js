@@ -31,6 +31,10 @@ class DialogueView {
 
         this.animation= document.querySelector('#animation');
 
+        this.btnrecommencer=document.querySelector('#recommencer');
+        this.btnretour=document.querySelector('#retour');
+
+
     }
   }
   

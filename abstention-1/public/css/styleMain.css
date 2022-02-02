@@ -533,7 +533,7 @@ img[id="Pierre"], img[id="Feuille"], img[id="Ciseaux"]{
 }
 
 .resultat p[id="Pierre"], .resultat p[id="Egalité"]{
-    background-color : blue;
+    background-color : #0600FF;
 }
 
 .resultat p[id="Feuille"], .resultat p[id="Gagné"]{
@@ -548,3 +548,129 @@ img[id="Pierre"], img[id="Feuille"], img[id="Ciseaux"]{
     width: 35%;
 	height: auto;
 }
+
+/*-------------------------Crédits-------------------*/
+#credit{
+    background-color: white;
+    color: #0600FF;
+    position: relative;
+    text-align: center;
+    padding: 10%;
+}
+#logoFin{
+margin-top: 10%;
+width: 96%;
+margin-bottom: 5%;
+}
+
+#credit p{
+text-align: left;
+margin-top: 10%;
+}
+
+#logoCredits{
+    display:inline-block;
+    margin-top: 20%;
+}
+
+
+
+.logoFin{
+
+    margin-bottom: 7%;
+}
+
+
+/*logos*/
+#AGR{
+width: 20%;
+margin-right: 5%;
+
+}
+#polytech{
+    width: 25%;
+}
+#ouestMedialab{
+    width: 40%;
+    margin-left: 5%;
+
+}
+#Hyblab{
+    width: 50%;
+    margin-right: 8%;
+
+
+}
+#Hyblab2022{
+    width: 30%;
+        margin-left: 9%;
+
+
+}
+#logo_nantesmetropole{
+    width: 45%;
+    margin-right: 2.5%;
+
+
+}
+#NantesUniv{
+    width: 45%;
+    margin-left: 2.5%;
+
+}
+#logo_pdl{
+    width: 45%;
+    margin-right: 5%;
+
+
+}
+#cc{
+    width: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+#opensource{
+    width: 15%;
+    margin-left: 5%;
+}
+
+a{
+    color: #0600FF;
+}
+
+
+/*boutons*/
+#menuFin button{
+margin-top: 20%;
+height: 5vh;
+font-weight: bold;
+color: white;
+background-color: #0600FF;
+border : 1vh solid #0600FF;  
+
+ border-radius: 10em;
+ font-size: 80%;
+
+}
+
+#recommencer{
+    width: 50%;
+    margin-left: 3%;
+
+
+}
+
+#retour{
+    width: 40%;
+    margin-right: 3%;
+
+
+}
+#souces{
+    margin-top: 10%;
+}
+#souces p{
+    text-align: left;
+    margin-top: 7%;
+    }
