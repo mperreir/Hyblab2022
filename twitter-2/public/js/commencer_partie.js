@@ -5,7 +5,7 @@ window.onload = () => {
   sessionStorage.setItem("alreadyGivenCandidates", a);
 
   document.getElementById("exit").addEventListener("click", () => {
-    window.location.href = "./index.html#second-slide";
+    window.location.href = "./index.html";
   });
 
   document.getElementById("commencer").addEventListener("click", () => {
