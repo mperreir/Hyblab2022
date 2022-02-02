@@ -98,13 +98,13 @@ async function loadFolder(folderName) {
             data = {
                 cityName: citiesMap[selectedCity],
                 cityValue: selectedCityData['vote_blanc'] + selectedCityData['vote_nul'],
-                cityPercent: selectedCityData['pourcentage_vote_blanc'] + selectedCityData['pourcentage_vote_nul'],
-                meanPercent: metropoleData['pourcentage_vote_blanc'] + metropoleData['pourcentage_vote_nul']
+                cityPercent: Math.round((selectedCityData['pourcentage_vote_blanc'] + selectedCityData['pourcentage_vote_nul'])*100)/100,
+                meanPercent: Math.round((metropoleData['pourcentage_vote_blanc'] + metropoleData['pourcentage_vote_nul'])*100)/100
             };
             graphData = await loadTemplate('templates/folders/graphNouveauxHabitants.ejs', {
                 cityName: citiesMap[selectedCity],
-                cityPercent: selectedCityData['pourcentage_vote_blanc'] + selectedCityData['pourcentage_vote_nul'],
-                meanPercent: metropoleData['pourcentage_vote_blanc'] + metropoleData['pourcentage_vote_nul']
+                cityPercent: Math.round((selectedCityData['pourcentage_vote_blanc'] + selectedCityData['pourcentage_vote_nul'])*100)/100,
+                meanPercent: Math.round((metropoleData['pourcentage_vote_blanc'] + metropoleData['pourcentage_vote_nul'])*100)/100
             });
             break;
         case 'nouveauxHabitants':
@@ -160,11 +160,7 @@ async function loadFolder(folderName) {
             options: {
                 // responsive: true,
                 // maintainAspectRatio: false,
-                plugins: {
-                    legend: {
-                        display: false
-                    }
-                },
+                plugins: false,
                 scales: {
                     x: {
                         suggestedMin: 0,
@@ -226,7 +222,7 @@ async function loadFolder(folderName) {
 function getEtrangersData(data) {
     renderData = [];
     renderColor = [];
-    for (i = 0; i < data[0]; i++) {
+    for (i = 0; i < Math.floor(data[0]); i++) {
         d = {
             x: i % 3,
             y: Math.floor(i / 3),
@@ -236,13 +232,13 @@ function getEtrangersData(data) {
         renderColor.push('rgb(0, 57, 255)');
     }
     renderData.push({
-        x: data[0] % 3,
-        y: Math.floor(data[0] / 3),
+        x: Math.floor((data[0]) % 3),
+        y: Math.floor((data[0]) / 3),
         r: Math.floor((data[0] - Math.floor(data[0])) * 10)
     })
     renderColor.push('rgb(0, 57, 255)');
 
-    for (i = 0; i < data[1]; i++) {
+    for (i = 0; i < Math.floor(data[1]); i++) {
         d = {
             x: i % 3 + 4,
             y: Math.floor(i / 3),
@@ -252,8 +248,8 @@ function getEtrangersData(data) {
         renderColor.push('rgb(255, 72, 0)');
     }
     renderData.push({
-        x: Math.floor(data[1]) % 3 + 5,
-        y: Math.floor(data[1] / 3),
+        x: Math.floor((data[1]) % 3) + 4,
+        y: Math.floor((data[1]) / 3),
         r: Math.floor((data[1] - Math.floor(data[1])) * 10)
     });
     renderColor.push('rgb(255, 72, 0)');
