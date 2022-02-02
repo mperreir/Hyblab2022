@@ -29,12 +29,12 @@ async function loadSms() {
         {
             type: "sms",
             sender: "MOI",
-            message: "Hey Thomas ! Content de bosser avec toi !Non, je n’ai pas vu les chiffres, pourquoi ? :)",
+            message: "Hey Thomas ! Content de bosser avec toi ! Non, je n’ai pas vu les chiffres, pourquoi ? :)",
             style: "sms-bottom sms-right"
         }, {
             type: "sms",
             sender: "THOMAS",
-            message: "Ça tombe bien ! Je te pari le repas de ce midi que tu devineras jamais le pourcentage !",
+            message: "Ça tombe bien ! Je te parie le repas de ce midi que tu devineras jamais le pourcentage d'abstention !",
             style: "sms-top sms-left"
         }, {
             type: "sms",
@@ -51,7 +51,7 @@ async function loadSms() {
         },
         {
             type: "button",
-            text: "Choisi ta ville",
+            text: "Choisis ta ville",
             id: "choose-city-btn",
             style: ""
         },
@@ -62,7 +62,7 @@ async function loadSms() {
         {
             type: "sms",
             sender: "THOMAS",
-            message: "OK c’est parti pour <span id='sms-text-city-name'></span>  ! Alors tu paries combien ? Ne t’inquiète pas... On arrondit à 5%.",
+            message: "OK c’est parti pour <span id='sms-text-city-name'></span> ! Alors tu paries combien ? Ne t’inquiète pas... On arrondit à 5%.",
             style: "sms-bottom sms-left"
         },
         {
@@ -81,7 +81,7 @@ async function loadSms() {
         {
             type: "sms",
             sender: "Thomas",
-            message: "<strong><span id='sms-text-percentage'></span>% retenu !</strong> Aller amuse toi bien ! Télécharge les dossiers pour avoir les infos ! On se tient au courant pour le repas ahah",
+            message: "<strong><span id='sms-text-percentage'></span>% retenu !</strong> Allez amuse toi bien ! Télécharge les dossiers pour avoir les infos ! On se tient au courant pour le repas ahah",
             style: "sms-bottom sms-left"
         },
         {

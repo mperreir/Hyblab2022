@@ -22,20 +22,20 @@ async function loadRebet() {
         },
         {
             type: 'button',
-            text: 'Je rectifie mon paris',
+            text: 'Je rectifie mon pari',
             id: 'change-percentage-btn',
             style: ''
         },
         {
             type: 'sms',
             sender: 'THOMAS',
-            message: 'J’aurai fais pareil. Alors tu parierais sur combien? <br/> PS: Je mange saignant mon steak',
+            message: 'J’aurai fait pareil. Alors tu parierais sur combien? <br/> PS: Je mange saignant mon steak',
             style: 'sms-top sms-left'
         },
         {
             type: 'sms',
             sender: 'THOMAS',
-            message: 'D’accord on reste sur ça alors ;) J’aurai fais pareil.<br/>PS : Je mange saignant mon steak',
+            message: 'D’accord on reste sur ça alors ;) J’aurai fait pareil.<br/>PS : Je mange saignant mon steak',
             style: 'sms-bottom sms-left'
         },
         {

@@ -5,13 +5,13 @@ async function loadEnd() {
         {
             type: 'sms',
             sender: 'THOMAS',
-            message: 'Tu me dois un restaurant ! Tu pourras retenter de parier pour 2022 ! Hésite pas à faire passer ce pari à d’autres collègues et tes amis pour voir qui s’y connaissent !',
+            message: 'Tu me dois un restaurant ! Tu pourras retenter de parier pour 2022 ! Hésite pas à faire passer ce pari à d’autres collègues et à tes amis pour voir ceux qui s’y connaissent !',
             style: 'sms-top sms-left sms-visible'
         },
         {
             type: 'sms',
             sender: 'THOMAS',
-            message: 'Trop fort ! Je pensais pas que tut’y connaissais autant ! Je te dois un repas.Hésite pas à faire passer ce pari à d’autres collègues et tes amis pour voir qui s’y connaissent !',
+            message: 'Trop fort ! Je pensais pas que tut’y connaissais autant ! Je te dois un repas. Hésite pas à faire passer ce pari à d’autres collègues et à tes amis pour voir ceux qui s’y connaissent !',
             style: 'sms-bottom sms-left sms-visible'
         },
         {
