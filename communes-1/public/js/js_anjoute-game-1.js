@@ -5,7 +5,7 @@ import {generateObject} from "./generateObject.js";
 const loader = document.querySelector('.loader');
 
 let chemins = document.referrer.split('/');
-
+window.scrollTo(0, 1);
 
 if (chemins[chemins.length-1] != 'anjoute-inventaire.html') {
 	const logo_joute = document.querySelector('#logo-joute');
