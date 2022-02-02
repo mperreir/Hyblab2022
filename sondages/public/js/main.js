@@ -321,7 +321,11 @@ function start() {
             startTheRace.addEventListener("click", scrollToRace)
             document.addEventListener("scroll", scrollPosition)
             restartTheRace.addEventListener("click", _ => {
-                window.scrollTo(0, 1);
+                window.scrollTo({
+                    top: 1,
+                    left: 0,
+                    behavior: 'smooth'
+                })
             })
 
         })
