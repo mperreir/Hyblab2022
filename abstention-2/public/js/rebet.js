@@ -94,23 +94,23 @@ async function loadRebet() {
 
     let displayedSMSInterval = setInterval(displaySMS, delay);
 
-    setTimeout(() => { pauseDisplaySMS() }, delay * 4);
+    window.setTimeout(() => { pauseDisplaySMS() }, delay * 4);
 
     function displaySMS() {
         console.log(smsTread.children.item(displayedSMSIndex));
         smsTread.children.item(displayedSMSIndex).style.visibility = 'visible';
         displayedSMSIndex++;
         if (displayedSMSIndex === messages.length) {
-            clearInterval(displayedSMSInterval);
+            window.clearInterval(displayedSMSInterval);
         }
     }
 
     function pauseDisplaySMS() {
-        clearInterval(displayedSMSInterval);
+        window.clearInterval(displayedSMSInterval);
     }
 
     document.getElementById('change-percentage-btn').addEventListener('click', async () => {
-        displayedSMSInterval = setInterval(displaySMS, delay);
+        displayedSMSInterval = window.setInterval(displaySMS, delay);
         document.getElementById('change-percentage-btn').disabled = true;
         document.getElementById('keep-percentage-btn').disabled = true;
         document.getElementById('change-percentage-btn').style.opacity = "50%";
@@ -135,7 +135,7 @@ async function loadRebet() {
         displaySMS();
         displaySMS();
         // setTimeout(() => { pauseDisplaySMS() }, delay / 3 + 1);
-        setTimeout(() => { loadFileExplorer() }, delay * 3);
+        window.setTimeout(() => { loadFileExplorer() }, delay * 3);
 
         document.getElementById('keep-percentage-btn').disabled = true;
         document.getElementById('change-percentage-btn').disabled = true;

@@ -45,7 +45,7 @@ function date() {
     const date = document.getElementById('header-date');
 
     let text = new Date();
-    setInterval(() => {
+    window.setInterval(() => {
         text = new Date()
     }, 60000);
     let dateContent;
@@ -76,13 +76,13 @@ function date() {
 
 
 // loadStart();
-// loadSms();
+loadSms();
 
 // // loadFolder('nonVotants');
 // loadFileExplorer();
 
 // loadEnd();
-loadRebet();
+// loadRebet();
 
 async function fetchCityData(city) {
     const cityRq = await fetch(`/api/city/${city}`);
@@ -92,7 +92,7 @@ async function fetchCityData(city) {
 
 
 
-loadPresVille();
+// loadPresVille();
 
 
 async function loadTemplate(path, data) {
