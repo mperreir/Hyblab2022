@@ -1,11 +1,7 @@
 'use strict'
 
 page('/communes-2/', async function () {
-    /*// Wait for the video to preload and display 1st slide
-    var vid = document.getElementById("background-video");
-    vid.onloadeddata = function() {
-        document.querySelector('#background-video').style.display = "block";
-    };*/
+    document.getElementById("background-video").src = "video/animationLogoGif.gif";
 
     anime({
         delay: 2500,
@@ -38,28 +34,6 @@ page('/communes-2/', async function () {
     //    elt.addEventListener("click", clickmodern);
     //})
 });
-
-
-
-function click() {
-    var audio = new Audio('sound/click.wav');
-    audio.play();
-}
-
-function slide() {
-    var audio = new Audio('sound/slide.wav');
-    audio.play();
-}
-
-function win() {
-    var audio = new Audio('sound/win.wav');
-    audio.play();
-}
-
-function clickmodern() {
-    var audio = new Audio('sound/clickmoden.wav');
-    audio.play();
-}
 
 // On démarre le routing
 page.start();
