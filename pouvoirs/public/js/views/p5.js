@@ -1,8 +1,12 @@
 "use strict";
 let released = false;
 const init_p5 = function(){
+    hideArrow();
     swiper.disable();
     const ringtone = createAudio("data/sounds/marimba.mp3",true,1,0.7);
+    const mouaSound = createAudio("data/sounds/phoneCall.mp3",false,0.7,0.7);
+    const taulard1 = createAudio("data/sounds/men_voice.mp3",false,0.7,0.7);
+    const taulard2 = createAudio("data/sounds/men_voice2.mp3",false,0.7,0.7);
     const phoneButton = document.querySelector(".phoneButton");
     const nameContainer = document.createElement("div");
     nameContainer.setAttribute("id","nameContainer");
@@ -19,10 +23,10 @@ const init_p5 = function(){
     callingAnimation.play();
     ringtone.play();
     
-    phoneButton.addEventListener("click", () => pickUp(ringtone,callingAnimation,nameContainer), { once: true });
+    phoneButton.addEventListener("click", () => pickUp(ringtone,callingAnimation,nameContainer,[mouaSound,taulard1,taulard2]), { once: true });
 }
 
-const pickUp = function(ringtone,callingAnimation,nameContainer,dialogBox) {
+const pickUp = function(ringtone,callingAnimation,nameContainer,sounds) {
     const phoneButton = document.querySelector(".phoneButton");
     phoneButton.remove();
     ringtone.pause();
@@ -32,7 +36,7 @@ const pickUp = function(ringtone,callingAnimation,nameContainer,dialogBox) {
     const prisonGridDownSound = createAudio("data/sounds/prisonGridDown.mp3",false,0.7,0.5);
     const prisonGridDown = createAnimation("animationsContainer","data/animations/prisonGridDown.json",false,0.7,0.7);
     document.querySelector("#nameContainer").remove();
-    setTimeout(() => showDialogBoxes(), 2500);    
+    setTimeout(() => showDialogBoxes(sounds), 2500);    
     prisonGridDown.play();         
     prisonGridDownSound.play();
     prisonGridDown.addEventListener('complete', () => {
@@ -103,13 +107,12 @@ const createDialogBox = function(id, bubbleBackground, startingPos, textKey) {
     return dialogBoxContainer;
 
 };
-const showDialogBoxes = function() {
-    const phoneCallSound = createAudio("data/sounds/prisonGridDown.mp3",false,0.7,0.7);
-    phoneCallSound.play();
+const showDialogBoxes = function(sounds) {
     let shifts = {
         bubble1: -100,
         bubble2: 100
       }
+    sounds[1].play();
     const dialogBox1 = createDialogBox(1,"img/dialogBoxes/P5_BULLE_BIG_BERNARD.svg",{x:-100,y:55},"p5-bernard1-1");
     anime({
         targets: shifts,
@@ -144,6 +147,7 @@ const showDialogBoxes = function() {
     setTimeout(() => {
         deleteDialogBox("1");
         deleteDialogBox("2");
+        sounds[0].play();
         const dialogBox3 = createDialogBox(3,"img/dialogBoxes/P5_BULLE_SMALL_MOUA.svg",{x:110,y:60},"p5-moua");
         displayHelp();
         anime({
@@ -161,6 +165,7 @@ const showDialogBoxes = function() {
         });
         const dialogBox4 = createDialogBox(4,"img/dialogBoxes/P5_BULLE_SMALL_BERNARD.svg",{x:-100,y:79},"p5-bernard2");
         setTimeout(() => {
+            sounds[2].play();
             anime({
                 targets: shifts,
                 bubble1: 12,
@@ -172,13 +177,11 @@ const showDialogBoxes = function() {
                 complete: (anim) => {
                     shifts.bubble1 = 100;
                     shakeElement(dialogBox4);
-                    phoneCallSound.play();
                 }
              });
         },3000);      
     },10000);
-    animationsContainer.addEventListener("click",() => release(), { once: true });  
-    phoneCallSound.unload();
+    animationsContainer.addEventListener("click",() => release(), { once: true });
 }
 const showNoteBox = function() {
     deleteDialogBox("3");
