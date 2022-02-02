@@ -43,7 +43,6 @@
     flex-direction: column;
     justify-content: space-around;
     height:30%;
-    width:33%;
     margin: auto;
 }
 #answers>*{
@@ -53,6 +52,9 @@
     border: 2px solid #1028fd;
     font-family: 'CabinetGrotesk-regular';
     font-size: 1.8em;
+    min-width: 30%;
+    margin: auto;
+    padding:1%;
 }
 
 #answers>*:hover{
