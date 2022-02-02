@@ -236,4 +236,8 @@ window.onload = () => {
          }
       });
 
+   document.querySelector("video").addEventListener('ended', () => {
+      document.querySelector("video").style.display = "none";
+      document.getElementById("main").style.display = "block";
+   });
 }

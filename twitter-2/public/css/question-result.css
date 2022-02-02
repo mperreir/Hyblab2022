@@ -185,6 +185,10 @@ body {
     font-weight: bold;
 }
 
+#main {
+    display: none;
+}
+
 
 /* ---------- Important media queries for easy responsive content :-) ----------------- */
 /* Can be adapted for other ratios that 9:16 or for horizontal content (ex: 16:9) */
