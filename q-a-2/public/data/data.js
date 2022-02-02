@@ -5,12 +5,12 @@ const data = {
       "questions": [
         {
           "question": "Peut-on candidater à l'élection présidentielle dès qu’on est majeur·e en France ?",
-          "answer": "Oui, d’après l’article LO127 du code électoral, il est nécessaire d’avoir 18 ans révolus et la nationalité française pour pouvoir candidater aux élections présidentielles.",
+          "answer": "Oui, d’après l’article LO127 du code électoral, il est nécessaire d’avoir 18 ans révolus et la nationalité française pour pouvoir candidater à l'élection présidentielle.",
           "link": "https://www.vie-publique.fr/fiches/19428-conditions-pour-etre-elu-president-age-parrainages-500-signatures"
         },
         {
           "question": "Doit-on avoir un casier judiciaire vierge pour candidater ?",
-          "answer": "Non, il n’est en aucun cas nécessaire d’avoir un casier judiciaire vierge pour devenir candidat à l'élection présidentielle. Cependant, il faut ne pas être privé·e de ses droits d'éligibilité par une décision de justice.",
+          "answer": "Non, il n’est en aucun cas nécessaire d’avoir un casier judiciaire vierge pour devenir candidat·e à l'élection présidentielle. Cependant, il faut ne pas être privé·e de ses droits d'éligibilité par une décision de justice.",
           "link": "https://www.vie-publique.fr/fiches/19428-conditions-pour-etre-elu-president-age-parrainages-500-signatures"
         }
       ]
@@ -19,8 +19,8 @@ const data = {
       "title": "Comment se présenter",
       "questions": [
         {
-          "question": "Faut-il l'approbation de certains élus pour se présenter ?",
-          "answer": "Oui, un·e candidat·e doit collecter 500 signatures (parrainages) d’élus (maires, députés, sénateurs, conseillers départementaux et régionaux, …) afin de valider sa candidature. En 2017, la liste des élus habilités à donner leur parrainage en comptait environ 42 000.",
+          "question": "Faut-il l'approbation de certain·e·s élu·e·s pour se présenter ?",
+          "answer": "Oui, un·e candidat·e doit collecter 500 signatures (parrainages) d’élu·e·s (maires, député·e·es, sénateur·rice·s, conseiller·ère·s départementaux et régionaux, …) afin de valider sa candidature. En 2017, la liste des élu·e·s habilité·e·s à donner leur parrainage en comptait environ 42 000.",
           "link": "https://www.vie-publique.fr/eclairage/23872-parrainage-des-candidats-la-presidentielle-les-500-signatures"
         },
         {
@@ -39,8 +39,8 @@ const data = {
           "link": "https://www.vie-publique.fr/questions-reponses/269379-election-presidentielle-2022-lessentiel-en-questions-reponses"
         },
         {
-          "question": "Peut-on ne pas déclarer les activités du conjoint ?",
-          "answer": "Non, un·e candidat·e doit obligatoirement déclarer les activités professionnelles exercées par le conjoint, ainsi que ses activités professionnelles donnant lieu à rémunération ou gratification, les participations aux organes dirigeants d'un organisme public ou privé, et les participations financières au capital de sociétés.",
+          "question": "Peut-on ne pas déclarer les activités du·de la conjoint·e ?",
+          "answer": "Non, un·e candidat·e doit obligatoirement déclarer les activités professionnelles exercées par le·a conjoint·e, ainsi que ses activités professionnelles donnant lieu à rémunération ou gratification, les participations aux organes dirigeants d'un organisme public ou privé, et les participations financières au capital de sociétés.",
           "link": "https://www.vie-publique.fr/questions-reponses/269379-election-presidentielle-2022-lessentiel-en-questions-reponses"
         }
       ]
@@ -64,13 +64,13 @@ const data = {
       "title": "Débats, temps de parole",
       "questions": [
         {
-          "question": "Est-il possible d’avoir plus de temps de parole dans les médias que les autres candidats ?",
-          "answer": "Non, le CSA (Conseil Supérieur de l’Audiovisuel) doit s’assurer que les éditeurs respectent le principe d’équité pour les temps de parole et d’antenne de tous les candidats. Le temps d’antenne comprend son temps de parole, les interventions de soutien à sa candidature, ainsi que les séquences qui lui sont consacrées.",
+          "question": "Est-il possible d’avoir plus de temps de parole dans les médias que les autres candidat·e·s ?",
+          "answer": "Non, le CSA (Conseil Supérieur de l’Audiovisuel) doit s’assurer que les éditeurs respectent le principe d’équité pour les temps de parole et d’antenne de tous les candidat·e·s. Le temps d’antenne comprend son temps de parole, les interventions de soutien à sa candidature, ainsi que les séquences qui lui sont consacrées.",
           "link": "https://www.vie-publique.fr/en-bref/282087-presidentielle-2022-la-recommandation-du-csa-sur-le-temps-de-parole"
         },
         {
           "question": "Existe-t-il une obligation de débattre avec son adversaire lors du second tour ?",
-          "answer": "Non, rien n’oblige les deux candidats restant à participer à un débat télévisé dans l'entre-deux-tours. C’est cependant devenu une tradition depuis les élections de 1974, qui a eu lieu lors de toutes les élections présidentielles exceptée celle de 2002.",
+          "answer": "Non, rien n’oblige les deux candidat·e·s restant à participer à un débat télévisé dans l'entre-deux-tours. C’est cependant devenu une tradition depuis les élections de 1974, qui a eu lieu lors de toutes les élections présidentielles exceptée celle de 2002.",
           "link": "https://www.vie-publique.fr/discours-dans-lactualite/269522-presidentielles-1974-2017-les-debats-televises-entre-les-deux-tours"
         }
       ]
@@ -96,11 +96,11 @@ const data = {
       ]
     },
     "8": {
-      "title": "Investiture du président",
+      "title": "Investiture du·de la président·e",
       "questions": [
         {
-          "question": "Devient-on président de la République dès l’annonce officielle des résultats ?",
-          "answer": "Non, à partir de l’annonce officielle des résultats, le nouveau président élu doit simplement convenir avec son prédécesseur de la date où se tiendra la journée d'investiture accompagnée d’une cérémonie (au plus tard le jour de l'expiration du mandat du président sortant), qui marque officiellement la prise de fonction du président élu.",
+          "question": "Devient-on président·e de la République dès l’annonce officielle des résultats ?",
+          "answer": "Non, à partir de l’annonce officielle des résultats, le·a nouveau·elle président·e élu·e doit simplement convenir avec son·sa prédécesseur·e de la date où se tiendra la journée d'investiture accompagnée d’une cérémonie (au plus tard le jour de l'expiration du mandat du·de la président·e sortant), qui marque officiellement la prise de fonction du·de la président·e élu·e.",
           "link": "https://www.elysee.fr/la-presidence/l-investiture-des-presidents-de-la-republique"
         }
       ]
