@@ -88,15 +88,22 @@ function start() {
     })
 
     const NBR_JOUR = 100 // A changer dynamiquement
-    const PIXEL_PAR_JOUR = 500
-    const HAUTEUR_DE_LA_PAGE = 25000
+    const PIXEL_PAR_JOUR = 150
+    const HAUTEUR_DE_LA_PAGE = PIXEL_PAR_JOUR * NBR_JOUR
 
     const blocks = document.body.querySelector("#blocks")
     const animation = document.body.querySelector("#animation")
     const race = document.body.querySelector("#race")
 
+
+    const TimeInfoProgress = document.body.querySelector("#TimeInfo .progress")
+    const TimeInfoDate = document.body.querySelector("#TimeInfo .date")
+
+
     const startTheRace = document.body.querySelector("button#startTheRace")
 
+
+    // Menu du haut pour les choix
     const CandidatSelection = document.body.querySelector("#CandidatSelection")
     const ButtonShowCandidat = document.body.querySelector("#ShowCandidat")
     ToggleButton(ButtonShowCandidat, ["img/bouton_plus.svg", "img/bouton_moins.svg"], showed => {
@@ -109,7 +116,7 @@ function start() {
         CourseSelection.className = showed ? "body" : "hidden"
     })
 
-
+    // Choix de courses
     const BtnCourse30 = document.getElementById("BtnCourse30")
     const BtnCourse15 = document.getElementById("BtnCourse15")
     const BtnCourse5 = document.getElementById("BtnCourse5")
@@ -149,7 +156,7 @@ function start() {
 
 
 
-    const clientPatternHeight = document.getElementById('pattern').clientHeight;
+    const clientPatternHeight = document.getElementById('PATTERN_EXAMPLE').clientHeight;
     const background = GenereLaListeDesBackgrounds(Math.floor(HAUTEUR_DE_LA_PAGE / clientPatternHeight));
 
     for (let i = 0; i < background.length; i++) {
@@ -188,7 +195,7 @@ function start() {
         return strDate;
     }
 
-    INDEX_PREV = -1;
+    var INDEX_PREV = -1;
 
     function scrollPosition(scroll) {
 
@@ -198,7 +205,6 @@ function start() {
         const hauteur = (scroll - y_to_top) + (window.innerHeight / 2)
 
         let indexJour = parseInt(hauteur / PIXEL_PAR_JOUR) + 1
-
         indexJour = indexJour <= 0 ? 0 : indexJour
 
         if (rect.top <= 0 && not_seeing_bottom) {
@@ -208,19 +214,25 @@ function start() {
         } else {
             setAfterScrolling()
         }
-        if (INDEX_PREV != indexJour) {
-            INDEX_PREV = indexJour
-            const currDate = GetScrollDate(indexJour);
 
-            if (indexJour > 0) {
-                CANDIDATS.map(candidat => {
-                    let index = candidat.x.indexOf(currDate);
-                    if (index >= 0) {
-                        const divPourcent = document.querySelector(`div[data-name='${candidat.name}'] div[class='pourcent']`);
-                        divPourcent.innerText = parseFloat(candidat.y[index]).toFixed(1) + ' %';
-                    }
-                });
-            }
+
+        // On met a jour si on change de jour
+        if (indexJour > 0 && INDEX_PREV != indexJour) {
+            INDEX_PREV = indexJour
+
+            const currDate = GetScrollDate(indexJour);
+            const t_date = new Date(currDate)
+
+            TimeInfoProgress.style.width = (indexJour / NBR_JOUR * 100) + "%";
+            TimeInfoDate.innerHTML = t_date.toLocaleDateString("fr")
+
+            CANDIDATS.map(candidat => {
+                let index = candidat.x.indexOf(currDate);
+                if (index >= 0) {
+                    const divPourcent = document.querySelector(`div[data-name='${candidat.name}'] div[class='pourcent']`);
+                    divPourcent.innerText = parseFloat(candidat.y[index]).toFixed(1) + ' %';
+                }
+            });
         }
     }
 

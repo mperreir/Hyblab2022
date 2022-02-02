@@ -186,7 +186,7 @@ header .routeDebut {
     width: 100%;
     height: 12vh;
     bottom: 0;
-    background: url(../img/fond_debut.svg);
+    background: url(../img/pattern/fond_debut.svg);
     background-size: 100%;
     background-repeat: repeat-y;
 }
@@ -382,6 +382,39 @@ header .routeDebut {
     border-radius: 500px;
 }
 
+#race #TimeInfo .slider .progress {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background: #2e3845;
+    height: 100%;
+    width: 0%;
+    border-radius: 500px;
+    transition: all .1s;
+}
+
+#race #TimeInfo .slider .point {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #2e3845;
+    height: 30px;
+    width: 30px !important;
+    border-radius: 500px;
+    border: 4px solid #242e3b;
+    z-index: 999;
+}
+
+#race #TimeInfo .slider .point .date {
+    position: absolute;
+    margin-top: -55px;
+    color: #f5f5f5;
+    font-style: italic;
+    width: 100vw;
+    text-align: center;
+}
+
 #race #TimeInfo .slider img {
     position: absolute;
 }
@@ -399,33 +432,6 @@ header .routeDebut {
     width: 20px;
     align-self: flex-end;
     justify-self: flex-end;
-}
-
-#race #TimeInfo .slider .progress {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    background: #2e3845;
-    height: 100%;
-    width: 50%;
-    border-radius: 500px;
-}
-
-#race #TimeInfo .slider .point {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #2e3845;
-    height: 30px;
-    width: 30px;
-    border-radius: 500px;
-    border: 4px solid #242e3b;
-}
-
-#race #TimeInfo .slider .point .date {
-    margin-top: -55px;
-    color: #f5f5f5;
-    font-style: italic;
 }
 
 footer {
