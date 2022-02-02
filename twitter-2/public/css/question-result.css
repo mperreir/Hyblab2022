@@ -132,6 +132,12 @@ body {
     bottom: 0;
     color: #1A367A;
     font-family: 'blatantregular';
+    font-size: 15px;
+    padding: 0 10%;
+}
+
+#legende > span {
+    color: #F24A41;
 }
 
 .button {

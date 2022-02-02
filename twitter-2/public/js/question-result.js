@@ -93,11 +93,31 @@ window.onload = () => {
       window.location.href = "./index.html";
    });
 
-   // swipedetect( document.getElementById('swipe-down-zone'), function (swipedir) {
-   //    if (swipedir == 'up') {
-   //       window.location.href = "./index.html";
-   //    }
-   // })
+   let candidateName = sessionStorage.getItem("mainCandidate");
+   
+    let str_theme = "";
+    switch (theme) {
+        case 'education':
+            str_theme = "de l'éducation";
+            break;
+        case 'sante':
+            str_theme = "de la santé";
+            break;
+        case 'environnement':
+            str_theme = "de l'environnement";
+            break;
+        case 'economie':
+            str_theme = "d'économie";
+            break;
+        default:
+            break;
+    }
+
+    if (theme == "followers") {
+        document.getElementById("legende").innerHTML = "Followers commun en %";
+    } else {
+        document.getElementById("legende").innerHTML = `Les candidats qui parlent autant <span>${str_theme}</span> que <span>${candidateName}</span>`;
+    }
 
    const usernameMainCandidate = sessionStorage.getItem("usernameMainCandidate");
 
@@ -179,50 +199,3 @@ window.onload = () => {
       });
 
 }
-
-// function swipedetect(el, callback) {
-
-//    var touchsurface = el,
-//       swipedir,
-//       startX,
-//       startY,
-//       distX,
-//       distY,
-//       threshold = 150, //required min distance traveled to be considered swipe
-//       restraint = 100, // maximum distance allowed at the same time in perpendicular direction
-//       allowedTime = 300, // maximum time allowed to travel that distance
-//       elapsedTime,
-//       startTime,
-//       handleswipe = callback || function (swipedir) { }
-
-//    touchsurface.addEventListener('touchstart', function (e) {
-//       var touchobj = e.changedTouches[0]
-//       swipedir = 'none'
-//       let dist = 0
-//       startX = touchobj.pageX
-//       startY = touchobj.pageY
-//       startTime = new Date().getTime() // record time when finger first makes contact with surface
-//       e.preventDefault()
-//    }, false)
-
-//    touchsurface.addEventListener('touchmove', function (e) {
-//       e.preventDefault() // prevent scrolling when inside DIV
-//    }, false)
-
-//    touchsurface.addEventListener('touchend', function (e) {
-//       var touchobj = e.changedTouches[0]
-//       distX = touchobj.pageX - startX // get horizontal dist traveled by finger while in contact with surface
-//       distY = touchobj.pageY - startY // get vertical dist traveled by finger while in contact with surface
-//       elapsedTime = new Date().getTime() - startTime // get time elapsed
-//       if (elapsedTime <= allowedTime) { // first condition for awipe met
-//          if (Math.abs(distX) >= threshold && Math.abs(distY) <= restraint) { // 2nd condition for horizontal swipe met
-//             swipedir = (distX < 0) ? 'left' : 'right' // if dist traveled is negative, it indicates left swipe
-//          }
-//          else if (Math.abs(distY) >= threshold && Math.abs(distX) <= restraint) { // 2nd condition for vertical swipe met
-//             swipedir = (distY < 0) ? 'up' : 'down' // if dist traveled is negative, it indicates up swipe
-//          }
-//       }
-//       handleswipe(swipedir)
-//       e.preventDefault()
-//    }, false)
-// }
