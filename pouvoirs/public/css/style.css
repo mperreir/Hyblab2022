@@ -398,6 +398,22 @@ b {
 
 /* p4 */
 
+#p4-interest-point {
+  display: none;
+  position: absolute;
+  top: 70%;
+  right: 36%;
+  z-index: 10;
+  width: 30%;
+  height: auto;
+  -webkit-animation: blink 2s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation: blink 2s;
+  -moz-animation-iteration-count: infinite;
+  -o-animation: blink 2s;
+  -o-animation-iteration-count: infinite;
+}
+
 #p4-bulle-pm {
   position: absolute;
   width: 85%;
@@ -619,7 +635,7 @@ b {
   font-size: 16%;
   width: auto;
   color: white;
-  text-align: justify;
+  text-align: left;
   position: absolute;
   top: 0%;
   left: 0%;
