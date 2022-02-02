@@ -74,6 +74,7 @@ body {
     font-size: 2.8vh;
     position: relative;
     height: 40vh;
+    padding-bottom: 5%;
 }
 
 #answer img {
@@ -105,10 +106,6 @@ body {
 
 #mainCandidate {
     display: inline;
-}
-
-#theme{
-    padding-bottom: 5%;
 }
 
 #buttons {
