@@ -35,7 +35,7 @@ async function Suivant(temps,score,total) {
     let timerElement = document.getElementById("timer")
     let interval = setInterval(() => {
         let minute = Math.floor(temps / 60);
-        let secondes = temps % 60;
+        let secondes = Math.floor(temps % 60);
 
         secondes = secondes < 10 ? "0" + secondes : secondes
 
@@ -155,6 +155,7 @@ function Reponse(button, is_success, temps, interval, score, total){
     jeu.removeChild(reponse);
     
     clearInterval(interval);
+    temps = temps-0.5;
     Suivant(temps, score,total);
 
 }
@@ -315,7 +316,7 @@ function clear(){
     timer.setAttribute("id", 'timer');
     jeu.appendChild(timer);
 
-    (() => Suivant(60,0,0))();
+    (() => Suivant(45,0,0))();
 
 }
 
