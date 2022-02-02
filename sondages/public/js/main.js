@@ -1,3 +1,5 @@
+let NOMS_CANDIDATS_SELECTIONES = []
+
 function InitDesIntentions(intentionsCandidats, objCandidats) {
     const divRace = document.getElementById('race')
 
@@ -49,7 +51,14 @@ function InitDesIntentions(intentionsCandidats, objCandidats) {
 
     return candidats
 }
-let NOMS_CANDIDATS_SELECTIONES = []
+
+
+
+function resetCoursesSelection() {
+    document.getElementById("BtnCourse30").className = ""
+    document.getElementById("BtnCourse15").className = ""
+    document.getElementById("BtnCourse5").className = ""
+}
 
 function AjoutDesCandidatsPourSelection(candidats) {
 
@@ -78,11 +87,13 @@ function AjoutDesCandidatsPourSelection(candidats) {
         block.addEventListener("click", evt => {
             const bool = JSON.parse(evt.currentTarget.dataset.selected || "false")
             evt.currentTarget.setAttribute("data-selected", !bool)
+
+            resetCoursesSelection()
+
             if (!bool) {
-                console.log(evt.currentTarget)
                 NOMS_CANDIDATS_SELECTIONES.push(evt.currentTarget.querySelector('img').id)
             } else {
-                NOMS_CANDIDATS_SELECTIONES.filter(c => c !== evt.currentTarget.querySelector('img').id)
+                NOMS_CANDIDATS_SELECTIONES = NOMS_CANDIDATS_SELECTIONES.filter(c => c !== evt.currentTarget.querySelector('img').id)
             }
 
         })
@@ -152,7 +163,6 @@ function start() {
     let POURCENT_BORNE_MIN = 15;
     let POURCENT_BORNE_MAX = 30;
 
-
     BtnCourse30.addEventListener("click", evt => {
         if (evt.target.className !== "selected") {
             BtnCourse15.className = ""
@@ -197,6 +207,7 @@ function start() {
 
         console.info("Candidats chargés !")
         AjoutDesCandidatsPourSelection(candidats)
+
         getSondages().then(sondages => {
 
             console.info("Données de sondage chargés !")
@@ -266,37 +277,34 @@ function start() {
 
                     let keys_selected_candidats;
                     if (SELECTION_COURSE()) {
-                        console.log("COURSE SELECTIONNEE")
                         keys_selected_candidats = CANDIDATS_KEYS;
                     } else {
-                        console.log("CANDIDATS SELECTIONES")
-                            // affichage seulement des candidats sélectionnés 
+                        // affichage seulement des candidats sélectionnés 
                         keys_selected_candidats = NOMS_CANDIDATS_SELECTIONES
                     }
 
-                    keys_selected_candidats
-                        .map(nom_candidat => {
-                            const index = CANDIDATS[nom_candidat].x.indexOf(currDate);
-                            let pourcent = 0
+                    keys_selected_candidats.map(nom_candidat => {
+                        const index = CANDIDATS[nom_candidat].x.indexOf(currDate);
+                        let pourcent = 0
 
-                            if (index >= 0) {
-                                pourcent = parseFloat(CANDIDATS[nom_candidat].y[index])
+                        if (index >= 0) {
+                            pourcent = parseFloat(CANDIDATS[nom_candidat].y[index])
+                        }
+
+                        let pourcent_min = Math.floor(pourcent)
+                        let pourcent_max = Math.ceil(pourcent)
+
+                        // on prend en compte seulement les candidats dans les bornes
+                        if ((!SELECTION_COURSE()) || (SELECTION_COURSE() && Math.floor(pourcent) > POURCENT_BORNE_MIN && pourcent <= POURCENT_BORNE_MAX)) {
+                            if (pourcent_max > max_pourcent) {
+                                max_pourcent = pourcent_max;
                             }
-
-                            let pourcent_min = Math.floor(pourcent);
-                            let pourcent_max = Math.ceil(pourcent);
-
-                            // on prend en compte seulement les candidats dans les bornes
-                            if ((!SELECTION_COURSE()) || (SELECTION_COURSE() && Math.floor(pourcent) > POURCENT_BORNE_MIN && pourcent <= POURCENT_BORNE_MAX)) {
-                                if (pourcent_max > max_pourcent) {
-                                    max_pourcent = pourcent_max;
-                                }
-                                if (pourcent_min < min_pourcent) {
-                                    min_pourcent = pourcent_min;
-                                }
+                            if (pourcent_min < min_pourcent) {
+                                min_pourcent = pourcent_min;
                             }
+                        }
 
-                        });
+                    })
 
                     min_pourcent = min_pourcent === 100 ? 0 : min_pourcent;
                     max_pourcent = max_pourcent === 0 ? 100 : max_pourcent;
