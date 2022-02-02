@@ -106,8 +106,8 @@ const createDialogBox = function(id, bubbleBackground, startingPos, textKey) {
 
 };
 const showDialogBoxes = function() {
-/*     const phoneCallSound = createAudio("data/sounds/prisonGridDown.mp3",false,0.7,0.7);
-    phoneCallSound.play(); */
+    const phoneCallSound = createAudio("data/sounds/prisonGridDown.mp3",false,0.7,0.7);
+    phoneCallSound.play();
     let shifts = {
         bubble1: -100,
         bubble2: 100

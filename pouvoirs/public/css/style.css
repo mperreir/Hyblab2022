@@ -714,6 +714,25 @@ body {
   margin: 2.5%;
 }
 
+#credit div {
+  position: absolute;
+  bottom: 5%;
+  height: 30%;
+  display: grid;
+  grid-template-columns: 20% 20% 20%;
+  grid-template-rows: 30% 30% 30%;
+  column-gap: 10%;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#credit div a {
+  width: 90%;
+  display: flex;
+}
+
 /* ---------- Important media queries for easy responsive content :-) ----------------- */
 /* Can be adapted for other ratios that 9:16 or for horizontal content (ex: 16:9) */
 

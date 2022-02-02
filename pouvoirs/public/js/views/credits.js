@@ -1,5 +1,13 @@
 "use strict";
 
 const init_credits = function(){
-  console.log("credits page");
+//   anime({
+//     targets: '#credit div a',
+//     scale: function() {
+//       return anime.random(0.9, 1.01);
+//     },
+//     loop : true,
+//     direction: 'alternate',
+//     easing: 'linear',
+//   });
 };
