@@ -243,7 +243,7 @@ function start() {
                         let pourcent = 0
 
                         if (index >= 0) {
-                            pourcent = parseInt(CANDIDATS[nom_candidat].y[index])
+                            pourcent = Math.ceil(parseFloat(CANDIDATS[nom_candidat].y[index]))
                         }
 
                         // on prend en compte seulement les candidats dans les bornes
