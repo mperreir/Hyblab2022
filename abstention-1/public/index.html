@@ -8,22 +8,18 @@
     <link rel="stylesheet" href="css/styleMain.css">
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js" defer></script>
     <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js" defer></script>
-   <!-- <script src="js/utils.js" defer></script>-->
     <script src="js/MVC/cssProperties/CSSProperty.js" defer></script>
     <script src="js/MVC/cssProperties/AnimationFrame.js" defer></script>
     <script src="js/MVC/cssProperties/BackgroundImage.js" defer></script>
     <script src="js/MVC/cssProperties/Opacity.js" defer></script>
     <script src="js/MVC/cssProperties/Transform.js" defer></script>
-    <script src="js/AnimationTransition.js" defer></script>
     <script src="js/animations.js" defer></script>
     <script src="js/pfs.js" defer></script>
     <script src="js/morpion.js" defer></script>
     <!-- <script src="js/main.js" defer></script> -->
+
     
     <script defer src="js/MVC/utils.js"></script>
-    <script defer src="js/newMVC/TransitionObserver.js"></script>
-    <script defer src="js/newMVC/FullAnimationControler.js"></script>
-    <script defer src="js/newMVC/FullAnimationModel.js"></script>
     <script defer src="js/MVC/AnimationControler.js"></script>
     <script defer src="js/MVC/AnimationModel.js"></script>
     <script defer src="js/MVC/AnimationObserver.js"></script>
@@ -46,8 +42,8 @@
             <div id='cercle5' class="circle"><p>5</p></div>
           <img id='carnet' src='img/CARNET PICTO.svg'>
         </header>
-          <img src="img/Charlie.svg" id="personnage1"></img>
-          <img src="img/Charlie.svg" id="personnage2"></img>
+          <div id="personnage1"></div>
+          <div id="personnage2"></div>
           <div id="textZone">
             <div id='cercle' class="circle"><p>1</p></div>
             <div class='boxnom'><p id="description" class="nom">Arthur 17ans</p></div>
@@ -71,80 +67,91 @@
           <div class="resultat"></div>
           
           <div class= "morpion">
-<div id="end-display" class="row">
-  <div class="col text-center">
-    <div class="endgame">
-      <div class="text"></div>
-    </div>
-  </div>
-</div>
-<div id="char-selection" class="container selections pt-3 pb-4 border border-primary bg-dark">
-  <h1 id="game-header" class="text-center text-light border-bottom">Tic Tac Toe</h1>
-  <div class="row justify-content-center">
-    <div class="col-12 text-white text-center py-3">
-      <h3>Select Character</h3>
-    </div>
-  </div>
-  <div class="row justify-content-center">
-    <div class="col-sm-4 text-center py-2">
-      <button id="x-char" class="btn btn-primary char-btn" onClick="charSelect('X')">X</button>
-    </div>
-    <div class="col-sm-4 text-center py-2">
-      <button id="o-char" class="btn btn-primary char-btn" onClick="charSelect('O')">O</button>
-    </div>
-  </div>
-</div>
-<div id="game-board" class="container">
-  <div class="row justify-content-center pb-2 mt-3">
-  <div class="col- btn-group">
-    <button id="x-turn" class="btn btn-success no-clicky mx-2 px-3 rounded">X</button>
-    <button id="o-turn" class="btn btn-secondary no-clicky mx-2 px-3 rounded">O</button>
-  </div>
-  </div>
-  <div class="row justify-content-center">
-    <div class="col-">
-      <table>
-        <tr>
-          <td class="cell" id="0"></td>
-          <td class="cell" id="1"></td>
-          <td class="cell" id="2"></td>
-        </tr>
-        <tr>
-          <td class="cell" id="3"></td>
-          <td class="cell" id="4"></td>
-          <td class="cell" id="5"></td>
-        </tr>
-        <tr>
-          <td class="cell" id="6"></td>
-          <td class="cell" id="7"></td>
-          <td class="cell" id="8"></td>
-        </tr>
-      </table>
-    </div>
-  </div>
-</div>
+            <div id="end-display" class="row">
+              <div class="col text-center">
+                <div class="endgame">
+                  <div class="text"></div>
+                  <small id="countdown"></small>
+                </div>
+              </div>
+            </div>
+          <div id="char-selection" class="container selections pt-3 pb-4 border border-primary bg-dark">
+            <h1 id="game-header" class="text-center text-light border-bottom">Tic Tac Toe</h1>
+            <div class="row justify-content-center">
+              <div class="col-12 text-white text-center py-3">
+                <h3>Select Character</h3>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-sm-4 text-center py-2">
+                <button id="x-char" class="btn btn-primary char-btn" onClick="charSelect('X')">X</button>
+              </div>
+              <div class="col-sm-4 text-center py-2">
+                <button id="o-char" class="btn btn-primary char-btn" onClick="charSelect('O')">O</button>
+              </div>
+            </div>
           </div>
+          <div id="game-board" class="container">
+            <div class="row justify-content-center pb-2 mt-3">
+            <div class="col- btn-group">
+              <button id="x-turn" class="btn btn-success no-clicky mx-2 px-3 rounded">X</button>
+              <button id="o-turn" class="btn btn-secondary no-clicky mx-2 px-3 rounded">O</button>
+            </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-">
+                <table>
+                  <tr>
+                    <td class="cell" id="0"></td>
+                    <td class="cell" id="1"></td>
+                    <td class="cell" id="2"></td>
+                  </tr>
+                  <tr>
+                    <td class="cell" id="3"></td>
+                    <td class="cell" id="4"></td>
+                    <td class="cell" id="5"></td>
+                  </tr>
+                  <tr>
+                    <td class="cell" id="6"></td>
+                    <td class="cell" id="7"></td>
+                    <td class="cell" id="8"></td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
-      <section id="Transition">
+      <section id="LottieAnimation">
         <lottie-player class="player ecole-vers-skatepark" src="animations/animation01.json" style="opacity:1"></lottie-player>
         <lottie-player class="player skatepark-vers-camion" src="animations/animation02.json" ></lottie-player>
-        <lottie-player class="player camion-vers-mairie" src="animations/animation03.json" ></lottie-player>
-        <lottie-player class="player mairie-vers-theatre" src="animations/animation04.json" ></lottie-player>
-        <lottie-player class="player theatre-vers-ecole" src="animations/animation05.json" ></lottie-player>
+        <lottie-player class="player camion-vers-theatre" src="animations/animation03.json" ></lottie-player>
+        <lottie-player class="player theatre-vers-mairie" src="animations/animation04.json" ></lottie-player>
+        <lottie-player class="player mairie-vers-ecole" src="animations/animation05.json" ></lottie-player>
 
       </section>
-      <div id="test">
-        <section class="transition ecole-vers-skatepark" style="height:100vh;"></section>
-        <section class="container ecole-vers-skatepark" style="height:200vh;"></section>
-        <section class="transition ecole-vers-skatepark" style="height:100vh;"></section>
-        <section class="container skatepark-vers-camion" style="height:200vh;"></section>
-        <section class="transition skatepark-vers-camion" style="height:100vh;"></section>
-        <section class="container camion-vers-mairie" style="height:200vh;"></section>
-        <section class="transition camion-vers-mairie" style="height:100vh;"></section>
-        <section class="container mairie-vers-theatre" style="height:200vh;"></section>
-        <section class="transition mairie-vers-theatre" style="height:100vh;"></section>
-        <section class="container theatre-vers-ecole" style="height:200vh;"></section>
-        <section class="transition theatre-vers-ecole" style="height:100vh;"></section>
+      <div id="SequencesAnimation">
+        <section class="transition" style="height:100vh;"></section>
+        <section class="container lottie ecole-vers-skatepark" style="height:200vh;"></section>
+        <section class="transition"></section>
+        <section class="container dialogue skatepark" style="height:200vh;"></section>
+        <section class="transition"></section>
+        <section class="container lottie skatepark-vers-camion" style="height:200vh;"></section>
+        <section class="transition"></section>
+        <section class="container dialogue camion" style="height:200vh;"></section>
+        <section class="transition"></section>
+        <section class="container lottie camion-vers-theatre" style="height:200vh;"></section>
+        <section class="transition"></section>
+        <section class="container dialogue theatre" style="height:200vh;"></section>
+        <section class="transition"></section>
+        <section class="container lottie theatre-vers-mairie" style="height:200vh;"></section>
+        <section class="transition"></section>
+        <section class="container dialogue mairie" style="height:200vh;"></section>
+        <section class="transition"></section>
+        <section class="container lottie mairie-vers-ecole" style="height:200vh;"></section>
+        <section class="transition"></section>
+        <section class="container dialogue ecole" style="height:200vh;"></section>
+        <section class="transition"></section>
         <section class="container conclusion" style="height:200vh;"></section>
     </div>
    

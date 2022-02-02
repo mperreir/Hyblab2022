@@ -122,9 +122,9 @@ body{
     opacity: 1;
 
    /* background-color: chartreuse;*/
-    /* background-image: url("../img/Charlie.svg");
+    /* background-image: url("../img/Charlie.svg");*/ 
     background-repeat: no-repeat;   
-    background-size: contain; */
+    background-size: contain;
 
     position:absolute;
     width: 50%;
@@ -140,10 +140,10 @@ body{
 
     position:absolute;
    /* background-color: pink;*/
-    /* background-image: url("../img/Jeune.svg");
+    /* background-image: url("../img/Jeune.svg");*/
     background-position: 100% 0%;
     background-repeat: no-repeat;   
-    background-size: contain; */
+    background-size: contain;
 
     width: 50%;
     height: 45vh; 
@@ -241,7 +241,7 @@ vertical-align: center;
 }
 
 /*--------------Section transition--------------*/
-#Transition{
+#LottieAnimation{
     position:fixed;
     opacity: 1;
     background-color: white;
@@ -268,6 +268,18 @@ lottie-player{
 .player {
     opacity: 0;
 }
+
+.transition {
+    height: 100vh;
+}
+
+.stop-scroll{
+    height: 100vh;
+    overflow: hidden;
+}
+
+/*--------------Section Pierre Feuille Ciseaux--------------*/
+
 .box {
     display : flex;
     align-items : center;
@@ -296,23 +308,6 @@ lottie-player{
     font-weight: bold;
     padding : 10px;
     color:rgb(26, 27, 27);
-  }
-  @media (max-width:460px) {
-    #char-selection {
-      width:75%;
-    }
-  }
-  
-  @media (min-width:461px) {
-    #char-selection {
-      width:50%;
-    }
-  }
-  
-  @media (min-width:768px) {
-    #char-selection {
-      width:40%;
-    }
   }
   
   .no-clicky {

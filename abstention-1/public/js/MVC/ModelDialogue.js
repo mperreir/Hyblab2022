@@ -9,6 +9,7 @@ class ModelDialogue extends Observable {
         this.dialogue=this.scene[0].texte;
         this.counter=-1;
         this.initialisation=true;
+        this.animationModel = undefined;
 
     }
 
@@ -25,9 +26,13 @@ class ModelDialogue extends Observable {
             super.notifyObservers();
         }
         else {
-            enableScroll();
+            this.animationModel.finishDialogue();
         }
 
+    }
+
+    linkAnimationModel(model){
+        this.animationModel = model;
     }
     
     getPerso1(){
