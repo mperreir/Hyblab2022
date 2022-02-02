@@ -10,17 +10,6 @@ page('/communes-2/affirmation', async function () {
     let indiceP = document.getElementById('indiceText');
     if (gameData['numeroEssai'] == 2) {
         indiceP.innerHTML="";
-        /*
-        let response3 = await fetch('api/indice')
-        .then( response => {
-            return response.json();
-        })
-        .then(indice => {
-            indiceP.innerHTML = indice;
-        })*/
-
-               
-
         let response3 = await fetch('api/indice/' + gameData['communeCourante']['libelleCommune']);
         let indice = await response3.json();
         indiceP.innerHTML = indice['string'];
@@ -487,9 +476,7 @@ page('/communes-2/affirmation', async function () {
     map.addLayer(iconsGroup1);
 
     /* ------------------------------------------------------------ */
-
     // On affiche la map google maps derrière.
-
     var tiles = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
         maxZoom: 18,
         /*attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
@@ -565,78 +552,20 @@ page('/communes-2/affirmation', async function () {
         roundEnding(selectedValue, gameData['communeCourante']['libelleCommune']);
     });
 
-    
-    function popup(e){
-        let layer = e.target
-        let selectedValue = e.target.feature.properties.nom;
-        let infobox = document.getElementById("panel-confirm");
-        infobox.style.visibility = "visible";
-
-        let p = document.getElementById("counrty-name");
-        p.innerHTML = selectedValue;
-
-        // Choix reponse 
-        /*
-        let rejectWrong = document.getElementById("reject-btn");
-        let rejectRight = rejectWrong.cloneNode(true);
-        rejectWrong.parentNode.replaceChild(rejectRight, rejectWrong);
-        rejectRight.addEventListener("click", (event)=>{
-            console.log('reject event listener');
-            let infobox = document.getElementById("panel-confirm");
-            infobox.style.visibility = "hidden";
-        })
-
-        let acceptWrong = document.getElementById("confirm-btn");
-        let acceptRight = acceptWrong.cloneNode(true);
-        acceptWrong.parentNode.replaceChild(acceptRight, acceptWrong);
-        acceptRight.addEventListener("click", ()=>{
-            console.log('accept event listener');
-            let infobox = document.getElementById("panel-confirm");
-            infobox.style.visibility = "hidden";
-            // On passe au truc suivant.
-            roundEnding(selectedValue, gameData['communeCourante']['libelleCommune']);
-        })
-        */
-    }
-    
-
-    function popupClicked(e) {
-        let layer = e.target
-        let selectedValue = e.target.feature.properties.nom;
-
-        if(layer.hasOwnProperty('_popup')) {
-            layer.unbindPopup();
-        }
-
-        // TODO : styliser le popup
-        layer.bindPopup(
-            '<p>' + selectedValue + '</p>' +
-            '<input type="button" value = "Oui" id="validateBtn" class="popupBtn" />' +
-            '<input type="button" value = "Non" id="closeBtn" class="popupBtn" />'
-        ).openPopup();
-
-
-        let validateBtn = L.DomUtil.get('validateBtn');
-        let closeBtn = L.DomUtil.get('closeBtn');
-
-        L.DomEvent.addListener(validateBtn, 'click', function(e) {
-            // On passe au truc suivant.
-            roundEnding(selectedValue, gameData['communeCourante']['libelleCommune']);
-
-        });
-
-        L.DomEvent.addListener(closeBtn, 'click', function(e) {
-            // On ferme juste la Popup.
-            layer.closePopup();
-        });
-    }
-
     // Affichage c'est partie
     if(gameData['numeroEssai'] == 1){
         showmesg("C\'est parti !", "#282246");
     }
-
 });
+
+function popup(e){
+    let selectedValue = e.target.feature.properties.nom;
+    let infobox = document.getElementById("panel-confirm");
+    infobox.style.visibility = "visible";
+
+    let p = document.getElementById("counrty-name");
+    p.innerHTML = selectedValue;
+}
 
 function roundEnding(selectedValue, rightValue) {
     let scoreRound = 0;
@@ -714,7 +643,6 @@ function roundEnding(selectedValue, rightValue) {
  * @param {String} rightValue 
  */
 async function calculateScore(selectedValue, rightValue) {
-
     const scoreReussite = 2500;
     const maxScoreEchec = 2000;
 
@@ -724,7 +652,7 @@ async function calculateScore(selectedValue, rightValue) {
      * Pour les coordonnées, on utilisera la première valeur du tableau coordinates du geojson.json
      * En valeur de référence, on prendra la plus grande distance possible (à déterminer).
      * On fait le ratio entre la distance entre les selectedValue et rightValue sur la plus grande distance, que l'on multiplie par le scoreMax.
-     *  */ 
+     **/ 
 
     const distanceMax = 179378; // Cela correspond à la distance en mètres la plus longue en Loire-Atlantique, entre les bords éloignés de Piriac-sur-Mer et Montrelais
     let scoreRetour = await fetch('api/distance/' + selectedValue + '/' + rightValue)
@@ -740,14 +668,13 @@ async function calculateScore(selectedValue, rightValue) {
 
 function sliderplus(n) {
     showAffirmation(slideIndex += n);
-  }
+}
 
-  function slidercurrent(n) {
+function slidercurrent(n) {
     showAffirmation(slideIndex = n);
-  }
+}
 
-  function showAffirmation(n) {
-    slide();
+function showAffirmation(n) {
     var i;
     var slides = document.getElementsByClassName("affirmation-content");
     var dots = document.getElementsByClassName("dot");
