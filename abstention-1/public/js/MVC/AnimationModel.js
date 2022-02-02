@@ -19,9 +19,10 @@ class AnimationModel extends Observable {
 
         this.scroll = undefined;
         this.currentActions = undefined;
-        this.dialogueStartScrollValue = 0.4;
+        this.startScrollValueRelative = 0.5;
         this.dialogueDone = false;
         this.dialogueStarted = false;
+        this.startScrollValueAbsolute = undefined;
 
         this.dialogueControler = dialogueControler;
         this.modelChanged = false;
@@ -30,7 +31,6 @@ class AnimationModel extends Observable {
     
     updateScroll(){
         this.scroll = this.getContainerVisibility();
-
         // On s'assure que le dialogue commence a apparaitre avant de pouvoir intéragir avec
         if(!this.modelChanged && this.scroll > 0.1) {
             this.dialogueControler.loadNextModel();
@@ -75,19 +75,20 @@ class AnimationModel extends Observable {
     }
 
     canStartDialogue(){
-        return !this.dialogueStarted && !this.dialogueDone && this.scroll > this.dialogueStartScrollValue;
+        return !this.dialogueStarted && !this.dialogueDone && this.scroll > this.startScrollValueRelative;
     }
 
     startDialogue(){
-        document.getElementById("SequencesAnimation").classList.add("stop-scroll");
         this.dialogueStarted = true;
+        this.startScrollValueAbsolute = window.scrollY;
+        console.log(window.scrollY);
+        document.getElementById("SequencesAnimation").classList.add("stop-scroll");
     }
 
     finishDialogue(){
         document.getElementById("SequencesAnimation").classList.remove("stop-scroll");
         this.dialogueDone = true;
-        console.log(this.container.getBoundingClientRect().top);
-        window.scrollTo(0, this.container.getBoundingClientRect().top);
+        window.scrollTo(0, this.startScrollValueAbsolute);
     }
 
 }

@@ -17,37 +17,40 @@ function mod(a,b) {
 function getDialogueTransition(etape){
     return [
         {
-            visibility: [0.1, 0.2],
+            visibility: [0.1, 0.25],
             keyframes: ANIMATIONS.animations.fade.in,
             player: "#Dialogue",
         },
         {
-            visibility: [0.1, 0.3],
+            visibility: [0.1, 0.5],
             keyframes: ANIMATIONS.animations[etape].perso1.in,
             player: "#personnage1",
         },
         {
-            visibility: [0.1, 0.3],
+            visibility: [0.1, 0.5],
             keyframes: ANIMATIONS.animations[etape].perso2.in,
             player: "#personnage2",
         },
         {
-            visibility: [0.7, 0.9],
+            visibility: [0.5, 0.9],
             keyframes: ANIMATIONS.animations[etape].perso1.out,
             player: "#personnage1",
         },
         {
-            visibility: [0.7, 0.9],
+            visibility: [0.5, 0.9],
             keyframes: ANIMATIONS.animations[etape].perso2.out,
             player: "#personnage2",
         },
         {
-            visibility: [0.8, 0.9],
+            visibility: [0.75, 0.9],
             keyframes: ANIMATIONS.animations.fade.out,
             player: "#Dialogue",
         }
     ]
 }
+
+
+
 
 
 function getAnimations() {
@@ -92,36 +95,7 @@ function getAnimations() {
                     keyframes: ANIMATIONS.animations.fade.out,
                     player: `.player.${prevEtape}-vers-${etape}`,
                 },
-                {
-                    visibility: [0.1, 0.2],
-                    keyframes: ANIMATIONS.animations.fade.in,
-                    player: "#Dialogue",
-                },
-                {
-                    visibility: [0.1, 0.3],
-                    keyframes: ANIMATIONS.animations[etape].perso1.in,
-                    player: "#personnage1",
-                },
-                {
-                    visibility: [0.1, 0.3],
-                    keyframes: ANIMATIONS.animations[etape].perso2.in,
-                    player: "#personnage2",
-                },
-                {
-                    visibility: [0.7, 0.9],
-                    keyframes: ANIMATIONS.animations[etape].perso1.out,
-                    player: "#personnage1",
-                },
-                {
-                    visibility: [0.7, 0.9],
-                    keyframes: ANIMATIONS.animations[etape].perso2.out,
-                    player: "#personnage2",
-                },
-                {
-                    visibility: [0.8, 0.9],
-                    keyframes: ANIMATIONS.animations.fade.out,
-                    player: "#Dialogue",
-                },
+                    ...getDialogueTransition(etape),
                 {
                     visibility: [0.9, 1],
                     keyframes: ANIMATIONS.animations.fade.in,
@@ -208,4 +182,3 @@ LottieInteractivity.create({
         },
     ]
 });
-
