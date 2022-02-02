@@ -98,13 +98,13 @@ window.onload = () => {
    let str_theme = "";
    switch (theme) {
       case 'education':
-         str_theme = "de l'éducation";
+         str_theme = "d'éducation";
          break;
       case 'sante':
-         str_theme = "de la santé";
+         str_theme = "de santé";
          break;
       case 'environnement':
-         str_theme = "de l'environnement";
+         str_theme = "d'environnement";
          break;
       case 'economie':
          str_theme = "d'économie";
