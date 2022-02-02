@@ -11,7 +11,6 @@ class Step2Game extends React.Component {
             stepsCandidates['2'].map((e) => {
                 selectedCharacters[e.id] = false
             });
-            console.log(selectedCharacters);
 
             const tempId = stepsCandidates['2'].find(c => !c.stepTwoGame.valid).id;
             stepsCandidates['2'].find(c => c.id === tempId).stepTwoGame.valid = false;

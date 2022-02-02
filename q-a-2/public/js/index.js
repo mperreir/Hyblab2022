@@ -10,7 +10,7 @@ candidates.forEach(candidate => {
   stepsCandidates[step].push(candidate);
 })*/
 stepsCandidates["1"] = [...candidates];
-stepsCandidates["5"] = candidates.slice(0, 5);
+//stepsCandidates["5"] = candidates.slice(0, 5);
 //stepsCandidates["6"] = candidates.slice(0, 5);
 //stepsCandidates["7"] = [];
 //stepsCandidates['8'].push(candidates[0]);
