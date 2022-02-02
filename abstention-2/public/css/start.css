@@ -42,6 +42,7 @@
     width: calc(100% - 1px);
     height: 20%;
     margin-top: 30%;
+    visibility: hidden;
 }
 
 .start-content-sms-title {
