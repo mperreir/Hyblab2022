@@ -16,6 +16,45 @@ body{
     font-variant: small-caps;
 }
 
+#first-slide{
+    color:#AC4B4B;
+}
+
+#second-slide{
+    background-color: #FAF3EE;
+}
+
+header div{
+    text-align: center;
+}
+
+#div_logo{
+    margin-top: 5%;
+}
+
+#logo2{
+    position:relative;
+    text-align: center;
+    max-width: 35%;
+    width: 35%;
+}
+
+#second-slide h1{
+    position: relative;
+    margin-top:-3.2%;
+    font-size: 38.5%;
+    text-align: center;
+}
+
+#subtitle2{
+    position: relative;
+    width:75%;
+}
+
+#div_subtitle{
+    margin-top: -15%;
+}
+
 #container{
     position: relative; /* for absolute positionning of child elements*/
 }
@@ -65,10 +104,6 @@ button{
     position: absolute;
 }
 
-/* white navigation bullets */
-.swiper-pagination-bullet-active {
-    background-color: white !important;
-}
 
 /* the slides and the loader should fill the whole 9:16 zone */
 .swiper-wrapper section, #loader{
@@ -77,8 +112,6 @@ button{
     height: 100%;
 }
 
-/* Pour que la vidéo remplisse son conteneur (elle sera un peu coupée si nécessaire...) */
-.vjs-tech { object-fit: cover; }
 
 /* Most of the elements in this demo are absolute positionned with percentages */
 #first-slide header{

@@ -14,6 +14,7 @@ body{
         color: #656565;
 }
 
+
 #intro-text{
         text-align: center;
         padding: 10% 15% 10% 15%;
@@ -43,9 +44,6 @@ body{
     width: 32%;
 }
 
-#subtitle2{
-        width:75%;
-}
 
 #first-section{
     background-color: #FAF3EE;
@@ -303,18 +301,18 @@ width: 15.65%;
 }
 
 
-.div_bureau{
+#second-slide .div_bureau{
         position: relative;
         margin-top:4%;
         -webkit-animation: slide-in-bottom 1.1s 1s both;
 	        animation: slide-in-bottom 1.1s 1s both;
 }
 
-.div_bureau p{
+#second-slide .div_bureau p{
         text-align: center;
 }
 
-footer{
+#second-slide footer{
         font-family: 'mariannemedium';
         font-style: italic;
         font-size:18%;

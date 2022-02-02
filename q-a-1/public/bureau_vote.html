@@ -5,85 +5,90 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
   <title>Hyblab 2022</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/styleslide.css">
   <link rel="stylesheet" href="css/red_page.css">
+  <link rel="stylesheet" href="css/simulation.css"/>
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/loadingio/loading.css@v2.0.0/dist/loading.css" />
   <link href="https://vjs.zencdn.net/7.6.6/video-js.css" rel="stylesheet" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
   <script src="https://vjs.zencdn.net/7.6.6/video.js"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/slide.js" defer></script>
   <script src="js/slide1.js" defer></script>
   <script src="js/slide2.js" defer></script>
-  <script src="js/index.js" defer></script>
+  <script src="js/localisation.js" defer></script>
 </head>
 <body>
     <!-- Le conteneur sert à vérouiller les proportions (aspect ratio) du contenu de la page (ici des slides) -->
     <div id="container">
       <!-- Le loader-->
-      <section id="loader">
-        <div id="loader-img" class="ld ld-ring ld-cycle"></div>
-        <p id="loader-text">Veuillez patienter...</p>
-      </section>
       <div id="mySwiper" class="swiper">
         <!-- le main est aussi le conteneur des différents slides (contenus à chaque fois dans des sections-->
-        <main class = "main-part">
-          <section id="first-section">
-            <header>
-              <div><input type="image" id="logo" src="img/logo/logo rouge.svg" onclick="window.location='sommaire.html'"></div>
-              <h1>BUREAU DE VOTE</h1>
-              <img id="subtitle" src="img/Bureau_vote/sous-titre_bureau_vote.svg">
-            </header>
+        <main class = "swiper-wrapper">
+            <section id="first-slide" class="swiper-slide">
+              <header>
+                <div><input type="image" id="logo" src="img/logo/logo rouge.svg" onclick="window.location='sommaire.html'"></div>
+                <h1>BUREAU DE VOTE</h1>
+                <img id="subtitle" src="img/Bureau_vote/sous-titre_bureau_vote.svg">
+              </header>
 
-            <p id="introduction">Les bureaux de vote sont généralement aménagés dans <b>les mairies</b> ou <b>les établissements scolaires.</b></p>
-            <img id="img_mairie" src="img/assets_mairie.svg">
-            <p id="question_bureaux">À ton avis il y a combien de bureaux de vote en France ?</p>
-            <div id="buttons_question_bureaux">
-              <button>+ 40 000</button>
-              <button>+ 65 000</button>
-              <button>+ 80 000</button>
-            </div>
+              <p id="introduction">Les bureaux de vote sont généralement aménagés dans <b>les mairies</b> ou <b>les établissements scolaires.</b></p>
+              <img id="img_mairie" src="img/assets_mairie.svg">
+              <p id="question_bureaux">À ton avis il y a combien de bureaux de vote en France ?</p>
+              <div id="buttons_question_bureaux">
+                <button>+ 40 000</button>
+                <button>+ 65 000</button>
+                <button>+ 80 000</button>
+              </div>
+              
+              <p id="p_etoile">
+              <img src="img/etoile.svg">
+              Si tu ne connais pas l’adresse de ton bureau, tu peux le vérifier ici !
+              </p>
+              <img id="fleche_bureaux" src="img/fleche_courbe.svg">
+              <button id="bureaux_localisation">Mes bureaux de vote</button>
 
-            <p id=p_etoile>
-            <img src="img/etoile.svg">
-            Si tu ne connais pas l’adresse de ton bureau, tu peux le vérifier ici !
-            </p>
-            <img id="fleche_bureaux" src="img/fleche_courbe.svg">
-            <button id="bureaux_localisation">Mes bureaux de vote</button>
+              <img class="transition_phrase" id="anim-text" src="img/Bureau_vote/transition.svg">
 
-            <img class="transition_phrase" id="anim-text" src="img/Bureau_vote/transition.svg">
+                <footer>
+                  <div id="choix_vote">
+                    <button>Vote</button>
+                    <button>Vote blanc</button>
+                  </div>
+    
+    
+                  <div class="pagenumber">
+                    <a href="#" class="sansserif">1</a>
+                    <b>|</b>
+                    <a href="informer.html" class="sansserif" id="currentnum">2</a>
+                    <b>|</b>
+                    <a href="#" class="sansserif">3</a>
+                    <b>|</b>
+                    <a href="#" class="sansserif">4</a>
+                    <b>|</b>
+                    <a href="#" class="sansserif">5</a>
+                    <b>|</b>
+                    <a href="#" class="sansserif">6</a>
+                  </div>
+                </footer>
+            </section>
+            <section id="second-slide" class="swiper-slide">
+                <header>
+                  <div id="div_logo"><input type="image" id="logo2" src="img/logo/logo beige.svg" onclick="window.location='sommaire.html'"></div>
+                  <div><h1>OÙ VOTER ?</h1></div>
+                  <div id="div_subtitle"><img id="subtitle2" src="img/Bureau_vote/sous-titre_mes_bureaux.svg"></div>
+                </header>
 
-
-              <img src="img/Procuration/types.gif" class="gifbureau">
-      
-              <footer>
-                <div id="choix_vote">
-                  <button>Vote</button>
-                  <button>Vote blanc</button>
-                </div>
-  
-  
-                <div class="pagenumber">
-                  <a href="informer.html" class="sansserif" id="currentnum">1</a>
-                  <b>|</b>
-                  <a href="#" class="sansserif">2</a>
-                  <b>|</b>
-                  <a href="#" class="sansserif">3</a>
-                  <b>|</b>
-                  <a href="#" class="sansserif">4</a>
-                  <b>|</b>
-                  <a href="#" class="sansserif">5</a>
-                  <b>|</b>
-                  <a href="#" class="sansserif">6</a>
-                </div>
-              </footer>
-          </section>
-          
-      </main>
-      </div>
-      <div class="swiper-pagination"></div>
-  
-</div>
+                <p id='status'></p>
+                <div id="liste_bureaux"></div>
+               
+                <footer>ATTENTION !<br> Tu n’es pas forcément rattaché au bureau de vote le plus proche de chez toi</footer>
+            </section>
+        </main>
+        <div class="swiper-pagination"></div>
+    </div>
+  </div>
 
 </body>
 </html>
