@@ -31,12 +31,21 @@ function getRandomInt(max) {
     return Math.floor(Math.random() * max);
 }
 
-function GenereLaListeDesBackgrounds(nb_jours) {
-    let background = []
+function GenereLaListeDesBackgrounds(parent, nbr_jour, pixel_par_jour) {
+
+    // Récupération de la hauteur d'un pattern pour calculer l'hauteur de la page
+    const clientPatternHeight = document.getElementById('PATTERN_EXAMPLE').clientHeight;
+
+    const nbr_pattern = Math.floor(nbr_jour * pixel_par_jour / clientPatternHeight)
+
+    const background = []
+
     background.push('fond2');
+
     let backgroundBefore = 2;
-    for (let i = 0; i < nb_jours - 2; i++) {
-        if (i == nb_jours - 3) {
+
+    for (let i = 0; i < nbr_pattern - 2; i++) {
+        if (i == nbr_pattern - 3) {
             if (backgroundBefore === 3) {
                 background.push('fond9');
             } else if (backgroundBefore === 4 || backgroundBefore === 5) {
@@ -45,12 +54,51 @@ function GenereLaListeDesBackgrounds(nb_jours) {
                 background.push('fond6');
             }
         } else {
-            let index = getRandomInt(COMPATIBLE_BACKGROUNDS[backgroundBefore].length);
-            let currBackground = COMPATIBLE_BACKGROUNDS[backgroundBefore][index];
+            const index = getRandomInt(COMPATIBLE_BACKGROUNDS[backgroundBefore].length);
+            const currBackground = COMPATIBLE_BACKGROUNDS[backgroundBefore][index];
             background.push('fond' + currBackground);
             backgroundBefore = currBackground;
         }
     }
+
     background.push('arrivee');
-    return background;
+
+    for (let i = 0; i < background.length; i++) {
+        const img = document.createElement("img")
+        img.src = `./img/pattern/${background[i]}.svg`
+        parent.appendChild(img)
+    }
+
+    return clientPatternHeight * nbr_pattern
+
+}
+
+
+function setBeforeScrolling() {
+    race.setAttribute("style", "position:absolute;top:0px")
+}
+
+function setWhileScrolling() {
+    race.setAttribute("style", "position:fixed;top:0px")
+}
+
+function setAfterScrolling() {
+    race.setAttribute("style", "position:absolute;bottom:0px")
+}
+
+function scrollToRace() {
+    window.scrollTo({
+        top: window.innerHeight,
+        left: 0,
+        behavior: 'smooth'
+    })
+}
+
+function GetScrollDate(index, nbr_jour) {
+    let dateIn = new Date();
+    dateIn.setHours(12);
+    let date = new Date(dateIn.setDate(dateIn.getDate() - (nbr_jour - index)));
+
+    let strDate = date.getFullYear() + '-' + ('0' + (date.getMonth() + 1)).slice(-2) + '-' + ('0' + date.getDate()).slice(-2);
+    return strDate;
 }

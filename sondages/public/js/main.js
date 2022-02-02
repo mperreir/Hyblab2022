@@ -87,13 +87,9 @@ function start() {
         document.body.querySelector("#Introduction").className = "hide-introduction"
     })
 
-    const NBR_JOUR = 100 // A changer dynamiquement
-    const PIXEL_PAR_JOUR = 150
-    const HAUTEUR_DE_LA_PAGE = PIXEL_PAR_JOUR * NBR_JOUR
 
     const blocks = document.body.querySelector("#blocks")
     const animation = document.body.querySelector("#animation")
-    const race = document.body.querySelector("#race")
 
 
     const TimeInfoProgress = document.body.querySelector("#TimeInfo .progress")
@@ -137,6 +133,8 @@ function start() {
 
 
 
+
+
     // Chargement des données
     getCandidats().then(candidats => {
 
@@ -148,101 +146,66 @@ function start() {
             console.info("Données de sondage chargés !")
             InitDesIntentions(sondages)
 
+            // Calcul de l'hauteur de la page
+            const NBR_JOUR = 360 // On affiche 360 jours de course
+            const PIXEL_PAR_JOUR = 50 // 50 pixels de haut par jour
+            const PADDING_POUR_DERNIER_JOUR = 20 // Jours sautés au début pour laisser de la place à la fin
+
+            GenereLaListeDesBackgrounds(blocks, NBR_JOUR, PIXEL_PAR_JOUR)
+
+            var INDEX_PREV = -1;
+
+            function scrollPosition() {
+
+                const animation_rect = animation.getBoundingClientRect()
+
+                const not_seeing_bottom = (animation_rect.bottom - window.innerHeight) >= 0
+
+                const hauteur = -animation_rect.top + (window.innerHeight)
+
+                let indexJour = Math.ceil(hauteur / PIXEL_PAR_JOUR) + PADDING_POUR_DERNIER_JOUR
+
+                indexJour = indexJour <= 0 ? 0 : (indexJour > NBR_JOUR ? NBR_JOUR : indexJour)
+
+                if (animation_rect.top <= 0 && not_seeing_bottom) {
+                    setWhileScrolling()
+                } else if (animation_rect.top > 0 && not_seeing_bottom) {
+                    setBeforeScrolling()
+                } else {
+                    setAfterScrolling()
+                }
+
+
+                // On met a jour si on change de jour
+                if (indexJour > 0 && INDEX_PREV != indexJour) {
+                    INDEX_PREV = indexJour
+
+                    const currDate = GetScrollDate(indexJour, NBR_JOUR);
+                    const t_date = new Date(currDate)
+
+                    TimeInfoProgress.style.width = (indexJour / NBR_JOUR * 100) + "%";
+                    TimeInfoDate.innerHTML = t_date.toLocaleDateString("fr")
+
+                    CANDIDATS.map(candidat => {
+                        let index = candidat.x.indexOf(currDate);
+                        if (index >= 0) {
+                            const divPourcent = document.querySelector(`div[data-name='${candidat.name}'] div[class='pourcent']`);
+                            divPourcent.innerText = parseFloat(candidat.y[index]).toFixed(1) + ' %';
+                        }
+                    });
+                }
+            }
+
+            scrollPosition()
+
+            startTheRace.addEventListener("click", scrollToRace)
+            document.addEventListener("scroll", scrollPosition)
+
+
         })
 
     })
 
-
-
-
-
-    const clientPatternHeight = document.getElementById('PATTERN_EXAMPLE').clientHeight;
-    const background = GenereLaListeDesBackgrounds(Math.floor(HAUTEUR_DE_LA_PAGE / clientPatternHeight));
-
-    for (let i = 0; i < background.length; i++) {
-        const img = document.createElement("img")
-        img.src = `./img/pattern/${background[i]}.svg`
-        blocks.appendChild(img)
-    }
-
-    function setBeforeScrolling() {
-        race.setAttribute("style", "position:absolute;top:0px")
-    }
-
-    function setWhileScrolling() {
-        race.setAttribute("style", "position:fixed;top:0px")
-    }
-
-    function setAfterScrolling() {
-        race.setAttribute("style", "position:absolute;bottom:0px")
-    }
-
-    function scrollToRace() {
-        window.scrollTo({
-            top: window.innerHeight,
-            left: 0,
-            behavior: 'smooth'
-        })
-    }
-
-
-    const GetScrollDate = (index) => {
-        let dateIn = new Date();
-        dateIn.setHours(12);
-        let date = new Date(dateIn.setDate(dateIn.getDate() - (NBR_JOUR - index)));
-
-        let strDate = date.getFullYear() + '-' + ('0' + (date.getMonth() + 1)).slice(-2) + '-' + ('0' + date.getDate()).slice(-2);
-        return strDate;
-    }
-
-    var INDEX_PREV = -1;
-
-    function scrollPosition(scroll) {
-
-        const rect = animation.getBoundingClientRect()
-        const not_seeing_bottom = (rect.bottom - window.innerHeight) >= 0
-        const y_to_top = rect.top + window.scrollY
-        const hauteur = (scroll - y_to_top) + (window.innerHeight / 2)
-
-        let indexJour = parseInt(hauteur / PIXEL_PAR_JOUR) + 1
-        indexJour = indexJour <= 0 ? 0 : indexJour
-
-        if (rect.top <= 0 && not_seeing_bottom) {
-            setWhileScrolling()
-        } else if (rect.top > 0 && not_seeing_bottom) {
-            setBeforeScrolling()
-        } else {
-            setAfterScrolling()
-        }
-
-
-        // On met a jour si on change de jour
-        if (indexJour > 0 && INDEX_PREV != indexJour) {
-            INDEX_PREV = indexJour
-
-            const currDate = GetScrollDate(indexJour);
-            const t_date = new Date(currDate)
-
-            TimeInfoProgress.style.width = (indexJour / NBR_JOUR * 100) + "%";
-            TimeInfoDate.innerHTML = t_date.toLocaleDateString("fr")
-
-            CANDIDATS.map(candidat => {
-                let index = candidat.x.indexOf(currDate);
-                if (index >= 0) {
-                    const divPourcent = document.querySelector(`div[data-name='${candidat.name}'] div[class='pourcent']`);
-                    divPourcent.innerText = parseFloat(candidat.y[index]).toFixed(1) + ' %';
-                }
-            });
-        }
-    }
-
-    scrollPosition(0)
-
-
-    setTimeout(scrollToRace, 500) //TODO: Remove
-
-    startTheRace.addEventListener("click", _ => scrollToRace())
-    document.addEventListener("scroll", _ => scrollPosition(window.scrollY))
 }
 
 window.addEventListener('load', _ => start())
