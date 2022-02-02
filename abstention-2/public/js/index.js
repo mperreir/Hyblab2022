@@ -1,5 +1,4 @@
 'use strict';
-window.scrollTo(0, 1);
 
 let selectedCityData;
 let metropoleData;
