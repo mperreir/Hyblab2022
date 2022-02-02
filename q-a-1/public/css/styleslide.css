@@ -55,6 +55,10 @@ header div{
     margin-top: -15%;
 }
 
+#img_warning{
+    width:80%;
+}
+
 #container{
     position: relative; /* for absolute positionning of child elements*/
 }
