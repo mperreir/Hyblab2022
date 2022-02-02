@@ -203,21 +203,13 @@ left: 3%;
     font-weight:bold;
     font-size: 60%;
   
-<<<<<<< HEAD
-}
+  }
+
+/*
 #cercle1{
     opacity: 1;
 }
 #cercle2{
-=======
-  }
-
-  /*
-  #cercle1{
-      opacity: 1;
-  }
-  #cercle2{
->>>>>>> 6bc8374fb7aefddc836df31211dc640dbed5d931
     opacity: 0.3;
 }
 #cercle3{
@@ -229,25 +221,22 @@ left: 3%;
 #cercle5{
     opacity: 0.3;
 }
-<<<<<<< HEAD
 #cercle6{
     opacity: 0.3;
 }
-=======
 
 */
->>>>>>> 6bc8374fb7aefddc836df31211dc640dbed5d931
- #carnet{
-     opacity: 0;
-     position: absolute;
-     width: 5vh;
-     height: auto;
-     right: 3%;
+#carnet{
+    opacity: 0;
+    position: absolute;
+    width: 5vh;
+    height: auto;
+    right: 3%;
 
-     display: inline-flex;
+    display: inline-flex;
     margin-top: auto;
     margin-bottom: auto;
- }
+}
 
 /*dialogue*/
 #personnage1{
