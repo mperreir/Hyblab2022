@@ -1,5 +1,5 @@
 const recompense_div = document.querySelector('.recompense');
-const label_joute = document.querySelector('.label-joute');
+const label_joute = document.querySelector('.label-joute-recompense');
 
 function bonneVersion(name){
 	switch (name){
@@ -36,4 +36,4 @@ img.setAttribute('alt', objet);
 
 recompense_div.appendChild(img);
 
-label_joute.innerHTML = 'Vous avez remporté : ' + objet;
+label_joute.innerHTML = objet;

@@ -37,6 +37,15 @@
     line-height: 1.3;
 }
 
+.label-joute-recompense {
+    font-family: 'Lineal', sans-serif;
+    color: #C8A166;
+    font-size: 110%;
+    width: 80%;
+    margin-bottom: 20px;
+    line-height: 1.3;
+}
+
 .bravo{
     font-size: 120%;
     font-family: 'Baloo Tamma 2';
