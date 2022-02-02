@@ -1,12 +1,17 @@
-fetch('./api/getCandidate')
-    .then(e => e.json())
-    .then(candidats => AjoutDesCandidats(candidats))
-    .catch(err => console.error(err));
-
-
-fetch('./api/getData')
-    .then(e => e.json())
-    .then(candidats => {
-        InitDesIntentions(candidats);
+function getSondages() {
+    return new Promise((resolve, reject) => {
+        fetch('./api/getData')
+            .then(e => e.json())
+            .then(candidats => resolve(candidats))
+            .catch(err => reject(err))
     })
-    .catch(err => console.error(err));
+}
+
+function getCandidats() {
+    return new Promise((resolve, reject) => {
+        fetch('./api/getCandidate')
+            .then(e => e.json())
+            .then(candidats => resolve(candidats))
+            .catch(err => reject(err))
+    })
+}

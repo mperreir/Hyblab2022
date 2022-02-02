@@ -19,6 +19,7 @@ const COMPATIBLE_BACKGROUNDS = {
     8: [2, 6, 7],
     9: [2, 6, 7],
 }
+
 let CANDIDATS = []
 
 function InitDesIntentions(intentionsCandidats) {
@@ -178,6 +179,28 @@ function start() {
     BtnCourse15.addEventListener("click", changeSelection)
     BtnCourse5.addEventListener("click", changeSelection)
 
+
+
+
+    // Chargement des données
+    getCandidats().then(candidats => {
+
+        console.info("Candidats chargés !")
+        AjoutDesCandidats(candidats)
+
+        getSondages().then(sondages => {
+
+            console.info("Données de sondage chargés !")
+            InitDesIntentions(sondages)
+
+        })
+
+    })
+
+
+
+
+
     const clientPatternHeight = document.getElementById('pattern').clientHeight;
     const background = GenereLaListeDesBackgrounds(Math.floor(HAUTEUR_DE_LA_PAGE / clientPatternHeight));
 
@@ -254,6 +277,9 @@ function start() {
     }
 
     scrollPosition(0)
+
+
+    setTimeout(scrollToRace, 500) //TODO: Remove
 
     startTheRace.addEventListener("click", _ => scrollToRace())
     document.addEventListener("scroll", _ => scrollPosition(window.scrollY))

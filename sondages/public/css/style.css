@@ -359,13 +359,73 @@ header .routeDebut {
     font-size: 15px;
 }
 
-#info {
-    z-index: 999;
-    position: fixed;
-    bottom: 0px;
-    font-size: 50px;
-    text-align: center;
-    width: 100%;
+#race #TimeInfo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 12.5vh;
+    border-top-left-radius: 7.5vh;
+    border-top-right-radius: 7.5vh;
+    background: #7f8d44;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#race #TimeInfo .slider {
+    position: relative;
+    background: #f5f5f5;
+    height: 15px;
+    width: 70%;
+    margin-top: 17.5px;
+    border-radius: 500px;
+}
+
+#race #TimeInfo .slider img {
+    position: absolute;
+}
+
+#race #TimeInfo .slider img.damier {
+    height: 100%;
+    top: 0;
+    right: 15px;
+}
+
+#race #TimeInfo .slider img.drapeau {
+    top: -30px;
+    right: 0px;
+    height: 30px;
+    width: 20px;
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+
+#race #TimeInfo .slider .progress {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background: #2e3845;
+    height: 100%;
+    width: 50%;
+    border-radius: 500px;
+}
+
+#race #TimeInfo .slider .point {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #2e3845;
+    height: 30px;
+    width: 30px;
+    border-radius: 500px;
+    border: 4px solid #242e3b;
+}
+
+#race #TimeInfo .slider .point .date {
+    margin-top: -55px;
+    color: #f5f5f5;
+    font-style: italic;
 }
 
 footer {

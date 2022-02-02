@@ -16,13 +16,13 @@
 
     <script src="https://unpkg.com/@lottiefiles/lottie-player@0.4.0/dist/lottie-player.js"></script>
 
-    <script src="js/main.js" defer></script>
     <script src="js/intentions.js" defer></script>
+    <script src="js/main.js" defer></script>
 </head>
 
 <body>
 
-    <div id="Introduction">
+    <div id="Introduction" class="hide-introduction">
         <lottie-player autoplay resizeMode="cover" mode="normal" style="width: 100%;">
         </lottie-player>
 
@@ -99,6 +99,23 @@
             <div id="race">
 
                 <img id="pattern" src="./data/_AGR src/pattern/fond2.svg" style="display:block; visibility: hidden; width:100%; height: auto; position: absolute; top: -200vh; right:0">
+
+                <div id="TimeInfo">
+
+                    <div class="slider">
+
+                        <div class="progress">
+                            <div class="point">
+                                <div class="date">12/12/2022</div>
+                            </div>
+                        </div>
+
+                        <img class="damier" src="img/elements_temps_damier.svg" alt="">
+                        <img class="drapeau" src="img/elements_temps_drapeau.svg" alt="">
+
+                    </div>
+
+                </div>
 
             </div>
 
