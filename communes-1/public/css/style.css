@@ -112,6 +112,7 @@ body{
 #bandeau {
     position: absolute;
     bottom : 0;
+    height: 10vh;
     padding-top: 3%;
     width: 100%;
     background-color: white;
