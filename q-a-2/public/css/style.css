@@ -824,7 +824,7 @@ body{
 }
 
 .profilCard_civility {
-    margin-bottom: 20%;
+    margin-bottom: 10%;
 }
 
 .profilCard_div_text {
@@ -886,14 +886,24 @@ body{
     z-index: 2;
 }
 
+
+.step1game_tampon_valid  > .tampon > img {
+    height: 14vh;
+}
+
+.step1game_tampon_cancel  > .tampon > img {
+    height: 11vh;
+}
+
 .step1game_tampon_valid {
-    right: 8%;
-    top: -4.5%;
+    right: 20%;
+    top: 0%;
     transform: rotate(20deg);
 }
 
 .step1game_tampon_cancel {
-    right:12%;
+    right:23%;
+    top: 3%;
 }
 
 .step1Game_pannelError {
@@ -1331,10 +1341,10 @@ input[type="checkbox"] {
 }
 
 .step2Game_img {
-  -webkit-touch-callout: none;
-    -webkit-user-select: none;
-     -khtml-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
-}
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+  }
