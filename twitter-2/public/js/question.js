@@ -68,8 +68,8 @@ function fetchCandidates(x) {
         .then(res => res.json())
         .then(data => {
             if (data.mainCandidat.displayShortName != sessionStorage.getItem("alreadyGivenCandidate1") && data.mainCandidat.displayShortName != sessionStorage.getItem("alreadyGivenCandidate2")) {
-                console.log("cand déjà donné 1 :" + sessionStorage.getItem("alreadyGivenCandidate1"));
-                console.log("cand déjà donné 2 :" + sessionStorage.getItem("alreadyGivenCandidate2"));
+                // console.log("cand déjà donné 1 :" + sessionStorage.getItem("alreadyGivenCandidate1"));
+                // console.log("cand déjà donné 2 :" + sessionStorage.getItem("alreadyGivenCandidate2"));
                 sessionStorage.setItem("alreadyGivenCandidate" + x, data.mainCandidat.displayShortName);
                 sessionStorage.setItem("mainCandidate", data.mainCandidat.displayShortName);
                 sessionStorage.setItem("usernameMainCandidate", data.mainCandidat.userName);

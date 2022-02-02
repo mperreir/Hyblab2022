@@ -118,6 +118,8 @@ window.onload = () => {
       document.getElementById("legende").innerHTML = `Les candidats qui parlent autant <span>${str_theme}</span> que <span>${candidateName}</span>`;
    }
 
+   console.log(candidateName);
+
    const usernameMainCandidate = sessionStorage.getItem("usernameMainCandidate");
 
    // append the svg object to the body of the page
