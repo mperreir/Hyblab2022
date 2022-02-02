@@ -34,8 +34,13 @@ window.onload = () => {
    window.scrollTo(0, 25);
 
    document.getElementById("about").addEventListener("click", () => {
-      window.location.href = "./index.html";
+      window.location.href = "./question-result.html#second-slide";
    });
+
+   document.getElementById("back-toquiz").addEventListener("click", () => {
+      window.location.href = "./question-result.html#first-slide";
+   });
+
    document.getElementById("next-question").addEventListener("click", () => {
       window.location.href = "./question.html";
    });
