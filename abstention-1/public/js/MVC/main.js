@@ -20,8 +20,8 @@ let scenes = [
     new DialogueModel(dialogues[0].Texte,"M. Martin 51ans"),
     new DialogueModel(dialogues[1].Texte,"Arthur 17ans"),
     new DialogueModel(dialogues[2].Texte,"Nouvelle arrivante 24ans"),
-    new DialogueModel(dialogues[3].Texte,"Mme Robert 82ans"),
-    new DialogueModel(dialogues[4].Texte,"M. le maire 46ans"),
+    new DialogueModel(dialogues[3].Texte,"M. le maire 46ans"),
+    new DialogueModel(dialogues[4].Texte,"Mme Robert 82ans"),
     new DialogueModel(dialogues[5].Texte,"M. Martin 51ans"),
 ]
 
@@ -175,9 +175,9 @@ LottieInteractivity.create({
 });
 
 LottieInteractivity.create({
-    player:'.player.camion-vers-theatre',
+    player:'.player.camion-vers-mairie',
     mode:"scroll",
-    container:".container.camion-vers-theatre",
+    container:".container.camion-vers-mairie",
     actions: [
         {
             visibility:[0,1],
@@ -188,9 +188,9 @@ LottieInteractivity.create({
 });
 
 LottieInteractivity.create({
-    player:'.player.theatre-vers-mairie',
+    player:'.player.mairie-vers-theatre',
     mode:"scroll",
-    container:".container.theatre-vers-mairie",
+    container:".container.mairie-vers-theatre",
     actions: [
         {
             visibility:[0,1],
@@ -201,9 +201,9 @@ LottieInteractivity.create({
 });
 
 LottieInteractivity.create({
-    player:'.player.mairie-vers-ecole2',
+    player:'.player.theatre-vers-ecole2',
     mode:"scroll",
-    container:".container.mairie-vers-ecole2",
+    container:".container.theatre-vers-ecole2",
     actions: [
         {
             visibility:[0,1],

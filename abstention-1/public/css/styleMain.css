@@ -183,7 +183,7 @@ margin-top: 10%;
 
 #popupCarnet{
     opacity: 1;
-    z-index: 2;
+    z-index: 5;
     width: 45vh;
     height: 85vh;
     top: 5%;
@@ -201,6 +201,7 @@ right:10% ;
 top:10%;
 width: 12%;
 position: absolute;
+z-index: 2;
 }
 #anneaux{
 position: relative;
@@ -284,7 +285,7 @@ left: 3%;
 
 */
  #carnet{
-     opacity: 0;
+     opacity: 1;
      position: absolute;
      width: 5vh;
      height: auto;
@@ -445,7 +446,7 @@ lottie-player{
     opacity: 0;
 }
 
-.transition {
+.separator {
     height: 100vh;
 }
 
