@@ -1,7 +1,6 @@
 class Step1Game extends React.Component {
     constructor(props) {
         super(props);
-        console.log(this.props.game);
         if (Object.keys(this.props.game.data).length) {
             this.state = { ...this.props.game.data};
         } else {
@@ -32,6 +31,10 @@ class Step1Game extends React.Component {
             direction: 'horizontal',
             slidesPerView: 1,
             mousewheel: true,
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            },
         });
     }
 
@@ -82,7 +85,7 @@ class Step1Game extends React.Component {
                         <Tampon isValid={candidateState.isAcceptClick}/>
                     </div>
                     <div className='step1Game_pannelError' hidden={!candidateState.error}>
-                        <img src='img/pannel.svg'/>
+                        <img src='img/warning.svg'/>
                     </div>
                     <div className='step1Game_tampon_button'>
                         <TamponButton isValid={true} isBlack={candidateState.isAcceptClick} onClick={() => this.clickAccept(candidate.nameId)}/>
@@ -99,6 +102,8 @@ class Step1Game extends React.Component {
                     <div className='swiper-wrapper'>
                         {profils}
                     </div>
+                    <div className="swiper-button-next"></div>
+                    <div className="swiper-button-prev"></div>
                 </div>
             </div>
         )

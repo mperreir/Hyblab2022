@@ -6,7 +6,22 @@ class EndGameCard extends React.Component {
     render() {
         let image;
         if(this.props.isWin) {
-            image = <div className='endGameCard_image'><img src='img/endGameCard-sparkles.svg'></img><img src='img/endGameCard-eyes-win.svg'></img></div>;
+            if (this.props.step == 6) {
+                image = <div className='endGameCard_image'>
+                    <img src='img/endGameCard-sparkles.svg' className='sparkles' />
+                    <div className='enveloppes'>
+                        <img src={`img/enveloppes/enveloppe-${stepsCandidates['7'][0].nameId}.svg`} />
+                        <img src={`img/enveloppes/enveloppe-${stepsCandidates['7'][1].nameId}.svg`} />
+                    </div>
+                </div>;
+            } else if (this.props.step == 7) {
+                image = <div className='endGameCard_image enveloppe'>
+                    <img src='img/endGameCard-sparkles.svg' className='sparkles' />
+                    <img src={`img/enveloppes/enveloppe-${stepsCandidates['8'][0].nameId}.svg`} />
+                </div>;
+            } else {
+                image = <div className='endGameCard_image'><img src='img/endGameCard-sparkles.svg'></img><img src='img/endGameCard-eyes-win.svg'></img></div>;
+            }
         }
         else {
             image = <div className='endGameCard_image'><img src='img/endGameCard-eyes-lose.svg'></img></div>;

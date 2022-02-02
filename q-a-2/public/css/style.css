@@ -406,19 +406,19 @@ body{
 
 .startingPage_card > h1 {
     font-family: "Spicy Rice";
-    font-size: 25px;
+    font-size: 3.3vh;
 }
 
 .startingPage_card > p {
     margin-top: 15px;
-    font-size: 16px;
+    font-size: 2.1vh;
     font-weight: 300;
 }
 
 .startingPage_card > span {
     margin-top: 15px;
     margin-bottom: 16px;
-    font-size: 16px;
+    font-size: 2.1vh;
     font-weight: 700;
 }
 
@@ -723,10 +723,22 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-height: 42vh;
+    max-height: 50vh;
     overflow: auto;
     scrollbar-color: #c4c4c4 white;
     scrollbar-width: thin;
+
+    background: /* Shadow covers */
+        linear-gradient(white 30%, rgba(255, 255, 255, 0)), linear-gradient(rgba(255, 255, 255, 0), white 70%) 0 100%, /* Shadows */
+        radial-gradient(50% 0, farthest-side, rgba(0, 0, 0, .2), rgba(0, 0, 0, 0)), radial-gradient(50% 100%, farthest-side, rgba(0, 0, 0, .2), rgba(0, 0, 0, 0)) 0 100%;
+    background: /* Shadow covers */
+        linear-gradient(white 30%, rgba(255, 255, 255, 0)), linear-gradient(rgba(255, 255, 255, 0), white 70%) 0 100%, /* Shadows */
+        radial-gradient(farthest-side at 50% 0, rgba(0, 0, 0, .2), rgba(0, 0, 0, 0)), radial-gradient(farthest-side at 50% 100%, rgba(0, 0, 0, .2), rgba(0, 0, 0, 0)) 0 100%;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-size: 100% 40px, 100% 40px, 100% 14px, 100% 14px;
+    /* Opera doesn't support this in the shorthand */
+    background-attachment: local, local, scroll, scroll;
 }
 
 .questionCard_question, .questionCard_answer {
@@ -946,11 +958,28 @@ body{
     position: relative;
 }
 
+.step3Game_nameDiv {
+    position: absolute;
+    top: 38%;
+    left: 19%;
+    width: 30%;
+    font-family: 'Spicy Rice';
+    z-index: 2;
+    text-align: center;
+}
+
+.step3Game_warning {
+    position: absolute;
+    right: -12%;
+    width: 25%;
+    z-index: 3;
+}
+
 .statementsCard {
     display: flex;
     justify-content: center;
     box-sizing: border-box;
-    font-size: 2vh;
+    font-size: 2.5vh;
     font-family: 'Jost';
     width: 100%;
     height: 100%;
@@ -965,14 +994,14 @@ body{
 
 .statementsCard_information {
     position: absolute;
-    bottom: 7%;
-    width: 44%;
+    top: 50%;
+    width: 50%;
     z-index: 2;
 }
 
 .statementsCard_information > * {
     display: block;
-    margin-top: 2vh;
+    margin-top: 1.5vh;
 }
 
 .statementsCard_information > *:first-child {
@@ -989,8 +1018,8 @@ body{
 }
 
 .checkbox_round {
-    width: 3vh;
-    height: 3vh;
+    width: 3.5vh;
+    height: 3.5vh;
     background-color: white;
     border-radius: 50%;
     vertical-align: middle;
@@ -1005,22 +1034,22 @@ body{
 }
 
 .checkbox_round:checked {
-    background-color: lightgreen;
+    background-color: grey;
 }
 
 .checkbox_label {
     display: block;
-    margin-left: 12%;
+    margin-left: 14%;
 }
 
 .checkbox_container {
-    line-height: 0vh;
+    line-height: 1vh;
 }
 
 input[type="checkbox"] {
     vertical-align:middle;
     margin-right: 1%;
-    margin-left: -15%;
+    margin-left: -16%;
 }
 
 .gamePage {
@@ -1126,4 +1155,44 @@ input[type="checkbox"] {
 #chart {
     width: 40%;
     height: 40%;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    color: black;
+    font-weight: 900;
+}
+
+.step6Game > canvas,
+.step7Game > canvas {
+    padding-top: 20px;
+}
+
+.buttonMarginTop {
+    margin-top: 8vh;
+}
+
+.questionCard_nextStep > img {
+    height: 14vh;
+}
+
+.enveloppes {
+    display: flex;
+}
+
+.enveloppes > img,
+.enveloppe > img:last-child {
+    height: 13vh;
+}
+
+.enveloppe > img:first-child {
+    height: 8.3vh;
+}
+
+.enveloppes >img:first-child {
+    transform: scaleX(-1) rotate(10.66deg);
+}
+
+.enveloppes >img:last-child {
+    transform: rotate(11.28deg);
 }
