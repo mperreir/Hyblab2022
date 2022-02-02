@@ -6,9 +6,7 @@ function random(min, max) {
 
 window.onload = () => {
     window.scrollTo(0, 25);
-    document.querySelector("video").addEventListener('ended', () => {
-        document.querySelector("video").style.display = "none";
-    });
+
     document.getElementById("other_candidate").addEventListener("click", () => {
         sessionStorage.removeItem('selected_candidate');
         window.location.href = "./exploration.html";
@@ -159,4 +157,9 @@ window.onload = () => {
                     });
             }
         });
+
+    document.querySelector("video").addEventListener('ended', () => {
+        document.querySelector("video").style.display = "none";
+        document.getElementById("main").style.display = "block";
+    });
 }

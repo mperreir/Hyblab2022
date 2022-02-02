@@ -118,3 +118,6 @@ span {
     color: #F24A41;
 }
 
+#main {
+    display: none;
+}
