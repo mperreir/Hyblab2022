@@ -10,7 +10,7 @@ function bonneVersion(name){
 		case 'L\'oie Aux Œufs D\'or':
 			return "img/recompenses/L_oie_Aux_Œufs_D_or.png"
 		case 'Une MédaiLLe Du Roi René':
-			return "Médaille_Du_Roi_René.png"
+			return "img/recompenses/Médaille_Du_Roi_René.png"
 		case 'Une Soupe Angevine A VoLonté':
 			return "img/recompenses/Soupe_Angevine_À_Volonté_.png"
 		case 'Les MeiLLeurs Bottereaux':
