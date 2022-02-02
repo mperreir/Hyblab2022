@@ -94,7 +94,7 @@ async function showTopTweets () {
     if (tweets.length === 0) {
         let no = document.createElement("p");
         no.setAttribute("class","no-tweet");
-        no.innerHTML = "Pas de top tweet trouvé pour ce theme !"
+        no.innerHTML = "Aucun tweet n’a été populaire sur ce thème cette semaine."
         swiper_wrapper.appendChild(no);
     }
 }
