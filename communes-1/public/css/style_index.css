@@ -44,6 +44,7 @@
 
 .header-bottom {
 	text-align: center;
+	padding-top: 5vh;
 }
 
 .header-bottom .hyblab {
@@ -63,7 +64,6 @@
 	font-size: 15%;
 	color: #C8A166;
 }
-
 
 .corps-second-slide {
 	position: relative;
