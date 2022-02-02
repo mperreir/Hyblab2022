@@ -94,13 +94,21 @@ function ToggleButton(button, img = [1, 2], callback = _ => {}) {
 
 function start() {
 
-    const player = document.querySelector("lottie-player");
-    player.load("anim/debut.json");
-    player.addEventListener("ready", _ => {
+    const video = document.querySelector("video");
+
+    const startVideo = _ => {
         document.body.querySelector("#Introduction .loader").remove()
-    })
-    player.addEventListener("complete", _ => {
-        // window.scrollTo(0, 1);
+        video.play()
+    }
+
+    if (video.readyState === 4) {
+        startVideo()
+    } else {
+        video.addEventListener("canplaythrough", startVideo)
+    }
+
+    video.addEventListener("ended", _ => {
+        window.scrollTo(0, 1);
         document.body.querySelector("#Introduction").className = "hide-introduction"
     })
 
