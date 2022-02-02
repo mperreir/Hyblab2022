@@ -1,7 +1,7 @@
 .answer-middle {
     color:#ff2e00;
-    padding: 10%;
     display: flex;
+    margin-top: 15%;
     flex-direction: column;
     align-items: center;
 }
@@ -66,12 +66,12 @@
     color: #e4e5fa;
 }
 
-.pv-area{
+.anwser-area {
     text-align: center;
     width: 85%;
 }
   
-.pv-header-ville{
+.anwser-header-ville {
     display: grid;
     grid-template-columns: 0.5fr 10fr;
     width: 100%;
@@ -80,12 +80,12 @@
     margin-bottom: 2rem;
 }
 
-.pv-geo{
+.anwser-geo {
     height: 100%;
     border-right:#ff4800 solid 1px;
 }
 
-.pv-nom-ville{
+.anwser-nom-ville {
     color:#ff4800;
     font-size: 3vh;
     font-family: "CabinetGrotesk-Regular";
@@ -93,7 +93,7 @@
     align-items: center;
     height: 100%;
 }
-.pv-p-nom-ville{
+.anwser-p-nom-ville {
     text-align: center;
     width: 100%;
 }
