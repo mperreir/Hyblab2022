@@ -111,27 +111,29 @@ async function quizScreen() {
     switch (hearts) {
       case 0:
         heartsDiv.innerHTML =
-          `<img src="img/coeur-grand-casse.svg" height="18px">
-        <img src="img/coeur-grand-casse.svg" height="18px">
-        <img src="img/coeur-grand-casse.svg" height="18px">`;
+       `<img class="heartsIcon big"src="img/coeur-grand-casse.svg">
+        <img class="heartsIcon big"src="img/coeur-grand-casse.svg">
+        <img class="heartsIcon big"src="img/coeur-grand-casse.svg">`;
         break;
       case 1:
         heartsDiv.innerHTML =
-          `<img src="img/coeur-grand-plein.svg" height="18px">
-        <img src="img/coeur-grand-casse.svg" height="18px">
-        <img src="img/coeur-grand-casse.svg" height="18px">`;
+       `
+       <img class="heartsIcon big"src="img/coeur-grand-plein.svg">
+       <img class="heartsIcon big"src="img/coeur-grand-casse.svg">
+       <img class="heartsIcon big"src="img/coeur-grand-casse.svg">
+       `;
         break;
       case 2:
         heartsDiv.innerHTML =
-          `<img src="img/coeur-grand-plein.svg" height="18px">
-        <img src="img/coeur-grand-plein.svg" height="18px">
-        <img src="img/coeur-grand-casse.svg" height="18px">`;
+       `<img class="heartsIcon big"src="img/coeur-grand-plein.svg" >
+        <img class="heartsIcon big"src="img/coeur-grand-plein.svg" >
+        <img class="heartsIcon big"src="img/coeur-grand-casse.svg" >`;
         break;
       default:
         heartsDiv.innerHTML =
-          `<img src="img/coeur-grand-plein.svg" height="18px">
-        <img src="img/coeur-grand-plein.svg" height="18px">
-        <img src="img/coeur-grand-plein.svg" height="18px">`;
+       `<img class="heartsIcon big"src="img/coeur-grand-plein.svg">
+        <img class="heartsIcon big"src="img/coeur-grand-plein.svg">
+        <img class="heartsIcon big"src="img/coeur-grand-plein.svg">`;
         break;
     }
   }
@@ -140,27 +142,27 @@ async function quizScreen() {
     switch (hearts) {
       case 0:
         heartsDiv.innerHTML =
-          `<img src="img/coeur-petit-contour.svg" height="18px">
-        <img src="img/coeur-petit-contour.svg" height="18px">
-        <img src="img/coeur-petit-contour.svg" height="18px">`;
+       `<img class="heartsIcon"src="img/coeur-petit-contour.svg" >
+        <img class="heartsIcon"src="img/coeur-petit-contour.svg" >
+        <img class="heartsIcon"src="img/coeur-petit-contour.svg" >`;
         break;
       case 1:
         heartsDiv.innerHTML =
-          `<img src="img/coeur-petit-plein.svg" height="18px">
-        <img src="img/coeur-petit-contour.svg" height="18px">
-        <img src="img/coeur-petit-contour.svg" height="18px">`;
+       `<img class="heartsIcon"src="img/coeur-petit-plein.svg" >
+        <img class="heartsIcon"src="img/coeur-petit-contour.svg" >
+        <img class="heartsIcon"src="img/coeur-petit-contour.svg" >`;
         break;
       case 2:
         heartsDiv.innerHTML =
-          `<img src="img/coeur-petit-plein.svg" height="18px">
-        <img src="img/coeur-petit-plein.svg" height="18px">
-        <img src="img/coeur-petit-contour.svg" height="18px">`;
+       `<img class="heartsIcon"src="img/coeur-petit-plein.svg" >
+        <img class="heartsIcon"src="img/coeur-petit-plein.svg" >
+        <img class="heartsIcon"src="img/coeur-petit-contour.svg" >`;
         break;
       case 3:
         heartsDiv.innerHTML =
-          `<img src="img/coeur-petit-plein.svg" height="18px">
-        <img src="img/coeur-petit-plein.svg" height="18px">
-        <img src="img/coeur-petit-plein.svg" height="18px">`;
+       `<img class="heartsIcon"src="img/coeur-petit-plein.svg" >
+        <img class="heartsIcon"src="img/coeur-petit-plein.svg" >
+        <img class="heartsIcon"src="img/coeur-petit-plein.svg" >`;
       default:
         break;
     }
