@@ -77,7 +77,6 @@ function date() {
 
 // loadStart();
 // loadSms();
-
 // // loadFolder('nonVotants');
 // loadFileExplorer();
 
@@ -89,6 +88,8 @@ async function fetchCityData(city) {
     const rqJson = await cityRq.json();
     return rqJson;
 }
+// loadFileExplorer();
+// smsScreen();
 
 
 

@@ -1,5 +1,3 @@
-
-
 header{
     display: grid;
     width: 100%;
@@ -40,6 +38,7 @@ header{
 .header-right>*:first-child {
     margin-right: 4px;
 }
+
 #screen{
     height:96%;
 }
