@@ -25,8 +25,12 @@ body {
   background-color: black;
   color: #e5e5e5;
   overflow: hidden; /* to avoid slider bugs on some browsers */
-  font-family: "Lucida  Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+}
+
+b {
+  font-weight: 900;
 }
 
 #container {
@@ -99,7 +103,8 @@ body {
 #homepage p {
   font-family: "First Fun", Arial, Helvetica, sans-serif;
   margin-top: 10px;
-  font-size: 20%;
+  font-size: 19%;
+  font-weight: 700;
   width: 85%;
   text-align: center;
   z-index: 3;
@@ -166,7 +171,7 @@ body {
 #falling p {
   font-family: "Nunito";
   font-size: 18%;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 #falling {
@@ -471,9 +476,7 @@ body {
 
 #p4-bulle-container p {
   position: absolute;
-  font-family: "Nunito";
-  font-size: 16%;
-  position: absolute;
+  font-size: 15%;
   width: 68%;
   top: 23%;
   left: 16%;
@@ -658,7 +661,7 @@ body {
 
 #p6 .dialog .dialog-text {
   font-family: "Nunito";
-  font-weight: 900;
+  font-weight: 700;
   font-size: 15%;
   width: 82%;
   margin: auto;

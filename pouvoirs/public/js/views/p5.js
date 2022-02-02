@@ -7,7 +7,7 @@ const init_p5 = function(){
     const nameContainer = document.createElement("div");
     nameContainer.setAttribute("id","nameContainer");
     const name = document.createElement("h3");
-    name.innerHTML = "Bernard le taulard";
+    name.innerHTML = getText("p5-name");
     nameContainer.appendChild(name);
     nameContainer.classList.add("apply-shake");
     nameContainer.style.position = "absolute";
