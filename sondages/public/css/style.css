@@ -563,15 +563,15 @@ footer p {
     width: 40px;
     /* right: -4px; */
     right: 0;
-    top: 13%;
+    top: 10vh;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
     border: 2px solid #2e3845;
-    z-index: 999;
+    z-index: 99;
 }
 
 #creditsButton {
-    top: 20%;
+    top: calc( 10vh + 40px + 15px);
 }
 
 #fonctionnementPOPUP,
