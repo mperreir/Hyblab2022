@@ -168,11 +168,6 @@ body {
     width: 16%;
 }
 
-#about p {
-    font-family: 'Lato', sans-serif;
-    font-weight: bold;
-}
-
 #dataviz {
     display: table-cell;
     vertical-align: middle;
@@ -187,6 +182,7 @@ body {
     font-size: 2vh;
     fill: #1A367A;
     font-family: 'Lato', sans-serif;
+    font-weight: bold;
 }
 
 

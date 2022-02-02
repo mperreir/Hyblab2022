@@ -70,11 +70,18 @@ body {
     width: 80%;
 }
 
-#phrase-daccroche {
+#baseline {
     font-style: normal;
-    font-weight: normal;
-    font-size: 3.5vh;
+    font-family: 'Lato', sans-serif;
+    font-size: 3vh;
     text-align: center;
+    margin-top: 5%;
+}
+
+footer p {
+    font-size: 2.5vh;
+    font-family: 'Lato', sans-serif;
+    padding: 0 5%;
 }
 
 .vector {
@@ -82,7 +89,7 @@ body {
 }
 
 #vector1 {
-    width: 12%;
+    width: 10%;
 }
 
 

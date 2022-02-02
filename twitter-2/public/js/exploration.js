@@ -45,6 +45,9 @@ window.onload = () => {
       }
     });
 
+  const selected_candidate = sessionStorage.getItem("selected_nameCandidate");
+  document.getElementById("reminder_candidate").innerHTML = `Vous avez choisit <span>${selected_candidate}</span>.`
+
   // partie visu de données
   const buttons = document.getElementsByTagName("button");
   for (let i = 0; i < buttons.length - 1; i++) {

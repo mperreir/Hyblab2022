@@ -49,7 +49,7 @@ window.onload = () => {
     }
 
     if (theme == "followers") {
-        document.getElementById("title").innerHTML = "Followers en commun en %";
+        document.getElementById("title").innerHTML = "<span>Followers</span> en commun en %";
     } else {
         document.getElementById("title").innerHTML = `Les candidats qui parlent autant <span>${str_theme}</span> que <span>${candidateName}</span>`;
     }

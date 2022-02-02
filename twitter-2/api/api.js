@@ -64,7 +64,7 @@ app.get('/randomQuestion/followers', function (req, res) {
 
     res.send({
         questionPart1: "Avec quel.le candidat.e",
-        questionPart2: "a-t-il (elle) le plus de followers en commun ?",
+        questionPart2: "a-t-il/elle le plus de followers en commun ?",
         mainCandidat,
         solutionCandidat,
         wrongCandidats,
