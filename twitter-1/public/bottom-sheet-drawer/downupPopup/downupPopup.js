@@ -36,6 +36,7 @@
                     duration: "300",
                     animation: "ease",
                     background: true,
+                    radius: "50px",
                     radiusLeft: "10px",
                     radiusRight: "10px",
                     distance: 20,
@@ -49,7 +50,7 @@
 
                 setTimeout(() => {
                     $this.css('transition', 'transform ' + settings.duration + 'ms ' + settings.animation + '');
-                    $this.css('border-radius', '' + settings.radiusLeft + ' ' + settings.radiusRight + ' 0px 0px');
+                    $this.css('border-radius', settings.radius);
                     $this.css('width', '' + settings.width + '');
                     const hgt = (((100 - settings.distance) - 10) + 3);
                     if (settings.contentScroll) {

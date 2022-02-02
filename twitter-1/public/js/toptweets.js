@@ -48,12 +48,8 @@ async function showTopTweets () {
     let swiper_wrapper = document.querySelector('#mySwiperTop .swiper-wrapper');
     swiper_wrapper.innerHTML = '';
 
-    tweet.removeChild(document.querySelector('#tweet-theme'));
-    let tweet_theme_div = document.createElement('div');
-    tweet_theme_div.setAttribute("id",'tweet-theme');
-
     let tweets = await fetchTopTweetsTheme(parseInt(select.value));
-    
+
     const swiper = new Swiper("#mySwiperTop", {
         pagination: {
             el: ".swiper-pagination",
@@ -81,12 +77,17 @@ async function showTopTweets () {
         
     });
 
+    //const SwiperTop = document.querySelector("#mySwiperTop");
+    //let swiper_notification = document.querySelector(".swiper-notification");
+    //SwiperTop.removeChild(swiper_notification);
+
     // no tweet for this themas
     if (tweets.length === 0) {
 
-        tweet_theme_div.appendChild(document.createTextNode("Pas de top tweet trouvé pour ce theme !"));
+        swiper_wrapper.appendChild(document.createTextNode("Pas de top tweet trouvé pour ce theme !"));
+        //tweet_theme_div.appendChild(document.createTextNode("Pas de top tweet trouvé pour ce theme !"));
     }
-    tweet.appendChild(tweet_theme_div);
+    //tweet.appendChild(tweet_theme_div);
 }
 
 
