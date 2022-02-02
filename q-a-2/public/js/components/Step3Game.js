@@ -2,26 +2,37 @@ class Step3Game extends React.Component {
     constructor(props) {
         super(props);
 
-        const profilesState = candidates.reduce((previous, candidate) => {
-            return {
-                ...previous,
-                [candidate.nameId]: {
-                    error: false,
-                    gameInfo: candidate.stepThreeGame.statements,
-                    profile: {id: candidate.nameId, img:`img/step3Game/${candidate.nameId}.svg`, name: candidate.name},
-                },
-            }
-        }, {});
+        if (!this.props.game.data || Object.keys(this.props.game.data).length === 0) {
+            const profilesState = JSON.parse(JSON.stringify(stepsCandidates["3"])).reduce((previous, candidate) => {
+                return {
+                    ...previous,
+                    [candidate.nameId]: {
+                        error: false,
+                        gameInfo: candidate.stepThreeGame.statements,
+                        profile: {id: candidate.nameId, img:`img/step3Game/${candidate.nameId}.svg`, name: candidate.name},
+                    },
+                }
+            }, {});
+    
+            Object.entries(profilesState).forEach(([nameId, info]) => {
+                Object.entries(info.gameInfo).forEach(([key, sInfo]) => {
+                    sInfo.valid = true;
+                })
+            });
+    
+            this.state = {
+                ...profilesState,
+            };
 
-        Object.entries(profilesState).forEach(([nameId, info]) => {
-            Object.entries(info.gameInfo).forEach(([key, sInfo]) => {
-                sInfo.valid = true;
-            })
-        });
-
-        this.state = {
-            ...profilesState,
-        };
+            this.props.gameSaveState({
+                win: false,
+                data: {},
+                candidatesNextStep: stepsCandidates["3"]
+            });
+        } else {
+            this.state = this.props.game.data;
+        }
+        
     }
 
     componentDidMount() {
@@ -36,27 +47,31 @@ class Step3Game extends React.Component {
     select = (id, key) => {
         let newGameInfo = this.state[id].gameInfo;
         newGameInfo[key].valid = !newGameInfo[key].valid;
-        console.log(this.state[id].gameInfo[key])
-        this.setState({ [id]: {...this.state[id], gameInfo: newGameInfo }}, () => {console.log(this.state[id].gameInfo[key])});
-
+        this.setState({ [id]: {...this.state[id], gameInfo: newGameInfo }});
+        const win = this.isWin();
+        this.props.gameSaveState({
+            win: win,
+            data: JSON.parse(JSON.stringify(this.state)),
+            candidatesNextStep: stepsCandidates["3"]
+        });
     }
 
     isWin() {
         const tmpState = {...this.state};
         return Object.entries(tmpState).map(([nameId, info]) => {
-            info.gameInfo.map(([key, statementInfo]) => {
-                const candidateStatements = stepsCandidates["3"].find(c => c.nameId === nameId).stepThreeGame.statements;
-                return ((statementInfo.valid && candidateStatements[key].valid) || (!statementInfo.valid && !candidateStatements[key].valid));
+            return Object.values(info.gameInfo).map(({statement, valid}) => {
+                const candidateStatement = Object.values(stepsCandidates["3"].find(c => c.nameId === nameId).stepThreeGame.statements).find(s => s.statement === statement);
+                return ((valid && candidateStatement.valid) || (!valid && !candidateStatement.valid));
             }).reduce((previous, current) => {
-                previous && current
+                return (previous && current);
             }, true);
         }).reduce((previous, current) => {
-            previous && current
+            return (previous && current);
         }, true);
     }
 
     render() {
-        const profils = candidates.map((candidate, id) => {
+        const profils = stepsCandidates["3"].map((candidate, id) => {
             const candidateState = this.state[candidate.nameId];
             return (
                 <div className='swiper-slide step3Game_profile' key={id}>

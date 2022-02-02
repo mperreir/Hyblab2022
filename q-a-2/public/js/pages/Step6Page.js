@@ -5,6 +5,7 @@ class Step6Page extends Page {
         const data = props.data.steps['6'];
         const questions = data.questions;
         this.state = {
+            step: step,
             subPages: [
                 <MainStepPage step={step} nextSubStep={() => this.nextSubStep()}
                     subtitle="Le 1er tour"
@@ -25,6 +26,7 @@ class Step6Page extends Page {
                     subtitle="Clique sur l'urne pour ouvrir toutes les enveloppes."
                     buttonTitle='Continuer'
                     returnToExplanations={() => this.returnToExplanations()}
+                    nextStep={() => this.nextStep()}
                 >
                     <Step6Game />
                 </GamePage>

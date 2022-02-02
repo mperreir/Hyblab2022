@@ -15,8 +15,8 @@ const candidates = [
             "valid": true
         },
         "stepTwoGame" : {
-            "signatures": 500,
-            "valid": true
+            "valid": true,
+            "scale":"scale(0.8)",
         },
         "stepThreeGame": {
             "statements": {
@@ -64,8 +64,8 @@ const candidates = [
             "valid": true
         },
         "stepTwoGame" : {
-            "signatures": 500,
-            "valid": true
+            "valid": true,
+            "scale": "scale(1)",
         },
         "stepThreeGame": {
             "statements": {
@@ -113,8 +113,8 @@ const candidates = [
             "valid": true
         },
         "stepTwoGame" : {
-            "signatures": 500,
-            "valid": true
+            "valid": true,
+            "scale": "scale(1)",
         },
         "stepThreeGame": {
             "statements": {
@@ -162,8 +162,8 @@ const candidates = [
             "valid": true
         },
         "stepTwoGame" : {
-            "signatures": 500,
-            "valid": true
+            "valid": true,
+            "scale": "scale(0.8)",
         },
         "stepThreeGame": {
             "statements": {
@@ -211,8 +211,8 @@ const candidates = [
             "valid": true
         },
         "stepTwoGame" : {
-            "signatures": 500,
-            "valid": true
+            "valid": true,
+            "scale": "scale(1)",
         },
         "stepThreeGame": {
             "statements": {
@@ -260,8 +260,8 @@ const candidates = [
             "valid": true
         },
         "stepTwoGame" : {
-            "signatures": 500,
-            "valid": true
+            "valid": true,
+            "scale": "scale(0.9)",
         },
         "stepThreeGame": {
             "statements": {
@@ -309,8 +309,8 @@ const candidates = [
             "valid": true
         },
         "stepTwoGame" : {
-            "signatures": 500,
-            "valid": true
+            "valid": true,
+            "scale": "scale(1)",
         },
         "stepThreeGame": {
             "statements": {
@@ -358,8 +358,8 @@ const candidates = [
             "valid": true
         },
         "stepTwoGame" : {
-            "signatures": 500,
-            "valid": true
+            "valid": true,
+            "scale": "scale(0.8)",
         },
         "stepThreeGame": {
             "statements": {

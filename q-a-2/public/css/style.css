@@ -798,7 +798,7 @@ body{
 .profilCard_information {
     position: absolute;
     top: 35%;
-    left: 25%;
+    left: 30%;
     z-index: 2;
 }
 
@@ -866,8 +866,8 @@ body{
 }
 
 .step1game_tampon_valid {
-    right: 10%;
-    top: -2.5%;
+    right: 8%;
+    top: -4.5%;
     transform: rotate(20deg);
 }
 
@@ -887,6 +887,35 @@ body{
     width: 30%;
     justify-content: space-between;
     margin-top: 5%;
+}
+
+
+.step2Game {
+    text-align: center;
+    font-size: 80%;
+}
+
+.step2Game-title {
+    margin-top: 5vh;
+    font-family: 'Spicy Rice', Arial;
+}
+
+.step2Game-explaination {
+    width: 80%;
+    margin: 0 auto;
+    margin-top:1vh;
+    margin-bottom:1vh;
+}
+
+.step2Game-images-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.step2Game-image {
+    max-width: 75%;
 }
 
 .step3Game {
@@ -917,6 +946,16 @@ body{
     position: relative;
 }
 
+.step3Game_nameDiv {
+    position: absolute;
+    top: 38%;
+    left: 19%;
+    width: 30%;
+    font-family: 'Spicy Rice';
+    z-index: 2;
+    text-align: center;
+}
+
 .statementsCard {
     display: flex;
     justify-content: center;
@@ -936,7 +975,7 @@ body{
 
 .statementsCard_information {
     position: absolute;
-    bottom: 7%;
+    top: 50%;
     width: 50%;
     z-index: 2;
 }
@@ -976,7 +1015,7 @@ body{
 }
 
 .checkbox_round:checked {
-    background-color: lightgreen;
+    background-color: grey;
 }
 
 .checkbox_label {
@@ -991,7 +1030,7 @@ body{
 input[type="checkbox"] {
     vertical-align:middle;
     margin-right: 1%;
-    margin-left: -18%;
+    margin-left: -16%;
 }
 
 .gamePage {
@@ -1010,6 +1049,21 @@ input[type="checkbox"] {
     align-items: center;
 }
 
+.step2Game_signature_text {
+    font-family: 'Spicy Rice';
+}
+
+.step2Game_img_not_selected {
+    opacity:0.3;
+}
+
+.step2Game_img_selected {
+    opacity:1;
+}
+
+.step2Game_img:hover {
+    cursor:pointer;
+}
 .gamePage_title_container > img {
     position: absolute;
     top: 10px;
