@@ -243,16 +243,18 @@ function start() {
                         let pourcent = 0
 
                         if (index >= 0) {
-                            pourcent = Math.ceil(parseFloat(CANDIDATS[nom_candidat].y[index]))
+                            pourcent = parseFloat(CANDIDATS[nom_candidat].y[index])
                         }
+                        let pourcent_min = Math.floor(pourcent);
+                        let pourcent_max = Math.ceil(pourcent);
 
                         // on prend en compte seulement les candidats dans les bornes
                         if (pourcent >= POURCENT_BORNE_MIN && pourcent <= POURCENT_BORNE_MAX){
-                            if (pourcent > max_pourcent){
-                                max_pourcent = pourcent;
+                            if (pourcent_max > max_pourcent){
+                                max_pourcent = pourcent_max;
                             }
-                            if (pourcent < min_pourcent){
-                                min_pourcent = pourcent;
+                            if (pourcent_min < min_pourcent){
+                                min_pourcent = pourcent_min;
                             }
                         }
                         
