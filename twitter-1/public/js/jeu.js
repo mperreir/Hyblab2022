@@ -203,7 +203,7 @@ function finJeu(score,total){
     jeu.appendChild(lescore);
 
     let commentaire= document.createElement('div');
-    commentaire.setAttribute("id", 'comment');
+    commentaire.setAttribute("id", 'commentaire');
     commentaire.style.color= "white";
     commentaire.style.fontSize = "20px";
     commentaire.style.marginTop = "5%";
@@ -224,14 +224,14 @@ function finJeu(score,total){
     console.log(score/total);
     if((score/total)<=0.5 || total === 0){
         console.log("here");
-        contentcom = document.createTextNode( "Vous avez raté quelques actus de la semaine. Pas de problèmes, remettez-vous à niveau en consultant les tweets qui ont le plus fait réagir." );
+        contentcom = document.createTextNode( "Vous avez raté quelques actus Twitter cette semaine. Pas de problèmes, remettez-vous à niveau en consultant les tweets qui ont le plus fait réagir." );
         contentappr = document.createTextNode( "OH OH..." );
     }else{
         if((score/total)<=0.75){
-            contentcom = document.createTextNode( "Vous êtes au top de l'actu de la semaine ! Découvrez plus de détails sur les thématiques qui font parler." );
+            contentcom = document.createTextNode( "Vous êtes au top de l'actu Twitter de la semaine ! Découvrez plus de détails sur les thématiques qui font parler." );
             contentappr = document.createTextNode( "BRAVO !");
         }else{
-            contentcom = document.createTextNode( "Vous êtes au top de l'actu de la semaine ! Restez à la page en consultant les tweets qui ont le plus fait réagir." );
+            contentcom = document.createTextNode( "Vous êtes au top de l'actu Twitter de la semaine ! Restez à la page en consultant les tweets qui ont le plus fait réagir." );
             contentappr = document.createTextNode( "QUEL EXPERT !!" );
         }
     }
