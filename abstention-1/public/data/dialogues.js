@@ -64,7 +64,7 @@ const dialogues = [
             {
                 "Personne": "Arthur",
                 //Données à rajouter dans ce dialogue
-                "Replique": "Bien joué. Comme promis, il y a **% de jeunes qui ne peuvent pas voter à Bordeaux car ils n’ont pas encore 18 ans. D’ailleurs, savais-tu qu’il n’y a pas que les jeunes qui ne peuvent pas voter ? Ma mère qui n’a pas la nationalité française n’a pas le droit non plus. Comme elle, l’ensemble des étrangers de Bordeaux soit **% de la population ne peuvent pas voter.",
+                "Replique": "Bien joué. Comme promis, il y a "+(Math.round(youngs_prop*100 * 100) / 100)+"% de jeunes qui ne peuvent pas voter à Bordeaux car ils n’ont pas encore 18 ans. D’ailleurs, savais-tu qu’il n’y a pas que les jeunes qui ne peuvent pas voter ? Ma mère qui n’a pas la nationalité française n’a pas le droit non plus. Comme elle, l’ensemble des étrangers de Bordeaux soit "+(Math.round(strangers_prop*100 * 100) / 100)+"% de la population ne peuvent pas voter.",
                 "Quiz": 0,
                 "PFC": 0
             },
@@ -227,7 +227,7 @@ const quiz = [
                 "Question": "Quelles sont les catégories socio-professionnelles qui s’abstiennent le plus en France ?",
                 "Personne": "M. Martin",
                 //Données à rajouter dans ce dialogue
-                "Reponse": "Les professions intermédiaires comme les professeurs d’école, les employés et les ouvriers sont souvent les plus nombreux à s’abstenir. Bien que ce ne soit pas forcément visible à l’échelle de Bordeaux, à l’échelle nationale, c'est le cas. 50% des personnes cadres se sont abtenues aux élections de 2017 en France contre 63% pour les professions intermédiaires par exemple. Les personnes qui ont un statut cadre ont ainsi davantage tendance à aller voter que les autres professions. Les retraités participent aussi beaucoup aux élections avec seulement 40% d’abstention en 2017 en France. L’abstention est donc influencée par les catégories socio-professionnelles des électeurs."
+                "Reponse": "Les professions intermédiaires comme les professeurs d’école, les employés et les ouvriers sont souvent les plus nombreux à s’abstenir. Bien que ce ne soit pas forcément visible à l’échelle de Bordeaux, à l’échelle nationale, c'est le cas. En effet, dans la zone d'influence de Bordeaux pour les villes à majorité d'étrangers, de professions intermédiaires, d'employés, d'ouvriers, de retraités ou encore de sans activités on compte respectivement "+(Math.round(abstention_by_category["ETRANGERS"]*100 * 100) / 100)+"%, "+(Math.round(abstention_by_category["PROF_INTERM_2017"]*100 * 100) / 100)+"%, "+(Math.round(abstention_by_category["EMPLOYES_2017"]*100 * 100) / 100)+"%, "+(Math.round(abstention_by_category["OUVRIERS_2017"]*100 * 100) / 100)+"%, "+(Math.round(abstention_by_category["RETRAITES_2017"]*100 * 100) / 100)+"% et "+(Math.round(abstention_by_category["SANS_ACTIV_2017"]*100 * 100) / 100)+"% d'abstention. Tandis qu'à l'échelle nationale, 50% des personnes cadres se sont abtenues aux élections de 2017 en France contre 63% pour les professions intermédiaires par exemple. Les personnes qui ont un statut cadre ont ainsi davantage tendance à aller voter que les autres professions. Les retraités participent aussi beaucoup aux élections avec seulement 40% d’abstention en 2017 en France. L’abstention est donc influencée par les catégories socio-professionnelles des électeurs."
             },
             {
                 "Id": 2,
@@ -251,7 +251,7 @@ const quiz = [
                 "Question": "Comment se passe l’étape d’inscription sur les listes électorales ?",
                 "Personne": "Nouvelle arrivante",
                 //Données à rajouter dans ce dialogue
-                "Reponse": "Depuis 2019, on est inscrit d’office à ses 18 ans si on a été recensé à ses 16 ans. Toutefois, lors d’un recensement tardif ou d’un déménagement dans une nouvelle commune comme c’est mon cas actuellement, il faut faire la démarche d'inscription soi-même."
+                "Reponse": "Depuis 2019, on est inscrit d’office à ses 18 ans si on a été recensé à ses 16 ans. Toutefois, lors d’un recensement tardif ou d’un déménagement dans une nouvelle commune comme c’est mon cas actuellement, il faut faire la démarche d'inscription soi-même. Par exemple, sur la zone d'influence de Bordeaux, on sait que "+(Math.round(tx_adults_unregistered*100 * 100) / 100)+"% des adultes ne sont pas inscrits sur les listes électorales."       
             },
             {
                 "Id": 2,
@@ -275,14 +275,14 @@ const quiz = [
                 "Question": "Observez-vous des différences en termes de niveau d’abstention entre les différents tours d’une élection ?",
                 "Personne": "M. le maire",
                 //Données à rajouter dans ce dialogue
-                "Reponse": "Effectivement, lors des dernières élections présidentielles en 2017 par exemple, on a remarqué à Bordeaux que l’abstention était plus forte lors du second tour."
+                "Reponse": "Effectivement, lors des dernières élections présidentielles en 2017 par exemple, on a remarqué à Bordeaux que l’abstention était plus forte lors du second tour. En effet, "+nb_towns_abs_sup_t2+" communes sur les "+nb_towns+" que compte la zone d'influence de Bordeaux ont compté plus d'abstentions au second tour."
             },
             {
                 "Id": 2,
                 "Question": "Observez-vous d’autres phénomènes intéressants lors des tours d’une élection ?",
                 "Personne": "M. le maire",
                 //Données à rajouter dans ce dialogue
-                "Reponse": "Si on se base sur les dernières élections présidentielles, on a aussi remarqué à Bordeaux que les nombres de votes blancs et de votes nuls étaient plus forts au second tour. Même si ces actes sont différents de l’abstention, ils montrent eux aussi une volonté de ne pas choisir de candidats parmi ceux présentés."
+                "Reponse": "Si on se base sur les dernières élections présidentielles, on a aussi remarqué à Bordeaux que les nombres de votes blancs et de votes nuls étaient plus forts au second tour. En effet, au second tour, parmi "+nb_towns+" communes que compte la zone d'influence de Bordeaux, "+nb_towns_blank_sup_t2+" ont compté plus de votes blancs tandis que "+nb_towns_null_sup_t2+" ont compté plus de votes nuls. Même si ces actes sont différents de l’abstention, ils montrent eux aussi une volonté de ne pas choisir de candidats parmi ceux présentés."
             },
             {
                 "Id": 3,
@@ -300,14 +300,14 @@ const quiz = [
                 "Question": "Les personnes retraitées s'abstiennent-elles beaucoup ?",
                 "Personne": "Mme Robert",
                 //Données à rajouter dans ce dialogue
-                "Reponse": "Non pas forcément, les retraités sont même plutôt les champions de la participation. Toutefois, passé un certain âge, l’abstention devient supérieure à la moyenne chez les personnes très âgées (42,7 % chez les 85 ans et plus lors du premier tour de 2017). A cet âge là, la politique ne les intéresse plus forcément."
+                "Reponse": "Non pas forcément, les retraités sont même plutôt les champions de la participation. En effet, sur la zone d'influence de Bordeaux on recense chez les retraités un taux d'abstention de "+(Math.round(abstention_by_age_range["65_79_ANS_2017"]*100 * 100) / 100)+"%.Toutefois, passé un certain âge, l’abstention devient supérieure à la moyenne chez les personnes très âgées (42,7 % chez les 85 ans et plus lors du premier tour de 2017). A cet âge là, la politique ne les intéresse plus forcément."
             },
             {
                 "Id": 2,
                 "Question": "Observe-t-on d’autres disparités selon l’âge des électeurs ?",
                 "Personne": "Mme Robert",
                 //Données à rajouter dans ce dialogue
-                "Reponse": "Oui en effet, le taux d’abstention est aussi élevé chez les plus jeunes avec un taux de 31,6 % chez les 25-29 ans au premier tour des élections présidentielles de 2017. Il reste faible entre 40 et 50 ans (12,3 %). Le niveau d’abstention peut donc varier selon l’âge des personnes."
+                "Reponse": "Oui en effet, le taux d’abstention est aussi élevé chez les plus jeunes avec un taux de 31,6 % chez les 25-29 ans au premier tour des élections présidentielles de 2017. Mais ces statistiques peuvent varier localement pour la même période. Dans ce sens, sur la zone d'influence de Bordeaux on recense chez les jeunes un taux d'abstention de "+(Math.round(abstention_by_age_range["25_39_ANS_2017"]*100 * 100) / 100)+"%. Il reste faible entre 40 et 50 ans (12,3 %). Le niveau d’abstention peut donc varier selon l’âge des personnes."
             },
             {
                 "Id": 3,
@@ -318,3 +318,12 @@ const quiz = [
         ]
     }
 ]
+
+//Test affichage en console des statistiques
+//console.log(dialogues[1]["Texte"][5]["Replique"]);
+//console.log(quiz[0]["Questions"][0]["Reponse"]);
+//console.log(quiz[1]["Questions"][0]["Reponse"]);
+//console.log(quiz[2]["Questions"][0]["Reponse"]);
+//console.log(quiz[2]["Questions"][1]["Reponse"]);
+//console.log(quiz[3]["Questions"][0]["Reponse"]);
+//console.log(quiz[3]["Questions"][1]["Reponse"]);
