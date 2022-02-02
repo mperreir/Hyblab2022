@@ -1,8 +1,15 @@
 
-class View {
+class DialogueView {
 
     constructor(){
     
+        this.go=document.querySelector('#go');
+        this.info=document.querySelector('#info');
+        this.popupInfo=document.querySelector('#popupPointInfo');
+        this.carnet=document.querySelector('#carnet');
+        this.popupcarnet=document.querySelector('#popupCarnet');
+        this.croix=document.querySelector('#croix');
+     
         this.dialoguePart=document.querySelector('#Dialogue');
         this.transitionPartPart=document.querySelector('#Transition');
 
@@ -24,7 +31,10 @@ class View {
 
         this.animation= document.querySelector('#animation');
 
-       
+        this.btnrecommencer=document.querySelector('#recommencer');
+        this.btnretour=document.querySelector('#retour');
+
+
     }
   }
   

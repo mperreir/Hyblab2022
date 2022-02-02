@@ -1,4 +1,4 @@
-class Update extends Observer{
+class DialogueObserver extends Observer{
     constructor(view){
       super();
       this.view=view;
@@ -8,7 +8,7 @@ class Update extends Observer{
       if(observable.getInitialisation()){
         // this.view.perso1.src = observable.getPerso1();
         // this.view.perso2.src = observable.getPerso2();
-        // this.view.nom.value=observable.getDescription();
+        this.view.nom.value=observable.getDescription();
       }
       this.view.texte.innerText = observable.getDialogue();
       if (observable.getNom()==="Charlie"){

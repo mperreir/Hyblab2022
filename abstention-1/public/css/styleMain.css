@@ -50,6 +50,180 @@ body{
     background-color: white;
     position: absolute;
 }
+/*-------------------Page d'accueil-----------------*/
+
+#logoVelo{
+    position:absolute;
+    left: 35%;
+    top:2.5%;
+    width: 60%;
+    height: 30%;
+    transform: scale(0.75,0.75);
+}
+#gifVelo{
+    width: 30%;
+    padding-top: 12.5%;
+    padding-left: 2.5%;
+}
+
+#logo{
+    width: 100%;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+    left: 0%;
+    top:46%;
+
+}
+
+#accueil h1,#accueil p {
+    margin: 0 auto;
+    width: 35vh;
+    color: #0600FF;
+
+}
+#accueil h1{
+    margin-top: 65%;
+    position: relative;
+}
+#accueil p{
+    margin-top: 3%;
+}
+
+#go{
+border : 1vh solid #E66E78;  
+    border-radius: 10em;
+    background-color: white;
+    color: #E66E78;
+    font-weight:bold ;
+    font-size: 80%;
+
+    margin-top: 13%;
+    width: 35vh;
+    height: 9vh;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+/*--------------Section intro--------------------*/
+#sujet{
+    opacity:1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 4;
+}
+#info{
+    width: 10%;
+    margin-left: 3%;
+    margin-top: 3%;
+
+}
+#SujetExpose{
+    border : 1vh solid #0600FF;  
+    border-radius: 2em;
+    width: 50vh;
+    height: 76vh;
+    color: #0600FF;
+    padding: 6%;
+    background-color: white;
+    transform:translate(16%) rotate(-10deg);
+    clip-path: polygon(0% 0%, 93.5% 0%, 68% 100%, 50% 100%, 0% 100%);
+
+}
+#SujetExpose h1{
+    margin:auto;
+    text-align:center;
+    font-size: 300%;
+    
+
+}
+#SujetExpose h2{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-decoration: underline;
+}
+
+#PieChart{
+position: absolute;
+width: 30%;
+height: auto;
+left:12%;
+bottom: 26%;
+}
+#BarChart{
+    position: absolute;
+    width: 30%;
+    height: auto;
+    right: 20%;
+    bottom: 13%;
+}
+#popupPointInfo{
+    opacity: 0;
+    width: 40vh;
+    height: 72vh;
+    top:13%;
+    left:10%;
+    position: absolute;
+    color: #29BA9B;
+    border : 1vh solid #29BA9B;  
+    border-radius: 2em;
+    padding: 3%;
+    background-color: white;
+   
+}
+#popupPointInfo p {
+margin-top: 10%;
+}
+/*--------------Section popup carnet----------------*/
+
+#popupCarnet{
+    opacity: 1;
+    z-index: 5;
+    width: 45vh;
+    height: 85vh;
+    top: 5%;
+    position: absolute;
+    border : 1vh solid #0600FF;  
+    background-color: white;
+    border-radius: 2em;
+    display: none;
+    left: 4.5%;
+    color: #0600FF;
+    padding: 4%;
+}
+#croix{
+right:10% ;
+top:10%;
+width: 12%;
+position: absolute;
+z-index: 2;
+}
+#anneaux{
+position: relative;
+width: 95%;
+top:-6%;
+left: 3%;
+}
+
+#popupCarnet h1{
+    position: relative;
+    width: 100%;
+    top:-5%;
+    font-size: 8vh;
+
+}
+#popupCarnet li{
+    font-size:6vh;
+}
+#popupCarnet ul{
+    margin-left: 10%;
+}
+
 
 /*--------------Section dialogue----------------*/
 #Dialogue{
@@ -64,6 +238,7 @@ body{
     position: fixed;
     z-index: 3;
     overflow: hidden;
+    display: block;
 }
 
 /*header*/
@@ -71,6 +246,7 @@ body{
     height: 10vh;
     margin: auto;
     padding: 2%;
+    z-index: 3;
 }
 .circle p{
     margin: auto; /* Important */
@@ -89,6 +265,8 @@ body{
     font-size: 60%;
   
   }
+
+  /*
   #cercle1{
       opacity: 1;
   }
@@ -104,7 +282,10 @@ body{
 #cercle5{
     opacity: 0.3;
 }
+
+*/
  #carnet{
+     opacity: 1;
      position: absolute;
      width: 5vh;
      height: auto;
@@ -115,13 +296,13 @@ body{
     margin-bottom: auto;
  }
 
- /*dialogue*/
+/*dialogue*/
 #personnage1{
 
     /*Charlie*/
     opacity: 1;
 
-   /* background-color: chartreuse;*/
+    /* background-color: chartreuse;*/
     /* background-image: url("../img/Charlie.svg");*/ 
     background-repeat: no-repeat;   
     background-size: contain;
@@ -139,7 +320,7 @@ body{
     opacity: 1;
 
     position:absolute;
-   /* background-color: pink;*/
+    /* background-color: pink;*/
     /* background-image: url("../img/Jeune.svg");*/
     background-position: 100% 0%;
     background-repeat: no-repeat;   
@@ -153,13 +334,14 @@ body{
     top:14vh; /*à changer à chaque perso*/
 
 }
+
 #textZone{
-position: absolute;
+    position: absolute;
     background-color: white;
     border : 1vh solid #0600FF;  
-    border-radius: 5%;
+    border-radius: 2em;
     width: 85%;
-    display: flex;
+    display: inline-block;
 
     height: calc(100vh/2.3);
     top:69.6vh;/*75vh*/
@@ -173,31 +355,29 @@ position: absolute;
 
 #Suite{
     opacity: 1;
-
-position: absolute;
-display: flex;
-
-vertical-align: center; 
+    position: absolute;
+    display: flex;
+    vertical-align: center; 
     height: 5vh;
     bottom: 5%;
     left: 40%;
     width: 10vh;
-
     z-index: 3;
- 
+    /*visibility: hidden;*/
+
 }
 #textDialogue{
-    position:absolute;
-    display: flex;
-    top:50%;
+    position:relative;
+    top:120px;
     background-color: #0600FF;
     border-radius: 6%;
     width: 85%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
-    height: 50%;
+    /*height: 50%;*/
     padding: 3%;
+    /*visibility: hidden;*/
     
 }
 #cercle{
@@ -208,10 +388,8 @@ vertical-align: center;
 }
 .boxnom{
     position:absolute;
-
-        background-color: #E66E78;
-        
-        border-radius: 60px / 50px;
+    background-color: #E66E78;
+    border-radius: 60px / 50px;
     left: 30%;
     top:3%;
     height: 5vh;
@@ -219,11 +397,10 @@ vertical-align: center;
 }
 .nom{
     margin-top: 2%;
-     text-align: center;
-    
-    
-
+    text-align: center;
 }
+
+
 /*Quiz*/
 #QuizZone{
     position:absolute;
@@ -248,7 +425,7 @@ vertical-align: center;
     width: calc(100 * 9vh / 16);
     height: 100vh; /*100vh*/
     top:0%;
-
+    display: block;  /*Permet de cacher les éléments*/
 }
 
 #animation{
@@ -269,7 +446,7 @@ lottie-player{
     opacity: 0;
 }
 
-.transition {
+.separator {
     height: 100vh;
 }
 
@@ -278,116 +455,223 @@ lottie-player{
     overflow: hidden;
 }
 
+.dialogue {
+    height: 150vh;
+}
+
+.lottie {
+    height: 200vh;
+}
+
 /*--------------Section Pierre Feuille Ciseaux--------------*/
 
 .box {
+    position: relative;
     display : flex;
     align-items : center;
     justify-content : center;
+    flex-direction: column;
     padding : 10px ;
-    opacity:0;
-  }
-  .box button {
-    padding : 10px;
+    bottom: 20%;
+    /*opacity:0;*/
+    visibility: hidden;
+}
+.box button {
+    padding : 15px 70px 15px 50px;
     margin : 10px;
-    border-radius : 3px;
+    border-radius : 10px;
     outline : none;
     border : none;
-    color : rgb(235, 215, 215);
-    background-color : blue;
+    color : white;
     cursor: pointer;
     transition : 0.2s;
-    z-index:3 ;
-  }
-  .box button:active {
+    z-index:3;
+    font-weight: bold;
+    font-size: large;
+    width: 220px;
+}
+
+.box button[id='Pierre']{
+    background-color : blue;
+}
+
+.box button[id='Feuille']{
+    background-color : #29BA9B;
+}
+
+.box button[id='Ciseaux']{
+    background-color : #E66E78;
+}
+
+.box button:active {
     transform : scale(0.97);
-  }
-  .resultat {
-    height : 50px;
+}
+.resultat {
+    position: relative;
+    display : flex;
+    flex-direction: row;
+    align-items : flex-start;
+    justify-content : center;
     text-align : center;
     font-weight: bold;
-    padding : 10px;
-    color:rgb(26, 27, 27);
-  }
-  
-  .no-clicky {
-      pointer-events:none;
-      z-index:4;
+    bottom : 80%;
+    color:white;
+    z-index: 3;
 }
-  
-  #game-header {
-    font-variant:small-caps;
-    letter-spacing:0.05em;
-    z-index: 4;
-  }
-  
-  
-  #game-board {
-    display:none;
-    position:absolute;
-    z-index: 4;
-  }
-  
-  #end-display {
-    display:none;
-    position:absolute;
-    top:5em;
-    z-index: 4;
-  }
-  
-  table {
-    border-collapse:collapse;
-  }
-  
-  td {
-    height:3em;
-    width:3em;
-    border:2px solid black;
-    text-align:center;
-    vertical-align:middle;
-    font-size:2em;
-    cursor:pointer;
-  }
-  
-  table tr:first-child td {border-top:0;}
-  
-  table tr:last-child td {border-bottom:0;}
-  
-  table tr td:first-child {border-left:0;}
-  
-  table tr td:last-child {border-right:0;}
-  
-  .endgame {
-    font-size:2em; 
-  }
-  
-  .selections {
-    display:none;
-    border-radius:1em;
-  }
-  
-  .char-btn {
-    height:3.5em;
-    width:3.5em;
-  }
-  
-  .fadeOut {
-    animation:leaving 100ms linear 1 alternate;
-  }
-  
-  @keyframes leaving {
-    from {
-      transform:scale(1);
-      opacity:1;
+
+img[id="Pierre"], img[id="Feuille"], img[id="Ciseaux"]{
+    width: 20%;
+	height: auto;
+    margin-left: 10px;
+}
+
+.resultat p{
+    padding: 10px 20px 10px 20px;
+    margin : 10px;
+    border-radius : 10px;
+    outline : none;
+    border : none;
+}
+
+.resultat p[id="Pierre"], .resultat p[id="Egalité"]{
+    background-color : #0600FF;
+}
+
+.resultat p[id="Feuille"], .resultat p[id="Gagné"]{
+    background-color : #29BA9B;
+}
+
+.resultat p[id="Ciseaux"], .resultat p[id="Perdu"]{
+    background-color : #E66E78;
+}
+
+.resultat p img{
+    width: 35%;
+	height: auto;
+}
+
+/*-------------------------Crédits-------------------*/
+#credit{
+    background-color: white;
+    color: #0600FF;
+    position: relative;
+    text-align: center;
+    padding: 10%;
+}
+#logoFin{
+margin-top: 10%;
+width: 96%;
+margin-bottom: 5%;
+}
+
+#credit p{
+text-align: left;
+margin-top: 10%;
+}
+
+#logoCredits{
+    display:inline-block;
+    margin-top: 20%;
+}
+
+
+
+.logoFin{
+
+    margin-bottom: 7%;
+}
+
+
+/*logos*/
+#AGR{
+width: 20%;
+margin-right: 5%;
+
+}
+#polytech{
+    width: 25%;
+}
+#ouestMedialab{
+    width: 40%;
+    margin-left: 5%;
+
+}
+#Hyblab{
+    width: 50%;
+    margin-right: 8%;
+
+
+}
+#Hyblab2022{
+    width: 30%;
+        margin-left: 9%;
+
+
+}
+#logo_nantesmetropole{
+    width: 45%;
+    margin-right: 2.5%;
+
+
+}
+#NantesUniv{
+    width: 45%;
+    margin-left: 2.5%;
+
+}
+#logo_pdl{
+    width: 45%;
+    margin-right: 5%;
+
+
+}
+#cc{
+    width: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+#opensource{
+    width: 15%;
+    margin-left: 5%;
+}
+
+a{
+    color: #0600FF;
+}
+
+
+/*boutons*/
+#menuFin button{
+margin-top: 20%;
+height: 5vh;
+font-weight: bold;
+color: white;
+background-color: #0600FF;
+border : 1vh solid #0600FF;  
+
+ border-radius: 10em;
+ font-size: 80%;
+
+}
+
+#recommencer{
+    width: 50%;
+    margin-left: 3%;
+
+
+}
+
+#retour{
+    width: 40%;
+    margin-right: 3%;
+
+
+}
+#souces{
+    margin-top: 10%;
+}
+#souces p{
+    text-align: left;
+    margin-top: 7%;
     }
-    
-    to {
-      transform:scale(0);
-      opacity:0;
-    }
-  }
-  
-  @keyframes sliding {
-    from {top:-5em;}
-    to {top: 0;}
-  }

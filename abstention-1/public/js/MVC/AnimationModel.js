@@ -7,7 +7,7 @@ class AnimationModel extends Observable {
      * @param {Object} actions.keyframes Voir animation.js pour plus de détails
      * @param {string} actions.player nom / id / class de l'HTMLElement sur lequel appliquer l'animation
      */
-     constructor(container, actions, dialogueControler) {
+     constructor(container, actions, dialogueControler = undefined) {
         super();
         // Partie transition
         this.container = document.querySelector(container);
@@ -19,9 +19,10 @@ class AnimationModel extends Observable {
 
         this.scroll = undefined;
         this.currentActions = undefined;
-        this.dialogueStartScrollValue = 0.4;
+        this.startScrollValueRelative = 0.5;
         this.dialogueDone = false;
         this.dialogueStarted = false;
+        this.startScrollValueAbsolute = undefined;
 
         this.dialogueControler = dialogueControler;
         this.modelChanged = false;
@@ -30,9 +31,8 @@ class AnimationModel extends Observable {
     
     updateScroll(){
         this.scroll = this.getContainerVisibility();
-
         // On s'assure que le dialogue commence a apparaitre avant de pouvoir intéragir avec
-        if(!this.modelChanged && this.scroll > 0.1) {
+        if(this.dialogueControler && !this.modelChanged && this.scroll > 0.1) {
             this.dialogueControler.loadNextModel();
             this.modelChanged = true;
         }
@@ -45,7 +45,7 @@ class AnimationModel extends Observable {
             ({ visibility }) => this.scroll >= visibility[0] && this.scroll <= visibility[1],
         )
 
-        if (this.currentActions !== []) {
+        if (this.currentActions.length !== 0) {
             this.setChanged();
         }
 
@@ -75,19 +75,20 @@ class AnimationModel extends Observable {
     }
 
     canStartDialogue(){
-        return !this.dialogueStarted && !this.dialogueDone && this.scroll > this.dialogueStartScrollValue;
+        return this.dialogueControler && !this.dialogueStarted && !this.dialogueDone && this.scroll > this.startScrollValueRelative;
     }
 
     startDialogue(){
-        document.getElementById("SequencesAnimation").classList.add("stop-scroll");
         this.dialogueStarted = true;
+        this.startScrollValueAbsolute = window.scrollY;
+        console.log(window.scrollY);
+        document.getElementById("SequencesAnimation").classList.add("stop-scroll");
     }
 
     finishDialogue(){
         document.getElementById("SequencesAnimation").classList.remove("stop-scroll");
         this.dialogueDone = true;
-        console.log(this.container.getBoundingClientRect().top);
-        window.scrollTo(0, this.container.getBoundingClientRect().top);
+        window.scrollTo(0, this.startScrollValueAbsolute);
     }
 
 }
