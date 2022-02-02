@@ -17,6 +17,7 @@
 
 }
 
+
 .sms {
     position: relative;
     border: 2px solid #1028fd;
@@ -143,7 +144,7 @@
     width: 90%;
     border-radius: 10px;
     padding:  4% 4% 5% 4%;
-
+    cursor: pointer;
 }
 
 .sms-slider-input {
@@ -181,6 +182,7 @@
     font-family: 'CabinetGrotesk-regular';
     font-size: 1.8em;
     color: #e4e5fa;
+    cursor: pointer;
 }
 
 .sms-button:active {
@@ -267,6 +269,34 @@
     border-bottom : 28px solid #e4e5fa;
 }
 
-/* .sms-not-displayed {
-    display: none;
-} */
+
+.sms-tread-btn, .sms-tread-btn:focus {
+    position: absolute;
+    bottom: 8%;
+    right: 8%;
+    width: 14%;
+    aspect-ratio: 1;
+    outline: 0;
+    background-color: #e4e5fa;
+    border-radius: 100%;
+    border: 0;
+    background-image: url('../img/fleche-sms.svg');
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+
+@media not all and (hover: none) {
+   .sms-tread-btn:hover {
+    background-color: #c0c3ff;
+   } 
+}
+
+.sms-tread-btn:active{
+    background-color: #c0c3ff;
+
+}
+
+.sms-tread-btn:disabled {
+   opacity: 30%;
+}
+

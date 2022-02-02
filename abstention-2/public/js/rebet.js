@@ -33,14 +33,14 @@ async function loadRebet() {
             sender: 'THOMAS',
             message: 'J’aurai fais pareil. Alors tu parierais sur combien? <br/> PS: Je mange saignant mon steak',
             id: "sms-keep-percentage-answer",
-            style: 'sms-top sms-left sms-not-displayed'
+            style: 'sms-top sms-left '
         },
         {
             type: 'sms',
             sender: 'THOMAS',
             message: 'D’accord on reste sur ça alors ;) J’aurai fais pareil.<br/>PS : Je mange saignant mon steak',
             id: "sms-change-percentage-answer",
-            style: 'sms-bottom sms-left sms-not-displayed',
+            style: 'sms-bottom sms-left ',
         },
         {
             type: 'number',
@@ -62,100 +62,100 @@ async function loadRebet() {
     container.innerHTML = headerHtml;
     date();
 
-    let screenHtml = await loadTemplate('templates/sms/sms_tread.ejs', {});
+    let screenHtml = await loadTemplate('templates/sms/sms_tread.ejs', []);
     document.getElementById('screen').innerHTML = screenHtml;
 
-    let smsTread = document.getElementById('sms-tread');
-    let smsHtml;
+    let smsTreadBtnHtml = await loadTemplate('templates/sms/sms_tread_button.ejs', []);
+    document.getElementById('screen').insertAdjacentHTML('beforeend', smsTreadBtnHtml);
 
-    const delay = 1000;
+    let smsTread = document.getElementById('sms-tread');
     let displayedSMSIndex = 0;
 
-    for (const message of messages) {
-        if (message.type === 'slider') {
-            smsHtml = await loadTemplate('templates/sms/slider.ejs', {});
-            smsTread.insertAdjacentHTML('beforeend', smsHtml);
-            handleSlider();
-        }
-        else if (message.type === 'button') {
-            smsHtml = await loadTemplate('templates/sms/button.ejs', message);
-            smsTread.insertAdjacentHTML('beforeend', smsHtml);
-        }
-        else if (message.type === 'number') {
-            smsHtml = await loadTemplate('templates/sms/number.ejs', message);
-            smsTread.insertAdjacentHTML('beforeend', smsHtml);
-        }
-        else {
-            smsHtml = await loadTemplate('templates/sms/sms.ejs', message);
-            smsTread.insertAdjacentHTML('beforeend', smsHtml);
-        }
-    }
+    await createSMSElements(messages, smsTread);
+    let smsTreadButton = document.getElementById("sms-tread-btn");
+
+    displaySMS();
+
+    smsTreadButton.addEventListener("click", displaySMS);
 
 
-    let displayedSMSInterval = setInterval(displaySMS, delay);
-
-    setTimeout(() => { pauseDisplaySMS() }, delay * 4);
 
     function displaySMS() {
-        console.log(smsTread.children.item(displayedSMSIndex));
         smsTread.children.item(displayedSMSIndex).style.visibility = 'visible';
-        displayedSMSIndex++;
-        if (displayedSMSIndex === messages.length) {
-            clearInterval(displayedSMSInterval);
+        if (displayedSMSIndex === 2) {
+            smsTread.children.item(displayedSMSIndex).style.visibility = 'visible';
+            smsTread.children.item(displayedSMSIndex + 1).style.visibility = 'visible';
+            displayedSMSIndex++;
+            smsTreadButton.disabled = true;
         }
-    }
+        else if (displayedSMSIndex === 4) {
+            smsTreadButton.disabled = true;
+            anime({
+                targets: '.sms-tread>*',
+                easing: 'easeInOutQuart',
+                duration: 1000,
+                translateY: "-=" + (getTranslateYSMS(smsTread, displayedSMSIndex) / 2),
+                complete: () => {
+                    smsTreadButton.disabled = false;
+                }
+            });
+            displayedSMSIndex++;
+        } else if (displayedSMSIndex === 6) {
+            smsTreadButton.disabled = true;
+            smsTread.children.item(displayedSMSIndex + 1).style.visibility = 'visible';
+            smsTread.children.item(displayedSMSIndex + 2).style.visibility = 'visible';
+            anime({
+                targets: '.sms-tread>*',
+                easing: 'easeInOutQuart',
+                duration: 1000,
+                translateY: "-=" + (getTranslateYSMS(smsTread, displayedSMSIndex) + getTranslateYSMS(smsTread, displayedSMSIndex + 1) + getTranslateYSMS(smsTread, displayedSMSIndex + 2)),
+            });
+            displayedSMSIndex++;
+            displayedSMSIndex++;
+        } else if (displayedSMSIndex > 4) {
+            smsTreadButton.disabled = true;
+            anime({
+                targets: '.sms-tread>*',
+                easing: 'easeInOutQuart',
+                duration: 1000,
+                translateY: "-=" + getTranslateYSMS(smsTread, displayedSMSIndex),
+                complete: () => {
+                    if (displayedSMSIndex !== 9) {
+                        smsTreadButton.disabled = false;
 
-    function pauseDisplaySMS() {
-        clearInterval(displayedSMSInterval);
+                    }
+                }
+            });
+        }
+        displayedSMSIndex++;
     }
 
     document.getElementById('change-percentage-btn').addEventListener('click', async () => {
-        displayedSMSInterval = setInterval(displaySMS, delay);
         document.getElementById('change-percentage-btn').disabled = true;
         document.getElementById('keep-percentage-btn').disabled = true;
         document.getElementById('change-percentage-btn').style.opacity = "50%";
 
-        document.getElementById('sms-change-percentage-answer').style.display = "none";
 
-        anime({
-            targets: '.sms-tread>*',
-            easing: 'easeInOutQuart',
-            duration: delay * 3,
-            delay: delay,
-            keyframes: [
-                { translateY: '-=' + getTranslateYSMS(smsTread, 0) },
-                { translateY: '-=' + getTranslateYSMS(smsTread, 1) },
-                { translateY: '-=' + getTranslateYSMS(smsTread, 2) },
-            ],
-        })
+        document.getElementById('sms-change-percentage-answer').style.display = "none";
+        displaySMS();
     });
 
     document.getElementById('keep-percentage-btn').addEventListener('click', async () => {
-        // displayedSMSInterval = setInterval(displaySMS, delay / 3);
-        displaySMS();
-        displaySMS();
-        // setTimeout(() => { pauseDisplaySMS() }, delay / 3 + 1);
-        setTimeout(() => { loadFileExplorer() }, delay * 3);
 
         document.getElementById('keep-percentage-btn').disabled = true;
         document.getElementById('change-percentage-btn').disabled = true;
 
         document.getElementById('keep-percentage-btn').style.opacity = "50%";
 
-        document.getElementById('sms-keep-percentage-answer').style.display = "none";
+        smsTreadButton.removeEventListener("click", displaySMS());
+        smsTreadButton.addEventListener("click", () => {
+            loadFileExplorer();
+        });
 
-        anime({
-            targets: '.sms-tread>*',
-            easing: 'easeInOutQuart',
-            duration: delay,
-            keyframes: [
-                { translateY: '-=' + getTranslateYSMS(smsTread, 0) },
-            ],
-        })
     });
 
-    document.getElementById('submit-percentage-btn').addEventListener('click', async () => {
-        percentageBet = document.getElementById("submit-percentage-btn").value;
+    document.getElementById('submit-percentage-btn').addEventListener('click', async (e) => {
+        percentageBet = document.getElementById("sms-slider-input").value;
         loadFileExplorer();
     });
 }

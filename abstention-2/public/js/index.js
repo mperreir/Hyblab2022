@@ -49,8 +49,10 @@ function date() {
     const date = document.getElementById('header-date');
 
     let text = new Date();
-    setInterval(() => {
-        text = new Date();
+
+    window.setInterval(() => {
+        text = new Date()
+
     }, 60000);
     let dateContent;
     if (text.getHours < 10) {
@@ -99,8 +101,7 @@ async function fetchCityData(city) {
 
 
 
-//loadPresVille();
-loadTopSecret();
+
 
 
 async function loadTemplate(path, data) {
