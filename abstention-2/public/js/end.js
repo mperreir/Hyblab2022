@@ -102,8 +102,7 @@ async function loadEnd() {
                     }
                 }
             });
-        }
-        else if (displayedSMSIndex > 2 && displayedSMSIndex !== 6) {
+        } else if (displayedSMSIndex > 2) {
             smsTreadButton.disabled = true;
             anime({
                 targets: '.sms-tread>*',
@@ -118,8 +117,10 @@ async function loadEnd() {
                 }
             });
         }
+        if (displayedSMSIndex === 5) {
+            smsTreadButton.style.display = "none";
+        }
         console.log(displayedSMSIndex);
-        console.log(smsTread.children.item(displayedSMSIndex));
 
         displayedSMSIndex++;
     }
