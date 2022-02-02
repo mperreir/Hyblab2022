@@ -475,6 +475,12 @@ th, td {
     }
 }
 
+#comment{
+    margin-top : 6%;
+    text-align : center;
+    text-decoration: underline;
+    font-size : 120%;
+}
 
 #fourth-slide{
     background-color: #fff;
