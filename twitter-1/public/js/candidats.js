@@ -140,7 +140,7 @@ const initSlide3 = async function () {
             image1.setAttribute("class","rotateimg320");
             image1.style.width="30%";
             image1.style.position = "absolute";
-            image1.style.top = "80%";
+            image1.style.top = "82%";
             image1.style.left = "5%";
             image1.style.zIndex = "5";
             image.appendChild(image1);
