@@ -102,7 +102,7 @@ app.get('/randomQuestion/:theme', function (req, res) {
     }
 
     res.send({
-        questionPart1: `Sur le sujet de ${wordsTheme(req.params.theme)},<br>qui tweet autant que `,
+        questionPart1: `Sur le sujet de ${wordsTheme(req.params.theme)},<br>qui tweete autant que `,
         questionPart2: ' ?',
         wordsTheme: wordsTheme(req.params.theme),
         mainCandidat,
