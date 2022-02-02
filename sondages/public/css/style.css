@@ -363,7 +363,7 @@ header .routeDebut {
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 100vw;
+    width: 100%;
     height: 12.5vh;
     border-top-left-radius: 7.5vh;
     border-top-right-radius: 7.5vh;
@@ -460,7 +460,8 @@ footer p {
 /* as long as the screen aspect ratio is below 9:16 */
 
 @media screen and (max-aspect-ratio: 9/16) {
-    #container {
+    #container,
+    #race {
         width: 100vw;
         min-height: calc(100 * 16vw / 9);
     }
@@ -473,7 +474,8 @@ footer p {
 /* as long as the screen aspect ratio is higher than 9:16 */
 
 @media screen and (min-aspect-ratio: 9/16) {
-    #container {
+    #container,
+    #race {
         min-height: 100vh;
         width: calc(100 * 9vh / 16);
         margin: 0 auto;
