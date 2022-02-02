@@ -17,6 +17,7 @@ page('/communes-2/information', async function () {
     // chargement de la visualisation
     let nom_commune = "Libellé de la commune";
     let communeCourante = JSON.parse(localStorage.getItem('gameData')).communePrecedente.libelleCommune;
+    console.log(communeCourante);
 
     let remplacer_virgule_par_point = function(decimal) {
         return parseFloat((decimal+"").replace(",","."));
@@ -57,9 +58,11 @@ page('/communes-2/information', async function () {
 
     dataSet = data_Nom_Voix(dat,communeCourante);
     data2t = data_Nom_Voix_2T(data2,communeCourante);
+    console.log(data2t[0]);
 
     pie();
     histo();
+
 
     //Info commune tour1
     const info1 = document.querySelector("#sous_titre1");
@@ -82,6 +85,7 @@ page('/communes-2/information', async function () {
     li5.innerHTML = `Nombre de bulletins nuls : ${dataSet[0].NulsCommune}`;
     li6.innerHTML = `Nombre de bulletins exprimés : ${dataSet[0].ExprimésCommune}`;
 
+
     info1.appendChild(ul);
     ul.appendChild(li7);
     ul.appendChild(li1);
@@ -91,7 +95,7 @@ page('/communes-2/information', async function () {
     ul.appendChild(li5);
     ul.appendChild(li6);
     
-    //Info commune tour2
+//Info commune tour2
     const info2 = document.querySelector("#sous_titre2");
     const  ul2 = document.createElement("ul");
     const  li21 = document.createElement("li");
@@ -110,6 +114,7 @@ page('/communes-2/information', async function () {
     li25.innerHTML = `Nombre de bulletins nuls : ${data2t[0].NulsCommune}`;
     li26.innerHTML = `Nombre de bulletins exprimés : ${data2t[0].ExprimésCommune}`;
 
+
     info2.appendChild(ul2);
     ul2.appendChild(li21);
     ul2.appendChild(li22);
@@ -118,12 +123,18 @@ page('/communes-2/information', async function () {
     ul2.appendChild(li25);
     ul2.appendChild(li26);
 
+
+
     document.getElementById("continue-btn").addEventListener('click', function () {
         page('/communes-2/affirmation');
-    }); 
+    });
+
+
+    
 });
 
 function histo() {
+
     const margin = 20;
     const width = 330 - 2 * margin;
     const height = 250 - 2 * margin;
@@ -136,6 +147,7 @@ function histo() {
         .attr("width", width + margin )
         .attr("height", height +  6 * margin)
         .attr('transform', `translate(${margin}, ${margin - 20})`)
+        
 
     const chart = svg.append('g')
     .attr('transform', `translate(${margin*1.2}, ${margin * 2})`)
@@ -202,7 +214,7 @@ function histo() {
       .attr('class', 'value')
       .attr('x', (a) => xScale(a.NomC) + xScale.bandwidth() / 2)
       .attr('y', (a) => yScale(a.Voix))
-      .style('font-size', '7px')
+      .style('font-size', '10px')
       .attr('text-anchor', 'middle')
       .text((a) => `${a.Voix}%`)
 
@@ -215,18 +227,12 @@ function histo() {
       .attr('text-anchor', 'middle')
       .text(`${dataSet[0].Commune}`)
 
-    /*svg.append('text')
-      .attr('class', 'label')
-      .attr('x', -(height/1.5))
-      .attr('y', margin / 5 )
-      .style('font-size', '10px')
-      .attr('transform', 'rotate(-90)')
-      .attr('text-anchor', 'middle')
-      .text(' % de voix')*/
 }
 
 function pie(){
+
     let col = ["#ED6464","#83C49E"]; 
+
     const size = 300;
     const fourth = size / 4;
     const half = size / 2;
@@ -265,7 +271,8 @@ function pie(){
             .append('path')
             .attr('fill', d => color(d.value))
             .attr('stroke', 'white')
-            .attr('d', arc);
+            .attr('d', arc)
+
 
     const labels = plotArea.selectAll('text')
         .data(arcs)
@@ -280,13 +287,5 @@ function pie(){
           .attr('y', '0.01em')
           .attr('x', 0)
           .text(d => `${d.data.Nom2T} (${d.value}%)`);
-
-    chart.append('text')
-          .attr('class', 'title')
-          .attr('x', size/2)
-          .attr('y', 40)
-          .style('font-size', '18px')
-          .attr('text-anchor', 'middle')
-          .text(`${dataSet[0].Commune}`);  
 
 }

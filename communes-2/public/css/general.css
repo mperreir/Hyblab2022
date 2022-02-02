@@ -238,18 +238,23 @@ body{
 }
 
 #tour{
+    background-color: #ED6464;
+    border: solid #ED6464;
     font-size: 20%;
     font-family: "Bebas Neue";
     text-align: center;
 }
 
 #tour2{
-    left: 18%;
+    padding-left: 18.75%;
+    background-color: #ED6464;
+    border: solid #ED6464;
     font-size: 23%;
     font-family: "Bebas Neue";
     text-align: center;
     position: absolute;
     top: 5%;
+    padding-right: 18.75%;
 }
 
 
@@ -261,14 +266,12 @@ body{
 }
 
 #pie_box{
-    height:30%;
     position: absolute;
     bottom: 18%;
 
 }
 
 #pictoSuivant{
-
     width: 10%;
     margin-left: 7px;
 }
@@ -289,5 +292,9 @@ body{
 
 #pie_chart{
     height: 210px;
+}
+
+#sous{
+    margin: 0 15px;
 }
 
