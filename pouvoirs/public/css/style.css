@@ -324,18 +324,14 @@ b {
   background: white;
 }
 
-#bulle-container-pm {
-  opacity: 0;
-}
-
-#bulle-container-moua {
+#bulle-container-pm, #bulle-container-moua {
   opacity: 0;
 }
 
 #bulle-moua {
   position: absolute;
   width: 85%;
-  right: 5.5%;
+  left: 5.5%;
   top: 17%;
 }
 
@@ -343,7 +339,7 @@ b {
   position: absolute;
   width: 85%;
   left: 5.5%;
-  top: 32%;
+  top: 36%;
 }
 
 #p2 p {
@@ -352,6 +348,7 @@ b {
   position: absolute;
   width: 68%;
   z-index: 2;
+  text-align: left;
 }
 
 #bulle-container-moua p {
@@ -360,13 +357,14 @@ b {
 }
 
 #bulle-container-pm p {
-  top: 34%;
+  top: 38%;
   left: 16%;
 }
 
 #p2 b {
   font-family: "Nunito";
   font-weight: 800;
+  text-align: left;
 }
 
 #drawing-container {
@@ -430,10 +428,10 @@ b {
 #interest-point {
   display: none;
   position: absolute;
-  top: 50%;
-  right: 5%;
+  top: 70%;
+  right: 36%;
   z-index: 10;
-  width: 12%;
+  width: 30%;
   height: auto;
   -webkit-animation: blink 2s;
   -webkit-animation-iteration-count: infinite;
