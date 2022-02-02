@@ -956,6 +956,13 @@ body{
     text-align: center;
 }
 
+.step3Game_warning {
+    position: absolute;
+    right: -12%;
+    width: 25%;
+    z-index: 3;
+}
+
 .statementsCard {
     display: flex;
     justify-content: center;

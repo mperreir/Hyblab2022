@@ -17,6 +17,9 @@ class StatementsCard extends React.Component {
                                     <input type="checkbox" className="checkbox_round" id={this.props.profile.id+"-"+key} name={key} key={key} checked={value.valid} onChange={() => this.props.select(this.props.profile.id, key)}/>
                                     {value.statement}
                                 </label>
+                                <div hidden={!value.error}>
+                                    <img className='step3Game_warning' style={{top: -5+key*25+"%"}} src='img/warning.svg'/>
+                                </div>
                             </div>)
                         }, this)
                     }

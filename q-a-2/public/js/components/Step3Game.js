@@ -13,10 +13,11 @@ class Step3Game extends React.Component {
                     },
                 }
             }, {});
-    
+
             Object.entries(profilesState).forEach(([nameId, info]) => {
-                Object.entries(info.gameInfo).forEach(([key, sInfo]) => {
+                Object.entries(info.gameInfo).map(([key, sInfo]) => {
                     sInfo.valid = true;
+                    sInfo.error = false;
                 })
             });
     
@@ -31,8 +32,14 @@ class Step3Game extends React.Component {
             });
         } else {
             this.state = this.props.game.data;
+
+            Object.entries(this.state).forEach(([nameId, info]) => {
+                Object.entries(info.gameInfo).map(([key, sInfo]) => {
+                    const candidateStatement = Object.values(stepsCandidates["3"].find(c => c.nameId === nameId).stepThreeGame.statements).find(s => s.statement === sInfo.statement);
+                    if (candidateStatement.valid !== sInfo.valid) sInfo.error = true;
+                })
+            });
         }
-        
     }
 
     componentDidMount() {
@@ -65,7 +72,7 @@ class Step3Game extends React.Component {
         return Object.entries(tmpState).map(([nameId, info]) => {
             return Object.values(info.gameInfo).map(({statement, valid}) => {
                 const candidateStatement = Object.values(stepsCandidates["3"].find(c => c.nameId === nameId).stepThreeGame.statements).find(s => s.statement === statement);
-                return ((valid && candidateStatement.valid) || (!valid && !candidateStatement.valid));
+                return (valid === candidateStatement.valid);
             }).reduce((previous, current) => {
                 return (previous && current);
             }, true);
