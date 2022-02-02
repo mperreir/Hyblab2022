@@ -35,7 +35,7 @@ async function Suivant(temps,score,total) {
     let timerElement = document.getElementById("timer")
     let interval = setInterval(() => {
         let minute = Math.floor(temps / 60);
-        let secondes = temps % 60;
+        let secondes = Math.floor(temps % 60);
 
         secondes = secondes < 10 ? "0" + secondes : secondes
 
@@ -56,12 +56,13 @@ async function Suivant(temps,score,total) {
     div.style.left = "5%";
     div.style.width = "75%";
     div.style.minHeight = "100px";
+    div.style.maxHeight = "35%";
     div.style.marginLeft = "7%";
     div.style.overflow = "hidden";
     div.style.background="none";
     div.style.marginTop = "5%";
     div.style.padding = "5px";
-    div.style.fontSize = "100%";
+    div.style.fontSize = "90%";
     div.style.display = "flex";
     div.style.justifyContent = "center";
     div.style.alignItems = "center";
@@ -155,6 +156,7 @@ function Reponse(button, is_success, temps, interval, score, total){
     jeu.removeChild(reponse);
     
     clearInterval(interval);
+    temps = temps-0.5;
     Suivant(temps, score,total);
 
 }
@@ -202,7 +204,7 @@ function finJeu(score,total){
     jeu.appendChild(lescore);
 
     let commentaire= document.createElement('div');
-    commentaire.setAttribute("id", 'comment');
+    commentaire.setAttribute("id", 'commentaire');
     commentaire.style.color= "white";
     commentaire.style.fontSize = "20px";
     commentaire.style.marginTop = "5%";
@@ -223,14 +225,14 @@ function finJeu(score,total){
     console.log(score/total);
     if((score/total)<=0.5 || total === 0){
         console.log("here");
-        contentcom = document.createTextNode( "Vous avez raté quelques actus de la semaine. Pas de problèmes, remettez-vous à niveau en consultant les tweets qui ont le plus fait réagir." );
+        contentcom = document.createTextNode( "Vous avez raté quelques actus Twitter cette semaine. Pas de problèmes, remettez-vous à niveau en consultant les tweets qui ont le plus fait réagir." );
         contentappr = document.createTextNode( "OH OH..." );
     }else{
         if((score/total)<=0.75){
-            contentcom = document.createTextNode( "Vous êtes au top de l'actu de la semaine ! Découvrez plus de détails sur les thématiques qui font parler." );
+            contentcom = document.createTextNode( "Vous êtes au top de l'actu Twitter de la semaine ! Découvrez plus de détails sur les thématiques qui font parler." );
             contentappr = document.createTextNode( "BRAVO !");
         }else{
-            contentcom = document.createTextNode( "Vous êtes au top de l'actu de la semaine ! Restez à la page en consultant les tweets qui ont le plus fait réagir." );
+            contentcom = document.createTextNode( "Vous êtes au top de l'actu Twitter de la semaine ! Restez à la page en consultant les tweets qui ont le plus fait réagir." );
             contentappr = document.createTextNode( "QUEL EXPERT !!" );
         }
     }
@@ -287,8 +289,10 @@ function finJeu(score,total){
     partager.setAttribute("id", "partager");
     partager.setAttribute("class", "btn-end-game");
     partager.addEventListener('click', () => { 
-        window.open("https://twitter.com/");
+        url = "https://twitter.com/intent/tweet?text=J%27ai%20eu%20"+score+"%20sur%20"+total+"%20en%20jouant%20%C3%A0%20%23PlayLys%C3%A9e%20!!%0AToi%20aussi%20apprends%20en%20plus%20sur%20les%20actualit%C3%A9s%20Twitter%20des%20candidats%20%C3%A0%20la%20pr%C3%A9sidentielle%20!%0A%40LeTelegramme"
+        window.open(url);
     });
+
 
     btn_action_jeu.appendChild(rejoue);
     btn_action_jeu.appendChild(goTopTweets);
@@ -315,7 +319,7 @@ function clear(){
     timer.setAttribute("id", 'timer');
     jeu.appendChild(timer);
 
-    (() => Suivant(60,0,0))();
+    (() => Suivant(45,0,0))();
 
 }
 
