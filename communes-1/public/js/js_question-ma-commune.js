@@ -58,15 +58,18 @@ reponse1.addEventListener('click', () => {
 	if(question_data[1][1])
 	{
 		localStorage.setItem("vies_joueur",(parseInt(localStorage.getItem("vies_joueur"))+1).toString());
-		window.location.href = 'anjoute-joute-win.html';
 	}
-	else if(parseInt(localStorage.getItem("vies_joueur")) == 0)
+	if(parseInt(localStorage.getItem("vies_joueur")) === 0)
 	{
 		window.location.href = 'anjoute-fini-question.html';
 	}
 	else if(parseInt(localStorage.getItem("question")) >= 11)
 	{
 		window.location.href = 'anjoute-victoire.html';
+	}
+	else if(question_data[1][1])
+	{
+		window.location.href = 'anjoute-joute-win.html';
 	}
 	else {
 		window.location.href = 'anjoute-oups.html';
@@ -78,15 +81,17 @@ reponse2.addEventListener('click', () => {
 	localStorage.setItem("position_joueur",(parseInt(localStorage.getItem("position_joueur"))+1).toString());
 	if(question_data[2][1]) {
 		localStorage.setItem("vies_joueur",(parseInt(localStorage.getItem("vies_joueur"))+1).toString());
-		window.location.href = 'anjoute-joute-win.html';
 	}
-	else if(parseInt(localStorage.getItem("vies_joueur")) == 0)
+	if(parseInt(localStorage.getItem("vies_joueur")) === 0)
 	{
 		window.location.href = 'anjoute-fini-question.html';
 	}
 	else if(parseInt(localStorage.getItem("question")) >= 11)
 	{
 		window.location.href = 'anjoute-victoire.html';
+	}
+	if(question_data[2][1]) {
+		window.location.href = 'anjoute-joute-win.html';
 	}
 	else {
 		window.location.href = 'anjoute-oups.html';
