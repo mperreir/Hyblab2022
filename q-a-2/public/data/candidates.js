@@ -13,13 +13,8 @@ const candidates = [
             "valid": true
         },
         "stepTwoGame" : {
-            "signatures": 500,
             "valid": true,
-            "x": 205,
-            "y": 50,
-            "fontsize": "200%",
-            "rotate": "rotate(23)",
-            "scale": "scale(1)"
+            "scale":"scale(0.8)",
         },
         "stepThreeGame": {
             "statements": [],
@@ -48,13 +43,8 @@ const candidates = [
             "valid": true
         },
         "stepTwoGame" : {
-            "signatures": 500,
             "valid": true,
-            "x": 160,
-            "y": -20,
-            "fontsize": "160%",
-            "rotate": "rotate(30)",
-            "scale": "scale(1.2)"
+            "scale": "scale(1)",
         },
         "stepThreeGame": {
             "statements": [],
@@ -83,13 +73,8 @@ const candidates = [
             "valid": true
         },
         "stepTwoGame" : {
-            "signatures": 500,
             "valid": true,
-            "x": 10,
-            "y": 79,
-            "fontsize": "200%",
-            "rotate": "rotate(-23)",
-            "scale": "scale(0.85)"
+            "scale": "scale(1)",
         },
         "stepThreeGame": {
             "statements": [],
@@ -118,13 +103,8 @@ const candidates = [
             "valid": true
         },
         "stepTwoGame" : {
-            "signatures": 500,
             "valid": true,
-            "x": 145,
-            "y": 130,
-            "fontsize": "200%",
-            "rotate": "rotate(15)",
-            "scale": "scale(0.95)"
+            "scale": "scale(0.8)",
         },
         "stepThreeGame": {
             "statements": [],
@@ -153,13 +133,8 @@ const candidates = [
             "valid": true
         },
         "stepTwoGame" : {
-            "signatures": 500,
             "valid": true,
-            "x": 130,
-            "y": 130,
-            "fontsize": "200%",
-            "rotate": "rotate(-5)",
-            "scale": "scale(0.8)"
+            "scale": "scale(1)",
         },
         "stepThreeGame": {
             "statements": [],
@@ -188,13 +163,8 @@ const candidates = [
             "valid": true
         },
         "stepTwoGame" : {
-            "signatures": 500,
             "valid": true,
-            "x": 120,
-            "y": 180,
-            "fontsize": "230%",
-            "rotate": "rotate(15)",
-            "scale": "scale(0.7)"
+            "scale": "scale(0.9)",
         },
         "stepThreeGame": {
             "statements": [],
@@ -223,13 +193,8 @@ const candidates = [
             "valid": true
         },
         "stepTwoGame" : {
-            "signatures": 500,
             "valid": true,
-            "x": 145,
-            "y": 220,
-            "fontsize": "180%",
-            "rotate": "rotate(23)",
-            "scale": "scale(0.8)"
+            "scale": "scale(1)",
         },
         "stepThreeGame": {
             "statements": [],
@@ -258,13 +223,8 @@ const candidates = [
             "valid": true
         },
         "stepTwoGame" : {
-            "signatures": 500,
             "valid": true,
-            "x": 17,
-            "y": 90,
-            "fontsize": "200%",
-            "rotate": "rotate(-5)",
-            "scale": "scale(1)"
+            "scale": "scale(0.8)",
         },
         "stepThreeGame": {
             "statements": [],
