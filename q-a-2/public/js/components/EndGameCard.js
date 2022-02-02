@@ -30,9 +30,9 @@ class EndGameCard extends React.Component {
         return (
             <div className='endGameCard_container'>
                 <div className='endGameCard'>
-                    <div className='endGameCard_title'>{this.props.isWin ? 'Félicitations !' : 'Oops ...'}</div>
+                    <div className='endGameCard_title'>{this.props.isWin ? 'Félicitations !' : 'Oups...'}</div>
                     <div className='endGameCard_text'>
-                        {this.props.isWin ? 'Tu as réussi le mini-jeu ! Les candidats sont prêts à passer à l\'étape suivante.' : 'On dirait qu\'il y a quelques erreurs... Pas de panique, tu peux toujours modifier ta sélection !'}
+                        {this.props.isWin ? 'Tu as réussi le mini-jeu ! Les candidat·e·s sont prêt·e·s à passer à l\'étape suivante.' : 'On dirait qu\'il y a quelques erreurs... Pas de panique, tu peux toujours modifier ta sélection (On t\'as indiqué les points qui te posent des difficultés) !'}
                     </div>
                     {image}
                     <Button onClick={() => this.props.onClickButton()} white={true} value={this.props.isWin ? 'Etape suivante' : 'Réessayer'} className='endGameCard_button' />

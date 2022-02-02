@@ -958,11 +958,28 @@ body{
     position: relative;
 }
 
+.step3Game_nameDiv {
+    position: absolute;
+    top: 38%;
+    left: 19%;
+    width: 30%;
+    font-family: 'Spicy Rice';
+    z-index: 2;
+    text-align: center;
+}
+
+.step3Game_warning {
+    position: absolute;
+    right: -12%;
+    width: 25%;
+    z-index: 3;
+}
+
 .statementsCard {
     display: flex;
     justify-content: center;
     box-sizing: border-box;
-    font-size: 2vh;
+    font-size: 2.5vh;
     font-family: 'Jost';
     width: 100%;
     height: 100%;
@@ -977,14 +994,14 @@ body{
 
 .statementsCard_information {
     position: absolute;
-    bottom: 7%;
-    width: 44%;
+    top: 50%;
+    width: 50%;
     z-index: 2;
 }
 
 .statementsCard_information > * {
     display: block;
-    margin-top: 2vh;
+    margin-top: 1.5vh;
 }
 
 .statementsCard_information > *:first-child {
@@ -1001,8 +1018,8 @@ body{
 }
 
 .checkbox_round {
-    width: 3vh;
-    height: 3vh;
+    width: 3.5vh;
+    height: 3.5vh;
     background-color: white;
     border-radius: 50%;
     vertical-align: middle;
@@ -1017,22 +1034,22 @@ body{
 }
 
 .checkbox_round:checked {
-    background-color: lightgreen;
+    background-color: grey;
 }
 
 .checkbox_label {
     display: block;
-    margin-left: 12%;
+    margin-left: 14%;
 }
 
 .checkbox_container {
-    line-height: 0vh;
+    line-height: 1vh;
 }
 
 input[type="checkbox"] {
     vertical-align:middle;
     margin-right: 1%;
-    margin-left: -15%;
+    margin-left: -16%;
 }
 
 .gamePage {
@@ -1096,21 +1113,33 @@ input[type="checkbox"] {
 .step5game {
     height: 100%;
     width: 100%;
+    display: flex;
+    text-align: center;
 }
 
 .step5Game_videos {
     display: flex;
     flex-direction: column;
+    width: 100%;
+}
+
+.step5Game_video_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-bottom: 1vh;
 }
 
 .step5Game_video {
     width: 100%;
     height: 100%;
+    margin-bottom: 1%;
 }
 
-.step5Game_video_control {
-    width: 100%;
-    height: 100%;
+.playButton {
+    display: flex;
+    justify-content: center;
+    width: 40%;
 }
 
 .step6Game {
@@ -1128,8 +1157,8 @@ input[type="checkbox"] {
     height: 40%;
 }
 
-.step1Game .swiper-button-next::after,
-.step1Game .swiper-button-prev::after {
+.swiper-button-next::after,
+.swiper-button-prev::after {
     color: black;
     font-weight: 900;
 }
@@ -1144,7 +1173,7 @@ input[type="checkbox"] {
 }
 
 .questionCard_nextStep > img {
-    height: 14vh;
+    height: 10vh;
 }
 
 .enveloppes {
@@ -1166,4 +1195,128 @@ input[type="checkbox"] {
 
 .enveloppes >img:last-child {
     transform: rotate(11.28deg);
+}
+
+.step4game {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.step4game_tampon {
+  position: absolute;
+  z-index: 2;
+}
+
+.step4game_tampon_valid {
+  right: 0;
+  top: 0;
+}
+
+.step4game_tampon_cancel {
+  right: 0;
+  top: 0;
+}
+
+.step4game_pannelError {
+  position: absolute;
+  z-index: 2;
+  right: 25%;
+  bottom: 25%;
+}
+
+.step4game_tampon_button {
+  display: flex;
+  width: 25%;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+
+.step4game_cheques {
+  box-sizing: border-box;
+  display: flex;
+  height: 70%;
+  width: 100%;
+}
+
+.step4game_cheque {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.step4game_header {
+  text-align: center;
+  position: relative;
+}
+
+.step4game_help_point {
+  position: absolute;
+  right: 5%;
+}
+
+.chequeCard {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  font-size: 2.8vh;
+  font-family: "Jost";
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.chequeCard_img {
+  width: 90%;
+  z-index: 1;
+}
+
+.statementsCard {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  font-size: 2vh;
+  font-family: "Jost";
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.statementsCard_img {
+  position: absolute;
+  height: 100%;
+  z-index: 1;
+}
+
+.statementsCard_information {
+  position: absolute;
+  bottom: 7%;
+  width: 44%;
+  z-index: 2;
+}
+
+.statementsCard_information > * {
+  display: block;
+  margin-top: 2vh;
+}
+
+.statementsCard_information > *:first-child {
+  margin-top: 0px;
+}
+
+.statementsCard_div_text {
+  display: flex;
+  margin-bottom: 2%;
+}
+
+.statementsCard_label {
+  font-weight: bold;
+}
+
+.step4game_tampon  > .tampon > img {
+    height: 12vh;
 }

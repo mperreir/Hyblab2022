@@ -7,7 +7,7 @@ class Step3Page extends Page {
         this.state = {
             subPages: [
                 <MainStepPage step={step} nextSubStep={() => this.nextSubStep()}
-                    subtitle="Declaration du patrimoine et des intérêts"
+                    subtitle="Déclaration du patrimoine et des intérêts"
                 />,
                 <QuestionPage
                     step={step}
@@ -28,16 +28,17 @@ class Step3Page extends Page {
                     question={questions[1].question}
                     answer={questions[1].answer}
                     learnMoreLink={questions[1].link}
-                    nextStepMessage="Vérifier les déclarations de chaque candidat"
+                    nextStepMessage="Vérifier les déclarations de chaque candidat·e"
                     className='declarationPage'
                 />,
                 <GamePage
                     step={step}
-                    title='Vérifie les déclarations des candidats.'
-                    subtitle="Décoche ce qui n'est pas nécessaire dans la déclaration du patrimoine et des intérêts des candidat·e·s"
+                    title='Vérifie les déclarations des candidat·e·s.'
+                    subtitle="Désélectionne ce qui n'est pas nécessaire dans la déclaration du patrimoine et des intérêts des candidat·e·s."
                     //subtitle="Les candidats ont rempli leur déclaration du patrimoine et des intérêts mais tout n'a pas besoin d'être déclaré. Décoche ce qui n'est pas nécessaire."
                     buttonTitle='Valider'
                     returnToExplanations={() => this.returnToExplanations()}
+                    nextStep={() => this.props.nextStep()}
                 >
                     <Step3Game
                         disableGameButton={() => this.disableGameButton()}

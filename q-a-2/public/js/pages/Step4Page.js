@@ -21,7 +21,7 @@ class Step4Page extends Page {
                 />,
                 <QuestionPage
                     step={step}
-                    buttonOnClick={() => this.nextStep()}
+                    buttonOnClick={() => this.nextSubStep()}
                     buttonText="Vérifier"
                     questionTitle={data.title}
                     question={questions[1].question}
@@ -29,6 +29,19 @@ class Step4Page extends Page {
                     learnMoreLink={questions[1].link}
                     nextStepMessage="Valide les chèques qui peuvent financer les campagnes"
                 />,
+                <GamePage
+                    step={step}
+                    title='Valide (ou non) ces chèques !'
+                    subtitle="Vérifie si ces chèques peuvent financer la campagne des candidats."
+                    buttonTitle='Valider'
+                    nextStep={() => this.nextStep()}
+                    returnToExplanations={() => this.returnToExplanations()}
+                    >
+                    <Step4Game
+                        disableGameButton={() => this.disableGameButton()}
+                        enableGameButton={() => this.enableGameButton()}
+                    />
+                </GamePage>
             ],
             subStepIndex: 0
         }

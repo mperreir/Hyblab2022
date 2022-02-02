@@ -85,7 +85,7 @@ class Step1Game extends React.Component {
                         <Tampon isValid={candidateState.isAcceptClick}/>
                     </div>
                     <div className='step1Game_pannelError' hidden={!candidateState.error}>
-                        <img src='img/pannel.svg'/>
+                        <img src='img/warning.svg'/>
                     </div>
                     <div className='step1Game_tampon_button'>
                         <TamponButton isValid={true} isBlack={candidateState.isAcceptClick} onClick={() => this.clickAccept(candidate.nameId)}/>
@@ -102,8 +102,8 @@ class Step1Game extends React.Component {
                     <div className='swiper-wrapper'>
                         {profils}
                     </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
+                    <div className="swiper-button-next"></div>
+                    <div className="swiper-button-prev"></div>
                 </div>
             </div>
         )

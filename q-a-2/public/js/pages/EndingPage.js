@@ -21,7 +21,7 @@ class EndingPage extends Page {
             {
                 name: 'Simon Perrin',
                 school: 'Polytech',
-                eyes: 'eyes_bb.svg'
+                eyes: 'eyes_sp.svg'
             },
             {
                 name: 'Léopold Cudilla',
