@@ -130,13 +130,9 @@ app.get('/affirmations/:commune', function(req, res) {
 app.get('/indice/:commune', function(req, res) {
     let affirmationsJson = require('../public/data/affirmations.json');
     let copie = JSON.parse(JSON.stringify(affirmationsJson));
-    console.log(copie);
-    console.log(affirmationsJson);
     let indices = copie.indice;
     let nomCommune = req.params.commune;
-
     let index = Math.floor(Math.random()*(indices.length));
-
     let indiceChoisi = indices[index];
     let informations = indiceChoisi['columns'];
 
@@ -144,7 +140,6 @@ app.get('/indice/:commune', function(req, res) {
     .then(commune => {
 
         try {
-            console.log(commune);
             let compteur = 0;
 
             for(let asciiCode = 65; asciiCode < 91; asciiCode++) {
@@ -159,7 +154,6 @@ app.get('/indice/:commune', function(req, res) {
         
                 //else break; //Si plus de pattern correspondant, on stoppe la boucle
             }
-            console.log(indiceChoisi);
             res.json(indiceChoisi);
         } catch(error) {
             console.log(error);

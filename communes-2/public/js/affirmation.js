@@ -7,10 +7,6 @@ page('/communes-2/affirmation', async function () {
     await renderTemplate(templates('./templates/affirmation.mustache'));
 
     let gameData = JSON.parse(localStorage.getItem('gameData'));
-    console.log(gameData);
-
-    // EWEN POUR TESTER SI ON EST AU DEUXIEME ESSAI (donc qu'il faut afficher indice en plus) 
-
     let indiceP = document.getElementById('indiceText');
     if (gameData['numeroEssai'] == 2) {
         indiceP.innerHTML="";
@@ -467,7 +463,6 @@ page('/communes-2/affirmation', async function () {
 
     map.on('zoomend', function() {
         let zoom = map.getZoom();
-        console.log('Zoom : ' + zoom);
         if(zoom <= 8.5) {
             map.removeLayer(iconsGroup2);
             map.removeLayer(iconsGroup3);
@@ -555,17 +550,14 @@ page('/communes-2/affirmation', async function () {
 
     let reject = document.getElementById("reject-btn");
     reject.addEventListener("click", (event)=>{
-        console.log('reject event listener');
         let infobox = document.getElementById("panel-confirm");
         infobox.style.visibility = "hidden";
     });
 
     let accept = document.getElementById("confirm-btn");
     accept.addEventListener("click", ()=>{
-        console.log('accept event listener');
         let infobox = document.getElementById("panel-confirm");
         let selectedValue = document.getElementById("counrty-name").innerHTML;
-        console.log("Selected value : ", selectedValue);
         infobox.style.visibility = "hidden";
         // On passe au truc suivant.
         roundEnding(selectedValue, gameData['communeCourante']['libelleCommune']);
@@ -580,11 +572,8 @@ page('/communes-2/affirmation', async function () {
 
         let p = document.getElementById("counrty-name");
         p.innerHTML = selectedValue;
-        
-        console.log("Popup opened");
 
         // Choix reponse 
-
         /*
         let rejectWrong = document.getElementById("reject-btn");
         let rejectRight = rejectWrong.cloneNode(true);
@@ -648,9 +637,6 @@ page('/communes-2/affirmation', async function () {
 });
 
 function roundEnding(selectedValue, rightValue) {
-
-    console.log("Round ending");
-
     let scoreRound = 0;
     let nbEssaiSuivant = 1;
     let gameData = JSON.parse(localStorage.getItem('gameData'));
@@ -660,26 +646,21 @@ function roundEnding(selectedValue, rightValue) {
     if(gameData['numeroEssai'] == 1) {
         if(selectedValue == rightValue) {
             // Gagné premier.
-            console.log('Gagne premier');
             scoreRound = 5000;
             nbCommunesJouees++;
             communePrecedente = gameData['communeCourante'];
         } else {
             // Perdu premier essai
-            console.log('Perdu premier');
             nbEssaiSuivant = 2;
         }
     } else {
         if (selectedValue == rightValue) {
             // Gagné deuxieme essai
-            console.log('Gagne second');
             scoreRound = 2500;
             nbCommunesJouees++;
             communePrecedente = gameData['communeCourante'];
         } else {
-            // Perdu deuxieme essai*
-            console.log('Perdu second');
-            // TODO : Calcul du score
+            // Perdu deuxieme essai
             nbCommunesJouees++;
             communePrecedente = gameData['communeCourante'];
             calculateScore(selectedValue, rightValue).then(score => {
@@ -752,8 +733,6 @@ async function calculateScore(selectedValue, rightValue) {
         let score = (1 - (responseJson / distanceMax)) * maxScoreEchec;
         return Math.round(score);
     });
-
-    console.log(scoreRetour);
     return scoreRetour;
 }
 
@@ -769,7 +748,6 @@ function sliderplus(n) {
     slide();
     var i;
     var slides = document.getElementsByClassName("affirmation-content");
-    console.log(slides)
     var dots = document.getElementsByClassName("dot");
     if (n > slides.length) {slideIndex = 1}
       if (n < 1) {slideIndex = slides.length}
