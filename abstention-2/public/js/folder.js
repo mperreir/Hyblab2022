@@ -160,11 +160,7 @@ async function loadFolder(folderName) {
             options: {
                 // responsive: true,
                 // maintainAspectRatio: false,
-                plugins: {
-                    legend: {
-                        display: false
-                    }
-                },
+                plugins: false,
                 scales: {
                     x: {
                         suggestedMin: 0,
@@ -236,8 +232,8 @@ function getEtrangersData(data) {
         renderColor.push('rgb(0, 57, 255)');
     }
     renderData.push({
-        x: data[0] % 3,
-        y: Math.floor(data[0] / 3),
+        x: Math.floor((data[0]+1) % 3),
+        y: Math.floor((data[0]+1) / 3),
         r: Math.floor((data[0] - Math.floor(data[0])) * 10)
     })
     renderColor.push('rgb(0, 57, 255)');
@@ -252,10 +248,12 @@ function getEtrangersData(data) {
         renderColor.push('rgb(255, 72, 0)');
     }
     renderData.push({
-        x: Math.floor(data[1]) % 3 + 5,
-        y: Math.floor(data[1] / 3),
+        x: Math.floor((data[1]+1) % 3) + 4,
+        y: Math.floor((data[1]+1) / 3),
         r: Math.floor((data[1] - Math.floor(data[1])) * 10)
     });
     renderColor.push('rgb(255, 72, 0)');
+    console.log(renderData);
+    console.log(data[0]%3,data[1]%3)
     return ([renderData, renderColor]);
 }
