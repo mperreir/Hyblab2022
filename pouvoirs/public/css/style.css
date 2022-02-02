@@ -248,83 +248,16 @@ b {
 .pouvoir-header {
   width: 90%;
 }
-/* Mission 5 : Grâce */
-.phoneButton {
-  position: absolute;
-  top: 73%;
-  left: 42%;
-  width: 80px;
-  height: 73px;
-  cursor: pointer;
-}
-.phoneButton:hover {
-  opacity: 75%;
-}
-
-#animationsContainer {
-  height: 60%;
-  width: 100%;
-}
-#animationsContainer svg {
-  position: absolute;
-  top: -5%;
-}
-
-#animationsContainer img {
-  position: absolute;
-  top: 40%;
-  right: 7%;
-  z-index: 3;
-  width: 13%;
-  height: auto;
-  -webkit-animation: blink 2s;
-  -webkit-animation-iteration-count: infinite;
-  -moz-animation: blink 2s;
-  -moz-animation-iteration-count: infinite;
-  -o-animation: blink 2s;
-  -o-animation-iteration-count: infinite;
-}
-@-webkit-keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@-moz-keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@-o-keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 
 /* Mission 2 : Decret */
 
 #p2 {
   background: white;
+  touch-action: none;
 }
 
-#bulle-container-pm, #bulle-container-moua {
+#bulle-container-pm,
+#bulle-container-moua {
   opacity: 0;
 }
 
@@ -418,10 +351,10 @@ b {
   position: absolute;
   bottom: 34%;
   width: 100%;
-  font-family: 'Nunito';
+  font-family: "Nunito";
   font-weight: 900;
   text-align: center;
-  color: #C4C4C4;
+  color: #c4c4c4;
   z-index: 4;
 }
 
@@ -444,7 +377,7 @@ b {
 #p2 #note {
   opacity: 0;
   position: absolute;
-  background: #F4C708;
+  background: #f4c708;
   right: 10%;
   top: 22%;
   height: 20%;
@@ -458,7 +391,7 @@ b {
 
 #p2 #note p {
   font-size: 17%;
-  font-family: 'Nunito';
+  font-family: "Nunito";
   font-weight: 700;
   text-align: center;
 }
@@ -474,6 +407,7 @@ b {
 
 #p4-bulle-container p {
   position: absolute;
+  color:white;
   font-size: 15%;
   width: 68%;
   top: 23%;
@@ -517,7 +451,7 @@ b {
   display: flex;
   flex-flow: column;
   align-items: center;
-  justify-content:space-between;
+  justify-content: space-between;
   background: #fff;
   padding: 5px;
   border-radius: 25px;
@@ -525,22 +459,22 @@ b {
 }
 
 #assemblee {
-  top: 55%;
+  top: 100%;
   left: 10%;
 }
 
 #maires {
-  top: 55%;
+  top: 100%;
   right: 10%;
 }
 
 #conseil {
-  top:77%;
+  top:120%;
   left: 10%;
 }
 
 #prime {
-  top: 77%;
+  top: 120%;
   right: 10%;
 }
 
@@ -552,7 +486,6 @@ b {
 #assemblee .button-illu {
   width: 50%;
   margin-top: 3%;
-  
 }
 #maires .button-illu {
   width: 52%;
@@ -569,18 +502,105 @@ b {
 
 #buttons-container p {
   margin-top: -2%;
-  font-family: 'First Fun';
+  font-family: "First Fun";
   font-size: 12%;
-  background:#D4C2F0;
+  background: #d4c2f0;
   text-align: center;
   padding: 5%;
   width: 90%;
-  height:18%;
+  height: 18%;
   border-radius: 25px;
   color: #fff;
 }
+/* Mission 5 : Grâce */
+.phoneButton {
+  position: absolute;
+  top: 73%;
+  left: 42%;
+  width: 80px;
+  height: 73px;
+  cursor: pointer;
+  z-index: 5;
+}
+.phoneButton:hover {
+  opacity: 75%;
+}
+#p5 #animationsContainer svg {
+  position: absolute;
+  top: -5%;
+  z-index: -1;
+}
 
-/* */
+#animationsContainer img {
+  position: absolute;
+  top: 40%;
+  right: 7%;
+  z-index: 3;
+  width: 13%;
+  height: auto;
+  -webkit-animation: blink 2s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation: blink 2s;
+  -moz-animation-iteration-count: infinite;
+  -o-animation: blink 2s;
+  -o-animation-iteration-count: infinite;
+}
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#p5 #note {
+  opacity: 0;
+  display: none;
+  position: absolute;
+  background: #f4c708;
+  left: 10%;
+  top: 60%;
+  height: 30%;
+  width: 80%;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#p5 #note p {
+  font-size: 17%;
+  font-family: "Nunito";
+  font-weight: 700;
+  text-align: center;
+  padding: 10%;
+}
 
 #p5 h3 {
   font-family: "First Fun", Arial, Helvetica, sans-serif;
@@ -670,7 +690,7 @@ b {
   left: 10%;
 }
 
-.arrow-small{
+.arrow-small {
   position: absolute;
   margin: auto;
   font-size: 15%;
@@ -678,7 +698,7 @@ b {
   left: 40%;
 }
 
-.arrow-medium{
+.arrow-medium {
   position: absolute;
   margin: auto;
   font-size: 15%;
@@ -725,7 +745,6 @@ b {
   justify-items: center;
   align-items: center;
   justify-content: center;
-
 }
 
 #credit div a {
@@ -824,55 +843,54 @@ b {
 
 /* This media query ensures that we allways will the width of the screen */
 /* as long as the screen aspect ratio is below 9:16 */
-@media screen and (max-aspect-ratio: 9/16) and (min-width :480px){
-  #container{
-      width: 100vw;
-      margin-top: calc((100vh - 100 * 16vw / 9) / 2);
-      height: calc(100 * 16vw / 9);
+@media screen and (max-aspect-ratio: 9/16) and (min-width: 480px) {
+  #container {
+    width: 100vw;
+    margin-top: calc((100vh - 100 * 16vw / 9) / 2);
+    height: calc(100 * 16vw / 9);
   }
 
   /* We set a default font size here. It will be the base for all other font sizes */
   /* Here the font size is proportional to display width */
-  body{
-      font-size: calc(12vw*16/9);
+  body {
+    font-size: calc(12vw * 16 / 9);
   }
 }
 
 /* Mobile */
 
 @media screen and (max-width: 480px) {
-  #container{
-      margin-top: 0;
-      width: 100vw;
-      height: 88vh;
-      font-size: calc(12vw*16/9);
+  #container {
+    margin-top: 0;
+    width: 100vw;
+    height: 88vh;
+    font-size: calc(12vw * 16 / 9);
   }
 }
 
 /* This media query ensures that we allways will the height of the screen */
 /* as long as the screen aspect ratio is higher than 9:16 */
-@media screen and (min-aspect-ratio: 9/16) and (min-width :480px) {
-  #container{
-      margin-left: calc((100vw - 100 * 9vh / 16) / 2);
-      width: calc(100 * 9vh / 16);
-      height: 100vh;
+@media screen and (min-aspect-ratio: 9/16) and (min-width: 480px) {
+  #container {
+    margin-left: calc((100vw - 100 * 9vh / 16) / 2);
+    width: calc(100 * 9vh / 16);
+    height: 100vh;
   }
 
   /* We set a default font size here. It will be the base for all other font sizes */
   /* Here the font size is proportional to display height */
-  body{
-      font-size: 12vh;
+  body {
+    font-size: 12vh;
   }
 }
-
 
 #arrowSwipe {
   visibility: hidden;
   display: block;
-  float: right;  
+  float: right;
   z-index: 99;
   position: absolute;
-  
+
   bottom: 1%;
   right: 2%;
 
@@ -885,7 +903,8 @@ b {
 
 @keyframes ani {
   0% {
-    transform: translateX(0%);  }
+    transform: translateX(0%);
+  }
   35% {
     right: 3%;
   }
@@ -896,6 +915,6 @@ b {
     right: 3%;
   }
   100% {
-    transform: translateX(0%);  }
+    transform: translateX(0%);
   }
 }
