@@ -10,9 +10,10 @@ candidates.forEach(candidate => {
   let step = Math.floor(Math.random() * (Math.floor(9) - Math.ceil(1)) + Math.ceil(1));
   stepsCandidates[step].push(candidate);
 })*/
-stepsCandidates["1"] = [...candidates];
-//stepsCandidates["6"] = candidates.slice(0, 5);
+//stepsCandidates["1"] = [...candidates];
+stepsCandidates["6"] = candidates.slice(0, 5);
 //stepsCandidates["7"] = [];
+//stepsCandidates['8'].push(candidates[0]);
 
 class App extends React.Component {
   constructor(props) {
@@ -30,7 +31,7 @@ class App extends React.Component {
         <Step8Page data={data} nextStep={() => this.nextStep()} />,
         <EndingPage nextStep={() => this.resetStep()} />
       ],
-      step: 0
+      step: 6
     }
   }
 
