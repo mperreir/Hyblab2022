@@ -58,15 +58,19 @@ const init_p2 = function () {
 
 /* Code handling drawing in the Canvas */
 
+const p2 = document.getElementById("p2");
+
 function initHandlers() {
 	// Handling mouse
-	document.addEventListener("mousedown", start);
-	document.addEventListener("mouseup", stop);
+	p2.addEventListener("mousedown", start);
+	p2.addEventListener("mouseup", stop);
 
 	// Handling touch conversion to mouse
-	document.addEventListener("touchstart", mouseHandler);
-	document.addEventListener("touchend", mouseHandler);
-	document.addEventListener("touchmove", mouseHandler);
+	p2.addEventListener("touchstart", mouseHandler);
+	p2.addEventListener("touchend", mouseHandler);
+	p2.addEventListener("touchmove", mouseHandler);
+
+	p2.addEventListener("pointerup", stop);
 
 	// Fixing canvas on screen
 	const size = canvas.getBoundingClientRect();
@@ -86,7 +90,7 @@ function reposition(event) {
 }
 
 function start(event) {
-	document.addEventListener("mousemove", draw);
+	p2.addEventListener("mousemove", draw);
 	hintText.style.opacity = '0';
 	penSound.play();
 	reposition(event);
@@ -95,7 +99,7 @@ function start(event) {
 let alreadyShowedTitle = false;
 
 function stop() {
-	document.removeEventListener("mousemove", draw);
+	p2.removeEventListener("mousemove", draw);
 	penSound.pause();
 	// Enabling the button
 	if (enableButton) {
@@ -136,20 +140,22 @@ function mouseHandler(event) {
 		clientY: event.touches[0].clientY,
 	});
 
-	document.dispatchEvent(mouseEvent);
+	p2.dispatchEvent(mouseEvent);
 }
 
 /* End of code for drawing in the Canvas */
 
 function nextMission(event) {
 	// Removing all sets events
-	document.removeEventListener("mousedown", start);
-	document.removeEventListener("mouseup", stop);
+	p2.removeEventListener("mousedown", start);
+	p2.removeEventListener("mouseup", stop);
 
 	// Removing touch events
-	document.removeEventListener("touchstart", mouseHandler);
-	document.removeEventListener("touchend", mouseHandler);
-	document.removeEventListener("touchmove", mouseHandler);
+	p2.removeEventListener("touchstart", mouseHandler);
+	p2.removeEventListener("touchend", mouseHandler);
+	p2.removeEventListener("touchmove", mouseHandler);
+
+	p2.removeEventListener("pointerup", stop);
 
 	swiper.enable();
 	wrapper_nextSlide();

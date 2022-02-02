@@ -18,7 +18,7 @@ const textIntro = document.querySelector("#homepage p");
 
 // async init function (because of the awaits on fetches)
 const homepage_slide = function(){
-  textIntro.textContent = getText("home");
+  textIntro.innerHTML = getText("home");
 
   const sound1 = createAudio("data/sounds/spaceshipStatic.mp3",true);
   const ambiance = createAudio("data/sounds/ambiance.mp3",true);
