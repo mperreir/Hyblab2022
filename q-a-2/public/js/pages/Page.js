@@ -25,7 +25,7 @@ class Page extends React.Component {
 
     candidatesClimbSteps(candidates) {
         stepsCandidates[`${this.props.step + 1}`] = [...candidates];
-        stepsCandidates[`${this.props.step}`] = stepsCandidates[`${this.props.step}`].filter(c => !candidates.includes(c));
+        stepsCandidates[`${this.props.step}`] = stepsCandidates[`${this.props.step}`].filter(c => !candidates.some(cc => c.id === cc.id));
     }
 
     render() {

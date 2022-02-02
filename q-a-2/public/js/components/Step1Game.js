@@ -1,7 +1,6 @@
 class Step1Game extends React.Component {
     constructor(props) {
         super(props);
-        console.log(this.props.game);
         if (Object.keys(this.props.game.data).length) {
             this.state = { ...this.props.game.data};
         } else {
@@ -32,6 +31,10 @@ class Step1Game extends React.Component {
             direction: 'horizontal',
             slidesPerView: 1,
             mousewheel: true,
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            },
         });
     }
 
@@ -99,6 +102,8 @@ class Step1Game extends React.Component {
                     <div className='swiper-wrapper'>
                         {profils}
                     </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
                 </div>
             </div>
         )
