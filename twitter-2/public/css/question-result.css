@@ -107,6 +107,10 @@ body {
     display: inline;
 }
 
+#theme{
+    padding-bottom: 5%;
+}
+
 #buttons {
     display: flex;
     flex-direction: column;
