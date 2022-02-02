@@ -28,6 +28,7 @@
 }
 
 #second-slide {
+	position: relative;
 	height: 100%;
 	background-color: #11151B;
 }
@@ -40,12 +41,14 @@
 
 .header-bottom {
 	text-align: center;
-	background-color: blue;
 }
 
 .header-bottom .hyblab {
-	font-family: 'Baloo Tamma 2';
-	font-size: 70%;
+	width: 60%;
+}
+
+.header-bottom .anjoute {
+	width: 60%;
 }
 
 .mid {
@@ -53,13 +56,49 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	font-size: 20%;
+	margin-top: 3vh;
+	font-size: 15%;
 	color: #C8A166;
 }
 
-.mid img {
+.loire {
+	text-align: center;
+}
+
+.credit_footer {
+	position: relative;
+	list-style-type: none;
+	margin: 5vh 0;
+	width: 100%;
+}
+
+.France3 {
+	margin-top: 2%;
 	width: 50%;
 }
+
+.credit_footer .credit_footer_polytech {
+	position: absolute;
+	width: 50%;
+	right: 0;
+	text-align: center;
+}
+
+.credit_footer .credit_footer_polytech img {
+	width: 50%;
+}
+
+.credit_footer .credit_footer_agr {
+	position: absolute;
+	width: 50%;
+	left: 0;
+	text-align: center;
+}
+
+.credit_footer .credit_footer_agr img {
+	width: 50%;
+}
+
 
 
 
