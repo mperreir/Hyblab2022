@@ -82,10 +82,12 @@ page('/communes-2/affirmation', async function () {
     });
 
     let box_aff = document.getElementById("sliderline-aff");
-    box_aff.addEventListener("click", (event)=>{
-        //if (box_aff !== event.target) return;
-        var box = document.getElementById("affirmation");
-        box.style.bottom ="-190px";
+    
+    let box_af = document.getElementById("affirmation");
+    box_af.addEventListener("click", (event)=>{
+        if (box_af !== event.target && box_aff !== event.target ) return;
+        var bo = document.getElementById("affirmation");
+        bo.style.bottom ="-190px";
 
         var slider = document.getElementById("slider");
         slider.style.bottom = "0";
@@ -101,7 +103,7 @@ page('/communes-2/affirmation', async function () {
         slider.style.bottom ="-190px";
     });
 
-    let indicebox = document.getElementById("sliderline-ind");
+    let indicebox = document.getElementById("indice-box");
     indicebox.addEventListener("click", (event)=>{
         //if (indicebox !== event.target) return;
         var indiceb = document.getElementById("indice-box");
