@@ -349,7 +349,13 @@ function start() {
                             CANDIDATS[nom_candidat].div.style.top = "calc( 12.5vh + " + (position - TAILLE_DIV_CANDIDAT / 2) + "px" + " ) ";
                         } else // sinon candidats hors borne :
                         {
-                            CANDIDATS[nom_candidat].div.style.top = "-500px";
+
+                            if (SELECTION_COURSE() && pourcent >= POURCENT_BORNE_MAX) {
+                                CANDIDATS[nom_candidat].div.style.top = "100vh";
+                            } else {
+                                CANDIDATS[nom_candidat].div.style.top = "-100vh";
+                            }
+
                         }
 
                         CANDIDATS[nom_candidat].div.querySelector(".pourcent").innerText = pourcent + ' %';

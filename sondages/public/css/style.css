@@ -464,6 +464,7 @@ header .routeDebut {
     align-items: center;
     justify-content: center;
     transition: bottom .3s;
+    z-index: 105;
 }
 
 #race.after-scrolling #TimeInfo {
