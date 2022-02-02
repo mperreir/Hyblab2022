@@ -1,5 +1,5 @@
 const ANIMATIONS = {
-    ordre : ["ecole1", "foraine", "camion", "theatre", "mairie", "ecole2"],
+    ordre : ["ecole1", "foraine", "camion", "mairie", "theatre", "ecole2"],
     animations : {
         sujet: {
             scroll: {
