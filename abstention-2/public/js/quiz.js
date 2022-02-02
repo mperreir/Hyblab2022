@@ -9,20 +9,21 @@ async function quizScreen() {
       answer: ["21 ans", "16 ans", "14 ans"],
       goodAnswer: 1
     }
-  }, {
-    quiz: {
-      question: "Est-ce que les votes blancs sont pris en compte ?",
-      answer: ["Non", "Oui", "Oui, mais que pour les départementales"],
-      goodAnswer: 0
-    }
-  },
-  //  {
+  }, 
+  // {
   //   quiz: {
-  //     question: "Quand sont les prochaines présidentielles ?",
-  //     answer: ["2025", "2023", "2022"],
-  //     goodAnswer: 2
+  //     question: "Est-ce que les votes blancs sont pris en compte ?",
+  //     answer: ["Non", "Oui", "Oui, mais que pour les départementales"],
+  //     goodAnswer: 0
   //   }
   // },
+   {
+    quiz: {
+      question: "Quand sont les prochaines présidentielles ?",
+      answer: ["2025", "2023", "2022"],
+      goodAnswer: 2
+    }
+  },
   {
     quiz: {
       question: "À quoi est lié le droit de vote ?",
@@ -81,10 +82,9 @@ async function quizScreen() {
     updateHearts();
     document.getElementById("nextQuiz").addEventListener("click", () => {
       step++;
-      if (step > quiz.length) {
+      if (step >= quiz.length) {
         //topSecret 
         loadTopSecret();
-        return;
       } else {
         newQuiz(step);
       }
@@ -94,6 +94,7 @@ async function quizScreen() {
   async function badAnswer(i) {
     hearts--;//perd une vie
     if (hearts < 0) {
+      loadTopSecret();
       //TODO appel topSecret
     } else {
       let quizHtml = await loadTemplate('templates/quiz/badAnswer.ejs', [])
