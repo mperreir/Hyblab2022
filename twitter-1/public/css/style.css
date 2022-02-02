@@ -396,6 +396,10 @@ th, td {
     margin-top : 1vh;
 }
 
+.no-tweet{
+    margin:auto;
+}
+
 .ThemeGraphe {
     position: absolute;
     bottom: 10%;
