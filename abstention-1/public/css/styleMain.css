@@ -408,10 +408,13 @@ left: 3%;
 #QuizZone{
     position:absolute;
     background-color: #E66E78;
-    width: 100%;
+    width: 85%;
+    border-radius: 6%;
     height: calc(100vh/4);
-    top:75vh;/*75vh*/
-    opacity: 0;
+    top:20%;
+    left:7%;
+    visibility: hidden;
+    z-index:3;
 }
 #QuizZone button{
     display: flex;
@@ -469,14 +472,14 @@ lottie-player{
 /*--------------Section Pierre Feuille Ciseaux--------------*/
 
 .box {
-    position: relative;
+    position: absolute;
     display : flex;
     align-items : center;
     justify-content : center;
     flex-direction: column;
     padding : 10px ;
-    bottom: 20%;
-    /*opacity:0;*/
+    top: 25%;
+    left: 15%;
     visibility: hidden;
 }
 .box button {
@@ -510,14 +513,14 @@ lottie-player{
     transform : scale(0.97);
 }
 .resultat {
-    position: relative;
+    position: absolute;
     display : flex;
     flex-direction: row;
     align-items : flex-start;
     justify-content : center;
     text-align : center;
     font-weight: bold;
-    bottom : 80%;
+    top : 35%;
     color:white;
     z-index: 3;
 }

@@ -13,7 +13,7 @@ class DialogueModel extends Observable {
     }
 
     changement(){
-        console.log(this);
+        //console.log(this);
         this.initialisation=false;
         this.counter++;
 
@@ -27,6 +27,32 @@ class DialogueModel extends Observable {
         else {
             this.animationModel.finishDialogue();
         }
+
+        //S'il n'y a pas de quiz ou de jeu à lancer derrière cette réplique
+        if(this.scene[this.counter].Quiz != 1 && this.scene[this.counter].PFC != 1){
+
+            document.querySelector("#textDialogue").style.visibility = "visible";
+            document.querySelector(".box").style.visibility = "hidden";
+            document.querySelector(".resultat").style.visibility = "hidden";
+
+        } else {
+            //S'il faut lancer le PFC
+            if(this.scene[this.counter].PFC == 1){
+                document.querySelector("#Suite").style.visibility = "hidden";
+                setTimeout(function(){
+                    document.querySelector("#textDialogue").style.visibility = "hidden";
+                    document.querySelector(".box").style.visibility = "visible";
+                    document.querySelector(".resultat").style.visibility = "visible";
+                }, 4000);
+            } else { //S'il faut lancer un quiz
+                document.querySelector("#Suite").style.visibility = "hidden";
+                setTimeout(function(){
+                    document.querySelector("#textDialogue").style.visibility = "hidden";
+                    document.querySelector("#QuizZone").style.visibility = "visible";
+                }, 4000);
+            }
+        }
+        
 
     }
 
