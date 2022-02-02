@@ -88,7 +88,8 @@ app.get('/commune/:commune', function(req, res) {
 
 app.get('/affirmations/:commune', function(req, res) {
     let affirmationsJson = require('../public/data/affirmations.json');
-    let affirmations = affirmationsJson.affirmations;
+    let affirmationsJsonCopie = JSON.parse(JSON.stringify(affirmationsJson));
+    let affirmations = affirmationsJsonCopie.affirmations;
     let listeAffirmations = [];
     let communeNom = req.params.commune;
 
@@ -129,8 +130,8 @@ app.get('/affirmations/:commune', function(req, res) {
 
 app.get('/indice/:commune', function(req, res) {
     let affirmationsJson = require('../public/data/affirmations.json');
-    let copie = JSON.parse(JSON.stringify(affirmationsJson));
-    let indices = copie.indice;
+    let affirmations = JSON.parse(JSON.stringify(affirmationsJson));
+    let indices = affirmations.indice;
     let nomCommune = req.params.commune;
     let index = Math.floor(Math.random()*(indices.length));
     let indiceChoisi = indices[index];
