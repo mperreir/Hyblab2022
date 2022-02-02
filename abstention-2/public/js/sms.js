@@ -1,7 +1,7 @@
 "use strict";
 
 let selectedCity;
-// let percentageBet;
+let percentageBet;
 
 async function loadSms() {
     const citiesRq = await fetch('api/cities/');
