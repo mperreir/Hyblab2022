@@ -128,18 +128,38 @@ function start() {
     const BtnCourse15 = document.getElementById("BtnCourse15")
     const BtnCourse5 = document.getElementById("BtnCourse5")
 
-    function changeSelection(evt) {
+    let POURCENT_BORNE_MIN = 15;
+    let POURCENT_BORNE_MAX = 30;
 
-        BtnCourse30.className = ""
-        BtnCourse15.className = ""
-        BtnCourse5.className = ""
+    BtnCourse30.addEventListener("click", evt => {
+        if (evt.target.className !== "selected"){
+            BtnCourse15.className = ""
+            BtnCourse5.className = ""
+            evt.target.className = "selected"
+            POURCENT_BORNE_MIN = 15
+            POURCENT_BORNE_MAX = 30
+        }
+    })
 
-        evt.target.className = "selected"
-    }
+    BtnCourse15.addEventListener("click", evt => {
+        if (evt.target.className !== "selected"){
+            BtnCourse30.className = ""
+            BtnCourse5.className = ""
+            evt.target.className = ""
+            POURCENT_BORNE_MIN = 5
+            POURCENT_BORNE_MAX = 15
+        }
+    })
 
-    BtnCourse30.addEventListener("click", changeSelection)
-    BtnCourse15.addEventListener("click", changeSelection)
-    BtnCourse5.addEventListener("click", changeSelection)
+    BtnCourse5.addEventListener("click", evt => {
+        if (evt.target.className !== "selected"){
+            BtnCourse30.className = ""
+            BtnCourse15.className = ""
+            evt.target.className = "selected"
+            POURCENT_BORNE_MIN = 0
+            POURCENT_BORNE_MAX = 5
+        }
+    })
 
 
 
@@ -159,6 +179,10 @@ function start() {
             const NBR_JOUR = 360 // On affiche 360 jours de course
             const PIXEL_PAR_JOUR = 50 // 50 pixels de haut par jour
             const PADDING_POUR_DERNIER_JOUR = 20 // Jours sautés au début pour laisser de la place à la fin
+
+            const divCandidat = CANDIDATS["Philippe Poutou"];
+            const TAILLE_DIV_CANDIDAT = divCandidat.div.clientHeight;
+
 
             GenereLaListeDesBackgrounds(NBR_JOUR, PIXEL_PAR_JOUR)
 
@@ -204,6 +228,52 @@ function start() {
                     // On change la date
                     TimeInfoDate.innerHTML = new Date(currDate).toLocaleDateString("fr")
 
+
+
+
+                    // hauteur de la regle selon l'affichage client
+                    const hauteur_regle = document.querySelector("#race .regle").clientHeight
+
+                    let min_pourcent = 100;
+                    let max_pourcent = 0;
+                    console.log("BORNES : ", POURCENT_BORNE_MIN + " <->" + POURCENT_BORNE_MAX)
+                    CANDIDATS_KEYS.map(nom_candidat => {
+                        const index = CANDIDATS[nom_candidat].x.indexOf(currDate);
+
+                        let pourcent = 0
+
+                        if (index >= 0) {
+                            pourcent = parseInt(CANDIDATS[nom_candidat].y[index])
+                        }
+
+                        // on prend en compte seulement les candidats dans les bornes
+                        if (pourcent >= POURCENT_BORNE_MIN && pourcent <= POURCENT_BORNE_MAX){
+                            if (pourcent > max_pourcent){
+                                max_pourcent = pourcent;
+                            }
+                            if (pourcent < min_pourcent){
+                                min_pourcent = pourcent;
+                            }
+                        }
+                        
+                    });
+
+                    console.log(min_pourcent, '% ', max_pourcent, '%')
+                    // Echelle dynamique :
+                    // arrondissement a la dizaine inférieur
+                    // -> borne min
+                    const min_regle = Math.floor(min_pourcent/5)*5;
+                    const divRegleBas = document.getElementById("RegleBas");
+                    divRegleBas.innerText = min_regle + '%';
+
+                    // -> borne max
+                    // arrondissement a la dizaine supérieure
+                    const max_regle = Math.ceil(max_pourcent/5)*5;
+                    const divRegleHaut = document.getElementById("RegleHaut");
+                    divRegleHaut.innerText = max_regle + '%';
+
+                    console.log("Min : ", min_regle, " Max : ", max_regle)
+
                     // On change la position des candidats
                     CANDIDATS_KEYS.map(nom_candidat => {
                         const index = CANDIDATS[nom_candidat].x.indexOf(currDate);
@@ -214,14 +284,17 @@ function start() {
                             pourcent = parseFloat(CANDIDATS[nom_candidat].y[index]).toFixed(1)
                         }
 
+                        const position = (pourcent-min_regle) / (max_regle-min_regle) * hauteur_regle
 
-                        const hauteur_regle = document.querySelector("#race .regle").clientHeight
+                        // si candidats dans la borne sélectionnée :
+                        if (pourcent >= POURCENT_BORNE_MIN && pourcent <= POURCENT_BORNE_MAX){
+                            CANDIDATS[nom_candidat].div.style.top = "calc( 12.5vh + " + (position - TAILLE_DIV_CANDIDAT / 2) + "px" + " ) ";
+                        }
+                        else // sinon candidats hors borne :
+                        {
+                            CANDIDATS[nom_candidat].div.style.top = "-500px";
 
-                        // hauteur_regle == 100% dans le cas actuel
-                        const position = pourcent / 30 * hauteur_regle
-
-                        pourcent <= 15 && (CANDIDATS[nom_candidat].div.style.top = "-500px")
-                        pourcent > 15 && (CANDIDATS[nom_candidat].div.style.top = "calc( 12.5vh + " + position + "px" + " ) ")
+                        }
 
                         CANDIDATS[nom_candidat].div.querySelector(".pourcent").innerText = pourcent + ' %';
                     })
