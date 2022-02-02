@@ -113,7 +113,7 @@ window.onload = () => {
    }
 
    if (theme == "followers") {
-      document.getElementById("legende").innerHTML = "Followers en commun en %";
+      document.getElementById("legende").innerHTML = "<span>Followers</span> en commun en %";
    } else {
       document.getElementById("legende").innerHTML = `Les candidats qui parlent autant <span>${str_theme}</span> que <span>${mainCandidate}</span>`;
    }

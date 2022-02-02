@@ -12,7 +12,7 @@ sessionStorage.clear();
 sessionStorage.setItem('question', '1');
 
 // Init first slide
-// initSlide1();
+initSlide1();
 
 window.onload = () => {
   window.scrollTo(0, 25);
