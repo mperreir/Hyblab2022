@@ -1,9 +1,8 @@
 class DialogueModel extends Observable {
-    constructor(scene,perso1,perso2,description){
+    constructor(scene, description){
         super();
         this.scene=scene;
-        this.perso1=perso1;
-        this.perso2=perso2;
+
         this.description =description;
         this.nom=this.scene[0].Personne;
         this.dialogue=this.scene[0].Replique;
