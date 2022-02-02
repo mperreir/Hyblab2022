@@ -1,4 +1,4 @@
-function InitDesIntentions(intentionsCandidats) {
+function InitDesIntentions(intentionsCandidats, objCandidats) {
     const divRace = document.getElementById('race')
 
     const candidats = {}
@@ -23,6 +23,9 @@ function InitDesIntentions(intentionsCandidats) {
         divName.appendChild(divNom)
 
         const divBlock = document.createElement('div');
+        console.log(candidat.name)
+        const objCandidat = objCandidats.filter(c => candidat.name === c.prenom + ' ' + c.nom)[0];
+        divBlock.style.background = objCandidat.couleur;
         divBlock.className = 'block';
         const img = document.createElement('img');
         img.src = document.getElementById(candidat.name).src;
@@ -172,7 +175,7 @@ function start() {
         getSondages().then(sondages => {
 
             console.info("Données de sondage chargés !")
-            const CANDIDATS = InitDesIntentions(sondages)
+            const CANDIDATS = InitDesIntentions(sondages, candidats)
             const CANDIDATS_KEYS = Object.keys(CANDIDATS)
 
             // Calcul de l'hauteur de la page
