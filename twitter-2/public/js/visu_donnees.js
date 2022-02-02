@@ -57,7 +57,7 @@ window.onload = () => {
     // append the svg object to the body of the page
     const svg = d3.select("#dataviz")
         .append("svg")
-        .attr("width", "100%")
+        .attr("width", 320)
         .attr("height", 400)
         .append("g")
 
