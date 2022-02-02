@@ -6,10 +6,10 @@ async function loadFileExplorer() {
     const metropoleRq = await fetch('api/metropole/');
     metropoleData = await metropoleRq.json();
     metropoleData = metropoleData[selectedCity];
-    const container = document.getElementById('container');
+    const screen = document.getElementById('screen');
 
     const fileExplorerHtml = await loadTemplate('templates/file_explorer/file_explorer.ejs', FOLDER_TITLES);
-    container.innerHTML = fileExplorerHtml;
+    screen.innerHTML = fileExplorerHtml;
 
     const fileProgressBars = document.getElementsByClassName('file-explorer-item-file-progress-bar');
 
