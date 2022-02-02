@@ -79,8 +79,9 @@ function date() {
 
 // loadStart();
 // loadSms();
-// loadFolder('nouveauxHabitants');
+// // loadFolder('nonVotants');
 // loadFileExplorer();
+
 // loadEnd();
 loadRebet();
 
@@ -89,10 +90,12 @@ async function fetchCityData(city) {
     const rqJson = await cityRq.json();
     return rqJson;
 }
+// loadFileExplorer();
+// smsScreen();
 
 
 
-// loadPresVille();
+//loadPresVille();
 
 
 async function loadTemplate(path, data) {
