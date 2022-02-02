@@ -86,7 +86,6 @@ function geoFindMe() {
   }
 
 
-//document.addEventListener('DOMContentLoaded', geoFindMe);
 
 const button_to_slide2 = document.getElementById('bureaux_localisation');
 button_to_slide2.addEventListener('click', geoFindMe);
@@ -117,7 +116,7 @@ async function displayBureauxVotefromLocation(latitude, longitude){
       
       div.style.display = 'inline-block';
   
-      nb_bureaux_same_adress = data[i].length;
+      nb_bureaux_same_adress = data[j].length;
     
       let bold_name_bureau = document.createElement('b');
       let bold_num_bureau = document.createElement('b');
@@ -159,4 +158,10 @@ async function displayBureauxVotefromLocation(latitude, longitude){
     global_div.appendChild(div_couple_bureaux);
   }
 
+}
+
+
+function goToSlide1(){
+  console.log('cheh');
+  swiper.slidePrev();
 }
