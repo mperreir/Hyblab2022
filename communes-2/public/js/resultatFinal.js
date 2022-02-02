@@ -1,3 +1,5 @@
+'use strict'
+
 page('/communes-2/resultatFinal', async function () {
     await renderTemplate(templates('./templates/resultatFinal.mustache'));
 

@@ -1,3 +1,5 @@
+'use strict'
+
 page('/communes-2/credits', async function () {
     await renderTemplate(templates('./templates/credits.mustache'));
 

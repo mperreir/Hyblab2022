@@ -1,3 +1,5 @@
+'use strict'
+
 page('/communes-2/information', async function () {
     await renderTemplate(templates('./templates/information.mustache'));
 
@@ -10,7 +12,7 @@ page('/communes-2/information', async function () {
         },
     });
 
-    document.getElementById("first-slide").addEventListener('click', () => {
+    document.getElementById("first-slide").addEventListener('scroll', () => {
         swiper.slideNext()
     });
 
@@ -95,7 +97,7 @@ page('/communes-2/information', async function () {
     ul.appendChild(li5);
     ul.appendChild(li6);
     
-//Info commune tour2
+    //Info commune tour2
     const info2 = document.querySelector("#sous_titre2");
     const  ul2 = document.createElement("ul");
     const  li21 = document.createElement("li");
@@ -114,7 +116,6 @@ page('/communes-2/information', async function () {
     li25.innerHTML = `Nombre de bulletins nuls : ${data2t[0].NulsCommune}`;
     li26.innerHTML = `Nombre de bulletins exprimés : ${data2t[0].ExprimésCommune}`;
 
-
     info2.appendChild(ul2);
     ul2.appendChild(li21);
     ul2.appendChild(li22);
@@ -123,22 +124,15 @@ page('/communes-2/information', async function () {
     ul2.appendChild(li25);
     ul2.appendChild(li26);
 
-
-
     document.getElementById("continue-btn").addEventListener('click', function () {
         page('/communes-2/affirmation');
     });
-
-
-    
 });
 
 function histo() {
-
     const margin = 20;
     const width = 330 - 2 * margin;
     const height = 250 - 2 * margin;
-
     let col = ["#282246"];
 
     d3.select("#histogramme").selectAll("*").remove();
@@ -160,7 +154,6 @@ function histo() {
         .range([height, 0])
         .domain([0, d3.max(dataSet.map(data => data.Voix)) + 5])
         
-
     chart.append('g')
         .call(d3.axisLeft(yScale))
         .selectAll("text")
@@ -170,7 +163,6 @@ function histo() {
         .range([0, width - 40])
         .domain(dataSet.map(data => data.NomC))
         .padding(0.1)
-
 
     chart.append('g')
         .attr('transform', `translate(0, ${height})`)
@@ -183,7 +175,6 @@ function histo() {
             .attr("transform", "rotate(-65)")
             .attr("fill", "black");
         
-
     const makeYLines = () => d3.axisLeft()
         .scale(yScale)
   
@@ -226,13 +217,10 @@ function histo() {
       .style('font-size', '18px')
       .attr('text-anchor', 'middle')
       .text(`${dataSet[0].Commune}`)
-
 }
 
 function pie(){
-
     let col = ["#ED6464","#83C49E"]; 
-
     const size = 300;
     const fourth = size / 4;
     const half = size / 2;
@@ -273,7 +261,6 @@ function pie(){
             .attr('stroke', 'white')
             .attr('d', arc)
 
-
     const labels = plotArea.selectAll('text')
         .data(arcs)
         .enter()
@@ -287,5 +274,4 @@ function pie(){
           .attr('y', '0.01em')
           .attr('x', 0)
           .text(d => `${d.data.Nom2T} (${d.value}%)`);
-
 }

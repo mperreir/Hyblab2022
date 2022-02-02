@@ -1,7 +1,7 @@
 'use strict'
 
 // Show slider
-var slideIndex = 1;
+var slideIndex;
 
 page('/communes-2/affirmation', async function () {
     await renderTemplate(templates('./templates/affirmation.mustache'));
@@ -27,10 +27,7 @@ page('/communes-2/affirmation', async function () {
         indiceP.innerHTML = "Pas d'indice au premier essai !";
     }
 
-    // FIN
-
     const nbMaxCommunes = 5;
-
     let response = await fetch('api/carte');
     const dataCarte = await response.json();
 
@@ -55,9 +52,8 @@ page('/communes-2/affirmation', async function () {
         divAffirmations.item(i).textContent = affirmations[i]['string'];
     }
 
+    slideIndex = 1;
     showAffirmation(slideIndex);
-
-    
 
     // Add event click on affirmation box
     let slide = document.getElementById("show");
@@ -709,4 +705,3 @@ function sleep(milliseconds) {
       }
     }
   }
-

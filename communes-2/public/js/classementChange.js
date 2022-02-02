@@ -1,3 +1,5 @@
+'use strict'
+
 page('/communes-2/classementChange', async function () {
     await renderTemplate(templates('./templates/classementChange.mustache'));
 
