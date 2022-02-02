@@ -72,7 +72,6 @@ const recompense = document.querySelector('.recompense');
 let enemies = localStorage.getItem("enemies");
 enemies = JSON.parse(enemies);
 const enemy = enemies.shift();
-console.log(enemy)
 const nb = parseInt(localStorage.getItem("question"));
 const factory = new FactoryQuestion(localStorage.getItem("commune_code"));
 const question_data = factory.generate_question(nb,true,enemy[0]);
@@ -86,7 +85,6 @@ recompense.textContent = bonneVersion(objet);
 localStorage.setItem("objetGagner", bonneVersion(objet));
 let reponse1 = document.querySelector(".reponse1");
 let reponse2 = document.querySelector(".reponse2");
-console.log(enemies)
 reponse1.addEventListener('click', () => {
 	localStorage.setItem("enemies",JSON.stringify(enemies));
 	if(question_data[1][1])
