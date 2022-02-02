@@ -246,8 +246,8 @@ body {
 /* Mission 5 : Grâce */
 .phoneButton {
   position: absolute;
-  top: 75%;
-  left: 40%;
+  top: 73%;
+  left: 42%;
   width: 80px;
   height: 73px;
   cursor: pointer;
@@ -256,27 +256,19 @@ body {
   opacity: 75%;
 }
 
-.dialogBox {
-  position: absolute;
-  display: none;
-  left: 11%;
-  bottom: 8%;
-  width: 75%;
-  height: auto;
-}
 #animationsContainer {
   height: 60%;
   width: 100%;
 }
 #animationsContainer svg {
   position: absolute;
-  top: 2%;
+  top: -5%;
 }
 
 #animationsContainer img {
   position: absolute;
-  top: 50%;
-  right: 10.5%;
+  top: 40%;
+  right: 7%;
   z-index: 3;
   width: 13%;
   height: auto;
@@ -604,13 +596,12 @@ body {
 .dialogBox p {
   font-family: "Nunito";
   font-size: 16%;
-  width: 82%;
-  margin: auto;
+  width: auto;
   color: white;
   text-align: justify;
   position: absolute;
-  bottom: 50%;
-  left: 10%;
+  top: 0%;
+  left: 0%;
 }
 .apply-shake {
   animation: shake 0.5s;
@@ -657,6 +648,7 @@ body {
 }
 
 #p6 .dialog {
+  height: 25%;
   position: relative;
   text-align: center;
   color: white;

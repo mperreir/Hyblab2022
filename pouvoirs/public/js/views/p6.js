@@ -13,10 +13,6 @@ const init_p6 = function () {
 
     const dialog_info1 = document.querySelector("#p6 .info1");
     const dialog_info2 = document.querySelector("#p6 .info2");
-    const dialog_info3 = document.querySelector("#p6 .info3");
-    const dialog_info4 = document.querySelector("#p6 .info4");
-    const dialog_info5 = document.querySelector("#p6 .info5");
-    const dialog_info6 = document.querySelector("#p6 .info6");
 
     const clockEffect = createAudio("data/sounds/clockTicking.mp3");
 
@@ -28,10 +24,6 @@ const init_p6 = function () {
     
     dialog_info1.querySelector(".dialog-text").innerHTML = getText("p6-info1");
     dialog_info2.querySelector(".dialog-text").innerHTML = getText("p6-info2");
-    dialog_info3.querySelector(".dialog-text").innerHTML = getText("p6-info3");
-    dialog_info4.querySelector(".dialog-text").innerHTML = getText("p6-info4");
-    dialog_info5.querySelector(".dialog-text").innerHTML = getText("p6-info5");
-    dialog_info6.querySelector(".dialog-text").innerHTML = getText("p6-info6");
 
     let choice_made = 0;
     let timeout;
@@ -142,9 +134,9 @@ const init_p6 = function () {
                 })
                 
             }
-        })
+        })}
         ,{once: true}
-    });
+    );
 
     dialog_not_pressed.addEventListener('click', () => {
         anime({
@@ -160,9 +152,9 @@ const init_p6 = function () {
                 })
                 
             }
-        })
+        })}
         ,{once: true}
-    });
+    );
 
     dialog_info1.addEventListener('click', () => {
         anime({
@@ -172,89 +164,16 @@ const init_p6 = function () {
             complete : () => {
                 dialog_info1.style.display = "none";
                 dialog_info2.style.display = "block";
+                anime.remove(dialog_arrow);
                 anime({
                     targets : dialog_info2,
                     opacity : [0,1]
                 })
                 
             }
-        })
+        })}
         ,{once: true}
-    });
-
-
-    dialog_info2.addEventListener('click', () => {
-        anime({
-            targets : dialog_info2,
-            opacity : [1,0],
-            easing : 'linear',
-            complete : () => {
-                dialog_info2.style.display = "none";
-                dialog_info3.style.display = "block";
-                anime({
-                    targets : dialog_info3,
-                    opacity : [0,1]
-                })
-                
-            }
-        })
-        ,{once: true}
-    });
-
-    dialog_info3.addEventListener('click', () => {
-        anime({
-            targets : dialog_info3,
-            opacity : [1,0],
-            easing : 'linear',
-            complete : () => {
-                dialog_info3.style.display = "none";
-                dialog_info4.style.display = "block";
-                anime({
-                    targets : dialog_info4,
-                    opacity : [0,1]
-                })
-                
-            }
-        })
-        ,{once: true}
-    });
-
-    dialog_info4.addEventListener('click', () => {
-        anime({
-            targets : dialog_info4,
-            opacity : [1,0],
-            easing : 'linear',
-            complete : () => {
-                dialog_info4.style.display = "none";
-                dialog_info5.style.display = "block";
-                anime({
-                    targets : dialog_info5,
-                    opacity : [0,1]
-                })
-                
-            }
-        })
-        ,{once: true}
-    });
-
-    dialog_info5.addEventListener('click', () => {
-        anime({
-            targets : dialog_info5,
-            opacity : [1,0],
-            easing : 'linear',
-            complete : () => {
-                dialog_info5.style.display = "none";
-                dialog_info6.style.display = "block";
-                anime.remove(arrow_anim);
-                anime({
-                    targets : dialog_info6,
-                    opacity : [0,1]
-                })
-                
-            }
-        })
-        ,{once: true}
-    });
+    );
 
     const decompte_func = function () {
         if (choice_made == 0) {
