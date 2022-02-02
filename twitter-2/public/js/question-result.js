@@ -29,8 +29,6 @@ window.addEventListener("load", function (event) {
 
 
 window.onload = () => {
-
-
    window.scrollTo(0, 25);
 
    document.getElementById("about").addEventListener("click", () => {
