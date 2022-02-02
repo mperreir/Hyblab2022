@@ -293,13 +293,13 @@ div{
 .button-candidat{
     width: 30%;
     /*height: 40px;*/
-    height:25%;
+    height:22%;
     /*padding: 0;*/
     padding-bottom : 4%;
     border: none;
     background: none;
     /*margin-bottom: 6%;*/
-    margin-top:0.5%;
+    margin-top:1%;
     font-size : 16%;
 }
 

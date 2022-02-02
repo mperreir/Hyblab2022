@@ -87,7 +87,7 @@ async function Suivant(temps,score,total) {
     a.style.boxShadow = "7px 7px 25px 0 rgba(0,0,0,0.25)";
     a.style.border = "none";
     a.style.fontFamily = "'Outfit', sans-serif";
-    a.style.fontSize = "90%";
+    a.style.fontSize = "80%";
     a.addEventListener('click', () => Reponse(a, question.is_response_1_true, temps, interval, score, total));
 
     let b = document.createElement('input');
@@ -101,7 +101,7 @@ async function Suivant(temps,score,total) {
     b.style.boxShadow = "7px 7px 25px 0 rgba(0,0,0,0.25)";
     b.style.border = "none";
     b.style.fontFamily = "'Outfit', sans-serif";
-    b.style.fontSize = "90%";
+    b.style.fontSize = "80%";
     b.addEventListener('click', () => { 
         Reponse(b, !question.is_response_1_true, temps, interval, score, total);
     });
