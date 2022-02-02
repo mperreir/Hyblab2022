@@ -10,14 +10,14 @@
     bottom: 65.94%;
 
     transform: rotate(4.76deg);
-    animation:enveloppebleue_animation 1.5s;
-    -webkit-animation:enveloppebleue_animation 1.5s; /* Safari and Chrome */
+    animation:enveloppebleue_animation 2.5s;
+    -webkit-animation:enveloppebleue_animation 2.5s; /* Safari and Chrome */
 }
 
 @keyframes enveloppebleue_animation
 {
-    0%   {left: -69.88%;right: 84.32%;top: -8.75%;bottom: 75.94%;}
-    /*25%  {background:yellow; left:200px; top:0px;}*/
+    0%   {left: -69.88%;right: 84.32%;top: -8.75%;bottom: 75.94%; opacity:0;}
+    60%  {opacity: 1};
     /*50%  {background:blue; left:200px; top:200px;}*/
     /*75%  {background:green; left:0px; top:200px;}*/
     100% {left:-8.49%;right:22.94%;top:1.25%;bottom:65.94%;}
@@ -37,14 +37,14 @@
     right: -10.44%;
     top: 30.78%;
     bottom: 41.96%;
-    animation:envelopperouge_animation 1.5s;
-    -webkit-animation:envelopperouge_animation 1.5s; /* Safari and Chrome */
+    animation:envelopperouge_animation 2.5s;
+    -webkit-animation:envelopperouge_animation 2.5s; /* Safari and Chrome */
 }
 
 @keyframes envelopperouge_animation
 {
-    0%   {left: 87.22%;right: -70.44%;top: 40.78%;bottom: 31.96%;}
-    /*25%  {background:yellow; left:200px; top:0px;}*/
+    0%   {left: 87.22%;right: -70.44%;top: 40.78%;bottom: 31.96%; opacity:0;}
+    60%  {opacity: 1};
     /*50%  {background:blue; left:200px; top:200px;}*/
     /*75%  {background:green; left:0px; top:200px;}*/
     100% {left: 27.22%;right: -10.44%;top: 30.78%;bottom: 41.96%;}
@@ -65,14 +65,14 @@ right: 32.44%;
 top: 52.91%;
 bottom: 11.89%;
 transform: rotate(-0.75deg);
-    animation:enveloppeblanche_animation 1.5s;
-    -webkit-animation:enveloppeblanche_animation 1.5s; /* Safari and Chrome */
+    animation:enveloppeblanche_animation 2.5s;
+    -webkit-animation:enveloppeblanche_animation 2.5s; /* Safari and Chrome */
 }
 
 @keyframes enveloppeblanche_animation
 {
-    0%   {left: -79.36%;right: 92.44%;top: 52.91%;bottom: 11.89%;}
-    /*25%  {background:yellow; left:200px; top:0px;}*/
+    0%   {left: -79.36%;right: 92.44%;top: 52.91%;bottom: 11.89%;opacity:0;}
+    60%  {opacity: 1};
     /*50%  {background:blue; left:200px; top:200px;}*/
     /*75%  {background:green; left:0px; top:200px;}*/
     100% {left: -19.36%;right: 32.44%;top: 52.91%;bottom: 11.89%;}
@@ -95,20 +95,21 @@ transform: rotate(-0.75deg);
     border: 0.5px;
     width: 50%;
     transform: rotate(5.75deg);
-    animation:carte_animation 1.5s;
-    -webkit-animation:carte_animation 1.5s; /* Safari and Chrome */
+    animation:carte_animation 2.5s;
+    -webkit-animation:carte_animation 2.5s; /* Safari and Chrome */
 }
 @keyframes carte_animation
 {
-    0%   {left: 46.39%;right: 6.47%;top: 100.47%;bottom: -32.48%;}
-    /*25%  {background:yellow; left:200px; top:0px;}*/
+    0%   {left: 46.39%;right: 6.47%;top: 100.47%;bottom: -32.48%;opacity: 0;}
+    60%  {opacity: 1;}
     /*50%  {background:blue; left:200px; top:200px;}*/
     /*75%  {background:green; left:0px; top:200px;}*/
     100% {left: 46.39%;right: 6.47%;top: 70.47%;bottom: -2.48%;}
 }
 @-webkit-keyframes carte_animation /* Safari and Chrome */
 {
-    0%   {left: 46.39%;right: 6.47%;top: 100.47%;bottom: -32.48%;}
+    0%   {left: 46.39%;right: 6.47%;top: 100.47%;bottom: -32.48%;opacity: 0;}
+    60%  {opacity: 1;}
     /*25%  {background:yellow; left:200px; top:0px;}*/
     /*50%  {background:blue; left:200px; top:200px;}*/
     /*75%  {background:green; left:0px; top:200px;}*/
@@ -120,14 +121,16 @@ transform: rotate(-0.75deg);
     top: 5%;
     right: 5%;
     width: 10%;
-    -webkit-animation: bounce-in-top 1.1s both 1s;
-	        animation: bounce-in-top 1.1s both 1s;
+    -webkit-animation: bounce-in-top 1.1s both 2s;
+	        animation: bounce-in-top 1.1s both 2s;
 }
 
 @keyframes enveloppebleue_reverse
 {
-    0% {left:-8.49%;right:22.94%;top:1.25%;bottom:65.94%;}
-    100%   {left: -69.88%;right: 84.32%;top: -8.75%;bottom: 75.94%;}
+    0% {left:-8.49%;right:22.94%;top:1.25%;bottom:65.94%;opacity: 1;}
+    40% {opacity:1;}
+    90% {opacity:0;}
+    100%   {left: -69.88%;right: 84.32%;top: -8.75%;bottom: 75.94%;opacity:0;}
     /*25%  {background:yellow; left:200px; top:0px;}*/
     /*50%  {background:blue; left:200px; top:200px;}*/
     /*75%  {background:green; left:0px; top:200px;}*/
@@ -135,8 +138,10 @@ transform: rotate(-0.75deg);
 }
 @-webkit-keyframes enveloppebleue_reverse /* Safari and Chrome */
 {
-    0% {left:-8.49%;right:22.94%;top:1.25%;bottom:65.94%;}
-    100%   {left: -69.88%;right: 84.32%;top: -8.75%;bottom: 75.94%;}
+    0% {left:-8.49%;right:22.94%;top:1.25%;bottom:65.94%;opacity: 1;}
+    40% {opacity:1;}
+    90% {opacity:0;}
+    100%   {left: -69.88%;right: 84.32%;top: -8.75%;bottom: 75.94%;opacity:0;}
     /*25%  {background:yellow; left:200px; top:0px;}*/
     /*50%  {background:blue; left:200px; top:200px;}*/
     /*75%  {background:green; left:0px; top:200px;}*/
@@ -144,16 +149,20 @@ transform: rotate(-0.75deg);
 
 @keyframes envelopperouge_reverse
 {
-    0% {left: 27.22%;right: -10.44%;top: 30.78%;bottom: 41.96%;}
-    100%   {left: 87.22%;right: -70.44%;top: 40.78%;bottom: 31.96%;}
+    0% {left: 27.22%;right: -10.44%;top: 30.78%;bottom: 41.96%;opacity: 1;}
+    40% {opacity:1;}
+    90% {opacity:0;}
+    100%   {left: 87.22%;right: -70.44%;top: 40.78%;bottom: 31.96%;opacity:0;}
     /*25%  {background:yellow; left:200px; top:0px;}*/
     /*50%  {background:blue; left:200px; top:200px;}*/
     /*75%  {background:green; left:0px; top:200px;}*/
 }
 @-webkit-keyframes envelopperouge_reverse/* Safari and Chrome */
 {
-    0% {left: 27.22%;right: -10.44%;top: 30.78%;bottom: 41.96%;}
-    100%   {left: 87.22%;right: -70.44%;top: 40.78%;bottom: 31.96%;}
+    0% {left: 27.22%;right: -10.44%;top: 30.78%;bottom: 41.96%;opacity: 1;}
+    40% {opacity:1;}
+    90% {opacity:0;}
+    100%   {left: 87.22%;right: -70.44%;top: 40.78%;bottom: 31.96%;opacity:0;}
     /*25%  {background:yellow; left:200px; top:0px;}*/
     /*50%  {background:blue; left:200px; top:200px;}*/
     /*75%  {background:green; left:0px; top:200px;}*/
@@ -161,16 +170,20 @@ transform: rotate(-0.75deg);
 
 @keyframes enveloppeblanche_reverse
 {
-    0% {left: -19.36%;right: 32.44%;top: 52.91%;bottom: 11.89%;}
-    100%   {left: -79.36%;right: 92.44%;top: 52.91%;bottom: 11.89%;}
+    0% {left: -19.36%;right: 32.44%;top: 52.91%;bottom: 11.89%;opacity: 1;}
+    40% {opacity:1;}
+    90% {opacity:0;}
+    100%   {left: -79.36%;right: 92.44%;top: 52.91%;bottom: 11.89%;opacity:0;}
     /*25%  {background:yellow; left:200px; top:0px;}*/
     /*50%  {background:blue; left:200px; top:200px;}*/
     /*75%  {background:green; left:0px; top:200px;}*/
 }
 @-webkit-keyframes enveloppeblanche_reverse /* Safari and Chrome */
 {
-    0% {left: -19.36%;right: 32.44%;top: 52.91%;bottom: 11.89%;}
-    100%   {left: -79.36%;right: 92.44%;top: 52.91%;bottom: 11.89%;}
+    0% {left: -19.36%;right: 32.44%;top: 52.91%;bottom: 11.89%;opacity: 1;}
+    40% {opacity:1;}
+    90% {opacity:0;}
+    100%   {left: -79.36%;right: 92.44%;top: 52.91%;bottom: 11.89%;opacity:0;}
     /*25%  {background:yellow; left:200px; top:0px;}*/
     /*50%  {background:blue; left:200px; top:200px;}*/
     /*75%  {background:green; left:0px; top:200px;}*/
@@ -178,16 +191,20 @@ transform: rotate(-0.75deg);
 
 @keyframes carte_reverse
 {
-    0% {left: 46.39%;right: 6.47%;top: 70.47%;bottom: -2.48%;}
-    100%   {left: 46.39%;right: 6.47%;top: 100.47%;bottom: -32.48%;}
+    0% {left: 46.39%;right: 6.47%;top: 70.47%;bottom: -2.48%;opacity: 1;}
+    40% {opacity:1;}
+    90% {opacity:0;}
+    100%   {left: 46.39%;right: 6.47%;top: 100.47%;bottom: -32.48%;opacity:0;}
     /*25%  {background:yellow; left:200px; top:0px;}*/
     /*50%  {background:blue; left:200px; top:200px;}*/
     /*75%  {background:green; left:0px; top:200px;}*/
 }
 @-webkit-keyframes carte_reverse /* Safari and Chrome */
 {
-    0% {left: 46.39%;right: 6.47%;top: 70.47%;bottom: -2.48%;}
-    100%   {left: 46.39%;right: 6.47%;top: 100.47%;bottom: -32.48%;}
+    0% {left: 46.39%;right: 6.47%;top: 70.47%;bottom: -2.48%;opacity: 1;}
+    60% {opacity:1;}
+    90% {opacity:0;}
+    100%   {left: 46.39%;right: 6.47%;top: 100.47%;bottom: -32.48%;opacity: 0;}
     /*25%  {background:yellow; left:200px; top:0px;}*/
     /*50%  {background:blue; left:200px; top:200px;}*/
     /*75%  {background:green; left:0px; top:200px;}*/
@@ -198,8 +215,8 @@ transform: rotate(-0.75deg);
     bottom: 5%;
     left: 5%;
     width: 18%;
-    -webkit-animation: bounce-in-top 1.1s both 1.5s;
-	        animation: bounce-in-top 1.1s both 1.5s;
+    -webkit-animation: bounce-in-top 1.1s both 2.5s;
+	        animation: bounce-in-top 1.1s both 2.5s;
 }
 
 @-webkit-keyframes bounce-in-top {
