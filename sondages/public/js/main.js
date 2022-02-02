@@ -1,25 +1,3 @@
-const POLL = [
-    [12, 45, 32],
-    [45, 10, 20],
-    [30, 20, 45],
-    [20, 20, 20],
-    [200, 210, 400],
-    [700, 50, 70],
-    [100, 200, 800],
-    [500, 200, 100],
-]
-
-const COMPATIBLE_BACKGROUNDS = {
-    2: [5, 6, 7],
-    3: [4, 9],
-    4: [3, 8],
-    5: [3, 8],
-    6: [2, 5, 7],
-    7: [2, 5, 6],
-    8: [2, 6, 7],
-    9: [2, 6, 7],
-}
-
 let CANDIDATS = []
 
 function InitDesIntentions(intentionsCandidats) {
@@ -97,37 +75,7 @@ function ToggleButton(button, img = [1, 2], callback = _ => {}) {
     })
 }
 
-function getRandomInt(max) {
-    return Math.floor(Math.random() * max);
-}
-
-function GenereLaListeDesBackgrounds(nb_jours) {
-    let background = []
-    background.push('fond2');
-    let backgroundBefore = 2;
-    for (let i = 0; i < nb_jours - 2; i++) {
-        if (i == nb_jours - 3) {
-            if (backgroundBefore === 3) {
-                background.push('fond9');
-            } else if (backgroundBefore === 4 || backgroundBefore === 5) {
-                background.push('fond8');
-            } else {
-                background.push('fond6');
-            }
-        } else {
-            let index = getRandomInt(COMPATIBLE_BACKGROUNDS[backgroundBefore].length);
-            let currBackground = COMPATIBLE_BACKGROUNDS[backgroundBefore][index];
-            background.push('fond' + currBackground);
-            backgroundBefore = currBackground;
-        }
-    }
-    background.push('arrivee');
-    return background;
-}
-
 function start() {
-
-    window.scrollTo(0, 1);
 
     const player = document.querySelector("lottie-player");
     player.load("anim/debut.json");
@@ -206,7 +154,7 @@ function start() {
 
     for (let i = 0; i < background.length; i++) {
         const img = document.createElement("img")
-        img.src = `./data/_AGR src/pattern/${background[i]}.svg`
+        img.src = `./img/pattern/${background[i]}.svg`
         blocks.appendChild(img)
     }
 
