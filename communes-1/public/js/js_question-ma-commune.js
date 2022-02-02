@@ -36,7 +36,6 @@ function toLowerMdr(nom)
 	return temp
 }
 
-
 const question = document.querySelector('.question');
 const commune_enemy_deux = document.querySelector('.commune_2');
 commune_enemy_deux.textContent = toLowerMdr(ma_commune);
@@ -50,7 +49,6 @@ const question_data = factory.generate_question(nb,true,localStorage.getItem("co
 question.textContent = question_data[0];
 reponse_1.firstChild.textContent = toLowerMdr(question_data[1][0]);
 reponse_2.firstChild.textContent = toLowerMdr(question_data[2][0]);
-
 reponse1.addEventListener('click', () => {
 	localStorage.setItem("question",(nb+1).toString());
 	localStorage.setItem("position_joueur",(parseInt(localStorage.getItem("position_joueur"))+1).toString());
@@ -79,7 +77,8 @@ reponse1.addEventListener('click', () => {
 reponse2.addEventListener('click', () => {
 	localStorage.setItem("question",(nb+1).toString());
 	localStorage.setItem("position_joueur",(parseInt(localStorage.getItem("position_joueur"))+1).toString());
-	if(question_data[2][1]) {
+	if(question_data[2][1])
+	{
 		localStorage.setItem("vies_joueur",(parseInt(localStorage.getItem("vies_joueur"))+1).toString());
 	}
 	if(parseInt(localStorage.getItem("vies_joueur")) === 0)
@@ -90,7 +89,8 @@ reponse2.addEventListener('click', () => {
 	{
 		window.location.href = 'anjoute-victoire.html';
 	}
-	if(question_data[2][1]) {
+	else if(question_data[2][1])
+	{
 		window.location.href = 'anjoute-commune-win.html';
 	}
 	else {
