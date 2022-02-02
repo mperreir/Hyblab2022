@@ -54,7 +54,17 @@ reponse1.addEventListener('click', () => {
 	{
 		localStorage.setItem("vies_joueur",(parseInt(localStorage.getItem("vies_joueur"))+1).toString());
 	}
-	window.location.href = 'anjoute-joute-win.html';
+	if(parseInt(localStorage.getItem("vie_joueur")) === 0)
+	{
+		window.location.href = 'anjoute-fini-question';
+	}
+	else if(parseInt(localStorage.getItem("question")) >= 11)
+	{
+		window.location.href = 'anjoute-victoire.html';
+	}
+	else {
+		window.location.href = 'anjoute-joute-win.html';
+	}
 });
 reponse2.addEventListener('click', () => {
 	localStorage.setItem("question",(nb+1).toString());
@@ -62,5 +72,15 @@ reponse2.addEventListener('click', () => {
 	if(question_data[2][1]) {
 		localStorage.setItem("vies_joueur",(parseInt(localStorage.getItem("vies_joueur"))+1).toString());
 	}
-	window.location.href = 'anjoute-joute-win.html';
+	if(parseInt(localStorage.getItem("vie_joueur")) === 0)
+	{
+		window.location.href = 'anjoute-fini-question.html';
+	}
+	else if(parseInt(localStorage.getItem("question")) >= 11)
+	{
+		window.location.href = 'anjoute-victoire.html';
+	}
+	else {
+		window.location.href = 'anjoute-joute-win.html';
+	}
 });
