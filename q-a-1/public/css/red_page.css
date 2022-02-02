@@ -43,6 +43,14 @@ p{
     width:66%;
     left:55.7%;
     top:27%;
+    display: none;
+}
+
+#img_mairie2{
+    position:absolute;
+    width:45%;
+    left:55.7%;
+    top:26%;
 }
 
 #question_bureaux{
@@ -207,4 +215,11 @@ a:link,a:visited{
     background:#A34142;
     position:absolute;
     bottom:0;
+}
+
+#drapeau{
+    position : absolute;
+    width: 12%;
+    right: 9.8%;
+    top: 24.6%;
 }
