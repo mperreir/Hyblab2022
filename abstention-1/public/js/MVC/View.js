@@ -3,6 +3,7 @@ class View {
 
     constructor(){
     
+        this.go=document.querySelector('#go');
         this.info=document.querySelector('#info');
         this.popupInfo=document.querySelector('#popupPointInfo');
         this.carnet=document.querySelector('#carnet');

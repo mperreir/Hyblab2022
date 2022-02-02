@@ -50,6 +50,62 @@ body{
     background-color: white;
     position: absolute;
 }
+/*-------------------Page d'accueil-----------------*/
+
+#logoVelo{
+    position:absolute;
+    left: 55%;
+    top:5%;
+    text-align: center;
+    width: 30%;
+    height: 30%;
+}
+#gifVelo{
+    width: 60%;
+}
+
+#logo{
+    width: 100%;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+    left: 0%;
+    top:46%;
+
+}
+
+#accueil h1,#accueil p {
+    margin: 0 auto;
+    width: 35vh;
+    color: #0600FF;
+
+}
+#accueil h1{
+    margin-top: 65%;
+    position: relative;
+}
+#accueil p{
+    margin-top: 3%;
+}
+
+#go{
+border : 1vh solid #E66E78;  
+    border-radius: 10em;
+    background-color: white;
+    color: #E66E78;
+    font-weight:bold ;
+    font-size: 80%;
+
+    margin-top: 13%;
+    width: 35vh;
+    height: 9vh;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
 
 /*--------------Section intro--------------------*/
 #sujet{

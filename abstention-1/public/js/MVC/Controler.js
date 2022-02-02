@@ -14,6 +14,8 @@ class Controler {
         // update
 
         //  action
+        this.view.go.addEventListener("click", ()=> {window.location.href = 'index.html';});
+
         this.view.info.addEventListener("click", ()=> {
         
             if (this.infoActiv===0){
