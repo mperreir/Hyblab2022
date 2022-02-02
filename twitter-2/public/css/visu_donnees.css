@@ -1,5 +1,5 @@
 /* Normalize margin and padding to ease elements positioning */
-*{
+* {
     padding:0;
     margin:0;
 }
@@ -12,12 +12,13 @@
     font-style: normal;
 }
 
-body{
+body {
     background-color: black;
     color: white;
     overflow: hidden;   /* to avoid slider bugs on some browsers */
     font-family: 'blatantregular';
 }
+
 #container{
     height: 100vh;
     padding-top: 3vh;
@@ -90,10 +91,10 @@ body{
     background-color: white;
 }
 
-#return {
+#exit {
     padding-top: 10%;
     position: relative;
-    margin-left: 85%;
+    margin-right: 0;
 }
 
 text {

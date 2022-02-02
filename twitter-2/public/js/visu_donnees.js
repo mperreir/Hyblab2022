@@ -11,6 +11,10 @@ window.onload = () => {
         window.location.href = "./exploration.html";
     });
 
+    document.getElementById("other_category").addEventListener("click", () => {
+        window.location.href = "./exploration.html#choix-theme";
+    });
+
     document.getElementById("exit").addEventListener("click", () => {
         window.location.href = "./index.html";
     });
