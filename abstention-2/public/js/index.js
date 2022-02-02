@@ -85,9 +85,11 @@ function date() {
 // loadSms();
 // // loadFolder('nonVotants');
 
-loadFileExplorer().then(loadEnd());
+// loadFileExplorer().then(loadEnd());
 
 // loadRebet();
+
+loadStart();
 
 
 async function fetchCityData(city) {

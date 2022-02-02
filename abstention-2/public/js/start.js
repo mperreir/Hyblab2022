@@ -8,18 +8,23 @@ async function loadStart() {
     anime({
         targets: '.start-flag',
         translateY: '-96%',
-        delay: 2000,
-        duration: 1000,
-        easing: 'easeOutQuad'
-    });
-    anime({
-        targets: '.start-content',
-        translateY: '-96%',
-        delay: 2000,
+        delay: 1000,
         duration: 1000,
         easing: 'easeOutQuad'
     });
 
+    anime({
+        targets: '.start-content',
+        translateY: '-96%',
+        delay: 1000,
+        duration: 1000,
+        easing: 'easeOutQuad'
+    });
+
+    window.setTimeout(() => {
+        document.getElementById('start-content-sms').style.visibility = "visible";
+    }, 3000)
+
     const openButton = document.getElementById('open-button');
-    openButton.addEventListener('click', () => smsScreen());
+    openButton.addEventListener('click', loadSms);
 };
