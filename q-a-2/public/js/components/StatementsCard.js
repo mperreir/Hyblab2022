@@ -7,7 +7,7 @@ class StatementsCard extends React.Component {
         return (
             <div className='statementsCard'>
                 <img className='statementsCard_img' src={this.props.profile.img} alt={"Déclarations de " + this.props.profile.name}/>
-                <div className='step3Game_nameDiv' style={{fontSize: 2.5+(10/this.props.profile.name.length < 1 ? -(1 - 10/this.props.profile.name.length) : 10/this.props.profile.name.length-1)+"vh"}}>{this.props.profile.name}</div>
+                <div className='step3Game_nameDiv' style={{fontSize: 2.5+(10/this.props.profile.name.length < 1 ? -(1.2 - 10/this.props.profile.name.length) : 10/this.props.profile.name.length-1)+"vh"}}>{this.props.profile.name}</div>
                 <div className='statementsCard_information'>
                     {
                         Object.entries(this.props.info).map(function([key, value]) {

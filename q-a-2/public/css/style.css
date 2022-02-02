@@ -1046,7 +1046,7 @@ body{
 
 .checkbox_label {
     display: block;
-    margin-left: 14%;
+    margin-left: 10%;
 }
 
 .checkbox_container {
@@ -1302,7 +1302,8 @@ input[type="checkbox"] {
 .statementsCard_information {
   position: absolute;
   bottom: 7%;
-  width: 44%;
+  width: 50%;
+  left: 25%;
   z-index: 2;
 }
 

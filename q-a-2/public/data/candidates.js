@@ -149,7 +149,7 @@ const candidates = [
     {
         "id": 3,
         "nameId": "triangle",
-        "name": "Mme. Equilatérale",
+        "name": "Mme. Triangle",
         "baseY": "110",
         "baseWidth": "66",
         "color": "#7352FF",
