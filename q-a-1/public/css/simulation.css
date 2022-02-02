@@ -342,6 +342,7 @@ p{
 }
 
 .anim-percentage {
+        font-size: 20%;
 	-webkit-animation: percentage 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 1.2s both;
 	        animation: percentage 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 1.2s both;
 }
