@@ -10,9 +10,11 @@
 
 .tips{
     position: absolute;
+    display: table;
     top: 20%;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    min-height: 50%;
 
     border: none;
     box-shadow: rgba(0, 0, 0, 0.17) 0px -15px 15px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px;
@@ -77,9 +79,16 @@
 } 
 /* The dot/bullet/indicator container */
 .dot-container {
-    text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 5%;
     background: none;
+    text-align: center;
+}
+
+.dot-containerRule {
+    bottom: 0;
+    padding-bottom: 5%;
+    background: none;
+    display: table-footer-group;
 }
 
 /* The dots/bullets/indicators */
@@ -87,7 +96,7 @@
     cursor: pointer;
     height: 10px;
     width: 10px;
-    margin: 0 2px;
+    margin: 0 5px;
     background-color: #f0e4d8;
     border-radius: 50%;
     display: inline-block;

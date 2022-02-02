@@ -7,11 +7,11 @@ page('/communes-2/gameRule', async function () {
       page('/communes-2/');
     });
 
-    showSlides(1);
+    slideIndex = 1;
+    showSlides(slideIndex);
 });
 
-var slideIndex = 1;
-
+var slideIndex;
 
 function plusSlides(n) {
     showSlides(slideIndex += n);
