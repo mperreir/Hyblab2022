@@ -82,7 +82,7 @@ function date() {
 // loadFileExplorer();
 
 // loadEnd();
-loadRebet();
+//loadRebet();
 
 async function fetchCityData(city) {
     const cityRq = await fetch(`/api/city/${city}`);
@@ -93,6 +93,7 @@ async function fetchCityData(city) {
 
 
 //loadPresVille();
+loadTopSecret();
 
 
 async function loadTemplate(path, data) {
