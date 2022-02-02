@@ -15,7 +15,7 @@
 body{
     background-color: black;
     color: white;
-    overflow: hidden;   /* to avoid slider bugs on some browsers */
+    overflow: auto;   /* to avoid slider bugs on some browsers */
     font-family: 'blatantregular';
 }
 
@@ -94,7 +94,7 @@ button{font-family: 'blatantregular';}
 
 #selection-candidat ul li {
     padding-bottom: 3%;
-    width: 16vh;
+    width: 14vh;
     padding-left: 1%;
 }
 
