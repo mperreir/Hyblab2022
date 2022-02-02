@@ -761,7 +761,6 @@ searchInput.addEventListener('keyup', function() {
 	suggestionsPanel.innerHTML = '';
 
 	const suggestions = communes.filter(function(commune) {
-		console.log(commune)
 		return commune.name.toLowerCase().startsWith(input.toLowerCase());
 	});
 
@@ -791,7 +790,6 @@ cestparti.addEventListener('click', () => {
 			localStorage.setItem("commune_name",commune.name);
 			localStorage.setItem("commune_code",commune.code);
 			const temp = generate_enemy(commune.code.toString());
-			console.log(temp);
 			localStorage.setItem("enemies",JSON.stringify(temp));
 			localStorage.setItem("question",1);
 			const object = generateObject();

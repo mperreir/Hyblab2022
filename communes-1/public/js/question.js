@@ -67,8 +67,6 @@ class FactoryQuestion {
 				if (!attaque) return (new Question5(code_commune_adverse, annee)).generate_question();
 				return (new Question10(this.code_commune_joueur, code_commune_adverse, annee)).generate_question();
 
-			default:
-				console.log("question non existante");
 
 		}
 	}
@@ -189,9 +187,7 @@ class Question5 extends Question{
 	generate_question()
 	{
 		let key = this.annee + "_1";
-		console.log(data_election)
 		let info_commune = data_election.get(key).get(this.code_commune);
-		console.log(data_election.get(key))
 		let nom = info_commune.nom;
 		let prenom = info_commune.prenom;
 
@@ -343,21 +339,5 @@ class Question10 extends Question{
 		return [question,answer1,answer2];
 	}
 }
-
-
-
-//tests
-//console.log(new Question1(7,"2002").generate_question());
-//console.log(new Question2(7,"2002").generate_question());
-//console.log(new Question3(7,"2002").generate_question());
-//console.log(new Question4(2,"2002").generate_question());
-//console.log(new Question5("7","2002").generate_question());
-//console.log(new Question6(7,"2002").generate_question());
-//console.log(new Question7(7,"2002").generate_question());
-//console.log(new Question8(7,"2002").generate_question());
-//console.log(new Question9(7,"2002").generate_question());
-//console.log(new Question10(8,7,"2002").generate_question());
-
-
 
 export {FactoryQuestion};
