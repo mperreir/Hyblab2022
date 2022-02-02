@@ -6,6 +6,7 @@ async function loadFileExplorer() {
     const metropoleRq = await fetch('api/metropole/');
     metropoleData = await metropoleRq.json();
     metropoleData = metropoleData[selectedCity];
+
     const screen = document.getElementById('screen');
 
     const fileExplorerHtml = await loadTemplate('templates/file_explorer/file_explorer.ejs', FOLDER_TITLES);
