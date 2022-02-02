@@ -72,7 +72,7 @@ function bonneVersion(name){
 		case 'manuscrit':
 			return "Le Manuscrit De Joachim Du Belay"
 		case'chateau':
-			return "Le ChAteau D \'Angers"
+			return "Le Chateau D \'Angers"
 		case 'cheval':
 			return "Un Cheval Du Cadre Noir"
 		case 'bateau':
@@ -113,12 +113,14 @@ reponse_2.firstChild.textContent = toLowerMdr(question_data[2][0]);
 commune_enemy.textContent = toLowerMdr(enemy[1]);
 commune_enemy_deux.textContent = toLowerMdr(enemy[1]);
 recompense.textContent = bonneVersion(objet);
+localStorage.setItem("objetGagner", bonneVersion(objet));
 let reponse1 = document.querySelector(".reponse1");
 let reponse2 = document.querySelector(".reponse2");
 console.log(inventaire);
 reponse1.addEventListener('click', () => {
 	localStorage.setItem("question",(nb+1).toString());
 	localStorage.setItem("enemies",JSON.stringify(enemies));
+	localStorage.setItem("position_joueur",(parseInt(localStorage.getItem("position_joueur"))+1).toString());
 	if(question_data[1][1])
 	{
 		inventaire.push(objet);
@@ -132,9 +134,9 @@ reponse1.addEventListener('click', () => {
 reponse2.addEventListener('click', () => {
 	localStorage.setItem("question",(nb+1).toString());
 	localStorage.setItem("enemies",JSON.stringify(enemies));
+	localStorage.setItem("position_joueur",(parseInt(localStorage.getItem("position_joueur"))+1).toString());
 	if(question_data[2][1])
 	{
-
 		inventaire.push(objet);
 		localStorage.setItem("inventaire",inventaire);
 		window.location.href = 'anjoute-joute-win.html';
