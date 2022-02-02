@@ -9,7 +9,7 @@ const fallingTextIntro = document.querySelector("#falling .bulle p");//getText("
 
 const falling_slide = function () {
 
-  fallingTextIntro.textContent = getText("rules");
+  fallingTextIntro.innerHTML = getText("rules");
 
   background1.play();
   mouaFalling.play();

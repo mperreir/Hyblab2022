@@ -322,6 +322,7 @@ b {
 
 #p2 {
   background: white;
+  touch-action: none;
 }
 
 #bulle-container-pm, #bulle-container-moua {
