@@ -5,8 +5,19 @@
 
 #hearts{
     height:15%;
+    display: flex;
+    justify-content: center;
 }
 
+.heartsIcon.Big{
+    width:10%;
+    margin: 3%;
+}
+
+.heartsIcon{
+    width:8%;
+    margin: 1%;
+}
 #question{
     height:30%;
     width: 80%;
