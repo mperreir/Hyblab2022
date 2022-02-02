@@ -50,6 +50,7 @@ function InitDesIntentions(intentionsCandidats, objCandidats) {
 
     return candidats
 }
+let NOMS_CANDIDATS_SELECTIONES = []
 
 function AjoutDesCandidatsPourSelection(candidats) {
 
@@ -78,6 +79,14 @@ function AjoutDesCandidatsPourSelection(candidats) {
         block.addEventListener("click", evt => {
             const bool = JSON.parse(evt.currentTarget.dataset.selected || "false")
             evt.currentTarget.setAttribute("data-selected", !bool)
+            if (!bool){
+                console.log(evt.currentTarget)
+                NOMS_CANDIDATS_SELECTIONES.push(evt.currentTarget.querySelector('img').id)
+            }
+            else{
+                NOMS_CANDIDATS_SELECTIONES.filter(c => c !== evt.currentTarget.querySelector('img').id)
+            }
+            
         })
 
     }
@@ -126,6 +135,8 @@ function start() {
         CourseSelection.className = showed ? "body" : "hidden"
     })
 
+
+
     // Choix de courses
     const BtnCourse30 = document.getElementById("BtnCourse30")
     const BtnCourse15 = document.getElementById("BtnCourse15")
@@ -133,6 +144,7 @@ function start() {
 
     let POURCENT_BORNE_MIN = 15;
     let POURCENT_BORNE_MAX = 30;
+
 
     BtnCourse30.addEventListener("click", evt => {
         if (evt.target.className !== "selected"){
@@ -142,15 +154,21 @@ function start() {
             POURCENT_BORNE_MIN = 15
             POURCENT_BORNE_MAX = 30
         }
+        else{
+            evt.target.className = ""
+        }
     })
 
     BtnCourse15.addEventListener("click", evt => {
         if (evt.target.className !== "selected"){
             BtnCourse30.className = ""
             BtnCourse5.className = ""
-            evt.target.className = ""
+            evt.target.className = "selected"
             POURCENT_BORNE_MIN = 5
             POURCENT_BORNE_MAX = 15
+        }
+        else{
+            evt.target.className = ""
         }
     })
 
@@ -162,8 +180,12 @@ function start() {
             POURCENT_BORNE_MIN = 0
             POURCENT_BORNE_MAX = 5
         }
+        else{
+            evt.target.className = ""
+        }
     })
 
+    let SELECTION_COURSE = () => BtnCourse5.className === "selected" || BtnCourse15.className === "selected" || BtnCourse30.className === "selected";
 
 
     // Chargement des données
@@ -171,7 +193,6 @@ function start() {
 
         console.info("Candidats chargés !")
         AjoutDesCandidatsPourSelection(candidats)
-
         getSondages().then(sondages => {
 
             console.info("Données de sondage chargés !")
@@ -240,19 +261,38 @@ function start() {
                     let min_pourcent = 100;
                     let max_pourcent = 0;
                     console.log("BORNES : ", POURCENT_BORNE_MIN + " <->" + POURCENT_BORNE_MAX)
-                    CANDIDATS_KEYS.map(nom_candidat => {
-                        const index = CANDIDATS[nom_candidat].x.indexOf(currDate);
 
+
+
+                    
+                    
+                    console.log(CANDIDATS_KEYS, NOMS_CANDIDATS_SELECTIONES)
+                    let keys_selected_candidats;
+                    if (SELECTION_COURSE()){
+                        console.log("COURSE SELECTIONNEE")
+                        keys_selected_candidats = CANDIDATS_KEYS;
+                    }
+                    else{
+                        console.log("CANDIDATS SELECTIONES")
+                        // affichage seulement des candidats sélectionnés 
+                        keys_selected_candidats = NOMS_CANDIDATS_SELECTIONES
+                    }
+                    console.log(keys_selected_candidats)
+                    keys_selected_candidats
+                    .map(nom_candidat => {
+                        const index = CANDIDATS[nom_candidat].x.indexOf(currDate);
                         let pourcent = 0
 
                         if (index >= 0) {
                             pourcent = parseFloat(CANDIDATS[nom_candidat].y[index])
                         }
+                        console.log(" sssssssssss", nom_candidat + " " + pourcent)
+
                         let pourcent_min = Math.floor(pourcent);
                         let pourcent_max = Math.ceil(pourcent);
 
                         // on prend en compte seulement les candidats dans les bornes
-                        if (pourcent >= POURCENT_BORNE_MIN && pourcent <= POURCENT_BORNE_MAX){
+                        if ((!SELECTION_COURSE()) || (SELECTION_COURSE() && pourcent >= POURCENT_BORNE_MIN && pourcent <= POURCENT_BORNE_MAX)){
                             if (pourcent_max > max_pourcent){
                                 max_pourcent = pourcent_max;
                             }
@@ -262,6 +302,9 @@ function start() {
                         }
                         
                     });
+
+                    min_pourcent = min_pourcent === 100 ? 0 : min_pourcent;
+                    max_pourcent = max_pourcent === 0 ? 100 : max_pourcent;
 
                     console.log(min_pourcent, '% ', max_pourcent, '%')
                     // Echelle dynamique :
@@ -291,8 +334,9 @@ function start() {
 
                         const position = (pourcent-min_regle) / (max_regle-min_regle) * hauteur_regle
 
+                        console.log(keys_selected_candidats.includes(nom_candidat), keys_selected_candidats, nom_candidat)
                         // si candidats dans la borne sélectionnée :
-                        if (pourcent >= POURCENT_BORNE_MIN && pourcent <= POURCENT_BORNE_MAX){
+                        if ((!SELECTION_COURSE() && keys_selected_candidats.includes(nom_candidat)) || (SELECTION_COURSE() && pourcent >= POURCENT_BORNE_MIN && pourcent <= POURCENT_BORNE_MAX) ){
                             CANDIDATS[nom_candidat].div.style.top = "calc( 12.5vh + " + (position - TAILLE_DIV_CANDIDAT / 2) + "px" + " ) ";
                         }
                         else // sinon candidats hors borne :
