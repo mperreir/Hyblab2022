@@ -252,7 +252,9 @@ body{
     #root{
         /*margin-top: calc((100vh - 100 * 16vw / 9) / 2);*/
         width: 100vw;
-        height: 100vh;
+        height: -moz-available;          /* WebKit-based browsers will ignore this. */
+        height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+        height: fill-available;
         /*height: calc(100 * 16vw / 9);*/
     }
 
