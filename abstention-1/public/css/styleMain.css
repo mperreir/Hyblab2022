@@ -10,6 +10,10 @@ body{
 
 }
 
+::-webkit-scrollbar {
+    width: 0px;
+}
+
 /*--------------------FORMAT TELEPHONE---------------------------*/
 /* Can be adapted for other ratios that 9:16 or for horizontal content (ex: 16:9) */
 
@@ -116,6 +120,7 @@ border : 1vh solid #E66E78;
     height: 100%;
     position: absolute;
     z-index: 4;
+    overflow: hidden;
 }
 #info{
     width: 10%;
@@ -179,6 +184,50 @@ bottom: 26%;
 #popupPointInfo p {
 margin-top: 10%;
 }
+
+@keyframes scroll {
+    from {
+      transform: translate(-50%,200%);
+    }
+    25%{
+      transform: translate(-50%,0);
+    }
+    40% {
+      transform: translate(-50%,0);
+    }
+    60% {
+      transform: translate(-50%,200%);
+    }
+    to {
+      transform: translate(-50%,200%);
+    }
+}
+  
+#sphere {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(75, 75, 75);
+    border-radius:50%;
+    animation-duration: 3s;
+    animation-name: scroll;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+}
+  
+#scrollIndicator {
+    border: 10px solid rgb(75, 75, 75);
+    width: 40px;
+    height: 100px;
+    border-radius: 50px;
+    position: fixed;
+    transform: translate(-50%,-50%);
+    top: 95vh;
+    left: 50%;
+    z-index: 10;
+}
+
 /*--------------Section popup carnet----------------*/
 
 #popupCarnet{
@@ -195,6 +244,7 @@ margin-top: 10%;
     left: 4.5%;
     color: #0600FF;
     padding: 4%;
+    overflow-y: scroll;
 }
 #croix{
 right:10% ;
@@ -219,6 +269,7 @@ left: 3%;
 }
 #popupCarnet li{
     font-size:6vh;
+    word-wrap: break-word;
 }
 #popupCarnet ul{
     margin-left: 10%;
@@ -360,7 +411,8 @@ left: 3%;
     vertical-align: center; 
     height: 5vh;
     bottom: 5%;
-    left: 40%;
+    left: 50%;
+    transform: translate(-50%,0);
     width: 10vh;
     z-index: 3;
     /*visibility: hidden;*/
@@ -370,7 +422,7 @@ left: 3%;
     position:relative;
     top:120px;
     background-color: #0600FF;
-    border-radius: 6%;
+    border-radius: 1em;
     width: 85%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
@@ -599,10 +651,6 @@ lottie-player{
     from {top:-5em;}
     to {top: 0;}
   }
-    bottom : 80%;
-    color:white;
-    z-index: 3;
-}
 
 img[id="Pierre"], img[id="Feuille"], img[id="Ciseaux"]{
     width: 20%;

@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="css/styleMain.css">
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js" defer></script>
     <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js" defer></script>
+
+    <script defer src="data/abstention_dataset.js"></script>
+    <script defer src="data/data_analysis.js"></script>
+    <script defer src="data/dialogues.js"></script>
+
     <script src="js/MVC/cssProperties/CSSProperty.js" defer></script>
     <script src="js/MVC/cssProperties/AnimationFrame.js" defer></script>
     <script src="js/MVC/cssProperties/BackgroundImage.js" defer></script>
@@ -16,6 +21,7 @@
     <script src="js/MVC/cssProperties/Display.js" defer></script>
     <script src="js/animations.js" defer></script>
     <script src="js/pfs.js" defer></script>
+    <script src="js/morpion.js" defer></script>
     
     <script defer src="js/MVC/utils.js"></script>
     <script defer src="js/MVC/AnimationControler.js"></script>
@@ -26,10 +32,7 @@
     <script defer src="js/MVC/DialogueView.js"></script>
     <script defer src="js/MVC/DialogueObserver.js"></script>
     <script defer src="js/MVC/DialogueControler.js"></script>
-    <!-- <script defer src="js/MVC/dialogue.js"></script>-->
-    <script defer src="data/abstention_dataset.js"></script>
-    <script defer src="data/data_analysis.js"></script>
-    <script defer src="data/dialogues.js"></script>
+
     <script defer src="js/MVC/main.js"></script>
 
 </head>
@@ -61,15 +64,14 @@
           </p>
         </div>
       </section>
+
+      <div id="scrollIndicator">
+        <div id="sphere">
+        </div>
+      </div>
    
       <section id="Dialogue">
         <header>
-            <!-- <div id='cercle1' class="circle"><p>1</p></div>
-            <div id='cercle2' class="circle"><p>2</p></div>
-            <div id='cercle3' class="circle"><p>3</p></div>
-            <div id='cercle4' class="circle"><p>4</p></div>
-            <div id='cercle5' class="circle"><p>5</p></div>
-            <div id='cercle6' class="circle"><p>6</p></div> -->
             <img id='carnet' src='img/CARNET PICTO.svg'>
         </header>
           <div id="personnage1"></div>
@@ -97,6 +99,69 @@
               <button id='reponseB'>Réponse B</button>
               <button id='reponseC'>Réponse C</button>
           </div>
+          <div class="box">
+            <button>Pierre</button>
+            <button>Feuilles</button>
+            <button>Ciseaux</button>
+          </div>
+  
+          <div class="resultat"></div>
+          
+          <div class= "morpion">
+            <div id="end-display" class="row">
+              <div class="col text-center">
+                <div class="endgame">
+                  <div class="text"></div>
+                  <small id="countdown"></small>
+                </div>
+              </div>
+            </div>
+          <div id="char-selection" class="container selections pt-3 pb-4 border border-primary bg-dark">
+            <h1 id="game-header" class="text-center text-light border-bottom">Tic Tac Toe</h1>
+            <div class="row justify-content-center">
+              <div class="col-12 text-white text-center py-3">
+                <h3>Select Character</h3>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-sm-4 text-center py-2">
+                <button id="x-char" class="btn btn-primary char-btn" onClick="charSelect('X')">X</button>
+              </div>
+              <div class="col-sm-4 text-center py-2">
+                <button id="o-char" class="btn btn-primary char-btn" onClick="charSelect('O')">O</button>
+              </div>
+            </div>
+          </div>
+          <div id="game-board" class="container">
+            <div class="row justify-content-center pb-2 mt-3">
+            <div class="col- btn-group">
+              <button id="x-turn" class="btn btn-success no-clicky mx-2 px-3 rounded">X</button>
+              <button id="o-turn" class="btn btn-secondary no-clicky mx-2 px-3 rounded">O</button>
+            </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-">
+                <table>
+                  <tr>
+                    <td class="cell" id="0"></td>
+                    <td class="cell" id="1"></td>
+                    <td class="cell" id="2"></td>
+                  </tr>
+                  <tr>
+                    <td class="cell" id="3"></td>
+                    <td class="cell" id="4"></td>
+                    <td class="cell" id="5"></td>
+                  </tr>
+                  <tr>
+                    <td class="cell" id="6"></td>
+                    <td class="cell" id="7"></td>
+                    <td class="cell" id="8"></td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section id="LottieAnimation">
@@ -113,7 +178,7 @@
         <img id='croix' src='img/CROIX.svg'>
         <h1>Ce que<br> j'ai retenu</h1>
         <ul>
-          <li></li>
+          <li>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</li>
           <li></li>
           <li></li>
           <li></li>
@@ -124,7 +189,7 @@
       </section>
     
       <div id="SequencesAnimation">
-        <section class="container sujet" style="height: 75vh;"></section>
+        <section class="container sujet" style="height: 50vh;"></section>
         <section class="separator"></section>
         <section class="container dialogue ecole1"></section>
         <section class="separator"></section>

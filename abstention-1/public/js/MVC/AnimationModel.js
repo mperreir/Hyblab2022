@@ -81,12 +81,12 @@ class AnimationModel extends Observable {
     startDialogue(){
         this.dialogueStarted = true;
         this.startScrollValueAbsolute = window.scrollY;
-        console.log(window.scrollY);
-        document.getElementById("SequencesAnimation").classList.add("stop-scroll");
+        disableScroll();
+
     }
 
     finishDialogue(){
-        document.getElementById("SequencesAnimation").classList.remove("stop-scroll");
+        enableScroll();
         this.dialogueDone = true;
         window.scrollTo(0, this.startScrollValueAbsolute);
     }

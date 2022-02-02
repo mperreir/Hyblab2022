@@ -16,6 +16,19 @@ const sujetAnimation = new AnimationModel(
 
 let sujetControler = new AnimationControler([sujetAnimation]);
 
+const scrollIndicatorAnimation = new AnimationModel(
+    ".container.sujet",
+    [
+        {
+            visibility: [0.7, 1],
+            keyframes: ANIMATIONS.animations.fade.out,
+            player: "#scrollIndicator",
+        }
+    ]
+);
+
+let scrollIndicatorControler = new AnimationControler([scrollIndicatorAnimation]);
+
 let scenes = [
     new DialogueModel(dialogues[0].Texte,"M. Martin 51ans"),
     new DialogueModel(dialogues[1].Texte,"Arthur 17ans"),
