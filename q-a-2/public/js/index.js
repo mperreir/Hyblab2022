@@ -19,16 +19,16 @@ class App extends React.Component {
     super(props);
     this.state = {
       stepPages: [
-        //<StartingPage nextStep={() => this.nextStep()} />,
-        //<Step1Page data={data} nextStep={() => this.nextStep()} />,
+        <StartingPage nextStep={() => this.nextStep()} />,
+        <Step1Page data={data} nextStep={() => this.nextStep()} />,
         <Step2Page data={data} nextStep={() => this.nextStep()} />,
         <Step3Page data={data} nextStep={() => this.nextStep()} />,
-        /*<Step4Page data={data} nextStep={() => this.nextStep()} />,
+        <Step4Page data={data} nextStep={() => this.nextStep()} />,
         <Step5Page data={data} nextStep={() => this.nextStep()} />,
         <Step6Page data={data} nextStep={() => this.nextStep()} />,
         <Step7Page data={data} nextStep={() => this.nextStep()} />,
         <Step8Page data={data} nextStep={() => this.nextStep()} />,
-        <EndingPage nextStep={() => this.resetStep()} />*/
+        <EndingPage nextStep={() => this.resetStep()} />
       ],
       step: 0
     }
@@ -51,7 +51,36 @@ class App extends React.Component {
 }
 
 function randomizeCandidates() {
+  let candidatesTemp = [...candidates];
+  let randomId;
 
+  let candidateTemp = getRandomCandidate(candidatesTemp);
+  candidateTemp.stepOneGame.age = "17 ans";
+  candidateTemp.stepOneGame.valid = false;
+
+  candidateTemp = getRandomCandidate(candidatesTemp);
+  candidateTemp.stepOneGame.legalStatus = "Perte des droits d'éligibilité";
+  candidateTemp.stepOneGame.valid = false;
+
+  candidateTemp = getRandomCandidate(candidatesTemp);
+  candidateTemp.stepTwoGame.valid = false;
+
+  candidateTemp = getRandomCandidate(candidatesTemp);
+  randomId = Math.floor(Math.random()*4);
+  Object.values(candidateTemp.stepThreeGame.statements)[randomId].statement = "Ordinateur portable";
+  Object.values(candidateTemp.stepThreeGame.statements)[randomId].valid = false;
+
+  candidateTemp = getRandomCandidate(candidatesTemp);
+  randomId = Math.floor(Math.random()*4);
+  Object.values(candidateTemp.stepThreeGame.statements)[randomId].statement = "Maison de ses parents";
+  Object.values(candidateTemp.stepThreeGame.statements)[randomId].valid = false;
+}
+
+function getRandomCandidate(candidatesTemp) {
+  const randomIndex = Math.floor(Math.random()*candidatesTemp.length);
+  const candidateTemp = candidatesTemp[randomIndex];
+  candidatesTemp.splice(randomIndex, 1);
+  return candidateTemp;
 }
 
 randomizeCandidates();

@@ -1020,7 +1020,7 @@ body{
 .checkbox_round {
     width: 3.5vh;
     height: 3.5vh;
-    background-color: white;
+    background-color: lightcoral;
     border-radius: 50%;
     vertical-align: middle;
     border: 0.3vh solid black;
@@ -1034,7 +1034,7 @@ body{
 }
 
 .checkbox_round:checked {
-    background-color: grey;
+    background-color: lightgreen;
 }
 
 .checkbox_label {
