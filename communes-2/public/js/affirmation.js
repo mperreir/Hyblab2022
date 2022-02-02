@@ -450,7 +450,7 @@ page('/communes-2/affirmation', async function () {
 
     map.on('zoomend', function() {
         let zoom = map.getZoom();
-        if(zoom <= 8.5) {
+        if(zoom <= 8.5 && zoom > 7.5) {
             map.removeLayer(iconsGroup2);
             map.removeLayer(iconsGroup3);
             map.addLayer(iconsGroup1);
