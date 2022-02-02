@@ -553,6 +553,25 @@ page('/communes-2/affirmation', async function () {
         }
     }).addTo(map);
 
+    let reject = document.getElementById("reject-btn");
+    reject.addEventListener("click", (event)=>{
+        console.log('reject event listener');
+        let infobox = document.getElementById("panel-confirm");
+        infobox.style.visibility = "hidden";
+    });
+
+    let accept = document.getElementById("confirm-btn");
+    accept.addEventListener("click", ()=>{
+        console.log('accept event listener');
+        let infobox = document.getElementById("panel-confirm");
+        let selectedValue = document.getElementById("counrty-name").innerHTML;
+        console.log("Selected value : ", selectedValue);
+        infobox.style.visibility = "hidden";
+        // On passe au truc suivant.
+        roundEnding(selectedValue, gameData['communeCourante']['libelleCommune']);
+    });
+
+    
     function popup(e){
         let layer = e.target
         let selectedValue = e.target.feature.properties.nom;
@@ -562,24 +581,31 @@ page('/communes-2/affirmation', async function () {
         let p = document.getElementById("counrty-name");
         p.innerHTML = selectedValue;
         
-        console.log("Bonjour")
+        console.log("Popup opened");
 
         // Choix reponse 
-        let reject = document.getElementById("reject-btn");
-        reject.addEventListener("click", (event)=>{
+
+        /*
+        let rejectWrong = document.getElementById("reject-btn");
+        let rejectRight = rejectWrong.cloneNode(true);
+        rejectWrong.parentNode.replaceChild(rejectRight, rejectWrong);
+        rejectRight.addEventListener("click", (event)=>{
+            console.log('reject event listener');
             let infobox = document.getElementById("panel-confirm");
             infobox.style.visibility = "hidden";
         })
 
-        let accept = document.getElementById("confirm-btn");
-        
-        accept.addEventListener("click", ()=>{
+        let acceptWrong = document.getElementById("confirm-btn");
+        let acceptRight = acceptWrong.cloneNode(true);
+        acceptWrong.parentNode.replaceChild(acceptRight, acceptWrong);
+        acceptRight.addEventListener("click", ()=>{
+            console.log('accept event listener');
             let infobox = document.getElementById("panel-confirm");
             infobox.style.visibility = "hidden";
-
             // On passe au truc suivant.
             roundEnding(selectedValue, gameData['communeCourante']['libelleCommune']);
         })
+        */
     }
     
 
@@ -616,12 +642,14 @@ page('/communes-2/affirmation', async function () {
 
     // Affichage c'est partie
     if(gameData['numeroEssai'] == 1){
-        showmesg("C\'est partie !", "#282246");
+        showmesg("C\'est parti !", "#282246");
     }
 
 });
 
 function roundEnding(selectedValue, rightValue) {
+
+    console.log("Round ending");
 
     let scoreRound = 0;
     let nbEssaiSuivant = 1;
