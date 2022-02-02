@@ -437,11 +437,18 @@ body{
     align-items: center;
 }
 
-.endingPage_firstSlide > img {
+.endingPage_firstSlide > img:first-child {
     position: absolute;
     top: 20px;
     right: 20px;
     height: 7.6vh;
+}
+
+.endingPage_firstSlide > img:last-child,
+.endingPage_secondSlide > img {
+    position: absolute;
+    bottom: 3vh;
+    height: 8.1vh;
 }
 
 .endingPage_card {

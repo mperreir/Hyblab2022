@@ -64,6 +64,7 @@ class EndingPage extends Page {
                                 <img src='img/endGameCard-eyes-win.svg' alt='eyes_win' />
                             </div>
                         </div>
+                        <img src='img/bulles_starting_page.svg' />
                     </div>
                     <div className='swiper-slide endingPage_secondSlide'>
                         <div className='endingPage_card'>
@@ -84,6 +85,7 @@ class EndingPage extends Page {
                                 <img src='img/logo_partners/logo_opensource.png' alt='OpenSource' className='OS' />
                             </div>
                         </div>
+                        <img src='img/bulles_starting_page.svg' />
                     </div>
                     <div className='swiper-slide endingPage_thirdSlide'>
                         <div className='endingPage_members'>
