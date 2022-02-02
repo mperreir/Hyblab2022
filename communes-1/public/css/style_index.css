@@ -39,6 +39,9 @@
 }
 
 
+
+
+
 .header-bottom {
 	text-align: center;
 }
@@ -59,6 +62,13 @@
 	margin-top: 3vh;
 	font-size: 15%;
 	color: #C8A166;
+}
+
+
+.corps-second-slide {
+	position: relative;
+	background-color: violet;
+	height: 100vh;
 }
 
 .loire {
