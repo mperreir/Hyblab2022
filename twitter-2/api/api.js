@@ -43,6 +43,7 @@ app.get('/randomQuestion/followers', function (req, res) {
     let bestRatio = -1;
 
     dataFollowersCommon.forEach(data => {
+        data.ratio = parseFloat(data.ratio);
         if (data.ratio > bestRatio) {
             if (data.name1 === mainCandidat.userName) {
                 solutionCandidat = candidats.find(candidat => candidat.userName === data.name2);
