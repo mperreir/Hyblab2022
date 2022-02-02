@@ -1,3 +1,7 @@
+/* ------- Important ! Please at least keep the last part of this CSS ----------- */
+/* that forces a 9:16 format (portrait) on all contents */
+
+
 /* Normalize margin and padding to ease elements positioning */
 *{
     padding:0;
@@ -44,12 +48,6 @@ button{
     bottom: 6%;
 }
 
-#intro_gif{
-    position: absolute;
-    width: 100%;
-    margin-top:-5%;
-}
-
 svg
 {
     width:80%;
@@ -57,7 +55,7 @@ svg
 }
 
 #container{
-    position: absolute; /* for absolute positionning of child elements*/
+    position: relative; /* for absolute positionning of child elements*/
 }
 
 #mySwiper{
@@ -81,10 +79,7 @@ svg
     background-color: #ADB3D7;
     width: 100%;
     height: 100%;
-}
-
-.swiper-pagination-bullet-active {
-    background-color: white !important;
+    position: relative
 }
 
 .warp {
@@ -104,7 +99,7 @@ svg
 
 .last-section{
     text-align: center;
-    margin-top:6%;
+    margin-top:12%;
 }
 
 .last-section img{
@@ -113,7 +108,7 @@ svg
 
 
 /* Most of the elements in this demo are absolute positionned with percentages */
-#first-section header, #first-slide header{
+#first-section header{
     text-align: center;
     width: 100%;
     font-size: 30%;
@@ -134,13 +129,7 @@ svg
     width: 35%;
 }
 
-#fleche{
-    width:20%;
-}
 
-.asterisque{
-    width:5%;
-}
 /* Last slide image is centered */
 #img-fini{
     width: 50%;
@@ -191,30 +180,7 @@ p.alignRight{
  .grey{
     background: gray;
  }
-
- #first-slide header{
-    text-align: center;
-    width: 100%;
-    top: 10%;
-    position: absolute;
-    font-size: 30%;
-    z-index: 2;
-}
-#first-slide footer{
-    bottom: 5%;
-    position: absolute;
-    font-size: 20%;
-    text-align: center;
-    padding: 0 1em;
-}
-
-.gif{
-    width: 80%;
-    margin-top: -1%;
-}
-
-
-
+ 
 /* ---------- Important media queries for easy responsive content :-) ----------------- */
 /* Can be adapted for other ratios that 9:16 or for horizontal content (ex: 16:9) */
 
@@ -286,17 +252,6 @@ p.alignRight{
     }
 }
 
-@keyframes anim_horizontale {
-    from{
-        transform:translateX(-5%);
-    }
-
-    to{
-
-        transform: translateX(15%);
-    }
-}
-
 @keyframes anim-rotate {
     from{
         transform: rotateZ(-15deg);
@@ -345,49 +300,7 @@ p.alignRight{
 
 
 }
-
-@keyframes wobble {
-    0%,
-    100% {
-      transform: translateX(0%);
-      transform-origin: 50% 50%;
-    }
-    15% {
-      transform: translateX(-5%) rotate(-6deg);
-    }
-    30% {
-      transform: translateX(4%) rotate(6deg);
-    }
-    45% {
-      transform: translateX(-3%) rotate(-3.6deg);
-    }
-    60% {
-      transform: translateX(2%) rotate(2.4deg);
-    }
-    75% {
-      transform: translateX(-1%) rotate(-1.2deg);
-    }
-  }
-
-  @keyframes slide-out-bottom {
-    0% {
-      -webkit-transform: translateY(0);
-              transform: translateY(0);
-      opacity: 1;
-    }
-    100% {
-      -webkit-transform: translateY(1000px);
-              transform: translateY(1000px);
-      opacity: 1;
-    }
-  }
-  
-
-/*Utiliser une animation*/
-
-.anim-wobble {
-    animation: wobble 2s 1s alternate infinite
-}
+/*Utiliser une animmation*/
 
 .anim-text {
 
@@ -399,21 +312,12 @@ p.alignRight{
     animation : anim_verticale 1s linear infinite alternate;
 }
 
-.anim-horizontale {
-    animation : anim_horizontale 1s linear infinite alternate;
-}
-
 .anim-rotation {
     animation: anim-rotate 1s infinite alternate;
 }
 
 .changeColor {
     animation : changeColor 3s infinite alternate;
-}
-
-.anim_intro {
-	-webkit-animation: slide-out-bottom 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) 2.9s both;
-	        animation: slide-out-bottom 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) 2.9s both;
 }
 
 .tourner_les_serviettes {
@@ -450,6 +354,10 @@ p.alignRight{
          url('font/marianne-thin-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+<<<<<<< HEAD
+
+}
+=======
 }
 
 .dessin_rond{
@@ -483,3 +391,4 @@ p.alignRight{
         opacity: 1;
     }
 }
+>>>>>>> ef05341055679cbc4ac6ad15718c1be2ae73912a
