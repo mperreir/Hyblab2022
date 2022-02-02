@@ -7,7 +7,6 @@ const swiper = new Swiper('#mySwiper', {
     clickable: true,
   },
 });
-localStorage.setItem("inventaire",[])
 
 const anjoute_start = document.querySelector('.anjoute_start');
 anjoute_start.classList.add('animate__animated', 'animate__heartBeat', 'animate__infinite', 'infinite');
@@ -18,5 +17,9 @@ first_slide.addEventListener('click', () => {
 });
 
 // Storage
-const inventaire = "";
+var inventaire = "";
 localStorage.setItem('inventaire', inventaire);
+var vies_joueur = 3;
+localStorage.setItem('vies_joueur', vies_joueur);
+var position_joueur = 1;
+localStorage.setItem('position_joueur', position_joueur);
