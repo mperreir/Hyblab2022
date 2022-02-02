@@ -10,11 +10,26 @@ const TfIdf = natural.TfIdf;
 
 const Readable = require('stream').Readable;
 
+accentsTidy = function(s){
+    let r = s.toLowerCase();
+    r = r.replace(new RegExp(/[àáâãäå]/g),"a");
+    r = r.replace(new RegExp(/æ/g),"ae");
+    r = r.replace(new RegExp(/ç/g),"c");
+    r = r.replace(new RegExp(/[èéêë]/g),"e");
+    r = r.replace(new RegExp(/[ìíîï]/g),"i");
+    r = r.replace(new RegExp(/ñ/g),"n");
+    r = r.replace(new RegExp(/[òóôõö]/g),"o");
+    r = r.replace(new RegExp(/œ/g),"oe");
+    r = r.replace(new RegExp(/[ùúûü]/g),"u");
+    r = r.replace(new RegExp(/[ýÿ]/g),"y");
+    return r;
+};
+
 class Labeler {
     constructor(themes) {
         // réduit à la forme primitive les keyswords
         themes = themes.map(theme => {
-            theme.keywords = natural.PorterStemmerFr.tokenizeAndStem(theme.keywords.normalize("NFD").replace(/[\u0300-\u036f]/g, ""));
+            theme.keywords = natural.PorterStemmerFr.tokenizeAndStem(accentsTidy(theme.keywords));
             return theme;
         });
 
@@ -23,7 +38,7 @@ class Labeler {
 
     // labelling a tweet and return this tweet labeled
     labellingTweet(tweet) {
-        tweet.data = natural.PorterStemmerFr.tokenizeAndStem(tweet.text.replace('#', '').normalize("NFD").replace(/[\u0300-\u036f]/g, ""));
+        tweet.data = natural.PorterStemmerFr.tokenizeAndStem(accentsTidy(tweet.text.replace('#', '')));
         const trie = new Trie();
         trie.addStrings(tweet.data);
 
