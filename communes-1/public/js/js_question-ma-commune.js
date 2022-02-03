@@ -46,7 +46,6 @@ let reponse2 = document.querySelector(".reponse2");
 const nb = parseInt(localStorage.getItem("question"));
 const factory = new FactoryQuestion(localStorage.getItem("commune_code"));
 const question_data = factory.generate_question(nb,true,localStorage.getItem("commune_code"));
-console.log(question_data);
 question.textContent = question_data[0];
 reponse_1.firstChild.textContent = toLowerMdr(question_data[1][0]);
 reponse_2.firstChild.textContent = toLowerMdr(question_data[2][0]);
@@ -58,8 +57,6 @@ reponse1.addEventListener('click', () => {
 	{
 		localStorage.setItem("vies_joueur",(parseInt(localStorage.getItem("vies_joueur"))+1).toString());
 	}
-
-	console.log(parseInt(localStorage.getItem("vies_joueur")) === 0);
 	if(parseInt(localStorage.getItem("vies_joueur")) === 0)
 	{
 		window.location.href = 'anjoute-fini-question.html';
@@ -84,8 +81,6 @@ reponse2.addEventListener('click', () => {
 	{
 		localStorage.setItem("vies_joueur",(parseInt(localStorage.getItem("vies_joueur"))+1).toString());
 	}
-
-	console.log(parseInt(localStorage.getItem("vies_joueur")) === 0);
 	if(parseInt(localStorage.getItem("vies_joueur")) === 0)
 	{
 		window.location.href = 'anjoute-fini-question.html';
