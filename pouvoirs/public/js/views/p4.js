@@ -92,7 +92,7 @@ function linkDiv(divId, valid) {
                     document.getElementById("p4p1").innerText = getText("p4-note2");
                     swiper.enable();
                     showArrow();
-                }, 1500);
+                }, 5000);
             }
 
         }, false);
