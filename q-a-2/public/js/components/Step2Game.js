@@ -60,7 +60,7 @@ class Step2Game extends React.Component {
                         <image 
                             width="100%" 
                             height="100%" 
-                            href={'img/step2Game/signature-perso-' + e.id + (e.stepTwoGame.valid ? '.png' : '-F.png')}
+                            href={'img/step2Game/signature-perso-' + e.id + (e.stepTwoGame.valid ? '.svg' : '-F.svg')}
                             >
                         </image>
                     </g>

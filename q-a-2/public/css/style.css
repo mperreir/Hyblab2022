@@ -924,6 +924,7 @@ body{
 .step2Game {
     text-align: center;
     font-size: 80%;
+    height: 100%;
 }
 
 .step2Game-title {
