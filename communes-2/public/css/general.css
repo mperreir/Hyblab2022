@@ -271,7 +271,7 @@ body{
 
 #pie_box{
     position: absolute;
-    bottom: 11%;
+    bottom: 16%;
 }
 
 #pictoSuivant{
@@ -295,6 +295,7 @@ body{
 
 #pie_chart{
     height: 210px;
+    padding-top: 4%;
 }
 
 #sous{

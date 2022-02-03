@@ -18,8 +18,9 @@ page('/communes-2/information', async function () {
 
     // chargement de la visualisation
     let nom_commune = "Libellé de la commune";
-    let communeCourante = JSON.parse(localStorage.getItem('gameData')).communePrecedente.libelleCommune;
-    console.log(communeCourante);
+    let gameData = JSON.parse(localStorage.getItem('gameData'));
+    let communeCourante = gameData['communePrecedente']['libelleCommune'];
+
 
     let remplacer_virgule_par_point = function(decimal) {
         return parseFloat((decimal+"").replace(",","."));
@@ -60,7 +61,7 @@ page('/communes-2/information', async function () {
 
     let dataSet = data_Nom_Voix(dat,communeCourante);
     let data2t = data_Nom_Voix_2T(data2,communeCourante);
-    console.log(data2t[0]);
+
 
     pie(data2t);
     histo(dataSet);
@@ -79,10 +80,10 @@ page('/communes-2/information', async function () {
     
     ul.className = "popUp-infoCommune";
     
-    li7.innerHTML = `Orientation de la Commune : ${dataSet[0].OrientationCommune}`;
+    li7.innerHTML = `Orientation de la commune : ${dataSet[0].OrientationCommune}`;
     li1.innerHTML = `Nombre d'inscrits : ${dataSet[0].InscritsCommune}`;
     li2.innerHTML = `Nombre de votants : ${dataSet[0].VotantsCommune}`;
-    li3.innerHTML = `Nombre Abstentionistes : ${dataSet[0].AbstentionsCommune}`;
+    li3.innerHTML = `Nombre d'abstentionistes : ${dataSet[0].AbstentionsCommune}`;
     li4.innerHTML = `Nombre de bulletins blancs : ${dataSet[0].BlancsCommune}`;
     li5.innerHTML = `Nombre de bulletins nuls : ${dataSet[0].NulsCommune}`;
     li6.innerHTML = `Nombre de bulletins exprimés : ${dataSet[0].ExprimésCommune}`;
@@ -111,7 +112,7 @@ page('/communes-2/information', async function () {
     
     li21.innerHTML = `Nombre d'inscrits : ${data2t[0].InscritsCommune}`;
     li22.innerHTML = `Nombre de votants : ${data2t[0].VotantsCommune}`;
-    li23.innerHTML = `Nombre Abstentionistes : ${data2t[0].AbstentionsCommune}`;
+    li23.innerHTML = `Nombre d'abstentionistes : ${data2t[0].AbstentionsCommune}`;
     li24.innerHTML = `Nombre de bulletins blancs : ${data2t[0].BlancsCommune}`;
     li25.innerHTML = `Nombre de bulletins nuls : ${data2t[0].NulsCommune}`;
     li26.innerHTML = `Nombre de bulletins exprimés : ${data2t[0].ExprimésCommune}`;
@@ -125,7 +126,11 @@ page('/communes-2/information', async function () {
     ul2.appendChild(li26);
 
     document.getElementById("continue-btn").addEventListener('click', function () {
-        page('/communes-2/affirmation');
+        if (gameData['nbreCommunesJouees'] >= 5){
+            page('/communes-2/resultatFinal');
+        } else {
+            page('/communes-2/affirmation');
+        }
     });
 });
 
