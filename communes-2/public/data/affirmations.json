@@ -2,13 +2,13 @@
     "affirmations": {
         "politique" : [
             {
-                "string":"Le taux d'abstention de la Commune est de  AAA % au 1er tour.",
+                "string":"Le taux d'abstention de la commune est de AAA % au 1er tour.",
                 "columns":[
                     "tauxAbstention"
                 ]
             },
             {
-                "string":"La Commune à principalement voté au 1er tour pour AAA, puis BBB, et enfin CCC.",
+                "string":"La commune a principalement voté au 1er tour pour AAA, puis BBB, et enfin CCC.",
                 "columns":[
                     "premierCandidatTour1",
                     "deuxiemeCandidatTour1",
@@ -16,7 +16,7 @@
                 ]
             },
             {
-                "string":"La Commune à voté au 2nd tour pour  AAA à BBB %.",
+                "string":"La commune a voté au 2nd tour pour AAA à BBB %.",
                 "columns":[
                     "premierCandidatTour2",
                     "pourcentage1erCandidatTour2"
@@ -25,13 +25,13 @@
         ],
         "non-politique": [
             {
-                "string":"Le Canton de la Commune est AAA.",
+                "string":"Le canton de la commune est AAA.",
                 "columns":[
                     "canton"
                 ]
             },
             {
-                "string":"La population totale de cette Commune est de AAA habitants.",
+                "string":"La population totale de cette commune est de AAA habitants.",
                 "columns":[
                     "population"
                 ]
@@ -40,7 +40,7 @@
     },
     "indice": [
         {
-            "string":"Un des \"symboles\" le plus proche de la commune est : AAA.",
+            "string":"La commune est proche AAA.",
             "columns":["symbole"]
         }
     ]
