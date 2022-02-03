@@ -85,8 +85,16 @@ function fetchCandidates(x) {
 
                 document.querySelector('#questionPart1').innerHTML = data.questionPart1;
                 document.querySelector('#questionPart2').innerHTML = data.questionPart2;
+                document.querySelector('#questionPart3').innerHTML = data.questionPart3;
 
                 let candidate = document.getElementById("candidate");
+                let themeChoisi = document.getElementById("theme-choisi");
+                themeChoisi.innerHTML = data.wordsTheme;
+
+                if (theme === "followers") {
+                    themeChoisi.remove();
+                    document.querySelector('#questionPart2').remove();
+                }
 
                 let ans1 = document.getElementById("ans1");
                 let ans2 = document.getElementById("ans2");

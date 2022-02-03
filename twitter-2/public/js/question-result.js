@@ -26,12 +26,30 @@ window.addEventListener("load", function (event) {
    }
 });
 
+const animation = async function(){
+   console.log("yo");
+   anime({
+      targets: '#vector1',
+      scale: 1.1,
+      easing: 'easeInOutQuad',
+      direction: 'alternate',
+      loop: true
+   });
+
+   anime({
+      targets: '#vector2',
+      scale: 1.1,
+      easing: 'easeInOutQuad',
+      direction: 'alternate',
+      loop: true
+   });
+ };
 
 
 window.onload = () => {
    window.scrollTo(0, 25);
 
-
+   animation();
 
    document.getElementById("about").addEventListener("click", () => {
       window.location.href = "./question-result.html#second-slide";

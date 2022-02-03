@@ -64,8 +64,8 @@ app.get('/randomQuestion/followers', function (req, res) {
     }
 
     res.send({
-        questionPart1: "Avec quel.le candidat.e",
-        questionPart2: "a-t-il/elle le plus de followers en commun ?",
+        questionPart1: "Avec quel·le candidat·e",
+        questionPart3: "a-t-il/elle le plus de followers en commun ?",
         mainCandidat,
         solutionCandidat,
         wrongCandidats,
@@ -104,8 +104,9 @@ app.get('/randomQuestion/:theme', function (req, res) {
     }
 
     res.send({
-        questionPart1: `Sur le sujet de ${wordsTheme(req.params.theme)},<br>qui tweete autant que `,
-        questionPart2: ' ?',
+        questionPart1: 'Sur le sujet de ',
+        questionPart2: '<br>qui tweete autant que ',
+        questionPart3: ' ?',
         wordsTheme: wordsTheme(req.params.theme),
         mainCandidat,
         solutionCandidat,

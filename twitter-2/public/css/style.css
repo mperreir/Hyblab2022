@@ -79,7 +79,7 @@ body {
 }
 
 footer p {
-    font-size: 2.5vh;
+    font-size: 2vh;
     font-family: 'Lato', sans-serif;
     padding: 0 5%;
 }
@@ -176,8 +176,12 @@ button{font-family: 'blatantregular';}
     align-items: center;
 }
 
-#bandeau img {
+#hyblab {
     height: 50%;
+}
+
+#bandeau img {
+    height: 45%;
 }
 
 #bandeau #hyblab {
@@ -190,7 +194,7 @@ button{font-family: 'blatantregular';}
     display: grid;
     height:35%;
     grid-template-columns: repeat(2, 50%);
-    grid-template-rows: repeat(3, 35%);
+    grid-template-rows: repeat(3, 30%);
 }
 
 #credits div{
@@ -201,7 +205,6 @@ button{font-family: 'blatantregular';}
 
 .prenom {
     font-size: 3.5vh;
-    font-weight: bold;
 }
 
 .nom {
