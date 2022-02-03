@@ -151,7 +151,22 @@ border : 1vh solid #E66E78;
     width: 10%;
     margin-left: 3%;
     margin-top: 3%;
-
+    cursor: pointer;
+}
+#son{
+    position: absolute;
+    width: 5%;
+    margin-right: 3%;
+    margin-top: 3%;
+    right: 0;
+}
+#sujet label[for="son"]{
+    color: blue;
+    font-size: small;
+    position: absolute;
+    top: 1%;
+    right: 5%;
+    width: 150px;
 }
 #SujetExpose{
     border : 1vh solid #0600FF;  
