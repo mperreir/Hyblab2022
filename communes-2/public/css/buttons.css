@@ -25,15 +25,11 @@
     transition: transform 250ms;
 }
 
-.btn-accueilBonus:hover{
-    background-color: whitesmoke;
-    color: #282246;
-}
-
 .btn-menu{  
+    font-weight: 100;
     width: 91px;
     height: 83px;
-    font-size: 20%;
+    font-size: 30%;
     border: none;
     border-radius: 10px;
     transition: transform 250ms;
@@ -45,7 +41,7 @@
     font-size: 18%;
     margin-bottom: 10px;
     border: none;
-    border-radius: 50px;
+    border-radius: 20px;
     transition: transform 250ms;
 }
 
@@ -54,20 +50,9 @@
     color: whitesmoke;
 }
 
-.btn-bleu:hover{
-    background-color: whitesmoke;
-    color: #282246;
-}
-
 .btn-bleuClair{
     background-color: #5B6C9A;
     color: whitesmoke;
-}
-
-/*TODO : Inutile, pas de hover sur mobile */
-.btn-bleuClair:hover{
-    background-color: whitesmoke;
-    color: #5B6C9A;
 }
 
 .btn-vert{
@@ -75,19 +60,9 @@
     color: whitesmoke;
 }
 
-.btn-vert:hover{
-    background-color: whitesmoke;
-    color: #83C49E;
-}
-
 .btn-rouge{
     background-color: #EA6D5B;
     color: whitesmoke;
-}
-
-.btn-rouge:hover{
-    background-color: whitesmoke;
-    color: #EA6D5B;
 }
 
 #boutonRetour{

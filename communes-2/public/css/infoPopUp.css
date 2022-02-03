@@ -32,6 +32,8 @@
 .popUp-center, .popUp{
     margin-left: 10%;
     margin-right: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .popUp-info{

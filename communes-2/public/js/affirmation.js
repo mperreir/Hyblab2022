@@ -98,20 +98,15 @@ page('/communes-2/affirmation', async function () {
         slider.style.bottom ="0";
     });
 
-    
-    
-
     // ------ Gestion de la map
-
     var map = L.map('map', {
         zoomSnap: 0.5
     }).setView([47.00,-1.70], 8.5);
     //var bounds = [[47.856,-2.63],[46.845,-0.895]];
-    //var img = L.imageOverlay('img/ZOOM3_DROITE.svg', bounds).addTo(map);
+    //var img = L.imageOverlay('img/loireAtlantique.png', bounds).addTo(map);
     //map.fitBounds(bounds);
 
-    /* ---------------------ICONES CARTES--------------------------- */
-
+    /* ---------------------ICONES CARTES--------------------------- */s
     const iconSize1 = [125,125];
     const iconAnchor1 = [70,100];
     const iconSize2 = [80,80];
@@ -480,9 +475,34 @@ page('/communes-2/affirmation', async function () {
         id: 'mapbox/light-v9',
         tileSize: 512,
         zoomOffset: -1
-    }).addTo(map);
+    });//.addTo(map);
 
     map.zoomControl.remove();
+
+    
+    const exteriorStyleDroite = {
+        "color": "#445072", //#5B6C9A
+        "fillColor": "#F0E4D8",
+        "weight": 1,
+        "opacity": 0.5, 
+        "fillOpacity": 1
+    };
+
+    const exteriorStyleGauche = {
+        "color": "#9F4B3F", //#EA6D5B
+        "fillColor": "#F0E4D8",
+        "weight": 1,
+        "opacity": 0.5, 
+        "fillOpacity": 1
+    };
+
+    const exteriorStyleCentre = {
+        "color": "#619275", //#83C49E   
+        "fillColor": "#F0E4D8",
+        "weight": 1,
+        "opacity": 0.5, 
+        "fillOpacity": 1
+    };
 
     // On ajoute le fichier GEOJson comme une couche.
     L.geoJson(dataCarte, {
@@ -495,21 +515,21 @@ page('/communes-2/affirmation', async function () {
 
                 case "Centre":
                     switch (feature.properties.orientation) {
-                        case "Centre": return {color: "#83C49E", opacity: 1};
-                        case "Droite": return {color: "#A0A0A0", opacity: 0.1}; // gris
-                        case "Gauche": return {color: "#A0A0A0", opacity: 0.1}; // gris
+                        case "Centre": return {color: "#619275", fillColor: "#83C49E", weight: 1, fillOpacity: 1};
+                        case "Droite": return exteriorStyleCentre; // gris
+                        case "Gauche": return exteriorStyleCentre; // gris
                     };
                 case "Droite":
                     switch (feature.properties.orientation) {
-                        case "Centre": return {color: "#A0A0A0", opacity: 0.1}; // gris
-                        case "Droite": return {color: "#5B6C9A", opacity: 1};
-                        case "Gauche": return {color: "#A0A0A0", opacity: 0.1}; // gris
+                        case "Centre": return exteriorStyleDroite; // gris
+                        case "Droite": return {color: "#445072", fillColor: "#5B6C9A", weight: 1, fillOpacity: 1};
+                        case "Gauche": return exteriorStyleDroite; // gris
                     };
                 case "Gauche":
                     switch (feature.properties.orientation) {
-                        case "Centre": return {color: "#A0A0A0", opacity: 0.1}; // gris
-                        case "Droite": return {color: "#A0A0A0", opacity: 0.1}; // gris
-                        case "Gauche": return {color: "#EA6D5B", opacity: 1};
+                        case "Centre": return exteriorStyleGauche; // gris
+                        case "Droite": return exteriorStyleGauche; // gris
+                        case "Gauche": return {color: "#9F4B3F", fillColor: "#EA6D5B", weight: 1, fillOpacity: 1};
                     };
             }
         },

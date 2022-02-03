@@ -12,8 +12,8 @@
     position: absolute;
     display: table;
     top: 20%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 6%;
+    margin-right: 6%;
     min-height: 50%;
 
     border: none;
@@ -32,13 +32,13 @@
 
     line-height: 18px;
     overflow: hidden;
-    padding: 15px 60px;
+    padding: 15px 75px;
 
     text-align: center;
 }
 
 .tips > h6{
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 25%;
     margin-bottom: 20px;
     text-align: center;
@@ -57,12 +57,13 @@
     top: 50%;
     width: auto;
     margin-top: -30px;
-    padding: 16px;
+    padding: 10px;
     color: #f0e4d8;
     font-weight: bold;
     font-size: 20px;
     border-radius: 0 3px 3px 0;
     user-select: none;
+    opacity: 50%;
   }
   
 /* Position the "next button" to the right */
@@ -94,10 +95,11 @@
 /* The dots/bullets/indicators */
 .dot {
     cursor: pointer;
-    height: 10px;
-    width: 10px;
+    height: 6px;
+    width: 6px;
     margin: 0 5px;
     background-color: #f0e4d8;
+    opacity: 40%;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
@@ -105,5 +107,6 @@
 
 /* Add a background color to the active dot/circle */
 .active, .dot:hover {
-    background-color: #ED6464;
+    background-color: #f0e4d8;
+    opacity: 100%;
 }
