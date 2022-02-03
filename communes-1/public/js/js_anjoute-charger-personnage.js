@@ -5,13 +5,13 @@ let personnages = [
 	'img/animations/rousse.webm',
 	'img/animations/chapeau.webm',
 	'img/animations/manteau_vert.webm',
-	'img/animations/bonnie.webm',
+	'img/animations/dame-reflet.webm',
 	'img/animations/manteau_bleu.webm',
 	'img/animations/femme.webm',
 	'img/animations/homme.webm',
 	'img/animations/mamie.webm',
 	'img/animations/manteau_rouge.webm',
-	'img/animations/dame-reflet.webm'
+	'img/animations/bonnie.webm'
 ]
 
 let video = document.createElement('video');
