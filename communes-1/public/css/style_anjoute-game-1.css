@@ -79,12 +79,12 @@
 	bottom: 3vh;
 	width: 100%;
 	text-align: center;
+	bottom: 7vh;
 }
 
 .animation_perso {
 	width: 75%;
 	z-index: 0;
-	bottom: 8vh;
 }
 
 .ville {
