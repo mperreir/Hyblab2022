@@ -1,7 +1,5 @@
 async function loadFileExplorer() {
 
-<<<<<<< HEAD
-=======
 
 
     selectedCityData = await fetchCityData(selectedCity);
@@ -11,7 +9,6 @@ async function loadFileExplorer() {
     const metropoleRq = await fetch('api/metropole/');
     metropoleData = await metropoleRq.json();
     metropoleData = metropoleData.nantes;
->>>>>>> 7dd24894236c9dbfbc58a7a2ac367c1239a06472
     const container = document.getElementById("container");
     const headerHtml = await loadTemplate('templates/header.ejs', []);
     container.innerHTML = headerHtml;

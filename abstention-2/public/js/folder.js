@@ -199,12 +199,7 @@ async function loadFolder(folderName) {
             if (visitedFolders.blancsNuls && visitedFolders.nouveauxHabitants) {
                 FOLDER_TITLES.filesData.find(f => f.folderName === 'mineurs').progress = 100;
                 FOLDER_TITLES.filesData.find(f => f.folderName === 'etrangers').progress = 100;
-<<<<<<< HEAD
-                FOLDER_TITLES.filesData.find(f => f.folderName === 'finaux').progress = 66;
-
-=======
-                FOLDER_TITLES.filesData.find(f => f.folderName === 'finaux').progress = 66;  
->>>>>>> 7dd24894236c9dbfbc58a7a2ac367c1239a06472
+                FOLDER_TITLES.filesData.find(f => f.folderName === 'finaux').progress = 66; 
             }
             if (visitedFolders.mineurs && visitedFolders.etrangers) {
                 FOLDER_TITLES.filesData.find(f => f.folderName === 'finaux').progress = 100;
