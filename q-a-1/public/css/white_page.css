@@ -167,7 +167,7 @@ p{
 
 .main-section p, .bottom-section p {
     font-size: 16%;
-    padding: 0% 5% 0% 5%;
+    
 }
 
 #map{
@@ -181,7 +181,7 @@ p{
 }
 
 .bottom-section{
-    margin-top: 45%;
+    margin-top: 40%;
 }
 
 #anim-section{
