@@ -23,6 +23,13 @@ p{
     
 }
 
+#close{
+    position: absolute;
+    top:5%;
+    right:5%;
+    width: 7%;
+}
+
 #introduction{
     margin-top:5%;
     margin-bottom:3%;
@@ -118,7 +125,7 @@ button{
     padding-top: 3%;
     width:100%;
     font-size: 20%;
-    margin-top: 10%;
+    margin-top: 25%;
   }
 
   #bandeau li{
@@ -189,5 +196,5 @@ a:link,a:visited{
 }
 
 #check-header{
-    height: 25%;
+    height: 15%;
 }
