@@ -1,6 +1,6 @@
 "use strict";
 
-const headPhoneTimeout = 1000;
+const headPhoneTimeout = 1500;
 
 let illustration = {
   illu: '55%',

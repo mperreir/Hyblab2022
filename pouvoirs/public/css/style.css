@@ -806,8 +806,8 @@ b {
 }
 #thanks #thanks-background img {
   position: absolute;
-  top: 22%;
-  left: 15%;
+  top: 19%;
+  left: 2%;
   z-index: 2;
   height: 30%;
   width: 100%;
@@ -816,9 +816,14 @@ b {
   font-size: 15%;
   width: 75%;
   position: absolute;
-  top: 25%;
-  left: 26%;
+  top: 24%;
+  left: 12%;
   z-index: 3;
+}
+
+#thanks #thanks-background p a {
+  text-decoration: underline;
+  color:white;
 }
 
 .fade {
