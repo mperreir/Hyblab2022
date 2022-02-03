@@ -86,13 +86,13 @@ function geoFindMe() {
   }
 
 
-//document.addEventListener('DOMContentLoaded', geoFindMe);
 
 const button_to_slide2 = document.getElementById('bureaux_localisation');
 button_to_slide2.addEventListener('click', geoFindMe);
 
 
 async function displayBureauxVotefromLocation(latitude, longitude){
+  deleteContentSlide2();
   swiper.slideNext();
   
   let response = await fetch('api/bureaux_vote/' + latitude + '/' + longitude + '/');
@@ -117,7 +117,7 @@ async function displayBureauxVotefromLocation(latitude, longitude){
       
       div.style.display = 'inline-block';
   
-      nb_bureaux_same_adress = data[i].length;
+      nb_bureaux_same_adress = data[j].length;
     
       let bold_name_bureau = document.createElement('b');
       let bold_num_bureau = document.createElement('b');
@@ -157,6 +157,23 @@ async function displayBureauxVotefromLocation(latitude, longitude){
 
   
     global_div.appendChild(div_couple_bureaux);
+
   }
 
+}
+
+
+function deleteContentSlide2(){
+  let global_bureaux_div = document.querySelector('#liste_bureaux');
+  let all_bureaux_div = document.querySelectorAll(".div_couple_bureaux");
+
+  for(var i = 0; i < all_bureaux_div.length; i++){
+    global_bureaux_div.removeChild(all_bureaux_div[i]);
+  }
+
+}
+
+function goToSlide1(){
+  swiper.slidePrev();
+  deleteContentSlide2();
 }

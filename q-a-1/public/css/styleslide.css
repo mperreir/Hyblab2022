@@ -57,6 +57,20 @@ header div{
 
 #img_warning{
     width:80%;
+    margin-top: -5%;
+}
+
+#croix_bureaux{
+    position: absolute;
+    left:90%;
+    margin-top:-25%;
+}
+
+#button_to_service_public{
+    background-color:#FAF3EE;
+    border: solid 1px;
+    color:#C4C4C4;
+    font-size:50%;
 }
 
 #container{

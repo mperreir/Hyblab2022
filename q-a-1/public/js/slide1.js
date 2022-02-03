@@ -18,7 +18,7 @@ const initSlide1 = async function(){
         targets: '#logo-hyblab',
         scale: 0
       });
-    swiper.slideNext()
+    swiper.slideNext();
     initSlide2();
   });
   //initSlide2();
