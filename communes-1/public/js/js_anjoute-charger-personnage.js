@@ -1,4 +1,5 @@
 const video = document.querySelector('.animation_perso');
+video.innerHTML = '';
 
 let personnages = [
 	'img/animations/manteau_rouge.mp4',
