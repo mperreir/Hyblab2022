@@ -12,7 +12,7 @@ async function loadPresVille() {
   metropoleData = metropoleData.nantes;
 
   // barage("barage", selectedCityData.ages);
-  metierdot("metier", selectedCityData.metiers);
+  // metierdot("metier", selectedCityData.metiers);
   // console.log(metiers);
   const presHtml = await loadTemplate('templates/pres_ville.ejs', selectedCityData);
   container.innerHTML = presHtml;

@@ -11,7 +11,7 @@ const visitedFolders = {
     etrangers: false,
     mineurs: false,
     finaux: false,
-    el:false,
+    el: false,
 }
 
 const FOLDER_TITLES = {
@@ -97,7 +97,7 @@ function date() {
 
 // loadFileExplorer().then(loadEnd());
 
-// loadRebet();
+loadRebet();
 
 // loadStart();
 
@@ -109,7 +109,7 @@ async function fetchCityData(city) {
 }
 // loadFileExplorer();
 // smsScreen();
-loadPresVille();
+// loadPresVille();
 
 
 

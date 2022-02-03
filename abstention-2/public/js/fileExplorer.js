@@ -1,17 +1,15 @@
 async function loadFileExplorer() {
 
-<<<<<<< HEAD
-=======
+
 
 
     selectedCityData = await fetchCityData(selectedCity);
-    
+
     const citiesRq = await fetch('api/cities/');
     citiesMap = await citiesRq.json();
     const metropoleRq = await fetch('api/metropole/');
     metropoleData = await metropoleRq.json();
     metropoleData = metropoleData.nantes;
->>>>>>> 7dd24894236c9dbfbc58a7a2ac367c1239a06472
     const container = document.getElementById("container");
     const headerHtml = await loadTemplate('templates/header.ejs', []);
     container.innerHTML = headerHtml;
@@ -36,7 +34,7 @@ async function loadFileExplorer() {
         }
     }
     let count = Object.values(visitedFolders).filter(el => el === true).length;
-    if(count === 3){
+    if (count === 3) {
         loadRebet();
         visitedFolders.el = true;
     }

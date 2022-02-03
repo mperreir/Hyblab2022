@@ -91,13 +91,13 @@ async function loadFolder(folderName) {
             data = {
                 cityName: citiesMap[selectedCity],
                 cityValue: selectedCityData['vote_blanc'] + selectedCityData['vote_nul'],
-                cityPercent: Math.round((selectedCityData['pourcentage_vote_blanc'] + selectedCityData['pourcentage_vote_nul'])*100)/100,
-                meanPercent: Math.round((metropoleData['pourcentage_vote_blanc'] + metropoleData['pourcentage_vote_nul'])*100)/100
+                cityPercent: Math.round((selectedCityData['pourcentage_vote_blanc'] + selectedCityData['pourcentage_vote_nul']) * 100) / 100,
+                meanPercent: Math.round((metropoleData['pourcentage_vote_blanc'] + metropoleData['pourcentage_vote_nul']) * 100) / 100
             };
             graphData = await loadTemplate('templates/folders/graphNouveauxHabitants.ejs', {
                 cityName: citiesMap[selectedCity],
-                cityPercent: Math.round((selectedCityData['pourcentage_vote_blanc'] + selectedCityData['pourcentage_vote_nul'])*100)/100,
-                meanPercent: Math.round((metropoleData['pourcentage_vote_blanc'] + metropoleData['pourcentage_vote_nul'])*100)/100
+                cityPercent: Math.round((selectedCityData['pourcentage_vote_blanc'] + selectedCityData['pourcentage_vote_nul']) * 100) / 100,
+                meanPercent: Math.round((metropoleData['pourcentage_vote_blanc'] + metropoleData['pourcentage_vote_nul']) * 100) / 100
             });
             break;
         case 'nouveauxHabitants':
@@ -199,12 +199,8 @@ async function loadFolder(folderName) {
             if (visitedFolders.blancsNuls && visitedFolders.nouveauxHabitants) {
                 FOLDER_TITLES.filesData.find(f => f.folderName === 'mineurs').progress = 100;
                 FOLDER_TITLES.filesData.find(f => f.folderName === 'etrangers').progress = 100;
-<<<<<<< HEAD
                 FOLDER_TITLES.filesData.find(f => f.folderName === 'finaux').progress = 66;
 
-=======
-                FOLDER_TITLES.filesData.find(f => f.folderName === 'finaux').progress = 66;  
->>>>>>> 7dd24894236c9dbfbc58a7a2ac367c1239a06472
             }
             if (visitedFolders.mineurs && visitedFolders.etrangers) {
                 FOLDER_TITLES.filesData.find(f => f.folderName === 'finaux').progress = 100;
