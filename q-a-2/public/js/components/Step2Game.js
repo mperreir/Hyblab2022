@@ -57,13 +57,12 @@ class Step2Game extends React.Component {
                 width="30%">
                 <svg className="step2Game_img" viewBox="0 0 100 100" transform={e.stepTwoGame.scale} version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                     <g>
-                        <object
-                            width="100%" 
-                            height="100%" 
+                        <image
+                            width="117px" 
+                            height="117px" 
                             xlinkHref={'img/step2Game/signature-perso-' + e.id + (e.stepTwoGame.valid ? '.svg' : '-F.svg')}
-                            type="image/svg+xml"
                         >
-                        </object>
+                        </image>
                     </g>
                 </svg>
             </th>)});
