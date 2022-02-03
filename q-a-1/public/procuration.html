@@ -25,7 +25,7 @@
       
         <!-- le main est aussi le conteneur des différents slides (contenus à chaque fois dans des sections-->
         <main class = "main-part">
-            <section id="first-section">
+            <section id="first-section" class="section_procuration">
                 <header id="procuration">
                     <div><input type="image" id="logo" src="img/logo/logo rouge.svg" onclick="window.location='sommaire.html'"></div>
                     <h1>PROCURATION</h1>
@@ -33,9 +33,9 @@
              
                 </header>
 
-                <p >Si tu n'es pas là le jour du vote, tu peux voter par <b>procuration</b>. Faire procuration c'est un acte écrit par lequel tu donnes le pouvoir à <b>une autre personne</b> de voter à ta place.</p>
+                <p id="txt_intro">Si tu n'es pas là le jour du vote, tu peux voter par <b>procuration</b>. Faire procuration c'est un acte écrit par lequel tu donnes le pouvoir à <b>une autre personne</b> de voter à ta place.</p>
                     
-                <p><img src = "img/Procuration/star.svg" class="asterisque"> Tu peux réaliser cette démarche en ligne !</p>
+                <p id="txt_demarche"><img src = "img/Procuration/star.svg" class="asterisque"> Tu peux réaliser cette démarche en ligne !</p>
                    
                 <div id = "démarche">
                     <img class = "anim-horizontale" id="fleche" src="img/Procuration/fleche.svg">
@@ -43,11 +43,11 @@
                 </div>
 
                 <div id ="diag">
-                    <p><img  src="img/Procuration/diagramme.svg" id="diagramm"></p>
-                    <p>Nombres de demandes de procurations durant l'élection présidentielle de <b>2017, en millions.</b></p>
+                    <p id="p_img"><img  src="img/Procuration/diagramme.svg" id="diagramm"></p>
+                    <p id="txt_diag">Nombres de demandes de procurations durant l'élection présidentielle de <b>2017, en millions.</b></p>
                 </div>
                
-                <p>À ton avis, quelle tranche d'âge fait le plus de demandes de procuration ?</p>
+                <p id="txt_question_proc"><b>À ton avis, quelle tranche d'âge fait le plus de demandes de procuration </b>?</p>
 
                <p id="Quest_Proc">
                 <input type ="button" class="bouton" value="30-50 ANS" id="QP1">

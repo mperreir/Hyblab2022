@@ -1,5 +1,3 @@
-
-
 .main-part section{
     background-color: #EC8989;
 }
@@ -30,6 +28,19 @@ p{
 #subtitle{
     width: 32%;
 }
+
+#txt_intro, #txt_demarche, #txt_question_proc{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+#txt_diag{
+    margin-left:10%;
+    margin-right: 4%;
+    width:50%;
+    text-align: right;
+}
+
 
 .gifbureau{
     position: absolute;
@@ -127,14 +138,14 @@ button{
 .bouton{ 
     padding : 2% 0% 2% 0%;
     margin: 1%;
-    width: 20%;
-    font-size: 50%;
+    width: 50%;
+    font-size: 100%;
     height: 8%;
     border-radius: 600px;
     border: none;
     font-family: 'folsomblack';
     background-color: #AC4B4B;
-    color: #eed2d2;
+    color: white;
 }
 
 #démarche{
@@ -145,9 +156,11 @@ button{
 }
 
 #butproc{
+    background-color:#EC8989;
+    border: 2px solid #A34142;
+    color:white;
     margin-left: 5%;
     padding: 1% 5% 1% 5%;
-    background-color: #A34142;
     font-size: 10%;
     width:60%;
     color: rgb(224, 209, 209);
@@ -158,8 +171,10 @@ button{
     display:flex;
     justify-content: space-between;
     object-fit: contain;
-    
-    
+}
+
+#p_img{
+    padding-left:0%;
 }
 
 #diagramm{
@@ -170,10 +185,15 @@ button{
 #Quest_Proc{
     display: flex;
     justify-content: space-between;
+    margin-top:6%;
+}
+
+#Quest_proc input{
+    font-size:100%;
 }
 
 #titreproc{
-    width: 60%;
+    width: 32%;
 }
 
 .pagenumber{
