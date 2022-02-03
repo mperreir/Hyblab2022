@@ -18,7 +18,8 @@ page('/communes-2/information', async function () {
 
     // chargement de la visualisation
     let nom_commune = "Libellé de la commune";
-    let communeCourante = JSON.parse(localStorage.getItem('gameData')).communePrecedente.libelleCommune;
+    let gameData = JSON.parse(localStorage.getItem('gameData'));
+    let communeCourante = gameData['communePrecedente']['libelleCommune'];
 
 
     let remplacer_virgule_par_point = function(decimal) {
@@ -125,7 +126,11 @@ page('/communes-2/information', async function () {
     ul2.appendChild(li26);
 
     document.getElementById("continue-btn").addEventListener('click', function () {
-        page('/communes-2/affirmation');
+        if (gameData['nbreCommunesJouees'] >= 5){
+            page('/communes-2/resultatFinal');
+        } else {
+            page('/communes-2/affirmation');
+        }
     });
 });
 
