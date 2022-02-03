@@ -120,7 +120,7 @@
     border-top-left-radius : 50px;
     border-top-right-radius : 50px;
     border: none;
-    box-shadow: rgba(0, 0, 0, 0.17) 0px -15px 15px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px;
+
 
     background-color: #282246;
     color: #f0e4d8;
@@ -149,7 +149,6 @@
     border-top-left-radius : 50px;
     border-top-right-radius : 50px;
     border: none;
-    box-shadow: rgba(0, 0, 0, 0.17) 0px -15px 15px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px;
 
     background-color: #282246;
     color: #f0e4d8;
@@ -194,7 +193,6 @@
     border-top-left-radius : 50px;
     border-top-right-radius : 50px;
     border: none;
-    box-shadow: rgba(0, 0, 0, 0.17) 0px -15px 15px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px;
 
     background-color: #282246;
     color: #f0e4d8;
@@ -235,7 +233,7 @@
     position: absolute;
     
     width: 54%;
-    height: 12%;
+    height: 15%;
     top: 40%;
     margin-left: 16%;
 
@@ -243,8 +241,6 @@
 
 
     border: none;
-    box-shadow: rgba(0, 0, 0, 0.17) 0px -15px 15px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px;
-
     background-color: #282246;
     color: #f0e4d8;
     
@@ -276,13 +272,13 @@
 
 #confirm-btn ,#reject-btn{
     cursor: pointer;
-    width: 25%;
-    height: 25%;
+    width: 40%;
+    height: 40%;
 }
 
 
 .button-choose{
-    margin-left: 30%;
+    margin-left: 13%;
 }
 
 #sliderline-ind, #sliderline-aff, #sliderline {

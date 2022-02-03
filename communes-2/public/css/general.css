@@ -250,7 +250,7 @@ body{
     height: 30%;
     position: absolute;
     bottom: 4%;
-    
+
 }
 
 #pie_box{
@@ -282,6 +282,15 @@ body{
     margin: 0 15px;
 }
 
+#merci-partenaire {
+
+    font-family: Bebas Neue;
+    font-style: normal;
+    align-items: center;
+    text-align: center;
+    font-size:x-large;
+    color: #282246;
+}
 text.title{
     color: #282246;
 }

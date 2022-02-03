@@ -67,7 +67,7 @@ page('/communes-2/affirmation', async function () {
     });
 
     let box_aff = document.getElementById("sliderline-aff");
-    
+
     let box_af = document.getElementById("affirmation");
     box_af.addEventListener("click", (event)=>{
         if (box_af !== event.target && box_aff !== event.target ) return;
@@ -106,7 +106,7 @@ page('/communes-2/affirmation', async function () {
     //var img = L.imageOverlay('img/loireAtlantique.png', bounds).addTo(map);
     //map.fitBounds(bounds);
 
-    /* ---------------------ICONES CARTES--------------------------- */s
+    /* ---------------------ICONES CARTES--------------------------- */
     const iconSize1 = [125,125];
     const iconAnchor1 = [70,100];
     const iconSize2 = [80,80];
@@ -114,7 +114,7 @@ page('/communes-2/affirmation', async function () {
     const iconSize3 = [60,60];
     const iconAnchor3 = [50,50];
 
-    // ICONES 1 
+    // ICONES 1
 
     var iconElephant1 = L.icon({
         iconUrl: 'img/illustrations/nantes1.svg',
@@ -153,7 +153,7 @@ page('/communes-2/affirmation', async function () {
     var buisson1 = L.marker([47.53,-1.80], {icon: iconBuisson1, interactive: false});
     var buisson1bis = L.marker([46.95,-1.70], {icon: iconBuisson1, interactive: false});
 
-    // ICONES 2 
+    // ICONES 2
 
     var iconArbre2 = L.icon({
         iconUrl: 'img/illustrations/arbre1.svg',
@@ -230,7 +230,7 @@ page('/communes-2/affirmation', async function () {
     var buisson25 = L.marker([47.66, -1.34], {icon: iconBuisson2, interactive: false}); // SE Chateaubriant
     var vache2 = L.marker([47.54, -1.89], {icon: iconVache2, interactive: false});
     var centrale2 = L.marker([47.29, -1.84], {icon: iconCentrale2, interactive: false});
-    var voilier2 = L.marker([47.10, -2.13], {icon: iconVoilier2, interactive: false}); 
+    var voilier2 = L.marker([47.10, -2.13], {icon: iconVoilier2, interactive: false});
     var bernerie2 = L.marker([47.00, -2.00], {icon: iconBernerie2, interactive: false});
     var guitare2 = L.marker([47.10, -1.27], {icon: iconGuitare2, interactive: false});
     var elephant2 = L.marker([47.19, -1.51], {icon: iconElephant2, interactive: false});
@@ -441,7 +441,7 @@ page('/communes-2/affirmation', async function () {
     iconsGroup3.addLayer(vignes3);
     iconsGroup3.addLayer(guitare3);
     iconsGroup3.addLayer(zebre3);
-    
+
 
     map.on('zoomend', function() {
         let zoom = map.getZoom();
@@ -479,12 +479,12 @@ page('/communes-2/affirmation', async function () {
 
     map.zoomControl.remove();
 
-    
+
     const exteriorStyleDroite = {
         "color": "#445072", //#5B6C9A
         "fillColor": "#F0E4D8",
         "weight": 1,
-        "opacity": 0.5, 
+        "opacity": 0.5,
         "fillOpacity": 1
     };
 
@@ -492,15 +492,15 @@ page('/communes-2/affirmation', async function () {
         "color": "#9F4B3F", //#EA6D5B
         "fillColor": "#F0E4D8",
         "weight": 1,
-        "opacity": 0.5, 
+        "opacity": 0.5,
         "fillOpacity": 1
     };
 
     const exteriorStyleCentre = {
-        "color": "#619275", //#83C49E   
+        "color": "#619275", //#83C49E
         "fillColor": "#F0E4D8",
         "weight": 1,
-        "opacity": 0.5, 
+        "opacity": 0.5,
         "fillOpacity": 1
     };
 
@@ -642,21 +642,21 @@ function roundEnding(selectedValue, rightValue) {
     }
 
 
-    // REDIRECTION VERS LA BONNE PAGE. 
+    // REDIRECTION VERS LA BONNE PAGE.
     if(selectedValue == rightValue) page('/communes-2/resultatInterTrue')
     else {
         // Si on s'est trompés et que c'était le second essai, on arrive sur la page d'échec, sinon sur la page avec un indice en plus
         if(nbEssaiSuivant == 2) page('/communes-2/affirmation');
     }
 
-    
+
 }
 
 /**
  * Calcule le score obtenu pour le second tour. On se base sur la distance entre la ville sélectionnée et la bonne ville.
- * 
- * @param {String} selectedValue 
- * @param {String} rightValue 
+ *
+ * @param {String} selectedValue
+ * @param {String} rightValue
  */
 async function calculateScore(selectedValue, rightValue) {
     const scoreReussite = 2500;
@@ -668,7 +668,7 @@ async function calculateScore(selectedValue, rightValue) {
      * Pour les coordonnées, on utilisera la première valeur du tableau coordinates du geojson.json
      * En valeur de référence, on prendra la plus grande distance possible (à déterminer).
      * On fait le ratio entre la distance entre les selectedValue et rightValue sur la plus grande distance, que l'on multiplie par le scoreMax.
-     **/ 
+     **/
 
     const distanceMax = 179378; // Cela correspond à la distance en mètres la plus longue en Loire-Atlantique, entre les bords éloignés de Piriac-sur-Mer et Montrelais
     let scoreRetour = await fetch('api/distance/' + selectedValue + '/' + rightValue)
