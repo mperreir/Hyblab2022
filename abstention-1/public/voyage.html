@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="css/styleMain.css">
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js" defer></script>
     <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js" defer></script>
+
+    <script defer src="data/abstention_dataset.js"></script>
+    <script defer src="data/data_analysis.js"></script>
+    <script defer src="data/dialogues.js"></script>
+
     <script src="js/MVC/cssProperties/CSSProperty.js" defer></script>
     <script src="js/MVC/cssProperties/AnimationFrame.js" defer></script>
     <script src="js/MVC/cssProperties/BackgroundImage.js" defer></script>
@@ -16,7 +21,11 @@
     <script src="js/MVC/cssProperties/Display.js" defer></script>
     <script src="js/animations.js" defer></script>
     <script src="js/pfs.js" defer></script>
+<<<<<<< HEAD
     <script src="js/quiz.js" defer></script>
+=======
+    <script src="js/morpion.js" defer></script>
+>>>>>>> 9130c8f229c42e96f0017c5d0972455767bcd414
     
     <script defer src="js/MVC/utils.js"></script>
     <script defer src="js/MVC/AnimationControler.js"></script>
@@ -27,10 +36,7 @@
     <script defer src="js/MVC/DialogueView.js"></script>
     <script defer src="js/MVC/DialogueObserver.js"></script>
     <script defer src="js/MVC/DialogueControler.js"></script>
-    <!-- <script defer src="js/MVC/dialogue.js"></script>-->
-    <script defer src="data/abstention_dataset.js"></script>
-    <script defer src="data/data_analysis.js"></script>
-    <script defer src="data/dialogues.js"></script>
+
     <script defer src="js/MVC/main.js"></script>
 
 </head>
@@ -62,33 +68,32 @@
           </p>
         </div>
       </section>
+
+      <div id="scrollIndicator">
+        <div id="sphere">
+        </div>
+      </div>
    
       <section id="Dialogue">
         <header>
-            <!-- <div id='cercle1' class="circle"><p>1</p></div>
-            <div id='cercle2' class="circle"><p>2</p></div>
-            <div id='cercle3' class="circle"><p>3</p></div>
-            <div id='cercle4' class="circle"><p>4</p></div>
-            <div id='cercle5' class="circle"><p>5</p></div>
-            <div id='cercle6' class="circle"><p>6</p></div> -->
             <img id='carnet' src='img/CARNET PICTO.svg'>
         </header>
-          <div id="personnage1"></div>
-          <div id="personnage2"></div>
-          <div id="textZone">
-            <!--Dialogue-->
-            <div id='cercle' class="circle"><p>1</p></div>
-            <div class='boxnom'><p id="description" class="nom">Arthur 17ans</p></div>
-            <p id="textDialogue">Ceci est un exemple pour que je puisse effectuer des tests afin de voir si cela rend très bien.  </p>
-            <img id="Suite" src='img/SUIVANT.svg'>
+        <div id="personnage1"></div>
+        <div id="personnage2"></div>
+        <div id="textZone">
+          <!--Dialogue-->
+          <div id='cercle' class="circle"><p>1</p></div>
+          <div class='boxnom'><p id="description" class="nom">Arthur 17ans</p></div>
+          <p id="textDialogue">Ceci est un exemple pour que je puisse effectuer des tests afin de voir si cela rend très bien.  </p>
+          <img id="Suite" src='img/SUIVANT.svg'>
 
-            <!--Pierre Feuille Ciseaux-->
-            <div class="box">
-              <button id='Pierre'>Pierre<img src="img/Pierre.svg" id="Pierre"></button>
-              <button id='Feuille'>Feuille<img src="img/Feuille.svg" id="Feuille"></button>
-              <button id='Ciseaux'>Ciseaux<img src="img/Ciseaux.svg" id="Ciseaux"></button>
-            </div>
-            <div class="resultat"></div>
+          <!--Pierre Feuille Ciseaux-->
+          <div class="box">
+            <button id='Pierre'>Pierre<img src="img/Pierre.svg" id="Pierre"></button>
+            <button id='Feuille'>Feuille<img src="img/Feuille.svg" id="Feuille"></button>
+            <button id='Ciseaux'>Ciseaux<img src="img/Ciseaux.svg" id="Ciseaux"></button>
+          </div>
+          <div class="resultat"></div>
 
             <!--Quiz-->
             <div id="QuizZone">
@@ -101,8 +106,73 @@
             <div id="reponse">
               <p></p>
               <input id='retour' type="button" value="Retour">
+        </div>
+        
+        <!--<div id="FatmaStuff">
+          <div class="box">
+            <button>Pierre</button>
+            <button>Feuilles</button>
+            <button>Ciseaux</button>
+          </div>
+  
+          <div class="resultat"></div>
+          
+          <div class= "morpion">
+            <div id="end-display" class="row">
+              <div class="col text-center">
+                <div class="endgame">
+                  <div class="text"></div>
+                  <small id="countdown"></small>
+                </div>
+              </div>
+            </div>
+          <div id="char-selection" class="container selections pt-3 pb-4 border border-primary bg-dark">
+            <h1 id="game-header" class="text-center text-light border-bottom">Tic Tac Toe</h1>
+            <div class="row justify-content-center">
+              <div class="col-12 text-white text-center py-3">
+                <h3>Select Character</h3>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-sm-4 text-center py-2">
+                <button id="x-char" class="btn btn-primary char-btn" onClick="charSelect('X')">X</button>
+              </div>
+              <div class="col-sm-4 text-center py-2">
+                <button id="o-char" class="btn btn-primary char-btn" onClick="charSelect('O')">O</button>
+              </div>
             </div>
           </div>
+          <div id="game-board" class="container">
+            <div class="row justify-content-center pb-2 mt-3">
+            <div class="col- btn-group">
+              <button id="x-turn" class="btn btn-success no-clicky mx-2 px-3 rounded">X</button>
+              <button id="o-turn" class="btn btn-secondary no-clicky mx-2 px-3 rounded">O</button>
+            </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-">
+                <table>
+                  <tr>
+                    <td class="cell" id="0"></td>
+                    <td class="cell" id="1"></td>
+                    <td class="cell" id="2"></td>
+                  </tr>
+                  <tr>
+                    <td class="cell" id="3"></td>
+                    <td class="cell" id="4"></td>
+                    <td class="cell" id="5"></td>
+                  </tr>
+                  <tr>
+                    <td class="cell" id="6"></td>
+                    <td class="cell" id="7"></td>
+                    <td class="cell" id="8"></td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>-->
+        </div>
+        </div>
       </section>
 
       <section id="LottieAnimation">
@@ -118,19 +188,20 @@
         <img id='anneaux' src='img/ANNEAUX.svg'>
         <img id='croix' src='img/CROIX.svg'>
         <h1>Ce que<br> j'ai retenu</h1>
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+        <ul id="infos-carnet">
+          <li>Parmi la population totale, 20.94% sont des personnes mineures ne pouvant pas voter.</li>
+          <li>Parmi la population totale, 5.92% sont des personnes étrangères ne pouvant pas voter.</li>
+          <li>Pas d’inscription aux listes électorales avant une date limite, pas de vote.</li>
+          <li>L’âge et la situation matrimoniale influent sur l’abstention.</li>
+          <li>L’abstention n’est pas quelque chose de définitif. Certaines personnes peuvent ainsi choisir de voter ou non en fonction des circonstances de l’élection.</li>
+          <li>l’abstention est un moyen pour certaines personnes de ne pas suivre un candidat en particulier ou de montrer un désaccord vis-à-vis du système électoral actuel.</li>
 
         </ul>
  
       </section>
     
       <div id="SequencesAnimation">
-        <section class="container sujet" style="height: 75vh;"></section>
+        <section class="container sujet" style="height: 100vh;"></section>
         <section class="separator"></section>
         <section class="container dialogue ecole1"></section>
         <section class="separator"></section>
@@ -156,6 +227,101 @@
         <section class="separator"></section>
         <section class="container conclusion" style="height:200vh;"></section>
       </div>
+
+      <section id='conclusion'>
+        <img id='logoFin' src="img/Frame.svg">
+        <img id='CharlieFin' src="img/CharlieFin.svg">
+        <img id='Prof' src='img/VieuxActif.svg'>
+  
+        <div id="textZone">
+          
+          <p id="textDialogue">Ceci est un exemple pour que je puisse effectuer des tests afin de voir si cela rend très bien.  </p>
+     <img id="Suite" src='img/SUIVANT.svg'>
+        </div>
+        <div id='texteFin'>
+          <div id='cercle2' class="circle"><p>5</p></div>
+          <div class='boxnom'><p id="description2" class="nom">Mr Martin, 51ans</p></div>
+        </div>
+        <p id="textDialogue2">Merci professeur!</p>
+  
+        
+  
+      </section>
+
+      <div id="carnetFin">
+        <img id='anneaux2' src='img/ANNEAUX.svg'>
+        <h1>conclusion</h1>
+        <ul>
+          <li>73,14% des jeunes et 26,86% 
+            ne peuvent pas voter (mineurs et étrangers).
+            <img id='' src="img/CAMEMBErt.svg">
+          </li>
+          <li>Pas d’inscription aux listes électorales avant une date limite, pas de vote.
+            <img id='' src="img/Calendrier.svg">
+          </li>
+          <li>L’âge et la situation matrimoniale influent sur l’abstention.
+            <img id='' src="img/gateau.svg">
+          </li>
+          <li>L’abstention n’est pas quelque chose de définitif. Certaines personnes peuvent ainsi choisir de voter ou non en fonction des circonstances de l’élection.
+            <img id='' src="img/oui non peut être.svg">
+          </li>
+          <li>L’abstention est un moyen pour certaines personnes de ne pas suivre un candidat en particulier ou de montrer un désaccord vis-à-vis du système électoral actuel.
+            <img id='' src="img/pancarte non.svg">
+          </li>
+
+        </ul>
+ 
+      </section>
+
+      <section id='conclusion'>
+            
+        <img id='logoFin' src="img/Frame.svg">
+
+        <div id='espacePerso'>
+            <img id='CharlieFin' src="img/CharlieFin.svg">
+            <img id='Prof' src='img/VieuxActif.svg'>
+            <div id='texteFin'>
+                <div id='cercle2' class="circle"><p>5</p></div>
+                <div class='boxnom'><p id="description2" class="nom">Mr Martin, 51ans</p></div>
+              </div>
+              <p id="textDialogue2">Merci professeur!</p>
+
+        </div>
+  
+      </section>
+
+      <div id="carnetFin">
+            <img id='anneaux2' src='img/ANNEAUX.svg'>
+            <h1>Conclusion</h1>
+            <ul>
+                <li>Parmi la population totale, 20.94% sont des personnes mineures ne pouvant pas voter.<br>
+                    Parmi la population totale, 5.92% sont des personnes étrangères ne pouvant pas voter. 
+                </li>
+                <li>Pas d’inscription aux listes électorales avant une date limite, pas de vote.
+                </li>
+                <img id='Calendrier' src="img/Calendrier.svg">
+
+                <li>L’âge et la situation matrimoniale influent sur l’abstention.
+                </li>
+                <img id='gateau' src="img/gateau.svg">
+
+                <li>L’abstention n’est pas quelque chose de définitif. Certaines personnes peuvent ainsi choisir de voter ou non en fonction des circonstances de l’élection.
+                </li>
+                <img id='oui_non' src="img/oui non peut être.svg">
+
+                <li>L’abstention est un moyen pour certaines personnes de ne pas suivre un candidat en particulier ou de montrer un désaccord vis-à-vis du système électoral actuel.
+                </li>
+                <img id='pancarte' src="img/pancarte non.svg">
+
+
+            </ul>
+        </div>
+        <div id='btnFin'>
+            <button id='encoreUnefois'class="recommencer">recommencer</button>
+            <img id='VersCredit' src='img/SUIVANT.svg'>
+            <img id='telechargement' src='img/telecharger.svg'>
+        </div>
+    </section>
   
     </div>
    

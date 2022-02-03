@@ -10,32 +10,52 @@ body{
 
 }
 
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+#FatmaStuff {
+    display: none;
+}
+
 /*--------------------FORMAT TELEPHONE---------------------------*/
 /* Can be adapted for other ratios that 9:16 or for horizontal content (ex: 16:9) */
 
 /* This media query ensures that we allways will the width of the screen */
 /* as long as the screen aspect ratio is below 9:16 */
-@media screen and (max-aspect-ratio: 9/16){
+@media screen and (max-aspect-ratio: 9/16) and (min-width :480px){
     #container{
-        margin-top: calc((100vh - 100 * 16vw / 9) / 2);
         width: 100vw;
-        height:calc(100 * 16vw / 9);
+        margin-top: calc((100vh - 100 * 16vw / 9) / 2);
+        height: calc(100 * 16vw / 9);
     }
 
     /* We set a default font size here. It will be the base for all other font sizes */
     /* Here the font size is proportional to display width */
     body{
-        font-size: calc(3vw*16/9);
+        font-size: calc(12vw*16/9);
+    }
+}
+
+/* Mobile */
+
+@media screen and (max-width: 480px) {
+    #container{
+        margin-top: 0;
+        width: 100vw;
+        height: 88vh; /* pour les navigateurs qui ne supportent pas  -webkit-fill-available */
+        height: -webkit-fill-available;
+        font-size: calc(12vw*16/9);
     }
 }
 
 /* This media query ensures that we allways will the height of the screen */
 /* as long as the screen aspect ratio is higher than 9:16 */
-@media screen and (min-aspect-ratio: 9/16){
+@media screen and (min-aspect-ratio: 9/16) and (min-width :480px) {
     #container{
         margin-left: calc((100vw - 100 * 9vh / 16) / 2);
         width: calc(100 * 9vh / 16);
-        height:100vh;
+        height: 100vh;
     }
 
     /* We set a default font size here. It will be the base for all other font sizes */
@@ -112,10 +132,11 @@ border : 1vh solid #E66E78;
 /*--------------Section intro--------------------*/
 #sujet{
     opacity:1;
-    width: 100%;
+    width: calc(100 * 9vh / 16);
     height: 100%;
-    position: absolute;
+    position: fixed;
     z-index: 4;
+    overflow: hidden;
 }
 #info{
     width: 10%;
@@ -179,6 +200,50 @@ bottom: 26%;
 #popupPointInfo p {
 margin-top: 10%;
 }
+
+@keyframes scroll {
+    from {
+      transform: translate(-50%,200%);
+    }
+    25%{
+      transform: translate(-50%,0);
+    }
+    40% {
+      transform: translate(-50%,0);
+    }
+    60% {
+      transform: translate(-50%,200%);
+    }
+    to {
+      transform: translate(-50%,200%);
+    }
+}
+  
+#sphere {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(75, 75, 75);
+    border-radius:50%;
+    animation-duration: 3s;
+    animation-name: scroll;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+}
+  
+#scrollIndicator {
+    border: 10px solid rgb(75, 75, 75);
+    width: 40px;
+    height: 100px;
+    border-radius: 50px;
+    position: fixed;
+    transform: translate(-50%,-50%);
+    top: 95vh;
+    left: 50%;
+    z-index: 10;
+}
+
 /*--------------Section popup carnet----------------*/
 
 #popupCarnet{
@@ -195,35 +260,41 @@ margin-top: 10%;
     left: 4.5%;
     color: #0600FF;
     padding: 4%;
+    overflow-y: scroll;
 }
-#croix{
-right:10% ;
-top:10%;
-width: 12%;
-position: absolute;
-z-index: 2;
-}
+
 #anneaux{
 position: relative;
 width: 95%;
 top:-6%;
 left: 3%;
 }
+#croix{
+    right:10% ;
+    top:10%;
+    width: 12%;
+    position: absolute;
+    z-index: 2;
+    }
 
 #popupCarnet h1{
     position: relative;
     width: 100%;
     top:-5%;
-    font-size: 8vh;
+    font-size: 7vh;
 
 }
 #popupCarnet li{
-    font-size:6vh;
+    font-size:4vh;
+    word-wrap: break-word;
 }
 #popupCarnet ul{
     margin-left: 10%;
 }
 
+#infos-carnet li{
+    display: none;
+}
 
 /*--------------Section dialogue----------------*/
 #Dialogue{
@@ -266,27 +337,7 @@ left: 3%;
   
   }
 
-/*
-#cercle1{
-    opacity: 1;
-}
-#cercle2{
-    opacity: 0.3;
-}
-#cercle3{
-    opacity: 0.3;
-}
-#cercle4{
-    opacity: 0.3;
-}
-#cercle5{
-    opacity: 0.3;
-}
-#cercle6{
-    opacity: 0.3;
-}
-
-*/
+ 
  #carnet{
      opacity: 1;
      position: absolute;
@@ -363,17 +414,18 @@ left: 3%;
     vertical-align: center; 
     height: 5vh;
     bottom: 5%;
-    left: 40%;
+    left: 50%;
+    transform: translate(-50%,0);
     width: 10vh;
     z-index: 3;
     /*visibility: hidden;*/
 
 }
 #textDialogue{
-    position:relative;
-    top:120px;
+    position:absolute;
+    top:50%;
     background-color: #0600FF;
-    border-radius: 6%;
+    border-radius: 1em;
     width: 85%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
@@ -577,7 +629,91 @@ lottie-player{
     top : 35%;
     color:white;
     z-index: 3;
+    padding : 10px;
+    color:rgb(26, 27, 27);
+  }
+  
+  .no-clicky {
+      pointer-events:none;
+      z-index:4;
 }
+  
+  #game-header {
+    font-variant:small-caps;
+    letter-spacing:0.05em;
+    z-index: 4;
+  }
+  
+  
+  #game-board {
+    display:none;
+    position:absolute;
+    z-index: 4;
+  }
+  
+  #end-display {
+    display:none;
+    position:absolute;
+    top:5em;
+    z-index: 4;
+  }
+  
+  table {
+    border-collapse:collapse;
+  }
+  
+  td {
+    height:3em;
+    width:3em;
+    border:2px solid black;
+    text-align:center;
+    vertical-align:middle;
+    font-size:2em;
+    cursor:pointer;
+  }
+  
+  table tr:first-child td {border-top:0;}
+  
+  table tr:last-child td {border-bottom:0;}
+  
+  table tr td:first-child {border-left:0;}
+  
+  table tr td:last-child {border-right:0;}
+  
+  .endgame {
+    font-size:2em; 
+  }
+  
+  .selections {
+    display:none;
+    border-radius:1em;
+  }
+  
+  .char-btn {
+    height:3.5em;
+    width:3.5em;
+  }
+  
+  .fadeOut {
+    animation:leaving 100ms linear 1 alternate;
+  }
+  
+  @keyframes leaving {
+    from {
+      transform:scale(1);
+      opacity:1;
+    }
+    
+    to {
+      transform:scale(0);
+      opacity:0;
+    }
+  }
+  
+  @keyframes sliding {
+    from {top:-5em;}
+    to {top: 0;}
+  }
 
 img[id="Pierre"], img[id="Feuille"], img[id="Ciseaux"]{
     width: 20%;
@@ -594,7 +730,7 @@ img[id="Pierre"], img[id="Feuille"], img[id="Ciseaux"]{
 }
 
 .resultat p[id="Pierre"], .resultat p[id="Egalité"]{
-    background-color : blue;
+    background-color : #0600FF;
 }
 
 .resultat p[id="Feuille"], .resultat p[id="Gagné"]{
@@ -609,3 +745,288 @@ img[id="Pierre"], img[id="Feuille"], img[id="Ciseaux"]{
     width: 35%;
 	height: auto;
 }
+
+/*--------------------------Conclusion------------------*/
+#conclusion{
+    background-color: white;
+    position: relative;
+    text-align: center;
+    padding: 10%;
+}
+#espacePerso{
+position: relative;
+width: 100%;
+font-size: 80%;
+margin-top: 40vh;
+}
+#CharlieFin{
+    position:absolute;
+    width: 50%;
+    height: auto; 
+    left:0%;
+    top:-170%;
+
+    z-index: 2;
+
+}
+#Prof{
+
+    position:absolute;
+    width: 55%;
+    height: auto; 
+    right: 0%;
+    top:-168%;
+    z-index: 3;
+
+}
+#texteFin{
+    position: relative;
+    background-color: white;
+    border : 1vh solid #0600FF;  
+    border-radius: 1em;
+    width: 90%;
+
+    height: 10vh;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        z-index: 0;    
+}
+
+#conclusion .boxnom{
+    position:absolute;
+    top:25%;
+}
+#cercle2{
+    position:absolute;
+    top:25%;
+    left:15%;
+}
+
+
+#textDialogue2{
+    position:relative;
+   
+    background-color: #E66E78;
+    border-radius: 1em;
+    width: 85%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    /*height: 50%;*/
+    padding: 3%;
+    /*visibility: hidden;*/
+
+}
+
+#carnetFin{
+    width: 45vh;
+    position: relative;
+    margin-top: 20%;
+    border : 1vh solid #0600FF;  
+    background-color: white;
+    border-radius: 2em;
+    left: 4.5%;
+    color: #0600FF;
+    padding: 4%;
+    margin-bottom: 20%;
+}
+
+#anneaux2{
+position: absolute;
+width: 85%;
+top:-1%;
+left: 9%;
+}
+
+#carnetFin h1, #carnetFin li{
+    margin-left: 3%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+
+}
+
+
+#gateau{
+width: 25%;
+text-align:center;
+margin:auto;
+display:flex;
+}
+#Calendrier{
+    width: 70%;
+    text-align:center;
+    margin:auto;
+    display:flex;
+}
+#oui_non{
+    width: 80%;
+    text-align:center;
+    margin:auto;
+    display:flex;
+
+}
+#pancarte{
+    width: 60%;
+    text-align:center;
+    margin:auto;
+    display:flex;
+
+}
+#btnFin{
+margin-bottom: 10%;
+}
+
+#encoreUnefois{
+ 
+    width: 50%;
+    
+margin-left: 6%;
+    height: 5vh;
+font-weight: bold;
+font-size: 80%;
+color: white;
+background-color: #0600FF;
+border : 1vh solid #0600FF;  
+border-radius: 1em;
+z-index: 2;
+    }
+#VersCredit{
+    position: relative;
+    width: 17%;
+    vertical-align: middle;
+    margin-left: 2%;
+    z-index: 2;
+
+}
+
+#telechargement{
+width: 10%;
+margin-left: 2%;
+vertical-align: middle;
+z-index: 2;
+
+}
+/*-------------------------Crédits-------------------*/
+#credit{
+    background-color: white;
+    color: #0600FF;
+    position: relative;
+    text-align: center;
+    padding: 10%;
+}
+#logoFin{
+margin-top: 10%;
+width: 96%;
+margin-bottom: 5%;
+}
+
+#credit p{
+text-align: left;
+margin-top: 10%;
+}
+
+#logoCredits{
+    display:inline-block;
+    margin-top: 20%;
+}
+
+
+
+.logoFin{
+
+    margin-bottom: 7%;
+}
+
+
+/*logos*/
+#AGR{
+width: 20%;
+margin-right: 5%;
+
+}
+#polytech{
+    width: 25%;
+}
+#ouestMedialab{
+    width: 40%;
+    margin-left: 5%;
+
+}
+#Hyblab{
+    width: 50%;
+    margin-right: 8%;
+
+
+}
+#Hyblab2022{
+    width: 30%;
+        margin-left: 9%;
+
+
+}
+#logo_nantesmetropole{
+    width: 45%;
+    margin-right: 2.5%;
+
+
+}
+#NantesUniv{
+    width: 45%;
+    margin-left: 2.5%;
+
+}
+
+#cc{
+    width: 12%;
+    margin-right: 10%;
+
+}
+#opensource{
+    width: 15%;
+    margin-left: 10%;
+}
+
+a{
+    color: #0600FF;
+}
+
+
+/*boutons*/
+#menuFin button{
+margin-top: 20%;
+height: 5vh;
+font-weight: bold;
+color: white;
+background-color: #0600FF;
+border : 1vh solid #0600FF;  
+
+ border-radius: 10em;
+ font-size: 80%;
+
+}
+
+.btnrecommencer{
+    width: 50%;
+    margin-left: 3%;
+
+
+}
+
+#retour{
+    width: 40%;
+    margin-right: 3%;
+
+
+}
+#souces{
+    margin-top: 10%;
+}
+#souces p{
+    text-align: left;
+    margin-top: 7%;
+}
+
+
+

@@ -4,7 +4,19 @@ const dialogues = [
         "Texte": [
             {
                 "Personne": "Charlie",
-                "Replique": "Direction l’école, mon professeur pourra sûrement nous en apprendre davantage sur l’abstention. Bonjour M. Martin, je travaille sur l’exposé que vous m’avez donné. Je voulais donc vous interroger en premier. Avez-vous voté lors des élections de 2017 ?",
+                "Replique": "Direction l’école, mon professeur pourra sûrement nous en apprendre davantage sur l’abstention.",
+                "Quiz": 0,
+                "PFC": 0
+            },
+            {
+                "Personne": "Charlie",
+                "Replique": "Bonjour M. Martin, je travaille sur l’exposé que vous m’avez donné.",
+                "Quiz": 0,
+                "PFC": 0
+            },
+            {
+                "Personne": "Charlie",
+                "Replique": "Je voulais donc vous interroger en premier. Avez-vous voté lors des élections de 2017 ?",
                 "Quiz": 0,
                 "PFC": 0
             },
@@ -16,7 +28,19 @@ const dialogues = [
             },
             {
                 "Personne": "Charlie",
-                "Replique": "Ok, si je comprends bien, l’abstention est donc un moyen, pour certaines personnes, de ne pas suivre un candidat en particulier ou de montrer un désaccord vis-à-vis du système électoral actuel. Merci pour tout, monsieur. Je dois y aller, je reviendrais vous voir en fin de journée.",
+                "Replique": "Ok, si je comprends bien, l’abstention est donc un moyen, pour certains, de ne pas suivre un candidat en particulier...",
+                "Quiz": 0,
+                "PFC": 0
+            },
+            {
+                "Personne": "Charlie",
+                "Replique": "...ou de montrer un désaccord vis-à-vis du système électoral actuel.",
+                "Quiz": 0,
+                "PFC": 0
+            },
+            {
+                "Personne": "Charlie",
+                "Replique": "Merci pour tout, monsieur. Je dois y aller, je reviendrais vous voir en fin de journée.",
                 "Quiz": 0,
                 "PFC": 0
             },
@@ -33,13 +57,31 @@ const dialogues = [
         "Texte": [
             {
                 "Personne": "Charlie",
-                "Replique": "Nous voici à la fête foraine, notre première destination. Voyons si nous pouvons trouver une personne à interroger… J’aperçois quelqu’un. Hey Arthur, comment vas-tu ? On m’a dit que tu n’as pas voté lors des dernières élections présidentielles, c’est vrai ?",
+                "Replique": "Nous voici à la fête foraine, notre première destination.",
+                "Quiz": 0,
+                "PFC": 0
+            },
+            {
+                "Personne": "Charlie",
+                "Replique": "Voyons si nous pouvons trouver une personne à interroger… J’aperçois quelqu’un.",
+                "Quiz": 0,
+                "PFC": 0
+            },
+            {
+                "Personne": "Charlie",
+                "Replique": " Hey Arthur, comment vas-tu ? On m’a dit que tu n’as pas voté lors des dernières élections présidentielles, c’est vrai ?",
                 "Quiz": 0,
                 "PFC": 0
             },
             {
                 "Personne": "Arthur",
-                "Replique": "Salut Charlie, et bien non, tu as raison je n’ai pas été voté car j’étais trop jeune. En France, il faut avoir 18 ans pour exercer ce droit.",
+                "Replique": "Salut Charlie, et bien non, tu as raison je n’ai pas été voté car j’étais trop jeune.",
+                "Quiz": 0,
+                "PFC": 0
+            },
+            {
+                "Personne": "Arthur",
+                "Replique": " En France, il faut avoir 18 ans pour exercer ce droit.",
                 "Quiz": 0,
                 "PFC": 0
             },
@@ -64,13 +106,33 @@ const dialogues = [
             {
                 "Personne": "Arthur",
                 //Données à rajouter dans ce dialogue
-                "Replique": "Bien joué. Comme promis, il y a "+(Math.round(youngs_prop*100 * 100) / 100)+"% de jeunes qui ne peuvent pas voter à Bordeaux car ils n’ont pas encore 18 ans. D’ailleurs, savais-tu qu’il n’y a pas que les jeunes qui ne peuvent pas voter ? Ma mère qui n’a pas la nationalité française n’a pas le droit non plus. Comme elle, l’ensemble des étrangers de Bordeaux soit "+(Math.round(strangers_prop*100 * 100) / 100)+"% de la population ne peuvent pas voter.",
+                "Replique": "Bien joué. Comme promis, il y a "+(Math.round(youngs_prop*100 * 100) / 100)+"% de jeunes qui ne peuvent pas voter à Bordeaux car ils n’ont pas encore 18 ans.",
+                "Quiz": 0,
+                "PFC": 0
+            },
+            {
+                "Personne": "Arthur",
+                //Données à rajouter dans ce dialogue
+                "Replique": "D’ailleurs, savais-tu qu’il n’y a pas que les jeunes qui ne peuvent pas voter ? Ma mère qui n’a pas la nationalité française n’a pas le droit non plus.",
+                "Quiz": 0,
+                "PFC": 0
+            },
+            {
+                "Personne": "Arthur",
+                //Données à rajouter dans ce dialogue
+                "Replique": "Comme elle, l’ensemble des étrangers de Bordeaux soit "+(Math.round(strangers_prop*100 * 100) / 100)+"% de la population ne peuvent pas voter.",
                 "Quiz": 0,
                 "PFC": 0
             },
             {
                 "Personne": "Charlie",
-                "Replique": "Je vois, certaines personnes sont contraintes à l’abstention tout simplement car elles ne sont pas autorisées à voter. Merci pour ces infos Arthur ! Sur ce, je te laisse, bon skate !",
+                "Replique": "Je vois, certaines personnes sont contraintes à l’abstention tout simplement car elles ne sont pas autorisées à voter.",
+                "Quiz": 0,
+                "PFC": 0
+            },
+            {
+                "Personne": "Charlie",
+                "Replique": "Merci pour ces infos Arthur ! Sur ce, je te laisse, bon skate !",
                 "Quiz": 0,
                 "PFC": 0
             },
@@ -87,19 +149,55 @@ const dialogues = [
         "Texte": [
             {
                 "Personne": "Charlie",
-                "Replique": "Je vois quelqu’un qui est en plein déménagement. Allons la saluer et voir ce qu’elle peut nous apprendre. Bonjour madame, bienvenue à Bordeaux, je voudrais vous poser quelques questions sur l’abstention pour un exposé, avez vous voté lors des dernières élections présidentielles ?",
+                "Replique": "Je vois quelqu’un qui est en plein déménagement. Allons la saluer et voir ce qu’elle peut nous apprendre.",
+                "Quiz": 0,
+                "PFC": 0
+            },
+            {
+                "Personne": "Charlie",
+                "Replique": "Bonjour madame, bienvenue à Bordeaux !",
+                "Quiz": 0,
+                "PFC": 0
+            },
+            {
+                "Personne": "Charlie",
+                "Replique": "Je voudrais vous poser quelques questions sur l’abstention pour un exposé...",
+                "Quiz": 0,
+                "PFC": 0
+            },
+            {
+                "Personne": "Charlie",
+                "Replique": "...avez vous voté lors des dernières élections présidentielles ?",
                 "Quiz": 0,
                 "PFC": 0
             },
             {
                 "Personne": "Nouvelle arrivante",
-                "Replique": "Bonjour, enchantée. Et bien oui effectivement, mais si les élections étaient demain, la situation serait différente. Pour voter, il faut être inscrit sur les listes électorales.",
+                "Replique": "Bonjour, enchantée.",
+                "Quiz": 1,
+                "PFC": 0
+            },
+            {
+                "Personne": "Nouvelle arrivante",
+                "Replique": "Et bien oui effectivement, mais si les élections étaient demain, la situation serait différente.",
+                "Quiz": 1,
+                "PFC": 0
+            },
+            {
+                "Personne": "Nouvelle arrivante",
+                "Replique": "Pour voter, il faut être inscrit sur les listes électorales.",
                 "Quiz": 1,
                 "PFC": 0
             },
             {
                 "Personne": "Charlie",
-                "Replique": "En résumé, les personnes qui ne sont pas inscrites dans les listes électorales avant une date limite ne peuvent pas non plus participer à l’élection. Merci pour ces renseignements. Il est temps pour moi de partir vers une autre destination. Au revoir et bon courage pour ce déménagement.",
+                "Replique": "En résumé, les personnes qui ne sont pas inscrites dans les listes électorales avant une date limite ne peuvent pas non plus participer à l’élection.",
+                "Quiz": 0,
+                "PFC": 0
+            },
+            {
+                "Personne": "Charlie",
+                "Replique": "Merci pour ces renseignements. Au revoir et bon courage pour ce déménagement.",
                 "Quiz": 0,
                 "PFC": 0
             },
@@ -116,7 +214,19 @@ const dialogues = [
         "Texte": [
             {
                 "Personne": "Charlie",
-                "Replique": "Nous arrivons à la mairie, le lieu parfait pour apprendre des choses sur les élections et leur niveau d’abstention. Bonjour Monsieur le maire, pouvez-vous nous apporter davantage d’informations sur le taux de participation aux dernières élections présidentielles à Bordeaux ?",
+                "Replique": "Nous arrivons à la mairie, le lieu parfait pour apprendre des choses sur les élections et leur niveau d’abstention.",
+                "Quiz": 0,
+                "PFC": 0
+            },
+            {
+                "Personne": "Charlie",
+                "Replique": "Bonjour Monsieur le maire, pouvez-vous nous apporter davantage d’informations...",
+                "Quiz": 0,
+                "PFC": 0
+            },
+            {
+                "Personne": "Charlie",
+                "Replique": "...sur le taux de participation aux dernières élections présidentielles à Bordeaux ?",
                 "Quiz": 0,
                 "PFC": 0
             },
@@ -128,7 +238,19 @@ const dialogues = [
             },
             {
                 "Personne": "Charlie",
-                "Replique": "Je comprends mieux maintenant. L’abstention n’est pas quelque chose de définitif. Certaines personnes peuvent ainsi choisir de voter ou non en fonction des circonstances de l’élection. Merci M. le Maire. Au revoir.",
+                "Replique": "Je comprends mieux maintenant. L’abstention n’est pas quelque chose de définitif.",
+                "Quiz": 0,
+                "PFC": 0
+            },
+            {
+                "Personne": "Charlie",
+                "Replique": "Certaines personnes peuvent ainsi choisir de voter ou non en fonction des circonstances de l’élection.",
+                "Quiz": 0,
+                "PFC": 0
+            },
+            {
+                "Personne": "Charlie",
+                "Replique": "Merci M. le Maire. Au revoir.",
                 "Quiz": 0,
                 "PFC": 0
             },
@@ -145,7 +267,19 @@ const dialogues = [
         "Texte": [
             {
                 "Personne": "Charlie",
-                "Replique": "Nous arrivons devant le théâtre, le dernier lieu avant le retour à l’école. Oh, mais ne serait-ce pas Mme Robert qui nourrit des pigeons. Étant retraitée, peut-être pourra-t-elle nous parler des personnes qui sont dans la même situation qu’elle ?",
+                "Replique": "Nous arrivons devant le théâtre, le dernier lieu avant le retour à l’école.",
+                "Quiz": 0,
+                "PFC": 0
+            },
+            {
+                "Personne": "Charlie",
+                "Replique": "Oh, mais ne serait-ce pas Mme Robert qui nourrit des pigeons.",
+                "Quiz": 0,
+                "PFC": 0
+            },
+            {
+                "Personne": "Charlie",
+                "Replique": "Étant retraitée, peut-être pourra-t-elle nous parler des personnes qui sont dans la même situation qu’elle ?",
                 "Quiz": 0,
                 "PFC": 0
             },
@@ -157,7 +291,19 @@ const dialogues = [
             },
             {
                 "Personne": "Charlie",
-                "Replique": "Bonjour Mme Robert, oui et j’en profite également pour me renseigner sur le sujet de l’abstention. Avez-vous voté aux dernières élections ?",
+                "Replique": "Bonjour Mme Robert !",
+                "Quiz": 0,
+                "PFC": 0
+            },
+            {
+                "Personne": "Charlie",
+                "Replique": "Oui et j’en profite également pour me renseigner sur le sujet de l’abstention.",
+                "Quiz": 0,
+                "PFC": 0
+            },
+            {
+                "Personne": "Charlie",
+                "Replique": "Avez-vous voté aux dernières élections ?",
                 "Quiz": 0,
                 "PFC": 0
             },
@@ -205,7 +351,25 @@ const dialogues = [
             },
             {
                 "Personne": "Charlie",
-                "Replique": "Un grand merci aux habitants pour leur temps. J’ai beaucoup appris aujourd’hui et j'espère que toi aussi. La prochaine fois, je t’emmènerai à la découverte d’autres villes comme Nantes ou Rennes pour voir les différences au niveau local. Sur ce, à plus !",
+                "Replique": "Un grand merci aux habitants pour leur temps.",
+                "Quiz": 0,
+                "PFC": 0
+            },
+            {
+                "Personne": "Charlie",
+                "Replique": "J’ai beaucoup appris aujourd’hui et j'espère que toi aussi.",
+                "Quiz": 0,
+                "PFC": 0
+            },
+            {
+                "Personne": "Charlie",
+                "Replique": "La prochaine fois, je t’emmènerai à la découverte d’autres villes comme Nantes ou Rennes pour voir les différences au niveau local.",
+                "Quiz": 0,
+                "PFC": 0
+            },
+            {
+                "Personne": "Charlie",
+                "Replique": "Sur ce, à plus !",
                 "Quiz": 0,
                 "PFC": 0
             },

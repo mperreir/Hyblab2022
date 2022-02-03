@@ -1,8 +1,8 @@
 class DialogueModel extends Observable {
     constructor(scene, description){
         super();
-        this.numScene = scene.Dialogue;
-        this.scene=scene.Texte;
+        this.scene = scene.Texte;
+        this.id = scene.Dialogue;
         this.description =description;
         this.nom=this.scene[0].Personne;
         this.dialogue=this.scene[0].Replique;
@@ -24,8 +24,8 @@ class DialogueModel extends Observable {
             super.setChanged();
             super.notifyObservers();
         }
-        else {
-            this.animationModel.finishDialogue();
+        else if (DIALOGUESTARTED) {
+            this.animationModel.finishDialogue(this.id);
         }
 
         //S'il n'y a pas de quiz ou de jeu à lancer derrière cette réplique
@@ -49,7 +49,7 @@ class DialogueModel extends Observable {
                 }, 4000);
             } else { //S'il faut lancer un quiz
                 document.querySelector("#Suite").style.visibility = "hidden";
-                lancerQuiz(this.numScene);
+                lancerQuiz(this.id);
                 setTimeout(function(){
                     document.querySelector("#textDialogue").style.visibility = "hidden";
                     document.querySelector("#QuizZone").style.visibility = "visible";
