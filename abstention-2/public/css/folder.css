@@ -5,6 +5,7 @@
 
 .fd-red {
     color: #ff4800;
+    text-align: end;
 }
 
 .fd-bg-blue {
@@ -137,16 +138,15 @@
 .graph-etrangers-values {
     margin-top: 5%;
     display: flex;
-    width: 85%;
+    width: 100%;
     justify-content: space-between;
 }
 
 .graph-nouveaux-habitants-values {
     margin-top: 5%;
     display: flex;
-    width: 93%;
+    width: 100%;
     justify-content: space-between;
-
 }
 
 .fd-bar-names {

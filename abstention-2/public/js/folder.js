@@ -185,28 +185,22 @@ async function loadFolder(folderName) {
     document.getElementById('fd-back-button').addEventListener('click', () => {
         container.style.overflow = 'hidden';
         visitedFolders[folderName] = true;
-        if (visitedFolders.finaux) {
-            loadTopSecret();
+        if (visitedFolders.abstention) {
+            FOLDER_TITLES.filesData.find(f => f.folderName === 'blancsNuls').progress = 100;
+            FOLDER_TITLES.filesData.find(f => f.folderName === 'nouveauxHabitants').progress = 100;
+            FOLDER_TITLES.filesData.find(f => f.folderName === 'mineurs').progress = 66;
+            FOLDER_TITLES.filesData.find(f => f.folderName === 'etrangers').progress = 66;
+            FOLDER_TITLES.filesData.find(f => f.folderName === 'finaux').progress = 44;
         }
-        else {
-            if (visitedFolders.abstention) {
-                FOLDER_TITLES.filesData.find(f => f.folderName === 'blancsNuls').progress = 100;
-                FOLDER_TITLES.filesData.find(f => f.folderName === 'nouveauxHabitants').progress = 100;
-                FOLDER_TITLES.filesData.find(f => f.folderName === 'mineurs').progress = 66;
-                FOLDER_TITLES.filesData.find(f => f.folderName === 'etrangers').progress = 66;
-                FOLDER_TITLES.filesData.find(f => f.folderName === 'finaux').progress = 44;
-            }
-            if (visitedFolders.blancsNuls && visitedFolders.nouveauxHabitants) {
-                FOLDER_TITLES.filesData.find(f => f.folderName === 'mineurs').progress = 100;
-                FOLDER_TITLES.filesData.find(f => f.folderName === 'etrangers').progress = 100;
-                FOLDER_TITLES.filesData.find(f => f.folderName === 'finaux').progress = 66; 
-            }
-            if (visitedFolders.mineurs && visitedFolders.etrangers) {
-                FOLDER_TITLES.filesData.find(f => f.folderName === 'finaux').progress = 100;
-                all_progress = true;
-            }
-            loadFileExplorer();
+        if (visitedFolders.blancsNuls && visitedFolders.nouveauxHabitants) {
+            FOLDER_TITLES.filesData.find(f => f.folderName === 'mineurs').progress = 100;
+            FOLDER_TITLES.filesData.find(f => f.folderName === 'etrangers').progress = 100;
+            FOLDER_TITLES.filesData.find(f => f.folderName === 'finaux').progress = 66; 
         }
+        if (visitedFolders.mineurs && visitedFolders.etrangers) {
+            FOLDER_TITLES.filesData.find(f => f.folderName === 'finaux').progress = 100;
+        }
+        loadFileExplorer();
 
     });
 }
