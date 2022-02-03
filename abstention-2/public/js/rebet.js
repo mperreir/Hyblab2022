@@ -5,7 +5,7 @@ async function loadRebet() {
         {
             type: 'sms',
             sender: 'THOMAS',
-            message: 'Alors toujours sûr des 00% ?',
+            message: `Alors toujours sûr des ${percentageBet}% ?`,
             style: 'sms-top sms-left',
             id: "",
         },
