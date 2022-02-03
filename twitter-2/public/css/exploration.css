@@ -17,6 +17,7 @@ body{
     color: white;
     overflow: auto;   /* to avoid slider bugs on some browsers */
     font-family: 'blatantregular';
+    height:100vh;
 }
 
 #container {
@@ -26,6 +27,7 @@ body{
     position: relative;
     padding-top: 25px;
     text-align: center;
+    
 }
 
 button{font-family: 'blatantregular';}
@@ -57,6 +59,7 @@ button{font-family: 'blatantregular';}
 
 #choix-theme {
     text-align: center;
+    margin-top: -5%;
 }
 
 #choix-theme ul li {
@@ -77,6 +80,7 @@ button{font-family: 'blatantregular';}
     position: absolute;
     width: 100%;
     visibility: hidden;
+    height:80vh;
 }
 
 #selection-candidat {
@@ -126,6 +130,7 @@ button{font-family: 'blatantregular';}
 
 #reminder_candidate {
     margin: 10% 0 5% 0;
+    height:2vh;
 }
 
 #reminder_candidate span {

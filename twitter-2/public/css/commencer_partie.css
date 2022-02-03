@@ -4,7 +4,7 @@
     font-family: 'blatantregular';
 }
 
-body{
+body {
     overflow: hidden;
     font-family: 'blatantregular';
     background-color: black;
@@ -13,23 +13,25 @@ body{
 @font-face {
     font-family: 'blatantregular';
     src: url('../font/blatant-webfont.woff') format('woff'),
-         url('../font/blatant-webfont.woff2') format('woff2');
+        url('../font/blatant-webfont.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 
 }
 
 #container {
-    color:#1A367A;
+    color: #1A367A;
     background-color: white;
     font-size: 4vh;
-    height:100vh;
+    height: 100vh;
     overflow: hidden;
     text-align: center;
     padding-top: 25px;
 }
 
-button{font-family: 'blatantregular';}
+button {
+    font-family: 'blatantregular';
+}
 
 #exit {
     padding-top: 7%;
@@ -37,30 +39,30 @@ button{font-family: 'blatantregular';}
     width: 8%;
 }
 
-#testez_connaissances{
+#testez_connaissances {
     margin-left: 10%;
-    width:75%;
+    width: 75%;
 }
 
-#testez_connaissances p{
+#testez_connaissances p {
     margin-top: 3.5vh;
 }
 
-#commencer-section{
+#commencer-section {
     display: flex;
     justify-content: center;
 }
 
-#commencer{
+#commencer {
     background-color: #5571E5;
     color: #FFFFFF;
     border-radius: 19px;
     font-size: 3vh;
-    height:6vh;
+    height: 6vh;
     margin-top: 5vh;
     padding-left: 2%;
     padding-right: 2%;
-    border:none;
+    border: none;
     width: 80%;
 }
 
