@@ -2,17 +2,10 @@ class Steps extends React.Component {
     constructor(props) {
         super(props);
     }
-    // il faut un state dans un des composants parents qui gère et garde en mémoire quel candidat est à quel étape (= marche)
-    // en mode characters = {1: [liste des candidats], 2: [...]}
-    render() {
-        const maxZ = 100;
+
+    /*componentDidMount() {
         let c = [];
-
-        return (
-
-            <div className="steps">
-                <div className="steps_bg">
-                    <svg width="100%" height="100%" viewBox="0 0 409 562" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+        const s = <svg width="100%" height="100%" viewBox="0 0 409 562" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                         <image xlinkHref="img/steps_bg.svg"  width="409px" height="562px" y="0" x="0"/>
                         <g transform="translate(0,0)">
                         {
@@ -22,6 +15,40 @@ class Steps extends React.Component {
                                 const tempX = 30*(stepNumber-1) + (409 - 30 - 31*(stepNumber-1))/(candidatesList.length+1)*i - candidate.baseWidth/2/stepNumber;
                                 const tempY = (562-(parseFloat(candidate.baseY)+parseFloat((stepNumber-1)*33.8)));
                                 c.push(<image xlinkHref={"img/candidates/"+candidate.nameId+".svg"} x={tempX} y={tempY} key={candidate.id} alt={candidate.nom}></image>);
+                                ++i;
+                            });
+                        })
+                        }
+                        {c.reverse()}
+                        </g>
+                    </svg>;
+
+        const tmpElem = document.createElement('div');
+        ReactDOM.render(
+            s,
+            tmpElem
+        )
+        console.log(tmpElem.innerHTML);
+    }*/
+
+    render() {
+        const maxZ = 100;
+        let c = [];
+
+        return (
+
+            <div className="steps">
+                <div className="steps_bg">
+                    <svg width="100%" height="100%" viewBox="0 0 409 562">
+                        <image href="img/steps_bg.svg"  width="409px" height="562px" y="0" x="0"/>
+                        <g transform="translate(0,0)">
+                        {
+                        Object.entries(stepsCandidates).map(function([stepNumber, candidatesList]) {
+                            let i = 1;
+                            candidatesList.forEach(candidate => {
+                                const tempX = 30*(stepNumber-1) + (409 - 30 - 31*(stepNumber-1))/(candidatesList.length+1)*i - candidate.baseWidth/2/stepNumber;
+                                const tempY = (562-(parseFloat(candidate.baseY)+parseFloat((stepNumber-1)*33.8)));
+                                c.push(<image href={"img/candidates/"+candidate.nameId+".svg"} x={tempX} y={tempY} key={candidate.id} alt={candidate.nom}></image>);
                                 ++i;
                             });
                         })

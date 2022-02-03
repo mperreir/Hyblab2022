@@ -37,6 +37,7 @@ class Step3Game extends React.Component {
                 Object.entries(info.gameInfo).map(([key, sInfo]) => {
                     const candidateStatement = Object.values(stepsCandidates["3"].find(c => c.nameId === nameId).stepThreeGame.statements).find(s => s.statement === sInfo.statement);
                     if (candidateStatement.valid !== sInfo.valid) sInfo.error = true;
+                    else sInfo.error = false;
                 })
             });
         }
