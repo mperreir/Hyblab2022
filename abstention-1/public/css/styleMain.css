@@ -498,6 +498,7 @@ left: 3%;
     width: 100%;
     height: 6vh;
     overflow-x: scroll;
+    font-family: "Outfit";
 }
 
 /*Boutons choix des questions*/
