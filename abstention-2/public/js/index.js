@@ -4,6 +4,16 @@ let selectedCityData;
 let metropoleData;
 let citiesMap;
 
+const visitedFolders = {
+    abstention: false,
+    nouveauxHabitants: false,
+    blancsNuls: false,
+    etrangers: false,
+    mineurs: false,
+    finaux: false,
+    el:false,
+}
+
 const FOLDER_TITLES = {
     filesData: [
         {
@@ -80,7 +90,7 @@ function date() {
 
 // const cityData = await fetchCityData('nantes');
 
-
+// loadPresVille();
 
 // loadSms();
 // // loadFolder('nonVotants');

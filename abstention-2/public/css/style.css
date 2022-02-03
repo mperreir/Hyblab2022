@@ -6,6 +6,12 @@
 *{
     padding:0;
     margin:0;
+    user-select: none; /* supported by Chrome and Opera */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+
 }
 
 body{
@@ -30,7 +36,7 @@ body{
 /* as long as the screen aspect ratio is below 9:16 */
 @media screen and (max-aspect-ratio: 9/16){
     #container{
-        margin-top: calc((100vh - 100 * 16vw / 9) / 2);
+        margin-bottom: calc(100vh - 100 * 16vw / 9);
         width: 100vw;
         height: calc(100 * 16vw / 9);
     }
@@ -41,6 +47,7 @@ body{
         font-size: calc(12vw*16/9);
     }
 }
+
 
 /* This media query ensures that we allways will the height of the screen */
 /* as long as the screen aspect ratio is higher than 9:16 */

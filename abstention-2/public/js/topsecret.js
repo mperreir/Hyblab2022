@@ -5,6 +5,7 @@ async function loadTopSecret() {
   let topSecret = await loadTemplate('templates/topsecret.ejs', {})
     document.getElementById('screen').innerHTML = topSecret;
   document.getElementById('quizLink').addEventListener("click", () => quizScreen());
+  document.getElementById('ts-retour').addEventListener("click", () => loadFileExplorer());
 }
 
 let inputCode = [0,0,0,0];

@@ -3,15 +3,15 @@ async function loadAnswer() {
 
     let answers = {
         data: {
-            pari : 45,
-            city : "Nantes",
-            pourcentage_total_absention : 42,
-            population : 123465,
-            pourcentage_abstention : 15,
-            pourcentage_non_votants : 15,
-            pourcentage_etranger : 15,
-            pourcentage_mineurs : 15,
-            pourcentage_nouveaux_habitants : 15,
+            pari: percentageBet,
+            city: citiesMap[selectedCity],
+            pourcentage_total_absention: selectedCityData.pourcentage_total_absention,
+            population: selectedCityData.population,
+            pourcentage_abstention: selectedCityData.pourcentage_abstention,
+            pourcentage_non_votants: selectedCityData.pourcentage_non_votants,
+            pourcentage_etranger: selectedCityData.pourcentage_etranger,
+            pourcentage_mineurs: selectedCityData.pourcentage_mineurs,
+            pourcentage_nouveaux_habitants: selectedCityData.pourcentage_nouveaux_habitants
         }
     }
 
@@ -26,5 +26,5 @@ async function loadAnswer() {
     returnButton.addEventListener('click', () => {
         console.log('retour');
         loadEnd();
-    })
+    });
 }
