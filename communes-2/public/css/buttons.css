@@ -26,9 +26,10 @@
 }
 
 .btn-menu{  
+    font-weight: 100;
     width: 91px;
     height: 83px;
-    font-size: 20%;
+    font-size: 30%;
     border: none;
     border-radius: 10px;
     transition: transform 250ms;
