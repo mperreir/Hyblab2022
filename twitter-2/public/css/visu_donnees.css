@@ -21,6 +21,7 @@ body {
 
 #container{
     height: 100vh;
+    
 }
 #top-section{
     display: flex;
@@ -28,7 +29,7 @@ body {
     align-items: center;
     height: 10vh;
     margin-right: 4%;
-    padding-top: 4%;
+    padding-top: 10%;
 }
 
 #exit {
@@ -41,6 +42,7 @@ body {
     align-items: center;
     font-size: 1rem;
     height: 20vh;
+    margin-top: -10%;
 }
 
 button {
@@ -94,6 +96,7 @@ button {
 #container{
     position: relative; /* for absolute positionning of child elements*/
     background-color: white;
+    display: none;
 }
 
 text {
@@ -118,6 +121,4 @@ span {
     color: #F24A41;
 }
 
-#main {
-    display: none;
-}
+

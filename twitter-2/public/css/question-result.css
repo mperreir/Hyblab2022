@@ -6,7 +6,6 @@
 
 body {
     background-color: black;
-    overflow: hidden;
     position: relative;
 }
 
@@ -31,6 +30,7 @@ body {
     font-size: 30%;
     height: 100vh;
     overflow: hidden;
+
 }
 
 #exit-div {
