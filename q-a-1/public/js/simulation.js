@@ -14,12 +14,16 @@ let presentation = document.getElementById("head_simulation")
 let first_simulation = document.getElementById("f-section");
 let second_simulation = document.getElementById("s-section");
 let third_simulation = document.getElementById("t-section");
+let fourth_simulation = document.getElementById("q-section");
 
 let vainqueur = document.getElementById("vainqueur");
 let perdant = document.getElementById("perdant");
 let gagnant = document.getElementById("gagnant");
 
+let second_tour = document.getElementById("second_tour");
+
 let croix = document.getElementById("close");
+
 
 
 vainqueur.addEventListener("click", () => {
@@ -28,6 +32,7 @@ vainqueur.addEventListener("click", () => {
     first_simulation.style.display = "block";
     second_simulation.style.display = "none";
     third_simulation.style.display = "none";
+    fourth_simulation.style.display = "none";
     croix.style.display = "block";
 
     /*vainqueur.style.opacity = "50%";
@@ -42,6 +47,7 @@ perdant.addEventListener("click", () => {
       first_simulation.style.display = "none";
       second_simulation.style.display = "block";
       third_simulation.style.display = "none";
+      fourth_simulation.style.display = "none";
       croix.style.display = "block";
 
       /*vainqueur.style.opacity = "100%";
@@ -56,6 +62,7 @@ gagnant.addEventListener("click", () => {
       first_simulation.style.display = "none";
       second_simulation.style.display = "none";
       third_simulation.style.display = "block";
+      fourth_simulation.style.display = "none";
       croix.style.display = "block";
 
       /*vainqueur.style.opacity = "100%";
@@ -64,12 +71,24 @@ gagnant.addEventListener("click", () => {
     }
 })
 
+second_tour.addEventListener("click", () => {
+  if(getComputedStyle(second_simulation).display != "block"){
+    presentation.style.display = "none"
+    first_simulation.style.display = "none";
+    second_simulation.style.display = "none";
+    third_simulation.style.display = "none";
+    fourth_simulation.style.display = "block";
+    croix.style.display = "block";
+  }
+})
+
 croix.addEventListener("click", () => {
     if(getComputedStyle(presentation).display != "block"){
       presentation.style.display = "block"
       first_simulation.style.display = "none";
       second_simulation.style.display = "none";
       third_simulation.style.display = "none";
+      fourth_simulation.style.display = "none";
       croix.style.display = "none";
     }
 })

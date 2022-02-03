@@ -131,7 +131,7 @@ p{
 
 .main-section{
     margin-top: 2%;
-    margin-bottom: 8%;
+    margin-bottom: 12%;
 }
 
 .main-section img{
@@ -169,6 +169,22 @@ p{
     margin-top: 5%;
     display: none;
 }
+
+#second_tour{
+        position: absolute;
+        bottom: 12%;
+        background-color: #656565;
+        padding: 0%;
+        width: 35%;
+        height: 4%;
+        left: 32%;
+}
+
+#q-section{
+        margin-top: 5%;
+        display: none;
+}
+
 #persoA{
         width: 13%;
         left:44.5%;
@@ -187,6 +203,10 @@ p{
         text-align: center;
         
 
+}
+
+footer{
+        height: 5%;
 }
 
 #description{
