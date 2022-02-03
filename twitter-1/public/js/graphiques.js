@@ -1,14 +1,22 @@
-
+const title_choice = [
+    "cette semaine",
+    "sur la sécurité cette semaine",
+    "sur la santé cette semaine",
+    "sur l'économie cette semaine",
+    "sur l'éducation cette semaine",
+    "sur l'environnement cette semaine",
+    "sur la culture cette semaine"
+]
 function BarChart(data, {
     x = (d, i) => i, // given d in data, returns the (ordinal) x-value
     y = d => d, // given d in data, returns the (quantitative) y-value
     title, // given d in data, returns the title text
-    marginTop = 20, // the top margin, in pixels
-    marginRight = 0, // the right margin, in pixels
+    marginTop = 50, // the top margin, in pixels
+    marginRight = 30, // the right margin, in pixels
     marginBottom = 0, // the bottom margin, in pixels
     marginLeft = 0, // the left margin, in pixels
     width = 400, // the outer width of the chart, in pixels
-    height = 120, // the outer height of the chart, in pixels
+    height = 140, // the outer height of the chart, in pixels
     xDomain, // an array of (ordinal) x-values
     xRange = [marginLeft, width - marginRight], // [left, right]
     yType = d3.scaleLinear, // y-scale type
@@ -18,12 +26,12 @@ function BarChart(data, {
     yFormat, // a format specifier string for the y-axis
     yLabel, // a label for the y-axis
     color = "currentColor", // bar fill color
-    textColor = "textColor"
+    textColor = "textColor",
+    choiceTitle = 0
 } = {}) {
     // Compute values.
     const X = d3.map(data, x);
     const Y = d3.map(data, y);
-    console.log(Y[0])
 
 
     // Compute default domains, and unique the x-domain.
@@ -132,6 +140,12 @@ function BarChart(data, {
         .style("font-size", "12px")
         .attr("fill", textColor)
 
+    svg.append("text")
+        .attr("id", "comment")
+        .attr("x", (width-marginRight)/2)
+        .attr("y", 15)
+        .attr("text-anchor", "middle")
+        .text("Ils tweetent le plus "+ title_choice[choiceTitle])
 
     return svg.node();
 }
@@ -168,7 +182,8 @@ async function ThemeGraphe() {
                 y: d => d.nbTweetsByThemes,
                 xDomain: d3.groupSort(data, ([d]) => -d.nbTweetsByThemes, d => d.nameCandidates), // sort by descending frequency
                 color: "#EF7767",
-                textColor: "black"
+                textColor: "black",
+                choiceTitle: 0
             }))
         }
         else{
@@ -182,7 +197,8 @@ async function ThemeGraphe() {
                 y: d => d.nbTweetsByThemes,
                 xDomain: d3.groupSort(data, ([d]) => -d.nbTweetsByThemes, d => d.nameCandidates), // sort by descending frequency
                 color: "white",
-                textColor: "black"
+                textColor: "black",
+                choiceTitle: parseInt(selector.value)
             }))
         }
     })
