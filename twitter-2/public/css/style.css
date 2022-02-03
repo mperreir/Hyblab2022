@@ -169,11 +169,12 @@ button{font-family: 'blatantregular';}
 /* slide because of body's font size rule at the beginning of this CSS */
 #bandeau {
     display: grid;
-    width: 100%;
+    width: 90%;
     height: 35%;
     margin-top: 3%;
-    grid-template-columns: repeat(2, 50%);
+    grid-template-columns: repeat(2, 40%);
     grid-template-rows: repeat(4, 35%);
+    margin-left: 15%;
 }
 
 #bandeau div {
@@ -187,7 +188,7 @@ button{font-family: 'blatantregular';}
 }
 
 #bandeau img {
-    height: 45%;
+    height: 35%;
 }
 
 #bandeau #hyblab {
@@ -199,8 +200,10 @@ button{font-family: 'blatantregular';}
     margin-top: 32%;
     display: grid;
     height:35%;
-    grid-template-columns: repeat(2, 50%);
-    grid-template-rows: repeat(3, 30%);
+    width: 90%;
+    grid-template-columns: repeat(2, 40%);
+    grid-template-rows: repeat(3, 20%);
+    margin-left: 15%;
 }
 
 #credits div{
@@ -221,14 +224,15 @@ button{font-family: 'blatantregular';}
     height:7%;
     font-size: 1.5vh;
     text-align: center;
-    margin-top: -6.5vh;
+    margin-top: -10vh;
 }
+
 
 #logos-op-cc{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -2vh;
+    margin-top: 1vh;
 }
 
 
