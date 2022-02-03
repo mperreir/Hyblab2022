@@ -8,9 +8,11 @@ class Step8Page extends Page {
             subPages: [
                 <MainStepPage step={step} nextSubStep={() => this.nextSubStep()}
                     subtitle="L'investiture"
+                    resetStep={() => this.props.resetStep()}
                 />,
                 <QuestionPage
                     step={step}
+                    resetStep={() => this.props.resetStep()}
                     buttonOnClick={() => this.nextStep()}
                     buttonText="Continuer"
                     questionTitle={data.title}

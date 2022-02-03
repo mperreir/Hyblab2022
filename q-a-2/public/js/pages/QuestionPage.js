@@ -6,7 +6,7 @@ class QuestionPage extends React.Component {
     render() {
         return (
             <div className='questionPage'>
-                <Header step={this.props.step} />
+                <Header step={this.props.step} resetStep={() => this.props.resetStep()} />
                 <QuestionCard
                     questionTitle={this.props.questionTitle}
                     question={this.props.question}

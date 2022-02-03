@@ -45,7 +45,6 @@ class Step5Game extends React.Component {
     }
     
     onPlaying(id) {
-        console.log(this.state[id].time);
         if (!this.state[id].stopPlayFirst && this[id].current.currentTime >= this.state[id].timeFirstEnd) {
             this[id].current.pause();
             this.setState({ [id]: {...this.state[id], play: false, stopPlayFirst: true}});

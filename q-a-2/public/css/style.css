@@ -1092,6 +1092,11 @@ input[type="checkbox"] {
     font-family: 'Spicy Rice';
 }
 
+.step2Game_img_not_selected,
+.step2Game_img_selected {
+    padding-bottom: 3vh;
+}
+
 .step2Game_img_not_selected {
     opacity:0.3;
 }

@@ -20,17 +20,17 @@ class App extends React.Component {
     this.state = {
       stepPages: [
         <StartingPage nextStep={() => this.nextStep()} />,
-        <Step1Page data={data} nextStep={() => this.nextStep()} />,
-        <Step2Page data={data} nextStep={() => this.nextStep()} />,
-        <Step3Page data={data} nextStep={() => this.nextStep()} />,
-        <Step4Page data={data} nextStep={() => this.nextStep()} />,
-        <Step5Page data={data} nextStep={() => this.nextStep()} />,
-        <Step6Page data={data} nextStep={() => this.nextStep()} />,
-        <Step7Page data={data} nextStep={() => this.nextStep()} />,
-        <Step8Page data={data} nextStep={() => this.nextStep()} />,
+        <Step1Page data={data} nextStep={() => this.nextStep()} resetStep={() => this.resetStep()} />,
+        <Step2Page data={data} nextStep={() => this.nextStep()} resetStep={() => this.resetStep()} />,
+        <Step3Page data={data} nextStep={() => this.nextStep()} resetStep={() => this.resetStep()} />,
+        <Step4Page data={data} nextStep={() => this.nextStep()} resetStep={() => this.resetStep()} />,
+        <Step5Page data={data} nextStep={() => this.nextStep()} resetStep={() => this.resetStep()} />,
+        <Step6Page data={data} nextStep={() => this.nextStep()} resetStep={() => this.resetStep()} />,
+        <Step7Page data={data} nextStep={() => this.nextStep()} resetStep={() => this.resetStep()} />,
+        <Step8Page data={data} nextStep={() => this.nextStep()} resetStep={() => this.resetStep()} />,
         <EndingPage nextStep={() => this.resetStep()} />
       ],
-      step: 0
+      step: 4
     }
   }
 

@@ -43,14 +43,14 @@ class GamePage extends Page {
         if (this.state.endScreen) {
             return (
                 <div className='gamePage'>
-                    <Header step={this.props.step} />
+                    <Header step={this.props.step} returnAccueil={() => this.gameFinish()} resetStep={() => this.props.resetStep()} />
                     <EndGameCard isWin={this.state.game.win} step={this.props.step} onClickButton={() => this.onClickEndCard()} />
                 </div> 
             ) 
         }
         return (
             <div className='gamePage'>
-                <Header step={this.props.step} />
+                <Header step={this.props.step} returnAccueil={() => this.gameFinish()} resetStep={() => this.props.resetStep()} />
                 <div className='gamePage_title_container'>
                     <img src='img/help_point.svg' onClick={() => this.props.returnToExplanations()} />
                     <h2>{this.props.title}</h2>

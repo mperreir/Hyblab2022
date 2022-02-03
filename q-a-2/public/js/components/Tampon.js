@@ -3,11 +3,24 @@ class Tampon extends React.Component {
         super(props);
     }
     render(){
-        const valid = 'img/tampon_valid.svg';
-        const cancel = 'img/tampon_cancel.svg';
+        const tamponSrc = (() => {
+            if (this.props.cheque) {
+                if (this.props.isValid) {
+                    return 'img/tampon-cheque-accepte.svg';
+                } else {
+                    return 'img/tampon-cheque-refuse.svg';
+                }
+            } else {
+                if (this.props.isValid) {
+                    return 'img/tampon_valid.svg';
+                } else {
+                    return 'img/tampon_cancel.svg';
+                }
+            }
+        })();
         return (
             <div className='tampon'>
-                <img src={this.props.isValid ? valid : cancel } alt='Tampon'/>
+                <img src={tamponSrc} alt='Tampon'/>
             </div>
         )
     }

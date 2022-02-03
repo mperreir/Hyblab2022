@@ -12,7 +12,7 @@ class Header extends React.Component {
                             ETAPE {this.props.step}
                         </span>
                     }
-                    <img className='header_logo' src='img/logo.svg' alt='logo' />
+                    <img className='header_logo' src='img/logo.svg' alt='logo' onClick={() => this.props.resetStep()} />
                 </div>
                 <StepBar nbStep={8} currStep={this.props.step - 1} />
             </div>

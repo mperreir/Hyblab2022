@@ -8,6 +8,7 @@ class Step2Page extends Page {
             subPages: [
                 <MainStepPage step={step} nextSubStep={() => this.nextSubStep()}
                     subtitle="Comment se présenter ?"
+                    resetStep={() => this.props.resetStep()}
                 />,
                 <QuestionPage
                     step={step}
@@ -17,6 +18,7 @@ class Step2Page extends Page {
                     question={questions[0].question}
                     answer={questions[0].answer}
                     learnMoreLink={questions[0].link}
+                    resetStep={() => this.props.resetStep()}
                     nextStepMessage="Passer à l'indication suivante :"
                 />,
                 <QuestionPage
@@ -27,6 +29,7 @@ class Step2Page extends Page {
                     question={questions[1].question}
                     answer={questions[1].answer}
                     learnMoreLink={questions[1].link}
+                    resetStep={() => this.props.resetStep()}
                     nextStepMessage="Vérifier le nombre de signatures de chaque candidat·e"
                 />,
                 <GamePage
@@ -35,6 +38,7 @@ class Step2Page extends Page {
                     subtitle='Voici le nombre de signatures de chaque candidat·e. Sélectionne celleux qui peuvent continuer.'
                     buttonTitle='Valider'
                     nextStep={() => this.nextStep()}
+                    resetStep={() => this.props.resetStep()}
                     returnToExplanations={() => this.returnToExplanations()}
                 >
                     <Step2Game

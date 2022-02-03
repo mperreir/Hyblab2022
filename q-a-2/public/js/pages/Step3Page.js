@@ -8,6 +8,7 @@ class Step3Page extends Page {
             subPages: [
                 <MainStepPage step={step} nextSubStep={() => this.nextSubStep()}
                     subtitle="Déclaration du patrimoine et des intérêts"
+                    resetStep={() => this.props.resetStep()}
                 />,
                 <QuestionPage
                     step={step}
@@ -17,6 +18,7 @@ class Step3Page extends Page {
                     question={questions[0].question}
                     answer={questions[0].answer}
                     learnMoreLink={questions[0].link}
+                    resetStep={() => this.props.resetStep()}
                     nextStepMessage="Passer à l'indication suivante :"
                     className='declarationPage'
                 />,
@@ -28,6 +30,7 @@ class Step3Page extends Page {
                     question={questions[1].question}
                     answer={questions[1].answer}
                     learnMoreLink={questions[1].link}
+                    resetStep={() => this.props.resetStep()}
                     nextStepMessage="Vérifier les déclarations de chaque candidat·e"
                     className='declarationPage'
                 />,
@@ -37,6 +40,7 @@ class Step3Page extends Page {
                     subtitle="Désélectionne ce qui n'est pas nécessaire dans la déclaration du patrimoine et des intérêts des candidat·e·s."
                     //subtitle="Les candidats ont rempli leur déclaration du patrimoine et des intérêts mais tout n'a pas besoin d'être déclaré. Décoche ce qui n'est pas nécessaire."
                     buttonTitle='Valider'
+                    resetStep={() => this.props.resetStep()}
                     returnToExplanations={() => this.returnToExplanations()}
                     nextStep={() => this.props.nextStep()}
                 >

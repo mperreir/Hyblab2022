@@ -8,6 +8,7 @@ class Step1Page extends Page {
             subPages: [
                 <MainStepPage step={1} nextSubStep={() => this.nextSubStep()}
                     subtitle="Qui peut se présenter à la présidence ?"
+                    resetStep={() => this.props.resetStep()}
                 />,
                 <QuestionPage
                     step={step}
@@ -17,6 +18,7 @@ class Step1Page extends Page {
                     question={questions[0].question}
                     answer={questions[0].answer}
                     learnMoreLink={questions[0].link}
+                    resetStep={() => this.props.resetStep()}
                     nextStepMessage="Passer à l'indication suivante :"
                 />,
                 <QuestionPage
@@ -27,6 +29,7 @@ class Step1Page extends Page {
                     question={questions[1].question}
                     answer={questions[1].answer}
                     learnMoreLink={questions[1].link}
+                    resetStep={() => this.props.resetStep()}
                     nextStepMessage="Examine les profils des candidat·e·s"
                 />,
                 <GamePage
@@ -35,6 +38,7 @@ class Step1Page extends Page {
                     subtitle="Les candidat·e·s t’ont envoyé leurs profils, à toi de sélectionner celleux qui peuvent continuer."
                     buttonTitle='Valider'
                     nextStep={() => this.nextStep()}
+                    resetStep={() => this.props.resetStep()}
                     returnToExplanations={() => this.returnToExplanations()}
                 >
                     <Step1Game

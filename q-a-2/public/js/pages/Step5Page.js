@@ -8,6 +8,7 @@ class Step5Page extends Page {
             subPages: [
                 <MainStepPage step={step} nextSubStep={() => this.nextSubStep()}
                     subtitle="Débats et temps de parole"
+                    resetStep={() => this.props.resetStep()}
                 />,
                 <QuestionPage
                     step={step}
@@ -17,6 +18,7 @@ class Step5Page extends Page {
                     question={questions[0].question}
                     answer={questions[0].answer}
                     learnMoreLink={questions[0].link}
+                    resetStep={() => this.props.resetStep()}
                     nextStepMessage="Passer à l'indication suivante :"
                 />,
                 <QuestionPage
@@ -27,6 +29,7 @@ class Step5Page extends Page {
                     question={questions[1].question}
                     answer={questions[1].answer}
                     learnMoreLink={questions[1].link}
+                    resetStep={() => this.props.resetStep()}
                     nextStepMessage="Vérifier le temps de parole de chaque candidat·e"
                 />,
                 <GamePage
@@ -35,6 +38,7 @@ class Step5Page extends Page {
                     subtitle="Tous les candidat·e·s ont droit à un temps de parole équitable, fait en sorte que tous les temps de parole atteignent 5 minutes."
                     buttonTitle='Valider'
                     nextStep={() => this.nextStep()}
+                    resetStep={() => this.props.resetStep()}
                     returnToExplanations={() => this.returnToExplanations()}
                     >
                     <Step5Game
