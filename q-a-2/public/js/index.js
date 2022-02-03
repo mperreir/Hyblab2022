@@ -8,7 +8,7 @@ candidates.forEach(candidate => {
   let step = Math.floor(Math.random() * (Math.floor(9) - Math.ceil(1)) + Math.ceil(1));
   stepsCandidates[step].push(candidate);
 })*/
-stepsCandidates["1"] = [...candidates];
+stepsCandidates["1"] = JSON.parse(JSON.stringify(candidates));
 //stepsCandidates["5"] = candidates.slice(0, 5);
 //stepsCandidates["6"] = candidates.slice(0, 5);
 //stepsCandidates["7"] = [];
@@ -52,35 +52,39 @@ class App extends React.Component {
 }
 
 function randomizeCandidates() {
-  let candidatesTemp = [...candidates];
+  let candidatesTemp = stepsCandidates["1"];
+  let candidatesRemoved = [];
   let randomId;
 
-  let candidateTemp = getRandomCandidate(candidatesTemp);
+  let candidateTemp = getRandomCandidate(candidatesTemp, candidatesRemoved);
   candidateTemp.stepOneGame.age = "17 ans";
   candidateTemp.stepOneGame.valid = false;
 
-  candidateTemp = getRandomCandidate(candidatesTemp);
+  candidateTemp = getRandomCandidate(candidatesTemp, candidatesRemoved);
   candidateTemp.stepOneGame.legalStatus = "Perte des droits d'éligibilité";
   candidateTemp.stepOneGame.valid = false;
 
-  candidateTemp = getRandomCandidate(candidatesTemp);
+  candidateTemp = getRandomCandidate(candidatesTemp, candidatesRemoved);
   candidateTemp.stepTwoGame.valid = false;
 
-  candidateTemp = getRandomCandidate(candidatesTemp);
+  candidateTemp = getRandomCandidate(candidatesTemp, candidatesRemoved);
   randomId = Math.floor(Math.random()*4);
   Object.values(candidateTemp.stepThreeGame.statements)[randomId].statement = "Ordinateur portable";
   Object.values(candidateTemp.stepThreeGame.statements)[randomId].valid = false;
 
-  candidateTemp = getRandomCandidate(candidatesTemp);
+  candidateTemp = getRandomCandidate(candidatesTemp, candidatesRemoved);
   randomId = Math.floor(Math.random()*4);
   Object.values(candidateTemp.stepThreeGame.statements)[randomId].statement = "Maison de ses parents";
   Object.values(candidateTemp.stepThreeGame.statements)[randomId].valid = false;
+
+  stepsCandidates["1"].push(...candidatesRemoved);
 }
 
-function getRandomCandidate(candidatesTemp) {
+function getRandomCandidate(candidatesTemp, candidatesRemoved) {
   const randomIndex = Math.floor(Math.random()*candidatesTemp.length);
   const candidateTemp = candidatesTemp[randomIndex];
   candidatesTemp.splice(randomIndex, 1);
+  candidatesRemoved.push(candidateTemp);
   return candidateTemp;
 }
 
