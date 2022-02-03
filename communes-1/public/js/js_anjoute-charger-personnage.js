@@ -3,7 +3,7 @@ video.innerHTML = '';
 
 let personnages = [
 	'img/animations/manteau_rouge.mp4',
-	'img/animations/manteau_bleu.mp4',
+	'img/animations/cmb.mp4',
 	'img/animations/manteau_vert.mp4',
 	'img/animations/bonnie.mp4',
 	'img/animations/chapeau.mp4',
