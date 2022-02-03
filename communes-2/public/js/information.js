@@ -19,7 +19,7 @@ page('/communes-2/information', async function () {
     // chargement de la visualisation
     let nom_commune = "Libellé de la commune";
     let communeCourante = JSON.parse(localStorage.getItem('gameData')).communePrecedente.libelleCommune;
-    console.log(communeCourante);
+
 
     let remplacer_virgule_par_point = function(decimal) {
         return parseFloat((decimal+"").replace(",","."));
@@ -60,7 +60,7 @@ page('/communes-2/information', async function () {
 
     let dataSet = data_Nom_Voix(dat,communeCourante);
     let data2t = data_Nom_Voix_2T(data2,communeCourante);
-    console.log(data2t[0]);
+
 
     pie(data2t);
     histo(dataSet);
