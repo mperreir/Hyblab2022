@@ -55,7 +55,7 @@ class Step2Game extends React.Component {
                 className={this.state.selected[e.id] ? "step2Game_img_selected" : "step2Game_img_not_selected"}
                 onClick={() => this.handleClick(e.id)}
                 width="30%">
-                <svg className="step2Game_img" viewBox="0 0 100 100" transform={e.stepTwoGame.scale}>
+                <svg className="step2Game_img" viewBox="0 0 100 100" transform={e.stepTwoGame.scale} version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                     <g>
                         <image 
                             width="100%" 
