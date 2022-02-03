@@ -209,6 +209,12 @@ body{
     overflow: hidden;
 }
 
+#background-confetti{
+    position: absolute;
+    z-index: 0;
+    top: 0;
+}
+
 #divError{
     font-size: 18%;
     text-align: center;
