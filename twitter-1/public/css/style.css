@@ -236,6 +236,7 @@ h2{
     text-align: center; 
     color: white;
     margin-top: 2%;
+    text-shadow: 0px 1px, 1px 0px, 1px 1px;
 }
 
 #jeu {
@@ -303,7 +304,7 @@ div{
     font-size : 16%;
     color: #fff;
     text-transform: uppercase;
-    font-weight: 800;
+    font-weight: 900;
 }
 
 .profile3{
@@ -328,17 +329,21 @@ div{
 .profile{
     border-radius: 50%;
     margin-left: 38%;
+    margin-bottom: -10vh;
     border : 3px solid white;
     box-shadow: 7px 7px 25px rgba(0, 0, 0, 0.25);
+
 }
 
 .nom-candidat{
     text-align: center;
-    font-size: 30%;
+    font-size: 50%;
+    text-transform: uppercase;
+    text-shadow: 0px 1px, 1px 0px, 1px 1px;
 }
 
 table{
-    font-size: 18%;
+    font-size: 15%;
     margin: auto;
 }
 
@@ -348,6 +353,7 @@ td{
 
 th, td {
     padding: 5px;
+    text-transform: uppercase;
 }
 
 #tweets{
@@ -357,14 +363,14 @@ th, td {
 
 .box-tweet {
     background: white;
-    height: 35vh;
+    height: 25vh;
     width: 80%;
     border-radius: 70px;
-    margin-top: 5vh;
+    margin-top: 15vh;
     margin-left: auto;
     margin-right: auto;
     overflow: visible !important;
-    font-size: 18%;
+    font-size: 15%;
     position : absolute;
     top:44%;
     left : 10%;
@@ -393,9 +399,10 @@ th, td {
 .candidattweet .tweet p{
     padding: 5%;
     margin-left : 2%;
+    margin-top: 3%;
     height : 30vh;
     width:80%;
-    text-align: center;
+    text-align: justify;
 
 }
 
@@ -405,10 +412,10 @@ th, td {
 }
 
 .table-candidat {
-    margin-top:-17%;
+    margin-top:-35%;
     margin-bottom : 5%;
     /*margin: auto;*/
-    font-size: initial;
+    font-size: 80%;
 
 }
 
