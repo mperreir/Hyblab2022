@@ -52,7 +52,7 @@ page('/communes-2/information', async function () {
         let V1 = "% Voix/Exp" ;
         let V2 = "% Voix/Exp__1";
         let N1 ="Nom";
-        let N2 = "Nom__1"
+        let N2 = "Nom__1";
         tab2.push({"Nom2T" : n[N1], "Voix2T" : remplacer_virgule_par_point(n[V1]), "Commune2T" : commune, "InscritsCommune" : n["Inscrits"], "VotantsCommune" : n["Votants"], "AbstentionsCommune" : n["Abstentions"], "BlancsCommune" : n["Blancs"], "NulsCommune" : n["Nuls"], "ExprimésCommune" : n["Exprimés"]});
         tab2.push({"Nom2T" : n[N2], "Voix2T" : remplacer_virgule_par_point(n[V2]), "Commune2T" : commune, "InscritsCommune" : n["Inscrits"], "VotantsCommune" : n["Votants"], "AbstentionsCommune" : n["Abstentions"], "BlancsCommune" : n["Blancs"], "NulsCommune" : n["Nuls"], "ExprimésCommune" : n["Exprimés"]});  
 
@@ -172,13 +172,15 @@ function histo(dataSet) {
     chart.append('g')
         .attr('transform', `translate(0, ${height})`)
         .call(d3.axisBottom(xScale))
-        .style('font-size', '7px')
+        .style('font-size', '9px')
         .selectAll("text")	
             .style("text-anchor", "end")
             .attr("dx", "-.8em")
             .attr("dy", ".15em")
             .attr("transform", "rotate(-65)")
-            .attr("fill", "black");
+            .attr("fill", "black")
+            .attr("font-family", "Bebas Neue");
+
         
     const makeYLines = () => d3.axisLeft()
         .scale(yScale)
@@ -205,14 +207,14 @@ function histo(dataSet) {
         .attr('width', xScale.bandwidth() - 10)
         .attr('fill', d => color(d.NomC))
 
-    barGroups 
+    /*barGroups 
       .append('text')
       .attr('class', 'value')
       .attr('x', (a) => xScale(a.NomC) + xScale.bandwidth() / 2)
       .attr('y', (a) => yScale(a.Voix) - 3)
       .style('font-size', '10px')
       .attr('text-anchor', 'middle')
-      .text((a) => `${a.Voix}%`)
+      .text((a) => `${a.Voix}%`)*/
 
 
     svg.append('text')
@@ -222,6 +224,8 @@ function histo(dataSet) {
       .style('font-size', '18px')
       .attr('text-anchor', 'middle')
       .text(`${dataSet[0].Commune}`)
+      .selectAll("text")
+        .attr("fill", "white");
 }
 
 function pie(data2t){

@@ -98,11 +98,7 @@ page('/communes-2/affirmation', async function () {
         slider.style.bottom ="0";
     });
 
-    
-    
-
     // ------ Gestion de la map
-
     var map = L.map('map', {
         zoomSnap: 0.5
     }).setView([47.00,-1.70], 8.5);
@@ -110,8 +106,7 @@ page('/communes-2/affirmation', async function () {
     //var img = L.imageOverlay('img/loireAtlantique.png', bounds).addTo(map);
     //map.fitBounds(bounds);
 
-    /* ---------------------ICONES CARTES--------------------------- */
-
+    /* ---------------------ICONES CARTES--------------------------- */s
     const iconSize1 = [125,125];
     const iconAnchor1 = [70,100];
     const iconSize2 = [80,80];
