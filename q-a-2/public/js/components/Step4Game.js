@@ -125,7 +125,7 @@ class Step4Game extends React.Component {
             }`}
             hidden={!(chequeState.isAcceptClick || chequeState.isCancelClick)}
           >
-            <Tampon isValid={chequeState.isAcceptClick} />
+            <Tampon isValid={chequeState.isAcceptClick} cheque={true} />
           </div>
           <div className="step4game_pannelError" hidden={!chequeState.error}>
             <img src="img/warning.svg" />

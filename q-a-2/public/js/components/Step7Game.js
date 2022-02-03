@@ -1,7 +1,6 @@
 class Step7Game extends React.Component {
     constructor(props) {
         super(props);
-        console.log(stepsCandidates["7"])
         this.state = {
             urneState: 0,
             maxUrneState: 8,

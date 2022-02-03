@@ -8,6 +8,7 @@ class Step7Page extends Page {
             subPages: [
                 <MainStepPage step={step} nextSubStep={() => this.nextSubStep()}
                     subtitle="Le second tour"
+                    resetStep={() => this.props.resetStep()}
                 />,
                 <QuestionPage
                     step={step}
@@ -17,6 +18,7 @@ class Step7Page extends Page {
                     question={questions[0].question}
                     answer={questions[0].answer}
                     learnMoreLink={questions[0].link}
+                    resetStep={() => this.props.resetStep()}
                     nextStepMessage="Dépouiller les bulletins de vote et compter les votes"
                 />,
                 <GamePage
@@ -24,6 +26,7 @@ class Step7Page extends Page {
                     title='Le second tour'
                     subtitle="Clique sur l'urne pour ouvrir toutes les enveloppes."
                     buttonTitle='Continuer'
+                    resetStep={() => this.props.resetStep()}
                     returnToExplanations={() => this.returnToExplanations()}
                     nextStep={() => this.nextStep()}
                 >

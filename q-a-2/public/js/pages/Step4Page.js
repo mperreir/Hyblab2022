@@ -8,6 +8,7 @@ class Step4Page extends Page {
             subPages: [
                 <MainStepPage step={step} nextSubStep={() => this.nextSubStep()}
                     subtitle="Financement de la campagne"
+                    resetStep={() => this.props.resetStep()}
                 />,
                 <QuestionPage
                     step={step}
@@ -17,6 +18,7 @@ class Step4Page extends Page {
                     question={questions[0].question}
                     answer={questions[0].answer}
                     learnMoreLink={questions[0].link}
+                    resetStep={() => this.props.resetStep()}
                     nextStepMessage="Passer à l'indication suivante :"
                 />,
                 <QuestionPage
@@ -27,6 +29,7 @@ class Step4Page extends Page {
                     question={questions[1].question}
                     answer={questions[1].answer}
                     learnMoreLink={questions[1].link}
+                    resetStep={() => this.props.resetStep()}
                     nextStepMessage="Valide les chèques qui peuvent financer les campagnes"
                 />,
                 <GamePage
@@ -35,6 +38,7 @@ class Step4Page extends Page {
                     subtitle="Vérifie si ces chèques peuvent financer la campagne des candidats."
                     buttonTitle='Valider'
                     nextStep={() => this.nextStep()}
+                    resetStep={() => this.props.resetStep()}
                     returnToExplanations={() => this.returnToExplanations()}
                     >
                     <Step4Game
