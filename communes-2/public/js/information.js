@@ -80,10 +80,10 @@ page('/communes-2/information', async function () {
     
     ul.className = "popUp-infoCommune";
     
-    li7.innerHTML = `Orientation de la Commune : ${dataSet[0].OrientationCommune}`;
+    li7.innerHTML = `Orientation de la commune : ${dataSet[0].OrientationCommune}`;
     li1.innerHTML = `Nombre d'inscrits : ${dataSet[0].InscritsCommune}`;
     li2.innerHTML = `Nombre de votants : ${dataSet[0].VotantsCommune}`;
-    li3.innerHTML = `Nombre Abstentionistes : ${dataSet[0].AbstentionsCommune}`;
+    li3.innerHTML = `Nombre d'abstentionistes : ${dataSet[0].AbstentionsCommune}`;
     li4.innerHTML = `Nombre de bulletins blancs : ${dataSet[0].BlancsCommune}`;
     li5.innerHTML = `Nombre de bulletins nuls : ${dataSet[0].NulsCommune}`;
     li6.innerHTML = `Nombre de bulletins exprimés : ${dataSet[0].ExprimésCommune}`;
@@ -112,7 +112,7 @@ page('/communes-2/information', async function () {
     
     li21.innerHTML = `Nombre d'inscrits : ${data2t[0].InscritsCommune}`;
     li22.innerHTML = `Nombre de votants : ${data2t[0].VotantsCommune}`;
-    li23.innerHTML = `Nombre Abstentionistes : ${data2t[0].AbstentionsCommune}`;
+    li23.innerHTML = `Nombre d'abstentionistes : ${data2t[0].AbstentionsCommune}`;
     li24.innerHTML = `Nombre de bulletins blancs : ${data2t[0].BlancsCommune}`;
     li25.innerHTML = `Nombre de bulletins nuls : ${data2t[0].NulsCommune}`;
     li26.innerHTML = `Nombre de bulletins exprimés : ${data2t[0].ExprimésCommune}`;
