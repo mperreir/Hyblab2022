@@ -40,10 +40,10 @@ class App extends React.Component {
 
   resetStep() {
     stepsCandidates = {
-      "1": [...candidates], "2": [], "3": [], "4": [], "5": [], "6": [], "7": [], "8": [],
+      "1": JSON.parse(JSON.stringify(candidates)), "2": [], "3": [], "4": [], "5": [], "6": [], "7": [], "8": [],
     }
-    this.setState({ step: 0 });
     randomizeCandidates();
+    this.setState({ step: 0 });
   }
 
   render() {
