@@ -164,7 +164,7 @@ window.onload = () => {
                if (theme == "followers") {
                   return 50 + parseFloat(d.ratio);
                }
-               if (d.id === 1) return 50 + 2.5 * parseFloat(d.ratio);
+               if (d.id === 1) return 50 + 3 * parseFloat(d.ratio);
                if (d.ratio < 10) {
                   return 50 + 2 * parseFloat(d.ratio);
                }
@@ -213,7 +213,7 @@ window.onload = () => {
          function ticked() {
             candidates
                .attr('transform', d => {
-                  if (d.id === 1) {
+                  if (d.id === 1 && window.screen.width < 500) {
                      d.x = window.screen.width/2 - document.getElementById(d.id).width.animVal.value/2;
                   } else {
 
@@ -232,6 +232,7 @@ window.onload = () => {
                   if (theme == "followers") {
                      return 50 + parseFloat(d.ratio) + 12;
                   }
+                  if (d.id === 1) return 50 + 3 * parseFloat(d.ratio) + 12;
                   if (d.ratio < 10) {
                      return 50 + 2 * parseFloat(d.ratio) + 12;
                   }
@@ -249,6 +250,7 @@ window.onload = () => {
                   if (theme == "followers") {
                      return 50 + parseFloat(d.ratio) + 25;
                   }
+                  if (d.id === 1) return 50 + 3 * parseFloat(d.ratio) + 25;
                   if (d.ratio < 10) {
                      return 50 + 2 * parseFloat(d.ratio) + 25;
                   }
@@ -258,6 +260,7 @@ window.onload = () => {
                   if (d.x + document.getElementById(d.id).width.animVal.value >= window.screen.width - 20) {
                      return `translate(${d.x - 20}, ${d.y})`;
                   }
+                  if (d.x <= 0) d.x = d.x + 20;
                   return `translate(${d.x}, ${d.y})`;
                });
          }
