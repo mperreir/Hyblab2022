@@ -94,7 +94,7 @@ window.onload = () => {
                         return 50 + parseFloat(d.ratio);
                     }
                     if (d.id === 1) {
-                        return 50 + 10 * parseFloat(d.ratio);
+                        return 50 + 3 * parseFloat(d.ratio);
                     }
                     if (d.ratio < 10) {
                        return 50 + 2 * parseFloat(d.ratio);
