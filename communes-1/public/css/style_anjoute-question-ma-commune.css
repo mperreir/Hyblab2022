@@ -62,11 +62,11 @@
 }
 
 .ville {
-    background-color: #10141A;
-    width: 100%;
-    text-align: center;
-    position: absolute;
-    top: 90vh;
+	background-color: #10141A;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	bottom: 5vh;
 }
 
 .ville p {
