@@ -35,8 +35,8 @@
     position: absolute;
     content: "";
     width: 50%;
-    height: 14px;
-    top : -15px;
+    height: 15px;
+    top : -17px;
     left: -2px;
     border: solid 2px #1028fd;
     border-bottom: 0;
@@ -59,6 +59,18 @@
     left: 50%px;
     background-color: #1028fd;
     z-index: -1;
+}
+
+.file-explorer-item-file-visited {
+    border: solid 2px #5d5d61;
+}
+
+.file-explorer-item-file-visited::before {
+    border: solid 2px #5d5d61;
+}
+
+.file-explorer-item-file-visited::after {
+    background-color: #5d5d61;
 }
 
 .file-explorer-item:last-child .file-explorer-item-file::after {

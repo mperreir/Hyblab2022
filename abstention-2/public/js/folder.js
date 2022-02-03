@@ -191,10 +191,9 @@ async function loadFolder(folderName) {
 
     document.getElementById('fd-back-button').addEventListener('click', () => {
         visitedFolders[folderName] = true;
-        if(visitedFolders.finaux){
+        if(visitedFolders.finaux) {
             loadTopSecret();
-        }
-        else{
+        } else {
             if (visitedFolders.abstention) {
                 FOLDER_TITLES.filesData.find(f => f.folderName === 'blancsNuls').progress = 100;
                 FOLDER_TITLES.filesData.find(f => f.folderName === 'nouveauxHabitants').progress = 100;
@@ -214,7 +213,6 @@ async function loadFolder(folderName) {
             }
             loadFileExplorer();
         }
-
     });
 }
 

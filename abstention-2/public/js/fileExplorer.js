@@ -1,6 +1,7 @@
 async function loadFileExplorer() {
 
     selectedCityData = await fetchCityData(selectedCity);
+
     
     const citiesRq = await fetch('api/cities/');
     citiesMap = await citiesRq.json();
@@ -11,10 +12,15 @@ async function loadFileExplorer() {
     const headerHtml = await loadTemplate('templates/header.ejs', []);
     container.innerHTML = headerHtml;
     const screen = document.getElementById('screen');
-
+    
     const fileExplorerHtml = await loadTemplate('templates/file_explorer/file_explorer.ejs', FOLDER_TITLES);
     screen.innerHTML = fileExplorerHtml;
-
+    
+    for (const [folderName, visited] of Object.entries(visitedFolders)) {
+        if (visited) {
+            document.getElementById(FOLDER_TITLES.filesData.find(f => f.folderName === folderName).tag).children[0].classList.add('file-explorer-item-file-visited');
+        }
+    }
     const fileProgressBars = document.getElementsByClassName('file-explorer-item-file-progress-bar');
 
     let i = 0;
