@@ -29,7 +29,6 @@ body {
     align-items: center;
     height: 10vh;
     margin-right: 4%;
-    padding-top: 10%;
 }
 
 #exit {
@@ -50,13 +49,17 @@ button {
     color: white;
     border-radius: 19px;
     text-align: center;
-    width:65%;
+    width:70%;
     height:6vh;
     margin-top: 3vh;
     line-height: 6vh;
     border:none;
     font-size: 2.5vh;
     font-family: 'blatantregular';
+}
+
+#main{
+    margin-top: 10%;
 }
 
 /* ---------- Important media queries for easy responsive content :-) ----------------- */
