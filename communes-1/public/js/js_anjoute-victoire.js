@@ -1,5 +1,10 @@
 const restart = document.querySelector('.restart');
 const label_joute = document.querySelector('.label-joute');
+const inventaire = document.querySelector('.bouton_inv');
+
+inventaire.addEventListener('click', () => {
+	window.location.href = 'anjoute-inventaire.html';
+});
 
 restart.addEventListener('click', () => {
 	window.location.href = 'index.html';

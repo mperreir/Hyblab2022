@@ -71,6 +71,8 @@
 .bottom {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
     margin-top: 10vh;
 }
 
@@ -90,6 +92,30 @@
 }
 
 .bottom .restart p {
+    font-family: 'Lineal', sans-serif;
+    font-size: 200%;
+    margin: 5%;
+}
+
+
+
+.bottom .bouton_inv {
+    margin-bottom: 10px;
+    color: #C8A166;
+    background-color: #10141A;
+    border:  2px solid #C8A166;
+    border-radius: 10px;
+    width: 70%;
+    right: 35%;
+    cursor: pointer;
+}
+
+.bottom .bouton_inv:hover {
+    color: black;
+    background-color: #C8A166;
+}
+
+.bottom .bouton_inv p {
     font-family: 'Lineal', sans-serif;
     font-size: 200%;
     margin: 5%;
