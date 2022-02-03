@@ -7,12 +7,13 @@ const diag = function(dBox, text) {
   dBox.appendChild(textContainer);
 }
 
+const bgmusic = createAudio("data/sounds/bgMusic.mp3", true, 1, .35);
+
 let musicNotPlaying = true;
 
 const init_p1 = function() {
 
   if (musicNotPlaying){
-    const bgmusic = createAudio("data/sounds/bgMusic.mp3", true, 1, .35);
     bgmusic.play();
     bgmusic.fade(0,.35,4000);
     musicNotPlaying = false;

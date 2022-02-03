@@ -21,6 +21,7 @@ const init_p5 = function(){
     animationsContainer.parentNode.insertBefore(nameContainer,animationsContainer.nextSibling);
     const callingAnimation = createAnimation("animationsContainer","data/animations/callAnimation.json",true);
     callingAnimation.play();
+    bgmusic.pause();
     ringtone.play();
     
     phoneButton.addEventListener("click", () => pickUp(ringtone,callingAnimation,nameContainer,[mouaSound,taulard1,taulard2]), { once: true });
@@ -30,6 +31,8 @@ const pickUp = function(ringtone,callingAnimation,nameContainer,sounds) {
     const phoneButton = document.querySelector(".phoneButton");
     phoneButton.remove();
     ringtone.pause();
+    bgmusic.play();
+    bgmusic.fade(0,.35,4000);
     ringtone.unload();
     callingAnimation.destroy();
     nameContainer.classList.remove("apply-shake");
