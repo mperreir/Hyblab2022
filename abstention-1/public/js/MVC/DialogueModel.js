@@ -39,7 +39,7 @@ class DialogueModel extends Observable {
         }
 
         //S'il n'y a pas de quiz ou de jeu à lancer derrière cette réplique
-        if(this.scene[this.counter]?.Quiz != 1 && this.scene[this.counter].PFC != 1){
+        if(this.scene[this.counter]?.Quiz != 1 && this.scene[this.counter]?.PFC != 1){
 
             //On cache les autres div sauf le dialogue
             document.querySelector("#textDialogue").style.visibility = "visible";
