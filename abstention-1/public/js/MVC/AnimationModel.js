@@ -26,6 +26,8 @@ class AnimationModel extends Observable {
 
         this.dialogueControler = dialogueControler;
         this.modelChanged = false;
+
+        this.infosCarnet = [...document.getElementById("infos-carnet").getElementsByTagName("li")];
     }
 
     
@@ -81,11 +83,16 @@ class AnimationModel extends Observable {
     startDialogue(){
         this.dialogueStarted = true;
         this.startScrollValueAbsolute = window.scrollY;
+        console.log(this);
         disableScroll();
+        DIALOGUESTARTED = true;
 
     }
 
-    finishDialogue(){
+    finishDialogue(dialogueId){
+        DIALOGUESTARTED = false;
+        this.infosCarnet.filter((_, i) => i <= dialogueId).map(el => el.style.display = "list-item");
+        document.getElementById("scrollIndicator").style.opacity = 1;
         enableScroll();
         this.dialogueDone = true;
         window.scrollTo(0, this.startScrollValueAbsolute);

@@ -35,7 +35,16 @@ class DialogueControler {
         });
         this.view.croix.addEventListener("click", ()=> {
             this.view.popupcarnet.style.display='none';
-            enableScroll();
+            const dialogueId = parseInt(this.view.cercle.innerText) - 1;
+
+            // Todo réussir à recall finishDialogue sur le dialogue qui vient de se terminer
+            // de maniere plus propre
+            if(this.models[dialogueId].animationModel.dialogueDone) {
+                this.models[dialogueId].animationModel.finishDialogue(dialogueId + 1);
+            }
+            else {
+                enableScroll();
+            }
         });
 
     }
@@ -52,6 +61,7 @@ class DialogueControler {
         this.currentModel.addObserver(new DialogueObserver(this.view));
 
         this.view.description.innerText = this.currentModel.description;
+        this.view.cercle.innerText = this.nextModelIndex + 1;
         this.changement();
 
         this.nextModelIndex++;

@@ -23,27 +23,39 @@ body{
 
 /* This media query ensures that we allways will the width of the screen */
 /* as long as the screen aspect ratio is below 9:16 */
-@media screen and (max-aspect-ratio: 9/16){
+@media screen and (max-aspect-ratio: 9/16) and (min-width :480px){
     #container{
-        margin-top: calc((100vh - 100 * 16vw / 9) / 2);
         width: 100vw;
-        height:calc(100 * 16vw / 9);
+        margin-top: calc((100vh - 100 * 16vw / 9) / 2);
+        height: calc(100 * 16vw / 9);
     }
 
     /* We set a default font size here. It will be the base for all other font sizes */
     /* Here the font size is proportional to display width */
     body{
-        font-size: calc(3vw*16/9);
+        font-size: calc(12vw*16/9);
+    }
+}
+
+/* Mobile */
+
+@media screen and (max-width: 480px) {
+    #container{
+        margin-top: 0;
+        width: 100vw;
+        height: 88vh; /* pour les navigateurs qui ne supportent pas  -webkit-fill-available */
+        height: -webkit-fill-available;
+        font-size: calc(12vw*16/9);
     }
 }
 
 /* This media query ensures that we allways will the height of the screen */
 /* as long as the screen aspect ratio is higher than 9:16 */
-@media screen and (min-aspect-ratio: 9/16){
+@media screen and (min-aspect-ratio: 9/16) and (min-width :480px) {
     #container{
         margin-left: calc((100vw - 100 * 9vh / 16) / 2);
         width: calc(100 * 9vh / 16);
-        height:100vh;
+        height: 100vh;
     }
 
     /* We set a default font size here. It will be the base for all other font sizes */
@@ -120,9 +132,9 @@ border : 1vh solid #E66E78;
 /*--------------Section intro--------------------*/
 #sujet{
     opacity:1;
-    width: 100%;
+    width: calc(100 * 9vh / 16);
     height: 100%;
-    position: absolute;
+    position: fixed;
     z-index: 4;
     overflow: hidden;
 }
@@ -268,17 +280,20 @@ left: 3%;
     position: relative;
     width: 100%;
     top:-5%;
-    font-size: 8vh;
+    font-size: 7vh;
 
 }
 #popupCarnet li{
-    font-size:6vh;
+    font-size:4vh;
     word-wrap: break-word;
 }
 #popupCarnet ul{
     margin-left: 10%;
 }
 
+#infos-carnet li{
+    display: none;
+}
 
 /*--------------Section dialogue----------------*/
 #Dialogue{
@@ -423,8 +438,8 @@ left: 3%;
 
 }
 #textDialogue{
-    position:relative;
-    top:120px;
+    position:absolute;
+    top:50%;
     background-color: #0600FF;
     border-radius: 1em;
     width: 85%;

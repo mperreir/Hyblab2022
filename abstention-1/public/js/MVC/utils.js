@@ -98,6 +98,7 @@ class LinearInterpolate {
     }
 }
 
+let DIALOGUESTARTED = false;
 
 // call this to Disable
 function disableScroll() {
@@ -106,5 +107,6 @@ function disableScroll() {
 
 // call this to Enable
 function enableScroll() {
+    if (DIALOGUESTARTED) return;
     document.getElementById("SequencesAnimation").classList.remove("stop-scroll");
 }
