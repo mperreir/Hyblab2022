@@ -657,6 +657,7 @@ img#theme {
 
 #bandeau .stacked{
     display:block;
+    font-size : 80%;
 }
 
 #bandeau .inline{
