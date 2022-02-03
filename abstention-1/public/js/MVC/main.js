@@ -32,7 +32,7 @@ let scrollIndicatorControler = new AnimationControler([scrollIndicatorAnimation]
 let scenes = [
     new DialogueModel(dialogues[0],"M. Martin 51ans"),
     new DialogueModel(dialogues[1],"Arthur 17ans"),
-    new DialogueModel(dialogues[2],"Nouvelle arrivante 24ans"),
+    new DialogueModel(dialogues[2],"Carine 24ans"),
     new DialogueModel(dialogues[3],"M. le maire 46ans"),
     new DialogueModel(dialogues[4],"Mme Robert 82ans"),
     new DialogueModel(dialogues[5],"M. Martin 51ans"),

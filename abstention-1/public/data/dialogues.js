@@ -172,19 +172,19 @@ const dialogues = [
                 "PFC": 0
             },
             {
-                "Personne": "Nouvelle arrivante",
+                "Personne": "Carine",
                 "Replique": "Bonjour, enchantée.",
                 "Quiz": 0,
                 "PFC": 0
             },
             {
-                "Personne": "Nouvelle arrivante",
+                "Personne": "Carine",
                 "Replique": "Et bien oui effectivement, mais si les élections étaient demain, la situation serait différente.",
                 "Quiz": 0,
                 "PFC": 0
             },
             {
-                "Personne": "Nouvelle arrivante",
+                "Personne": "Carine",
                 "Replique": "Pour voter, il faut être inscrit sur les listes électorales.",
                 "Quiz": 1,
                 "PFC": 0
@@ -202,7 +202,7 @@ const dialogues = [
                 "PFC": 0
             },
             {
-                "Personne": "Nouvelle arrivante",
+                "Personne": "Carine",
                 "Replique": "Merci, au revoir.",
                 "Quiz": 0,
                 "PFC": 0
@@ -413,20 +413,20 @@ const quiz = [
             {
                 "Id": 1,
                 "Question": "Comment se passe l’étape d’inscription sur les listes électorales ?",
-                "Personne": "Nouvelle arrivante",
+                "Personne": "Carine",
                 //Données à rajouter dans ce dialogue
                 "Reponse": "Depuis 2019, on est inscrit d’office à ses 18 ans si on a été recensé à ses 16 ans. Toutefois, lors d’un recensement tardif ou d’un déménagement dans une nouvelle commune comme c’est mon cas actuellement, il faut faire la démarche d'inscription soi-même. Par exemple, sur la zone d'influence de Bordeaux, on sait que "+(Math.round(tx_adults_unregistered*100 * 100) / 100)+"% des adultes ne sont pas inscrits sur les listes électorales."       
             },
             {
                 "Id": 2,
                 "Question": "Savez-vous combien de temps à l’avance vous devez vous inscrire avant une élection ?",
-                "Personne": "Nouvelle arrivante",
+                "Personne": "Carine",
                 "Reponse": "Pour participer à des élections, il faut être inscrit sur les listes électorales au minimum 1 mois à l’avance avant la date de l’élection."
             },
             {
                 "Id": 3,
                 "Question": "Est-ce-que tout le monde pense toujours à s’inscrire sur ces listes ?",
-                "Personne": "Nouvelle arrivante",
+                "Personne": "Carine",
                 "Reponse": "Non pas forcément, le vote n’étant pas obligatoire en France, certaines personnes comme mon mari ne veulent tout simplement pas s’inscrire pour des raisons similaires aux personnes inscrites abstentionnistes."
             }
         ]

@@ -248,7 +248,7 @@ margin-top: 10%;
     border-radius: 50px;
     position: fixed;
     transform: translate(-50%,-50%);
-    top: 95vh;
+    top: 90vh;
     left: 50%;
     z-index: 10;
 }
