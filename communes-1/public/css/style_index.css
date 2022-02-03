@@ -42,8 +42,8 @@
 
 .header-bottom {
 	position: absolute;
-	top: 5vh;
 	text-align: center;
+	top: 0;
 }
 
 .header-bottom .hyblab {
