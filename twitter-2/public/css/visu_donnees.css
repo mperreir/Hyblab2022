@@ -35,7 +35,7 @@ body {
 #exit {
     position: absolute;
     margin-top: 5%;
-    margin-right: 3%;
+    right: 3%;
 }
 
 #buttons{
