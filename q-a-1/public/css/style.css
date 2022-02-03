@@ -501,11 +501,25 @@ p.alignRight{
 
 
 button {
-    text-shadow: 0 0 1px rgba(0, 0, 0, .3);
-    /* Animation (“transition” timing) */
-    transition: 1s background;
+  /* Disable OS styling */
+  appearance: none;
+  border: none;
+  /* Rounded corners */
+  border-radius: 4px;
+  /* Text padding */
+  padding: 6px 12px;
+  /* Normal color */
+  background: #2442a0;
+  /* Text style */
+  color: white;
+  text-shadow: 0 0 1px rgba(0, 0, 0, .3);
+  /* Animation (“transition” timing) */
+  transition: .5s background;
   }
   
+  button:hover {
+    background: #5b6bd1;
+  }
   
 /* When pressed */
 button:active {
