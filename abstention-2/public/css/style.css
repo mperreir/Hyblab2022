@@ -36,7 +36,7 @@ body{
 /* as long as the screen aspect ratio is below 9:16 */
 @media screen and (max-aspect-ratio: 9/16){
     #container{
-        margin-bottom: calc(100vh - 100 * 16vw / 9);
+        margin-top: calc((100vh - 100 * 16vw / 9) / 2);
         width: 100vw;
         height: calc(100 * 16vw / 9);
     }
@@ -44,7 +44,16 @@ body{
     /* We set a default font size here. It will be the base for all other font sizes */
     /* Here the font size is proportional to display width */
     body{
-        font-size: calc(12vw*16/9);
+        font-size:12vh;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #container{
+        margin-top: 0;
+        width: 100vw;
+        height: 88vh; /* pour les navigateurs qui ne supportent pas  -webkit-fill-available */
+        height: -webkit-fill-available;
     }
 }
 

@@ -1,19 +1,19 @@
 
 .fd-blue {
-    color: #0039ff;
+    color: #1028fd;
 }
 
 .fd-red {
-    color: #ff4800;
+    color: #ff2e00;
     text-align: end;
 }
 
 .fd-bg-blue {
-    background-color: #0039ff;
+    background-color: #1028fd;
 }
 
 .fd-bg-red {
-    background-color: #ff4800;
+    background-color: #ff2e00;
 }
 
 .fd-text-center {
@@ -70,13 +70,13 @@
 }
 
 .fd-numbers-number {
-    color: #ff4800;
+    color: #ff2e00;
     font-weight: bold;
     font-size: 4em;
 }
 
 .fd-numbers-hab {
-    color: #ff4800;
+    color: #ff2e00;
     font-weight: bold;
 }
 
@@ -84,12 +84,12 @@
     display: flex;
     justify-content: space-between;
     width: 40%;
-    color: #ff4800;
+    color: #ff2e00;
 }
 
 .fd-separator {
     width: 50%;
-    color: #ff4800;
+    color: #ff2e00;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -104,7 +104,7 @@
 .fd-secondary-text {
     width: 80%;
     margin-top: 20%;
-    color: #ff4800;
+    color: #ff2e00;
     font-size: 1.2em;
     text-align: justify;
 }
