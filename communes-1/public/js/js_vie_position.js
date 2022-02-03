@@ -23,8 +23,15 @@ const position = document.querySelector('.position');
 position.innerHTML = '';
 
 let position_joueur = localStorage.getItem('position_joueur');
-
 let drapeau_position = document.createElement('img');
-drapeau_position.setAttribute('src', 'img/jeu/drapeau'+ position_joueur +'.png')
+
+if (position_joueur >= 10) {
+	drapeau_position.setAttribute('src', 'img/jeu/drapeau10.png');
+} else {
+	drapeau_position.setAttribute('src', 'img/jeu/drapeau'+ position_joueur +'.png');
+}
+
+
+
 
 position.appendChild(drapeau_position);
