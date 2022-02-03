@@ -2,16 +2,16 @@ const bvideo = document.querySelector('.bloc-video');
 bvideo.innerHTML = '';
 
 let personnages = [
-	'img/animations/manteau_rouge.mp4',
+	'img/animations/manteau_rouge.webm',
 	'img/animations/manteau_bleu.webm',
-	'img/animations/manteau_vert.mp4',
-	'img/animations/bonnie.mp4',
-	'img/animations/chapeau.mp4',
-	'img/animations/femme.mp4',
-	'img/animations/homme.mp4',
-	'img/animations/mamie.mp4',
-	'img/animations/rousse.mp4',
-	'img/animations/dame-reflet.mp4',
+	'img/animations/manteau_vert.webm',
+	'img/animations/bonnie.webm',
+	'img/animations/chapeau.webm',
+	'img/animations/femme.webm',
+	'img/animations/homme.webm',
+	'img/animations/mamie.webm',
+	'img/animations/rousse.webm',
+	'img/animations/dame-reflet.webm',
 ]
 
 let video = document.createElement('video');
