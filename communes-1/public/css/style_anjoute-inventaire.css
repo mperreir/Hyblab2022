@@ -10,7 +10,7 @@
 }
 
 .top {
-	overflow:visible;
+	overflow: visible;
 	position: relative;
 	display: flex;
 	justify-content: center;
@@ -27,7 +27,7 @@
 	z-index: 1;
 	position: absolute;
 	font-size: 200%;
-	bottom: -5vh;
+	bottom: -4vh;
 	right: 2vh;
 	font-family: 'Lineal', sans-serif;
 	color: white;
@@ -36,7 +36,6 @@
 
 .container-wrapper {
 	overflow: auto;
-	margin-top: 2vh;
 	height: 100%;
 }
 
