@@ -1,19 +1,23 @@
 const buttons = document.querySelectorAll(".box button");
 
+const btnToWin = [2,0,1]
+
 for (let i = 0; i < buttons.length; i++) {
     buttons[i].addEventListener('click', function() {
         const joueur = buttons[i].textContent;
-        const robot = buttons[Math.floor(Math.random() * buttons.length)].textContent;
+        const robot = buttons[btnToWin[i]].textContent;
         let resultat = "";
+
         if (joueur===robot) {
             resultat = "Egalité";
         }
-        else if ((joueur === "Pierre" && robot === "Ciseaux") || (joueur === "Ciseaux" && robot === "Feuilles") || (joueur === "Feuilles") && (robot === "Pierre")) {
+        else if ((joueur === "Pierre" && robot === "Ciseaux") || (joueur === "Ciseaux" && robot === "Feuille") || (joueur === "Feuille") && (robot === "Pierre")) {
             resultat = "Gagné";
         }
         else {
             resultat = "Perdu";
         }
+
         document.querySelector(".box").style.visibility = "hidden";
         let result = document.querySelector(".resultat");
 

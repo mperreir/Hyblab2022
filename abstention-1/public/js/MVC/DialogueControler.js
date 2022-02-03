@@ -22,7 +22,7 @@ class DialogueControler {
 
         this.view.go?.addEventListener("click", ()=> {window.location.href = 'voyage.html';});
 
-        this.view.info.addEventListener("click", ()=> {
+        this.view.info?.addEventListener("click", ()=> {
         
             if (this.infoActiv===0){
                 this.infoActiv=1;
@@ -35,11 +35,12 @@ class DialogueControler {
         }
         );
 
-        this.view.carnet.addEventListener("click", ()=> {
+        this.view.carnet?.addEventListener("click", ()=> {
             this.view.popupcarnet.style.display='block';
             disableScroll();
         });
-        this.view.croix.addEventListener("click", ()=> {
+        
+        this.view.croix?.addEventListener("click", ()=> {
             this.view.popupcarnet.style.display='none';
             const dialogueId = parseInt(this.view.cercle.innerText) - 1;
 
@@ -56,7 +57,9 @@ class DialogueControler {
     }
 
     loadNextModel() {
-        if (this.nextModelIndex >= this.models.length) return;
+        if (this.nextModelIndex >= this.models.length) {
+            return;
+        }
 
         // A ne pas executer lors de l'initialisation car currentModel est undefined
         if (this.nextModelIndex === 0) {

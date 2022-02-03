@@ -27,7 +27,10 @@ class AnimationModel extends Observable {
         this.dialogueControler = dialogueControler;
         this.modelChanged = false;
 
-        this.infosCarnet = [...document.getElementById("infos-carnet").getElementsByTagName("li")];
+        let carnet = document.getElementById("infos-carnet")?.getElementsByTagName("li");
+        if(carnet) {
+            this.infosCarnet = [...carnet];
+        }
     }
 
     

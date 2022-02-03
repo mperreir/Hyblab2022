@@ -12,7 +12,7 @@ class DialogueModel extends Observable {
 
     }
 
-    changement(){
+    changement(controler){
         //console.log(this);
         this.initialisation=false;
         this.counter++;
@@ -28,8 +28,18 @@ class DialogueModel extends Observable {
             this.animationModel.finishDialogue(this.id);
         }
 
+        if (this.id === NBDIALOGUES && this.counter >= this.scene.length) {
+            document.getElementById("conclusion").classList.remove("hide");
+            document.getElementById("carnetFin").classList.remove('hide');
+            setTimeout(
+                function() {document.getElementById("Dialogue").classList.add("hide");},
+                3000,
+            )
+            
+        }
+
         //S'il n'y a pas de quiz ou de jeu à lancer derrière cette réplique
-        if(this.scene[this.counter].Quiz != 1 && this.scene[this.counter].PFC != 1){
+        if(this.scene[this.counter]?.Quiz != 1 && this.scene[this.counter].PFC != 1){
 
             //On cache les autres div sauf le dialogue
             document.querySelector("#textDialogue").style.visibility = "visible";

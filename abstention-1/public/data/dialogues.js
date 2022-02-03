@@ -174,13 +174,13 @@ const dialogues = [
             {
                 "Personne": "Nouvelle arrivante",
                 "Replique": "Bonjour, enchantée.",
-                "Quiz": 1,
+                "Quiz": 0,
                 "PFC": 0
             },
             {
                 "Personne": "Nouvelle arrivante",
                 "Replique": "Et bien oui effectivement, mais si les élections étaient demain, la situation serait différente.",
-                "Quiz": 1,
+                "Quiz": 0,
                 "PFC": 0
             },
             {
@@ -377,7 +377,7 @@ const dialogues = [
     }
 ]
 
-
+const NBDIALOGUES = dialogues.length;
 
 
 

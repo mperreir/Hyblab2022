@@ -5,7 +5,7 @@ function lancerQuiz(numScene){
     let question3 = document.querySelectorAll("#reponseC");
     let reponse = document.querySelector("#reponse");
     let p = document.querySelector("#reponse p");
-    let retour = document.querySelector("#reponse input[id='retour']");
+    let retour = document.querySelector("#quizzRetour");
 
     for(let i=0; i<quiz.length; i++){
         if(quiz[i].Dialogue == numScene){
@@ -16,6 +16,7 @@ function lancerQuiz(numScene){
     }
 
     question1[0].addEventListener('click', function(){
+        reponse.scrollTo(0,0);
         quizZone.style.visibility = "hidden";
         reponse.style.visibility = "visible";
         for(let i=0; i<quiz.length; i++){
@@ -27,6 +28,7 @@ function lancerQuiz(numScene){
     })
 
     question2[0].addEventListener('click', function(){
+        reponse.scrollTo(0,0);
         quizZone.style.visibility = "hidden";
         reponse.style.visibility = "visible";
         for(let i=0; i<quiz.length; i++){
@@ -38,6 +40,7 @@ function lancerQuiz(numScene){
     })
 
     question3[0].addEventListener('click', function(){
+        reponse.scrollTo(0,0);
         quizZone.style.visibility = "hidden";
         reponse.style.visibility = "visible";
         for(let i=0; i<quiz.length; i++){

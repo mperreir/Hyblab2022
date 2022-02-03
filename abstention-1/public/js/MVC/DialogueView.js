@@ -9,7 +9,7 @@ class DialogueView {
         this.carnet=document.querySelector('#carnet');
         this.popupcarnet=document.querySelector('#popupCarnet');
         this.croix=document.querySelector('#croix');
-        this.cercle = document.querySelector("#cercle").getElementsByTagName("p")[0];
+        this.cercle = document.querySelector("#cercle")?.getElementsByTagName("p")[0];
      
         this.dialoguePart=document.querySelector('#Dialogue');
         this.transitionPartPart=document.querySelector('#Transition');

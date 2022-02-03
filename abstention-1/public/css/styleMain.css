@@ -10,12 +10,16 @@ body{
 
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     width: 0px;
-}
+} */
 
 #FatmaStuff {
     display: none;
+}
+
+.hide {
+    display: none !important;
 }
 
 /*--------------------FORMAT TELEPHONE---------------------------*/
@@ -505,10 +509,11 @@ left: 3%;
     visibility: hidden;
     position:absolute;
     width: 85%;
-    border-radius: 6%;
-    height: calc(100vh/4);
+    max-height: calc(100vh/4);
     top:20%;
     left:7%;
+    word-wrap: break-word;
+    overflow-y: scroll;
 }
 
 #reponse p{
@@ -516,10 +521,9 @@ left: 3%;
     outline : none;
     border : none;
     color : white;
-    font-size: small;
     padding: 3%;
 }
-#reponse input[id='retour']{
+#quizzRetour{
     background-color: blue;
     color : white;
     border : none;
@@ -752,7 +756,6 @@ img[id="Pierre"], img[id="Feuille"], img[id="Ciseaux"]{
     position: relative;
     text-align: center;
     padding: 10%;
-    display: none;
 }
 #espacePerso{
 position: relative;
@@ -827,11 +830,10 @@ margin-top: 40vh;
     border : 1vh solid #0600FF;  
     background-color: white;
     border-radius: 2em;
-    left: 4.5%;
+    /* left: 4.5%; */
     color: #0600FF;
-    padding: 4%;
+    /* padding: 4%; */
     margin-bottom: 20%;
-    display: none;
 }
 
 #anneaux2{
@@ -845,7 +847,7 @@ left: 9%;
     margin-left: 3%;
     margin-top: 10%;
     margin-bottom: 10%;
-
+    display: block;
 
 }
 
