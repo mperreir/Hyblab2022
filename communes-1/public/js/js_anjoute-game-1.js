@@ -54,7 +54,7 @@ function bonneVersion(name){
 		case 'manuscrit':
 			return "Le manuscrit de Joachim du Belay"
 		case 'chateau':
-			return "Le château d \'Angers"
+			return "Le chateau d \'Angers"
 		case 'cheval':
 			return "Un cheval du Cadre noir"
 		case 'bateau':

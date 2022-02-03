@@ -31,7 +31,7 @@ function bonneVersion(name){
 			return "img/recompenses/Les_Meilleurs_Bottereaux_.png"
 		case 'Le manuscrit de Joachim du Belay':
 			return "img/recompenses/Manuscrit_De_Joachim_Du_Belay_.png"
-		case 'Le château d \'Angers':
+		case 'Le chateau d \'Angers':
 			return "img/recompenses/Château_D_Angers.png"
 		case 'Un cheval du Cadre noir':
 			return "img/recompenses/Cheval_Du_Cadre_Noir.png"
