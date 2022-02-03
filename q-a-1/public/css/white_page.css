@@ -30,6 +30,7 @@ button{
     
 }
 
+
 #txt_taux_vote{
     width: 40%;
 }
@@ -94,17 +95,20 @@ p{
 }
 
 #Q2 > input {
-    padding : 1.5% 10% 1.5% 10%;
+    padding : 1.5% 10% 1.5% 8%;
     border: none;
-    font-size: 60%;
+    font-size: 45%;
     width: 30%;
+    margin:auto;
+    text-align: center;
 }
 
 #Q1 > input {
-    padding : 1% 10% 1% 10%;
+    padding : 1.5% 10% 1.5% 8%;
     border: none;
-    font-size: 40%;
-    width: 25%;
+    font-size: 45%;
+    width: 30%;
+    margin:auto;
     text-align: center;
 }
 
@@ -122,8 +126,6 @@ p{
 #Q1, #Q2, #Q3{
     display: flex;
     justify-content: space-around;
-    
-    
 }
 
 #urne{
