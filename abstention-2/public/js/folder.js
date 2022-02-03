@@ -130,7 +130,7 @@ async function loadFolder(folderName) {
             loadTopSecret();
             break;
     }
-
+    date();
     const screen = document.getElementById('screen');
     const folderHtml = await loadTemplate('templates/folders/folder.ejs', Object.assign(data, FOLDER_DATA[folderName]));
     screen.innerHTML = folderHtml;

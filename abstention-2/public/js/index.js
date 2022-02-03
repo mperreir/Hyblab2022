@@ -97,7 +97,6 @@ function date() {
 
 // loadFileExplorer().then(loadEnd());
 
-loadRebet();
 
 loadStart();
 

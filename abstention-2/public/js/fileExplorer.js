@@ -12,6 +12,7 @@ async function loadFileExplorer() {
     const container = document.getElementById("container");
     const headerHtml = await loadTemplate('templates/header.ejs', []);
     container.innerHTML = headerHtml;
+    date();
     const screen = document.getElementById('screen');
 
     const fileExplorerHtml = await loadTemplate('templates/file_explorer/file_explorer.ejs', FOLDER_TITLES);
