@@ -39,7 +39,7 @@ const textes = {
     "p6-info4": "Ce dernier est compétent pour toute question de défense et de sécurité et peut se réunir en formations spécialisées.",
     "p6-info5": "Soit en conseil national <br> du renseignement, ou soit en conseil restreint pour les problématiques liées aux opérations extérieures.",
     "p6-info6": "À savoir que vous ne pouvez pas déclarer seul la guerre à un autre pays. Celle-ci doit être autorisée par le Parlement.",
-    "thanks" : "Comme Moua, vous avez pu découvrir une partie des pouvoirs du Président de la République. Nous espérons que le jeu vous aura plu. À vous maintenant de vous renseigner et d’en apprendre davantage sur les autres pouvoirs du Président sur le site vie-publique.fr. Sur ce, je retourne chez Moua.",
+    "thanks" : "Comme Moua, vous avez pu découvrir une partie des pouvoirs du Président de la République. <br>Nous espérons que le jeu vous aura plu. À vous maintenant de vous renseigner et d’en apprendre davantage sur les autres pouvoirs du Président sur le site vie-publique.fr. Sur ce, je retourne <br>chez Moua.",
     "pouvoirs-titre": {
         "p1": "Nommer le premier ministre",
         "p2": "Pouvoir reglementaire",
