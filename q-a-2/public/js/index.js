@@ -30,7 +30,7 @@ class App extends React.Component {
         <Step8Page data={data} nextStep={() => this.nextStep()} resetStep={() => this.resetStep()} />,
         <EndingPage nextStep={() => this.resetStep()} />
       ],
-      step: 4
+      step: 0
     }
   }
 
