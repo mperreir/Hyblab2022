@@ -367,3 +367,18 @@ a:link,a:visited{
     opacity: 50%;
     color:#AB4A4A;
 }
+
+button {
+  /* Disable OS styling */
+  appearance: none;
+  border: none;
+  text-shadow: 0 0 1px rgba(0, 0, 0, .3);
+  /* Animation (“transition” timing) */
+  transition: .5s background;
+  }
+  
+  
+/* When pressed */
+button:active {
+    background: black;
+}
