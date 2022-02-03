@@ -198,6 +198,12 @@ h1{
     font-family: "Outfit", sans-serif;
     font-size:17%;
 }
+
+.menu b {
+    text-shadow: 0 1px, 1px 0, 1px 1px;
+    font-size: 0.8em;
+}
+
 .menu .menu-candidat {
     height : 60px;
     width :30%;
@@ -734,6 +740,7 @@ img#theme {
     /* Here the font size is proportional to display width */
     body{
         font-size: calc(12vw*16/9);
+        background-color: white;
     }
 }
 
@@ -762,6 +769,7 @@ img#theme {
     /* Here the font size is proportional to display height */
     body{
         font-size: 12vh;
+        background-color: white;
     }
 }
 
