@@ -1,5 +1,6 @@
 /* Gestion Map */
 #map {
+    background-color: #F0E4D8;
     height: 150%;
     z-index: 0;
     top: -14%;
