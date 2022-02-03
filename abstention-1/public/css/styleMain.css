@@ -37,7 +37,7 @@ body{
     /* We set a default font size here. It will be the base for all other font sizes */
     /* Here the font size is proportional to display width */
     body{
-        font-size: calc(12vw*16/9);
+        font-size: calc(3vw*16/9);
     }
 }
 
@@ -49,7 +49,7 @@ body{
         width: 100vw;
         height: 88vh; /* pour les navigateurs qui ne supportent pas  -webkit-fill-available */
         height: -webkit-fill-available;
-        font-size: calc(12vw*16/9);
+        font-size: calc(3vw*16/9);
     }
 }
 
@@ -207,7 +207,7 @@ margin-top: 10%;
 
 @keyframes scroll {
     from {
-      transform: translate(-50%,200%);
+      transform: translate(-50%,150%);
     }
     25%{
       transform: translate(-50%,0);
@@ -216,16 +216,16 @@ margin-top: 10%;
       transform: translate(-50%,0);
     }
     60% {
-      transform: translate(-50%,200%);
+      transform: translate(-50%,150%);
     }
     to {
-      transform: translate(-50%,200%);
+      transform: translate(-50%,150%);
     }
 }
   
 #sphere {
-    width: 30px;
-    height: 30px;
+    width: 0.9em;
+    height: 0.9em;
     background-color: rgb(75, 75, 75);
     border-radius:50%;
     animation-duration: 3s;
@@ -237,9 +237,9 @@ margin-top: 10%;
 }
   
 #scrollIndicator {
-    border: 10px solid rgb(75, 75, 75);
-    width: 40px;
-    height: 100px;
+    border: 0.25em solid rgb(75, 75, 75);
+    width: 1em;
+    height: 2.2em;
     border-radius: 50px;
     position: fixed;
     transform: translate(-50%,-50%);
@@ -482,7 +482,7 @@ left: 3%;
 #QuizZone input{
     position: relative;
     display: inline-block;
-    font-size: large;
+    font-size: 2vh;
     border-radius : 10px;
     border : none;
     color : white;

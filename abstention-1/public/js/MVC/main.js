@@ -163,6 +163,15 @@ window.addEventListener("scroll", () => {
     else {
         AUDIO.pause();
     }
+
+    const scrollIndicator = document.getElementById("scrollIndicator");
+
+    if (scrollIndicator.style.opacity<=0) {
+        scrollIndicator.classList.add("hide");
+    }
+    else {
+        scrollIndicator.classList.remove("hide");
+    }
 })
 
 
