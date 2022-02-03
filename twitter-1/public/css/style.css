@@ -526,6 +526,7 @@ th, td {
     margin: auto;
     margin-top: 5%;
     display: flex;
+    font-size : 80%;
     padding: 2.5%;
 }
 
