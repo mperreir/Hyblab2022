@@ -198,11 +198,6 @@ h1{
     font-family: "Outfit", sans-serif;
     font-size:17%;
 }
-
-.menu b {
-    font-weight: 900;
-}
-
 .menu .menu-candidat {
     height : 60px;
     width :30%;
@@ -292,9 +287,6 @@ div{
     height:80%;
     margin-top: 0;
     margin-left: 0;
-    display : flex;
-    flex-wrap : wrap;
-    justify-content: space-evenly;
 }
 
 
@@ -384,7 +376,7 @@ th, td {
     height: 32vh;
     width: 95%;
     border-radius: 70px;
-    margin-top: 4vh;
+    margin-top: 2vh;
     margin-left: auto;
     margin-right: auto;
     overflow: visible !important;
@@ -492,11 +484,13 @@ th, td {
     }
 }
 
+#barplot{
+    filter: drop-shadow(5px 5px 5px rgb(0 0 0 / 0.3));
+}
+
 #comment{
     margin-top : 6%;
     text-align : center;
-    font-size : 90%;
-    font-weight: 900;
     display :block;
 }
 
@@ -550,19 +544,6 @@ th, td {
     margin-left : 2%;
     height : 1vh;
     text-align: center;
-    font-size : 85%;
-    /*font-weight : 900;
-    text-shadow: 0px 1px, 1px 0px, 1px 1px;*/
-
-}
-
-.swiper .toptweet #tweetname #nom{
-    padding: 5%;
-    margin-left : 2%;
-    height : 1vh;
-    text-align: center;
-    font-weight : 900;
-    /*text-shadow: 0px 1px, 1px 0px, 1px 1px;*/
 
 }
 
@@ -570,14 +551,12 @@ th, td {
     margin-left : 22%;
     width:70%;
     text-align: initial;
-    font-size : 85%;
 
 }
 
 #theme-pic{
     justify-content: center;
     display: flex;
-    margin-top : 2vh;
 }
 
 img#theme {
@@ -591,8 +570,7 @@ img#theme {
 
 #table-top {
     margin: auto;
-    font-size: 75%;
-    text-transform :uppercase;
+    font-size: initial;
 
 }
 
