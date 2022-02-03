@@ -89,6 +89,7 @@ body {
     margin-top: 30vh;
     margin-left: 10%;
     font-family: 'Lato', sans-serif;
+    white-space:nowrap;
 }
 #answer>.answer-text > span {
     font-weight: bolder;
