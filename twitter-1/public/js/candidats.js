@@ -79,6 +79,10 @@ const initSlide3 = async function () {
         }else{
             nom.innerHTML = `${candidat.name}`;
         }
+
+        // passe du prénom et du nom du candidat sur une autre ligne
+        nom.innerHTML = nom.innerHTML.replace(' ', '</br>');
+
         console.log(nom);
 
         //Get the candidats:popup from html document (have to change number)
