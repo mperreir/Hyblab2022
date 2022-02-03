@@ -6,7 +6,12 @@ restart.addEventListener('click', () => {
 });
 
 
-let nb_objets = localStorage.getItem('inventaire').split(',').length - 1;
+let nb_objets = localStorage.getItem('inventaire').split(',').length;
+
+if (localStorage.getItem('inventaire').split(',')[0] == '') {
+	nb_objets = 0;
+}
+
 let richesse = ' richesse';
 if (nb_objets > 1) {
 	richesse = ' richesses'
