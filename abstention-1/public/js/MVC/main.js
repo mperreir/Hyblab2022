@@ -17,12 +17,12 @@ const sujetAnimation = new AnimationModel(
 let sujetControler = new AnimationControler([sujetAnimation]);
 
 let scenes = [
-    new DialogueModel(dialogues[0].Texte,"M. Martin 51ans"),
-    new DialogueModel(dialogues[1].Texte,"Arthur 17ans"),
-    new DialogueModel(dialogues[2].Texte,"Nouvelle arrivante 24ans"),
-    new DialogueModel(dialogues[3].Texte,"M. le maire 46ans"),
-    new DialogueModel(dialogues[4].Texte,"Mme Robert 82ans"),
-    new DialogueModel(dialogues[5].Texte,"M. Martin 51ans"),
+    new DialogueModel(dialogues[0],"M. Martin 51ans"),
+    new DialogueModel(dialogues[1],"Arthur 17ans"),
+    new DialogueModel(dialogues[2],"Nouvelle arrivante 24ans"),
+    new DialogueModel(dialogues[3],"M. le maire 46ans"),
+    new DialogueModel(dialogues[4],"Mme Robert 82ans"),
+    new DialogueModel(dialogues[5],"M. Martin 51ans"),
 ]
 
 // let controleur = [new Controler(scene1), new Controler(scene2), new Controler(scene3), new Controler(scene4), new Controler(scene5)];

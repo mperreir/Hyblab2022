@@ -1,8 +1,8 @@
 class DialogueModel extends Observable {
     constructor(scene, description){
         super();
-        this.scene=scene;
-
+        this.numScene = scene.Dialogue;
+        this.scene=scene.Texte;
         this.description =description;
         this.nom=this.scene[0].Personne;
         this.dialogue=this.scene[0].Replique;
@@ -31,9 +31,12 @@ class DialogueModel extends Observable {
         //S'il n'y a pas de quiz ou de jeu à lancer derrière cette réplique
         if(this.scene[this.counter].Quiz != 1 && this.scene[this.counter].PFC != 1){
 
+            //On cache les autres div sauf le dialogue
             document.querySelector("#textDialogue").style.visibility = "visible";
             document.querySelector(".box").style.visibility = "hidden";
             document.querySelector(".resultat").style.visibility = "hidden";
+            document.querySelector("#QuizZone").style.visibility = "hidden";
+            document.querySelector("#reponse").style.visibility = "hidden";
 
         } else {
             //S'il faut lancer le PFC
@@ -46,9 +49,11 @@ class DialogueModel extends Observable {
                 }, 4000);
             } else { //S'il faut lancer un quiz
                 document.querySelector("#Suite").style.visibility = "hidden";
+                lancerQuiz(this.numScene);
                 setTimeout(function(){
                     document.querySelector("#textDialogue").style.visibility = "hidden";
                     document.querySelector("#QuizZone").style.visibility = "visible";
+                    document.querySelector("#Suite").style.visibility = "visible";
                 }, 4000);
             }
         }

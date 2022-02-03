@@ -407,7 +407,6 @@ left: 3%;
 /*Quiz*/
 #QuizZone{
     position:absolute;
-    background-color: #E66E78;
     width: 85%;
     border-radius: 6%;
     height: calc(100vh/4);
@@ -415,12 +414,67 @@ left: 3%;
     left:7%;
     visibility: hidden;
     z-index:3;
+    text-align: center;
 }
-#QuizZone button{
-    display: flex;
-    height: 20%;
-    width: 100%;
+#QuizZone p{
+    background-color: #E66E78;
+    border-radius : 10px;
+    outline : none;
+    border : none;
+    color : white;
+}
+#QuizZone input{
+    position: relative;
+    display: inline-block;
     font-size: large;
+    border-radius : 10px;
+    border : none;
+    color : white;
+    cursor: pointer;
+    padding: 3%;
+    margin-top: 3%;
+    width: 100%;
+    height: auto;
+}
+
+/*Boutons choix des questions*/
+#QuizZone input[id='reponseA']{
+    background-color: blue;
+}
+#QuizZone input[id='reponseB']{
+    background-color: #29BA9B;
+}
+#QuizZone input[id='reponseC']{
+    background-color: #E66E78;
+}
+
+/*Afiichage des réponses*/
+#reponse{
+    visibility: hidden;
+    position:absolute;
+    width: 85%;
+    border-radius: 6%;
+    height: calc(100vh/4);
+    top:20%;
+    left:7%;
+}
+
+#reponse p{
+    border-radius : 10px;
+    outline : none;
+    border : none;
+    color : white;
+    font-size: small;
+    padding: 3%;
+}
+#reponse input[id='retour']{
+    background-color: blue;
+    color : white;
+    border : none;
+    border-radius : 3px;
+    position: relative;
+    padding: 3%;
+    top: 0%;
 }
 
 /*--------------Section transition--------------*/
