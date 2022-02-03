@@ -287,6 +287,8 @@ div{
     height:80%;
     margin-top: 0;
     margin-left: 0;
+    display : flex;
+    flex-wrap : wrap;
 }
 
 
