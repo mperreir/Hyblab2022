@@ -8,6 +8,7 @@
     right: 22.94%;
     top: 1.25%;
     bottom: 65.94%;
+    z-index: 1;
 
     transform: rotate(4.76deg);
     animation:enveloppebleue_animation 2.5s;
@@ -37,6 +38,7 @@
     right: -10.44%;
     top: 30.78%;
     bottom: 41.96%;
+    z-index: 3;
     animation:envelopperouge_animation 2.5s;
     -webkit-animation:envelopperouge_animation 2.5s; /* Safari and Chrome */
 }
@@ -64,6 +66,7 @@ left: -19.36%;
 right: 32.44%;
 top: 52.91%;
 bottom: 11.89%;
+z-index: 2;
 transform: rotate(-0.75deg);
     animation:enveloppeblanche_animation 2.5s;
     -webkit-animation:enveloppeblanche_animation 2.5s; /* Safari and Chrome */
@@ -94,6 +97,7 @@ transform: rotate(-0.75deg);
     bottom: -2.48%;
     border: 0.5px;
     width: 50%;
+    z-index: 4;
     transform: rotate(5.75deg);
     animation:carte_animation 2.5s;
     -webkit-animation:carte_animation 2.5s; /* Safari and Chrome */
