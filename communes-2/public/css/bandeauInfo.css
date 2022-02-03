@@ -48,9 +48,9 @@
 #bandeau {
     padding-top: 3%;
     width:100%;
-    height:25%;
-    position: absolute;
     bottom: 0;
+    position: absolute;
+    text-align: center;
     background-color: none;
     font-size: 20%;
   }
@@ -59,7 +59,7 @@
     list-style-type: none;
     display: inline-block;
     vertical-align: middle;
-    margin: 0 0.5em;
+    margin: 0 0.25em;
   }
 
   #bandeau img {
@@ -68,7 +68,7 @@
 
   #bandeau #hyblab {
     margin: 1em auto;
-    height: 3em;
+    height: 1.5em;
     display: block;
   }
 
@@ -83,9 +83,4 @@
   #bandeau ul {
     text-align: center;
     padding: 0 0;
-  }
-
-  #bandeau .institutionnel
-  {
-    height: 2em;
   }
