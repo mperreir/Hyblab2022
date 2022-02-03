@@ -8,6 +8,8 @@ page('/communes-2/resultatInterFalse', async function () {
 });
 
 page('/communes-2/resultatInterTrue', async function () {
+    document.getElementById("background-confetti").src = "video/confetti.gif";
+
     await renderTemplate(templates('./templates/resultatInter.mustache'));
     document.getElementById('titreScoreInter').textContent = "BONNE RÉPONSE";
     initResultatInter();
