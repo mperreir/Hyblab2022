@@ -96,7 +96,7 @@
 	justify-content: center;
     grid-column: 1;
     grid-row: 3;
-    background-color: #C8A166;
+    background-color: #C57EB3;
     border-radius: 15px;
 }
 
@@ -106,7 +106,7 @@
 	justify-content: center;
     grid-column: 2;
     grid-row: 3;
-    background-color: #AF3834;
+    background-color: #2979EE;
     border-radius: 15px;
 }
 
@@ -116,7 +116,7 @@
 	justify-content: center;
     grid-column: 3;
     grid-row: 3;
-    background-color: #C57EB3;
+    background-color: #C8A166;
     border-radius: 15px;
 }
 
@@ -136,7 +136,7 @@
 	justify-content: center;
     grid-column: 2;
     grid-row: 4;
-    background-color: #2979EE;
+    background-color: #AF3834;
     border-radius: 15px;
 }
 
