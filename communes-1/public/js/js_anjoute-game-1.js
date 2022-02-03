@@ -58,7 +58,7 @@ function bonneVersion(name){
 		case 'cheval':
 			return "Un ChevaL Du Cadre Noir"
 		case 'bateau':
-			return "Le Bateau De Loire Expres"
+			return "Le Bateau De Loire Express"
 	}
 
 }
