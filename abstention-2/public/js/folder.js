@@ -4,7 +4,7 @@
 const FOLDER_DATA = {
     abstention: {
         logoPath: 'img/folders_titles/abstention.svg',
-        mainText: 'L\'absention constitue le plus souvent <span class="fd-font-bold">un choix et une mode d\'expression politique</span>. Le rapport au vote comme un devoir d\'étant érodé, il est désormais employé comme mode d\'expression contre les élus qui incarnent la démocratie.',
+        mainText: 'L\'absention constitue le plus souvent <span class="fd-font-bold">un choix et une mode d\'expression politique</span>. Le rapport au vote comme un devoir s\'étant érodé, il est désormais employé comme mode d\'expression contre les élus qui incarnent la démocratie.',
         percentMessage: 'd\'abstention.',
         secondaryText: 'Selon les résultats de la consultation publique menée sur le site de l\'Assemblée nationale, les raisons sont premièrement le mécontentement à l\'égard de la classe politique et également les accusations de corruption ou de manque d\'honnêteté.<br><br>L\'acte politique au travers de l\'abstention n\'est donc pas le refus des candidats, mais le rejet du système en lui-même.<br><br>Pour éviter cela, il est proposé de comptabiliser le vote blanc dans les résultats, mais en pratique cela est impossible, puisque si le vote blanc est majoritaire, aucun candidat n\'est élu.',
         firstLinkName: 'Site du gouvernement',
@@ -14,7 +14,7 @@ const FOLDER_DATA = {
     },
     nouveauxHabitants: {
         logoPath: 'img/folders_titles/nouveaux_habitants.svg',
-        mainText: 'La décision de ne pas se rendre aux urnes relève, pour une part des abstentionnistes, de contraintes physiques. Le fait de ne pas figurer sur les listes électorales constitue<span class="fd-font-bold">un obstacle évident</span>.<br><br>Par exemple, la <span class="fd-font-bold">« mal-inscription »</span> désigne la situation dans laquelle des citoyens qui déménagent sont inscrits sur les listes électorales de leur ancienne adresse sans que cela ne relève de leur choix.',
+        mainText: 'La décision de ne pas se rendre aux urnes relève, pour une part des abstentionnistes, de contraintes physiques. Le fait de ne pas figurer sur les listes électorales constitue <span class="fd-font-bold">un obstacle évident</span>.<br><br>Par exemple, la <span class="fd-font-bold">« mal-inscription »</span> désigne la situation dans laquelle des citoyens qui déménagent sont inscrits sur les listes électorales de leur ancienne adresse sans que cela ne relève de leur choix.',
         percentMessage: 'de nouveaux habitants qui n\'ont pas pu voter.',
         secondaryText: 'Bien que l\'inscription sur les listes électorales soit obligatoire selon l\'article 9 du code électoral, cette inscription, ainsi que le changement de liste en cas de déménagent, reposent sur une démarche volontaire, qui doit être accomplie directement par le citoyen.',
         firstLinkName: 'Rapport d\'informations',
@@ -26,7 +26,7 @@ const FOLDER_DATA = {
         logoPath: 'img/folders_titles/blancs_nuls.svg',
         mainText: 'Le vote blanc consiste à déposer dans l\'urne une <span class="fd-font-bold">enveloppe vide ou contenant un bulletin dépourvu de tout nom de candidat.</span>',
         percentMessage: 'de vote blanc au second tour des élections présidentielles de 2017.',
-        secondaryText: "L'électeur n'a pas forcément souhaité que son vote soit nul (il a cru, par exemple, qu'une mention manuscrite ajoutée n'aurait aucune incidence).<br><br>Il se peut aussi que suite à un défaut de procédure, tous les bulletins d'un bureau de vote soient cosidérés comme nuls (commune de Savenay par ex.).<br><br>Mais il arrive également que l'électeur ait volontairement déposé un bulletin nul pour manifester son opposition aux différents candidats et programmes présentés. Dans ce cas, le vote nul se rapproche du vote blanc.",
+        secondaryText: "L'électeur n'a pas forcément souhaité que son vote soit nul (il a cru, par exemple, qu'une mention manuscrite ajoutée n'aurait aucune incidence).<br><br>Il se peut aussi que suite à un défaut de procédure, tous les bulletins d'un bureau de vote soient considérés comme nuls (commune de Savenay par ex.).<br><br>Mais il arrive également que l'électeur ait volontairement déposé un bulletin nul pour manifester son opposition aux différents candidats et programmes présentés. Dans ce cas, le vote nul se rapproche du vote blanc.",
         firstLinkName: 'Site du gouvernement',
         firstLink: 'https://www.vie-publique.fr/fiches/23931-abstention-vote-blanc-et-vote-nul-quelles-differences',
         secondLinkName: 'Le parti vote blanc',
@@ -34,9 +34,9 @@ const FOLDER_DATA = {
     },
     etrangers: {
         logoPath: 'img/folders_titles/etrangers.svg',
-        mainText: 'Historiquement, le vote a été construit comme corollaire d\'une<span class="fd-font-bold">citoyenneté elle-même référée à la nationalité.</span><br><br>Le vote est lié à <span class="fd-font-bold">la nationalité et non au pays de résidence.</span>Par conséquent, les étrangers résidant sur le territoire national ne votent pas, tandis que les français établis à l\'étranger puevent, sous certaines conditions, voter.',
+        mainText: 'Historiquement, le vote a été construit comme corollaire d\'une <span class="fd-font-bold">citoyenneté elle-même référée à la nationalité.</span><br><br>Le vote est lié à <span class="fd-font-bold">la nationalité et non au pays de résidence. </span>Par conséquent, les étrangers résidant sur le territoire national ne votent pas, tandis que les français établis à l\'étranger peuvent, sous certaines conditions, voter.',
         percentMessage: "d'étrangers qui n'ont pas pu émettre un vote.",
-        secondaryText: "Historiquement, le droit de vote a été accordé aux étrangers de plus de 21 ans selon certaines conditions par la constitution 24 juin 1793. Cette constituions n'a cependant jamais été appliquée.",
+        secondaryText: "Historiquement, le droit de vote a été accordé aux étrangers de plus de 21 ans selon certaines conditions par la constitution 24 juin 1793. Cette constitution n'a cependant jamais été appliquée.",
         firstLinkName: 'Fiche thématique',
         firstLink: 'https://www.vie-publique.fr/fiches/23928-les-etrangers-ont-ils-le-droit-de-vote',
         secondLinkName: 'Précisions',
