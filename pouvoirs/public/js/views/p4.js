@@ -87,12 +87,12 @@ function linkDiv(divId, valid) {
                 setTimeout(()=>{
                     document.getElementById("p4-bulle-pm").setAttribute ('src',"img/dialogBoxes/P4_MEDIUM_NOTE.svg");
                     document.getElementById("p4p1").innerText = getText("p4-note1");
-                }, 2500);
+                }, 3000);
                 setTimeout(()=>{
                     document.getElementById("p4p1").innerText = getText("p4-note2");
                     swiper.enable();
                     showArrow();
-                }, 5000);
+                }, 7000);
             }
 
         }, false);
