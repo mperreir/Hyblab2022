@@ -351,9 +351,6 @@ display:inline-block;
         text-decoration:none;
 }
 
-.sansserif{
-    color:#AC4B4B;
-}
 
 a:link,a:visited{
     display:inline-block;
@@ -362,6 +359,7 @@ a:link,a:visited{
     margin:0.5%;
     text-decoration:none;
 }
+
 
 .not_current{
     opacity: 50%;

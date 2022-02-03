@@ -415,3 +415,40 @@ footer{
     .not_current{
         opacity: 50%;
     }
+
+
+.pagenumber_bureau{
+        position: absolute;
+        color:#AC4B4B;
+        margin-top: 5%;
+        text-align:center;
+        font-weight:bolder;
+        font-size:15%;
+        width: 100%;
+        font-family:"mariannemedium";
+        bottom:2.5%;
+}
+
+#currentnum_bureau{
+display:inline-block;
+        color:#AB4A4A;
+        text-decoration:none;
+}
+
+
+a:link,a:visited{
+        display:inline-block;
+        color:#AC4B4B;
+        padding:0% 3%;
+        margin:0.5%;
+        text-decoration:none;
+}
+
+.sansserif_bur{
+        color:#AC4B4B;
+    }
+
+.not_current{
+        opacity: 50%;
+        color:#AB4A4A;
+}
