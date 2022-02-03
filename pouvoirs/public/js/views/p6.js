@@ -16,7 +16,7 @@ const init_p6 = function () {
 
     const clockEffect = createAudio("data/sounds/clockTicking.mp3");
     const goodAns = createAudio("data/sounds/good_choice.mp3", false,0.7, 1);
-    const explosionSE = createAudio("data/sounds/explosion.mp3", false,0.7, 1);
+    const explosionSE = createAudio("data/sounds/explosion.mp3", false,0.4, 1);
 
     dialog_before.querySelector(".dialog-text").innerHTML = getText("p6-etatmajor");
     dialog_moua.querySelector(".dialog-text").innerHTML = getText("p6-moua");
