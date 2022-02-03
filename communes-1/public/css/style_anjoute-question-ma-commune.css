@@ -4,28 +4,10 @@
     background-color: #11151B;
 }
 
-.blabla {
-    font-size: 14%;
-    font-weight: 800;
-    margin-top: 8%;
-    margin-left: 8%;
-    color: #75BE8F;
-    font-family: 'Baloo Tamma 2';
-}
-
-.blabla .texte {
-    width: 60%;
-}
-
-.blabla .recompense {
-    margin: 8px;
-    font-family: 'Lineal', sans-serif;
-    font-size: 220%;
-}
 
 .bloc-question {
     z-index: 10;
-    margin-top: 5vh;
+    margin-top: 8vh;
     display: flex;
     justify-content: center;
     align-items: center;
