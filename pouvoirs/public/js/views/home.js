@@ -18,6 +18,7 @@ const textIntro = document.querySelector("#homepage p");
 
 // async init function (because of the awaits on fetches)
 const homepage_slide = function(){
+  swiper.disable();
   textIntro.innerHTML = getText("home");
 
   const sound1 = createAudio("data/sounds/spaceshipStatic.mp3",true);
@@ -82,6 +83,7 @@ function animateLoading() {
             complete: function(anim) {
               // Headphones disappear after <headPhoneTimeout>
               setTimeout(() => {
+                swiper.enable();
                 swiper.slideNext();
                 falling_slide();
               }, headPhoneTimeout)

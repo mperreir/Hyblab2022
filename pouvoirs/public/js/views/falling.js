@@ -9,6 +9,8 @@ const fallingTextIntro = document.querySelector("#falling .bulle p");//getText("
 
 const falling_slide = function () {
 
+  swiper.disable();
+
   fallingTextIntro.innerHTML = getText("rules");
 
   background1.play();
@@ -52,6 +54,7 @@ function makeFall() {
                     loop: false,
                     easing: 'easeInOutCubic',
                     complete: () => {
+                      swiper.enable();
                       background2.destroy();
                       [fallingEffect, oups, swoosh].forEach((e) => e.unload());
                       swiper.slideTo(2)
