@@ -301,7 +301,7 @@ div{
 .button-candidat{
     width: 30%;
     /*height: 40px;*/
-    height:22%;
+    height:15%;
     /*padding: 0;*/
     /*padding-bottom : 4%;*/
     border: none;
@@ -327,7 +327,7 @@ div{
 
 .profile2{
     max-width: 70%;
-    max-height: 55%;
+    max-height: 70%;
     border-radius: 50%;
     border : 3px solid white;
     box-shadow: 7px 7px 25px rgba(0, 0, 0, 0.25);
