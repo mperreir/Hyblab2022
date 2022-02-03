@@ -15,7 +15,7 @@ function BarChart(data, {
     marginRight = 30, // the right margin, in pixels
     marginBottom = 0, // the bottom margin, in pixels
     marginLeft = 0, // the left margin, in pixels
-    width = 400, // the outer width of the chart, in pixels
+    width = 450, // the outer width of the chart, in pixels
     height = 140, // the outer height of the chart, in pixels
     xDomain, // an array of (ordinal) x-values
     xRange = [marginLeft, width - marginRight], // [left, right]
