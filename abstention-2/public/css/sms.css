@@ -298,14 +298,14 @@
     border: 0;
     background-image: url('../img/fleche-sms.svg');
     cursor: pointer;
-    -webkit-tap-highlight-color: transparent;
+    /* -webkit-tap-highlight-color: transparent; */
 }
 
-@media not all and (hover: none) {
+/* @media not all and (hover: none) {
    .sms-tread-btn:hover {
     background-color: #c0c3ff;
    } 
-}
+} */
 
 .sms-tread-btn:active{
     background-color: #c0c3ff;
