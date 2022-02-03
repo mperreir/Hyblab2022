@@ -219,6 +219,12 @@ function start() {
         AjoutDesCandidatsPourSelection(candidats)
 
         getSondages().then(({ sondages, lastDate }) => {
+            // Mise à jour de la date du dernier sondage
+            // pour ne pas avoir une ligne d'arrivée sans intentions de vote car pas de sondage
+            const divDernierSondage = document.getElementById('LastPoll');
+            const pDernierSondage = divDernierSondage.querySelectorAll('p')[1];
+            const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+            pDernierSondage.innerText += ' ' + lastDate.toLocaleDateString('fr-FR', options);
 
             console.info("Données de sondage chargés !")
             const CANDIDATS = InitDesIntentions(sondages, candidats)
