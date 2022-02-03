@@ -261,7 +261,7 @@ function finJeu(score,total){
     image.setAttribute("id","etoile");
     image.style.width="40%";
     image.style.position = "relative";
-    image.style.top = "48%";
+    image.style.top = "10%";
     image.style.left = "20%";
 
     jeu.appendChild(image);
