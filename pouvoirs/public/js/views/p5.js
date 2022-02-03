@@ -57,9 +57,7 @@ const release = function() {
 };
 const switchingAnimation = function() {
     animationsContainer.removeChild(document.querySelector("#animationsContainer svg"));
-    console.log(document.querySelector("#animationsContainer"));
     const prisonGridUp = createAnimation("animationsContainer","data/animations/prisonGridUp.json",false);
-    console.log(document.querySelector("#animationsContainer"));
     return prisonGridUp;
 };
 const displayHelp = function(){
@@ -177,11 +175,11 @@ const showDialogBoxes = function(sounds) {
                 complete: (anim) => {
                     shifts.bubble1 = 100;
                     shakeElement(dialogBox4);
+                    animationsContainer.addEventListener("click",() => release(), { once: true });
                 }
              });
         },3000);      
     },10000);
-    animationsContainer.addEventListener("click",() => release(), { once: true });
 }
 const showNoteBox = function() {
     deleteDialogBox("3");
