@@ -9,17 +9,6 @@
     background-color: #11151B;
 }
 
-
-.img_container {
-    text-align: center;
-}
-
-.img_container img {
-    width: 70%;
-    height: auto;
-    padding-top: 5vh;
-}
-
 .mid {
     display: flex;
     flex-direction: column;
@@ -76,7 +65,7 @@
 }
 
 .recompense img {
-    width: 60%;
+    height: 2.5em;
 }
 
 .bottom {
