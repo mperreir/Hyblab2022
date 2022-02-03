@@ -736,6 +736,7 @@ body{
     overflow: auto;
     scrollbar-color: #c4c4c4 white;
     scrollbar-width: thin;
+    margin-bottom: 2vh;
 
     background: /* Shadow covers */
         linear-gradient(white 30%, rgba(255, 255, 255, 0)), linear-gradient(rgba(255, 255, 255, 0), white 70%) 0 100%, /* Shadows */
@@ -780,10 +781,10 @@ body{
     border: transparent;
 }
 
-.questionCard_nextStep {
+/*.questionCard_nextStep {
     position: absolute;
     bottom: 4vh;
-}
+}*/
 
 .questionCard_learnMore {
     margin-top: 4vh;
