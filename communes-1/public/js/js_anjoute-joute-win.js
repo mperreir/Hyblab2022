@@ -21,7 +21,7 @@ function bonneVersion(name){
 			return "img/recompenses/Château_D_Angers.png"
 		case 'Un ChevaL Du Cadre Noir':
 			return "img/recompenses/Cheval_Du_Cadre_Noir.png"
-		case 'Le Bateau De Loire Expres':
+		case 'Le Bateau De Loire Express':
 			return "img/recompenses/Bateau_De_Loire_Expres.png"
 	}
 
