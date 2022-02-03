@@ -14,6 +14,12 @@ class DialogueControler {
         // update
 
         //  action
+        this.view.telechargement?.addEventListener("click", ()=> {window.location.href = 'Abstention.pdf';});
+        this.view.VersCredit?.addEventListener("click", ()=> {window.location.href = 'credit.html';});
+        this.view.btnrecommencer?.addEventListener("click", ()=> {window.location.href = 'index.html';});
+        this.view.btnretour?.addEventListener("click", ()=> {window.location.href = 'voyage.html';});
+
+
         this.view.go?.addEventListener("click", ()=> {window.location.href = 'voyage.html';});
 
         this.view.info.addEventListener("click", ()=> {

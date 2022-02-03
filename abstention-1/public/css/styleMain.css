@@ -752,6 +752,7 @@ img[id="Pierre"], img[id="Feuille"], img[id="Ciseaux"]{
     position: relative;
     text-align: center;
     padding: 10%;
+    display: none;
 }
 #espacePerso{
 position: relative;
@@ -830,6 +831,7 @@ margin-top: 40vh;
     color: #0600FF;
     padding: 4%;
     margin-bottom: 20%;
+    display: none;
 }
 
 #anneaux2{
