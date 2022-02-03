@@ -2,7 +2,10 @@ function getSondages() {
     return new Promise((resolve, reject) => {
         fetch('./api/getData')
             .then(e => e.json())
-            .then(candidats => resolve(candidats))
+            .then(candidats => {
+                candidats.lastDate = new Date(candidats.lastDate)
+                resolve(candidats)
+            })
             .catch(err => reject(err))
     })
 }
@@ -97,8 +100,7 @@ function scrollToRace() {
     })
 }
 
-function GetScrollDate(index, nbr_jour) {
-    let dateIn = new Date();
+function GetScrollDate(index, dateIn, nbr_jour) {
     dateIn.setHours(12);
     let date = new Date(dateIn.setDate(dateIn.getDate() - (nbr_jour - index)));
 

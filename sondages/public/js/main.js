@@ -269,7 +269,7 @@ function start() {
             INDEX_PREV = indexJour
 
             // Récupération du jour en fonction du scroll
-            const currDate = GetScrollDate(indexJour, NBR_JOUR);
+            const currDate = GetScrollDate(indexJour, lastDate, NBR_JOUR);
 
             // On met a jour la progress bar
             TimeInfoProgress.style.width = (indexJour / NBR_JOUR * 100) + "%";
