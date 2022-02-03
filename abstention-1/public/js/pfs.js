@@ -19,24 +19,26 @@ for (let i = 0; i < buttons.length; i++) {
         }
 
         document.querySelector(".box").style.visibility = "hidden";
-        let result = document.querySelector(".resultat");
+        setTimeout(function(){
+            let result = document.querySelector(".resultat");
 
-        let choixJoueur = document.createElement('p');
-        choixJoueur.id = joueur;
-        choixJoueur.innerHTML = `<img src="img/${joueur}.svg">`;
+            let choixJoueur = document.createElement('p');
+            choixJoueur.id = joueur;
+            choixJoueur.innerHTML = `<img src="img/${joueur}.svg">`;
 
-        let choixRobot = document.createElement('p');
-        choixRobot.id = robot;
-        choixRobot.innerHTML = `<img src="img/${robot}.svg">`;
+            let choixRobot = document.createElement('p');
+            choixRobot.id = robot;
+            choixRobot.innerHTML = `<img src="img/${robot}.svg">`;
 
-        let finPartie = document.createElement('p');
-        finPartie.id = resultat;
-        finPartie.innerHTML = `${resultat}`;
+            let finPartie = document.createElement('p');
+            finPartie.id = resultat;
+            finPartie.innerHTML = `${resultat}`;
 
-        result.appendChild(choixJoueur);
-        result.appendChild(choixRobot);
-        result.appendChild(finPartie);
+            result.appendChild(choixJoueur);
+            result.appendChild(choixRobot);
+            result.appendChild(finPartie);
 
-        document.querySelector("#Suite").style.visibility = "visible";
+            document.querySelector("#Suite").style.visibility = "visible";
+        }, 500);
     });
 }
