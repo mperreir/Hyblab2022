@@ -71,6 +71,8 @@ header div{
     border: solid 1px;
     color:#C4C4C4;
     font-size:50%;
+    text-align: center;
+    line-height:0px;
 }
 
 #container{
