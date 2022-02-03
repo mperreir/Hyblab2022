@@ -27,7 +27,7 @@ async function quizScreen() {
   {
     quiz: {
       question: "À quoi est lié le droit de vote ?",
-      answer: ["Pays de résidence", "Âge", "Nationalité"],
+      answer: ["Pays de résidence", "Signe astro", "Nationalité"],
       goodAnswer: 2
     }
   }, {
