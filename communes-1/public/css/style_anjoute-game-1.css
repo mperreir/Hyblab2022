@@ -1,9 +1,9 @@
 #container {
-	height: 100%;
 	background-color: #11151B;
 }
 
 .blabla {
+	z-index: 1;
 	font-size: 14%;
 	font-weight: 800;
 	margin-top: 8%;
@@ -74,16 +74,17 @@
 	padding: 1.5vh;
 }
 
-.animation_perso {
+.bloc-video {
 	position: absolute;
+	bottom: 3vh;
 	width: 100%;
-	z-index: 0;
-	bottom: 8vh;
 	text-align: center;
 }
 
-.animation_perso source {
-	width: 80%;
+.animation_perso {
+	height: 50vh;
+	z-index: 0;
+	bottom: 8vh;
 }
 
 .ville {
@@ -91,7 +92,7 @@
 	width: 100%;
 	text-align: center;
 	position: absolute;
-	top: 90vh;
+	bottom: 5vh;
 }
 
 .ville p {
