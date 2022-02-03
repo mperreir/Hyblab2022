@@ -82,7 +82,7 @@
 }
 
 .animation_perso {
-	height: 50vh;
+	width: 75%;
 	z-index: 0;
 	bottom: 8vh;
 }
