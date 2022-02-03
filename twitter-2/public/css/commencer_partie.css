@@ -67,8 +67,7 @@ button{font-family: 'blatantregular';}
 .lato {
     font-size: 2.15vh;
     font-family: 'Lato', sans-serif;
-    width:45vh;
-    text-align: center;
+    white-space: nowrap;
 }
 
 /* ---------- Important media queries for easy responsive content :-) ----------------- */
