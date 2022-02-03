@@ -92,6 +92,7 @@ button_to_slide2.addEventListener('click', geoFindMe);
 
 
 async function displayBureauxVotefromLocation(latitude, longitude){
+  deleteContentSlide2();
   swiper.slideNext();
   
   let response = await fetch('api/bureaux_vote/' + latitude + '/' + longitude + '/');
@@ -156,12 +157,23 @@ async function displayBureauxVotefromLocation(latitude, longitude){
 
   
     global_div.appendChild(div_couple_bureaux);
+
   }
 
 }
 
 
+function deleteContentSlide2(){
+  let global_bureaux_div = document.querySelector('#liste_bureaux');
+  let all_bureaux_div = document.querySelectorAll(".div_couple_bureaux");
+
+  for(var i = 0; i < all_bureaux_div.length; i++){
+    global_bureaux_div.removeChild(all_bureaux_div[i]);
+  }
+
+}
+
 function goToSlide1(){
-  console.log('cheh');
   swiper.slidePrev();
+  deleteContentSlide2();
 }
