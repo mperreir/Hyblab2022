@@ -34,7 +34,7 @@ class Step3Page extends Page {
                 <GamePage
                     step={step}
                     title='Vérifie les déclarations des candidat·e·s.'
-                    subtitle="Désélectionne ce qui n'est pas nécessaire dans la déclaration du patrimoine et des intérêts des candidat·e·s."
+                    subtitle="Décoche ce qui n'est pas nécessaire dans la déclaration du patrimoine et des intérêts des candidat·e·s."
                     //subtitle="Les candidats ont rempli leur déclaration du patrimoine et des intérêts mais tout n'a pas besoin d'être déclaré. Décoche ce qui n'est pas nécessaire."
                     buttonTitle='Valider'
                     returnToExplanations={() => this.returnToExplanations()}

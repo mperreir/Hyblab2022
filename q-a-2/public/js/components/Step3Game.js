@@ -44,6 +44,11 @@ class Step3Game extends React.Component {
     }
 
     componentDidMount() {
+        this.props.gameSaveState({
+            win: false,
+            data: JSON.parse(JSON.stringify(this.state)),
+            candidatesNextStep: stepsCandidates["3"]
+        });
         this.props.enableGameButton();
         new Swiper('.step3Game_profiles', {
             direction: 'horizontal',
