@@ -1043,7 +1043,7 @@ body{
     background-color: white;
     border-radius: 50%;
     vertical-align: middle;
-    border: 0.3vh solid black;
+    border: 0.15vh solid black;
     appearance: none;
     -webkit-appearance: none;
     outline: none;
@@ -1054,22 +1054,12 @@ body{
 }
 
 .checkbox_round:checked {
+    border: none;
     background-image: url('../img/checkmark.svg');
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
 }
-
-/*input[type="checkbox"]::before {
-  
-    transform-origin: bottom left;
-    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
-}
-
-input[type="checkbox"]:focus {
-    outline: max(2px, 0.15em) solid black;
-    outline-offset: max(2px, 0.15em);
-}*/
 
 .checkbox_label {
     display: block;
