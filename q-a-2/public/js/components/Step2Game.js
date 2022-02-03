@@ -55,16 +55,17 @@ class Step2Game extends React.Component {
                 className={this.state.selected[e.id] ? "step2Game_img_selected" : "step2Game_img_not_selected"}
                 onClick={() => this.handleClick(e.id)}
                 width="30%">
-                <svg className="step2Game_img" viewBox="0 0 100 100" transform={e.stepTwoGame.scale} version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+                    <img src={'img/step2Game/signature-perso-' + e.id + (e.stepTwoGame.valid ? '.svg' : '-F.svg')} />
+                {/*<svg className="step2Game_img" viewBox="0 0 100 100" transform={e.stepTwoGame.scale} version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                     <g>
                         <image
-                            width="117px" 
-                            height="117px" 
+                            width="100%"
+                            height="100%"
                             xlinkHref={'img/step2Game/signature-perso-' + e.id + (e.stepTwoGame.valid ? '.svg' : '-F.svg')}
                         >
                         </image>
                     </g>
-                </svg>
+            </svg>*/}
             </th>)});
 
         return(            
