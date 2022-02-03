@@ -1,8 +1,12 @@
 <svg class="fd-graph-nouveaux-habitants" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
-    <circle fill="#0039ff" cx="50" cy="50" r="<%= cityPercent >= meanPercent ? 50 : (cityPercent * 50) / meanPercent %>" />
-    <circle fill="#ff4800" cx="150" cy="50" r="<%= meanPercent >= cityPercent ? 50 : (meanPercent * 50) / cityPercent %>" />
+    <circle fill="#1028fd" cx="50" cy="50"
+        r="<%= cityPercent >= meanPercent ? 50 : (cityPercent * 50) / meanPercent %>" />
+    <circle fill="#ff2e00" cx="150" cy="50"
+        r="<%= meanPercent >= cityPercent ? 50 : (meanPercent * 50) / cityPercent %>" />
 </svg>
 <div class="graph-nouveaux-habitants-values">
-    <div><%= cityName %> : <%= cityPercent %>%</div>
+    <div>
+        <%= cityName %> : <%= cityPercent %>%
+    </div>
     <div class="fd-red">Zone d'attraction : <%= meanPercent %>%</div>
 </div>

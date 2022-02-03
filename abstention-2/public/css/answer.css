@@ -75,18 +75,18 @@
     display: grid;
     grid-template-columns: 0.5fr 10fr;
     width: 100%;
-    border : #ff4800 solid 1px;
-    box-shadow: 0.3rem 0.5rem #ff4800;
+    border : #ff2e00 solid 1px;
+    box-shadow: 0.3rem 0.5rem #ff2e00;
     margin-bottom: 2rem;
 }
 
 .anwser-geo {
     height: 100%;
-    border-right:#ff4800 solid 1px;
+    border-right:#ff2e00 solid 1px;
 }
 
 .anwser-nom-ville {
-    color:#ff4800;
+    color:#ff2e00;
     font-size: 3vh;
     font-family: "CabinetGrotesk-Regular";
     display: flex;

@@ -27,12 +27,12 @@ async function quizScreen() {
   {
     quiz: {
       question: "À quoi est lié le droit de vote ?",
-      answer: ["Pays de résidence", "Âges", "Nationalité"],
+      answer: ["Pays de résidence", "Signe astro", "Nationalité"],
       goodAnswer: 2
     }
   }, {
     quiz: {
-      question: "Quelles tranches d’âges vote le moins ?",
+      question: "Quelles tranches d’âges votent le moins ?",
       answer: ["24-35 ans", "18-24 ans", "35-44 ans"],
       goodAnswer: 1
     }
@@ -40,16 +40,16 @@ async function quizScreen() {
   ]
 
   const code = [{
-    number: "2"
+    number: codeAnswer[0].toString()
   },
   {
-    number: "0"
+    number: codeAnswer[1].toString()
   },
   {
-    number: "4"
+    number: codeAnswer[2].toString()
   },
   {
-    number: "6"
+    number: codeAnswer[3].toString()
   },
   ]
 

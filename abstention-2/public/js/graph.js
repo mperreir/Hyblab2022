@@ -1,15 +1,15 @@
 Chart.register(ChartDataLabels);
 //bar
-function bar (id,ville,data){
+function bar(id, ville, data) {
   const databar = {
     labels: [
-        ville + ' '+ data[0],
-        'france ' + data[1] 
+      ville + ' ' + data[0],
+      'france ' + data[1]
     ],
     datasets: [{
       labels: [
-        ville + ' '+ data[0],
-        'france ' + data[1] 
+        ville + ' ' + data[0],
+        'france ' + data[1]
       ],
       backgroundColor: [
         'rgb(255, 99, 132)',
@@ -18,7 +18,7 @@ function bar (id,ville,data){
       data: data,
     }]
   };
-  
+
   const configbar = {
     label: "vile",
     type: 'bar',
@@ -27,17 +27,17 @@ function bar (id,ville,data){
     options: {
       plugins: {
         datalabels: {
-          labels:{
-            value:{
-              color:'black',
+          labels: {
+            value: {
+              color: 'black',
             }
           },
-          font:{
-            size:'20'
+          font: {
+            size: '20'
           },
-          anchor : 'center',
-          formatter: function(value, context) {
-            
+          anchor: 'center',
+          formatter: function (value, context) {
+
             return context.dataset.labels[context.dataIndex];
           }
         },
@@ -52,85 +52,37 @@ function bar (id,ville,data){
             drawBorder: false, // <-- this removes y-axis line
             lineWidth: 0,
           },
-          ticks : {
-            display:false
+          ticks: {
+            display: false
           }
         },
-        y : {
+        y: {
           grid: {
             drawBorder: false, // <-- this removes y-axis line
             lineWidth: 0,
           },
           reverse: true,
-          ticks : {
-            display:false
+          ticks: {
+            display: false
           }
         },
       }
     }
   };
-  
+
   const bar = new Chart(
     document.getElementById(id),
     configbar
   );
 }
-  
-  
-  // pie
-function pie (id,ville,data){
+
+
+// pie
+function pie(id, ville, data) {
   const datapie = {
     datasets: [{
       labels: [
-        ville + ' '+ data[0],
-        'france ' + data[1] 
-      ],
-      backgroundColor: [
-        'rgb(255, 99, 132)',
-        'rgb(54, 162, 235)'
-      ],
-      data: data,
-    }]
-  };
-  
-  const configpie = {
-    type: 'pie',
-    data: datapie,
-    options: {
-      plugins: {
-        datalabels: {
-          labels:{
-            value:{
-              color:'black',
-            }
-          },
-          font:{
-            size:'20'
-          },
-          anchor : 'center',
-          formatter: function(value, context) {
-            
-            return context.dataset.labels[context.dataIndex];
-          }
-        },
-      }
-    }
-  };
-  
-  const pie = new Chart(
-    document.getElementById(id),
-    configpie
-  );
-}
-    
-    
-    
-//donut
-function donut(id,ville,data){
-  const datadonut = {
-    datasets: [{
-      labels: [
-        ville +' ' + data[0],
+        ville + ' ' + data[0],
         'france ' + data[1]
       ],
       backgroundColor: [
@@ -140,32 +92,80 @@ function donut(id,ville,data){
       data: data,
     }]
   };
-  
+
+  const configpie = {
+    type: 'pie',
+    data: datapie,
+    options: {
+      plugins: {
+        datalabels: {
+          labels: {
+            value: {
+              color: 'black',
+            }
+          },
+          font: {
+            size: '20'
+          },
+          anchor: 'center',
+          formatter: function (value, context) {
+
+            return context.dataset.labels[context.dataIndex];
+          }
+        },
+      }
+    }
+  };
+
+  const pie = new Chart(
+    document.getElementById(id),
+    configpie
+  );
+}
+
+
+
+//donut
+function donut(id, ville, data) {
+  const datadonut = {
+    datasets: [{
+      labels: [
+        ville + ' ' + data[0],
+        'france ' + data[1]
+      ],
+      backgroundColor: [
+        'rgb(255, 99, 132)',
+        'rgb(54, 162, 235)'
+      ],
+      data: data,
+    }]
+  };
+
   const configdonut = {
     type: 'doughnut',
     data: datadonut,
     options: {
       plugins: {
         datalabels: {
-          labels:{
-            value:{
-              color:'black',
+          labels: {
+            value: {
+              color: 'black',
             }
           },
-          font:{
-            size:'20'
+          font: {
+            size: '20'
           },
-          anchor : 'center',
-          formatter: function(value, context) {
-            
+          anchor: 'center',
+          formatter: function (value, context) {
+
             return context.dataset.labels[context.dataIndex];
           }
         },
       }
-      
+
     }
   };
-  
+
   const donut = new Chart(
     document.getElementById(id),
     configdonut
@@ -173,21 +173,21 @@ function donut(id,ville,data){
 }
 
 
-  //circle
-function circle(id,ville,data){
+//circle
+function circle(id, ville, data) {
   const datacircle = {
     datasets: [{
-      labels: [      
-        ville +' '+ data[0],
+      labels: [
+        ville + ' ' + data[0],
         'france ' + data[1]
       ],
       data: [{
-        x: Math.max(...data)/20,
-        y: Math.max(...data)/20,
+        x: Math.max(...data) / 20,
+        y: Math.max(...data) / 20,
         r: data[0]
       }, {
-        x: Math.max(...data)/20*3,
-        y: Math.max(...data)/20,
+        x: Math.max(...data) / 20 * 3,
+        y: Math.max(...data) / 20,
         r: data[1]
       }],
       backgroundColor: [
@@ -215,41 +215,41 @@ function circle(id,ville,data){
             drawBorder: false, // <-- this removes y-axis line
             lineWidth: 0,
           },
-          ticks : {
-            display:false
+          ticks: {
+            display: false
           }
         },
-        y : {
+        y: {
           suggestedMin: 0,
           suggestedMax: 10,
           grid: {
             drawBorder: false, // <-- this removes y-axis line
             lineWidth: 0,
           },
-          ticks : {
-            display:false
+          ticks: {
+            display: false
           }
         },
       },
       plugins: {
         datalabels: {
-          labels:{
-            value:{
-              color:'black',
+          labels: {
+            value: {
+              color: 'black',
             }
           },
-          font:{
-            size:'20'
+          font: {
+            size: '20'
           },
-          anchor : 'center',
-          formatter: function(value, context) {
-            
+          anchor: 'center',
+          formatter: function (value, context) {
+
             return context.dataset.labels[context.dataIndex];
           }
         },
         tooltip: {
           callbacks: {
-            label: function(context) {
+            label: function (context) {
               let label = context.dataset.labels[context.dataIndex];
               return label;
             }
@@ -258,7 +258,7 @@ function circle(id,ville,data){
       }
     }
   }
-  
+
   const circle = new Chart(
     document.getElementById(id),
     configcircle
@@ -266,53 +266,53 @@ function circle(id,ville,data){
 }
 
 
-function calculate(data){
+function calculate(data) {
   renderData = []
   renderColor = []
-  for(i = 0; i< data[0];i++){
+  for (i = 0; i < data[0]; i++) {
     d = {
-      x: i%3,
-      y: Math.floor(i/3),
-      r: 10 
+      x: i % 3,
+      y: Math.floor(i / 3),
+      r: 10
     };
     renderData.push(d);
     renderColor.push('rgb(255, 99, 132)');
   }
   renderData.push({
-    x: data[0]%3,
-    y: Math.floor(data[0]/3),
-    r: Math.floor((data[0]-Math.floor(data[0]))*10)
+    x: data[0] % 3,
+    y: Math.floor(data[0] / 3),
+    r: Math.floor((data[0] - Math.floor(data[0])) * 10)
   })
   renderColor.push('rgb(255, 99, 132)');
 
-  for(i = 0; i< data[1];i++){
+  for (i = 0; i < data[1]; i++) {
     d = {
-      x: i%3 + 4,
-      y: Math.floor(i/3),
-      r: 10 
+      x: i % 3 + 4,
+      y: Math.floor(i / 3),
+      r: 10
     };
     renderData.push(d);
     renderColor.push('rgb(54, 162, 235)');
   }
   renderData.push({
-    x: Math.floor(data[1])%3 +5,
-    y: Math.floor(data[1]/3),
-    r: Math.floor((data[1]-Math.floor(data[1]))*10)
+    x: Math.floor(data[1]) % 3 + 5,
+    y: Math.floor(data[1] / 3),
+    r: Math.floor((data[1] - Math.floor(data[1])) * 10)
   });
   renderColor.push('rgb(54, 162, 235)');
   return ([renderData, renderColor]);
 
 }
 
-function multipledot(id,ville,data){
+function multipledot(id, ville, data) {
   const render = calculate(data);
   const renderData = render[0];
-  const renderColor = render [1]
+  const renderColor = render[1]
   const datadot = {
     datasets: [{
-      initialData:data,
-      labels: [      
-        ville +' '+ data[0],
+      initialData: data,
+      labels: [
+        ville + ' ' + data[0],
         'france ' + data[1]
       ],
       data: renderData,
@@ -337,50 +337,50 @@ function multipledot(id,ville,data){
             drawBorder: false, // <-- this removes y-axis line
             lineWidth: 0,
           },
-          ticks : {
-            display:false
+          ticks: {
+            display: false
           }
         },
-        y : {
+        y: {
           suggestedMin: 0,
-          suggestedMax: Math.floor(Math.max(...data)/3)+1,
+          suggestedMax: Math.floor(Math.max(...data) / 3) + 1,
           grid: {
             drawBorder: false, // <-- this removes y-axis line
             lineWidth: 0,
           },
-          ticks : {
-            display:false
+          ticks: {
+            display: false
           }
         },
       },
       plugins: {
         datalabels: {
-          labels:{
-            value:{
-              color:'black',
+          labels: {
+            value: {
+              color: 'black',
             }
           },
-          font:{
-            size:'20'
+          font: {
+            size: '20'
           },
-          anchor : 'center',
-          formatter: function(value, context) {
+          anchor: 'center',
+          formatter: function (value, context) {
             let appearance1 = {
-              x:1,
-              y:Math.floor(context.dataset.initialData[0]/6),
+              x: 1,
+              y: Math.floor(context.dataset.initialData[0] / 6),
             }
             let appearance2 = {
-              x:5,
-              y:Math.floor(context.dataset.initialData[1]/6),
+              x: 5,
+              y: Math.floor(context.dataset.initialData[1] / 6),
             }
             console.log(value, appearance1)
-            if (value.x === appearance1.x && value.y === appearance1.y){
+            if (value.x === appearance1.x && value.y === appearance1.y) {
               return context.dataset.labels[0];
             }
-            else if (value.x === appearance2.x && value.y === appearance2.y){
+            else if (value.x === appearance2.x && value.y === appearance2.y) {
               return context.dataset.labels[1];
             }
-            else{
+            else {
               return '';
             }
           }
@@ -390,21 +390,21 @@ function multipledot(id,ville,data){
         },
         tooltip: {
           callbacks: {
-            label: function(context) {
+            label: function (context) {
               let label;
-              if(context.dataIndex<data[0]){
+              if (context.dataIndex < data[0]) {
                 label = context.dataset.labels[0];
               }
-              else{
+              else {
                 label = context.dataset.labels[1];
               }
-              
+
               return label;
             }
           }
         }
       }
-      
+
     }
   }
   var circle = new Chart(
@@ -413,7 +413,7 @@ function multipledot(id,ville,data){
   );
 }
 
-function barage (id,data){
+function barage(id, data) {
   const databar = {
     labels: [
       '-11',
@@ -439,7 +439,7 @@ function barage (id,data){
       data: data,
     }]
   };
-  
+
   const configbar = {
     label: "tranche d'âge",
     type: 'bar',
@@ -455,16 +455,16 @@ function barage (id,data){
         }
       },
       scales: {
-        x:{
-          display:false,
-          grid:{
+        x: {
+          display: false,
+          grid: {
             drawBorder: false, // <-- this removes y-axis line
             lineWidth: 0,
           }
         },
-        y:{
+        y: {
 
-          grid:{
+          grid: {
             drawBorder: false, // <-- this removes y-axis line
             lineWidth: 0,
           }
@@ -473,24 +473,24 @@ function barage (id,data){
       responsive: true,
       plugins: {
         datalabels: {
-          labels:{
-            value:{
-              color:'black',
+          labels: {
+            value: {
+              color: 'black',
             }
           },
-          font:{
-            size:'20'
+          font: {
+            size: '20'
           },
-          anchor : 'center',
+          anchor: 'center',
         },
         legend: {
           display: false,
         },
       }
     },
-    
+
   };
-  
+
   const bar = new Chart(
     document.getElementById(id),
     configbar
@@ -498,13 +498,13 @@ function barage (id,data){
 }
 
 
-function metierdot(id,data){
+function metierdot(id, data) {
   const ligne = Math.max(...data);
-  const diago = Math.sqrt(2)*Math.max(...data)/2;
+  const diago = Math.sqrt(2) * Math.max(...data) / 2;
   const center = ligne;
   const datadot = {
     datasets: [{
-      labels: [      
+      labels: [
         'agriculteurs ' + data[0],
         'artisans ' + data[1],
         'cadres ' + data[2],
@@ -513,59 +513,59 @@ function metierdot(id,data){
         'ouvriers ' + data[5],
         'retraités ' + data[6],
         'sans activité ' + data[7],
-        
+
       ],
       data: [
-      {
-        x: center + ligne,
-        y: center,
-        r: data[0]*3
-      }, 
-      {
-        x: center - ligne,
-        y: center,
-        r: data[1]*3
-      },
-      {
-        x: center,
-        y: center + ligne,
-        r: data[2]*3
-      },
-      {
-        x: center,
-        y: center - ligne,
-        r: data[3]*3
-      },
-      {
-        x: center + diago,
-        y: center + diago,
-        r: data[4]*3
-      },
-      {
-        x: center + diago,
-        y: center - diago,
-        r: data[5]*3
-      },
-      {
-        x: center - diago,
-        y: center + diago,
-        r: data[6]*3
-      },
-      {
-        x: center - diago,
-        y: center - diago,
-        r: data[7]*3
-      }],
+        {
+          x: center + ligne,
+          y: center,
+          r: data[0] * 3
+        },
+        {
+          x: center - ligne,
+          y: center,
+          r: data[1] * 3
+        },
+        {
+          x: center,
+          y: center + ligne,
+          r: data[2] * 3
+        },
+        {
+          x: center,
+          y: center - ligne,
+          r: data[3] * 3
+        },
+        {
+          x: center + diago,
+          y: center + diago,
+          r: data[4] * 3
+        },
+        {
+          x: center + diago,
+          y: center - diago,
+          r: data[5] * 3
+        },
+        {
+          x: center - diago,
+          y: center + diago,
+          r: data[6] * 3
+        },
+        {
+          x: center - diago,
+          y: center - diago,
+          r: data[7] * 3
+        }],
       backgroundColor: [
-        'rgba(255, 99, 132)',
-        'rgba(255, 159, 64)',
-        'rgba(255, 205, 86)',
-        'rgba(75, 192, 192)',
-        'rgba(54, 162, 235)',
-        'rgba(153, 102, 255)',
-        'rgba(201, 203, 207)',
-        'rgba(100, 100, 255)'
-      ],  
+        '#FF2E00',
+        '#E12D20',
+        '#C32D3F',
+        '#A52C5F',
+        '#882B7F',
+        '#6A2A9E',
+        '#4C2ABE',
+        '#2E29DD'
+      ],
     }]
   };
 
@@ -579,33 +579,33 @@ function metierdot(id,data){
             drawBorder: false, // <-- this removes y-axis line
             lineWidth: 0,
           },
-          ticks : {
-            display:false
+          ticks: {
+            display: false
           }
         },
-        y : {
+        y: {
           grid: {
             drawBorder: false, // <-- this removes y-axis line
             lineWidth: 0,
           },
-          ticks : {
-            display:false
+          ticks: {
+            display: false
           }
         },
       },
       plugins: {
         datalabels: {
-          labels:{
-            value:{
-              color:'black',
+          labels: {
+            value: {
+              color: 'black',
             }
           },
-          font:{
-            size:'20'
+          font: {
+            size: '20'
           },
-          anchor : 'center',
-          formatter: function(value, context) {
-            
+          anchor: 'center',
+          formatter: function (value, context) {
+
             return context.dataset.labels[context.dataIndex];
           }
         },
@@ -614,14 +614,14 @@ function metierdot(id,data){
         },
         tooltip: {
           callbacks: {
-            label: function(context) {
+            label: function (context) {
               let label = context.dataset.labels[context.dataIndex];
               return label;
             }
           }
         }
       }
-      
+
     }
   }
   const circle = new Chart(
@@ -630,62 +630,62 @@ function metierdot(id,data){
   );
 }
 
-function popdot(id,data){
-  const ligne = Math.max(...data)/(2*data[0]);
-  const diago = Math.sqrt(2)*Math.max(...data)/(4*data[0]);
+function popdot(id, data) {
+  const ligne = Math.max(...data) / (2 * data[0]);
+  const diago = Math.sqrt(2) * Math.max(...data) / (4 * data[0]);
   const center = Math.max(...data);
   const datadot = {
     datasets: [{
-      label: [      
+      label: [
         'population ' + data[0],
       ],
       data: [{
         x: center,
         y: center,
-        r: data[0]*2
+        r: data[0] * 2
       }],
       backgroundColor: [
         'rgba(255, 99, 132, 0.2)',
-      ],  
+      ],
     },
     {
       label: [
         'non votants ' + data[1],
       ],
       data: [{
-        x: center + 4*diago,
-        y: center + 4*diago,
-        r: data[1]*2
+        x: center + 4 * diago,
+        y: center + 4 * diago,
+        r: data[1] * 2
       }],
       backgroundColor: [
         'rgba(255, 159, 64, 1)',
-      ],  
+      ],
     },
     {
-      label: [      
+      label: [
         'abstentionnistes ' + data[2],
       ],
       data: [{
         x: center,
-        y: center - 4*ligne,
-        r: data[2]*2
+        y: center - 4 * ligne,
+        r: data[2] * 2
       }],
       backgroundColor: [
         'rgba(54, 162, 235, 1)'
-      ],  
+      ],
     },
     {
       label: [
         'vote blancs/nuls ' + data[3],
       ],
       data: [{
-        x: center - 4*diago,
-        y: center + 4*diago,
-        r: data[3]*2
+        x: center - 4 * diago,
+        y: center + 4 * diago,
+        r: data[3] * 2
       }],
       backgroundColor: [
         'rgba(100, 100, 255, 1)'
-      ],  
+      ],
     }]
   };
 
@@ -695,41 +695,41 @@ function popdot(id,data){
     options: {
       scales: {
         x: {
-          suggestedMin: center - 3*ligne,
-          suggestedMax: center + 3*ligne,
+          suggestedMin: center - 3 * ligne,
+          suggestedMax: center + 3 * ligne,
           grid: {
             drawBorder: false, // <-- this removes y-axis line
             lineWidth: 0,
           },
-          ticks : {
-            display:false
+          ticks: {
+            display: false
           }
         },
-        y : {
-          suggestedMin: center - 3*ligne,
-          suggestedMax: center + 3*ligne,
+        y: {
+          suggestedMin: center - 3 * ligne,
+          suggestedMax: center + 3 * ligne,
           grid: {
             drawBorder: false, // <-- this removes y-axis line
             lineWidth: 0,
           },
-          ticks : {
-            display:false
+          ticks: {
+            display: false
           }
         },
       },
       plugins: {
         datalabels: {
-          labels:{
-            value:{
-              color:'black',
+          labels: {
+            value: {
+              color: 'black',
             }
           },
-          font:{
-            size:'20'
+          font: {
+            size: '20'
           },
-          anchor : 'end',
-          formatter: function(value, context) {
-            
+          anchor: 'end',
+          formatter: function (value, context) {
+
             return context.dataset.label[context.dataIndex];
           }
         },
@@ -738,24 +738,24 @@ function popdot(id,data){
         },
         tooltip: {
           callbacks: {
-            label: function(context) {
+            label: function (context) {
               let label = context.dataset.labels[context.dataIndex];
               return label;
             }
           }
         }
       }
-      
+
     }
   }
-  
+
   const circle = new Chart(
     document.getElementById(id),
     configdot
   );
 }
 
-function beforePrintHandler () {
+function beforePrintHandler() {
   for (var id in Chart.instances) {
     Chart.instances[id].resize()
   }

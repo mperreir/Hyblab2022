@@ -1,7 +1,7 @@
 "use strict";
 
 let selectedCity;
-let percentageBet;
+let percentageBet = 50;;
 
 async function loadSms() {
     const citiesRq = await fetch('api/cities/');
@@ -32,20 +32,20 @@ async function loadSms() {
         {
             type: "sms",
             sender: "MOI",
-            message: "Hey Thomas ! Content de bosser avec toi ! Non, je n’ai pas vu les chiffres, pourquoi ? :)",
+            message: "Hey <strong>Thomas</strong> ! Content de bosser avec toi ! Non, je n’ai pas vu les <strong>chiffres</strong>, pourquoi ? :)",
             id: "",
             style: "sms-bottom sms-right",
 
         }, {
             type: "sms",
             sender: "THOMAS",
-            message: "Ça tombe bien ! Je te parie le repas de ce midi que tu devineras jamais le pourcentage de non votants !",
+            message: "Ça tombe bien ! Je te parie le repas de ce midi que tu devineras jamais le pourcentage de <strong>non votants</strong> !",
             style: "sms-top sms-left",
             id: "",
         }, {
             type: "sms",
             sender: "THOMAS",
-            message: "Alors avec quelle ville veux-tu jouer ? ",
+            message: "<strong>Alors avec quelle ville veux-tu jouer ? :P</strong>",
             style: "sms-bottom sms-left",
             id: "",
 
@@ -69,7 +69,7 @@ async function loadSms() {
         {
             type: "sms",
             sender: "THOMAS",
-            message: "OK c’est parti pour <span id='sms-text-city-name'></span> ! Alors tu paries combien ? Ne t’inquiète pas... On arrondit à 5%.",
+            message: "OK c’est parti pour <span id='sms-text-city-name'></span> ! <strong>Alors tu paries combien ? Ne t’inquiète pas... On arrondit à 5%.</strong>",
             style: "sms-bottom sms-left",
             id: "",
         },
@@ -89,7 +89,7 @@ async function loadSms() {
         {
             type: "sms",
             sender: "Thomas",
-            message: "<strong><span id='sms-text-percentage'></span>% retenu !</strong> Allez amuse toi bien ! Télécharge les dossiers pour avoir les infos ! On se tient au courant pour le repas ahah",
+            message: "<strong><span id='sms-text-percentage'></span>% retenu !</strong> Allez amuse toi bien ! <strong>Télécharge les dossiers pour avoir les infos !</strong> On se tient au courant pour le repas ahah",
             style: "sms-bottom sms-left",
             id: "",
         },
@@ -165,7 +165,18 @@ async function loadSms() {
                 translateY: "-=" + (getTranslateYSMS(smsTread, displayedSMSIndex) + getTranslateYSMS(smsTread, displayedSMSIndex + 1)),
             });
             displayedSMSIndex++;
-        } else if (displayedSMSIndex >= 4) {
+        } else if (displayedSMSIndex === 4) {
+            smsTreadButton.disabled = true;
+            anime({
+                targets: '.sms-tread>*',
+                easing: 'easeInOutQuart',
+                duration: 1000,
+                translateY: "-=" + (getTranslateYSMS(smsTread, displayedSMSIndex) + 60),
+                complete: () => {
+                    smsTreadButton.disabled = false;
+                }
+            });
+        } else if (displayedSMSIndex > 4) {
             smsTreadButton.disabled = true;
             anime({
                 targets: '.sms-tread>*',
@@ -254,9 +265,11 @@ function getTranslateYSMS(smsTread, i) {
 
 function handleSlider() {
     const slider = document.getElementById("sms-slider-input");
+    slider.value = percentageBet;
     const min = slider.min
     const max = slider.max
     const value = slider.value
+
 
     const numberDiv = document.getElementById("sms-number");
     numberDiv.innerHTML = slider.value + "%";

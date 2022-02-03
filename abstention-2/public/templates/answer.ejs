@@ -14,12 +14,14 @@
 
         <div class="anwser-area">
             <div class="anwser-header-ville">
-              <div class="anwser-border-red">
-                <img src="img/geolocalisation.svg" class="anwser-geo"/>
-              </div>
-              <div class="anwser-nom-ville">
-                <p class="anwser-p-nom-ville"><%= data.city %></p>
-              </div>
+                <div class="anwser-border-red">
+                    <img src="img/geolocalisation.svg" class="anwser-geo" />
+                </div>
+                <div class="anwser-nom-ville">
+                    <p class="anwser-p-nom-ville">
+                        <%= data.city %>
+                    </p>
+                </div>
             </div>
         </div>
 
@@ -29,22 +31,37 @@
 
         <div class="infos" id="infos">
             <div class="info" id="hab">
-                <p>SOIT</p> <div class="habitant"><p><%= data.population %></p> <p>hab</p></div>
+                <p>SOIT</p>
+                <div class="habitant">
+                    <p>
+                        <%= data.population %>
+                    </p>
+                    <p>hab</p>
+                </div>
             </div>
             <div class="info">
-                <p>ABSTENTIONNISTE</p> <p><%= data.pourcentage_abstention %>%</p>
+                <p>ABSTENTIONNISTES</p>
+                <p>
+                    <%= data.pourcentage_abstention %>%
+                </p>
             </div>
             <div class="info">
-                <p>NON VOTANTS</p> <p><%= data.pourcentage_non_votants %>%</p>
+                <p>ETRANGERS</p>
+                <p>
+                    <%= data.pourcentage_etranger %>%
+                </p>
             </div>
             <div class="info">
-                <p>ETRANGERS</p> <p><%= data.pourcentage_etranger %>%</p>
+                <p>MINEURS</p>
+                <p>
+                    <%= data.pourcentage_mineurs %>%
+                </p>
             </div>
             <div class="info">
-                <p>MINEURS</p> <p><%= data.pourcentage_mineurs %>%</p>
-            </div>
-            <div class="info">
-                <p>NOUVEAUX HABITANTS</p> <p><%= data.pourcentage_nouveaux_habitants %>%</p>
+                <p>NOUVEAUX HABITANTS</p>
+                <p>
+                    <%= data.pourcentage_nouveaux_habitants %>%
+                </p>
             </div>
         </div>
 

@@ -1,8 +1,5 @@
 async function loadFileExplorer() {
-
     selectedCityData = await fetchCityData(selectedCity);
-
-    
     const citiesRq = await fetch('api/cities/');
     citiesMap = await citiesRq.json();
     const metropoleRq = await fetch('api/metropole/');
@@ -11,6 +8,7 @@ async function loadFileExplorer() {
     const container = document.getElementById("container");
     const headerHtml = await loadTemplate('templates/header.ejs', []);
     container.innerHTML = headerHtml;
+    date();
     const screen = document.getElementById('screen');
     
     const fileExplorerHtml = await loadTemplate('templates/file_explorer/file_explorer.ejs', FOLDER_TITLES);
@@ -35,5 +33,10 @@ async function loadFileExplorer() {
                 loadFolder(fileData.folderName);
             });
         }
+    }
+    let count = Object.values(visitedFolders).filter(el => el === true).length;
+    if (count === 3) {
+        loadRebet();
+        visitedFolders.el = true;
     }
 };

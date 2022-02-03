@@ -4,6 +4,16 @@ let selectedCityData;
 let metropoleData;
 let citiesMap;
 
+const visitedFolders = {
+    abstention: false,
+    nouveauxHabitants: false,
+    blancsNuls: false,
+    etrangers: false,
+    mineurs: false,
+    finaux: false,
+    rebet:false,
+}
+
 const FOLDER_TITLES = {
     filesData: [
         {
@@ -87,7 +97,6 @@ function date() {
 
 // loadFileExplorer().then(loadEnd());
 
-// loadRebet();
 
 loadStart();
 
@@ -99,6 +108,7 @@ async function fetchCityData(city) {
 }
 // loadFileExplorer();
 // smsScreen();
+
 
 
 
