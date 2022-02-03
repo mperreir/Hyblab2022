@@ -30,6 +30,10 @@ button{
     
 }
 
+#txt_taux_vote{
+    width: 40%;
+}
+
 #fleche1{
     width:20%;
     position: absolute;
