@@ -78,6 +78,7 @@ function randomizeCandidates() {
   Object.values(candidateTemp.stepThreeGame.statements)[randomId].valid = false;
 
   stepsCandidates["1"].push(...candidatesRemoved);
+  stepsCandidates["1"].sort((a, b) => 0.5 - Math.random());
 }
 
 function getRandomCandidate(candidatesTemp, candidatesRemoved) {
