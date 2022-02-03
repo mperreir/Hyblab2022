@@ -47,6 +47,7 @@ class DialogueModel extends Observable {
             document.querySelector(".resultat").style.visibility = "hidden";
             document.querySelector("#QuizZone").style.visibility = "hidden";
             document.querySelector("#reponse").style.visibility = "hidden";
+            document.querySelector("#quizzRetour").style.visibility = "hidden";
 
         } else {
             //S'il faut lancer le PFC

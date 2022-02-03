@@ -512,7 +512,7 @@ left: 3%;
     background-color: #E66E78;
 }
 
-/*Afiichage des réponses*/
+/*Affichage des réponses*/
 #reponse{
     visibility: hidden;
     position:absolute;
@@ -532,13 +532,16 @@ left: 3%;
     padding: 3%;
 }
 #quizzRetour{
+    visibility: hidden;
     background-color: blue;
     color : white;
+    font-weight: bold;
     border : none;
-    border-radius : 3px;
+    border-radius : 2em;
     position: relative;
-    padding: 3%;
-    top: 0%;
+    padding: 3% 5% 3% 5%;
+    top: 83.5%;
+    left: 10%;
 }
 
 /*--------------Section transition--------------*/
