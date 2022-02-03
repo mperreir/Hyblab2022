@@ -244,7 +244,7 @@ class Question7 extends Question{
 		let info_commune = data_election.get(key).get(this.code_commune);
 
 		let voteb_n1 = info_commune.pour_bl_nuls.vot.toFixed(2);
-		let voteb_n2 = parseInt(voteb_n1) + 3.5;
+		let voteb_n2 = parseInt(voteb_n1) + 1.5;
 
 		let question = "À " + info_commune.nom_com + ", quel est le pourcentage de votes blancs et " +
 			"nuls en " + this.annee + " au premier tour ?";
