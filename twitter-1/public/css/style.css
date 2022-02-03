@@ -198,6 +198,12 @@ h1{
     font-family: "Outfit", sans-serif;
     font-size:17%;
 }
+
+.menu b {
+    text-shadow: 0 1px, 1px 0, 1px 1px;
+    font-size: 0.8em;
+}
+
 .menu .menu-candidat {
     height : 60px;
     width :30%;
@@ -379,7 +385,7 @@ th, td {
 
 .box-tweet-top {
     background: white;
-    height: 35vh;
+    height: 32vh;
     width: 95%;
     border-radius: 70px;
     margin-top: 2vh;
@@ -491,11 +497,14 @@ th, td {
     }
 }
 
+#barplot{
+    filter: drop-shadow(5px 5px 5px rgb(0 0 0 / 0.3));
+}
+
 #comment{
     margin-top : 6%;
     text-align : center;
-    text-decoration: underline;
-    font-size : 100%;
+    display :block;
 }
 
 #fourth-slide{
@@ -507,7 +516,7 @@ th, td {
     background-color: #dbdbdb;
     width : 50%;
     height: 6%;
-    border : 2px solid black;
+    /*border : 2px solid black;*/
     border-radius: 10% / 50%;
     box-shadow: 7px 7px 25px 0 rgba(0,0,0,0.25);
     text-align: center;
@@ -738,6 +747,7 @@ img#theme {
     /* Here the font size is proportional to display width */
     body{
         font-size: calc(12vw*16/9);
+        background-color: white;
     }
 }
 
@@ -766,6 +776,7 @@ img#theme {
     /* Here the font size is proportional to display height */
     body{
         font-size: 12vh;
+        background-color: white;
     }
 }
 
