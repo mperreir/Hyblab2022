@@ -11,12 +11,12 @@ function BarChart(data, {
     x = (d, i) => i, // given d in data, returns the (ordinal) x-value
     y = d => d, // given d in data, returns the (quantitative) y-value
     title, // given d in data, returns the title text
-    marginTop = 80, // the top margin, in pixels
+    marginTop = 50, // the top margin, in pixels
     marginRight = 30, // the right margin, in pixels
     marginBottom = 0, // the bottom margin, in pixels
     marginLeft = 0, // the left margin, in pixels
     width = 400, // the outer width of the chart, in pixels
-    height = 170, // the outer height of the chart, in pixels
+    height = 120, // the outer height of the chart, in pixels
     xDomain, // an array of (ordinal) x-values
     xRange = [marginLeft, width - marginRight], // [left, right]
     yType = d3.scaleLinear, // y-scale type
@@ -123,7 +123,7 @@ function BarChart(data, {
         .classed('bar-title', true)
         .attr('text-anchor', 'middle')
         .attr("x", d => xScale(X[d]) + xScale.bandwidth()/2)
-        .attr("y", d => yScale(Y[d])+25)
+        .attr("y", d => yScale(Y[d])+15)
         .text(d => `${Y[d]}`)
         .style("font", "sans-serif")
         .attr("fill", labelColor);
@@ -135,13 +135,14 @@ function BarChart(data, {
         .classed('candidates-name', true)
         .attr('text-anchor', 'middle')
         .attr("x", d => xScale(X[d]) + xScale.bandwidth()/2)
-        .attr("y", d => yScale(Y[d])-10)
+        .attr("y", d => yScale(Y[d])-5)
         .text(d => `${X[d]}`)
         .style("font", "sans-serif")
         .style("font-size", "10px")
         .style("font-weight", 700)
         .style("text-transform", "uppercase")
         .attr("fill", textColor)
+
 
     svg.append("text")
         .attr("id", "comment")
