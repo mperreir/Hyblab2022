@@ -379,12 +379,13 @@ th, td {
 
 .box-tweet-top {
     background: white;
-    height: 32vh;
+    height: 33vh;
     width: 95%;
     border-radius: 70px;
     margin-top: 2vh;
     margin-left: auto;
     margin-right: auto;
+    font-size: 90%;
     overflow: visible !important;
     box-shadow: 7px 7px 25px rgba(0, 0, 0, 0.25);
 }
@@ -576,7 +577,7 @@ img#theme {
 
 #table-top {
     margin: auto;
-    font-size: initial;
+    font-size: 80%;
 
 }
 
