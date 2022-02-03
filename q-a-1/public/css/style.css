@@ -145,6 +145,7 @@ svg
     width:20%;
 }
 
+
 .asterisque{
     width:5%;
 }
@@ -312,11 +313,11 @@ p.alignRight{
 
 @keyframes anim-rotate {
     from{
-        transform: rotateZ(-15deg);
+        transform: rotateZ(-5deg);
     }
 
     to{
-        transform:rotateZ(15deg);
+        transform:rotateZ(5deg);
     }
 }
 
@@ -422,7 +423,7 @@ p.alignRight{
 }
 
 .anim-rotation {
-    animation: anim-rotate 1s infinite alternate;
+    animation: anim-rotate 2s infinite alternate;
 }
 
 .changeColor {
