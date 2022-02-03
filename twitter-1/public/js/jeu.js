@@ -1,6 +1,7 @@
 
 //(() => Suivant(30,0,0))();
 
+
 async function Suivant(temps,score,total) {
 
     let jeu = document.querySelector('#jeu');
@@ -33,9 +34,10 @@ async function Suivant(temps,score,total) {
     } catch {}
 
     let timerElement = document.getElementById("timer")
+
     let interval = setInterval(() => {
-        let minute = Math.floor(temps / 60);
-        let secondes = Math.floor(temps % 60);
+        let minute = Math.floor(Math.floor(temps/2) / 60);
+        let secondes = Math.floor(Math.floor(temps/2) % 60);
 
         secondes = secondes < 10 ? "0" + secondes : secondes
 
@@ -45,7 +47,7 @@ async function Suivant(temps,score,total) {
             clearInterval(interval);
             finJeu(score, total);
         }
-    }, 1000);
+    }, 500);
 
     const question = await fetchResponse();
 
@@ -69,6 +71,8 @@ async function Suivant(temps,score,total) {
 
     let content = document.createElement('div');
     content.innerHTML = question.text;
+    div.appendChild(content);
+    jeu.appendChild(div);
 
     let div2 = document.createElement('div');
     div2.setAttribute("id", 'reponses');
@@ -76,7 +80,18 @@ async function Suivant(temps,score,total) {
     div2.style.top = "73%";
     div2.style.width = "100%";
 
-    let a = document.createElement('input');
+    let image = document.createElement('img');
+    image.src="img/emotes/twitter-1.png";
+    image.setAttribute("id","image1");
+    image.setAttribute("class","rotateimg20");
+    image.style.width="23%";
+    image.style.position = "absolute";
+    image.style.top = "23%";
+    image.style.left = "68%";
+    image.style.zIndex = "5";
+    jeu.appendChild(image);
+
+    setTimeout(()=>{let a = document.createElement('input');
     a.setAttribute("type", "button");
     a.setAttribute("value", question.possible_response_1.name);
     a.setAttribute("id", "reponseA");
@@ -106,23 +121,11 @@ async function Suivant(temps,score,total) {
         Reponse(b, !question.is_response_1_true, temps, interval, score, total);
     });
 
-    let image = document.createElement('img');
-    image.src="img/emotes/twitter-1.png";
-    image.setAttribute("id","image1");
-    image.setAttribute("class","rotateimg20");
-    image.style.width="23%";
-    image.style.position = "absolute";
-    image.style.top = "23%";
-    image.style.left = "68%";
-    image.style.zIndex = "5";
-
-    div.appendChild(content);
     div2.appendChild(a);
     div2.appendChild(b);
 
-    jeu.appendChild(div);
     jeu.appendChild(div2);
-    jeu.appendChild(image);   
+     },500);  
     
     
 }
@@ -319,7 +322,7 @@ function clear(){
     timer.setAttribute("id", 'timer');
     jeu.appendChild(timer);
 
-    (() => Suivant(45,0,0))();
+    (() => Suivant(90,0,0))();
 
 }
 
