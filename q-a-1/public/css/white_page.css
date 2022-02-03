@@ -44,15 +44,25 @@ button{
     top:52%;
 }
 
+p{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 #first-link{
     position: absolute;
     right: 7%;
+    top: 42%;
 }
 
 #second-link{
     position: absolute;
     left: 8%;
     top: 55%;
+}
+
+.espace{
+    margin-top: 25%;
 }
 
 .link_button{
@@ -79,10 +89,19 @@ button{
 
 }
 
-#Q3 > input {
-    padding : 2% 10% 2% 10%;
+#Q2 > input {
+    padding : 1.5% 10% 1.5% 10%;
     border: none;
-    font-size: 100%;
+    font-size: 60%;
+    width: 30%;
+}
+
+#Q1 > input {
+    padding : 1% 10% 1% 10%;
+    border: none;
+    font-size: 40%;
+    width: 25%;
+    text-align: center;
 }
 
 /*Style des id*/
@@ -104,7 +123,7 @@ button{
 }
 
 #urne{
-    margin-top: 5%;
+    margin-top: 3%;
     padding-left: 3%;
     display: flex;
     justify-content: space-between;
@@ -112,7 +131,7 @@ button{
 }
 
 #urne > img{
-    width: 50%;
+    width: 60%;
 }
 
 #choisi{
@@ -200,7 +219,7 @@ button{
 
 .left{
     text-align: left;
-    padding-left: 5%;
+    margin-top: -1%;
 }
 
 .right{
