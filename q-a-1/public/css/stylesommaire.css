@@ -13,6 +13,7 @@
     transform: rotate(4.76deg);
     animation:enveloppebleue_animation 2.5s;
     -webkit-animation:enveloppebleue_animation 2.5s; /* Safari and Chrome */
+    outline: 0 !important;
 }
 
 @keyframes enveloppebleue_animation
