@@ -6,12 +6,6 @@
 *{
     padding:0;
     margin:0;
-    user-select: none; /* supported by Chrome and Opera */
-    -webkit-user-select: none; /* Safari */
-    -khtml-user-select: none; /* Konqueror HTML */
-    -moz-user-select: none; /* Firefox */
-    -ms-user-select: none; /* Internet Explorer/Edge */
-
 }
 
 body{
@@ -22,7 +16,7 @@ body{
 }
 
 #container{
-    position:   absolute; /* for absolute positionning of child elements*/
+    position: absolute; /* for absolute positionning of child elements*/
     background-color: #e4e5fa;
     color: #1028fd;
     overflow: hidden;
@@ -44,19 +38,9 @@ body{
     /* We set a default font size here. It will be the base for all other font sizes */
     /* Here the font size is proportional to display width */
     body{
-        font-size:12vh;
+        font-size: calc(12vw*16/9);
     }
 }
-
-@media screen and (max-width: 480px) {
-    #container{
-        margin-top: 0;
-        width: 100vw;
-        height: 88vh; /* pour les navigateurs qui ne supportent pas  -webkit-fill-available */
-        height: -webkit-fill-available;
-    }
-}
-
 
 /* This media query ensures that we allways will the height of the screen */
 /* as long as the screen aspect ratio is higher than 9:16 */
