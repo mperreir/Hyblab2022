@@ -37,12 +37,18 @@ class Step3Game extends React.Component {
                 Object.entries(info.gameInfo).map(([key, sInfo]) => {
                     const candidateStatement = Object.values(stepsCandidates["3"].find(c => c.nameId === nameId).stepThreeGame.statements).find(s => s.statement === sInfo.statement);
                     if (candidateStatement.valid !== sInfo.valid) sInfo.error = true;
+                    else sInfo.error = false;
                 })
             });
         }
     }
 
     componentDidMount() {
+        this.props.gameSaveState({
+            win: false,
+            data: JSON.parse(JSON.stringify(this.state)),
+            candidatesNextStep: stepsCandidates["3"]
+        });
         this.props.enableGameButton();
         new Swiper('.step3Game_profiles', {
             direction: 'horizontal',

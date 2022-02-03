@@ -108,7 +108,7 @@ const candidates = [
         "stepOneGame" : {
             "age": "66 ans",
             "address": "Paris",
-            "politicalOrientation": "Centre",
+            "politicalOrientation": "Centre-gauche",
             "legalStatus": "Casier vierge",
             "valid": true
         },
@@ -255,7 +255,7 @@ const candidates = [
         "stepOneGame" : {
             "age": "47 ans",
             "address": "Nice",
-            "politicalOrientation": "Centre-gauche",
+            "politicalOrientation": "Centre",
             "legalStatus": "Casier vierge",
             "valid": true
         },

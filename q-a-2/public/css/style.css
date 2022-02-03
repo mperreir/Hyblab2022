@@ -1040,10 +1040,10 @@ body{
 .checkbox_round {
     width: 3.5vh;
     height: 3.5vh;
-    background-color: lightcoral;
+    background-color: white;
     border-radius: 50%;
     vertical-align: middle;
-    border: 0.3vh solid black;
+    border: 0.15vh solid black;
     appearance: none;
     -webkit-appearance: none;
     outline: none;
@@ -1054,7 +1054,11 @@ body{
 }
 
 .checkbox_round:checked {
-    background-color: lightgreen;
+    border: none;
+    background-image: url('../img/checkmark.svg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .checkbox_label {
