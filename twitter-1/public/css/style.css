@@ -484,10 +484,13 @@ th, td {
     }
 }
 
+#barplot{
+    filter: drop-shadow(5px 5px 5px rgb(0 0 0 / 0.3));
+}
+
 #comment{
     margin-top : 6%;
     text-align : center;
-    text-decoration: underline;
     font-size : 100%;
 }
 

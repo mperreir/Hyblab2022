@@ -1,32 +1,33 @@
 const title_choice = [
-    "cette semaine",
-    "sur la sécurité cette semaine",
-    "sur la santé cette semaine",
-    "sur l'économie cette semaine",
-    "sur l'éducation cette semaine",
-    "sur l'environnement cette semaine",
-    "sur la culture cette semaine"
+    "CETTE SEMAINE",
+    "SUR LA SECURITE CETTE SEMAINE",
+    "SUR LA SANTE CETTE SEMAINE",
+    "SUR L'ECONOMIE CETTE SEMAINE",
+    "SUR L'EDUCATION CETTE SEMAINE",
+    "SUR L'ENVIRONNEMENT CETTE SEMAINE",
+    "SUR LA CULTURE CETTE SEMAINE"
 ]
 function BarChart(data, {
     x = (d, i) => i, // given d in data, returns the (ordinal) x-value
     y = d => d, // given d in data, returns the (quantitative) y-value
     title, // given d in data, returns the title text
-    marginTop = 50, // the top margin, in pixels
+    marginTop = 80, // the top margin, in pixels
     marginRight = 30, // the right margin, in pixels
     marginBottom = 0, // the bottom margin, in pixels
     marginLeft = 0, // the left margin, in pixels
-    width = 450, // the outer width of the chart, in pixels
-    height = 140, // the outer height of the chart, in pixels
+    width = 400, // the outer width of the chart, in pixels
+    height = 170, // the outer height of the chart, in pixels
     xDomain, // an array of (ordinal) x-values
     xRange = [marginLeft, width - marginRight], // [left, right]
     yType = d3.scaleLinear, // y-scale type
     yDomain, // [ymin, ymax]
     yRange = [height - marginBottom, marginTop], // [bottom, top]
-    xPadding = 0.5, // amount of x-range to reserve to separate bars
+    xPadding = 0.3, // amount of x-range to reserve to separate bars
     yFormat, // a format specifier string for the y-axis
     yLabel, // a label for the y-axis
     color = "currentColor", // bar fill color
     textColor = "textColor",
+    labelColor = "black",
     choiceTitle = 0
 } = {}) {
     // Compute values.
@@ -62,27 +63,27 @@ function BarChart(data, {
 
     // Filter drop shadow
 
-    var defs = svg.append("defs");
-
-    var filter = defs.append("filter")
-        .attr("id", "dropshadow")
-
-    filter.append("feGaussianBlur")
-        .attr("in", "SourceAlpha")
-        .attr("stdDeviation", 2)
-        .attr("result", "blur");
-    filter.append("feOffset")
-        .attr("in", "blur")
-        .attr("dx", 2)
-        .attr("dy", 2)
-        .attr("result", "offsetBlur");
-
-    var feMerge = filter.append("feMerge");
-
-    feMerge.append("feMergeNode")
-        .attr("in", "offsetBlur")
-    feMerge.append("feMergeNode")
-        .attr("in", "SourceGraphic");
+    // var defs = svg.append("defs");
+    //
+    // var filter = defs.append("filter")
+    //     .attr("id", "dropshadow")
+    //
+    // filter.append("feGaussianBlur")
+    //     .attr("in", "SourceAlpha")
+    //     .attr("stdDeviation", 2)
+    //     .attr("result", "blur");
+    // filter.append("feOffset")
+    //     .attr("in", "blur")
+    //     .attr("dx", 2)
+    //     .attr("dy", 2)
+    //     .attr("result", "offsetBlur");
+    //
+    // var feMerge = filter.append("feMerge");
+    //
+    // feMerge.append("feMergeNode")
+    //     .attr("in", "offsetBlur")
+    // feMerge.append("feMergeNode")
+    //     .attr("in", "SourceGraphic");
 
     // var div = d3.select("#barplot").append("div")
     //     .attr("class", "tooltip")
@@ -98,11 +99,11 @@ function BarChart(data, {
         .selectAll("rect")
         .data(I)
         .join("rect")
+        .attr("class", "bar-rectangle")
         .attr("x", i => xScale(X[i]))
         .attr("y", i => yScale(Y[i]))
         .attr("height", i => yScale(0) - yScale(Y[i]))
         .attr("width", xScale.bandwidth())
-        .attr("filter", "url(#dropshadow)");
     // .on("mouseover", function(d){
     //     d3.select(this).attr("fill", "red");
     //     div.transition()
@@ -125,7 +126,7 @@ function BarChart(data, {
         .attr("y", d => yScale(Y[d])+15)
         .text(d => `${Y[d]}`)
         .style("font", "sans-serif")
-        .attr("fill", textColor);
+        .attr("fill", labelColor);
 
     svg.selectAll(".candidates-name")
         .data(I)
@@ -137,7 +138,9 @@ function BarChart(data, {
         .attr("y", d => yScale(Y[d])-10)
         .text(d => `${X[d]}`)
         .style("font", "sans-serif")
-        .style("font-size", "12px")
+        .style("font-size", "10px")
+        .style("font-weight", 700)
+        .style("text-transform", "uppercase")
         .attr("fill", textColor)
 
     svg.append("text")
@@ -145,7 +148,19 @@ function BarChart(data, {
         .attr("x", (width-marginRight)/2)
         .attr("y", 15)
         .attr("text-anchor", "middle")
-        .text("Ils tweetent le plus "+ title_choice[choiceTitle])
+        .text("IlS TWEETENT LE PLUS")
+        .attr("fill", textColor)
+        .style("font-weight",700)
+
+    svg.append("text")
+        .attr("id", "comment")
+        .attr("x", (width-marginRight)/2)
+        .attr("y", 30)
+        .attr("text-anchor", "middle")
+        .text(title_choice[choiceTitle])
+        .attr("fill", textColor)
+        .style("font-weight", 700)
+
 
     return svg.node();
 }
@@ -197,7 +212,7 @@ async function ThemeGraphe() {
                 y: d => d.nbTweetsByThemes,
                 xDomain: d3.groupSort(data, ([d]) => -d.nbTweetsByThemes, d => d.nameCandidates), // sort by descending frequency
                 color: "white",
-                textColor: "black",
+                textColor: "white",
                 choiceTitle: parseInt(selector.value)
             }))
         }
