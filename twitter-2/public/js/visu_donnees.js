@@ -90,6 +90,7 @@ window.onload = () => {
                     return 50 + 1.5 * parseFloat(d.ratio);
                 })
                 .attr("width", d => {
+                    alert('a');
                     if (theme == "followers") {
                         return 50 + parseFloat(d.ratio);
                     }
