@@ -21,7 +21,7 @@ body {
 
 #container{
     height: 100vh;
-    
+    padding-top: 5%;
 }
 #top-section{
     position: relative;
@@ -33,7 +33,9 @@ body {
 }
 
 #exit {
-    margin-right: 3%;
+    position: absolute;
+    margin-top: 7%;
+    right: 3%;
 }
 
 #buttons{
