@@ -52,16 +52,15 @@ td{
 
 td p{
     font-family: mariannemedium;
-    font-size: 15%;
+    font-size: 13%;
     margin-top: 0%;
     margin-block-start: -22%;
 }
 
 td img{
-    width: 50%;
-    display: flex;
+    width: 22%;
+    position: absolute;
     justify-content: center;
-    margin-left:22%;
     margin-block-start: -15%;
 }
 
@@ -80,6 +79,31 @@ table{
 
 .hidden-check{
     display: none;
+}
+
+#hidden-1{
+    top:56%;
+    left:17%;
+}
+
+#hidden-2{
+    top:56%;
+    right: 17%;
+}
+
+#hidden-3{
+    top:68%;
+    left:17%;
+}
+
+#hidden-4{
+    top:68%;
+    right:17%;
+}
+
+#hidden-5{
+    top:79%;
+    left:17%;
 }
 
 .pagenumber{
