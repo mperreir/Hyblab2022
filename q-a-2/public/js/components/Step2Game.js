@@ -51,7 +51,7 @@ class Step2Game extends React.Component {
         const imageCandidates = this.state.candidates.map((e) => {
             return (
             <th 
-                id={"step2Game_perso_" + e.id} 
+                id={"step2Game_perso_" + e.id}
                 className={this.state.selected[e.id] ? "step2Game_img_selected" : "step2Game_img_not_selected"}
                 onClick={() => this.handleClick(e.id)}
                 width="30%">
@@ -60,8 +60,8 @@ class Step2Game extends React.Component {
                         <image 
                             width="100%" 
                             height="100%" 
-                            href={'img/step2Game/signature-perso-' + e.id + (e.stepTwoGame.valid ? '.svg' : '-F.svg')}
-                            >
+                            xlink:href={'img/step2Game/signature-perso-' + e.id + (e.stepTwoGame.valid ? '.svg' : '-F.svg')}
+                        >
                         </image>
                     </g>
                 </svg>
