@@ -27,7 +27,6 @@ window.addEventListener("load", function (event) {
 });
 
 const animation = async function(){
-   console.log("yo");
    anime({
       targets: '#vector1',
       scale: 1.1,
@@ -142,7 +141,8 @@ window.onload = () => {
    const svg = d3.select("#dataviz")
       .append("svg")
       .attr("width", "100%")
-      .attr("height", 500)
+      .attr("height", 450)
+      .style('margin-top', '7%')
       .append("g")
 
    fetch(`api/ratioNearCandidate/${theme}/${usernameMainCandidate}`)
@@ -164,6 +164,7 @@ window.onload = () => {
                if (theme == "followers") {
                   return 50 + parseFloat(d.ratio);
                }
+               if (d.id === 1) return 50 + 2.5 * parseFloat(d.ratio);
                if (d.ratio < 10) {
                   return 50 + 2 * parseFloat(d.ratio);
                }
@@ -173,6 +174,7 @@ window.onload = () => {
                if (theme == "followers") {
                   return 50 + parseFloat(d.ratio);
                }
+               if (d.id === 1) return 50 + 3 * parseFloat(d.ratio);
                if (d.ratio < 10) {
                   return 50 + 2 * parseFloat(d.ratio);
                }
@@ -211,9 +213,16 @@ window.onload = () => {
          function ticked() {
             candidates
                .attr('transform', d => {
-                  console.log(document.getElementById(d.id));
-                  if (d.x + document.getElementById(d.id).getBoundingClientRect().width >= window.screen.width - 20) {
-                     return `translate(${d.x - 20}, ${d.y})`;
+                  if (d.id === 1) {
+                     d.x = window.screen.width/2 - document.getElementById(d.id).width.animVal.value/2;
+                  } else {
+
+                     d.x = d.x - document.getElementById(d.id).width.animVal.value/2;
+   
+                     if (d.x + document.getElementById(d.id).width.animVal.value/2 >= window.screen.width - 20) {
+                        d.x = d.x - document.getElementById(d.id).width.animVal.value/2 - 5;
+                     }
+                     if (d.x <= 0) d.x = d.x + document.getElementById(d.id).width.animVal.value/2 + 5;
                   }
                   return `translate(${d.x}, ${d.y})`;
                })
@@ -229,7 +238,7 @@ window.onload = () => {
                   return 50 + 1.5 * parseFloat(d.ratio) + 12;
                })
                .attr('transform', d => {
-                  if (d.x + document.getElementById(d.id).getBoundingClientRect().width >= window.screen.width - 20) {
+                  if (d.x + document.getElementById(d.id).width.animVal.value >= window.screen.width - 20) {
                      return `translate(${d.x - 20}, ${d.y})`;
                   }
                   return `translate(${d.x}, ${d.y})`;
@@ -246,7 +255,7 @@ window.onload = () => {
                   return 50 + 1.5 * parseFloat(d.ratio) + 25;
                })
                .attr('transform', d => {
-                  if (d.x + document.getElementById(d.id).getBoundingClientRect().width >= window.screen.width - 20) {
+                  if (d.x + document.getElementById(d.id).width.animVal.value >= window.screen.width - 20) {
                      return `translate(${d.x - 20}, ${d.y})`;
                   }
                   return `translate(${d.x}, ${d.y})`;

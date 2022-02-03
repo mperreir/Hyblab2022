@@ -140,7 +140,8 @@ body {
 }
 
 #legende > span {
-    color: #F24A41;
+    color: #5571E5;
+    font-weight: bold;
 }
 
 .button {
