@@ -81,7 +81,7 @@ reponse_2.firstChild.textContent = toLowerMdr(question_data[2][0]);
 commune_enemy.textContent = enemy[1];
 commune_enemy_deux.textContent = toLowerMdr(enemy[1]);
 let objet = localStorage.getItem("currentItem");
-recompense.textContent = bonneVersion(objet);
+recompense.textContent = toLowerMdr(bonneVersion(objet));
 localStorage.setItem("objetGagner", bonneVersion(objet));
 let reponse1 = document.querySelector(".reponse1");
 let reponse2 = document.querySelector(".reponse2");
