@@ -123,7 +123,7 @@ function BarChart(data, {
         .classed('bar-title', true)
         .attr('text-anchor', 'middle')
         .attr("x", d => xScale(X[d]) + xScale.bandwidth()/2)
-        .attr("y", d => yScale(Y[d])+15)
+        .attr("y", d => yScale(Y[d])+25)
         .text(d => `${Y[d]}`)
         .style("font", "sans-serif")
         .attr("fill", labelColor);
