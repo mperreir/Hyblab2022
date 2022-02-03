@@ -22,7 +22,7 @@ class DialogueView {
         this.quizZone=document.querySelector('#QuizZone');
 
         this.texte=document.querySelector('#textDialogue');
-        this.suite=document.querySelector('.Suite');
+        this.suite=document.querySelector('#Suite');
         this.nom=document.querySelector('.nom');
         this.box = document.querySelector('.boxnom');
 
