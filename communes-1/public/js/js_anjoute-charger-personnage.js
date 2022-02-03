@@ -1,5 +1,5 @@
-const video = document.querySelector('.animation_perso');
-video.innerHTML = '';
+const bvideo = document.querySelector('.bloc-video');
+bvideo.innerHTML = '';
 
 let personnages = [
 	'img/animations/manteau_rouge.mp4',
@@ -14,8 +14,19 @@ let personnages = [
 	'img/animations/dame-reflet.mp4',
 ]
 
+let video = document.createElement('video');
+video.loop = true;
+video.autoplay = true;
+video.muted = true;
+video.playsInline = true;
+video.setAttribute('class', 'animation_perso');
+
+
 let source = document.createElement('source');
 source.setAttribute('src', personnages[localStorage.getItem('position_joueur')-1]);
 source.setAttribute('type', 'video/mp4');
 
+
 video.appendChild(source);
+
+bvideo.appendChild(video);
