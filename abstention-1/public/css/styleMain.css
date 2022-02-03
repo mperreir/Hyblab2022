@@ -504,12 +504,15 @@ left: 3%;
 /*Boutons choix des questions*/
 #QuizZone textarea[id='reponseA']{
     background-color: blue;
+    resize : none;
 }
 #QuizZone textarea[id='reponseB']{
     background-color: #29BA9B;
+    resize : none;
 }
 #QuizZone textarea[id='reponseC']{
     background-color: #E66E78;
+    resize : none;
 }
 
 /*Affichage des réponses*/

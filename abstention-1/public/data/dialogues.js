@@ -388,7 +388,7 @@ const quiz = [
         "Questions": [
             {
                 "Id": 1,
-                "Question": "Quelles sont les catégories socio-professionnelles qui s’abstiennent le plus en France ?",
+                "Question": "Quelles sont les catégories socio-professionnelles qui s’abstiennent le plus ?",
                 "Personne": "M. Martin",
                 //Données à rajouter dans ce dialogue
                 "Reponse": "Les professions intermédiaires comme les professeurs d’école, les employés et les ouvriers sont souvent les plus nombreux à s’abstenir. Bien que ce ne soit pas forcément visible à l’échelle de Bordeaux, à l’échelle nationale, c'est le cas. En effet, dans la zone d'influence de Bordeaux pour les villes à majorité d'étrangers, de professions intermédiaires, d'employés, d'ouvriers, de retraités ou encore de sans activités on compte respectivement "+(Math.round(abstention_by_category["ETRANGERS"]*100 * 100) / 100)+"%, "+(Math.round(abstention_by_category["PROF_INTERM_2017"]*100 * 100) / 100)+"%, "+(Math.round(abstention_by_category["EMPLOYES_2017"]*100 * 100) / 100)+"%, "+(Math.round(abstention_by_category["OUVRIERS_2017"]*100 * 100) / 100)+"%, "+(Math.round(abstention_by_category["RETRAITES_2017"]*100 * 100) / 100)+"% et "+(Math.round(abstention_by_category["SANS_ACTIV_2017"]*100 * 100) / 100)+"% d'abstention. Tandis qu'à l'échelle nationale, 50% des personnes cadres se sont abtenues aux élections de 2017 en France contre 63% pour les professions intermédiaires par exemple. Les personnes qui ont un statut cadre ont ainsi davantage tendance à aller voter que les autres professions. Les retraités participent aussi beaucoup aux élections avec seulement 40% d’abstention en 2017 en France. L’abstention est donc influencée par les catégories socio-professionnelles des électeurs."
@@ -436,7 +436,7 @@ const quiz = [
         "Questions": [
             {
                 "Id": 1,
-                "Question": "Observez-vous des différences en termes de niveau d’abstention entre les différents tours d’une élection ?",
+                "Question": "Le niveau d’abstention est-il différent selon le tour d’une élection ?",
                 "Personne": "M. le maire",
                 //Données à rajouter dans ce dialogue
                 "Reponse": "Effectivement, lors des dernières élections présidentielles en 2017 par exemple, on a remarqué à Bordeaux que l’abstention était plus forte lors du second tour. En effet, "+nb_towns_abs_sup_t2+" communes sur les "+nb_towns+" que compte la zone d'influence de Bordeaux ont compté plus d'abstentions au second tour."
