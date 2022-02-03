@@ -1,11 +1,11 @@
 const title_choice = [
-    "cette semaine",
-    "sur la sécurité cette semaine",
-    "sur la santé cette semaine",
-    "sur l'économie cette semaine",
-    "sur l'éducation cette semaine",
-    "sur l'environnement cette semaine",
-    "sur la culture cette semaine"
+    "CETTE SEMAINE",
+    "SUR LA SECURITE CETTE SEMAINE",
+    "SUR LA SANTE CETTE SEMAINE",
+    "SUR L'ECONOMIE CETTE SEMAINE",
+    "SUR L'EDUCATION CETTE SEMAINE",
+    "SUR L'ENVIRONNEMENT CETTE SEMAINE",
+    "SUR LA CULTURE CETTE SEMAINE"
 ]
 function BarChart(data, {
     x = (d, i) => i, // given d in data, returns the (ordinal) x-value
@@ -145,7 +145,7 @@ function BarChart(data, {
         .attr("x", (width-marginRight)/2)
         .attr("y", 15)
         .attr("text-anchor", "middle")
-        .text("Ils tweetent le plus "+ title_choice[choiceTitle])
+        .text("ILS TWEETENT LE PLUS "+ title_choice[choiceTitle])
 
     return svg.node();
 }

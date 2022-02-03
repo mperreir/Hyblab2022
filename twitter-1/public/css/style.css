@@ -376,10 +376,10 @@ th, td {
 
 .box-tweet-top {
     background: white;
-    height: 35vh;
+    height: 30vh;
     width: 95%;
     border-radius: 70px;
-    margin-top: 2vh;
+    margin-top: 4vh;
     margin-left: auto;
     margin-right: auto;
     overflow: visible !important;
@@ -490,8 +490,9 @@ th, td {
 #comment{
     margin-top : 6%;
     text-align : center;
-    text-decoration: underline;
-    font-size : 100%;
+    font-size : 90%;
+    font-weight: 900;
+    display :block;
 }
 
 #fourth-slide{
@@ -544,6 +545,19 @@ th, td {
     margin-left : 2%;
     height : 1vh;
     text-align: center;
+    font-size : 85%;
+    /*font-weight : 900;
+    text-shadow: 0px 1px, 1px 0px, 1px 1px;*/
+
+}
+
+.swiper .toptweet #tweetname #nom{
+    padding: 5%;
+    margin-left : 2%;
+    height : 1vh;
+    text-align: center;
+    font-weight : 900;
+    /*text-shadow: 0px 1px, 1px 0px, 1px 1px;*/
 
 }
 
@@ -551,12 +565,14 @@ th, td {
     margin-left : 22%;
     width:70%;
     text-align: initial;
+    font-size : 85%;
 
 }
 
 #theme-pic{
     justify-content: center;
     display: flex;
+    margin-top : 2vh;
 }
 
 img#theme {
@@ -570,7 +586,8 @@ img#theme {
 
 #table-top {
     margin: auto;
-    font-size: initial;
+    font-size: 75%;
+    text-transform :uppercase;
 
 }
 
