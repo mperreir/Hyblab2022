@@ -1,6 +1,7 @@
 async function loadRebet() {
     const container = document.getElementById('container');
 
+    percentageBet = 30;
     const messages = [
         {
             type: 'sms',
@@ -75,10 +76,11 @@ async function loadRebet() {
     await createSMSElements(messages, smsTread);
     let smsTreadButton = document.getElementById("sms-tread-btn");
 
+    document.getElementById('sms-number').innerHTML = percentageBet + "%";
+
     displaySMS();
 
     smsTreadButton.addEventListener("click", displaySMS);
-
 
 
     function displaySMS() {

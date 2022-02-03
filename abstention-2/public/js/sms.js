@@ -1,7 +1,7 @@
 "use strict";
 
 let selectedCity;
-let percentageBet;
+let percentageBet = 50;;
 
 async function loadSms() {
     const citiesRq = await fetch('api/cities/');
@@ -254,9 +254,11 @@ function getTranslateYSMS(smsTread, i) {
 
 function handleSlider() {
     const slider = document.getElementById("sms-slider-input");
+    slider.value = percentageBet;
     const min = slider.min
     const max = slider.max
     const value = slider.value
+
 
     const numberDiv = document.getElementById("sms-number");
     numberDiv.innerHTML = slider.value + "%";
