@@ -40,25 +40,25 @@ function toLowerMdr(nom)
 function bonneVersion(name){
 	switch (name){
 		case 'magnum':
-			return "Un Magnum De Cointreau"
+			return "Un magnum de Cointreau"
 		case 'boules_de_fort':
-			return "BouLes De Fort Gagnantes"
+			return "Boules de fort gagnantes"
 		case 'oie':
-			return "L\'oie Aux Œufs D'or"
+			return "L\'oie aux Œufs d'or"
 		case 'medaille':
-			return "Une MédaiLLe Du Roi René"
+			return "Une médaille du roi René"
 		case 'soupe':
-			return "Une Soupe Angevine A VoLonté"
+			return "Une soupe angevine à volonté"
 		case 'bottereau':
-			return "Les MeiLLeurs Bottereaux"
+			return "Les meilleurs bottereaux"
 		case 'manuscrit':
-			return "Le Manuscrit De Joachim Du BeLay"
-		case'chateau':
-			return "Le Chateau D \'Angers"
+			return "Le manuscrit de Joachim du Belay"
+		case 'chateau':
+			return "Le château d \'Angers"
 		case 'cheval':
-			return "Un ChevaL Du Cadre Noir"
+			return "Un cheval du Cadre noir"
 		case 'bateau':
-			return "Le Bateau De Loire Express"
+			return "Le bateau de Loire Express"
 	}
 
 }
