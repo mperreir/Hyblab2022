@@ -14,11 +14,11 @@ async function loadFileExplorer() {
     const fileExplorerHtml = await loadTemplate('templates/file_explorer/file_explorer.ejs', FOLDER_TITLES);
     screen.innerHTML = fileExplorerHtml;
     
-    for (const [folderName, visited] of Object.entries(visitedFolders)) {
-        if (visited) {
-            document.getElementById(FOLDER_TITLES.filesData.find(f => f.folderName === folderName).tag).children[0].classList.add('file-explorer-item-file-visited');
-        }
-    }
+    // for (const [folderName, visited] of Object.entries(visitedFolders)) {
+    //     if (visited) {
+    //         document.getElementById(FOLDER_TITLES.filesData.find(f => f.folderName === folderName).tag).children[0].classList.add('file-explorer-item-file-visited');
+    //     }
+    // }
     const fileProgressBars = document.getElementsByClassName('file-explorer-item-file-progress-bar');
 
     let i = 0;

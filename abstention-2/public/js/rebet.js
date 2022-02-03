@@ -173,7 +173,7 @@ async function loadRebet() {
 
     document.getElementById('submit-percentage-btn').addEventListener('click', async (e) => {
         percentageBet = document.getElementById("sms-slider-input").value;
-        loadFileExplorer();
+        await loadFileExplorer();
     });
 }
 
