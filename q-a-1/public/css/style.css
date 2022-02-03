@@ -496,3 +496,17 @@ p.alignRight{
         opacity: 1;
     }
 }
+
+
+
+button {
+    text-shadow: 0 0 1px rgba(0, 0, 0, .3);
+    /* Animation (“transition” timing) */
+    transition: 1s background;
+  }
+  
+  
+/* When pressed */
+button:active {
+    background: black;
+}
