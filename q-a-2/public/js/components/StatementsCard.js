@@ -18,7 +18,7 @@ class StatementsCard extends React.Component {
                                     {value.statement}
                                 </label>
                                 <div hidden={!value.error}>
-                                    <img className='step3Game_warning' style={{top: -5+key*25+"%"}} src='img/warning.svg'/>
+                                    <img className='step3Game_warning' style={{top: -4+key*25+"%"}} src='img/warning.svg'/>
                                 </div>
                             </div>)
                         }, this)
