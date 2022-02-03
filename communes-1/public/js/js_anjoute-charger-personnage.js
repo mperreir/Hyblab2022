@@ -1,7 +1,7 @@
 const video = document.querySelector('.animation_perso');
 
 let personnages = [
-	'img/animations/manteau_bleu.mp4',
+	'img/animations/manteau_rouge.mp4',
 	'img/animations/manteau_bleu.mp4',
 	'img/animations/manteau_vert.mp4',
 	'img/animations/bonnie.mp4',
