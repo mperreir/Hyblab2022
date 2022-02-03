@@ -35,6 +35,7 @@ body {
 
 #exit-div {
     text-align: center;
+    padding-top: 25px;
 }
 
 #exit {
@@ -49,7 +50,7 @@ body {
     position: relative;
     color: white;
     font-size: 7.5vh;
-    padding-top: 7vh;
+    padding-top: calc(7vh-25px);
     text-align: justify;
     height: 5vh;
 }
