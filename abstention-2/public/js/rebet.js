@@ -1,7 +1,6 @@
 async function loadRebet() {
     const container = document.getElementById('container');
 
-    percentageBet = 30;
     const messages = [
         {
             type: 'sms',
