@@ -1348,9 +1348,10 @@ input[type="checkbox"] {
          -moz-user-select: none;
           -ms-user-select: none;
               user-select: none;
-  }
+}
 
-  .step2Game_img_not_selected > img,
-  .step2Game_img_selected > img {
-      height: 117px;
-  }
+.step2Game_img_not_selected > img,
+.step2Game_img_selected > img {
+    max-height: 117px;
+    max-width: 117px;
+}
