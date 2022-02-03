@@ -30,7 +30,7 @@ function InitDesIntentions(intentionsCandidats, objCandidats) {
         divBlock.className = 'block';
         const img = document.createElement('img');
         img.src = document.getElementById(candidat.name).src;
-        img.onerror = function(e) {
+        img.onerror = function (e) {
             e.target.src = 'img/candidats/profil_inconnu_cadre.svg'
         }
         const divPourcent = document.createElement('div');
@@ -79,7 +79,7 @@ function AjoutDesCandidatsPourSelection(candidats) {
         block.className = "candidat"
         avatar.id = candidat.prenom + ' ' + candidat.nom
         avatar.src = "img/candidats/" + candidat.img + '.png'
-        avatar.onerror = function(e) {
+        avatar.onerror = function (e) {
             e.target.src = 'img/candidats/profil_inconnu_cadre.svg'
         }
 
@@ -108,7 +108,7 @@ function AjoutDesCandidatsPourSelection(candidats) {
     }
 }
 
-function ToggleButton(button, img = [1, 2], defaultState = false, callback = _ => {}) {
+function ToggleButton(button, img = [1, 2], defaultState = false, callback = _ => { }) {
     let state = defaultState
     button.addEventListener("click", _ => {
         state = !state
@@ -218,7 +218,7 @@ function start() {
         console.info("Candidats chargés !")
         AjoutDesCandidatsPourSelection(candidats)
 
-        getSondages().then(sondages => {
+        getSondages().then(({ sondages, lastDate }) => {
 
             console.info("Données de sondage chargés !")
             const CANDIDATS = InitDesIntentions(sondages, candidats)
@@ -239,8 +239,8 @@ function start() {
 
             function scrollPosition() {
 
-                // On récupère la position du block #animation par rapport à l'écran
-                const animation_rect = animation.getBoundingClientRect()
+            // On récupère la position du block #animation par rapport à l'écran
+            const animation_rect = animation.getBoundingClientRect()
 
                 // Pour stick la div #race a l'écran
                 const not_seeing_bottom = (animation_rect.bottom - window.innerHeight) >= 0
@@ -254,114 +254,114 @@ function start() {
 
 
                 // Permet de stick la div #race à l'écran
-                if (animation_rect.top <= 0 && not_seeing_bottom) {
-                    setWhileScrolling()
-                } else if (animation_rect.top > 0 && not_seeing_bottom) {
-                    setBeforeScrolling()
-                } else {
-                    setAfterScrolling()
+                if(animation_rect.top <= 0 && not_seeing_bottom) {
+            setWhileScrolling()
+        } else if (animation_rect.top > 0 && not_seeing_bottom) {
+            setBeforeScrolling()
+        } else {
+            setAfterScrolling()
+        }
+
+
+        // On met a jour l'affichage si on change de jour #PerformanceOpti
+        if (indexJour > 0 && INDEX_PREV != indexJour) {
+
+            INDEX_PREV = indexJour
+
+            // Récupération du jour en fonction du scroll
+            const currDate = GetScrollDate(indexJour, NBR_JOUR);
+
+            // On met a jour la progress bar
+            TimeInfoProgress.style.width = (indexJour / NBR_JOUR * 100) + "%";
+
+            // On change la date
+            TimeInfoDate.innerHTML = new Date(currDate).toLocaleDateString("fr")
+
+
+
+            // hauteur de la regle selon l'affichage client
+            const hauteur_regle = document.querySelector("#race .regle").clientHeight
+
+            let min_pourcent = 100;
+            let max_pourcent = 0;
+
+            let keys_selected_candidats;
+            if (SELECTION_COURSE()) {
+                keys_selected_candidats = CANDIDATS_KEYS;
+            } else {
+                // affichage seulement des candidats sélectionnés 
+                keys_selected_candidats = NOMS_CANDIDATS_SELECTIONES
+            }
+
+            keys_selected_candidats.map(nom_candidat => {
+                const index = CANDIDATS[nom_candidat].x.indexOf(currDate);
+                let pourcent = 0
+
+                if (index >= 0) {
+                    pourcent = parseFloat(CANDIDATS[nom_candidat].y[index])
                 }
 
+                let pourcent_min = Math.floor(pourcent)
+                let pourcent_max = Math.ceil(pourcent)
 
-                // On met a jour l'affichage si on change de jour #PerformanceOpti
-                if (indexJour > 0 && INDEX_PREV != indexJour) {
+                // on prend en compte seulement les candidats dans les bornes
+                if ((!SELECTION_COURSE()) || (SELECTION_COURSE() && Math.floor(pourcent) > POURCENT_BORNE_MIN && pourcent <= POURCENT_BORNE_MAX)) {
+                    if (pourcent_max > max_pourcent) {
+                        max_pourcent = pourcent_max;
+                    }
+                    if (pourcent_min < min_pourcent) {
+                        min_pourcent = pourcent_min;
+                    }
+                }
 
-                    INDEX_PREV = indexJour
+            })
 
-                    // Récupération du jour en fonction du scroll
-                    const currDate = GetScrollDate(indexJour, NBR_JOUR);
+            min_pourcent = min_pourcent === 100 ? 0 : min_pourcent;
+            max_pourcent = max_pourcent === 0 ? 100 : max_pourcent;
 
-                    // On met a jour la progress bar
-                    TimeInfoProgress.style.width = (indexJour / NBR_JOUR * 100) + "%";
+            // Echelle dynamique :
+            // arrondissement a la dizaine inférieur
+            // -> borne min
+            const min_regle = Math.floor(min_pourcent / 5) * 5;
+            const divRegleBas = document.getElementById("RegleBas");
+            divRegleBas.innerText = min_regle + '%';
 
-                    // On change la date
-                    TimeInfoDate.innerHTML = new Date(currDate).toLocaleDateString("fr")
+            // -> borne max
+            // arrondissement a la dizaine supérieure
+            const max_regle = Math.ceil(max_pourcent / 5) * 5;
+            const divRegleHaut = document.getElementById("RegleHaut");
+            divRegleHaut.innerText = max_regle + '%';
 
+            // On change la position des candidats
+            CANDIDATS_KEYS.map(nom_candidat => {
+                const index = CANDIDATS[nom_candidat].x.indexOf(currDate);
 
+                let pourcent = 0
 
-                    // hauteur de la regle selon l'affichage client
-                    const hauteur_regle = document.querySelector("#race .regle").clientHeight
+                if (index >= 0) {
+                    pourcent = parseFloat(CANDIDATS[nom_candidat].y[index]).toFixed(1)
+                }
 
-                    let min_pourcent = 100;
-                    let max_pourcent = 0;
+                const position = (pourcent - min_regle) / (max_regle - min_regle) * hauteur_regle
 
-                    let keys_selected_candidats;
-                    if (SELECTION_COURSE()) {
-                        keys_selected_candidats = CANDIDATS_KEYS;
+                // si candidats dans la borne sélectionnée :
+                if ((!SELECTION_COURSE() && keys_selected_candidats.includes(nom_candidat)) || (SELECTION_COURSE() && Math.floor(pourcent) > POURCENT_BORNE_MIN && pourcent <= POURCENT_BORNE_MAX)) {
+                    CANDIDATS[nom_candidat].div.style.top = "calc( 12.5vh + " + (position - TAILLE_DIV_CANDIDAT / 2) + "px" + " ) ";
+                } else // sinon candidats hors borne :
+                {
+
+                    if (SELECTION_COURSE() && pourcent >= POURCENT_BORNE_MAX) {
+                        CANDIDATS[nom_candidat].div.style.top = "100vh";
                     } else {
-                        // affichage seulement des candidats sélectionnés 
-                        keys_selected_candidats = NOMS_CANDIDATS_SELECTIONES
+                        CANDIDATS[nom_candidat].div.style.top = "-100vh";
                     }
 
-                    keys_selected_candidats.map(nom_candidat => {
-                        const index = CANDIDATS[nom_candidat].x.indexOf(currDate);
-                        let pourcent = 0
-
-                        if (index >= 0) {
-                            pourcent = parseFloat(CANDIDATS[nom_candidat].y[index])
-                        }
-
-                        let pourcent_min = Math.floor(pourcent)
-                        let pourcent_max = Math.ceil(pourcent)
-
-                        // on prend en compte seulement les candidats dans les bornes
-                        if ((!SELECTION_COURSE()) || (SELECTION_COURSE() && Math.floor(pourcent) > POURCENT_BORNE_MIN && pourcent <= POURCENT_BORNE_MAX)) {
-                            if (pourcent_max > max_pourcent) {
-                                max_pourcent = pourcent_max;
-                            }
-                            if (pourcent_min < min_pourcent) {
-                                min_pourcent = pourcent_min;
-                            }
-                        }
-
-                    })
-
-                    min_pourcent = min_pourcent === 100 ? 0 : min_pourcent;
-                    max_pourcent = max_pourcent === 0 ? 100 : max_pourcent;
-
-                    // Echelle dynamique :
-                    // arrondissement a la dizaine inférieur
-                    // -> borne min
-                    const min_regle = Math.floor(min_pourcent / 5) * 5;
-                    const divRegleBas = document.getElementById("RegleBas");
-                    divRegleBas.innerText = min_regle + '%';
-
-                    // -> borne max
-                    // arrondissement a la dizaine supérieure
-                    const max_regle = Math.ceil(max_pourcent / 5) * 5;
-                    const divRegleHaut = document.getElementById("RegleHaut");
-                    divRegleHaut.innerText = max_regle + '%';
-
-                    // On change la position des candidats
-                    CANDIDATS_KEYS.map(nom_candidat => {
-                        const index = CANDIDATS[nom_candidat].x.indexOf(currDate);
-
-                        let pourcent = 0
-
-                        if (index >= 0) {
-                            pourcent = parseFloat(CANDIDATS[nom_candidat].y[index]).toFixed(1)
-                        }
-
-                        const position = (pourcent - min_regle) / (max_regle - min_regle) * hauteur_regle
-
-                        // si candidats dans la borne sélectionnée :
-                        if ((!SELECTION_COURSE() && keys_selected_candidats.includes(nom_candidat)) || (SELECTION_COURSE() && Math.floor(pourcent) > POURCENT_BORNE_MIN && pourcent <= POURCENT_BORNE_MAX)) {
-                            CANDIDATS[nom_candidat].div.style.top = "calc( 12.5vh + " + (position - TAILLE_DIV_CANDIDAT / 2) + "px" + " ) ";
-                        } else // sinon candidats hors borne :
-                        {
-
-                            if (SELECTION_COURSE() && pourcent >= POURCENT_BORNE_MAX) {
-                                CANDIDATS[nom_candidat].div.style.top = "100vh";
-                            } else {
-                                CANDIDATS[nom_candidat].div.style.top = "-100vh";
-                            }
-
-                        }
-
-                        CANDIDATS[nom_candidat].div.querySelector(".pourcent").innerText = pourcent + ' %';
-                    })
                 }
-            }
+
+                CANDIDATS[nom_candidat].div.querySelector(".pourcent").innerText = pourcent + ' %';
+            })
+        }
+    }
 
             // On initialise tout a 0
             scrollPosition()
@@ -370,12 +370,12 @@ function start() {
             startTheRace.addEventListener("click", scrollToRace)
             document.addEventListener("scroll", scrollPosition)
             restartTheRace.addEventListener("click", _ => {
-                window.scrollTo({
-                    top: 1,
-                    left: 0,
-                    behavior: 'smooth'
-                })
-            })
+        window.scrollTo({
+            top: 1,
+            left: 0,
+            behavior: 'smooth'
+        })
+    })
 
         })
 

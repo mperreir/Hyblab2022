@@ -14,6 +14,9 @@ const URL_DATA = "https://raw.githubusercontent.com/nsppolls/nsppolls/master/pre
 
 let cacheData;
 let cacheCandidat;
+let lastDateOfData = 0;
+
+
 const range = n => [...Array(n).keys()];
 
 
@@ -50,32 +53,97 @@ function moyenne(arr_x, arr_y) {
  */
 function getData() {
     return new Promise((resolve, reject) => {
+
         request(URL_DATA, (error, response, data) => {
-            const result = {};
+
             data = JSON.parse(data);
 
             if (response.statusCode === 200) {
+
+                const liste_des_candidats_raw = {}
+
                 for (const sondage of data) {
-                    const tours = sondage.tours.filter(x => x.tour === "Premier tour");
+
+                    // On garde que le premier tour
+                    const tours = sondage.tours.filter(x => x.tour === "Premier tour")
+
                     if (tours.length !== 1) {
                         continue;
                     }
 
+                    // Sinon on stocke les données du candidat
                     for (const candidat of tours[0].hypotheses.map(x => x.candidats).flat()) {
                         if (candidat.candidat) {
-                            if (!result[candidat.candidat]) {
-                                result[candidat.candidat] = {
+                            if (!liste_des_candidats_raw[candidat.candidat]) {
+                                liste_des_candidats_raw[candidat.candidat] = {
                                     "x": [],
                                     "y": []
                                 }
                             }
-                            result[candidat.candidat]["y"].push(candidat.intentions);
-                            result[candidat.candidat]["x"].push(sondage.fin_enquete);
+                            liste_des_candidats_raw[candidat.candidat]["y"].push(candidat.intentions);
+                            liste_des_candidats_raw[candidat.candidat]["x"].push(sondage.fin_enquete);
                         }
                     }
                 }
+
+                cacheCandidat = CandidatController.listCandidat(Object.keys(liste_des_candidats_raw));
+
+                const points = Object.keys(liste_des_candidats_raw).map(candidat => {
+
+                    const [dx, dy] = moyenne(liste_des_candidats_raw[candidat]["x"], liste_des_candidats_raw[candidat]["y"]);
+
+                    // Permet de récupérer la date du dernier sondage
+                    const lastDateSondage = new Date(dx[dx.length - 1] + 'T12:00:00')
+                    lastDateOfData = lastDateOfData < lastDateSondage ? lastDateSondage : lastDateOfData
+
+                    const days = DateController.getDaysBetween(new Date(dx[0] + 'T12:00:00'), lastDateSondage);
+
+                    let intentions = [];
+                    let currDateIndex = -1;
+                    let changes = [];
+
+                    for (let i = 0; i < days.length; i++) {
+                        if (i === 0 || (currDateIndex < dx.length - 1 && days[i] === dx[currDateIndex + 1])) {
+                            currDateIndex++;
+                            changes.push(i);
+                        }
+                        intentions.push(dy[currDateIndex]);
+                    }
+
+                    let currChange = 0;
+
+                    for (let j = 0; j < days.length - 1; j++) {
+                        if (j === changes[currChange + 1]) {
+                            currChange++;
+                        }
+                        if (j !== changes[currChange]) {
+                            intentions[j] = (intentions[changes[currChange + 1]] - intentions[changes[currChange]]) / (changes[currChange + 1] - changes[currChange]) * (j - changes[currChange]) + intentions[changes[currChange + 1]];
+                        }
+                    }
+
+                    let loess_generator = science.stats.loess();
+                    loess_generator.bandwidth(0.5);
+                    let loess_values = loess_generator(range(days.length), intentions);
+
+                    let result_candidat = {}
+
+                    if (loess_values.length > 0) {
+                        result_candidat = {
+                            ...result_candidat,
+                            name: candidat,
+                            x: days,
+                            y: loess_values
+                        };
+                    }
+
+                    return result_candidat;
+                })
+
+                cacheData = points;
+
+                resolve(points)
             }
-            resolve(result)
+
         }).on("error", err => {
             reject(err);
         })
@@ -83,79 +151,28 @@ function getData() {
 }
 
 
-/**
- *
- */
-getData().then(data => {
-    cacheCandidat = CandidatController.listCandidat(Object.keys(data));
-    const points = Object.keys(data).map(candidat => {
-        const [dx, dy] = moyenne(data[candidat]["x"], data[candidat]["y"]);
+async function sendDataToFront(req, res) {
 
-        /* */
-        const days = DateController.getDaysBetween(new Date(dx[0] + 'T12:00:00'), new Date(dx[dx.length - 1] + 'T12:00:00'));
-
-        /* */
-        let intentions = [];
-        let currDateIndex = -1;
-        let changes = [];
-
-        for (let i = 0; i < days.length; i++) {
-            if (i === 0 || (currDateIndex < dx.length - 1 && days[i] === dx[currDateIndex + 1])) {
-                currDateIndex++;
-                changes.push(i);
-            }
-            intentions.push(dy[currDateIndex]);
-        }
-
-        let currChange = 0;
-
-        for (let j = 0; j < days.length - 1; j++) {
-            if (j === changes[currChange + 1]) {
-                currChange++;
-            }
-            if (j !== changes[currChange]) {
-                intentions[j] = (intentions[changes[currChange + 1]] - intentions[changes[currChange]]) / (changes[currChange + 1] - changes[currChange]) * (j - changes[currChange]) + intentions[changes[currChange + 1]];
-            }
-        }
-
-        let result = {}
-
-        let loess_generator = science.stats.loess();
-        loess_generator.bandwidth(0.5);
-        let loess_values = loess_generator(range(days.length), intentions);
-
-        if (loess_values.length > 0) {
-            result = {...result,
-                name: candidat,
-                x: days,
-                y: loess_values
-            };
-        }
-
-        return result;
-    })
-    cacheData = points;
-    return points;
-});
-
-function sendDataToFront(req, res) {
     if (DateController.shouldWeUpdateData()) {
-        getData()
-            .then(res.status(201).json(cacheData))
-            .catch(res.status(500).send());
-    } else {
-        res.status(201).json(cacheData);
+        try {
+            await getData()
+        } catch (err) {
+            console.error(err)
+        }
     }
+
+    res.status(201).json({ sondages: cacheData, lastDate: lastDateOfData });
 }
 
-function sendCandidatToFront(req, res) {
+async function sendCandidatToFront(req, res) {
     if (CandidatController.shouldWeUpdateData()) {
-        getData()
-            .then(res.status(201).json(cacheCandidat))
-            .catch(res.status(500).send());
-    } else {
-        res.status(201).json(cacheCandidat);
+        try {
+            await getData()
+        } catch (err) {
+            console.error(err)
+        }
     }
+    res.status(201).json(cacheCandidat);
 }
 
-module.exports = {sendDataToFront, sendCandidatToFront};
+module.exports = { sendDataToFront, sendCandidatToFront };
