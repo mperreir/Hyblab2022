@@ -200,7 +200,7 @@ h1{
 }
 
 .menu b {
-    font-weight: 900;
+    text-shadow: 0 1px, 1px 0, 1px 1px;
 }
 
 .menu .menu-candidat {
