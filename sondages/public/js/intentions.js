@@ -100,7 +100,10 @@ function scrollToRace() {
     })
 }
 
-function GetScrollDate(index, dateIn, nbr_jour) {
+function GetScrollDate(index, date_first, nbr_jour) {
+
+    const dateIn = new Date(date_first)
+
     dateIn.setHours(12);
     let date = new Date(dateIn.setDate(dateIn.getDate() - (nbr_jour - index)));
 
