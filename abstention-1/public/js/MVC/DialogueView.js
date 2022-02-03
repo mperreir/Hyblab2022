@@ -9,6 +9,7 @@ class DialogueView {
         this.carnet=document.querySelector('#carnet');
         this.popupcarnet=document.querySelector('#popupCarnet');
         this.croix=document.querySelector('#croix');
+        this.cercle = document.querySelector("#cercle").getElementsByTagName("p")[0];
      
         this.dialoguePart=document.querySelector('#Dialogue');
         this.transitionPartPart=document.querySelector('#Transition');
@@ -23,6 +24,7 @@ class DialogueView {
         this.texte=document.querySelector('#textDialogue');
         this.suite=document.querySelector('.Suite');
         this.nom=document.querySelector('.nom');
+        this.box = document.querySelector('.boxnom');
 
         this.question=document.querySelector('#QuizZone p');
         this.reponseA=document.querySelector('#reponseA');

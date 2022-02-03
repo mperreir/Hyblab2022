@@ -14,12 +14,15 @@ class DialogueControler {
         // update
 
         //  action
+<<<<<<< HEAD
         this.view.telechargement?.addEventListener("click", ()=> {window.location.href = 'Abstention.pdf';});
         this.view.VersCredit?.addEventListener("click", ()=> {window.location.href = 'credit.html';});
         this.view.btnrecommencer?.addEventListener("click", ()=> {window.location.href = 'index.html';});
         this.view.btnretour?.addEventListener("click", ()=> {window.location.href = 'voyage.html';});
 
 
+=======
+>>>>>>> 8e2c86eaab53c47b03766e9766be5d38e78e9606
         this.view.go?.addEventListener("click", ()=> {window.location.href = 'voyage.html';});
 
         this.view.info.addEventListener("click", ()=> {
@@ -37,9 +40,20 @@ class DialogueControler {
 
         this.view.carnet.addEventListener("click", ()=> {
             this.view.popupcarnet.style.display='block';
+            disableScroll();
         });
         this.view.croix.addEventListener("click", ()=> {
             this.view.popupcarnet.style.display='none';
+            const dialogueId = parseInt(this.view.cercle.innerText) - 1;
+
+            // Todo réussir à recall finishDialogue sur le dialogue qui vient de se terminer
+            // de maniere plus propre
+            if(this.models[dialogueId].animationModel.dialogueDone) {
+                this.models[dialogueId].animationModel.finishDialogue(dialogueId + 1);
+            }
+            else {
+                enableScroll();
+            }
         });
 
     }
@@ -56,6 +70,7 @@ class DialogueControler {
         this.currentModel.addObserver(new DialogueObserver(this.view));
 
         this.view.description.innerText = this.currentModel.description;
+        this.view.cercle.innerText = this.nextModelIndex + 1;
         this.changement();
 
         this.nextModelIndex++;

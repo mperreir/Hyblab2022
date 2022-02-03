@@ -1,7 +1,8 @@
 class DialogueModel extends Observable {
     constructor(scene, description){
         super();
-        this.scene=scene;
+        this.scene = scene.Texte;
+        this.id = scene.Dialogue;
 
         this.description =description;
         this.nom=this.scene[0].Personne;
@@ -13,7 +14,6 @@ class DialogueModel extends Observable {
     }
 
     changement(){
-        console.log(this);
         this.initialisation=false;
         this.counter++;
 
@@ -24,8 +24,8 @@ class DialogueModel extends Observable {
             super.setChanged();
             super.notifyObservers();
         }
-        else {
-            this.animationModel.finishDialogue();
+        else if (DIALOGUESTARTED) {
+            this.animationModel.finishDialogue(this.id);
         }
 
     }

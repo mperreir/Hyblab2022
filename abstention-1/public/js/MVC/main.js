@@ -2,12 +2,12 @@ const sujetAnimation = new AnimationModel(
     ".container.sujet",
     [
         {
-            visibility: [0.75, 1],
+            visibility: [0.7, 1],
             keyframes: ANIMATIONS.animations.sujet.scroll,
             player: "#sujet",
         },
         {
-            visibility: [1.2, 1.5],
+            visibility: [0.9, 1],
             keyframes: ANIMATIONS.animations.sujet.hide,
             player: "#sujet",
         },
@@ -16,13 +16,26 @@ const sujetAnimation = new AnimationModel(
 
 let sujetControler = new AnimationControler([sujetAnimation]);
 
+const scrollIndicatorAnimation = new AnimationModel(
+    ".container.sujet",
+    [
+        {
+            visibility: [0.7, 1],
+            keyframes: ANIMATIONS.animations.fade.out,
+            player: "#scrollIndicator",
+        }
+    ]
+);
+
+let scrollIndicatorControler = new AnimationControler([scrollIndicatorAnimation]);
+
 let scenes = [
-    new DialogueModel(dialogues[0].Texte,"M. Martin 51ans"),
-    new DialogueModel(dialogues[1].Texte,"Arthur 17ans"),
-    new DialogueModel(dialogues[2].Texte,"Nouvelle arrivante 24ans"),
-    new DialogueModel(dialogues[3].Texte,"M. le maire 46ans"),
-    new DialogueModel(dialogues[4].Texte,"Mme Robert 82ans"),
-    new DialogueModel(dialogues[5].Texte,"M. Martin 51ans"),
+    new DialogueModel(dialogues[0],"M. Martin 51ans"),
+    new DialogueModel(dialogues[1],"Arthur 17ans"),
+    new DialogueModel(dialogues[2],"Nouvelle arrivante 24ans"),
+    new DialogueModel(dialogues[3],"M. le maire 46ans"),
+    new DialogueModel(dialogues[4],"Mme Robert 82ans"),
+    new DialogueModel(dialogues[5],"M. Martin 51ans"),
 ]
 
 // let controleur = [new Controler(scene1), new Controler(scene2), new Controler(scene3), new Controler(scene4), new Controler(scene5)];
@@ -58,6 +71,11 @@ function getDialogueTransition(etape){
             visibility: [0.5, 0.9],
             keyframes: ANIMATIONS.animations[etape].perso2.out,
             player: "#personnage2",
+        },
+        {
+            visibility: [0.6, 0.9],
+            keyframes: ANIMATIONS.animations.fade.out,
+            player: "#scrollIndicator",
         },
         {
             visibility: [0.75, 0.9],
