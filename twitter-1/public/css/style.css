@@ -292,9 +292,6 @@ div{
     height:80%;
     margin-top: 0;
     margin-left: 0;
-    display : flex;
-    flex-wrap : wrap;
-    justify-content: space-evenly;
 }
 
 
@@ -492,10 +489,13 @@ th, td {
     }
 }
 
+#barplot{
+    filter: drop-shadow(5px 5px 5px rgb(0 0 0 / 0.3));
+}
+
 #comment{
     margin-top : 6%;
     text-align : center;
-    text-decoration: underline;
     font-size : 100%;
 }
 
