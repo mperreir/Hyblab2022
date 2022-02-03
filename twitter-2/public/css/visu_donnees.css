@@ -24,8 +24,9 @@ body {
     
 }
 #top-section{
-    display: flex;
-    justify-content: space-around;
+    position: relative;
+    display: block;
+    /* justify-content: space-around; */
     align-items: center;
     height: 10vh;
     margin-right: 4%;
