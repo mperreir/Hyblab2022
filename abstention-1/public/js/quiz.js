@@ -9,9 +9,9 @@ function lancerQuiz(numScene){
 
     for(let i=0; i<quiz.length; i++){
         if(quiz[i].Dialogue == numScene){
-            question1[0].value = quiz[i].Questions[0].Question;
-            question2[0].value = quiz[i].Questions[1].Question;
-            question3[0].value = quiz[i].Questions[2].Question;
+            question1[0].innerText = quiz[i].Questions[0].Question;
+            question2[0].innerText = quiz[i].Questions[1].Question;
+            question3[0].innerText = quiz[i].Questions[2].Question;
         }
     }
 

@@ -376,6 +376,7 @@ left: 3%;
     left:9%;
     top:20.8vh;
     z-index: 2;
+    pointer-events: none;
 
 }
 #personnage2{
@@ -395,6 +396,7 @@ left: 3%;
     z-index: 4;
 
     top:14vh; /*à changer à chaque perso*/
+    pointer-events: none;
 
 }
 
@@ -484,7 +486,7 @@ left: 3%;
     border : none;
     color : white;
 }
-#QuizZone input{
+#QuizZone textarea{
     position: relative;
     display: inline-block;
     font-size: 2vh;
@@ -493,20 +495,19 @@ left: 3%;
     color : white;
     cursor: pointer;
     padding: 3%;
-    margin-top: 3%;
     width: 100%;
-    height: auto;
+    height: 6vh;
     overflow-x: scroll;
 }
 
 /*Boutons choix des questions*/
-#QuizZone input[id='reponseA']{
+#QuizZone textarea[id='reponseA']{
     background-color: blue;
 }
-#QuizZone input[id='reponseB']{
+#QuizZone textarea[id='reponseB']{
     background-color: #29BA9B;
 }
-#QuizZone input[id='reponseC']{
+#QuizZone textarea[id='reponseC']{
     background-color: #E66E78;
 }
 
@@ -594,8 +595,8 @@ lottie-player{
     justify-content : center;
     flex-direction: column;
     padding : 10px ;
-    top: 25%;
-    left: 15%;
+    top: 15%;
+    left: 7.5%;
     visibility: hidden;
 }
 .box button {
@@ -610,7 +611,7 @@ lottie-player{
     z-index:3;
     font-weight: bold;
     font-size: large;
-    width: 70vw;
+    width: 35vh;
 }
 
 .box button[id='Pierre']{
