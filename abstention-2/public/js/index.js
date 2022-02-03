@@ -97,7 +97,7 @@ function date() {
 
 // loadFileExplorer().then(loadEnd());
 
-// loadRebet();
+loadRebet();
 
 loadStart();
 
@@ -109,7 +109,7 @@ async function fetchCityData(city) {
 }
 // loadFileExplorer();
 // smsScreen();
-//loadPresVille();
+
 
 
 

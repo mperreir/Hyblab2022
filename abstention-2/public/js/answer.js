@@ -8,14 +8,13 @@ async function loadAnswer() {
             pourcentage_total_absention: selectedCityData.pourcentage_total_absention,
             population: selectedCityData.population,
             pourcentage_abstention: selectedCityData.pourcentage_abstention,
-            pourcentage_non_votants: selectedCityData.pourcentage_non_votants,
             pourcentage_etranger: selectedCityData.pourcentage_etranger,
             pourcentage_mineurs: selectedCityData.pourcentage_mineurs,
             pourcentage_nouveaux_habitants: selectedCityData.pourcentage_nouveaux_habitants
         }
     }
 
-    
+
     // const headerHtml = await loadTemplate('templates/header.ejs', {});
     // container.innerHTML = headerHtml;
 

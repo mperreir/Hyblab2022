@@ -33,13 +33,13 @@ async function loadRebet() {
             sender: 'THOMAS',
             message: 'J’aurai fait pareil. Alors tu parierais sur combien? <br/> PS: Je mange saignant mon steak',
             style: 'sms-top sms-left',
-            id: "sms-keep-percentage-answer",
+            id: "sms-change-percentage-answer",
         },
         {
             type: 'sms',
             sender: 'THOMAS',
             message: 'D’accord on reste sur ça alors ;) J’aurai fait pareil.<br/>PS : Je mange saignant mon steak',
-            id: "sms-change-percentage-answer",
+            id: "sms-keep-percentage-answer",
             style: 'sms-bottom sms-left ',
 
         },
@@ -135,10 +135,11 @@ async function loadRebet() {
         document.getElementById('change-percentage-btn').disabled = true;
         document.getElementById('keep-percentage-btn').disabled = true;
         document.getElementById('change-percentage-btn').style.opacity = "50%";
+        document.getElementById('sms-keep-percentage-answer').style.display = "none";
 
 
-        document.getElementById('sms-change-percentage-answer').style.display = "none";
         displaySMS();
+
     });
 
     document.getElementById('keep-percentage-btn').addEventListener('click', async () => {
@@ -147,8 +148,22 @@ async function loadRebet() {
         document.getElementById('change-percentage-btn').disabled = true;
 
         document.getElementById('keep-percentage-btn').style.opacity = "50%";
+        document.getElementById('sms-change-percentage-answer').style.display = "none";
+        displayedSMSIndex++;
+        smsTread.children.item(displayedSMSIndex).style.visibility = 'visible';
 
-        smsTreadButton.removeEventListener("click", displaySMS());
+        smsTreadButton.disabled = true;
+        anime({
+            targets: '.sms-tread>*',
+            easing: 'easeInOutQuart',
+            duration: 1000,
+            translateY: "-=" + (getTranslateYSMS(smsTread, displayedSMSIndex) / 3),
+            complete: () => {
+                smsTreadButton.disabled = false;
+            }
+        });
+        // displaySMS();
+        smsTreadButton.removeEventListener("click", displaySMS);
         smsTreadButton.addEventListener("click", () => {
             loadFileExplorer();
         });

@@ -91,13 +91,13 @@ async function loadFolder(folderName) {
             data = {
                 cityName: citiesMap[selectedCity],
                 cityValue: selectedCityData['vote_blanc'] + selectedCityData['vote_nul'],
-                cityPercent: Math.round((selectedCityData['pourcentage_vote_blanc'] + selectedCityData['pourcentage_vote_nul'])*100)/100,
-                meanPercent: Math.round((metropoleData['pourcentage_vote_blanc'] + metropoleData['pourcentage_vote_nul'])*100)/100
+                cityPercent: Math.round((selectedCityData['pourcentage_vote_blanc'] + selectedCityData['pourcentage_vote_nul']) * 100) / 100,
+                meanPercent: Math.round((metropoleData['pourcentage_vote_blanc'] + metropoleData['pourcentage_vote_nul']) * 100) / 100
             };
             graphData = await loadTemplate('templates/folders/graphNouveauxHabitants.ejs', {
                 cityName: citiesMap[selectedCity],
-                cityPercent: Math.round((selectedCityData['pourcentage_vote_blanc'] + selectedCityData['pourcentage_vote_nul'])*100)/100,
-                meanPercent: Math.round((metropoleData['pourcentage_vote_blanc'] + metropoleData['pourcentage_vote_nul'])*100)/100
+                cityPercent: Math.round((selectedCityData['pourcentage_vote_blanc'] + selectedCityData['pourcentage_vote_nul']) * 100) / 100,
+                meanPercent: Math.round((metropoleData['pourcentage_vote_blanc'] + metropoleData['pourcentage_vote_nul']) * 100) / 100
             });
             break;
         case 'nouveauxHabitants':

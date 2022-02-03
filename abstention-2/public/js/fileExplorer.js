@@ -3,7 +3,7 @@ async function loadFileExplorer() {
 
 
     selectedCityData = await fetchCityData(selectedCity);
-    
+
     const citiesRq = await fetch('api/cities/');
     citiesMap = await citiesRq.json();
     const metropoleRq = await fetch('api/metropole/');
@@ -33,7 +33,7 @@ async function loadFileExplorer() {
         }
     }
     let count = Object.values(visitedFolders).filter(el => el === true).length;
-    if(count === 3){
+    if (count === 3) {
         loadRebet();
         visitedFolders.el = true;
     }
