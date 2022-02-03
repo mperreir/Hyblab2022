@@ -21,7 +21,7 @@ class DialogueView {
         this.quizZone=document.querySelector('#QuizZone');
 
         this.texte=document.querySelector('#textDialogue');
-        this.suite=document.querySelector('#Suite');
+        this.suite=document.querySelector('.Suite');
         this.nom=document.querySelector('.nom');
 
         this.question=document.querySelector('#QuizZone p');
@@ -31,7 +31,11 @@ class DialogueView {
 
         this.animation= document.querySelector('#animation');
 
-        this.btnrecommencer=document.querySelector('#recommencer');
+        this.telechargement=document.querySelector('#telechargement');
+        this.VersCredit=document.querySelector('#VersCredit');
+
+        
+        this.btnrecommencer=document.querySelector('.recommencer');
         this.btnretour=document.querySelector('#retour');
 
 
