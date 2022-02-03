@@ -1,5 +1,4 @@
 #first-slide {
-	height: 100vh;
 	background-color: #11151B;
 }
 
@@ -29,7 +28,6 @@
 
 #second-slide {
 	position: relative;
-	height: 100%;
 	background-color: #11151B;
 }
 
