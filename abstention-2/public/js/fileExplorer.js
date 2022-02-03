@@ -2,7 +2,6 @@ async function loadFileExplorer() {
 
 
 
-
     selectedCityData = await fetchCityData(selectedCity);
 
     const citiesRq = await fetch('api/cities/');
