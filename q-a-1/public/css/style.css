@@ -407,8 +407,12 @@ p.alignRight{
 
 /*Utiliser une animation*/
 
-.anim-wobble {
-    animation: wobble 2s 1s alternate infinite
+.anim-wobble1 {
+    animation: wobble 5s 1s alternate infinite
+}
+
+.anim-wobble2 {
+    animation: wobble 5s 2s alternate infinite
 }
 /*Utiliser une animmation*/
 
