@@ -52,27 +52,27 @@ async function showTopTweets () {
         },
     });
 
-    const comment = document.getElementById("comment");
-    comment.innerHTML = "Ils tweetent le plus cette semaine :";
+    // const comment = document.getElementById("comment");
+    // comment.innerHTML = "Ils tweetent le plus cette semaine :";
 
-    if (select.value === '1'){
-        comment.innerHTML = "Ils tweetent le plus sur la sécurité cette semaine :";
-    }
-    if (select.value === '2'){
-        comment.innerHTML = "Ils tweetent le plus sur la santé cette semaine :";
-    }
-    if (select.value === '3'){
-        comment.innerHTML = "Ils tweetent le plus sur l'économie cette semaine :";
-    }
-    if (select.value === '4'){
-        comment.innerHTML = "Ils tweetent le plus sur l'éducation cette semaine :";
-    }
-    if (select.value === '5'){
-        comment.innerHTML = "Ils tweetent le plus sur l'environnement cette semaine :";
-    }
-    if (select.value === '6'){
-        comment.innerHTML = "Ils tweetent le plus sur la culture cette semaine :";
-    }
+    // if (select.value === '1'){
+    //     comment.innerHTML = "Ils tweetent le plus sur la sécurité cette semaine :";
+    // }
+    // if (select.value === '2'){
+    //     comment.innerHTML = "Ils tweetent le plus sur la santé cette semaine :";
+    // }
+    // if (select.value === '3'){
+    //     comment.innerHTML = "Ils tweetent le plus sur l'économie cette semaine :";
+    // }
+    // if (select.value === '4'){
+    //     comment.innerHTML = "Ils tweetent le plus sur l'éducation cette semaine :";
+    // }
+    // if (select.value === '5'){
+    //     comment.innerHTML = "Ils tweetent le plus sur l'environnement cette semaine :";
+    // }
+    // if (select.value === '6'){
+    //     comment.innerHTML = "Ils tweetent le plus sur la culture cette semaine :";
+    // }
     
 
     TopTweetsThemePic(select.value);
