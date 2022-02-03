@@ -165,7 +165,18 @@ async function loadSms() {
                 translateY: "-=" + (getTranslateYSMS(smsTread, displayedSMSIndex) + getTranslateYSMS(smsTread, displayedSMSIndex + 1)),
             });
             displayedSMSIndex++;
-        } else if (displayedSMSIndex >= 4) {
+        } else if (displayedSMSIndex === 4) {
+            smsTreadButton.disabled = true;
+            anime({
+                targets: '.sms-tread>*',
+                easing: 'easeInOutQuart',
+                duration: 1000,
+                translateY: "-=" + (getTranslateYSMS(smsTread, displayedSMSIndex) + 60),
+                complete: () => {
+                    smsTreadButton.disabled = false;
+                }
+            });
+        } else if (displayedSMSIndex > 4) {
             smsTreadButton.disabled = true;
             anime({
                 targets: '.sms-tread>*',
