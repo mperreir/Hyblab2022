@@ -11,7 +11,7 @@ let personnages = [
 	'img/animations/homme.webm',
 	'img/animations/mamie.webm',
 	'img/animations/rousse.webm',
-	'img/animations/dame-reflet.webm',
+	'img/animations/dame-reflet.webm'
 ]
 
 let video = document.createElement('video');
