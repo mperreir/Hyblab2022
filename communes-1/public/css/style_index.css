@@ -42,8 +42,8 @@
 
 .header-bottom {
 	position: absolute;
-	top: 5vh;
 	text-align: center;
+	top: 0;
 }
 
 .header-bottom .hyblab {
@@ -68,7 +68,7 @@
 
 .corps-second-slide {
 	position: relative;
-	height: 100vh;
+	height: 100%;
 }
 
 .loire {
@@ -109,6 +109,44 @@
 	width: 50%;
 }
 
+#bandeau {
+	position: absolute;
+	bottom: 0;
+	padding-top: 3%;
+	width: 100%;
+	background-color: white;
+	font-size: 20%;
+}
+
+#bandeau li{
+	list-style-type: none;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 0.5em;
+}
+
+#bandeau img{
+	height: 1.5em;
+}
+
+#bandeau #cc, #bandeau #opensource
+{
+	height: 1em;
+}
+
+#bandeau .stacked{
+	display:block;
+}
+
+#bandeau ul{
+	text-align: center;
+	padding: 0 0;
+}
+
+#bandeau .institutionnel
+{
+	height: 2em;
+}
 
 
 

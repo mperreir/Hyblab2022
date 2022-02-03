@@ -1,11 +1,11 @@
 const magnum = document.querySelector('.one img');
 const boules_de_fort = document.querySelector('.two img');
 const oie = document.querySelector('.three img');
-const medaille = document.querySelector('.four img');
-const soupe = document.querySelector('.five img');
-const bottereau = document.querySelector('.six img');
+const bottereau = document.querySelector('.four img');
+const chateau = document.querySelector('.five img');
+const medaille = document.querySelector('.six img');
 const manuscrit = document.querySelector('.seven img');
-const chateau = document.querySelector('.eight img');
+const soupe = document.querySelector('.eight img');
 const cheval = document.querySelector('.nine img');
 const bateau = document.querySelector('.ten img');
 

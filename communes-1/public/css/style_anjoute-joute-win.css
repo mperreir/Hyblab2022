@@ -37,7 +37,7 @@
 
 .bravo{
     font-size: 120%;
-    font-family: 'Baloo Tamma 2';
+    font-family: 'lineal', sans-serif;
     height: 1.2em;
     margin-bottom: 10px;
     white-space: nowrap;
@@ -65,7 +65,7 @@
 }
 
 .recompense img {
-    height: 2.5em;
+    height: 2.0em;
 }
 
 .bottom {
