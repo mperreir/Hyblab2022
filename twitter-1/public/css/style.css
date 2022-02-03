@@ -198,6 +198,11 @@ h1{
     font-family: "Outfit", sans-serif;
     font-size:17%;
 }
+
+.menu b {
+    font-weight: 900;
+}
+
 .menu .menu-candidat {
     height : 60px;
     width :30%;
