@@ -40,16 +40,16 @@ async function quizScreen() {
   ]
 
   const code = [{
-    number: "2"
+    number: codeAnswer[0].toString()
   },
   {
-    number: "0"
+    number: codeAnswer[1].toString()
   },
   {
-    number: "4"
+    number: codeAnswer[2].toString()
   },
   {
-    number: "6"
+    number: codeAnswer[3].toString()
   },
   ]
 

@@ -8,8 +8,9 @@ async function loadTopSecret() {
   document.getElementById('ts-retour').addEventListener("click", () => loadFileExplorer());
 }
 
+
 let inputCode = [0,0,0,0];
-const codeAnswer = [2,0,4,6];
+const codeAnswer = [Math.floor(Math.random()*10),Math.floor(Math.random()*10),Math.floor(Math.random()*10),Math.floor(Math.random()*10)];
 
 function autotab(original,destination,index){
   inputCode[index] = original.value;
