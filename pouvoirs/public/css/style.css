@@ -423,7 +423,7 @@ b {
 
 #p4-bulle-container p {
   position: absolute;
-  color:white;
+  color: white;
   font-size: 15%;
   width: 68%;
   top: 23%;
@@ -485,7 +485,7 @@ b {
 }
 
 #conseil {
-  top:120%;
+  top: 120%;
   left: 10%;
 }
 
@@ -768,19 +768,17 @@ b {
 }
 
 #credit div a {
-  grid-column: auto / span 2; 
+  grid-column: auto / span 2;
   width: 70%;
   display: flex;
 }
 
 #credit div a:nth-last-child(1) {
-  grid-column: 4 / span 2; 
-
+  grid-column: 4 / span 2;
 }
 
 #credit div a:nth-last-child(2) {
-  grid-column: 2 / span 2; 
-
+  grid-column: 2 / span 2;
 }
 
 /* ---------- Important media queries for easy responsive content :-) ----------------- */
@@ -804,6 +802,23 @@ b {
 #thanks #thanks-background {
   position: absolute;
   top: 0%;
+  z-index: -1;
+}
+#thanks #thanks-background img {
+  position: absolute;
+  top: 22%;
+  left: 15%;
+  z-index: 2;
+  height: 30%;
+  width: 100%;
+}
+#thanks #thanks-background p {
+  font-size: 15%;
+  width: 75%;
+  position: absolute;
+  top: 25%;
+  left: 26%;
+  z-index: 3;
 }
 
 .fade {
@@ -863,33 +878,33 @@ b {
 
 /* This media query ensures that we allways will the width of the screen */
 /* as long as the screen aspect ratio is below 9:16 */
-@media screen and (max-aspect-ratio: 9/16){
-  #container{
-      margin-top: 0 /*calc((100vh - 100 * 16vw / 9) / 2)*/;
-      width: 100vw;
-      height: calc(100 * 16vw / 9);
+@media screen and (max-aspect-ratio: 9/16) {
+  #container {
+    margin-top: 0 /*calc((100vh - 100 * 16vw / 9) / 2)*/;
+    width: 100vw;
+    height: calc(100 * 16vw / 9);
   }
 
   /* We set a default font size here. It will be the base for all other font sizes */
   /* Here the font size is proportional to display width */
-  body{
-      font-size: calc(12vw*16/9);
+  body {
+    font-size: calc(12vw * 16 / 9);
   }
 }
 
 /* This media query ensures that we allways will the height of the screen */
 /* as long as the screen aspect ratio is higher than 9:16 */
-@media screen and (min-aspect-ratio: 9/16){
-  #container{
-      margin-left: calc((100vw - 100 * 9vh / 16) / 2);
-      width: calc(100 * 9vh / 16);
-      height: 100vh;
+@media screen and (min-aspect-ratio: 9/16) {
+  #container {
+    margin-left: calc((100vw - 100 * 9vh / 16) / 2);
+    width: calc(100 * 9vh / 16);
+    height: 100vh;
   }
 
   /* We set a default font size here. It will be the base for all other font sizes */
   /* Here the font size is proportional to display height */
-  body{
-      font-size: 12vh;
+  body {
+    font-size: 12vh;
   }
 }
 
