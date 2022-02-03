@@ -41,6 +41,14 @@ button{
     color:#FFFFFF;
 }
 
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
 #choix_vote{
     position:absolute;
     width:100%;
