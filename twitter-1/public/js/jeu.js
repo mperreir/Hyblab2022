@@ -256,15 +256,15 @@ function finJeu(score,total){
     jeu.appendChild(div);
     
 
-    /*let image = document.createElement('img');
+    let image = document.createElement('img');
     image.src="img/etoiles-1.png";
     image.setAttribute("id","etoile");
     image.style.width="40%";
     image.style.position = "relative";
-    image.style.top = "10%";
+    image.style.top = "50%";
     image.style.left = "20%";
 
-    jeu.appendChild(image);*/
+    jeu.appendChild(image);
 
     let btn_action_jeu = document.createElement('div');
     btn_action_jeu.setAttribute("class", "container-btn-end-game");
@@ -309,12 +309,12 @@ function clear(){
     let fin = document.querySelector('#finjeu');
     let score = document.querySelector('#score');
     let comment = document.querySelector('#appr');
-    //let image = document.querySelector('#etoile');
+    let image = document.querySelector('#etoile');
     jeu.removeChild(boutons);
     jeu.removeChild(fin);
     jeu.removeChild(score);
     jeu.removeChild(comment);
-    //jeu.removeChild(image);
+    jeu.removeChild(image);
     let slide = document.querySelector('#second-slide');
     slide.style.background ="#a08aff";
     
