@@ -262,7 +262,7 @@ function finJeu(score,total){
     image.style.width="40%";
     image.style.position = "relative";
     image.style.top = "50%";
-    image.style.left = "20%";
+    image.style.left = "25%";
 
     jeu.appendChild(image);
 
