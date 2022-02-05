@@ -6,24 +6,29 @@
 
 let lastDataRetrieval = new Date(70, 1);
 
-/**
- *
- * @param start
- * @param end
- * @return *[]
- */
+
 class DateController {
+    /**
+     * Allows to know the days between two dates
+     * @param start The first date
+     * @param end The last date
+     * @return {*[]} An array of days between start and end
+     */
     getDaysBetween(start, end) {
         let days = [];
-        let dt = start
+        let dt = start;
         while(dt <= end){
-            let [date, heure] = dt.toISOString().split('T')
+            let [date, heure] = dt.toISOString().split('T');
             days.push(date);
             dt.setDate(dt.getDate()+1);
         }
         return days;
     }
 
+    /**
+     * Compares the current date with the last date of data retrieval
+     * @return {boolean}
+     */
     shouldWeUpdateData() {
         let currentDate = new Date();
         currentDate.setHours(0,0,0,0);

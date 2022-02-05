@@ -4,8 +4,18 @@
  * @author : Team Genesis
  */
 
+'use strict'
+
+
 let lastDataRetrieval = new Date(70, 1);
 
+/**
+ * Initialise a new candidate
+ * @param nom The name of the candidate
+ * @param prenom The firstname of the candidate
+ * @param img The image of the candidate
+ * @param couleur The color of the candidate's party
+ */
 function Candidat(nom, prenom, img, couleur) {
     this.nom = nom;
     this.prenom = prenom;
@@ -13,18 +23,23 @@ function Candidat(nom, prenom, img, couleur) {
     this.couleur = couleur;
 }
 
+
 class CandidatController {
+    /**
+     * Makes a list of candidates and, if these colours are registered, assigns the right colour to the right candidate
+     * @param data Polling data
+     * @return {*[]} An object containing the processed candidates with their colours
+     */
     listCandidat(data) {
-        // we make an object for each candidat (whith his name, his first name and the name of his picture)
+        /* We make an object for each candidat (with his name, his first name and the name of his picture) */
         let object = [];
-        data.forEach(candidat => {
-            let tab = candidat.split(' ');
-            let prenom = tab[0];
+        data.forEach(candidate => {
+            let tab = candidate.split(' ');
+            let firstName = tab[0];
             tab.splice(0, 1);
-            let tab2 = tab;
-            let nom = tab2.join(' ');
-            let img = prenom + '_' + nom;
-            let correspondace = {
+            let name = tab.join(' ');
+            let img = firstName + '_' + name;
+            let correspondence = {
                 'Marine Le Pen': '#2E3845',
                 'Anne Hidalgo': '#DF3E3E',
                 'Jean-Luc Mélenchon': '#DF3E3E',
@@ -33,7 +48,7 @@ class CandidatController {
                 'Yannick Jadot': '#899853',
                 'Emmanuel Macron': '#ffb400',
                 'Valérie Pécresse': '#1FB2BA',
-                'Philippe Poutou': '#963E3E',
+                'Philippe Poutou': '#963E3E', /* <3 Guillaume <3 */
                 'Xavier Bertrand': '#1FB2BA',
                 'Michel Barnier': '#1FB2BA',
                 'François Asselineau': '#C8C8C8',
@@ -54,15 +69,19 @@ class CandidatController {
                 'Philippe Juvin': '#1FB2BA',
                 'Denis Payre': '#1FB2BA'
             }
-            let couleur = '#c8c8c8';
-            if (candidat in correspondace) {
-                couleur = correspondace[candidat];
+            let color = '#c8c8c8';
+            if (candidate in correspondence) {
+                color = correspondence[candidate];
             }
-            object.push(new Candidat(nom, prenom, img, couleur));
+            object.push(new Candidat(name, firstName, img, color));
         })
         return object;
     }
 
+    /**
+     * Compares the current date with the last date of data retrieval
+     * @return {boolean}
+     */
     shouldWeUpdateData() {
         let currentDate = new Date();
         currentDate.setHours(0, 0, 0, 0);
