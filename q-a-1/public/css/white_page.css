@@ -99,10 +99,10 @@ p{
 }
 
 #Q2 > input {
-    padding : 1.5% 10% 1.5% 8%;
     border: none;
     font-size: 45%;
-    width: 30%;
+    width: 25%;
+    height: 0%;
     margin:auto;
     text-align: center;
 }
@@ -111,6 +111,8 @@ p{
     border: none;
     font-size: 45%;
     width: 25%;
+    height: 15%;
+    margin:auto;
     text-align: center;
 }
 
@@ -132,6 +134,10 @@ p{
 #Q1, #Q2, #Q3{
     display: flex;
     justify-content: space-around;
+}
+
+#Q2{
+    margin-top:-2.5%;
 }
 
 #urne{
@@ -249,6 +255,10 @@ p{
 .gif{
     width:100%;
     margin-top:0%;
+}
+
+#gif_transition_voteblanc{
+    width:65%;
 }
 
 #last-sentence{
