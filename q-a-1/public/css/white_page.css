@@ -9,6 +9,10 @@ p{
     
 }
 
+body{
+    color:#989595;
+}
+
 h1{
     color: gray;
 }
@@ -104,11 +108,9 @@ p{
 }
 
 #Q1 > input {
-    padding : 1.5% 10% 1.5% 8%;
     border: none;
     font-size: 45%;
-    width: 30%;
-    margin:auto;
+    width: 25%;
     text-align: center;
 }
 
@@ -134,10 +136,8 @@ p{
 
 #urne{
     margin-top: 3%;
-    padding-left: 3%;
     display: flex;
     justify-content: space-between;
-
 }
 
 #urne > img{
@@ -238,6 +238,14 @@ p{
     margin-top: 8%;
 }
 
+.darker{
+    color:#656565;
+}
+
+#not_head1, #not_head2{
+    text-align: left;
+}
+
 .gif{
     width:100%;
     margin-top:0%;
@@ -301,5 +309,6 @@ a:link,a:visited{
 
 #Avis{
     font-size: 50%;
-    margin-top: -2%;
+    margin-top: -3%;
+    text-align: left;
 }
