@@ -114,6 +114,10 @@ p{
 
 /*Style des id*/
 
+#txt_intro_dejavote{
+    margin-top: 4%;
+}
+
 #first-section{
     background-color: white;
 }
@@ -149,11 +153,11 @@ p{
 #choix_candidats{
     display: flex;
     justify-content: space-around;
-    margin-top: -20%;
+    margin-top: -23%;
 }
 
 #choix_candidats > input{
-    width: 12%;
+    width: 20%;
     background-color: #FFFFFF;
 }
 
