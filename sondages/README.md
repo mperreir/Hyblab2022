@@ -1,22 +1,25 @@
-#Projet Hyblab 2022 - Polytech Nantes / AGR
+# Projet Hyblab 2022 - Polytech Nantes / AGR
 ![Logo Hyblab](public/img/logos/logo_hyblab.png)
 
 Du 11 janvier 2022 au 4 février 2022
 
 <br>
 
-###Porteur de projet : 
+### Porteur de projet : 
+
 Julien Kostreche directeur de Ouest Medialab
 
-###Sujet : Sondages
+### Sujet : Sondages
+
 L'objectif du projet est d'afficher les résultats des sondages à l'élection présidentielle Française de 2022
 d'une manière différente que ce qui existe déjà.
 
-###Nom d'équipe : Genesis
+### Nom d'équipe : Genesis
+
 L'équipe est composée d'étudiants de l'AGR (école de design) chargé de travailler sur le graphisme de l'application
 et d'étudiants de Polytech Nantes (école d'ingénieur) chargé de développer l'application.
 
-##Participants : 
+## Participants : 
 
 - AGR : 
   - Timothée Guitton [Instagram](https://www.instagram.com/tim_skern/?hl=fr), 
