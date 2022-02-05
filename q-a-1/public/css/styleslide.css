@@ -217,6 +217,13 @@ svg
     width:80%;
     margin-bottom: 8%;
 }
+#Croix1 , #Croix2 , #Croix3 , #Croix4 , #svg1, #svg2{
+    width:15%;
+    }
+
+#Croix1 , #Croix2 , #Croix3 , #Croix4 , #svg1, #svg2{
+    opacity: 0;
+}
 
   #bandeau .stacked{
     display:block;
@@ -341,6 +348,14 @@ display:inline-block;
         text-decoration:none;
 }
 
+.dessin_croix{
+    stroke-dasharray: 1400px;
+    stroke-dashoffset: 1400px;
+    animation-name: draw;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
 
 a:link,a:visited{
     display:inline-block;

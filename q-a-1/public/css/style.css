@@ -72,6 +72,10 @@ svg
     position: absolute;
 }
 
+#Croix1 , #Croix2 , #Croix3 , #Croix4 , #svg1, #svg2{
+width:15%;
+}
+
 .main-part {
     position: relative;
     width: 100%;
@@ -469,6 +473,15 @@ p.alignRight{
     animation-fill-mode: forwards;
 }
 
+.dessin_croix{
+    stroke-dasharray: 1400px;
+    stroke-dashoffset: 1400px;
+    animation-name: draw;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
 .dessin_rond_latence{
     stroke-dasharray: 1400px;
     stroke-dashoffset: 1400px;
@@ -478,7 +491,7 @@ p.alignRight{
     animation-timing-function: ease;
     animation-fill-mode: forwards;
 }
-#svg1 , #svg2{
+#Croix1 , #Croix2 , #Croix3 , #Croix4 , #svg1, #svg2{
     opacity: 0;
 }
 
