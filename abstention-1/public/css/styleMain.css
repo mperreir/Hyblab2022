@@ -1,0 +1,995 @@
+@font-face {
+    font-family: "Outfit";
+    src: url("Outfit-Regular.ttf");
+}
+
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: "Outfit";
+
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+#FatmaStuff {
+    display: none;
+}
+
+.hide {
+    display: none !important;
+}
+
+/*--------------------FORMAT TELEPHONE---------------------------*/
+/* Can be adapted for other ratios that 9:16 or for horizontal content (ex: 16:9) */
+
+/* This media query ensures that we allways will the width of the screen */
+/* as long as the screen aspect ratio is below 9:16 */
+@media screen and (max-aspect-ratio: 9/16) and (min-width :480px){
+    #container{
+        width: 100vw;
+        margin-top: calc((100vh - 100 * 16vw / 9) / 2);
+        height: calc(100 * 16vw / 9);
+    }
+
+    /* We set a default font size here. It will be the base for all other font sizes */
+    /* Here the font size is proportional to display width */
+    body{
+        font-size: calc(3vw*16/9);
+    }
+}
+
+/* Mobile */
+
+@media screen and (max-width: 480px) {
+    #container{
+        margin-top: 0;
+        width: 100vw;
+        height: 88vh; /* pour les navigateurs qui ne supportent pas  -webkit-fill-available */
+        height: -webkit-fill-available;
+        font-size: calc(3vw*16/9);
+    }
+}
+
+/* This media query ensures that we allways will the height of the screen */
+/* as long as the screen aspect ratio is higher than 9:16 */
+@media screen and (min-aspect-ratio: 9/16) and (min-width :480px) {
+    #container{
+        margin-left: calc((100vw - 100 * 9vh / 16) / 2);
+        width: calc(100 * 9vh / 16);
+        height: 100vh;
+    }
+
+    /* We set a default font size here. It will be the base for all other font sizes */
+    /* Here the font size is proportional to display height */
+    body{
+        font-size: 3vh;
+    }
+}
+
+/*Début*/
+#container{
+    background-color: white;
+    position: absolute;
+}
+/*-------------------Page d'accueil-----------------*/
+
+#logoVelo{
+    position:absolute;
+    left: 35%;
+    top:2.5%;
+    width: 60%;
+    height: 30%;
+    transform: scale(0.75,0.75);
+}
+#gifVelo{
+    width: 30%;
+    padding-top: 12.5%;
+    padding-left: 2.5%;
+}
+
+#logo{
+    width: 100%;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+    left: 0%;
+    top:46%;
+
+}
+
+#accueil h1,#accueil p {
+    margin: 0 auto;
+    width: 35vh;
+    color: #0600FF;
+
+}
+#accueil h1{
+    margin-top: 65%;
+    position: relative;
+}
+#accueil p{
+    margin-top: 3%;
+}
+
+#go{
+border : 1vh solid #E66E78;  
+    border-radius: 10em;
+    background-color: white;
+    color: #E66E78;
+    font-weight:bold ;
+    font-size: 80%;
+
+    margin-top: 13%;
+    width: 35vh;
+    height: 9vh;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+/*--------------Section intro--------------------*/
+#sujet{
+    opacity:1;
+    width: calc(100 * 9vh / 16);
+    height: 100%;
+    position: fixed;
+    z-index: 4;
+    overflow: hidden;
+}
+#info{
+    width: 10%;
+    margin-left: 3%;
+    margin-top: 3%;
+    cursor: pointer;
+}
+#son{
+    position: absolute;
+    width: 5%;
+    margin-right: 3%;
+    margin-top: 3%;
+    right: 0;
+}
+#sujet label[for="son"]{
+    color: blue;
+    font-size: small;
+    position: absolute;
+    top: 1%;
+    right: 5%;
+    width: 150px;
+}
+#SujetExpose{
+    border : 1vh solid #0600FF;  
+    border-radius: 2em;
+    width: 50vh;
+    height: 76vh;
+    color: #0600FF;
+    padding: 6%;
+    background-color: white;
+    transform:translate(16%) rotate(-10deg);
+    clip-path: polygon(0% 0%, 93.5% 0%, 68% 100%, 50% 100%, 0% 100%);
+
+}
+#SujetExpose h1{
+    margin:auto;
+    text-align:center;
+    font-size: 300%;
+    
+
+}
+#SujetExpose h2{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-decoration: underline;
+}
+
+#PieChart{
+position: absolute;
+width: 30%;
+height: auto;
+left:12%;
+bottom: 26%;
+}
+#BarChart{
+    position: absolute;
+    width: 30%;
+    height: auto;
+    right: 20%;
+    bottom: 13%;
+}
+#popupPointInfo{
+    opacity: 0;
+    width: 40vh;
+    height: 72vh;
+    top:13%;
+    left:10%;
+    position: absolute;
+    color: #29BA9B;
+    border : 1vh solid #29BA9B;  
+    border-radius: 2em;
+    padding: 3%;
+    background-color: white;
+   
+}
+#popupPointInfo p {
+margin-top: 10%;
+}
+
+@keyframes scroll {
+    from {
+      transform: translate(-50%,150%);
+    }
+    25%{
+      transform: translate(-50%,0);
+    }
+    40% {
+      transform: translate(-50%,0);
+    }
+    60% {
+      transform: translate(-50%,150%);
+    }
+    to {
+      transform: translate(-50%,150%);
+    }
+}
+  
+#sphere {
+    width: 0.9em;
+    height: 0.9em;
+    background-color: rgb(75, 75, 75);
+    border-radius:50%;
+    animation-duration: 3s;
+    animation-name: scroll;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+}
+  
+#scrollIndicator {
+    border: 0.25em solid rgb(75, 75, 75);
+    width: 1em;
+    height: 2.2em;
+    border-radius: 50px;
+    position: fixed;
+    transform: translate(-50%,-50%);
+    top: 90vh;
+    left: 50%;
+    z-index: 10;
+    pointer-events: none;
+}
+
+/*--------------Section popup carnet----------------*/
+
+#popupCarnet{
+    opacity: 1;
+    z-index: 5;
+    width: 45vh;
+    height: 85vh;
+    top: 5%;
+    position: absolute;
+    border : 1vh solid #0600FF;  
+    background-color: white;
+    border-radius: 2em;
+    display: none;
+    left: 4.5%;
+    color: #0600FF;
+    padding: 4%;
+    overflow-y: scroll;
+}
+
+#anneaux{
+position: relative;
+width: 95%;
+top:-6%;
+left: 3%;
+}
+#croix{
+    right:10% ;
+    top:10%;
+    width: 12%;
+    position: absolute;
+    z-index: 2;
+    }
+
+#popupCarnet h1{
+    position: relative;
+    width: 100%;
+    top:-5%;
+    font-size: 7vh;
+
+}
+#popupCarnet li{
+    font-size:4vh;
+    word-wrap: break-word;
+}
+#popupCarnet ul{
+    margin-left: 10%;
+}
+
+#infos-carnet li{
+    display: none;
+}
+
+/*--------------Section dialogue----------------*/
+#Dialogue{
+    top:0%;
+    opacity: 0;
+    /*background-image: url("../img/a889d43ee7cf0837f085391e97e8ffb6.jpg");*/
+   /* background-image: url("../img/Skatepark.svg");*/
+    background-repeat: no-repeat;   
+    background-size: 300%;
+    width: calc(100 * 9vh / 16);
+    height: 100vh; /*100vh*/
+    position: fixed;
+    z-index: 3;
+    overflow: hidden;
+    display: block;
+}
+
+/*header*/
+#Dialogue header{
+    height: 10vh;
+    margin: auto;
+    padding: 2%;
+    z-index: 3;
+}
+.circle p{
+    margin: auto; /* Important */
+    text-align: center;
+}
+.circle {
+    margin: auto;
+    display:inline-flex;
+    width: 5vh;
+    height: 5vh;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: #0600FF;
+    font-weight:bold;
+    font-size: 60%;
+  
+  }
+
+ 
+ #carnet{
+     opacity: 1;
+     position: absolute;
+     width: 5vh;
+     height: auto;
+     right: 3%;
+
+     display: inline-flex;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/*dialogue*/
+#personnage1{
+
+    /*Charlie*/
+    opacity: 1;
+
+    /* background-color: chartreuse;*/
+    /* background-image: url("../img/Charlie.svg");*/ 
+    background-repeat: no-repeat;   
+    background-size: contain;
+
+    position:absolute;
+    width: 50%;
+    height: 50vh; 
+    left:9%;
+    top:20.8vh;
+    z-index: 2;
+    pointer-events: none;
+
+}
+#personnage2{
+    /*Exemple jeune*/
+    opacity: 1;
+
+    position:absolute;
+    /* background-color: pink;*/
+    /* background-image: url("../img/Jeune.svg");*/
+    background-position: 100% 0%;
+    background-repeat: no-repeat;   
+    background-size: contain;
+
+    width: 50%;
+    height: 45vh; 
+    right:9%;
+    z-index: 4;
+
+    top:14vh; /*à changer à chaque perso*/
+    pointer-events: none;
+
+}
+
+#textZone{
+    position: absolute;
+    background-color: white;
+    border : 1vh solid #0600FF;  
+    border-radius: 2em;
+    width: 85%;
+    display: inline-block;
+
+    height: calc(100vh/2.3);
+    top:69.6vh;/*75vh*/
+    opacity: 1;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        z-index: 3;
+    
+}
+
+#Suite{
+    opacity: 1;
+    position: absolute;
+    display: flex;
+    vertical-align: center; 
+    height: 5vh;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 10vh;
+    z-index: 3;
+    /*visibility: hidden;*/
+
+}
+#textDialogue{
+    position:absolute;
+    top:50%;
+    background-color: #0600FF;
+    border-radius: 1em;
+    width: 85%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    /*height: 50%;*/
+    padding: 3%;
+    /*visibility: hidden;*/
+    
+}
+#cercle{
+    position:absolute;
+    top:3%;
+    left:15%;
+
+}
+.boxnom{
+    position:absolute;
+    background-color: #E66E78;
+    border-radius: 60px / 50px;
+    left: 30%;
+    top:3%;
+    height: 5vh;
+    width: 57%;
+}
+.nom{
+    margin-top: 2%;
+    text-align: center;
+}
+
+
+/*Quiz*/
+#QuizZone{
+    position:absolute;
+    width: 85%;
+    border-radius: 6%;
+    height: calc(100vh/4);
+    top:20%;
+    left:7%;
+    visibility: hidden;
+    z-index:3;
+    text-align: center;
+}
+#QuizZone p{
+    background-color: #E66E78;
+    border-radius : 10px;
+    outline : none;
+    border : none;
+    color : white;
+}
+#QuizZone textarea{
+    position: relative;
+    display: inline-block;
+    font-size: 2vh;
+    border-radius : 10px;
+    border : none;
+    color : white;
+    cursor: pointer;
+    padding: 3%;
+    width: 100%;
+    height: 6vh;
+    overflow-x: scroll;
+    font-family: "Outfit";
+}
+
+/*Boutons choix des questions*/
+#QuizZone textarea[id='reponseA']{
+    background-color: blue;
+    resize : none;
+}
+#QuizZone textarea[id='reponseB']{
+    background-color: #29BA9B;
+    resize : none;
+}
+#QuizZone textarea[id='reponseC']{
+    background-color: #E66E78;
+    resize : none;
+}
+
+/*Affichage des réponses*/
+#reponse{
+    visibility: hidden;
+    position:absolute;
+    width: 85%;
+    max-height: calc(100vh/4);
+    top:20%;
+    left:7%;
+    word-wrap: break-word;
+    overflow-y: scroll;
+}
+
+#reponse p{
+    border-radius : 10px;
+    outline : none;
+    border : none;
+    color : white;
+    padding: 3%;
+}
+#quizzRetour{
+    visibility: hidden;
+    background-color: blue;
+    color : white;
+    font-weight: bold;
+    border : none;
+    border-radius : 2em;
+    position: relative;
+    padding: 3% 5% 3% 5%;
+    top: 83.5%;
+    left: 10%;
+}
+
+/*--------------Section transition--------------*/
+#LottieAnimation{
+    position:fixed;
+    opacity: 1;
+    background-color: white;
+    width: calc(100 * 9vh / 16);
+    height: 100vh; /*100vh*/
+    top:0%;
+    display: block;  /*Permet de cacher les éléments*/
+}
+
+#animation{
+    position: absolute;
+    background-color:darkgreen;
+    width: 100%;
+    height: 40vh; /*auto*/
+    top:30vh;
+}
+
+
+lottie-player{
+    position:absolute;
+    width: 100%;
+}
+
+.player {
+    opacity: 0;
+}
+
+.separator {
+    height: 100vh;
+}
+
+.stop-scroll{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.dialogue {
+    height: 150vh;
+}
+
+.lottie {
+    height: 200vh;
+}
+
+/*--------------Section Pierre Feuille Ciseaux--------------*/
+
+.box {
+    position: absolute;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    flex-direction: column;
+    padding : 10px ;
+    top: 15%;
+    left: 7.5%;
+    visibility: hidden;
+}
+.box button {
+    padding : 15px 70px 15px 50px;
+    margin : 10px;
+    border-radius : 10px;
+    outline : none;
+    border : none;
+    color : white;
+    cursor: pointer;
+    transition : 0.2s;
+    z-index:3;
+    font-weight: bold;
+    font-size: large;
+    width: 35vh;
+}
+
+.box button[id='Pierre']{
+    background-color : blue;
+}
+
+.box button[id='Feuille']{
+    background-color : #29BA9B;
+}
+
+.box button[id='Ciseaux']{
+    background-color : #E66E78;
+}
+
+.box button:active {
+    transform : scale(0.97);
+}
+
+.resultat {
+    position: absolute;
+    display : flex;
+    flex-direction: row;
+    align-items : flex-start;
+    justify-content : center;
+    text-align : center;
+    font-weight: bold;
+    top : 35%;
+    color:white;
+    z-index: 3;
+    padding : 10px;
+    color:rgb(26, 27, 27);
+}
+
+img[id="Pierre"], img[id="Feuille"], img[id="Ciseaux"]{
+    width: 20%;
+	height: auto;
+    margin-left: 10px;
+}
+
+.resultat p{
+    padding: 10px 20px 10px 20px;
+    margin : 10px;
+    border-radius : 10px;
+    outline : none;
+    border : none;
+}
+
+.resultat p[id="Pierre"], .resultat p[id="Egalité"]{
+    background-color : #0600FF;
+}
+
+.resultat p[id="Feuille"], .resultat p[id="Gagné"]{
+    background-color : #29BA9B;
+}
+
+.resultat p[id="Ciseaux"], .resultat p[id="Perdu"]{
+    background-color : #E66E78;
+}
+
+.resultat p img{
+    width: 35%;
+	height: auto;
+}
+
+/*--------------------------Conclusion------------------*/
+#conclusion{
+    background-color: white;
+    position: relative;
+    text-align: center;
+    padding: 10%;
+}
+#espacePerso{
+position: relative;
+width: 100%;
+font-size: 80%;
+margin-top: 40vh;
+}
+#CharlieFin{
+    position:absolute;
+    width: 50%;
+    height: auto; 
+    left:0%;
+    top:-170%;
+
+    z-index: 2;
+
+}
+#Prof{
+
+    position:absolute;
+    width: 55%;
+    height: auto; 
+    right: 0%;
+    top:-168%;
+    z-index: 3;
+
+}
+#texteFin{
+    position: relative;
+    background-color: white;
+    border : 1vh solid #0600FF;  
+    border-radius: 1em;
+    width: 90%;
+
+    height: 10vh;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        z-index: 0;    
+}
+
+#conclusion .boxnom{
+    position:absolute;
+    top:25%;
+}
+#cercle2{
+    position:absolute;
+    top:25%;
+    left:15%;
+}
+
+
+#textDialogue2{
+    position:relative;
+   
+    background-color: #E66E78;
+    border-radius: 1em;
+    width: 85%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    /*height: 50%;*/
+    padding: 3%;
+    /*visibility: hidden;*/
+
+}
+
+#carnetFin{
+    width: 45vh;
+    position: relative;
+    margin-top: 20%;
+    border : 1vh solid #0600FF;  
+    background-color: white;
+    border-radius: 2em;
+    /* left: 4.5%; */
+    color: #0600FF;
+    /* padding: 4%; */
+    margin-bottom: 20%;
+}
+
+#anneaux2{
+position: absolute;
+width: 85%;
+top:-1%;
+left: 9%;
+}
+
+#carnetFin h1, #carnetFin li{
+    margin-left: 3%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: block;
+
+}
+
+
+#gateau{
+width: 25%;
+text-align:center;
+margin:auto;
+display:flex;
+}
+#Calendrier{
+    width: 70%;
+    text-align:center;
+    margin:auto;
+    display:flex;
+}
+#oui_non{
+    width: 80%;
+    text-align:center;
+    margin:auto;
+    display:flex;
+
+}
+#pancarte{
+    width: 60%;
+    text-align:center;
+    margin:auto;
+    display:flex;
+
+}
+#btnFin{
+margin-bottom: 10%;
+}
+
+#encoreUnefois{
+ 
+    width: 50%;
+    
+margin-left: 6%;
+    height: 5vh;
+font-weight: bold;
+font-size: 80%;
+color: white;
+background-color: #0600FF;
+border : 1vh solid #0600FF;  
+border-radius: 1em;
+z-index: 2;
+    }
+#VersCredit{
+    position: relative;
+    width: 17%;
+    vertical-align: middle;
+    margin-left: 2%;
+    z-index: 2;
+
+}
+
+#telechargement{
+width: 10%;
+margin-left: 2%;
+vertical-align: middle;
+z-index: 2;
+
+}
+/*-------------------------Crédits-------------------*/
+#credit{
+    background-color: white;
+    color: #0600FF;
+    position: relative;
+    text-align: center;
+    padding: 10%;
+}
+#logoFin{
+margin-top: 10%;
+width: 96%;
+margin-bottom: 5%;
+}
+
+#credit p{
+text-align: left;
+margin-top: 10%;
+}
+
+#names h1{
+    font-size: x-large;
+    margin-top: 1em;
+}
+
+#names p{
+    margin:0;
+    text-align: center;
+}
+
+#logoCredits{
+    display:inline-block;
+    margin-top: 20%;
+}
+
+
+
+.logoFin{
+
+    margin-bottom: 7%;
+}
+
+
+/*logos*/
+#AGR{
+width: 20%;
+margin-right: 5%;
+
+}
+#polytech{
+    width: 25%;
+}
+#ouestMedialab{
+    width: 40%;
+    margin-left: 5%;
+
+}
+#Hyblab{
+    width: 50%;
+    margin-right: 8%;
+
+
+}
+#Hyblab2022{
+    width: 30%;
+        margin-left: 9%;
+
+
+}
+#logo_nantesmetropole{
+    width: 45%;
+    margin-right: 2.5%;
+
+
+}
+#NantesUniv{
+    width: 45%;
+    margin-left: 2.5%;
+
+}
+
+#cc{
+    width: 12%;
+    margin-right: 10%;
+
+}
+#opensource{
+    width: 15%;
+    margin-left: 10%;
+}
+
+a{
+    color: #0600FF;
+}
+
+
+/*boutons*/
+#menuFin button{
+margin-top: 20%;
+height: 5vh;
+font-weight: bold;
+color: white;
+background-color: #0600FF;
+border : 1vh solid #0600FF;  
+
+ border-radius: 10em;
+ font-size: 80%;
+
+}
+
+.btnrecommencer{
+    width: 50%;
+    margin-left: 3%;
+
+
+}
+
+#retour{
+    width: 40%;
+    margin-right: 3%;
+
+
+}
+#souces{
+    margin-top: 10%;
+}
+#souces p{
+    text-align: left;
+    margin-top: 7%;
+}
+
+
+
