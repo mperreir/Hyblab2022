@@ -159,7 +159,8 @@ body {
     width: 30%;
     height: 100%;
     box-shadow: 7px 7px 25px 0 rgba(0,0,0,0.25);
-    font-weight: 700;
+    font-weight: 900;
+    text-shadow: 0px 1px, 1px 0px, 1px 1px;
     text-align: center; 
     color: #000;
     border : none;
@@ -198,8 +199,14 @@ h1{
     font-family: "Outfit", sans-serif;
     font-size:17%;
 }
+
+.menu b {
+    text-shadow: 0 1px, 1px 0, 1px 1px;
+    font-size: 0.8em;
+}
+
 .menu .menu-candidat {
-    height : 60px;
+    height : 50px;
     width :30%;
     margin-left : 5%;
     box-shadow: 7px 7px 25px 0 rgba(0, 0, 0, 0);
@@ -208,7 +215,7 @@ h1{
 }
 
 .menu .menu-jeu {
-    height : 60px;
+    height : 50px;
     width :30%;
     margin-left : 35%;
     box-shadow: 7px 7px 25px 0 rgba(0, 0, 0, 0);
@@ -217,7 +224,7 @@ h1{
 }
 
 .menu .menu-top {
-    height : 60px;
+    height : 50px;
     width :25%;
     margin-left : 65%;
     box-shadow: 7px 7px 25px 0 rgba(0, 0, 0, 0);
@@ -236,6 +243,7 @@ h2{
     text-align: center; 
     color: white;
     margin-top: 2%;
+    text-shadow: 0px 1px, 1px 0px, 1px 1px;
 }
 
 #jeu {
@@ -293,9 +301,9 @@ div{
 .button-candidat{
     width: 30%;
     /*height: 40px;*/
-    height:22%;
+    height:15%;
     /*padding: 0;*/
-    padding-bottom : 4%;
+    /*padding-bottom : 4%;*/
     border: none;
     background: none;
     /*margin-bottom: 6%;*/
@@ -303,7 +311,7 @@ div{
     font-size : 16%;
     color: #fff;
     text-transform: uppercase;
-    font-weight: 800;
+    font-weight: 900;
 }
 
 .profile3{
@@ -328,17 +336,21 @@ div{
 .profile{
     border-radius: 50%;
     margin-left: 38%;
+    margin-bottom: -10vh;
     border : 3px solid white;
     box-shadow: 7px 7px 25px rgba(0, 0, 0, 0.25);
+
 }
 
 .nom-candidat{
     text-align: center;
-    font-size: 30%;
+    font-size: 50%;
+    text-transform: uppercase;
+    text-shadow: 0px 1px, 1px 0px, 1px 1px;
 }
 
 table{
-    font-size: 18%;
+    font-size: 15%;
     margin: auto;
 }
 
@@ -348,6 +360,7 @@ td{
 
 th, td {
     padding: 5px;
+    text-transform: uppercase;
 }
 
 #tweets{
@@ -357,14 +370,14 @@ th, td {
 
 .box-tweet {
     background: white;
-    height: 35vh;
+    height: 25vh;
     width: 80%;
     border-radius: 70px;
-    margin-top: 5vh;
+    margin-top: 10vh;
     margin-left: auto;
     margin-right: auto;
     overflow: visible !important;
-    font-size: 18%;
+    font-size: 15%;
     position : absolute;
     top:44%;
     left : 10%;
@@ -373,12 +386,13 @@ th, td {
 
 .box-tweet-top {
     background: white;
-    height: 35vh;
+    height: 33vh;
     width: 95%;
     border-radius: 70px;
-    margin-top: 2vh;
+    margin-top: 1vh;
     margin-left: auto;
     margin-right: auto;
+    font-size: 90%;
     overflow: visible !important;
     box-shadow: 7px 7px 25px rgba(0, 0, 0, 0.25);
 }
@@ -393,22 +407,23 @@ th, td {
 .candidattweet .tweet p{
     padding: 5%;
     margin-left : 2%;
+    margin-top: 3%;
     height : 30vh;
     width:80%;
-    text-align: center;
+    text-align: justify;
 
 }
 
 .candidattweet .swiper-pagination{
     padding-top:5%;
-    margin-top : 5%;
+    margin-top : 10%;
 }
 
 .table-candidat {
-    margin-top:-17%;
+    margin-top:-37%;
     margin-bottom : 5%;
     /*margin: auto;*/
-    font-size: initial;
+    font-size: 80%;
 
 }
 
@@ -484,11 +499,15 @@ th, td {
     }
 }
 
+#barplot{
+    filter: drop-shadow(5px 5px 5px rgb(0 0 0 / 0.3));
+}
+
 #comment{
     margin-top : 6%;
     text-align : center;
-    text-decoration: underline;
-    font-size : 100%;
+    display :block;
+    font-size : 80%;
 }
 
 #fourth-slide{
@@ -500,13 +519,14 @@ th, td {
     background-color: #dbdbdb;
     width : 50%;
     height: 6%;
-    border : 2px solid black;
+    /*border : 2px solid black;*/
     border-radius: 10% / 50%;
     box-shadow: 7px 7px 25px 0 rgba(0,0,0,0.25);
     text-align: center;
     margin: auto;
     margin-top: 5%;
     display: flex;
+    font-size : 80%;
     padding: 2.5%;
 }
 
@@ -567,7 +587,7 @@ img#theme {
 
 #table-top {
     margin: auto;
-    font-size: initial;
+    font-size: 80%;
 
 }
 
@@ -639,6 +659,7 @@ img#theme {
 
 #bandeau .stacked{
     display:block;
+    font-size : 80%;
 }
 
 #bandeau .inline{
@@ -731,6 +752,7 @@ img#theme {
     /* Here the font size is proportional to display width */
     body{
         font-size: calc(12vw*16/9);
+        background-color: white;
     }
 }
 
@@ -759,6 +781,7 @@ img#theme {
     /* Here the font size is proportional to display height */
     body{
         font-size: 12vh;
+        background-color: white;
     }
 }
 

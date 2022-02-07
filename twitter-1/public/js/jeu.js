@@ -259,9 +259,9 @@ function finJeu(score,total){
     let image = document.createElement('img');
     image.src="img/etoiles-1.png";
     image.setAttribute("id","etoile");
-    image.style.width="60%";
-    image.style.position = "absolute";
-    image.style.top = "48%";
+    image.style.width="40%";
+    image.style.position = "relative";
+    image.style.top = "50%";
     image.style.left = "25%";
 
     jeu.appendChild(image);

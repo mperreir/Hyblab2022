@@ -79,6 +79,10 @@ const initSlide3 = async function () {
         }else{
             nom.innerHTML = `${candidat.name}`;
         }
+
+        // passe du prénom et du nom du candidat sur une autre ligne
+        nom.innerHTML = nom.innerHTML.replace(' ', '</br>');
+
         console.log(nom);
 
         //Get the candidats:popup from html document (have to change number)
@@ -282,8 +286,8 @@ const update_semaine = async function (truc, candidat_id) {
 
         var svg = document.createElementNS("http://www.w3.org/2000/svg","svg");
         svg.setAttribute("viewBox", "0 0 24 16");
-        svg.setAttribute("width", "24");
-        svg.setAttribute("height", "16");
+        svg.setAttribute("width", "14");
+        svg.setAttribute("height", "8");
         
 
         var newElement = document.createElementNS("http://www.w3.org/2000/svg", 'path'); //Create a path in SVG's namespace
@@ -298,8 +302,8 @@ const update_semaine = async function (truc, candidat_id) {
 
         var svg2 = document.createElementNS("http://www.w3.org/2000/svg","svg");
         svg2.setAttribute("viewBox", "0 0 15 14");
-        svg2.setAttribute("width", "15");
-        svg2.setAttribute("height", "14");
+        svg2.setAttribute("width", "10");
+        svg2.setAttribute("height", "8");
         //svg2.style.height = "1%";
 
         var newElement3 = document.createElementNS("http://www.w3.org/2000/svg", 'path'); //Create a path in SVG's namespace
