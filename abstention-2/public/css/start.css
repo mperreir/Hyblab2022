@@ -1,0 +1,76 @@
+.start {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    font-family: 'CabinetGrotesk-Bold';
+    overflow: hidden;
+}
+
+.start-flag {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.start-blue {
+    background-color: #1028fd;
+}
+.start-red {
+    background-color: #ff2e00;
+}
+
+.start-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30% 16% 0 16%;
+    width: 64%;
+    height: 100%;
+
+}
+
+.start-content-logo {
+    width: 96%;
+
+}
+
+.start-content-sms {
+    display: grid;
+    grid-template-rows: 20% 38% 42fr;
+    width: calc(100% - 1px);
+    height: 20%;
+    margin-top: 30%;
+    visibility: hidden;
+}
+
+.start-content-sms-title {
+    border: solid 2px #1028fd;
+    font-family: 'CabinetGrotesk-Light';
+    font-size: 0.7em;
+    padding: 5px;
+    padding-left: 12px;
+
+}
+
+.start-content-sms-text {
+    border-left: solid 2px #1028fd;
+    border-right: solid 2px #1028fd;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    padding-top: 8px;
+}
+
+.start-content-sms-btn {
+    background-color: #1028fd;
+    border: solid 2px #1028fd;
+    color : #e4e5fa;
+    border-radius: 0 0 10px 10px;
+    padding: 2px;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+

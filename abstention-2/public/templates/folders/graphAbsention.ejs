@@ -1,0 +1,10 @@
+<div class="fd-graph-abstention">
+    <div>
+        <div class="fd-bg-red" style="<%= cityPercent >= meanPercent ? 'height: 100%' : `height: ${(cityPercent * 100) / meanPercent}%` %>"></div>
+        <div class="fd-red fd-font-light fd-bar-names"><%= cityName %> (<%= cityPercent %> %)</div>
+    </div>
+    <div>
+        <div class="fd-bg-blue" style="<%= meanPercent >= cityPercent ? 'height: 100%' : `height: ${(meanPercent * 100) / cityPercent}%` %>"></div>
+        <div class="fd-red fd-font-light fd-bar-names">Zone d'attraction (<%= meanPercent %> %)</div>
+    </div>
+</div>

@@ -1,0 +1,186 @@
+
+.fd-blue {
+    color: #1028fd;
+}
+
+.fd-red {
+    color: #ff2e00;
+    text-align: end;
+}
+
+.fd-bg-blue {
+    background-color: #1028fd;
+}
+
+.fd-bg-red {
+    background-color: #ff2e00;
+}
+
+.fd-text-center {
+    text-align: center;
+}
+
+.fd-font {
+    font-family: 'CabinetGrotesk-Regular';
+}
+
+.fd-font-light {
+    font-family: 'CabinetGrotesk-Light';
+}
+
+.fd-font-bold {
+    font-family: 'CabinetGrotesk-Bold';
+}
+
+.fd-font-extra-bold {
+    font-family: 'CabinetGrotesk-Extrabold';
+}
+
+.fd-font-black {
+    font-family: 'CabinetGrotesk-Black';
+}
+
+
+.fd-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0%;
+    /* height: 100%; */
+    background-color: #e5e6f9;
+}
+
+.fd-header {
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    width: 100%;
+    height: 20%;
+    margin-bottom: 10%;
+}
+
+.fd-header-center {
+    margin-top: 5px;
+}
+
+
+.fd-numbers {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.fd-numbers-number {
+    color: #ff2e00;
+    font-weight: bold;
+    font-size: 4em;
+}
+
+.fd-numbers-hab {
+    color: #ff2e00;
+    font-weight: bold;
+}
+
+.fd-numbers-percent {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    color: #ff2e00;
+}
+
+.fd-separator {
+    width: 50%;
+    color: #ff2e00;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.fd-main-text {
+    margin-top: 30px;
+    width: 90%;
+    text-align: justify;
+    font-size: 1.3em;
+}
+
+.fd-secondary-text {
+    width: 80%;
+    margin-top: 20%;
+    color: #ff2e00;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.fd-message-line {
+    margin-top: 40px;
+    width: 80%;
+}
+
+.fd-graph {
+    width: 80%;
+    height: 35vh;
+    margin: 20px auto;
+}
+
+.fd-graph-abstention {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.fd-graph-nouveaux-habitants {
+    height: 100%;
+    width: 100%;
+}
+
+#graph-chartjs {
+    max-height: 100%;
+}
+
+.graph-etrangers-values {
+    margin-top: 5%;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.graph-nouveaux-habitants-values {
+    margin-top: 5%;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.fd-bar-names {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.fd-solutions {
+    width: 60%;
+    margin-top: 15%;
+    display: flex;
+}
+
+.fd-solutions-img {
+    margin-top: 10%;
+    width: 70%;
+}
+
+.fd-links {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.fd-link {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.fd-back-button {
+    width: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}

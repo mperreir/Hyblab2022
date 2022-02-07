@@ -1,0 +1,21 @@
+<% if(quiz){%>
+<div id="quizSection">
+    <div id="hearts">
+    </div>
+    <div id="question">
+        <div class="questionBulle"><%= quiz.question %></div>
+    </div>
+
+    <div id="answers">
+        <% for(var i = 0; i < quiz.answer.length; i++) {%>
+        <% if (i == quiz.goodAnswer) { %>
+        <input id="goodAnswer" type="button" value="<%= quiz.answer[i] %>">
+        <% } else{ %>
+        <input class="badAnswer" type="button" value="<%= quiz.answer[i] %>">
+        <% } %>
+
+
+        <% } %>
+    </div>
+</div>
+<% } %>

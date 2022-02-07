@@ -1,0 +1,75 @@
+<div class="answer-grid">
+
+    <div class="answer-left">
+    </div>
+
+    <div class="answer-middle" id="answer">
+        <div class="text-pari" id="text-pari">
+            Vous aviez parié : <br>
+        </div>
+
+        <div class="pari" id="pari">
+            <%= data.pari %>%
+        </div>
+
+        <div class="anwser-area">
+            <div class="anwser-header-ville">
+                <div class="anwser-border-red">
+                    <img src="img/geolocalisation.svg" class="anwser-geo" />
+                </div>
+                <div class="anwser-nom-ville">
+                    <p class="anwser-p-nom-ville">
+                        <%= data.city %>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="answer" id="answer">
+            <%= data.pourcentage_total_absention %>%
+        </div>
+
+        <div class="infos" id="infos">
+            <div class="info" id="hab">
+                <p>SOIT</p>
+                <div class="habitant">
+                    <p>
+                        <%= data.population %>
+                    </p>
+                    <p>hab</p>
+                </div>
+            </div>
+            <div class="info">
+                <p>ABSTENTIONNISTES</p>
+                <p>
+                    <%= data.pourcentage_abstention %>%
+                </p>
+            </div>
+            <div class="info">
+                <p>ETRANGERS</p>
+                <p>
+                    <%= data.pourcentage_etranger %>%
+                </p>
+            </div>
+            <div class="info">
+                <p>MINEURS</p>
+                <p>
+                    <%= data.pourcentage_mineurs %>%
+                </p>
+            </div>
+            <div class="info">
+                <p>NOUVEAUX HABITANTS</p>
+                <p>
+                    <%= data.pourcentage_nouveaux_habitants %>%
+                </p>
+            </div>
+        </div>
+
+        <button class="return-button" id="return-button">
+            Accéder à la messagerie
+        </button>
+    </div>
+
+    <div class="answer-right">
+    </div>
+</div>

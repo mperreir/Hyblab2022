@@ -1,0 +1,99 @@
+.answer-middle {
+    color:#ff2e00;
+    display: flex;
+    margin-top: 15%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.answer-grid {
+    font-family : 'CabinetGrotesk-Regular';
+    display: grid;
+    grid-template-columns: 0.5fr 5fr 0.5fr;
+    height: 100%;
+}
+
+.answer-left {
+    background-color: #1028fd;
+}
+
+.answer-right {
+    background-color: #ff2e00;
+}
+
+.pari {
+    font-family : 'CabinetGrotesk-Bold';
+    font-size: 4em;
+}
+
+.answer {
+    font-family : 'CabinetGrotesk-Bold';
+    font-size: 6em;
+}
+
+.info {
+    display:flex;
+    justify-content: space-between;
+}
+
+.habitant {
+    display: flex;
+}
+.habitant>p:first-child {
+    font-size: 1.4em;
+}
+.habitant>p:last-child {
+    margin-left: 9px;
+}
+
+#hab {
+    border-bottom: 1px solid #ff2e00;
+}
+
+.infos {
+    width: 85%;
+}
+
+.return-button {
+    background-color: #1028fd;
+    margin-top: 40px;
+    width: 85%;
+    padding: 2px;
+    border-radius: 10px;
+    border: 0;
+    font-family: 'CabinetGrotesk-regular';
+    font-size: 1.1em;
+    color: #e4e5fa;
+}
+
+.anwser-area {
+    text-align: center;
+    width: 85%;
+}
+  
+.anwser-header-ville {
+    display: grid;
+    grid-template-columns: 0.5fr 10fr;
+    width: 100%;
+    border : #ff2e00 solid 1px;
+    box-shadow: 0.3rem 0.5rem #ff2e00;
+    margin-bottom: 2rem;
+}
+
+.anwser-geo {
+    height: 100%;
+    border-right:#ff2e00 solid 1px;
+}
+
+.anwser-nom-ville {
+    color:#ff2e00;
+    font-size: 3vh;
+    font-family: "CabinetGrotesk-Regular";
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.anwser-p-nom-ville {
+    text-align: center;
+    width: 100%;
+}
