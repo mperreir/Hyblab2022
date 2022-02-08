@@ -11,23 +11,51 @@ const { followersAnalysis } = require('../dataProcessing/followersAnalysis');
 // Export our API
 module.exports = app;
 
+updateCsv();
+async function updateCsv() { // mise à jour liste candidats + tweets
+    setInterval(async () => {
+        try {
+            const date = new Date();
+            if (date.getHours() === 20) { // à 20h
+                await candidatAnalysis();
+                await tweetAnalysis();
+                if (date.getDay() === 2) await followersAnalysis(); // tous les lundis
+            }
+        } catch (err) {
+            console.log(err);
+        }
+    }, 1000*60); // toutes les heures
+}
+
 
 /* ----- Traitements ----- */
 // traitements des tweets
 app.get('/traitements/candidats', function (req, res) {
-    candidatAnalysis();
+    try {
+        candidatAnalysis();
+    } catch (err) {
+        console.log(err);
+    }
     res.send('Ok');
 });
 
 // traitements des tweets
 app.get('/traitements/tweets', function (req, res) {
-    tweetAnalysis();
+    try {
+        tweetAnalysis();
+    } catch (err) {
+        console.log(err);
+    }
     res.send('Ok');
 });
 
 // traitements des followers
 app.get('/traitements/followers', function (req, res) {
-    followersAnalysis();
+    try {
+        followersAnalysis();
+    } catch (err) {
+        console.log(err);
+    }
     res.send('Processing');
 });
 

@@ -24,7 +24,7 @@ async function candidatAnalysis() {
         }
     });
 
-    fs.writeFileSync(path.join(__dirname, '../data/infosCandidats.json'), JSON.stringify(candidatsInformations, null, 2), 'utf8');
+    if (updated) fs.writeFileSync(path.join(__dirname, '../data/infosCandidats.json'), JSON.stringify(candidatsInformations, null, 2), 'utf8');
     try { fs.unlinkSync(path.join(__dirname, '../data/candidats_noms_couleurs.csv')); } catch (_e) {} // suppression du csv car inutile après le traitement
     console.log('candidat analysis done');
 }

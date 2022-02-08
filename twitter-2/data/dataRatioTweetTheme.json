@@ -1,310 +1,310 @@
 {
   "education": {
     "AnasseKazib": {
-      "tweetOnTopic": 82,
-      "totalTweet": 1425,
-      "ratio": 5.8
+      "tweetOnTopic": 86,
+      "totalTweet": 1467,
+      "ratio": 5.9
     },
     "Anne_Hidalgo": {
-      "tweetOnTopic": 76,
-      "totalTweet": 807,
-      "ratio": 9.4
+      "tweetOnTopic": 80,
+      "totalTweet": 880,
+      "ratio": 9.1
     },
     "ChTaubira": {
-      "tweetOnTopic": 29,
-      "totalTweet": 184,
-      "ratio": 15.8
+      "tweetOnTopic": 32,
+      "totalTweet": 218,
+      "ratio": 14.7
     },
     "dupontaignan": {
-      "tweetOnTopic": 86,
-      "totalTweet": 1159,
+      "tweetOnTopic": 93,
+      "totalTweet": 1250,
       "ratio": 7.4
     },
     "EmmanuelMacron": {
       "tweetOnTopic": 35,
-      "totalTweet": 489,
-      "ratio": 7.2
+      "totalTweet": 508,
+      "ratio": 6.9
     },
     "Fabien_Roussel": {
-      "tweetOnTopic": 107,
-      "totalTweet": 1073,
-      "ratio": 10
+      "tweetOnTopic": 117,
+      "totalTweet": 1151,
+      "ratio": 10.2
     },
     "f_philippot": {
-      "tweetOnTopic": 93,
-      "totalTweet": 2173,
-      "ratio": 4.3
+      "tweetOnTopic": 94,
+      "totalTweet": 2256,
+      "ratio": 4.2
     },
     "jeanlassalle": {
       "tweetOnTopic": 32,
-      "totalTweet": 242,
-      "ratio": 13.2
+      "totalTweet": 253,
+      "ratio": 12.6
     },
     "JLMelenchon": {
-      "tweetOnTopic": 142,
-      "totalTweet": 2859,
-      "ratio": 5
+      "tweetOnTopic": 181,
+      "totalTweet": 3005,
+      "ratio": 6
     },
     "MLP_officiel": {
-      "tweetOnTopic": 81,
-      "totalTweet": 1239,
-      "ratio": 6.5
+      "tweetOnTopic": 84,
+      "totalTweet": 1325,
+      "ratio": 6.3
     },
     "PhilippePoutou": {
       "tweetOnTopic": 23,
-      "totalTweet": 261,
-      "ratio": 8.8
+      "totalTweet": 268,
+      "ratio": 8.6
     },
     "UPR_Asselineau": {
-      "tweetOnTopic": 64,
-      "totalTweet": 1822,
+      "tweetOnTopic": 66,
+      "totalTweet": 1887,
       "ratio": 3.5
     },
     "vpecresse": {
-      "tweetOnTopic": 47,
-      "totalTweet": 418,
-      "ratio": 11.2
+      "tweetOnTopic": 51,
+      "totalTweet": 443,
+      "ratio": 11.5
     },
     "yjadot": {
-      "tweetOnTopic": 93,
-      "totalTweet": 1136,
-      "ratio": 8.2
+      "tweetOnTopic": 95,
+      "totalTweet": 1196,
+      "ratio": 7.9
     },
     "ZemmourEric": {
-      "tweetOnTopic": 125,
-      "totalTweet": 1959,
-      "ratio": 6.4
+      "tweetOnTopic": 136,
+      "totalTweet": 2199,
+      "ratio": 6.2
     }
   },
   "sante": {
     "AnasseKazib": {
       "tweetOnTopic": 49,
-      "totalTweet": 1425,
-      "ratio": 3.4
+      "totalTweet": 1467,
+      "ratio": 3.3
     },
     "Anne_Hidalgo": {
-      "tweetOnTopic": 49,
-      "totalTweet": 807,
-      "ratio": 6.1
+      "tweetOnTopic": 51,
+      "totalTweet": 880,
+      "ratio": 5.8
     },
     "ChTaubira": {
       "tweetOnTopic": 12,
-      "totalTweet": 184,
-      "ratio": 6.5
+      "totalTweet": 218,
+      "ratio": 5.5
     },
     "dupontaignan": {
-      "tweetOnTopic": 303,
-      "totalTweet": 1159,
-      "ratio": 26.1
+      "tweetOnTopic": 313,
+      "totalTweet": 1250,
+      "ratio": 25
     },
     "EmmanuelMacron": {
       "tweetOnTopic": 23,
-      "totalTweet": 489,
-      "ratio": 4.7
+      "totalTweet": 508,
+      "ratio": 4.5
     },
     "Fabien_Roussel": {
-      "tweetOnTopic": 71,
-      "totalTweet": 1073,
-      "ratio": 6.6
+      "tweetOnTopic": 74,
+      "totalTweet": 1151,
+      "ratio": 6.4
     },
     "f_philippot": {
-      "tweetOnTopic": 688,
-      "totalTweet": 2173,
-      "ratio": 31.7
+      "tweetOnTopic": 709,
+      "totalTweet": 2256,
+      "ratio": 31.4
     },
     "jeanlassalle": {
-      "tweetOnTopic": 26,
-      "totalTweet": 242,
+      "tweetOnTopic": 27,
+      "totalTweet": 253,
       "ratio": 10.7
     },
     "JLMelenchon": {
-      "tweetOnTopic": 152,
-      "totalTweet": 2859,
-      "ratio": 5.3
+      "tweetOnTopic": 154,
+      "totalTweet": 3005,
+      "ratio": 5.1
     },
     "MLP_officiel": {
-      "tweetOnTopic": 90,
-      "totalTweet": 1239,
-      "ratio": 7.3
+      "tweetOnTopic": 92,
+      "totalTweet": 1325,
+      "ratio": 6.9
     },
     "PhilippePoutou": {
       "tweetOnTopic": 24,
-      "totalTweet": 261,
-      "ratio": 9.2
+      "totalTweet": 268,
+      "ratio": 9
     },
     "UPR_Asselineau": {
-      "tweetOnTopic": 342,
-      "totalTweet": 1822,
-      "ratio": 18.8
+      "tweetOnTopic": 350,
+      "totalTweet": 1887,
+      "ratio": 18.5
     },
     "vpecresse": {
-      "tweetOnTopic": 14,
-      "totalTweet": 418,
-      "ratio": 3.3
+      "tweetOnTopic": 17,
+      "totalTweet": 443,
+      "ratio": 3.8
     },
     "yjadot": {
-      "tweetOnTopic": 81,
-      "totalTweet": 1136,
-      "ratio": 7.1
+      "tweetOnTopic": 84,
+      "totalTweet": 1196,
+      "ratio": 7
     },
     "ZemmourEric": {
-      "tweetOnTopic": 33,
-      "totalTweet": 1959,
-      "ratio": 1.7
+      "tweetOnTopic": 34,
+      "totalTweet": 2199,
+      "ratio": 1.5
     }
   },
   "environnement": {
     "AnasseKazib": {
       "tweetOnTopic": 10,
-      "totalTweet": 1425,
+      "totalTweet": 1467,
       "ratio": 0.7
     },
     "Anne_Hidalgo": {
-      "tweetOnTopic": 45,
-      "totalTweet": 807,
-      "ratio": 5.6
+      "tweetOnTopic": 46,
+      "totalTweet": 880,
+      "ratio": 5.2
     },
     "ChTaubira": {
-      "tweetOnTopic": 4,
-      "totalTweet": 184,
-      "ratio": 2.2
+      "tweetOnTopic": 5,
+      "totalTweet": 218,
+      "ratio": 2.3
     },
     "dupontaignan": {
-      "tweetOnTopic": 31,
-      "totalTweet": 1159,
-      "ratio": 2.7
+      "tweetOnTopic": 32,
+      "totalTweet": 1250,
+      "ratio": 2.6
     },
     "EmmanuelMacron": {
       "tweetOnTopic": 55,
-      "totalTweet": 489,
-      "ratio": 11.2
+      "totalTweet": 508,
+      "ratio": 10.8
     },
     "Fabien_Roussel": {
-      "tweetOnTopic": 62,
-      "totalTweet": 1073,
-      "ratio": 5.8
+      "tweetOnTopic": 66,
+      "totalTweet": 1151,
+      "ratio": 5.7
     },
     "f_philippot": {
-      "tweetOnTopic": 30,
-      "totalTweet": 2173,
+      "tweetOnTopic": 31,
+      "totalTweet": 2256,
       "ratio": 1.4
     },
     "jeanlassalle": {
       "tweetOnTopic": 2,
-      "totalTweet": 242,
+      "totalTweet": 253,
       "ratio": 0.8
     },
     "JLMelenchon": {
-      "tweetOnTopic": 156,
-      "totalTweet": 2859,
-      "ratio": 5.5
+      "tweetOnTopic": 160,
+      "totalTweet": 3005,
+      "ratio": 5.3
     },
     "MLP_officiel": {
       "tweetOnTopic": 65,
-      "totalTweet": 1239,
-      "ratio": 5.2
+      "totalTweet": 1325,
+      "ratio": 4.9
     },
     "PhilippePoutou": {
       "tweetOnTopic": 6,
-      "totalTweet": 261,
-      "ratio": 2.3
+      "totalTweet": 268,
+      "ratio": 2.2
     },
     "UPR_Asselineau": {
-      "tweetOnTopic": 31,
-      "totalTweet": 1822,
+      "tweetOnTopic": 32,
+      "totalTweet": 1887,
       "ratio": 1.7
     },
     "vpecresse": {
-      "tweetOnTopic": 11,
-      "totalTweet": 418,
-      "ratio": 2.6
+      "tweetOnTopic": 14,
+      "totalTweet": 443,
+      "ratio": 3.2
     },
     "yjadot": {
-      "tweetOnTopic": 124,
-      "totalTweet": 1136,
-      "ratio": 10.9
+      "tweetOnTopic": 125,
+      "totalTweet": 1196,
+      "ratio": 10.5
     },
     "ZemmourEric": {
-      "tweetOnTopic": 20,
-      "totalTweet": 1959,
-      "ratio": 1
+      "tweetOnTopic": 25,
+      "totalTweet": 2199,
+      "ratio": 1.1
     }
   },
   "economie": {
     "AnasseKazib": {
-      "tweetOnTopic": 108,
-      "totalTweet": 1425,
-      "ratio": 7.6
+      "tweetOnTopic": 110,
+      "totalTweet": 1467,
+      "ratio": 7.5
     },
     "Anne_Hidalgo": {
       "tweetOnTopic": 55,
-      "totalTweet": 807,
-      "ratio": 6.8
+      "totalTweet": 880,
+      "ratio": 6.3
     },
     "ChTaubira": {
-      "tweetOnTopic": 15,
-      "totalTweet": 184,
-      "ratio": 8.2
+      "tweetOnTopic": 17,
+      "totalTweet": 218,
+      "ratio": 7.8
     },
     "dupontaignan": {
-      "tweetOnTopic": 75,
-      "totalTweet": 1159,
-      "ratio": 6.5
+      "tweetOnTopic": 76,
+      "totalTweet": 1250,
+      "ratio": 6.1
     },
     "EmmanuelMacron": {
       "tweetOnTopic": 36,
-      "totalTweet": 489,
-      "ratio": 7.4
+      "totalTweet": 508,
+      "ratio": 7.1
     },
     "Fabien_Roussel": {
-      "tweetOnTopic": 170,
-      "totalTweet": 1073,
-      "ratio": 15.8
+      "tweetOnTopic": 184,
+      "totalTweet": 1151,
+      "ratio": 16
     },
     "f_philippot": {
-      "tweetOnTopic": 78,
-      "totalTweet": 2173,
-      "ratio": 3.6
+      "tweetOnTopic": 83,
+      "totalTweet": 2256,
+      "ratio": 3.7
     },
     "jeanlassalle": {
       "tweetOnTopic": 7,
-      "totalTweet": 242,
-      "ratio": 2.9
+      "totalTweet": 253,
+      "ratio": 2.8
     },
     "JLMelenchon": {
-      "tweetOnTopic": 339,
-      "totalTweet": 2859,
-      "ratio": 11.9
+      "tweetOnTopic": 348,
+      "totalTweet": 3005,
+      "ratio": 11.6
     },
     "MLP_officiel": {
-      "tweetOnTopic": 145,
-      "totalTweet": 1239,
-      "ratio": 11.7
+      "tweetOnTopic": 154,
+      "totalTweet": 1325,
+      "ratio": 11.6
     },
     "PhilippePoutou": {
-      "tweetOnTopic": 29,
-      "totalTweet": 261,
-      "ratio": 11.1
+      "tweetOnTopic": 30,
+      "totalTweet": 268,
+      "ratio": 11.2
     },
     "UPR_Asselineau": {
-      "tweetOnTopic": 109,
-      "totalTweet": 1822,
+      "tweetOnTopic": 114,
+      "totalTweet": 1887,
       "ratio": 6
     },
     "vpecresse": {
-      "tweetOnTopic": 30,
-      "totalTweet": 418,
+      "tweetOnTopic": 32,
+      "totalTweet": 443,
       "ratio": 7.2
     },
     "yjadot": {
-      "tweetOnTopic": 108,
-      "totalTweet": 1136,
-      "ratio": 9.5
+      "tweetOnTopic": 110,
+      "totalTweet": 1196,
+      "ratio": 9.2
     },
     "ZemmourEric": {
-      "tweetOnTopic": 79,
-      "totalTweet": 1959,
-      "ratio": 4
+      "tweetOnTopic": 94,
+      "totalTweet": 2199,
+      "ratio": 4.3
     }
   }
 }
