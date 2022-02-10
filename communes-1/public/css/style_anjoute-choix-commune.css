@@ -1,0 +1,101 @@
+#container {
+	height: 100%;
+	background-color: #11151B;
+}
+
+.img_container {
+	text-align: center;
+}
+
+.img_container img {
+	width: 70%;
+	height: auto;
+	padding-top: 5vh;
+}
+
+.choix {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-top: 20vh;
+}
+
+.label-choix {
+	color: #C8A166;
+	font-family: 'Baloo Tamma 2';
+	font-size: 20%;
+	width: 60%;
+	margin-bottom: 20px;
+}
+
+.container-input-communes {
+	position: relative;
+	background-color: #2978EE;
+	border-radius: 10px;
+	height: 7vh;
+	width: 70%;
+}
+
+.input-communes {
+	position: absolute;
+	background: transparent;
+	box-shadow: none;
+	border: 0;
+	outline: 0;
+	border-bottom: 3px solid white;
+	color: white;
+	text-align: center;
+	font-size: 18%;
+	height: 50%;
+	width: 90%;
+	bottom: 18%;
+	right: 5%;
+}
+
+.suggestions {
+	height: 117px;
+	overflow: auto;
+	width: 60%;
+}
+  
+.suggestions > div {
+	font-family: 'Baloo Tamma 2';
+	padding: 6px;
+	font-size: 17%;
+	color: #fff;
+	background-color: #2978EE;
+	cursor: pointer;
+}
+
+.suggestions > div:hover {
+	background-color: #1e4dd4;
+}
+
+.bottom {
+	display: flex;
+	justify-content: center;
+	margin-top: 10vh;
+}
+
+.bottom .goToGame {
+	color: #C8A166;
+	background-color: #10141A;
+	border:  2px solid #C8A166;
+	border-radius: 10px;
+	width: 70%;
+	right: 35%;
+	cursor: pointer;
+}
+
+.bottom .goToGame:hover {
+	color: black;
+	background-color: #C8A166;
+}
+
+.bottom .goToGame p {
+    font-family: 'Lineal', sans-serif;
+	font-size: 200%;
+	margin: 5%;
+}
+

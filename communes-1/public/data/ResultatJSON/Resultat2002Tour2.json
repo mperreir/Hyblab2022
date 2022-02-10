@@ -1,0 +1,9116 @@
+[
+ {
+   "code": 2,
+   "nom_com": "Allonnes",
+   "inscrits": 1784,
+   "abstentions": 286,
+   "pour_abs": {
+      "ins": 16.03
+   },
+   "votants": 1498,
+   "pour_vot": {
+      "ins": 83.97
+   },
+   "blanc_nul": 78,
+   "pour_bl_nuls": {
+      "ins": 4.37,
+      "vot": 5.21
+   },
+   "exprimes": 1420,
+   "pour_exp": {
+      "ins": 79.6,
+      "vot": 94.79
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      1122,
+      298
+   ],
+   "pour_voix": {
+      "ins": [
+         62.89,
+         16.7
+      ],
+      "exp": [
+         79.01,
+         20.99
+      ]
+   }
+},
+ {
+   "code": 3,
+   "nom_com": "Tuffalun",
+   "inscrits": 1062,
+   "abstentions": 171,
+   "pour_abs": {
+      "ins": 16.1
+   },
+   "votants": 891,
+   "pour_vot": {
+      "ins": 83.9
+   },
+   "blanc_nul": 48,
+   "pour_bl_nuls": {
+      "ins": 4.52,
+      "vot": 5.39
+   },
+   "exprimes": 843,
+   "pour_exp": {
+      "ins": 79.38,
+      "vot": 94.61
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      712,
+      131
+   ],
+   "pour_voix": {
+      "ins": [
+         67.04,
+         12.34
+      ],
+      "exp": [
+         84.46,
+         15.54
+      ]
+   }
+},
+ {
+   "code": 7,
+   "nom_com": "Angers",
+   "inscrits": 84082,
+   "abstentions": 17286,
+   "pour_abs": {
+      "ins": 20.56
+   },
+   "votants": 66796,
+   "pour_vot": {
+      "ins": 79.44
+   },
+   "blanc_nul": 2771,
+   "pour_bl_nuls": {
+      "ins": 3.3,
+      "vot": 4.15
+   },
+   "exprimes": 64025,
+   "pour_exp": {
+      "ins": 76.15,
+      "vot": 95.85
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      57763,
+      6262
+   ],
+   "pour_voix": {
+      "ins": [
+         68.7,
+         7.45
+      ],
+      "exp": [
+         90.22,
+         9.78
+      ]
+   }
+},
+ {
+   "code": 8,
+   "nom_com": "Angrie",
+   "inscrits": 550,
+   "abstentions": 82,
+   "pour_abs": {
+      "ins": 14.91
+   },
+   "votants": 468,
+   "pour_vot": {
+      "ins": 85.09
+   },
+   "blanc_nul": 13,
+   "pour_bl_nuls": {
+      "ins": 2.36,
+      "vot": 2.78
+   },
+   "exprimes": 455,
+   "pour_exp": {
+      "ins": 82.73,
+      "vot": 97.22
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      388,
+      67
+   ],
+   "pour_voix": {
+      "ins": [
+         70.55,
+         12.18
+      ],
+      "exp": [
+         85.27,
+         14.73
+      ]
+   }
+},
+ {
+   "code": 9,
+   "nom_com": "Antoigné",
+   "inscrits": 306,
+   "abstentions": 73,
+   "pour_abs": {
+      "ins": 23.86
+   },
+   "votants": 233,
+   "pour_vot": {
+      "ins": 76.14
+   },
+   "blanc_nul": 22,
+   "pour_bl_nuls": {
+      "ins": 7.19,
+      "vot": 9.44
+   },
+   "exprimes": 211,
+   "pour_exp": {
+      "ins": 68.95,
+      "vot": 90.56
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      172,
+      39
+   ],
+   "pour_voix": {
+      "ins": [
+         56.21,
+         12.75
+      ],
+      "exp": [
+         81.52,
+         18.48
+      ]
+   }
+},
+ {
+   "code": 10,
+   "nom_com": "Armaillé",
+   "inscrits": 206,
+   "abstentions": 27,
+   "pour_abs": {
+      "ins": 13.11
+   },
+   "votants": 179,
+   "pour_vot": {
+      "ins": 86.89
+   },
+   "blanc_nul": 6,
+   "pour_bl_nuls": {
+      "ins": 2.91,
+      "vot": 3.35
+   },
+   "exprimes": 173,
+   "pour_exp": {
+      "ins": 83.98,
+      "vot": 96.65
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      144,
+      29
+   ],
+   "pour_voix": {
+      "ins": [
+         69.9,
+         14.08
+      ],
+      "exp": [
+         83.24,
+         16.76
+      ]
+   }
+},
+ {
+   "code": 11,
+   "nom_com": "Artannes-sur-Thouet",
+   "inscrits": 279,
+   "abstentions": 39,
+   "pour_abs": {
+      "ins": 13.98
+   },
+   "votants": 240,
+   "pour_vot": {
+      "ins": 86.02
+   },
+   "blanc_nul": 16,
+   "pour_bl_nuls": {
+      "ins": 5.73,
+      "vot": 6.67
+   },
+   "exprimes": 224,
+   "pour_exp": {
+      "ins": 80.29,
+      "vot": 93.33
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      180,
+      44
+   ],
+   "pour_voix": {
+      "ins": [
+         64.52,
+         15.77
+      ],
+      "exp": [
+         80.36,
+         19.64
+      ]
+   }
+},
+ {
+   "code": 12,
+   "nom_com": "Aubigné-sur-Layon",
+   "inscrits": 274,
+   "abstentions": 36,
+   "pour_abs": {
+      "ins": 13.14
+   },
+   "votants": 238,
+   "pour_vot": {
+      "ins": 86.86
+   },
+   "blanc_nul": 12,
+   "pour_bl_nuls": {
+      "ins": 4.38,
+      "vot": 5.04
+   },
+   "exprimes": 226,
+   "pour_exp": {
+      "ins": 82.48,
+      "vot": 94.96
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      190,
+      36
+   ],
+   "pour_voix": {
+      "ins": [
+         69.34,
+         13.14
+      ],
+      "exp": [
+         84.07,
+         15.93
+      ]
+   }
+},
+ {
+   "code": 15,
+   "nom_com": "Avrillé",
+   "inscrits": 9481,
+   "abstentions": 1572,
+   "pour_abs": {
+      "ins": 16.58
+   },
+   "votants": 7909,
+   "pour_vot": {
+      "ins": 83.42
+   },
+   "blanc_nul": 334,
+   "pour_bl_nuls": {
+      "ins": 3.52,
+      "vot": 4.22
+   },
+   "exprimes": 7575,
+   "pour_exp": {
+      "ins": 79.9,
+      "vot": 95.78
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      6871,
+      704
+   ],
+   "pour_voix": {
+      "ins": [
+         72.47,
+         7.43
+      ],
+      "exp": [
+         90.71,
+         9.29
+      ]
+   }
+},
+ {
+   "code": 17,
+   "nom_com": "Baracé",
+   "inscrits": 260,
+   "abstentions": 45,
+   "pour_abs": {
+      "ins": 17.31
+   },
+   "votants": 215,
+   "pour_vot": {
+      "ins": 82.69
+   },
+   "blanc_nul": 8,
+   "pour_bl_nuls": {
+      "ins": 3.08,
+      "vot": 3.72
+   },
+   "exprimes": 207,
+   "pour_exp": {
+      "ins": 79.62,
+      "vot": 96.28
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      171,
+      36
+   ],
+   "pour_voix": {
+      "ins": [
+         65.77,
+         13.85
+      ],
+      "exp": [
+         82.61,
+         17.39
+      ]
+   }
+},
+ {
+   "code": 18,
+   "nom_com": "Baugé-en-Anjou",
+   "inscrits": 7858,
+   "abstentions": 1517,
+   "pour_abs": {
+      "ins": 19.31
+   },
+   "votants": 6341,
+   "pour_vot": {
+      "ins": 80.69
+   },
+   "blanc_nul": 319,
+   "pour_bl_nuls": {
+      "ins": 4.06,
+      "vot": 5.03
+   },
+   "exprimes": 6022,
+   "pour_exp": {
+      "ins": 76.64,
+      "vot": 94.97
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      5072,
+      950
+   ],
+   "pour_voix": {
+      "ins": [
+         64.55,
+         12.09
+      ],
+      "exp": [
+         84.22,
+         15.78
+      ]
+   }
+},
+ {
+   "code": 20,
+   "nom_com": "Beaucouzé",
+   "inscrits": 3437,
+   "abstentions": 412,
+   "pour_abs": {
+      "ins": 11.99
+   },
+   "votants": 3025,
+   "pour_vot": {
+      "ins": 88.01
+   },
+   "blanc_nul": 144,
+   "pour_bl_nuls": {
+      "ins": 4.19,
+      "vot": 4.76
+   },
+   "exprimes": 2881,
+   "pour_exp": {
+      "ins": 83.82,
+      "vot": 95.24
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      2664,
+      217
+   ],
+   "pour_voix": {
+      "ins": [
+         77.51,
+         6.31
+      ],
+      "exp": [
+         92.47,
+         7.53
+      ]
+   }
+},
+ {
+   "code": 21,
+   "nom_com": "Beaufort-en-Anjou",
+   "inscrits": 4164,
+   "abstentions": 847,
+   "pour_abs": {
+      "ins": 20.34
+   },
+   "votants": 3317,
+   "pour_vot": {
+      "ins": 79.66
+   },
+   "blanc_nul": 187,
+   "pour_bl_nuls": {
+      "ins": 4.49,
+      "vot": 5.64
+   },
+   "exprimes": 3130,
+   "pour_exp": {
+      "ins": 75.17,
+      "vot": 94.36
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      2686,
+      444
+   ],
+   "pour_voix": {
+      "ins": [
+         64.51,
+         10.66
+      ],
+      "exp": [
+         85.81,
+         14.19
+      ]
+   }
+},
+ {
+   "code": 22,
+   "nom_com": "Beaulieu-sur-Layon",
+   "inscrits": 867,
+   "abstentions": 107,
+   "pour_abs": {
+      "ins": 12.34
+   },
+   "votants": 760,
+   "pour_vot": {
+      "ins": 87.66
+   },
+   "blanc_nul": 52,
+   "pour_bl_nuls": {
+      "ins": 6,
+      "vot": 6.84
+   },
+   "exprimes": 708,
+   "pour_exp": {
+      "ins": 81.66,
+      "vot": 93.16
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      602,
+      106
+   ],
+   "pour_voix": {
+      "ins": [
+         69.43,
+         12.23
+      ],
+      "exp": [
+         85.03,
+         14.97
+      ]
+   }
+},
+ {
+   "code": 23,
+   "nom_com": "Beaupréau-en-Mauges",
+   "inscrits": 15567,
+   "abstentions": 2448,
+   "pour_abs": {
+      "ins": 15.73
+   },
+   "votants": 13119,
+   "pour_vot": {
+      "ins": 84.27
+   },
+   "blanc_nul": 596,
+   "pour_bl_nuls": {
+      "ins": 3.83,
+      "vot": 4.54
+   },
+   "exprimes": 12523,
+   "pour_exp": {
+      "ins": 80.45,
+      "vot": 95.46
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      11277,
+      1246
+   ],
+   "pour_voix": {
+      "ins": [
+         72.44,
+         8
+      ],
+      "exp": [
+         90.05,
+         9.95
+      ]
+   }
+},
+ {
+   "code": 26,
+   "nom_com": "Bécon-les-Granits",
+   "inscrits": 1758,
+   "abstentions": 245,
+   "pour_abs": {
+      "ins": 13.94
+   },
+   "votants": 1513,
+   "pour_vot": {
+      "ins": 86.06
+   },
+   "blanc_nul": 67,
+   "pour_bl_nuls": {
+      "ins": 3.81,
+      "vot": 4.43
+   },
+   "exprimes": 1446,
+   "pour_exp": {
+      "ins": 82.25,
+      "vot": 95.57
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      1218,
+      228
+   ],
+   "pour_voix": {
+      "ins": [
+         69.28,
+         12.97
+      ],
+      "exp": [
+         84.23,
+         15.77
+      ]
+   }
+},
+ {
+   "code": 27,
+   "nom_com": "Bégrolles-en-Mauges",
+   "inscrits": 1173,
+   "abstentions": 139,
+   "pour_abs": {
+      "ins": 11.85
+   },
+   "votants": 1034,
+   "pour_vot": {
+      "ins": 88.15
+   },
+   "blanc_nul": 59,
+   "pour_bl_nuls": {
+      "ins": 5.03,
+      "vot": 5.71
+   },
+   "exprimes": 975,
+   "pour_exp": {
+      "ins": 83.12,
+      "vot": 94.29
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      850,
+      125
+   ],
+   "pour_voix": {
+      "ins": [
+         72.46,
+         10.66
+      ],
+      "exp": [
+         87.18,
+         12.82
+      ]
+   }
+},
+ {
+   "code": 28,
+   "nom_com": "Béhuard",
+   "inscrits": 90,
+   "abstentions": 14,
+   "pour_abs": {
+      "ins": 15.56
+   },
+   "votants": 76,
+   "pour_vot": {
+      "ins": 84.44
+   },
+   "blanc_nul": 3,
+   "pour_bl_nuls": {
+      "ins": 3.33,
+      "vot": 3.95
+   },
+   "exprimes": 73,
+   "pour_exp": {
+      "ins": 81.11,
+      "vot": 96.05
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      69,
+      4
+   ],
+   "pour_voix": {
+      "ins": [
+         76.67,
+         4.44
+      ],
+      "exp": [
+         94.52,
+         5.48
+      ]
+   }
+},
+ {
+   "code": 29,
+   "nom_com": "Blaison-Saint-Sulpice",
+   "inscrits": 908,
+   "abstentions": 121,
+   "pour_abs": {
+      "ins": 13.33
+   },
+   "votants": 787,
+   "pour_vot": {
+      "ins": 86.67
+   },
+   "blanc_nul": 36,
+   "pour_bl_nuls": {
+      "ins": 3.96,
+      "vot": 4.57
+   },
+   "exprimes": 751,
+   "pour_exp": {
+      "ins": 82.71,
+      "vot": 95.43
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      674,
+      77
+   ],
+   "pour_voix": {
+      "ins": [
+         74.23,
+         8.48
+      ],
+      "exp": [
+         89.75,
+         10.25
+      ]
+   }
+},
+ {
+   "code": 30,
+   "nom_com": "Blou",
+   "inscrits": 604,
+   "abstentions": 116,
+   "pour_abs": {
+      "ins": 19.21
+   },
+   "votants": 488,
+   "pour_vot": {
+      "ins": 80.79
+   },
+   "blanc_nul": 24,
+   "pour_bl_nuls": {
+      "ins": 3.97,
+      "vot": 4.92
+   },
+   "exprimes": 464,
+   "pour_exp": {
+      "ins": 76.82,
+      "vot": 95.08
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      394,
+      70
+   ],
+   "pour_voix": {
+      "ins": [
+         65.23,
+         11.59
+      ],
+      "exp": [
+         84.91,
+         15.09
+      ]
+   }
+},
+ {
+   "code": 35,
+   "nom_com": "Bouchemaine",
+   "inscrits": 4750,
+   "abstentions": 653,
+   "pour_abs": {
+      "ins": 13.75
+   },
+   "votants": 4097,
+   "pour_vot": {
+      "ins": 86.25
+   },
+   "blanc_nul": 177,
+   "pour_bl_nuls": {
+      "ins": 3.73,
+      "vot": 4.32
+   },
+   "exprimes": 3920,
+   "pour_exp": {
+      "ins": 82.53,
+      "vot": 95.68
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      3589,
+      331
+   ],
+   "pour_voix": {
+      "ins": [
+         75.56,
+         6.97
+      ],
+      "exp": [
+         91.56,
+         8.44
+      ]
+   }
+},
+ {
+   "code": 36,
+   "nom_com": "Bouillé-Ménard",
+   "inscrits": 519,
+   "abstentions": 89,
+   "pour_abs": {
+      "ins": 17.15
+   },
+   "votants": 430,
+   "pour_vot": {
+      "ins": 82.85
+   },
+   "blanc_nul": 30,
+   "pour_bl_nuls": {
+      "ins": 5.78,
+      "vot": 6.98
+   },
+   "exprimes": 400,
+   "pour_exp": {
+      "ins": 77.07,
+      "vot": 93.02
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      346,
+      54
+   ],
+   "pour_voix": {
+      "ins": [
+         66.67,
+         10.4
+      ],
+      "exp": [
+         86.5,
+         13.5
+      ]
+   }
+},
+ {
+   "code": 38,
+   "nom_com": "Bourg-l'Evêque",
+   "inscrits": 165,
+   "abstentions": 18,
+   "pour_abs": {
+      "ins": 10.91
+   },
+   "votants": 147,
+   "pour_vot": {
+      "ins": 89.09
+   },
+   "blanc_nul": 5,
+   "pour_bl_nuls": {
+      "ins": 3.03,
+      "vot": 3.4
+   },
+   "exprimes": 142,
+   "pour_exp": {
+      "ins": 86.06,
+      "vot": 96.6
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      133,
+      9
+   ],
+   "pour_voix": {
+      "ins": [
+         80.61,
+         5.45
+      ],
+      "exp": [
+         93.66,
+         6.34
+      ]
+   }
+},
+ {
+   "code": 41,
+   "nom_com": "Brain-sur-Allonnes",
+   "inscrits": 1383,
+   "abstentions": 289,
+   "pour_abs": {
+      "ins": 20.9
+   },
+   "votants": 1094,
+   "pour_vot": {
+      "ins": 79.1
+   },
+   "blanc_nul": 52,
+   "pour_bl_nuls": {
+      "ins": 3.76,
+      "vot": 4.75
+   },
+   "exprimes": 1042,
+   "pour_exp": {
+      "ins": 75.34,
+      "vot": 95.25
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      841,
+      201
+   ],
+   "pour_voix": {
+      "ins": [
+         60.81,
+         14.53
+      ],
+      "exp": [
+         80.71,
+         19.29
+      ]
+   }
+},
+ {
+   "code": 45,
+   "nom_com": "La Breille-les-Pins",
+   "inscrits": 283,
+   "abstentions": 37,
+   "pour_abs": {
+      "ins": 13.07
+   },
+   "votants": 246,
+   "pour_vot": {
+      "ins": 86.93
+   },
+   "blanc_nul": 8,
+   "pour_bl_nuls": {
+      "ins": 2.83,
+      "vot": 3.25
+   },
+   "exprimes": 238,
+   "pour_exp": {
+      "ins": 84.1,
+      "vot": 96.75
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      178,
+      60
+   ],
+   "pour_voix": {
+      "ins": [
+         62.9,
+         21.2
+      ],
+      "exp": [
+         74.79,
+         25.21
+      ]
+   }
+},
+ {
+   "code": 46,
+   "nom_com": "Brézé",
+   "inscrits": 873,
+   "abstentions": 167,
+   "pour_abs": {
+      "ins": 19.13
+   },
+   "votants": 706,
+   "pour_vot": {
+      "ins": 80.87
+   },
+   "blanc_nul": 46,
+   "pour_bl_nuls": {
+      "ins": 5.27,
+      "vot": 6.52
+   },
+   "exprimes": 660,
+   "pour_exp": {
+      "ins": 75.6,
+      "vot": 93.48
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      508,
+      152
+   ],
+   "pour_voix": {
+      "ins": [
+         58.19,
+         17.41
+      ],
+      "exp": [
+         76.97,
+         23.03
+      ]
+   }
+},
+ {
+   "code": 48,
+   "nom_com": "Briollay",
+   "inscrits": 1715,
+   "abstentions": 228,
+   "pour_abs": {
+      "ins": 13.29
+   },
+   "votants": 1487,
+   "pour_vot": {
+      "ins": 86.71
+   },
+   "blanc_nul": 68,
+   "pour_bl_nuls": {
+      "ins": 3.97,
+      "vot": 4.57
+   },
+   "exprimes": 1419,
+   "pour_exp": {
+      "ins": 82.74,
+      "vot": 95.43
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      1236,
+      183
+   ],
+   "pour_voix": {
+      "ins": [
+         72.07,
+         10.67
+      ],
+      "exp": [
+         87.1,
+         12.9
+      ]
+   }
+},
+ {
+   "code": 50,
+   "nom_com": "Brissac-Loire-Aubance",
+   "inscrits": 6558,
+   "abstentions": 864,
+   "pour_abs": {
+      "ins": 13.17
+   },
+   "votants": 5694,
+   "pour_vot": {
+      "ins": 86.83
+   },
+   "blanc_nul": 323,
+   "pour_bl_nuls": {
+      "ins": 4.93,
+      "vot": 5.67
+   },
+   "exprimes": 5371,
+   "pour_exp": {
+      "ins": 81.9,
+      "vot": 94.33
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      4728,
+      643
+   ],
+   "pour_voix": {
+      "ins": [
+         72.1,
+         9.8
+      ],
+      "exp": [
+         88.03,
+         11.97
+      ]
+   }
+},
+ {
+   "code": 53,
+   "nom_com": "Brossay",
+   "inscrits": 217,
+   "abstentions": 51,
+   "pour_abs": {
+      "ins": 23.5
+   },
+   "votants": 166,
+   "pour_vot": {
+      "ins": 76.5
+   },
+   "blanc_nul": 9,
+   "pour_bl_nuls": {
+      "ins": 4.15,
+      "vot": 5.42
+   },
+   "exprimes": 157,
+   "pour_exp": {
+      "ins": 72.35,
+      "vot": 94.58
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      114,
+      43
+   ],
+   "pour_voix": {
+      "ins": [
+         52.53,
+         19.82
+      ],
+      "exp": [
+         72.61,
+         27.39
+      ]
+   }
+},
+ {
+   "code": 54,
+   "nom_com": "Candé",
+   "inscrits": 1857,
+   "abstentions": 304,
+   "pour_abs": {
+      "ins": 16.37
+   },
+   "votants": 1553,
+   "pour_vot": {
+      "ins": 83.63
+   },
+   "blanc_nul": 63,
+   "pour_bl_nuls": {
+      "ins": 3.39,
+      "vot": 4.06
+   },
+   "exprimes": 1490,
+   "pour_exp": {
+      "ins": 80.24,
+      "vot": 95.94
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      1302,
+      188
+   ],
+   "pour_voix": {
+      "ins": [
+         70.11,
+         10.12
+      ],
+      "exp": [
+         87.38,
+         12.62
+      ]
+   }
+},
+ {
+   "code": 55,
+   "nom_com": "Cantenay-Epinard",
+   "inscrits": 1317,
+   "abstentions": 134,
+   "pour_abs": {
+      "ins": 10.17
+   },
+   "votants": 1183,
+   "pour_vot": {
+      "ins": 89.83
+   },
+   "blanc_nul": 41,
+   "pour_bl_nuls": {
+      "ins": 3.11,
+      "vot": 3.47
+   },
+   "exprimes": 1142,
+   "pour_exp": {
+      "ins": 86.71,
+      "vot": 96.53
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      1039,
+      103
+   ],
+   "pour_voix": {
+      "ins": [
+         78.89,
+         7.82
+      ],
+      "exp": [
+         90.98,
+         9.02
+      ]
+   }
+},
+ {
+   "code": 56,
+   "nom_com": "Carbay",
+   "inscrits": 177,
+   "abstentions": 17,
+   "pour_abs": {
+      "ins": 9.6
+   },
+   "votants": 160,
+   "pour_vot": {
+      "ins": 90.4
+   },
+   "blanc_nul": 5,
+   "pour_bl_nuls": {
+      "ins": 2.82,
+      "vot": 3.13
+   },
+   "exprimes": 155,
+   "pour_exp": {
+      "ins": 87.57,
+      "vot": 96.88
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      126,
+      29
+   ],
+   "pour_voix": {
+      "ins": [
+         71.19,
+         16.38
+      ],
+      "exp": [
+         81.29,
+         18.71
+      ]
+   }
+},
+ {
+   "code": 57,
+   "nom_com": "Cernusson",
+   "inscrits": 195,
+   "abstentions": 23,
+   "pour_abs": {
+      "ins": 11.79
+   },
+   "votants": 172,
+   "pour_vot": {
+      "ins": 88.21
+   },
+   "blanc_nul": 3,
+   "pour_bl_nuls": {
+      "ins": 1.54,
+      "vot": 1.74
+   },
+   "exprimes": 169,
+   "pour_exp": {
+      "ins": 86.67,
+      "vot": 98.26
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      135,
+      34
+   ],
+   "pour_voix": {
+      "ins": [
+         69.23,
+         17.44
+      ],
+      "exp": [
+         79.88,
+         20.12
+      ]
+   }
+},
+ {
+   "code": 58,
+   "nom_com": "Les Cerqueux",
+   "inscrits": 497,
+   "abstentions": 75,
+   "pour_abs": {
+      "ins": 15.09
+   },
+   "votants": 422,
+   "pour_vot": {
+      "ins": 84.91
+   },
+   "blanc_nul": 12,
+   "pour_bl_nuls": {
+      "ins": 2.41,
+      "vot": 2.84
+   },
+   "exprimes": 410,
+   "pour_exp": {
+      "ins": 82.49,
+      "vot": 97.16
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      367,
+      43
+   ],
+   "pour_voix": {
+      "ins": [
+         73.84,
+         8.65
+      ],
+      "exp": [
+         89.51,
+         10.49
+      ]
+   }
+},
+ {
+   "code": 60,
+   "nom_com": "Chacé",
+   "inscrits": 978,
+   "abstentions": 169,
+   "pour_abs": {
+      "ins": 17.28
+   },
+   "votants": 809,
+   "pour_vot": {
+      "ins": 82.72
+   },
+   "blanc_nul": 32,
+   "pour_bl_nuls": {
+      "ins": 3.27,
+      "vot": 3.96
+   },
+   "exprimes": 777,
+   "pour_exp": {
+      "ins": 79.45,
+      "vot": 96.04
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      627,
+      150
+   ],
+   "pour_voix": {
+      "ins": [
+         64.11,
+         15.34
+      ],
+      "exp": [
+         80.69,
+         19.31
+      ]
+   }
+},
+ {
+   "code": 61,
+   "nom_com": "Challain-la-Potherie",
+   "inscrits": 615,
+   "abstentions": 64,
+   "pour_abs": {
+      "ins": 10.41
+   },
+   "votants": 551,
+   "pour_vot": {
+      "ins": 89.59
+   },
+   "blanc_nul": 10,
+   "pour_bl_nuls": {
+      "ins": 1.63,
+      "vot": 1.81
+   },
+   "exprimes": 541,
+   "pour_exp": {
+      "ins": 87.97,
+      "vot": 98.19
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      475,
+      66
+   ],
+   "pour_voix": {
+      "ins": [
+         77.24,
+         10.73
+      ],
+      "exp": [
+         87.8,
+         12.2
+      ]
+   }
+},
+ {
+   "code": 63,
+   "nom_com": "Chalonnes-sur-Loire",
+   "inscrits": 4436,
+   "abstentions": 833,
+   "pour_abs": {
+      "ins": 18.78
+   },
+   "votants": 3603,
+   "pour_vot": {
+      "ins": 81.22
+   },
+   "blanc_nul": 178,
+   "pour_bl_nuls": {
+      "ins": 4.01,
+      "vot": 4.94
+   },
+   "exprimes": 3425,
+   "pour_exp": {
+      "ins": 77.21,
+      "vot": 95.06
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      3042,
+      383
+   ],
+   "pour_voix": {
+      "ins": [
+         68.58,
+         8.63
+      ],
+      "exp": [
+         88.82,
+         11.18
+      ]
+   }
+},
+ {
+   "code": 64,
+   "nom_com": "Chambellay",
+   "inscrits": 238,
+   "abstentions": 26,
+   "pour_abs": {
+      "ins": 10.92
+   },
+   "votants": 212,
+   "pour_vot": {
+      "ins": 89.08
+   },
+   "blanc_nul": 8,
+   "pour_bl_nuls": {
+      "ins": 3.36,
+      "vot": 3.77
+   },
+   "exprimes": 204,
+   "pour_exp": {
+      "ins": 85.71,
+      "vot": 96.23
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      172,
+      32
+   ],
+   "pour_voix": {
+      "ins": [
+         72.27,
+         13.45
+      ],
+      "exp": [
+         84.31,
+         15.69
+      ]
+   }
+},
+ {
+   "code": 65,
+   "nom_com": "Les Hauts-d'Anjou",
+   "inscrits": 3138,
+   "abstentions": 500,
+   "pour_abs": {
+      "ins": 15.93
+   },
+   "votants": 2638,
+   "pour_vot": {
+      "ins": 84.07
+   },
+   "blanc_nul": 102,
+   "pour_bl_nuls": {
+      "ins": 3.25,
+      "vot": 3.87
+   },
+   "exprimes": 2536,
+   "pour_exp": {
+      "ins": 80.82,
+      "vot": 96.13
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      2219,
+      317
+   ],
+   "pour_voix": {
+      "ins": [
+         70.71,
+         10.1
+      ],
+      "exp": [
+         87.5,
+         12.5
+      ]
+   }
+},
+ {
+   "code": 67,
+   "nom_com": "Chenillé-Champteussé",
+   "inscrits": 251,
+   "abstentions": 42,
+   "pour_abs": {
+      "ins": 16.73
+   },
+   "votants": 209,
+   "pour_vot": {
+      "ins": 83.27
+   },
+   "blanc_nul": 14,
+   "pour_bl_nuls": {
+      "ins": 5.58,
+      "vot": 6.7
+   },
+   "exprimes": 195,
+   "pour_exp": {
+      "ins": 77.69,
+      "vot": 93.3
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      168,
+      27
+   ],
+   "pour_voix": {
+      "ins": [
+         66.93,
+         10.76
+      ],
+      "exp": [
+         86.15,
+         13.85
+      ]
+   }
+},
+ {
+   "code": 68,
+   "nom_com": "Champtocé-sur-Loire",
+   "inscrits": 1130,
+   "abstentions": 167,
+   "pour_abs": {
+      "ins": 14.78
+   },
+   "votants": 963,
+   "pour_vot": {
+      "ins": 85.22
+   },
+   "blanc_nul": 61,
+   "pour_bl_nuls": {
+      "ins": 5.4,
+      "vot": 6.33
+   },
+   "exprimes": 902,
+   "pour_exp": {
+      "ins": 79.82,
+      "vot": 93.67
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      767,
+      135
+   ],
+   "pour_voix": {
+      "ins": [
+         67.88,
+         11.95
+      ],
+      "exp": [
+         85.03,
+         14.97
+      ]
+   }
+},
+ {
+   "code": 69,
+   "nom_com": "Orée-d'Anjou",
+   "inscrits": 9912,
+   "abstentions": 1588,
+   "pour_abs": {
+      "ins": 16.02
+   },
+   "votants": 8324,
+   "pour_vot": {
+      "ins": 83.98
+   },
+   "blanc_nul": 408,
+   "pour_bl_nuls": {
+      "ins": 4.12,
+      "vot": 4.9
+   },
+   "exprimes": 7916,
+   "pour_exp": {
+      "ins": 79.86,
+      "vot": 95.1
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      6894,
+      1022
+   ],
+   "pour_voix": {
+      "ins": [
+         69.55,
+         10.31
+      ],
+      "exp": [
+         87.09,
+         12.91
+      ]
+   }
+},
+ {
+   "code": 70,
+   "nom_com": "Chanteloup-les-Bois",
+   "inscrits": 472,
+   "abstentions": 83,
+   "pour_abs": {
+      "ins": 17.58
+   },
+   "votants": 389,
+   "pour_vot": {
+      "ins": 82.42
+   },
+   "blanc_nul": 31,
+   "pour_bl_nuls": {
+      "ins": 6.57,
+      "vot": 7.97
+   },
+   "exprimes": 358,
+   "pour_exp": {
+      "ins": 75.85,
+      "vot": 92.03
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      313,
+      45
+   ],
+   "pour_voix": {
+      "ins": [
+         66.31,
+         9.53
+      ],
+      "exp": [
+         87.43,
+         12.57
+      ]
+   }
+},
+ {
+   "code": 76,
+   "nom_com": "La Chapelle-Saint-Laud",
+   "inscrits": 386,
+   "abstentions": 41,
+   "pour_abs": {
+      "ins": 10.62
+   },
+   "votants": 345,
+   "pour_vot": {
+      "ins": 89.38
+   },
+   "blanc_nul": 18,
+   "pour_bl_nuls": {
+      "ins": 4.66,
+      "vot": 5.22
+   },
+   "exprimes": 327,
+   "pour_exp": {
+      "ins": 84.72,
+      "vot": 94.78
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      275,
+      52
+   ],
+   "pour_voix": {
+      "ins": [
+         71.24,
+         13.47
+      ],
+      "exp": [
+         84.1,
+         15.9
+      ]
+   }
+},
+ {
+   "code": 80,
+   "nom_com": "Châteauneuf-sur-Sarthe",
+   "inscrits": 1729,
+   "abstentions": 351,
+   "pour_abs": {
+      "ins": 20.3
+   },
+   "votants": 1378,
+   "pour_vot": {
+      "ins": 79.7
+   },
+   "blanc_nul": 59,
+   "pour_bl_nuls": {
+      "ins": 3.41,
+      "vot": 4.28
+   },
+   "exprimes": 1319,
+   "pour_exp": {
+      "ins": 76.29,
+      "vot": 95.72
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      1123,
+      196
+   ],
+   "pour_voix": {
+      "ins": [
+         64.95,
+         11.34
+      ],
+      "exp": [
+         85.14,
+         14.86
+      ]
+   }
+},
+ {
+   "code": 82,
+   "nom_com": "Chaudefonds-sur-Layon",
+   "inscrits": 651,
+   "abstentions": 101,
+   "pour_abs": {
+      "ins": 15.51
+   },
+   "votants": 550,
+   "pour_vot": {
+      "ins": 84.49
+   },
+   "blanc_nul": 32,
+   "pour_bl_nuls": {
+      "ins": 4.92,
+      "vot": 5.82
+   },
+   "exprimes": 518,
+   "pour_exp": {
+      "ins": 79.57,
+      "vot": 94.18
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      450,
+      68
+   ],
+   "pour_voix": {
+      "ins": [
+         69.12,
+         10.45
+      ],
+      "exp": [
+         86.87,
+         13.13
+      ]
+   }
+},
+ {
+   "code": 86,
+   "nom_com": "Terranjou",
+   "inscrits": 2267,
+   "abstentions": 352,
+   "pour_abs": {
+      "ins": 15.53
+   },
+   "votants": 1915,
+   "pour_vot": {
+      "ins": 84.47
+   },
+   "blanc_nul": 80,
+   "pour_bl_nuls": {
+      "ins": 3.53,
+      "vot": 4.18
+   },
+   "exprimes": 1835,
+   "pour_exp": {
+      "ins": 80.94,
+      "vot": 95.82
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      1599,
+      236
+   ],
+   "pour_voix": {
+      "ins": [
+         70.53,
+         10.41
+      ],
+      "exp": [
+         87.14,
+         12.86
+      ]
+   }
+},
+ {
+   "code": 89,
+   "nom_com": "Chazé-sur-Argos",
+   "inscrits": 694,
+   "abstentions": 109,
+   "pour_abs": {
+      "ins": 15.71
+   },
+   "votants": 585,
+   "pour_vot": {
+      "ins": 84.29
+   },
+   "blanc_nul": 22,
+   "pour_bl_nuls": {
+      "ins": 3.17,
+      "vot": 3.76
+   },
+   "exprimes": 563,
+   "pour_exp": {
+      "ins": 81.12,
+      "vot": 96.24
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      513,
+      50
+   ],
+   "pour_voix": {
+      "ins": [
+         73.92,
+         7.2
+      ],
+      "exp": [
+         91.12,
+         8.88
+      ]
+   }
+},
+ {
+   "code": 90,
+   "nom_com": "Cheffes",
+   "inscrits": 582,
+   "abstentions": 83,
+   "pour_abs": {
+      "ins": 14.26
+   },
+   "votants": 499,
+   "pour_vot": {
+      "ins": 85.74
+   },
+   "blanc_nul": 27,
+   "pour_bl_nuls": {
+      "ins": 4.64,
+      "vot": 5.41
+   },
+   "exprimes": 472,
+   "pour_exp": {
+      "ins": 81.1,
+      "vot": 94.59
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      407,
+      65
+   ],
+   "pour_voix": {
+      "ins": [
+         69.93,
+         11.17
+      ],
+      "exp": [
+         86.23,
+         13.77
+      ]
+   }
+},
+ {
+   "code": 92,
+   "nom_com": "Chemillé-en-Anjou",
+   "inscrits": 13586,
+   "abstentions": 2103,
+   "pour_abs": {
+      "ins": 15.48
+   },
+   "votants": 11483,
+   "pour_vot": {
+      "ins": 84.52
+   },
+   "blanc_nul": 499,
+   "pour_bl_nuls": {
+      "ins": 3.67,
+      "vot": 4.35
+   },
+   "exprimes": 10984,
+   "pour_exp": {
+      "ins": 80.85,
+      "vot": 95.65
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      9910,
+      1074
+   ],
+   "pour_voix": {
+      "ins": [
+         72.94,
+         7.91
+      ],
+      "exp": [
+         90.22,
+         9.78
+      ]
+   }
+},
+ {
+   "code": 99,
+   "nom_com": "Cholet",
+   "inscrits": 34698,
+   "abstentions": 6732,
+   "pour_abs": {
+      "ins": 19.4
+   },
+   "votants": 27966,
+   "pour_vot": {
+      "ins": 80.6
+   },
+   "blanc_nul": 1450,
+   "pour_bl_nuls": {
+      "ins": 4.18,
+      "vot": 5.18
+   },
+   "exprimes": 26516,
+   "pour_exp": {
+      "ins": 76.42,
+      "vot": 94.82
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      23824,
+      2692
+   ],
+   "pour_voix": {
+      "ins": [
+         68.66,
+         7.76
+      ],
+      "exp": [
+         89.85,
+         10.15
+      ]
+   }
+},
+ {
+   "code": 100,
+   "nom_com": "Cizay-la-Madeleine",
+   "inscrits": 308,
+   "abstentions": 50,
+   "pour_abs": {
+      "ins": 16.23
+   },
+   "votants": 258,
+   "pour_vot": {
+      "ins": 83.77
+   },
+   "blanc_nul": 13,
+   "pour_bl_nuls": {
+      "ins": 4.22,
+      "vot": 5.04
+   },
+   "exprimes": 245,
+   "pour_exp": {
+      "ins": 79.55,
+      "vot": 94.96
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      184,
+      61
+   ],
+   "pour_voix": {
+      "ins": [
+         59.74,
+         19.81
+      ],
+      "exp": [
+         75.1,
+         24.9
+      ]
+   }
+},
+ {
+   "code": 102,
+   "nom_com": "Cléré-sur-Layon",
+   "inscrits": 260,
+   "abstentions": 43,
+   "pour_abs": {
+      "ins": 16.54
+   },
+   "votants": 217,
+   "pour_vot": {
+      "ins": 83.46
+   },
+   "blanc_nul": 8,
+   "pour_bl_nuls": {
+      "ins": 3.08,
+      "vot": 3.69
+   },
+   "exprimes": 209,
+   "pour_exp": {
+      "ins": 80.38,
+      "vot": 96.31
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      196,
+      13
+   ],
+   "pour_voix": {
+      "ins": [
+         75.38,
+         5
+      ],
+      "exp": [
+         93.78,
+         6.22
+      ]
+   }
+},
+ {
+   "code": 107,
+   "nom_com": "Cornillé-les-Caves",
+   "inscrits": 345,
+   "abstentions": 46,
+   "pour_abs": {
+      "ins": 13.33
+   },
+   "votants": 299,
+   "pour_vot": {
+      "ins": 86.67
+   },
+   "blanc_nul": 11,
+   "pour_bl_nuls": {
+      "ins": 3.19,
+      "vot": 3.68
+   },
+   "exprimes": 288,
+   "pour_exp": {
+      "ins": 83.48,
+      "vot": 96.32
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      246,
+      42
+   ],
+   "pour_voix": {
+      "ins": [
+         71.3,
+         12.17
+      ],
+      "exp": [
+         85.42,
+         14.58
+      ]
+   }
+},
+ {
+   "code": 109,
+   "nom_com": "Coron",
+   "inscrits": 989,
+   "abstentions": 161,
+   "pour_abs": {
+      "ins": 16.28
+   },
+   "votants": 828,
+   "pour_vot": {
+      "ins": 83.72
+   },
+   "blanc_nul": 31,
+   "pour_bl_nuls": {
+      "ins": 3.13,
+      "vot": 3.74
+   },
+   "exprimes": 797,
+   "pour_exp": {
+      "ins": 80.59,
+      "vot": 96.26
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      707,
+      90
+   ],
+   "pour_voix": {
+      "ins": [
+         71.49,
+         9.1
+      ],
+      "exp": [
+         88.71,
+         11.29
+      ]
+   }
+},
+ {
+   "code": 110,
+   "nom_com": "Corzé",
+   "inscrits": 1095,
+   "abstentions": 171,
+   "pour_abs": {
+      "ins": 15.62
+   },
+   "votants": 924,
+   "pour_vot": {
+      "ins": 84.38
+   },
+   "blanc_nul": 51,
+   "pour_bl_nuls": {
+      "ins": 4.66,
+      "vot": 5.52
+   },
+   "exprimes": 873,
+   "pour_exp": {
+      "ins": 79.73,
+      "vot": 94.48
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      741,
+      132
+   ],
+   "pour_voix": {
+      "ins": [
+         67.67,
+         12.05
+      ],
+      "exp": [
+         84.88,
+         15.12
+      ]
+   }
+},
+ {
+   "code": 112,
+   "nom_com": "Le Coudray-Macouard",
+   "inscrits": 759,
+   "abstentions": 112,
+   "pour_abs": {
+      "ins": 14.76
+   },
+   "votants": 647,
+   "pour_vot": {
+      "ins": 85.24
+   },
+   "blanc_nul": 31,
+   "pour_bl_nuls": {
+      "ins": 4.08,
+      "vot": 4.79
+   },
+   "exprimes": 616,
+   "pour_exp": {
+      "ins": 81.16,
+      "vot": 95.21
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      528,
+      88
+   ],
+   "pour_voix": {
+      "ins": [
+         69.57,
+         11.59
+      ],
+      "exp": [
+         85.71,
+         14.29
+      ]
+   }
+},
+ {
+   "code": 113,
+   "nom_com": "Courchamps",
+   "inscrits": 291,
+   "abstentions": 45,
+   "pour_abs": {
+      "ins": 15.46
+   },
+   "votants": 246,
+   "pour_vot": {
+      "ins": 84.54
+   },
+   "blanc_nul": 19,
+   "pour_bl_nuls": {
+      "ins": 6.53,
+      "vot": 7.72
+   },
+   "exprimes": 227,
+   "pour_exp": {
+      "ins": 78.01,
+      "vot": 92.28
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      194,
+      33
+   ],
+   "pour_voix": {
+      "ins": [
+         66.67,
+         11.34
+      ],
+      "exp": [
+         85.46,
+         14.54
+      ]
+   }
+},
+ {
+   "code": 114,
+   "nom_com": "Courléon",
+   "inscrits": 118,
+   "abstentions": 18,
+   "pour_abs": {
+      "ins": 15.25
+   },
+   "votants": 100,
+   "pour_vot": {
+      "ins": 84.75
+   },
+   "blanc_nul": 10,
+   "pour_bl_nuls": {
+      "ins": 8.47,
+      "vot": 10
+   },
+   "exprimes": 90,
+   "pour_exp": {
+      "ins": 76.27,
+      "vot": 90
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      65,
+      25
+   ],
+   "pour_voix": {
+      "ins": [
+         55.08,
+         21.19
+      ],
+      "exp": [
+         72.22,
+         27.78
+      ]
+   }
+},
+ {
+   "code": 120,
+   "nom_com": "Denée",
+   "inscrits": 1003,
+   "abstentions": 127,
+   "pour_abs": {
+      "ins": 12.66
+   },
+   "votants": 876,
+   "pour_vot": {
+      "ins": 87.34
+   },
+   "blanc_nul": 38,
+   "pour_bl_nuls": {
+      "ins": 3.79,
+      "vot": 4.34
+   },
+   "exprimes": 838,
+   "pour_exp": {
+      "ins": 83.55,
+      "vot": 95.66
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      757,
+      81
+   ],
+   "pour_voix": {
+      "ins": [
+         75.47,
+         8.08
+      ],
+      "exp": [
+         90.33,
+         9.67
+      ]
+   }
+},
+ {
+   "code": 121,
+   "nom_com": "Dénezé-sous-Doué",
+   "inscrits": 300,
+   "abstentions": 47,
+   "pour_abs": {
+      "ins": 15.67
+   },
+   "votants": 253,
+   "pour_vot": {
+      "ins": 84.33
+   },
+   "blanc_nul": 10,
+   "pour_bl_nuls": {
+      "ins": 3.33,
+      "vot": 3.95
+   },
+   "exprimes": 243,
+   "pour_exp": {
+      "ins": 81,
+      "vot": 96.05
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      184,
+      59
+   ],
+   "pour_voix": {
+      "ins": [
+         61.33,
+         19.67
+      ],
+      "exp": [
+         75.72,
+         24.28
+      ]
+   }
+},
+ {
+   "code": 123,
+   "nom_com": "Distré",
+   "inscrits": 900,
+   "abstentions": 119,
+   "pour_abs": {
+      "ins": 13.22
+   },
+   "votants": 781,
+   "pour_vot": {
+      "ins": 86.78
+   },
+   "blanc_nul": 55,
+   "pour_bl_nuls": {
+      "ins": 6.11,
+      "vot": 7.04
+   },
+   "exprimes": 726,
+   "pour_exp": {
+      "ins": 80.67,
+      "vot": 92.96
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      595,
+      131
+   ],
+   "pour_voix": {
+      "ins": [
+         66.11,
+         14.56
+      ],
+      "exp": [
+         81.96,
+         18.04
+      ]
+   }
+},
+ {
+   "code": 125,
+   "nom_com": "Doué-en-Anjou",
+   "inscrits": 7653,
+   "abstentions": 1550,
+   "pour_abs": {
+      "ins": 20.25
+   },
+   "votants": 6103,
+   "pour_vot": {
+      "ins": 79.75
+   },
+   "blanc_nul": 302,
+   "pour_bl_nuls": {
+      "ins": 3.95,
+      "vot": 4.95
+   },
+   "exprimes": 5801,
+   "pour_exp": {
+      "ins": 75.8,
+      "vot": 95.05
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      4732,
+      1069
+   ],
+   "pour_voix": {
+      "ins": [
+         61.83,
+         13.97
+      ],
+      "exp": [
+         81.57,
+         18.43
+      ]
+   }
+},
+ {
+   "code": 127,
+   "nom_com": "Durtal",
+   "inscrits": 2342,
+   "abstentions": 457,
+   "pour_abs": {
+      "ins": 19.51
+   },
+   "votants": 1885,
+   "pour_vot": {
+      "ins": 80.49
+   },
+   "blanc_nul": 85,
+   "pour_bl_nuls": {
+      "ins": 3.63,
+      "vot": 4.51
+   },
+   "exprimes": 1800,
+   "pour_exp": {
+      "ins": 76.86,
+      "vot": 95.49
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      1511,
+      289
+   ],
+   "pour_voix": {
+      "ins": [
+         64.52,
+         12.34
+      ],
+      "exp": [
+         83.94,
+         16.06
+      ]
+   }
+},
+ {
+   "code": 129,
+   "nom_com": "Ecouflant",
+   "inscrits": 2537,
+   "abstentions": 293,
+   "pour_abs": {
+      "ins": 11.55
+   },
+   "votants": 2244,
+   "pour_vot": {
+      "ins": 88.45
+   },
+   "blanc_nul": 112,
+   "pour_bl_nuls": {
+      "ins": 4.41,
+      "vot": 4.99
+   },
+   "exprimes": 2132,
+   "pour_exp": {
+      "ins": 84.04,
+      "vot": 95.01
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      1917,
+      215
+   ],
+   "pour_voix": {
+      "ins": [
+         75.56,
+         8.47
+      ],
+      "exp": [
+         89.92,
+         10.08
+      ]
+   }
+},
+ {
+   "code": 130,
+   "nom_com": "Ecuillé",
+   "inscrits": 341,
+   "abstentions": 59,
+   "pour_abs": {
+      "ins": 17.3
+   },
+   "votants": 282,
+   "pour_vot": {
+      "ins": 82.7
+   },
+   "blanc_nul": 18,
+   "pour_bl_nuls": {
+      "ins": 5.28,
+      "vot": 6.38
+   },
+   "exprimes": 264,
+   "pour_exp": {
+      "ins": 77.42,
+      "vot": 93.62
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      226,
+      38
+   ],
+   "pour_voix": {
+      "ins": [
+         66.28,
+         11.14
+      ],
+      "exp": [
+         85.61,
+         14.39
+      ]
+   }
+},
+ {
+   "code": 131,
+   "nom_com": "Epieds",
+   "inscrits": 426,
+   "abstentions": 70,
+   "pour_abs": {
+      "ins": 16.43
+   },
+   "votants": 356,
+   "pour_vot": {
+      "ins": 83.57
+   },
+   "blanc_nul": 20,
+   "pour_bl_nuls": {
+      "ins": 4.69,
+      "vot": 5.62
+   },
+   "exprimes": 336,
+   "pour_exp": {
+      "ins": 78.87,
+      "vot": 94.38
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      255,
+      81
+   ],
+   "pour_voix": {
+      "ins": [
+         59.86,
+         19.01
+      ],
+      "exp": [
+         75.89,
+         24.11
+      ]
+   }
+},
+ {
+   "code": 132,
+   "nom_com": "Etriché",
+   "inscrits": 879,
+   "abstentions": 145,
+   "pour_abs": {
+      "ins": 16.5
+   },
+   "votants": 734,
+   "pour_vot": {
+      "ins": 83.5
+   },
+   "blanc_nul": 32,
+   "pour_bl_nuls": {
+      "ins": 3.64,
+      "vot": 4.36
+   },
+   "exprimes": 702,
+   "pour_exp": {
+      "ins": 79.86,
+      "vot": 95.64
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      574,
+      128
+   ],
+   "pour_voix": {
+      "ins": [
+         65.3,
+         14.56
+      ],
+      "exp": [
+         81.77,
+         18.23
+      ]
+   }
+},
+ {
+   "code": 135,
+   "nom_com": "Feneu",
+   "inscrits": 1383,
+   "abstentions": 226,
+   "pour_abs": {
+      "ins": 16.34
+   },
+   "votants": 1157,
+   "pour_vot": {
+      "ins": 83.66
+   },
+   "blanc_nul": 43,
+   "pour_bl_nuls": {
+      "ins": 3.11,
+      "vot": 3.72
+   },
+   "exprimes": 1114,
+   "pour_exp": {
+      "ins": 80.55,
+      "vot": 96.28
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      1004,
+      110
+   ],
+   "pour_voix": {
+      "ins": [
+         72.6,
+         7.95
+      ],
+      "exp": [
+         90.13,
+         9.87
+      ]
+   }
+},
+ {
+   "code": 138,
+   "nom_com": "Les Bois-d'Anjou",
+   "inscrits": 1632,
+   "abstentions": 294,
+   "pour_abs": {
+      "ins": 18.01
+   },
+   "votants": 1338,
+   "pour_vot": {
+      "ins": 81.99
+   },
+   "blanc_nul": 67,
+   "pour_bl_nuls": {
+      "ins": 4.11,
+      "vot": 5.01
+   },
+   "exprimes": 1271,
+   "pour_exp": {
+      "ins": 77.88,
+      "vot": 94.99
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      1062,
+      209
+   ],
+   "pour_voix": {
+      "ins": [
+         65.07,
+         12.81
+      ],
+      "exp": [
+         83.56,
+         16.44
+      ]
+   }
+},
+ {
+   "code": 140,
+   "nom_com": "Fontevraud-l'Abbaye",
+   "inscrits": 863,
+   "abstentions": 161,
+   "pour_abs": {
+      "ins": 18.66
+   },
+   "votants": 702,
+   "pour_vot": {
+      "ins": 81.34
+   },
+   "blanc_nul": 23,
+   "pour_bl_nuls": {
+      "ins": 2.67,
+      "vot": 3.28
+   },
+   "exprimes": 679,
+   "pour_exp": {
+      "ins": 78.68,
+      "vot": 96.72
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      557,
+      122
+   ],
+   "pour_voix": {
+      "ins": [
+         64.54,
+         14.14
+      ],
+      "exp": [
+         82.03,
+         17.97
+      ]
+   }
+},
+ {
+   "code": 144,
+   "nom_com": "Freigné",
+   "inscrits": 722,
+   "abstentions": 98,
+   "pour_abs": {
+      "ins": 13.57
+   },
+   "votants": 624,
+   "pour_vot": {
+      "ins": 86.43
+   },
+   "blanc_nul": 21,
+   "pour_bl_nuls": {
+      "ins": 2.91,
+      "vot": 3.37
+   },
+   "exprimes": 603,
+   "pour_exp": {
+      "ins": 83.52,
+      "vot": 96.63
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      473,
+      130
+   ],
+   "pour_voix": {
+      "ins": [
+         65.51,
+         18.01
+      ],
+      "exp": [
+         78.44,
+         21.56
+      ]
+   }
+},
+ {
+   "code": 149,
+   "nom_com": "Gennes-Val-de-Loire",
+   "inscrits": 3276,
+   "abstentions": 511,
+   "pour_abs": {
+      "ins": 15.6
+   },
+   "votants": 2765,
+   "pour_vot": {
+      "ins": 84.4
+   },
+   "blanc_nul": 157,
+   "pour_bl_nuls": {
+      "ins": 4.79,
+      "vot": 5.68
+   },
+   "exprimes": 2608,
+   "pour_exp": {
+      "ins": 79.61,
+      "vot": 94.32
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      2189,
+      419
+   ],
+   "pour_voix": {
+      "ins": [
+         66.82,
+         12.79
+      ],
+      "exp": [
+         83.93,
+         16.07
+      ]
+   }
+},
+ {
+   "code": 155,
+   "nom_com": "Grez-Neuville",
+   "inscrits": 867,
+   "abstentions": 117,
+   "pour_abs": {
+      "ins": 13.49
+   },
+   "votants": 750,
+   "pour_vot": {
+      "ins": 86.51
+   },
+   "blanc_nul": 33,
+   "pour_bl_nuls": {
+      "ins": 3.81,
+      "vot": 4.4
+   },
+   "exprimes": 717,
+   "pour_exp": {
+      "ins": 82.7,
+      "vot": 95.6
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      656,
+      61
+   ],
+   "pour_voix": {
+      "ins": [
+         75.66,
+         7.04
+      ],
+      "exp": [
+         91.49,
+         8.51
+      ]
+   }
+},
+ {
+   "code": 159,
+   "nom_com": "Huillé",
+   "inscrits": 332,
+   "abstentions": 50,
+   "pour_abs": {
+      "ins": 15.06
+   },
+   "votants": 282,
+   "pour_vot": {
+      "ins": 84.94
+   },
+   "blanc_nul": 22,
+   "pour_bl_nuls": {
+      "ins": 6.63,
+      "vot": 7.8
+   },
+   "exprimes": 260,
+   "pour_exp": {
+      "ins": 78.31,
+      "vot": 92.2
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      210,
+      50
+   ],
+   "pour_voix": {
+      "ins": [
+         63.25,
+         15.06
+      ],
+      "exp": [
+         80.77,
+         19.23
+      ]
+   }
+},
+ {
+   "code": 160,
+   "nom_com": "Ingrandes-Le-Fresne-sur-Loire",
+   "inscrits": 1095,
+   "abstentions": 198,
+   "pour_abs": {
+      "ins": 18.08
+   },
+   "votants": 897,
+   "pour_vot": {
+      "ins": 81.92
+   },
+   "blanc_nul": 48,
+   "pour_bl_nuls": {
+      "ins": 4.38,
+      "vot": 5.35
+   },
+   "exprimes": 849,
+   "pour_exp": {
+      "ins": 77.53,
+      "vot": 94.65
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      744,
+      105
+   ],
+   "pour_voix": {
+      "ins": [
+         67.95,
+         9.59
+      ],
+      "exp": [
+         87.63,
+         12.37
+      ]
+   }
+},
+ {
+   "code": 161,
+   "nom_com": "La Jaille-Yvon",
+   "inscrits": 182,
+   "abstentions": 27,
+   "pour_abs": {
+      "ins": 14.84
+   },
+   "votants": 155,
+   "pour_vot": {
+      "ins": 85.16
+   },
+   "blanc_nul": 12,
+   "pour_bl_nuls": {
+      "ins": 6.59,
+      "vot": 7.74
+   },
+   "exprimes": 143,
+   "pour_exp": {
+      "ins": 78.57,
+      "vot": 92.26
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      105,
+      38
+   ],
+   "pour_voix": {
+      "ins": [
+         57.69,
+         20.88
+      ],
+      "exp": [
+         73.43,
+         26.57
+      ]
+   }
+},
+ {
+   "code": 163,
+   "nom_com": "Jarzé-Villages",
+   "inscrits": 1569,
+   "abstentions": 263,
+   "pour_abs": {
+      "ins": 16.76
+   },
+   "votants": 1306,
+   "pour_vot": {
+      "ins": 83.24
+   },
+   "blanc_nul": 68,
+   "pour_bl_nuls": {
+      "ins": 4.33,
+      "vot": 5.21
+   },
+   "exprimes": 1238,
+   "pour_exp": {
+      "ins": 78.9,
+      "vot": 94.79
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      1027,
+      211
+   ],
+   "pour_voix": {
+      "ins": [
+         65.46,
+         13.45
+      ],
+      "exp": [
+         82.96,
+         17.04
+      ]
+   }
+},
+ {
+   "code": 167,
+   "nom_com": "Les Garennes-sur-Loire",
+   "inscrits": 2997,
+   "abstentions": 445,
+   "pour_abs": {
+      "ins": 14.85
+   },
+   "votants": 2552,
+   "pour_vot": {
+      "ins": 85.15
+   },
+   "blanc_nul": 127,
+   "pour_bl_nuls": {
+      "ins": 4.24,
+      "vot": 4.98
+   },
+   "exprimes": 2425,
+   "pour_exp": {
+      "ins": 80.91,
+      "vot": 95.02
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      2181,
+      244
+   ],
+   "pour_voix": {
+      "ins": [
+         72.77,
+         8.14
+      ],
+      "exp": [
+         89.94,
+         10.06
+      ]
+   }
+},
+ {
+   "code": 170,
+   "nom_com": "Juvardeil",
+   "inscrits": 649,
+   "abstentions": 123,
+   "pour_abs": {
+      "ins": 18.95
+   },
+   "votants": 526,
+   "pour_vot": {
+      "ins": 81.05
+   },
+   "blanc_nul": 29,
+   "pour_bl_nuls": {
+      "ins": 4.47,
+      "vot": 5.51
+   },
+   "exprimes": 497,
+   "pour_exp": {
+      "ins": 76.58,
+      "vot": 94.49
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      425,
+      72
+   ],
+   "pour_voix": {
+      "ins": [
+         65.49,
+         11.09
+      ],
+      "exp": [
+         85.51,
+         14.49
+      ]
+   }
+},
+ {
+   "code": 171,
+   "nom_com": "La Lande-Chasles",
+   "inscrits": 98,
+   "abstentions": 13,
+   "pour_abs": {
+      "ins": 13.27
+   },
+   "votants": 85,
+   "pour_vot": {
+      "ins": 86.73
+   },
+   "blanc_nul": 3,
+   "pour_bl_nuls": {
+      "ins": 3.06,
+      "vot": 3.53
+   },
+   "exprimes": 82,
+   "pour_exp": {
+      "ins": 83.67,
+      "vot": 96.47
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      68,
+      14
+   ],
+   "pour_voix": {
+      "ins": [
+         69.39,
+         14.29
+      ],
+      "exp": [
+         82.93,
+         17.07
+      ]
+   }
+},
+ {
+   "code": 174,
+   "nom_com": "Lézigné",
+   "inscrits": 495,
+   "abstentions": 91,
+   "pour_abs": {
+      "ins": 18.38
+   },
+   "votants": 404,
+   "pour_vot": {
+      "ins": 81.62
+   },
+   "blanc_nul": 12,
+   "pour_bl_nuls": {
+      "ins": 2.42,
+      "vot": 2.97
+   },
+   "exprimes": 392,
+   "pour_exp": {
+      "ins": 79.19,
+      "vot": 97.03
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      321,
+      71
+   ],
+   "pour_voix": {
+      "ins": [
+         64.85,
+         14.34
+      ],
+      "exp": [
+         81.89,
+         18.11
+      ]
+   }
+},
+ {
+   "code": 176,
+   "nom_com": "Le Lion-d'Angers",
+   "inscrits": 2763,
+   "abstentions": 446,
+   "pour_abs": {
+      "ins": 16.14
+   },
+   "votants": 2317,
+   "pour_vot": {
+      "ins": 83.86
+   },
+   "blanc_nul": 96,
+   "pour_bl_nuls": {
+      "ins": 3.47,
+      "vot": 4.14
+   },
+   "exprimes": 2221,
+   "pour_exp": {
+      "ins": 80.38,
+      "vot": 95.86
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      1981,
+      240
+   ],
+   "pour_voix": {
+      "ins": [
+         71.7,
+         8.69
+      ],
+      "exp": [
+         89.19,
+         10.81
+      ]
+   }
+},
+ {
+   "code": 178,
+   "nom_com": "Loiré",
+   "inscrits": 572,
+   "abstentions": 69,
+   "pour_abs": {
+      "ins": 12.06
+   },
+   "votants": 503,
+   "pour_vot": {
+      "ins": 87.94
+   },
+   "blanc_nul": 22,
+   "pour_bl_nuls": {
+      "ins": 3.85,
+      "vot": 4.37
+   },
+   "exprimes": 481,
+   "pour_exp": {
+      "ins": 84.09,
+      "vot": 95.63
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      421,
+      60
+   ],
+   "pour_voix": {
+      "ins": [
+         73.6,
+         10.49
+      ],
+      "exp": [
+         87.53,
+         12.47
+      ]
+   }
+},
+ {
+   "code": 180,
+   "nom_com": "Longué-Jumelles",
+   "inscrits": 5013,
+   "abstentions": 1153,
+   "pour_abs": {
+      "ins": 23
+   },
+   "votants": 3860,
+   "pour_vot": {
+      "ins": 77
+   },
+   "blanc_nul": 174,
+   "pour_bl_nuls": {
+      "ins": 3.47,
+      "vot": 4.51
+   },
+   "exprimes": 3686,
+   "pour_exp": {
+      "ins": 73.53,
+      "vot": 95.49
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      3061,
+      625
+   ],
+   "pour_voix": {
+      "ins": [
+         61.06,
+         12.47
+      ],
+      "exp": [
+         83.04,
+         16.96
+      ]
+   }
+},
+ {
+   "code": 182,
+   "nom_com": "Louresse-Rochemenier",
+   "inscrits": 464,
+   "abstentions": 68,
+   "pour_abs": {
+      "ins": 14.66
+   },
+   "votants": 396,
+   "pour_vot": {
+      "ins": 85.34
+   },
+   "blanc_nul": 25,
+   "pour_bl_nuls": {
+      "ins": 5.39,
+      "vot": 6.31
+   },
+   "exprimes": 371,
+   "pour_exp": {
+      "ins": 79.96,
+      "vot": 93.69
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      293,
+      78
+   ],
+   "pour_voix": {
+      "ins": [
+         63.15,
+         16.81
+      ],
+      "exp": [
+         78.98,
+         21.02
+      ]
+   }
+},
+ {
+   "code": 183,
+   "nom_com": "Val-d'Erdre-Auxence",
+   "inscrits": 2576,
+   "abstentions": 424,
+   "pour_abs": {
+      "ins": 16.46
+   },
+   "votants": 2152,
+   "pour_vot": {
+      "ins": 83.54
+   },
+   "blanc_nul": 76,
+   "pour_bl_nuls": {
+      "ins": 2.95,
+      "vot": 3.53
+   },
+   "exprimes": 2076,
+   "pour_exp": {
+      "ins": 80.59,
+      "vot": 96.47
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      1746,
+      330
+   ],
+   "pour_voix": {
+      "ins": [
+         67.78,
+         12.81
+      ],
+      "exp": [
+         84.1,
+         15.9
+      ]
+   }
+},
+ {
+   "code": 188,
+   "nom_com": "Marcé",
+   "inscrits": 526,
+   "abstentions": 62,
+   "pour_abs": {
+      "ins": 11.79
+   },
+   "votants": 464,
+   "pour_vot": {
+      "ins": 88.21
+   },
+   "blanc_nul": 22,
+   "pour_bl_nuls": {
+      "ins": 4.18,
+      "vot": 4.74
+   },
+   "exprimes": 442,
+   "pour_exp": {
+      "ins": 84.03,
+      "vot": 95.26
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      394,
+      48
+   ],
+   "pour_voix": {
+      "ins": [
+         74.9,
+         9.13
+      ],
+      "exp": [
+         89.14,
+         10.86
+      ]
+   }
+},
+ {
+   "code": 192,
+   "nom_com": "Maulévrier",
+   "inscrits": 2026,
+   "abstentions": 290,
+   "pour_abs": {
+      "ins": 14.31
+   },
+   "votants": 1736,
+   "pour_vot": {
+      "ins": 85.69
+   },
+   "blanc_nul": 69,
+   "pour_bl_nuls": {
+      "ins": 3.41,
+      "vot": 3.97
+   },
+   "exprimes": 1667,
+   "pour_exp": {
+      "ins": 82.28,
+      "vot": 96.03
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      1480,
+      187
+   ],
+   "pour_voix": {
+      "ins": [
+         73.05,
+         9.23
+      ],
+      "exp": [
+         88.78,
+         11.22
+      ]
+   }
+},
+ {
+   "code": 193,
+   "nom_com": "Le May-sur-Evre",
+   "inscrits": 2974,
+   "abstentions": 568,
+   "pour_abs": {
+      "ins": 19.1
+   },
+   "votants": 2406,
+   "pour_vot": {
+      "ins": 80.9
+   },
+   "blanc_nul": 134,
+   "pour_bl_nuls": {
+      "ins": 4.51,
+      "vot": 5.57
+   },
+   "exprimes": 2272,
+   "pour_exp": {
+      "ins": 76.4,
+      "vot": 94.43
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      1994,
+      278
+   ],
+   "pour_voix": {
+      "ins": [
+         67.05,
+         9.35
+      ],
+      "exp": [
+         87.76,
+         12.24
+      ]
+   }
+},
+ {
+   "code": 194,
+   "nom_com": "Mazé-Milon",
+   "inscrits": 3359,
+   "abstentions": 592,
+   "pour_abs": {
+      "ins": 17.62
+   },
+   "votants": 2767,
+   "pour_vot": {
+      "ins": 82.38
+   },
+   "blanc_nul": 168,
+   "pour_bl_nuls": {
+      "ins": 5,
+      "vot": 6.07
+   },
+   "exprimes": 2599,
+   "pour_exp": {
+      "ins": 77.37,
+      "vot": 93.93
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      2193,
+      406
+   ],
+   "pour_voix": {
+      "ins": [
+         65.29,
+         12.09
+      ],
+      "exp": [
+         84.38,
+         15.62
+      ]
+   }
+},
+ {
+   "code": 195,
+   "nom_com": "Mazières-en-Mauges",
+   "inscrits": 707,
+   "abstentions": 97,
+   "pour_abs": {
+      "ins": 13.72
+   },
+   "votants": 610,
+   "pour_vot": {
+      "ins": 86.28
+   },
+   "blanc_nul": 32,
+   "pour_bl_nuls": {
+      "ins": 4.53,
+      "vot": 5.25
+   },
+   "exprimes": 578,
+   "pour_exp": {
+      "ins": 81.75,
+      "vot": 94.75
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      522,
+      56
+   ],
+   "pour_voix": {
+      "ins": [
+         73.83,
+         7.92
+      ],
+      "exp": [
+         90.31,
+         9.69
+      ]
+   }
+},
+ {
+   "code": 200,
+   "nom_com": "Longuenée-en-Anjou",
+   "inscrits": 3440,
+   "abstentions": 388,
+   "pour_abs": {
+      "ins": 11.28
+   },
+   "votants": 3052,
+   "pour_vot": {
+      "ins": 88.72
+   },
+   "blanc_nul": 153,
+   "pour_bl_nuls": {
+      "ins": 4.45,
+      "vot": 5.01
+   },
+   "exprimes": 2899,
+   "pour_exp": {
+      "ins": 84.27,
+      "vot": 94.99
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      2600,
+      299
+   ],
+   "pour_voix": {
+      "ins": [
+         75.58,
+         8.69
+      ],
+      "exp": [
+         89.69,
+         10.31
+      ]
+   }
+},
+ {
+   "code": 201,
+   "nom_com": "La Ménitré",
+   "inscrits": 1343,
+   "abstentions": 214,
+   "pour_abs": {
+      "ins": 15.93
+   },
+   "votants": 1129,
+   "pour_vot": {
+      "ins": 84.07
+   },
+   "blanc_nul": 55,
+   "pour_bl_nuls": {
+      "ins": 4.1,
+      "vot": 4.87
+   },
+   "exprimes": 1074,
+   "pour_exp": {
+      "ins": 79.97,
+      "vot": 95.13
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      886,
+      188
+   ],
+   "pour_voix": {
+      "ins": [
+         65.97,
+         14
+      ],
+      "exp": [
+         82.5,
+         17.5
+      ]
+   }
+},
+ {
+   "code": 205,
+   "nom_com": "Miré",
+   "inscrits": 682,
+   "abstentions": 95,
+   "pour_abs": {
+      "ins": 13.93
+   },
+   "votants": 587,
+   "pour_vot": {
+      "ins": 86.07
+   },
+   "blanc_nul": 37,
+   "pour_bl_nuls": {
+      "ins": 5.43,
+      "vot": 6.3
+   },
+   "exprimes": 550,
+   "pour_exp": {
+      "ins": 80.65,
+      "vot": 93.7
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      416,
+      134
+   ],
+   "pour_voix": {
+      "ins": [
+         61,
+         19.65
+      ],
+      "exp": [
+         75.64,
+         24.36
+      ]
+   }
+},
+ {
+   "code": 209,
+   "nom_com": "Montigné-lès-Rairies",
+   "inscrits": 275,
+   "abstentions": 44,
+   "pour_abs": {
+      "ins": 16
+   },
+   "votants": 231,
+   "pour_vot": {
+      "ins": 84
+   },
+   "blanc_nul": 5,
+   "pour_bl_nuls": {
+      "ins": 1.82,
+      "vot": 2.16
+   },
+   "exprimes": 226,
+   "pour_exp": {
+      "ins": 82.18,
+      "vot": 97.84
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      183,
+      43
+   ],
+   "pour_voix": {
+      "ins": [
+         66.55,
+         15.64
+      ],
+      "exp": [
+         80.97,
+         19.03
+      ]
+   }
+},
+ {
+   "code": 211,
+   "nom_com": "Montilliers",
+   "inscrits": 862,
+   "abstentions": 137,
+   "pour_abs": {
+      "ins": 15.89
+   },
+   "votants": 725,
+   "pour_vot": {
+      "ins": 84.11
+   },
+   "blanc_nul": 30,
+   "pour_bl_nuls": {
+      "ins": 3.48,
+      "vot": 4.14
+   },
+   "exprimes": 695,
+   "pour_exp": {
+      "ins": 80.63,
+      "vot": 95.86
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      614,
+      81
+   ],
+   "pour_voix": {
+      "ins": [
+         71.23,
+         9.4
+      ],
+      "exp": [
+         88.35,
+         11.65
+      ]
+   }
+},
+ {
+   "code": 214,
+   "nom_com": "Montreuil-Juigné",
+   "inscrits": 4981,
+   "abstentions": 733,
+   "pour_abs": {
+      "ins": 14.72
+   },
+   "votants": 4248,
+   "pour_vot": {
+      "ins": 85.28
+   },
+   "blanc_nul": 196,
+   "pour_bl_nuls": {
+      "ins": 3.93,
+      "vot": 4.61
+   },
+   "exprimes": 4052,
+   "pour_exp": {
+      "ins": 81.35,
+      "vot": 95.39
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      3699,
+      353
+   ],
+   "pour_voix": {
+      "ins": [
+         74.26,
+         7.09
+      ],
+      "exp": [
+         91.29,
+         8.71
+      ]
+   }
+},
+ {
+   "code": 215,
+   "nom_com": "Montreuil-Bellay",
+   "inscrits": 2837,
+   "abstentions": 598,
+   "pour_abs": {
+      "ins": 21.08
+   },
+   "votants": 2239,
+   "pour_vot": {
+      "ins": 78.92
+   },
+   "blanc_nul": 117,
+   "pour_bl_nuls": {
+      "ins": 4.12,
+      "vot": 5.23
+   },
+   "exprimes": 2122,
+   "pour_exp": {
+      "ins": 74.8,
+      "vot": 94.77
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      1735,
+      387
+   ],
+   "pour_voix": {
+      "ins": [
+         61.16,
+         13.64
+      ],
+      "exp": [
+         81.76,
+         18.24
+      ]
+   }
+},
+ {
+   "code": 216,
+   "nom_com": "Montreuil-sur-Loir",
+   "inscrits": 275,
+   "abstentions": 40,
+   "pour_abs": {
+      "ins": 14.55
+   },
+   "votants": 235,
+   "pour_vot": {
+      "ins": 85.45
+   },
+   "blanc_nul": 11,
+   "pour_bl_nuls": {
+      "ins": 4,
+      "vot": 4.68
+   },
+   "exprimes": 224,
+   "pour_exp": {
+      "ins": 81.45,
+      "vot": 95.32
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      194,
+      30
+   ],
+   "pour_voix": {
+      "ins": [
+         70.55,
+         10.91
+      ],
+      "exp": [
+         86.61,
+         13.39
+      ]
+   }
+},
+ {
+   "code": 217,
+   "nom_com": "Montreuil-sur-Maine",
+   "inscrits": 383,
+   "abstentions": 40,
+   "pour_abs": {
+      "ins": 10.44
+   },
+   "votants": 343,
+   "pour_vot": {
+      "ins": 89.56
+   },
+   "blanc_nul": 23,
+   "pour_bl_nuls": {
+      "ins": 6.01,
+      "vot": 6.71
+   },
+   "exprimes": 320,
+   "pour_exp": {
+      "ins": 83.55,
+      "vot": 93.29
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      279,
+      41
+   ],
+   "pour_voix": {
+      "ins": [
+         72.85,
+         10.7
+      ],
+      "exp": [
+         87.19,
+         12.81
+      ]
+   }
+},
+ {
+   "code": 218,
+   "nom_com": "Montrevault-sur-Evre",
+   "inscrits": 11132,
+   "abstentions": 1798,
+   "pour_abs": {
+      "ins": 16.15
+   },
+   "votants": 9334,
+   "pour_vot": {
+      "ins": 83.85
+   },
+   "blanc_nul": 465,
+   "pour_bl_nuls": {
+      "ins": 4.18,
+      "vot": 4.98
+   },
+   "exprimes": 8869,
+   "pour_exp": {
+      "ins": 79.67,
+      "vot": 95.02
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      7734,
+      1135
+   ],
+   "pour_voix": {
+      "ins": [
+         69.48,
+         10.2
+      ],
+      "exp": [
+         87.2,
+         12.8
+      ]
+   }
+},
+ {
+   "code": 219,
+   "nom_com": "Montsoreau",
+   "inscrits": 388,
+   "abstentions": 64,
+   "pour_abs": {
+      "ins": 16.49
+   },
+   "votants": 324,
+   "pour_vot": {
+      "ins": 83.51
+   },
+   "blanc_nul": 9,
+   "pour_bl_nuls": {
+      "ins": 2.32,
+      "vot": 2.78
+   },
+   "exprimes": 315,
+   "pour_exp": {
+      "ins": 81.19,
+      "vot": 97.22
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      270,
+      45
+   ],
+   "pour_voix": {
+      "ins": [
+         69.59,
+         11.6
+      ],
+      "exp": [
+         85.71,
+         14.29
+      ]
+   }
+},
+ {
+   "code": 220,
+   "nom_com": "Morannes-sur-Sarthe-Daumeray",
+   "inscrits": 2474,
+   "abstentions": 402,
+   "pour_abs": {
+      "ins": 16.25
+   },
+   "votants": 2072,
+   "pour_vot": {
+      "ins": 83.75
+   },
+   "blanc_nul": 92,
+   "pour_bl_nuls": {
+      "ins": 3.72,
+      "vot": 4.44
+   },
+   "exprimes": 1980,
+   "pour_exp": {
+      "ins": 80.03,
+      "vot": 95.56
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      1663,
+      317
+   ],
+   "pour_voix": {
+      "ins": [
+         67.22,
+         12.81
+      ],
+      "exp": [
+         83.99,
+         16.01
+      ]
+   }
+},
+ {
+   "code": 221,
+   "nom_com": "Mouliherne",
+   "inscrits": 702,
+   "abstentions": 153,
+   "pour_abs": {
+      "ins": 21.79
+   },
+   "votants": 549,
+   "pour_vot": {
+      "ins": 78.21
+   },
+   "blanc_nul": 27,
+   "pour_bl_nuls": {
+      "ins": 3.85,
+      "vot": 4.92
+   },
+   "exprimes": 522,
+   "pour_exp": {
+      "ins": 74.36,
+      "vot": 95.08
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      423,
+      99
+   ],
+   "pour_voix": {
+      "ins": [
+         60.26,
+         14.1
+      ],
+      "exp": [
+         81.03,
+         18.97
+      ]
+   }
+},
+ {
+   "code": 222,
+   "nom_com": "Mozé-sur-Louet",
+   "inscrits": 1435,
+   "abstentions": 251,
+   "pour_abs": {
+      "ins": 17.49
+   },
+   "votants": 1184,
+   "pour_vot": {
+      "ins": 82.51
+   },
+   "blanc_nul": 61,
+   "pour_bl_nuls": {
+      "ins": 4.25,
+      "vot": 5.15
+   },
+   "exprimes": 1123,
+   "pour_exp": {
+      "ins": 78.26,
+      "vot": 94.85
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      978,
+      145
+   ],
+   "pour_voix": {
+      "ins": [
+         68.15,
+         10.1
+      ],
+      "exp": [
+         87.09,
+         12.91
+      ]
+   }
+},
+ {
+   "code": 223,
+   "nom_com": "Mûrs-Erigné",
+   "inscrits": 3759,
+   "abstentions": 499,
+   "pour_abs": {
+      "ins": 13.27
+   },
+   "votants": 3260,
+   "pour_vot": {
+      "ins": 86.73
+   },
+   "blanc_nul": 208,
+   "pour_bl_nuls": {
+      "ins": 5.53,
+      "vot": 6.38
+   },
+   "exprimes": 3052,
+   "pour_exp": {
+      "ins": 81.19,
+      "vot": 93.62
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      2715,
+      337
+   ],
+   "pour_voix": {
+      "ins": [
+         72.23,
+         8.97
+      ],
+      "exp": [
+         88.96,
+         11.04
+      ]
+   }
+},
+ {
+   "code": 224,
+   "nom_com": "Neuillé",
+   "inscrits": 646,
+   "abstentions": 127,
+   "pour_abs": {
+      "ins": 19.66
+   },
+   "votants": 519,
+   "pour_vot": {
+      "ins": 80.34
+   },
+   "blanc_nul": 27,
+   "pour_bl_nuls": {
+      "ins": 4.18,
+      "vot": 5.2
+   },
+   "exprimes": 492,
+   "pour_exp": {
+      "ins": 76.16,
+      "vot": 94.8
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      382,
+      110
+   ],
+   "pour_voix": {
+      "ins": [
+         59.13,
+         17.03
+      ],
+      "exp": [
+         77.64,
+         22.36
+      ]
+   }
+},
+ {
+   "code": 228,
+   "nom_com": "Noyant-Villages",
+   "inscrits": 4428,
+   "abstentions": 808,
+   "pour_abs": {
+      "ins": 18.25
+   },
+   "votants": 3620,
+   "pour_vot": {
+      "ins": 81.75
+   },
+   "blanc_nul": 189,
+   "pour_bl_nuls": {
+      "ins": 4.27,
+      "vot": 5.22
+   },
+   "exprimes": 3431,
+   "pour_exp": {
+      "ins": 77.48,
+      "vot": 94.78
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      2810,
+      621
+   ],
+   "pour_voix": {
+      "ins": [
+         63.46,
+         14.02
+      ],
+      "exp": [
+         81.9,
+         18.1
+      ]
+   }
+},
+ {
+   "code": 231,
+   "nom_com": "Nuaillé",
+   "inscrits": 994,
+   "abstentions": 156,
+   "pour_abs": {
+      "ins": 15.69
+   },
+   "votants": 838,
+   "pour_vot": {
+      "ins": 84.31
+   },
+   "blanc_nul": 59,
+   "pour_bl_nuls": {
+      "ins": 5.94,
+      "vot": 7.04
+   },
+   "exprimes": 779,
+   "pour_exp": {
+      "ins": 78.37,
+      "vot": 92.96
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      687,
+      92
+   ],
+   "pour_voix": {
+      "ins": [
+         69.11,
+         9.26
+      ],
+      "exp": [
+         88.19,
+         11.81
+      ]
+   }
+},
+ {
+   "code": 235,
+   "nom_com": "Parnay",
+   "inscrits": 328,
+   "abstentions": 51,
+   "pour_abs": {
+      "ins": 15.55
+   },
+   "votants": 277,
+   "pour_vot": {
+      "ins": 84.45
+   },
+   "blanc_nul": 18,
+   "pour_bl_nuls": {
+      "ins": 5.49,
+      "vot": 6.5
+   },
+   "exprimes": 259,
+   "pour_exp": {
+      "ins": 78.96,
+      "vot": 93.5
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      218,
+      41
+   ],
+   "pour_voix": {
+      "ins": [
+         66.46,
+         12.5
+      ],
+      "exp": [
+         84.17,
+         15.83
+      ]
+   }
+},
+ {
+   "code": 236,
+   "nom_com": "Passavant-sur-Layon",
+   "inscrits": 110,
+   "abstentions": 20,
+   "pour_abs": {
+      "ins": 18.18
+   },
+   "votants": 90,
+   "pour_vot": {
+      "ins": 81.82
+   },
+   "blanc_nul": 3,
+   "pour_bl_nuls": {
+      "ins": 2.73,
+      "vot": 3.33
+   },
+   "exprimes": 87,
+   "pour_exp": {
+      "ins": 79.09,
+      "vot": 96.67
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      69,
+      18
+   ],
+   "pour_voix": {
+      "ins": [
+         62.73,
+         16.36
+      ],
+      "exp": [
+         79.31,
+         20.69
+      ]
+   }
+},
+ {
+   "code": 237,
+   "nom_com": "La Pellerine",
+   "inscrits": 111,
+   "abstentions": 19,
+   "pour_abs": {
+      "ins": 17.12
+   },
+   "votants": 92,
+   "pour_vot": {
+      "ins": 82.88
+   },
+   "blanc_nul": 4,
+   "pour_bl_nuls": {
+      "ins": 3.6,
+      "vot": 4.35
+   },
+   "exprimes": 88,
+   "pour_exp": {
+      "ins": 79.28,
+      "vot": 95.65
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      67,
+      21
+   ],
+   "pour_voix": {
+      "ins": [
+         60.36,
+         18.92
+      ],
+      "exp": [
+         76.14,
+         23.86
+      ]
+   }
+},
+ {
+   "code": 240,
+   "nom_com": "La Plaine",
+   "inscrits": 639,
+   "abstentions": 113,
+   "pour_abs": {
+      "ins": 17.68
+   },
+   "votants": 526,
+   "pour_vot": {
+      "ins": 82.32
+   },
+   "blanc_nul": 22,
+   "pour_bl_nuls": {
+      "ins": 3.44,
+      "vot": 4.18
+   },
+   "exprimes": 504,
+   "pour_exp": {
+      "ins": 78.87,
+      "vot": 95.82
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      435,
+      69
+   ],
+   "pour_voix": {
+      "ins": [
+         68.08,
+         10.8
+      ],
+      "exp": [
+         86.31,
+         13.69
+      ]
+   }
+},
+ {
+   "code": 241,
+   "nom_com": "Le Plessis-Grammoire",
+   "inscrits": 1484,
+   "abstentions": 185,
+   "pour_abs": {
+      "ins": 12.47
+   },
+   "votants": 1299,
+   "pour_vot": {
+      "ins": 87.53
+   },
+   "blanc_nul": 62,
+   "pour_bl_nuls": {
+      "ins": 4.18,
+      "vot": 4.77
+   },
+   "exprimes": 1237,
+   "pour_exp": {
+      "ins": 83.36,
+      "vot": 95.23
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      1131,
+      106
+   ],
+   "pour_voix": {
+      "ins": [
+         76.21,
+         7.14
+      ],
+      "exp": [
+         91.43,
+         8.57
+      ]
+   }
+},
+ {
+   "code": 244,
+   "nom_com": "Mauges-sur-Loire",
+   "inscrits": 12415,
+   "abstentions": 1644,
+   "pour_abs": {
+      "ins": 13.24
+   },
+   "votants": 10771,
+   "pour_vot": {
+      "ins": 86.76
+   },
+   "blanc_nul": 478,
+   "pour_bl_nuls": {
+      "ins": 3.85,
+      "vot": 4.44
+   },
+   "exprimes": 10293,
+   "pour_exp": {
+      "ins": 82.91,
+      "vot": 95.56
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      9315,
+      978
+   ],
+   "pour_voix": {
+      "ins": [
+         75.03,
+         7.88
+      ],
+      "exp": [
+         90.5,
+         9.5
+      ]
+   }
+},
+ {
+   "code": 246,
+   "nom_com": "Les Ponts-de-Cé",
+   "inscrits": 8248,
+   "abstentions": 1410,
+   "pour_abs": {
+      "ins": 17.1
+   },
+   "votants": 6838,
+   "pour_vot": {
+      "ins": 82.9
+   },
+   "blanc_nul": 376,
+   "pour_bl_nuls": {
+      "ins": 4.56,
+      "vot": 5.5
+   },
+   "exprimes": 6462,
+   "pour_exp": {
+      "ins": 78.35,
+      "vot": 94.5
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      5794,
+      668
+   ],
+   "pour_voix": {
+      "ins": [
+         70.25,
+         8.1
+      ],
+      "exp": [
+         89.66,
+         10.34
+      ]
+   }
+},
+ {
+   "code": 247,
+   "nom_com": "La Possonnière",
+   "inscrits": 1668,
+   "abstentions": 215,
+   "pour_abs": {
+      "ins": 12.89
+   },
+   "votants": 1453,
+   "pour_vot": {
+      "ins": 87.11
+   },
+   "blanc_nul": 81,
+   "pour_bl_nuls": {
+      "ins": 4.86,
+      "vot": 5.57
+   },
+   "exprimes": 1372,
+   "pour_exp": {
+      "ins": 82.25,
+      "vot": 94.43
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      1250,
+      122
+   ],
+   "pour_voix": {
+      "ins": [
+         74.94,
+         7.31
+      ],
+      "exp": [
+         91.11,
+         8.89
+      ]
+   }
+},
+ {
+   "code": 248,
+   "nom_com": "Ombrée-d'Anjou",
+   "inscrits": 6451,
+   "abstentions": 1069,
+   "pour_abs": {
+      "ins": 16.57
+   },
+   "votants": 5382,
+   "pour_vot": {
+      "ins": 83.43
+   },
+   "blanc_nul": 252,
+   "pour_bl_nuls": {
+      "ins": 3.91,
+      "vot": 4.68
+   },
+   "exprimes": 5130,
+   "pour_exp": {
+      "ins": 79.52,
+      "vot": 95.32
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      4624,
+      506
+   ],
+   "pour_voix": {
+      "ins": [
+         71.68,
+         7.84
+      ],
+      "exp": [
+         90.14,
+         9.86
+      ]
+   }
+},
+ {
+   "code": 253,
+   "nom_com": "Le Puy-Notre-Dame",
+   "inscrits": 951,
+   "abstentions": 187,
+   "pour_abs": {
+      "ins": 19.66
+   },
+   "votants": 764,
+   "pour_vot": {
+      "ins": 80.34
+   },
+   "blanc_nul": 17,
+   "pour_bl_nuls": {
+      "ins": 1.79,
+      "vot": 2.23
+   },
+   "exprimes": 747,
+   "pour_exp": {
+      "ins": 78.55,
+      "vot": 97.77
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      603,
+      144
+   ],
+   "pour_voix": {
+      "ins": [
+         63.41,
+         15.14
+      ],
+      "exp": [
+         80.72,
+         19.28
+      ]
+   }
+},
+ {
+   "code": 257,
+   "nom_com": "Les Rairies",
+   "inscrits": 626,
+   "abstentions": 108,
+   "pour_abs": {
+      "ins": 17.25
+   },
+   "votants": 518,
+   "pour_vot": {
+      "ins": 82.75
+   },
+   "blanc_nul": 24,
+   "pour_bl_nuls": {
+      "ins": 3.83,
+      "vot": 4.63
+   },
+   "exprimes": 494,
+   "pour_exp": {
+      "ins": 78.91,
+      "vot": 95.37
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      386,
+      108
+   ],
+   "pour_voix": {
+      "ins": [
+         61.66,
+         17.25
+      ],
+      "exp": [
+         78.14,
+         21.86
+      ]
+   }
+},
+ {
+   "code": 259,
+   "nom_com": "Rochefort-sur-Loire",
+   "inscrits": 1514,
+   "abstentions": 273,
+   "pour_abs": {
+      "ins": 18.03
+   },
+   "votants": 1241,
+   "pour_vot": {
+      "ins": 81.97
+   },
+   "blanc_nul": 61,
+   "pour_bl_nuls": {
+      "ins": 4.03,
+      "vot": 4.92
+   },
+   "exprimes": 1180,
+   "pour_exp": {
+      "ins": 77.94,
+      "vot": 95.08
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      1031,
+      149
+   ],
+   "pour_voix": {
+      "ins": [
+         68.1,
+         9.84
+      ],
+      "exp": [
+         87.37,
+         12.63
+      ]
+   }
+},
+ {
+   "code": 260,
+   "nom_com": "La Romagne",
+   "inscrits": 1210,
+   "abstentions": 180,
+   "pour_abs": {
+      "ins": 14.88
+   },
+   "votants": 1030,
+   "pour_vot": {
+      "ins": 85.12
+   },
+   "blanc_nul": 52,
+   "pour_bl_nuls": {
+      "ins": 4.3,
+      "vot": 5.05
+   },
+   "exprimes": 978,
+   "pour_exp": {
+      "ins": 80.83,
+      "vot": 94.95
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      859,
+      119
+   ],
+   "pour_voix": {
+      "ins": [
+         70.99,
+         9.83
+      ],
+      "exp": [
+         87.83,
+         12.17
+      ]
+   }
+},
+ {
+   "code": 261,
+   "nom_com": "Les Rosiers-sur-Loire",
+   "inscrits": 1628,
+   "abstentions": 336,
+   "pour_abs": {
+      "ins": 20.64
+   },
+   "votants": 1292,
+   "pour_vot": {
+      "ins": 79.36
+   },
+   "blanc_nul": 73,
+   "pour_bl_nuls": {
+      "ins": 4.48,
+      "vot": 5.65
+   },
+   "exprimes": 1219,
+   "pour_exp": {
+      "ins": 74.88,
+      "vot": 94.35
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      1025,
+      194
+   ],
+   "pour_voix": {
+      "ins": [
+         62.96,
+         11.92
+      ],
+      "exp": [
+         84.09,
+         15.91
+      ]
+   }
+},
+ {
+   "code": 262,
+   "nom_com": "Rou-Marson",
+   "inscrits": 484,
+   "abstentions": 58,
+   "pour_abs": {
+      "ins": 11.98
+   },
+   "votants": 426,
+   "pour_vot": {
+      "ins": 88.02
+   },
+   "blanc_nul": 24,
+   "pour_bl_nuls": {
+      "ins": 4.96,
+      "vot": 5.63
+   },
+   "exprimes": 402,
+   "pour_exp": {
+      "ins": 83.06,
+      "vot": 94.37
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      331,
+      71
+   ],
+   "pour_voix": {
+      "ins": [
+         68.39,
+         14.67
+      ],
+      "exp": [
+         82.34,
+         17.66
+      ]
+   }
+},
+ {
+   "code": 266,
+   "nom_com": "Saint-Augustin-des-Bois",
+   "inscrits": 613,
+   "abstentions": 79,
+   "pour_abs": {
+      "ins": 12.89
+   },
+   "votants": 534,
+   "pour_vot": {
+      "ins": 87.11
+   },
+   "blanc_nul": 34,
+   "pour_bl_nuls": {
+      "ins": 5.55,
+      "vot": 6.37
+   },
+   "exprimes": 500,
+   "pour_exp": {
+      "ins": 81.57,
+      "vot": 93.63
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      419,
+      81
+   ],
+   "pour_voix": {
+      "ins": [
+         68.35,
+         13.21
+      ],
+      "exp": [
+         83.8,
+         16.2
+      ]
+   }
+},
+ {
+   "code": 267,
+   "nom_com": "Saint-Barthélemy-d'Anjou",
+   "inscrits": 6993,
+   "abstentions": 1161,
+   "pour_abs": {
+      "ins": 16.6
+   },
+   "votants": 5832,
+   "pour_vot": {
+      "ins": 83.4
+   },
+   "blanc_nul": 311,
+   "pour_bl_nuls": {
+      "ins": 4.45,
+      "vot": 5.33
+   },
+   "exprimes": 5521,
+   "pour_exp": {
+      "ins": 78.95,
+      "vot": 94.67
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      5005,
+      516
+   ],
+   "pour_voix": {
+      "ins": [
+         71.57,
+         7.38
+      ],
+      "exp": [
+         90.65,
+         9.35
+      ]
+   }
+},
+ {
+   "code": 269,
+   "nom_com": "Saint-Christophe-du-Bois",
+   "inscrits": 1863,
+   "abstentions": 280,
+   "pour_abs": {
+      "ins": 15.03
+   },
+   "votants": 1583,
+   "pour_vot": {
+      "ins": 84.97
+   },
+   "blanc_nul": 64,
+   "pour_bl_nuls": {
+      "ins": 3.44,
+      "vot": 4.04
+   },
+   "exprimes": 1519,
+   "pour_exp": {
+      "ins": 81.54,
+      "vot": 95.96
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      1369,
+      150
+   ],
+   "pour_voix": {
+      "ins": [
+         73.48,
+         8.05
+      ],
+      "exp": [
+         90.13,
+         9.87
+      ]
+   }
+},
+ {
+   "code": 271,
+   "nom_com": "Saint-Clément-de-la-Place",
+   "inscrits": 1040,
+   "abstentions": 119,
+   "pour_abs": {
+      "ins": 11.44
+   },
+   "votants": 921,
+   "pour_vot": {
+      "ins": 88.56
+   },
+   "blanc_nul": 45,
+   "pour_bl_nuls": {
+      "ins": 4.33,
+      "vot": 4.89
+   },
+   "exprimes": 876,
+   "pour_exp": {
+      "ins": 84.23,
+      "vot": 95.11
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      776,
+      100
+   ],
+   "pour_voix": {
+      "ins": [
+         74.62,
+         9.62
+      ],
+      "exp": [
+         88.58,
+         11.42
+      ]
+   }
+},
+ {
+   "code": 272,
+   "nom_com": "Saint-Clément-des-Levées",
+   "inscrits": 800,
+   "abstentions": 135,
+   "pour_abs": {
+      "ins": 16.88
+   },
+   "votants": 665,
+   "pour_vot": {
+      "ins": 83.13
+   },
+   "blanc_nul": 34,
+   "pour_bl_nuls": {
+      "ins": 4.25,
+      "vot": 5.11
+   },
+   "exprimes": 631,
+   "pour_exp": {
+      "ins": 78.88,
+      "vot": 94.89
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      523,
+      108
+   ],
+   "pour_voix": {
+      "ins": [
+         65.38,
+         13.5
+      ],
+      "exp": [
+         82.88,
+         17.12
+      ]
+   }
+},
+ {
+   "code": 274,
+   "nom_com": "Saint-Cyr-en-Bourg",
+   "inscrits": 717,
+   "abstentions": 114,
+   "pour_abs": {
+      "ins": 15.9
+   },
+   "votants": 603,
+   "pour_vot": {
+      "ins": 84.1
+   },
+   "blanc_nul": 33,
+   "pour_bl_nuls": {
+      "ins": 4.6,
+      "vot": 5.47
+   },
+   "exprimes": 570,
+   "pour_exp": {
+      "ins": 79.5,
+      "vot": 94.53
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      465,
+      105
+   ],
+   "pour_voix": {
+      "ins": [
+         64.85,
+         14.64
+      ],
+      "exp": [
+         81.58,
+         18.42
+      ]
+   }
+},
+ {
+   "code": 278,
+   "nom_com": "Sainte-Gemmes-sur-Loire",
+   "inscrits": 2547,
+   "abstentions": 326,
+   "pour_abs": {
+      "ins": 12.8
+   },
+   "votants": 2221,
+   "pour_vot": {
+      "ins": 87.2
+   },
+   "blanc_nul": 91,
+   "pour_bl_nuls": {
+      "ins": 3.57,
+      "vot": 4.1
+   },
+   "exprimes": 2130,
+   "pour_exp": {
+      "ins": 83.63,
+      "vot": 95.9
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      1920,
+      210
+   ],
+   "pour_voix": {
+      "ins": [
+         75.38,
+         8.24
+      ],
+      "exp": [
+         90.14,
+         9.86
+      ]
+   }
+},
+ {
+   "code": 283,
+   "nom_com": "Saint-Georges-sur-Loire",
+   "inscrits": 2130,
+   "abstentions": 321,
+   "pour_abs": {
+      "ins": 15.07
+   },
+   "votants": 1809,
+   "pour_vot": {
+      "ins": 84.93
+   },
+   "blanc_nul": 83,
+   "pour_bl_nuls": {
+      "ins": 3.9,
+      "vot": 4.59
+   },
+   "exprimes": 1726,
+   "pour_exp": {
+      "ins": 81.03,
+      "vot": 95.41
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      1499,
+      227
+   ],
+   "pour_voix": {
+      "ins": [
+         70.38,
+         10.66
+      ],
+      "exp": [
+         86.85,
+         13.15
+      ]
+   }
+},
+ {
+   "code": 284,
+   "nom_com": "Saint-Germain-des-Prés",
+   "inscrits": 912,
+   "abstentions": 119,
+   "pour_abs": {
+      "ins": 13.05
+   },
+   "votants": 793,
+   "pour_vot": {
+      "ins": 86.95
+   },
+   "blanc_nul": 54,
+   "pour_bl_nuls": {
+      "ins": 5.92,
+      "vot": 6.81
+   },
+   "exprimes": 739,
+   "pour_exp": {
+      "ins": 81.03,
+      "vot": 93.19
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      640,
+      99
+   ],
+   "pour_voix": {
+      "ins": [
+         70.18,
+         10.86
+      ],
+      "exp": [
+         86.6,
+         13.4
+      ]
+   }
+},
+ {
+   "code": 288,
+   "nom_com": "Saint-Jean-de-la-Croix",
+   "inscrits": 158,
+   "abstentions": 20,
+   "pour_abs": {
+      "ins": 12.66
+   },
+   "votants": 138,
+   "pour_vot": {
+      "ins": 87.34
+   },
+   "blanc_nul": 7,
+   "pour_bl_nuls": {
+      "ins": 4.43,
+      "vot": 5.07
+   },
+   "exprimes": 131,
+   "pour_exp": {
+      "ins": 82.91,
+      "vot": 94.93
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      107,
+      24
+   ],
+   "pour_voix": {
+      "ins": [
+         67.72,
+         15.19
+      ],
+      "exp": [
+         81.68,
+         18.32
+      ]
+   }
+},
+ {
+   "code": 289,
+   "nom_com": "Saint-Jean-de-Linières",
+   "inscrits": 1036,
+   "abstentions": 148,
+   "pour_abs": {
+      "ins": 14.29
+   },
+   "votants": 888,
+   "pour_vot": {
+      "ins": 85.71
+   },
+   "blanc_nul": 43,
+   "pour_bl_nuls": {
+      "ins": 4.15,
+      "vot": 4.84
+   },
+   "exprimes": 845,
+   "pour_exp": {
+      "ins": 81.56,
+      "vot": 95.16
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      780,
+      65
+   ],
+   "pour_voix": {
+      "ins": [
+         75.29,
+         6.27
+      ],
+      "exp": [
+         92.31,
+         7.69
+      ]
+   }
+},
+ {
+   "code": 291,
+   "nom_com": "Saint-Just-sur-Dive",
+   "inscrits": 262,
+   "abstentions": 62,
+   "pour_abs": {
+      "ins": 23.66
+   },
+   "votants": 200,
+   "pour_vot": {
+      "ins": 76.34
+   },
+   "blanc_nul": 14,
+   "pour_bl_nuls": {
+      "ins": 5.34,
+      "vot": 7
+   },
+   "exprimes": 186,
+   "pour_exp": {
+      "ins": 70.99,
+      "vot": 93
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      135,
+      51
+   ],
+   "pour_voix": {
+      "ins": [
+         51.53,
+         19.47
+      ],
+      "exp": [
+         72.58,
+         27.42
+      ]
+   }
+},
+ {
+   "code": 292,
+   "nom_com": "Val-du-Layon",
+   "inscrits": 1836,
+   "abstentions": 237,
+   "pour_abs": {
+      "ins": 12.91
+   },
+   "votants": 1599,
+   "pour_vot": {
+      "ins": 87.09
+   },
+   "blanc_nul": 78,
+   "pour_bl_nuls": {
+      "ins": 4.25,
+      "vot": 4.88
+   },
+   "exprimes": 1521,
+   "pour_exp": {
+      "ins": 82.84,
+      "vot": 95.12
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      1325,
+      196
+   ],
+   "pour_voix": {
+      "ins": [
+         72.17,
+         10.68
+      ],
+      "exp": [
+         87.11,
+         12.89
+      ]
+   }
+},
+ {
+   "code": 294,
+   "nom_com": "Saint-Lambert-la-Potherie",
+   "inscrits": 1639,
+   "abstentions": 225,
+   "pour_abs": {
+      "ins": 13.73
+   },
+   "votants": 1414,
+   "pour_vot": {
+      "ins": 86.27
+   },
+   "blanc_nul": 64,
+   "pour_bl_nuls": {
+      "ins": 3.9,
+      "vot": 4.53
+   },
+   "exprimes": 1350,
+   "pour_exp": {
+      "ins": 82.37,
+      "vot": 95.47
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      1201,
+      149
+   ],
+   "pour_voix": {
+      "ins": [
+         73.28,
+         9.09
+      ],
+      "exp": [
+         88.96,
+         11.04
+      ]
+   }
+},
+ {
+   "code": 298,
+   "nom_com": "Saint-Léger-des-Bois",
+   "inscrits": 898,
+   "abstentions": 82,
+   "pour_abs": {
+      "ins": 9.13
+   },
+   "votants": 816,
+   "pour_vot": {
+      "ins": 90.87
+   },
+   "blanc_nul": 38,
+   "pour_bl_nuls": {
+      "ins": 4.23,
+      "vot": 4.66
+   },
+   "exprimes": 778,
+   "pour_exp": {
+      "ins": 86.64,
+      "vot": 95.34
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      697,
+      81
+   ],
+   "pour_voix": {
+      "ins": [
+         77.62,
+         9.02
+      ],
+      "exp": [
+         89.59,
+         10.41
+      ]
+   }
+},
+ {
+   "code": 299,
+   "nom_com": "Saint-Léger-sous-Cholet",
+   "inscrits": 1896,
+   "abstentions": 325,
+   "pour_abs": {
+      "ins": 17.14
+   },
+   "votants": 1571,
+   "pour_vot": {
+      "ins": 82.86
+   },
+   "blanc_nul": 78,
+   "pour_bl_nuls": {
+      "ins": 4.11,
+      "vot": 4.96
+   },
+   "exprimes": 1493,
+   "pour_exp": {
+      "ins": 78.74,
+      "vot": 95.04
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      1355,
+      138
+   ],
+   "pour_voix": {
+      "ins": [
+         71.47,
+         7.28
+      ],
+      "exp": [
+         90.76,
+         9.24
+      ]
+   }
+},
+ {
+   "code": 301,
+   "nom_com": "Sèvremoine",
+   "inscrits": 15367,
+   "abstentions": 2460,
+   "pour_abs": {
+      "ins": 16.01
+   },
+   "votants": 12907,
+   "pour_vot": {
+      "ins": 83.99
+   },
+   "blanc_nul": 673,
+   "pour_bl_nuls": {
+      "ins": 4.38,
+      "vot": 5.21
+   },
+   "exprimes": 12234,
+   "pour_exp": {
+      "ins": 79.61,
+      "vot": 94.79
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      10671,
+      1563
+   ],
+   "pour_voix": {
+      "ins": [
+         69.44,
+         10.17
+      ],
+      "exp": [
+         87.22,
+         12.78
+      ]
+   }
+},
+ {
+   "code": 302,
+   "nom_com": "Saint-Macaire-du-Bois",
+   "inscrits": 316,
+   "abstentions": 77,
+   "pour_abs": {
+      "ins": 24.37
+   },
+   "votants": 239,
+   "pour_vot": {
+      "ins": 75.63
+   },
+   "blanc_nul": 15,
+   "pour_bl_nuls": {
+      "ins": 4.75,
+      "vot": 6.28
+   },
+   "exprimes": 224,
+   "pour_exp": {
+      "ins": 70.89,
+      "vot": 93.72
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      163,
+      61
+   ],
+   "pour_voix": {
+      "ins": [
+         51.58,
+         19.3
+      ],
+      "exp": [
+         72.77,
+         27.23
+      ]
+   }
+},
+ {
+   "code": 304,
+   "nom_com": "Saint-Martin-de-la-Place",
+   "inscrits": 848,
+   "abstentions": 157,
+   "pour_abs": {
+      "ins": 18.51
+   },
+   "votants": 691,
+   "pour_vot": {
+      "ins": 81.49
+   },
+   "blanc_nul": 38,
+   "pour_bl_nuls": {
+      "ins": 4.48,
+      "vot": 5.5
+   },
+   "exprimes": 653,
+   "pour_exp": {
+      "ins": 77,
+      "vot": 94.5
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      524,
+      129
+   ],
+   "pour_voix": {
+      "ins": [
+         61.79,
+         15.21
+      ],
+      "exp": [
+         80.25,
+         19.75
+      ]
+   }
+},
+ {
+   "code": 306,
+   "nom_com": "Saint-Martin-du-Fouilloux",
+   "inscrits": 1071,
+   "abstentions": 150,
+   "pour_abs": {
+      "ins": 14.01
+   },
+   "votants": 921,
+   "pour_vot": {
+      "ins": 85.99
+   },
+   "blanc_nul": 67,
+   "pour_bl_nuls": {
+      "ins": 6.26,
+      "vot": 7.27
+   },
+   "exprimes": 854,
+   "pour_exp": {
+      "ins": 79.74,
+      "vot": 92.73
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      742,
+      112
+   ],
+   "pour_voix": {
+      "ins": [
+         69.28,
+         10.46
+      ],
+      "exp": [
+         86.89,
+         13.11
+      ]
+   }
+},
+ {
+   "code": 307,
+   "nom_com": "Loire-Authion",
+   "inscrits": 9834,
+   "abstentions": 1436,
+   "pour_abs": {
+      "ins": 14.6
+   },
+   "votants": 8398,
+   "pour_vot": {
+      "ins": 85.4
+   },
+   "blanc_nul": 441,
+   "pour_bl_nuls": {
+      "ins": 4.48,
+      "vot": 5.25
+   },
+   "exprimes": 7957,
+   "pour_exp": {
+      "ins": 80.91,
+      "vot": 94.75
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      6980,
+      977
+   ],
+   "pour_voix": {
+      "ins": [
+         70.98,
+         9.93
+      ],
+      "exp": [
+         87.72,
+         12.28
+      ]
+   }
+},
+ {
+   "code": 308,
+   "nom_com": "Saint-Melaine-sur-Aubance",
+   "inscrits": 1451,
+   "abstentions": 158,
+   "pour_abs": {
+      "ins": 10.89
+   },
+   "votants": 1293,
+   "pour_vot": {
+      "ins": 89.11
+   },
+   "blanc_nul": 65,
+   "pour_bl_nuls": {
+      "ins": 4.48,
+      "vot": 5.03
+   },
+   "exprimes": 1228,
+   "pour_exp": {
+      "ins": 84.63,
+      "vot": 94.97
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      1085,
+      143
+   ],
+   "pour_voix": {
+      "ins": [
+         74.78,
+         9.86
+      ],
+      "exp": [
+         88.36,
+         11.64
+      ]
+   }
+},
+ {
+   "code": 310,
+   "nom_com": "Saint-Paul-du-Bois",
+   "inscrits": 466,
+   "abstentions": 61,
+   "pour_abs": {
+      "ins": 13.09
+   },
+   "votants": 405,
+   "pour_vot": {
+      "ins": 86.91
+   },
+   "blanc_nul": 10,
+   "pour_bl_nuls": {
+      "ins": 2.15,
+      "vot": 2.47
+   },
+   "exprimes": 395,
+   "pour_exp": {
+      "ins": 84.76,
+      "vot": 97.53
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      352,
+      43
+   ],
+   "pour_voix": {
+      "ins": [
+         75.54,
+         9.23
+      ],
+      "exp": [
+         89.11,
+         10.89
+      ]
+   }
+},
+ {
+   "code": 311,
+   "nom_com": "Saint-Philbert-du-Peuple",
+   "inscrits": 825,
+   "abstentions": 134,
+   "pour_abs": {
+      "ins": 16.24
+   },
+   "votants": 691,
+   "pour_vot": {
+      "ins": 83.76
+   },
+   "blanc_nul": 35,
+   "pour_bl_nuls": {
+      "ins": 4.24,
+      "vot": 5.07
+   },
+   "exprimes": 656,
+   "pour_exp": {
+      "ins": 79.52,
+      "vot": 94.93
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      542,
+      114
+   ],
+   "pour_voix": {
+      "ins": [
+         65.7,
+         13.82
+      ],
+      "exp": [
+         82.62,
+         17.38
+      ]
+   }
+},
+ {
+   "code": 321,
+   "nom_com": "Saint-Sigismond",
+   "inscrits": 239,
+   "abstentions": 23,
+   "pour_abs": {
+      "ins": 9.62
+   },
+   "votants": 216,
+   "pour_vot": {
+      "ins": 90.38
+   },
+   "blanc_nul": 11,
+   "pour_bl_nuls": {
+      "ins": 4.6,
+      "vot": 5.09
+   },
+   "exprimes": 205,
+   "pour_exp": {
+      "ins": 85.77,
+      "vot": 94.91
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      181,
+      24
+   ],
+   "pour_voix": {
+      "ins": [
+         75.73,
+         10.04
+      ],
+      "exp": [
+         88.29,
+         11.71
+      ]
+   }
+},
+ {
+   "code": 323,
+   "nom_com": "Verrière-en-Anjou",
+   "inscrits": 4479,
+   "abstentions": 638,
+   "pour_abs": {
+      "ins": 14.24
+   },
+   "votants": 3841,
+   "pour_vot": {
+      "ins": 85.76
+   },
+   "blanc_nul": 183,
+   "pour_bl_nuls": {
+      "ins": 4.09,
+      "vot": 4.76
+   },
+   "exprimes": 3658,
+   "pour_exp": {
+      "ins": 81.67,
+      "vot": 95.24
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      3310,
+      348
+   ],
+   "pour_voix": {
+      "ins": [
+         73.9,
+         7.77
+      ],
+      "exp": [
+         90.49,
+         9.51
+      ]
+   }
+},
+ {
+   "code": 326,
+   "nom_com": "Sarrigné",
+   "inscrits": 562,
+   "abstentions": 78,
+   "pour_abs": {
+      "ins": 13.88
+   },
+   "votants": 484,
+   "pour_vot": {
+      "ins": 86.12
+   },
+   "blanc_nul": 35,
+   "pour_bl_nuls": {
+      "ins": 6.23,
+      "vot": 7.23
+   },
+   "exprimes": 449,
+   "pour_exp": {
+      "ins": 79.89,
+      "vot": 92.77
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      401,
+      48
+   ],
+   "pour_voix": {
+      "ins": [
+         71.35,
+         8.54
+      ],
+      "exp": [
+         89.31,
+         10.69
+      ]
+   }
+},
+ {
+   "code": 328,
+   "nom_com": "Saumur",
+   "inscrits": 18734,
+   "abstentions": 4089,
+   "pour_abs": {
+      "ins": 21.83
+   },
+   "votants": 14645,
+   "pour_vot": {
+      "ins": 78.17
+   },
+   "blanc_nul": 627,
+   "pour_bl_nuls": {
+      "ins": 3.35,
+      "vot": 4.28
+   },
+   "exprimes": 14018,
+   "pour_exp": {
+      "ins": 74.83,
+      "vot": 95.72
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      12112,
+      1906
+   ],
+   "pour_voix": {
+      "ins": [
+         64.65,
+         10.17
+      ],
+      "exp": [
+         86.4,
+         13.6
+      ]
+   }
+},
+ {
+   "code": 329,
+   "nom_com": "Savennières",
+   "inscrits": 953,
+   "abstentions": 136,
+   "pour_abs": {
+      "ins": 14.27
+   },
+   "votants": 817,
+   "pour_vot": {
+      "ins": 85.73
+   },
+   "blanc_nul": 35,
+   "pour_bl_nuls": {
+      "ins": 3.67,
+      "vot": 4.28
+   },
+   "exprimes": 782,
+   "pour_exp": {
+      "ins": 82.06,
+      "vot": 95.72
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      683,
+      99
+   ],
+   "pour_voix": {
+      "ins": [
+         71.67,
+         10.39
+      ],
+      "exp": [
+         87.34,
+         12.66
+      ]
+   }
+},
+ {
+   "code": 330,
+   "nom_com": "Sceaux-d'Anjou",
+   "inscrits": 503,
+   "abstentions": 64,
+   "pour_abs": {
+      "ins": 12.72
+   },
+   "votants": 439,
+   "pour_vot": {
+      "ins": 87.28
+   },
+   "blanc_nul": 23,
+   "pour_bl_nuls": {
+      "ins": 4.57,
+      "vot": 5.24
+   },
+   "exprimes": 416,
+   "pour_exp": {
+      "ins": 82.7,
+      "vot": 94.76
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      357,
+      59
+   ],
+   "pour_voix": {
+      "ins": [
+         70.97,
+         11.73
+      ],
+      "exp": [
+         85.82,
+         14.18
+      ]
+   }
+},
+ {
+   "code": 331,
+   "nom_com": "Segré-en-Anjou-Bleu",
+   "inscrits": 11694,
+   "abstentions": 2174,
+   "pour_abs": {
+      "ins": 18.59
+   },
+   "votants": 9520,
+   "pour_vot": {
+      "ins": 81.41
+   },
+   "blanc_nul": 489,
+   "pour_bl_nuls": {
+      "ins": 4.18,
+      "vot": 5.14
+   },
+   "exprimes": 9031,
+   "pour_exp": {
+      "ins": 77.23,
+      "vot": 94.86
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      8150,
+      881
+   ],
+   "pour_voix": {
+      "ins": [
+         69.69,
+         7.53
+      ],
+      "exp": [
+         90.24,
+         9.76
+      ]
+   }
+},
+ {
+   "code": 332,
+   "nom_com": "La Séguinière",
+   "inscrits": 2833,
+   "abstentions": 438,
+   "pour_abs": {
+      "ins": 15.46
+   },
+   "votants": 2395,
+   "pour_vot": {
+      "ins": 84.54
+   },
+   "blanc_nul": 98,
+   "pour_bl_nuls": {
+      "ins": 3.46,
+      "vot": 4.09
+   },
+   "exprimes": 2297,
+   "pour_exp": {
+      "ins": 81.08,
+      "vot": 95.91
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      2069,
+      228
+   ],
+   "pour_voix": {
+      "ins": [
+         73.03,
+         8.05
+      ],
+      "exp": [
+         90.07,
+         9.93
+      ]
+   }
+},
+ {
+   "code": 333,
+   "nom_com": "Seiches-sur-le-Loir",
+   "inscrits": 1822,
+   "abstentions": 329,
+   "pour_abs": {
+      "ins": 18.06
+   },
+   "votants": 1493,
+   "pour_vot": {
+      "ins": 81.94
+   },
+   "blanc_nul": 68,
+   "pour_bl_nuls": {
+      "ins": 3.73,
+      "vot": 4.55
+   },
+   "exprimes": 1425,
+   "pour_exp": {
+      "ins": 78.21,
+      "vot": 95.45
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      1190,
+      235
+   ],
+   "pour_voix": {
+      "ins": [
+         65.31,
+         12.9
+      ],
+      "exp": [
+         83.51,
+         16.49
+      ]
+   }
+},
+ {
+   "code": 334,
+   "nom_com": "Sermaise",
+   "inscrits": 205,
+   "abstentions": 55,
+   "pour_abs": {
+      "ins": 26.83
+   },
+   "votants": 150,
+   "pour_vot": {
+      "ins": 73.17
+   },
+   "blanc_nul": 10,
+   "pour_bl_nuls": {
+      "ins": 4.88,
+      "vot": 6.67
+   },
+   "exprimes": 140,
+   "pour_exp": {
+      "ins": 68.29,
+      "vot": 93.33
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      109,
+      31
+   ],
+   "pour_voix": {
+      "ins": [
+         53.17,
+         15.12
+      ],
+      "exp": [
+         77.86,
+         22.14
+      ]
+   }
+},
+ {
+   "code": 336,
+   "nom_com": "Somloire",
+   "inscrits": 629,
+   "abstentions": 88,
+   "pour_abs": {
+      "ins": 13.99
+   },
+   "votants": 541,
+   "pour_vot": {
+      "ins": 86.01
+   },
+   "blanc_nul": 29,
+   "pour_bl_nuls": {
+      "ins": 4.61,
+      "vot": 5.36
+   },
+   "exprimes": 512,
+   "pour_exp": {
+      "ins": 81.4,
+      "vot": 94.64
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      440,
+      72
+   ],
+   "pour_voix": {
+      "ins": [
+         69.95,
+         11.45
+      ],
+      "exp": [
+         85.94,
+         14.06
+      ]
+   }
+},
+ {
+   "code": 337,
+   "nom_com": "Soucelles",
+   "inscrits": 1473,
+   "abstentions": 257,
+   "pour_abs": {
+      "ins": 17.45
+   },
+   "votants": 1216,
+   "pour_vot": {
+      "ins": 82.55
+   },
+   "blanc_nul": 98,
+   "pour_bl_nuls": {
+      "ins": 6.65,
+      "vot": 8.06
+   },
+   "exprimes": 1118,
+   "pour_exp": {
+      "ins": 75.9,
+      "vot": 91.94
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      956,
+      162
+   ],
+   "pour_voix": {
+      "ins": [
+         64.9,
+         11
+      ],
+      "exp": [
+         85.51,
+         14.49
+      ]
+   }
+},
+ {
+   "code": 338,
+   "nom_com": "Soulaines-sur-Aubance",
+   "inscrits": 881,
+   "abstentions": 105,
+   "pour_abs": {
+      "ins": 11.92
+   },
+   "votants": 776,
+   "pour_vot": {
+      "ins": 88.08
+   },
+   "blanc_nul": 35,
+   "pour_bl_nuls": {
+      "ins": 3.97,
+      "vot": 4.51
+   },
+   "exprimes": 741,
+   "pour_exp": {
+      "ins": 84.11,
+      "vot": 95.49
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      677,
+      64
+   ],
+   "pour_voix": {
+      "ins": [
+         76.84,
+         7.26
+      ],
+      "exp": [
+         91.36,
+         8.64
+      ]
+   }
+},
+ {
+   "code": 339,
+   "nom_com": "Soulaire-et-Bourg",
+   "inscrits": 887,
+   "abstentions": 126,
+   "pour_abs": {
+      "ins": 14.21
+   },
+   "votants": 761,
+   "pour_vot": {
+      "ins": 85.79
+   },
+   "blanc_nul": 38,
+   "pour_bl_nuls": {
+      "ins": 4.28,
+      "vot": 4.99
+   },
+   "exprimes": 723,
+   "pour_exp": {
+      "ins": 81.51,
+      "vot": 95.01
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      614,
+      109
+   ],
+   "pour_voix": {
+      "ins": [
+         69.22,
+         12.29
+      ],
+      "exp": [
+         84.92,
+         15.08
+      ]
+   }
+},
+ {
+   "code": 341,
+   "nom_com": "Souzay-Champigny",
+   "inscrits": 487,
+   "abstentions": 95,
+   "pour_abs": {
+      "ins": 19.51
+   },
+   "votants": 392,
+   "pour_vot": {
+      "ins": 80.49
+   },
+   "blanc_nul": 18,
+   "pour_bl_nuls": {
+      "ins": 3.7,
+      "vot": 4.59
+   },
+   "exprimes": 374,
+   "pour_exp": {
+      "ins": 76.8,
+      "vot": 95.41
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      289,
+      85
+   ],
+   "pour_voix": {
+      "ins": [
+         59.34,
+         17.45
+      ],
+      "exp": [
+         77.27,
+         22.73
+      ]
+   }
+},
+ {
+   "code": 343,
+   "nom_com": "La Tessoualle",
+   "inscrits": 2317,
+   "abstentions": 333,
+   "pour_abs": {
+      "ins": 14.37
+   },
+   "votants": 1984,
+   "pour_vot": {
+      "ins": 85.63
+   },
+   "blanc_nul": 97,
+   "pour_bl_nuls": {
+      "ins": 4.19,
+      "vot": 4.89
+   },
+   "exprimes": 1887,
+   "pour_exp": {
+      "ins": 81.44,
+      "vot": 95.11
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      1704,
+      183
+   ],
+   "pour_voix": {
+      "ins": [
+         73.54,
+         7.9
+      ],
+      "exp": [
+         90.3,
+         9.7
+      ]
+   }
+},
+ {
+   "code": 344,
+   "nom_com": "Thorigné-d'Anjou",
+   "inscrits": 594,
+   "abstentions": 93,
+   "pour_abs": {
+      "ins": 15.66
+   },
+   "votants": 501,
+   "pour_vot": {
+      "ins": 84.34
+   },
+   "blanc_nul": 22,
+   "pour_bl_nuls": {
+      "ins": 3.7,
+      "vot": 4.39
+   },
+   "exprimes": 479,
+   "pour_exp": {
+      "ins": 80.64,
+      "vot": 95.61
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      405,
+      74
+   ],
+   "pour_voix": {
+      "ins": [
+         68.18,
+         12.46
+      ],
+      "exp": [
+         84.55,
+         15.45
+      ]
+   }
+},
+ {
+   "code": 345,
+   "nom_com": "Bellevigne-en-Layon",
+   "inscrits": 3641,
+   "abstentions": 620,
+   "pour_abs": {
+      "ins": 17.03
+   },
+   "votants": 3021,
+   "pour_vot": {
+      "ins": 82.97
+   },
+   "blanc_nul": 131,
+   "pour_bl_nuls": {
+      "ins": 3.6,
+      "vot": 4.34
+   },
+   "exprimes": 2890,
+   "pour_exp": {
+      "ins": 79.37,
+      "vot": 95.66
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      2498,
+      392
+   ],
+   "pour_voix": {
+      "ins": [
+         68.61,
+         10.77
+      ],
+      "exp": [
+         86.44,
+         13.56
+      ]
+   }
+},
+ {
+   "code": 347,
+   "nom_com": "Tiercé",
+   "inscrits": 2721,
+   "abstentions": 418,
+   "pour_abs": {
+      "ins": 15.36
+   },
+   "votants": 2303,
+   "pour_vot": {
+      "ins": 84.64
+   },
+   "blanc_nul": 101,
+   "pour_bl_nuls": {
+      "ins": 3.71,
+      "vot": 4.39
+   },
+   "exprimes": 2202,
+   "pour_exp": {
+      "ins": 80.93,
+      "vot": 95.61
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      1877,
+      325
+   ],
+   "pour_voix": {
+      "ins": [
+         68.98,
+         11.94
+      ],
+      "exp": [
+         85.24,
+         14.76
+      ]
+   }
+},
+ {
+   "code": 352,
+   "nom_com": "Toutlemonde",
+   "inscrits": 836,
+   "abstentions": 111,
+   "pour_abs": {
+      "ins": 13.28
+   },
+   "votants": 725,
+   "pour_vot": {
+      "ins": 86.72
+   },
+   "blanc_nul": 30,
+   "pour_bl_nuls": {
+      "ins": 3.59,
+      "vot": 4.14
+   },
+   "exprimes": 695,
+   "pour_exp": {
+      "ins": 83.13,
+      "vot": 95.86
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      640,
+      55
+   ],
+   "pour_voix": {
+      "ins": [
+         76.56,
+         6.58
+      ],
+      "exp": [
+         92.09,
+         7.91
+      ]
+   }
+},
+ {
+   "code": 353,
+   "nom_com": "Trélazé",
+   "inscrits": 6761,
+   "abstentions": 1257,
+   "pour_abs": {
+      "ins": 18.59
+   },
+   "votants": 5504,
+   "pour_vot": {
+      "ins": 81.41
+   },
+   "blanc_nul": 383,
+   "pour_bl_nuls": {
+      "ins": 5.66,
+      "vot": 6.96
+   },
+   "exprimes": 5121,
+   "pour_exp": {
+      "ins": 75.74,
+      "vot": 93.04
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      4537,
+      584
+   ],
+   "pour_voix": {
+      "ins": [
+         67.11,
+         8.64
+      ],
+      "exp": [
+         88.6,
+         11.4
+      ]
+   }
+},
+ {
+   "code": 355,
+   "nom_com": "Trémentines",
+   "inscrits": 2146,
+   "abstentions": 339,
+   "pour_abs": {
+      "ins": 15.8
+   },
+   "votants": 1807,
+   "pour_vot": {
+      "ins": 84.2
+   },
+   "blanc_nul": 118,
+   "pour_bl_nuls": {
+      "ins": 5.5,
+      "vot": 6.53
+   },
+   "exprimes": 1689,
+   "pour_exp": {
+      "ins": 78.7,
+      "vot": 93.47
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      1536,
+      153
+   ],
+   "pour_voix": {
+      "ins": [
+         71.58,
+         7.13
+      ],
+      "exp": [
+         90.94,
+         9.06
+      ]
+   }
+},
+ {
+   "code": 358,
+   "nom_com": "Turquant",
+   "inscrits": 379,
+   "abstentions": 80,
+   "pour_abs": {
+      "ins": 21.11
+   },
+   "votants": 299,
+   "pour_vot": {
+      "ins": 78.89
+   },
+   "blanc_nul": 18,
+   "pour_bl_nuls": {
+      "ins": 4.75,
+      "vot": 6.02
+   },
+   "exprimes": 281,
+   "pour_exp": {
+      "ins": 74.14,
+      "vot": 93.98
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      231,
+      50
+   ],
+   "pour_voix": {
+      "ins": [
+         60.95,
+         13.19
+      ],
+      "exp": [
+         82.21,
+         17.79
+      ]
+   }
+},
+ {
+   "code": 359,
+   "nom_com": "Les Ulmes",
+   "inscrits": 352,
+   "abstentions": 55,
+   "pour_abs": {
+      "ins": 15.63
+   },
+   "votants": 297,
+   "pour_vot": {
+      "ins": 84.38
+   },
+   "blanc_nul": 17,
+   "pour_bl_nuls": {
+      "ins": 4.83,
+      "vot": 5.72
+   },
+   "exprimes": 280,
+   "pour_exp": {
+      "ins": 79.55,
+      "vot": 94.28
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      230,
+      50
+   ],
+   "pour_voix": {
+      "ins": [
+         65.34,
+         14.2
+      ],
+      "exp": [
+         82.14,
+         17.86
+      ]
+   }
+},
+ {
+   "code": 361,
+   "nom_com": "Varennes-sur-Loire",
+   "inscrits": 1366,
+   "abstentions": 248,
+   "pour_abs": {
+      "ins": 18.16
+   },
+   "votants": 1118,
+   "pour_vot": {
+      "ins": 81.84
+   },
+   "blanc_nul": 66,
+   "pour_bl_nuls": {
+      "ins": 4.83,
+      "vot": 5.9
+   },
+   "exprimes": 1052,
+   "pour_exp": {
+      "ins": 77.01,
+      "vot": 94.1
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      872,
+      180
+   ],
+   "pour_voix": {
+      "ins": [
+         63.84,
+         13.18
+      ],
+      "exp": [
+         82.89,
+         17.11
+      ]
+   }
+},
+ {
+   "code": 362,
+   "nom_com": "Varrains",
+   "inscrits": 853,
+   "abstentions": 139,
+   "pour_abs": {
+      "ins": 16.3
+   },
+   "votants": 714,
+   "pour_vot": {
+      "ins": 83.7
+   },
+   "blanc_nul": 30,
+   "pour_bl_nuls": {
+      "ins": 3.52,
+      "vot": 4.2
+   },
+   "exprimes": 684,
+   "pour_exp": {
+      "ins": 80.19,
+      "vot": 95.8
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      574,
+      110
+   ],
+   "pour_voix": {
+      "ins": [
+         67.29,
+         12.9
+      ],
+      "exp": [
+         83.92,
+         16.08
+      ]
+   }
+},
+ {
+   "code": 364,
+   "nom_com": "Vaudelnay",
+   "inscrits": 815,
+   "abstentions": 111,
+   "pour_abs": {
+      "ins": 13.62
+   },
+   "votants": 704,
+   "pour_vot": {
+      "ins": 86.38
+   },
+   "blanc_nul": 33,
+   "pour_bl_nuls": {
+      "ins": 4.05,
+      "vot": 4.69
+   },
+   "exprimes": 671,
+   "pour_exp": {
+      "ins": 82.33,
+      "vot": 95.31
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      505,
+      166
+   ],
+   "pour_voix": {
+      "ins": [
+         61.96,
+         20.37
+      ],
+      "exp": [
+         75.26,
+         24.74
+      ]
+   }
+},
+ {
+   "code": 367,
+   "nom_com": "Erdre-en-Anjou",
+   "inscrits": 2918,
+   "abstentions": 437,
+   "pour_abs": {
+      "ins": 14.98
+   },
+   "votants": 2481,
+   "pour_vot": {
+      "ins": 85.02
+   },
+   "blanc_nul": 105,
+   "pour_bl_nuls": {
+      "ins": 3.6,
+      "vot": 4.23
+   },
+   "exprimes": 2376,
+   "pour_exp": {
+      "ins": 81.43,
+      "vot": 95.77
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      2053,
+      323
+   ],
+   "pour_voix": {
+      "ins": [
+         70.36,
+         11.07
+      ],
+      "exp": [
+         86.41,
+         13.59
+      ]
+   }
+},
+ {
+   "code": 368,
+   "nom_com": "Vernantes",
+   "inscrits": 1193,
+   "abstentions": 229,
+   "pour_abs": {
+      "ins": 19.2
+   },
+   "votants": 964,
+   "pour_vot": {
+      "ins": 80.8
+   },
+   "blanc_nul": 43,
+   "pour_bl_nuls": {
+      "ins": 3.6,
+      "vot": 4.46
+   },
+   "exprimes": 921,
+   "pour_exp": {
+      "ins": 77.2,
+      "vot": 95.54
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      759,
+      162
+   ],
+   "pour_voix": {
+      "ins": [
+         63.62,
+         13.58
+      ],
+      "exp": [
+         82.41,
+         17.59
+      ]
+   }
+},
+ {
+   "code": 369,
+   "nom_com": "Vernoil-le-Fourrier",
+   "inscrits": 933,
+   "abstentions": 179,
+   "pour_abs": {
+      "ins": 19.19
+   },
+   "votants": 754,
+   "pour_vot": {
+      "ins": 80.81
+   },
+   "blanc_nul": 60,
+   "pour_bl_nuls": {
+      "ins": 6.43,
+      "vot": 7.96
+   },
+   "exprimes": 694,
+   "pour_exp": {
+      "ins": 74.38,
+      "vot": 92.04
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      574,
+      120
+   ],
+   "pour_voix": {
+      "ins": [
+         61.52,
+         12.86
+      ],
+      "exp": [
+         82.71,
+         17.29
+      ]
+   }
+},
+ {
+   "code": 370,
+   "nom_com": "Verrie",
+   "inscrits": 303,
+   "abstentions": 50,
+   "pour_abs": {
+      "ins": 16.5
+   },
+   "votants": 253,
+   "pour_vot": {
+      "ins": 83.5
+   },
+   "blanc_nul": 22,
+   "pour_bl_nuls": {
+      "ins": 7.26,
+      "vot": 8.7
+   },
+   "exprimes": 231,
+   "pour_exp": {
+      "ins": 76.24,
+      "vot": 91.3
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      180,
+      51
+   ],
+   "pour_voix": {
+      "ins": [
+         59.41,
+         16.83
+      ],
+      "exp": [
+         77.92,
+         22.08
+      ]
+   }
+},
+ {
+   "code": 371,
+   "nom_com": "Vezins",
+   "inscrits": 1116,
+   "abstentions": 154,
+   "pour_abs": {
+      "ins": 13.8
+   },
+   "votants": 962,
+   "pour_vot": {
+      "ins": 86.2
+   },
+   "blanc_nul": 48,
+   "pour_bl_nuls": {
+      "ins": 4.3,
+      "vot": 4.99
+   },
+   "exprimes": 914,
+   "pour_exp": {
+      "ins": 81.9,
+      "vot": 95.01
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      793,
+      121
+   ],
+   "pour_voix": {
+      "ins": [
+         71.06,
+         10.84
+      ],
+      "exp": [
+         86.76,
+         13.24
+      ]
+   }
+},
+ {
+   "code": 373,
+   "nom_com": "Lys-Haut-Layon",
+   "inscrits": 5591,
+   "abstentions": 948,
+   "pour_abs": {
+      "ins": 16.96
+   },
+   "votants": 4643,
+   "pour_vot": {
+      "ins": 83.04
+   },
+   "blanc_nul": 224,
+   "pour_bl_nuls": {
+      "ins": 4.01,
+      "vot": 4.82
+   },
+   "exprimes": 4419,
+   "pour_exp": {
+      "ins": 79.04,
+      "vot": 95.18
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      3784,
+      635
+   ],
+   "pour_voix": {
+      "ins": [
+         67.68,
+         11.36
+      ],
+      "exp": [
+         85.63,
+         14.37
+      ]
+   }
+},
+ {
+   "code": 374,
+   "nom_com": "Villebernier",
+   "inscrits": 1016,
+   "abstentions": 195,
+   "pour_abs": {
+      "ins": 19.19
+   },
+   "votants": 821,
+   "pour_vot": {
+      "ins": 80.81
+   },
+   "blanc_nul": 34,
+   "pour_bl_nuls": {
+      "ins": 3.35,
+      "vot": 4.14
+   },
+   "exprimes": 787,
+   "pour_exp": {
+      "ins": 77.46,
+      "vot": 95.86
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      653,
+      134
+   ],
+   "pour_voix": {
+      "ins": [
+         64.27,
+         13.19
+      ],
+      "exp": [
+         82.97,
+         17.03
+      ]
+   }
+},
+ {
+   "code": 377,
+   "nom_com": "Villevêque",
+   "inscrits": 1875,
+   "abstentions": 309,
+   "pour_abs": {
+      "ins": 16.48
+   },
+   "votants": 1566,
+   "pour_vot": {
+      "ins": 83.52
+   },
+   "blanc_nul": 92,
+   "pour_bl_nuls": {
+      "ins": 4.91,
+      "vot": 5.87
+   },
+   "exprimes": 1474,
+   "pour_exp": {
+      "ins": 78.61,
+      "vot": 94.13
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      1304,
+      170
+   ],
+   "pour_voix": {
+      "ins": [
+         69.55,
+         9.07
+      ],
+      "exp": [
+         88.47,
+         11.53
+      ]
+   }
+},
+ {
+   "code": 378,
+   "nom_com": "Vivy",
+   "inscrits": 1398,
+   "abstentions": 267,
+   "pour_abs": {
+      "ins": 19.1
+   },
+   "votants": 1131,
+   "pour_vot": {
+      "ins": 80.9
+   },
+   "blanc_nul": 56,
+   "pour_bl_nuls": {
+      "ins": 4.01,
+      "vot": 4.95
+   },
+   "exprimes": 1075,
+   "pour_exp": {
+      "ins": 76.9,
+      "vot": 95.05
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      862,
+      213
+   ],
+   "pour_voix": {
+      "ins": [
+         61.66,
+         15.24
+      ],
+      "exp": [
+         80.19,
+         19.81
+      ]
+   }
+},
+ {
+   "code": 381,
+   "nom_com": "Yzernay",
+   "inscrits": 1331,
+   "abstentions": 171,
+   "pour_abs": {
+      "ins": 12.85
+   },
+   "votants": 1160,
+   "pour_vot": {
+      "ins": 87.15
+   },
+   "blanc_nul": 52,
+   "pour_bl_nuls": {
+      "ins": 3.91,
+      "vot": 4.48
+   },
+   "exprimes": 1108,
+   "pour_exp": {
+      "ins": 83.25,
+      "vot": 95.52
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "CHIRAC",
+      "LE PEN"
+   ],
+   "prenom": [
+      "JACQUES",
+      "JEAN-MARIE"
+   ],
+   "voix": [
+      970,
+      138
+   ],
+   "pour_voix": {
+      "ins": [
+         72.88,
+         10.37
+      ],
+      "exp": [
+         87.55,
+         12.45
+      ]
+   }
+}
+]

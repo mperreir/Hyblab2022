@@ -1,0 +1,152 @@
+#first-slide {
+	background-color: #11151B;
+}
+
+.img_container {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#logo_anjoute {
+	width:70%;
+	height: auto;
+}
+
+.anjoute_start .animate__animated.animate__heartBeat {
+	--animate-duration: 3.6s;
+}
+
+.anjoute_start {
+	color: #C8A166;
+	margin-top: 50px;
+	font-size: 20%;
+	font-family: 'Baloo Tamma 2';
+}
+
+#second-slide {
+	position: relative;
+	background-color: #11151B;
+}
+
+.top {
+	margin-top: 50px;
+	font-family: 'Baloo Tamma 2';
+}
+
+
+
+
+
+.header-bottom {
+	position: absolute;
+	text-align: center;
+	top: 0;
+}
+
+.header-bottom .hyblab {
+	width: 60%;
+}
+
+.header-bottom .anjoute {
+	width: 60%;
+}
+
+.mid {
+	position: absolute;
+	top: 30vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 3vh;
+	font-size: 15%;
+	color: #C8A166;
+}
+
+.corps-second-slide {
+	position: relative;
+	height: 100%;
+}
+
+.loire {
+	text-align: center;
+}
+
+.credit_footer {
+	position: relative;
+	list-style-type: none;
+	margin: 5vh 0;
+	width: 100%;
+}
+
+.France3 {
+	margin-top: 2%;
+	width: 50%;
+}
+
+.credit_footer .credit_footer_polytech {
+	position: absolute;
+	width: 50%;
+	right: 0;
+	text-align: center;
+}
+
+.credit_footer .credit_footer_polytech img {
+	width: 50%;
+}
+
+.credit_footer .credit_footer_agr {
+	position: absolute;
+	width: 50%;
+	left: 0;
+	text-align: center;
+}
+
+.credit_footer .credit_footer_agr img {
+	width: 50%;
+}
+
+#bandeau {
+	position: absolute;
+	bottom: 0;
+	padding-top: 3%;
+	width: 100%;
+	background-color: white;
+	font-size: 20%;
+}
+
+#bandeau li{
+	list-style-type: none;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 0.5em;
+}
+
+#bandeau img{
+	height: 1.5em;
+}
+
+#bandeau #cc, #bandeau #opensource
+{
+	height: 1em;
+}
+
+#bandeau .stacked{
+	display:block;
+}
+
+#bandeau ul{
+	text-align: center;
+	padding: 0 0;
+}
+
+#bandeau .institutionnel
+{
+	height: 2em;
+}
+
+
+

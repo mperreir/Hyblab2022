@@ -1,0 +1,9116 @@
+[
+ {
+   "code": 2,
+   "nom_com": "Allonnes",
+   "inscrits": 1985,
+   "abstentions": 342,
+   "pour_abs": {
+      "ins": 17.23
+   },
+   "votants": 1643,
+   "pour_vot": {
+      "ins": 82.77
+   },
+   "blanc_nul": 109,
+   "pour_bl_nuls": {
+      "ins": 5.49,
+      "vot": 6.63
+   },
+   "exprimes": 1534,
+   "pour_exp": {
+      "ins": 77.28,
+      "vot": 93.37
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      604,
+      930
+   ],
+   "pour_voix": {
+      "ins": [
+         30.43,
+         46.85
+      ],
+      "exp": [
+         39.37,
+         60.63
+      ]
+   }
+},
+ {
+   "code": 3,
+   "nom_com": "Tuffalun",
+   "inscrits": 1148,
+   "abstentions": 173,
+   "pour_abs": {
+      "ins": 15.07
+   },
+   "votants": 975,
+   "pour_vot": {
+      "ins": 84.93
+   },
+   "blanc_nul": 67,
+   "pour_bl_nuls": {
+      "ins": 5.84,
+      "vot": 6.87
+   },
+   "exprimes": 908,
+   "pour_exp": {
+      "ins": 79.09,
+      "vot": 93.13
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      373,
+      535
+   ],
+   "pour_voix": {
+      "ins": [
+         32.49,
+         46.6
+      ],
+      "exp": [
+         41.08,
+         58.92
+      ]
+   }
+},
+ {
+   "code": 7,
+   "nom_com": "Angers",
+   "inscrits": 87363,
+   "abstentions": 17452,
+   "pour_abs": {
+      "ins": 19.98
+   },
+   "votants": 69911,
+   "pour_vot": {
+      "ins": 80.02
+   },
+   "blanc_nul": 3409,
+   "pour_bl_nuls": {
+      "ins": 3.9,
+      "vot": 4.88
+   },
+   "exprimes": 66502,
+   "pour_exp": {
+      "ins": 76.12,
+      "vot": 95.12
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      38059,
+      28443
+   ],
+   "pour_voix": {
+      "ins": [
+         43.56,
+         32.56
+      ],
+      "exp": [
+         57.23,
+         42.77
+      ]
+   }
+},
+ {
+   "code": 8,
+   "nom_com": "Angrie",
+   "inscrits": 654,
+   "abstentions": 91,
+   "pour_abs": {
+      "ins": 13.91
+   },
+   "votants": 563,
+   "pour_vot": {
+      "ins": 86.09
+   },
+   "blanc_nul": 42,
+   "pour_bl_nuls": {
+      "ins": 6.42,
+      "vot": 7.46
+   },
+   "exprimes": 521,
+   "pour_exp": {
+      "ins": 79.66,
+      "vot": 92.54
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      188,
+      333
+   ],
+   "pour_voix": {
+      "ins": [
+         28.75,
+         50.92
+      ],
+      "exp": [
+         36.08,
+         63.92
+      ]
+   }
+},
+ {
+   "code": 9,
+   "nom_com": "Antoigné",
+   "inscrits": 343,
+   "abstentions": 70,
+   "pour_abs": {
+      "ins": 20.41
+   },
+   "votants": 273,
+   "pour_vot": {
+      "ins": 79.59
+   },
+   "blanc_nul": 26,
+   "pour_bl_nuls": {
+      "ins": 7.58,
+      "vot": 9.52
+   },
+   "exprimes": 247,
+   "pour_exp": {
+      "ins": 72.01,
+      "vot": 90.48
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      107,
+      140
+   ],
+   "pour_voix": {
+      "ins": [
+         31.2,
+         40.82
+      ],
+      "exp": [
+         43.32,
+         56.68
+      ]
+   }
+},
+ {
+   "code": 10,
+   "nom_com": "Armaillé",
+   "inscrits": 237,
+   "abstentions": 34,
+   "pour_abs": {
+      "ins": 14.35
+   },
+   "votants": 203,
+   "pour_vot": {
+      "ins": 85.65
+   },
+   "blanc_nul": 15,
+   "pour_bl_nuls": {
+      "ins": 6.33,
+      "vot": 7.39
+   },
+   "exprimes": 188,
+   "pour_exp": {
+      "ins": 79.32,
+      "vot": 92.61
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      54,
+      134
+   ],
+   "pour_voix": {
+      "ins": [
+         22.78,
+         56.54
+      ],
+      "exp": [
+         28.72,
+         71.28
+      ]
+   }
+},
+ {
+   "code": 11,
+   "nom_com": "Artannes-sur-Thouet",
+   "inscrits": 315,
+   "abstentions": 36,
+   "pour_abs": {
+      "ins": 11.43
+   },
+   "votants": 279,
+   "pour_vot": {
+      "ins": 88.57
+   },
+   "blanc_nul": 15,
+   "pour_bl_nuls": {
+      "ins": 4.76,
+      "vot": 5.38
+   },
+   "exprimes": 264,
+   "pour_exp": {
+      "ins": 83.81,
+      "vot": 94.62
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      97,
+      167
+   ],
+   "pour_voix": {
+      "ins": [
+         30.79,
+         53.02
+      ],
+      "exp": [
+         36.74,
+         63.26
+      ]
+   }
+},
+ {
+   "code": 12,
+   "nom_com": "Aubigné-sur-Layon",
+   "inscrits": 273,
+   "abstentions": 31,
+   "pour_abs": {
+      "ins": 11.36
+   },
+   "votants": 242,
+   "pour_vot": {
+      "ins": 88.64
+   },
+   "blanc_nul": 20,
+   "pour_bl_nuls": {
+      "ins": 7.33,
+      "vot": 8.26
+   },
+   "exprimes": 222,
+   "pour_exp": {
+      "ins": 81.32,
+      "vot": 91.74
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      98,
+      124
+   ],
+   "pour_voix": {
+      "ins": [
+         35.9,
+         45.42
+      ],
+      "exp": [
+         44.14,
+         55.86
+      ]
+   }
+},
+ {
+   "code": 15,
+   "nom_com": "Avrillé",
+   "inscrits": 10243,
+   "abstentions": 1552,
+   "pour_abs": {
+      "ins": 15.15
+   },
+   "votants": 8691,
+   "pour_vot": {
+      "ins": 84.85
+   },
+   "blanc_nul": 372,
+   "pour_bl_nuls": {
+      "ins": 3.63,
+      "vot": 4.28
+   },
+   "exprimes": 8319,
+   "pour_exp": {
+      "ins": 81.22,
+      "vot": 95.72
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      4244,
+      4075
+   ],
+   "pour_voix": {
+      "ins": [
+         41.43,
+         39.78
+      ],
+      "exp": [
+         51.02,
+         48.98
+      ]
+   }
+},
+ {
+   "code": 17,
+   "nom_com": "Baracé",
+   "inscrits": 310,
+   "abstentions": 38,
+   "pour_abs": {
+      "ins": 12.26
+   },
+   "votants": 272,
+   "pour_vot": {
+      "ins": 87.74
+   },
+   "blanc_nul": 17,
+   "pour_bl_nuls": {
+      "ins": 5.48,
+      "vot": 6.25
+   },
+   "exprimes": 255,
+   "pour_exp": {
+      "ins": 82.26,
+      "vot": 93.75
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      119,
+      136
+   ],
+   "pour_voix": {
+      "ins": [
+         38.39,
+         43.87
+      ],
+      "exp": [
+         46.67,
+         53.33
+      ]
+   }
+},
+ {
+   "code": 18,
+   "nom_com": "Baugé-en-Anjou",
+   "inscrits": 8365,
+   "abstentions": 1252,
+   "pour_abs": {
+      "ins": 14.97
+   },
+   "votants": 7113,
+   "pour_vot": {
+      "ins": 85.03
+   },
+   "blanc_nul": 408,
+   "pour_bl_nuls": {
+      "ins": 4.88,
+      "vot": 5.74
+   },
+   "exprimes": 6705,
+   "pour_exp": {
+      "ins": 80.16,
+      "vot": 94.26
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      3192,
+      3513
+   ],
+   "pour_voix": {
+      "ins": [
+         38.16,
+         42
+      ],
+      "exp": [
+         47.61,
+         52.39
+      ]
+   }
+},
+ {
+   "code": 20,
+   "nom_com": "Beaucouzé",
+   "inscrits": 3975,
+   "abstentions": 500,
+   "pour_abs": {
+      "ins": 12.58
+   },
+   "votants": 3475,
+   "pour_vot": {
+      "ins": 87.42
+   },
+   "blanc_nul": 158,
+   "pour_bl_nuls": {
+      "ins": 3.97,
+      "vot": 4.55
+   },
+   "exprimes": 3317,
+   "pour_exp": {
+      "ins": 83.45,
+      "vot": 95.45
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      1845,
+      1472
+   ],
+   "pour_voix": {
+      "ins": [
+         46.42,
+         37.03
+      ],
+      "exp": [
+         55.62,
+         44.38
+      ]
+   }
+},
+ {
+   "code": 21,
+   "nom_com": "Beaufort-en-Anjou",
+   "inscrits": 4774,
+   "abstentions": 802,
+   "pour_abs": {
+      "ins": 16.8
+   },
+   "votants": 3972,
+   "pour_vot": {
+      "ins": 83.2
+   },
+   "blanc_nul": 263,
+   "pour_bl_nuls": {
+      "ins": 5.51,
+      "vot": 6.62
+   },
+   "exprimes": 3709,
+   "pour_exp": {
+      "ins": 77.69,
+      "vot": 93.38
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      1859,
+      1850
+   ],
+   "pour_voix": {
+      "ins": [
+         38.94,
+         38.75
+      ],
+      "exp": [
+         50.12,
+         49.88
+      ]
+   }
+},
+ {
+   "code": 22,
+   "nom_com": "Beaulieu-sur-Layon",
+   "inscrits": 1003,
+   "abstentions": 125,
+   "pour_abs": {
+      "ins": 12.46
+   },
+   "votants": 878,
+   "pour_vot": {
+      "ins": 87.54
+   },
+   "blanc_nul": 47,
+   "pour_bl_nuls": {
+      "ins": 4.69,
+      "vot": 5.35
+   },
+   "exprimes": 831,
+   "pour_exp": {
+      "ins": 82.85,
+      "vot": 94.65
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      366,
+      465
+   ],
+   "pour_voix": {
+      "ins": [
+         36.49,
+         46.36
+      ],
+      "exp": [
+         44.04,
+         55.96
+      ]
+   }
+},
+ {
+   "code": 23,
+   "nom_com": "Beaupréau-en-Mauges",
+   "inscrits": 16777,
+   "abstentions": 2568,
+   "pour_abs": {
+      "ins": 15.31
+   },
+   "votants": 14209,
+   "pour_vot": {
+      "ins": 84.69
+   },
+   "blanc_nul": 921,
+   "pour_bl_nuls": {
+      "ins": 5.49,
+      "vot": 6.48
+   },
+   "exprimes": 13288,
+   "pour_exp": {
+      "ins": 79.2,
+      "vot": 93.52
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      5267,
+      8021
+   ],
+   "pour_voix": {
+      "ins": [
+         31.39,
+         47.81
+      ],
+      "exp": [
+         39.64,
+         60.36
+      ]
+   }
+},
+ {
+   "code": 26,
+   "nom_com": "Bécon-les-Granits",
+   "inscrits": 1937,
+   "abstentions": 244,
+   "pour_abs": {
+      "ins": 12.6
+   },
+   "votants": 1693,
+   "pour_vot": {
+      "ins": 87.4
+   },
+   "blanc_nul": 104,
+   "pour_bl_nuls": {
+      "ins": 5.37,
+      "vot": 6.14
+   },
+   "exprimes": 1589,
+   "pour_exp": {
+      "ins": 82.03,
+      "vot": 93.86
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      773,
+      816
+   ],
+   "pour_voix": {
+      "ins": [
+         39.91,
+         42.13
+      ],
+      "exp": [
+         48.65,
+         51.35
+      ]
+   }
+},
+ {
+   "code": 27,
+   "nom_com": "Bégrolles-en-Mauges",
+   "inscrits": 1331,
+   "abstentions": 150,
+   "pour_abs": {
+      "ins": 11.27
+   },
+   "votants": 1181,
+   "pour_vot": {
+      "ins": 88.73
+   },
+   "blanc_nul": 75,
+   "pour_bl_nuls": {
+      "ins": 5.63,
+      "vot": 6.35
+   },
+   "exprimes": 1106,
+   "pour_exp": {
+      "ins": 83.1,
+      "vot": 93.65
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      445,
+      661
+   ],
+   "pour_voix": {
+      "ins": [
+         33.43,
+         49.66
+      ],
+      "exp": [
+         40.24,
+         59.76
+      ]
+   }
+},
+ {
+   "code": 28,
+   "nom_com": "Béhuard",
+   "inscrits": 120,
+   "abstentions": 16,
+   "pour_abs": {
+      "ins": 13.33
+   },
+   "votants": 104,
+   "pour_vot": {
+      "ins": 86.67
+   },
+   "blanc_nul": 6,
+   "pour_bl_nuls": {
+      "ins": 5,
+      "vot": 5.77
+   },
+   "exprimes": 98,
+   "pour_exp": {
+      "ins": 81.67,
+      "vot": 94.23
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      58,
+      40
+   ],
+   "pour_voix": {
+      "ins": [
+         48.33,
+         33.33
+      ],
+      "exp": [
+         59.18,
+         40.82
+      ]
+   }
+},
+ {
+   "code": 29,
+   "nom_com": "Blaison-Saint-Sulpice",
+   "inscrits": 1034,
+   "abstentions": 128,
+   "pour_abs": {
+      "ins": 12.38
+   },
+   "votants": 906,
+   "pour_vot": {
+      "ins": 87.62
+   },
+   "blanc_nul": 38,
+   "pour_bl_nuls": {
+      "ins": 3.68,
+      "vot": 4.19
+   },
+   "exprimes": 868,
+   "pour_exp": {
+      "ins": 83.95,
+      "vot": 95.81
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      457,
+      411
+   ],
+   "pour_voix": {
+      "ins": [
+         44.2,
+         39.75
+      ],
+      "exp": [
+         52.65,
+         47.35
+      ]
+   }
+},
+ {
+   "code": 30,
+   "nom_com": "Blou",
+   "inscrits": 668,
+   "abstentions": 98,
+   "pour_abs": {
+      "ins": 14.67
+   },
+   "votants": 570,
+   "pour_vot": {
+      "ins": 85.33
+   },
+   "blanc_nul": 41,
+   "pour_bl_nuls": {
+      "ins": 6.14,
+      "vot": 7.19
+   },
+   "exprimes": 529,
+   "pour_exp": {
+      "ins": 79.19,
+      "vot": 92.81
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      222,
+      307
+   ],
+   "pour_voix": {
+      "ins": [
+         33.23,
+         45.96
+      ],
+      "exp": [
+         41.97,
+         58.03
+      ]
+   }
+},
+ {
+   "code": 35,
+   "nom_com": "Bouchemaine",
+   "inscrits": 5255,
+   "abstentions": 690,
+   "pour_abs": {
+      "ins": 13.13
+   },
+   "votants": 4565,
+   "pour_vot": {
+      "ins": 86.87
+   },
+   "blanc_nul": 242,
+   "pour_bl_nuls": {
+      "ins": 4.61,
+      "vot": 5.3
+   },
+   "exprimes": 4323,
+   "pour_exp": {
+      "ins": 82.26,
+      "vot": 94.7
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      2136,
+      2187
+   ],
+   "pour_voix": {
+      "ins": [
+         40.65,
+         41.62
+      ],
+      "exp": [
+         49.41,
+         50.59
+      ]
+   }
+},
+ {
+   "code": 36,
+   "nom_com": "Bouillé-Ménard",
+   "inscrits": 501,
+   "abstentions": 64,
+   "pour_abs": {
+      "ins": 12.77
+   },
+   "votants": 437,
+   "pour_vot": {
+      "ins": 87.23
+   },
+   "blanc_nul": 21,
+   "pour_bl_nuls": {
+      "ins": 4.19,
+      "vot": 4.81
+   },
+   "exprimes": 416,
+   "pour_exp": {
+      "ins": 83.03,
+      "vot": 95.19
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      199,
+      217
+   ],
+   "pour_voix": {
+      "ins": [
+         39.72,
+         43.31
+      ],
+      "exp": [
+         47.84,
+         52.16
+      ]
+   }
+},
+ {
+   "code": 38,
+   "nom_com": "Bourg-l'Evêque",
+   "inscrits": 148,
+   "abstentions": 18,
+   "pour_abs": {
+      "ins": 12.16
+   },
+   "votants": 130,
+   "pour_vot": {
+      "ins": 87.84
+   },
+   "blanc_nul": 7,
+   "pour_bl_nuls": {
+      "ins": 4.73,
+      "vot": 5.38
+   },
+   "exprimes": 123,
+   "pour_exp": {
+      "ins": 83.11,
+      "vot": 94.62
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      76,
+      47
+   ],
+   "pour_voix": {
+      "ins": [
+         51.35,
+         31.76
+      ],
+      "exp": [
+         61.79,
+         38.21
+      ]
+   }
+},
+ {
+   "code": 41,
+   "nom_com": "Brain-sur-Allonnes",
+   "inscrits": 1460,
+   "abstentions": 255,
+   "pour_abs": {
+      "ins": 17.47
+   },
+   "votants": 1205,
+   "pour_vot": {
+      "ins": 82.53
+   },
+   "blanc_nul": 87,
+   "pour_bl_nuls": {
+      "ins": 5.96,
+      "vot": 7.22
+   },
+   "exprimes": 1118,
+   "pour_exp": {
+      "ins": 76.58,
+      "vot": 92.78
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      485,
+      633
+   ],
+   "pour_voix": {
+      "ins": [
+         33.22,
+         43.36
+      ],
+      "exp": [
+         43.38,
+         56.62
+      ]
+   }
+},
+ {
+   "code": 45,
+   "nom_com": "La Breille-les-Pins",
+   "inscrits": 366,
+   "abstentions": 78,
+   "pour_abs": {
+      "ins": 21.31
+   },
+   "votants": 288,
+   "pour_vot": {
+      "ins": 78.69
+   },
+   "blanc_nul": 18,
+   "pour_bl_nuls": {
+      "ins": 4.92,
+      "vot": 6.25
+   },
+   "exprimes": 270,
+   "pour_exp": {
+      "ins": 73.77,
+      "vot": 93.75
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      100,
+      170
+   ],
+   "pour_voix": {
+      "ins": [
+         27.32,
+         46.45
+      ],
+      "exp": [
+         37.04,
+         62.96
+      ]
+   }
+},
+ {
+   "code": 46,
+   "nom_com": "Brézé",
+   "inscrits": 929,
+   "abstentions": 171,
+   "pour_abs": {
+      "ins": 18.41
+   },
+   "votants": 758,
+   "pour_vot": {
+      "ins": 81.59
+   },
+   "blanc_nul": 52,
+   "pour_bl_nuls": {
+      "ins": 5.6,
+      "vot": 6.86
+   },
+   "exprimes": 706,
+   "pour_exp": {
+      "ins": 76,
+      "vot": 93.14
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      343,
+      363
+   ],
+   "pour_voix": {
+      "ins": [
+         36.92,
+         39.07
+      ],
+      "exp": [
+         48.58,
+         51.42
+      ]
+   }
+},
+ {
+   "code": 48,
+   "nom_com": "Briollay",
+   "inscrits": 2104,
+   "abstentions": 310,
+   "pour_abs": {
+      "ins": 14.73
+   },
+   "votants": 1794,
+   "pour_vot": {
+      "ins": 85.27
+   },
+   "blanc_nul": 93,
+   "pour_bl_nuls": {
+      "ins": 4.42,
+      "vot": 5.18
+   },
+   "exprimes": 1701,
+   "pour_exp": {
+      "ins": 80.85,
+      "vot": 94.82
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      803,
+      898
+   ],
+   "pour_voix": {
+      "ins": [
+         38.17,
+         42.68
+      ],
+      "exp": [
+         47.21,
+         52.79
+      ]
+   }
+},
+ {
+   "code": 50,
+   "nom_com": "Brissac-Loire-Aubance",
+   "inscrits": 7689,
+   "abstentions": 999,
+   "pour_abs": {
+      "ins": 12.99
+   },
+   "votants": 6690,
+   "pour_vot": {
+      "ins": 87.01
+   },
+   "blanc_nul": 410,
+   "pour_bl_nuls": {
+      "ins": 5.33,
+      "vot": 6.13
+   },
+   "exprimes": 6280,
+   "pour_exp": {
+      "ins": 81.68,
+      "vot": 93.87
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      3319,
+      2961
+   ],
+   "pour_voix": {
+      "ins": [
+         43.17,
+         38.51
+      ],
+      "exp": [
+         52.85,
+         47.15
+      ]
+   }
+},
+ {
+   "code": 53,
+   "nom_com": "Brossay",
+   "inscrits": 231,
+   "abstentions": 36,
+   "pour_abs": {
+      "ins": 15.58
+   },
+   "votants": 195,
+   "pour_vot": {
+      "ins": 84.42
+   },
+   "blanc_nul": 17,
+   "pour_bl_nuls": {
+      "ins": 7.36,
+      "vot": 8.72
+   },
+   "exprimes": 178,
+   "pour_exp": {
+      "ins": 77.06,
+      "vot": 91.28
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      81,
+      97
+   ],
+   "pour_voix": {
+      "ins": [
+         35.06,
+         41.99
+      ],
+      "exp": [
+         45.51,
+         54.49
+      ]
+   }
+},
+ {
+   "code": 54,
+   "nom_com": "Candé",
+   "inscrits": 1963,
+   "abstentions": 308,
+   "pour_abs": {
+      "ins": 15.69
+   },
+   "votants": 1655,
+   "pour_vot": {
+      "ins": 84.31
+   },
+   "blanc_nul": 98,
+   "pour_bl_nuls": {
+      "ins": 4.99,
+      "vot": 5.92
+   },
+   "exprimes": 1557,
+   "pour_exp": {
+      "ins": 79.32,
+      "vot": 94.08
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      631,
+      926
+   ],
+   "pour_voix": {
+      "ins": [
+         32.14,
+         47.17
+      ],
+      "exp": [
+         40.53,
+         59.47
+      ]
+   }
+},
+ {
+   "code": 55,
+   "nom_com": "Cantenay-Epinard",
+   "inscrits": 1655,
+   "abstentions": 192,
+   "pour_abs": {
+      "ins": 11.6
+   },
+   "votants": 1463,
+   "pour_vot": {
+      "ins": 88.4
+   },
+   "blanc_nul": 58,
+   "pour_bl_nuls": {
+      "ins": 3.5,
+      "vot": 3.96
+   },
+   "exprimes": 1405,
+   "pour_exp": {
+      "ins": 84.89,
+      "vot": 96.04
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      744,
+      661
+   ],
+   "pour_voix": {
+      "ins": [
+         44.95,
+         39.94
+      ],
+      "exp": [
+         52.95,
+         47.05
+      ]
+   }
+},
+ {
+   "code": 56,
+   "nom_com": "Carbay",
+   "inscrits": 161,
+   "abstentions": 16,
+   "pour_abs": {
+      "ins": 9.94
+   },
+   "votants": 145,
+   "pour_vot": {
+      "ins": 90.06
+   },
+   "blanc_nul": 13,
+   "pour_bl_nuls": {
+      "ins": 8.07,
+      "vot": 8.97
+   },
+   "exprimes": 132,
+   "pour_exp": {
+      "ins": 81.99,
+      "vot": 91.03
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      46,
+      86
+   ],
+   "pour_voix": {
+      "ins": [
+         28.57,
+         53.42
+      ],
+      "exp": [
+         34.85,
+         65.15
+      ]
+   }
+},
+ {
+   "code": 57,
+   "nom_com": "Cernusson",
+   "inscrits": 234,
+   "abstentions": 38,
+   "pour_abs": {
+      "ins": 16.24
+   },
+   "votants": 196,
+   "pour_vot": {
+      "ins": 83.76
+   },
+   "blanc_nul": 20,
+   "pour_bl_nuls": {
+      "ins": 8.55,
+      "vot": 10.2
+   },
+   "exprimes": 176,
+   "pour_exp": {
+      "ins": 75.21,
+      "vot": 89.8
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      82,
+      94
+   ],
+   "pour_voix": {
+      "ins": [
+         35.04,
+         40.17
+      ],
+      "exp": [
+         46.59,
+         53.41
+      ]
+   }
+},
+ {
+   "code": 58,
+   "nom_com": "Les Cerqueux",
+   "inscrits": 539,
+   "abstentions": 84,
+   "pour_abs": {
+      "ins": 15.58
+   },
+   "votants": 455,
+   "pour_vot": {
+      "ins": 84.42
+   },
+   "blanc_nul": 32,
+   "pour_bl_nuls": {
+      "ins": 5.94,
+      "vot": 7.03
+   },
+   "exprimes": 423,
+   "pour_exp": {
+      "ins": 78.48,
+      "vot": 92.97
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      163,
+      260
+   ],
+   "pour_voix": {
+      "ins": [
+         30.24,
+         48.24
+      ],
+      "exp": [
+         38.53,
+         61.47
+      ]
+   }
+},
+ {
+   "code": 60,
+   "nom_com": "Chacé",
+   "inscrits": 967,
+   "abstentions": 133,
+   "pour_abs": {
+      "ins": 13.75
+   },
+   "votants": 834,
+   "pour_vot": {
+      "ins": 86.25
+   },
+   "blanc_nul": 45,
+   "pour_bl_nuls": {
+      "ins": 4.65,
+      "vot": 5.4
+   },
+   "exprimes": 789,
+   "pour_exp": {
+      "ins": 81.59,
+      "vot": 94.6
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      352,
+      437
+   ],
+   "pour_voix": {
+      "ins": [
+         36.4,
+         45.19
+      ],
+      "exp": [
+         44.61,
+         55.39
+      ]
+   }
+},
+ {
+   "code": 61,
+   "nom_com": "Challain-la-Potherie",
+   "inscrits": 608,
+   "abstentions": 84,
+   "pour_abs": {
+      "ins": 13.82
+   },
+   "votants": 524,
+   "pour_vot": {
+      "ins": 86.18
+   },
+   "blanc_nul": 14,
+   "pour_bl_nuls": {
+      "ins": 2.3,
+      "vot": 2.67
+   },
+   "exprimes": 510,
+   "pour_exp": {
+      "ins": 83.88,
+      "vot": 97.33
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      167,
+      343
+   ],
+   "pour_voix": {
+      "ins": [
+         27.47,
+         56.41
+      ],
+      "exp": [
+         32.75,
+         67.25
+      ]
+   }
+},
+ {
+   "code": 63,
+   "nom_com": "Chalonnes-sur-Loire",
+   "inscrits": 4859,
+   "abstentions": 809,
+   "pour_abs": {
+      "ins": 16.65
+   },
+   "votants": 4050,
+   "pour_vot": {
+      "ins": 83.35
+   },
+   "blanc_nul": 226,
+   "pour_bl_nuls": {
+      "ins": 4.65,
+      "vot": 5.58
+   },
+   "exprimes": 3824,
+   "pour_exp": {
+      "ins": 78.7,
+      "vot": 94.42
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      1909,
+      1915
+   ],
+   "pour_voix": {
+      "ins": [
+         39.29,
+         39.41
+      ],
+      "exp": [
+         49.92,
+         50.08
+      ]
+   }
+},
+ {
+   "code": 64,
+   "nom_com": "Chambellay",
+   "inscrits": 262,
+   "abstentions": 31,
+   "pour_abs": {
+      "ins": 11.83
+   },
+   "votants": 231,
+   "pour_vot": {
+      "ins": 88.17
+   },
+   "blanc_nul": 9,
+   "pour_bl_nuls": {
+      "ins": 3.44,
+      "vot": 3.9
+   },
+   "exprimes": 222,
+   "pour_exp": {
+      "ins": 84.73,
+      "vot": 96.1
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      80,
+      142
+   ],
+   "pour_voix": {
+      "ins": [
+         30.53,
+         54.2
+      ],
+      "exp": [
+         36.04,
+         63.96
+      ]
+   }
+},
+ {
+   "code": 65,
+   "nom_com": "Les Hauts-d'Anjou",
+   "inscrits": 3622,
+   "abstentions": 523,
+   "pour_abs": {
+      "ins": 14.44
+   },
+   "votants": 3099,
+   "pour_vot": {
+      "ins": 85.56
+   },
+   "blanc_nul": 185,
+   "pour_bl_nuls": {
+      "ins": 5.11,
+      "vot": 5.97
+   },
+   "exprimes": 2914,
+   "pour_exp": {
+      "ins": 80.45,
+      "vot": 94.03
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      1182,
+      1732
+   ],
+   "pour_voix": {
+      "ins": [
+         32.63,
+         47.82
+      ],
+      "exp": [
+         40.56,
+         59.44
+      ]
+   }
+},
+ {
+   "code": 67,
+   "nom_com": "Chenillé-Champteussé",
+   "inscrits": 279,
+   "abstentions": 41,
+   "pour_abs": {
+      "ins": 14.7
+   },
+   "votants": 238,
+   "pour_vot": {
+      "ins": 85.3
+   },
+   "blanc_nul": 9,
+   "pour_bl_nuls": {
+      "ins": 3.23,
+      "vot": 3.78
+   },
+   "exprimes": 229,
+   "pour_exp": {
+      "ins": 82.08,
+      "vot": 96.22
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      81,
+      148
+   ],
+   "pour_voix": {
+      "ins": [
+         29.03,
+         53.05
+      ],
+      "exp": [
+         35.37,
+         64.63
+      ]
+   }
+},
+ {
+   "code": 68,
+   "nom_com": "Champtocé-sur-Loire",
+   "inscrits": 1322,
+   "abstentions": 195,
+   "pour_abs": {
+      "ins": 14.75
+   },
+   "votants": 1127,
+   "pour_vot": {
+      "ins": 85.25
+   },
+   "blanc_nul": 96,
+   "pour_bl_nuls": {
+      "ins": 7.26,
+      "vot": 8.52
+   },
+   "exprimes": 1031,
+   "pour_exp": {
+      "ins": 77.99,
+      "vot": 91.48
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      491,
+      540
+   ],
+   "pour_voix": {
+      "ins": [
+         37.14,
+         40.85
+      ],
+      "exp": [
+         47.62,
+         52.38
+      ]
+   }
+},
+ {
+   "code": 69,
+   "nom_com": "Orée-d'Anjou",
+   "inscrits": 11357,
+   "abstentions": 1584,
+   "pour_abs": {
+      "ins": 13.95
+   },
+   "votants": 9773,
+   "pour_vot": {
+      "ins": 86.05
+   },
+   "blanc_nul": 707,
+   "pour_bl_nuls": {
+      "ins": 6.23,
+      "vot": 7.23
+   },
+   "exprimes": 9066,
+   "pour_exp": {
+      "ins": 79.83,
+      "vot": 92.77
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      3991,
+      5075
+   ],
+   "pour_voix": {
+      "ins": [
+         35.14,
+         44.69
+      ],
+      "exp": [
+         44.02,
+         55.98
+      ]
+   }
+},
+ {
+   "code": 70,
+   "nom_com": "Chanteloup-les-Bois",
+   "inscrits": 516,
+   "abstentions": 72,
+   "pour_abs": {
+      "ins": 13.95
+   },
+   "votants": 444,
+   "pour_vot": {
+      "ins": 86.05
+   },
+   "blanc_nul": 29,
+   "pour_bl_nuls": {
+      "ins": 5.62,
+      "vot": 6.53
+   },
+   "exprimes": 415,
+   "pour_exp": {
+      "ins": 80.43,
+      "vot": 93.47
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      176,
+      239
+   ],
+   "pour_voix": {
+      "ins": [
+         34.11,
+         46.32
+      ],
+      "exp": [
+         42.41,
+         57.59
+      ]
+   }
+},
+ {
+   "code": 76,
+   "nom_com": "La Chapelle-Saint-Laud",
+   "inscrits": 433,
+   "abstentions": 50,
+   "pour_abs": {
+      "ins": 11.55
+   },
+   "votants": 383,
+   "pour_vot": {
+      "ins": 88.45
+   },
+   "blanc_nul": 38,
+   "pour_bl_nuls": {
+      "ins": 8.78,
+      "vot": 9.92
+   },
+   "exprimes": 345,
+   "pour_exp": {
+      "ins": 79.68,
+      "vot": 90.08
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      173,
+      172
+   ],
+   "pour_voix": {
+      "ins": [
+         39.95,
+         39.72
+      ],
+      "exp": [
+         50.14,
+         49.86
+      ]
+   }
+},
+ {
+   "code": 80,
+   "nom_com": "Châteauneuf-sur-Sarthe",
+   "inscrits": 2029,
+   "abstentions": 338,
+   "pour_abs": {
+      "ins": 16.66
+   },
+   "votants": 1691,
+   "pour_vot": {
+      "ins": 83.34
+   },
+   "blanc_nul": 93,
+   "pour_bl_nuls": {
+      "ins": 4.58,
+      "vot": 5.5
+   },
+   "exprimes": 1598,
+   "pour_exp": {
+      "ins": 78.76,
+      "vot": 94.5
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      734,
+      864
+   ],
+   "pour_voix": {
+      "ins": [
+         36.18,
+         42.58
+      ],
+      "exp": [
+         45.93,
+         54.07
+      ]
+   }
+},
+ {
+   "code": 82,
+   "nom_com": "Chaudefonds-sur-Layon",
+   "inscrits": 742,
+   "abstentions": 101,
+   "pour_abs": {
+      "ins": 13.61
+   },
+   "votants": 641,
+   "pour_vot": {
+      "ins": 86.39
+   },
+   "blanc_nul": 67,
+   "pour_bl_nuls": {
+      "ins": 9.03,
+      "vot": 10.45
+   },
+   "exprimes": 574,
+   "pour_exp": {
+      "ins": 77.36,
+      "vot": 89.55
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      304,
+      270
+   ],
+   "pour_voix": {
+      "ins": [
+         40.97,
+         36.39
+      ],
+      "exp": [
+         52.96,
+         47.04
+      ]
+   }
+},
+ {
+   "code": 86,
+   "nom_com": "Terranjou",
+   "inscrits": 2610,
+   "abstentions": 399,
+   "pour_abs": {
+      "ins": 15.29
+   },
+   "votants": 2211,
+   "pour_vot": {
+      "ins": 84.71
+   },
+   "blanc_nul": 117,
+   "pour_bl_nuls": {
+      "ins": 4.48,
+      "vot": 5.29
+   },
+   "exprimes": 2094,
+   "pour_exp": {
+      "ins": 80.23,
+      "vot": 94.71
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      960,
+      1134
+   ],
+   "pour_voix": {
+      "ins": [
+         36.78,
+         43.45
+      ],
+      "exp": [
+         45.85,
+         54.15
+      ]
+   }
+},
+ {
+   "code": 89,
+   "nom_com": "Chazé-sur-Argos",
+   "inscrits": 704,
+   "abstentions": 77,
+   "pour_abs": {
+      "ins": 10.94
+   },
+   "votants": 627,
+   "pour_vot": {
+      "ins": 89.06
+   },
+   "blanc_nul": 25,
+   "pour_bl_nuls": {
+      "ins": 3.55,
+      "vot": 3.99
+   },
+   "exprimes": 602,
+   "pour_exp": {
+      "ins": 85.51,
+      "vot": 96.01
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      225,
+      377
+   ],
+   "pour_voix": {
+      "ins": [
+         31.96,
+         53.55
+      ],
+      "exp": [
+         37.38,
+         62.62
+      ]
+   }
+},
+ {
+   "code": 90,
+   "nom_com": "Cheffes",
+   "inscrits": 655,
+   "abstentions": 93,
+   "pour_abs": {
+      "ins": 14.2
+   },
+   "votants": 562,
+   "pour_vot": {
+      "ins": 85.8
+   },
+   "blanc_nul": 34,
+   "pour_bl_nuls": {
+      "ins": 5.19,
+      "vot": 6.05
+   },
+   "exprimes": 528,
+   "pour_exp": {
+      "ins": 80.61,
+      "vot": 93.95
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      260,
+      268
+   ],
+   "pour_voix": {
+      "ins": [
+         39.69,
+         40.92
+      ],
+      "exp": [
+         49.24,
+         50.76
+      ]
+   }
+},
+ {
+   "code": 92,
+   "nom_com": "Chemillé-en-Anjou",
+   "inscrits": 15278,
+   "abstentions": 2291,
+   "pour_abs": {
+      "ins": 15
+   },
+   "votants": 12987,
+   "pour_vot": {
+      "ins": 85
+   },
+   "blanc_nul": 786,
+   "pour_bl_nuls": {
+      "ins": 5.14,
+      "vot": 6.05
+   },
+   "exprimes": 12201,
+   "pour_exp": {
+      "ins": 79.86,
+      "vot": 93.95
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      4618,
+      7583
+   ],
+   "pour_voix": {
+      "ins": [
+         30.23,
+         49.63
+      ],
+      "exp": [
+         37.85,
+         62.15
+      ]
+   }
+},
+ {
+   "code": 99,
+   "nom_com": "Cholet",
+   "inscrits": 36315,
+   "abstentions": 6690,
+   "pour_abs": {
+      "ins": 18.42
+   },
+   "votants": 29625,
+   "pour_vot": {
+      "ins": 81.58
+   },
+   "blanc_nul": 1552,
+   "pour_bl_nuls": {
+      "ins": 4.27,
+      "vot": 5.24
+   },
+   "exprimes": 28073,
+   "pour_exp": {
+      "ins": 77.3,
+      "vot": 94.76
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      15049,
+      13024
+   ],
+   "pour_voix": {
+      "ins": [
+         41.44,
+         35.86
+      ],
+      "exp": [
+         53.61,
+         46.39
+      ]
+   }
+},
+ {
+   "code": 100,
+   "nom_com": "Cizay-la-Madeleine",
+   "inscrits": 339,
+   "abstentions": 66,
+   "pour_abs": {
+      "ins": 19.47
+   },
+   "votants": 273,
+   "pour_vot": {
+      "ins": 80.53
+   },
+   "blanc_nul": 15,
+   "pour_bl_nuls": {
+      "ins": 4.42,
+      "vot": 5.49
+   },
+   "exprimes": 258,
+   "pour_exp": {
+      "ins": 76.11,
+      "vot": 94.51
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      86,
+      172
+   ],
+   "pour_voix": {
+      "ins": [
+         25.37,
+         50.74
+      ],
+      "exp": [
+         33.33,
+         66.67
+      ]
+   }
+},
+ {
+   "code": 102,
+   "nom_com": "Cléré-sur-Layon",
+   "inscrits": 220,
+   "abstentions": 29,
+   "pour_abs": {
+      "ins": 13.18
+   },
+   "votants": 191,
+   "pour_vot": {
+      "ins": 86.82
+   },
+   "blanc_nul": 10,
+   "pour_bl_nuls": {
+      "ins": 4.55,
+      "vot": 5.24
+   },
+   "exprimes": 181,
+   "pour_exp": {
+      "ins": 82.27,
+      "vot": 94.76
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      42,
+      139
+   ],
+   "pour_voix": {
+      "ins": [
+         19.09,
+         63.18
+      ],
+      "exp": [
+         23.2,
+         76.8
+      ]
+   }
+},
+ {
+   "code": 107,
+   "nom_com": "Cornillé-les-Caves",
+   "inscrits": 323,
+   "abstentions": 34,
+   "pour_abs": {
+      "ins": 10.53
+   },
+   "votants": 289,
+   "pour_vot": {
+      "ins": 89.47
+   },
+   "blanc_nul": 25,
+   "pour_bl_nuls": {
+      "ins": 7.74,
+      "vot": 8.65
+   },
+   "exprimes": 264,
+   "pour_exp": {
+      "ins": 81.73,
+      "vot": 91.35
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      136,
+      128
+   ],
+   "pour_voix": {
+      "ins": [
+         42.11,
+         39.63
+      ],
+      "exp": [
+         51.52,
+         48.48
+      ]
+   }
+},
+ {
+   "code": 109,
+   "nom_com": "Coron",
+   "inscrits": 1057,
+   "abstentions": 149,
+   "pour_abs": {
+      "ins": 14.1
+   },
+   "votants": 908,
+   "pour_vot": {
+      "ins": 85.9
+   },
+   "blanc_nul": 54,
+   "pour_bl_nuls": {
+      "ins": 5.11,
+      "vot": 5.95
+   },
+   "exprimes": 854,
+   "pour_exp": {
+      "ins": 80.79,
+      "vot": 94.05
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      297,
+      557
+   ],
+   "pour_voix": {
+      "ins": [
+         28.1,
+         52.7
+      ],
+      "exp": [
+         34.78,
+         65.22
+      ]
+   }
+},
+ {
+   "code": 110,
+   "nom_com": "Corzé",
+   "inscrits": 1196,
+   "abstentions": 164,
+   "pour_abs": {
+      "ins": 13.71
+   },
+   "votants": 1032,
+   "pour_vot": {
+      "ins": 86.29
+   },
+   "blanc_nul": 59,
+   "pour_bl_nuls": {
+      "ins": 4.93,
+      "vot": 5.72
+   },
+   "exprimes": 973,
+   "pour_exp": {
+      "ins": 81.35,
+      "vot": 94.28
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      512,
+      461
+   ],
+   "pour_voix": {
+      "ins": [
+         42.81,
+         38.55
+      ],
+      "exp": [
+         52.62,
+         47.38
+      ]
+   }
+},
+ {
+   "code": 112,
+   "nom_com": "Le Coudray-Macouard",
+   "inscrits": 728,
+   "abstentions": 109,
+   "pour_abs": {
+      "ins": 14.97
+   },
+   "votants": 619,
+   "pour_vot": {
+      "ins": 85.03
+   },
+   "blanc_nul": 46,
+   "pour_bl_nuls": {
+      "ins": 6.32,
+      "vot": 7.43
+   },
+   "exprimes": 573,
+   "pour_exp": {
+      "ins": 78.71,
+      "vot": 92.57
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      287,
+      286
+   ],
+   "pour_voix": {
+      "ins": [
+         39.42,
+         39.29
+      ],
+      "exp": [
+         50.09,
+         49.91
+      ]
+   }
+},
+ {
+   "code": 113,
+   "nom_com": "Courchamps",
+   "inscrits": 353,
+   "abstentions": 55,
+   "pour_abs": {
+      "ins": 15.58
+   },
+   "votants": 298,
+   "pour_vot": {
+      "ins": 84.42
+   },
+   "blanc_nul": 19,
+   "pour_bl_nuls": {
+      "ins": 5.38,
+      "vot": 6.38
+   },
+   "exprimes": 279,
+   "pour_exp": {
+      "ins": 79.04,
+      "vot": 93.62
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      142,
+      137
+   ],
+   "pour_voix": {
+      "ins": [
+         40.23,
+         38.81
+      ],
+      "exp": [
+         50.9,
+         49.1
+      ]
+   }
+},
+ {
+   "code": 114,
+   "nom_com": "Courléon",
+   "inscrits": 132,
+   "abstentions": 19,
+   "pour_abs": {
+      "ins": 14.39
+   },
+   "votants": 113,
+   "pour_vot": {
+      "ins": 85.61
+   },
+   "blanc_nul": 5,
+   "pour_bl_nuls": {
+      "ins": 3.79,
+      "vot": 4.42
+   },
+   "exprimes": 108,
+   "pour_exp": {
+      "ins": 81.82,
+      "vot": 95.58
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      44,
+      64
+   ],
+   "pour_voix": {
+      "ins": [
+         33.33,
+         48.48
+      ],
+      "exp": [
+         40.74,
+         59.26
+      ]
+   }
+},
+ {
+   "code": 120,
+   "nom_com": "Denée",
+   "inscrits": 1044,
+   "abstentions": 128,
+   "pour_abs": {
+      "ins": 12.26
+   },
+   "votants": 916,
+   "pour_vot": {
+      "ins": 87.74
+   },
+   "blanc_nul": 48,
+   "pour_bl_nuls": {
+      "ins": 4.6,
+      "vot": 5.24
+   },
+   "exprimes": 868,
+   "pour_exp": {
+      "ins": 83.14,
+      "vot": 94.76
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      481,
+      387
+   ],
+   "pour_voix": {
+      "ins": [
+         46.07,
+         37.07
+      ],
+      "exp": [
+         55.41,
+         44.59
+      ]
+   }
+},
+ {
+   "code": 121,
+   "nom_com": "Dénezé-sous-Doué",
+   "inscrits": 347,
+   "abstentions": 49,
+   "pour_abs": {
+      "ins": 14.12
+   },
+   "votants": 298,
+   "pour_vot": {
+      "ins": 85.88
+   },
+   "blanc_nul": 14,
+   "pour_bl_nuls": {
+      "ins": 4.03,
+      "vot": 4.7
+   },
+   "exprimes": 284,
+   "pour_exp": {
+      "ins": 81.84,
+      "vot": 95.3
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      111,
+      173
+   ],
+   "pour_voix": {
+      "ins": [
+         31.99,
+         49.86
+      ],
+      "exp": [
+         39.08,
+         60.92
+      ]
+   }
+},
+ {
+   "code": 123,
+   "nom_com": "Distré",
+   "inscrits": 1169,
+   "abstentions": 191,
+   "pour_abs": {
+      "ins": 16.34
+   },
+   "votants": 978,
+   "pour_vot": {
+      "ins": 83.66
+   },
+   "blanc_nul": 55,
+   "pour_bl_nuls": {
+      "ins": 4.7,
+      "vot": 5.62
+   },
+   "exprimes": 923,
+   "pour_exp": {
+      "ins": 78.96,
+      "vot": 94.38
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      388,
+      535
+   ],
+   "pour_voix": {
+      "ins": [
+         33.19,
+         45.77
+      ],
+      "exp": [
+         42.04,
+         57.96
+      ]
+   }
+},
+ {
+   "code": 125,
+   "nom_com": "Doué-en-Anjou",
+   "inscrits": 8020,
+   "abstentions": 1503,
+   "pour_abs": {
+      "ins": 18.74
+   },
+   "votants": 6517,
+   "pour_vot": {
+      "ins": 81.26
+   },
+   "blanc_nul": 449,
+   "pour_bl_nuls": {
+      "ins": 5.6,
+      "vot": 6.89
+   },
+   "exprimes": 6068,
+   "pour_exp": {
+      "ins": 75.66,
+      "vot": 93.11
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      2633,
+      3435
+   ],
+   "pour_voix": {
+      "ins": [
+         32.83,
+         42.83
+      ],
+      "exp": [
+         43.39,
+         56.61
+      ]
+   }
+},
+ {
+   "code": 127,
+   "nom_com": "Durtal",
+   "inscrits": 2506,
+   "abstentions": 429,
+   "pour_abs": {
+      "ins": 17.12
+   },
+   "votants": 2077,
+   "pour_vot": {
+      "ins": 82.88
+   },
+   "blanc_nul": 125,
+   "pour_bl_nuls": {
+      "ins": 4.99,
+      "vot": 6.02
+   },
+   "exprimes": 1952,
+   "pour_exp": {
+      "ins": 77.89,
+      "vot": 93.98
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      934,
+      1018
+   ],
+   "pour_voix": {
+      "ins": [
+         37.27,
+         40.62
+      ],
+      "exp": [
+         47.85,
+         52.15
+      ]
+   }
+},
+ {
+   "code": 129,
+   "nom_com": "Ecouflant",
+   "inscrits": 2975,
+   "abstentions": 341,
+   "pour_abs": {
+      "ins": 11.46
+   },
+   "votants": 2634,
+   "pour_vot": {
+      "ins": 88.54
+   },
+   "blanc_nul": 140,
+   "pour_bl_nuls": {
+      "ins": 4.71,
+      "vot": 5.32
+   },
+   "exprimes": 2494,
+   "pour_exp": {
+      "ins": 83.83,
+      "vot": 94.68
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      1237,
+      1257
+   ],
+   "pour_voix": {
+      "ins": [
+         41.58,
+         42.25
+      ],
+      "exp": [
+         49.6,
+         50.4
+      ]
+   }
+},
+ {
+   "code": 130,
+   "nom_com": "Ecuillé",
+   "inscrits": 486,
+   "abstentions": 75,
+   "pour_abs": {
+      "ins": 15.43
+   },
+   "votants": 411,
+   "pour_vot": {
+      "ins": 84.57
+   },
+   "blanc_nul": 29,
+   "pour_bl_nuls": {
+      "ins": 5.97,
+      "vot": 7.06
+   },
+   "exprimes": 382,
+   "pour_exp": {
+      "ins": 78.6,
+      "vot": 92.94
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      189,
+      193
+   ],
+   "pour_voix": {
+      "ins": [
+         38.89,
+         39.71
+      ],
+      "exp": [
+         49.48,
+         50.52
+      ]
+   }
+},
+ {
+   "code": 131,
+   "nom_com": "Epieds",
+   "inscrits": 465,
+   "abstentions": 77,
+   "pour_abs": {
+      "ins": 16.56
+   },
+   "votants": 388,
+   "pour_vot": {
+      "ins": 83.44
+   },
+   "blanc_nul": 34,
+   "pour_bl_nuls": {
+      "ins": 7.31,
+      "vot": 8.76
+   },
+   "exprimes": 354,
+   "pour_exp": {
+      "ins": 76.13,
+      "vot": 91.24
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      151,
+      203
+   ],
+   "pour_voix": {
+      "ins": [
+         32.47,
+         43.66
+      ],
+      "exp": [
+         42.66,
+         57.34
+      ]
+   }
+},
+ {
+   "code": 132,
+   "nom_com": "Etriché",
+   "inscrits": 993,
+   "abstentions": 127,
+   "pour_abs": {
+      "ins": 12.79
+   },
+   "votants": 866,
+   "pour_vot": {
+      "ins": 87.21
+   },
+   "blanc_nul": 53,
+   "pour_bl_nuls": {
+      "ins": 5.34,
+      "vot": 6.12
+   },
+   "exprimes": 813,
+   "pour_exp": {
+      "ins": 81.87,
+      "vot": 93.88
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      351,
+      462
+   ],
+   "pour_voix": {
+      "ins": [
+         35.35,
+         46.53
+      ],
+      "exp": [
+         43.17,
+         56.83
+      ]
+   }
+},
+ {
+   "code": 135,
+   "nom_com": "Feneu",
+   "inscrits": 1594,
+   "abstentions": 251,
+   "pour_abs": {
+      "ins": 15.75
+   },
+   "votants": 1343,
+   "pour_vot": {
+      "ins": 84.25
+   },
+   "blanc_nul": 86,
+   "pour_bl_nuls": {
+      "ins": 5.4,
+      "vot": 6.4
+   },
+   "exprimes": 1257,
+   "pour_exp": {
+      "ins": 78.86,
+      "vot": 93.6
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      585,
+      672
+   ],
+   "pour_voix": {
+      "ins": [
+         36.7,
+         42.16
+      ],
+      "exp": [
+         46.54,
+         53.46
+      ]
+   }
+},
+ {
+   "code": 138,
+   "nom_com": "Les Bois-d'Anjou",
+   "inscrits": 1826,
+   "abstentions": 274,
+   "pour_abs": {
+      "ins": 15.01
+   },
+   "votants": 1552,
+   "pour_vot": {
+      "ins": 84.99
+   },
+   "blanc_nul": 105,
+   "pour_bl_nuls": {
+      "ins": 5.75,
+      "vot": 6.77
+   },
+   "exprimes": 1447,
+   "pour_exp": {
+      "ins": 79.24,
+      "vot": 93.23
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      705,
+      742
+   ],
+   "pour_voix": {
+      "ins": [
+         38.61,
+         40.64
+      ],
+      "exp": [
+         48.72,
+         51.28
+      ]
+   }
+},
+ {
+   "code": 140,
+   "nom_com": "Fontevraud-l'Abbaye",
+   "inscrits": 850,
+   "abstentions": 139,
+   "pour_abs": {
+      "ins": 16.35
+   },
+   "votants": 711,
+   "pour_vot": {
+      "ins": 83.65
+   },
+   "blanc_nul": 39,
+   "pour_bl_nuls": {
+      "ins": 4.59,
+      "vot": 5.49
+   },
+   "exprimes": 672,
+   "pour_exp": {
+      "ins": 79.06,
+      "vot": 94.51
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      315,
+      357
+   ],
+   "pour_voix": {
+      "ins": [
+         37.06,
+         42
+      ],
+      "exp": [
+         46.88,
+         53.13
+      ]
+   }
+},
+ {
+   "code": 144,
+   "nom_com": "Freigné",
+   "inscrits": 846,
+   "abstentions": 144,
+   "pour_abs": {
+      "ins": 17.02
+   },
+   "votants": 702,
+   "pour_vot": {
+      "ins": 82.98
+   },
+   "blanc_nul": 61,
+   "pour_bl_nuls": {
+      "ins": 7.21,
+      "vot": 8.69
+   },
+   "exprimes": 641,
+   "pour_exp": {
+      "ins": 75.77,
+      "vot": 91.31
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      206,
+      435
+   ],
+   "pour_voix": {
+      "ins": [
+         24.35,
+         51.42
+      ],
+      "exp": [
+         32.14,
+         67.86
+      ]
+   }
+},
+ {
+   "code": 149,
+   "nom_com": "Gennes-Val-de-Loire",
+   "inscrits": 3485,
+   "abstentions": 460,
+   "pour_abs": {
+      "ins": 13.2
+   },
+   "votants": 3025,
+   "pour_vot": {
+      "ins": 86.8
+   },
+   "blanc_nul": 163,
+   "pour_bl_nuls": {
+      "ins": 4.68,
+      "vot": 5.39
+   },
+   "exprimes": 2862,
+   "pour_exp": {
+      "ins": 82.12,
+      "vot": 94.61
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      1433,
+      1429
+   ],
+   "pour_voix": {
+      "ins": [
+         41.12,
+         41
+      ],
+      "exp": [
+         50.07,
+         49.93
+      ]
+   }
+},
+ {
+   "code": 155,
+   "nom_com": "Grez-Neuville",
+   "inscrits": 971,
+   "abstentions": 92,
+   "pour_abs": {
+      "ins": 9.47
+   },
+   "votants": 879,
+   "pour_vot": {
+      "ins": 90.53
+   },
+   "blanc_nul": 26,
+   "pour_bl_nuls": {
+      "ins": 2.68,
+      "vot": 2.96
+   },
+   "exprimes": 853,
+   "pour_exp": {
+      "ins": 87.85,
+      "vot": 97.04
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      378,
+      475
+   ],
+   "pour_voix": {
+      "ins": [
+         38.93,
+         48.92
+      ],
+      "exp": [
+         44.31,
+         55.69
+      ]
+   }
+},
+ {
+   "code": 159,
+   "nom_com": "Huillé",
+   "inscrits": 395,
+   "abstentions": 58,
+   "pour_abs": {
+      "ins": 14.68
+   },
+   "votants": 337,
+   "pour_vot": {
+      "ins": 85.32
+   },
+   "blanc_nul": 13,
+   "pour_bl_nuls": {
+      "ins": 3.29,
+      "vot": 3.86
+   },
+   "exprimes": 324,
+   "pour_exp": {
+      "ins": 82.03,
+      "vot": 96.14
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      137,
+      187
+   ],
+   "pour_voix": {
+      "ins": [
+         34.68,
+         47.34
+      ],
+      "exp": [
+         42.28,
+         57.72
+      ]
+   }
+},
+ {
+   "code": 160,
+   "nom_com": "Ingrandes-Le-Fresne-sur-Loire",
+   "inscrits": 1238,
+   "abstentions": 188,
+   "pour_abs": {
+      "ins": 15.19
+   },
+   "votants": 1050,
+   "pour_vot": {
+      "ins": 84.81
+   },
+   "blanc_nul": 59,
+   "pour_bl_nuls": {
+      "ins": 4.77,
+      "vot": 5.62
+   },
+   "exprimes": 991,
+   "pour_exp": {
+      "ins": 80.05,
+      "vot": 94.38
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      489,
+      502
+   ],
+   "pour_voix": {
+      "ins": [
+         39.5,
+         40.55
+      ],
+      "exp": [
+         49.34,
+         50.66
+      ]
+   }
+},
+ {
+   "code": 161,
+   "nom_com": "La Jaille-Yvon",
+   "inscrits": 240,
+   "abstentions": 47,
+   "pour_abs": {
+      "ins": 19.58
+   },
+   "votants": 193,
+   "pour_vot": {
+      "ins": 80.42
+   },
+   "blanc_nul": 17,
+   "pour_bl_nuls": {
+      "ins": 7.08,
+      "vot": 8.81
+   },
+   "exprimes": 176,
+   "pour_exp": {
+      "ins": 73.33,
+      "vot": 91.19
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      90,
+      86
+   ],
+   "pour_voix": {
+      "ins": [
+         37.5,
+         35.83
+      ],
+      "exp": [
+         51.14,
+         48.86
+      ]
+   }
+},
+ {
+   "code": 163,
+   "nom_com": "Jarzé-Villages",
+   "inscrits": 1823,
+   "abstentions": 243,
+   "pour_abs": {
+      "ins": 13.33
+   },
+   "votants": 1580,
+   "pour_vot": {
+      "ins": 86.67
+   },
+   "blanc_nul": 95,
+   "pour_bl_nuls": {
+      "ins": 5.21,
+      "vot": 6.01
+   },
+   "exprimes": 1485,
+   "pour_exp": {
+      "ins": 81.46,
+      "vot": 93.99
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      730,
+      755
+   ],
+   "pour_voix": {
+      "ins": [
+         40.04,
+         41.42
+      ],
+      "exp": [
+         49.16,
+         50.84
+      ]
+   }
+},
+ {
+   "code": 167,
+   "nom_com": "Les Garennes-sur-Loire",
+   "inscrits": 3551,
+   "abstentions": 488,
+   "pour_abs": {
+      "ins": 13.74
+   },
+   "votants": 3063,
+   "pour_vot": {
+      "ins": 86.26
+   },
+   "blanc_nul": 134,
+   "pour_bl_nuls": {
+      "ins": 3.77,
+      "vot": 4.37
+   },
+   "exprimes": 2929,
+   "pour_exp": {
+      "ins": 82.48,
+      "vot": 95.63
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      1483,
+      1446
+   ],
+   "pour_voix": {
+      "ins": [
+         41.76,
+         40.72
+      ],
+      "exp": [
+         50.63,
+         49.37
+      ]
+   }
+},
+ {
+   "code": 170,
+   "nom_com": "Juvardeil",
+   "inscrits": 651,
+   "abstentions": 78,
+   "pour_abs": {
+      "ins": 11.98
+   },
+   "votants": 573,
+   "pour_vot": {
+      "ins": 88.02
+   },
+   "blanc_nul": 38,
+   "pour_bl_nuls": {
+      "ins": 5.84,
+      "vot": 6.63
+   },
+   "exprimes": 535,
+   "pour_exp": {
+      "ins": 82.18,
+      "vot": 93.37
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      291,
+      244
+   ],
+   "pour_voix": {
+      "ins": [
+         44.7,
+         37.48
+      ],
+      "exp": [
+         54.39,
+         45.61
+      ]
+   }
+},
+ {
+   "code": 171,
+   "nom_com": "La Lande-Chasles",
+   "inscrits": 91,
+   "abstentions": 10,
+   "pour_abs": {
+      "ins": 10.99
+   },
+   "votants": 81,
+   "pour_vot": {
+      "ins": 89.01
+   },
+   "blanc_nul": 2,
+   "pour_bl_nuls": {
+      "ins": 2.2,
+      "vot": 2.47
+   },
+   "exprimes": 79,
+   "pour_exp": {
+      "ins": 86.81,
+      "vot": 97.53
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      44,
+      35
+   ],
+   "pour_voix": {
+      "ins": [
+         48.35,
+         38.46
+      ],
+      "exp": [
+         55.7,
+         44.3
+      ]
+   }
+},
+ {
+   "code": 174,
+   "nom_com": "Lézigné",
+   "inscrits": 524,
+   "abstentions": 91,
+   "pour_abs": {
+      "ins": 17.37
+   },
+   "votants": 433,
+   "pour_vot": {
+      "ins": 82.63
+   },
+   "blanc_nul": 34,
+   "pour_bl_nuls": {
+      "ins": 6.49,
+      "vot": 7.85
+   },
+   "exprimes": 399,
+   "pour_exp": {
+      "ins": 76.15,
+      "vot": 92.15
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      208,
+      191
+   ],
+   "pour_voix": {
+      "ins": [
+         39.69,
+         36.45
+      ],
+      "exp": [
+         52.13,
+         47.87
+      ]
+   }
+},
+ {
+   "code": 176,
+   "nom_com": "Le Lion-d'Angers",
+   "inscrits": 3223,
+   "abstentions": 616,
+   "pour_abs": {
+      "ins": 19.11
+   },
+   "votants": 2607,
+   "pour_vot": {
+      "ins": 80.89
+   },
+   "blanc_nul": 135,
+   "pour_bl_nuls": {
+      "ins": 4.19,
+      "vot": 5.18
+   },
+   "exprimes": 2472,
+   "pour_exp": {
+      "ins": 76.7,
+      "vot": 94.82
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      1125,
+      1347
+   ],
+   "pour_voix": {
+      "ins": [
+         34.91,
+         41.79
+      ],
+      "exp": [
+         45.51,
+         54.49
+      ]
+   }
+},
+ {
+   "code": 178,
+   "nom_com": "Loiré",
+   "inscrits": 625,
+   "abstentions": 83,
+   "pour_abs": {
+      "ins": 13.28
+   },
+   "votants": 542,
+   "pour_vot": {
+      "ins": 86.72
+   },
+   "blanc_nul": 21,
+   "pour_bl_nuls": {
+      "ins": 3.36,
+      "vot": 3.87
+   },
+   "exprimes": 521,
+   "pour_exp": {
+      "ins": 83.36,
+      "vot": 96.13
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      163,
+      358
+   ],
+   "pour_voix": {
+      "ins": [
+         26.08,
+         57.28
+      ],
+      "exp": [
+         31.29,
+         68.71
+      ]
+   }
+},
+ {
+   "code": 180,
+   "nom_com": "Longué-Jumelles",
+   "inscrits": 4922,
+   "abstentions": 902,
+   "pour_abs": {
+      "ins": 18.33
+   },
+   "votants": 4020,
+   "pour_vot": {
+      "ins": 81.67
+   },
+   "blanc_nul": 261,
+   "pour_bl_nuls": {
+      "ins": 5.3,
+      "vot": 6.49
+   },
+   "exprimes": 3759,
+   "pour_exp": {
+      "ins": 76.37,
+      "vot": 93.51
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      1547,
+      2212
+   ],
+   "pour_voix": {
+      "ins": [
+         31.43,
+         44.94
+      ],
+      "exp": [
+         41.15,
+         58.85
+      ]
+   }
+},
+ {
+   "code": 182,
+   "nom_com": "Louresse-Rochemenier",
+   "inscrits": 535,
+   "abstentions": 66,
+   "pour_abs": {
+      "ins": 12.34
+   },
+   "votants": 469,
+   "pour_vot": {
+      "ins": 87.66
+   },
+   "blanc_nul": 13,
+   "pour_bl_nuls": {
+      "ins": 2.43,
+      "vot": 2.77
+   },
+   "exprimes": 456,
+   "pour_exp": {
+      "ins": 85.23,
+      "vot": 97.23
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      162,
+      294
+   ],
+   "pour_voix": {
+      "ins": [
+         30.28,
+         54.95
+      ],
+      "exp": [
+         35.53,
+         64.47
+      ]
+   }
+},
+ {
+   "code": 183,
+   "nom_com": "Val-d'Erdre-Auxence",
+   "inscrits": 3033,
+   "abstentions": 424,
+   "pour_abs": {
+      "ins": 13.98
+   },
+   "votants": 2609,
+   "pour_vot": {
+      "ins": 86.02
+   },
+   "blanc_nul": 182,
+   "pour_bl_nuls": {
+      "ins": 6,
+      "vot": 6.98
+   },
+   "exprimes": 2427,
+   "pour_exp": {
+      "ins": 80.02,
+      "vot": 93.02
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      1055,
+      1372
+   ],
+   "pour_voix": {
+      "ins": [
+         34.78,
+         45.24
+      ],
+      "exp": [
+         43.47,
+         56.53
+      ]
+   }
+},
+ {
+   "code": 188,
+   "nom_com": "Marcé",
+   "inscrits": 606,
+   "abstentions": 74,
+   "pour_abs": {
+      "ins": 12.21
+   },
+   "votants": 532,
+   "pour_vot": {
+      "ins": 87.79
+   },
+   "blanc_nul": 32,
+   "pour_bl_nuls": {
+      "ins": 5.28,
+      "vot": 6.02
+   },
+   "exprimes": 500,
+   "pour_exp": {
+      "ins": 82.51,
+      "vot": 93.98
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      261,
+      239
+   ],
+   "pour_voix": {
+      "ins": [
+         43.07,
+         39.44
+      ],
+      "exp": [
+         52.2,
+         47.8
+      ]
+   }
+},
+ {
+   "code": 192,
+   "nom_com": "Maulévrier",
+   "inscrits": 2290,
+   "abstentions": 341,
+   "pour_abs": {
+      "ins": 14.89
+   },
+   "votants": 1949,
+   "pour_vot": {
+      "ins": 85.11
+   },
+   "blanc_nul": 124,
+   "pour_bl_nuls": {
+      "ins": 5.41,
+      "vot": 6.36
+   },
+   "exprimes": 1825,
+   "pour_exp": {
+      "ins": 79.69,
+      "vot": 93.64
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      801,
+      1024
+   ],
+   "pour_voix": {
+      "ins": [
+         34.98,
+         44.72
+      ],
+      "exp": [
+         43.89,
+         56.11
+      ]
+   }
+},
+ {
+   "code": 193,
+   "nom_com": "Le May-sur-Evre",
+   "inscrits": 2962,
+   "abstentions": 534,
+   "pour_abs": {
+      "ins": 18.03
+   },
+   "votants": 2428,
+   "pour_vot": {
+      "ins": 81.97
+   },
+   "blanc_nul": 181,
+   "pour_bl_nuls": {
+      "ins": 6.11,
+      "vot": 7.45
+   },
+   "exprimes": 2247,
+   "pour_exp": {
+      "ins": 75.86,
+      "vot": 92.55
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      1107,
+      1140
+   ],
+   "pour_voix": {
+      "ins": [
+         37.37,
+         38.49
+      ],
+      "exp": [
+         49.27,
+         50.73
+      ]
+   }
+},
+ {
+   "code": 194,
+   "nom_com": "Mazé-Milon",
+   "inscrits": 3860,
+   "abstentions": 544,
+   "pour_abs": {
+      "ins": 14.09
+   },
+   "votants": 3316,
+   "pour_vot": {
+      "ins": 85.91
+   },
+   "blanc_nul": 227,
+   "pour_bl_nuls": {
+      "ins": 5.88,
+      "vot": 6.85
+   },
+   "exprimes": 3089,
+   "pour_exp": {
+      "ins": 80.03,
+      "vot": 93.15
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      1696,
+      1393
+   ],
+   "pour_voix": {
+      "ins": [
+         43.94,
+         36.09
+      ],
+      "exp": [
+         54.9,
+         45.1
+      ]
+   }
+},
+ {
+   "code": 195,
+   "nom_com": "Mazières-en-Mauges",
+   "inscrits": 772,
+   "abstentions": 93,
+   "pour_abs": {
+      "ins": 12.05
+   },
+   "votants": 679,
+   "pour_vot": {
+      "ins": 87.95
+   },
+   "blanc_nul": 44,
+   "pour_bl_nuls": {
+      "ins": 5.7,
+      "vot": 6.48
+   },
+   "exprimes": 635,
+   "pour_exp": {
+      "ins": 82.25,
+      "vot": 93.52
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      308,
+      327
+   ],
+   "pour_voix": {
+      "ins": [
+         39.9,
+         42.36
+      ],
+      "exp": [
+         48.5,
+         51.5
+      ]
+   }
+},
+ {
+   "code": 200,
+   "nom_com": "Longuenée-en-Anjou",
+   "inscrits": 4340,
+   "abstentions": 506,
+   "pour_abs": {
+      "ins": 11.66
+   },
+   "votants": 3834,
+   "pour_vot": {
+      "ins": 88.34
+   },
+   "blanc_nul": 205,
+   "pour_bl_nuls": {
+      "ins": 4.72,
+      "vot": 5.35
+   },
+   "exprimes": 3629,
+   "pour_exp": {
+      "ins": 83.62,
+      "vot": 94.65
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      1804,
+      1825
+   ],
+   "pour_voix": {
+      "ins": [
+         41.57,
+         42.05
+      ],
+      "exp": [
+         49.71,
+         50.29
+      ]
+   }
+},
+ {
+   "code": 201,
+   "nom_com": "La Ménitré",
+   "inscrits": 1489,
+   "abstentions": 246,
+   "pour_abs": {
+      "ins": 16.52
+   },
+   "votants": 1243,
+   "pour_vot": {
+      "ins": 83.48
+   },
+   "blanc_nul": 56,
+   "pour_bl_nuls": {
+      "ins": 3.76,
+      "vot": 4.51
+   },
+   "exprimes": 1187,
+   "pour_exp": {
+      "ins": 79.72,
+      "vot": 95.49
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      661,
+      526
+   ],
+   "pour_voix": {
+      "ins": [
+         44.39,
+         35.33
+      ],
+      "exp": [
+         55.69,
+         44.31
+      ]
+   }
+},
+ {
+   "code": 205,
+   "nom_com": "Miré",
+   "inscrits": 670,
+   "abstentions": 81,
+   "pour_abs": {
+      "ins": 12.09
+   },
+   "votants": 589,
+   "pour_vot": {
+      "ins": 87.91
+   },
+   "blanc_nul": 44,
+   "pour_bl_nuls": {
+      "ins": 6.57,
+      "vot": 7.47
+   },
+   "exprimes": 545,
+   "pour_exp": {
+      "ins": 81.34,
+      "vot": 92.53
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      203,
+      342
+   ],
+   "pour_voix": {
+      "ins": [
+         30.3,
+         51.04
+      ],
+      "exp": [
+         37.25,
+         62.75
+      ]
+   }
+},
+ {
+   "code": 209,
+   "nom_com": "Montigné-lès-Rairies",
+   "inscrits": 266,
+   "abstentions": 43,
+   "pour_abs": {
+      "ins": 16.17
+   },
+   "votants": 223,
+   "pour_vot": {
+      "ins": 83.83
+   },
+   "blanc_nul": 10,
+   "pour_bl_nuls": {
+      "ins": 3.76,
+      "vot": 4.48
+   },
+   "exprimes": 213,
+   "pour_exp": {
+      "ins": 80.08,
+      "vot": 95.52
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      66,
+      147
+   ],
+   "pour_voix": {
+      "ins": [
+         24.81,
+         55.26
+      ],
+      "exp": [
+         30.99,
+         69.01
+      ]
+   }
+},
+ {
+   "code": 211,
+   "nom_com": "Montilliers",
+   "inscrits": 961,
+   "abstentions": 155,
+   "pour_abs": {
+      "ins": 16.13
+   },
+   "votants": 806,
+   "pour_vot": {
+      "ins": 83.87
+   },
+   "blanc_nul": 60,
+   "pour_bl_nuls": {
+      "ins": 6.24,
+      "vot": 7.44
+   },
+   "exprimes": 746,
+   "pour_exp": {
+      "ins": 77.63,
+      "vot": 92.56
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      235,
+      511
+   ],
+   "pour_voix": {
+      "ins": [
+         24.45,
+         53.17
+      ],
+      "exp": [
+         31.5,
+         68.5
+      ]
+   }
+},
+ {
+   "code": 214,
+   "nom_com": "Montreuil-Juigné",
+   "inscrits": 5501,
+   "abstentions": 865,
+   "pour_abs": {
+      "ins": 15.72
+   },
+   "votants": 4636,
+   "pour_vot": {
+      "ins": 84.28
+   },
+   "blanc_nul": 282,
+   "pour_bl_nuls": {
+      "ins": 5.13,
+      "vot": 6.08
+   },
+   "exprimes": 4354,
+   "pour_exp": {
+      "ins": 79.15,
+      "vot": 93.92
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      2442,
+      1912
+   ],
+   "pour_voix": {
+      "ins": [
+         44.39,
+         34.76
+      ],
+      "exp": [
+         56.09,
+         43.91
+      ]
+   }
+},
+ {
+   "code": 215,
+   "nom_com": "Montreuil-Bellay",
+   "inscrits": 2874,
+   "abstentions": 579,
+   "pour_abs": {
+      "ins": 20.15
+   },
+   "votants": 2295,
+   "pour_vot": {
+      "ins": 79.85
+   },
+   "blanc_nul": 159,
+   "pour_bl_nuls": {
+      "ins": 5.53,
+      "vot": 6.93
+   },
+   "exprimes": 2136,
+   "pour_exp": {
+      "ins": 74.32,
+      "vot": 93.07
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      1108,
+      1028
+   ],
+   "pour_voix": {
+      "ins": [
+         38.55,
+         35.77
+      ],
+      "exp": [
+         51.87,
+         48.13
+      ]
+   }
+},
+ {
+   "code": 216,
+   "nom_com": "Montreuil-sur-Loir",
+   "inscrits": 341,
+   "abstentions": 33,
+   "pour_abs": {
+      "ins": 9.68
+   },
+   "votants": 308,
+   "pour_vot": {
+      "ins": 90.32
+   },
+   "blanc_nul": 16,
+   "pour_bl_nuls": {
+      "ins": 4.69,
+      "vot": 5.19
+   },
+   "exprimes": 292,
+   "pour_exp": {
+      "ins": 85.63,
+      "vot": 94.81
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      143,
+      149
+   ],
+   "pour_voix": {
+      "ins": [
+         41.94,
+         43.7
+      ],
+      "exp": [
+         48.97,
+         51.03
+      ]
+   }
+},
+ {
+   "code": 217,
+   "nom_com": "Montreuil-sur-Maine",
+   "inscrits": 464,
+   "abstentions": 50,
+   "pour_abs": {
+      "ins": 10.78
+   },
+   "votants": 414,
+   "pour_vot": {
+      "ins": 89.22
+   },
+   "blanc_nul": 31,
+   "pour_bl_nuls": {
+      "ins": 6.68,
+      "vot": 7.49
+   },
+   "exprimes": 383,
+   "pour_exp": {
+      "ins": 82.54,
+      "vot": 92.51
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      202,
+      181
+   ],
+   "pour_voix": {
+      "ins": [
+         43.53,
+         39.01
+      ],
+      "exp": [
+         52.74,
+         47.26
+      ]
+   }
+},
+ {
+   "code": 218,
+   "nom_com": "Montrevault-sur-Evre",
+   "inscrits": 11671,
+   "abstentions": 1636,
+   "pour_abs": {
+      "ins": 14.02
+   },
+   "votants": 10035,
+   "pour_vot": {
+      "ins": 85.98
+   },
+   "blanc_nul": 728,
+   "pour_bl_nuls": {
+      "ins": 6.24,
+      "vot": 7.25
+   },
+   "exprimes": 9307,
+   "pour_exp": {
+      "ins": 79.74,
+      "vot": 92.75
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      3608,
+      5699
+   ],
+   "pour_voix": {
+      "ins": [
+         30.91,
+         48.83
+      ],
+      "exp": [
+         38.77,
+         61.23
+      ]
+   }
+},
+ {
+   "code": 219,
+   "nom_com": "Montsoreau",
+   "inscrits": 345,
+   "abstentions": 45,
+   "pour_abs": {
+      "ins": 13.04
+   },
+   "votants": 300,
+   "pour_vot": {
+      "ins": 86.96
+   },
+   "blanc_nul": 9,
+   "pour_bl_nuls": {
+      "ins": 2.61,
+      "vot": 3
+   },
+   "exprimes": 291,
+   "pour_exp": {
+      "ins": 84.35,
+      "vot": 97
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      118,
+      173
+   ],
+   "pour_voix": {
+      "ins": [
+         34.2,
+         50.14
+      ],
+      "exp": [
+         40.55,
+         59.45
+      ]
+   }
+},
+ {
+   "code": 220,
+   "nom_com": "Morannes-sur-Sarthe-Daumeray",
+   "inscrits": 2503,
+   "abstentions": 401,
+   "pour_abs": {
+      "ins": 16.02
+   },
+   "votants": 2102,
+   "pour_vot": {
+      "ins": 83.98
+   },
+   "blanc_nul": 128,
+   "pour_bl_nuls": {
+      "ins": 5.11,
+      "vot": 6.09
+   },
+   "exprimes": 1974,
+   "pour_exp": {
+      "ins": 78.87,
+      "vot": 93.91
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      682,
+      1292
+   ],
+   "pour_voix": {
+      "ins": [
+         27.25,
+         51.62
+      ],
+      "exp": [
+         34.55,
+         65.45
+      ]
+   }
+},
+ {
+   "code": 221,
+   "nom_com": "Mouliherne",
+   "inscrits": 684,
+   "abstentions": 145,
+   "pour_abs": {
+      "ins": 21.2
+   },
+   "votants": 539,
+   "pour_vot": {
+      "ins": 78.8
+   },
+   "blanc_nul": 41,
+   "pour_bl_nuls": {
+      "ins": 5.99,
+      "vot": 7.61
+   },
+   "exprimes": 498,
+   "pour_exp": {
+      "ins": 72.81,
+      "vot": 92.39
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      236,
+      262
+   ],
+   "pour_voix": {
+      "ins": [
+         34.5,
+         38.3
+      ],
+      "exp": [
+         47.39,
+         52.61
+      ]
+   }
+},
+ {
+   "code": 222,
+   "nom_com": "Mozé-sur-Louet",
+   "inscrits": 1518,
+   "abstentions": 217,
+   "pour_abs": {
+      "ins": 14.3
+   },
+   "votants": 1301,
+   "pour_vot": {
+      "ins": 85.7
+   },
+   "blanc_nul": 79,
+   "pour_bl_nuls": {
+      "ins": 5.2,
+      "vot": 6.07
+   },
+   "exprimes": 1222,
+   "pour_exp": {
+      "ins": 80.5,
+      "vot": 93.93
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      628,
+      594
+   ],
+   "pour_voix": {
+      "ins": [
+         41.37,
+         39.13
+      ],
+      "exp": [
+         51.39,
+         48.61
+      ]
+   }
+},
+ {
+   "code": 223,
+   "nom_com": "Mûrs-Erigné",
+   "inscrits": 4130,
+   "abstentions": 601,
+   "pour_abs": {
+      "ins": 14.55
+   },
+   "votants": 3529,
+   "pour_vot": {
+      "ins": 85.45
+   },
+   "blanc_nul": 186,
+   "pour_bl_nuls": {
+      "ins": 4.5,
+      "vot": 5.27
+   },
+   "exprimes": 3343,
+   "pour_exp": {
+      "ins": 80.94,
+      "vot": 94.73
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      1827,
+      1516
+   ],
+   "pour_voix": {
+      "ins": [
+         44.24,
+         36.71
+      ],
+      "exp": [
+         54.65,
+         45.35
+      ]
+   }
+},
+ {
+   "code": 224,
+   "nom_com": "Neuillé",
+   "inscrits": 667,
+   "abstentions": 77,
+   "pour_abs": {
+      "ins": 11.54
+   },
+   "votants": 590,
+   "pour_vot": {
+      "ins": 88.46
+   },
+   "blanc_nul": 40,
+   "pour_bl_nuls": {
+      "ins": 6,
+      "vot": 6.78
+   },
+   "exprimes": 550,
+   "pour_exp": {
+      "ins": 82.46,
+      "vot": 93.22
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      232,
+      318
+   ],
+   "pour_voix": {
+      "ins": [
+         34.78,
+         47.68
+      ],
+      "exp": [
+         42.18,
+         57.82
+      ]
+   }
+},
+ {
+   "code": 228,
+   "nom_com": "Noyant-Villages",
+   "inscrits": 4277,
+   "abstentions": 689,
+   "pour_abs": {
+      "ins": 16.11
+   },
+   "votants": 3588,
+   "pour_vot": {
+      "ins": 83.89
+   },
+   "blanc_nul": 214,
+   "pour_bl_nuls": {
+      "ins": 5,
+      "vot": 5.96
+   },
+   "exprimes": 3374,
+   "pour_exp": {
+      "ins": 78.89,
+      "vot": 94.04
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      1481,
+      1893
+   ],
+   "pour_voix": {
+      "ins": [
+         34.63,
+         44.26
+      ],
+      "exp": [
+         43.89,
+         56.11
+      ]
+   }
+},
+ {
+   "code": 231,
+   "nom_com": "Nuaillé",
+   "inscrits": 1041,
+   "abstentions": 97,
+   "pour_abs": {
+      "ins": 9.32
+   },
+   "votants": 944,
+   "pour_vot": {
+      "ins": 90.68
+   },
+   "blanc_nul": 50,
+   "pour_bl_nuls": {
+      "ins": 4.8,
+      "vot": 5.3
+   },
+   "exprimes": 894,
+   "pour_exp": {
+      "ins": 85.88,
+      "vot": 94.7
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      406,
+      488
+   ],
+   "pour_voix": {
+      "ins": [
+         39,
+         46.88
+      ],
+      "exp": [
+         45.41,
+         54.59
+      ]
+   }
+},
+ {
+   "code": 235,
+   "nom_com": "Parnay",
+   "inscrits": 346,
+   "abstentions": 41,
+   "pour_abs": {
+      "ins": 11.85
+   },
+   "votants": 305,
+   "pour_vot": {
+      "ins": 88.15
+   },
+   "blanc_nul": 24,
+   "pour_bl_nuls": {
+      "ins": 6.94,
+      "vot": 7.87
+   },
+   "exprimes": 281,
+   "pour_exp": {
+      "ins": 81.21,
+      "vot": 92.13
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      136,
+      145
+   ],
+   "pour_voix": {
+      "ins": [
+         39.31,
+         41.91
+      ],
+      "exp": [
+         48.4,
+         51.6
+      ]
+   }
+},
+ {
+   "code": 236,
+   "nom_com": "Passavant-sur-Layon",
+   "inscrits": 105,
+   "abstentions": 13,
+   "pour_abs": {
+      "ins": 12.38
+   },
+   "votants": 92,
+   "pour_vot": {
+      "ins": 87.62
+   },
+   "blanc_nul": 5,
+   "pour_bl_nuls": {
+      "ins": 4.76,
+      "vot": 5.43
+   },
+   "exprimes": 87,
+   "pour_exp": {
+      "ins": 82.86,
+      "vot": 94.57
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      42,
+      45
+   ],
+   "pour_voix": {
+      "ins": [
+         40,
+         42.86
+      ],
+      "exp": [
+         48.28,
+         51.72
+      ]
+   }
+},
+ {
+   "code": 237,
+   "nom_com": "La Pellerine",
+   "inscrits": 124,
+   "abstentions": 10,
+   "pour_abs": {
+      "ins": 8.06
+   },
+   "votants": 114,
+   "pour_vot": {
+      "ins": 91.94
+   },
+   "blanc_nul": 8,
+   "pour_bl_nuls": {
+      "ins": 6.45,
+      "vot": 7.02
+   },
+   "exprimes": 106,
+   "pour_exp": {
+      "ins": 85.48,
+      "vot": 92.98
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      50,
+      56
+   ],
+   "pour_voix": {
+      "ins": [
+         40.32,
+         45.16
+      ],
+      "exp": [
+         47.17,
+         52.83
+      ]
+   }
+},
+ {
+   "code": 240,
+   "nom_com": "La Plaine",
+   "inscrits": 753,
+   "abstentions": 128,
+   "pour_abs": {
+      "ins": 17
+   },
+   "votants": 625,
+   "pour_vot": {
+      "ins": 83
+   },
+   "blanc_nul": 48,
+   "pour_bl_nuls": {
+      "ins": 6.37,
+      "vot": 7.68
+   },
+   "exprimes": 577,
+   "pour_exp": {
+      "ins": 76.63,
+      "vot": 92.32
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      291,
+      286
+   ],
+   "pour_voix": {
+      "ins": [
+         38.65,
+         37.98
+      ],
+      "exp": [
+         50.43,
+         49.57
+      ]
+   }
+},
+ {
+   "code": 241,
+   "nom_com": "Le Plessis-Grammoire",
+   "inscrits": 1751,
+   "abstentions": 238,
+   "pour_abs": {
+      "ins": 13.59
+   },
+   "votants": 1513,
+   "pour_vot": {
+      "ins": 86.41
+   },
+   "blanc_nul": 88,
+   "pour_bl_nuls": {
+      "ins": 5.03,
+      "vot": 5.82
+   },
+   "exprimes": 1425,
+   "pour_exp": {
+      "ins": 81.38,
+      "vot": 94.18
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      740,
+      685
+   ],
+   "pour_voix": {
+      "ins": [
+         42.26,
+         39.12
+      ],
+      "exp": [
+         51.93,
+         48.07
+      ]
+   }
+},
+ {
+   "code": 244,
+   "nom_com": "Mauges-sur-Loire",
+   "inscrits": 13394,
+   "abstentions": 1671,
+   "pour_abs": {
+      "ins": 12.48
+   },
+   "votants": 11723,
+   "pour_vot": {
+      "ins": 87.52
+   },
+   "blanc_nul": 858,
+   "pour_bl_nuls": {
+      "ins": 6.41,
+      "vot": 7.32
+   },
+   "exprimes": 10865,
+   "pour_exp": {
+      "ins": 81.12,
+      "vot": 92.68
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      4603,
+      6262
+   ],
+   "pour_voix": {
+      "ins": [
+         34.37,
+         46.75
+      ],
+      "exp": [
+         42.37,
+         57.63
+      ]
+   }
+},
+ {
+   "code": 246,
+   "nom_com": "Les Ponts-de-Cé",
+   "inscrits": 9089,
+   "abstentions": 1550,
+   "pour_abs": {
+      "ins": 17.05
+   },
+   "votants": 7539,
+   "pour_vot": {
+      "ins": 82.95
+   },
+   "blanc_nul": 394,
+   "pour_bl_nuls": {
+      "ins": 4.33,
+      "vot": 5.23
+   },
+   "exprimes": 7145,
+   "pour_exp": {
+      "ins": 78.61,
+      "vot": 94.77
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      3959,
+      3186
+   ],
+   "pour_voix": {
+      "ins": [
+         43.56,
+         35.05
+      ],
+      "exp": [
+         55.41,
+         44.59
+      ]
+   }
+},
+ {
+   "code": 247,
+   "nom_com": "La Possonnière",
+   "inscrits": 1843,
+   "abstentions": 242,
+   "pour_abs": {
+      "ins": 13.13
+   },
+   "votants": 1601,
+   "pour_vot": {
+      "ins": 86.87
+   },
+   "blanc_nul": 97,
+   "pour_bl_nuls": {
+      "ins": 5.26,
+      "vot": 6.06
+   },
+   "exprimes": 1504,
+   "pour_exp": {
+      "ins": 81.61,
+      "vot": 93.94
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      844,
+      660
+   ],
+   "pour_voix": {
+      "ins": [
+         45.79,
+         35.81
+      ],
+      "exp": [
+         56.12,
+         43.88
+      ]
+   }
+},
+ {
+   "code": 248,
+   "nom_com": "Ombrée-d'Anjou",
+   "inscrits": 6548,
+   "abstentions": 1048,
+   "pour_abs": {
+      "ins": 16
+   },
+   "votants": 5500,
+   "pour_vot": {
+      "ins": 84
+   },
+   "blanc_nul": 286,
+   "pour_bl_nuls": {
+      "ins": 4.37,
+      "vot": 5.2
+   },
+   "exprimes": 5214,
+   "pour_exp": {
+      "ins": 79.63,
+      "vot": 94.8
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      2354,
+      2860
+   ],
+   "pour_voix": {
+      "ins": [
+         35.95,
+         43.68
+      ],
+      "exp": [
+         45.15,
+         54.85
+      ]
+   }
+},
+ {
+   "code": 253,
+   "nom_com": "Le Puy-Notre-Dame",
+   "inscrits": 921,
+   "abstentions": 173,
+   "pour_abs": {
+      "ins": 18.78
+   },
+   "votants": 748,
+   "pour_vot": {
+      "ins": 81.22
+   },
+   "blanc_nul": 50,
+   "pour_bl_nuls": {
+      "ins": 5.43,
+      "vot": 6.68
+   },
+   "exprimes": 698,
+   "pour_exp": {
+      "ins": 75.79,
+      "vot": 93.32
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      287,
+      411
+   ],
+   "pour_voix": {
+      "ins": [
+         31.16,
+         44.63
+      ],
+      "exp": [
+         41.12,
+         58.88
+      ]
+   }
+},
+ {
+   "code": 257,
+   "nom_com": "Les Rairies",
+   "inscrits": 702,
+   "abstentions": 107,
+   "pour_abs": {
+      "ins": 15.24
+   },
+   "votants": 595,
+   "pour_vot": {
+      "ins": 84.76
+   },
+   "blanc_nul": 38,
+   "pour_bl_nuls": {
+      "ins": 5.41,
+      "vot": 6.39
+   },
+   "exprimes": 557,
+   "pour_exp": {
+      "ins": 79.34,
+      "vot": 93.61
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      270,
+      287
+   ],
+   "pour_voix": {
+      "ins": [
+         38.46,
+         40.88
+      ],
+      "exp": [
+         48.47,
+         51.53
+      ]
+   }
+},
+ {
+   "code": 259,
+   "nom_com": "Rochefort-sur-Loire",
+   "inscrits": 1656,
+   "abstentions": 216,
+   "pour_abs": {
+      "ins": 13.04
+   },
+   "votants": 1440,
+   "pour_vot": {
+      "ins": 86.96
+   },
+   "blanc_nul": 67,
+   "pour_bl_nuls": {
+      "ins": 4.05,
+      "vot": 4.65
+   },
+   "exprimes": 1373,
+   "pour_exp": {
+      "ins": 82.91,
+      "vot": 95.35
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      717,
+      656
+   ],
+   "pour_voix": {
+      "ins": [
+         43.3,
+         39.61
+      ],
+      "exp": [
+         52.22,
+         47.78
+      ]
+   }
+},
+ {
+   "code": 260,
+   "nom_com": "La Romagne",
+   "inscrits": 1253,
+   "abstentions": 168,
+   "pour_abs": {
+      "ins": 13.41
+   },
+   "votants": 1085,
+   "pour_vot": {
+      "ins": 86.59
+   },
+   "blanc_nul": 87,
+   "pour_bl_nuls": {
+      "ins": 6.94,
+      "vot": 8.02
+   },
+   "exprimes": 998,
+   "pour_exp": {
+      "ins": 79.65,
+      "vot": 91.98
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      447,
+      551
+   ],
+   "pour_voix": {
+      "ins": [
+         35.67,
+         43.97
+      ],
+      "exp": [
+         44.79,
+         55.21
+      ]
+   }
+},
+ {
+   "code": 261,
+   "nom_com": "Les Rosiers-sur-Loire",
+   "inscrits": 1737,
+   "abstentions": 268,
+   "pour_abs": {
+      "ins": 15.43
+   },
+   "votants": 1469,
+   "pour_vot": {
+      "ins": 84.57
+   },
+   "blanc_nul": 86,
+   "pour_bl_nuls": {
+      "ins": 4.95,
+      "vot": 5.85
+   },
+   "exprimes": 1383,
+   "pour_exp": {
+      "ins": 79.62,
+      "vot": 94.15
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      629,
+      754
+   ],
+   "pour_voix": {
+      "ins": [
+         36.21,
+         43.41
+      ],
+      "exp": [
+         45.48,
+         54.52
+      ]
+   }
+},
+ {
+   "code": 262,
+   "nom_com": "Rou-Marson",
+   "inscrits": 534,
+   "abstentions": 66,
+   "pour_abs": {
+      "ins": 12.36
+   },
+   "votants": 468,
+   "pour_vot": {
+      "ins": 87.64
+   },
+   "blanc_nul": 28,
+   "pour_bl_nuls": {
+      "ins": 5.24,
+      "vot": 5.98
+   },
+   "exprimes": 440,
+   "pour_exp": {
+      "ins": 82.4,
+      "vot": 94.02
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      174,
+      266
+   ],
+   "pour_voix": {
+      "ins": [
+         32.58,
+         49.81
+      ],
+      "exp": [
+         39.55,
+         60.45
+      ]
+   }
+},
+ {
+   "code": 266,
+   "nom_com": "Saint-Augustin-des-Bois",
+   "inscrits": 708,
+   "abstentions": 71,
+   "pour_abs": {
+      "ins": 10.03
+   },
+   "votants": 637,
+   "pour_vot": {
+      "ins": 89.97
+   },
+   "blanc_nul": 36,
+   "pour_bl_nuls": {
+      "ins": 5.08,
+      "vot": 5.65
+   },
+   "exprimes": 601,
+   "pour_exp": {
+      "ins": 84.89,
+      "vot": 94.35
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      298,
+      303
+   ],
+   "pour_voix": {
+      "ins": [
+         42.09,
+         42.8
+      ],
+      "exp": [
+         49.58,
+         50.42
+      ]
+   }
+},
+ {
+   "code": 267,
+   "nom_com": "Saint-Barthélemy-d'Anjou",
+   "inscrits": 6858,
+   "abstentions": 1061,
+   "pour_abs": {
+      "ins": 15.47
+   },
+   "votants": 5797,
+   "pour_vot": {
+      "ins": 84.53
+   },
+   "blanc_nul": 320,
+   "pour_bl_nuls": {
+      "ins": 4.67,
+      "vot": 5.52
+   },
+   "exprimes": 5477,
+   "pour_exp": {
+      "ins": 79.86,
+      "vot": 94.48
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      3094,
+      2383
+   ],
+   "pour_voix": {
+      "ins": [
+         45.12,
+         34.75
+      ],
+      "exp": [
+         56.49,
+         43.51
+      ]
+   }
+},
+ {
+   "code": 269,
+   "nom_com": "Saint-Christophe-du-Bois",
+   "inscrits": 2098,
+   "abstentions": 330,
+   "pour_abs": {
+      "ins": 15.73
+   },
+   "votants": 1768,
+   "pour_vot": {
+      "ins": 84.27
+   },
+   "blanc_nul": 108,
+   "pour_bl_nuls": {
+      "ins": 5.15,
+      "vot": 6.11
+   },
+   "exprimes": 1660,
+   "pour_exp": {
+      "ins": 79.12,
+      "vot": 93.89
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      785,
+      875
+   ],
+   "pour_voix": {
+      "ins": [
+         37.42,
+         41.71
+      ],
+      "exp": [
+         47.29,
+         52.71
+      ]
+   }
+},
+ {
+   "code": 271,
+   "nom_com": "Saint-Clément-de-la-Place",
+   "inscrits": 1363,
+   "abstentions": 144,
+   "pour_abs": {
+      "ins": 10.56
+   },
+   "votants": 1219,
+   "pour_vot": {
+      "ins": 89.44
+   },
+   "blanc_nul": 77,
+   "pour_bl_nuls": {
+      "ins": 5.65,
+      "vot": 6.32
+   },
+   "exprimes": 1142,
+   "pour_exp": {
+      "ins": 83.79,
+      "vot": 93.68
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      547,
+      595
+   ],
+   "pour_voix": {
+      "ins": [
+         40.13,
+         43.65
+      ],
+      "exp": [
+         47.9,
+         52.1
+      ]
+   }
+},
+ {
+   "code": 272,
+   "nom_com": "Saint-Clément-des-Levées",
+   "inscrits": 795,
+   "abstentions": 120,
+   "pour_abs": {
+      "ins": 15.09
+   },
+   "votants": 675,
+   "pour_vot": {
+      "ins": 84.91
+   },
+   "blanc_nul": 42,
+   "pour_bl_nuls": {
+      "ins": 5.28,
+      "vot": 6.22
+   },
+   "exprimes": 633,
+   "pour_exp": {
+      "ins": 79.62,
+      "vot": 93.78
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      343,
+      290
+   ],
+   "pour_voix": {
+      "ins": [
+         43.14,
+         36.48
+      ],
+      "exp": [
+         54.19,
+         45.81
+      ]
+   }
+},
+ {
+   "code": 274,
+   "nom_com": "Saint-Cyr-en-Bourg",
+   "inscrits": 653,
+   "abstentions": 87,
+   "pour_abs": {
+      "ins": 13.32
+   },
+   "votants": 566,
+   "pour_vot": {
+      "ins": 86.68
+   },
+   "blanc_nul": 36,
+   "pour_bl_nuls": {
+      "ins": 5.51,
+      "vot": 6.36
+   },
+   "exprimes": 530,
+   "pour_exp": {
+      "ins": 81.16,
+      "vot": 93.64
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      262,
+      268
+   ],
+   "pour_voix": {
+      "ins": [
+         40.12,
+         41.04
+      ],
+      "exp": [
+         49.43,
+         50.57
+      ]
+   }
+},
+ {
+   "code": 278,
+   "nom_com": "Sainte-Gemmes-sur-Loire",
+   "inscrits": 2832,
+   "abstentions": 384,
+   "pour_abs": {
+      "ins": 13.56
+   },
+   "votants": 2448,
+   "pour_vot": {
+      "ins": 86.44
+   },
+   "blanc_nul": 112,
+   "pour_bl_nuls": {
+      "ins": 3.95,
+      "vot": 4.58
+   },
+   "exprimes": 2336,
+   "pour_exp": {
+      "ins": 82.49,
+      "vot": 95.42
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      1166,
+      1170
+   ],
+   "pour_voix": {
+      "ins": [
+         41.17,
+         41.31
+      ],
+      "exp": [
+         49.91,
+         50.09
+      ]
+   }
+},
+ {
+   "code": 283,
+   "nom_com": "Saint-Georges-sur-Loire",
+   "inscrits": 2370,
+   "abstentions": 292,
+   "pour_abs": {
+      "ins": 12.32
+   },
+   "votants": 2078,
+   "pour_vot": {
+      "ins": 87.68
+   },
+   "blanc_nul": 137,
+   "pour_bl_nuls": {
+      "ins": 5.78,
+      "vot": 6.59
+   },
+   "exprimes": 1941,
+   "pour_exp": {
+      "ins": 81.9,
+      "vot": 93.41
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      989,
+      952
+   ],
+   "pour_voix": {
+      "ins": [
+         41.73,
+         40.17
+      ],
+      "exp": [
+         50.95,
+         49.05
+      ]
+   }
+},
+ {
+   "code": 284,
+   "nom_com": "Saint-Germain-des-Prés",
+   "inscrits": 1003,
+   "abstentions": 131,
+   "pour_abs": {
+      "ins": 13.06
+   },
+   "votants": 872,
+   "pour_vot": {
+      "ins": 86.94
+   },
+   "blanc_nul": 50,
+   "pour_bl_nuls": {
+      "ins": 4.99,
+      "vot": 5.73
+   },
+   "exprimes": 822,
+   "pour_exp": {
+      "ins": 81.95,
+      "vot": 94.27
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      408,
+      414
+   ],
+   "pour_voix": {
+      "ins": [
+         40.68,
+         41.28
+      ],
+      "exp": [
+         49.64,
+         50.36
+      ]
+   }
+},
+ {
+   "code": 288,
+   "nom_com": "Saint-Jean-de-la-Croix",
+   "inscrits": 171,
+   "abstentions": 25,
+   "pour_abs": {
+      "ins": 14.62
+   },
+   "votants": 146,
+   "pour_vot": {
+      "ins": 85.38
+   },
+   "blanc_nul": 9,
+   "pour_bl_nuls": {
+      "ins": 5.26,
+      "vot": 6.16
+   },
+   "exprimes": 137,
+   "pour_exp": {
+      "ins": 80.12,
+      "vot": 93.84
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      96,
+      41
+   ],
+   "pour_voix": {
+      "ins": [
+         56.14,
+         23.98
+      ],
+      "exp": [
+         70.07,
+         29.93
+      ]
+   }
+},
+ {
+   "code": 289,
+   "nom_com": "Saint-Jean-de-Linières",
+   "inscrits": 1292,
+   "abstentions": 145,
+   "pour_abs": {
+      "ins": 11.22
+   },
+   "votants": 1147,
+   "pour_vot": {
+      "ins": 88.78
+   },
+   "blanc_nul": 66,
+   "pour_bl_nuls": {
+      "ins": 5.11,
+      "vot": 5.75
+   },
+   "exprimes": 1081,
+   "pour_exp": {
+      "ins": 83.67,
+      "vot": 94.25
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      514,
+      567
+   ],
+   "pour_voix": {
+      "ins": [
+         39.78,
+         43.89
+      ],
+      "exp": [
+         47.55,
+         52.45
+      ]
+   }
+},
+ {
+   "code": 291,
+   "nom_com": "Saint-Just-sur-Dive",
+   "inscrits": 275,
+   "abstentions": 52,
+   "pour_abs": {
+      "ins": 18.91
+   },
+   "votants": 223,
+   "pour_vot": {
+      "ins": 81.09
+   },
+   "blanc_nul": 16,
+   "pour_bl_nuls": {
+      "ins": 5.82,
+      "vot": 7.17
+   },
+   "exprimes": 207,
+   "pour_exp": {
+      "ins": 75.27,
+      "vot": 92.83
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      92,
+      115
+   ],
+   "pour_voix": {
+      "ins": [
+         33.45,
+         41.82
+      ],
+      "exp": [
+         44.44,
+         55.56
+      ]
+   }
+},
+ {
+   "code": 292,
+   "nom_com": "Val-du-Layon",
+   "inscrits": 2231,
+   "abstentions": 218,
+   "pour_abs": {
+      "ins": 9.77
+   },
+   "votants": 2013,
+   "pour_vot": {
+      "ins": 90.23
+   },
+   "blanc_nul": 139,
+   "pour_bl_nuls": {
+      "ins": 6.23,
+      "vot": 6.91
+   },
+   "exprimes": 1874,
+   "pour_exp": {
+      "ins": 84,
+      "vot": 93.09
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      927,
+      947
+   ],
+   "pour_voix": {
+      "ins": [
+         41.55,
+         42.45
+      ],
+      "exp": [
+         49.47,
+         50.53
+      ]
+   }
+},
+ {
+   "code": 294,
+   "nom_com": "Saint-Lambert-la-Potherie",
+   "inscrits": 1840,
+   "abstentions": 220,
+   "pour_abs": {
+      "ins": 11.96
+   },
+   "votants": 1620,
+   "pour_vot": {
+      "ins": 88.04
+   },
+   "blanc_nul": 88,
+   "pour_bl_nuls": {
+      "ins": 4.78,
+      "vot": 5.43
+   },
+   "exprimes": 1532,
+   "pour_exp": {
+      "ins": 83.26,
+      "vot": 94.57
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      727,
+      805
+   ],
+   "pour_voix": {
+      "ins": [
+         39.51,
+         43.75
+      ],
+      "exp": [
+         47.45,
+         52.55
+      ]
+   }
+},
+ {
+   "code": 298,
+   "nom_com": "Saint-Léger-des-Bois",
+   "inscrits": 1144,
+   "abstentions": 144,
+   "pour_abs": {
+      "ins": 12.59
+   },
+   "votants": 1000,
+   "pour_vot": {
+      "ins": 87.41
+   },
+   "blanc_nul": 52,
+   "pour_bl_nuls": {
+      "ins": 4.55,
+      "vot": 5.2
+   },
+   "exprimes": 948,
+   "pour_exp": {
+      "ins": 82.87,
+      "vot": 94.8
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      498,
+      450
+   ],
+   "pour_voix": {
+      "ins": [
+         43.53,
+         39.34
+      ],
+      "exp": [
+         52.53,
+         47.47
+      ]
+   }
+},
+ {
+   "code": 299,
+   "nom_com": "Saint-Léger-sous-Cholet",
+   "inscrits": 2086,
+   "abstentions": 323,
+   "pour_abs": {
+      "ins": 15.48
+   },
+   "votants": 1763,
+   "pour_vot": {
+      "ins": 84.52
+   },
+   "blanc_nul": 107,
+   "pour_bl_nuls": {
+      "ins": 5.13,
+      "vot": 6.07
+   },
+   "exprimes": 1656,
+   "pour_exp": {
+      "ins": 79.39,
+      "vot": 93.93
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      857,
+      799
+   ],
+   "pour_voix": {
+      "ins": [
+         41.08,
+         38.3
+      ],
+      "exp": [
+         51.75,
+         48.25
+      ]
+   }
+},
+ {
+   "code": 301,
+   "nom_com": "Sèvremoine",
+   "inscrits": 17234,
+   "abstentions": 2638,
+   "pour_abs": {
+      "ins": 15.31
+   },
+   "votants": 14596,
+   "pour_vot": {
+      "ins": 84.69
+   },
+   "blanc_nul": 951,
+   "pour_bl_nuls": {
+      "ins": 5.52,
+      "vot": 6.52
+   },
+   "exprimes": 13645,
+   "pour_exp": {
+      "ins": 79.17,
+      "vot": 93.48
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      5968,
+      7677
+   ],
+   "pour_voix": {
+      "ins": [
+         34.63,
+         44.55
+      ],
+      "exp": [
+         43.74,
+         56.26
+      ]
+   }
+},
+ {
+   "code": 302,
+   "nom_com": "Saint-Macaire-du-Bois",
+   "inscrits": 301,
+   "abstentions": 64,
+   "pour_abs": {
+      "ins": 21.26
+   },
+   "votants": 237,
+   "pour_vot": {
+      "ins": 78.74
+   },
+   "blanc_nul": 15,
+   "pour_bl_nuls": {
+      "ins": 4.98,
+      "vot": 6.33
+   },
+   "exprimes": 222,
+   "pour_exp": {
+      "ins": 73.75,
+      "vot": 93.67
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      108,
+      114
+   ],
+   "pour_voix": {
+      "ins": [
+         35.88,
+         37.87
+      ],
+      "exp": [
+         48.65,
+         51.35
+      ]
+   }
+},
+ {
+   "code": 304,
+   "nom_com": "Saint-Martin-de-la-Place",
+   "inscrits": 805,
+   "abstentions": 120,
+   "pour_abs": {
+      "ins": 14.91
+   },
+   "votants": 685,
+   "pour_vot": {
+      "ins": 85.09
+   },
+   "blanc_nul": 58,
+   "pour_bl_nuls": {
+      "ins": 7.2,
+      "vot": 8.47
+   },
+   "exprimes": 627,
+   "pour_exp": {
+      "ins": 77.89,
+      "vot": 91.53
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      274,
+      353
+   ],
+   "pour_voix": {
+      "ins": [
+         34.04,
+         43.85
+      ],
+      "exp": [
+         43.7,
+         56.3
+      ]
+   }
+},
+ {
+   "code": 306,
+   "nom_com": "Saint-Martin-du-Fouilloux",
+   "inscrits": 1231,
+   "abstentions": 123,
+   "pour_abs": {
+      "ins": 9.99
+   },
+   "votants": 1108,
+   "pour_vot": {
+      "ins": 90.01
+   },
+   "blanc_nul": 66,
+   "pour_bl_nuls": {
+      "ins": 5.36,
+      "vot": 5.96
+   },
+   "exprimes": 1042,
+   "pour_exp": {
+      "ins": 84.65,
+      "vot": 94.04
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      586,
+      456
+   ],
+   "pour_voix": {
+      "ins": [
+         47.6,
+         37.04
+      ],
+      "exp": [
+         56.24,
+         43.76
+      ]
+   }
+},
+ {
+   "code": 307,
+   "nom_com": "Loire-Authion",
+   "inscrits": 11336,
+   "abstentions": 1444,
+   "pour_abs": {
+      "ins": 12.74
+   },
+   "votants": 9892,
+   "pour_vot": {
+      "ins": 87.26
+   },
+   "blanc_nul": 588,
+   "pour_bl_nuls": {
+      "ins": 5.19,
+      "vot": 5.94
+   },
+   "exprimes": 9304,
+   "pour_exp": {
+      "ins": 82.07,
+      "vot": 94.06
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      4742,
+      4562
+   ],
+   "pour_voix": {
+      "ins": [
+         41.83,
+         40.24
+      ],
+      "exp": [
+         50.97,
+         49.03
+      ]
+   }
+},
+ {
+   "code": 308,
+   "nom_com": "Saint-Melaine-sur-Aubance",
+   "inscrits": 1576,
+   "abstentions": 150,
+   "pour_abs": {
+      "ins": 9.52
+   },
+   "votants": 1426,
+   "pour_vot": {
+      "ins": 90.48
+   },
+   "blanc_nul": 86,
+   "pour_bl_nuls": {
+      "ins": 5.46,
+      "vot": 6.03
+   },
+   "exprimes": 1340,
+   "pour_exp": {
+      "ins": 85.03,
+      "vot": 93.97
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      626,
+      714
+   ],
+   "pour_voix": {
+      "ins": [
+         39.72,
+         45.3
+      ],
+      "exp": [
+         46.72,
+         53.28
+      ]
+   }
+},
+ {
+   "code": 310,
+   "nom_com": "Saint-Paul-du-Bois",
+   "inscrits": 454,
+   "abstentions": 78,
+   "pour_abs": {
+      "ins": 17.18
+   },
+   "votants": 376,
+   "pour_vot": {
+      "ins": 82.82
+   },
+   "blanc_nul": 15,
+   "pour_bl_nuls": {
+      "ins": 3.3,
+      "vot": 3.99
+   },
+   "exprimes": 361,
+   "pour_exp": {
+      "ins": 79.52,
+      "vot": 96.01
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      120,
+      241
+   ],
+   "pour_voix": {
+      "ins": [
+         26.43,
+         53.08
+      ],
+      "exp": [
+         33.24,
+         66.76
+      ]
+   }
+},
+ {
+   "code": 311,
+   "nom_com": "Saint-Philbert-du-Peuple",
+   "inscrits": 842,
+   "abstentions": 105,
+   "pour_abs": {
+      "ins": 12.47
+   },
+   "votants": 737,
+   "pour_vot": {
+      "ins": 87.53
+   },
+   "blanc_nul": 65,
+   "pour_bl_nuls": {
+      "ins": 7.72,
+      "vot": 8.82
+   },
+   "exprimes": 672,
+   "pour_exp": {
+      "ins": 79.81,
+      "vot": 91.18
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      292,
+      380
+   ],
+   "pour_voix": {
+      "ins": [
+         34.68,
+         45.13
+      ],
+      "exp": [
+         43.45,
+         56.55
+      ]
+   }
+},
+ {
+   "code": 321,
+   "nom_com": "Saint-Sigismond",
+   "inscrits": 289,
+   "abstentions": 38,
+   "pour_abs": {
+      "ins": 13.15
+   },
+   "votants": 251,
+   "pour_vot": {
+      "ins": 86.85
+   },
+   "blanc_nul": 20,
+   "pour_bl_nuls": {
+      "ins": 6.92,
+      "vot": 7.97
+   },
+   "exprimes": 231,
+   "pour_exp": {
+      "ins": 79.93,
+      "vot": 92.03
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      134,
+      97
+   ],
+   "pour_voix": {
+      "ins": [
+         46.37,
+         33.56
+      ],
+      "exp": [
+         58.01,
+         41.99
+      ]
+   }
+},
+ {
+   "code": 323,
+   "nom_com": "Verrière-en-Anjou",
+   "inscrits": 5127,
+   "abstentions": 714,
+   "pour_abs": {
+      "ins": 13.93
+   },
+   "votants": 4413,
+   "pour_vot": {
+      "ins": 86.07
+   },
+   "blanc_nul": 279,
+   "pour_bl_nuls": {
+      "ins": 5.44,
+      "vot": 6.32
+   },
+   "exprimes": 4134,
+   "pour_exp": {
+      "ins": 80.63,
+      "vot": 93.68
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      2095,
+      2039
+   ],
+   "pour_voix": {
+      "ins": [
+         40.86,
+         39.77
+      ],
+      "exp": [
+         50.68,
+         49.32
+      ]
+   }
+},
+ {
+   "code": 326,
+   "nom_com": "Sarrigné",
+   "inscrits": 622,
+   "abstentions": 71,
+   "pour_abs": {
+      "ins": 11.41
+   },
+   "votants": 551,
+   "pour_vot": {
+      "ins": 88.59
+   },
+   "blanc_nul": 46,
+   "pour_bl_nuls": {
+      "ins": 7.4,
+      "vot": 8.35
+   },
+   "exprimes": 505,
+   "pour_exp": {
+      "ins": 81.19,
+      "vot": 91.65
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      318,
+      187
+   ],
+   "pour_voix": {
+      "ins": [
+         51.13,
+         30.06
+      ],
+      "exp": [
+         62.97,
+         37.03
+      ]
+   }
+},
+ {
+   "code": 328,
+   "nom_com": "Saumur",
+   "inscrits": 19300,
+   "abstentions": 3933,
+   "pour_abs": {
+      "ins": 20.38
+   },
+   "votants": 15367,
+   "pour_vot": {
+      "ins": 79.62
+   },
+   "blanc_nul": 884,
+   "pour_bl_nuls": {
+      "ins": 4.58,
+      "vot": 5.75
+   },
+   "exprimes": 14483,
+   "pour_exp": {
+      "ins": 75.04,
+      "vot": 94.25
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      6620,
+      7863
+   ],
+   "pour_voix": {
+      "ins": [
+         34.3,
+         40.74
+      ],
+      "exp": [
+         45.71,
+         54.29
+      ]
+   }
+},
+ {
+   "code": 329,
+   "nom_com": "Savennières",
+   "inscrits": 965,
+   "abstentions": 118,
+   "pour_abs": {
+      "ins": 12.23
+   },
+   "votants": 847,
+   "pour_vot": {
+      "ins": 87.77
+   },
+   "blanc_nul": 51,
+   "pour_bl_nuls": {
+      "ins": 5.28,
+      "vot": 6.02
+   },
+   "exprimes": 796,
+   "pour_exp": {
+      "ins": 82.49,
+      "vot": 93.98
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      415,
+      381
+   ],
+   "pour_voix": {
+      "ins": [
+         43.01,
+         39.48
+      ],
+      "exp": [
+         52.14,
+         47.86
+      ]
+   }
+},
+ {
+   "code": 330,
+   "nom_com": "Sceaux-d'Anjou",
+   "inscrits": 657,
+   "abstentions": 53,
+   "pour_abs": {
+      "ins": 8.07
+   },
+   "votants": 604,
+   "pour_vot": {
+      "ins": 91.93
+   },
+   "blanc_nul": 48,
+   "pour_bl_nuls": {
+      "ins": 7.31,
+      "vot": 7.95
+   },
+   "exprimes": 556,
+   "pour_exp": {
+      "ins": 84.63,
+      "vot": 92.05
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      267,
+      289
+   ],
+   "pour_voix": {
+      "ins": [
+         40.64,
+         43.99
+      ],
+      "exp": [
+         48.02,
+         51.98
+      ]
+   }
+},
+ {
+   "code": 331,
+   "nom_com": "Segré-en-Anjou-Bleu",
+   "inscrits": 12553,
+   "abstentions": 2106,
+   "pour_abs": {
+      "ins": 16.78
+   },
+   "votants": 10447,
+   "pour_vot": {
+      "ins": 83.22
+   },
+   "blanc_nul": 644,
+   "pour_bl_nuls": {
+      "ins": 5.13,
+      "vot": 6.16
+   },
+   "exprimes": 9803,
+   "pour_exp": {
+      "ins": 78.09,
+      "vot": 93.84
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      4592,
+      5211
+   ],
+   "pour_voix": {
+      "ins": [
+         36.58,
+         41.51
+      ],
+      "exp": [
+         46.84,
+         53.16
+      ]
+   }
+},
+ {
+   "code": 332,
+   "nom_com": "La Séguinière",
+   "inscrits": 3082,
+   "abstentions": 423,
+   "pour_abs": {
+      "ins": 13.72
+   },
+   "votants": 2659,
+   "pour_vot": {
+      "ins": 86.28
+   },
+   "blanc_nul": 177,
+   "pour_bl_nuls": {
+      "ins": 5.74,
+      "vot": 6.66
+   },
+   "exprimes": 2482,
+   "pour_exp": {
+      "ins": 80.53,
+      "vot": 93.34
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      1099,
+      1383
+   ],
+   "pour_voix": {
+      "ins": [
+         35.66,
+         44.87
+      ],
+      "exp": [
+         44.28,
+         55.72
+      ]
+   }
+},
+ {
+   "code": 333,
+   "nom_com": "Seiches-sur-le-Loir",
+   "inscrits": 1975,
+   "abstentions": 303,
+   "pour_abs": {
+      "ins": 15.34
+   },
+   "votants": 1672,
+   "pour_vot": {
+      "ins": 84.66
+   },
+   "blanc_nul": 87,
+   "pour_bl_nuls": {
+      "ins": 4.41,
+      "vot": 5.2
+   },
+   "exprimes": 1585,
+   "pour_exp": {
+      "ins": 80.25,
+      "vot": 94.8
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      807,
+      778
+   ],
+   "pour_voix": {
+      "ins": [
+         40.86,
+         39.39
+      ],
+      "exp": [
+         50.91,
+         49.09
+      ]
+   }
+},
+ {
+   "code": 334,
+   "nom_com": "Sermaise",
+   "inscrits": 212,
+   "abstentions": 32,
+   "pour_abs": {
+      "ins": 15.09
+   },
+   "votants": 180,
+   "pour_vot": {
+      "ins": 84.91
+   },
+   "blanc_nul": 12,
+   "pour_bl_nuls": {
+      "ins": 5.66,
+      "vot": 6.67
+   },
+   "exprimes": 168,
+   "pour_exp": {
+      "ins": 79.25,
+      "vot": 93.33
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      67,
+      101
+   ],
+   "pour_voix": {
+      "ins": [
+         31.6,
+         47.64
+      ],
+      "exp": [
+         39.88,
+         60.12
+      ]
+   }
+},
+ {
+   "code": 336,
+   "nom_com": "Somloire",
+   "inscrits": 658,
+   "abstentions": 72,
+   "pour_abs": {
+      "ins": 10.94
+   },
+   "votants": 586,
+   "pour_vot": {
+      "ins": 89.06
+   },
+   "blanc_nul": 30,
+   "pour_bl_nuls": {
+      "ins": 4.56,
+      "vot": 5.12
+   },
+   "exprimes": 556,
+   "pour_exp": {
+      "ins": 84.5,
+      "vot": 94.88
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      218,
+      338
+   ],
+   "pour_voix": {
+      "ins": [
+         33.13,
+         51.37
+      ],
+      "exp": [
+         39.21,
+         60.79
+      ]
+   }
+},
+ {
+   "code": 337,
+   "nom_com": "Soucelles",
+   "inscrits": 1973,
+   "abstentions": 291,
+   "pour_abs": {
+      "ins": 14.75
+   },
+   "votants": 1682,
+   "pour_vot": {
+      "ins": 85.25
+   },
+   "blanc_nul": 113,
+   "pour_bl_nuls": {
+      "ins": 5.73,
+      "vot": 6.72
+   },
+   "exprimes": 1569,
+   "pour_exp": {
+      "ins": 79.52,
+      "vot": 93.28
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      895,
+      674
+   ],
+   "pour_voix": {
+      "ins": [
+         45.36,
+         34.16
+      ],
+      "exp": [
+         57.04,
+         42.96
+      ]
+   }
+},
+ {
+   "code": 338,
+   "nom_com": "Soulaines-sur-Aubance",
+   "inscrits": 988,
+   "abstentions": 102,
+   "pour_abs": {
+      "ins": 10.32
+   },
+   "votants": 886,
+   "pour_vot": {
+      "ins": 89.68
+   },
+   "blanc_nul": 41,
+   "pour_bl_nuls": {
+      "ins": 4.15,
+      "vot": 4.63
+   },
+   "exprimes": 845,
+   "pour_exp": {
+      "ins": 85.53,
+      "vot": 95.37
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      471,
+      374
+   ],
+   "pour_voix": {
+      "ins": [
+         47.67,
+         37.85
+      ],
+      "exp": [
+         55.74,
+         44.26
+      ]
+   }
+},
+ {
+   "code": 339,
+   "nom_com": "Soulaire-et-Bourg",
+   "inscrits": 1048,
+   "abstentions": 110,
+   "pour_abs": {
+      "ins": 10.5
+   },
+   "votants": 938,
+   "pour_vot": {
+      "ins": 89.5
+   },
+   "blanc_nul": 76,
+   "pour_bl_nuls": {
+      "ins": 7.25,
+      "vot": 8.1
+   },
+   "exprimes": 862,
+   "pour_exp": {
+      "ins": 82.25,
+      "vot": 91.9
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      458,
+      404
+   ],
+   "pour_voix": {
+      "ins": [
+         43.7,
+         38.55
+      ],
+      "exp": [
+         53.13,
+         46.87
+      ]
+   }
+},
+ {
+   "code": 341,
+   "nom_com": "Souzay-Champigny",
+   "inscrits": 532,
+   "abstentions": 75,
+   "pour_abs": {
+      "ins": 14.1
+   },
+   "votants": 457,
+   "pour_vot": {
+      "ins": 85.9
+   },
+   "blanc_nul": 30,
+   "pour_bl_nuls": {
+      "ins": 5.64,
+      "vot": 6.56
+   },
+   "exprimes": 427,
+   "pour_exp": {
+      "ins": 80.26,
+      "vot": 93.44
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      163,
+      264
+   ],
+   "pour_voix": {
+      "ins": [
+         30.64,
+         49.62
+      ],
+      "exp": [
+         38.17,
+         61.83
+      ]
+   }
+},
+ {
+   "code": 343,
+   "nom_com": "La Tessoualle",
+   "inscrits": 2416,
+   "abstentions": 374,
+   "pour_abs": {
+      "ins": 15.48
+   },
+   "votants": 2042,
+   "pour_vot": {
+      "ins": 84.52
+   },
+   "blanc_nul": 124,
+   "pour_bl_nuls": {
+      "ins": 5.13,
+      "vot": 6.07
+   },
+   "exprimes": 1918,
+   "pour_exp": {
+      "ins": 79.39,
+      "vot": 93.93
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      827,
+      1091
+   ],
+   "pour_voix": {
+      "ins": [
+         34.23,
+         45.16
+      ],
+      "exp": [
+         43.12,
+         56.88
+      ]
+   }
+},
+ {
+   "code": 344,
+   "nom_com": "Thorigné-d'Anjou",
+   "inscrits": 733,
+   "abstentions": 79,
+   "pour_abs": {
+      "ins": 10.78
+   },
+   "votants": 654,
+   "pour_vot": {
+      "ins": 89.22
+   },
+   "blanc_nul": 41,
+   "pour_bl_nuls": {
+      "ins": 5.59,
+      "vot": 6.27
+   },
+   "exprimes": 613,
+   "pour_exp": {
+      "ins": 83.63,
+      "vot": 93.73
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      285,
+      328
+   ],
+   "pour_voix": {
+      "ins": [
+         38.88,
+         44.75
+      ],
+      "exp": [
+         46.49,
+         53.51
+      ]
+   }
+},
+ {
+   "code": 345,
+   "nom_com": "Bellevigne-en-Layon",
+   "inscrits": 4208,
+   "abstentions": 603,
+   "pour_abs": {
+      "ins": 14.33
+   },
+   "votants": 3605,
+   "pour_vot": {
+      "ins": 85.67
+   },
+   "blanc_nul": 216,
+   "pour_bl_nuls": {
+      "ins": 5.13,
+      "vot": 5.99
+   },
+   "exprimes": 3389,
+   "pour_exp": {
+      "ins": 80.54,
+      "vot": 94.01
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      1543,
+      1846
+   ],
+   "pour_voix": {
+      "ins": [
+         36.67,
+         43.87
+      ],
+      "exp": [
+         45.53,
+         54.47
+      ]
+   }
+},
+ {
+   "code": 347,
+   "nom_com": "Tiercé",
+   "inscrits": 3138,
+   "abstentions": 460,
+   "pour_abs": {
+      "ins": 14.66
+   },
+   "votants": 2678,
+   "pour_vot": {
+      "ins": 85.34
+   },
+   "blanc_nul": 166,
+   "pour_bl_nuls": {
+      "ins": 5.29,
+      "vot": 6.2
+   },
+   "exprimes": 2512,
+   "pour_exp": {
+      "ins": 80.05,
+      "vot": 93.8
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      1121,
+      1391
+   ],
+   "pour_voix": {
+      "ins": [
+         35.72,
+         44.33
+      ],
+      "exp": [
+         44.63,
+         55.37
+      ]
+   }
+},
+ {
+   "code": 352,
+   "nom_com": "Toutlemonde",
+   "inscrits": 832,
+   "abstentions": 116,
+   "pour_abs": {
+      "ins": 13.94
+   },
+   "votants": 716,
+   "pour_vot": {
+      "ins": 86.06
+   },
+   "blanc_nul": 47,
+   "pour_bl_nuls": {
+      "ins": 5.65,
+      "vot": 6.56
+   },
+   "exprimes": 669,
+   "pour_exp": {
+      "ins": 80.41,
+      "vot": 93.44
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      292,
+      377
+   ],
+   "pour_voix": {
+      "ins": [
+         35.1,
+         45.31
+      ],
+      "exp": [
+         43.65,
+         56.35
+      ]
+   }
+},
+ {
+   "code": 353,
+   "nom_com": "Trélazé",
+   "inscrits": 8548,
+   "abstentions": 1567,
+   "pour_abs": {
+      "ins": 18.33
+   },
+   "votants": 6981,
+   "pour_vot": {
+      "ins": 81.67
+   },
+   "blanc_nul": 403,
+   "pour_bl_nuls": {
+      "ins": 4.71,
+      "vot": 5.77
+   },
+   "exprimes": 6578,
+   "pour_exp": {
+      "ins": 76.95,
+      "vot": 94.23
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      4476,
+      2102
+   ],
+   "pour_voix": {
+      "ins": [
+         52.36,
+         24.59
+      ],
+      "exp": [
+         68.04,
+         31.96
+      ]
+   }
+},
+ {
+   "code": 355,
+   "nom_com": "Trémentines",
+   "inscrits": 2183,
+   "abstentions": 316,
+   "pour_abs": {
+      "ins": 14.48
+   },
+   "votants": 1867,
+   "pour_vot": {
+      "ins": 85.52
+   },
+   "blanc_nul": 147,
+   "pour_bl_nuls": {
+      "ins": 6.73,
+      "vot": 7.87
+   },
+   "exprimes": 1720,
+   "pour_exp": {
+      "ins": 78.79,
+      "vot": 92.13
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      805,
+      915
+   ],
+   "pour_voix": {
+      "ins": [
+         36.88,
+         41.91
+      ],
+      "exp": [
+         46.8,
+         53.2
+      ]
+   }
+},
+ {
+   "code": 358,
+   "nom_com": "Turquant",
+   "inscrits": 423,
+   "abstentions": 73,
+   "pour_abs": {
+      "ins": 17.26
+   },
+   "votants": 350,
+   "pour_vot": {
+      "ins": 82.74
+   },
+   "blanc_nul": 19,
+   "pour_bl_nuls": {
+      "ins": 4.49,
+      "vot": 5.43
+   },
+   "exprimes": 331,
+   "pour_exp": {
+      "ins": 78.25,
+      "vot": 94.57
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      139,
+      192
+   ],
+   "pour_voix": {
+      "ins": [
+         32.86,
+         45.39
+      ],
+      "exp": [
+         41.99,
+         58.01
+      ]
+   }
+},
+ {
+   "code": 359,
+   "nom_com": "Les Ulmes",
+   "inscrits": 394,
+   "abstentions": 50,
+   "pour_abs": {
+      "ins": 12.69
+   },
+   "votants": 344,
+   "pour_vot": {
+      "ins": 87.31
+   },
+   "blanc_nul": 25,
+   "pour_bl_nuls": {
+      "ins": 6.35,
+      "vot": 7.27
+   },
+   "exprimes": 319,
+   "pour_exp": {
+      "ins": 80.96,
+      "vot": 92.73
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      105,
+      214
+   ],
+   "pour_voix": {
+      "ins": [
+         26.65,
+         54.31
+      ],
+      "exp": [
+         32.92,
+         67.08
+      ]
+   }
+},
+ {
+   "code": 361,
+   "nom_com": "Varennes-sur-Loire",
+   "inscrits": 1408,
+   "abstentions": 265,
+   "pour_abs": {
+      "ins": 18.82
+   },
+   "votants": 1143,
+   "pour_vot": {
+      "ins": 81.18
+   },
+   "blanc_nul": 74,
+   "pour_bl_nuls": {
+      "ins": 5.26,
+      "vot": 6.47
+   },
+   "exprimes": 1069,
+   "pour_exp": {
+      "ins": 75.92,
+      "vot": 93.53
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      420,
+      649
+   ],
+   "pour_voix": {
+      "ins": [
+         29.83,
+         46.09
+      ],
+      "exp": [
+         39.29,
+         60.71
+      ]
+   }
+},
+ {
+   "code": 362,
+   "nom_com": "Varrains",
+   "inscrits": 924,
+   "abstentions": 120,
+   "pour_abs": {
+      "ins": 12.99
+   },
+   "votants": 804,
+   "pour_vot": {
+      "ins": 87.01
+   },
+   "blanc_nul": 46,
+   "pour_bl_nuls": {
+      "ins": 4.98,
+      "vot": 5.72
+   },
+   "exprimes": 758,
+   "pour_exp": {
+      "ins": 82.03,
+      "vot": 94.28
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      303,
+      455
+   ],
+   "pour_voix": {
+      "ins": [
+         32.79,
+         49.24
+      ],
+      "exp": [
+         39.97,
+         60.03
+      ]
+   }
+},
+ {
+   "code": 364,
+   "nom_com": "Vaudelnay",
+   "inscrits": 890,
+   "abstentions": 150,
+   "pour_abs": {
+      "ins": 16.85
+   },
+   "votants": 740,
+   "pour_vot": {
+      "ins": 83.15
+   },
+   "blanc_nul": 69,
+   "pour_bl_nuls": {
+      "ins": 7.75,
+      "vot": 9.32
+   },
+   "exprimes": 671,
+   "pour_exp": {
+      "ins": 75.39,
+      "vot": 90.68
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      282,
+      389
+   ],
+   "pour_voix": {
+      "ins": [
+         31.69,
+         43.71
+      ],
+      "exp": [
+         42.03,
+         57.97
+      ]
+   }
+},
+ {
+   "code": 367,
+   "nom_com": "Erdre-en-Anjou",
+   "inscrits": 3647,
+   "abstentions": 539,
+   "pour_abs": {
+      "ins": 14.78
+   },
+   "votants": 3108,
+   "pour_vot": {
+      "ins": 85.22
+   },
+   "blanc_nul": 169,
+   "pour_bl_nuls": {
+      "ins": 4.63,
+      "vot": 5.44
+   },
+   "exprimes": 2939,
+   "pour_exp": {
+      "ins": 80.59,
+      "vot": 94.56
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      1452,
+      1487
+   ],
+   "pour_voix": {
+      "ins": [
+         39.81,
+         40.77
+      ],
+      "exp": [
+         49.4,
+         50.6
+      ]
+   }
+},
+ {
+   "code": 368,
+   "nom_com": "Vernantes",
+   "inscrits": 1252,
+   "abstentions": 239,
+   "pour_abs": {
+      "ins": 19.09
+   },
+   "votants": 1013,
+   "pour_vot": {
+      "ins": 80.91
+   },
+   "blanc_nul": 63,
+   "pour_bl_nuls": {
+      "ins": 5.03,
+      "vot": 6.22
+   },
+   "exprimes": 950,
+   "pour_exp": {
+      "ins": 75.88,
+      "vot": 93.78
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      473,
+      477
+   ],
+   "pour_voix": {
+      "ins": [
+         37.78,
+         38.1
+      ],
+      "exp": [
+         49.79,
+         50.21
+      ]
+   }
+},
+ {
+   "code": 369,
+   "nom_com": "Vernoil-le-Fourrier",
+   "inscrits": 859,
+   "abstentions": 140,
+   "pour_abs": {
+      "ins": 16.3
+   },
+   "votants": 719,
+   "pour_vot": {
+      "ins": 83.7
+   },
+   "blanc_nul": 55,
+   "pour_bl_nuls": {
+      "ins": 6.4,
+      "vot": 7.65
+   },
+   "exprimes": 664,
+   "pour_exp": {
+      "ins": 77.3,
+      "vot": 92.35
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      309,
+      355
+   ],
+   "pour_voix": {
+      "ins": [
+         35.97,
+         41.33
+      ],
+      "exp": [
+         46.54,
+         53.46
+      ]
+   }
+},
+ {
+   "code": 370,
+   "nom_com": "Verrie",
+   "inscrits": 338,
+   "abstentions": 44,
+   "pour_abs": {
+      "ins": 13.02
+   },
+   "votants": 294,
+   "pour_vot": {
+      "ins": 86.98
+   },
+   "blanc_nul": 24,
+   "pour_bl_nuls": {
+      "ins": 7.1,
+      "vot": 8.16
+   },
+   "exprimes": 270,
+   "pour_exp": {
+      "ins": 79.88,
+      "vot": 91.84
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      121,
+      149
+   ],
+   "pour_voix": {
+      "ins": [
+         35.8,
+         44.08
+      ],
+      "exp": [
+         44.81,
+         55.19
+      ]
+   }
+},
+ {
+   "code": 371,
+   "nom_com": "Vezins",
+   "inscrits": 1172,
+   "abstentions": 142,
+   "pour_abs": {
+      "ins": 12.12
+   },
+   "votants": 1030,
+   "pour_vot": {
+      "ins": 87.88
+   },
+   "blanc_nul": 69,
+   "pour_bl_nuls": {
+      "ins": 5.89,
+      "vot": 6.7
+   },
+   "exprimes": 961,
+   "pour_exp": {
+      "ins": 82,
+      "vot": 93.3
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      455,
+      506
+   ],
+   "pour_voix": {
+      "ins": [
+         38.82,
+         43.17
+      ],
+      "exp": [
+         47.35,
+         52.65
+      ]
+   }
+},
+ {
+   "code": 373,
+   "nom_com": "Lys-Haut-Layon",
+   "inscrits": 5710,
+   "abstentions": 880,
+   "pour_abs": {
+      "ins": 15.41
+   },
+   "votants": 4830,
+   "pour_vot": {
+      "ins": 84.59
+   },
+   "blanc_nul": 288,
+   "pour_bl_nuls": {
+      "ins": 5.04,
+      "vot": 5.96
+   },
+   "exprimes": 4542,
+   "pour_exp": {
+      "ins": 79.54,
+      "vot": 94.04
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      1731,
+      2811
+   ],
+   "pour_voix": {
+      "ins": [
+         30.32,
+         49.23
+      ],
+      "exp": [
+         38.11,
+         61.89
+      ]
+   }
+},
+ {
+   "code": 374,
+   "nom_com": "Villebernier",
+   "inscrits": 1081,
+   "abstentions": 181,
+   "pour_abs": {
+      "ins": 16.74
+   },
+   "votants": 900,
+   "pour_vot": {
+      "ins": 83.26
+   },
+   "blanc_nul": 60,
+   "pour_bl_nuls": {
+      "ins": 5.55,
+      "vot": 6.67
+   },
+   "exprimes": 840,
+   "pour_exp": {
+      "ins": 77.71,
+      "vot": 93.33
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      393,
+      447
+   ],
+   "pour_voix": {
+      "ins": [
+         36.36,
+         41.35
+      ],
+      "exp": [
+         46.79,
+         53.21
+      ]
+   }
+},
+ {
+   "code": 377,
+   "nom_com": "Villevêque",
+   "inscrits": 2103,
+   "abstentions": 304,
+   "pour_abs": {
+      "ins": 14.46
+   },
+   "votants": 1799,
+   "pour_vot": {
+      "ins": 85.54
+   },
+   "blanc_nul": 110,
+   "pour_bl_nuls": {
+      "ins": 5.23,
+      "vot": 6.11
+   },
+   "exprimes": 1689,
+   "pour_exp": {
+      "ins": 80.31,
+      "vot": 93.89
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      880,
+      809
+   ],
+   "pour_voix": {
+      "ins": [
+         41.84,
+         38.47
+      ],
+      "exp": [
+         52.1,
+         47.9
+      ]
+   }
+},
+ {
+   "code": 378,
+   "nom_com": "Vivy",
+   "inscrits": 1603,
+   "abstentions": 239,
+   "pour_abs": {
+      "ins": 14.91
+   },
+   "votants": 1364,
+   "pour_vot": {
+      "ins": 85.09
+   },
+   "blanc_nul": 80,
+   "pour_bl_nuls": {
+      "ins": 4.99,
+      "vot": 5.87
+   },
+   "exprimes": 1284,
+   "pour_exp": {
+      "ins": 80.1,
+      "vot": 94.13
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      503,
+      781
+   ],
+   "pour_voix": {
+      "ins": [
+         31.38,
+         48.72
+      ],
+      "exp": [
+         39.17,
+         60.83
+      ]
+   }
+},
+ {
+   "code": 381,
+   "nom_com": "Yzernay",
+   "inscrits": 1438,
+   "abstentions": 220,
+   "pour_abs": {
+      "ins": 15.3
+   },
+   "votants": 1218,
+   "pour_vot": {
+      "ins": 84.7
+   },
+   "blanc_nul": 64,
+   "pour_bl_nuls": {
+      "ins": 4.45,
+      "vot": 5.25
+   },
+   "exprimes": 1154,
+   "pour_exp": {
+      "ins": 80.25,
+      "vot": 94.75
+   },
+   "sexe": [
+      "M",
+      "M"
+   ],
+   "nom": [
+      "HOLLANDE",
+      "SARKOZY"
+   ],
+   "prenom": [
+      "François",
+      "Nicolas"
+   ],
+   "voix": [
+      406,
+      748
+   ],
+   "pour_voix": {
+      "ins": [
+         28.23,
+         52.02
+      ],
+      "exp": [
+         35.18,
+         64.82
+      ]
+   }
+}
+]

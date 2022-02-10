@@ -1,6 +1,9 @@
 // Use strict mode
 'use strict';
 
+// Hyblab project name's
+const hybname = '/communes-1'
+
 // Load usefull expressjs and nodejs objects / modules
 const express = require('express');
 const path = require('path');
@@ -12,11 +15,11 @@ const app = express();
 const api = require('./api/api');
 app.use('/api', api);
 
+// You can then add whatever routing code you need
+
 // Minimum routing: serve static content from the html directory
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, '../__common-logos__')));
-
-// You can then add whatever routing code you need
 
 // This module is exported and served by the main server.js located
 // at the root of this set of projects. You can access it by lanching the main
