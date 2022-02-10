@@ -5,11 +5,16 @@ const helper = require('./helper');
 const bodyParser = require('body-parser')
 
 // parse application/json
-app.use(bodyParser.json())
+app.use(bodyParser.json());
 
 app.get('/carte', function(req, res) {
-    let dataCarte = require('../public/data/geojson.json')
+    let dataCarte = require('../public/data/geojson.json');
     res.json(dataCarte);
+});
+
+app.get('/icons', function(req, res) {
+    let dataIcons = require('../public/data/icons.json');
+    res.json(dataIcons);
 });
 
 app.get('/distance/:ville1/:ville2', function(req, res) {
@@ -19,7 +24,7 @@ app.get('/distance/:ville1/:ville2', function(req, res) {
         let ville2 = req.params.ville2;
     
         // peut etre appel à l'API ?
-        let dataCarte = require('../public/data/geojson.json')
+        let dataCarte = require('../public/data/geojson.json');
     
         let coord1 = dataCarte['features'].filter(function(feature) {
             return feature['properties']['nom'] == ville1;

@@ -1,0 +1,421 @@
+{
+    "zoomMin": {
+        "icons": [
+            {
+                "iconName": "elephant1",
+                "iconUrl": "img/illustrations/nantes1.svg",
+                "position": {
+                    "x": 47.15,
+                    "y": -1.50
+                }
+            },
+            {
+                "iconName": "chateaubriant1",
+                "iconUrl": "img/illustrations/chateaubriant.svg",
+                "position": {
+                    "x": 47.72,
+                    "y": -1.38
+                }
+            },
+            {
+                "iconName": "voilier1",
+                "iconUrl": "img/illustrations/pornic.svg",
+                "position": {
+                    "x": 47.14,
+                    "y": -2.10
+                }
+            },
+            {
+                "iconName": "arbre1",
+                "iconUrl": "img/illustrations/arbre1.svg",
+                "position": {
+                    "x": 47.39,
+                    "y": -2.21
+                }
+            },
+            {
+                "iconName": "buisson1",
+                "iconUrl": "img/illustrations/buisson.svg",
+                "position": {
+                    "x": 47.53,
+                    "y": -1.80
+                }
+            },
+            {
+                "iconName": "buisson1bis",
+                "iconUrl": "img/illustrations/buisson.svg",
+                "position": {
+                    "x": 46.95,
+                    "y": -1.70
+                }
+            }
+        ],
+        "properties": {
+            "sizeX": 125,
+            "sizeY": 125,
+            "anchorX": 70,
+            "anchorY": 100
+        } 
+    },
+
+    "zoomInter": {
+        "icons": [
+            {
+                "iconName": "bernerie2",
+                "iconUrl": "img/illustrations/labernerie.svg",
+                "position": {
+                    "x": 47.00,
+                    "y": -2.00
+                }
+            },
+            {
+                "iconName": "guitare2",
+                "iconUrl": "img/illustrations/clisson.svg",
+                "position": {
+                    "x": 47.10,
+                    "y": -1.27
+                }
+            },
+            {
+                "iconName": "vache2",
+                "iconUrl": "img/illustrations/plesse.svg",
+                "position": {
+                    "x": 47.54,
+                    "y": -1.89
+
+                }
+            },
+            {
+                "iconName": "centrale2",
+                "iconUrl": "img/illustrations/cordemais.svg",
+                "position": {
+                    "x": 47.29,
+                    "y": -1.84
+                }
+            },
+            {
+                "iconName": "voilier2",
+                "iconUrl": "img/illustrations/pornic.svg",
+                "position": {
+                    "x": 47.10,
+                    "y": -2.13
+                }
+            },
+            {
+                "iconName": "arbre21",
+                "iconUrl": "img/illustrations/arbre1.svg",
+                "position": {
+                    "x": 47.35,
+                    "y": -2.21
+                }
+            },
+            {
+                "iconName": "arbre22",
+                "iconUrl": "img/illustrations/arbre1.svg",
+                "position": {
+                    "x": 47.43,
+                    "y": -1.51
+                }
+            },
+            {
+                "iconName": "buisson21",
+                "iconUrl": "img/illustrations/buisson.svg",
+                "position": {
+                    "x": 47.00,
+                    "y": -1.65
+                }
+            },
+            {
+                "iconName": "buisson22",
+                "iconUrl":"img/illustrations/buisson.svg",
+                "position": {
+                    "x": 47.145,
+                    "y": -1.25
+                }
+            },
+            {
+                "iconName": "buisson23",
+                "iconUrl": "img/illustrations/buisson.svg",
+                "position": {
+                    "x": 47.145,
+                    "y": -1.16
+                }
+            },
+            {
+                "iconName": "buisson24",
+                "iconUrl": "img/illustrations/buisson.svg",
+                "position": {
+                    "x": 47.38,
+                    "y": -1.18
+                }
+            },
+            {
+                "iconName": "buisson25",
+                "iconUrl": "img/illustrations/buisson.svg",
+                "position": {
+                    "x": 47.66,
+                    "y": -1.34
+                }
+            },
+            {
+                "iconName": "elephant2",
+                "iconUrl": "img/illustrations/nantes1.svg",
+                "position": {
+                    "x": 47.19,
+                    "y": -1.51
+                }
+            },
+            {
+                "iconName": "zebre2",
+                "iconUrl": "img/illustrations/laboissiere.svg",
+                "position": {
+                    "x": 47.19,
+                    "y": -1.22
+                }
+            },
+            {
+                "iconName": "chateaubriant2",
+                "iconUrl": "img/illustrations/chateaubriant.svg",
+                "position": {
+                    "x": 47.72,
+                    "y": -1.38
+                }
+            },
+            {
+                "iconName": "avion2",
+                "iconUrl": "img/illustrations/bouguenais.svg",
+                "position": {
+                    "x": 47.13,
+                    "y": -1.67
+                }
+            }
+            
+        ],
+        "properties": {
+            "sizeX": 80,
+            "sizeY": 80,
+            "anchorX": 40,
+            "anchorY": 65
+        }
+    },
+
+    "zoomMax": {
+        "icons": [
+            {
+                "iconName": "chateaubriant3",
+                "iconUrl": "img/illustrations/chateaubriant.svg",
+                "position": {
+                    "x": 47.72,
+                    "y": -1.38
+                }
+            },
+            {
+                "iconName": "vache3",
+                "iconUrl": "img/illustrations/plesse.svg",
+                "position": {
+                    "x": 47.55,
+                    "y": -1.89
+                }
+            },
+            {
+                "iconName": "rempart3",
+                "iconUrl": "img/illustrations/guerande.svg",
+                "position": {
+                    "x": 47.33,
+                    "y": -2.43
+                }
+            },
+            {
+                "iconName": "casino3",
+                "iconUrl": "img/illustrations/labaule.svg",
+                "position": {
+                    "x": 47.27,
+                    "y": -2.35
+                }
+            },
+            {
+                "iconName": "paquebot3",
+                "iconUrl": "img/illustrations/stnazaire.svg",
+                "position": {
+                    "x": 47.24,
+                    "y": -2.21
+                }
+            },
+            {
+                "iconName": "buisson31",
+                "iconUrl": "img/illustrations/buisson.svg",
+                "position": {
+                    "x": 47.70,
+                    "y": -1.35
+                }
+            },
+            {
+                "iconName": "buisson32",
+                "iconUrl": "img/illustrations/buisson.svg",
+                "position": {
+                    "x": 47.59,
+                    "y": -1.25
+                }
+            },
+            {
+                "iconName": "arbre321",
+                "iconUrl": "img/illustrations/arbre2.svg",
+                "position": {
+                    "x": 47.43,
+                    "y": -1.15
+                }
+            },
+            {
+                "iconName": "arbre331",
+                "iconUrl": "img/illustrations/arbre3.svg",
+                "position": {
+                    "x": 47.43,
+                    "y": -1.20
+                }
+            },
+            {
+                "iconName": "arbre322",
+                "iconUrl": "img/illustrations/arbre2.svg",
+                "position": {
+                    "x": 47.57,
+                    "y": -1.60
+                }
+            },
+            {
+                "iconName": "arbre311",
+                "iconUrl": "img/illustrations/arbre1.svg",
+                "position": {
+                    "x": 47.42,
+                    "y": -1.64
+                }
+            },
+            {
+                "iconName": "sapin3",
+                "iconUrl": "img/illustrations/sapin.svg",
+                "position": {
+                    "x": 47.50,
+                    "y": -2.05
+                }
+            },
+            {
+                "iconName": "buisson33",
+                "iconUrl": "img/illustrations/buisson.svg",
+                "position": {
+                    "x": 47.42,
+                    "y": -2.00
+                }
+            },
+            {
+                "iconName": "buisson34",
+                "iconUrl": "img/illustrations/buisson.svg",
+                "position": {
+                    "x": 47.42,
+                    "y": -2.10
+                }
+            },
+            {
+                "iconName": "voilier3",
+                "iconUrl": "img/illustrations/pornic.svg",
+                "position": {
+                    "x": 47.10,
+                    "y": -2.10
+                }
+            },
+            {
+                "iconName": "bernerie3",
+                "iconUrl": "img/illustrations/labernerie.svg",
+                "position": {
+                    "x": 47.07,
+                    "y": -2.02
+                }
+            },
+            {
+                "iconName": "centrale3",
+                "iconUrl": "img/illustrations/cordemais.svg",
+                "position": {
+                    "x": 47.28,
+                    "y": -1.87
+                }
+            },
+            {
+                "iconName": "arbre312",
+                "iconUrl": "img/illustrations/arbre1.svg",
+                "position": {
+                    "x": 47.00,
+                    "y": -1.81
+                }
+            },
+            {
+                "iconName": "buisson35",
+                "iconUrl": "img/illustrations/buisson.svg",
+                "position": {
+                    "x": 46.95,
+                    "y": -1.65
+                }
+            },
+            {
+                "iconName": "buisson36",
+                "iconUrl": "img/illustrations/buisson.svg",
+                "position": {
+                    "x": 46.95,
+                    "y": -1.60
+                }
+            },
+            {
+                "iconName": "elephant3",
+                "iconUrl": "img/illustrations/nantes1.svg",
+                "position": {
+                    "x": 47.20,
+                    "y": -1.53
+                }
+            },
+            {
+                "iconName": "avion3",
+                "iconUrl": "img/illustrations/bouguenais.svg",
+                "position": {
+                    "x": 47.16,
+                    "y": -1.61
+                }
+            },
+            {
+                "iconName": "anneaux3",
+                "iconUrl": "img/illustrations/nantes2.svg",
+                "position": {
+                    "x": 47.18,
+                    "y": -1.57
+                }
+            },
+            {
+                "iconName": "vignes3",
+                "iconUrl": "img/illustrations/vallet.svg",
+                "position": {
+                    "x": 47.06,
+                    "y": -1.44
+                }
+            },
+            {
+                "iconName": "guitare3",
+                "iconUrl": "img/illustrations/clisson.svg",
+                "position": {
+                    "x": 47.09,
+                    "y": -1.26
+                }
+            },
+            {
+                "iconName": "zebre3",
+                "iconUrl": "img/illustrations/laboissiere.svg",
+                "position": {
+                    "x": 47.22,
+                    "y": -1.21
+                }
+            }
+
+        ],
+        "properties": {
+            "sizeX": 60,
+            "sizeY": 60,
+            "anchorX": 50,
+            "anchorY": 50
+        }
+    }
+}

@@ -102,346 +102,64 @@ page('/communes-2/affirmation', async function () {
     var map = L.map('map', {
         zoomSnap: 0.5
     }).setView([47.00,-1.70], 8.5);
-    //var bounds = [[47.856,-2.63],[46.845,-0.895]];
-    //var img = L.imageOverlay('img/loireAtlantique.png', bounds).addTo(map);
-    //map.fitBounds(bounds);
 
-    /* ---------------------ICONES CARTES--------------------------- */
-    const iconSize1 = [125,125];
-    const iconAnchor1 = [70,100];
-    const iconSize2 = [80,80];
-    const iconAnchor2 = [40,65];
-    const iconSize3 = [60,60];
-    const iconAnchor3 = [50,50];
-
-    // ICONES 1
-
-    var iconElephant1 = L.icon({
-        iconUrl: 'img/illustrations/nantes1.svg',
-        iconSize: iconSize1,
-        iconAnchor: iconAnchor1
-    });
-
-    var iconChateaubriant1 = L.icon({
-        iconUrl: 'img/illustrations/chateaubriant.svg',
-        iconSize: iconSize1,
-        iconAnchor: iconAnchor1
-    });
-
-    var iconVoilier1 = L.icon({
-        iconUrl: 'img/illustrations/pornic.svg',
-        iconSize: iconSize1,
-        iconAnchor: iconAnchor1
-    });
-
-    var iconArbre1 = L.icon({
-        iconUrl: 'img/illustrations/arbre1.svg',
-        iconSize: iconSize1,
-        iconAnchor: iconAnchor1
-    });
-
-    var iconBuisson1 = L.icon({
-        iconUrl: 'img/illustrations/buisson.svg',
-        iconSize: iconSize1,
-        iconAnchor: iconAnchor1
-    });
-
-    var elephant1 = L.marker([47.15,-1.50], {icon: iconElephant1, interactive: false});
-    var chateaubriant1 = L.marker([47.72,-1.38], {icon: iconChateaubriant1, interactive: false});
-    var voilier1 = L.marker([47.14, -2.10], {icon: iconVoilier1, interactive: false});
-    var arbre1 = L.marker([47.39,-2.21], {icon: iconArbre1, interactive: false});
-    var buisson1 = L.marker([47.53,-1.80], {icon: iconBuisson1, interactive: false});
-    var buisson1bis = L.marker([46.95,-1.70], {icon: iconBuisson1, interactive: false});
-
-    // ICONES 2
-
-    var iconArbre2 = L.icon({
-        iconUrl: 'img/illustrations/arbre1.svg',
-        iconSize: iconSize2,
-        iconAnchor: iconAnchor2
-    });
-
-    var iconBuisson2 = L.icon({
-        iconUrl: 'img/illustrations/buisson.svg',
-        iconSize: iconSize2,
-        iconAnchor: iconAnchor2
-    });
-
-    var iconVache2 = L.icon({
-        iconUrl: 'img/illustrations/plesse.svg',
-        iconSize: iconSize2,
-        iconAnchor: iconAnchor2
-    });
-
-    var iconCentrale2 = L.icon({
-        iconUrl: 'img/illustrations/cordemais.svg',
-        iconSize: iconSize2,
-        iconAnchor: iconAnchor2
-    });
-
-    var iconVoilier2 = L.icon({
-        iconUrl: 'img/illustrations/pornic.svg',
-        iconSize: iconSize2,
-        iconAnchor: iconAnchor2
-    });
-
-    var iconBernerie2 = L.icon({
-        iconUrl: 'img/illustrations/labernerie.svg',
-        iconSize: iconSize2,
-        iconAnchor: iconAnchor2
-    });
-
-    var iconGuitare2 = L.icon({
-        iconUrl: 'img/illustrations/Clisson.svg',
-        iconSize: iconSize2,
-        iconAnchor: iconAnchor2
-    });
-
-    var iconElephant2 = L.icon({
-        iconUrl: 'img/illustrations/nantes1.svg',
-        iconSize: iconSize2,
-        iconAnchor: iconAnchor2
-    });
-
-    var iconZebre2 = L.icon({
-        iconUrl: 'img/illustrations/laboissiere.svg',
-        iconSize: iconSize2,
-        iconAnchor: iconAnchor2
-    });
-
-    var iconChateaubriant2 = L.icon({
-        iconUrl: 'img/illustrations/chateaubriant.svg',
-        iconSize: iconSize2,
-        iconAnchor: iconAnchor2
-    });
-
-    var iconAvion2 = L.icon({
-        iconUrl: 'img/illustrations/bouguenais.svg',
-        iconSize: iconSize2,
-        iconAnchor: iconAnchor2
-    });
-
-    var arbre21 = L.marker([47.35, -2.21], {icon: iconArbre2, interactive: false}); // NO
-    var arbre22 = L.marker([47.43, -1.51], {icon: iconArbre2, interactive: false}); // Nort-sur-Erdre
-    var buisson21 = L.marker([47.00, -1.65], {icon: iconBuisson2, interactive: false}); // SO
-    var buisson22 = L.marker([47.145, -1.25], {icon: iconBuisson2, interactive: false}); // SO Boissiere
-    var buisson23 = L.marker([47.145, -1.16], {icon: iconBuisson2, interactive: false}); // SE Boissiere
-    var buisson24 = L.marker([47.38, -1.18], {icon: iconBuisson2, interactive: false}); // Ancenis
-    var buisson25 = L.marker([47.66, -1.34], {icon: iconBuisson2, interactive: false}); // SE Chateaubriant
-    var vache2 = L.marker([47.54, -1.89], {icon: iconVache2, interactive: false});
-    var centrale2 = L.marker([47.29, -1.84], {icon: iconCentrale2, interactive: false});
-    var voilier2 = L.marker([47.10, -2.13], {icon: iconVoilier2, interactive: false});
-    var bernerie2 = L.marker([47.00, -2.00], {icon: iconBernerie2, interactive: false});
-    var guitare2 = L.marker([47.10, -1.27], {icon: iconGuitare2, interactive: false});
-    var elephant2 = L.marker([47.19, -1.51], {icon: iconElephant2, interactive: false});
-    var zebre2 = L.marker([47.19, -1.22], {icon: iconZebre2, interactive: false});
-    var chateaubriant2 = L.marker([47.72, -1.38], {icon: iconChateaubriant2, interactive: false});
-    var avion2 = L.marker([47.13, -1.67], {icon: iconAvion2, interactive: false});
-
-    // ICONES 3
-
-    var iconChateaubriant3 = L.icon({
-        iconUrl: 'img/illustrations/chateaubriant.svg',
-        iconSize: iconSize2,
-        iconAnchor: iconAnchor2
-    });
-
-    var iconBuisson3 = L.icon({
-        iconUrl: 'img/illustrations/buisson.svg',
-        iconSize: iconSize3,
-        iconAnchor: iconAnchor3
-    });
-
-    var iconArbre31 = L.icon({
-        iconUrl: 'img/illustrations/arbre1.svg',
-        iconSize: iconSize3,
-        iconAnchor: iconAnchor3
-    });
-
-    var iconArbre32 = L.icon({
-        iconUrl: 'img/illustrations/arbre2.svg',
-        iconSize: iconSize3,
-        iconAnchor: iconAnchor3
-    });
-
-    var iconArbre33 = L.icon({
-        iconUrl: 'img/illustrations/arbre3.svg',
-        iconSize: iconSize3,
-        iconAnchor: iconAnchor3
-    });
-
-    var iconVache3 = L.icon({
-        iconUrl: 'img/illustrations/plesse.svg',
-        iconSize: iconSize3,
-        iconAnchor: iconAnchor3
-    });
-
-    var iconSapin3 = L.icon({
-        iconUrl: 'img/illustrations/sapin.svg',
-        iconSize: iconSize3,
-        iconAnchor: iconAnchor3
-    });
-
-    var iconRemparts3 = L.icon({
-        iconUrl: 'img/illustrations/guerande.svg',
-        iconSize: iconSize3,
-        iconAnchor: iconAnchor3
-    });
-
-    var iconCasino3 = L.icon({
-        iconUrl: 'img/illustrations/labaule.svg',
-        iconSize: iconSize3,
-        iconAnchor: iconAnchor3
-    });
-
-    var iconPaquebot3 = L.icon({
-        iconUrl: 'img/illustrations/stnazaire.svg',
-        iconSize: iconSize3,
-        iconAnchor: iconAnchor3
-    });
-
-    var iconVoilier3 = L.icon({
-        iconUrl: 'img/illustrations/pornic.svg',
-        iconSize: iconSize3,
-        iconAnchor: iconAnchor3
-    });
-
-    var iconBernerie3 = L.icon({
-        iconUrl: 'img/illustrations/labernerie.svg',
-        iconSize: iconSize3,
-        iconAnchor: iconAnchor3
-    });
-
-    var iconCentrale3 = L.icon({
-        iconUrl: 'img/illustrations/cordemais.svg',
-        iconSize: iconSize3,
-        iconAnchor: iconAnchor3
-    });
-
-    var iconElephant3 = L.icon({
-        iconUrl: 'img/illustrations/nantes1.svg',
-        iconSize: iconSize3,
-        iconAnchor: iconAnchor3
-    });
-
-    var iconAvion3 = L.icon({
-        iconUrl: 'img/illustrations/bouguenais.svg',
-        iconSize: iconSize3,
-        iconAnchor: iconAnchor3
-    });
-
-    var iconAnneaux3 = L.icon({
-        iconUrl: 'img/illustrations/nantes2.svg',
-        iconSize: iconSize3,
-        iconAnchor: iconAnchor3
-    });
-
-    var iconSapin3 = L.icon({
-        iconUrl: 'img/illustrations/sapin.svg',
-        iconSize: iconSize3,
-        iconAnchor: iconAnchor3
-    });
-
-    var iconVignes3 = L.icon({
-        iconUrl: 'img/illustrations/vallet.svg',
-        iconSize: iconSize3,
-        iconAnchor: iconAnchor3
-    });
-
-    var iconGuitare3 = L.icon({
-        iconUrl: 'img/illustrations/Clisson.svg',
-        iconSize: iconSize3,
-        iconAnchor: iconAnchor3
-    });
-
-    var iconZebre3 = L.icon({
-        iconUrl: 'img/illustrations/laboissiere.svg',
-        iconSize: iconSize3,
-        iconAnchor: iconAnchor3
-    });
-
-    var chateaubriant3 = L.marker([47.72,-1.38], {icon: iconChateaubriant3, interactive: false});
-    var buisson31 = L.marker([47.70,-1.35], {icon: iconBuisson3, interactive: false}); // SO Chateaubriant
-    var buisson32 = L.marker([47.59,-1.25], {icon: iconBuisson3, interactive: false}); // Le Pin / Petit Auverné
-    var arbre321 = L.marker([47.43,-1.15], {icon: iconArbre32, interactive: false}); // NO Ancenis
-    var arbre331 = L.marker([47.43,-1.20], {icon: iconArbre33, interactive: false}); // NO Ancenis
-    var arbre322 = L.marker([47.57,-1.60], {icon: iconArbre32, interactive: false}); // Nozay
-    var arbre311 = L.marker([47.42,-1.64], {icon: iconArbre31, interactive: false}); // Heric
-    var vache3 = L.marker([47.55,-1.89], {icon: iconVache3, interactive: false});
-    var sapin3 = L.marker([47.50,-2.05], {icon: iconSapin3, interactive: false});
-    var buisson33 = L.marker([47.42,-2.00], {icon: iconBuisson3, interactive: false}); // Campbon1
-    var buisson34 = L.marker([47.42,-2.10], {icon: iconBuisson3, interactive: false}); // Campbon2
-    var remparts3 = L.marker([47.33,-2.43], {icon: iconRemparts3, interactive: false});
-    var casino3 = L.marker([47.27,-2.35], {icon: iconCasino3, interactive: false});
-    var paquebot3 = L.marker([47.24,-2.21], {icon: iconPaquebot3, interactive: false});
-    var voilier3 = L.marker([47.10,-2.10], {icon: iconVoilier3, interactive: false});
-    var bernerie3 = L.marker([47.07,-2.02], {icon: iconBernerie3, interactive: false});
-    var centrale3 = L.marker([47.28,-1.87], {icon: iconCentrale3, interactive: false});
-    var arbre312 = L.marker([47.00,-1.81], {icon: iconArbre31, interactive: false}); // Machecoul
-    var buisson35 = L.marker([46.95,-1.65], {icon: iconBuisson3, interactive: false}); // Corcoué sur Logne 1
-    var buisson36 = L.marker([46.95,-1.60], {icon: iconBuisson3, interactive: false}); // Corcoué sur Logne 2
-    var elephant3 = L.marker([47.20,-1.53], {icon: iconElephant3, interactive: false});
-    var avion3 = L.marker([47.16,-1.61], {icon: iconAvion3, interactive: false});
-    var anneaux3 = L.marker([47.18,-1.57], {icon: iconAnneaux3, interactive: false});
-    var vignes3 = L.marker([47.06,-1.44], {icon: iconVignes3, interactive: false});
-    var guitare3 = L.marker([47.09,-1.26], {icon: iconGuitare3, interactive: false});
-    var zebre3 = L.marker([47.22,-1.21], {icon: iconZebre3, interactive: false});
+    let responseIcons = await fetch('api/icons');
+    let iconsJson = await responseIcons.json();
 
     var iconsGroup1 = new L.FeatureGroup();
     var iconsGroup2 = new L.FeatureGroup();
     var iconsGroup3 = new L.FeatureGroup();
 
-    iconsGroup1.addLayer(elephant1);
-    iconsGroup1.addLayer(chateaubriant1);
-    iconsGroup1.addLayer(voilier1);
-    iconsGroup1.addLayer(arbre1);
-    iconsGroup1.addLayer(buisson1);
-    iconsGroup1.addLayer(buisson1bis);
+    iconsJson['zoomMin']['icons'].forEach(iconData => {
+        iconsGroup1.addLayer(L.marker([
+                iconData['position']['x'], 
+                iconData['position']['y']
+            ],
+            {
+                icon: L.icon({
+                    iconUrl: iconData['iconUrl'],
+                    iconSize: [iconsJson['zoomMin']['properties']['sizeX'],iconsJson['zoomMin']['properties']['sizeY']],
+                    iconAnchor: [iconsJson['zoomMin']['properties']['anchorX'],iconsJson['zoomMin']['properties']['anchorY']]
+                }),
+                interactive: false
+            }
+        ));
 
-    iconsGroup2.addLayer(arbre21);
-    iconsGroup2.addLayer(arbre22);
-    iconsGroup2.addLayer(vache2);
-    iconsGroup2.addLayer(centrale2);
-    iconsGroup2.addLayer(voilier2);
-    iconsGroup2.addLayer(bernerie2);
-    iconsGroup2.addLayer(buisson21);
-    iconsGroup2.addLayer(guitare2);
-    iconsGroup2.addLayer(elephant2);
-    iconsGroup2.addLayer(zebre2);
-    iconsGroup2.addLayer(buisson22);
-    iconsGroup2.addLayer(buisson23);
-    iconsGroup2.addLayer(buisson24);
-    iconsGroup2.addLayer(chateaubriant2);
-    iconsGroup2.addLayer(buisson25);
-    iconsGroup2.addLayer(avion2);
+    });
 
-    iconsGroup3.addLayer(chateaubriant3);
-    iconsGroup3.addLayer(buisson31);
-    iconsGroup3.addLayer(buisson32);
-    iconsGroup3.addLayer(arbre321);
-    iconsGroup3.addLayer(arbre331);
-    iconsGroup3.addLayer(arbre322);
-    iconsGroup3.addLayer(arbre311);
-    iconsGroup3.addLayer(vache3);
-    iconsGroup3.addLayer(sapin3);
-    iconsGroup3.addLayer(buisson33);
-    iconsGroup3.addLayer(buisson34);
-    iconsGroup3.addLayer(remparts3);
-    iconsGroup3.addLayer(casino3);
-    iconsGroup3.addLayer(paquebot3);
-    iconsGroup3.addLayer(voilier3);
-    iconsGroup3.addLayer(bernerie3);
-    iconsGroup3.addLayer(centrale3);
-    iconsGroup3.addLayer(arbre312);
-    iconsGroup3.addLayer(buisson35);
-    iconsGroup3.addLayer(buisson36);
-    iconsGroup3.addLayer(elephant3);
-    iconsGroup3.addLayer(avion3);
-    iconsGroup3.addLayer(anneaux3);
-    iconsGroup3.addLayer(vignes3);
-    iconsGroup3.addLayer(guitare3);
-    iconsGroup3.addLayer(zebre3);
+    iconsJson['zoomInter']['icons'].forEach(iconData => {
+        iconsGroup2.addLayer(L.marker([
+                iconData['position']['x'], 
+                iconData['position']['y']
+            ],
+            {
+                icon: L.icon({
+                    iconUrl: iconData['iconUrl'],
+                    iconSize: [iconsJson['zoomInter']['properties']['sizeX'],iconsJson['zoomInter']['properties']['sizeY']],
+                    iconAnchor: [iconsJson['zoomInter']['properties']['anchorX'],iconsJson['zoomInter']['properties']['anchorY']]
+                }),
+                interactive: false
+            }
+        ));
 
+    });
+
+    iconsJson['zoomMax']['icons'].forEach(iconData => {
+        iconsGroup3.addLayer(L.marker([
+                iconData['position']['x'], 
+                iconData['position']['y']
+            ],
+            {
+                icon: L.icon({
+                    iconUrl: iconData['iconUrl'],
+                    iconSize: [iconsJson['zoomMax']['properties']['sizeX'],iconsJson['zoomMax']['properties']['sizeY']],
+                    iconAnchor: [iconsJson['zoomMax']['properties']['anchorX'],iconsJson['zoomMax']['properties']['anchorY']]
+                }),
+                interactive: false
+            }
+        ));
+
+    });
 
     map.on('zoomend', function() {
         let zoom = map.getZoom();
