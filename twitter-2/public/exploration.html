@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>exploration</title>
+    <link rel="stylesheet" href="css/exploration.css">
+    <script src="js/exploration.js" defer></script>
+</head>
+
+<body>
+    <div id="container">
+        <img id="return" src="img/return.svg">
+        <div id="categorie">
+            <p id="text-categorie" class="selec-candidat">Sélectionnez une catégorie</p>
+            <div id="followers-commun">
+                <p>Découvrez avec qui ce·tte candidat·e<br>a le plus de followers en commun</p>
+                <button id="followers" type="Button">Followers en commun</button>
+            </div>
+            <div id="choix-theme">
+                <p>Découvrez quel·le candidat·e tweete<br>autant que lui/elle sur ce sujet</p>
+                <ul>
+                    <li><button id="environnement" type="Button">Environnement</button></li>
+                    <li><button id="economie" type="Button">Économie</button></li>
+                    <li><button id="sante" type="Button">Santé</button></li>
+                    <li><button id="education" type="Button">Éducation</button></li>
+                </ul>
+            </div>
+            <p id="reminder_candidate"></p>
+            <button id="autre_candidat">Choisir un·e autre candidat·e</button>
+
+        </div>
+        <div id="selection-candidat">
+            <p id="text-selec-candidat">Sélectionnez un candidat</p>
+            <ul class="selec-candidat" id="list-candidat">
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

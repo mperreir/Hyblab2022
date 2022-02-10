@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0
+}
+
+
+@font-face {
+    font-family: 'blatantregular';
+    src: url('../font/blatant-webfont.woff') format('woff'),
+         url('../font/blatant-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#container {
+    background-color: white;
+    color: black;
+    font-size: 30%;
+    height:100vh;
+    overflow: hidden;
+    text-align: center;
+}
+
+button{font-family: 'blatantregular';}
+
+/* section du haut croix + numéro */
+
+#exit {
+    padding-top: 7%;
+    margin-left: 79%;
+    width: 8%;
+}
+
+
+
+/* section avec les questions */
+
+#question-section{
+    margin-top: 5vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    text-align: center;
+    height:10vh;
+}
+
+html,body {
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    /* to avoid slider bugs on some browsers */
+    font-family: 'blatantregular';
+    height:100%;
+    width:100%;
+    min-height: 100%;
+}
+
+/* section des réponses */
+
+#reponses{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding-top: 4vh;
+    height: 48vh;
+}
+
+.answer-button{
+    background-color: #5571E5;
+    color: #FFFFFF;
+    border-radius: 19px;
+    width:60%;
+    height:6vh;
+    margin-top: 10vh;
+    border:none;
+    font-size: 2.8vh;
+}
+
+/* setion de la barre de progression */
+
+#progression-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 21vh;
+}
+
+#bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:1.5vh;
+    width: 80%;
+}
+
+#point1{
+  
+    width: 3vh;
+    height: 3vh;
+    border-radius: 50%;
+    border : solid 1px #1A367A;
+}
+#point2{
+  
+    width: 3vh;
+    height: 3vh;
+    border-radius: 50%;
+    border : solid 1px #1A367A;
+}
+#point3{
+ 
+    width: 3vh;
+    height: 3vh;
+    border-radius: 50%;
+    border : solid 1px #1A367A;
+}
+
+.line{
+    width: 10vw;
+    height:0.1vh;
+    background-color: #1A367A;
+    border : solid 1px #1A367A;
+}
+
+
+/* ---------- Important media queries for easy responsive content :-) ----------------- */
+/* Can be adapted for other ratios that 9:16 or for horizontal content (ex: 16:9) */
+
+/* This media query ensures that we allways will the width of the screen */
+/* as long as the screen aspect ratio is below 9:16 */
+@media screen and (max-aspect-ratio: 9/16) {
+    #container {
+        /* margin-top: calc((100vh - 100 * 16vw / 9) / 2); */
+        width: 100vw;
+        /* height: calc(100 * 16vw / 9); */
+    }
+
+    /* We set a default font size here. It will be the base for all other font sizes */
+    /* Here the font size is proportional to display width */
+    body {
+        font-size: calc(12vw*16/9);
+    }
+}
+
+/* This media query ensures that we allways will the height of the screen */
+/* as long as the screen aspect ratio is higher than 9:16 */
+@media screen and (min-aspect-ratio: 9/16) {
+    #container {
+        margin-left: calc((100vw - 100 * 9vh / 16) / 2);
+        width: calc(100 * 9vh / 16);
+        height: 100vh;
+    }
+
+    /* We set a default font size here. It will be the base for all other font sizes */
+    /* Here the font size is proportional to display height */
+    body {
+        font-size: 12vh;
+    }
+}

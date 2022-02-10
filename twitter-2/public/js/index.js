@@ -8,22 +8,20 @@ const swiper = new Swiper("#mySwiper", {
     clickable: true,
   },
 });
+sessionStorage.clear();
+sessionStorage.setItem('question', '1');
 
-// Wait for the video to preload and display 1st slide
-const video = videojs(document.querySelector('#background-video'));
-video.one('loadeddata', (event) => { 
-  // fade out the loader "slide"
-  // and send it to the back (z-index = -1)
-  anime({
-    delay: 1000,
-    targets: '#loader',
-    opacity: '0',
-    'z-index' : -1,
-    easing: 'easeOutQuad',
+// Init first slide
+initSlide1();
+
+window.onload = () => {
+  window.scrollTo(0, 25);
+
+  document.getElementById("button-slide-2").addEventListener("click", () => {
+    window.location.href = "./commencer_partie.html";
   });
-  // Init first slide
-  initSlide1();
-  // Debug trace because the loadeddata event is
-  // sometime not fired
-  console.log("Video loaded");
-});
+
+  document.getElementById("button-explorer").addEventListener("click", () => {
+    window.location.href = "./commencer_explo.html";
+  });
+}

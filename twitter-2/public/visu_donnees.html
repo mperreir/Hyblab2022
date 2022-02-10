@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>Hyblab 2022</title>
+    <script src="js/visu_donnees.js" defer></script>
+    <!-- Load d3.js -->
+    <script src="https://d3js.org/d3.v6.js"></script>
+    <link rel="stylesheet" href="css/visu_donnees.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <video src="./img/barre-chargement.mp4" style="object-fit: cover;width:100%;height:700px;" autoplay muted></video>
+    <div id="container">
+        <section id="top-section">
+            <img src="img/home.svg" id="exit">
+            <div style="text-align: center !important;padding-top: 15%;">
+                <p id="title"></p>
+            </div>
+        </section>
+
+        <div id="main">
+            <!-- Create a div where the graph will take place -->
+            <div id="dataviz"></div>
+            <section id="buttons">
+                <button id="other_candidate">
+                    Choisir un·e autre candidat·e
+                </button>
+                <button id="other_category">
+                    Choisir une autre catégorie
+                </button>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,137 @@
+[
+  {
+    "userName": "UPR_Asselineau",
+    "firstName": "François",
+    "lastName": "Asselineau",
+    "displayFullName": "François Asselineau",
+    "displayShortName": "F. Asselineau",
+    "imageLinkCercle": "cercle-asselineau",
+    "imageLink": "françois-asselineau"
+  },
+  {
+    "userName": "dupontaignan",
+    "firstName": "Nicolas",
+    "lastName": "Dupont Aignan",
+    "displayFullName": "Nicolas Dupont Aignan",
+    "displayShortName": "N. Dupont Aignan",
+    "imageLinkCercle": "cercle-dupontaignan",
+    "imageLink": "nicolas-dupont-aignan"
+  },
+  {
+    "userName": "Anne_Hidalgo",
+    "firstName": "Anne",
+    "lastName": "Hidalgo",
+    "displayFullName": "Anne Hidalgo",
+    "displayShortName": "A. Hidalgo",
+    "imageLinkCercle": "cercle-hidalgo",
+    "imageLink": "anne-hidalgo"
+  },
+  {
+    "userName": "yjadot",
+    "firstName": "Yannick",
+    "lastName": "Jadot",
+    "displayFullName": "Yannick Jadot",
+    "displayShortName": "Y. Jadot",
+    "imageLinkCercle": "cercle-jadot",
+    "imageLink": "yannick-jadot"
+  },
+  {
+    "userName": "AnasseKazib",
+    "firstName": "Anasse",
+    "lastName": "Kazib",
+    "displayFullName": "Anasse Kazib",
+    "displayShortName": "A. Kazib",
+    "imageLinkCercle": "cercle-kazib",
+    "imageLink": "anasse-kazib"
+  },
+  {
+    "userName": "jeanlassalle",
+    "firstName": "Jean",
+    "lastName": "Lassalle",
+    "displayFullName": "Jean Lassalle",
+    "displayShortName": "J. Lassalle",
+    "imageLinkCercle": "cercle-lassalle",
+    "imageLink": "jean-lassalle"
+  },
+  {
+    "userName": "MLP_officiel",
+    "firstName": "Marine",
+    "lastName": "Le Pen",
+    "displayFullName": "Marine Le Pen",
+    "displayShortName": "M. Le Pen",
+    "imageLinkCercle": "cercle-lepen",
+    "imageLink": "marine-le-pen"
+  },
+  {
+    "userName": "EmmanuelMacron",
+    "firstName": "Emmanuel",
+    "lastName": "Macron",
+    "displayFullName": "Emmanuel Macron",
+    "displayShortName": "E. Macron",
+    "imageLinkCercle": "cercle-macron",
+    "imageLink": "emmanuel-macron"
+  },
+  {
+    "userName": "JLMelenchon",
+    "firstName": "Jean Luc",
+    "lastName": "Mélenchon",
+    "displayFullName": "Jean Luc Mélenchon",
+    "displayShortName": "J.L. Mélenchon",
+    "imageLinkCercle": "cercle-melenchon",
+    "imageLink": "jean-luc-melenchon"
+  },
+  {
+    "userName": "vpecresse",
+    "firstName": "Valérie",
+    "lastName": "Pécresse",
+    "displayFullName": "Valérie Pécresse",
+    "displayShortName": "V. Pécresse",
+    "imageLinkCercle": "cercle-pecresse",
+    "imageLink": "valerie-pecresse"
+  },
+  {
+    "userName": "f_philippot",
+    "firstName": "Florian",
+    "lastName": "Philippot",
+    "displayFullName": "Florian Philippot",
+    "displayShortName": "F. Philippot",
+    "imageLinkCercle": "cercle-philippot",
+    "imageLink": "florian-philippot"
+  },
+  {
+    "userName": "PhilippePoutou",
+    "firstName": "Philippe",
+    "lastName": "Poutou",
+    "displayFullName": "Philippe Poutou",
+    "displayShortName": "P. Poutou",
+    "imageLinkCercle": "cercle-poutou",
+    "imageLink": "philippe-poutou"
+  },
+  {
+    "userName": "Fabien_Roussel",
+    "firstName": "Fabien",
+    "lastName": "Roussel",
+    "displayFullName": "Fabien Roussel",
+    "displayShortName": "F. Roussel",
+    "imageLinkCercle": "cercle-roussel",
+    "imageLink": "fabien-roussel"
+  },
+  {
+    "userName": "ChTaubira",
+    "firstName": "Christiane",
+    "lastName": "Taubira",
+    "displayFullName": "Christiane Taubira",
+    "displayShortName": "C. Taubira",
+    "imageLinkCercle": "cercle-taubira",
+    "imageLink": "christiane-taubira"
+  },
+  {
+    "userName": "ZemmourEric",
+    "firstName": "Eric",
+    "lastName": "Zemmour",
+    "displayFullName": "Eric Zemmour",
+    "displayShortName": "E. Zemmour",
+    "imageLinkCercle": "cercle-zemmour",
+    "imageLink": "eric-zemmour"
+  }
+]

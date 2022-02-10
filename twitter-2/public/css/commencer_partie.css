@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'blatantregular';
+}
+
+body {
+    overflow: hidden;
+    font-family: 'blatantregular';
+    background-color: black;
+}
+
+@font-face {
+    font-family: 'blatantregular';
+    src: url('../font/blatant-webfont.woff') format('woff'),
+        url('../font/blatant-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#container {
+    color: #1A367A;
+    background-color: white;
+    font-size: 4vh;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 25px;
+}
+
+button {
+    font-family: 'blatantregular';
+}
+
+#exit {
+    padding-top: 7%;
+    margin-left: 79%;
+    width: 8%;
+}
+
+#testez_connaissances {
+    margin-left: 10%;
+    width: 75%;
+}
+
+#testez_connaissances p {
+    margin-top: 3.5vh;
+}
+
+#commencer-section {
+    display: flex;
+    justify-content: center;
+}
+
+#commencer {
+    background-color: #5571E5;
+    color: #FFFFFF;
+    border-radius: 19px;
+    font-size: 3vh;
+    height: 6vh;
+    margin-top: 5vh;
+    padding-left: 2%;
+    padding-right: 2%;
+    border: none;
+    width: 80%;
+}
+
+.lato {
+    font-size: 2.15vh;
+    font-family: 'Lato', sans-serif;
+    white-space: nowrap;
+}
+
+/* ---------- Important media queries for easy responsive content :-) ----------------- */
+/* Can be adapted for other ratios that 9:16 or for horizontal content (ex: 16:9) */
+
+/* This media query ensures that we allways will the width of the screen */
+/* as long as the screen aspect ratio is below 9:16 */
+@media screen and (max-aspect-ratio: 9/16) {
+    #container {
+        /* margin-top: calc((100vh - 100 * 16vw / 9) / 2); */
+        width: 100vw;
+        /* height: calc(100 * 16vw / 9); */
+    }
+
+    /* We set a default font size here. It will be the base for all other font sizes */
+    /* Here the font size is proportional to display width */
+    body {
+        font-size: calc(12vw*16/9);
+    }
+}
+
+/* This media query ensures that we allways will the height of the screen */
+/* as long as the screen aspect ratio is higher than 9:16 */
+@media screen and (min-aspect-ratio: 9/16) {
+    #container {
+        /* margin-left: calc((100vw - 100 * 9vh / 16) / 2); */
+        /* width: calc(100 * 9vh / 16); */
+        height: 100vh;
+        margin-left: calc((100vw - 100 * 9vh / 16) / 2);
+        width: calc(100 * 9vh / 16);
+    }
+
+    /* We set a default font size here. It will be the base for all other font sizes */
+    /* Here the font size is proportional to display height */
+    body {
+        font-size: 12vh;
+    }
+}
