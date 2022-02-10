@@ -14,7 +14,9 @@ const DB_KEY_FOLLOWERS = "candidat_followers";
 const DB_KEY_CONFIG = "config";
 
 
-// adapteur pour optimiser les accès disques
+/**
+ * Adapter for db to limite db access on disque and speed up fetch data.
+ */
 class DbAdapter {
     constructor(db) {
         this.db = db;
@@ -31,12 +33,19 @@ class DbAdapter {
     }
 }
 
+
 const db = new DbAdapter(db_sileco);
+
+// init db if no data
 if (Object.keys(db.data).length === 0)
     initDb();
 
-// https://weeknumber.com/how-to/javascript
-// Returns the ISO week of the date.
+/**
+ * Util fonction on date
+ * https://weeknumber.com/how-to/javascript
+ * Returns the ISO week of the date.
+ * @returns {number}
+ */
 Date.prototype.getWeek = function() {
     let date = new Date(this.getTime());
     date.setHours(0, 0, 0, 0);
@@ -49,8 +58,11 @@ Date.prototype.getWeek = function() {
         - 3 + (week1.getDay() + 6) % 7) / 7);
 }
 
-
-// Source: http://stackoverflow.com/questions/497790
+/**
+ * Source: http://stackoverflow.com/questions/497790
+ * Util set of fonctions on date.
+ * @type {{compare: (function(*=, *=): number|number), convert: (function(*=): *|Date|number), inRange: (function(*=, *=, *=): boolean|number)}}
+ */
 const Dates = {
     convert:function(d) {
         // Converts the date in d to a date-object. The input can be:
@@ -103,17 +115,24 @@ const Dates = {
     }
 }
 
-
+/**
+ * Return True if a date is in the same week from this.
+ * @param date
+ * @returns {boolean}
+ */
 Date.prototype.isSameWeek = function(date)
 {
     return this.getFullYear() === date.getFullYear()
         && this.getWeek() === date.getWeek();
 };
 
+/**
+ * Return True if a date is between now and in one floating week before from this.
+ * @param date
+ * @returns {number}
+ */
 Date.prototype.isBetweenWeekBefore = function(date)
 {
-    // return this.getFullYear() === date.getFullYear()
-    //     && this.getWeek() === date.getWeek();
     const semaine_flottante = new Date(this.getFullYear(), this.getMonth(), this.getDay() - 7);
     return Dates.inRange(date, semaine_flottante, this);
 };
@@ -125,92 +144,86 @@ module.exports.themes_name = DB_KEY_THEMES;
 module.exports.candidat_followers_name = DB_KEY_FOLLOWERS;
 module.exports.config_name = DB_KEY_CONFIG;
 
+/**
+ * Fetch tweets and return only tweet from created between now and in one floating week before and from getTweets().
+ * @returns {*}
+ */
 module.exports.getTweetsSemaine = () => {
     return module.exports.getTweets()
         .filter(tweet => (new Date()).isBetweenWeekBefore(new Date(parseInt(tweet.created_at) * 1000)));
 }
 
+/**
+ * Fetch candidats from db and filter tweets to return only tweet witch come from getCandidats().
+ * @returns tweets List of filtered tweets
+ */
 module.exports.getTweets = () => {
     let candidats_id = module.exports.getCandidats().map(c => parseInt(c.id));
     return db.fetch(DB_KEY_TWEETS).filter((tweet) => candidats_id.includes(parseInt(tweet.user_id)));
 }
 
+/**
+ * Fetch candidats from db and filter to return only 12 candidats with the most followers
+ * @returns candidats List of filtered candidats
+ */
 module.exports.getCandidats = () => {
-    const followers = db.fetch(DB_KEY_FOLLOWERS);
-    // const followers_date = followers.map(candidat =>
-    //     Object.entries(candidat)
-    //     .map(([key, value]) => {new Date(key)})
-    //     .sort((date1, date2) => date1 - date2));
-
     return db.fetch(DB_KEY_CANDIDATS)
-        .sort((a, b) => {
-            // const b_followers_date = followers_date[b.id];
-            // const a_followers_date = followers_date[a.id]
-
-            return b.followers - a.followers;
-
-            // return parseInt(b_followers ? b_followers[b_followers.length - 1] : b.followers)
-            // - parseInt(a_followers ? a_followers[a_followers.length - 1] : a.followers);
-        })
+        .sort((a, b) =>  b.followers - a.followers)
         .slice(0, 12);
 }
 
-// // INIT DB
-//
-// // INIT Candidats
-// textProcessing.Parser.getValuesFromCSV(path.join(__dirname, 'data/account_information/candidats_information.csv'), candidats  => {
-//     let date_string = new Date().getFullYear() + "-" + (new Date().getMonth()+1) + "-" + new Date().getDate();
-//     let older_followers = db.fetch(module.exports.candidat_followers_name);
-//     if (older_followers === null) older_followers = {};
-//     candidats.forEach((candidat) => {
-//         if (older_followers[candidat.id] === undefined) {
-//             older_followers[candidat.id] = {};
-//         }
-//         older_followers[candidat.id][date_string] = candidat.followers;
-//     });
-//     db.set(module.exports.candidat_followers_name, older_followers);
-//     db.set(module.exports.candidats_name, candidats);
-// });
-
-// // INIT Tweets
-// const labeler = new textProcessing.Labeler(db.fetch(module.exports.themes_name));
-// textProcessing.Parser.getTweetsJSONFromFile(path.join(__dirname, '/data/tweets/tweets_candidats_4.csv'), ts  => {
-//     // let older_tweets = db.fetch(module.exports.tweets_name);
-//     // if (older_tweets === null) older_tweets = [];
-//     ts = labeler.labellingTweets(ts);//.concat(older_tweets);
-//     db.set(module.exports.tweets_name, ts);
-//     // console.log("mano tweets labeling done")
-// });
-
-module.exports.tweets_update = (file, onFinish) => {
+/**
+ * Update tweets from string with csv format
+ * @param csv_string
+ * @param onFinish callback function with no parameters when functions finished
+ */
+module.exports.tweets_update = (csv_string, onFinish) => {
     const labeler = new textProcessing.Labeler(db.fetch(DB_KEY_THEMES));
-    textProcessing.Parser.getValuesFromCSVString(file, ts  => {
-        // let older_tweets = db.fetch(module.exports.tweets_name);
-        // if (older_tweets === null) older_tweets = [];
-        ts = labeler.labellingTweets(ts);//.concat(older_tweets);
+    textProcessing.Parser.getValuesFromCSVString(csv_string, ts  => {
+        ts = labeler.labellingTweets(ts);
         db.set(DB_KEY_TWEETS, ts);
         onFinish();
     });
 }
 
-module.exports.candidats_update = (file, onFinish) => {
-    file = file.replace('﻿', '');
-    textProcessing.Parser.getValuesFromCSVString(file, candidats  => {
-
+/**
+ * Update candidats from string with csv format
+ * @param csv_string
+ * @param onFinish callback function with no parameters when functions finished
+ */
+module.exports.candidats_update = (csv_string, onFinish) => {
+    csv_string = csv_string.replace('﻿', '');
+    textProcessing.Parser.getValuesFromCSVString(csv_string, candidats  => {
         db.set(DB_KEY_CANDIDATS, candidats);
-
         onFinish();
     });
 }
 
+/**
+ * Updates configurations
+ *
+ * Exemple config:
+ *  {
+ *      fetch_delay_sec: 3600,
+ *      url_fetch_candidats: "https://cdn-apps.letelegramme.fr/twitter/candidats_information_filtre.csv",
+ *      url_fetch_followers: "https://cdn-apps.letelegramme.fr/twitter/nb_followers_par_candidat_et_par_jour.csv",
+ *      url_fetch_tweets: "https://cdn-apps.letelegramme.fr/twitter/tweets_candidats.csv",
+ *  }
+ *
+ * @param config
+ */
 module.exports.config_update = (config) => {
     db.set(DB_KEY_CONFIG, config);
 }
 
-module.exports.followers_update = (file, onFinish) => {
-    textProcessing.Parser.getValuesFromCSVString(file, candidats_line  => {
-        // let older_tweets = db.fetch(module.exports.tweets_name);
-        // if (older_tweets === null) older_tweets = [];
+
+/**
+ * Update followers numbers from string with csv format
+ * @param csv_string
+ * @param onFinish callback function with no parameters when functions finished
+ */
+module.exports.followers_update = (csv_string, onFinish) => {
+    textProcessing.Parser.getValuesFromCSVString(csv_string, candidats_line  => {
         const candidats = {}
         db.fetch(DB_KEY_CANDIDATS)
             .forEach(candidat => candidats[candidat.username] = candidat.id);
@@ -225,23 +238,16 @@ module.exports.followers_update = (file, onFinish) => {
                 = candidat_line.followers;
         }))
 
-
-        // let date_string = new Date().getFullYear() + "-" + (new Date().getMonth()+1) + "-" + new Date().getDate();
-        // let older_followers = db.fetch(module.exports.candidat_followers_name);
-        // if (older_followers === null) older_followers = {};
-        // candidats.forEach((candidat) => {
-        //     if (older_followers[candidat.id] === undefined) {
-        //         older_followers[candidat.id] = {};
-        //     }
-        //     older_followers[candidat.id][date_string] = candidat.followers;
-        // });
         db.set(DB_KEY_FOLLOWERS, followers);
-        // db.set(module.exports.candidats_name, candidats);
 
         onFinish();
     });
 }
 
+/**
+ * Init the db with default data and fetch data
+ * @returns {Promise<void>}
+ */
 async function initDb() {
     // INIT Themes
     db.set(DB_KEY_THEMES, [
@@ -280,20 +286,29 @@ async function initDb() {
     await fetchData(false);
 }
 
+/**
+ * Launch the auto fetch data
+ * This need to be launch only maximum one time
+ * @returns {Promise<void>}
+ */
 async function autoFetchData() {
     while (true) {
         await new Promise(resolve => setTimeout(resolve, 60000));
         await fetchData(true);
-        // await new Promise(resolve => setTimeout(resolve, 600000));
     }
 }
 
+/**
+ * Fetch new data from source with registered configuration in the db
+ * @param wait_fetch_delay wait specific delay in seconds from config.fetch_delay_sec if True
+ * @returns {Promise<void>}
+ */
 async function fetchData(wait_fetch_delay = true) {
     try {
         let config = db.fetch(DB_KEY_CONFIG);
         if (config === undefined) {
             config = {
-                fetch_delay_sec: 60*60*6,
+                fetch_delay_sec: 3600,
                 url_fetch_candidats: "https://cdn-apps.letelegramme.fr/twitter/candidats_information_filtre.csv",
                 url_fetch_followers: "https://cdn-apps.letelegramme.fr/twitter/nb_followers_par_candidat_et_par_jour.csv",
                 url_fetch_tweets: "https://cdn-apps.letelegramme.fr/twitter/tweets_candidats.csv",
