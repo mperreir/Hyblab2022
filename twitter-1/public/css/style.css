@@ -23,6 +23,7 @@ body{
 html {
     height: -webkit-fill-available;
 }
+
 body {
     padding: 0;
     margin: 0;
@@ -43,19 +44,6 @@ body {
     position:absolute;
 }
 
-#loader-img{
-    top:40%;
-    left:40%;
-    position: absolute;
-}
-
-#loader-text{
-    text-align: center;
-    font-size: large;
-    position: absolute;
-    top:60%;
-    width: 100%
-}
 /* -------------- End of Loader --------------*/
 
 /* Swiper slider. Need to fill the 9:16 constrained container */
@@ -80,6 +68,76 @@ body {
 
 /* Pour que la vidéo remplisse son conteneur (elle sera un peu coupée si nécessaire...) */
 .vjs-tech { object-fit: cover; }
+
+/*Les menus sur chacune des pages*/
+
+.menu {
+    position: absolute;
+    background-color: white;
+    border-radius: 50px 50px 0 0;
+    bottom: 0%;
+    width: 100%;
+    height: 10%;
+    box-shadow: 7px 7px 25px rgba(0, 0, 0, 0.25);
+    font-family: "Outfit", sans-serif;
+}
+
+.menu button{
+    position : absolute;
+    text-align : center;
+    font-family: "Outfit", sans-serif;
+    font-size:17%;
+}
+
+.menu b {
+    text-shadow: 0 1px, 1px 0, 1px 1px;
+    font-size: 0.8em;
+}
+
+.menu .menu-candidat {
+    height : 50px;
+    width :30%;
+    margin-left : 5%;
+    box-shadow: 7px 7px 25px 0 rgba(0, 0, 0, 0);
+    background : none;
+    border: none;
+}
+
+.menu .menu-jeu {
+    height : 50px;
+    width :30%;
+    margin-left : 35%;
+    box-shadow: 7px 7px 25px 0 rgba(0, 0, 0, 0);
+    background : none;
+    border: none;
+}
+
+.menu .menu-top {
+    height : 50px;
+    width :25%;
+    margin-left : 65%;
+    box-shadow: 7px 7px 25px 0 rgba(0, 0, 0, 0);
+    background : none;
+    border: none;
+}
+
+
+/*Les différents titres utilisés*/
+
+h1{
+    margin-top: 1em;
+    font-size: large;
+}
+
+h2{
+    font-family: 'Outfit', sans-serif;
+    font-size: 55%;
+    font-weight: 900; 
+    text-align: center; 
+    color: white;
+    margin-top: 2%;
+    text-shadow: 0px 1px, 1px 0px, 1px 1px;
+}
 
 /* Most of the elements in this demo are absolute positionned with percentages */
 #first-slide header{
@@ -107,6 +165,7 @@ body {
     object-fit: contain;
 }
 
+/*Slide de jeu */
 #second-slide{
     background: #ef7767;
 }
@@ -131,6 +190,7 @@ body {
     align-self: center;
 }
 
+/*Les differentes images ont différentes rotations*/
 .rotateimg320 {
     -webkit-transform:rotate(320deg);
     -moz-transform: rotate(320deg);
@@ -176,74 +236,9 @@ body {
     text-align: center; 
     color: #fff;
 }
-h1{
-    margin-top: 1em;
-    font-size: large;
-}
-
-.menu {
-    position: absolute;
-    background-color: white;
-    border-radius: 50px 50px 0 0;
-    bottom: 0%;
-    width: 100%;
-    height: 10%;
-    box-shadow: 7px 7px 25px rgba(0, 0, 0, 0.25);
-    font-family: "Outfit", sans-serif;
-}
-
-.menu button{
-    position : absolute;
-    /*top : -15%;*/
-    text-align : center;
-    font-family: "Outfit", sans-serif;
-    font-size:17%;
-}
-
-.menu b {
-    text-shadow: 0 1px, 1px 0, 1px 1px;
-    font-size: 0.8em;
-}
-
-.menu .menu-candidat {
-    height : 50px;
-    width :30%;
-    margin-left : 5%;
-    box-shadow: 7px 7px 25px 0 rgba(0, 0, 0, 0);
-    background : none;
-    border: none;
-}
-
-.menu .menu-jeu {
-    height : 50px;
-    width :30%;
-    margin-left : 35%;
-    box-shadow: 7px 7px 25px 0 rgba(0, 0, 0, 0);
-    background : none;
-    border: none;
-}
-
-.menu .menu-top {
-    height : 50px;
-    width :25%;
-    margin-left : 65%;
-    box-shadow: 7px 7px 25px 0 rgba(0, 0, 0, 0);
-    background : none;
-    border: none;
-}
 
 #menu3 button{
     font-size : 100%;
-}
-
-h2{
-    font-family: 'Outfit', sans-serif;
-    font-size: 55%;
-    font-weight: 900; 
-    text-align: center; 
-    color: white;
-    margin-top: 2%;
-    text-shadow: 0px 1px, 1px 0px, 1px 1px;
 }
 
 #jeu {
@@ -270,7 +265,6 @@ h2{
 }
 
 div{
-    /*font-size: 1em;*/
     color : black;
 }
 
@@ -286,6 +280,8 @@ div{
     font-size:100%;
 }
 
+
+/*Troisieme slide - Les candidats*/
 #third-slide{
     background: #f1de68;
 }
@@ -300,13 +296,9 @@ div{
 
 .button-candidat{
     width: 30%;
-    /*height: 40px;*/
     height:15%;
-    /*padding: 0;*/
-    /*padding-bottom : 4%;*/
     border: none;
     background: none;
-    /*margin-bottom: 6%;*/
     margin-top:1%;
     font-size : 16%;
     color: #fff;
@@ -314,6 +306,7 @@ div{
     font-weight: 900;
 }
 
+/*Les styles des différentes photos de Profil*/
 .profile3{
     max-width: 18%;
     max-height: 180%;
@@ -384,20 +377,6 @@ th, td {
     box-shadow: 7px 7px 25px rgba(0, 0, 0, 0.25);
 }
 
-.box-tweet-top {
-    background: white;
-    height: 33vh;
-    width: 95%;
-    border-radius: 70px;
-    margin-top: 1vh;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 90%;
-    overflow: visible !important;
-    box-shadow: 7px 7px 25px rgba(0, 0, 0, 0.25);
-}
-
-
 .candidattweet {
     overflow: hidden;
     border-radius: inherit;
@@ -422,11 +401,11 @@ th, td {
 .table-candidat {
     margin-top:-37%;
     margin-bottom : 5%;
-    /*margin: auto;*/
     font-size: 80%;
-
 }
 
+
+/*La quatrième slide - top tweets*/
 .no-tweet{
     margin-top: 30%;
     text-align: center;
@@ -451,7 +430,6 @@ th, td {
 
 .hovertree-upslide {
     position: absolute;
-    /*left: calc(50% - 10px);*/
     display:inline-block;
     left:0px;
     right:0px;
@@ -530,6 +508,19 @@ th, td {
     padding: 2.5%;
 }
 
+.box-tweet-top {
+    background: white;
+    height: 33vh;
+    width: 95%;
+    border-radius: 70px;
+    margin-top: 1vh;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 90%;
+    overflow: visible !important;
+    box-shadow: 7px 7px 25px rgba(0, 0, 0, 0.25);
+}
+
 #tweet-theme {
     padding-left:4%;
 }
@@ -591,6 +582,7 @@ img#theme {
 
 }
 
+/*Slide de crédit*/
 #last-slide{
     font-size: 100%;
     background: #EF7767;
