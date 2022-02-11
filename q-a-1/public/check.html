@@ -1,0 +1,103 @@
+<!doctype html>
+
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <title>Hyblab 2022</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/green_page.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/loadingio/loading.css@v2.0.0/dist/loading.css" />
+  <link href="https://vjs.zencdn.net/7.6.6/video-js.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+  <script src="https://vjs.zencdn.net/7.6.6/video.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/check.js" defer></script>
+
+</head>
+<body>
+  <!-- Le conteneur sert à vérouiller les proportions (aspect ratio) du contenu de la page (ici des slides) -->
+  <div id="container">
+    <div id="mySwiper" class="swiper">
+    
+      <!-- le main est aussi le conteneur des différents slides (contenus à chaque fois dans des sections-->
+      <main class = "main-part">
+          <section id="first-section">
+              <header>
+                <div><img id="title" src="img/Check/check.svg"></div>
+                <div><img id="subtitle" src="img/Check/pret.svg"></div>
+              </header>
+              <div class="introduction">
+                <p>Voici ta check list, vérifie que tout est ok pour que tu puisses aller voter si tu souhaites !</p>
+              </div>
+              <div class="main-section">
+                <p><b id="white-content">Tamponne </b>les cases si tu remplies les informations, TU EN AS 5 à COCHER.</p>
+              </div>
+              <table>
+                <tr>
+                  <td id="case-1">
+                    <p>EST-CE QUE TU ES MAJEUR(E) ?</p>
+                    <img class = "hidden-check" id="hidden-1" src="img/Check/check-w.svg">
+                  </td>
+                  <td id="case-2"> 
+                    <p>EST-CE QUE TU ES FRANÇAIS(E) ?</p>
+                    <img class = "hidden-check" id="hidden-2" src="img/Check/check-w.svg">
+                  </td>
+                </tr>
+                <tr>
+                  <td id="case-3">
+                    <p>EST-CE QUE TU ES INSCRIT(E) ?</p>
+                    <img class = "hidden-check" id="hidden-3" src="img/Check/check-w.svg">
+                  </td>
+                  <td id="case-4">
+                    <p>EST-CE QUE TU CONNAIS TON BUREAU DE VOTE ?</p>
+                    <img class="hidden-check" id="hidden-4" src="img/Check/check-w.svg">
+                  </td>
+                </tr>
+                <tr>
+                  <td id="case-5">
+                    <p>EST-CE QUE TU CONNAIS TON CHOIX ?</p>
+                    <img class="hidden-check" id="hidden-5" src="img/Check/check-w.svg">
+                  </td>
+                  <td>
+                    <p></p>
+                    <img class="hidden" src="img/Check/check-w.svg">
+                  </td>
+                </tr>
+              </table>
+            <div id="po_up">
+              <img class = "hidden-check" id="po_up_window" src="img/Check/Po_up.svg">
+              <img class = "hidden-check" id="po_up_exit" src="img/Check/Po_up_exit.svg">
+            </div>
+            <div>
+              <img id="small_img" src="img/Check/img.svg">
+
+              <div class="introduction">
+                <p>Si tu n’as pas pu cocher toutes les cases<br/>c’est que tu n’as pas tout vérifié.</p>
+              </div>
+            </div>
+
+              <footer>
+                <div class="pagenumber">
+                  <a href="#" class="not_current">1</a>
+                  <b class="not_current">|</b>
+                  <a href="#" class="not_current">2</a>
+                  <b class="not_current">|</b>
+                  <a href="#" class="not_current">3</a>
+                  <b class="not_current">|</b>
+                  <a href="#" class="not_current">4</a>
+                  <b class="not_current">|</b>
+                  <a href="#" id="currentnum">5</a>
+                </div>
+              </footer>
+          </section>
+          
+      </main>
+      </div>
+      <div class="swiper-pagination"></div>
+  
+</div>
+
+</body>
+</html>

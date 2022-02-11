@@ -10,79 +10,148 @@
 
 body{
     background-color: black;
-    color: white;
+    color: rgb(34, 36, 66);
     overflow: hidden;   /* to avoid slider bugs on some browsers */
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: impact;
+    font-variant: small-caps;
+    /*font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
+}
+
+h1{
+    font-size: 128%;
+    font-family: folsomblack;
+}
+
+footer {
+    width: 100%;
+    height: 20%;
+    display:flex;
+    justify-content: space-around;
+}
+
+button{ 
+    padding : 2% 0% 2% 0%;
+    margin: 1%;
+    width: 40%;
+    height: 8%;
+    border-radius: 600px;
+    font-size: 13%;
+    border: none;
+    font-family: 'folsomblack';
+    color:#FFFFFF;
+}
+
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+#choix_vote{
+    position:absolute;
+    width:100%;
+    text-align: center;
+    bottom: 6%;
+}
+
+svg
+{
+    width:80%;
+    margin-bottom: 8%;
 }
 
 #container{
-    position: relative; /* for absolute positionning of child elements*/
+    position: absolute; /* for absolute positionning of child elements*/
 }
 
-/* -------------- Loader --------------*/
-#loader{
-    z-index: 2;
-    position:absolute;
-}
-
-#loader-img{
-    top:40%;
-    left:40%;
-    position: absolute;
-}
-
-#loader-text{
-    text-align: center;
-    font-size: 25%;
-    position: absolute;
-    top:60%;
-    width: 100%
-}
-/* -------------- End of Loader --------------*/
-
-/* Swiper slider. Need to fill the 9:16 constrained container */
 #mySwiper{
     width: 100%;
     height:100%;
     position: absolute;
 }
 
-/* white navigation bullets */
-.swiper-pagination-bullet-active {
-    background-color: white !important;
+#Croix1 , #Croix2 , #Croix3 , #Croix4 , #svg1, #svg2{
+width:15%;
+}
+
+.main-part {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    box-sizing: content-box;
 }
 
 /* the slides and the loader should fill the whole 9:16 zone */
-.swiper-wrapper section, #loader{
-    background-color: dodgerblue;
+.main-part section, #loader{
+    background-color: #ADB3D7;
     width: 100%;
     height: 100%;
+    position: relative
 }
 
-/* Pour que la vidéo remplisse son conteneur (elle sera un peu coupée si nécessaire...) */
-.vjs-tech { object-fit: cover; }
+.warp {
+    width: 500px;
+    height: 350px;
+    line-height: 700px;
+    text-align: center;
+}
+.img{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+}
+
+.last-section{
+    text-align: center;
+    margin-top:6%;
+}
+
+.last-section img{
+    width:75%;
+}
+
+.gif{
+    width: 90%;
+}
 
 /* Most of the elements in this demo are absolute positionned with percentages */
-#first-slide header{
+#first-section header, #first-slide header{
     text-align: center;
     width: 100%;
-    top: 10%;
-    position: absolute;
     font-size: 30%;
+    margin-top: 5%;
     z-index: 2;
+    top: 10%;
 }
 
-#logo-hyblab{
+.header-img{
+    width:100%;
+    height:100%;
+    position: relative;
+}
+
+#logo{
     text-align: center;
-    width: 50%;
-    left: 50%;
-    top: 50%;
-    margin-left:-25%;
-    margin-top:calc(-7.5% * 9 / 16 ); /* margins are relative to the element width... :-( */
-    position: absolute;
-    font-size: 50%;
-    z-index: 2;
-    cursor: pointer;
+    max-width: 35%;
+    width: 35%;
+}
+
+
+#fleche{
+    width:20%;
+}
+
+
+.asterisque{
+    width:5%;
 }
 
 /* Last slide image is centered */
@@ -96,6 +165,54 @@ body{
 }
 
 /* Footer of last slide is at the bottom and content is centered */
+
+img.alignLeft{
+    float:left;
+}
+
+img.alignRight{
+    float:right;
+    margin-right: 5%;
+}
+
+#alignLeft{
+    float:left;
+}
+
+p.alignLeft{
+    text-align: left;
+    padding:0%;
+}
+
+p.alignRight{
+    text-align: right;
+}
+
+ .blue{
+    background: #57517D;
+ }
+
+ .red{
+    background: #AB4A4A;
+ }
+
+ .green{
+    background: green;
+    
+ }
+
+ .grey{
+    background: gray;
+ }
+
+ #first-slide header{
+    text-align: center;
+    width: 100%;
+    top: 10%;
+    position: absolute;
+    font-size: 30%;
+    z-index: 2;
+}
 #first-slide footer{
     bottom: 5%;
     position: absolute;
@@ -104,57 +221,18 @@ body{
     padding: 0 1em;
 }
 
+.gif{
+    width: 80%;
+    margin-top: -1%;
+}
 
-/* ---------- Positionning of logos on the last slide ----------------- */
-/* here we have a contraint on the height of the logos (not the width) */
-/* so we cannot use % and use em (which are proportinal to the size of the */
-/* slide because of body's font size rule at the beginning of this CSS */
-#bandeau {
-    padding-top: 3%;
-    width:100%;
-    height:25%;
+ #intro_gif{
     position: absolute;
-    bottom: 0;
-    background-color: white;
-    font-size: 20%;
-  }
+    width: 100%;
+    margin-top:-5%;
+}
 
-  #bandeau li{
-    list-style-type: none;
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0 0.5em;
-  }
-
-  #bandeau img{
-    height: 1.5em;
-  }
-
-  #bandeau #hyblab{
-    margin: 1em auto;
-    height: 3em;
-    display: block;
-  }
-
-  #bandeau #cc, #bandeau #opensource
-  {
-    height: 1em;
-  }
-
-  #bandeau .stacked{
-    display:block;
-  }
-
-  #bandeau ul{
-    text-align: center;
-    padding: 0 0;
-  }
-
-  #bandeau .institutionnel
-  {
-    height: 2em;
-  }
-
+ 
 /* ---------- Important media queries for easy responsive content :-) ----------------- */
 /* Can be adapted for other ratios that 9:16 or for horizontal content (ex: 16:9) */
 
@@ -162,8 +240,8 @@ body{
 /* as long as the screen aspect ratio is below 9:16 */
 @media screen and (max-aspect-ratio: 9/16){
     #container{
-        margin-top: calc((100vh - 100 * 16vw / 9) / 2);
         width: 100vw;
+        margin-top: calc((100vh - 100 * 16vw / 9) / 2);
         height: calc(100 * 16vw / 9);
     }
 
@@ -173,6 +251,7 @@ body{
         font-size: calc(12vw*16/9);
     }
 }
+
 
 /* This media query ensures that we allways will the height of the screen */
 /* as long as the screen aspect ratio is higher than 9:16 */
@@ -189,3 +268,257 @@ body{
         font-size: 12vh;
     }
 }
+
+/*animations*/
+
+/*Créer une animation*/
+@keyframes anim_procuration_texte {
+
+    from {
+
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+@keyframes anim_horizontale {
+    from{
+        transform:translateX(-5%);
+    }
+
+    to{
+
+        transform: translateX(15%);
+    }
+}
+
+@keyframes anim_verticale {
+    from{
+        transform: translateY(-10%);
+    }
+
+    to{
+
+        transform: translateY(3%);
+    }
+}
+
+@keyframes anim-rotate {
+    from{
+        transform: rotateZ(-5deg);
+    }
+
+    to{
+        transform:rotateZ(5deg);
+    }
+}
+
+@keyframes tourner_les_serviettes {
+    0% {
+        -webkit-transform: scale(1) rotateZ(0);
+                transform: scale(1) rotateZ(0);
+                background-color:purple;
+      }
+      50% {
+        -webkit-transform: scale(2) rotateZ(180deg);
+                transform: scale(2) rotateZ(180deg);
+                background-color : green;
+      }
+      100% {
+        -webkit-transform: scale(1) rotateZ(360deg);
+                transform: scale(1) rotateZ(360deg);
+                background-color : white;
+      }
+    
+}
+
+@keyframes changeColor{
+    0%{
+        color: #AB4A4A;
+        transform: scale(1);
+    }
+
+    50%{
+        color:#46A882;
+        transform: scale(1.1);
+    }
+
+    100%{
+        color: #ADB3D7;
+        transform: scale(1);
+        
+    }
+
+
+}
+
+@keyframes wobble {
+    0%,
+    100% {
+      transform: translateX(0%);
+      transform-origin: 50% 50%;
+    }
+    15% {
+      transform: translateX(-5%) rotate(-6deg);
+    }
+    30% {
+      transform: translateX(4%) rotate(6deg);
+    }
+    45% {
+      transform: translateX(-3%) rotate(-3.6deg);
+    }
+    60% {
+      transform: translateX(2%) rotate(2.4deg);
+    }
+    75% {
+      transform: translateX(-1%) rotate(-1.2deg);
+    }
+  }
+
+  @keyframes slide-out-bottom {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: translateY(1000px);
+              transform: translateY(1000px);
+      opacity: 1;
+    }
+  }
+
+  .anim_intro {
+	-webkit-animation: slide-out-bottom 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) 2.9s both;
+	        animation: slide-out-bottom 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) 2.9s both;
+}
+
+  .anim-horizontale {
+    animation : anim_horizontale 1s linear infinite alternate;
+}
+
+/*Utiliser une animation*/
+
+.anim-wobble1 {
+    animation: wobble 5s 1s alternate infinite
+}
+
+.anim-wobble2 {
+    animation: wobble 5s 2s alternate infinite
+}
+/*Utiliser une animmation*/
+
+.anim-text {
+
+    animation: anim_procuration_texte 1s 1s alternate infinite; 
+    -webkit-animation: anim_procuration_texte 1s alternate infinite; 
+}
+
+.anim-verticale {
+    animation : anim_verticale 1s linear infinite alternate;
+}
+
+.anim-rotation {
+    animation: anim-rotate 2s infinite alternate;
+}
+
+.changeColor {
+    animation : changeColor 3s infinite alternate;
+}
+
+.tourner_les_serviettes {
+    animation: tourner_les_serviettes 2s linear 0.5s infinite alternate both;
+}
+@font-face {
+    font-family: 'folsomblack';
+    src: url('font/folsom-black-webfont.woff2') format('woff2'),
+         url('font/folsom-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mariannemedium';
+    src: url('font/marianne-medium-webfont.woff2') format('woff2'),
+         url('font/marianne-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'mariannebold';
+    src: url('font/marianne-bold-webfont.woff2') format('woff2'),
+         url('font/marianne-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mariannethin';
+    src: url('font/marianne-thin-webfont.woff2') format('woff2'),
+         url('font/marianne-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.dessin_rond{
+    stroke-dasharray: 1400px;
+    stroke-dashoffset: 1400px;
+    animation-name: draw;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+.dessin_croix{
+    stroke-dasharray: 1400px;
+    stroke-dashoffset: 1400px;
+    animation-name: draw;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+.dessin_rond_latence{
+    stroke-dasharray: 1400px;
+    stroke-dashoffset: 1400px;
+    animation-name: draw;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+#Croix1 , #Croix2 , #Croix3 , #Croix4 , #svg1, #svg2{
+    opacity: 0;
+}
+
+@keyframes draw {
+    from{
+        opacity: 1;
+    }
+    to {
+        stroke-dashoffset: 0;
+        opacity: 1;
+    }
+}
+
+
+
+button {
+  /* Disable OS styling */
+  appearance: none;
+  border: none;
+  text-shadow: 0 0 1px rgba(0, 0, 0, .3);
+  /* Animation (“transition” timing) */
+  transition: .5s background;
+  }
+  
+  
+/* When pressed */
+button:active {
+    background: black;
+}
+

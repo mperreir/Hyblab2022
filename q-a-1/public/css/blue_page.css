@@ -1,0 +1,200 @@
+body{
+    color: #57517D;
+}
+
+#subtitle{
+    width: 32%;
+}
+
+div p{
+    font-size: 16%;
+    padding: 0% 5% 0% 5%;
+}
+
+p{
+    font-variant: normal;
+    font-family: 'mariannemedium';
+}
+
+.main-section{
+    width: 100%;
+    position: relative;
+    margin-bottom: 3%;
+    
+}
+
+#close{
+    position: absolute;
+    top:5%;
+    right:5%;
+    width: 7%;
+}
+
+#introduction{
+    margin-top:5%;
+    margin-bottom:3%;
+    margin-right: 18%;
+    font-family: 'mariannemedium';
+}
+
+#blue-content{
+    color:#57517D;
+}
+
+#white-content{
+    color:#FFFFFF;
+}
+
+#green-content{
+    color:#276A50;
+}
+
+#light-content{
+    color:#57517D;
+    opacity: 50%;
+}
+
+.section-div{
+    width: 60%;
+}
+
+#second-p{
+    padding-top:30%;
+}
+
+#diagram{
+    width:38%;
+    margin-right: 5%;
+}
+
+#tv{
+    width:52%;
+    margin-left: -5%;
+}
+
+button{ 
+    background-color: #514B77 ;
+}
+
+.last-section{
+    text-align: center;
+    margin-top:-6%;
+}
+
+.last-section img{
+    width:75%;
+}
+
+#fat-logo{
+    text-align: center;
+    max-width: 85%;
+    width: 65%;
+}
+
+#fat-subtitle{
+    width: 52%;
+}
+
+.credit-section{
+    margin-top: -10%;
+    text-align: center;
+}
+
+#div-subtitle{
+    margin-top: -7%;
+}
+
+@font-face {
+    font-family: 'marianneregular';
+    src: url('font/marianne-regular-webfont.woff2') format('woff2'),
+         url('font/marianne-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.nr{
+    width: 15%;
+}
+
+#last-div{
+    margin-bottom:10%;
+}
+
+#bandeau {
+    padding-top: 3%;
+    width:100%;
+    font-size: 20%;
+    margin-top: 25%;
+  }
+
+  #bandeau li{
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0.5em;
+  }
+
+  #bandeau img{
+    height: 1em;
+  }
+
+  #bandeau #cc, #bandeau #opensource{
+    height: 1em;
+  }
+
+  #bandeau ul{
+    text-align: center;
+    padding: 0 0;
+  }
+
+  #bandeau .institutionnel
+  {
+    height: 0.8em;
+  }
+
+  #bandeau .metropole{
+      height: 1.5em;
+  }
+
+.pagenumber{
+    position: absolute;
+    color:#8282AA;;
+    margin-top: 5%;
+    text-align:center;
+    font-weight:bolder;
+    font-size:15%;
+    width: 100%;
+    font-family:"mariannemedium";
+    bottom:2.5%;
+}
+
+#currentnum{
+display:inline-block;
+        color:#57517D;
+        text-decoration:none
+}
+a:link,a:visited{
+    display:inline-block;
+    color:#8282AA;;
+    padding:0% 3%;
+    margin:0.5%;
+    text-decoration:none;
+}
+
+
+#diagram{
+    position:absolute;
+    right:0%
+
+}
+
+.Right{
+    text-align: right;
+    margin-right: 25%;
+
+}
+
+#check-header{
+    height: 15%;
+}

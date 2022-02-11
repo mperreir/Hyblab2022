@@ -1,0 +1,387 @@
+/* ------- Important ! Please at least keep the last part of this CSS ----------- */
+/* that forces a 9:16 format (portrait) on all contents */
+
+
+/* Normalize margin and padding to ease elements positioning */
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-color: black;
+    color: rgb(34, 36, 66);
+    overflow: hidden;   /* to avoid slider bugs on some browsers */
+    font-family: impact;
+    font-variant: small-caps;
+}
+
+#first-slide{
+    color:#AC4B4B;
+}
+
+#second-slide{
+    background-color: #FAF3EE;
+}
+
+header div{
+    text-align: center;
+}
+
+#div_logo{
+    margin-top: 5%;
+}
+
+#logo2{
+    position:relative;
+    text-align: center;
+    max-width: 35%;
+    width: 35%;
+}
+
+#second-slide h1{
+    position: relative;
+    margin-top:-3.2%;
+    font-size: 38.5%;
+    text-align: center;
+}
+
+#subtitle2{
+    position: relative;
+    width:75%;
+}
+
+#div_subtitle{
+    margin-top: -15%;
+}
+
+#img_warning{
+    width:80%;
+    margin-top: -5%;
+}
+
+#croix_bureaux{
+    position: absolute;
+    left:90%;
+    margin-top:-25%;
+}
+
+#button_to_service_public{
+    background-color:#FAF3EE;
+    border: solid 1px;
+    color:#C4C4C4;
+    font-size:50%;
+    text-align: center;
+    line-height:0px;
+}
+
+#container{
+    position: absolute; /* for absolute positionning of child elements*/
+}
+
+/* -------------- Loader --------------*/
+#loader{
+    z-index: 2;
+    position:absolute;
+}
+
+#loader-img{
+    top:40%;
+    left:40%;
+    position: absolute;
+}
+
+#loader-text{
+    text-align: center;
+    font-size: 25%;
+    position: absolute;
+    top:60%;
+    width: 100%
+}
+
+h1{
+    font-size: 128%;
+    font-family: folsomblack;
+}
+
+button{ 
+    padding : 2% 0% 2% 0%;
+    margin: 1%;
+    width: 40%;
+    height: 8%;
+    border-radius: 30px;
+    font-size: 13%;
+    border: none;
+    font-family: 'folsomblack';
+    color:#FFFFFF;
+}
+/* -------------- End of Loader --------------*/
+
+/* Swiper slider. Need to fill the 9:16 constrained container */
+#mySwiper{
+    width: 100%;
+    height:100%;
+    position: absolute;
+}
+
+
+/* the slides and the loader should fill the whole 9:16 zone */
+.swiper-wrapper section, #loader{
+    background-color: #EC8989;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Most of the elements in this demo are absolute positionned with percentages */
+#first-slide header{
+    text-align: center;
+    width: 100%;
+    font-size: 30%;
+    margin-top: 5%;
+    z-index: 2;
+    top: 10%;
+
+}
+
+#logo{
+    text-align: center;
+    max-width: 35%;
+    width: 35%;
+}
+
+/* Last slide image is centered */
+#img-fini{
+    width: 50%;
+    left: 50%;
+    top: 40%;
+    position: absolute;
+    margin-left:-25%;
+    margin-top:calc(-25% * 9 / 16 ); /* margins are relative to the element width... :-( */
+}
+
+/* Footer of last slide is at the bottom and content is centered */
+#first-slide footer{
+    width: 100%;
+    height: 20%;
+    display:flex;
+    justify-content: space-around;
+}
+
+
+/* ---------- Positionning of logos on the last slide ----------------- */
+/* here we have a contraint on the height of the logos (not the width) */
+/* so we cannot use % and use em (which are proportinal to the size of the */
+/* slide because of body's font size rule at the beginning of this CSS */
+#bandeau {
+    padding-top: 3%;
+    width:100%;
+    height:25%;
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    font-size: 20%;
+  }
+
+  #bandeau li{
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0.5em;
+  }
+
+  #bandeau img{
+    height: 1.5em;
+  }
+
+  #bandeau #hyblab{
+    margin: 1em auto;
+    height: 3em;
+    display: block;
+  }
+
+  #bandeau #cc, #bandeau #opensource
+  {
+    height: 1em;
+  }
+
+  #choix_vote{
+    position:absolute;
+    width:100%;
+    text-align: center;
+    bottom: 6%;
+}
+
+svg
+{
+    width:80%;
+    margin-bottom: 8%;
+}
+#Croix1 , #Croix2 , #Croix3 , #Croix4 , #svg1, #svg2{
+    width:15%;
+    }
+
+#Croix1 , #Croix2 , #Croix3 , #Croix4 , #svg1, #svg2{
+    opacity: 0;
+}
+
+  #bandeau .stacked{
+    display:block;
+  }
+
+  #bandeau ul{
+    text-align: center;
+    padding: 0 0;
+  }
+
+  #bandeau .institutionnel
+  {
+    height: 2em;
+  }
+
+  .dessin_rond{
+    stroke-dasharray: 1400px;
+    stroke-dashoffset: 1400px;
+    animation-name: draw;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+#svg1{
+    opacity: 0;
+}
+@keyframes draw {
+    from{
+        opacity: 1;
+    }
+    to {
+        stroke-dashoffset: 0;
+        opacity: 1;
+    }
+}
+
+/* ---------- Important media queries for easy responsive content :-) ----------------- */
+/* Can be adapted for other ratios that 9:16 or for horizontal content (ex: 16:9) */
+
+/* This media query ensures that we allways will the width of the screen */
+/* as long as the screen aspect ratio is below 9:16 */
+@media screen and (max-aspect-ratio: 9/16){
+    #container{
+        width: 100vw;
+        margin-top: calc((100vh - 100 * 16vw / 9) / 2);
+        height: calc(100 * 16vw / 9);
+    }
+
+    /* We set a default font size here. It will be the base for all other font sizes */
+    /* Here the font size is proportional to display width */
+    body{
+        font-size: calc(12vw*16/9);
+    }
+}
+
+
+/* This media query ensures that we allways will the height of the screen */
+/* as long as the screen aspect ratio is higher than 9:16 */
+@media screen and (min-aspect-ratio: 9/16){
+    #container{
+        margin-left: calc((100vw - 100 * 9vh / 16) / 2);
+        width: calc(100 * 9vh / 16);
+        height: 100vh;
+    }
+
+    /* We set a default font size here. It will be the base for all other font sizes */
+    /* Here the font size is proportional to display height */
+    body{
+        font-size: 12vh;
+    }
+}
+
+@font-face {
+    font-family: 'folsomblack';
+    src: url('font/folsom-black-webfont.woff2') format('woff2'),
+         url('font/folsom-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mariannemedium';
+    src: url('font/marianne-medium-webfont.woff2') format('woff2'),
+         url('font/marianne-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'mariannebold';
+    src: url('font/marianne-bold-webfont.woff2') format('woff2'),
+         url('font/marianne-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mariannethin';
+    src: url('font/marianne-thin-webfont.woff2') format('woff2'),
+         url('font/marianne-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.pagenumber_bureau{
+    position: absolute;
+    color:#AC4B4B;
+    margin-top: 5%;
+    text-align:center;
+    font-weight:bolder;
+    font-size:15%;
+    width: 100%;
+    font-family:"mariannemedium";
+    bottom:2.5%;
+}
+
+#currentnum_bureau{
+display:inline-block;
+        color:#AB4A4A;
+        text-decoration:none;
+}
+
+.dessin_croix{
+    stroke-dasharray: 1400px;
+    stroke-dashoffset: 1400px;
+    animation-name: draw;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+a:link,a:visited{
+    display:inline-block;
+    color:#AC4B4B;
+    padding:0% 3%;
+    margin:0.5%;
+    text-decoration:none;
+}
+
+
+.not_current{
+    opacity: 50%;
+    color:#AB4A4A;
+}
+
+button {
+  /* Disable OS styling */
+  appearance: none;
+  border: none;
+  text-shadow: 0 0 1px rgba(0, 0, 0, .3);
+  /* Animation (“transition” timing) */
+  transition: .5s background;
+  }
+  
+  
+/* When pressed */
+button:active {
+    background: black;
+}

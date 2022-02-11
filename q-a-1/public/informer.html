@@ -1,0 +1,77 @@
+<!doctype html>
+
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <title>Hyblab 2022</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/blue_page.css">
+  <link rel="stylesheet" href="css/pagenumber_blue.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/loadingio/loading.css@v2.0.0/dist/loading.css" />
+  <link href="https://vjs.zencdn.net/7.6.6/video-js.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+  <script src="https://vjs.zencdn.net/7.6.6/video.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/index.js" defer></script>
+</head>
+<body>
+    <!-- Le conteneur sert à vérouiller les proportions (aspect ratio) du contenu de la page (ici des slides) -->
+    <div id="container">
+      <div id="mySwiper" class="swiper">
+      
+      
+        <!-- le main est aussi le conteneur des différents slides (contenus à chaque fois dans des sections-->
+        <main class = "main-part">
+            <section id="first-section">
+                <header>
+                    <!--<div id="logo"></div>-->
+                    <div><input type="image" id="logo" src="img/logo/logo bleu.svg" onclick="window.location='sommaire.html'"></div>
+                    <h1>S'INFORMER</h1>
+                    <div><img id="subtitle" src="img/les_programmes.svg"></div>
+                </header>
+                <p id="introduction">Pour prendre connaissance des différents programmes, les français utilisent :</p>
+                <div class="main-section" id="large-div">
+                  <img class="" id = "diagram" src="img/diagramme.svg">
+                  
+                  <p class = "Right">Les débats télévisés à <b id="blue-content">64%</b></p>
+                  <p class = "Right">Les médias à <b id="white-content">55%</b> </p>
+                  <p class = "Right">Le site internet du candidat à <b id="green-content">31%</b></p> 
+                  <p class = "Right">Les réseaux sociaux à <b id="light-content">23%</b></p>
+                  
+                </div>
+                <div class = "main-section" id="télé">
+                  <img class = "alignLeft" id="tv" src="img/assets_tele.svg">
+                  <p class = "alignRight" id = "second-p"><b>8 Français sur 10</b> prennent connaissance d'au moins un programme.</p>
+                </div>
+                <div>
+                  <p class = "last-section" > 
+                    <img src="img/informer/le-premier-tour (1).gif">
+                  </p>
+                </div>
+                <footer>
+                  <div id="choix_vote">
+                    <button onclick="document.location = 'procuration.html'">procuration</button>
+                    <button onclick="document.location = 'bureau_vote.html'">bureau de vote</button>
+                  </div>
+                  <div class="pagenumber">
+                    <a href="#" class="sansserif" id="currentnum">1</a>
+                    <b>|</b>
+                    <a href="#" class="sansserif">2</a>
+                    <b>|</b>
+                    <a href="#" class="sansserif">3</a>
+                    <b>|</b>
+                    <a href="#" class="sansserif">4</a>
+                    <b>|</b>
+                    <a href="#" class="sansserif">5</a>
+                </div>
+                </footer>
+            </section>
+        </main>
+        </div>
+        <div class="swiper-pagination"></div>
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,324 @@
+p{
+    margin-bottom: 4%;
+    font-family: 'mariannemedium';
+    font-size:52%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-top: 4%;
+    font-variant: normal;
+    
+}
+
+body{
+    color:#989595;
+}
+
+h1{
+    color: gray;
+}
+
+button{ 
+    background-color: #656565 ;
+}
+
+.white_button{
+    
+    color: white;
+    border-radius: 30px;
+    padding : 2% 6% 2% 6%;
+    background-color : #656565;
+    font-family: 'folsomblack';
+    border: none;
+    width:25%;
+    font-size: 40%;
+    
+}
+
+
+#txt_taux_vote{
+    width: 40%;
+}
+
+#fleche1{
+    width:20%;
+    position: absolute;
+    left: 25%;
+    top: 39%;
+}
+
+#fleche2{
+    width:20%;
+    position: absolute;
+    right: 25%;
+    top:52%;
+}
+
+p{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#first-link{
+    position: absolute;
+    right: 7%;
+    top: 42%;
+}
+
+#second-link{
+    position: absolute;
+    left: 8%;
+    top: 55%;
+}
+
+.espace{
+    margin-top: 25%;
+}
+
+.link_button{
+    background-color: white;
+    border-radius: 30px;
+    font-family: 'mariannemedium';
+    border: solid;
+    width:42%;
+    color: #505050;
+    text-align: center;
+    font-size: 40%;
+    border-width: 2px;
+    
+}
+
+.buttonservice{
+    width:33%;
+    border-radius: 30px;
+    font-family: 'folsomblack';
+    background-color : #656565;
+    font-size: 40%;
+    color: white;
+
+
+}
+
+#Q2 > input {
+    border: none;
+    font-size: 45%;
+    width: 25%;
+    height: 0%;
+    margin:auto;
+    text-align: center;
+}
+
+#Q1 > input {
+    border: none;
+    font-size: 45%;
+    width: 25%;
+    height: 15%;
+    margin:auto;
+    text-align: center;
+}
+
+/*Style des id*/
+
+#txt_intro_dejavote{
+    margin-top: 4%;
+}
+
+#first-section{
+    background-color: white;
+}
+
+#elections{
+    margin-top: -5%;
+    width: 30%;
+}
+
+#Q1, #Q2, #Q3{
+    display: flex;
+    justify-content: space-around;
+}
+
+#Q2{
+    margin-top:-2.5%;
+}
+
+#urne{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#urne > img{
+    width: 60%;
+}
+
+#choisi{
+    font-family:'/q-a-1/public/css/font/marianne-bolditalic-demo.html';
+    font-size: 80%;
+    height: 50%;
+    margin-top: -25%;
+}
+#choix_candidats{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -23%;
+}
+
+#choix_candidats > input{
+    width: 20%;
+    background-color: #FFFFFF;
+}
+
+#subtitle{
+    width: 24%;
+}
+
+#last-section{
+    width: 58%;
+}
+
+.main-section p, .bottom-section p {
+    font-size: 16%;
+    
+}
+
+#map{
+    width:60%;
+}
+
+#legend{
+    width:22%;
+    padding-left: 5%;
+    padding-top: 8%;
+}
+
+.bottom-section{
+    margin-top: 40%;
+}
+
+#anim-section{
+    text-align: center;
+}
+
+#lettre1{
+    position:absolute;
+    right: 0%;
+    top:28%;
+    width:30%;
+}
+
+#lettre2{
+    width: 40%;
+    position:absolute;
+    left:0%;
+    top:48%;
+    width:30%;
+    
+}
+
+.button{ 
+    padding : 2% 0% 2% 0%;
+    margin: 1%;
+    width: 40%;
+    height: 8%;
+    border-radius: 30px;
+    border: none;
+    font-family: 'folsomblack';
+    font-size: 70%;
+}
+
+
+.verification{
+    display: flex;
+    justify-content:center;
+    padding-left: 10%;
+    margin-left: 5%;
+}
+
+.left{
+    text-align: left;
+    margin-top: -1%;
+}
+
+.right{
+    text-align: right;
+    padding-right: 5%;
+    margin-top: 8%;
+}
+
+.darker{
+    color:#656565;
+}
+
+#not_head1, #not_head2{
+    text-align: left;
+}
+
+.gif{
+    width:100%;
+    margin-top:0%;
+}
+
+#gif_transition_voteblanc{
+    width:65%;
+}
+
+#last-sentence{
+    margin-top:10%;
+    width:60%;
+}
+
+.extright{
+    text-align: right;
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+
+.pagenumber{
+    position: absolute;
+    color:#656565;
+    margin-top: 5%;
+    text-align:center;
+    font-weight:bolder;
+    font-size:15%;
+    width: 100%;
+    font-family:"mariannemedium";
+    bottom:2.5%;
+}
+
+#currentnum{
+display:inline-block;
+        color:#656565;
+        text-decoration:none
+}
+a:link,a:visited{
+    display:inline-block;
+    color:#656565;
+    padding:0% 3%;
+    margin:0.5%;
+    text-decoration:none;
+}
+
+.not_current{
+    opacity: 50%;
+}
+
+#div1
+{
+    width:100%;
+    height:50%;
+    background:#FFFFFF;
+    position:absolute;
+}
+
+#div2 {
+    width:100%;
+    height:50%;
+    background:#656565;
+    position:absolute;
+    bottom:0;
+}
+
+#Avis{
+    font-size: 50%;
+    margin-top: -3%;
+    text-align: left;
+}

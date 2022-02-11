@@ -1,0 +1,10 @@
+.md-content-scroll .mbsc-fr-c {
+    height: 400px;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.md-content-scroll .mbsc-popup {
+    filter: blur(8px);
+}
+

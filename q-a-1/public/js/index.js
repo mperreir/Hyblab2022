@@ -1,29 +1,14 @@
 "use strict";
 
-// Init of the (touch friendly) Swiper slider
-const swiper = new Swiper("#mySwiper", {
-  direction: "vertical",
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-});
+let bouton_ok = document.getElementById("go_to");
+let intro = document.getElementById("intro_page")
 
-// Wait for the video to preload and display 1st slide
-const video = videojs(document.querySelector('#background-video'));
-video.one('loadeddata', (event) => { 
-  // fade out the loader "slide"
-  // and send it to the back (z-index = -1)
-  anime({
-    delay: 1000,
-    targets: '#loader',
-    opacity: '0',
-    'z-index' : -1,
-    easing: 'easeOutQuad',
-  });
-  // Init first slide
-  initSlide1();
-  // Debug trace because the loadeddata event is
-  // sometime not fired
-  console.log("Video loaded");
-});
+bouton_ok.addEventListener("click", () => {
+  intro.style["-webkit-animation"] = 'slit-out-vertical 0.5s ease-in 0.5s both';
+  intro.style.animation = 'slit-out-vertical 0.5s ease-in 0.5s both';
+  setTimeout(() => { 
+    window.location.replace("sommaire.html");
+    }, 1000);
+
+})
+

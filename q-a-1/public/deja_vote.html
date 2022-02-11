@@ -1,0 +1,88 @@
+<!doctype html>
+
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <title>Hyblab 2022</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/white_page.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/loadingio/loading.css@v2.0.0/dist/loading.css" />
+  <link href="https://vjs.zencdn.net/7.6.6/video-js.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+  <script src="https://vjs.zencdn.net/7.6.6/video.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/sommaire.js" defer></script>
+  <script src="js/header.js" defer></script>
+</head>
+<body>
+  <!-- Le conteneur sert à vérouiller les proportions (aspect ratio) du contenu de la page (ici des slides) -->
+  <div id="container">
+    <div id="mySwiper" class="swiper">
+    
+      <!-- le main est aussi le conteneur des différents slides (contenus à chaque fois dans des sections-->
+      <main class = "main-part">
+          <section id="first-section">
+              <header>
+                  <div><input type="image" id="logo" src="img/logo/logo blanc.svg" onclick="window.location='sommaire.html'"></div>
+                  
+                  <h1>DÉJA VOTÉ</h1>
+                  <div><img id="subtitle" src="img/JamaisVoté/elections.svg"></div>
+                  <p class="left" id="txt_intro_dejavote">Si tu as déménagé, tu peux le signaler en ligne jusqu’au 2 mars 2022 !</p>
+
+                  <p class="left">
+                      <img src="img/JamaisVoté/asterisque.svg" class="asterisque"> Tu peux le vérifier en ligne !
+                      
+
+                  </p>
+                  <img  id = "lettre1" class="anim-wobble1" src= "img/JamaisVoté/Lettre.svg">
+                  <div class = "verification">
+
+                    <img class = "anim-rotation" id="fleche1" src= "img/JamaisVoté/fleche.svg">
+                    <input id="first-link" type="button" class="link_button" onclick="window.open('https://www.authentification.service-public.fr/auth/realms/service-public/protocol/openid-connect/auth?client_id=dile&scope=openid&response_type=code&code_challenge=11cxUfuB7HCmumgGbtiSaDNQVKMx2I900rwNHeGe3jM&code_challenge_method=S256&response_mode=fragment&redirect_uri=https%3A%2F%2Fwww.inscriptionelectorale.service-public.fr%2Flogin&nonce=test&state=Lw%3D%3D');" value ="servicepublic.fr">
+
+                  </div>
+
+                  
+                  <img id="lettre2" class="anim-wobble2" src="img/JamaisVoté/Lettre2.svg">
+
+                  <p class="extright">Ok je vais te donner des exemples. Tu vas avoir 3 candidats, A, B ou C, 
+                  </p>
+                  <p id="choisi", class="espace"> <img class="gif" src="img/JamaisVoté/choisis-ton-candidat-!.gif"></p>
+
+                  <div id="choix_candidats">
+
+                      
+                      <input type="image" onclick="window.location='introsimulationA.html'" id="A" src="img/JamaisVoté/A.svg">
+                      <input type="image" onclick="window.location='introsimulationB.html'" id="B" src="img/JamaisVoté/B.svg">
+                      <input type="image" onclick="window.location='introsimulationC.html'" id="C" src="img/JamaisVoté/C.svg">
+
+                  </div>
+
+              </header>
+              
+             
+             
+              <footer>
+                <div class="pagenumber">
+                  <a href="#" class="not_current">1</a>
+                  <b class="not_current">|</b>
+                  <a href="#" class="not_current">2</a>
+                  <b class="not_current">|</b>
+                  <a href="#" id="currentnum">3</a>
+                  <b class="not_current">|</b>
+                  <a href="#" class="not_current">4</a>
+                  <b class="not_current">|</b>
+                  <a href="#" class="not_current">5</a>
+                </div>
+              </footer>
+          </section>
+          
+      </main>
+      </div>
+      <div class="swiper-pagination"></div>
+  
+</div>
+</body>
+</html>

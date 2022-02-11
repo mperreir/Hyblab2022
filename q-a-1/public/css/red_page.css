@@ -1,0 +1,248 @@
+.main-part section{
+    background-color: #EC8989;
+}
+
+body{
+    color: #AC4B4B;
+}
+
+p{
+    font-size: 15%;
+    padding: 0% 3% 0% 3%;
+    font-family: 'mariannemedium';
+    margin-bottom: 2%;
+    margin-top: 2%;
+    font-variant: normal;
+}
+
+#introduction{
+    position:absolute;
+    width:72.6%;
+    height:7.4%;
+    left:4%;
+    top:27%;
+}
+
+
+
+#subtitle{
+    width: 32%;
+}
+
+#txt_intro, #txt_demarche, #txt_question_proc{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+#txt_diag{
+    margin-left:10%;
+    margin-right: 4%;
+    width:50%;
+    text-align: right;
+}
+
+
+.gifbureau{
+    position: absolute;
+    bottom:15%;
+    width:80%;
+    left:13%;
+}
+
+#img_mairie{
+    position:absolute;
+    width:66%;
+    left:55.7%;
+    top:27%;
+    display: none;
+}
+
+#img_mairie2{
+    position:absolute;
+    width:45%;
+    left:55.7%;
+    top:26%;
+}
+
+#question_bureaux{
+    position: absolute;
+    font-weight: 800;
+    width:45%;
+    height:8.7%;
+    left:4%;
+    top:44.2%;
+}
+
+#buttons_question_bureaux{
+    position:absolute;
+    top:43%;
+    left:5%;
+    width:100%;
+}
+
+#buttons_question_bureaux button{
+    color: white;
+    background-color: #A34142;
+    width:25%;
+    height:5.4%;
+    font-size:15%;
+}
+
+#p_etoile{
+    position:absolute;
+    top:61%;
+    left:4%;
+}
+
+#fleche_bureaux{
+    position: absolute;
+    left: 19.63%;
+    top: 67.66%;
+}
+
+#bureaux_localisation{
+    position:absolute;
+    background-color:#EC8989;
+    border: 2px solid #A34142;
+    color:white;
+    width:45%;
+    height:3%;
+    font-size:10%;
+    top:68%;
+    left:45%;
+    line-height:0px;
+}
+
+.transition_phrase{
+    position:absolute;
+    width:80%;
+    top:75.3%;
+    left:9%;
+}
+
+
+.big{
+    font-size: 50%;
+    text-align: justify;
+    margin-top: 3%;
+}
+
+.center{
+    text-align: center;
+}
+
+button{
+    background-color: #A34142;
+}
+
+.bouton{ 
+    padding : 2% 0% 2% 0%;
+    margin: 1%;
+    width: 50%;
+    font-size: 100%;
+    height: 8%;
+    border-radius: 600px;
+    border: none;
+    font-family: 'folsomblack';
+    background-color: #AC4B4B;
+    color: white;
+}
+
+#démarche{
+    display: flex;
+    justify-content:center;
+    padding-left: 10%;
+    margin-left: 5%;
+}
+
+#butproc{
+    background-color:#EC8989;
+    border: 2px solid #A34142;
+    color:white;
+    margin-left: 5%;
+    padding: 1% 5% 1% 5%;
+    font-size: 10%;
+    width:60%;
+    color: rgb(224, 209, 209);
+
+}
+
+#diag{
+    display:flex;
+    justify-content: space-between;
+    object-fit: contain;
+}
+
+#p_img{
+    padding-left:0%;
+}
+
+#diagramm{
+    width: 125%;
+    height: 100%;
+}
+
+#Quest_Proc{
+    display: flex;
+    justify-content: space-between;
+    margin-top:6%;
+}
+
+#Quest_proc input{
+    font-size:100%;
+}
+
+#titreproc{
+    width: 32%;
+}
+
+.pagenumber{
+    position: absolute;
+    color:#AC4B4B;
+    margin-top: 5%;
+    text-align:center;
+    font-weight:bolder;
+    font-size:15%;
+    width: 100%;
+    font-family:"mariannemedium";
+    bottom:2.5%;
+}
+
+#currentnum{
+display:inline-block;
+        color:#AB4A4A;
+        text-decoration:none
+}
+a:link,a:visited{
+    display:inline-block;
+    color:#AC4B4B;
+    padding:0% 3%;
+    margin:0.5%;
+    text-decoration:none;
+}
+
+.not_current{
+    opacity: 50%;
+}
+#div1
+{
+    width:100%;
+    height:50%;
+    background:#EC8989;
+    position:absolute;
+}
+
+#div2 {
+    width:100%;
+    height:50%;
+    background:#A34142;
+    position:absolute;
+    bottom:0;
+}
+
+#drapeau{
+    position : absolute;
+    width: 12%;
+    right: 9.8%;
+    top: 24.6%;
+}

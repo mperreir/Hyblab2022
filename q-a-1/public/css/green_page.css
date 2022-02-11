@@ -1,0 +1,160 @@
+#first-section{
+    background-color: #46A882;
+}
+
+#title{
+    margin-top: 5%;
+    width:72%;
+}
+
+#subtitle{
+    width: 32%;
+}
+
+.introduction{
+    margin-top: 12%;
+    font-size: 15%;
+    font-family: mariannemedium;
+
+}
+
+.main-section{
+    margin-top: 8%;
+    font-size: 18%;
+    font-family: folsomblack;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+
+p{
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    color: #165E46;
+    font-variant: normal;
+}
+
+#white-content{
+    color: #FFFFFF;
+}
+
+tr{
+    height: 20%;    
+}
+
+td{
+    border-radius: 1%;
+    border: solid;
+    border-color: #165E46 ;
+    width: 50%;
+}
+
+td p{
+    font-family: mariannemedium;
+    font-size: 13%;
+    margin-top: 0%;
+    margin-block-start: -22%;
+}
+
+td img{
+    width: 22%;
+    position: absolute;
+    justify-content: center;
+    margin-block-start: -15%;
+}
+
+table{
+    margin: 5%;
+    width: 90%;
+    height: 35%;
+    border-width: 6px;
+    border: solid;
+    border-collapse: collapse;
+}
+
+.hidden{
+    display: none;
+}
+
+.hidden-check{
+    display: none;
+}
+
+#hidden-1{
+    top:56%;
+    left:17%;
+}
+
+#hidden-2{
+    top:56%;
+    right: 17%;
+}
+
+#hidden-3{
+    top:68%;
+    left:17%;
+}
+
+#hidden-4{
+    top:68%;
+    right:17%;
+}
+
+#hidden-5{
+    top:79%;
+    left:17%;
+}
+
+.pagenumber{
+    position: absolute;
+    color:#165E46;
+    margin-top: 5%;
+    text-align:center;
+    font-weight:bolder;
+    font-size:15%;
+    width: 100%;
+    font-family:"mariannemedium";
+    bottom:2.5%;
+}
+
+#currentnum{
+display:inline-block;
+        color:#165E46;
+        text-decoration:none
+}
+a:link,a:visited{
+    display:inline-block;
+    color:#165E46;
+    padding:0% 3%;
+    margin:0.5%;
+    text-decoration:none;
+}
+
+.not_current{
+    opacity: 50%;
+}
+
+#po_up_window{
+    position: absolute;
+    width: 70%;
+    height: 50%;
+    top: 27%;
+    left: 15%;
+}
+
+#po_up_exit{
+    position: absolute;
+    width: 4%;
+    height: 4%;
+    top: 45%;
+    left: 75%;
+}
+
+#small_img{
+    position: absolute;
+    width: 6%;
+    height: 6%;
+    left: 12%;
+    top: 81.8%;
+}
