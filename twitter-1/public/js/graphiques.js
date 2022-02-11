@@ -11,12 +11,12 @@ function BarChart(data, {
     x = (d, i) => i, // given d in data, returns the (ordinal) x-value
     y = d => d, // given d in data, returns the (quantitative) y-value
     title, // given d in data, returns the title text
-    marginTop = 80, // the top margin, in pixels
+    marginTop = 50, // the top margin, in pixels
     marginRight = 30, // the right margin, in pixels
     marginBottom = 0, // the bottom margin, in pixels
     marginLeft = 0, // the left margin, in pixels
     width = 400, // the outer width of the chart, in pixels
-    height = 170, // the outer height of the chart, in pixels
+    height = 120, // the outer height of the chart, in pixels
     xDomain, // an array of (ordinal) x-values
     xRange = [marginLeft, width - marginRight], // [left, right]
     yType = d3.scaleLinear, // y-scale type
@@ -52,7 +52,7 @@ function BarChart(data, {
     // Compute titles.
     title = i => `${X[i]}\n${Y[i]}`+' tweets';
 
-
+    // Create svg
     const svg = d3.create("svg")
         .attr("id", "barplot")
         .attr("width", width)
@@ -61,39 +61,7 @@ function BarChart(data, {
         .attr("style", "max-width: 100%; height: auto; height: intrinsic;");
 
 
-    // Filter drop shadow
-
-    // var defs = svg.append("defs");
-    //
-    // var filter = defs.append("filter")
-    //     .attr("id", "dropshadow")
-    //
-    // filter.append("feGaussianBlur")
-    //     .attr("in", "SourceAlpha")
-    //     .attr("stdDeviation", 2)
-    //     .attr("result", "blur");
-    // filter.append("feOffset")
-    //     .attr("in", "blur")
-    //     .attr("dx", 2)
-    //     .attr("dy", 2)
-    //     .attr("result", "offsetBlur");
-    //
-    // var feMerge = filter.append("feMerge");
-    //
-    // feMerge.append("feMergeNode")
-    //     .attr("in", "offsetBlur")
-    // feMerge.append("feMergeNode")
-    //     .attr("in", "SourceGraphic");
-
-    // var div = d3.select("#barplot").append("div")
-    //     .attr("class", "tooltip")
-    //     .style("opacity", 0);
-
-    // svg.append("g")
-    //     .attr("transform", `translate(${marginLeft},0)`)
-    //     .call(yAxis)
-    //     .call(g => g.select(".domain").remove())
-
+    // Draw rectangles
     const bar = svg.append("g")
         .attr("fill", color)
         .selectAll("rect")
@@ -104,18 +72,9 @@ function BarChart(data, {
         .attr("y", i => yScale(Y[i]))
         .attr("height", i => yScale(0) - yScale(Y[i]))
         .attr("width", xScale.bandwidth())
-    // .on("mouseover", function(d){
-    //     d3.select(this).attr("fill", "red");
-    //     div.transition()
-    //         .style("opacity", .9)
-    // })
-    // .on("mouseout", function(d){
-    //     d3.select(this).attr("fill", color)
-    //     div.transition()
-    //         .style("opacity", 0);
-    // });
 
 
+    // Add statistics
     svg.selectAll(".bar-title")
         .data(I)
         .enter()
@@ -123,11 +82,13 @@ function BarChart(data, {
         .classed('bar-title', true)
         .attr('text-anchor', 'middle')
         .attr("x", d => xScale(X[d]) + xScale.bandwidth()/2)
-        .attr("y", d => yScale(Y[d])+25)
+        .attr("y", d => yScale(Y[d])+15)
         .text(d => `${Y[d]}`)
         .style("font", "sans-serif")
         .attr("fill", labelColor);
 
+
+    // Add candidates' names
     svg.selectAll(".candidates-name")
         .data(I)
         .enter()
@@ -135,7 +96,7 @@ function BarChart(data, {
         .classed('candidates-name', true)
         .attr('text-anchor', 'middle')
         .attr("x", d => xScale(X[d]) + xScale.bandwidth()/2)
-        .attr("y", d => yScale(Y[d])-10)
+        .attr("y", d => yScale(Y[d])-5)
         .text(d => `${X[d]}`)
         .style("font", "sans-serif")
         .style("font-size", "10px")
@@ -143,6 +104,8 @@ function BarChart(data, {
         .style("text-transform", "uppercase")
         .attr("fill", textColor)
 
+
+    // Add Title 1
     svg.append("text")
         .attr("id", "comment")
         .attr("x", (width-marginRight)/2)
@@ -152,6 +115,8 @@ function BarChart(data, {
         .attr("fill", textColor)
         .style("font-weight",700)
 
+
+    // Add Title 2
     svg.append("text")
         .attr("id", "comment")
         .attr("x", (width-marginRight)/2)
@@ -167,6 +132,7 @@ function BarChart(data, {
 
 
 
+// Draw bar chart according to the selector of themes
 async function ThemeGraphe() {
     const svg1 = document.getElementById("ThemeGraphe");
     let data = await fetch("api/theme/count/all")

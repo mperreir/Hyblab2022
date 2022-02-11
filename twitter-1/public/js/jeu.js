@@ -1,9 +1,8 @@
 
-//(() => Suivant(30,0,0))();
-
-
+// La fonction Suivant est appelée pour chaque nouvelle question du jeu
 async function Suivant(temps,score,total) {
 
+    //On affiche les bulles de dialogue et change la couleur de fond de la page
     let jeu = document.querySelector('#jeu');
     let bulle = document.querySelector('#bulle');
     bulle.style.display= "inline";
@@ -17,6 +16,7 @@ async function Suivant(temps,score,total) {
     let slide = document.querySelector('#second-slide');
     slide.style.background ="#a08aff";
     
+    //Si il s'agit de la première question, on enlève toutes les informations qui étaient contenue sur le menu
     try {
         let text = document.querySelector('#text');
         let choix = document.querySelector('#choix');
@@ -28,11 +28,13 @@ async function Suivant(temps,score,total) {
         jeu.removeChild(images);
     } catch {}
 
+    //Dans l'autre cas, on enlève les questions et reponses précédentes
     try {
         jeu.removeChild(question);
         jeu.removeChild(reponse);
     } catch {}
 
+    //On remet à jour le Timer à chaque question jusqu'à ce que celui-ci atteigne 0 puis on affiche les résultats
     let timerElement = document.getElementById("timer")
 
     let interval = setInterval(() => {
@@ -49,8 +51,10 @@ async function Suivant(temps,score,total) {
         }
     }, 500);
 
+    //On recherche dans notre base de données une question et sa réponse
     const question = await fetchResponse();
 
+    //On crée les différents éléments : le div contenant la question, les boutons de réponses...
     let div = document.createElement('div');
     div.setAttribute("id", 'question');
     div.style.position = "absolute";
@@ -91,48 +95,52 @@ async function Suivant(temps,score,total) {
     image.style.zIndex = "5";
     jeu.appendChild(image);
 
-    setTimeout(()=>{let a = document.createElement('input');
-    a.setAttribute("type", "button");
-    a.setAttribute("value", question.possible_response_1.name);
-    a.setAttribute("id", "reponseA");
-    a.style.width = "35%";
-    a.style.height = "40px";
-    a.style.marginLeft = "10%";
-    a.style.borderRadius = "80px";
-    a.style.boxShadow = "7px 7px 25px 0 rgba(0,0,0,0.25)";
-    a.style.border = "none";
-    a.style.fontFamily = "'Outfit', sans-serif";
-    a.style.fontSize = "80%";
-    a.addEventListener('click', () => Reponse(a, question.is_response_1_true, temps, interval, score, total));
+    //Pour que le joueur ne puisse pas répondre aux questions sans les lire, on délait l'apparition des boutons de réponses d'une demi seconde
+    setTimeout(()=>{
+        //Les deux boutons contiennent 2 réponses possibles, l'une vraie, l'autre fausse
+        let a = document.createElement('input');
+        a.setAttribute("type", "button");
+        a.setAttribute("value", question.possible_response_1.name);
+        a.setAttribute("id", "reponseA");
+        a.style.width = "35%";
+        a.style.height = "40px";
+        a.style.marginLeft = "10%";
+        a.style.borderRadius = "80px";
+        a.style.boxShadow = "7px 7px 25px 0 rgba(0,0,0,0.25)";
+        a.style.border = "none";
+        a.style.fontFamily = "'Outfit', sans-serif";
+        a.style.fontSize = "80%";
+        a.addEventListener('click', () => Reponse(a, question.is_response_1_true, temps, interval, score, total));
 
-    let b = document.createElement('input');
-    b.setAttribute("type", "button");
-    b.setAttribute("value", question.possible_response_2.name);
-    b.setAttribute("id", "reponseB");
-    b.style.width = "35%";
-    b.style.height = "40px";
-    b.style.marginLeft = "12%";
-    b.style.borderRadius = "80px";
-    b.style.boxShadow = "7px 7px 25px 0 rgba(0,0,0,0.25)";
-    b.style.border = "none";
-    b.style.fontFamily = "'Outfit', sans-serif";
-    b.style.fontSize = "80%";
-    b.addEventListener('click', () => { 
-        Reponse(b, !question.is_response_1_true, temps, interval, score, total);
-    });
+        let b = document.createElement('input');
+        b.setAttribute("type", "button");
+        b.setAttribute("value", question.possible_response_2.name);
+        b.setAttribute("id", "reponseB");
+        b.style.width = "35%";
+        b.style.height = "40px";
+        b.style.marginLeft = "12%";
+        b.style.borderRadius = "80px";
+        b.style.boxShadow = "7px 7px 25px 0 rgba(0,0,0,0.25)";
+        b.style.border = "none";
+        b.style.fontFamily = "'Outfit', sans-serif";
+        b.style.fontSize = "80%";
+        b.addEventListener('click', () => { 
+            Reponse(b, !question.is_response_1_true, temps, interval, score, total);
+        });
 
-    div2.appendChild(a);
-    div2.appendChild(b);
+        div2.appendChild(a);
+        div2.appendChild(b);
 
-    jeu.appendChild(div2);
+        jeu.appendChild(div2);
      },500);  
     
     
 }
 
-
+//Lorsqu'un bouton est cliqué, la fonction Reponse est appelée
 function Reponse(button, is_success, temps, interval, score, total){
     
+    //On calcule le score du joueur et on augmente le nombre de question passée
     let jeu = document.querySelector('#jeu');
     let bulle = document.querySelector('#bulle');
     bulle.style.display= "none";
@@ -164,9 +172,11 @@ function Reponse(button, is_success, temps, interval, score, total){
 
 }
  
+//Lorsque le timer est arrivé à 0 , on affiche l'écran de réponse
 function finJeu(score,total){
     // clearInterval(interval);
 
+    //On change la couleur de fond et on enlève les éléments des questions - les bulles
     let slide = document.querySelector('#second-slide');
     slide.style.background ="#5467d3";
 
@@ -189,6 +199,8 @@ function finJeu(score,total){
     jeu.removeChild(reponse);
     jeu.removeChild(timerElement);
     jeu.removeChild(imagetweet);
+
+    //On rajoute les éléments présents sur l'écran de fin : le score et un commentaire dépendant de celui-ci
 
     let div = document.createElement('div');
     div.setAttribute("id", 'finjeu');
@@ -225,7 +237,7 @@ function finJeu(score,total){
     let contentcom;
     let contentappr;
 
-    console.log(score/total);
+    //Les messages affichés dépendent du score du joueur
     if((score/total)<=0.5 || total === 0){
         console.log("here");
         contentcom = document.createTextNode( "Vous avez raté quelques actus Twitter cette semaine. Pas de problèmes, remettez-vous à niveau en consultant les tweets qui ont le plus fait réagir." );
@@ -259,13 +271,14 @@ function finJeu(score,total){
     let image = document.createElement('img');
     image.src="img/etoiles-1.png";
     image.setAttribute("id","etoile");
-    image.style.width="60%";
-    image.style.position = "absolute";
-    image.style.top = "48%";
+    image.style.width="40%";
+    image.style.position = "relative";
+    image.style.top = "50%";
     image.style.left = "25%";
 
     jeu.appendChild(image);
 
+    //On ajoute également à la page les 3 boutons : Rejouer, Voir Top tweets et partager son résultat
     let btn_action_jeu = document.createElement('div');
     btn_action_jeu.setAttribute("class", "container-btn-end-game");
 
@@ -286,6 +299,7 @@ function finJeu(score,total){
         swiper.slideTo(2);
     });
 
+    //Lorsqu'on partage son résultat sur Twitter, un message personalisé est affiché
     let partager = document.createElement('input');
     partager.setAttribute("type", "button");
     partager.setAttribute("value", "Partager");
@@ -303,6 +317,7 @@ function finJeu(score,total){
     jeu.appendChild(btn_action_jeu) ;
 }
 
+//Lorsqu'on clique sur Rejouer, la fonction clear est appelée afin d'enlever toutes les infos se trouvant sur la page et préparer le début d'une nouvele partie
 function clear(){
 
     let boutons = document.querySelector('.container-btn-end-game');
@@ -322,11 +337,12 @@ function clear(){
     timer.setAttribute("id", 'timer');
     jeu.appendChild(timer);
 
+    //On relance le jeu
     (() => Suivant(90,0,0))();
 
 }
 
-
+//La fonction permet de rechercher les questions et réponses dans l'API
 async function fetchResponse() {
     let result;
     try {

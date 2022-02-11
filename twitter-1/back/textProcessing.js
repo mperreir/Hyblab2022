@@ -10,6 +10,11 @@ const TfIdf = natural.TfIdf;
 
 const Readable = require('stream').Readable;
 
+/**
+ * Simple accent remover
+ * @param s
+ * @returns {string} string without commun accents
+ */
 accentsTidy = function(s){
     let r = s.toLowerCase();
     r = r.replace(new RegExp(/[àáâãäå]/g),"a");
@@ -26,6 +31,10 @@ accentsTidy = function(s){
 };
 
 class Labeler {
+    /**
+     * Init labeler with themes.
+     * @param themes list of keywords string
+     */
     constructor(themes) {
         // réduit à la forme primitive les keyswords
         themes = themes.map(theme => {
@@ -36,7 +45,19 @@ class Labeler {
         this.themes = themes;
     }
 
-    // labelling a tweet and return this tweet labeled
+    /**
+     * Labelling a tweet and return this tweet labeled.
+     * Add:
+     * - theme_id:
+     *     if >= 0: the id of labeled theme.
+     *     if == -1: no theme found for this tweet.
+     * - themeScore:
+     *     if > 0: the number of matching keywords.
+     *     if = 0: no theme found for this tweet.
+     *
+     * @param tweet tweet to label
+     * @returns {*}
+     */
     labellingTweet(tweet) {
         tweet.data = natural.PorterStemmerFr.tokenizeAndStem(accentsTidy(tweet.text.replace('#', '')));
         const trie = new Trie();
@@ -52,9 +73,6 @@ class Labeler {
             themeScores.push(themeDistance);
         });
 
-        // if((new Date()).isBetweenWeekBefore(new Date(parseInt(tweet.created_at)*1000)))
-        //     console.log("ok");
-
         // pondération en fonction du nombre de keywords
         themeScores.map((value, index) => value / this.themes[index].keywords.length);
 
@@ -65,12 +83,6 @@ class Labeler {
             }
         });
 
-        // if((new Date()).isBetweenWeekBefore(new Date(parseInt(tweet.created_at)*1000)))
-        //     console.log("ok");
-
-
-
-
         if (maxSCoreIndex === -1) {
             tweet.theme_id = -1;
             tweet.themeScore = 0;
@@ -79,24 +91,22 @@ class Labeler {
             tweet.themeScore = themeScores[maxSCoreIndex];
         }
 
-        // if (tweet.theme_id === 1)
-        //     console.log("ok")
-        // if (tweet.theme_id === 2)
-        //     console.log("ok")
-        // if (tweet.theme_id === 3)
-        //     console.log("ok")
-        // if (tweet.theme_id === 4)
-        //     console.log("ok")
-        // if (tweet.theme_id === 5)
-        //     console.log("ok")
-        // if (tweet.theme_id === 6)
-        //     console.log("ok")
-
         delete tweet.data;
         return tweet;
     };
 
-    // labbeling a list of tweets and return the labeled list of tweets
+    /**
+     * Labelling a list of tweets and return the labeled list of tweets.
+     * Add on each tweets:
+     * - theme_id:
+     *     if >= 0: the id of labeled theme.
+     *     if == -1: no theme found for this tweet.
+     * - themeScore:
+     *     if > 0: the number of matching keywords.
+     *     if = 0: no theme found for this tweet.
+     * @param tweets tweets to label
+     * @returns labeled_tweets
+     */
     labellingTweets(tweets) {
         // filtre les tweets trop petites
         tweets = tweets.filter(tweet => tweet.text.length > 70);
@@ -108,26 +118,11 @@ class Labeler {
 }
 
 class Parser {
-    // parse a file from path and call the callback with parsed tweets
-    // exemple of path : "twitter-1/back/data/tweets/tweets_candidats.csv"
-    static getTweetsJSONFromFile(path, callback) {
-        let tweets = [];
-
-        fs.createReadStream(path)
-            .pipe(csv())
-            .on('data', function (data) {
-                try {
-                    tweets.push(data);
-                } catch (err) {
-                    //error handler
-                    console.error(err);
-                }
-            })
-            .on('end', function () {
-                callback(tweets);
-            });
-    }
-
+    /**
+     * Parse a csv file from path and call the callback with parsed data
+     * @param path
+     * @param callback
+     */
     static getValuesFromCSV(path, callback) {
         let values = [];
 
@@ -146,10 +141,15 @@ class Parser {
             });
     }
 
-    static getValuesFromCSVString(file, callback) {
+    /**
+     * Parse a csv string from path and call the callback with parsed data
+     * @param csv_string
+     * @param callback
+     */
+    static getValuesFromCSVString(csv_string, callback) {
         let values = [];
 
-        Readable.from(file)
+        Readable.from(csv_string)
             .pipe(csv())
             .on('data', function (data) {
                 try {
@@ -167,19 +167,3 @@ class Parser {
 
 module.exports.Labeler = Labeler;
 module.exports.Parser = Parser;
-
-
-/*
-How to test the labeler :
-
-const textProcessing = require('[PATH/TO]/textProcessing');
-
-const labeler = new textProcessing.Labeler(textProcessing.themesTests);
-let tweets;
-textProcessing.Parser.getTweetsJSONFromFile("twitter-1/back/data/tweets/tweets_candidats.csv", (ts) => {
-    tweets = ts;
-    tweets = labeler.labellingTweets(tweets);
-    console.log(tweets);
-});
-
- */
