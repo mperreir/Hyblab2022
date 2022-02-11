@@ -88,6 +88,8 @@ module.exports = (passport) => {
         res.json(themes);
     });
 
+
+    // Api for counting number of tweets of all themes
     app.get('/theme/count/all', (req, res) =>{
         let listCount = [];
         const listCandidates = db.getCandidats();
@@ -104,6 +106,8 @@ module.exports = (passport) => {
         res.json(result);
     });
 
+
+    // Api for counting number of tweets in one specific theme
     app.get('/theme/count/:theme_id',(req, res) =>{
         let listCount = [];
         const listCandidates = db.getCandidats();
