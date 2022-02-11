@@ -1,0 +1,46 @@
+<!doctype html>
+
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<title>Hyblab 2022</title>
+	<link rel="stylesheet" href="css/style_anjoute-choix-commune.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<link rel="stylesheet" href="https://fontlibrary.org//face/lineal"/>
+	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Baloo Tamma 2'/>
+	<script type="module" src="js/js_anjoute-choix-commune.js" defer></script>
+	<script type="module" src="js/generate_enemy.js" defer></script>
+	<script type="module" src="js/generateObject.js" defer></script>
+</head>
+<body>
+    <!-- Le conteneur sert à vérouiller les proportions (aspect ratio) du contenu de la page (ici des slides) -->
+    <div id="container">
+
+
+		<div class="img_container">
+			<img id="logo_anjoute" src="img/logos/logo-sansbaseline-sansfond.png" alt="logo_anjoute">
+		</div>	
+
+		<div class="choix">
+
+			<label for="communes" class="label-choix">Recherchez votre commune</label>
+
+				<div class="container-input-communes">
+					<input type="text" name="communes" class="input-communes">
+				</div>
+				<div class="suggestions">
+				</div>
+
+		</div>
+
+		<div class="bottom">
+			<button class="goToGame">
+				<p>C'est parti</p>	
+			</button>
+		</div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,60 @@
+#container {
+	position: relative;
+	height: 100%;
+	background-color: #11151B;
+}
+
+.top {
+	position: absolute;
+	z-index: 10;
+	text-align: center;
+	top: 5%;
+}
+
+.top img {
+	width: 70%;
+	height: auto;
+}
+
+.mid {
+	position: relative;
+	z-index: 0;
+	top: 30%;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+.animation_perso {
+	width: 100%;
+	height: auto;
+}
+
+.mid .bottom {
+	position: absolute;
+	background-color:#10141A;
+	font-size: 0;
+	width: 100%;
+	text-align: center;
+	bottom: 0;
+}
+
+.mid .goToChoix {
+	color: #C8A166;
+	background-color: #10141A;
+	border:  2px solid #C8A166;
+	border-radius: 10px;
+	width: 70%;
+	cursor: pointer;
+}
+
+.mid .goToChoix:hover {
+	color: black;
+	background-color: #C8A166;
+}
+
+.mid .goToChoix p {
+    font-family: 'Lineal', sans-serif;
+	font-size: 160%;
+	margin: 3%;
+}

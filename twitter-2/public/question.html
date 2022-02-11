@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>Hyblab 2022</title>
+    <link rel="stylesheet" href="css/question.css">
+    <script src="./js/question.js"></script>
+
+</head>
+
+<body>
+    <div id="container">
+
+        <img src="img/home.svg" id="exit">
+
+
+        <section id="question-section" style="text-align: center;">
+            <img src="./img/ligne.png" style="margin-bottom: 0.7vh;height: 0.8vh;width:50%;margin-left: -45%;">&nbsp;<p
+                style="display: inline;">
+                <span style="display: inline;font-size: 3.7vh;color:#1A367A;" id="questionPart1"></span>
+                <br>
+                <span style="display: inline;color:#5571E5;font-size: 3.7vh;" id="theme-choisi"></span>
+                <span id="questionPart2" style="display: inline;font-size: 3.7vh;color:#1A367A;"></span>
+                <span style="display: inline;color:#5571E5;font-size: 3.7vh;" id="candidate"></span>
+                <span id="questionPart3" style="color:#1A367A;"></span></p>
+        </section>
+
+        <section id="reponses">
+            <button class="answer-button" id="ans1">
+                <p></p>
+            </button>
+            <button class="answer-button" id="ans2">
+                <p></p>
+            </button>
+            <button class="answer-button" id="ans3">
+                <p></p>
+            </button>
+        </section>
+
+        <section id="progression-bar">
+            <div id="bar">
+                <div id="point1"></div>
+                <div class="line"></div>
+                <div id="point2"></div>
+                <div class="line"></div>
+                <div id="point3"></div>
+            </div>
+
+        </section>
+
+    </div>
+</body>
+
+</html>

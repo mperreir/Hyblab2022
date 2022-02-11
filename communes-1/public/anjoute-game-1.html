@@ -1,0 +1,86 @@
+<!doctype html>
+
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <title>Hyblab 2022</title>
+  <link rel="stylesheet" href="css/style_anjoute-game-1.css">
+  <link rel="stylesheet" href="css/style_bandeau.css">
+  <link rel="stylesheet" href="css/style_joute.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="https://fontlibrary.org//face/lineal"/>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Baloo Tamma 2'/>
+	<script type="module" src="js/question.js" defer></script>
+	<script type="module" src="js/js_anjoute-game-1.js" defer></script>
+	<script type="module" src="js/generate_enemy.js" defer></script>
+	<script src="js/js_vie_position.js" defer></script>
+	<script type="module" src="js/generateObject.js" defer></script>
+	<script src="js/js_anjoute-charger-personnage.js" defer></script>
+</head>
+<body>
+    <!-- Le conteneur sert à vérouiller les proportions (aspect ratio) du contenu de la page (ici des slides) -->
+    <div id="container">
+
+		<div class="loader">
+			<div class="joute-loader"> 
+				<img src="img/logos/joute.png" alt="joute" id="logo-joute">
+			</div>
+		</div>
+
+		<main class="corps">	
+			<div class="top">
+				<div class="hp">
+					<img src="img/jeu/vie.png" alt="vie">
+					<img src="img/jeu/vie.png" alt="vie">
+					<img src="img/jeu/vie.png" alt="vie">
+				</div>
+				<div class="joute"> 
+					<img src="img/logos/joute.png" alt="joute">
+				</div>
+				<div class="position">
+					<img src="img/jeu/drapeau1.png" alt="position">
+				</div>
+				<div class="inventaire">
+					<a href="anjoute-inventaire.html">					
+						<img src="img/jeu/mosaique-richesses.png" alt="inventaire">
+					</a>
+				</div>
+			</div>
+		
+			<div class="mid">
+				<div class="blabla">
+					<p class="texte">Moi, habitant de <span class="commune">XXX</span>, je possède :</p>
+					<p class="recompense">Le meilleur bottereau</p>
+					<p class="texte">Si tu réponds juste à cette question sur ma commune, tu pourras remporter ce trésor.
+						Sinon tu me donnes une de tes vies !
+					</p>
+				</div>
+
+				<div class="bloc-question">
+					<p class="question">Inès boit-elle l'eau des cornichons ?</p>	
+				</div>
+
+				<div class="bloc-reponses">
+					<button class="reponse reponse1">
+						<p class="reponse_1">Oui eLLe adore</p>
+					</button>
+					<button class="reponse reponse2">
+						<p class="reponse_2">Non pas du tout</p>
+					</button>
+				</div>
+				<div class="bloc-video">
+					<video autoplay muted playsinline loop class="animation_perso">
+						<source src="img/animations/manteau_rouge.mp4" type="video/mp4">
+					</video>
+				</div>
+
+				<div class="ville">
+					<p class="commune_2">Cholet</p>
+				</div>
+			</div>
+		</main>
+    </div>
+</body>
+</html>

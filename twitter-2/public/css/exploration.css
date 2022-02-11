@@ -1,0 +1,168 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+@font-face {
+    font-family: 'blatantregular';
+    src: url('../font/blatant-webfont.woff') format('woff'),
+         url('../font/blatant-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    background-color: black;
+    color: white;
+    overflow: hidden;   
+    font-family: 'blatantregular';
+    height:100vh;
+}
+
+#container {
+    background: #FFFFFF;
+    color: #1A367A;
+    font-size: 3vh;
+    position: relative;
+    padding-top: 25px;
+    text-align: center;
+    
+}
+
+button{font-family: 'blatantregular';}
+
+#return {
+    padding-top: 7%;
+    margin-left: 79%;
+    width: 8%;
+}
+
+#categorie ul {
+    margin-bottom: 10%;
+    list-style-type: none;
+}
+
+#followers-commun {
+    padding-top: 5%;
+    padding-bottom: 10%;
+    text-align: center;
+}
+
+#followers-commun p, #choix-theme p {
+    font-size: 2.2vh;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    white-space:nowrap;
+}
+
+#choix-theme {
+    text-align: center;
+    margin-top: -5%;
+}
+
+#choix-theme ul li {
+    margin-bottom: 7%;
+}
+
+#choix-theme ul li button, #followers {
+    background-color: #F24A41;
+    border-radius: 19px;
+    width: 60%;
+    height: 5.3vh;
+    color: white;
+    border: 0;
+    font-size: 2.6vh;
+}
+
+#categorie {
+    position: absolute;
+    width: 100%;
+    visibility: hidden;
+    height:80vh;
+}
+
+#selection-candidat {
+    width: 100%;
+    visibility: hidden;
+}
+
+#selection-candidat ul {
+    display: flex;
+    flex-direction: initial;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    padding-top: 5%;
+}
+
+#selection-candidat ul li {
+    padding-bottom: 3%;
+    width: 14vh;
+    padding-left: 1%;
+}
+
+#text-selec-candidat, #text-categorie {
+    margin-bottom: 5%;
+    margin-top: 3%;
+    font-size: 3.5vh;
+}
+
+.txt-selec-candidat {
+    font-size: 1.5vh;
+    font-family: 'Lato', sans-serif;
+}
+
+.img-selec-candidat {
+    width: 10vh;
+}
+
+#autre_candidat{
+    background-color: #5571E5;
+    color: #FFFFFF;
+    border-radius: 19px;
+    width: 70%;
+    height: 6vh;
+    border: 0;
+    font-size: 2.5vh;
+}
+
+#reminder_candidate {
+    margin: 10% 0 5% 0;
+    height:2vh;
+}
+
+#reminder_candidate span {
+    color: #F24A41;
+}
+
+@media screen and (max-aspect-ratio: 9/16){
+    #container{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    /* We set a default font size here. It will be the base for all other font sizes */
+    /* Here the font size is proportional to display width */
+    body{
+        font-size: calc(12vw*9/16);
+    }
+}
+
+/* This media query ensures that we allways will the height of the screen */
+/* as long as the screen aspect ratio is higher than 9:16 */
+@media screen and (min-aspect-ratio: 7/13){
+    #container{
+        margin-left: calc((100vw - 100 * 9vh / 16) / 2);
+        width: calc(100 * 9vh / 16);
+        height: 100vh;
+    }
+
+    /* We set a default font size here. It will be the base for all other font sizes */
+    /* Here the font size is proportional to display height */
+    body{
+        font-size: 12vh;
+    }
+}

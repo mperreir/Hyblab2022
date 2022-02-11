@@ -1,0 +1,9116 @@
+[
+ {
+   "code": 2,
+   "nom_com": "Allonnes",
+   "inscrits": 2025,
+   "abstentions": 433,
+   "pour_abs": {
+      "ins": 21.38
+   },
+   "votants": 1592,
+   "pour_vot": {
+      "ins": 78.62
+   },
+   "blanc_nul": 201,
+   "pour_bl_nuls": {
+      "ins": 7.31,
+      "vot": 12.63
+   },
+   "exprimes": 1391,
+   "pour_exp": {
+      "ins": 68.69,
+      "vot": 87.37
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      734,
+      657
+   ],
+   "pour_voix": {
+      "ins": [
+         36.25,
+         32.44
+      ],
+      "exp": [
+         52.77,
+         47.23
+      ]
+   }
+},
+ {
+   "code": 3,
+   "nom_com": "Tuffalun",
+   "inscrits": 1210,
+   "abstentions": 260,
+   "pour_abs": {
+      "ins": 21.49
+   },
+   "votants": 950,
+   "pour_vot": {
+      "ins": 78.51
+   },
+   "blanc_nul": 130,
+   "pour_bl_nuls": {
+      "ins": 8.68,
+      "vot": 13.69
+   },
+   "exprimes": 820,
+   "pour_exp": {
+      "ins": 67.77,
+      "vot": 86.32
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      544,
+      276
+   ],
+   "pour_voix": {
+      "ins": [
+         44.96,
+         22.81
+      ],
+      "exp": [
+         66.34,
+         33.66
+      ]
+   }
+},
+ {
+   "code": 7,
+   "nom_com": "Angers",
+   "inscrits": 89527,
+   "abstentions": 24204,
+   "pour_abs": {
+      "ins": 27.04
+   },
+   "votants": 65323,
+   "pour_vot": {
+      "ins": 72.96
+   },
+   "blanc_nul": 6896,
+   "pour_bl_nuls": {
+      "ins": 5.93,
+      "vot": 10.56
+   },
+   "exprimes": 58427,
+   "pour_exp": {
+      "ins": 65.26,
+      "vot": 89.44
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      48232,
+      10195
+   ],
+   "pour_voix": {
+      "ins": [
+         53.87,
+         11.39
+      ],
+      "exp": [
+         82.55,
+         17.45
+      ]
+   }
+},
+ {
+   "code": 8,
+   "nom_com": "Angrie",
+   "inscrits": 625,
+   "abstentions": 113,
+   "pour_abs": {
+      "ins": 18.08
+   },
+   "votants": 512,
+   "pour_vot": {
+      "ins": 81.92
+   },
+   "blanc_nul": 70,
+   "pour_bl_nuls": {
+      "ins": 7.36,
+      "vot": 13.68
+   },
+   "exprimes": 442,
+   "pour_exp": {
+      "ins": 70.72,
+      "vot": 86.33
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      276,
+      166
+   ],
+   "pour_voix": {
+      "ins": [
+         44.16,
+         26.56
+      ],
+      "exp": [
+         62.44,
+         37.56
+      ]
+   }
+},
+ {
+   "code": 9,
+   "nom_com": "Antoigné",
+   "inscrits": 345,
+   "abstentions": 74,
+   "pour_abs": {
+      "ins": 21.45
+   },
+   "votants": 271,
+   "pour_vot": {
+      "ins": 78.55
+   },
+   "blanc_nul": 31,
+   "pour_bl_nuls": {
+      "ins": 8.41,
+      "vot": 11.44
+   },
+   "exprimes": 240,
+   "pour_exp": {
+      "ins": 69.57,
+      "vot": 88.56
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      119,
+      121
+   ],
+   "pour_voix": {
+      "ins": [
+         34.49,
+         35.07
+      ],
+      "exp": [
+         49.58,
+         50.42
+      ]
+   }
+},
+ {
+   "code": 10,
+   "nom_com": "Armaillé",
+   "inscrits": 228,
+   "abstentions": 44,
+   "pour_abs": {
+      "ins": 19.3
+   },
+   "votants": 184,
+   "pour_vot": {
+      "ins": 80.7
+   },
+   "blanc_nul": 22,
+   "pour_bl_nuls": {
+      "ins": 8.33,
+      "vot": 11.96
+   },
+   "exprimes": 162,
+   "pour_exp": {
+      "ins": 71.05,
+      "vot": 88.04
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      110,
+      52
+   ],
+   "pour_voix": {
+      "ins": [
+         48.25,
+         22.81
+      ],
+      "exp": [
+         67.9,
+         32.1
+      ]
+   }
+},
+ {
+   "code": 11,
+   "nom_com": "Artannes-sur-Thouet",
+   "inscrits": 351,
+   "abstentions": 50,
+   "pour_abs": {
+      "ins": 14.25
+   },
+   "votants": 301,
+   "pour_vot": {
+      "ins": 85.75
+   },
+   "blanc_nul": 45,
+   "pour_bl_nuls": {
+      "ins": 10.54,
+      "vot": 14.96
+   },
+   "exprimes": 256,
+   "pour_exp": {
+      "ins": 72.93,
+      "vot": 85.05
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      149,
+      107
+   ],
+   "pour_voix": {
+      "ins": [
+         42.45,
+         30.48
+      ],
+      "exp": [
+         58.2,
+         41.8
+      ]
+   }
+},
+ {
+   "code": 12,
+   "nom_com": "Aubigné-sur-Layon",
+   "inscrits": 264,
+   "abstentions": 37,
+   "pour_abs": {
+      "ins": 14.02
+   },
+   "votants": 227,
+   "pour_vot": {
+      "ins": 85.98
+   },
+   "blanc_nul": 28,
+   "pour_bl_nuls": {
+      "ins": 9.09,
+      "vot": 12.34
+   },
+   "exprimes": 199,
+   "pour_exp": {
+      "ins": 75.38,
+      "vot": 87.67
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      121,
+      78
+   ],
+   "pour_voix": {
+      "ins": [
+         45.83,
+         29.55
+      ],
+      "exp": [
+         60.8,
+         39.2
+      ]
+   }
+},
+ {
+   "code": 15,
+   "nom_com": "Avrillé",
+   "inscrits": 10473,
+   "abstentions": 2028,
+   "pour_abs": {
+      "ins": 19.36
+   },
+   "votants": 8445,
+   "pour_vot": {
+      "ins": 80.64
+   },
+   "blanc_nul": 876,
+   "pour_bl_nuls": {
+      "ins": 6.58,
+      "vot": 10.38
+   },
+   "exprimes": 7569,
+   "pour_exp": {
+      "ins": 72.27,
+      "vot": 89.63
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      6223,
+      1346
+   ],
+   "pour_voix": {
+      "ins": [
+         59.42,
+         12.85
+      ],
+      "exp": [
+         82.22,
+         17.78
+      ]
+   }
+},
+ {
+   "code": 17,
+   "nom_com": "Baracé",
+   "inscrits": 325,
+   "abstentions": 53,
+   "pour_abs": {
+      "ins": 16.31
+   },
+   "votants": 272,
+   "pour_vot": {
+      "ins": 83.69
+   },
+   "blanc_nul": 35,
+   "pour_bl_nuls": {
+      "ins": 7.69,
+      "vot": 12.87
+   },
+   "exprimes": 237,
+   "pour_exp": {
+      "ins": 72.92,
+      "vot": 87.13
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      133,
+      104
+   ],
+   "pour_voix": {
+      "ins": [
+         40.92,
+         "32"
+      ],
+      "exp": [
+         56.12,
+         43.88
+      ]
+   }
+},
+ {
+   "code": 18,
+   "nom_com": "Baugé-en-Anjou",
+   "inscrits": 8562,
+   "abstentions": 1950,
+   "pour_abs": {
+      "ins": 22.78
+   },
+   "votants": 6612,
+   "pour_vot": {
+      "ins": 77.22
+   },
+   "blanc_nul": 845,
+   "pour_bl_nuls": {
+      "ins": 7.47,
+      "vot": 12.78
+   },
+   "exprimes": 5767,
+   "pour_exp": {
+      "ins": 67.36,
+      "vot": 87.22
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      3648,
+      2119
+   ],
+   "pour_voix": {
+      "ins": [
+         42.61,
+         24.75
+      ],
+      "exp": [
+         63.26,
+         36.74
+      ]
+   }
+},
+ {
+   "code": 20,
+   "nom_com": "Beaucouzé",
+   "inscrits": 4139,
+   "abstentions": 637,
+   "pour_abs": {
+      "ins": 15.39
+   },
+   "votants": 3502,
+   "pour_vot": {
+      "ins": 84.61
+   },
+   "blanc_nul": 387,
+   "pour_bl_nuls": {
+      "ins": 7.37,
+      "vot": 11.06
+   },
+   "exprimes": 3115,
+   "pour_exp": {
+      "ins": 75.26,
+      "vot": 88.95
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      2547,
+      568
+   ],
+   "pour_voix": {
+      "ins": [
+         61.54,
+         13.72
+      ],
+      "exp": [
+         81.77,
+         18.23
+      ]
+   }
+},
+ {
+   "code": 21,
+   "nom_com": "Beaufort-en-Anjou",
+   "inscrits": 5023,
+   "abstentions": 1102,
+   "pour_abs": {
+      "ins": 21.94
+   },
+   "votants": 3921,
+   "pour_vot": {
+      "ins": 78.06
+   },
+   "blanc_nul": 413,
+   "pour_bl_nuls": {
+      "ins": 5.51,
+      "vot": 10.54
+   },
+   "exprimes": 3508,
+   "pour_exp": {
+      "ins": 69.84,
+      "vot": 89.47
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      2216,
+      1292
+   ],
+   "pour_voix": {
+      "ins": [
+         44.12,
+         25.72
+      ],
+      "exp": [
+         63.17,
+         36.83
+      ]
+   }
+},
+ {
+   "code": 22,
+   "nom_com": "Beaulieu-sur-Layon",
+   "inscrits": 1034,
+   "abstentions": 191,
+   "pour_abs": {
+      "ins": 18.47
+   },
+   "votants": 843,
+   "pour_vot": {
+      "ins": 81.53
+   },
+   "blanc_nul": 89,
+   "pour_bl_nuls": {
+      "ins": 6.09,
+      "vot": 10.56
+   },
+   "exprimes": 754,
+   "pour_exp": {
+      "ins": 72.92,
+      "vot": 89.44
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      560,
+      194
+   ],
+   "pour_voix": {
+      "ins": [
+         54.16,
+         18.76
+      ],
+      "exp": [
+         74.27,
+         25.73
+      ]
+   }
+},
+ {
+   "code": 23,
+   "nom_com": "Beaupréau-en-Mauges",
+   "inscrits": 16938,
+   "abstentions": 3489,
+   "pour_abs": {
+      "ins": 20.6
+   },
+   "votants": 13449,
+   "pour_vot": {
+      "ins": 79.4
+   },
+   "blanc_nul": 1566,
+   "pour_bl_nuls": {
+      "ins": 6.84,
+      "vot": 11.65
+   },
+   "exprimes": 11883,
+   "pour_exp": {
+      "ins": 70.16,
+      "vot": 88.36
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      8745,
+      3138
+   ],
+   "pour_voix": {
+      "ins": [
+         51.63,
+         18.53
+      ],
+      "exp": [
+         73.59,
+         26.41
+      ]
+   }
+},
+ {
+   "code": 26,
+   "nom_com": "Bécon-les-Granits",
+   "inscrits": 1945,
+   "abstentions": 393,
+   "pour_abs": {
+      "ins": 20.21
+   },
+   "votants": 1552,
+   "pour_vot": {
+      "ins": 79.79
+   },
+   "blanc_nul": 199,
+   "pour_bl_nuls": {
+      "ins": 8.12,
+      "vot": 12.83
+   },
+   "exprimes": 1353,
+   "pour_exp": {
+      "ins": 69.56,
+      "vot": 87.18
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      897,
+      456
+   ],
+   "pour_voix": {
+      "ins": [
+         46.12,
+         23.44
+      ],
+      "exp": [
+         66.3,
+         33.7
+      ]
+   }
+},
+ {
+   "code": 27,
+   "nom_com": "Bégrolles-en-Mauges",
+   "inscrits": 1373,
+   "abstentions": 250,
+   "pour_abs": {
+      "ins": 18.21
+   },
+   "votants": 1123,
+   "pour_vot": {
+      "ins": 81.79
+   },
+   "blanc_nul": 139,
+   "pour_bl_nuls": {
+      "ins": 7.57,
+      "vot": 12.38
+   },
+   "exprimes": 984,
+   "pour_exp": {
+      "ins": 71.67,
+      "vot": 87.62
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      683,
+      301
+   ],
+   "pour_voix": {
+      "ins": [
+         49.75,
+         21.92
+      ],
+      "exp": [
+         69.41,
+         30.59
+      ]
+   }
+},
+ {
+   "code": 28,
+   "nom_com": "Béhuard",
+   "inscrits": 111,
+   "abstentions": 11,
+   "pour_abs": {
+      "ins": 9.91
+   },
+   "votants": 100,
+   "pour_vot": {
+      "ins": 90.09
+   },
+   "blanc_nul": 8,
+   "pour_bl_nuls": {
+      "ins": 7.21,
+      "vot": "8"
+   },
+   "exprimes": 92,
+   "pour_exp": {
+      "ins": 82.88,
+      "vot": "92"
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      80,
+      12
+   ],
+   "pour_voix": {
+      "ins": [
+         72.07,
+         10.81
+      ],
+      "exp": [
+         86.96,
+         13.04
+      ]
+   }
+},
+ {
+   "code": 29,
+   "nom_com": "Blaison-Saint-Sulpice",
+   "inscrits": 1063,
+   "abstentions": 200,
+   "pour_abs": {
+      "ins": 18.81
+   },
+   "votants": 863,
+   "pour_vot": {
+      "ins": 81.19
+   },
+   "blanc_nul": 113,
+   "pour_bl_nuls": {
+      "ins": 8.75,
+      "vot": 13.1
+   },
+   "exprimes": 750,
+   "pour_exp": {
+      "ins": 70.56,
+      "vot": 86.91
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      605,
+      145
+   ],
+   "pour_voix": {
+      "ins": [
+         56.91,
+         13.64
+      ],
+      "exp": [
+         80.67,
+         19.33
+      ]
+   }
+},
+ {
+   "code": 30,
+   "nom_com": "Blou",
+   "inscrits": 676,
+   "abstentions": 113,
+   "pour_abs": {
+      "ins": 16.72
+   },
+   "votants": 563,
+   "pour_vot": {
+      "ins": 83.28
+   },
+   "blanc_nul": 89,
+   "pour_bl_nuls": {
+      "ins": 10.36,
+      "vot": 15.81
+   },
+   "exprimes": 474,
+   "pour_exp": {
+      "ins": 70.12,
+      "vot": 84.19
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      243,
+      231
+   ],
+   "pour_voix": {
+      "ins": [
+         35.95,
+         34.17
+      ],
+      "exp": [
+         51.27,
+         48.73
+      ]
+   }
+},
+ {
+   "code": 35,
+   "nom_com": "Bouchemaine",
+   "inscrits": 5377,
+   "abstentions": 934,
+   "pour_abs": {
+      "ins": 17.37
+   },
+   "votants": 4443,
+   "pour_vot": {
+      "ins": 82.63
+   },
+   "blanc_nul": 442,
+   "pour_bl_nuls": {
+      "ins": 6.19,
+      "vot": 9.95
+   },
+   "exprimes": 4001,
+   "pour_exp": {
+      "ins": 74.41,
+      "vot": 90.05
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      3351,
+      650
+   ],
+   "pour_voix": {
+      "ins": [
+         62.32,
+         12.09
+      ],
+      "exp": [
+         83.75,
+         16.25
+      ]
+   }
+},
+ {
+   "code": 36,
+   "nom_com": "Bouillé-Ménard",
+   "inscrits": 505,
+   "abstentions": 84,
+   "pour_abs": {
+      "ins": 16.63
+   },
+   "votants": 421,
+   "pour_vot": {
+      "ins": 83.37
+   },
+   "blanc_nul": 39,
+   "pour_bl_nuls": {
+      "ins": 6.14,
+      "vot": 9.27
+   },
+   "exprimes": 382,
+   "pour_exp": {
+      "ins": 75.64,
+      "vot": 90.74
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      247,
+      135
+   ],
+   "pour_voix": {
+      "ins": [
+         48.91,
+         26.73
+      ],
+      "exp": [
+         64.66,
+         35.34
+      ]
+   }
+},
+ {
+   "code": 38,
+   "nom_com": "Bourg-l'Evêque",
+   "inscrits": 170,
+   "abstentions": 33,
+   "pour_abs": {
+      "ins": 19.41
+   },
+   "votants": 137,
+   "pour_vot": {
+      "ins": 80.59
+   },
+   "blanc_nul": 13,
+   "pour_bl_nuls": {
+      "ins": 6.47,
+      "vot": 9.49
+   },
+   "exprimes": 124,
+   "pour_exp": {
+      "ins": 72.94,
+      "vot": 90.51
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      87,
+      37
+   ],
+   "pour_voix": {
+      "ins": [
+         51.18,
+         21.76
+      ],
+      "exp": [
+         70.16,
+         29.84
+      ]
+   }
+},
+ {
+   "code": 41,
+   "nom_com": "Brain-sur-Allonnes",
+   "inscrits": 1488,
+   "abstentions": 379,
+   "pour_abs": {
+      "ins": 25.47
+   },
+   "votants": 1109,
+   "pour_vot": {
+      "ins": 74.53
+   },
+   "blanc_nul": 102,
+   "pour_bl_nuls": {
+      "ins": 5.11,
+      "vot": 9.2
+   },
+   "exprimes": 1007,
+   "pour_exp": {
+      "ins": 67.67,
+      "vot": 90.8
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      543,
+      464
+   ],
+   "pour_voix": {
+      "ins": [
+         36.49,
+         31.18
+      ],
+      "exp": [
+         53.92,
+         46.08
+      ]
+   }
+},
+ {
+   "code": 45,
+   "nom_com": "La Breille-les-Pins",
+   "inscrits": 381,
+   "abstentions": 83,
+   "pour_abs": {
+      "ins": 21.78
+   },
+   "votants": 298,
+   "pour_vot": {
+      "ins": 78.22
+   },
+   "blanc_nul": 28,
+   "pour_bl_nuls": {
+      "ins": 6.3,
+      "vot": 9.4
+   },
+   "exprimes": 270,
+   "pour_exp": {
+      "ins": 70.87,
+      "vot": 90.6
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      145,
+      125
+   ],
+   "pour_voix": {
+      "ins": [
+         38.06,
+         32.81
+      ],
+      "exp": [
+         53.7,
+         46.3
+      ]
+   }
+},
+ {
+   "code": 46,
+   "nom_com": "Brézé",
+   "inscrits": 942,
+   "abstentions": 203,
+   "pour_abs": {
+      "ins": 21.55
+   },
+   "votants": 739,
+   "pour_vot": {
+      "ins": 78.45
+   },
+   "blanc_nul": 81,
+   "pour_bl_nuls": {
+      "ins": 6.58,
+      "vot": 10.97
+   },
+   "exprimes": 658,
+   "pour_exp": {
+      "ins": 69.85,
+      "vot": 89.04
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      362,
+      296
+   ],
+   "pour_voix": {
+      "ins": [
+         38.43,
+         31.42
+      ],
+      "exp": [
+         55.02,
+         44.98
+      ]
+   }
+},
+ {
+   "code": 48,
+   "nom_com": "Briollay",
+   "inscrits": 2197,
+   "abstentions": 400,
+   "pour_abs": {
+      "ins": 18.21
+   },
+   "votants": 1797,
+   "pour_vot": {
+      "ins": 81.79
+   },
+   "blanc_nul": 208,
+   "pour_bl_nuls": {
+      "ins": 7.01,
+      "vot": 11.58
+   },
+   "exprimes": 1589,
+   "pour_exp": {
+      "ins": 72.33,
+      "vot": 88.43
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      1191,
+      398
+   ],
+   "pour_voix": {
+      "ins": [
+         54.21,
+         18.12
+      ],
+      "exp": [
+         74.95,
+         25.05
+      ]
+   }
+},
+ {
+   "code": 50,
+   "nom_com": "Brissac-Loire-Aubance",
+   "inscrits": 7975,
+   "abstentions": 1330,
+   "pour_abs": {
+      "ins": 16.68
+   },
+   "votants": 6645,
+   "pour_vot": {
+      "ins": 83.32
+   },
+   "blanc_nul": 739,
+   "pour_bl_nuls": {
+      "ins": 7.36,
+      "vot": 11.13
+   },
+   "exprimes": 5906,
+   "pour_exp": {
+      "ins": 74.06,
+      "vot": 88.88
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      4380,
+      1526
+   ],
+   "pour_voix": {
+      "ins": [
+         54.92,
+         19.13
+      ],
+      "exp": [
+         74.16,
+         25.84
+      ]
+   }
+},
+ {
+   "code": 53,
+   "nom_com": "Brossay",
+   "inscrits": 243,
+   "abstentions": 46,
+   "pour_abs": {
+      "ins": 18.93
+   },
+   "votants": 197,
+   "pour_vot": {
+      "ins": 81.07
+   },
+   "blanc_nul": 27,
+   "pour_bl_nuls": {
+      "ins": "7",
+      "vot": 13.71
+   },
+   "exprimes": 170,
+   "pour_exp": {
+      "ins": 69.96,
+      "vot": 86.29
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      71,
+      99
+   ],
+   "pour_voix": {
+      "ins": [
+         29.22,
+         40.74
+      ],
+      "exp": [
+         41.76,
+         58.24
+      ]
+   }
+},
+ {
+   "code": 54,
+   "nom_com": "Candé",
+   "inscrits": 1885,
+   "abstentions": 367,
+   "pour_abs": {
+      "ins": 19.47
+   },
+   "votants": 1518,
+   "pour_vot": {
+      "ins": 80.53
+   },
+   "blanc_nul": 151,
+   "pour_bl_nuls": {
+      "ins": 6.37,
+      "vot": 9.95
+   },
+   "exprimes": 1367,
+   "pour_exp": {
+      "ins": 72.52,
+      "vot": 90.05
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      985,
+      382
+   ],
+   "pour_voix": {
+      "ins": [
+         52.25,
+         20.27
+      ],
+      "exp": [
+         72.06,
+         27.94
+      ]
+   }
+},
+ {
+   "code": 55,
+   "nom_com": "Cantenay-Epinard",
+   "inscrits": 1799,
+   "abstentions": 305,
+   "pour_abs": {
+      "ins": 16.95
+   },
+   "votants": 1494,
+   "pour_vot": {
+      "ins": 83.05
+   },
+   "blanc_nul": 171,
+   "pour_bl_nuls": {
+      "ins": 7.73,
+      "vot": 11.45
+   },
+   "exprimes": 1323,
+   "pour_exp": {
+      "ins": 73.54,
+      "vot": 88.55
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      1026,
+      297
+   ],
+   "pour_voix": {
+      "ins": [
+         57.03,
+         16.51
+      ],
+      "exp": [
+         77.55,
+         22.45
+      ]
+   }
+},
+ {
+   "code": 56,
+   "nom_com": "Carbay",
+   "inscrits": 176,
+   "abstentions": 20,
+   "pour_abs": {
+      "ins": 11.36
+   },
+   "votants": 156,
+   "pour_vot": {
+      "ins": 88.64
+   },
+   "blanc_nul": 24,
+   "pour_bl_nuls": {
+      "ins": 11.93,
+      "vot": 15.39
+   },
+   "exprimes": 132,
+   "pour_exp": {
+      "ins": "75",
+      "vot": 84.62
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      68,
+      64
+   ],
+   "pour_voix": {
+      "ins": [
+         38.64,
+         36.36
+      ],
+      "exp": [
+         51.52,
+         48.48
+      ]
+   }
+},
+ {
+   "code": 57,
+   "nom_com": "Cernusson",
+   "inscrits": 242,
+   "abstentions": 43,
+   "pour_abs": {
+      "ins": 17.77
+   },
+   "votants": 199,
+   "pour_vot": {
+      "ins": 82.23
+   },
+   "blanc_nul": 16,
+   "pour_bl_nuls": {
+      "ins": 4.55,
+      "vot": 8.05
+   },
+   "exprimes": 183,
+   "pour_exp": {
+      "ins": 75.62,
+      "vot": 91.96
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      122,
+      61
+   ],
+   "pour_voix": {
+      "ins": [
+         50.41,
+         25.21
+      ],
+      "exp": [
+         66.67,
+         33.33
+      ]
+   }
+},
+ {
+   "code": 58,
+   "nom_com": "Les Cerqueux",
+   "inscrits": 561,
+   "abstentions": 94,
+   "pour_abs": {
+      "ins": 16.76
+   },
+   "votants": 467,
+   "pour_vot": {
+      "ins": 83.24
+   },
+   "blanc_nul": 42,
+   "pour_bl_nuls": {
+      "ins": 6.24,
+      "vot": "9"
+   },
+   "exprimes": 425,
+   "pour_exp": {
+      "ins": 75.76,
+      "vot": 91.01
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      282,
+      143
+   ],
+   "pour_voix": {
+      "ins": [
+         50.27,
+         25.49
+      ],
+      "exp": [
+         66.35,
+         33.65
+      ]
+   }
+},
+ {
+   "code": 60,
+   "nom_com": "Chacé",
+   "inscrits": 989,
+   "abstentions": 174,
+   "pour_abs": {
+      "ins": 17.59
+   },
+   "votants": 815,
+   "pour_vot": {
+      "ins": 82.41
+   },
+   "blanc_nul": 95,
+   "pour_bl_nuls": {
+      "ins": 7.18,
+      "vot": 11.66
+   },
+   "exprimes": 720,
+   "pour_exp": {
+      "ins": 72.8,
+      "vot": 88.34
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      425,
+      295
+   ],
+   "pour_voix": {
+      "ins": [
+         42.97,
+         29.83
+      ],
+      "exp": [
+         59.03,
+         40.97
+      ]
+   }
+},
+ {
+   "code": 61,
+   "nom_com": "Challain-la-Potherie",
+   "inscrits": 613,
+   "abstentions": 106,
+   "pour_abs": {
+      "ins": 17.29
+   },
+   "votants": 507,
+   "pour_vot": {
+      "ins": 82.71
+   },
+   "blanc_nul": 56,
+   "pour_bl_nuls": {
+      "ins": 7.34,
+      "vot": 11.05
+   },
+   "exprimes": 451,
+   "pour_exp": {
+      "ins": 73.57,
+      "vot": 88.95
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      293,
+      158
+   ],
+   "pour_voix": {
+      "ins": [
+         47.8,
+         25.77
+      ],
+      "exp": [
+         64.97,
+         35.03
+      ]
+   }
+},
+ {
+   "code": 63,
+   "nom_com": "Chalonnes-sur-Loire",
+   "inscrits": 4899,
+   "abstentions": 869,
+   "pour_abs": {
+      "ins": 17.74
+   },
+   "votants": 4030,
+   "pour_vot": {
+      "ins": 82.26
+   },
+   "blanc_nul": 534,
+   "pour_bl_nuls": {
+      "ins": 7.72,
+      "vot": 13.26
+   },
+   "exprimes": 3496,
+   "pour_exp": {
+      "ins": 71.36,
+      "vot": 86.75
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      2608,
+      888
+   ],
+   "pour_voix": {
+      "ins": [
+         53.24,
+         18.13
+      ],
+      "exp": [
+         74.6,
+         25.4
+      ]
+   }
+},
+ {
+   "code": 64,
+   "nom_com": "Chambellay",
+   "inscrits": 282,
+   "abstentions": 50,
+   "pour_abs": {
+      "ins": 17.73
+   },
+   "votants": 232,
+   "pour_vot": {
+      "ins": 82.27
+   },
+   "blanc_nul": 34,
+   "pour_bl_nuls": {
+      "ins": 8.51,
+      "vot": 14.66
+   },
+   "exprimes": 198,
+   "pour_exp": {
+      "ins": 70.21,
+      "vot": 85.34
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      123,
+      75
+   ],
+   "pour_voix": {
+      "ins": [
+         43.62,
+         26.6
+      ],
+      "exp": [
+         62.12,
+         37.88
+      ]
+   }
+},
+ {
+   "code": 65,
+   "nom_com": "Les Hauts-d'Anjou",
+   "inscrits": 3748,
+   "abstentions": 783,
+   "pour_abs": {
+      "ins": 20.89
+   },
+   "votants": 2965,
+   "pour_vot": {
+      "ins": 79.11
+   },
+   "blanc_nul": 367,
+   "pour_bl_nuls": {
+      "ins": 7.44,
+      "vot": 12.38
+   },
+   "exprimes": 2598,
+   "pour_exp": {
+      "ins": 69.32,
+      "vot": 87.62
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      1600,
+      998
+   ],
+   "pour_voix": {
+      "ins": [
+         42.69,
+         26.63
+      ],
+      "exp": [
+         61.59,
+         38.41
+      ]
+   }
+},
+ {
+   "code": 67,
+   "nom_com": "Chenillé-Champteussé",
+   "inscrits": 263,
+   "abstentions": 40,
+   "pour_abs": {
+      "ins": 15.21
+   },
+   "votants": 223,
+   "pour_vot": {
+      "ins": 84.79
+   },
+   "blanc_nul": 30,
+   "pour_bl_nuls": {
+      "ins": 8.75,
+      "vot": 13.46
+   },
+   "exprimes": 193,
+   "pour_exp": {
+      "ins": 73.38,
+      "vot": 86.55
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      135,
+      58
+   ],
+   "pour_voix": {
+      "ins": [
+         51.33,
+         22.05
+      ],
+      "exp": [
+         69.95,
+         30.05
+      ]
+   }
+},
+ {
+   "code": 68,
+   "nom_com": "Champtocé-sur-Loire",
+   "inscrits": 1284,
+   "abstentions": 211,
+   "pour_abs": {
+      "ins": 16.43
+   },
+   "votants": 1073,
+   "pour_vot": {
+      "ins": 83.57
+   },
+   "blanc_nul": 150,
+   "pour_bl_nuls": {
+      "ins": 9.27,
+      "vot": 13.98
+   },
+   "exprimes": 923,
+   "pour_exp": {
+      "ins": 71.88,
+      "vot": 86.02
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      614,
+      309
+   ],
+   "pour_voix": {
+      "ins": [
+         47.82,
+         24.07
+      ],
+      "exp": [
+         66.52,
+         33.48
+      ]
+   }
+},
+ {
+   "code": 69,
+   "nom_com": "Orée-d'Anjou",
+   "inscrits": 11833,
+   "abstentions": 2359,
+   "pour_abs": {
+      "ins": 19.94
+   },
+   "votants": 9474,
+   "pour_vot": {
+      "ins": 80.06
+   },
+   "blanc_nul": 1164,
+   "pour_bl_nuls": {
+      "ins": 7.34,
+      "vot": 12.29
+   },
+   "exprimes": 8310,
+   "pour_exp": {
+      "ins": 70.23,
+      "vot": 87.71
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      5783,
+      2527
+   ],
+   "pour_voix": {
+      "ins": [
+         48.87,
+         21.36
+      ],
+      "exp": [
+         69.59,
+         30.41
+      ]
+   }
+},
+ {
+   "code": 70,
+   "nom_com": "Chanteloup-les-Bois",
+   "inscrits": 515,
+   "abstentions": 106,
+   "pour_abs": {
+      "ins": 20.58
+   },
+   "votants": 409,
+   "pour_vot": {
+      "ins": 79.42
+   },
+   "blanc_nul": 48,
+   "pour_bl_nuls": {
+      "ins": 7.77,
+      "vot": 11.74
+   },
+   "exprimes": 361,
+   "pour_exp": {
+      "ins": 70.1,
+      "vot": 88.26
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      255,
+      106
+   ],
+   "pour_voix": {
+      "ins": [
+         49.51,
+         20.58
+      ],
+      "exp": [
+         70.64,
+         29.36
+      ]
+   }
+},
+ {
+   "code": 76,
+   "nom_com": "La Chapelle-Saint-Laud",
+   "inscrits": 517,
+   "abstentions": 83,
+   "pour_abs": {
+      "ins": 16.05
+   },
+   "votants": 434,
+   "pour_vot": {
+      "ins": 83.95
+   },
+   "blanc_nul": 71,
+   "pour_bl_nuls": {
+      "ins": 11.22,
+      "vot": 16.36
+   },
+   "exprimes": 363,
+   "pour_exp": {
+      "ins": 70.21,
+      "vot": 83.64
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      229,
+      134
+   ],
+   "pour_voix": {
+      "ins": [
+         44.29,
+         25.92
+      ],
+      "exp": [
+         63.09,
+         36.91
+      ]
+   }
+},
+ {
+   "code": 80,
+   "nom_com": "Châteauneuf-sur-Sarthe",
+   "inscrits": 2120,
+   "abstentions": 533,
+   "pour_abs": {
+      "ins": 25.14
+   },
+   "votants": 1587,
+   "pour_vot": {
+      "ins": 74.86
+   },
+   "blanc_nul": 157,
+   "pour_bl_nuls": {
+      "ins": 5.14,
+      "vot": 9.9
+   },
+   "exprimes": 1430,
+   "pour_exp": {
+      "ins": 67.45,
+      "vot": 90.11
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      838,
+      592
+   ],
+   "pour_voix": {
+      "ins": [
+         39.53,
+         27.92
+      ],
+      "exp": [
+         58.6,
+         41.4
+      ]
+   }
+},
+ {
+   "code": 82,
+   "nom_com": "Chaudefonds-sur-Layon",
+   "inscrits": 743,
+   "abstentions": 106,
+   "pour_abs": {
+      "ins": 14.27
+   },
+   "votants": 637,
+   "pour_vot": {
+      "ins": 85.73
+   },
+   "blanc_nul": 91,
+   "pour_bl_nuls": {
+      "ins": 8.48,
+      "vot": 14.29
+   },
+   "exprimes": 546,
+   "pour_exp": {
+      "ins": 73.49,
+      "vot": 85.71
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      383,
+      163
+   ],
+   "pour_voix": {
+      "ins": [
+         51.55,
+         21.94
+      ],
+      "exp": [
+         70.15,
+         29.85
+      ]
+   }
+},
+ {
+   "code": 86,
+   "nom_com": "Terranjou",
+   "inscrits": 2741,
+   "abstentions": 539,
+   "pour_abs": {
+      "ins": 19.66
+   },
+   "votants": 2202,
+   "pour_vot": {
+      "ins": 80.34
+   },
+   "blanc_nul": 231,
+   "pour_bl_nuls": {
+      "ins": 6.38,
+      "vot": 10.5
+   },
+   "exprimes": 1971,
+   "pour_exp": {
+      "ins": 71.91,
+      "vot": 89.51
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      1287,
+      684
+   ],
+   "pour_voix": {
+      "ins": [
+         46.95,
+         24.95
+      ],
+      "exp": [
+         65.3,
+         34.7
+      ]
+   }
+},
+ {
+   "code": 89,
+   "nom_com": "Chazé-sur-Argos",
+   "inscrits": 707,
+   "abstentions": 113,
+   "pour_abs": {
+      "ins": 15.98
+   },
+   "votants": 594,
+   "pour_vot": {
+      "ins": 84.02
+   },
+   "blanc_nul": 67,
+   "pour_bl_nuls": {
+      "ins": 7.21,
+      "vot": 11.28
+   },
+   "exprimes": 527,
+   "pour_exp": {
+      "ins": 74.54,
+      "vot": 88.72
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      397,
+      130
+   ],
+   "pour_voix": {
+      "ins": [
+         56.15,
+         18.39
+      ],
+      "exp": [
+         75.33,
+         24.67
+      ]
+   }
+},
+ {
+   "code": 90,
+   "nom_com": "Cheffes",
+   "inscrits": 661,
+   "abstentions": 116,
+   "pour_abs": {
+      "ins": 17.55
+   },
+   "votants": 545,
+   "pour_vot": {
+      "ins": 82.45
+   },
+   "blanc_nul": 64,
+   "pour_bl_nuls": {
+      "ins": 8.47,
+      "vot": 11.75
+   },
+   "exprimes": 481,
+   "pour_exp": {
+      "ins": 72.77,
+      "vot": 88.26
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      332,
+      149
+   ],
+   "pour_voix": {
+      "ins": [
+         50.23,
+         22.54
+      ],
+      "exp": [
+         69.02,
+         30.98
+      ]
+   }
+},
+ {
+   "code": 92,
+   "nom_com": "Chemillé-en-Anjou",
+   "inscrits": 15615,
+   "abstentions": 3217,
+   "pour_abs": {
+      "ins": 20.6
+   },
+   "votants": 12398,
+   "pour_vot": {
+      "ins": 79.4
+   },
+   "blanc_nul": 1401,
+   "pour_bl_nuls": {
+      "ins": 6.54,
+      "vot": 11.31
+   },
+   "exprimes": 10997,
+   "pour_exp": {
+      "ins": 70.43,
+      "vot": 88.7
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      8035,
+      2962
+   ],
+   "pour_voix": {
+      "ins": [
+         51.46,
+         18.97
+      ],
+      "exp": [
+         73.07,
+         26.93
+      ]
+   }
+},
+ {
+   "code": 99,
+   "nom_com": "Cholet",
+   "inscrits": 36586,
+   "abstentions": 9081,
+   "pour_abs": {
+      "ins": 24.82
+   },
+   "votants": 27505,
+   "pour_vot": {
+      "ins": 75.18
+   },
+   "blanc_nul": 2871,
+   "pour_bl_nuls": {
+      "ins": 5.65,
+      "vot": 10.44
+   },
+   "exprimes": 24634,
+   "pour_exp": {
+      "ins": 67.33,
+      "vot": 89.56
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      19881,
+      4753
+   ],
+   "pour_voix": {
+      "ins": [
+         54.34,
+         12.99
+      ],
+      "exp": [
+         80.71,
+         19.29
+      ]
+   }
+},
+ {
+   "code": 100,
+   "nom_com": "Cizay-la-Madeleine",
+   "inscrits": 342,
+   "abstentions": 81,
+   "pour_abs": {
+      "ins": 23.68
+   },
+   "votants": 261,
+   "pour_vot": {
+      "ins": 76.32
+   },
+   "blanc_nul": 34,
+   "pour_bl_nuls": {
+      "ins": 7.6,
+      "vot": 13.03
+   },
+   "exprimes": 227,
+   "pour_exp": {
+      "ins": 66.37,
+      "vot": 86.97
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      121,
+      106
+   ],
+   "pour_voix": {
+      "ins": [
+         35.38,
+         30.99
+      ],
+      "exp": [
+         53.3,
+         46.7
+      ]
+   }
+},
+ {
+   "code": 102,
+   "nom_com": "Cléré-sur-Layon",
+   "inscrits": 212,
+   "abstentions": 35,
+   "pour_abs": {
+      "ins": 16.51
+   },
+   "votants": 177,
+   "pour_vot": {
+      "ins": 83.49
+   },
+   "blanc_nul": 23,
+   "pour_bl_nuls": {
+      "ins": 8.02,
+      "vot": "13"
+   },
+   "exprimes": 154,
+   "pour_exp": {
+      "ins": 72.64,
+      "vot": 87.01
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      105,
+      49
+   ],
+   "pour_voix": {
+      "ins": [
+         49.53,
+         23.11
+      ],
+      "exp": [
+         68.18,
+         31.82
+      ]
+   }
+},
+ {
+   "code": 107,
+   "nom_com": "Cornillé-les-Caves",
+   "inscrits": 363,
+   "abstentions": 54,
+   "pour_abs": {
+      "ins": 14.88
+   },
+   "votants": 309,
+   "pour_vot": {
+      "ins": 85.12
+   },
+   "blanc_nul": 46,
+   "pour_bl_nuls": {
+      "ins": 10.19,
+      "vot": 14.89
+   },
+   "exprimes": 263,
+   "pour_exp": {
+      "ins": 72.45,
+      "vot": 85.11
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      190,
+      73
+   ],
+   "pour_voix": {
+      "ins": [
+         52.34,
+         20.11
+      ],
+      "exp": [
+         72.24,
+         27.76
+      ]
+   }
+},
+ {
+   "code": 109,
+   "nom_com": "Coron",
+   "inscrits": 1139,
+   "abstentions": 208,
+   "pour_abs": {
+      "ins": 18.26
+   },
+   "votants": 931,
+   "pour_vot": {
+      "ins": 81.74
+   },
+   "blanc_nul": 104,
+   "pour_bl_nuls": {
+      "ins": 6.32,
+      "vot": 11.18
+   },
+   "exprimes": 827,
+   "pour_exp": {
+      "ins": 72.61,
+      "vot": 88.83
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      571,
+      256
+   ],
+   "pour_voix": {
+      "ins": [
+         50.13,
+         22.48
+      ],
+      "exp": [
+         69.04,
+         30.96
+      ]
+   }
+},
+ {
+   "code": 110,
+   "nom_com": "Corzé",
+   "inscrits": 1289,
+   "abstentions": 276,
+   "pour_abs": {
+      "ins": 21.41
+   },
+   "votants": 1013,
+   "pour_vot": {
+      "ins": 78.59
+   },
+   "blanc_nul": 120,
+   "pour_bl_nuls": {
+      "ins": 7.06,
+      "vot": 11.85
+   },
+   "exprimes": 893,
+   "pour_exp": {
+      "ins": 69.28,
+      "vot": 88.15
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      617,
+      276
+   ],
+   "pour_voix": {
+      "ins": [
+         47.87,
+         21.41
+      ],
+      "exp": [
+         69.09,
+         30.91
+      ]
+   }
+},
+ {
+   "code": 112,
+   "nom_com": "Le Coudray-Macouard",
+   "inscrits": 754,
+   "abstentions": 158,
+   "pour_abs": {
+      "ins": 20.95
+   },
+   "votants": 596,
+   "pour_vot": {
+      "ins": 79.05
+   },
+   "blanc_nul": 84,
+   "pour_bl_nuls": {
+      "ins": 9.15,
+      "vot": 14.1
+   },
+   "exprimes": 512,
+   "pour_exp": {
+      "ins": 67.9,
+      "vot": 85.91
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      342,
+      170
+   ],
+   "pour_voix": {
+      "ins": [
+         45.36,
+         22.55
+      ],
+      "exp": [
+         66.8,
+         33.2
+      ]
+   }
+},
+ {
+   "code": 113,
+   "nom_com": "Courchamps",
+   "inscrits": 351,
+   "abstentions": 63,
+   "pour_abs": {
+      "ins": 17.95
+   },
+   "votants": 288,
+   "pour_vot": {
+      "ins": 82.05
+   },
+   "blanc_nul": 44,
+   "pour_bl_nuls": {
+      "ins": 9.97,
+      "vot": 15.28
+   },
+   "exprimes": 244,
+   "pour_exp": {
+      "ins": 69.52,
+      "vot": 84.72
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      137,
+      107
+   ],
+   "pour_voix": {
+      "ins": [
+         39.03,
+         30.48
+      ],
+      "exp": [
+         56.15,
+         43.85
+      ]
+   }
+},
+ {
+   "code": 114,
+   "nom_com": "Courléon",
+   "inscrits": 135,
+   "abstentions": 22,
+   "pour_abs": {
+      "ins": 16.3
+   },
+   "votants": 113,
+   "pour_vot": {
+      "ins": 83.7
+   },
+   "blanc_nul": 17,
+   "pour_bl_nuls": {
+      "ins": 10.37,
+      "vot": 15.05
+   },
+   "exprimes": 96,
+   "pour_exp": {
+      "ins": 71.11,
+      "vot": 84.96
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      57,
+      39
+   ],
+   "pour_voix": {
+      "ins": [
+         42.22,
+         28.89
+      ],
+      "exp": [
+         59.38,
+         40.63
+      ]
+   }
+},
+ {
+   "code": 120,
+   "nom_com": "Denée",
+   "inscrits": 1084,
+   "abstentions": 195,
+   "pour_abs": {
+      "ins": 17.99
+   },
+   "votants": 889,
+   "pour_vot": {
+      "ins": 82.01
+   },
+   "blanc_nul": 109,
+   "pour_bl_nuls": {
+      "ins": 7.56,
+      "vot": 12.27
+   },
+   "exprimes": 780,
+   "pour_exp": {
+      "ins": 71.96,
+      "vot": 87.74
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      570,
+      210
+   ],
+   "pour_voix": {
+      "ins": [
+         52.58,
+         19.37
+      ],
+      "exp": [
+         73.08,
+         26.92
+      ]
+   }
+},
+ {
+   "code": 121,
+   "nom_com": "Dénezé-sous-Doué",
+   "inscrits": 338,
+   "abstentions": 59,
+   "pour_abs": {
+      "ins": 17.46
+   },
+   "votants": 279,
+   "pour_vot": {
+      "ins": 82.54
+   },
+   "blanc_nul": 20,
+   "pour_bl_nuls": {
+      "ins": 0.3,
+      "vot": 7.17
+   },
+   "exprimes": 259,
+   "pour_exp": {
+      "ins": 76.63,
+      "vot": 92.83
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      152,
+      107
+   ],
+   "pour_voix": {
+      "ins": [
+         44.97,
+         31.66
+      ],
+      "exp": [
+         58.69,
+         41.31
+      ]
+   }
+},
+ {
+   "code": 123,
+   "nom_com": "Distré",
+   "inscrits": 1235,
+   "abstentions": 185,
+   "pour_abs": {
+      "ins": 14.98
+   },
+   "votants": 1050,
+   "pour_vot": {
+      "ins": 85.02
+   },
+   "blanc_nul": 136,
+   "pour_bl_nuls": {
+      "ins": 8.91,
+      "vot": 12.96
+   },
+   "exprimes": 914,
+   "pour_exp": {
+      "ins": 74.01,
+      "vot": 87.05
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      553,
+      361
+   ],
+   "pour_voix": {
+      "ins": [
+         44.78,
+         29.23
+      ],
+      "exp": [
+         60.5,
+         39.5
+      ]
+   }
+},
+ {
+   "code": 125,
+   "nom_com": "Doué-en-Anjou",
+   "inscrits": 8099,
+   "abstentions": 1791,
+   "pour_abs": {
+      "ins": 22.11
+   },
+   "votants": 6308,
+   "pour_vot": {
+      "ins": 77.89
+   },
+   "blanc_nul": 686,
+   "pour_bl_nuls": {
+      "ins": 6.17,
+      "vot": 10.88
+   },
+   "exprimes": 5622,
+   "pour_exp": {
+      "ins": 69.42,
+      "vot": 89.12
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      3288,
+      2334
+   ],
+   "pour_voix": {
+      "ins": [
+         40.6,
+         28.82
+      ],
+      "exp": [
+         58.48,
+         41.52
+      ]
+   }
+},
+ {
+   "code": 127,
+   "nom_com": "Durtal",
+   "inscrits": 2498,
+   "abstentions": 551,
+   "pour_abs": {
+      "ins": 22.06
+   },
+   "votants": 1947,
+   "pour_vot": {
+      "ins": 77.94
+   },
+   "blanc_nul": 259,
+   "pour_bl_nuls": {
+      "ins": 7.81,
+      "vot": 13.31
+   },
+   "exprimes": 1688,
+   "pour_exp": {
+      "ins": 67.57,
+      "vot": 86.7
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      1025,
+      663
+   ],
+   "pour_voix": {
+      "ins": [
+         41.03,
+         26.54
+      ],
+      "exp": [
+         60.72,
+         39.28
+      ]
+   }
+},
+ {
+   "code": 129,
+   "nom_com": "Ecouflant",
+   "inscrits": 3159,
+   "abstentions": 550,
+   "pour_abs": {
+      "ins": 17.41
+   },
+   "votants": 2609,
+   "pour_vot": {
+      "ins": 82.59
+   },
+   "blanc_nul": 319,
+   "pour_bl_nuls": {
+      "ins": 8.36,
+      "vot": 12.23
+   },
+   "exprimes": 2290,
+   "pour_exp": {
+      "ins": 72.49,
+      "vot": 87.77
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      1676,
+      614
+   ],
+   "pour_voix": {
+      "ins": [
+         53.05,
+         19.44
+      ],
+      "exp": [
+         73.19,
+         26.81
+      ]
+   }
+},
+ {
+   "code": 130,
+   "nom_com": "Ecuillé",
+   "inscrits": 448,
+   "abstentions": 75,
+   "pour_abs": {
+      "ins": 16.74
+   },
+   "votants": 373,
+   "pour_vot": {
+      "ins": 83.26
+   },
+   "blanc_nul": 51,
+   "pour_bl_nuls": {
+      "ins": 10.27,
+      "vot": 13.68
+   },
+   "exprimes": 322,
+   "pour_exp": {
+      "ins": 71.88,
+      "vot": 86.33
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      244,
+      78
+   ],
+   "pour_voix": {
+      "ins": [
+         54.46,
+         17.41
+      ],
+      "exp": [
+         75.78,
+         24.22
+      ]
+   }
+},
+ {
+   "code": 131,
+   "nom_com": "Epieds",
+   "inscrits": 515,
+   "abstentions": 110,
+   "pour_abs": {
+      "ins": 21.36
+   },
+   "votants": 405,
+   "pour_vot": {
+      "ins": 78.64
+   },
+   "blanc_nul": 48,
+   "pour_bl_nuls": {
+      "ins": 6.99,
+      "vot": 11.86
+   },
+   "exprimes": 357,
+   "pour_exp": {
+      "ins": 69.32,
+      "vot": 88.15
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      141,
+      216
+   ],
+   "pour_voix": {
+      "ins": [
+         27.38,
+         41.94
+      ],
+      "exp": [
+         39.5,
+         60.5
+      ]
+   }
+},
+ {
+   "code": 132,
+   "nom_com": "Etriché",
+   "inscrits": 1065,
+   "abstentions": 195,
+   "pour_abs": {
+      "ins": 18.31
+   },
+   "votants": 870,
+   "pour_vot": {
+      "ins": 81.69
+   },
+   "blanc_nul": 87,
+   "pour_bl_nuls": {
+      "ins": 6.2,
+      "vot": "10"
+   },
+   "exprimes": 783,
+   "pour_exp": {
+      "ins": 73.52,
+      "vot": "90"
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      478,
+      305
+   ],
+   "pour_voix": {
+      "ins": [
+         44.88,
+         28.64
+      ],
+      "exp": [
+         61.05,
+         38.95
+      ]
+   }
+},
+ {
+   "code": 135,
+   "nom_com": "Feneu",
+   "inscrits": 1618,
+   "abstentions": 293,
+   "pour_abs": {
+      "ins": 18.11
+   },
+   "votants": 1325,
+   "pour_vot": {
+      "ins": 81.89
+   },
+   "blanc_nul": 174,
+   "pour_bl_nuls": {
+      "ins": 8.41,
+      "vot": 13.14
+   },
+   "exprimes": 1151,
+   "pour_exp": {
+      "ins": 71.14,
+      "vot": 86.87
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      859,
+      292
+   ],
+   "pour_voix": {
+      "ins": [
+         53.09,
+         18.05
+      ],
+      "exp": [
+         74.63,
+         25.37
+      ]
+   }
+},
+ {
+   "code": 138,
+   "nom_com": "Les Bois-d'Anjou",
+   "inscrits": 1880,
+   "abstentions": 352,
+   "pour_abs": {
+      "ins": 18.72
+   },
+   "votants": 1528,
+   "pour_vot": {
+      "ins": 81.28
+   },
+   "blanc_nul": 172,
+   "pour_bl_nuls": {
+      "ins": 7.02,
+      "vot": 11.26
+   },
+   "exprimes": 1356,
+   "pour_exp": {
+      "ins": 72.13,
+      "vot": 88.74
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      813,
+      543
+   ],
+   "pour_voix": {
+      "ins": [
+         43.24,
+         28.88
+      ],
+      "exp": [
+         59.96,
+         40.04
+      ]
+   }
+},
+ {
+   "code": 140,
+   "nom_com": "Fontevraud-l'Abbaye",
+   "inscrits": 799,
+   "abstentions": 154,
+   "pour_abs": {
+      "ins": 19.27
+   },
+   "votants": 645,
+   "pour_vot": {
+      "ins": 80.73
+   },
+   "blanc_nul": 75,
+   "pour_bl_nuls": {
+      "ins": 6.88,
+      "vot": 11.63
+   },
+   "exprimes": 570,
+   "pour_exp": {
+      "ins": 71.34,
+      "vot": 88.37
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      332,
+      238
+   ],
+   "pour_voix": {
+      "ins": [
+         41.55,
+         29.79
+      ],
+      "exp": [
+         58.25,
+         41.75
+      ]
+   }
+},
+ {
+   "code": 144,
+   "nom_com": "Freigné",
+   "inscrits": 799,
+   "abstentions": 152,
+   "pour_abs": {
+      "ins": 19.02
+   },
+   "votants": 647,
+   "pour_vot": {
+      "ins": 80.98
+   },
+   "blanc_nul": 89,
+   "pour_bl_nuls": {
+      "ins": 8.14,
+      "vot": 13.76
+   },
+   "exprimes": 558,
+   "pour_exp": {
+      "ins": 69.84,
+      "vot": 86.24
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      328,
+      230
+   ],
+   "pour_voix": {
+      "ins": [
+         41.05,
+         28.79
+      ],
+      "exp": [
+         58.78,
+         41.22
+      ]
+   }
+},
+ {
+   "code": 149,
+   "nom_com": "Gennes-Val-de-Loire",
+   "inscrits": 3652,
+   "abstentions": 707,
+   "pour_abs": {
+      "ins": 19.36
+   },
+   "votants": 2945,
+   "pour_vot": {
+      "ins": 80.64
+   },
+   "blanc_nul": 344,
+   "pour_bl_nuls": {
+      "ins": 7.53,
+      "vot": 11.69
+   },
+   "exprimes": 2601,
+   "pour_exp": {
+      "ins": 71.22,
+      "vot": 88.32
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      1835,
+      766
+   ],
+   "pour_voix": {
+      "ins": [
+         50.25,
+         20.97
+      ],
+      "exp": [
+         70.55,
+         29.45
+      ]
+   }
+},
+ {
+   "code": 155,
+   "nom_com": "Grez-Neuville",
+   "inscrits": 1035,
+   "abstentions": 156,
+   "pour_abs": {
+      "ins": 15.07
+   },
+   "votants": 879,
+   "pour_vot": {
+      "ins": 84.93
+   },
+   "blanc_nul": 89,
+   "pour_bl_nuls": {
+      "ins": 6.57,
+      "vot": 10.13
+   },
+   "exprimes": 790,
+   "pour_exp": {
+      "ins": 76.33,
+      "vot": 89.87
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      624,
+      166
+   ],
+   "pour_voix": {
+      "ins": [
+         60.29,
+         16.04
+      ],
+      "exp": [
+         78.99,
+         21.01
+      ]
+   }
+},
+ {
+   "code": 159,
+   "nom_com": "Huillé",
+   "inscrits": 423,
+   "abstentions": 91,
+   "pour_abs": {
+      "ins": 21.51
+   },
+   "votants": 332,
+   "pour_vot": {
+      "ins": 78.49
+   },
+   "blanc_nul": 43,
+   "pour_bl_nuls": {
+      "ins": 0.95,
+      "vot": 12.96
+   },
+   "exprimes": 289,
+   "pour_exp": {
+      "ins": 68.32,
+      "vot": 87.05
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      151,
+      138
+   ],
+   "pour_voix": {
+      "ins": [
+         35.7,
+         32.62
+      ],
+      "exp": [
+         52.25,
+         47.75
+      ]
+   }
+},
+ {
+   "code": 160,
+   "nom_com": "Ingrandes-Le-Fresne-sur-Loire",
+   "inscrits": 2032,
+   "abstentions": 485,
+   "pour_abs": {
+      "ins": 23.87
+   },
+   "votants": 1547,
+   "pour_vot": {
+      "ins": 76.13
+   },
+   "blanc_nul": 171,
+   "pour_bl_nuls": {
+      "ins": 6.4,
+      "vot": 11.06
+   },
+   "exprimes": 1376,
+   "pour_exp": {
+      "ins": 67.72,
+      "vot": 88.95
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      1004,
+      372
+   ],
+   "pour_voix": {
+      "ins": [
+         49.41,
+         18.31
+      ],
+      "exp": [
+         72.97,
+         27.03
+      ]
+   }
+},
+ {
+   "code": 161,
+   "nom_com": "La Jaille-Yvon",
+   "inscrits": 233,
+   "abstentions": 45,
+   "pour_abs": {
+      "ins": 19.31
+   },
+   "votants": 188,
+   "pour_vot": {
+      "ins": 80.69
+   },
+   "blanc_nul": 29,
+   "pour_bl_nuls": {
+      "ins": 11.59,
+      "vot": 15.43
+   },
+   "exprimes": 159,
+   "pour_exp": {
+      "ins": 68.24,
+      "vot": 84.57
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      92,
+      67
+   ],
+   "pour_voix": {
+      "ins": [
+         39.48,
+         28.76
+      ],
+      "exp": [
+         57.86,
+         42.14
+      ]
+   }
+},
+ {
+   "code": 163,
+   "nom_com": "Jarzé-Villages",
+   "inscrits": 1958,
+   "abstentions": 443,
+   "pour_abs": {
+      "ins": 22.63
+   },
+   "votants": 1515,
+   "pour_vot": {
+      "ins": 77.37
+   },
+   "blanc_nul": 210,
+   "pour_bl_nuls": {
+      "ins": 8.22,
+      "vot": 13.87
+   },
+   "exprimes": 1305,
+   "pour_exp": {
+      "ins": 66.65,
+      "vot": 86.14
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      825,
+      480
+   ],
+   "pour_voix": {
+      "ins": [
+         42.13,
+         24.51
+      ],
+      "exp": [
+         63.22,
+         36.78
+      ]
+   }
+},
+ {
+   "code": 167,
+   "nom_com": "Les Garennes-sur-Loire",
+   "inscrits": 3654,
+   "abstentions": 582,
+   "pour_abs": {
+      "ins": 15.93
+   },
+   "votants": 3072,
+   "pour_vot": {
+      "ins": 84.07
+   },
+   "blanc_nul": 330,
+   "pour_bl_nuls": {
+      "ins": 7.25,
+      "vot": 10.75
+   },
+   "exprimes": 2742,
+   "pour_exp": {
+      "ins": 75.04,
+      "vot": 89.26
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      2266,
+      476
+   ],
+   "pour_voix": {
+      "ins": [
+         62.01,
+         13.03
+      ],
+      "exp": [
+         82.64,
+         17.36
+      ]
+   }
+},
+ {
+   "code": 170,
+   "nom_com": "Juvardeil",
+   "inscrits": 672,
+   "abstentions": 125,
+   "pour_abs": {
+      "ins": 18.6
+   },
+   "votants": 547,
+   "pour_vot": {
+      "ins": 81.4
+   },
+   "blanc_nul": 80,
+   "pour_bl_nuls": {
+      "ins": 8.63,
+      "vot": 14.63
+   },
+   "exprimes": 467,
+   "pour_exp": {
+      "ins": 69.49,
+      "vot": 85.37
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      336,
+      131
+   ],
+   "pour_voix": {
+      "ins": [
+         "50",
+         19.49
+      ],
+      "exp": [
+         71.95,
+         28.05
+      ]
+   }
+},
+ {
+   "code": 171,
+   "nom_com": "La Lande-Chasles",
+   "inscrits": 84,
+   "abstentions": 13,
+   "pour_abs": {
+      "ins": 15.48
+   },
+   "votants": 71,
+   "pour_vot": {
+      "ins": 84.52
+   },
+   "blanc_nul": 11,
+   "pour_bl_nuls": {
+      "ins": 10.71,
+      "vot": 15.5
+   },
+   "exprimes": 60,
+   "pour_exp": {
+      "ins": 71.43,
+      "vot": 84.51
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      32,
+      28
+   ],
+   "pour_voix": {
+      "ins": [
+         38.1,
+         33.33
+      ],
+      "exp": [
+         53.33,
+         46.67
+      ]
+   }
+},
+ {
+   "code": 174,
+   "nom_com": "Lézigné",
+   "inscrits": 536,
+   "abstentions": 94,
+   "pour_abs": {
+      "ins": 17.54
+   },
+   "votants": 442,
+   "pour_vot": {
+      "ins": 82.46
+   },
+   "blanc_nul": 40,
+   "pour_bl_nuls": {
+      "ins": 5.22,
+      "vot": 9.05
+   },
+   "exprimes": 402,
+   "pour_exp": {
+      "ins": "75",
+      "vot": 90.95
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      231,
+      171
+   ],
+   "pour_voix": {
+      "ins": [
+         43.1,
+         31.9
+      ],
+      "exp": [
+         57.46,
+         42.54
+      ]
+   }
+},
+ {
+   "code": 176,
+   "nom_com": "Le Lion-d'Angers",
+   "inscrits": 3530,
+   "abstentions": 833,
+   "pour_abs": {
+      "ins": 23.6
+   },
+   "votants": 2697,
+   "pour_vot": {
+      "ins": 76.4
+   },
+   "blanc_nul": 310,
+   "pour_bl_nuls": {
+      "ins": 6.69,
+      "vot": 11.5
+   },
+   "exprimes": 2387,
+   "pour_exp": {
+      "ins": 67.62,
+      "vot": 88.51
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      1719,
+      668
+   ],
+   "pour_voix": {
+      "ins": [
+         48.7,
+         18.92
+      ],
+      "exp": [
+         72.02,
+         27.98
+      ]
+   }
+},
+ {
+   "code": 178,
+   "nom_com": "Loiré",
+   "inscrits": 633,
+   "abstentions": 122,
+   "pour_abs": {
+      "ins": 19.27
+   },
+   "votants": 511,
+   "pour_vot": {
+      "ins": 80.73
+   },
+   "blanc_nul": 53,
+   "pour_bl_nuls": {
+      "ins": 5.69,
+      "vot": 10.38
+   },
+   "exprimes": 458,
+   "pour_exp": {
+      "ins": 72.35,
+      "vot": 89.63
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      310,
+      148
+   ],
+   "pour_voix": {
+      "ins": [
+         48.97,
+         23.38
+      ],
+      "exp": [
+         67.69,
+         32.31
+      ]
+   }
+},
+ {
+   "code": 180,
+   "nom_com": "Longué-Jumelles",
+   "inscrits": 5006,
+   "abstentions": 1154,
+   "pour_abs": {
+      "ins": 23.05
+   },
+   "votants": 3852,
+   "pour_vot": {
+      "ins": 76.95
+   },
+   "blanc_nul": 459,
+   "pour_bl_nuls": {
+      "ins": 6.69,
+      "vot": 11.92
+   },
+   "exprimes": 3393,
+   "pour_exp": {
+      "ins": 67.78,
+      "vot": 88.08
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      1913,
+      1480
+   ],
+   "pour_voix": {
+      "ins": [
+         38.21,
+         29.56
+      ],
+      "exp": [
+         56.38,
+         43.62
+      ]
+   }
+},
+ {
+   "code": 182,
+   "nom_com": "Louresse-Rochemenier",
+   "inscrits": 585,
+   "abstentions": 115,
+   "pour_abs": {
+      "ins": 19.66
+   },
+   "votants": 470,
+   "pour_vot": {
+      "ins": 80.34
+   },
+   "blanc_nul": 54,
+   "pour_bl_nuls": {
+      "ins": 8.38,
+      "vot": 11.49
+   },
+   "exprimes": 416,
+   "pour_exp": {
+      "ins": 71.11,
+      "vot": 88.51
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      255,
+      161
+   ],
+   "pour_voix": {
+      "ins": [
+         43.59,
+         27.52
+      ],
+      "exp": [
+         61.3,
+         38.7
+      ]
+   }
+},
+ {
+   "code": 183,
+   "nom_com": "Val-d'Erdre-Auxence",
+   "inscrits": 3203,
+   "abstentions": 613,
+   "pour_abs": {
+      "ins": 19.14
+   },
+   "votants": 2590,
+   "pour_vot": {
+      "ins": 80.86
+   },
+   "blanc_nul": 278,
+   "pour_bl_nuls": {
+      "ins": 7.31,
+      "vot": 10.74
+   },
+   "exprimes": 2312,
+   "pour_exp": {
+      "ins": 72.18,
+      "vot": 89.27
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      1537,
+      775
+   ],
+   "pour_voix": {
+      "ins": [
+         47.99,
+         24.2
+      ],
+      "exp": [
+         66.48,
+         33.52
+      ]
+   }
+},
+ {
+   "code": 188,
+   "nom_com": "Marcé",
+   "inscrits": 616,
+   "abstentions": 96,
+   "pour_abs": {
+      "ins": 15.58
+   },
+   "votants": 520,
+   "pour_vot": {
+      "ins": 84.42
+   },
+   "blanc_nul": 78,
+   "pour_bl_nuls": {
+      "ins": 10.39,
+      "vot": "15"
+   },
+   "exprimes": 442,
+   "pour_exp": {
+      "ins": 71.75,
+      "vot": "85"
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      277,
+      165
+   ],
+   "pour_voix": {
+      "ins": [
+         44.97,
+         26.79
+      ],
+      "exp": [
+         62.67,
+         37.33
+      ]
+   }
+},
+ {
+   "code": 192,
+   "nom_com": "Maulévrier",
+   "inscrits": 2355,
+   "abstentions": 443,
+   "pour_abs": {
+      "ins": 18.81
+   },
+   "votants": 1912,
+   "pour_vot": {
+      "ins": 81.19
+   },
+   "blanc_nul": 212,
+   "pour_bl_nuls": {
+      "ins": 6.79,
+      "vot": 11.09
+   },
+   "exprimes": 1700,
+   "pour_exp": {
+      "ins": 72.19,
+      "vot": 88.91
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      1278,
+      422
+   ],
+   "pour_voix": {
+      "ins": [
+         54.27,
+         17.92
+      ],
+      "exp": [
+         75.18,
+         24.82
+      ]
+   }
+},
+ {
+   "code": 193,
+   "nom_com": "Le May-sur-Evre",
+   "inscrits": 2957,
+   "abstentions": 693,
+   "pour_abs": {
+      "ins": 23.44
+   },
+   "votants": 2264,
+   "pour_vot": {
+      "ins": 76.56
+   },
+   "blanc_nul": 261,
+   "pour_bl_nuls": {
+      "ins": 6.7,
+      "vot": 11.53
+   },
+   "exprimes": 2003,
+   "pour_exp": {
+      "ins": 67.74,
+      "vot": 88.47
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      1506,
+      497
+   ],
+   "pour_voix": {
+      "ins": [
+         50.93,
+         16.81
+      ],
+      "exp": [
+         75.19,
+         24.81
+      ]
+   }
+},
+ {
+   "code": 194,
+   "nom_com": "Mazé-Milon",
+   "inscrits": 4060,
+   "abstentions": 786,
+   "pour_abs": {
+      "ins": 19.36
+   },
+   "votants": 3274,
+   "pour_vot": {
+      "ins": 80.64
+   },
+   "blanc_nul": 428,
+   "pour_bl_nuls": {
+      "ins": 8.2,
+      "vot": 13.08
+   },
+   "exprimes": 2846,
+   "pour_exp": {
+      "ins": 70.1,
+      "vot": 86.93
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      1938,
+      908
+   ],
+   "pour_voix": {
+      "ins": [
+         47.73,
+         22.36
+      ],
+      "exp": [
+         68.1,
+         31.9
+      ]
+   }
+},
+ {
+   "code": 195,
+   "nom_com": "Mazières-en-Mauges",
+   "inscrits": 888,
+   "abstentions": 170,
+   "pour_abs": {
+      "ins": 19.14
+   },
+   "votants": 718,
+   "pour_vot": {
+      "ins": 80.86
+   },
+   "blanc_nul": 103,
+   "pour_bl_nuls": {
+      "ins": 9.12,
+      "vot": 14.35
+   },
+   "exprimes": 615,
+   "pour_exp": {
+      "ins": 69.26,
+      "vot": 85.65
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      491,
+      124
+   ],
+   "pour_voix": {
+      "ins": [
+         55.29,
+         13.96
+      ],
+      "exp": [
+         79.84,
+         20.16
+      ]
+   }
+},
+ {
+   "code": 200,
+   "nom_com": "Longuenée-en-Anjou",
+   "inscrits": 4607,
+   "abstentions": 742,
+   "pour_abs": {
+      "ins": 16.11
+   },
+   "votants": 3865,
+   "pour_vot": {
+      "ins": 83.89
+   },
+   "blanc_nul": 431,
+   "pour_bl_nuls": {
+      "ins": 7.47,
+      "vot": 11.16
+   },
+   "exprimes": 3434,
+   "pour_exp": {
+      "ins": 74.54,
+      "vot": 88.85
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      2618,
+      816
+   ],
+   "pour_voix": {
+      "ins": [
+         56.83,
+         17.71
+      ],
+      "exp": [
+         76.24,
+         23.76
+      ]
+   }
+},
+ {
+   "code": 201,
+   "nom_com": "La Ménitré",
+   "inscrits": 1592,
+   "abstentions": 315,
+   "pour_abs": {
+      "ins": 19.79
+   },
+   "votants": 1277,
+   "pour_vot": {
+      "ins": 80.21
+   },
+   "blanc_nul": 128,
+   "pour_bl_nuls": {
+      "ins": 6.28,
+      "vot": 10.03
+   },
+   "exprimes": 1149,
+   "pour_exp": {
+      "ins": 72.17,
+      "vot": 89.98
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      751,
+      398
+   ],
+   "pour_voix": {
+      "ins": [
+         47.17,
+         "25"
+      ],
+      "exp": [
+         65.36,
+         34.64
+      ]
+   }
+},
+ {
+   "code": 205,
+   "nom_com": "Miré",
+   "inscrits": 652,
+   "abstentions": 127,
+   "pour_abs": {
+      "ins": 19.48
+   },
+   "votants": 525,
+   "pour_vot": {
+      "ins": 80.52
+   },
+   "blanc_nul": 55,
+   "pour_bl_nuls": {
+      "ins": 6.29,
+      "vot": 10.48
+   },
+   "exprimes": 470,
+   "pour_exp": {
+      "ins": 72.09,
+      "vot": 89.52
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      231,
+      239
+   ],
+   "pour_voix": {
+      "ins": [
+         35.43,
+         36.66
+      ],
+      "exp": [
+         49.15,
+         50.85
+      ]
+   }
+},
+ {
+   "code": 209,
+   "nom_com": "Montigné-lès-Rairies",
+   "inscrits": 259,
+   "abstentions": 47,
+   "pour_abs": {
+      "ins": 18.15
+   },
+   "votants": 212,
+   "pour_vot": {
+      "ins": 81.85
+   },
+   "blanc_nul": 36,
+   "pour_bl_nuls": {
+      "ins": 10.04,
+      "vot": 16.99
+   },
+   "exprimes": 176,
+   "pour_exp": {
+      "ins": 67.95,
+      "vot": 83.02
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      113,
+      63
+   ],
+   "pour_voix": {
+      "ins": [
+         43.63,
+         24.32
+      ],
+      "exp": [
+         64.2,
+         35.8
+      ]
+   }
+},
+ {
+   "code": 211,
+   "nom_com": "Montilliers",
+   "inscrits": 975,
+   "abstentions": 209,
+   "pour_abs": {
+      "ins": 21.44
+   },
+   "votants": 766,
+   "pour_vot": {
+      "ins": 78.56
+   },
+   "blanc_nul": 89,
+   "pour_bl_nuls": {
+      "ins": 0.92,
+      "vot": 11.62
+   },
+   "exprimes": 677,
+   "pour_exp": {
+      "ins": 69.44,
+      "vot": 88.38
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      470,
+      207
+   ],
+   "pour_voix": {
+      "ins": [
+         48.21,
+         21.23
+      ],
+      "exp": [
+         69.42,
+         30.58
+      ]
+   }
+},
+ {
+   "code": 214,
+   "nom_com": "Montreuil-Juigné",
+   "inscrits": 5744,
+   "abstentions": 1133,
+   "pour_abs": {
+      "ins": 19.72
+   },
+   "votants": 4611,
+   "pour_vot": {
+      "ins": 80.28
+   },
+   "blanc_nul": 494,
+   "pour_bl_nuls": {
+      "ins": 6.55,
+      "vot": 10.72
+   },
+   "exprimes": 4117,
+   "pour_exp": {
+      "ins": 71.67,
+      "vot": 89.29
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      3160,
+      957
+   ],
+   "pour_voix": {
+      "ins": [
+         55.01,
+         16.66
+      ],
+      "exp": [
+         76.75,
+         23.25
+      ]
+   }
+},
+ {
+   "code": 215,
+   "nom_com": "Montreuil-Bellay",
+   "inscrits": 2855,
+   "abstentions": 692,
+   "pour_abs": {
+      "ins": 24.24
+   },
+   "votants": 2163,
+   "pour_vot": {
+      "ins": 75.76
+   },
+   "blanc_nul": 269,
+   "pour_bl_nuls": {
+      "ins": 7.18,
+      "vot": 12.44
+   },
+   "exprimes": 1894,
+   "pour_exp": {
+      "ins": 66.34,
+      "vot": 87.56
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      1059,
+      835
+   ],
+   "pour_voix": {
+      "ins": [
+         37.09,
+         29.25
+      ],
+      "exp": [
+         55.91,
+         44.09
+      ]
+   }
+},
+ {
+   "code": 216,
+   "nom_com": "Montreuil-sur-Loir",
+   "inscrits": 384,
+   "abstentions": 66,
+   "pour_abs": {
+      "ins": 17.19
+   },
+   "votants": 318,
+   "pour_vot": {
+      "ins": 82.81
+   },
+   "blanc_nul": 45,
+   "pour_bl_nuls": {
+      "ins": 10.16,
+      "vot": 14.16
+   },
+   "exprimes": 273,
+   "pour_exp": {
+      "ins": 71.09,
+      "vot": 85.85
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      203,
+      70
+   ],
+   "pour_voix": {
+      "ins": [
+         52.86,
+         18.23
+      ],
+      "exp": [
+         74.36,
+         25.64
+      ]
+   }
+},
+ {
+   "code": 217,
+   "nom_com": "Montreuil-sur-Maine",
+   "inscrits": 520,
+   "abstentions": 80,
+   "pour_abs": {
+      "ins": 15.38
+   },
+   "votants": 440,
+   "pour_vot": {
+      "ins": 84.62
+   },
+   "blanc_nul": 66,
+   "pour_bl_nuls": {
+      "ins": 10.58,
+      "vot": "15"
+   },
+   "exprimes": 374,
+   "pour_exp": {
+      "ins": 71.92,
+      "vot": "85"
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      260,
+      114
+   ],
+   "pour_voix": {
+      "ins": [
+         "50",
+         21.92
+      ],
+      "exp": [
+         69.52,
+         30.48
+      ]
+   }
+},
+ {
+   "code": 218,
+   "nom_com": "Montrevault-sur-Evre",
+   "inscrits": 11734,
+   "abstentions": 2332,
+   "pour_abs": {
+      "ins": 19.87
+   },
+   "votants": 9402,
+   "pour_vot": {
+      "ins": 80.13
+   },
+   "blanc_nul": 1198,
+   "pour_bl_nuls": {
+      "ins": 7.31,
+      "vot": 12.75
+   },
+   "exprimes": 8204,
+   "pour_exp": {
+      "ins": 69.92,
+      "vot": 87.26
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      5510,
+      2694
+   ],
+   "pour_voix": {
+      "ins": [
+         46.96,
+         22.96
+      ],
+      "exp": [
+         67.16,
+         32.84
+      ]
+   }
+},
+ {
+   "code": 219,
+   "nom_com": "Montsoreau",
+   "inscrits": 346,
+   "abstentions": 49,
+   "pour_abs": {
+      "ins": 14.16
+   },
+   "votants": 297,
+   "pour_vot": {
+      "ins": 85.84
+   },
+   "blanc_nul": 48,
+   "pour_bl_nuls": {
+      "ins": 11.56,
+      "vot": 16.17
+   },
+   "exprimes": 249,
+   "pour_exp": {
+      "ins": 71.97,
+      "vot": 83.84
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      174,
+      75
+   ],
+   "pour_voix": {
+      "ins": [
+         50.29,
+         21.68
+      ],
+      "exp": [
+         69.88,
+         30.12
+      ]
+   }
+},
+ {
+   "code": 220,
+   "nom_com": "Morannes-sur-Sarthe-Daumeray",
+   "inscrits": 2540,
+   "abstentions": 565,
+   "pour_abs": {
+      "ins": 22.24
+   },
+   "votants": 1975,
+   "pour_vot": {
+      "ins": 77.76
+   },
+   "blanc_nul": 232,
+   "pour_bl_nuls": {
+      "ins": 6.77,
+      "vot": 11.75
+   },
+   "exprimes": 1743,
+   "pour_exp": {
+      "ins": 68.62,
+      "vot": 88.25
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      975,
+      768
+   ],
+   "pour_voix": {
+      "ins": [
+         38.39,
+         30.24
+      ],
+      "exp": [
+         55.94,
+         44.06
+      ]
+   }
+},
+ {
+   "code": 221,
+   "nom_com": "Mouliherne",
+   "inscrits": 614,
+   "abstentions": 151,
+   "pour_abs": {
+      "ins": 24.59
+   },
+   "votants": 463,
+   "pour_vot": {
+      "ins": 75.41
+   },
+   "blanc_nul": 61,
+   "pour_bl_nuls": {
+      "ins": 8.14,
+      "vot": 13.18
+   },
+   "exprimes": 402,
+   "pour_exp": {
+      "ins": 65.47,
+      "vot": 86.83
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      200,
+      202
+   ],
+   "pour_voix": {
+      "ins": [
+         32.57,
+         32.9
+      ],
+      "exp": [
+         49.75,
+         50.25
+      ]
+   }
+},
+ {
+   "code": 222,
+   "nom_com": "Mozé-sur-Louet",
+   "inscrits": 1542,
+   "abstentions": 331,
+   "pour_abs": {
+      "ins": 21.47
+   },
+   "votants": 1211,
+   "pour_vot": {
+      "ins": 78.53
+   },
+   "blanc_nul": 123,
+   "pour_bl_nuls": {
+      "ins": 5.9,
+      "vot": 10.16
+   },
+   "exprimes": 1088,
+   "pour_exp": {
+      "ins": 70.56,
+      "vot": 89.84
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      775,
+      313
+   ],
+   "pour_voix": {
+      "ins": [
+         50.26,
+         20.3
+      ],
+      "exp": [
+         71.23,
+         28.77
+      ]
+   }
+},
+ {
+   "code": 223,
+   "nom_com": "Mûrs-Erigné",
+   "inscrits": 4263,
+   "abstentions": 797,
+   "pour_abs": {
+      "ins": 18.7
+   },
+   "votants": 3466,
+   "pour_vot": {
+      "ins": 81.3
+   },
+   "blanc_nul": 353,
+   "pour_bl_nuls": {
+      "ins": 6.8,
+      "vot": 10.19
+   },
+   "exprimes": 3113,
+   "pour_exp": {
+      "ins": 73.02,
+      "vot": 89.82
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      2467,
+      646
+   ],
+   "pour_voix": {
+      "ins": [
+         57.87,
+         15.15
+      ],
+      "exp": [
+         79.25,
+         20.75
+      ]
+   }
+},
+ {
+   "code": 224,
+   "nom_com": "Neuillé",
+   "inscrits": 688,
+   "abstentions": 119,
+   "pour_abs": {
+      "ins": 17.3
+   },
+   "votants": 569,
+   "pour_vot": {
+      "ins": 82.7
+   },
+   "blanc_nul": 64,
+   "pour_bl_nuls": {
+      "ins": 6.25,
+      "vot": 11.25
+   },
+   "exprimes": 505,
+   "pour_exp": {
+      "ins": 73.4,
+      "vot": 88.75
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      272,
+      233
+   ],
+   "pour_voix": {
+      "ins": [
+         39.53,
+         33.87
+      ],
+      "exp": [
+         53.86,
+         46.14
+      ]
+   }
+},
+ {
+   "code": 228,
+   "nom_com": "Noyant-Villages",
+   "inscrits": 4179,
+   "abstentions": 939,
+   "pour_abs": {
+      "ins": 22.47
+   },
+   "votants": 3240,
+   "pour_vot": {
+      "ins": 77.53
+   },
+   "blanc_nul": 393,
+   "pour_bl_nuls": {
+      "ins": 6.84,
+      "vot": 12.13
+   },
+   "exprimes": 2847,
+   "pour_exp": {
+      "ins": 68.13,
+      "vot": 87.87
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      1575,
+      1272
+   ],
+   "pour_voix": {
+      "ins": [
+         37.69,
+         30.44
+      ],
+      "exp": [
+         55.32,
+         44.68
+      ]
+   }
+},
+ {
+   "code": 231,
+   "nom_com": "Nuaillé",
+   "inscrits": 1087,
+   "abstentions": 165,
+   "pour_abs": {
+      "ins": 15.18
+   },
+   "votants": 922,
+   "pour_vot": {
+      "ins": 84.82
+   },
+   "blanc_nul": 102,
+   "pour_bl_nuls": {
+      "ins": 7.91,
+      "vot": 11.07
+   },
+   "exprimes": 820,
+   "pour_exp": {
+      "ins": 75.44,
+      "vot": 88.94
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      602,
+      218
+   ],
+   "pour_voix": {
+      "ins": [
+         55.38,
+         20.06
+      ],
+      "exp": [
+         73.41,
+         26.59
+      ]
+   }
+},
+ {
+   "code": 235,
+   "nom_com": "Parnay",
+   "inscrits": 337,
+   "abstentions": 64,
+   "pour_abs": {
+      "ins": 18.99
+   },
+   "votants": 273,
+   "pour_vot": {
+      "ins": 81.01
+   },
+   "blanc_nul": 44,
+   "pour_bl_nuls": {
+      "ins": 11.28,
+      "vot": 16.12
+   },
+   "exprimes": 229,
+   "pour_exp": {
+      "ins": 67.95,
+      "vot": 83.88
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      151,
+      78
+   ],
+   "pour_voix": {
+      "ins": [
+         44.81,
+         23.15
+      ],
+      "exp": [
+         65.94,
+         34.06
+      ]
+   }
+},
+ {
+   "code": 236,
+   "nom_com": "Passavant-sur-Layon",
+   "inscrits": 108,
+   "abstentions": 13,
+   "pour_abs": {
+      "ins": 12.04
+   },
+   "votants": 95,
+   "pour_vot": {
+      "ins": 87.96
+   },
+   "blanc_nul": 12,
+   "pour_bl_nuls": {
+      "ins": 7.41,
+      "vot": 12.64
+   },
+   "exprimes": 83,
+   "pour_exp": {
+      "ins": 76.85,
+      "vot": 87.37
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      52,
+      31
+   ],
+   "pour_voix": {
+      "ins": [
+         48.15,
+         28.7
+      ],
+      "exp": [
+         62.65,
+         37.35
+      ]
+   }
+},
+ {
+   "code": 237,
+   "nom_com": "La Pellerine",
+   "inscrits": 120,
+   "abstentions": 15,
+   "pour_abs": {
+      "ins": 12.5
+   },
+   "votants": 105,
+   "pour_vot": {
+      "ins": 87.5
+   },
+   "blanc_nul": 2,
+   "pour_bl_nuls": {
+      "ins": "0",
+      "vot": 1.91
+   },
+   "exprimes": 103,
+   "pour_exp": {
+      "ins": 85.83,
+      "vot": 98.1
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      33,
+      70
+   ],
+   "pour_voix": {
+      "ins": [
+         27.5,
+         58.33
+      ],
+      "exp": [
+         32.04,
+         67.96
+      ]
+   }
+},
+ {
+   "code": 240,
+   "nom_com": "La Plaine",
+   "inscrits": 742,
+   "abstentions": 166,
+   "pour_abs": {
+      "ins": 22.37
+   },
+   "votants": 576,
+   "pour_vot": {
+      "ins": 77.63
+   },
+   "blanc_nul": 60,
+   "pour_bl_nuls": {
+      "ins": 5.66,
+      "vot": 10.42
+   },
+   "exprimes": 516,
+   "pour_exp": {
+      "ins": 69.54,
+      "vot": 89.58
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      320,
+      196
+   ],
+   "pour_voix": {
+      "ins": [
+         43.13,
+         26.42
+      ],
+      "exp": [
+         62.02,
+         37.98
+      ]
+   }
+},
+ {
+   "code": 241,
+   "nom_com": "Le Plessis-Grammoire",
+   "inscrits": 1948,
+   "abstentions": 361,
+   "pour_abs": {
+      "ins": 18.53
+   },
+   "votants": 1587,
+   "pour_vot": {
+      "ins": 81.47
+   },
+   "blanc_nul": 206,
+   "pour_bl_nuls": {
+      "ins": 5.03,
+      "vot": 12.99
+   },
+   "exprimes": 1381,
+   "pour_exp": {
+      "ins": 70.89,
+      "vot": 87.02
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      1052,
+      329
+   ],
+   "pour_voix": {
+      "ins": [
+         "54",
+         16.89
+      ],
+      "exp": [
+         76.18,
+         23.82
+      ]
+   }
+},
+ {
+   "code": 244,
+   "nom_com": "Mauges-sur-Loire",
+   "inscrits": 13816,
+   "abstentions": 2455,
+   "pour_abs": {
+      "ins": 17.77
+   },
+   "votants": 11361,
+   "pour_vot": {
+      "ins": 82.23
+   },
+   "blanc_nul": 1388,
+   "pour_bl_nuls": {
+      "ins": 7.26,
+      "vot": 12.22
+   },
+   "exprimes": 9973,
+   "pour_exp": {
+      "ins": 72.18,
+      "vot": 87.78
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      7193,
+      2780
+   ],
+   "pour_voix": {
+      "ins": [
+         52.06,
+         20.12
+      ],
+      "exp": [
+         72.12,
+         27.88
+      ]
+   }
+},
+ {
+   "code": 246,
+   "nom_com": "Les Ponts-de-Cé",
+   "inscrits": 9568,
+   "abstentions": 2226,
+   "pour_abs": {
+      "ins": 23.27
+   },
+   "votants": 7342,
+   "pour_vot": {
+      "ins": 76.73
+   },
+   "blanc_nul": 823,
+   "pour_bl_nuls": {
+      "ins": 6.61,
+      "vot": 11.21
+   },
+   "exprimes": 6519,
+   "pour_exp": {
+      "ins": 68.13,
+      "vot": 88.79
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      5173,
+      1346
+   ],
+   "pour_voix": {
+      "ins": [
+         54.07,
+         14.07
+      ],
+      "exp": [
+         79.35,
+         20.65
+      ]
+   }
+},
+ {
+   "code": 247,
+   "nom_com": "La Possonnière",
+   "inscrits": 1842,
+   "abstentions": 308,
+   "pour_abs": {
+      "ins": 16.72
+   },
+   "votants": 1534,
+   "pour_vot": {
+      "ins": 83.28
+   },
+   "blanc_nul": 180,
+   "pour_bl_nuls": {
+      "ins": 7.82,
+      "vot": 11.74
+   },
+   "exprimes": 1354,
+   "pour_exp": {
+      "ins": 73.51,
+      "vot": 88.27
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      1071,
+      283
+   ],
+   "pour_voix": {
+      "ins": [
+         58.14,
+         15.36
+      ],
+      "exp": [
+         79.1,
+         20.9
+      ]
+   }
+},
+ {
+   "code": 248,
+   "nom_com": "Ombrée-d'Anjou",
+   "inscrits": 6316,
+   "abstentions": 1272,
+   "pour_abs": {
+      "ins": 20.14
+   },
+   "votants": 5044,
+   "pour_vot": {
+      "ins": 79.86
+   },
+   "blanc_nul": 599,
+   "pour_bl_nuls": {
+      "ins": 7.11,
+      "vot": 11.88
+   },
+   "exprimes": 4445,
+   "pour_exp": {
+      "ins": 70.38,
+      "vot": 88.12
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      3092,
+      1353
+   ],
+   "pour_voix": {
+      "ins": [
+         48.96,
+         21.42
+      ],
+      "exp": [
+         69.56,
+         30.44
+      ]
+   }
+},
+ {
+   "code": 253,
+   "nom_com": "Le Puy-Notre-Dame",
+   "inscrits": 843,
+   "abstentions": 201,
+   "pour_abs": {
+      "ins": 23.84
+   },
+   "votants": 642,
+   "pour_vot": {
+      "ins": 76.16
+   },
+   "blanc_nul": 78,
+   "pour_bl_nuls": {
+      "ins": 6.76,
+      "vot": 12.15
+   },
+   "exprimes": 564,
+   "pour_exp": {
+      "ins": 66.9,
+      "vot": 87.85
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      328,
+      236
+   ],
+   "pour_voix": {
+      "ins": [
+         38.91,
+         "28"
+      ],
+      "exp": [
+         58.16,
+         41.84
+      ]
+   }
+},
+ {
+   "code": 257,
+   "nom_com": "Les Rairies",
+   "inscrits": 736,
+   "abstentions": 157,
+   "pour_abs": {
+      "ins": 21.33
+   },
+   "votants": 579,
+   "pour_vot": {
+      "ins": 78.67
+   },
+   "blanc_nul": 76,
+   "pour_bl_nuls": {
+      "ins": 7.07,
+      "vot": 13.13
+   },
+   "exprimes": 503,
+   "pour_exp": {
+      "ins": 68.34,
+      "vot": 86.87
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      273,
+      230
+   ],
+   "pour_voix": {
+      "ins": [
+         37.09,
+         31.25
+      ],
+      "exp": [
+         54.27,
+         45.73
+      ]
+   }
+},
+ {
+   "code": 259,
+   "nom_com": "Rochefort-sur-Loire",
+   "inscrits": 1813,
+   "abstentions": 364,
+   "pour_abs": {
+      "ins": 20.08
+   },
+   "votants": 1449,
+   "pour_vot": {
+      "ins": 79.92
+   },
+   "blanc_nul": 172,
+   "pour_bl_nuls": {
+      "ins": 7.45,
+      "vot": 11.88
+   },
+   "exprimes": 1277,
+   "pour_exp": {
+      "ins": 70.44,
+      "vot": 88.13
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      983,
+      294
+   ],
+   "pour_voix": {
+      "ins": [
+         54.22,
+         16.22
+      ],
+      "exp": [
+         76.98,
+         23.02
+      ]
+   }
+},
+ {
+   "code": 260,
+   "nom_com": "La Romagne",
+   "inscrits": 1352,
+   "abstentions": 252,
+   "pour_abs": {
+      "ins": 18.64
+   },
+   "votants": 1100,
+   "pour_vot": {
+      "ins": 81.36
+   },
+   "blanc_nul": 95,
+   "pour_bl_nuls": {
+      "ins": 5.99,
+      "vot": 8.64
+   },
+   "exprimes": 1005,
+   "pour_exp": {
+      "ins": 74.33,
+      "vot": 91.36
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      738,
+      267
+   ],
+   "pour_voix": {
+      "ins": [
+         54.59,
+         19.75
+      ],
+      "exp": [
+         73.43,
+         26.57
+      ]
+   }
+},
+ {
+   "code": 261,
+   "nom_com": "Les Rosiers-sur-Loire",
+   "inscrits": 1723,
+   "abstentions": 392,
+   "pour_abs": {
+      "ins": 22.75
+   },
+   "votants": 1331,
+   "pour_vot": {
+      "ins": 77.25
+   },
+   "blanc_nul": 165,
+   "pour_bl_nuls": {
+      "ins": 6.96,
+      "vot": 12.4
+   },
+   "exprimes": 1166,
+   "pour_exp": {
+      "ins": 67.67,
+      "vot": 87.6
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      750,
+      416
+   ],
+   "pour_voix": {
+      "ins": [
+         43.53,
+         24.14
+      ],
+      "exp": [
+         64.32,
+         35.68
+      ]
+   }
+},
+ {
+   "code": 262,
+   "nom_com": "Rou-Marson",
+   "inscrits": 540,
+   "abstentions": 78,
+   "pour_abs": {
+      "ins": 14.44
+   },
+   "votants": 462,
+   "pour_vot": {
+      "ins": 85.56
+   },
+   "blanc_nul": 57,
+   "pour_bl_nuls": {
+      "ins": 8.52,
+      "vot": 12.34
+   },
+   "exprimes": 405,
+   "pour_exp": {
+      "ins": "75",
+      "vot": 87.66
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      257,
+      148
+   ],
+   "pour_voix": {
+      "ins": [
+         47.59,
+         27.41
+      ],
+      "exp": [
+         63.46,
+         36.54
+      ]
+   }
+},
+ {
+   "code": 266,
+   "nom_com": "Saint-Augustin-des-Bois",
+   "inscrits": 869,
+   "abstentions": 171,
+   "pour_abs": {
+      "ins": 19.68
+   },
+   "votants": 698,
+   "pour_vot": {
+      "ins": 80.32
+   },
+   "blanc_nul": 72,
+   "pour_bl_nuls": {
+      "ins": 6.21,
+      "vot": 10.32
+   },
+   "exprimes": 626,
+   "pour_exp": {
+      "ins": 72.04,
+      "vot": 89.68
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      403,
+      223
+   ],
+   "pour_voix": {
+      "ins": [
+         46.38,
+         25.66
+      ],
+      "exp": [
+         64.38,
+         35.62
+      ]
+   }
+},
+ {
+   "code": 267,
+   "nom_com": "Saint-Barthélemy-d'Anjou",
+   "inscrits": 6975,
+   "abstentions": 1404,
+   "pour_abs": {
+      "ins": 20.13
+   },
+   "votants": 5571,
+   "pour_vot": {
+      "ins": 79.87
+   },
+   "blanc_nul": 609,
+   "pour_bl_nuls": {
+      "ins": 6.62,
+      "vot": 10.94
+   },
+   "exprimes": 4962,
+   "pour_exp": {
+      "ins": 71.14,
+      "vot": 89.07
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      3889,
+      1073
+   ],
+   "pour_voix": {
+      "ins": [
+         55.76,
+         15.38
+      ],
+      "exp": [
+         78.38,
+         21.62
+      ]
+   }
+},
+ {
+   "code": 269,
+   "nom_com": "Saint-Christophe-du-Bois",
+   "inscrits": 2176,
+   "abstentions": 432,
+   "pour_abs": {
+      "ins": 19.85
+   },
+   "votants": 1744,
+   "pour_vot": {
+      "ins": 80.15
+   },
+   "blanc_nul": 163,
+   "pour_bl_nuls": {
+      "ins": 5.51,
+      "vot": 9.35
+   },
+   "exprimes": 1581,
+   "pour_exp": {
+      "ins": 72.66,
+      "vot": 90.65
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      1195,
+      386
+   ],
+   "pour_voix": {
+      "ins": [
+         54.92,
+         17.74
+      ],
+      "exp": [
+         75.59,
+         24.41
+      ]
+   }
+},
+ {
+   "code": 271,
+   "nom_com": "Saint-Clément-de-la-Place",
+   "inscrits": 1527,
+   "abstentions": 239,
+   "pour_abs": {
+      "ins": 15.65
+   },
+   "votants": 1288,
+   "pour_vot": {
+      "ins": 84.35
+   },
+   "blanc_nul": 137,
+   "pour_bl_nuls": {
+      "ins": 7.27,
+      "vot": 10.64
+   },
+   "exprimes": 1151,
+   "pour_exp": {
+      "ins": 75.38,
+      "vot": 89.36
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      845,
+      306
+   ],
+   "pour_voix": {
+      "ins": [
+         55.34,
+         20.04
+      ],
+      "exp": [
+         73.41,
+         26.59
+      ]
+   }
+},
+ {
+   "code": 272,
+   "nom_com": "Saint-Clément-des-Levées",
+   "inscrits": 794,
+   "abstentions": 151,
+   "pour_abs": {
+      "ins": 19.02
+   },
+   "votants": 643,
+   "pour_vot": {
+      "ins": 80.98
+   },
+   "blanc_nul": 79,
+   "pour_bl_nuls": {
+      "ins": 7.93,
+      "vot": 12.29
+   },
+   "exprimes": 564,
+   "pour_exp": {
+      "ins": 71.03,
+      "vot": 87.71
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      350,
+      214
+   ],
+   "pour_voix": {
+      "ins": [
+         44.08,
+         26.95
+      ],
+      "exp": [
+         62.06,
+         37.94
+      ]
+   }
+},
+ {
+   "code": 274,
+   "nom_com": "Saint-Cyr-en-Bourg",
+   "inscrits": 605,
+   "abstentions": 96,
+   "pour_abs": {
+      "ins": 15.87
+   },
+   "votants": 509,
+   "pour_vot": {
+      "ins": 84.13
+   },
+   "blanc_nul": 58,
+   "pour_bl_nuls": {
+      "ins": 7.44,
+      "vot": 11.4
+   },
+   "exprimes": 451,
+   "pour_exp": {
+      "ins": 74.55,
+      "vot": 88.61
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      270,
+      181
+   ],
+   "pour_voix": {
+      "ins": [
+         44.63,
+         29.92
+      ],
+      "exp": [
+         59.87,
+         40.13
+      ]
+   }
+},
+ {
+   "code": 278,
+   "nom_com": "Sainte-Gemmes-sur-Loire",
+   "inscrits": 2860,
+   "abstentions": 485,
+   "pour_abs": {
+      "ins": 16.96
+   },
+   "votants": 2375,
+   "pour_vot": {
+      "ins": 83.04
+   },
+   "blanc_nul": 277,
+   "pour_bl_nuls": {
+      "ins": 7.66,
+      "vot": 11.67
+   },
+   "exprimes": 2098,
+   "pour_exp": {
+      "ins": 73.36,
+      "vot": 88.34
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      1654,
+      444
+   ],
+   "pour_voix": {
+      "ins": [
+         57.83,
+         15.52
+      ],
+      "exp": [
+         78.84,
+         21.16
+      ]
+   }
+},
+ {
+   "code": 283,
+   "nom_com": "Saint-Georges-sur-Loire",
+   "inscrits": 2473,
+   "abstentions": 394,
+   "pour_abs": {
+      "ins": 15.93
+   },
+   "votants": 2079,
+   "pour_vot": {
+      "ins": 84.07
+   },
+   "blanc_nul": 261,
+   "pour_bl_nuls": {
+      "ins": 7.93,
+      "vot": 12.56
+   },
+   "exprimes": 1818,
+   "pour_exp": {
+      "ins": 73.51,
+      "vot": 87.45
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      1306,
+      512
+   ],
+   "pour_voix": {
+      "ins": [
+         52.81,
+         20.7
+      ],
+      "exp": [
+         71.84,
+         28.16
+      ]
+   }
+},
+ {
+   "code": 284,
+   "nom_com": "Saint-Germain-des-Prés",
+   "inscrits": 1003,
+   "abstentions": 192,
+   "pour_abs": {
+      "ins": 19.14
+   },
+   "votants": 811,
+   "pour_vot": {
+      "ins": 80.86
+   },
+   "blanc_nul": 110,
+   "pour_bl_nuls": {
+      "ins": 8.67,
+      "vot": 13.57
+   },
+   "exprimes": 701,
+   "pour_exp": {
+      "ins": 69.89,
+      "vot": 86.44
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      478,
+      223
+   ],
+   "pour_voix": {
+      "ins": [
+         47.66,
+         22.23
+      ],
+      "exp": [
+         68.19,
+         31.81
+      ]
+   }
+},
+ {
+   "code": 288,
+   "nom_com": "Saint-Jean-de-la-Croix",
+   "inscrits": 180,
+   "abstentions": 31,
+   "pour_abs": {
+      "ins": 17.22
+   },
+   "votants": 149,
+   "pour_vot": {
+      "ins": 82.78
+   },
+   "blanc_nul": 22,
+   "pour_bl_nuls": {
+      "ins": 9.44,
+      "vot": 14.77
+   },
+   "exprimes": 127,
+   "pour_exp": {
+      "ins": 70.56,
+      "vot": 85.23
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      93,
+      34
+   ],
+   "pour_voix": {
+      "ins": [
+         51.67,
+         18.89
+      ],
+      "exp": [
+         73.23,
+         26.77
+      ]
+   }
+},
+ {
+   "code": 289,
+   "nom_com": "Saint-Jean-de-Linières",
+   "inscrits": 1366,
+   "abstentions": 219,
+   "pour_abs": {
+      "ins": 16.03
+   },
+   "votants": 1147,
+   "pour_vot": {
+      "ins": 83.97
+   },
+   "blanc_nul": 125,
+   "pour_bl_nuls": {
+      "ins": 7.32,
+      "vot": 10.9
+   },
+   "exprimes": 1022,
+   "pour_exp": {
+      "ins": 74.82,
+      "vot": 89.1
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      784,
+      238
+   ],
+   "pour_voix": {
+      "ins": [
+         57.39,
+         17.42
+      ],
+      "exp": [
+         76.71,
+         23.29
+      ]
+   }
+},
+ {
+   "code": 291,
+   "nom_com": "Saint-Just-sur-Dive",
+   "inscrits": 276,
+   "abstentions": 67,
+   "pour_abs": {
+      "ins": 24.28
+   },
+   "votants": 209,
+   "pour_vot": {
+      "ins": 75.72
+   },
+   "blanc_nul": 13,
+   "pour_bl_nuls": {
+      "ins": 3.26,
+      "vot": 6.23
+   },
+   "exprimes": 196,
+   "pour_exp": {
+      "ins": 71.01,
+      "vot": 93.78
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      90,
+      106
+   ],
+   "pour_voix": {
+      "ins": [
+         32.61,
+         38.41
+      ],
+      "exp": [
+         45.92,
+         54.08
+      ]
+   }
+},
+ {
+   "code": 292,
+   "nom_com": "Val-du-Layon",
+   "inscrits": 2356,
+   "abstentions": 357,
+   "pour_abs": {
+      "ins": 15.15
+   },
+   "votants": 1999,
+   "pour_vot": {
+      "ins": 84.85
+   },
+   "blanc_nul": 249,
+   "pour_bl_nuls": {
+      "ins": 8.45,
+      "vot": 12.46
+   },
+   "exprimes": 1750,
+   "pour_exp": {
+      "ins": 74.28,
+      "vot": 87.54
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      1232,
+      518
+   ],
+   "pour_voix": {
+      "ins": [
+         52.29,
+         21.99
+      ],
+      "exp": [
+         70.4,
+         29.6
+      ]
+   }
+},
+ {
+   "code": 294,
+   "nom_com": "Saint-Lambert-la-Potherie",
+   "inscrits": 2053,
+   "abstentions": 370,
+   "pour_abs": {
+      "ins": 18.02
+   },
+   "votants": 1683,
+   "pour_vot": {
+      "ins": 81.98
+   },
+   "blanc_nul": 201,
+   "pour_bl_nuls": {
+      "ins": 4.19,
+      "vot": 11.95
+   },
+   "exprimes": 1482,
+   "pour_exp": {
+      "ins": 72.19,
+      "vot": 88.06
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      1161,
+      321
+   ],
+   "pour_voix": {
+      "ins": [
+         56.55,
+         15.64
+      ],
+      "exp": [
+         78.34,
+         21.66
+      ]
+   }
+},
+ {
+   "code": 298,
+   "nom_com": "Saint-Léger-des-Bois",
+   "inscrits": 1300,
+   "abstentions": 203,
+   "pour_abs": {
+      "ins": 15.62
+   },
+   "votants": 1097,
+   "pour_vot": {
+      "ins": 84.38
+   },
+   "blanc_nul": 93,
+   "pour_bl_nuls": {
+      "ins": "6",
+      "vot": 8.48
+   },
+   "exprimes": 1004,
+   "pour_exp": {
+      "ins": 77.23,
+      "vot": 91.52
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      817,
+      187
+   ],
+   "pour_voix": {
+      "ins": [
+         62.85,
+         14.38
+      ],
+      "exp": [
+         81.37,
+         18.63
+      ]
+   }
+},
+ {
+   "code": 299,
+   "nom_com": "Saint-Léger-sous-Cholet",
+   "inscrits": 2252,
+   "abstentions": 421,
+   "pour_abs": {
+      "ins": 18.69
+   },
+   "votants": 1831,
+   "pour_vot": {
+      "ins": 81.31
+   },
+   "blanc_nul": 193,
+   "pour_bl_nuls": {
+      "ins": 6.71,
+      "vot": 10.55
+   },
+   "exprimes": 1638,
+   "pour_exp": {
+      "ins": 72.74,
+      "vot": 89.46
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      1297,
+      341
+   ],
+   "pour_voix": {
+      "ins": [
+         57.59,
+         15.14
+      ],
+      "exp": [
+         79.18,
+         20.82
+      ]
+   }
+},
+ {
+   "code": 301,
+   "nom_com": "Sèvremoine",
+   "inscrits": 18006,
+   "abstentions": 3644,
+   "pour_abs": {
+      "ins": 20.24
+   },
+   "votants": 14362,
+   "pour_vot": {
+      "ins": 79.76
+   },
+   "blanc_nul": 1603,
+   "pour_bl_nuls": {
+      "ins": 6.66,
+      "vot": 11.17
+   },
+   "exprimes": 12759,
+   "pour_exp": {
+      "ins": 70.86,
+      "vot": 88.84
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      9268,
+      3491
+   ],
+   "pour_voix": {
+      "ins": [
+         51.47,
+         19.39
+      ],
+      "exp": [
+         72.64,
+         27.36
+      ]
+   }
+},
+ {
+   "code": 302,
+   "nom_com": "Saint-Macaire-du-Bois",
+   "inscrits": 316,
+   "abstentions": 74,
+   "pour_abs": {
+      "ins": 23.42
+   },
+   "votants": 242,
+   "pour_vot": {
+      "ins": 76.58
+   },
+   "blanc_nul": 23,
+   "pour_bl_nuls": {
+      "ins": 4.75,
+      "vot": 9.51
+   },
+   "exprimes": 219,
+   "pour_exp": {
+      "ins": 69.3,
+      "vot": 90.5
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      92,
+      127
+   ],
+   "pour_voix": {
+      "ins": [
+         29.11,
+         40.19
+      ],
+      "exp": [
+         42.01,
+         57.99
+      ]
+   }
+},
+ {
+   "code": 304,
+   "nom_com": "Saint-Martin-de-la-Place",
+   "inscrits": 844,
+   "abstentions": 157,
+   "pour_abs": {
+      "ins": 18.6
+   },
+   "votants": 687,
+   "pour_vot": {
+      "ins": 81.4
+   },
+   "blanc_nul": 77,
+   "pour_bl_nuls": {
+      "ins": 7.11,
+      "vot": 11.21
+   },
+   "exprimes": 610,
+   "pour_exp": {
+      "ins": 72.27,
+      "vot": 88.79
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      302,
+      308
+   ],
+   "pour_voix": {
+      "ins": [
+         35.78,
+         36.49
+      ],
+      "exp": [
+         49.51,
+         50.49
+      ]
+   }
+},
+ {
+   "code": 306,
+   "nom_com": "Saint-Martin-du-Fouilloux",
+   "inscrits": 1281,
+   "abstentions": 196,
+   "pour_abs": {
+      "ins": 15.3
+   },
+   "votants": 1085,
+   "pour_vot": {
+      "ins": 84.7
+   },
+   "blanc_nul": 130,
+   "pour_bl_nuls": {
+      "ins": 8.12,
+      "vot": 11.99
+   },
+   "exprimes": 955,
+   "pour_exp": {
+      "ins": 74.55,
+      "vot": 88.02
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      715,
+      240
+   ],
+   "pour_voix": {
+      "ins": [
+         55.82,
+         18.74
+      ],
+      "exp": [
+         74.87,
+         25.13
+      ]
+   }
+},
+ {
+   "code": 307,
+   "nom_com": "Loire-Authion",
+   "inscrits": 12200,
+   "abstentions": 2284,
+   "pour_abs": {
+      "ins": 18.72
+   },
+   "votants": 9916,
+   "pour_vot": {
+      "ins": 81.28
+   },
+   "blanc_nul": 1198,
+   "pour_bl_nuls": {
+      "ins": 8.02,
+      "vot": 12.09
+   },
+   "exprimes": 8718,
+   "pour_exp": {
+      "ins": 71.46,
+      "vot": 87.92
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      6392,
+      2326
+   ],
+   "pour_voix": {
+      "ins": [
+         52.39,
+         19.07
+      ],
+      "exp": [
+         73.32,
+         26.68
+      ]
+   }
+},
+ {
+   "code": 308,
+   "nom_com": "Saint-Melaine-sur-Aubance",
+   "inscrits": 1664,
+   "abstentions": 260,
+   "pour_abs": {
+      "ins": 15.63
+   },
+   "votants": 1404,
+   "pour_vot": {
+      "ins": 84.38
+   },
+   "blanc_nul": 174,
+   "pour_bl_nuls": {
+      "ins": 8.65,
+      "vot": 12.4
+   },
+   "exprimes": 1230,
+   "pour_exp": {
+      "ins": 73.92,
+      "vot": 87.61
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      968,
+      262
+   ],
+   "pour_voix": {
+      "ins": [
+         58.17,
+         15.75
+      ],
+      "exp": [
+         78.7,
+         21.3
+      ]
+   }
+},
+ {
+   "code": 310,
+   "nom_com": "Saint-Paul-du-Bois",
+   "inscrits": 461,
+   "abstentions": 107,
+   "pour_abs": {
+      "ins": 23.21
+   },
+   "votants": 354,
+   "pour_vot": {
+      "ins": 76.79
+   },
+   "blanc_nul": 39,
+   "pour_bl_nuls": {
+      "ins": 5.42,
+      "vot": 11.02
+   },
+   "exprimes": 315,
+   "pour_exp": {
+      "ins": 68.33,
+      "vot": 88.98
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      214,
+      101
+   ],
+   "pour_voix": {
+      "ins": [
+         46.42,
+         21.91
+      ],
+      "exp": [
+         67.94,
+         32.06
+      ]
+   }
+},
+ {
+   "code": 311,
+   "nom_com": "Saint-Philbert-du-Peuple",
+   "inscrits": 884,
+   "abstentions": 140,
+   "pour_abs": {
+      "ins": 15.84
+   },
+   "votants": 744,
+   "pour_vot": {
+      "ins": 84.16
+   },
+   "blanc_nul": 83,
+   "pour_bl_nuls": {
+      "ins": 7.92,
+      "vot": 11.16
+   },
+   "exprimes": 661,
+   "pour_exp": {
+      "ins": 74.77,
+      "vot": 88.84
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      398,
+      263
+   ],
+   "pour_voix": {
+      "ins": [
+         45.02,
+         29.75
+      ],
+      "exp": [
+         60.21,
+         39.79
+      ]
+   }
+},
+ {
+   "code": 321,
+   "nom_com": "Saint-Sigismond",
+   "inscrits": 278,
+   "abstentions": 49,
+   "pour_abs": {
+      "ins": 17.63
+   },
+   "votants": 229,
+   "pour_vot": {
+      "ins": 82.37
+   },
+   "blanc_nul": 27,
+   "pour_bl_nuls": {
+      "ins": 7.55,
+      "vot": 11.8
+   },
+   "exprimes": 202,
+   "pour_exp": {
+      "ins": 72.66,
+      "vot": 88.21
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      129,
+      73
+   ],
+   "pour_voix": {
+      "ins": [
+         46.4,
+         26.26
+      ],
+      "exp": [
+         63.86,
+         36.14
+      ]
+   }
+},
+ {
+   "code": 323,
+   "nom_com": "Verrière-en-Anjou",
+   "inscrits": 5500,
+   "abstentions": 1007,
+   "pour_abs": {
+      "ins": 18.31
+   },
+   "votants": 4493,
+   "pour_vot": {
+      "ins": 81.69
+   },
+   "blanc_nul": 494,
+   "pour_bl_nuls": {
+      "ins": 6.85,
+      "vot": "11"
+   },
+   "exprimes": 3999,
+   "pour_exp": {
+      "ins": 72.71,
+      "vot": 89.01
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      3032,
+      967
+   ],
+   "pour_voix": {
+      "ins": [
+         55.13,
+         17.58
+      ],
+      "exp": [
+         75.82,
+         24.18
+      ]
+   }
+},
+ {
+   "code": 326,
+   "nom_com": "Sarrigné",
+   "inscrits": 667,
+   "abstentions": 87,
+   "pour_abs": {
+      "ins": 13.04
+   },
+   "votants": 580,
+   "pour_vot": {
+      "ins": 86.96
+   },
+   "blanc_nul": 60,
+   "pour_bl_nuls": {
+      "ins": 6.3,
+      "vot": 10.35
+   },
+   "exprimes": 520,
+   "pour_exp": {
+      "ins": 77.96,
+      "vot": 89.66
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      409,
+      111
+   ],
+   "pour_voix": {
+      "ins": [
+         61.32,
+         16.64
+      ],
+      "exp": [
+         78.65,
+         21.35
+      ]
+   }
+},
+ {
+   "code": 328,
+   "nom_com": "Saumur",
+   "inscrits": 18922,
+   "abstentions": 4609,
+   "pour_abs": {
+      "ins": 24.36
+   },
+   "votants": 14313,
+   "pour_vot": {
+      "ins": 75.64
+   },
+   "blanc_nul": 1712,
+   "pour_bl_nuls": {
+      "ins": 6.54,
+      "vot": 11.97
+   },
+   "exprimes": 12601,
+   "pour_exp": {
+      "ins": 66.59,
+      "vot": 88.04
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      8576,
+      4025
+   ],
+   "pour_voix": {
+      "ins": [
+         45.32,
+         21.27
+      ],
+      "exp": [
+         68.06,
+         31.94
+      ]
+   }
+},
+ {
+   "code": 329,
+   "nom_com": "Savennières",
+   "inscrits": 1018,
+   "abstentions": 187,
+   "pour_abs": {
+      "ins": 18.37
+   },
+   "votants": 831,
+   "pour_vot": {
+      "ins": 81.63
+   },
+   "blanc_nul": 110,
+   "pour_bl_nuls": {
+      "ins": 8.45,
+      "vot": 13.24
+   },
+   "exprimes": 721,
+   "pour_exp": {
+      "ins": 70.83,
+      "vot": 86.76
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      564,
+      157
+   ],
+   "pour_voix": {
+      "ins": [
+         55.4,
+         15.42
+      ],
+      "exp": [
+         78.22,
+         21.78
+      ]
+   }
+},
+ {
+   "code": 330,
+   "nom_com": "Sceaux-d'Anjou",
+   "inscrits": 708,
+   "abstentions": 108,
+   "pour_abs": {
+      "ins": 15.25
+   },
+   "votants": 600,
+   "pour_vot": {
+      "ins": 84.75
+   },
+   "blanc_nul": 73,
+   "pour_bl_nuls": {
+      "ins": 9.04,
+      "vot": 12.17
+   },
+   "exprimes": 527,
+   "pour_exp": {
+      "ins": 74.44,
+      "vot": 87.83
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      368,
+      159
+   ],
+   "pour_voix": {
+      "ins": [
+         51.98,
+         22.46
+      ],
+      "exp": [
+         69.83,
+         30.17
+      ]
+   }
+},
+ {
+   "code": 331,
+   "nom_com": "Segré-en-Anjou-Bleu",
+   "inscrits": 12399,
+   "abstentions": 2578,
+   "pour_abs": {
+      "ins": 20.79
+   },
+   "votants": 9821,
+   "pour_vot": {
+      "ins": 79.21
+   },
+   "blanc_nul": 1137,
+   "pour_bl_nuls": {
+      "ins": 6.82,
+      "vot": 11.58
+   },
+   "exprimes": 8684,
+   "pour_exp": {
+      "ins": 70.04,
+      "vot": 88.42
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      6082,
+      2602
+   ],
+   "pour_voix": {
+      "ins": [
+         49.05,
+         20.99
+      ],
+      "exp": [
+         70.04,
+         29.96
+      ]
+   }
+},
+ {
+   "code": 332,
+   "nom_com": "La Séguinière",
+   "inscrits": 3208,
+   "abstentions": 596,
+   "pour_abs": {
+      "ins": 18.58
+   },
+   "votants": 2612,
+   "pour_vot": {
+      "ins": 81.42
+   },
+   "blanc_nul": 297,
+   "pour_bl_nuls": {
+      "ins": 6.98,
+      "vot": 11.38
+   },
+   "exprimes": 2315,
+   "pour_exp": {
+      "ins": 72.16,
+      "vot": 88.63
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      1842,
+      473
+   ],
+   "pour_voix": {
+      "ins": [
+         57.42,
+         14.74
+      ],
+      "exp": [
+         79.57,
+         20.43
+      ]
+   }
+},
+ {
+   "code": 333,
+   "nom_com": "Seiches-sur-le-Loir",
+   "inscrits": 1996,
+   "abstentions": 401,
+   "pour_abs": {
+      "ins": 20.09
+   },
+   "votants": 1595,
+   "pour_vot": {
+      "ins": 79.91
+   },
+   "blanc_nul": 176,
+   "pour_bl_nuls": {
+      "ins": 6.71,
+      "vot": 11.04
+   },
+   "exprimes": 1419,
+   "pour_exp": {
+      "ins": 71.09,
+      "vot": 88.97
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      932,
+      487
+   ],
+   "pour_voix": {
+      "ins": [
+         46.69,
+         24.4
+      ],
+      "exp": [
+         65.68,
+         34.32
+      ]
+   }
+},
+ {
+   "code": 334,
+   "nom_com": "Sermaise",
+   "inscrits": 236,
+   "abstentions": 60,
+   "pour_abs": {
+      "ins": 25.42
+   },
+   "votants": 176,
+   "pour_vot": {
+      "ins": 74.58
+   },
+   "blanc_nul": 20,
+   "pour_bl_nuls": {
+      "ins": 5.51,
+      "vot": 11.37
+   },
+   "exprimes": 156,
+   "pour_exp": {
+      "ins": 66.1,
+      "vot": 88.64
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      87,
+      69
+   ],
+   "pour_voix": {
+      "ins": [
+         36.86,
+         29.24
+      ],
+      "exp": [
+         55.77,
+         44.23
+      ]
+   }
+},
+ {
+   "code": 336,
+   "nom_com": "Somloire",
+   "inscrits": 643,
+   "abstentions": 122,
+   "pour_abs": {
+      "ins": 18.97
+   },
+   "votants": 521,
+   "pour_vot": {
+      "ins": 81.03
+   },
+   "blanc_nul": 35,
+   "pour_bl_nuls": {
+      "ins": 3.73,
+      "vot": 6.72
+   },
+   "exprimes": 486,
+   "pour_exp": {
+      "ins": 75.58,
+      "vot": 93.28
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      315,
+      171
+   ],
+   "pour_voix": {
+      "ins": [
+         48.99,
+         26.59
+      ],
+      "exp": [
+         64.81,
+         35.19
+      ]
+   }
+},
+ {
+   "code": 337,
+   "nom_com": "Soucelles",
+   "inscrits": 2053,
+   "abstentions": 440,
+   "pour_abs": {
+      "ins": 21.43
+   },
+   "votants": 1613,
+   "pour_vot": {
+      "ins": 78.57
+   },
+   "blanc_nul": 185,
+   "pour_bl_nuls": {
+      "ins": 7.5,
+      "vot": 11.47
+   },
+   "exprimes": 1428,
+   "pour_exp": {
+      "ins": 69.56,
+      "vot": 88.53
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      1025,
+      403
+   ],
+   "pour_voix": {
+      "ins": [
+         49.93,
+         19.63
+      ],
+      "exp": [
+         71.78,
+         28.22
+      ]
+   }
+},
+ {
+   "code": 338,
+   "nom_com": "Soulaines-sur-Aubance",
+   "inscrits": 1086,
+   "abstentions": 182,
+   "pour_abs": {
+      "ins": 16.76
+   },
+   "votants": 904,
+   "pour_vot": {
+      "ins": 83.24
+   },
+   "blanc_nul": 125,
+   "pour_bl_nuls": {
+      "ins": 8.93,
+      "vot": 13.83
+   },
+   "exprimes": 779,
+   "pour_exp": {
+      "ins": 71.73,
+      "vot": 86.17
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      615,
+      164
+   ],
+   "pour_voix": {
+      "ins": [
+         56.63,
+         15.1
+      ],
+      "exp": [
+         78.95,
+         21.05
+      ]
+   }
+},
+ {
+   "code": 339,
+   "nom_com": "Soulaire-et-Bourg",
+   "inscrits": 1121,
+   "abstentions": 212,
+   "pour_abs": {
+      "ins": 18.91
+   },
+   "votants": 909,
+   "pour_vot": {
+      "ins": 81.09
+   },
+   "blanc_nul": 102,
+   "pour_bl_nuls": {
+      "ins": 7.67,
+      "vot": 11.23
+   },
+   "exprimes": 807,
+   "pour_exp": {
+      "ins": 71.99,
+      "vot": 88.78
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      566,
+      241
+   ],
+   "pour_voix": {
+      "ins": [
+         50.49,
+         21.5
+      ],
+      "exp": [
+         70.14,
+         29.86
+      ]
+   }
+},
+ {
+   "code": 341,
+   "nom_com": "Souzay-Champigny",
+   "inscrits": 520,
+   "abstentions": 104,
+   "pour_abs": {
+      "ins": "20"
+   },
+   "votants": 416,
+   "pour_vot": {
+      "ins": "80"
+   },
+   "blanc_nul": 47,
+   "pour_bl_nuls": {
+      "ins": 7.69,
+      "vot": 11.3
+   },
+   "exprimes": 369,
+   "pour_exp": {
+      "ins": 70.96,
+      "vot": 88.7
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      226,
+      143
+   ],
+   "pour_voix": {
+      "ins": [
+         43.46,
+         27.5
+      ],
+      "exp": [
+         61.25,
+         38.75
+      ]
+   }
+},
+ {
+   "code": 343,
+   "nom_com": "La Tessoualle",
+   "inscrits": 2530,
+   "abstentions": 519,
+   "pour_abs": {
+      "ins": 20.51
+   },
+   "votants": 2011,
+   "pour_vot": {
+      "ins": 79.49
+   },
+   "blanc_nul": 237,
+   "pour_bl_nuls": {
+      "ins": 6.36,
+      "vot": 11.79
+   },
+   "exprimes": 1774,
+   "pour_exp": {
+      "ins": 70.12,
+      "vot": 88.21
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      1452,
+      322
+   ],
+   "pour_voix": {
+      "ins": [
+         57.39,
+         12.73
+      ],
+      "exp": [
+         81.85,
+         18.15
+      ]
+   }
+},
+ {
+   "code": 344,
+   "nom_com": "Thorigné-d'Anjou",
+   "inscrits": 811,
+   "abstentions": 147,
+   "pour_abs": {
+      "ins": 18.13
+   },
+   "votants": 664,
+   "pour_vot": {
+      "ins": 81.87
+   },
+   "blanc_nul": 64,
+   "pour_bl_nuls": {
+      "ins": 6.29,
+      "vot": 9.64
+   },
+   "exprimes": 600,
+   "pour_exp": {
+      "ins": 73.98,
+      "vot": 90.36
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      414,
+      186
+   ],
+   "pour_voix": {
+      "ins": [
+         51.05,
+         22.93
+      ],
+      "exp": [
+         "69",
+         "31"
+      ]
+   }
+},
+ {
+   "code": 345,
+   "nom_com": "Bellevigne-en-Layon",
+   "inscrits": 4389,
+   "abstentions": 877,
+   "pour_abs": {
+      "ins": 19.98
+   },
+   "votants": 3512,
+   "pour_vot": {
+      "ins": 80.02
+   },
+   "blanc_nul": 435,
+   "pour_bl_nuls": {
+      "ins": 8.09,
+      "vot": 12.39
+   },
+   "exprimes": 3077,
+   "pour_exp": {
+      "ins": 70.11,
+      "vot": 87.61
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      2164,
+      913
+   ],
+   "pour_voix": {
+      "ins": [
+         49.31,
+         20.8
+      ],
+      "exp": [
+         70.33,
+         29.67
+      ]
+   }
+},
+ {
+   "code": 347,
+   "nom_com": "Tiercé",
+   "inscrits": 3332,
+   "abstentions": 689,
+   "pour_abs": {
+      "ins": 20.68
+   },
+   "votants": 2643,
+   "pour_vot": {
+      "ins": 79.32
+   },
+   "blanc_nul": 302,
+   "pour_bl_nuls": {
+      "ins": 7.02,
+      "vot": 11.43
+   },
+   "exprimes": 2341,
+   "pour_exp": {
+      "ins": 70.26,
+      "vot": 88.57
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      1614,
+      727
+   ],
+   "pour_voix": {
+      "ins": [
+         48.44,
+         21.82
+      ],
+      "exp": [
+         68.94,
+         31.06
+      ]
+   }
+},
+ {
+   "code": 352,
+   "nom_com": "Toutlemonde",
+   "inscrits": 956,
+   "abstentions": 153,
+   "pour_abs": {
+      "ins": "16"
+   },
+   "votants": 803,
+   "pour_vot": {
+      "ins": "84"
+   },
+   "blanc_nul": 101,
+   "pour_bl_nuls": {
+      "ins": 8.05,
+      "vot": 12.58
+   },
+   "exprimes": 702,
+   "pour_exp": {
+      "ins": 73.43,
+      "vot": 87.42
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      509,
+      193
+   ],
+   "pour_voix": {
+      "ins": [
+         53.24,
+         20.19
+      ],
+      "exp": [
+         72.51,
+         27.49
+      ]
+   }
+},
+ {
+   "code": 353,
+   "nom_com": "Trélazé",
+   "inscrits": 9424,
+   "abstentions": 2260,
+   "pour_abs": {
+      "ins": 23.98
+   },
+   "votants": 7164,
+   "pour_vot": {
+      "ins": 76.02
+   },
+   "blanc_nul": 853,
+   "pour_bl_nuls": {
+      "ins": 6.96,
+      "vot": 11.91
+   },
+   "exprimes": 6311,
+   "pour_exp": {
+      "ins": 66.97,
+      "vot": 88.09
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      4806,
+      1505
+   ],
+   "pour_voix": {
+      "ins": [
+         "51",
+         15.97
+      ],
+      "exp": [
+         76.15,
+         23.85
+      ]
+   }
+},
+ {
+   "code": 355,
+   "nom_com": "Trémentines",
+   "inscrits": 2229,
+   "abstentions": 453,
+   "pour_abs": {
+      "ins": 20.32
+   },
+   "votants": 1776,
+   "pour_vot": {
+      "ins": 79.68
+   },
+   "blanc_nul": 219,
+   "pour_bl_nuls": {
+      "ins": 7.18,
+      "vot": 12.34
+   },
+   "exprimes": 1557,
+   "pour_exp": {
+      "ins": 69.85,
+      "vot": 87.67
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      1152,
+      405
+   ],
+   "pour_voix": {
+      "ins": [
+         51.68,
+         18.17
+      ],
+      "exp": [
+         73.99,
+         26.01
+      ]
+   }
+},
+ {
+   "code": 358,
+   "nom_com": "Turquant",
+   "inscrits": 428,
+   "abstentions": 99,
+   "pour_abs": {
+      "ins": 23.13
+   },
+   "votants": 329,
+   "pour_vot": {
+      "ins": 76.87
+   },
+   "blanc_nul": 44,
+   "pour_bl_nuls": {
+      "ins": 8.88,
+      "vot": 13.38
+   },
+   "exprimes": 285,
+   "pour_exp": {
+      "ins": 66.59,
+      "vot": 86.63
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      173,
+      112
+   ],
+   "pour_voix": {
+      "ins": [
+         40.42,
+         26.17
+      ],
+      "exp": [
+         60.7,
+         39.3
+      ]
+   }
+},
+ {
+   "code": 359,
+   "nom_com": "Les Ulmes",
+   "inscrits": 405,
+   "abstentions": 56,
+   "pour_abs": {
+      "ins": 13.83
+   },
+   "votants": 349,
+   "pour_vot": {
+      "ins": 86.17
+   },
+   "blanc_nul": 31,
+   "pour_bl_nuls": {
+      "ins": 6.17,
+      "vot": 8.89
+   },
+   "exprimes": 318,
+   "pour_exp": {
+      "ins": 78.52,
+      "vot": 91.12
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      162,
+      156
+   ],
+   "pour_voix": {
+      "ins": [
+         "40",
+         38.52
+      ],
+      "exp": [
+         50.94,
+         49.06
+      ]
+   }
+},
+ {
+   "code": 361,
+   "nom_com": "Varennes-sur-Loire",
+   "inscrits": 1381,
+   "abstentions": 298,
+   "pour_abs": {
+      "ins": 21.58
+   },
+   "votants": 1083,
+   "pour_vot": {
+      "ins": 78.42
+   },
+   "blanc_nul": 109,
+   "pour_bl_nuls": {
+      "ins": 5.87,
+      "vot": 10.07
+   },
+   "exprimes": 974,
+   "pour_exp": {
+      "ins": 70.53,
+      "vot": 89.94
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      530,
+      444
+   ],
+   "pour_voix": {
+      "ins": [
+         38.38,
+         32.15
+      ],
+      "exp": [
+         54.41,
+         45.59
+      ]
+   }
+},
+ {
+   "code": 362,
+   "nom_com": "Varrains",
+   "inscrits": 932,
+   "abstentions": 178,
+   "pour_abs": {
+      "ins": 19.1
+   },
+   "votants": 754,
+   "pour_vot": {
+      "ins": 80.9
+   },
+   "blanc_nul": 93,
+   "pour_bl_nuls": {
+      "ins": 8.05,
+      "vot": 12.34
+   },
+   "exprimes": 661,
+   "pour_exp": {
+      "ins": 70.92,
+      "vot": 87.67
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      476,
+      185
+   ],
+   "pour_voix": {
+      "ins": [
+         51.07,
+         19.85
+      ],
+      "exp": [
+         72.01,
+         27.99
+      ]
+   }
+},
+ {
+   "code": 364,
+   "nom_com": "Vaudelnay",
+   "inscrits": 845,
+   "abstentions": 161,
+   "pour_abs": {
+      "ins": 19.05
+   },
+   "votants": 684,
+   "pour_vot": {
+      "ins": 80.95
+   },
+   "blanc_nul": 58,
+   "pour_bl_nuls": {
+      "ins": 5.44,
+      "vot": 8.48
+   },
+   "exprimes": 626,
+   "pour_exp": {
+      "ins": 74.08,
+      "vot": 91.52
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      315,
+      311
+   ],
+   "pour_voix": {
+      "ins": [
+         37.28,
+         36.8
+      ],
+      "exp": [
+         50.32,
+         49.68
+      ]
+   }
+},
+ {
+   "code": 367,
+   "nom_com": "Erdre-en-Anjou",
+   "inscrits": 3782,
+   "abstentions": 720,
+   "pour_abs": {
+      "ins": 19.04
+   },
+   "votants": 3062,
+   "pour_vot": {
+      "ins": 80.96
+   },
+   "blanc_nul": 341,
+   "pour_bl_nuls": {
+      "ins": 7.17,
+      "vot": 11.14
+   },
+   "exprimes": 2721,
+   "pour_exp": {
+      "ins": 71.95,
+      "vot": 88.86
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      1862,
+      859
+   ],
+   "pour_voix": {
+      "ins": [
+         49.23,
+         22.71
+      ],
+      "exp": [
+         68.43,
+         31.57
+      ]
+   }
+},
+ {
+   "code": 368,
+   "nom_com": "Vernantes",
+   "inscrits": 1211,
+   "abstentions": 285,
+   "pour_abs": {
+      "ins": 23.53
+   },
+   "votants": 926,
+   "pour_vot": {
+      "ins": 76.47
+   },
+   "blanc_nul": 145,
+   "pour_bl_nuls": {
+      "ins": 9.99,
+      "vot": 15.66
+   },
+   "exprimes": 781,
+   "pour_exp": {
+      "ins": 64.49,
+      "vot": 84.34
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      431,
+      350
+   ],
+   "pour_voix": {
+      "ins": [
+         35.59,
+         28.9
+      ],
+      "exp": [
+         55.19,
+         44.81
+      ]
+   }
+},
+ {
+   "code": 369,
+   "nom_com": "Vernoil-le-Fourrier",
+   "inscrits": 877,
+   "abstentions": 208,
+   "pour_abs": {
+      "ins": 23.72
+   },
+   "votants": 669,
+   "pour_vot": {
+      "ins": 76.28
+   },
+   "blanc_nul": 73,
+   "pour_bl_nuls": {
+      "ins": 6.73,
+      "vot": 10.92
+   },
+   "exprimes": 596,
+   "pour_exp": {
+      "ins": 67.96,
+      "vot": 89.09
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      335,
+      261
+   ],
+   "pour_voix": {
+      "ins": [
+         38.2,
+         29.76
+      ],
+      "exp": [
+         56.21,
+         43.79
+      ]
+   }
+},
+ {
+   "code": 370,
+   "nom_com": "Verrie",
+   "inscrits": 374,
+   "abstentions": 72,
+   "pour_abs": {
+      "ins": 19.25
+   },
+   "votants": 302,
+   "pour_vot": {
+      "ins": 80.75
+   },
+   "blanc_nul": 42,
+   "pour_bl_nuls": {
+      "ins": 8.29,
+      "vot": 13.91
+   },
+   "exprimes": 260,
+   "pour_exp": {
+      "ins": 69.52,
+      "vot": 86.09
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      131,
+      129
+   ],
+   "pour_voix": {
+      "ins": [
+         35.03,
+         34.49
+      ],
+      "exp": [
+         50.38,
+         49.62
+      ]
+   }
+},
+ {
+   "code": 371,
+   "nom_com": "Vezins",
+   "inscrits": 1235,
+   "abstentions": 203,
+   "pour_abs": {
+      "ins": 16.44
+   },
+   "votants": 1032,
+   "pour_vot": {
+      "ins": 83.56
+   },
+   "blanc_nul": 133,
+   "pour_bl_nuls": {
+      "ins": 8.91,
+      "vot": 12.89
+   },
+   "exprimes": 899,
+   "pour_exp": {
+      "ins": 72.79,
+      "vot": 87.11
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      586,
+      313
+   ],
+   "pour_voix": {
+      "ins": [
+         47.45,
+         25.34
+      ],
+      "exp": [
+         65.18,
+         34.82
+      ]
+   }
+},
+ {
+   "code": 373,
+   "nom_com": "Lys-Haut-Layon",
+   "inscrits": 5592,
+   "abstentions": 1091,
+   "pour_abs": {
+      "ins": 19.51
+   },
+   "votants": 4501,
+   "pour_vot": {
+      "ins": 80.49
+   },
+   "blanc_nul": 534,
+   "pour_bl_nuls": {
+      "ins": 7.01,
+      "vot": 11.87
+   },
+   "exprimes": 3967,
+   "pour_exp": {
+      "ins": 70.94,
+      "vot": 88.14
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      2633,
+      1334
+   ],
+   "pour_voix": {
+      "ins": [
+         47.09,
+         23.86
+      ],
+      "exp": [
+         66.37,
+         33.63
+      ]
+   }
+},
+ {
+   "code": 374,
+   "nom_com": "Villebernier",
+   "inscrits": 1130,
+   "abstentions": 263,
+   "pour_abs": {
+      "ins": 23.27
+   },
+   "votants": 867,
+   "pour_vot": {
+      "ins": 76.73
+   },
+   "blanc_nul": 80,
+   "pour_bl_nuls": {
+      "ins": 5.22,
+      "vot": 9.23
+   },
+   "exprimes": 787,
+   "pour_exp": {
+      "ins": 69.65,
+      "vot": 90.77
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      444,
+      343
+   ],
+   "pour_voix": {
+      "ins": [
+         39.29,
+         30.35
+      ],
+      "exp": [
+         56.42,
+         43.58
+      ]
+   }
+},
+ {
+   "code": 377,
+   "nom_com": "Villevêque",
+   "inscrits": 2235,
+   "abstentions": 400,
+   "pour_abs": {
+      "ins": 17.9
+   },
+   "votants": 1835,
+   "pour_vot": {
+      "ins": 82.1
+   },
+   "blanc_nul": 209,
+   "pour_bl_nuls": {
+      "ins": 2.15,
+      "vot": 11.39
+   },
+   "exprimes": 1626,
+   "pour_exp": {
+      "ins": 72.75,
+      "vot": 88.61
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      1224,
+      402
+   ],
+   "pour_voix": {
+      "ins": [
+         54.77,
+         17.99
+      ],
+      "exp": [
+         75.28,
+         24.72
+      ]
+   }
+},
+ {
+   "code": 378,
+   "nom_com": "Vivy",
+   "inscrits": 1781,
+   "abstentions": 391,
+   "pour_abs": {
+      "ins": 21.95
+   },
+   "votants": 1390,
+   "pour_vot": {
+      "ins": 78.05
+   },
+   "blanc_nul": 137,
+   "pour_bl_nuls": {
+      "ins": 6.23,
+      "vot": 9.86
+   },
+   "exprimes": 1253,
+   "pour_exp": {
+      "ins": 70.35,
+      "vot": 90.14
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      674,
+      579
+   ],
+   "pour_voix": {
+      "ins": [
+         37.84,
+         32.51
+      ],
+      "exp": [
+         53.79,
+         46.21
+      ]
+   }
+},
+ {
+   "code": 381,
+   "nom_com": "Yzernay",
+   "inscrits": 1367,
+   "abstentions": 262,
+   "pour_abs": {
+      "ins": 19.17
+   },
+   "votants": 1105,
+   "pour_vot": {
+      "ins": 80.83
+   },
+   "blanc_nul": 120,
+   "pour_bl_nuls": {
+      "ins": 7.46,
+      "vot": 10.86
+   },
+   "exprimes": 985,
+   "pour_exp": {
+      "ins": 72.06,
+      "vot": 89.14
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "MACRON",
+      "LE PEN"
+   ],
+   "prenom": [
+      "Emmanuel",
+      "Marine"
+   ],
+   "voix": [
+      706,
+      279
+   ],
+   "pour_voix": {
+      "ins": [
+         51.65,
+         20.41
+      ],
+      "exp": [
+         71.68,
+         28.32
+      ]
+   }
+}
+]

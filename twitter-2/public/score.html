@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>score</title>
+    <link rel="stylesheet" href="css/score.css">
+    <script src="./js/score.js" defer></script>
+</head>
+
+<body>
+    <div id="container">
+        <video style="object-fit: cover;visibility: hidden;" autoplay muted>
+
+            <source src="./img/anim-confetti-quiz.mp4">
+        </video>
+        <div id="content">
+            <img src="img/home.svg" id="exit">
+
+            <section id="congrats">
+                <div id="sentence">
+                    <p style="color:#1A367A" id="success">Bravo ! <img src="./img/ligne.png"
+                            style="margin-bottom: 1.3vh;margin-right: -20%;height: 0.8vh;width:75%;"></p>
+                    <p style="color:#1A367A" id="fail"><img src="./img/ligne.png"
+                            style="margin-bottom: 1.5vh;margin-left: -20%;height: 0.8vh;width:55%;">&nbsp;Retentez votre
+                        chance
+                        !</p>
+                </div>
+                <br>
+                <p style="font-size: 6vh;">Votre score <br>est de
+                    <span id="score"></span>/3
+                </p>
+            </section>
+            <section id="buttons">
+
+                <button class="button" id="new-quiz">
+                    Faire un nouveau quiz
+                </button>
+                <button class="button" id="go-exploration">
+                    Passer au mode exploration
+                </button>
+
+            </section>
+        </div>
+    </div>
+
+</body>
+
+</html>

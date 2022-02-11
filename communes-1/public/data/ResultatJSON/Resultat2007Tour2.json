@@ -1,0 +1,9116 @@
+[
+ {
+   "code": 2,
+   "nom_com": "Allonnes",
+   "inscrits": 1980,
+   "abstentions": 303,
+   "pour_abs": {
+      "ins": 15.3
+   },
+   "votants": 1677,
+   "pour_vot": {
+      "ins": 84.7
+   },
+   "blanc_nul": 84,
+   "pour_bl_nuls": {
+      "ins": 4.24,
+      "vot": 5.01
+   },
+   "exprimes": 1593,
+   "pour_exp": {
+      "ins": 80.45,
+      "vot": 94.99
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      974,
+      619
+   ],
+   "pour_voix": {
+      "ins": [
+         49.19,
+         31.26
+      ],
+      "exp": [
+         61.14,
+         38.86
+      ]
+   }
+},
+ {
+   "code": 3,
+   "nom_com": "Tuffalun",
+   "inscrits": 1094,
+   "abstentions": 147,
+   "pour_abs": {
+      "ins": 13.44
+   },
+   "votants": 947,
+   "pour_vot": {
+      "ins": 86.56
+   },
+   "blanc_nul": 76,
+   "pour_bl_nuls": {
+      "ins": 6.95,
+      "vot": 8.03
+   },
+   "exprimes": 871,
+   "pour_exp": {
+      "ins": 79.62,
+      "vot": 91.97
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      525,
+      346
+   ],
+   "pour_voix": {
+      "ins": [
+         47.99,
+         31.63
+      ],
+      "exp": [
+         60.28,
+         39.72
+      ]
+   }
+},
+ {
+   "code": 7,
+   "nom_com": "Angers",
+   "inscrits": 87561,
+   "abstentions": 13585,
+   "pour_abs": {
+      "ins": 15.51
+   },
+   "votants": 73976,
+   "pour_vot": {
+      "ins": 84.49
+   },
+   "blanc_nul": 3006,
+   "pour_bl_nuls": {
+      "ins": 3.43,
+      "vot": 4.06
+   },
+   "exprimes": 70970,
+   "pour_exp": {
+      "ins": 81.05,
+      "vot": 95.94
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      33540,
+      37430
+   ],
+   "pour_voix": {
+      "ins": [
+         38.3,
+         42.75
+      ],
+      "exp": [
+         47.26,
+         52.74
+      ]
+   }
+},
+ {
+   "code": 8,
+   "nom_com": "Angrie",
+   "inscrits": 609,
+   "abstentions": 78,
+   "pour_abs": {
+      "ins": 12.81
+   },
+   "votants": 531,
+   "pour_vot": {
+      "ins": 87.19
+   },
+   "blanc_nul": 14,
+   "pour_bl_nuls": {
+      "ins": 2.3,
+      "vot": 2.64
+   },
+   "exprimes": 517,
+   "pour_exp": {
+      "ins": 84.89,
+      "vot": 97.36
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      310,
+      207
+   ],
+   "pour_voix": {
+      "ins": [
+         50.9,
+         33.99
+      ],
+      "exp": [
+         59.96,
+         40.04
+      ]
+   }
+},
+ {
+   "code": 9,
+   "nom_com": "Antoigné",
+   "inscrits": 325,
+   "abstentions": 56,
+   "pour_abs": {
+      "ins": 17.23
+   },
+   "votants": 269,
+   "pour_vot": {
+      "ins": 82.77
+   },
+   "blanc_nul": 8,
+   "pour_bl_nuls": {
+      "ins": 2.46,
+      "vot": 2.97
+   },
+   "exprimes": 261,
+   "pour_exp": {
+      "ins": 80.31,
+      "vot": 97.03
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      147,
+      114
+   ],
+   "pour_voix": {
+      "ins": [
+         45.23,
+         35.08
+      ],
+      "exp": [
+         56.32,
+         43.68
+      ]
+   }
+},
+ {
+   "code": 10,
+   "nom_com": "Armaillé",
+   "inscrits": 211,
+   "abstentions": 23,
+   "pour_abs": {
+      "ins": 10.9
+   },
+   "votants": 188,
+   "pour_vot": {
+      "ins": 89.1
+   },
+   "blanc_nul": 2,
+   "pour_bl_nuls": {
+      "ins": 0.95,
+      "vot": 1.06
+   },
+   "exprimes": 186,
+   "pour_exp": {
+      "ins": 88.15,
+      "vot": 98.94
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      132,
+      54
+   ],
+   "pour_voix": {
+      "ins": [
+         62.56,
+         25.59
+      ],
+      "exp": [
+         70.97,
+         29.03
+      ]
+   }
+},
+ {
+   "code": 11,
+   "nom_com": "Artannes-sur-Thouet",
+   "inscrits": 302,
+   "abstentions": 35,
+   "pour_abs": {
+      "ins": 11.59
+   },
+   "votants": 267,
+   "pour_vot": {
+      "ins": 88.41
+   },
+   "blanc_nul": 15,
+   "pour_bl_nuls": {
+      "ins": 4.97,
+      "vot": 5.62
+   },
+   "exprimes": 252,
+   "pour_exp": {
+      "ins": 83.44,
+      "vot": 94.38
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      151,
+      101
+   ],
+   "pour_voix": {
+      "ins": [
+         50,
+         33.44
+      ],
+      "exp": [
+         59.92,
+         40.08
+      ]
+   }
+},
+ {
+   "code": 12,
+   "nom_com": "Aubigné-sur-Layon",
+   "inscrits": 262,
+   "abstentions": 20,
+   "pour_abs": {
+      "ins": 7.63
+   },
+   "votants": 242,
+   "pour_vot": {
+      "ins": 92.37
+   },
+   "blanc_nul": 18,
+   "pour_bl_nuls": {
+      "ins": 6.87,
+      "vot": 7.44
+   },
+   "exprimes": 224,
+   "pour_exp": {
+      "ins": 85.5,
+      "vot": 92.56
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      132,
+      92
+   ],
+   "pour_voix": {
+      "ins": [
+         50.38,
+         35.11
+      ],
+      "exp": [
+         58.93,
+         41.07
+      ]
+   }
+},
+ {
+   "code": 15,
+   "nom_com": "Avrillé",
+   "inscrits": 9901,
+   "abstentions": 1253,
+   "pour_abs": {
+      "ins": 12.66
+   },
+   "votants": 8648,
+   "pour_vot": {
+      "ins": 87.34
+   },
+   "blanc_nul": 394,
+   "pour_bl_nuls": {
+      "ins": 3.98,
+      "vot": 4.56
+   },
+   "exprimes": 8254,
+   "pour_exp": {
+      "ins": 83.37,
+      "vot": 95.44
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      4465,
+      3789
+   ],
+   "pour_voix": {
+      "ins": [
+         45.1,
+         38.27
+      ],
+      "exp": [
+         54.09,
+         45.91
+      ]
+   }
+},
+ {
+   "code": 17,
+   "nom_com": "Baracé",
+   "inscrits": 296,
+   "abstentions": 39,
+   "pour_abs": {
+      "ins": 13.18
+   },
+   "votants": 257,
+   "pour_vot": {
+      "ins": 86.82
+   },
+   "blanc_nul": 13,
+   "pour_bl_nuls": {
+      "ins": 4.39,
+      "vot": 5.06
+   },
+   "exprimes": 244,
+   "pour_exp": {
+      "ins": 82.43,
+      "vot": 94.94
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      135,
+      109
+   ],
+   "pour_voix": {
+      "ins": [
+         45.61,
+         36.82
+      ],
+      "exp": [
+         55.33,
+         44.67
+      ]
+   }
+},
+ {
+   "code": 18,
+   "nom_com": "Baugé-en-Anjou",
+   "inscrits": 8284,
+   "abstentions": 1133,
+   "pour_abs": {
+      "ins": 13.68
+   },
+   "votants": 7151,
+   "pour_vot": {
+      "ins": 86.32
+   },
+   "blanc_nul": 328,
+   "pour_bl_nuls": {
+      "ins": 3.96,
+      "vot": 4.59
+   },
+   "exprimes": 6823,
+   "pour_exp": {
+      "ins": 82.36,
+      "vot": 95.41
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      3767,
+      3056
+   ],
+   "pour_voix": {
+      "ins": [
+         45.47,
+         36.89
+      ],
+      "exp": [
+         55.21,
+         44.79
+      ]
+   }
+},
+ {
+   "code": 20,
+   "nom_com": "Beaucouzé",
+   "inscrits": 3872,
+   "abstentions": 374,
+   "pour_abs": {
+      "ins": 9.66
+   },
+   "votants": 3498,
+   "pour_vot": {
+      "ins": 90.34
+   },
+   "blanc_nul": 161,
+   "pour_bl_nuls": {
+      "ins": 4.16,
+      "vot": 4.6
+   },
+   "exprimes": 3337,
+   "pour_exp": {
+      "ins": 86.18,
+      "vot": 95.4
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      1557,
+      1780
+   ],
+   "pour_voix": {
+      "ins": [
+         40.21,
+         45.97
+      ],
+      "exp": [
+         46.66,
+         53.34
+      ]
+   }
+},
+ {
+   "code": 21,
+   "nom_com": "Beaufort-en-Anjou",
+   "inscrits": 4565,
+   "abstentions": 691,
+   "pour_abs": {
+      "ins": 15.14
+   },
+   "votants": 3874,
+   "pour_vot": {
+      "ins": 84.86
+   },
+   "blanc_nul": 200,
+   "pour_bl_nuls": {
+      "ins": 4.38,
+      "vot": 5.16
+   },
+   "exprimes": 3674,
+   "pour_exp": {
+      "ins": 80.48,
+      "vot": 94.84
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      1967,
+      1707
+   ],
+   "pour_voix": {
+      "ins": [
+         43.09,
+         37.39
+      ],
+      "exp": [
+         53.54,
+         46.46
+      ]
+   }
+},
+ {
+   "code": 22,
+   "nom_com": "Beaulieu-sur-Layon",
+   "inscrits": 988,
+   "abstentions": 81,
+   "pour_abs": {
+      "ins": 8.2
+   },
+   "votants": 907,
+   "pour_vot": {
+      "ins": 91.8
+   },
+   "blanc_nul": 42,
+   "pour_bl_nuls": {
+      "ins": 4.25,
+      "vot": 4.63
+   },
+   "exprimes": 865,
+   "pour_exp": {
+      "ins": 87.55,
+      "vot": 95.37
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      512,
+      353
+   ],
+   "pour_voix": {
+      "ins": [
+         51.82,
+         35.73
+      ],
+      "exp": [
+         59.19,
+         40.81
+      ]
+   }
+},
+ {
+   "code": 23,
+   "nom_com": "Beaupréau-en-Mauges",
+   "inscrits": 16289,
+   "abstentions": 2038,
+   "pour_abs": {
+      "ins": 12.51
+   },
+   "votants": 14251,
+   "pour_vot": {
+      "ins": 87.49
+   },
+   "blanc_nul": 878,
+   "pour_bl_nuls": {
+      "ins": 5.39,
+      "vot": 6.16
+   },
+   "exprimes": 13373,
+   "pour_exp": {
+      "ins": 82.1,
+      "vot": 93.84
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      8268,
+      5105
+   ],
+   "pour_voix": {
+      "ins": [
+         50.76,
+         31.34
+      ],
+      "exp": [
+         61.83,
+         38.17
+      ]
+   }
+},
+ {
+   "code": 26,
+   "nom_com": "Bécon-les-Granits",
+   "inscrits": 1920,
+   "abstentions": 205,
+   "pour_abs": {
+      "ins": 10.68
+   },
+   "votants": 1715,
+   "pour_vot": {
+      "ins": 89.32
+   },
+   "blanc_nul": 77,
+   "pour_bl_nuls": {
+      "ins": 4.01,
+      "vot": 4.49
+   },
+   "exprimes": 1638,
+   "pour_exp": {
+      "ins": 85.31,
+      "vot": 95.51
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      880,
+      758
+   ],
+   "pour_voix": {
+      "ins": [
+         45.83,
+         39.48
+      ],
+      "exp": [
+         53.72,
+         46.28
+      ]
+   }
+},
+ {
+   "code": 27,
+   "nom_com": "Bégrolles-en-Mauges",
+   "inscrits": 1291,
+   "abstentions": 142,
+   "pour_abs": {
+      "ins": 11
+   },
+   "votants": 1149,
+   "pour_vot": {
+      "ins": 89
+   },
+   "blanc_nul": 71,
+   "pour_bl_nuls": {
+      "ins": 5.5,
+      "vot": 6.18
+   },
+   "exprimes": 1078,
+   "pour_exp": {
+      "ins": 83.5,
+      "vot": 93.82
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      689,
+      389
+   ],
+   "pour_voix": {
+      "ins": [
+         53.37,
+         30.13
+      ],
+      "exp": [
+         63.91,
+         36.09
+      ]
+   }
+},
+ {
+   "code": 28,
+   "nom_com": "Béhuard",
+   "inscrits": 125,
+   "abstentions": 17,
+   "pour_abs": {
+      "ins": 13.6
+   },
+   "votants": 108,
+   "pour_vot": {
+      "ins": 86.4
+   },
+   "blanc_nul": 3,
+   "pour_bl_nuls": {
+      "ins": 2.4,
+      "vot": 2.78
+   },
+   "exprimes": 105,
+   "pour_exp": {
+      "ins": 84,
+      "vot": 97.22
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      48,
+      57
+   ],
+   "pour_voix": {
+      "ins": [
+         38.4,
+         45.6
+      ],
+      "exp": [
+         45.71,
+         54.29
+      ]
+   }
+},
+ {
+   "code": 29,
+   "nom_com": "Blaison-Saint-Sulpice",
+   "inscrits": 970,
+   "abstentions": 79,
+   "pour_abs": {
+      "ins": 8.14
+   },
+   "votants": 891,
+   "pour_vot": {
+      "ins": 91.86
+   },
+   "blanc_nul": 39,
+   "pour_bl_nuls": {
+      "ins": 4.02,
+      "vot": 4.38
+   },
+   "exprimes": 852,
+   "pour_exp": {
+      "ins": 87.84,
+      "vot": 95.62
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      442,
+      410
+   ],
+   "pour_voix": {
+      "ins": [
+         45.57,
+         42.27
+      ],
+      "exp": [
+         51.88,
+         48.12
+      ]
+   }
+},
+ {
+   "code": 30,
+   "nom_com": "Blou",
+   "inscrits": 654,
+   "abstentions": 70,
+   "pour_abs": {
+      "ins": 10.7
+   },
+   "votants": 584,
+   "pour_vot": {
+      "ins": 89.3
+   },
+   "blanc_nul": 27,
+   "pour_bl_nuls": {
+      "ins": 4.13,
+      "vot": 4.62
+   },
+   "exprimes": 557,
+   "pour_exp": {
+      "ins": 85.17,
+      "vot": 95.38
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      356,
+      201
+   ],
+   "pour_voix": {
+      "ins": [
+         54.43,
+         30.73
+      ],
+      "exp": [
+         63.91,
+         36.09
+      ]
+   }
+},
+ {
+   "code": 35,
+   "nom_com": "Bouchemaine",
+   "inscrits": 4860,
+   "abstentions": 505,
+   "pour_abs": {
+      "ins": 10.39
+   },
+   "votants": 4355,
+   "pour_vot": {
+      "ins": 89.61
+   },
+   "blanc_nul": 185,
+   "pour_bl_nuls": {
+      "ins": 3.81,
+      "vot": 4.25
+   },
+   "exprimes": 4170,
+   "pour_exp": {
+      "ins": 85.8,
+      "vot": 95.75
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      2245,
+      1925
+   ],
+   "pour_voix": {
+      "ins": [
+         46.19,
+         39.61
+      ],
+      "exp": [
+         53.84,
+         46.16
+      ]
+   }
+},
+ {
+   "code": 36,
+   "nom_com": "Bouillé-Ménard",
+   "inscrits": 536,
+   "abstentions": 73,
+   "pour_abs": {
+      "ins": 13.62
+   },
+   "votants": 463,
+   "pour_vot": {
+      "ins": 86.38
+   },
+   "blanc_nul": 19,
+   "pour_bl_nuls": {
+      "ins": 3.54,
+      "vot": 4.1
+   },
+   "exprimes": 444,
+   "pour_exp": {
+      "ins": 82.84,
+      "vot": 95.9
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      230,
+      214
+   ],
+   "pour_voix": {
+      "ins": [
+         42.91,
+         39.93
+      ],
+      "exp": [
+         51.8,
+         48.2
+      ]
+   }
+},
+ {
+   "code": 38,
+   "nom_com": "Bourg-l'Evêque",
+   "inscrits": 162,
+   "abstentions": 20,
+   "pour_abs": {
+      "ins": 12.35
+   },
+   "votants": 142,
+   "pour_vot": {
+      "ins": 87.65
+   },
+   "blanc_nul": 5,
+   "pour_bl_nuls": {
+      "ins": 3.09,
+      "vot": 3.52
+   },
+   "exprimes": 137,
+   "pour_exp": {
+      "ins": 84.57,
+      "vot": 96.48
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      56,
+      81
+   ],
+   "pour_voix": {
+      "ins": [
+         34.57,
+         50
+      ],
+      "exp": [
+         40.88,
+         59.12
+      ]
+   }
+},
+ {
+   "code": 41,
+   "nom_com": "Brain-sur-Allonnes",
+   "inscrits": 1488,
+   "abstentions": 237,
+   "pour_abs": {
+      "ins": 15.93
+   },
+   "votants": 1251,
+   "pour_vot": {
+      "ins": 84.07
+   },
+   "blanc_nul": 61,
+   "pour_bl_nuls": {
+      "ins": 4.1,
+      "vot": 4.88
+   },
+   "exprimes": 1190,
+   "pour_exp": {
+      "ins": 79.97,
+      "vot": 95.12
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      717,
+      473
+   ],
+   "pour_voix": {
+      "ins": [
+         48.19,
+         31.79
+      ],
+      "exp": [
+         60.25,
+         39.75
+      ]
+   }
+},
+ {
+   "code": 45,
+   "nom_com": "La Breille-les-Pins",
+   "inscrits": 334,
+   "abstentions": 43,
+   "pour_abs": {
+      "ins": 12.87
+   },
+   "votants": 291,
+   "pour_vot": {
+      "ins": 87.13
+   },
+   "blanc_nul": 12,
+   "pour_bl_nuls": {
+      "ins": 3.59,
+      "vot": 4.12
+   },
+   "exprimes": 279,
+   "pour_exp": {
+      "ins": 83.53,
+      "vot": 95.88
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      167,
+      112
+   ],
+   "pour_voix": {
+      "ins": [
+         50,
+         33.53
+      ],
+      "exp": [
+         59.86,
+         40.14
+      ]
+   }
+},
+ {
+   "code": 46,
+   "nom_com": "Brézé",
+   "inscrits": 935,
+   "abstentions": 140,
+   "pour_abs": {
+      "ins": 14.97
+   },
+   "votants": 795,
+   "pour_vot": {
+      "ins": 85.03
+   },
+   "blanc_nul": 24,
+   "pour_bl_nuls": {
+      "ins": 2.57,
+      "vot": 3.02
+   },
+   "exprimes": 771,
+   "pour_exp": {
+      "ins": 82.46,
+      "vot": 96.98
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      402,
+      369
+   ],
+   "pour_voix": {
+      "ins": [
+         42.99,
+         39.47
+      ],
+      "exp": [
+         52.14,
+         47.86
+      ]
+   }
+},
+ {
+   "code": 48,
+   "nom_com": "Briollay",
+   "inscrits": 1939,
+   "abstentions": 203,
+   "pour_abs": {
+      "ins": 10.47
+   },
+   "votants": 1736,
+   "pour_vot": {
+      "ins": 89.53
+   },
+   "blanc_nul": 80,
+   "pour_bl_nuls": {
+      "ins": 4.13,
+      "vot": 4.61
+   },
+   "exprimes": 1656,
+   "pour_exp": {
+      "ins": 85.4,
+      "vot": 95.39
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      932,
+      724
+   ],
+   "pour_voix": {
+      "ins": [
+         48.07,
+         37.34
+      ],
+      "exp": [
+         56.28,
+         43.72
+      ]
+   }
+},
+ {
+   "code": 50,
+   "nom_com": "Brissac-Loire-Aubance",
+   "inscrits": 7247,
+   "abstentions": 697,
+   "pour_abs": {
+      "ins": 9.62
+   },
+   "votants": 6550,
+   "pour_vot": {
+      "ins": 90.38
+   },
+   "blanc_nul": 285,
+   "pour_bl_nuls": {
+      "ins": 3.93,
+      "vot": 4.35
+   },
+   "exprimes": 6265,
+   "pour_exp": {
+      "ins": 86.45,
+      "vot": 95.65
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      3229,
+      3036
+   ],
+   "pour_voix": {
+      "ins": [
+         44.56,
+         41.89
+      ],
+      "exp": [
+         51.54,
+         48.46
+      ]
+   }
+},
+ {
+   "code": 53,
+   "nom_com": "Brossay",
+   "inscrits": 218,
+   "abstentions": 30,
+   "pour_abs": {
+      "ins": 13.76
+   },
+   "votants": 188,
+   "pour_vot": {
+      "ins": 86.24
+   },
+   "blanc_nul": 14,
+   "pour_bl_nuls": {
+      "ins": 6.42,
+      "vot": 7.45
+   },
+   "exprimes": 174,
+   "pour_exp": {
+      "ins": 79.82,
+      "vot": 92.55
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      95,
+      79
+   ],
+   "pour_voix": {
+      "ins": [
+         43.58,
+         36.24
+      ],
+      "exp": [
+         54.6,
+         45.4
+      ]
+   }
+},
+ {
+   "code": 54,
+   "nom_com": "Candé",
+   "inscrits": 1903,
+   "abstentions": 229,
+   "pour_abs": {
+      "ins": 12.03
+   },
+   "votants": 1674,
+   "pour_vot": {
+      "ins": 87.97
+   },
+   "blanc_nul": 71,
+   "pour_bl_nuls": {
+      "ins": 3.73,
+      "vot": 4.24
+   },
+   "exprimes": 1603,
+   "pour_exp": {
+      "ins": 84.24,
+      "vot": 95.76
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      1000,
+      603
+   ],
+   "pour_voix": {
+      "ins": [
+         52.55,
+         31.69
+      ],
+      "exp": [
+         62.38,
+         37.62
+      ]
+   }
+},
+ {
+   "code": 55,
+   "nom_com": "Cantenay-Epinard",
+   "inscrits": 1501,
+   "abstentions": 126,
+   "pour_abs": {
+      "ins": 8.39
+   },
+   "votants": 1375,
+   "pour_vot": {
+      "ins": 91.61
+   },
+   "blanc_nul": 61,
+   "pour_bl_nuls": {
+      "ins": 4.06,
+      "vot": 4.44
+   },
+   "exprimes": 1314,
+   "pour_exp": {
+      "ins": 87.54,
+      "vot": 95.56
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      642,
+      672
+   ],
+   "pour_voix": {
+      "ins": [
+         42.77,
+         44.77
+      ],
+      "exp": [
+         48.86,
+         51.14
+      ]
+   }
+},
+ {
+   "code": 56,
+   "nom_com": "Carbay",
+   "inscrits": 195,
+   "abstentions": 21,
+   "pour_abs": {
+      "ins": 10.77
+   },
+   "votants": 174,
+   "pour_vot": {
+      "ins": 89.23
+   },
+   "blanc_nul": 13,
+   "pour_bl_nuls": {
+      "ins": 6.67,
+      "vot": 7.47
+   },
+   "exprimes": 161,
+   "pour_exp": {
+      "ins": 82.56,
+      "vot": 92.53
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      112,
+      49
+   ],
+   "pour_voix": {
+      "ins": [
+         57.44,
+         25.13
+      ],
+      "exp": [
+         69.57,
+         30.43
+      ]
+   }
+},
+ {
+   "code": 57,
+   "nom_com": "Cernusson",
+   "inscrits": 212,
+   "abstentions": 32,
+   "pour_abs": {
+      "ins": 15.09
+   },
+   "votants": 180,
+   "pour_vot": {
+      "ins": 84.91
+   },
+   "blanc_nul": 14,
+   "pour_bl_nuls": {
+      "ins": 6.6,
+      "vot": 7.78
+   },
+   "exprimes": 166,
+   "pour_exp": {
+      "ins": 78.3,
+      "vot": 92.22
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      109,
+      57
+   ],
+   "pour_voix": {
+      "ins": [
+         51.42,
+         26.89
+      ],
+      "exp": [
+         65.66,
+         34.34
+      ]
+   }
+},
+ {
+   "code": 58,
+   "nom_com": "Les Cerqueux",
+   "inscrits": 584,
+   "abstentions": 75,
+   "pour_abs": {
+      "ins": 12.84
+   },
+   "votants": 509,
+   "pour_vot": {
+      "ins": 87.16
+   },
+   "blanc_nul": 41,
+   "pour_bl_nuls": {
+      "ins": 7.02,
+      "vot": 8.06
+   },
+   "exprimes": 468,
+   "pour_exp": {
+      "ins": 80.14,
+      "vot": 91.94
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      290,
+      178
+   ],
+   "pour_voix": {
+      "ins": [
+         49.66,
+         30.48
+      ],
+      "exp": [
+         61.97,
+         38.03
+      ]
+   }
+},
+ {
+   "code": 60,
+   "nom_com": "Chacé",
+   "inscrits": 960,
+   "abstentions": 161,
+   "pour_abs": {
+      "ins": 16.77
+   },
+   "votants": 799,
+   "pour_vot": {
+      "ins": 83.23
+   },
+   "blanc_nul": 36,
+   "pour_bl_nuls": {
+      "ins": 3.75,
+      "vot": 4.51
+   },
+   "exprimes": 763,
+   "pour_exp": {
+      "ins": 79.48,
+      "vot": 95.49
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      421,
+      342
+   ],
+   "pour_voix": {
+      "ins": [
+         43.85,
+         35.63
+      ],
+      "exp": [
+         55.18,
+         44.82
+      ]
+   }
+},
+ {
+   "code": 61,
+   "nom_com": "Challain-la-Potherie",
+   "inscrits": 607,
+   "abstentions": 55,
+   "pour_abs": {
+      "ins": 9.06
+   },
+   "votants": 552,
+   "pour_vot": {
+      "ins": 90.94
+   },
+   "blanc_nul": 22,
+   "pour_bl_nuls": {
+      "ins": 3.62,
+      "vot": 3.99
+   },
+   "exprimes": 530,
+   "pour_exp": {
+      "ins": 87.31,
+      "vot": 96.01
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      382,
+      148
+   ],
+   "pour_voix": {
+      "ins": [
+         62.93,
+         24.38
+      ],
+      "exp": [
+         72.08,
+         27.92
+      ]
+   }
+},
+ {
+   "code": 63,
+   "nom_com": "Chalonnes-sur-Loire",
+   "inscrits": 4551,
+   "abstentions": 580,
+   "pour_abs": {
+      "ins": 12.74
+   },
+   "votants": 3971,
+   "pour_vot": {
+      "ins": 87.26
+   },
+   "blanc_nul": 182,
+   "pour_bl_nuls": {
+      "ins": 4,
+      "vot": 4.58
+   },
+   "exprimes": 3789,
+   "pour_exp": {
+      "ins": 83.26,
+      "vot": 95.42
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      2011,
+      1778
+   ],
+   "pour_voix": {
+      "ins": [
+         44.19,
+         39.07
+      ],
+      "exp": [
+         53.07,
+         46.93
+      ]
+   }
+},
+ {
+   "code": 64,
+   "nom_com": "Chambellay",
+   "inscrits": 241,
+   "abstentions": 26,
+   "pour_abs": {
+      "ins": 10.79
+   },
+   "votants": 215,
+   "pour_vot": {
+      "ins": 89.21
+   },
+   "blanc_nul": 6,
+   "pour_bl_nuls": {
+      "ins": 2.49,
+      "vot": 2.79
+   },
+   "exprimes": 209,
+   "pour_exp": {
+      "ins": 86.72,
+      "vot": 97.21
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      144,
+      65
+   ],
+   "pour_voix": {
+      "ins": [
+         59.75,
+         26.97
+      ],
+      "exp": [
+         68.9,
+         31.1
+      ]
+   }
+},
+ {
+   "code": 65,
+   "nom_com": "Les Hauts-d'Anjou",
+   "inscrits": 3411,
+   "abstentions": 398,
+   "pour_abs": {
+      "ins": 11.67
+   },
+   "votants": 3013,
+   "pour_vot": {
+      "ins": 88.33
+   },
+   "blanc_nul": 124,
+   "pour_bl_nuls": {
+      "ins": 3.64,
+      "vot": 4.12
+   },
+   "exprimes": 2889,
+   "pour_exp": {
+      "ins": 84.7,
+      "vot": 95.88
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      1825,
+      1064
+   ],
+   "pour_voix": {
+      "ins": [
+         53.5,
+         31.19
+      ],
+      "exp": [
+         63.17,
+         36.83
+      ]
+   }
+},
+ {
+   "code": 67,
+   "nom_com": "Chenillé-Champteussé",
+   "inscrits": 264,
+   "abstentions": 32,
+   "pour_abs": {
+      "ins": 12.12
+   },
+   "votants": 232,
+   "pour_vot": {
+      "ins": 87.88
+   },
+   "blanc_nul": 8,
+   "pour_bl_nuls": {
+      "ins": 3.03,
+      "vot": 3.45
+   },
+   "exprimes": 224,
+   "pour_exp": {
+      "ins": 84.85,
+      "vot": 96.55
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      149,
+      75
+   ],
+   "pour_voix": {
+      "ins": [
+         56.44,
+         28.41
+      ],
+      "exp": [
+         66.52,
+         33.48
+      ]
+   }
+},
+ {
+   "code": 68,
+   "nom_com": "Champtocé-sur-Loire",
+   "inscrits": 1252,
+   "abstentions": 146,
+   "pour_abs": {
+      "ins": 11.66
+   },
+   "votants": 1106,
+   "pour_vot": {
+      "ins": 88.34
+   },
+   "blanc_nul": 69,
+   "pour_bl_nuls": {
+      "ins": 5.51,
+      "vot": 6.24
+   },
+   "exprimes": 1037,
+   "pour_exp": {
+      "ins": 82.83,
+      "vot": 93.76
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      570,
+      467
+   ],
+   "pour_voix": {
+      "ins": [
+         45.53,
+         37.3
+      ],
+      "exp": [
+         54.97,
+         45.03
+      ]
+   }
+},
+ {
+   "code": 69,
+   "nom_com": "Orée-d'Anjou",
+   "inscrits": 10882,
+   "abstentions": 1260,
+   "pour_abs": {
+      "ins": 11.58
+   },
+   "votants": 9622,
+   "pour_vot": {
+      "ins": 88.42
+   },
+   "blanc_nul": 536,
+   "pour_bl_nuls": {
+      "ins": 4.93,
+      "vot": 5.57
+   },
+   "exprimes": 9086,
+   "pour_exp": {
+      "ins": 83.5,
+      "vot": 94.43
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      5194,
+      3892
+   ],
+   "pour_voix": {
+      "ins": [
+         47.73,
+         35.77
+      ],
+      "exp": [
+         57.16,
+         42.84
+      ]
+   }
+},
+ {
+   "code": 70,
+   "nom_com": "Chanteloup-les-Bois",
+   "inscrits": 516,
+   "abstentions": 51,
+   "pour_abs": {
+      "ins": 9.88
+   },
+   "votants": 465,
+   "pour_vot": {
+      "ins": 90.12
+   },
+   "blanc_nul": 31,
+   "pour_bl_nuls": {
+      "ins": 6.01,
+      "vot": 6.67
+   },
+   "exprimes": 434,
+   "pour_exp": {
+      "ins": 84.11,
+      "vot": 93.33
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      269,
+      165
+   ],
+   "pour_voix": {
+      "ins": [
+         52.13,
+         31.98
+      ],
+      "exp": [
+         61.98,
+         38.02
+      ]
+   }
+},
+ {
+   "code": 76,
+   "nom_com": "La Chapelle-Saint-Laud",
+   "inscrits": 417,
+   "abstentions": 25,
+   "pour_abs": {
+      "ins": 6
+   },
+   "votants": 392,
+   "pour_vot": {
+      "ins": 94
+   },
+   "blanc_nul": 18,
+   "pour_bl_nuls": {
+      "ins": 4.32,
+      "vot": 4.59
+   },
+   "exprimes": 374,
+   "pour_exp": {
+      "ins": 89.69,
+      "vot": 95.41
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      213,
+      161
+   ],
+   "pour_voix": {
+      "ins": [
+         51.08,
+         38.61
+      ],
+      "exp": [
+         56.95,
+         43.05
+      ]
+   }
+},
+ {
+   "code": 80,
+   "nom_com": "Châteauneuf-sur-Sarthe",
+   "inscrits": 1888,
+   "abstentions": 278,
+   "pour_abs": {
+      "ins": 14.72
+   },
+   "votants": 1610,
+   "pour_vot": {
+      "ins": 85.28
+   },
+   "blanc_nul": 67,
+   "pour_bl_nuls": {
+      "ins": 3.55,
+      "vot": 4.16
+   },
+   "exprimes": 1543,
+   "pour_exp": {
+      "ins": 81.73,
+      "vot": 95.84
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      872,
+      671
+   ],
+   "pour_voix": {
+      "ins": [
+         46.19,
+         35.54
+      ],
+      "exp": [
+         56.51,
+         43.49
+      ]
+   }
+},
+ {
+   "code": 82,
+   "nom_com": "Chaudefonds-sur-Layon",
+   "inscrits": 745,
+   "abstentions": 99,
+   "pour_abs": {
+      "ins": 13.29
+   },
+   "votants": 646,
+   "pour_vot": {
+      "ins": 86.71
+   },
+   "blanc_nul": 43,
+   "pour_bl_nuls": {
+      "ins": 5.77,
+      "vot": 6.66
+   },
+   "exprimes": 603,
+   "pour_exp": {
+      "ins": 80.94,
+      "vot": 93.34
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      320,
+      283
+   ],
+   "pour_voix": {
+      "ins": [
+         42.95,
+         37.99
+      ],
+      "exp": [
+         53.07,
+         46.93
+      ]
+   }
+},
+ {
+   "code": 86,
+   "nom_com": "Terranjou",
+   "inscrits": 2386,
+   "abstentions": 272,
+   "pour_abs": {
+      "ins": 11.4
+   },
+   "votants": 2114,
+   "pour_vot": {
+      "ins": 88.6
+   },
+   "blanc_nul": 103,
+   "pour_bl_nuls": {
+      "ins": 4.32,
+      "vot": 4.87
+   },
+   "exprimes": 2011,
+   "pour_exp": {
+      "ins": 84.28,
+      "vot": 95.13
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      1141,
+      870
+   ],
+   "pour_voix": {
+      "ins": [
+         47.82,
+         36.46
+      ],
+      "exp": [
+         56.74,
+         43.26
+      ]
+   }
+},
+ {
+   "code": 89,
+   "nom_com": "Chazé-sur-Argos",
+   "inscrits": 734,
+   "abstentions": 81,
+   "pour_abs": {
+      "ins": 11.04
+   },
+   "votants": 653,
+   "pour_vot": {
+      "ins": 88.96
+   },
+   "blanc_nul": 20,
+   "pour_bl_nuls": {
+      "ins": 2.72,
+      "vot": 3.06
+   },
+   "exprimes": 633,
+   "pour_exp": {
+      "ins": 86.24,
+      "vot": 96.94
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      429,
+      204
+   ],
+   "pour_voix": {
+      "ins": [
+         58.45,
+         27.79
+      ],
+      "exp": [
+         67.77,
+         32.23
+      ]
+   }
+},
+ {
+   "code": 90,
+   "nom_com": "Cheffes",
+   "inscrits": 609,
+   "abstentions": 45,
+   "pour_abs": {
+      "ins": 7.39
+   },
+   "votants": 564,
+   "pour_vot": {
+      "ins": 92.61
+   },
+   "blanc_nul": 25,
+   "pour_bl_nuls": {
+      "ins": 4.11,
+      "vot": 4.43
+   },
+   "exprimes": 539,
+   "pour_exp": {
+      "ins": 88.51,
+      "vot": 95.57
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      278,
+      261
+   ],
+   "pour_voix": {
+      "ins": [
+         45.65,
+         42.86
+      ],
+      "exp": [
+         51.58,
+         48.42
+      ]
+   }
+},
+ {
+   "code": 92,
+   "nom_com": "Chemillé-en-Anjou",
+   "inscrits": 14766,
+   "abstentions": 1833,
+   "pour_abs": {
+      "ins": 12.41
+   },
+   "votants": 12933,
+   "pour_vot": {
+      "ins": 87.59
+   },
+   "blanc_nul": 649,
+   "pour_bl_nuls": {
+      "ins": 4.4,
+      "vot": 5.02
+   },
+   "exprimes": 12284,
+   "pour_exp": {
+      "ins": 83.19,
+      "vot": 94.98
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      7719,
+      4565
+   ],
+   "pour_voix": {
+      "ins": [
+         52.28,
+         30.92
+      ],
+      "exp": [
+         62.84,
+         37.16
+      ]
+   }
+},
+ {
+   "code": 99,
+   "nom_com": "Cholet",
+   "inscrits": 36134,
+   "abstentions": 5097,
+   "pour_abs": {
+      "ins": 14.11
+   },
+   "votants": 31037,
+   "pour_vot": {
+      "ins": 85.89
+   },
+   "blanc_nul": 1259,
+   "pour_bl_nuls": {
+      "ins": 3.48,
+      "vot": 4.06
+   },
+   "exprimes": 29778,
+   "pour_exp": {
+      "ins": 82.41,
+      "vot": 95.94
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      14747,
+      15031
+   ],
+   "pour_voix": {
+      "ins": [
+         40.81,
+         41.6
+      ],
+      "exp": [
+         49.52,
+         50.48
+      ]
+   }
+},
+ {
+   "code": 100,
+   "nom_com": "Cizay-la-Madeleine",
+   "inscrits": 324,
+   "abstentions": 41,
+   "pour_abs": {
+      "ins": 12.65
+   },
+   "votants": 283,
+   "pour_vot": {
+      "ins": 87.35
+   },
+   "blanc_nul": 17,
+   "pour_bl_nuls": {
+      "ins": 5.25,
+      "vot": 6.01
+   },
+   "exprimes": 266,
+   "pour_exp": {
+      "ins": 82.1,
+      "vot": 93.99
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      170,
+      96
+   ],
+   "pour_voix": {
+      "ins": [
+         52.47,
+         29.63
+      ],
+      "exp": [
+         63.91,
+         36.09
+      ]
+   }
+},
+ {
+   "code": 102,
+   "nom_com": "Cléré-sur-Layon",
+   "inscrits": 243,
+   "abstentions": 31,
+   "pour_abs": {
+      "ins": 12.76
+   },
+   "votants": 212,
+   "pour_vot": {
+      "ins": 87.24
+   },
+   "blanc_nul": 6,
+   "pour_bl_nuls": {
+      "ins": 2.47,
+      "vot": 2.83
+   },
+   "exprimes": 206,
+   "pour_exp": {
+      "ins": 84.77,
+      "vot": 97.17
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      157,
+      49
+   ],
+   "pour_voix": {
+      "ins": [
+         64.61,
+         20.16
+      ],
+      "exp": [
+         76.21,
+         23.79
+      ]
+   }
+},
+ {
+   "code": 107,
+   "nom_com": "Cornillé-les-Caves",
+   "inscrits": 340,
+   "abstentions": 41,
+   "pour_abs": {
+      "ins": 12.06
+   },
+   "votants": 299,
+   "pour_vot": {
+      "ins": 87.94
+   },
+   "blanc_nul": 17,
+   "pour_bl_nuls": {
+      "ins": 5,
+      "vot": 5.69
+   },
+   "exprimes": 282,
+   "pour_exp": {
+      "ins": 82.94,
+      "vot": 94.31
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      150,
+      132
+   ],
+   "pour_voix": {
+      "ins": [
+         44.12,
+         38.82
+      ],
+      "exp": [
+         53.19,
+         46.81
+      ]
+   }
+},
+ {
+   "code": 109,
+   "nom_com": "Coron",
+   "inscrits": 1022,
+   "abstentions": 126,
+   "pour_abs": {
+      "ins": 12.33
+   },
+   "votants": 896,
+   "pour_vot": {
+      "ins": 87.67
+   },
+   "blanc_nul": 33,
+   "pour_bl_nuls": {
+      "ins": 3.23,
+      "vot": 3.68
+   },
+   "exprimes": 863,
+   "pour_exp": {
+      "ins": 84.44,
+      "vot": 96.32
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      585,
+      278
+   ],
+   "pour_voix": {
+      "ins": [
+         57.24,
+         27.2
+      ],
+      "exp": [
+         67.79,
+         32.21
+      ]
+   }
+},
+ {
+   "code": 110,
+   "nom_com": "Corzé",
+   "inscrits": 1227,
+   "abstentions": 151,
+   "pour_abs": {
+      "ins": 12.31
+   },
+   "votants": 1076,
+   "pour_vot": {
+      "ins": 87.69
+   },
+   "blanc_nul": 37,
+   "pour_bl_nuls": {
+      "ins": 3.02,
+      "vot": 3.44
+   },
+   "exprimes": 1039,
+   "pour_exp": {
+      "ins": 84.68,
+      "vot": 96.56
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      510,
+      529
+   ],
+   "pour_voix": {
+      "ins": [
+         41.56,
+         43.11
+      ],
+      "exp": [
+         49.09,
+         50.91
+      ]
+   }
+},
+ {
+   "code": 112,
+   "nom_com": "Le Coudray-Macouard",
+   "inscrits": 755,
+   "abstentions": 104,
+   "pour_abs": {
+      "ins": 13.77
+   },
+   "votants": 651,
+   "pour_vot": {
+      "ins": 86.23
+   },
+   "blanc_nul": 27,
+   "pour_bl_nuls": {
+      "ins": 3.58,
+      "vot": 4.15
+   },
+   "exprimes": 624,
+   "pour_exp": {
+      "ins": 82.65,
+      "vot": 95.85
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      340,
+      284
+   ],
+   "pour_voix": {
+      "ins": [
+         45.03,
+         37.62
+      ],
+      "exp": [
+         54.49,
+         45.51
+      ]
+   }
+},
+ {
+   "code": 113,
+   "nom_com": "Courchamps",
+   "inscrits": 334,
+   "abstentions": 44,
+   "pour_abs": {
+      "ins": 13.17
+   },
+   "votants": 290,
+   "pour_vot": {
+      "ins": 86.83
+   },
+   "blanc_nul": 17,
+   "pour_bl_nuls": {
+      "ins": 5.09,
+      "vot": 5.86
+   },
+   "exprimes": 273,
+   "pour_exp": {
+      "ins": 81.74,
+      "vot": 94.14
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      139,
+      134
+   ],
+   "pour_voix": {
+      "ins": [
+         41.62,
+         40.12
+      ],
+      "exp": [
+         50.92,
+         49.08
+      ]
+   }
+},
+ {
+   "code": 114,
+   "nom_com": "Courléon",
+   "inscrits": 123,
+   "abstentions": 15,
+   "pour_abs": {
+      "ins": 12.2
+   },
+   "votants": 108,
+   "pour_vot": {
+      "ins": 87.8
+   },
+   "blanc_nul": 3,
+   "pour_bl_nuls": {
+      "ins": 2.44,
+      "vot": 2.78
+   },
+   "exprimes": 105,
+   "pour_exp": {
+      "ins": 85.37,
+      "vot": 97.22
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      65,
+      40
+   ],
+   "pour_voix": {
+      "ins": [
+         52.85,
+         32.52
+      ],
+      "exp": [
+         61.9,
+         38.1
+      ]
+   }
+},
+ {
+   "code": 120,
+   "nom_com": "Denée",
+   "inscrits": 1047,
+   "abstentions": 117,
+   "pour_abs": {
+      "ins": 11.17
+   },
+   "votants": 930,
+   "pour_vot": {
+      "ins": 88.83
+   },
+   "blanc_nul": 57,
+   "pour_bl_nuls": {
+      "ins": 5.44,
+      "vot": 6.13
+   },
+   "exprimes": 873,
+   "pour_exp": {
+      "ins": 83.38,
+      "vot": 93.87
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      442,
+      431
+   ],
+   "pour_voix": {
+      "ins": [
+         42.22,
+         41.17
+      ],
+      "exp": [
+         50.63,
+         49.37
+      ]
+   }
+},
+ {
+   "code": 121,
+   "nom_com": "Dénezé-sous-Doué",
+   "inscrits": 330,
+   "abstentions": 39,
+   "pour_abs": {
+      "ins": 11.82
+   },
+   "votants": 291,
+   "pour_vot": {
+      "ins": 88.18
+   },
+   "blanc_nul": 8,
+   "pour_bl_nuls": {
+      "ins": 2.42,
+      "vot": 2.75
+   },
+   "exprimes": 283,
+   "pour_exp": {
+      "ins": 85.76,
+      "vot": 97.25
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      167,
+      116
+   ],
+   "pour_voix": {
+      "ins": [
+         50.61,
+         35.15
+      ],
+      "exp": [
+         59.01,
+         40.99
+      ]
+   }
+},
+ {
+   "code": 123,
+   "nom_com": "Distré",
+   "inscrits": 1025,
+   "abstentions": 96,
+   "pour_abs": {
+      "ins": 9.37
+   },
+   "votants": 929,
+   "pour_vot": {
+      "ins": 90.63
+   },
+   "blanc_nul": 48,
+   "pour_bl_nuls": {
+      "ins": 4.68,
+      "vot": 5.17
+   },
+   "exprimes": 881,
+   "pour_exp": {
+      "ins": 85.95,
+      "vot": 94.83
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      530,
+      351
+   ],
+   "pour_voix": {
+      "ins": [
+         51.71,
+         34.24
+      ],
+      "exp": [
+         60.16,
+         39.84
+      ]
+   }
+},
+ {
+   "code": 125,
+   "nom_com": "Doué-en-Anjou",
+   "inscrits": 7956,
+   "abstentions": 1308,
+   "pour_abs": {
+      "ins": 16.44
+   },
+   "votants": 6648,
+   "pour_vot": {
+      "ins": 83.56
+   },
+   "blanc_nul": 386,
+   "pour_bl_nuls": {
+      "ins": 4.85,
+      "vot": 5.81
+   },
+   "exprimes": 6262,
+   "pour_exp": {
+      "ins": 78.71,
+      "vot": 94.19
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      3657,
+      2605
+   ],
+   "pour_voix": {
+      "ins": [
+         45.97,
+         32.74
+      ],
+      "exp": [
+         58.4,
+         41.6
+      ]
+   }
+},
+ {
+   "code": 127,
+   "nom_com": "Durtal",
+   "inscrits": 2464,
+   "abstentions": 413,
+   "pour_abs": {
+      "ins": 16.76
+   },
+   "votants": 2051,
+   "pour_vot": {
+      "ins": 83.24
+   },
+   "blanc_nul": 77,
+   "pour_bl_nuls": {
+      "ins": 3.13,
+      "vot": 3.75
+   },
+   "exprimes": 1974,
+   "pour_exp": {
+      "ins": 80.11,
+      "vot": 96.25
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      1077,
+      897
+   ],
+   "pour_voix": {
+      "ins": [
+         43.71,
+         36.4
+      ],
+      "exp": [
+         54.56,
+         45.44
+      ]
+   }
+},
+ {
+   "code": 129,
+   "nom_com": "Ecouflant",
+   "inscrits": 2838,
+   "abstentions": 290,
+   "pour_abs": {
+      "ins": 10.22
+   },
+   "votants": 2548,
+   "pour_vot": {
+      "ins": 89.78
+   },
+   "blanc_nul": 111,
+   "pour_bl_nuls": {
+      "ins": 3.91,
+      "vot": 4.36
+   },
+   "exprimes": 2437,
+   "pour_exp": {
+      "ins": 85.87,
+      "vot": 95.64
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      1311,
+      1126
+   ],
+   "pour_voix": {
+      "ins": [
+         46.19,
+         39.68
+      ],
+      "exp": [
+         53.8,
+         46.2
+      ]
+   }
+},
+ {
+   "code": 130,
+   "nom_com": "Ecuillé",
+   "inscrits": 416,
+   "abstentions": 48,
+   "pour_abs": {
+      "ins": 11.54
+   },
+   "votants": 368,
+   "pour_vot": {
+      "ins": 88.46
+   },
+   "blanc_nul": 19,
+   "pour_bl_nuls": {
+      "ins": 4.57,
+      "vot": 5.16
+   },
+   "exprimes": 349,
+   "pour_exp": {
+      "ins": 83.89,
+      "vot": 94.84
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      211,
+      138
+   ],
+   "pour_voix": {
+      "ins": [
+         50.72,
+         33.17
+      ],
+      "exp": [
+         60.46,
+         39.54
+      ]
+   }
+},
+ {
+   "code": 131,
+   "nom_com": "Epieds",
+   "inscrits": 466,
+   "abstentions": 62,
+   "pour_abs": {
+      "ins": 13.3
+   },
+   "votants": 404,
+   "pour_vot": {
+      "ins": 86.7
+   },
+   "blanc_nul": 24,
+   "pour_bl_nuls": {
+      "ins": 5.15,
+      "vot": 5.94
+   },
+   "exprimes": 380,
+   "pour_exp": {
+      "ins": 81.55,
+      "vot": 94.06
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      257,
+      123
+   ],
+   "pour_voix": {
+      "ins": [
+         55.15,
+         26.39
+      ],
+      "exp": [
+         67.63,
+         32.37
+      ]
+   }
+},
+ {
+   "code": 132,
+   "nom_com": "Etriché",
+   "inscrits": 981,
+   "abstentions": 110,
+   "pour_abs": {
+      "ins": 11.21
+   },
+   "votants": 871,
+   "pour_vot": {
+      "ins": 88.79
+   },
+   "blanc_nul": 38,
+   "pour_bl_nuls": {
+      "ins": 3.87,
+      "vot": 4.36
+   },
+   "exprimes": 833,
+   "pour_exp": {
+      "ins": 84.91,
+      "vot": 95.64
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      467,
+      366
+   ],
+   "pour_voix": {
+      "ins": [
+         47.6,
+         37.31
+      ],
+      "exp": [
+         56.06,
+         43.94
+      ]
+   }
+},
+ {
+   "code": 135,
+   "nom_com": "Feneu",
+   "inscrits": 1500,
+   "abstentions": 169,
+   "pour_abs": {
+      "ins": 11.27
+   },
+   "votants": 1331,
+   "pour_vot": {
+      "ins": 88.73
+   },
+   "blanc_nul": 55,
+   "pour_bl_nuls": {
+      "ins": 3.67,
+      "vot": 4.13
+   },
+   "exprimes": 1276,
+   "pour_exp": {
+      "ins": 85.07,
+      "vot": 95.87
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      712,
+      564
+   ],
+   "pour_voix": {
+      "ins": [
+         47.47,
+         37.6
+      ],
+      "exp": [
+         55.8,
+         44.2
+      ]
+   }
+},
+ {
+   "code": 138,
+   "nom_com": "Les Bois-d'Anjou",
+   "inscrits": 1761,
+   "abstentions": 237,
+   "pour_abs": {
+      "ins": 13.46
+   },
+   "votants": 1524,
+   "pour_vot": {
+      "ins": 86.54
+   },
+   "blanc_nul": 69,
+   "pour_bl_nuls": {
+      "ins": 3.92,
+      "vot": 4.53
+   },
+   "exprimes": 1455,
+   "pour_exp": {
+      "ins": 82.62,
+      "vot": 95.47
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      831,
+      624
+   ],
+   "pour_voix": {
+      "ins": [
+         47.19,
+         35.43
+      ],
+      "exp": [
+         57.11,
+         42.89
+      ]
+   }
+},
+ {
+   "code": 140,
+   "nom_com": "Fontevraud-l'Abbaye",
+   "inscrits": 904,
+   "abstentions": 162,
+   "pour_abs": {
+      "ins": 17.92
+   },
+   "votants": 742,
+   "pour_vot": {
+      "ins": 82.08
+   },
+   "blanc_nul": 27,
+   "pour_bl_nuls": {
+      "ins": 2.99,
+      "vot": 3.64
+   },
+   "exprimes": 715,
+   "pour_exp": {
+      "ins": 79.09,
+      "vot": 96.36
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      413,
+      302
+   ],
+   "pour_voix": {
+      "ins": [
+         45.69,
+         33.41
+      ],
+      "exp": [
+         57.76,
+         42.24
+      ]
+   }
+},
+ {
+   "code": 144,
+   "nom_com": "Freigné",
+   "inscrits": 815,
+   "abstentions": 120,
+   "pour_abs": {
+      "ins": 14.72
+   },
+   "votants": 695,
+   "pour_vot": {
+      "ins": 85.28
+   },
+   "blanc_nul": 28,
+   "pour_bl_nuls": {
+      "ins": 3.44,
+      "vot": 4.03
+   },
+   "exprimes": 667,
+   "pour_exp": {
+      "ins": 81.84,
+      "vot": 95.97
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      466,
+      201
+   ],
+   "pour_voix": {
+      "ins": [
+         57.18,
+         24.66
+      ],
+      "exp": [
+         69.87,
+         30.13
+      ]
+   }
+},
+ {
+   "code": 149,
+   "nom_com": "Gennes-Val-de-Loire",
+   "inscrits": 3439,
+   "abstentions": 390,
+   "pour_abs": {
+      "ins": 11.34
+   },
+   "votants": 3049,
+   "pour_vot": {
+      "ins": 88.66
+   },
+   "blanc_nul": 116,
+   "pour_bl_nuls": {
+      "ins": 3.37,
+      "vot": 3.8
+   },
+   "exprimes": 2933,
+   "pour_exp": {
+      "ins": 85.29,
+      "vot": 96.2
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      1562,
+      1371
+   ],
+   "pour_voix": {
+      "ins": [
+         45.42,
+         39.87
+      ],
+      "exp": [
+         53.26,
+         46.74
+      ]
+   }
+},
+ {
+   "code": 155,
+   "nom_com": "Grez-Neuville",
+   "inscrits": 988,
+   "abstentions": 83,
+   "pour_abs": {
+      "ins": 8.4
+   },
+   "votants": 905,
+   "pour_vot": {
+      "ins": 91.6
+   },
+   "blanc_nul": 43,
+   "pour_bl_nuls": {
+      "ins": 4.35,
+      "vot": 4.75
+   },
+   "exprimes": 862,
+   "pour_exp": {
+      "ins": 87.25,
+      "vot": 95.25
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      489,
+      373
+   ],
+   "pour_voix": {
+      "ins": [
+         49.49,
+         37.75
+      ],
+      "exp": [
+         56.73,
+         43.27
+      ]
+   }
+},
+ {
+   "code": 159,
+   "nom_com": "Huillé",
+   "inscrits": 387,
+   "abstentions": 45,
+   "pour_abs": {
+      "ins": 11.63
+   },
+   "votants": 342,
+   "pour_vot": {
+      "ins": 88.37
+   },
+   "blanc_nul": 15,
+   "pour_bl_nuls": {
+      "ins": 3.88,
+      "vot": 4.39
+   },
+   "exprimes": 327,
+   "pour_exp": {
+      "ins": 84.5,
+      "vot": 95.61
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      211,
+      116
+   ],
+   "pour_voix": {
+      "ins": [
+         54.52,
+         29.97
+      ],
+      "exp": [
+         64.53,
+         35.47
+      ]
+   }
+},
+ {
+   "code": 160,
+   "nom_com": "Ingrandes-Le-Fresne-sur-Loire",
+   "inscrits": 1131,
+   "abstentions": 144,
+   "pour_abs": {
+      "ins": 12.73
+   },
+   "votants": 987,
+   "pour_vot": {
+      "ins": 87.27
+   },
+   "blanc_nul": 58,
+   "pour_bl_nuls": {
+      "ins": 5.13,
+      "vot": 5.88
+   },
+   "exprimes": 929,
+   "pour_exp": {
+      "ins": 82.14,
+      "vot": 94.12
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      514,
+      415
+   ],
+   "pour_voix": {
+      "ins": [
+         45.45,
+         36.69
+      ],
+      "exp": [
+         55.33,
+         44.67
+      ]
+   }
+},
+ {
+   "code": 161,
+   "nom_com": "La Jaille-Yvon",
+   "inscrits": 211,
+   "abstentions": 29,
+   "pour_abs": {
+      "ins": 13.74
+   },
+   "votants": 182,
+   "pour_vot": {
+      "ins": 86.26
+   },
+   "blanc_nul": 7,
+   "pour_bl_nuls": {
+      "ins": 3.32,
+      "vot": 3.85
+   },
+   "exprimes": 175,
+   "pour_exp": {
+      "ins": 82.94,
+      "vot": 96.15
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      92,
+      83
+   ],
+   "pour_voix": {
+      "ins": [
+         43.6,
+         39.34
+      ],
+      "exp": [
+         52.57,
+         47.43
+      ]
+   }
+},
+ {
+   "code": 163,
+   "nom_com": "Jarzé-Villages",
+   "inscrits": 1686,
+   "abstentions": 221,
+   "pour_abs": {
+      "ins": 13.11
+   },
+   "votants": 1465,
+   "pour_vot": {
+      "ins": 86.89
+   },
+   "blanc_nul": 80,
+   "pour_bl_nuls": {
+      "ins": 4.74,
+      "vot": 5.46
+   },
+   "exprimes": 1385,
+   "pour_exp": {
+      "ins": 82.15,
+      "vot": 94.54
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      797,
+      588
+   ],
+   "pour_voix": {
+      "ins": [
+         47.27,
+         34.88
+      ],
+      "exp": [
+         57.55,
+         42.45
+      ]
+   }
+},
+ {
+   "code": 167,
+   "nom_com": "Les Garennes-sur-Loire",
+   "inscrits": 3343,
+   "abstentions": 359,
+   "pour_abs": {
+      "ins": 10.74
+   },
+   "votants": 2984,
+   "pour_vot": {
+      "ins": 89.26
+   },
+   "blanc_nul": 132,
+   "pour_bl_nuls": {
+      "ins": 3.95,
+      "vot": 4.42
+   },
+   "exprimes": 2852,
+   "pour_exp": {
+      "ins": 85.31,
+      "vot": 95.58
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      1515,
+      1337
+   ],
+   "pour_voix": {
+      "ins": [
+         45.32,
+         39.99
+      ],
+      "exp": [
+         53.12,
+         46.88
+      ]
+   }
+},
+ {
+   "code": 170,
+   "nom_com": "Juvardeil",
+   "inscrits": 636,
+   "abstentions": 78,
+   "pour_abs": {
+      "ins": 12.26
+   },
+   "votants": 558,
+   "pour_vot": {
+      "ins": 87.74
+   },
+   "blanc_nul": 34,
+   "pour_bl_nuls": {
+      "ins": 5.35,
+      "vot": 6.09
+   },
+   "exprimes": 524,
+   "pour_exp": {
+      "ins": 82.39,
+      "vot": 93.91
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      231,
+      293
+   ],
+   "pour_voix": {
+      "ins": [
+         36.32,
+         46.07
+      ],
+      "exp": [
+         44.08,
+         55.92
+      ]
+   }
+},
+ {
+   "code": 171,
+   "nom_com": "La Lande-Chasles",
+   "inscrits": 98,
+   "abstentions": 8,
+   "pour_abs": {
+      "ins": 8.16
+   },
+   "votants": 90,
+   "pour_vot": {
+      "ins": 91.84
+   },
+   "blanc_nul": 1,
+   "pour_bl_nuls": {
+      "ins": 1.02,
+      "vot": 1.11
+   },
+   "exprimes": 89,
+   "pour_exp": {
+      "ins": 90.82,
+      "vot": 98.89
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      47,
+      42
+   ],
+   "pour_voix": {
+      "ins": [
+         47.96,
+         42.86
+      ],
+      "exp": [
+         52.81,
+         47.19
+      ]
+   }
+},
+ {
+   "code": 174,
+   "nom_com": "Lézigné",
+   "inscrits": 510,
+   "abstentions": 74,
+   "pour_abs": {
+      "ins": 14.51
+   },
+   "votants": 436,
+   "pour_vot": {
+      "ins": 85.49
+   },
+   "blanc_nul": 23,
+   "pour_bl_nuls": {
+      "ins": 4.51,
+      "vot": 5.28
+   },
+   "exprimes": 413,
+   "pour_exp": {
+      "ins": 80.98,
+      "vot": 94.72
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      212,
+      201
+   ],
+   "pour_voix": {
+      "ins": [
+         41.57,
+         39.41
+      ],
+      "exp": [
+         51.33,
+         48.67
+      ]
+   }
+},
+ {
+   "code": 176,
+   "nom_com": "Le Lion-d'Angers",
+   "inscrits": 2953,
+   "abstentions": 431,
+   "pour_abs": {
+      "ins": 14.6
+   },
+   "votants": 2522,
+   "pour_vot": {
+      "ins": 85.4
+   },
+   "blanc_nul": 111,
+   "pour_bl_nuls": {
+      "ins": 3.76,
+      "vot": 4.4
+   },
+   "exprimes": 2411,
+   "pour_exp": {
+      "ins": 81.65,
+      "vot": 95.6
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      1372,
+      1039
+   ],
+   "pour_voix": {
+      "ins": [
+         46.46,
+         35.18
+      ],
+      "exp": [
+         56.91,
+         43.09
+      ]
+   }
+},
+ {
+   "code": 178,
+   "nom_com": "Loiré",
+   "inscrits": 572,
+   "abstentions": 56,
+   "pour_abs": {
+      "ins": 9.79
+   },
+   "votants": 516,
+   "pour_vot": {
+      "ins": 90.21
+   },
+   "blanc_nul": 21,
+   "pour_bl_nuls": {
+      "ins": 3.67,
+      "vot": 4.07
+   },
+   "exprimes": 495,
+   "pour_exp": {
+      "ins": 86.54,
+      "vot": 95.93
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      351,
+      144
+   ],
+   "pour_voix": {
+      "ins": [
+         61.36,
+         25.17
+      ],
+      "exp": [
+         70.91,
+         29.09
+      ]
+   }
+},
+ {
+   "code": 180,
+   "nom_com": "Longué-Jumelles",
+   "inscrits": 5044,
+   "abstentions": 899,
+   "pour_abs": {
+      "ins": 17.82
+   },
+   "votants": 4145,
+   "pour_vot": {
+      "ins": 82.18
+   },
+   "blanc_nul": 188,
+   "pour_bl_nuls": {
+      "ins": 3.73,
+      "vot": 4.54
+   },
+   "exprimes": 3957,
+   "pour_exp": {
+      "ins": 78.45,
+      "vot": 95.46
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      2362,
+      1595
+   ],
+   "pour_voix": {
+      "ins": [
+         46.83,
+         31.62
+      ],
+      "exp": [
+         59.69,
+         40.31
+      ]
+   }
+},
+ {
+   "code": 182,
+   "nom_com": "Louresse-Rochemenier",
+   "inscrits": 517,
+   "abstentions": 49,
+   "pour_abs": {
+      "ins": 9.48
+   },
+   "votants": 468,
+   "pour_vot": {
+      "ins": 90.52
+   },
+   "blanc_nul": 30,
+   "pour_bl_nuls": {
+      "ins": 5.8,
+      "vot": 6.41
+   },
+   "exprimes": 438,
+   "pour_exp": {
+      "ins": 84.72,
+      "vot": 93.59
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      309,
+      129
+   ],
+   "pour_voix": {
+      "ins": [
+         59.77,
+         24.95
+      ],
+      "exp": [
+         70.55,
+         29.45
+      ]
+   }
+},
+ {
+   "code": 183,
+   "nom_com": "Val-d'Erdre-Auxence",
+   "inscrits": 2867,
+   "abstentions": 327,
+   "pour_abs": {
+      "ins": 11.41
+   },
+   "votants": 2540,
+   "pour_vot": {
+      "ins": 88.59
+   },
+   "blanc_nul": 140,
+   "pour_bl_nuls": {
+      "ins": 4.88,
+      "vot": 5.51
+   },
+   "exprimes": 2400,
+   "pour_exp": {
+      "ins": 83.71,
+      "vot": 94.49
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      1468,
+      932
+   ],
+   "pour_voix": {
+      "ins": [
+         51.2,
+         32.51
+      ],
+      "exp": [
+         61.17,
+         38.83
+      ]
+   }
+},
+ {
+   "code": 188,
+   "nom_com": "Marcé",
+   "inscrits": 588,
+   "abstentions": 41,
+   "pour_abs": {
+      "ins": 6.97
+   },
+   "votants": 547,
+   "pour_vot": {
+      "ins": 93.03
+   },
+   "blanc_nul": 19,
+   "pour_bl_nuls": {
+      "ins": 3.23,
+      "vot": 3.47
+   },
+   "exprimes": 528,
+   "pour_exp": {
+      "ins": 89.8,
+      "vot": 96.53
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      265,
+      263
+   ],
+   "pour_voix": {
+      "ins": [
+         45.07,
+         44.73
+      ],
+      "exp": [
+         50.19,
+         49.81
+      ]
+   }
+},
+ {
+   "code": 192,
+   "nom_com": "Maulévrier",
+   "inscrits": 2153,
+   "abstentions": 253,
+   "pour_abs": {
+      "ins": 11.75
+   },
+   "votants": 1900,
+   "pour_vot": {
+      "ins": 88.25
+   },
+   "blanc_nul": 104,
+   "pour_bl_nuls": {
+      "ins": 4.83,
+      "vot": 5.47
+   },
+   "exprimes": 1796,
+   "pour_exp": {
+      "ins": 83.42,
+      "vot": 94.53
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      1052,
+      744
+   ],
+   "pour_voix": {
+      "ins": [
+         48.86,
+         34.56
+      ],
+      "exp": [
+         58.57,
+         41.43
+      ]
+   }
+},
+ {
+   "code": 193,
+   "nom_com": "Le May-sur-Evre",
+   "inscrits": 2950,
+   "abstentions": 404,
+   "pour_abs": {
+      "ins": 13.69
+   },
+   "votants": 2546,
+   "pour_vot": {
+      "ins": 86.31
+   },
+   "blanc_nul": 136,
+   "pour_bl_nuls": {
+      "ins": 4.61,
+      "vot": 5.34
+   },
+   "exprimes": 2410,
+   "pour_exp": {
+      "ins": 81.69,
+      "vot": 94.66
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      1232,
+      1178
+   ],
+   "pour_voix": {
+      "ins": [
+         41.76,
+         39.93
+      ],
+      "exp": [
+         51.12,
+         48.88
+      ]
+   }
+},
+ {
+   "code": 194,
+   "nom_com": "Mazé-Milon",
+   "inscrits": 3604,
+   "abstentions": 421,
+   "pour_abs": {
+      "ins": 11.68
+   },
+   "votants": 3183,
+   "pour_vot": {
+      "ins": 88.32
+   },
+   "blanc_nul": 149,
+   "pour_bl_nuls": {
+      "ins": 4.13,
+      "vot": 4.68
+   },
+   "exprimes": 3034,
+   "pour_exp": {
+      "ins": 84.18,
+      "vot": 95.32
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      1459,
+      1575
+   ],
+   "pour_voix": {
+      "ins": [
+         40.48,
+         43.7
+      ],
+      "exp": [
+         48.09,
+         51.91
+      ]
+   }
+},
+ {
+   "code": 195,
+   "nom_com": "Mazières-en-Mauges",
+   "inscrits": 766,
+   "abstentions": 97,
+   "pour_abs": {
+      "ins": 12.66
+   },
+   "votants": 669,
+   "pour_vot": {
+      "ins": 87.34
+   },
+   "blanc_nul": 36,
+   "pour_bl_nuls": {
+      "ins": 4.7,
+      "vot": 5.38
+   },
+   "exprimes": 633,
+   "pour_exp": {
+      "ins": 82.64,
+      "vot": 94.62
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      341,
+      292
+   ],
+   "pour_voix": {
+      "ins": [
+         44.52,
+         38.12
+      ],
+      "exp": [
+         53.87,
+         46.13
+      ]
+   }
+},
+ {
+   "code": 200,
+   "nom_com": "Longuenée-en-Anjou",
+   "inscrits": 3852,
+   "abstentions": 370,
+   "pour_abs": {
+      "ins": 9.61
+   },
+   "votants": 3482,
+   "pour_vot": {
+      "ins": 90.39
+   },
+   "blanc_nul": 162,
+   "pour_bl_nuls": {
+      "ins": 4.21,
+      "vot": 4.65
+   },
+   "exprimes": 3320,
+   "pour_exp": {
+      "ins": 86.19,
+      "vot": 95.35
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      1783,
+      1537
+   ],
+   "pour_voix": {
+      "ins": [
+         46.29,
+         39.9
+      ],
+      "exp": [
+         53.7,
+         46.3
+      ]
+   }
+},
+ {
+   "code": 201,
+   "nom_com": "La Ménitré",
+   "inscrits": 1504,
+   "abstentions": 186,
+   "pour_abs": {
+      "ins": 12.37
+   },
+   "votants": 1318,
+   "pour_vot": {
+      "ins": 87.63
+   },
+   "blanc_nul": 47,
+   "pour_bl_nuls": {
+      "ins": 3.13,
+      "vot": 3.57
+   },
+   "exprimes": 1271,
+   "pour_exp": {
+      "ins": 84.51,
+      "vot": 96.43
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      632,
+      639
+   ],
+   "pour_voix": {
+      "ins": [
+         42.02,
+         42.49
+      ],
+      "exp": [
+         49.72,
+         50.28
+      ]
+   }
+},
+ {
+   "code": 205,
+   "nom_com": "Miré",
+   "inscrits": 673,
+   "abstentions": 70,
+   "pour_abs": {
+      "ins": 10.4
+   },
+   "votants": 603,
+   "pour_vot": {
+      "ins": 89.6
+   },
+   "blanc_nul": 22,
+   "pour_bl_nuls": {
+      "ins": 3.27,
+      "vot": 3.65
+   },
+   "exprimes": 581,
+   "pour_exp": {
+      "ins": 86.33,
+      "vot": 96.35
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      398,
+      183
+   ],
+   "pour_voix": {
+      "ins": [
+         59.14,
+         27.19
+      ],
+      "exp": [
+         68.5,
+         31.5
+      ]
+   }
+},
+ {
+   "code": 209,
+   "nom_com": "Montigné-lès-Rairies",
+   "inscrits": 284,
+   "abstentions": 30,
+   "pour_abs": {
+      "ins": 10.56
+   },
+   "votants": 254,
+   "pour_vot": {
+      "ins": 89.44
+   },
+   "blanc_nul": 6,
+   "pour_bl_nuls": {
+      "ins": 2.11,
+      "vot": 2.36
+   },
+   "exprimes": 248,
+   "pour_exp": {
+      "ins": 87.32,
+      "vot": 97.64
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      156,
+      92
+   ],
+   "pour_voix": {
+      "ins": [
+         54.93,
+         32.39
+      ],
+      "exp": [
+         62.9,
+         37.1
+      ]
+   }
+},
+ {
+   "code": 211,
+   "nom_com": "Montilliers",
+   "inscrits": 902,
+   "abstentions": 117,
+   "pour_abs": {
+      "ins": 12.97
+   },
+   "votants": 785,
+   "pour_vot": {
+      "ins": 87.03
+   },
+   "blanc_nul": 38,
+   "pour_bl_nuls": {
+      "ins": 4.21,
+      "vot": 4.84
+   },
+   "exprimes": 747,
+   "pour_exp": {
+      "ins": 82.82,
+      "vot": 95.16
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      523,
+      224
+   ],
+   "pour_voix": {
+      "ins": [
+         57.98,
+         24.83
+      ],
+      "exp": [
+         70.01,
+         29.99
+      ]
+   }
+},
+ {
+   "code": 214,
+   "nom_com": "Montreuil-Juigné",
+   "inscrits": 5262,
+   "abstentions": 687,
+   "pour_abs": {
+      "ins": 13.06
+   },
+   "votants": 4575,
+   "pour_vot": {
+      "ins": 86.94
+   },
+   "blanc_nul": 177,
+   "pour_bl_nuls": {
+      "ins": 3.36,
+      "vot": 3.87
+   },
+   "exprimes": 4398,
+   "pour_exp": {
+      "ins": 83.58,
+      "vot": 96.13
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      2071,
+      2327
+   ],
+   "pour_voix": {
+      "ins": [
+         39.36,
+         44.22
+      ],
+      "exp": [
+         47.09,
+         52.91
+      ]
+   }
+},
+ {
+   "code": 215,
+   "nom_com": "Montreuil-Bellay",
+   "inscrits": 2872,
+   "abstentions": 493,
+   "pour_abs": {
+      "ins": 17.17
+   },
+   "votants": 2379,
+   "pour_vot": {
+      "ins": 82.83
+   },
+   "blanc_nul": 111,
+   "pour_bl_nuls": {
+      "ins": 3.86,
+      "vot": 4.67
+   },
+   "exprimes": 2268,
+   "pour_exp": {
+      "ins": 78.97,
+      "vot": 95.33
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      1178,
+      1090
+   ],
+   "pour_voix": {
+      "ins": [
+         41.02,
+         37.95
+      ],
+      "exp": [
+         51.94,
+         48.06
+      ]
+   }
+},
+ {
+   "code": 216,
+   "nom_com": "Montreuil-sur-Loir",
+   "inscrits": 333,
+   "abstentions": 37,
+   "pour_abs": {
+      "ins": 11.11
+   },
+   "votants": 296,
+   "pour_vot": {
+      "ins": 88.89
+   },
+   "blanc_nul": 13,
+   "pour_bl_nuls": {
+      "ins": 3.9,
+      "vot": 4.39
+   },
+   "exprimes": 283,
+   "pour_exp": {
+      "ins": 84.98,
+      "vot": 95.61
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      157,
+      126
+   ],
+   "pour_voix": {
+      "ins": [
+         47.15,
+         37.84
+      ],
+      "exp": [
+         55.48,
+         44.52
+      ]
+   }
+},
+ {
+   "code": 217,
+   "nom_com": "Montreuil-sur-Maine",
+   "inscrits": 465,
+   "abstentions": 42,
+   "pour_abs": {
+      "ins": 9.03
+   },
+   "votants": 423,
+   "pour_vot": {
+      "ins": 90.97
+   },
+   "blanc_nul": 19,
+   "pour_bl_nuls": {
+      "ins": 4.09,
+      "vot": 4.49
+   },
+   "exprimes": 404,
+   "pour_exp": {
+      "ins": 86.88,
+      "vot": 95.51
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      220,
+      184
+   ],
+   "pour_voix": {
+      "ins": [
+         47.31,
+         39.57
+      ],
+      "exp": [
+         54.46,
+         45.54
+      ]
+   }
+},
+ {
+   "code": 218,
+   "nom_com": "Montrevault-sur-Evre",
+   "inscrits": 11523,
+   "abstentions": 1330,
+   "pour_abs": {
+      "ins": 11.54
+   },
+   "votants": 10193,
+   "pour_vot": {
+      "ins": 88.46
+   },
+   "blanc_nul": 607,
+   "pour_bl_nuls": {
+      "ins": 5.27,
+      "vot": 5.96
+   },
+   "exprimes": 9586,
+   "pour_exp": {
+      "ins": 83.19,
+      "vot": 94.04
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      5991,
+      3595
+   ],
+   "pour_voix": {
+      "ins": [
+         51.99,
+         31.2
+      ],
+      "exp": [
+         62.5,
+         37.5
+      ]
+   }
+},
+ {
+   "code": 219,
+   "nom_com": "Montsoreau",
+   "inscrits": 379,
+   "abstentions": 48,
+   "pour_abs": {
+      "ins": 12.66
+   },
+   "votants": 331,
+   "pour_vot": {
+      "ins": 87.34
+   },
+   "blanc_nul": 10,
+   "pour_bl_nuls": {
+      "ins": 2.64,
+      "vot": 3.02
+   },
+   "exprimes": 321,
+   "pour_exp": {
+      "ins": 84.7,
+      "vot": 96.98
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      197,
+      124
+   ],
+   "pour_voix": {
+      "ins": [
+         51.98,
+         32.72
+      ],
+      "exp": [
+         61.37,
+         38.63
+      ]
+   }
+},
+ {
+   "code": 220,
+   "nom_com": "Morannes-sur-Sarthe-Daumeray",
+   "inscrits": 2499,
+   "abstentions": 320,
+   "pour_abs": {
+      "ins": 12.81
+   },
+   "votants": 2179,
+   "pour_vot": {
+      "ins": 87.19
+   },
+   "blanc_nul": 87,
+   "pour_bl_nuls": {
+      "ins": 3.48,
+      "vot": 3.99
+   },
+   "exprimes": 2092,
+   "pour_exp": {
+      "ins": 83.71,
+      "vot": 96.01
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      1381,
+      711
+   ],
+   "pour_voix": {
+      "ins": [
+         55.26,
+         28.45
+      ],
+      "exp": [
+         66.01,
+         33.99
+      ]
+   }
+},
+ {
+   "code": 221,
+   "nom_com": "Mouliherne",
+   "inscrits": 704,
+   "abstentions": 133,
+   "pour_abs": {
+      "ins": 18.89
+   },
+   "votants": 571,
+   "pour_vot": {
+      "ins": 81.11
+   },
+   "blanc_nul": 26,
+   "pour_bl_nuls": {
+      "ins": 3.69,
+      "vot": 4.55
+   },
+   "exprimes": 545,
+   "pour_exp": {
+      "ins": 77.41,
+      "vot": 95.45
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      298,
+      247
+   ],
+   "pour_voix": {
+      "ins": [
+         42.33,
+         35.09
+      ],
+      "exp": [
+         54.68,
+         45.32
+      ]
+   }
+},
+ {
+   "code": 222,
+   "nom_com": "Mozé-sur-Louet",
+   "inscrits": 1488,
+   "abstentions": 190,
+   "pour_abs": {
+      "ins": 12.77
+   },
+   "votants": 1298,
+   "pour_vot": {
+      "ins": 87.23
+   },
+   "blanc_nul": 70,
+   "pour_bl_nuls": {
+      "ins": 4.7,
+      "vot": 5.39
+   },
+   "exprimes": 1228,
+   "pour_exp": {
+      "ins": 82.53,
+      "vot": 94.61
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      643,
+      585
+   ],
+   "pour_voix": {
+      "ins": [
+         43.21,
+         39.31
+      ],
+      "exp": [
+         52.36,
+         47.64
+      ]
+   }
+},
+ {
+   "code": 223,
+   "nom_com": "Mûrs-Erigné",
+   "inscrits": 4084,
+   "abstentions": 436,
+   "pour_abs": {
+      "ins": 10.68
+   },
+   "votants": 3648,
+   "pour_vot": {
+      "ins": 89.32
+   },
+   "blanc_nul": 189,
+   "pour_bl_nuls": {
+      "ins": 4.63,
+      "vot": 5.18
+   },
+   "exprimes": 3459,
+   "pour_exp": {
+      "ins": 84.7,
+      "vot": 94.82
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      1682,
+      1777
+   ],
+   "pour_voix": {
+      "ins": [
+         41.19,
+         43.51
+      ],
+      "exp": [
+         48.63,
+         51.37
+      ]
+   }
+},
+ {
+   "code": 224,
+   "nom_com": "Neuillé",
+   "inscrits": 655,
+   "abstentions": 109,
+   "pour_abs": {
+      "ins": 16.64
+   },
+   "votants": 546,
+   "pour_vot": {
+      "ins": 83.36
+   },
+   "blanc_nul": 33,
+   "pour_bl_nuls": {
+      "ins": 5.04,
+      "vot": 6.04
+   },
+   "exprimes": 513,
+   "pour_exp": {
+      "ins": 78.32,
+      "vot": 93.96
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      312,
+      201
+   ],
+   "pour_voix": {
+      "ins": [
+         47.63,
+         30.69
+      ],
+      "exp": [
+         60.82,
+         39.18
+      ]
+   }
+},
+ {
+   "code": 228,
+   "nom_com": "Noyant-Villages",
+   "inscrits": 4324,
+   "abstentions": 667,
+   "pour_abs": {
+      "ins": 15.43
+   },
+   "votants": 3657,
+   "pour_vot": {
+      "ins": 84.57
+   },
+   "blanc_nul": 136,
+   "pour_bl_nuls": {
+      "ins": 3.15,
+      "vot": 3.72
+   },
+   "exprimes": 3521,
+   "pour_exp": {
+      "ins": 81.43,
+      "vot": 96.28
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      1993,
+      1528
+   ],
+   "pour_voix": {
+      "ins": [
+         46.09,
+         35.34
+      ],
+      "exp": [
+         56.6,
+         43.4
+      ]
+   }
+},
+ {
+   "code": 231,
+   "nom_com": "Nuaillé",
+   "inscrits": 984,
+   "abstentions": 110,
+   "pour_abs": {
+      "ins": 11.18
+   },
+   "votants": 874,
+   "pour_vot": {
+      "ins": 88.82
+   },
+   "blanc_nul": 51,
+   "pour_bl_nuls": {
+      "ins": 5.18,
+      "vot": 5.84
+   },
+   "exprimes": 823,
+   "pour_exp": {
+      "ins": 83.64,
+      "vot": 94.16
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      447,
+      376
+   ],
+   "pour_voix": {
+      "ins": [
+         45.43,
+         38.21
+      ],
+      "exp": [
+         54.31,
+         45.69
+      ]
+   }
+},
+ {
+   "code": 235,
+   "nom_com": "Parnay",
+   "inscrits": 394,
+   "abstentions": 44,
+   "pour_abs": {
+      "ins": 11.17
+   },
+   "votants": 350,
+   "pour_vot": {
+      "ins": 88.83
+   },
+   "blanc_nul": 18,
+   "pour_bl_nuls": {
+      "ins": 4.57,
+      "vot": 5.14
+   },
+   "exprimes": 332,
+   "pour_exp": {
+      "ins": 84.26,
+      "vot": 94.86
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      197,
+      135
+   ],
+   "pour_voix": {
+      "ins": [
+         50,
+         34.26
+      ],
+      "exp": [
+         59.34,
+         40.66
+      ]
+   }
+},
+ {
+   "code": 236,
+   "nom_com": "Passavant-sur-Layon",
+   "inscrits": 111,
+   "abstentions": 18,
+   "pour_abs": {
+      "ins": 16.22
+   },
+   "votants": 93,
+   "pour_vot": {
+      "ins": 83.78
+   },
+   "blanc_nul": 7,
+   "pour_bl_nuls": {
+      "ins": 6.31,
+      "vot": 7.53
+   },
+   "exprimes": 86,
+   "pour_exp": {
+      "ins": 77.48,
+      "vot": 92.47
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      54,
+      32
+   ],
+   "pour_voix": {
+      "ins": [
+         48.65,
+         28.83
+      ],
+      "exp": [
+         62.79,
+         37.21
+      ]
+   }
+},
+ {
+   "code": 237,
+   "nom_com": "La Pellerine",
+   "inscrits": 121,
+   "abstentions": 7,
+   "pour_abs": {
+      "ins": 5.79
+   },
+   "votants": 114,
+   "pour_vot": {
+      "ins": 94.21
+   },
+   "blanc_nul": 7,
+   "pour_bl_nuls": {
+      "ins": 5.79,
+      "vot": 6.14
+   },
+   "exprimes": 107,
+   "pour_exp": {
+      "ins": 88.43,
+      "vot": 93.86
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      62,
+      45
+   ],
+   "pour_voix": {
+      "ins": [
+         51.24,
+         37.19
+      ],
+      "exp": [
+         57.94,
+         42.06
+      ]
+   }
+},
+ {
+   "code": 240,
+   "nom_com": "La Plaine",
+   "inscrits": 715,
+   "abstentions": 103,
+   "pour_abs": {
+      "ins": 14.41
+   },
+   "votants": 612,
+   "pour_vot": {
+      "ins": 85.59
+   },
+   "blanc_nul": 39,
+   "pour_bl_nuls": {
+      "ins": 5.45,
+      "vot": 6.37
+   },
+   "exprimes": 573,
+   "pour_exp": {
+      "ins": 80.14,
+      "vot": 93.63
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      281,
+      292
+   ],
+   "pour_voix": {
+      "ins": [
+         39.3,
+         40.84
+      ],
+      "exp": [
+         49.04,
+         50.96
+      ]
+   }
+},
+ {
+   "code": 241,
+   "nom_com": "Le Plessis-Grammoire",
+   "inscrits": 1615,
+   "abstentions": 150,
+   "pour_abs": {
+      "ins": 9.29
+   },
+   "votants": 1465,
+   "pour_vot": {
+      "ins": 90.71
+   },
+   "blanc_nul": 57,
+   "pour_bl_nuls": {
+      "ins": 3.53,
+      "vot": 3.89
+   },
+   "exprimes": 1408,
+   "pour_exp": {
+      "ins": 87.18,
+      "vot": 96.11
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      740,
+      668
+   ],
+   "pour_voix": {
+      "ins": [
+         45.82,
+         41.36
+      ],
+      "exp": [
+         52.56,
+         47.44
+      ]
+   }
+},
+ {
+   "code": 244,
+   "nom_com": "Mauges-sur-Loire",
+   "inscrits": 13100,
+   "abstentions": 1304,
+   "pour_abs": {
+      "ins": 9.95
+   },
+   "votants": 11796,
+   "pour_vot": {
+      "ins": 90.05
+   },
+   "blanc_nul": 593,
+   "pour_bl_nuls": {
+      "ins": 4.53,
+      "vot": 5.03
+   },
+   "exprimes": 11203,
+   "pour_exp": {
+      "ins": 85.52,
+      "vot": 94.97
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      6803,
+      4400
+   ],
+   "pour_voix": {
+      "ins": [
+         51.93,
+         33.59
+      ],
+      "exp": [
+         60.72,
+         39.28
+      ]
+   }
+},
+ {
+   "code": 246,
+   "nom_com": "Les Ponts-de-Cé",
+   "inscrits": 8817,
+   "abstentions": 1195,
+   "pour_abs": {
+      "ins": 13.55
+   },
+   "votants": 7622,
+   "pour_vot": {
+      "ins": 86.45
+   },
+   "blanc_nul": 345,
+   "pour_bl_nuls": {
+      "ins": 3.91,
+      "vot": 4.53
+   },
+   "exprimes": 7277,
+   "pour_exp": {
+      "ins": 82.53,
+      "vot": 95.47
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      3554,
+      3723
+   ],
+   "pour_voix": {
+      "ins": [
+         40.31,
+         42.23
+      ],
+      "exp": [
+         48.84,
+         51.16
+      ]
+   }
+},
+ {
+   "code": 247,
+   "nom_com": "La Possonnière",
+   "inscrits": 1768,
+   "abstentions": 199,
+   "pour_abs": {
+      "ins": 11.26
+   },
+   "votants": 1569,
+   "pour_vot": {
+      "ins": 88.74
+   },
+   "blanc_nul": 76,
+   "pour_bl_nuls": {
+      "ins": 4.3,
+      "vot": 4.84
+   },
+   "exprimes": 1493,
+   "pour_exp": {
+      "ins": 84.45,
+      "vot": 95.16
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      705,
+      788
+   ],
+   "pour_voix": {
+      "ins": [
+         39.88,
+         44.57
+      ],
+      "exp": [
+         47.22,
+         52.78
+      ]
+   }
+},
+ {
+   "code": 248,
+   "nom_com": "Ombrée-d'Anjou",
+   "inscrits": 6554,
+   "abstentions": 860,
+   "pour_abs": {
+      "ins": 13.12
+   },
+   "votants": 5694,
+   "pour_vot": {
+      "ins": 86.88
+   },
+   "blanc_nul": 251,
+   "pour_bl_nuls": {
+      "ins": 3.83,
+      "vot": 4.41
+   },
+   "exprimes": 5443,
+   "pour_exp": {
+      "ins": 83.05,
+      "vot": 95.59
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      3107,
+      2336
+   ],
+   "pour_voix": {
+      "ins": [
+         47.41,
+         35.64
+      ],
+      "exp": [
+         57.08,
+         42.92
+      ]
+   }
+},
+ {
+   "code": 253,
+   "nom_com": "Le Puy-Notre-Dame",
+   "inscrits": 948,
+   "abstentions": 152,
+   "pour_abs": {
+      "ins": 16.03
+   },
+   "votants": 796,
+   "pour_vot": {
+      "ins": 83.97
+   },
+   "blanc_nul": 37,
+   "pour_bl_nuls": {
+      "ins": 3.9,
+      "vot": 4.65
+   },
+   "exprimes": 759,
+   "pour_exp": {
+      "ins": 80.06,
+      "vot": 95.35
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      444,
+      315
+   ],
+   "pour_voix": {
+      "ins": [
+         46.84,
+         33.23
+      ],
+      "exp": [
+         58.5,
+         41.5
+      ]
+   }
+},
+ {
+   "code": 257,
+   "nom_com": "Les Rairies",
+   "inscrits": 702,
+   "abstentions": 96,
+   "pour_abs": {
+      "ins": 13.68
+   },
+   "votants": 606,
+   "pour_vot": {
+      "ins": 86.32
+   },
+   "blanc_nul": 32,
+   "pour_bl_nuls": {
+      "ins": 4.56,
+      "vot": 5.28
+   },
+   "exprimes": 574,
+   "pour_exp": {
+      "ins": 81.77,
+      "vot": 94.72
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      311,
+      263
+   ],
+   "pour_voix": {
+      "ins": [
+         44.3,
+         37.46
+      ],
+      "exp": [
+         54.18,
+         45.82
+      ]
+   }
+},
+ {
+   "code": 259,
+   "nom_com": "Rochefort-sur-Loire",
+   "inscrits": 1562,
+   "abstentions": 185,
+   "pour_abs": {
+      "ins": 11.84
+   },
+   "votants": 1377,
+   "pour_vot": {
+      "ins": 88.16
+   },
+   "blanc_nul": 46,
+   "pour_bl_nuls": {
+      "ins": 2.94,
+      "vot": 3.34
+   },
+   "exprimes": 1331,
+   "pour_exp": {
+      "ins": 85.21,
+      "vot": 96.66
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      719,
+      612
+   ],
+   "pour_voix": {
+      "ins": [
+         46.03,
+         39.18
+      ],
+      "exp": [
+         54.02,
+         45.98
+      ]
+   }
+},
+ {
+   "code": 260,
+   "nom_com": "La Romagne",
+   "inscrits": 1253,
+   "abstentions": 135,
+   "pour_abs": {
+      "ins": 10.77
+   },
+   "votants": 1118,
+   "pour_vot": {
+      "ins": 89.23
+   },
+   "blanc_nul": 61,
+   "pour_bl_nuls": {
+      "ins": 4.87,
+      "vot": 5.46
+   },
+   "exprimes": 1057,
+   "pour_exp": {
+      "ins": 84.36,
+      "vot": 94.54
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      597,
+      460
+   ],
+   "pour_voix": {
+      "ins": [
+         47.65,
+         36.71
+      ],
+      "exp": [
+         56.48,
+         43.52
+      ]
+   }
+},
+ {
+   "code": 261,
+   "nom_com": "Les Rosiers-sur-Loire",
+   "inscrits": 1663,
+   "abstentions": 194,
+   "pour_abs": {
+      "ins": 11.67
+   },
+   "votants": 1469,
+   "pour_vot": {
+      "ins": 88.33
+   },
+   "blanc_nul": 85,
+   "pour_bl_nuls": {
+      "ins": 5.11,
+      "vot": 5.79
+   },
+   "exprimes": 1384,
+   "pour_exp": {
+      "ins": 83.22,
+      "vot": 94.21
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      797,
+      587
+   ],
+   "pour_voix": {
+      "ins": [
+         47.93,
+         35.3
+      ],
+      "exp": [
+         57.59,
+         42.41
+      ]
+   }
+},
+ {
+   "code": 262,
+   "nom_com": "Rou-Marson",
+   "inscrits": 551,
+   "abstentions": 52,
+   "pour_abs": {
+      "ins": 9.44
+   },
+   "votants": 499,
+   "pour_vot": {
+      "ins": 90.56
+   },
+   "blanc_nul": 31,
+   "pour_bl_nuls": {
+      "ins": 5.63,
+      "vot": 6.21
+   },
+   "exprimes": 468,
+   "pour_exp": {
+      "ins": 84.94,
+      "vot": 93.79
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      308,
+      160
+   ],
+   "pour_voix": {
+      "ins": [
+         55.9,
+         29.04
+      ],
+      "exp": [
+         65.81,
+         34.19
+      ]
+   }
+},
+ {
+   "code": 266,
+   "nom_com": "Saint-Augustin-des-Bois",
+   "inscrits": 669,
+   "abstentions": 61,
+   "pour_abs": {
+      "ins": 9.12
+   },
+   "votants": 608,
+   "pour_vot": {
+      "ins": 90.88
+   },
+   "blanc_nul": 26,
+   "pour_bl_nuls": {
+      "ins": 3.89,
+      "vot": 4.28
+   },
+   "exprimes": 582,
+   "pour_exp": {
+      "ins": 87,
+      "vot": 95.72
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      308,
+      274
+   ],
+   "pour_voix": {
+      "ins": [
+         46.04,
+         40.96
+      ],
+      "exp": [
+         52.92,
+         47.08
+      ]
+   }
+},
+ {
+   "code": 267,
+   "nom_com": "Saint-Barthélemy-d'Anjou",
+   "inscrits": 6888,
+   "abstentions": 782,
+   "pour_abs": {
+      "ins": 11.35
+   },
+   "votants": 6106,
+   "pour_vot": {
+      "ins": 88.65
+   },
+   "blanc_nul": 302,
+   "pour_bl_nuls": {
+      "ins": 4.38,
+      "vot": 4.95
+   },
+   "exprimes": 5804,
+   "pour_exp": {
+      "ins": 84.26,
+      "vot": 95.05
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      2629,
+      3175
+   ],
+   "pour_voix": {
+      "ins": [
+         38.17,
+         46.09
+      ],
+      "exp": [
+         45.3,
+         54.7
+      ]
+   }
+},
+ {
+   "code": 269,
+   "nom_com": "Saint-Christophe-du-Bois",
+   "inscrits": 2035,
+   "abstentions": 211,
+   "pour_abs": {
+      "ins": 10.37
+   },
+   "votants": 1824,
+   "pour_vot": {
+      "ins": 89.63
+   },
+   "blanc_nul": 108,
+   "pour_bl_nuls": {
+      "ins": 5.31,
+      "vot": 5.92
+   },
+   "exprimes": 1716,
+   "pour_exp": {
+      "ins": 84.32,
+      "vot": 94.08
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      936,
+      780
+   ],
+   "pour_voix": {
+      "ins": [
+         46,
+         38.33
+      ],
+      "exp": [
+         54.55,
+         45.45
+      ]
+   }
+},
+ {
+   "code": 271,
+   "nom_com": "Saint-Clément-de-la-Place",
+   "inscrits": 1217,
+   "abstentions": 104,
+   "pour_abs": {
+      "ins": 8.55
+   },
+   "votants": 1113,
+   "pour_vot": {
+      "ins": 91.45
+   },
+   "blanc_nul": 69,
+   "pour_bl_nuls": {
+      "ins": 5.67,
+      "vot": 6.2
+   },
+   "exprimes": 1044,
+   "pour_exp": {
+      "ins": 85.78,
+      "vot": 93.8
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      563,
+      481
+   ],
+   "pour_voix": {
+      "ins": [
+         46.26,
+         39.52
+      ],
+      "exp": [
+         53.93,
+         46.07
+      ]
+   }
+},
+ {
+   "code": 272,
+   "nom_com": "Saint-Clément-des-Levées",
+   "inscrits": 844,
+   "abstentions": 112,
+   "pour_abs": {
+      "ins": 13.27
+   },
+   "votants": 732,
+   "pour_vot": {
+      "ins": 86.73
+   },
+   "blanc_nul": 40,
+   "pour_bl_nuls": {
+      "ins": 4.74,
+      "vot": 5.46
+   },
+   "exprimes": 692,
+   "pour_exp": {
+      "ins": 81.99,
+      "vot": 94.54
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      347,
+      345
+   ],
+   "pour_voix": {
+      "ins": [
+         41.11,
+         40.88
+      ],
+      "exp": [
+         50.14,
+         49.86
+      ]
+   }
+},
+ {
+   "code": 274,
+   "nom_com": "Saint-Cyr-en-Bourg",
+   "inscrits": 705,
+   "abstentions": 90,
+   "pour_abs": {
+      "ins": 12.77
+   },
+   "votants": 615,
+   "pour_vot": {
+      "ins": 87.23
+   },
+   "blanc_nul": 32,
+   "pour_bl_nuls": {
+      "ins": 4.54,
+      "vot": 5.2
+   },
+   "exprimes": 583,
+   "pour_exp": {
+      "ins": 82.7,
+      "vot": 94.8
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      300,
+      283
+   ],
+   "pour_voix": {
+      "ins": [
+         42.55,
+         40.14
+      ],
+      "exp": [
+         51.46,
+         48.54
+      ]
+   }
+},
+ {
+   "code": 278,
+   "nom_com": "Sainte-Gemmes-sur-Loire",
+   "inscrits": 2747,
+   "abstentions": 280,
+   "pour_abs": {
+      "ins": 10.19
+   },
+   "votants": 2467,
+   "pour_vot": {
+      "ins": 89.81
+   },
+   "blanc_nul": 99,
+   "pour_bl_nuls": {
+      "ins": 3.6,
+      "vot": 4.01
+   },
+   "exprimes": 2368,
+   "pour_exp": {
+      "ins": 86.2,
+      "vot": 95.99
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      1284,
+      1084
+   ],
+   "pour_voix": {
+      "ins": [
+         46.74,
+         39.46
+      ],
+      "exp": [
+         54.22,
+         45.78
+      ]
+   }
+},
+ {
+   "code": 283,
+   "nom_com": "Saint-Georges-sur-Loire",
+   "inscrits": 2290,
+   "abstentions": 236,
+   "pour_abs": {
+      "ins": 10.31
+   },
+   "votants": 2054,
+   "pour_vot": {
+      "ins": 89.69
+   },
+   "blanc_nul": 102,
+   "pour_bl_nuls": {
+      "ins": 4.45,
+      "vot": 4.97
+   },
+   "exprimes": 1952,
+   "pour_exp": {
+      "ins": 85.24,
+      "vot": 95.03
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      1062,
+      890
+   ],
+   "pour_voix": {
+      "ins": [
+         46.38,
+         38.86
+      ],
+      "exp": [
+         54.41,
+         45.59
+      ]
+   }
+},
+ {
+   "code": 284,
+   "nom_com": "Saint-Germain-des-Prés",
+   "inscrits": 991,
+   "abstentions": 113,
+   "pour_abs": {
+      "ins": 11.4
+   },
+   "votants": 878,
+   "pour_vot": {
+      "ins": 88.6
+   },
+   "blanc_nul": 48,
+   "pour_bl_nuls": {
+      "ins": 4.84,
+      "vot": 5.47
+   },
+   "exprimes": 830,
+   "pour_exp": {
+      "ins": 83.75,
+      "vot": 94.53
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      452,
+      378
+   ],
+   "pour_voix": {
+      "ins": [
+         45.61,
+         38.14
+      ],
+      "exp": [
+         54.46,
+         45.54
+      ]
+   }
+},
+ {
+   "code": 288,
+   "nom_com": "Saint-Jean-de-la-Croix",
+   "inscrits": 166,
+   "abstentions": 14,
+   "pour_abs": {
+      "ins": 8.43
+   },
+   "votants": 152,
+   "pour_vot": {
+      "ins": 91.57
+   },
+   "blanc_nul": 4,
+   "pour_bl_nuls": {
+      "ins": 2.41,
+      "vot": 2.63
+   },
+   "exprimes": 148,
+   "pour_exp": {
+      "ins": 89.16,
+      "vot": 97.37
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      51,
+      97
+   ],
+   "pour_voix": {
+      "ins": [
+         30.72,
+         58.43
+      ],
+      "exp": [
+         34.46,
+         65.54
+      ]
+   }
+},
+ {
+   "code": 289,
+   "nom_com": "Saint-Jean-de-Linières",
+   "inscrits": 1160,
+   "abstentions": 115,
+   "pour_abs": {
+      "ins": 9.91
+   },
+   "votants": 1045,
+   "pour_vot": {
+      "ins": 90.09
+   },
+   "blanc_nul": 63,
+   "pour_bl_nuls": {
+      "ins": 5.43,
+      "vot": 6.03
+   },
+   "exprimes": 982,
+   "pour_exp": {
+      "ins": 84.66,
+      "vot": 93.97
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      565,
+      417
+   ],
+   "pour_voix": {
+      "ins": [
+         48.71,
+         35.95
+      ],
+      "exp": [
+         57.54,
+         42.46
+      ]
+   }
+},
+ {
+   "code": 291,
+   "nom_com": "Saint-Just-sur-Dive",
+   "inscrits": 248,
+   "abstentions": 52,
+   "pour_abs": {
+      "ins": 20.97
+   },
+   "votants": 196,
+   "pour_vot": {
+      "ins": 79.03
+   },
+   "blanc_nul": 12,
+   "pour_bl_nuls": {
+      "ins": 4.84,
+      "vot": 6.12
+   },
+   "exprimes": 184,
+   "pour_exp": {
+      "ins": 74.19,
+      "vot": 93.88
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      100,
+      84
+   ],
+   "pour_voix": {
+      "ins": [
+         40.32,
+         33.87
+      ],
+      "exp": [
+         54.35,
+         45.65
+      ]
+   }
+},
+ {
+   "code": 292,
+   "nom_com": "Val-du-Layon",
+   "inscrits": 1981,
+   "abstentions": 195,
+   "pour_abs": {
+      "ins": 9.84
+   },
+   "votants": 1786,
+   "pour_vot": {
+      "ins": 90.16
+   },
+   "blanc_nul": 82,
+   "pour_bl_nuls": {
+      "ins": 4.14,
+      "vot": 4.59
+   },
+   "exprimes": 1704,
+   "pour_exp": {
+      "ins": 86.02,
+      "vot": 95.41
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      985,
+      719
+   ],
+   "pour_voix": {
+      "ins": [
+         49.72,
+         36.29
+      ],
+      "exp": [
+         57.81,
+         42.19
+      ]
+   }
+},
+ {
+   "code": 294,
+   "nom_com": "Saint-Lambert-la-Potherie",
+   "inscrits": 1758,
+   "abstentions": 188,
+   "pour_abs": {
+      "ins": 10.69
+   },
+   "votants": 1570,
+   "pour_vot": {
+      "ins": 89.31
+   },
+   "blanc_nul": 84,
+   "pour_bl_nuls": {
+      "ins": 4.78,
+      "vot": 5.35
+   },
+   "exprimes": 1486,
+   "pour_exp": {
+      "ins": 84.53,
+      "vot": 94.65
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      804,
+      682
+   ],
+   "pour_voix": {
+      "ins": [
+         45.73,
+         38.79
+      ],
+      "exp": [
+         54.1,
+         45.9
+      ]
+   }
+},
+ {
+   "code": 298,
+   "nom_com": "Saint-Léger-des-Bois",
+   "inscrits": 1086,
+   "abstentions": 80,
+   "pour_abs": {
+      "ins": 7.37
+   },
+   "votants": 1006,
+   "pour_vot": {
+      "ins": 92.63
+   },
+   "blanc_nul": 58,
+   "pour_bl_nuls": {
+      "ins": 5.34,
+      "vot": 5.77
+   },
+   "exprimes": 948,
+   "pour_exp": {
+      "ins": 87.29,
+      "vot": 94.23
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      468,
+      480
+   ],
+   "pour_voix": {
+      "ins": [
+         43.09,
+         44.2
+      ],
+      "exp": [
+         49.37,
+         50.63
+      ]
+   }
+},
+ {
+   "code": 299,
+   "nom_com": "Saint-Léger-sous-Cholet",
+   "inscrits": 1975,
+   "abstentions": 227,
+   "pour_abs": {
+      "ins": 11.49
+   },
+   "votants": 1748,
+   "pour_vot": {
+      "ins": 88.51
+   },
+   "blanc_nul": 77,
+   "pour_bl_nuls": {
+      "ins": 3.9,
+      "vot": 4.41
+   },
+   "exprimes": 1671,
+   "pour_exp": {
+      "ins": 84.61,
+      "vot": 95.59
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      815,
+      856
+   ],
+   "pour_voix": {
+      "ins": [
+         41.27,
+         43.34
+      ],
+      "exp": [
+         48.77,
+         51.23
+      ]
+   }
+},
+ {
+   "code": 301,
+   "nom_com": "Sèvremoine",
+   "inscrits": 16656,
+   "abstentions": 2139,
+   "pour_abs": {
+      "ins": 12.84
+   },
+   "votants": 14517,
+   "pour_vot": {
+      "ins": 87.16
+   },
+   "blanc_nul": 788,
+   "pour_bl_nuls": {
+      "ins": 4.73,
+      "vot": 5.43
+   },
+   "exprimes": 13729,
+   "pour_exp": {
+      "ins": 82.43,
+      "vot": 94.57
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      7929,
+      5800
+   ],
+   "pour_voix": {
+      "ins": [
+         47.6,
+         34.82
+      ],
+      "exp": [
+         57.75,
+         42.25
+      ]
+   }
+},
+ {
+   "code": 302,
+   "nom_com": "Saint-Macaire-du-Bois",
+   "inscrits": 284,
+   "abstentions": 54,
+   "pour_abs": {
+      "ins": 19.01
+   },
+   "votants": 230,
+   "pour_vot": {
+      "ins": 80.99
+   },
+   "blanc_nul": 12,
+   "pour_bl_nuls": {
+      "ins": 4.23,
+      "vot": 5.22
+   },
+   "exprimes": 218,
+   "pour_exp": {
+      "ins": 76.76,
+      "vot": 94.78
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      124,
+      94
+   ],
+   "pour_voix": {
+      "ins": [
+         43.66,
+         33.1
+      ],
+      "exp": [
+         56.88,
+         43.12
+      ]
+   }
+},
+ {
+   "code": 304,
+   "nom_com": "Saint-Martin-de-la-Place",
+   "inscrits": 882,
+   "abstentions": 124,
+   "pour_abs": {
+      "ins": 14.06
+   },
+   "votants": 758,
+   "pour_vot": {
+      "ins": 85.94
+   },
+   "blanc_nul": 40,
+   "pour_bl_nuls": {
+      "ins": 4.54,
+      "vot": 5.28
+   },
+   "exprimes": 718,
+   "pour_exp": {
+      "ins": 81.41,
+      "vot": 94.72
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      418,
+      300
+   ],
+   "pour_voix": {
+      "ins": [
+         47.39,
+         34.01
+      ],
+      "exp": [
+         58.22,
+         41.78
+      ]
+   }
+},
+ {
+   "code": 306,
+   "nom_com": "Saint-Martin-du-Fouilloux",
+   "inscrits": 1157,
+   "abstentions": 96,
+   "pour_abs": {
+      "ins": 8.3
+   },
+   "votants": 1061,
+   "pour_vot": {
+      "ins": 91.7
+   },
+   "blanc_nul": 53,
+   "pour_bl_nuls": {
+      "ins": 4.58,
+      "vot": 5
+   },
+   "exprimes": 1008,
+   "pour_exp": {
+      "ins": 87.12,
+      "vot": 95
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      520,
+      488
+   ],
+   "pour_voix": {
+      "ins": [
+         44.94,
+         42.18
+      ],
+      "exp": [
+         51.59,
+         48.41
+      ]
+   }
+},
+ {
+   "code": 307,
+   "nom_com": "Loire-Authion",
+   "inscrits": 10904,
+   "abstentions": 1111,
+   "pour_abs": {
+      "ins": 10.19
+   },
+   "votants": 9793,
+   "pour_vot": {
+      "ins": 89.81
+   },
+   "blanc_nul": 465,
+   "pour_bl_nuls": {
+      "ins": 4.26,
+      "vot": 4.75
+   },
+   "exprimes": 9328,
+   "pour_exp": {
+      "ins": 85.55,
+      "vot": 95.25
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      4832,
+      4496
+   ],
+   "pour_voix": {
+      "ins": [
+         44.31,
+         41.23
+      ],
+      "exp": [
+         51.8,
+         48.2
+      ]
+   }
+},
+ {
+   "code": 308,
+   "nom_com": "Saint-Melaine-sur-Aubance",
+   "inscrits": 1572,
+   "abstentions": 123,
+   "pour_abs": {
+      "ins": 7.82
+   },
+   "votants": 1449,
+   "pour_vot": {
+      "ins": 92.18
+   },
+   "blanc_nul": 78,
+   "pour_bl_nuls": {
+      "ins": 4.96,
+      "vot": 5.38
+   },
+   "exprimes": 1371,
+   "pour_exp": {
+      "ins": 87.21,
+      "vot": 94.62
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      789,
+      582
+   ],
+   "pour_voix": {
+      "ins": [
+         50.19,
+         37.02
+      ],
+      "exp": [
+         57.55,
+         42.45
+      ]
+   }
+},
+ {
+   "code": 310,
+   "nom_com": "Saint-Paul-du-Bois",
+   "inscrits": 466,
+   "abstentions": 57,
+   "pour_abs": {
+      "ins": 12.23
+   },
+   "votants": 409,
+   "pour_vot": {
+      "ins": 87.77
+   },
+   "blanc_nul": 14,
+   "pour_bl_nuls": {
+      "ins": 3,
+      "vot": 3.42
+   },
+   "exprimes": 395,
+   "pour_exp": {
+      "ins": 84.76,
+      "vot": 96.58
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      272,
+      123
+   ],
+   "pour_voix": {
+      "ins": [
+         58.37,
+         26.39
+      ],
+      "exp": [
+         68.86,
+         31.14
+      ]
+   }
+},
+ {
+   "code": 311,
+   "nom_com": "Saint-Philbert-du-Peuple",
+   "inscrits": 840,
+   "abstentions": 113,
+   "pour_abs": {
+      "ins": 13.45
+   },
+   "votants": 727,
+   "pour_vot": {
+      "ins": 86.55
+   },
+   "blanc_nul": 42,
+   "pour_bl_nuls": {
+      "ins": 5,
+      "vot": 5.78
+   },
+   "exprimes": 685,
+   "pour_exp": {
+      "ins": 81.55,
+      "vot": 94.22
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      409,
+      276
+   ],
+   "pour_voix": {
+      "ins": [
+         48.69,
+         32.86
+      ],
+      "exp": [
+         59.71,
+         40.29
+      ]
+   }
+},
+ {
+   "code": 321,
+   "nom_com": "Saint-Sigismond",
+   "inscrits": 288,
+   "abstentions": 23,
+   "pour_abs": {
+      "ins": 7.99
+   },
+   "votants": 265,
+   "pour_vot": {
+      "ins": 92.01
+   },
+   "blanc_nul": 11,
+   "pour_bl_nuls": {
+      "ins": 3.82,
+      "vot": 4.15
+   },
+   "exprimes": 254,
+   "pour_exp": {
+      "ins": 88.19,
+      "vot": 95.85
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      123,
+      131
+   ],
+   "pour_voix": {
+      "ins": [
+         42.71,
+         45.49
+      ],
+      "exp": [
+         48.43,
+         51.57
+      ]
+   }
+},
+ {
+   "code": 323,
+   "nom_com": "Verrière-en-Anjou",
+   "inscrits": 4951,
+   "abstentions": 497,
+   "pour_abs": {
+      "ins": 10.04
+   },
+   "votants": 4454,
+   "pour_vot": {
+      "ins": 89.96
+   },
+   "blanc_nul": 243,
+   "pour_bl_nuls": {
+      "ins": 4.91,
+      "vot": 5.46
+   },
+   "exprimes": 4211,
+   "pour_exp": {
+      "ins": 85.05,
+      "vot": 94.54
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      2273,
+      1938
+   ],
+   "pour_voix": {
+      "ins": [
+         45.91,
+         39.14
+      ],
+      "exp": [
+         53.98,
+         46.02
+      ]
+   }
+},
+ {
+   "code": 326,
+   "nom_com": "Sarrigné",
+   "inscrits": 614,
+   "abstentions": 64,
+   "pour_abs": {
+      "ins": 10.42
+   },
+   "votants": 550,
+   "pour_vot": {
+      "ins": 89.58
+   },
+   "blanc_nul": 29,
+   "pour_bl_nuls": {
+      "ins": 4.72,
+      "vot": 5.27
+   },
+   "exprimes": 521,
+   "pour_exp": {
+      "ins": 84.85,
+      "vot": 94.73
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      218,
+      303
+   ],
+   "pour_voix": {
+      "ins": [
+         35.5,
+         49.35
+      ],
+      "exp": [
+         41.84,
+         58.16
+      ]
+   }
+},
+ {
+   "code": 328,
+   "nom_com": "Saumur",
+   "inscrits": 19435,
+   "abstentions": 3291,
+   "pour_abs": {
+      "ins": 16.93
+   },
+   "votants": 16144,
+   "pour_vot": {
+      "ins": 83.07
+   },
+   "blanc_nul": 722,
+   "pour_bl_nuls": {
+      "ins": 3.71,
+      "vot": 4.47
+   },
+   "exprimes": 15422,
+   "pour_exp": {
+      "ins": 79.35,
+      "vot": 95.53
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      8916,
+      6506
+   ],
+   "pour_voix": {
+      "ins": [
+         45.88,
+         33.48
+      ],
+      "exp": [
+         57.81,
+         42.19
+      ]
+   }
+},
+ {
+   "code": 329,
+   "nom_com": "Savennières",
+   "inscrits": 969,
+   "abstentions": 102,
+   "pour_abs": {
+      "ins": 10.53
+   },
+   "votants": 867,
+   "pour_vot": {
+      "ins": 89.47
+   },
+   "blanc_nul": 44,
+   "pour_bl_nuls": {
+      "ins": 4.54,
+      "vot": 5.07
+   },
+   "exprimes": 823,
+   "pour_exp": {
+      "ins": 84.93,
+      "vot": 94.93
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      437,
+      386
+   ],
+   "pour_voix": {
+      "ins": [
+         45.1,
+         39.83
+      ],
+      "exp": [
+         53.1,
+         46.9
+      ]
+   }
+},
+ {
+   "code": 330,
+   "nom_com": "Sceaux-d'Anjou",
+   "inscrits": 548,
+   "abstentions": 52,
+   "pour_abs": {
+      "ins": 9.49
+   },
+   "votants": 496,
+   "pour_vot": {
+      "ins": 90.51
+   },
+   "blanc_nul": 28,
+   "pour_bl_nuls": {
+      "ins": 5.11,
+      "vot": 5.65
+   },
+   "exprimes": 468,
+   "pour_exp": {
+      "ins": 85.4,
+      "vot": 94.35
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      264,
+      204
+   ],
+   "pour_voix": {
+      "ins": [
+         48.18,
+         37.23
+      ],
+      "exp": [
+         56.41,
+         43.59
+      ]
+   }
+},
+ {
+   "code": 331,
+   "nom_com": "Segré-en-Anjou-Bleu",
+   "inscrits": 12316,
+   "abstentions": 1812,
+   "pour_abs": {
+      "ins": 14.71
+   },
+   "votants": 10504,
+   "pour_vot": {
+      "ins": 85.29
+   },
+   "blanc_nul": 457,
+   "pour_bl_nuls": {
+      "ins": 3.71,
+      "vot": 4.35
+   },
+   "exprimes": 10047,
+   "pour_exp": {
+      "ins": 81.58,
+      "vot": 95.65
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      5521,
+      4526
+   ],
+   "pour_voix": {
+      "ins": [
+         44.83,
+         36.75
+      ],
+      "exp": [
+         54.95,
+         45.05
+      ]
+   }
+},
+ {
+   "code": 332,
+   "nom_com": "La Séguinière",
+   "inscrits": 2930,
+   "abstentions": 303,
+   "pour_abs": {
+      "ins": 10.34
+   },
+   "votants": 2627,
+   "pour_vot": {
+      "ins": 89.66
+   },
+   "blanc_nul": 145,
+   "pour_bl_nuls": {
+      "ins": 4.95,
+      "vot": 5.52
+   },
+   "exprimes": 2482,
+   "pour_exp": {
+      "ins": 84.71,
+      "vot": 94.48
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      1463,
+      1019
+   ],
+   "pour_voix": {
+      "ins": [
+         49.93,
+         34.78
+      ],
+      "exp": [
+         58.94,
+         41.06
+      ]
+   }
+},
+ {
+   "code": 333,
+   "nom_com": "Seiches-sur-le-Loir",
+   "inscrits": 1950,
+   "abstentions": 218,
+   "pour_abs": {
+      "ins": 11.18
+   },
+   "votants": 1732,
+   "pour_vot": {
+      "ins": 88.82
+   },
+   "blanc_nul": 89,
+   "pour_bl_nuls": {
+      "ins": 4.56,
+      "vot": 5.14
+   },
+   "exprimes": 1643,
+   "pour_exp": {
+      "ins": 84.26,
+      "vot": 94.86
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      848,
+      795
+   ],
+   "pour_voix": {
+      "ins": [
+         43.49,
+         40.77
+      ],
+      "exp": [
+         51.61,
+         48.39
+      ]
+   }
+},
+ {
+   "code": 334,
+   "nom_com": "Sermaise",
+   "inscrits": 237,
+   "abstentions": 37,
+   "pour_abs": {
+      "ins": 15.61
+   },
+   "votants": 200,
+   "pour_vot": {
+      "ins": 84.39
+   },
+   "blanc_nul": 7,
+   "pour_bl_nuls": {
+      "ins": 2.95,
+      "vot": 3.5
+   },
+   "exprimes": 193,
+   "pour_exp": {
+      "ins": 81.43,
+      "vot": 96.5
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      109,
+      84
+   ],
+   "pour_voix": {
+      "ins": [
+         45.99,
+         35.44
+      ],
+      "exp": [
+         56.48,
+         43.52
+      ]
+   }
+},
+ {
+   "code": 336,
+   "nom_com": "Somloire",
+   "inscrits": 665,
+   "abstentions": 76,
+   "pour_abs": {
+      "ins": 11.43
+   },
+   "votants": 589,
+   "pour_vot": {
+      "ins": 88.57
+   },
+   "blanc_nul": 23,
+   "pour_bl_nuls": {
+      "ins": 3.46,
+      "vot": 3.9
+   },
+   "exprimes": 566,
+   "pour_exp": {
+      "ins": 85.11,
+      "vot": 96.1
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      352,
+      214
+   ],
+   "pour_voix": {
+      "ins": [
+         52.93,
+         32.18
+      ],
+      "exp": [
+         62.19,
+         37.81
+      ]
+   }
+},
+ {
+   "code": 337,
+   "nom_com": "Soucelles",
+   "inscrits": 1874,
+   "abstentions": 202,
+   "pour_abs": {
+      "ins": 10.78
+   },
+   "votants": 1672,
+   "pour_vot": {
+      "ins": 89.22
+   },
+   "blanc_nul": 85,
+   "pour_bl_nuls": {
+      "ins": 4.54,
+      "vot": 5.08
+   },
+   "exprimes": 1587,
+   "pour_exp": {
+      "ins": 84.69,
+      "vot": 94.92
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      781,
+      806
+   ],
+   "pour_voix": {
+      "ins": [
+         41.68,
+         43.01
+      ],
+      "exp": [
+         49.21,
+         50.79
+      ]
+   }
+},
+ {
+   "code": 338,
+   "nom_com": "Soulaines-sur-Aubance",
+   "inscrits": 910,
+   "abstentions": 67,
+   "pour_abs": {
+      "ins": 7.36
+   },
+   "votants": 843,
+   "pour_vot": {
+      "ins": 92.64
+   },
+   "blanc_nul": 40,
+   "pour_bl_nuls": {
+      "ins": 4.4,
+      "vot": 4.74
+   },
+   "exprimes": 803,
+   "pour_exp": {
+      "ins": 88.24,
+      "vot": 95.26
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      383,
+      420
+   ],
+   "pour_voix": {
+      "ins": [
+         42.09,
+         46.15
+      ],
+      "exp": [
+         47.7,
+         52.3
+      ]
+   }
+},
+ {
+   "code": 339,
+   "nom_com": "Soulaire-et-Bourg",
+   "inscrits": 971,
+   "abstentions": 96,
+   "pour_abs": {
+      "ins": 9.89
+   },
+   "votants": 875,
+   "pour_vot": {
+      "ins": 90.11
+   },
+   "blanc_nul": 52,
+   "pour_bl_nuls": {
+      "ins": 5.36,
+      "vot": 5.94
+   },
+   "exprimes": 823,
+   "pour_exp": {
+      "ins": 84.76,
+      "vot": 94.06
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      428,
+      395
+   ],
+   "pour_voix": {
+      "ins": [
+         44.08,
+         40.68
+      ],
+      "exp": [
+         52,
+         48
+      ]
+   }
+},
+ {
+   "code": 341,
+   "nom_com": "Souzay-Champigny",
+   "inscrits": 509,
+   "abstentions": 68,
+   "pour_abs": {
+      "ins": 13.36
+   },
+   "votants": 441,
+   "pour_vot": {
+      "ins": 86.64
+   },
+   "blanc_nul": 20,
+   "pour_bl_nuls": {
+      "ins": 3.93,
+      "vot": 4.54
+   },
+   "exprimes": 421,
+   "pour_exp": {
+      "ins": 82.71,
+      "vot": 95.46
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      249,
+      172
+   ],
+   "pour_voix": {
+      "ins": [
+         48.92,
+         33.79
+      ],
+      "exp": [
+         59.14,
+         40.86
+      ]
+   }
+},
+ {
+   "code": 343,
+   "nom_com": "La Tessoualle",
+   "inscrits": 2346,
+   "abstentions": 273,
+   "pour_abs": {
+      "ins": 11.64
+   },
+   "votants": 2073,
+   "pour_vot": {
+      "ins": 88.36
+   },
+   "blanc_nul": 82,
+   "pour_bl_nuls": {
+      "ins": 3.5,
+      "vot": 3.96
+   },
+   "exprimes": 1991,
+   "pour_exp": {
+      "ins": 84.87,
+      "vot": 96.04
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      1142,
+      849
+   ],
+   "pour_voix": {
+      "ins": [
+         48.68,
+         36.19
+      ],
+      "exp": [
+         57.36,
+         42.64
+      ]
+   }
+},
+ {
+   "code": 344,
+   "nom_com": "Thorigné-d'Anjou",
+   "inscrits": 642,
+   "abstentions": 60,
+   "pour_abs": {
+      "ins": 9.35
+   },
+   "votants": 582,
+   "pour_vot": {
+      "ins": 90.65
+   },
+   "blanc_nul": 22,
+   "pour_bl_nuls": {
+      "ins": 3.43,
+      "vot": 3.78
+   },
+   "exprimes": 560,
+   "pour_exp": {
+      "ins": 87.23,
+      "vot": 96.22
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      326,
+      234
+   ],
+   "pour_voix": {
+      "ins": [
+         50.78,
+         36.45
+      ],
+      "exp": [
+         58.21,
+         41.79
+      ]
+   }
+},
+ {
+   "code": 345,
+   "nom_com": "Bellevigne-en-Layon",
+   "inscrits": 3997,
+   "abstentions": 509,
+   "pour_abs": {
+      "ins": 12.73
+   },
+   "votants": 3488,
+   "pour_vot": {
+      "ins": 87.27
+   },
+   "blanc_nul": 174,
+   "pour_bl_nuls": {
+      "ins": 4.35,
+      "vot": 4.99
+   },
+   "exprimes": 3314,
+   "pour_exp": {
+      "ins": 82.91,
+      "vot": 95.01
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      1933,
+      1381
+   ],
+   "pour_voix": {
+      "ins": [
+         48.36,
+         34.55
+      ],
+      "exp": [
+         58.33,
+         41.67
+      ]
+   }
+},
+ {
+   "code": 347,
+   "nom_com": "Tiercé",
+   "inscrits": 3027,
+   "abstentions": 331,
+   "pour_abs": {
+      "ins": 10.93
+   },
+   "votants": 2696,
+   "pour_vot": {
+      "ins": 89.07
+   },
+   "blanc_nul": 137,
+   "pour_bl_nuls": {
+      "ins": 4.53,
+      "vot": 5.08
+   },
+   "exprimes": 2559,
+   "pour_exp": {
+      "ins": 84.54,
+      "vot": 94.92
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      1475,
+      1084
+   ],
+   "pour_voix": {
+      "ins": [
+         48.73,
+         35.81
+      ],
+      "exp": [
+         57.64,
+         42.36
+      ]
+   }
+},
+ {
+   "code": 352,
+   "nom_com": "Toutlemonde",
+   "inscrits": 860,
+   "abstentions": 102,
+   "pour_abs": {
+      "ins": 11.86
+   },
+   "votants": 758,
+   "pour_vot": {
+      "ins": 88.14
+   },
+   "blanc_nul": 30,
+   "pour_bl_nuls": {
+      "ins": 3.49,
+      "vot": 3.96
+   },
+   "exprimes": 728,
+   "pour_exp": {
+      "ins": 84.65,
+      "vot": 96.04
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      421,
+      307
+   ],
+   "pour_voix": {
+      "ins": [
+         48.95,
+         35.7
+      ],
+      "exp": [
+         57.83,
+         42.17
+      ]
+   }
+},
+ {
+   "code": 353,
+   "nom_com": "Trélazé",
+   "inscrits": 7819,
+   "abstentions": 1092,
+   "pour_abs": {
+      "ins": 13.97
+   },
+   "votants": 6727,
+   "pour_vot": {
+      "ins": 86.03
+   },
+   "blanc_nul": 290,
+   "pour_bl_nuls": {
+      "ins": 3.71,
+      "vot": 4.31
+   },
+   "exprimes": 6437,
+   "pour_exp": {
+      "ins": 82.33,
+      "vot": 95.69
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      2401,
+      4036
+   ],
+   "pour_voix": {
+      "ins": [
+         30.71,
+         51.62
+      ],
+      "exp": [
+         37.3,
+         62.7
+      ]
+   }
+},
+ {
+   "code": 355,
+   "nom_com": "Trémentines",
+   "inscrits": 2248,
+   "abstentions": 254,
+   "pour_abs": {
+      "ins": 11.3
+   },
+   "votants": 1994,
+   "pour_vot": {
+      "ins": 88.7
+   },
+   "blanc_nul": 97,
+   "pour_bl_nuls": {
+      "ins": 4.31,
+      "vot": 4.86
+   },
+   "exprimes": 1897,
+   "pour_exp": {
+      "ins": 84.39,
+      "vot": 95.14
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      1009,
+      888
+   ],
+   "pour_voix": {
+      "ins": [
+         44.88,
+         39.5
+      ],
+      "exp": [
+         53.19,
+         46.81
+      ]
+   }
+},
+ {
+   "code": 358,
+   "nom_com": "Turquant",
+   "inscrits": 420,
+   "abstentions": 69,
+   "pour_abs": {
+      "ins": 16.43
+   },
+   "votants": 351,
+   "pour_vot": {
+      "ins": 83.57
+   },
+   "blanc_nul": 15,
+   "pour_bl_nuls": {
+      "ins": 3.57,
+      "vot": 4.27
+   },
+   "exprimes": 336,
+   "pour_exp": {
+      "ins": 80,
+      "vot": 95.73
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      187,
+      149
+   ],
+   "pour_voix": {
+      "ins": [
+         44.52,
+         35.48
+      ],
+      "exp": [
+         55.65,
+         44.35
+      ]
+   }
+},
+ {
+   "code": 359,
+   "nom_com": "Les Ulmes",
+   "inscrits": 359,
+   "abstentions": 40,
+   "pour_abs": {
+      "ins": 11.14
+   },
+   "votants": 319,
+   "pour_vot": {
+      "ins": 88.86
+   },
+   "blanc_nul": 10,
+   "pour_bl_nuls": {
+      "ins": 2.79,
+      "vot": 3.13
+   },
+   "exprimes": 309,
+   "pour_exp": {
+      "ins": 86.07,
+      "vot": 96.87
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      204,
+      105
+   ],
+   "pour_voix": {
+      "ins": [
+         56.82,
+         29.25
+      ],
+      "exp": [
+         66.02,
+         33.98
+      ]
+   }
+},
+ {
+   "code": 361,
+   "nom_com": "Varennes-sur-Loire",
+   "inscrits": 1366,
+   "abstentions": 204,
+   "pour_abs": {
+      "ins": 14.93
+   },
+   "votants": 1162,
+   "pour_vot": {
+      "ins": 85.07
+   },
+   "blanc_nul": 47,
+   "pour_bl_nuls": {
+      "ins": 3.44,
+      "vot": 4.04
+   },
+   "exprimes": 1115,
+   "pour_exp": {
+      "ins": 81.63,
+      "vot": 95.96
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      688,
+      427
+   ],
+   "pour_voix": {
+      "ins": [
+         50.37,
+         31.26
+      ],
+      "exp": [
+         61.7,
+         38.3
+      ]
+   }
+},
+ {
+   "code": 362,
+   "nom_com": "Varrains",
+   "inscrits": 881,
+   "abstentions": 106,
+   "pour_abs": {
+      "ins": 12.03
+   },
+   "votants": 775,
+   "pour_vot": {
+      "ins": 87.97
+   },
+   "blanc_nul": 19,
+   "pour_bl_nuls": {
+      "ins": 2.16,
+      "vot": 2.45
+   },
+   "exprimes": 756,
+   "pour_exp": {
+      "ins": 85.81,
+      "vot": 97.55
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      495,
+      261
+   ],
+   "pour_voix": {
+      "ins": [
+         56.19,
+         29.63
+      ],
+      "exp": [
+         65.48,
+         34.52
+      ]
+   }
+},
+ {
+   "code": 364,
+   "nom_com": "Vaudelnay",
+   "inscrits": 874,
+   "abstentions": 123,
+   "pour_abs": {
+      "ins": 14.07
+   },
+   "votants": 751,
+   "pour_vot": {
+      "ins": 85.93
+   },
+   "blanc_nul": 46,
+   "pour_bl_nuls": {
+      "ins": 5.26,
+      "vot": 6.13
+   },
+   "exprimes": 705,
+   "pour_exp": {
+      "ins": 80.66,
+      "vot": 93.87
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      404,
+      301
+   ],
+   "pour_voix": {
+      "ins": [
+         46.22,
+         34.44
+      ],
+      "exp": [
+         57.3,
+         42.7
+      ]
+   }
+},
+ {
+   "code": 367,
+   "nom_com": "Erdre-en-Anjou",
+   "inscrits": 3284,
+   "abstentions": 352,
+   "pour_abs": {
+      "ins": 10.72
+   },
+   "votants": 2932,
+   "pour_vot": {
+      "ins": 89.28
+   },
+   "blanc_nul": 124,
+   "pour_bl_nuls": {
+      "ins": 3.78,
+      "vot": 4.23
+   },
+   "exprimes": 2808,
+   "pour_exp": {
+      "ins": 85.51,
+      "vot": 95.77
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      1534,
+      1274
+   ],
+   "pour_voix": {
+      "ins": [
+         46.71,
+         38.79
+      ],
+      "exp": [
+         54.63,
+         45.37
+      ]
+   }
+},
+ {
+   "code": 368,
+   "nom_com": "Vernantes",
+   "inscrits": 1238,
+   "abstentions": 219,
+   "pour_abs": {
+      "ins": 17.69
+   },
+   "votants": 1019,
+   "pour_vot": {
+      "ins": 82.31
+   },
+   "blanc_nul": 25,
+   "pour_bl_nuls": {
+      "ins": 2.02,
+      "vot": 2.45
+   },
+   "exprimes": 994,
+   "pour_exp": {
+      "ins": 80.29,
+      "vot": 97.55
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      546,
+      448
+   ],
+   "pour_voix": {
+      "ins": [
+         44.1,
+         36.19
+      ],
+      "exp": [
+         54.93,
+         45.07
+      ]
+   }
+},
+ {
+   "code": 369,
+   "nom_com": "Vernoil-le-Fourrier",
+   "inscrits": 940,
+   "abstentions": 141,
+   "pour_abs": {
+      "ins": 15
+   },
+   "votants": 799,
+   "pour_vot": {
+      "ins": 85
+   },
+   "blanc_nul": 45,
+   "pour_bl_nuls": {
+      "ins": 4.79,
+      "vot": 5.63
+   },
+   "exprimes": 754,
+   "pour_exp": {
+      "ins": 80.21,
+      "vot": 94.37
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      415,
+      339
+   ],
+   "pour_voix": {
+      "ins": [
+         44.15,
+         36.06
+      ],
+      "exp": [
+         55.04,
+         44.96
+      ]
+   }
+},
+ {
+   "code": 370,
+   "nom_com": "Verrie",
+   "inscrits": 307,
+   "abstentions": 28,
+   "pour_abs": {
+      "ins": 9.12
+   },
+   "votants": 279,
+   "pour_vot": {
+      "ins": 90.88
+   },
+   "blanc_nul": 14,
+   "pour_bl_nuls": {
+      "ins": 4.56,
+      "vot": 5.02
+   },
+   "exprimes": 265,
+   "pour_exp": {
+      "ins": 86.32,
+      "vot": 94.98
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      157,
+      108
+   ],
+   "pour_voix": {
+      "ins": [
+         51.14,
+         35.18
+      ],
+      "exp": [
+         59.25,
+         40.75
+      ]
+   }
+},
+ {
+   "code": 371,
+   "nom_com": "Vezins",
+   "inscrits": 1172,
+   "abstentions": 136,
+   "pour_abs": {
+      "ins": 11.6
+   },
+   "votants": 1036,
+   "pour_vot": {
+      "ins": 88.4
+   },
+   "blanc_nul": 57,
+   "pour_bl_nuls": {
+      "ins": 4.86,
+      "vot": 5.5
+   },
+   "exprimes": 979,
+   "pour_exp": {
+      "ins": 83.53,
+      "vot": 94.5
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      583,
+      396
+   ],
+   "pour_voix": {
+      "ins": [
+         49.74,
+         33.79
+      ],
+      "exp": [
+         59.55,
+         40.45
+      ]
+   }
+},
+ {
+   "code": 373,
+   "nom_com": "Lys-Haut-Layon",
+   "inscrits": 5726,
+   "abstentions": 691,
+   "pour_abs": {
+      "ins": 12.07
+   },
+   "votants": 5035,
+   "pour_vot": {
+      "ins": 87.93
+   },
+   "blanc_nul": 220,
+   "pour_bl_nuls": {
+      "ins": 3.84,
+      "vot": 4.37
+   },
+   "exprimes": 4815,
+   "pour_exp": {
+      "ins": 84.09,
+      "vot": 95.63
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      3007,
+      1808
+   ],
+   "pour_voix": {
+      "ins": [
+         52.51,
+         31.58
+      ],
+      "exp": [
+         62.45,
+         37.55
+      ]
+   }
+},
+ {
+   "code": 374,
+   "nom_com": "Villebernier",
+   "inscrits": 1047,
+   "abstentions": 155,
+   "pour_abs": {
+      "ins": 14.8
+   },
+   "votants": 892,
+   "pour_vot": {
+      "ins": 85.2
+   },
+   "blanc_nul": 49,
+   "pour_bl_nuls": {
+      "ins": 4.68,
+      "vot": 5.49
+   },
+   "exprimes": 843,
+   "pour_exp": {
+      "ins": 80.52,
+      "vot": 94.51
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      454,
+      389
+   ],
+   "pour_voix": {
+      "ins": [
+         43.36,
+         37.15
+      ],
+      "exp": [
+         53.86,
+         46.14
+      ]
+   }
+},
+ {
+   "code": 377,
+   "nom_com": "Villevêque",
+   "inscrits": 1933,
+   "abstentions": 229,
+   "pour_abs": {
+      "ins": 11.85
+   },
+   "votants": 1704,
+   "pour_vot": {
+      "ins": 88.15
+   },
+   "blanc_nul": 90,
+   "pour_bl_nuls": {
+      "ins": 4.66,
+      "vot": 5.28
+   },
+   "exprimes": 1614,
+   "pour_exp": {
+      "ins": 83.5,
+      "vot": 94.72
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      870,
+      744
+   ],
+   "pour_voix": {
+      "ins": [
+         45.01,
+         38.49
+      ],
+      "exp": [
+         53.9,
+         46.1
+      ]
+   }
+},
+ {
+   "code": 378,
+   "nom_com": "Vivy",
+   "inscrits": 1493,
+   "abstentions": 214,
+   "pour_abs": {
+      "ins": 14.33
+   },
+   "votants": 1279,
+   "pour_vot": {
+      "ins": 85.67
+   },
+   "blanc_nul": 64,
+   "pour_bl_nuls": {
+      "ins": 4.29,
+      "vot": 5
+   },
+   "exprimes": 1215,
+   "pour_exp": {
+      "ins": 81.38,
+      "vot": 95
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      757,
+      458
+   ],
+   "pour_voix": {
+      "ins": [
+         50.7,
+         30.68
+      ],
+      "exp": [
+         62.3,
+         37.7
+      ]
+   }
+},
+ {
+   "code": 381,
+   "nom_com": "Yzernay",
+   "inscrits": 1438,
+   "abstentions": 175,
+   "pour_abs": {
+      "ins": 12.17
+   },
+   "votants": 1263,
+   "pour_vot": {
+      "ins": 87.83
+   },
+   "blanc_nul": 51,
+   "pour_bl_nuls": {
+      "ins": 3.55,
+      "vot": 4.04
+   },
+   "exprimes": 1212,
+   "pour_exp": {
+      "ins": 84.28,
+      "vot": 95.96
+   },
+   "sexe": [
+      "M",
+      "F"
+   ],
+   "nom": [
+      "SARKOZY",
+      "ROYAL"
+   ],
+   "prenom": [
+      "Nicolas",
+      "Ségolène"
+   ],
+   "voix": [
+      809,
+      403
+   ],
+   "pour_voix": {
+      "ins": [
+         56.26,
+         28.03
+      ],
+      "exp": [
+         66.75,
+         33.25
+      ]
+   }
+}
+]

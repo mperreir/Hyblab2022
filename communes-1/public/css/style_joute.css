@@ -1,0 +1,17 @@
+
+.joute-loader {
+	z-index: 100;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+	background-color: #C57EB3;
+}
+
+.joute-loader img {
+	height: auto;
+	width: 50%;
+	--animate-duration: 1s;
+}

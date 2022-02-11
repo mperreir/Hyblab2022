@@ -1,0 +1,271 @@
+<!doctype html>
+
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <title>Hyblab 2022</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/loadingio/loading.css@v2.0.0/dist/loading.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link href='https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap'
+    rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap'
+    rel='stylesheet'>
+  <link href="https://vjs.zencdn.net/7.6.6/video-js.css" rel="stylesheet" />
+  <!-- favicon -->
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <!-- JS libs -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+  <!-- import lottie for animations -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.8.1/lottie.min.js"></script>
+  <!-- import swiper -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!-- import howler for audios -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+  <script src="js/utils/textes.js"></script>
+  <script src="js/utils/animation.js" defer></script>
+  <script src="js/utils/audio.js" defer></script>
+  <script src="js/utils/arrow.js" defer></script>
+  <script src="js/views/home.js" defer></script>
+  <script src="js/views/falling.js" defer></script>
+  <script src="js/views/p1.js" defer></script>
+  <script src="js/views/p4.js" defer></script>
+  <script src="js/views/p3.js" defer></script>
+  <script src="js/views/p2.js" defer></script>
+  <script src="js/views/p5.js" defer></script>
+  <script src="js/views/p6.js" defer></script>
+  <script src="js/views/thanks.js" defer></script>
+  <script src="js/views/credits.js" defer></script>
+  <script src="js/index.js" defer></script>
+</head>
+
+<body>
+  <!-- Le conteneur sert à vérouiller les proportions (aspect ratio) du contenu de la page (ici des slides) -->
+  <div id="container">
+    <div id="mySwiper" class="swiper">
+      <!-- le main est aussi le conteneur des différents slides (contenus à chaque fois dans des sections-->
+      <main class="swiper-wrapper">
+        <section id="homepage" class="swiper-slide">
+          <!-- <div id="homeBackground"></div> -->
+          <!-- Logo "MOUA PRESIDENT" -->
+          <div class="logo-container">
+            <img src="img/logos/logo-white.svg" alt="Moua President Logo" />
+          </div>
+
+          <!-- Illustration animé -->
+          <div id="background"></div>
+          <div id="spaceship"></div>
+
+          <p></p>
+          <!-- Play Button -->
+          <div class="button-container">
+            <input id="play-button" type="button" value="Jouer">
+            <div id="headphone">
+              <div id="headphone-img">
+                <img src="img/elements/headphone.svg"></img>
+              </div>
+              <p><b>Conseil :</b> branchez un casque pour une meilleure immersion.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="swiper-slide" , id="falling">
+          <div id="background-container"></div>
+          <div id="moua-falling"></div>
+          <div class='bulle'>
+            <p>
+              En incarnant Moua, un être venu d’ailleurs devenu malgré lui le Président français sous la Vème
+              république, découvrez et expérimentez les pouvoirs du chef du pays.<br> Laissez vous guider tout le long
+              du
+              jeu. Choisissez la ou les bonnes réponses pour chaque situation.<br><br>
+            </p>
+          </div>
+          <input id="next-button" type="button" value="Commencer">
+        </section>
+
+
+        <section class="swiper-slide" id="p1">
+          <div class="title" style="height:15%">
+            <img class="pouvoir-header" src="img/headers/POUVOIR_1.svg">
+          </div>
+
+        </section>
+
+        <section class="swiper-slide" id="p2">
+          <div class=title>
+            <img class="pouvoir-header" src="img/headers/POUVOIR_2.svg">
+          </div>
+
+          <div id="bulle-container-moua">
+            <img id='bulle-moua' src="img/dialogBoxes/P2_SMALL_MOUA.svg">
+            <p>
+            </p>
+          </div>
+
+          <div id="bulle-container-pm">
+            <img id='bulle-pm' src="img/dialogBoxes/P2_SMALL_MINISTRE.svg">
+            <p>
+            </p>
+          </div>
+
+          <img src="img/elements/click-here.png" id="interest-point">
+
+          <div id="note">
+            <p></p>
+          </div>
+
+          <div id="drawing-container">
+            <img src="img/elements/Decret.svg">
+            <canvas id="drawPlace"></canvas>
+            <input id="send-button" type="button" disabled value="Envoyer">
+            <p>SIGNE AVEC TON DOIGT ICI</p>
+          </div>
+
+
+        </section>
+
+        <section class="swiper-slide" id="p3">
+          <div class="title" style="height:15%">
+            <img class="pouvoir-header" src="img/headers/POUVOIR_3.svg">
+          </div>
+        </section>
+
+        <section class="swiper-slide" id="p4">
+          <div class="title" style="height:15%">
+            <img class="pouvoir-header" id="header4" src="img/headers/POUVOIR_4.svg">
+          </div>
+
+          <div id="p4-bulle-container">
+            <img id='p4-bulle-pm' src="img/dialogBoxes/P4_MEDIUM_SECRETAIRE_1.svg">
+            <p id = 'p4p1' style="text-align: left;">
+            </p>
+          </div>
+
+          <img src="img/elements/click-here.png" id="p4-interest-point">
+
+          <div id=buttons-container>
+            <div id="assemblee">
+              <img class="button-illu" src="img/elements/ASSEMBLE DES MAIRES.svg">
+              <img id="invalid1" class="validityIcon" src="img/elements/button_invalid.svg">
+              <p class = "positiontext">Assemblée des maires de France</p>
+            </div>
+
+            <div id="maires">
+              <img class="button-illu" src="img/elements/PRESIDENT DES MAIRES.svg">
+              <img id="valid2" class="validityIcon" src="img/elements/button_valid.svg">
+              <p  class = "positiontext" style = "padding-top:3%;height:25%">Président de l’Assemblée Nationale / Sénat</p>       
+            </div>
+
+            <div id="conseil">
+              <img class="button-illu" src="img/elements/CONSEIL CONSTITU.svg">
+              <img id="valid3" class="validityIcon" src="img/elements/button_valid.svg">
+              <p  class = "positiontext">Conseil constitutionnel</p>
+            </div>
+
+            <div id="prime">
+              <img class="button-illu" src="img/elements/PREMIER MINISTRE.svg">
+              <img id="valid4" class="validityIcon" src="img/elements/button_valid.svg">
+              <p  class = "positiontext" style = "padding-top: 10%;height:13%">Premier Ministre</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="swiper-slide" id="p5">
+          <div class=title>
+            <img class="pouvoir-header" src="img/headers/POUVOIR_5.svg">
+          </div>
+          <div id="animationsContainer"></div>          
+          <div class="phoneButton">
+            <img src="img/buttons/phoneButton.svg">
+          </div>
+          <div id="note">
+            <p></p>
+          </div>
+        </section>
+        <section class="swiper-slide" id="p6">
+          <div class="title">
+            <img class="pouvoir-header" src="img/headers/POUVOIR_6.svg">
+          </div>
+          <div class="dialog-before dialog" style="height: 25%;">
+            <img src="img/dialogBoxes/ETAT MOYEN.svg">
+            <p class="dialog-text"></p>
+            <p class="arrow-medium">▼</p>
+          </div>
+
+          <div class="dialog-moua dialog" style="display: none; height: 25%;">
+            <img src="img/dialogBoxes/P6_SMALL_MOUA.svg">
+            <p class="dialog-text"></p>
+            <p class="arrow-small">▼</p>
+          </div>
+
+          <div class="decompte" style="display: none;">
+            <p><b></b></p>
+          </div>
+
+          <div class="dialog-pressed dialog" style="display: none;">
+            <img src="img/dialogBoxes/ETAT MOYEN.svg">
+            <p class="dialog-text"></p>
+            <p class="arrow-medium">▼</p>
+          </div>
+
+          <div class="dialog-not-pressed dialog" style="display: none;">
+            <img src="img/dialogBoxes/ETAT MOYEN.svg">
+            <p class="dialog-text"></p>
+            <p class="arrow-medium">▼</p>
+          </div>
+
+          <div class="info1 dialog" style="display: none;">
+            <img src="img/dialogBoxes/P6_MEDIUM_NOTE.svg">
+            <p class="dialog-text" style="text-align: center;">
+            </p>
+            <p class="arrow-medium">▼</p>
+          </div>
+
+          <div class="info2 dialog" style="display: none;">
+            <img src="img/dialogBoxes/P6_MEDIUM_NOTE.svg">
+            <p class="dialog-text" style="text-align: center;">
+            </p>
+          </div>
+          
+          <div class="bouton-rouge">
+            <img src="img/elements/BOUTON NUCLEAIRE.svg">
+          </div>
+
+          <div class="illu-fin" style="display: none;">
+            <img src="img/elements/ILLUSTRATION_POUVOIR 6.svg">
+          </div>
+
+        </section>
+
+        <section class="swiper-slide" id="thanks">
+          <div id="thanks-background">
+            <img src="img/dialogBoxes/MERCI.svg">
+            <p id ="thanks-text"></p>
+          </div>
+        </section>
+
+        <section class="swiper-slide" id="credit" style="position: relative;">
+          <img src="img/credits/CREDIT.svg" style="height: 100%; position: absolute; top: 0%;">
+          <div>
+            <a href="https://creativecommons.org/"><img src="img/credits/CC.svg" style="padding: 15%;"></a>
+            <a href="https://www.agr.fr/"><img src="img/credits/AGR.svg"></a>
+            <a href="https://polytech.univ-nantes.fr/"><img src="img/credits/POLYTECH.svg"></a>
+            <a href="https://www.univ-nantes.fr/"><img src="img/credits/UNIVERSITE.svg"></a>
+            <a href="https://www.ouestmedialab.fr/"><img src="img/credits/MEDIALAB.svg"></a>
+            <a href="https://metropole.nantes.fr/"><img src="img/credits/METROPOLE.svg"></a>
+            <a href="https://opensource.org/"><img src="img/credits/OSI.png"></a>     
+            <a href="https://www.hyblab.fr/" ><img src="img/credits/HYBLAB.svg"></a>
+          </div>
+        </section>
+      </main>
+      <!-- <div class="swiper-pagination"></div> -->
+    </div>
+  <img id="arrowSwipe" src="img/arrow.svg">
+  </div>
+</body>
+
+</html>

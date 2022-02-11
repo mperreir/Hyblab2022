@@ -1,0 +1,103 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+@font-face {
+    font-family: 'blatantregular';
+    src: url('../font/blatant-webfont.woff') format('woff'),
+         url('../font/blatant-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    background-color: black;
+    color: white;
+    overflow: hidden;   /* to avoid slider bugs on some browsers */
+    font-family: 'blatantregular';
+}
+
+#container {
+    color:#1A367A;
+    background-color: white;
+    font-size: 35%;
+    padding-top: 25px;
+    height:100vh;
+    overflow: hidden;
+    text-align: center;
+}
+
+#return {
+    padding-top: 7%;
+    margin-left: 79%;
+    width: 8%;
+}
+
+#illu {
+    position:relative;
+    height:40vh;
+    margin-bottom: 3%;
+}
+
+#title {
+    font-size: 4vh;
+    font-style: bold;
+}
+
+#paragraph {
+    font-size: 2.15vh; 
+    font-family: 'Lato', sans-serif;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#commencer-section{
+    display: flex;
+    justify-content: center;
+}
+
+#button-explorer {
+    background-color: #5571E5;
+    color: #FFFFFF;
+    border-radius: 19px;
+    font-size: 2.7vh;
+    margin-top: 3vh;
+    line-height: 6vh;
+    padding-left: 2%;
+    padding-right: 2%;
+    border:none;
+    font-family: 'blatantregular';
+    width: 80%;
+}
+
+@media screen and (max-aspect-ratio: 9/16){
+    #container{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    /* We set a default font size here. It will be the base for all other font sizes */
+    /* Here the font size is proportional to display width */
+    body{
+        font-size: calc(12vw*9/16);
+    }
+}
+
+/* This media query ensures that we allways will the height of the screen */
+/* as long as the screen aspect ratio is higher than 9:16 */
+@media screen and (min-aspect-ratio: 7/13){
+    #container{
+        margin-left: calc((100vw - 100 * 9vh / 16) / 2);
+        width: calc(100 * 9vh / 16);
+        height: 100vh;
+    }
+
+    /* We set a default font size here. It will be the base for all other font sizes */
+    /* Here the font size is proportional to display height */
+    body{
+        font-size: 12vh;
+    }
+}

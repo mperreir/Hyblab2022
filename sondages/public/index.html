@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <title>Poll Position - Hyblab 2022</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Kanit:ital,wght@0,200;0,400;0,500;1,200;1,400;1,500&display=swap"
+              rel="stylesheet">
+
+        <script src="js/intentions.js" defer></script>
+        <script src="js/main.js" defer></script>
+    </head>
+
+    <body>
+        <div id="Introduction">
+            <video src="anim/anim_debut_final.mp4" muted></video>
+
+            <div class="loader">
+                <img src="img/logo_white.svg" class="logo" alt="">
+                <p>Présidentielle : la course dans les sondages</p>
+                <p class="load">Chargement en cours...</p>
+            </div>
+        </div>
+
+        <button id="fonctionnementButton">
+            <img src="img/bouton_fonctionnement.svg" alt="fonctionnement"/>
+        </button>
+
+        <button id="creditsButton">
+            <img src="img/bouton_credits.svg" alt="crédit"/>
+        </button>
+
+        <div id="container">
+            <header>
+                <div class="forCars">
+                    <div class="main">
+                        <img src="img/logo.svg" class="logo" alt="logo Poll Position">
+                        <p class="sub">Présidentielle : la course dans les sondages</p>
+
+                        <div class="details">
+                            <div class="top">
+                                <div class="title">Candidats</div>
+                                <button id="ShowCandidat"><img src="img/bouton_plus.svg" alt="bouton plus"></button>
+                            </div>
+
+                            <div id="CandidatSelection" class="hidden"></div>
+                        </div>
+
+                        <div class="details">
+                            <div class="top">
+                                <div class="title">Courses</div>
+                                <button id="ShowCourses"><img src="img/bouton_moins.svg" alt="bouton moins"></button>
+                            </div>
+
+                            <div id="CourseSelection" class="body">
+                                <div class="btn right">
+                                    <img src="img/voiture_verte.svg" alt="Aston Martin Cognizant F1 Team">
+                                    <button id="BtnCourse30" class="selected">Tête de course : 15% à 30%</button>
+                                </div>
+
+                                <div class="btn center">
+                                    <img src="img/voiture_orange.svg" alt="McLaren F1 Team">
+                                    <button id="BtnCourse15">Milieu de course : 5% à 15%</button>
+                                </div>
+
+                                <div class="btn">
+                                    <img src="img/voiture_noire.svg" alt="Mercedes-AMG Petronas Formula One Team">
+                                    <button id="BtnCourse5">Fin de course : 0% à 5%</button>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <div id="fonctionnementPOPUP">
+                            <h1 class="creditsTitle">Candidats</h1>
+
+                            <div class="candidatsFonctionnementDiv">
+                                <p>Choisis les candidats dont tu souhaites voir la course dans les sondages.</p>
+                                <p>Lance la course et fais défiler pour voir la progression des candidats.</p>
+                            </div>
+
+                            <div class="coursesDiv">
+                                <h1 class="creditsTitle">Courses</h1>
+                                <p>Pré-sélections pour observer en détail certaines parties de la course.</p>
+                            </div>
+                        </div>
+
+                        <div id="creditsPOPUP">
+                            <h1 class="creditsTitle">Credits</h1>
+                            <br/>Projet réalisé en janvier-février 2022<br/>par les étudiants de Polytech Nantes :
+
+                            <p><a href="https://www.linkedin.com/in/josik-sallaud/">Josik Sallaud</a></p>
+                            <p><a href=" https://www.linkedin.com/in/nathan-rocher/">Nathan Rocher</a></p>
+                            <p><a href=" https://www.linkedin.com/in/henri-fakhouri-6618a6125/">Henri Fakhouri</a></p>
+                            <p><a href=" https://www.linkedin.com/in/adame-naji/">Adame Naji</a></p>
+                            <p><a href="https://www.linkedin.com/in/mattéo-boursault-485b30227/">Mattéo Boursault</a></p>
+
+                            <br/>Ainsi que les étudiants de l'école AGR :
+                            <p><a href="https://www.instagram.com/mooneow/?hl=fr">Angèle Renaudin</a></p>
+                            <p><a href="https://www.instagram.com/tim_skern/?hl=fr">Timothée Guitton</a></p>
+
+                            <br/>Ce projet est soutenu par :<br>
+
+                            <div>
+                                <img class="logoImages" src="img/logos/logo_nantesmetropole.png" alt="Logo Nantes Métropole">
+                                <img class="logoImages" src="img/logos/logo_oml.png" alt="Logo OML">
+                                <img class="logoImages" src="img/logos/logo_nantesuniversite.png" alt="Logo Nantes Université">
+                                <img class="logoImages" src="img/logos/logo_polytech.png" alt="Logo Polytech Nantes">
+                                <img class="logoImages" src="img/logos/logo_agr.png" alt="Logo AGR">
+                                <img class="logoImages" src="img/logos/logo_hyblab.png" alt="Logo Hyblab">
+                            </div>
+
+                            <br/>Ce projet a été développé sous :
+                            <div>
+
+                                <img class="logoImages" src="img/logos/logo_opensource.png" alt="Logo OpenSource Initiative">
+                                <img class="logoImages" src="img/logos/logo_cc.png" alt="Logo Creative Common">
+                            </div>
+                        </div>
+                    </div>
+
+                    <img src="img/voiture_bleue.svg" class="car car-b" alt="Alpine F1 Team">
+                    <img src="img/voiture_rouge.svg" class="car car-r" alt="Scuderia Ferrari Mission Winnow">
+
+                </div>
+
+                <div class="startTheRace">
+                    <button id="startTheRace">Démarrer la course</button>
+                    <img src="img/damier.svg" class="damier" alt="Damier">
+                </div>
+
+                <div class="routeDebut"></div>
+            </header>
+
+            <div id="animation">
+                <div id="race">
+                    <img id="PATTERN_EXAMPLE" src="./img/pattern/fond2.svg" style="display:block; visibility: hidden; width:100%; height: auto; position: absolute; right:0" alt="pattern example">
+                    <img src="img/logo.svg" class="logo" alt="logo Poll Position">
+
+                    <div class="regle">
+                        <div class="line">
+                            <div id="RegleBas" class="number">
+                                0%
+                            </div>
+                        </div>
+
+                        <div class="mark"></div>
+                        <div class="mark"></div>
+                        <div class="mark"></div>
+                        <div class="mark"></div>
+                        <div class="mark"></div>
+                        <div class="mark"></div>
+                        <div class="mark"></div>
+                        <div class="mark"></div>
+                        <div class="mark"></div>
+                        <div class="mark"></div>
+                        <div class="mark"></div>
+                        <div class="mark"></div>
+                        <div class="mark"></div>
+                        <div class="mark"></div>
+                        <div class="mark"></div>
+                        <div class="mark"></div>
+                        <div class="mark"></div>
+                        <div class="mark"></div>
+                        <div class="mark"></div>
+                        <div class="mark"></div>
+                        <div class="mark"></div>
+                        <div class="mark"></div>
+                        <div class="mark"></div>
+                        <div class="mark"></div>
+
+                        <div class="line">
+                            <div id="RegleHaut" class="number">30%</div>
+                        </div>
+                    </div>
+
+                    <div id="TimeInfo">
+                        <div class="slider">
+                            <div class="progress">
+                                <div class="point">
+                                    <div class="date">12/12/2022</div>
+                                </div>
+                            </div>
+                            <img class="damier" src="img/elements_temps_damier.svg" alt="damier">
+                            <img class="drapeau" src="img/elements_temps_drapeau.svg" alt="drapeau">
+                        </div>
+                    </div>
+                </div>
+
+                <div id="BACKGROUNDS"></div>
+
+                <div id="LastPoll">
+                    <p>Dernier sondage</p>
+                    <p>Le</p>
+                </div>
+            </div>
+
+            <footer>
+                <button id="restartTheRace">Recommencer</button>
+                <p>La course des sondages à laquelle tu viens d’assister ne reflète que les intentions de votes mesurées au 1er tour.</p>
+                <p>L’élection présidentielle se joue les 10 et 24 avril prochain.</p>
+                <p>Vote !</p>
+            </footer>
+
+            <div class="afterFooter">
+                <h1 class="creditsTitle">Credits</h1>
+                <br/>Projet réalisé en janvier-février 2022<br/>par les étudiants de Polytech Nantes :
+
+                <p><a href="https://www.linkedin.com/in/josik-sallaud/">Josik Sallaud</a></p>
+                <p><a href=" https://www.linkedin.com/in/nathan-rocher/">Nathan Rocher</a></p>
+                <p><a href=" https://www.linkedin.com/in/henri-fakhouri-6618a6125/">Henri Fakhouri</a></p>
+                <p><a href=" https://www.linkedin.com/in/adame-naji/">Adame Naji</a></p>
+                <p><a href="https://www.linkedin.com/in/mattéo-boursault-485b30227/">Mattéo Boursault</a></p>
+
+                <br/>Ainsi que les étudiants de l'école AGR :
+                <p><a href="https://www.instagram.com/mooneow/?hl=fr">Angèle Renaudin</a></p>
+                <p><a href="https://www.instagram.com/tim_skern/?hl=fr">Timothée Guitton</a></p>
+                <br>
+                Les données utilisées proviennent de <a href="https://github.com/nsppolls/nsppolls">NSP Polls</a>.
+                <br/>Ce projet est soutenu par :<br>
+                <div>
+                    <img class="logoImages" src="img/logos/logo_nantesmetropole.png" alt="Logo Nantes Métropole">
+                    <img class="logoImages" src="img/logos/logo_oml.png" alt="Logo OML">
+                    <img class="logoImages" src="img/logos/logo_nantesuniversite.png" alt="Logo Nantes Université">
+                    <img class="logoImages" src="img/logos/logo_polytech.png" alt="Logo Polytech Nantes">
+                    <img class="logoImages" src="img/logos/logo_agr.png" alt="Logo AGR">
+                    <img class="logoImages" src="img/logos/logo_hyblab.png" alt="Logo Hyblab">
+                </div>
+                <br/>Ce projet a été développé sous :
+                <div>
+                    <img class="logoImages" src="img/logos/logo_opensource.png" alt="Logo OpenSource Initiative">
+                    <img class="logoImages" src="img/logos/logo_cc.png" alt="Logo Creative Common">
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
