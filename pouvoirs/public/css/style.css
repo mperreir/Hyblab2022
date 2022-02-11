@@ -1,191 +1,949 @@
 /* ------- Important ! Please at least keep the last part of this CSS ----------- */
 /* that forces a 9:16 format (portrait) on all contents */
 
+@font-face {
+  font-family: "First Fun";
+  src: url("fonts/first-fun/FirstFun-Regular.eot");
+  src: url("fonts/first-fun/FirstFun-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/first-fun/FirstFun-Regular.woff2") format("woff2"),
+    url("fonts/first-fun/FirstFun-Regular.woff") format("woff"),
+    url("fonts/first-fun/FirstFun-Regular.svg#FirstFun-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 /* Normalize margin and padding to ease elements positioning */
-*{
-    padding:0;
-    margin:0;
+* {
+  padding: 0;
+  margin: 0;
+  width: 100%;
 }
 
-body{
-    background-color: black;
-    color: white;
-    overflow: hidden;   /* to avoid slider bugs on some browsers */
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+body {
+  background-color: black;
+  color: #e5e5e5;
+  overflow: hidden; /* to avoid slider bugs on some browsers */
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
 }
 
-#container{
-    position: relative; /* for absolute positionning of child elements*/
+b {
+  font-weight: 900;
 }
 
-/* -------------- Loader --------------*/
-#loader{
-    z-index: 2;
-    position:absolute;
+#container {
+  position: relative; /* for absolute positionning of child elements*/
 }
-
-#loader-img{
-    top:40%;
-    left:40%;
-    position: absolute;
-}
-
-#loader-text{
-    text-align: center;
-    font-size: 25%;
-    position: absolute;
-    top:60%;
-    width: 100%
-}
-/* -------------- End of Loader --------------*/
 
 /* Swiper slider. Need to fill the 9:16 constrained container */
-#mySwiper{
-    width: 100%;
-    height:100%;
-    position: absolute;
+#mySwiper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.swiper-pagination {
+  height: 0% !important;
+}
+.swiper-pagination-bullet {
+  background-color: #d4c2f0 !important;
 }
 
-/* white navigation bullets */
 .swiper-pagination-bullet-active {
-    background-color: white !important;
+  background-color: #4f00ec !important;
 }
 
 /* the slides and the loader should fill the whole 9:16 zone */
-.swiper-wrapper section, #loader{
-    background-color: dodgerblue;
-    width: 100%;
-    height: 100%;
+.swiper-wrapper section {
+  background-color: white;
+  width: 100%;
+  height: 100%;
 }
 
-/* Pour que la vidéo remplisse son conteneur (elle sera un peu coupée si nécessaire...) */
-.vjs-tech { object-fit: cover; }
-
-/* Most of the elements in this demo are absolute positionned with percentages */
-#first-slide header{
-    text-align: center;
-    width: 100%;
-    top: 10%;
-    position: absolute;
-    font-size: 30%;
-    z-index: 2;
+/* Styles for the homepage */
+#homepage {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  background-color: white;
 }
 
-#logo-hyblab{
-    text-align: center;
-    width: 50%;
-    left: 50%;
-    top: 50%;
-    margin-left:-25%;
-    margin-top:calc(-7.5% * 9 / 16 ); /* margins are relative to the element width... :-( */
-    position: absolute;
-    font-size: 50%;
-    z-index: 2;
-    cursor: pointer;
+.logo-container {
+  width: 100%;
+  height: 25%;
+  background-color: transparent;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  z-index: 3;
 }
 
-/* Last slide image is centered */
-#img-fini{
-    width: 50%;
-    left: 50%;
-    top: 40%;
-    position: absolute;
-    margin-left:-25%;
-    margin-top:calc(-25% * 9 / 16 ); /* margins are relative to the element width... :-( */
+.logo-container img {
+  width: 50%;
 }
 
-/* Footer of last slide is at the bottom and content is centered */
-#first-slide footer{
-    bottom: 5%;
-    position: absolute;
-    font-size: 20%;
-    text-align: center;
-    padding: 0 1em;
+#background {
+  height: 55%;
+  width: 100%;
 }
 
+#background svg {
+  position: absolute;
+  bottom: 0;
+}
 
-/* ---------- Positionning of logos on the last slide ----------------- */
-/* here we have a contraint on the height of the logos (not the width) */
-/* so we cannot use % and use em (which are proportinal to the size of the */
-/* slide because of body's font size rule at the beginning of this CSS */
-#bandeau {
-    padding-top: 3%;
-    width:100%;
-    height:25%;
-    position: absolute;
-    bottom: 0;
-    background-color: white;
-    font-size: 20%;
-  }
+#spaceship svg {
+  position: absolute;
+  top: -3%;
+}
 
-  #bandeau li{
-    list-style-type: none;
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0 0.5em;
-  }
+#homepage p {
+  font-family: "First Fun", Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+  font-size: 19%;
+  font-weight: 700;
+  width: 85%;
+  text-align: center;
+  z-index: 3;
+  color: #6450ce;
+}
 
-  #bandeau img{
-    height: 1.5em;
-  }
+.button-container {
+  position: absolute;
+  bottom: 2%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
 
-  #bandeau #hyblab{
-    margin: 1em auto;
-    height: 3em;
-    display: block;
-  }
+#headphone {
+  display: none;
+  opacity: 0;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+  padding: 5%;
+}
 
-  #bandeau #cc, #bandeau #opensource
-  {
-    height: 1em;
-  }
+#headphone p {
+  font-family: "Nunito";
+}
 
-  #bandeau .stacked{
-    display:block;
-  }
+#headphone p b {
+  font-family: "Nunito";
+  font-weight: 900;
+}
 
-  #bandeau ul{
-    text-align: center;
-    padding: 0 0;
-  }
+#headphone-img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20%;
+}
 
-  #bandeau .institutionnel
-  {
-    height: 2em;
+#play-button {
+  font-family: "First Fun";
+  font-size: 30%;
+  height: 70%;
+  width: 80%;
+  background-color: #0af2e1;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s; /* Safari */
+}
+
+#play-button:hover,
+#next-button:hover {
+  transition-duration: 0.1s;
+  background-color: #4f00ec;
+}
+
+/* Falling alien page */
+
+#falling p {
+  font-family: "Nunito";
+  font-size: 18%;
+  font-weight: 700;
+}
+
+#falling {
+  /* Flexbox to center the entire element on the screen */
+  display: flex;
+  justify-content: center;
+  /* This is a magic number based on the context in which this snippet is used and effects the perspective */
+  margin: auto;
+  width: 100%;
+}
+
+#background-container {
+  height: 60%;
+  width: 100%;
+}
+#moua-falling {
+  height: 60%;
+  width: 100%;
+}
+#moua-falling svg {
+  position: absolute;
+  bottom: -3%;
+  left: 0%;
+}
+
+#background-container svg {
+  position: absolute;
+  top: 0;
+}
+#falling .bulle {
+  position: absolute;
+  top: 5%;
+  width: 70%;
+  left: 8%;
+  background: #4f00ec;
+  padding: 5%;
+  border: 4px solid #0af2e1;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+#next-button {
+  position: absolute;
+  bottom: 5%;
+  left: 10%;
+  font-family: "First Fun";
+  font-size: 30%;
+  width: 80%;
+  height: 7%;
+  background-color: #0af2e1;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0;
+}
+
+/* Styles for all "power" sections */
+.title h1 {
+  font-size: 16%;
+  background-color: none;
+  color: white;
+  font-family: "First Fun";
+  font-weight: 100;
+  position: absolute;
+  width: auto;
+  letter-spacing: normal;
+  z-index: 5;
+  left: 6.5%;
+  top: 10.5%;
+}
+#p2 .title h1 {
+  font-weight: lighter;
+}
+.pouvoir-header {
+  width: 90%;
+}
+
+/* Mission 2 : Decret */
+
+#p2 {
+  background: white;
+  touch-action: none;
+}
+
+#bulle-container-pm,
+#bulle-container-moua {
+  opacity: 0;
+}
+
+#bulle-moua {
+  position: absolute;
+  width: 85%;
+  left: 5.5%;
+  top: 17%;
+}
+
+#bulle-pm {
+  position: absolute;
+  width: 85%;
+  left: 5.5%;
+  top: 36%;
+}
+
+#p2 p {
+  font-family: "Nunito";
+  font-size: 16%;
+  position: absolute;
+  width: 68%;
+  z-index: 2;
+  text-align: left;
+}
+
+#bulle-container-moua p {
+  top: 19%;
+  right: 16%;
+}
+
+#bulle-container-pm p {
+  top: 38%;
+  left: 16%;
+}
+
+#p2 b {
+  font-family: "Nunito";
+  font-weight: 800;
+  text-align: left;
+}
+
+#drawing-container {
+  position: absolute;
+  bottom: -50%;
+  height: 50%;
+  background-color: #d0bff7;
+}
+
+#drawing-container canvas {
+  width: 80%;
+  height: 25%;
+  position: absolute;
+  bottom: 25%;
+  left: 10%;
+  border-radius: 15px;
+  background-color: #e9e7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#drawing-container img {
+  width: 80%;
+  position: absolute;
+  bottom: 57%;
+  left: 10%;
+}
+
+#send-button {
+  position: absolute;
+  width: 65%;
+  height: 15%;
+  bottom: 5%;
+  left: 17.5%;
+  font-family: "Nunito";
+  font-weight: 800;
+  font-size: 20%;
+  background-color: #0af2e1;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0;
+}
+
+#send-button:disabled {
+  background-color: #aaaaaa;
+}
+
+#drawing-container p {
+  position: absolute;
+  bottom: 34%;
+  width: 100%;
+  font-family: "Nunito";
+  font-weight: 900;
+  text-align: center;
+  color: #c4c4c4;
+  z-index: 4;
+}
+
+#interest-point {
+  display: none;
+  position: absolute;
+  top: 70%;
+  right: 36%;
+  z-index: 10;
+  width: 30%;
+  height: auto;
+  -webkit-animation: blink 2s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation: blink 2s;
+  -moz-animation-iteration-count: infinite;
+  -o-animation: blink 2s;
+  -o-animation-iteration-count: infinite;
+}
+
+#p2 #note {
+  opacity: 0;
+  position: absolute;
+  background: #f4c708;
+  right: 10%;
+  top: 22%;
+  height: 20%;
+  width: 80%;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#p2 #note p {
+  font-size: 17%;
+  font-family: "Nunito";
+  font-weight: 700;
+  text-align: center;
+}
+
+/* p4 */
+
+#p4-interest-point {
+  display: none;
+  position: absolute;
+  top: 70%;
+  right: 36%;
+  z-index: 10;
+  width: 30%;
+  height: auto;
+  -webkit-animation: blink 2s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation: blink 2s;
+  -moz-animation-iteration-count: infinite;
+  -o-animation: blink 2s;
+  -o-animation-iteration-count: infinite;
+}
+
+#p4-bulle-pm {
+  position: absolute;
+  width: 85%;
+  top: 20%;
+  left: 5.5%;
+}
+
+#p4-bulle-container p {
+  position: absolute;
+  color: white;
+  font-size: 15%;
+  width: 68%;
+  top: 23%;
+  left: 16%;
+  z-index: 2;
+}
+
+#invalid1,
+#valid2,
+#valid3,
+#valid4 {
+  display: none;
+  position: absolute;
+  width: 15%;
+  top: 40%;
+}
+
+#invalid1 {
+  left: -7%;
+}
+
+#valid2 {
+  right: -7%;
+}
+
+#valid3 {
+  left: -7%;
+}
+
+#valid4 {
+  right: -7%;
+}
+
+#assemblee,
+#maires,
+#conseil,
+#prime {
+  position: absolute;
+  width: 35%;
+  height: 18%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 5px;
+  border-radius: 25px;
+  /* padding-bottom: 3%; */
+}
+
+#assemblee {
+  top: 100%;
+  left: 10%;
+}
+
+#maires {
+  top: 100%;
+  right: 10%;
+}
+
+#conseil {
+  top: 120%;
+  left: 10%;
+}
+
+#prime {
+  top: 120%;
+  right: 10%;
+}
+
+.button-illu {
+  width: 50%;
+  /* margin-bottom: 3%; */
+  margin-top: 3%;
+}
+#assemblee .button-illu {
+  width: 50%;
+  margin-top: 3%;
+}
+#maires .button-illu {
+  width: 52%;
+  margin-top: 8%;
+}
+#conseil .button-illu {
+  width: 45%;
+  margin-top: 3%;
+}
+#prime .button-illu {
+  width: 52%;
+  margin-top: 8%;
+}
+
+#buttons-container p {
+  margin-top: -2%;
+  font-family: "First Fun";
+  font-size: 12%;
+  background: #d4c2f0;
+  text-align: center;
+  padding: 5%;
+  width: 90%;
+  height: 18%;
+  border-radius: 25px;
+  color: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Mission 5 : Grâce */
+.phoneButton {
+  position: absolute;
+  top: 73%;
+  left: 42%;
+  width: 80px;
+  height: 73px;
+  cursor: pointer;
+  z-index: 5;
+}
+.phoneButton:hover {
+  opacity: 75%;
+}
+#p5 #animationsContainer svg {
+  position: absolute;
+  top: -5%;
+  z-index: -1;
+}
+
+#animationsContainer img {
+  position: absolute;
+  top: 40%;
+  right: 7%;
+  z-index: 3;
+  width: 13%;
+  height: auto;
+  -webkit-animation: blink 2s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation: blink 2s;
+  -moz-animation-iteration-count: infinite;
+  -o-animation: blink 2s;
+  -o-animation-iteration-count: infinite;
+}
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
   }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#p5 #note {
+  opacity: 0;
+  display: none;
+  position: absolute;
+  background: #f4c708;
+  left: 10%;
+  top: 60%;
+  height: 30%;
+  width: 80%;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#p5 #note p {
+  font-size: 17%;
+  font-family: "Nunito";
+  font-weight: 700;
+  text-align: center;
+  padding: 10%;
+}
+
+#p5 h3 {
+  font-family: "First Fun", Arial, Helvetica, sans-serif;
+  position: absolute;
+  bottom: 35%;
+  left: 7%;
+  font-size: 20%;
+  width: 85%;
+  text-align: center;
+  z-index: 3;
+  color: #6450ce;
+}
+
+.dialogBox p {
+  font-family: "Nunito";
+  font-size: 16%;
+  width: auto;
+  color: white;
+  text-align: left;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+.apply-shake {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+.choices button {
+  font-family: "Nunito";
+  font-size: 16%;
+}
+
+#p6 .dialog {
+  height: 25%;
+  position: relative;
+  text-align: center;
+  color: white;
+  margin: 5% 10%;
+  width: 80%;
+}
+
+#p6 .dialog .dialog-text {
+  font-family: "Nunito";
+  font-weight: 700;
+  font-size: 15%;
+  width: 82%;
+  margin: auto;
+  color: white;
+  text-align: left;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+.arrow-small {
+  position: absolute;
+  margin: auto;
+  font-size: 15%;
+  bottom: 60%;
+  left: 40%;
+}
+
+.arrow-medium {
+  position: absolute;
+  margin: auto;
+  font-size: 15%;
+  bottom: 40%;
+  left: 40%;
+}
+
+.arrow-big {
+  position: absolute;
+  margin: auto;
+  font-size: 15%;
+  bottom: 30%;
+  left: 40%;
+}
+
+#p6 .decompte {
+  display: none;
+  color: #624ece;
+  height: 30%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "First Fun";
+}
+
+#p6 .bouton-rouge {
+  width: 60%;
+  margin: 0% 10%;
+  padding: 10%;
+}
+
+#p6 .illu-fin {
+  width: 95%;
+  margin: 2.5%;
+}
+
+#credit div {
+  position: absolute;
+  bottom: 5%;
+  height: 30%;
+  display: grid;
+  grid-template-columns: repeat(6, 15%);
+  grid-template-rows: repeat(3, 30%);
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#credit div a {
+  grid-column: auto / span 2;
+  width: 70%;
+  display: flex;
+}
+
+#credit div a:nth-last-child(1) {
+  grid-column: 4 / span 2;
+}
+
+#credit div a:nth-last-child(2) {
+  grid-column: 2 / span 2;
+}
 
 /* ---------- Important media queries for easy responsive content :-) ----------------- */
 /* Can be adapted for other ratios that 9:16 or for horizontal content (ex: 16:9) */
 
 /* This media query ensures that we allways will the width of the screen */
 /* as long as the screen aspect ratio is below 9:16 */
-@media screen and (max-aspect-ratio: 9/16){
-    #container{
-        margin-top: calc((100vh - 100 * 16vw / 9) / 2);
-        width: 100vw;
-        height: calc(100 * 16vw / 9);
-    }
+@media screen and (max-aspect-ratio: 9/16) {
+  #container {
+    margin-top: calc((100vh - 100 * 16vw / 9) / 2);
+    width: 100vw;
+    height: calc(100 * 16vw / 9);
+  }
 
-    /* We set a default font size here. It will be the base for all other font sizes */
-    /* Here the font size is proportional to display width */
-    body{
-        font-size: calc(12vw*16/9);
-    }
+  /* We set a default font size here. It will be the base for all other font sizes */
+  /* Here the font size is proportional to display width */
+  body {
+    font-size: calc(12vw * 16 / 9);
+  }
+}
+#thanks #thanks-background {
+  position: absolute;
+  top: 0%;
+  z-index: -1;
+}
+#thanks #thanks-background img {
+  position: absolute;
+  top: 19%;
+  left: 2%;
+  z-index: 2;
+  height: 30%;
+  width: 100%;
+}
+#thanks #thanks-background p {
+  font-size: 15%;
+  width: 75%;
+  position: absolute;
+  top: 24%;
+  left: 12%;
+  z-index: 3;
+}
+
+#thanks #thanks-background p a {
+  text-decoration: underline;
+  color:white;
+}
+
+.fade {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* ---------- Important media queries for easy responsive content :-) ----------------- */
+/* Can be adapted for other ratios that 9:16 or for horizontal content (ex: 16:9) */
+
+/* This media query ensures that we allways will the width of the screen */
+/* as long as the screen aspect ratio is below 9:16 */
+@media screen and (max-aspect-ratio: 9/16) {
+  #container {
+    margin-top: 0 /*calc((100vh - 100 * 16vw / 9) / 2)*/;
+    width: 100vw;
+    height: calc(100 * 16vw / 9);
+  }
+
+  /* We set a default font size here. It will be the base for all other font sizes */
+  /* Here the font size is proportional to display width */
+  body {
+    font-size: calc(12vw * 16 / 9);
+  }
 }
 
 /* This media query ensures that we allways will the height of the screen */
 /* as long as the screen aspect ratio is higher than 9:16 */
-@media screen and (min-aspect-ratio: 9/16){
-    #container{
-        margin-left: calc((100vw - 100 * 9vh / 16) / 2);
-        width: calc(100 * 9vh / 16);
-        height: 100vh;
-    }
+@media screen and (min-aspect-ratio: 9/16) {
+  #container {
+    margin-left: calc((100vw - 100 * 9vh / 16) / 2);
+    width: calc(100 * 9vh / 16);
+    height: 100vh;
+  }
 
-    /* We set a default font size here. It will be the base for all other font sizes */
-    /* Here the font size is proportional to display height */
-    body{
-        font-size: 12vh;
-    }
+  /* We set a default font size here. It will be the base for all other font sizes */
+  /* Here the font size is proportional to display height */
+  body {
+    font-size: 12vh;
+  }
+}
+
+#arrowSwipe {
+  visibility: hidden;
+  display: block;
+  float: right;
+  z-index: 99;
+  position: absolute;
+
+  bottom: 1%;
+  right: 2%;
+
+  width: 3%;
+  height: 3%;
+
+  animation: ani 1.3s infinite;
+  transition: all 0.001s linear;
+}
+
+@keyframes ani {
+  0% {
+    transform: translateX(0%);
+  }
+  35% {
+    right: 3%;
+  }
+  50% {
+    transform: translateX(-50%);
+  }
+  65% {
+    right: 3%;
+  }
+  100% {
+    transform: translateX(0%);
+  }
 }

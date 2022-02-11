@@ -1,29 +1,44 @@
 "use strict";
+// To be deleted once all pages are ok
+const init_default = function(){
+  console.log("To be developped...")
+}
 
-// Init of the (touch friendly) Swiper slider
+const transitionEffect = createAudio("data/sounds/pageTransition.mp3");
+// Functions used to render each page
+const init_func = [homepage_slide, falling_slide, init_p1, init_p2, init_p3, init_p4, init_p5, init_p6, init_thanks, init_credits];
+const alreadyVisited =  new Array(init_func.length).fill(false);
+
+const slideHandler = function(e){
+  hideArrow();
+  transitionEffect.play();
+  // console.log(e.activeIndex);
+  // Ensuring each initialization function only runs once
+  if (!alreadyVisited[e.activeIndex]) {
+    init_func[e.activeIndex].call(e);
+    alreadyVisited[e.activeIndex] = true;
+  }
+}
 const swiper = new Swiper("#mySwiper", {
-  direction: "vertical",
-  pagination: {
+  direction: "horizontal",
+  // allowTouchMove: false,
+   pagination: {
     el: ".swiper-pagination",
     clickable: true,
   },
+  on : { 'slideChange' : slideHandler}
 });
 
-// Wait for the video to preload and display 1st slide
-const video = videojs(document.querySelector('#background-video'));
-video.one('loadeddata', (event) => { 
-  // fade out the loader "slide"
-  // and send it to the back (z-index = -1)
-  anime({
-    delay: 1000,
-    targets: '#loader',
-    opacity: '0',
-    'z-index' : -1,
-    easing: 'easeOutQuad',
-  });
-  // Init first slide
-  initSlide1();
-  // Debug trace because the loadeddata event is
-  // sometime not fired
-  console.log("Video loaded");
-});
+const wrapper_nextSlide = function(){
+  hideArrow();
+  swiper.slideNext();
+};
+const showTitle = function(index) {
+  const allTitles = getText("pouvoirs-titre");
+  const titleDiv = document.querySelector("#" + index + " .title");
+  const current = document.createElement("h1");
+  current.innerHTML = allTitles[index];
+  titleDiv.appendChild(current);
+}
+
+homepage_slide();
