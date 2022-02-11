@@ -3,9 +3,9 @@ select = document.querySelector('#top-select');
 tweet = document.querySelector('#tweets');
 theme_pic = document.querySelector('img#theme');
 let themes;
-let i = false;
+let notif = false;
 
-(() => initThemesTopTweets())();
+(() => initThemesTopTweets())(); //Initialize the top tweet page
 
 async function initThemesTopTweets() {
 
@@ -26,7 +26,7 @@ async function initThemesTopTweets() {
     await showTopTweets(); //Ask for top tweets
 }
 
-//Update top tweet when option is selected
+//Update top tweet when an option is selected
 select.addEventListener("input", async ev =>  {
     await showTopTweets();
 })
@@ -76,6 +76,7 @@ async function showTopTweets () {
         }
         j = j + 1;
     });
+    
 
     // If there is no tweet for this theme
     if (tweets.length === 0) {
@@ -86,6 +87,13 @@ async function showTopTweets () {
             swiper_wrapper.appendChild(slide);
         }
     }
+
+    //Don't let more than one instance of swiper-pagination exist each time you change theme
+    if (!notif) {
+        const SwiperTop = document.querySelector("#mySwiperTop");
+        SwiperTop.removeChild(SwiperTop.childNodes[5]);
+    }
+    else {notif = true}
 }
 
 // Get all the available themes
