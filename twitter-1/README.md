@@ -6,6 +6,8 @@ Sujet : Le twitommètre présidentiel
 
 Nom d'équipe : #PlayLysée
 
+Classement : WINNER 
+
 Participants : 
 
 - Le Télégramme : Blandine Le Cain, Nicolas Arzur, Yoann Peron
@@ -13,7 +15,6 @@ Participants :
 - AGR : Pierre Gabillaud, Elodie Menara, Marianne Peyrègne
 
 - Polytech :  [Sviatoslav Besnard](https://www.linkedin.com/in/sviatoslav-besnard-453669195/), [Chama El Majeny](https://www.linkedin.com/in/chama-el-majeny-0642591bb/), [Yvann Gouraud](https://www.linkedin.com/in/yvann-gouraud-6a5388209/), [Yi Lu](https://www.linkedin.com/in/yi-lu-77a278208)
-
 
 # Déroulé du projet
 
