@@ -1,3 +1,4 @@
+//Select some global element and create global constante
 select = document.querySelector('#top-select');
 tweet = document.querySelector('#tweets');
 theme_pic = document.querySelector('img#theme');
@@ -33,7 +34,7 @@ select.addEventListener("input", async ev =>  {
 async function showTopTweets () {
     const all_candidats = await (await fetch("./api/candidat/all")).json();
 
-    //Get the swiper template
+    //Get the inside swiper template
     const swiper_inside_template = await (await fetch("./templates/swiper-insidetoptweet.mustache")).text();
 
     let swiper_wrapper = document.querySelector('#mySwiperTop .swiper-wrapper');
@@ -51,28 +52,6 @@ async function showTopTweets () {
             clickable: true,
         },
     });
-
-    // const comment = document.getElementById("comment");
-    // comment.innerHTML = "Ils tweetent le plus cette semaine :";
-
-    // if (select.value === '1'){
-    //     comment.innerHTML = "Ils tweetent le plus sur la sécurité cette semaine :";
-    // }
-    // if (select.value === '2'){
-    //     comment.innerHTML = "Ils tweetent le plus sur la santé cette semaine :";
-    // }
-    // if (select.value === '3'){
-    //     comment.innerHTML = "Ils tweetent le plus sur l'économie cette semaine :";
-    // }
-    // if (select.value === '4'){
-    //     comment.innerHTML = "Ils tweetent le plus sur l'éducation cette semaine :";
-    // }
-    // if (select.value === '5'){
-    //     comment.innerHTML = "Ils tweetent le plus sur l'environnement cette semaine :";
-    // }
-    // if (select.value === '6'){
-    //     comment.innerHTML = "Ils tweetent le plus sur la culture cette semaine :";
-    // }
     
 
     TopTweetsThemePic(select.value);
@@ -82,6 +61,8 @@ async function showTopTweets () {
     tweets.forEach((t) => {
         let candidat = all_candidats.filter(c => t.user_id === c.id);
         if (candidat){
+
+            //Add all candidat info needed with the tweet
             let new_slide = document.createElement('div');
             let name = document.createTextNode(t.name);
             t["name_UP"] = name.data.toUpperCase();
@@ -96,7 +77,7 @@ async function showTopTweets () {
         j = j + 1;
     });
 
-    // no tweet for this themas
+    // If there is no tweet for this theme
     if (tweets.length === 0) {
         for (let i = 0; i < 5; i++) {
             let slide = document.createElement('div');
@@ -107,7 +88,7 @@ async function showTopTweets () {
     }
 }
 
-
+// Get all the available themes
 async function fetchThemes() {
     let result;
     try {
@@ -136,6 +117,7 @@ async function fetchThemes() {
     }
 }
 
+//Get Top Tweets in general or with a specific theme
 async function fetchTopTweetsTheme(theme_id) {
     let result;
     if (theme_id === 0)
@@ -177,6 +159,7 @@ async function fetchTopTweetsTheme(theme_id) {
     }
 }
 
+//Put the image corresponding to the top tweet theme chosen
 function TopTweetsThemePic(theme_id) {
     page = document.querySelector('#fourth-slide');
     switch (theme_id) {
