@@ -12,7 +12,7 @@ Participants :
 
 - AGR : Pierre Gabillaud, Elodie Menara, Marianne Peyrègne
 
-- Polytech :  Sviatoslav Besnard, Chama El Majeny, Yvann Gouraud, Yi Lu
+- Polytech :  [Sviatoslav Besnard](https://www.linkedin.com/in/sviatoslav-besnard-453669195/), [Chama El Majeny](https://www.linkedin.com/in/chama-el-majeny-0642591bb/), [Yvann Gouraud](https://www.linkedin.com/in/yvann-gouraud-6a5388209/), [Yi Lu](https://www.linkedin.com/in/yi-lu-77a278208)
 
 
 # Déroulé du projet
