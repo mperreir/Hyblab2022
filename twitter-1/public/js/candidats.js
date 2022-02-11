@@ -38,6 +38,7 @@ const initSlide3 = async function () {
         candidats_dom.append(candidats_template_rendered);
         third_slide_dom.append(downup_template_rendered);
 
+        //chaque candidat à sa Popup et son swiper qui contient ses tweets
         $("#downup-" + candidat.id).downupPopup({
             width: "100%",
             contentScroll: false,
@@ -55,6 +56,7 @@ const initSlide3 = async function () {
             $("#downup-" + candidat.id).downupPopup("open");
         });
 
+        //pour chaque candidat, l'utilisateur peut choisir la période de tweets
         let select = document.querySelector('#select-' + candidat.id);
         select.style.borderRadius = "80px";
         select.style.marginLeft = "20%";
@@ -64,8 +66,6 @@ const initSlide3 = async function () {
 
 
         select.addEventListener("change", async ev => {
-            console.log(select.value);
-
             update_semaine(select.value, candidat.id);
         });
 
@@ -97,6 +97,7 @@ const initSlide3 = async function () {
 
         let image = document.querySelector('#images' + candidat.id);
 
+        //chaque parti a un style particulier : droite, gauche et écologie
         if (candidat.name === "Yannick Jadot") {
             poppups.style.background = "#47d19f";
             headerpoppup.style.background = "#47d19f";
@@ -215,6 +216,7 @@ const initSlide3 = async function () {
 
 };
 
+//Fonction permettant d'avoir les infos relative au candidat
 const update_semaine = async function (truc, candidat_id) {
     let table = document.querySelector('#downup-' + candidat_id + ' tbody');
     table = table.childNodes[1];
@@ -325,6 +327,7 @@ const update_semaine = async function (truc, candidat_id) {
         swiper_wrapper.appendChild(new_slide);
     });
 
+    //Si il n'y a pas de top tweets - message d'erreur
     if (top_tweets.length === 0) {
 
         let new_slide = document.createElement('div');
