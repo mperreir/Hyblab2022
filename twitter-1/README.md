@@ -17,7 +17,7 @@ Participants :
 
 # Déroulé du projet
 
-Ce projet à eu lieu dans le cadre du [Hyblab 2022]](http://www.hyblab.fr) 2022 sur le thème des élection présidentielle. Cette initiative, portée par [Ouest Medilab](http://www.ouestmedialab.fr), a eu lieu à Nantes du 20 janvier au 3 février 2022.
+Ce projet à eu lieu dans le cadre du [Hyblab 2022](http://www.hyblab.fr) 2022 sur le thème des élection présidentielle. Cette initiative, portée par [Ouest Medilab](http://www.ouestmedialab.fr), a eu lieu à Nantes du 20 janvier au 3 février 2022.
 
 Le projet regroupe des étudiants de 2 écoles :
 - Etudiants en 4e de la filière Informatique à [Polytech Nantes](http://www.polytech.univ-nantes.fr), chargé de développement du site (implémentation des web design, API, base de données) ;
