@@ -10,10 +10,20 @@ const multer = require('multer');
 const express = require("express");
 const upload = multer();
 
+/**
+ * Remove urls from content of all tweets.
+ * @param tweets tweets with maybe url.
+ * @returns tweets tweets without url.
+ */
 const clearUrlFromTweets = (tweets) => {
     return tweets.map((tweet) => clearUrlFromTweet(tweet));
 }
 
+/**
+ * Remove urls from content of a tweet.
+ * @param tweet tweet with maybe urls.
+ * @returns tweet tweet without urls.
+ */
 const clearUrlFromTweet = (tweet) => {
     tweet.text = tweet.text.replace(/(?:https?|ftp):\/\/[\n\S]+/g, '');
     return tweet;
@@ -31,6 +41,18 @@ module.exports = (passport) => {
         res.json({'topic': topic});
     });
 
+    /**
+     * Api for fetching new question for the game.
+     * Response be like :
+     * {
+            text: tweet.text,
+            possible_response_1: candidat1,
+            possible_response_2: candidat2,
+            is_response_1_true: is_first_response_true,
+            true_response: is_first_response_true ? candidat1 : candidat2,
+            original_tweet: tweet,
+        };
+     */
     app.get('/game/1/new_question', (req, res) => {
         let candidats = db.getCandidats();
         let candidat1;
@@ -83,13 +105,17 @@ module.exports = (passport) => {
         res.json(question);
     });
 
+    /**
+     * Api for fetching the list of all themes.
+     */
     app.get('/theme/all', (req, res) => {
         let themes = db.fetch(db.themes_name);
         res.json(themes);
     });
 
-
-    // Api for counting number of tweets of all themes
+    /**
+     * Api for fetching top 3 candidats with most tweets on all themes
+     */
     app.get('/theme/count/all', (req, res) =>{
         let listCount = [];
         const listCandidates = db.getCandidats();
@@ -107,7 +133,9 @@ module.exports = (passport) => {
     });
 
 
-    // Api for counting number of tweets in one specific theme
+    /**
+     * Api for fetching top 3 candidats with most tweets in one specific theme
+     */
     app.get('/theme/count/:theme_id',(req, res) =>{
         let listCount = [];
         const listCandidates = db.getCandidats();
@@ -127,6 +155,9 @@ module.exports = (passport) => {
         res.json(result);
     });
 
+    /**
+     * Api for fetching tops tweets for one specific theme (max 5 tweets).
+     */
     app.get('/tweets/tops/:theme_id', (req, res) => {
         const candidats = db.getCandidats();
         let tweets = db.getTweetsSemaine()
@@ -143,6 +174,9 @@ module.exports = (passport) => {
         res.json(tweets);
     });
 
+    /**
+     * Api for fetching tops tweets of a candidat.
+     */
     app.get('/tweets/tops/all/candidat/:candidat_id', (req, res) => {
         let tweets = db.getTweets()
             .filter(tweet => tweet.themeScore >= 2
@@ -153,6 +187,9 @@ module.exports = (passport) => {
         res.json(tweets);
     });
 
+    /**
+     * Api for fetching tops tweets of a candidat of this week.
+     */
     app.get('/tweets/tops/semaine/candidat/:candidat_id', (req, res) => {
         let tweets = db.getTweetsSemaine()
             .filter(tweet => tweet.themeScore >= 2
@@ -163,6 +200,9 @@ module.exports = (passport) => {
         res.json(tweets);
     });
 
+    /**
+     * Api for fetching tops tweets.
+     */
     app.get('/tweets/tops/', (req, res) => {
         const candidats = db.getCandidats();
         let tweets = db.getTweetsSemaine()
@@ -179,16 +219,37 @@ module.exports = (passport) => {
         res.json(tweets);
     });
 
+    /**
+     * Api for fetching all candidats.
+     */
     app.get('/candidat/all', (req, res) => {
         let candidats = db.getCandidats();
         res.json(candidats);
     });
 
+    /**
+     * Api for fetching all candidats (same as above).
+     */
     app.get('/candidat/filtre', (req, res) => {
         let candidats = db.getCandidats();
         res.json(candidats);
     });
 
+    /**
+     * Api for fetching statistics of a candidats.
+     * Response be like:
+     * {
+            total_tweets: all_tweets.length,
+            total_week_tweets: this_week_tweets.length,
+            total_like: total_like,
+            total_like_week: total_like_week,
+            total_retweets: total_retweets,
+            total_retweets_week: total_retweets_week,
+            followers_before: followers_before,
+            followers_now: followers_now,
+            followers_diff: followers_diff,
+        }
+     */
     app.get('/candidat/:id_candidat/stats', (req, res) => {
         const candidat = db.getCandidats();
         const candidat_followers = db.fetch(db.candidat_followers_name)[req.params.id_candidat];
@@ -240,6 +301,10 @@ module.exports = (passport) => {
         res.json(stats);
     });
 
+    /**
+     * Admin api for updating tweets.
+     * Request file name : tweets_file
+     */
     app.post('/admin/tweets/update',
             [require('connect-ensure-login').ensureLoggedIn(), upload.single('tweets_file')],
             (req, res) => {
@@ -255,6 +320,10 @@ module.exports = (passport) => {
         }
     });
 
+    /**
+     * Admin api for updating candidats.
+     * Request file name : candidats_file
+     */
     app.post('/admin/candidats/update',
             [require('connect-ensure-login').ensureLoggedIn(), upload.single('candidats_file')],
             (req, res) => {
@@ -270,6 +339,10 @@ module.exports = (passport) => {
         }
     });
 
+    /**
+     * Admin api for updating followers.
+     * Request file name : followers_file
+     */
     app.post('/admin/followers/update',
             [require('connect-ensure-login').ensureLoggedIn(), upload.single('followers_file')],
             (req, res) => {
@@ -285,6 +358,14 @@ module.exports = (passport) => {
         }
     });
 
+    /**
+     * Admin api for updating config.
+     * Request params:
+     * - fetch_delay_sec
+     * - url_fetch_candidats
+     * - url_fetch_followers
+     * - url_fetch_tweets
+     */
     app.post('/admin/config/update',
         require('connect-ensure-login').ensureLoggedIn(),
         (req, res) => {
@@ -304,9 +385,9 @@ module.exports = (passport) => {
             }
         });
 
-    // Authentification pour accéder aux parties privées de l'api (on n'en a pas dans cet exemple)
-    // et aux templates privés
-    // C'est ici qu'on utilise passport pour créer une session utilisateur
+    /**
+     * Authentification pour accéder aux parties admin de l'api
+     */
     app.post('/login', function (req, res, next) {
         if (!req.body.username) {
             return res.status(400).redirect('../login.html');
@@ -332,16 +413,4 @@ module.exports = (passport) => {
 
     return app;
 }
-
-
-// const labeler = new textProcessing.Labeler(textProcessing.themesTests);
-// let tweets;
-// textProcessing.Parser.getTweetsJSONFromFile("twitter-1/back/data/tweets/tweets_candidats.csv", (ts) => {
-//     tweets = ts;
-//     tweets = labeler.labellingTweets(tweets);
-//     console.log(tweets);
-// });
-
-// Export our API
-// module.exports = app;
 
