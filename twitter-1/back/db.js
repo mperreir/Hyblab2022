@@ -150,7 +150,7 @@ module.exports.config_name = DB_KEY_CONFIG;
  */
 module.exports.getTweetsSemaine = () => {
     return module.exports.getTweets()
-        .filter(tweet => (new Date()).isBetweenWeekBefore(new Date(parseInt(tweet.created_at) * 1000)));
+        .filter(tweet => (new Date(2022, 1, 14)).isBetweenWeekBefore(new Date(parseInt(tweet.created_at) * 1000)));
 }
 
 /**
@@ -194,6 +194,12 @@ module.exports.tweets_update = (csv_string, onFinish) => {
 module.exports.candidats_update = (csv_string, onFinish) => {
     csv_string = csv_string.replace('﻿', '');
     textProcessing.Parser.getValuesFromCSVString(csv_string, candidats  => {
+        // change from updated file
+        candidats = candidats.map(candidat => {
+            candidat['id'] = candidat.user_id;
+            candidat['username'] = candidat.screen_name;
+            return candidat;
+        });
         db.set(DB_KEY_CANDIDATS, candidats);
         onFinish();
     });
@@ -283,7 +289,7 @@ async function initDb() {
         }
     ]);
 
-    await fetchData(false);
+    // await fetchData(false);
 }
 
 /**
@@ -343,4 +349,4 @@ async function fetchData(wait_fetch_delay = true) {
     }
 }
 
-autoFetchData();
+// autoFetchData();
