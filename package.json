@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "clean_start": "rm twitter-1/back/db/database.json; node server.js"
   },
   "dependencies": {
     "axios": "^0.25.0",
@@ -18,7 +19,16 @@
     "fs": "0.0.1-security",
     "leaflet": "^1.7.1",
     "page": "^1.11.6",
-    "papaparse": "^5.3.1"
+    "papaparse": "^5.3.1",
+    "connect-ensure-login": "^0.1.1",
+    "cookie-parser": "^1.4.4",
+    "csv-parser": "^3.0.0",
+    "multer": "^1.4.4",
+    "natural": "^5.1.13",
+    "node-fetch": "^2.6.7",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "sileco.db": "^2.2.1"
   },
   "author": "MPDS",
   "license": "MIT",

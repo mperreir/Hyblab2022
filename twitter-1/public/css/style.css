@@ -12,32 +12,38 @@ body{
     background-color: black;
     color: white;
     overflow: hidden;   /* to avoid slider bugs on some browsers */
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Outfit", sans-serif;
 }
 
 #container{
     position: relative; /* for absolute positionning of child elements*/
 }
 
+/* -------------- Fixed bar bug -------*/
+html {
+    height: -webkit-fill-available;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+}
+
+/* Avoid Chrome to see Safari hack */
+@supports (-webkit-touch-callout: none) {
+    body {
+        /* The hack for Safari */
+        min-height: -webkit-fill-available;
+    }
+}
+
 /* -------------- Loader --------------*/
 #loader{
-    z-index: 2;
+    z-index: 5;
     position:absolute;
 }
 
-#loader-img{
-    top:40%;
-    left:40%;
-    position: absolute;
-}
-
-#loader-text{
-    text-align: center;
-    font-size: 25%;
-    position: absolute;
-    top:60%;
-    width: 100%
-}
 /* -------------- End of Loader --------------*/
 
 /* Swiper slider. Need to fill the 9:16 constrained container */
@@ -47,20 +53,91 @@ body{
     position: absolute;
 }
 
+
 /* white navigation bullets */
 .swiper-pagination-bullet-active {
-    background-color: white !important;
+    background-color: grey !important;
 }
 
 /* the slides and the loader should fill the whole 9:16 zone */
 .swiper-wrapper section, #loader{
-    background-color: dodgerblue;
+    background-color: white;
     width: 100%;
     height: 100%;
 }
 
 /* Pour que la vidéo remplisse son conteneur (elle sera un peu coupée si nécessaire...) */
 .vjs-tech { object-fit: cover; }
+
+/*Les menus sur chacune des pages*/
+
+.menu {
+    position: absolute;
+    background-color: white;
+    border-radius: 50px 50px 0 0;
+    bottom: 0%;
+    width: 100%;
+    height: 10%;
+    box-shadow: 7px 7px 25px rgba(0, 0, 0, 0.25);
+    font-family: "Outfit", sans-serif;
+}
+
+.menu button{
+    position : absolute;
+    text-align : center;
+    font-family: "Outfit", sans-serif;
+    font-size:17%;
+}
+
+.menu b {
+    text-shadow: 0 1px, 1px 0, 1px 1px;
+    font-size: 0.8em;
+}
+
+.menu .menu-candidat {
+    height : 50px;
+    width :30%;
+    margin-left : 5%;
+    box-shadow: 7px 7px 25px 0 rgba(0, 0, 0, 0);
+    background : none;
+    border: none;
+}
+
+.menu .menu-jeu {
+    height : 50px;
+    width :30%;
+    margin-left : 35%;
+    box-shadow: 7px 7px 25px 0 rgba(0, 0, 0, 0);
+    background : none;
+    border: none;
+}
+
+.menu .menu-top {
+    height : 50px;
+    width :25%;
+    margin-left : 65%;
+    box-shadow: 7px 7px 25px 0 rgba(0, 0, 0, 0);
+    background : none;
+    border: none;
+}
+
+
+/*Les différents titres utilisés*/
+
+h1{
+    margin-top: 1em;
+    font-size: large;
+}
+
+h2{
+    font-family: 'Outfit', sans-serif;
+    font-size: 55%;
+    font-weight: 900; 
+    text-align: center; 
+    color: white;
+    margin-top: 2%;
+    text-shadow: 0px 1px, 1px 0px, 1px 1px;
+}
 
 /* Most of the elements in this demo are absolute positionned with percentages */
 #first-slide header{
@@ -72,27 +149,443 @@ body{
     z-index: 2;
 }
 
-#logo-hyblab{
-    text-align: center;
-    width: 50%;
-    left: 50%;
-    top: 50%;
-    margin-left:-25%;
-    margin-top:calc(-7.5% * 9 / 16 ); /* margins are relative to the element width... :-( */
-    position: absolute;
-    font-size: 50%;
-    z-index: 2;
-    cursor: pointer;
+#logo-lyse {
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
-/* Last slide image is centered */
-#img-fini{
-    width: 50%;
-    left: 50%;
-    top: 40%;
+#logo-playlysee{
+    height: 30%;
+    width: 60%;
     position: absolute;
-    margin-left:-25%;
-    margin-top:calc(-25% * 9 / 16 ); /* margins are relative to the element width... :-( */
+    left: 20%;
+    top: 35%;
+    object-fit: contain;
+}
+
+/*Slide de jeu */
+#second-slide{
+    background: #ef7767;
+}
+
+#second-slide #text{
+    display: flex;
+    width: 70%;
+    height: 15%;
+    text-align: center; 
+    color: black;
+    position:absolute;
+    top :40%;
+    left:4%;
+    padding: 5% 10%;
+    border-radius: 50px;
+    background: #fff; 
+    box-shadow: 7px 7px 25px 0 rgba(0,0,0,0.25);
+
+}
+
+#text p {
+    align-self: center;
+}
+
+/*Les differentes images ont différentes rotations*/
+.rotateimg320 {
+    -webkit-transform:rotate(320deg);
+    -moz-transform: rotate(320deg);
+    -ms-transform: rotate(320deg);
+    -o-transform: rotate(320deg);
+    transform: rotate(320deg);
+}
+
+.rotateimg20 {
+    -webkit-transform:rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    transform: rotate(20deg);
+    }
+
+#second-slide #choix{
+    position:absolute;
+    top :80%;
+    left:5%;
+    width:100%;
+    height:9%;
+}
+
+#second-slide #play{
+    width: 30%;
+    height: 100%;
+    box-shadow: 7px 7px 25px 0 rgba(0,0,0,0.25);
+    font-weight: 900;
+    text-shadow: 0px 1px, 1px 0px, 1px 1px;
+    text-align: center; 
+    color: #000;
+    border : none;
+    border-radius: 80px;
+    margin-right:10%;
+}
+
+#timer{
+    font-family: 'Outfit', sans-serif;
+    font-size: 60px; 
+    font-weight: 900;
+    margin-top:5%;
+    text-align: center; 
+    color: #fff;
+}
+
+#menu3 button{
+    font-size : 100%;
+}
+
+#jeu {
+    font-size: 20%;
+}
+
+.container-btn-end-game {
+    top: 78%;
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.btn-end-game {
+    border-radius: 80px;
+    box-shadow: rgba(0, 0, 0, 0.25) 7px 7px 25px 0;
+    border: none;
+    padding: 5%;
+    justify-content: space-around;
+    font-family: Outfit, sans-serif;
+    font-size: 90%;
+    font-weight: 700;
+}
+
+div{
+    color : black;
+}
+
+#choix {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -15%;
+}
+
+#choix button{
+    font-family: "Outfit", sans-serif;
+    font-weight:500;
+    font-size:100%;
+}
+
+
+/*Troisieme slide - Les candidats*/
+#third-slide{
+    background: #f1de68;
+}
+
+#candidats{
+    width:100%;
+    height:80%;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+
+.button-candidat{
+    width: 30%;
+    height:15%;
+    border: none;
+    background: none;
+    margin-top:1%;
+    font-size : 16%;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+/*Les styles des différentes photos de Profil*/
+.profile3{
+    max-width: 18%;
+    max-height: 180%;
+    border-radius: 50%;
+    border: 1px solid white;
+    position: absolute;
+    top:20%;
+    left:2%;
+    box-shadow: 7px 7px 25px rgba(0, 0, 0, 0.25);
+}
+
+.profile2{
+    max-width: 70%;
+    max-height: 70%;
+    border-radius: 50%;
+    border : 3px solid white;
+    box-shadow: 7px 7px 25px rgba(0, 0, 0, 0.25);
+}
+
+.profile{
+    border-radius: 50%;
+    margin-left: 38%;
+    margin-bottom: -10vh;
+    border : 3px solid white;
+    box-shadow: 7px 7px 25px rgba(0, 0, 0, 0.25);
+
+}
+
+.nom-candidat{
+    text-align: center;
+    font-size: 50%;
+    text-transform: uppercase;
+    text-shadow: 0px 1px, 1px 0px, 1px 1px;
+}
+
+table{
+    font-size: 15%;
+    margin: auto;
+}
+
+td{
+    margin-left:1em;
+}
+
+th, td {
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+#tweets{
+    padding:1px;
+}
+
+
+.box-tweet {
+    background: white;
+    height: 25vh;
+    width: 80%;
+    border-radius: 70px;
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: visible !important;
+    font-size: 15%;
+    position : absolute;
+    top:44%;
+    left : 10%;
+    box-shadow: 7px 7px 25px rgba(0, 0, 0, 0.25);
+}
+
+.candidattweet {
+    overflow: hidden;
+    border-radius: inherit;
+}
+
+
+.candidattweet .tweet p{
+    padding: 5%;
+    margin-left : 2%;
+    margin-top: 3%;
+    height : 30vh;
+    width:80%;
+    text-align: justify;
+
+}
+
+.candidattweet .swiper-pagination{
+    padding-top:5%;
+    margin-top : 10%;
+}
+
+.table-candidat {
+    margin-top:-37%;
+    margin-bottom : 5%;
+    font-size: 80%;
+}
+
+
+/*La quatrième slide - top tweets*/
+.no-tweet{
+    margin-top: 30%;
+    text-align: center;
+}
+
+.ThemeGraphe {
+    position: absolute;
+    bottom: 10%;
+    left: 7.5%;
+}
+
+.scroll-tip {
+    position: absolute;
+    font-size: 20%;
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+    left: 25%;
+    bottom:5%;
+    color: white;
+
+}
+
+.hovertree-upslide {
+    position: absolute;
+    display:inline-block;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    margin-left:auto;
+    margin-right:auto;
+
+    width: 20px;
+    height: 20px;
+    z-index: 99;
+    animation: hovertreemove 1.5s infinite ease-in-out;
+    -webkit-animation: hovertreemove 1.5s infinite ease-in-out;
+    background-image:url(http://hovertree.com/texiao/css3/29/hovertreeup.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+@keyframes hovertreemove {
+    0% {
+        opacity: 0.1;
+        transform: translate3d(0,8px,0);
+    }
+    50% {
+        opacity: 1;
+        transform: translate3d(0,-8px,0);
+    }
+    100% {
+        opacity: 0.1;
+        transform: translate3d(0,-16px,0);
+    }
+}
+@-webkit-keyframes hovertreemove {
+    0% {
+        opacity: 0.1;
+        -webkit-transform: translate3d(0,8px,0);
+    }
+    50% {
+        opacity: 1;
+        -webkit-transform: translate3d(0,-8px,0);
+    }
+    100% {
+        opacity: 0.1;
+        -webkit-transform: translate3d(0,-16px,0);
+    }
+}
+
+#barplot{
+    filter: drop-shadow(5px 5px 5px rgb(0 0 0 / 0.3));
+}
+
+#comment{
+    margin-top : 6%;
+    text-align : center;
+    display :block;
+    font-size : 80%;
+}
+
+#fourth-slide{
+    background-color: #fff;
+    font-size: 18%;
+}
+
+#top-select{
+    background-color: #dbdbdb;
+    width : 50%;
+    height: 6%;
+    /*border : 2px solid black;*/
+    border-radius: 10% / 50%;
+    box-shadow: 7px 7px 25px 0 rgba(0,0,0,0.25);
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+    font-size : 80%;
+    padding: 2.5%;
+}
+
+.box-tweet-top {
+    background: white;
+    height: 33vh;
+    width: 95%;
+    border-radius: 70px;
+    margin-top: 1vh;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 90%;
+    overflow: visible !important;
+    box-shadow: 7px 7px 25px rgba(0, 0, 0, 0.25);
+}
+
+#tweet-theme {
+    padding-left:4%;
+}
+
+#tweet-theme p{
+    width: 90%;
+    height: 15%;
+    text-align: center; 
+    color: black;
+    position:relative;
+    padding-top:5%;
+    padding-bottom:5%;
+    padding-right:2%;
+    padding-left:2%;
+    border-radius: 25% / 40%; 
+    background: #fff; 
+    box-shadow: 7px 7px 25px 0 rgba(0,0,0,0.25);
+    margin: auto;
+    margin-top: 0.5em;
+}
+
+.swiper .toptweet {
+    border-radius: 70px;
+    height: inherit;
+}
+
+.swiper .toptweet #tweetname{
+    padding: 5%;
+    margin-left : 2%;
+    height : 1vh;
+    text-align: center;
+
+}
+
+.swiper .toptweet #tweetcontent{
+    margin-left : 22%;
+    width:70%;
+    text-align: initial;
+
+}
+
+#theme-pic{
+    justify-content: center;
+    display: flex;
+}
+
+img#theme {
+    height: 100px;
+    border-radius: 100% / 100%; 
+    background: #fff; 
+    box-shadow: 7px 7px 25px 0 rgba(0,0,0,0.25);
+    margin-top: 2vh;
+
+}
+
+#table-top {
+    margin: auto;
+    font-size: 80%;
+
+}
+
+/*Slide de crédit*/
+#last-slide{
+    font-size: 100%;
+    background: #EF7767;
 }
 
 /* Footer of last slide is at the bottom and content is centered */
@@ -112,58 +605,138 @@ body{
 #bandeau {
     padding-top: 3%;
     width:100%;
-    height:25%;
+    height:87%;
     position: absolute;
     bottom: 0;
     background-color: white;
-    font-size: 20%;
-  }
+    font-size: 18%;
+}
 
-  #bandeau li{
+#bandeau a{
+    text-decoration:none;
+    color: black;
+}
+
+#bandeau div{
+    padding-left : 1%;
+    padding-right : 1%;
+    padding-bottom:2%;
+    text-align : justify;
+    width:80%;
+    margin-left:9%;
+    margin-top:3%;
+    font-size:80%;
+}
+
+#bandeau li{
     list-style-type: none;
     display: inline-block;
     vertical-align: middle;
     margin: 0 0.5em;
-  }
+}
 
-  #bandeau img{
-    height: 1.5em;
-  }
+#bandeau img{
+    height: 2.5em;
+}
 
-  #bandeau #hyblab{
+#bandeau #hyblab{
     margin: 1em auto;
-    height: 3em;
+    height: 2em;
     display: block;
-  }
+}
 
-  #bandeau #cc, #bandeau #opensource
-  {
-    height: 1em;
-  }
+#bandeau #cc, #bandeau #opensource{
+    height: 2.5em;
+}
 
-  #bandeau .stacked{
+#bandeau .stacked{
     display:block;
-  }
+    font-size : 80%;
+}
 
-  #bandeau ul{
+#bandeau .inline{
+    display:inline;
+}
+
+
+
+#bandeau ul{
     text-align: center;
     padding: 0 0;
-  }
+}
 
-  #bandeau .institutionnel
-  {
+#bandeau .institutionnel{
     height: 2em;
-  }
+}
+
+#bandeau .porteur{
+    height: 2em;
+    margin-top:1em;
+}
+
+
+
 
 /* ---------- Important media queries for easy responsive content :-) ----------------- */
 /* Can be adapted for other ratios that 9:16 or for horizontal content (ex: 16:9) */
 
 /* This media query ensures that we allways will the width of the screen */
 /* as long as the screen aspect ratio is below 9:16 */
-@media screen and (max-aspect-ratio: 9/16){
+/*@media screen and (max-aspect-ratio: 9/16){
     #container{
-        margin-top: calc((100vh - 100 * 16vw / 9) / 2);
+        margin-bottom: calc(100vh - 100 * 16vw / 9);
         width: 100vw;
+        height: calc(100 * 16vw / 9);
+    }*/
+
+    /* We set a default font size here. It will be the base for all other font sizes */
+    /* Here the font size is proportional to display width */
+    /*body{
+        font-size: calc(12vw*16/9);
+        background-color: white;
+    }
+}*/
+
+/*!* This media query ensures that we allways will the height of the screen *!*/
+/*!* as long as the screen aspect ratio is higher than 9:16 *!*/
+/*@media screen and (min-aspect-ratio: 9/16){
+    #container{
+        margin-left: calc((100vw - 100 * 9vh / 16) / 2);
+        width: calc(100 * 9vh / 16);
+        height: 100vh;
+    }*/
+
+/*    !* We set a default font size here. It will be the base for all other font sizes *!*/
+/*    !* Here the font size is proportional to display height *!*/
+    /*body{
+        font-size: 12vh;
+        background-color: white;
+    }
+}*/
+
+
+/*@media screen and (min-device-width: 600px){*/
+/*    #container{*/
+/*        width: 100vw;*/
+/*        height: 100vh;*/
+/*    }*/
+
+/*    !* We set a default font size here. It will be the base for all other font sizes *!*/
+/*    !* Here the font size is proportional to display width *!*/
+/*    body{*/
+/*        font-size: calc(12vw*16/9);*/
+/*    }*/
+/*}*/
+
+/* ---------- Important media queries for easy responsive content :-) ----------------- */
+/* Can be adapted for other ratios that 9:16 or for horizontal content (ex: 16:9) */
+
+/* This media query ensures that we allways will the width of the screen */
+/* as long as the screen aspect ratio is below 9:16 */
+@media screen and (max-aspect-ratio: 9/16) and (min-width :480px){
+    #container{
+        width: 100vw;
+        margin-top: calc((100vh - 100 * 16vw / 9) / 2);
         height: calc(100 * 16vw / 9);
     }
 
@@ -171,12 +744,25 @@ body{
     /* Here the font size is proportional to display width */
     body{
         font-size: calc(12vw*16/9);
+        background-color: white;
+    }
+}
+
+/* Mobile */
+
+@media screen and (max-width: 480px) {
+    #container{
+        margin-top: 0;
+        width: 100vw;
+        height: 88vh; /* pour les navigateurs qui ne supportent pas  -webkit-fill-available */
+        height: -webkit-fill-available;
+        font-size: calc(12vw*16/9);
     }
 }
 
 /* This media query ensures that we allways will the height of the screen */
 /* as long as the screen aspect ratio is higher than 9:16 */
-@media screen and (min-aspect-ratio: 9/16){
+@media screen and (min-aspect-ratio: 9/16) and (min-width :480px) {
     #container{
         margin-left: calc((100vw - 100 * 9vh / 16) / 2);
         width: calc(100 * 9vh / 16);
@@ -187,5 +773,42 @@ body{
     /* Here the font size is proportional to display height */
     body{
         font-size: 12vh;
+        background-color: white;
     }
 }
+
+
+#container{
+    position: absolute; /* for absolute positionning of child elements*/
+}
+
+/*Page de login*/
+.body-login {
+    background-color: white;
+    height: 100%;
+    text-align: center;
+}
+
+#login{
+    height: 100%;
+    align-content: center;
+}
+
+#login .card{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#login .checkbox {
+    margin-right : -0.5em;
+}
+
+#login .card-footer a {
+    margin-left : 1em;
+}
+
+#login .card-footer a hover {
+    margin-left: 1em;
+    color: #032e5d;
+}
+
