@@ -308,6 +308,9 @@ module.exports = (passport) => {
     app.post('/admin/tweets/update',
             [require('connect-ensure-login').ensureLoggedIn(), upload.single('tweets_file')],
             (req, res) => {
+        res.status(404).send("This is a static web version, no updates allowed.");
+        return;
+
         if (req.file !== undefined && req.file.buffer !== undefined) {
             // https://stackoverflow.com/questions/190852/how-can-i-get-file-extensions-with-javascript
             if (req.file.originalname.slice((req.file.originalname.lastIndexOf(".") - 1 >>> 0) + 2) !== 'csv')
@@ -327,6 +330,9 @@ module.exports = (passport) => {
     app.post('/admin/candidats/update',
             [require('connect-ensure-login').ensureLoggedIn(), upload.single('candidats_file')],
             (req, res) => {
+        res.status(404).send("This is a static web version, no updates allowed.");
+        return;
+
         if (req.file !== undefined && req.file.buffer !== undefined) {
             // https://stackoverflow.com/questions/190852/how-can-i-get-file-extensions-with-javascript
             if (req.file.originalname.slice((req.file.originalname.lastIndexOf(".") - 1 >>> 0) + 2) !== 'csv')
@@ -346,6 +352,9 @@ module.exports = (passport) => {
     app.post('/admin/followers/update',
             [require('connect-ensure-login').ensureLoggedIn(), upload.single('followers_file')],
             (req, res) => {
+        res.status(404).send("This is a static web version, no updates allowed.");
+        return;
+
         if (req.file !== undefined && req.file.buffer !== undefined) {
             // https://stackoverflow.com/questions/190852/how-can-i-get-file-extensions-with-javascript
             if (req.file.originalname.slice((req.file.originalname.lastIndexOf(".") - 1 >>> 0) + 2) !== 'csv')
@@ -367,23 +376,26 @@ module.exports = (passport) => {
      * - url_fetch_tweets
      */
     app.post('/admin/config/update',
-        require('connect-ensure-login').ensureLoggedIn(),
-        (req, res) => {
-            if (req.body.fetch_delay_sec !== undefined
-                    && req.body.url_fetch_candidats !== undefined
-                    && req.body.url_fetch_followers !== undefined
-                    && req.body.url_fetch_tweets !== undefined) {
-                db.config_update({
-                    fetch_delay_sec: req.body.fetch_delay_sec,
-                    url_fetch_candidats: req.body.url_fetch_candidats,
-                    url_fetch_followers: req.body.url_fetch_followers,
-                    url_fetch_tweets: req.body.url_fetch_tweets,
-                });
-                res.redirect('back');
-            } else {
-                res.status(400).send('Erreur inputs.');
-            }
-        });
+            require('connect-ensure-login').ensureLoggedIn(),
+            (req, res) => {
+        res.status(404).send("This is a static web version, no update allowed");
+        return;
+
+        if (req.body.fetch_delay_sec !== undefined
+                && req.body.url_fetch_candidats !== undefined
+                && req.body.url_fetch_followers !== undefined
+                && req.body.url_fetch_tweets !== undefined) {
+            db.config_update({
+                fetch_delay_sec: req.body.fetch_delay_sec,
+                url_fetch_candidats: req.body.url_fetch_candidats,
+                url_fetch_followers: req.body.url_fetch_followers,
+                url_fetch_tweets: req.body.url_fetch_tweets,
+            });
+            res.redirect('back');
+        } else {
+            res.status(400).send('Erreur inputs.');
+        }
+    });
 
     /**
      * Authentification pour accéder aux parties admin de l'api
