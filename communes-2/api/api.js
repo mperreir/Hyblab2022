@@ -3,6 +3,7 @@
 const app = require( 'express' )();
 const helper = require('./helper');
 const bodyParser = require('body-parser')
+const path = require('path');
 
 // parse application/json
 app.use(bodyParser.json());
@@ -46,7 +47,7 @@ app.get('/communes/:orientation', function(req, res) {
     let listesCommunes = []; //Liste des communes déterminées pour le jeu
 
     //remplissage des communes de Loire-Atlantique
-    helper.fetchDataAsDict('libelleCommune','communes-2/public/data/communes.csv').then(data => {
+    helper.fetchDataAsDict('libelleCommune',path.join(__dirname,'../public/data/communes.csv')).then(data => {
         try {
 
             //Nouveau tableau contenant seulement les communes de l'orientation passé en paramètre
@@ -71,7 +72,7 @@ app.get('/communes/:orientation', function(req, res) {
 
 
 async function getInformationCommune(nomCommune) {
-    let commune = helper.fetchDataAsDict('libelleCommune', 'communes-2/public/data/communes.csv').then(data => {
+    let commune = helper.fetchDataAsDict('libelleCommune',path.join(__dirname,'../public/data/communes.csv')).then(data => {
         let communeTrouvee = null;
         data.forEach(commune => {
             if (commune['libelleCommune'] == nomCommune) communeTrouvee = commune;
@@ -170,20 +171,20 @@ app.get('/indice/:commune', function(req, res) {
 app.get('/classement', function(req, res) {
     let linesClassement = [];
 
-    helper.fetchDataAsDict('place','communes-2/public/data/classement.csv').then(data => {
+    helper.fetchDataAsDict('place',path.join(__dirname,'../public/data/classement.csv')).then(data => {
         data.forEach(line => linesClassement.push(line));
         res.json(linesClassement);
     });
 });
 
 app.get('/lastClassement', function(req, res) {
-    helper.fetchDataAsDict('place','communes-2/public/data/classement.csv').then(data => {
+    helper.fetchDataAsDict('place',path.join(__dirname,'../public/data/classement.csv')).then(data => {
         res.json(data.get("10ème"));
     });
 });
 
 app.post('/newClassement', function(req, res) {
-    helper.saveCSV(new Map(Object.entries(req.body)),'communes-2/public/data/classement.csv');
+    helper.saveCSV(new Map(Object.entries(req.body)),path.join(__dirname,'../public/data/classement.csv'));
 });
 
 // Export our API
